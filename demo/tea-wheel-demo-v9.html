@@ -5,7 +5,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tea Flavor Wheel — Mark Lenington</title>
+<script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
+<script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+<script>
+    // 1. Instantly hide content to prevent unauthorized viewing
+    document.write('<style>body { visibility: hidden !important; background: #000 !important; }</style>');
 
+    const firebaseConfig = {
+        apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+        authDomain: "mark-s-wine-training.firebaseapp.com",
+        projectId: "mark-s-wine-training",
+        storageBucket: "mark-s-wine-training.firebasestorage.app",
+        messagingSenderId: "424279465207",
+        appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+    };
+
+    if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+
+    // 2. The Gate
+    firebase.auth().onAuthStateChanged(user => {
+        if (user) {
+            document.body.style.visibility = 'visible';
+        } else {
+            // Redirect unauthorized users to your login/splash page
+            window.location.href = 'index.html'; 
+        }
+    });
+</script>
 
 <style>
 :root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
