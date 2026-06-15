@@ -38,6 +38,21 @@
         });
     </script>
 <style>
+    /* Force the browser to paint black even while visibility is hidden */
+html, body {
+    background-color: #000 !important;
+}
+
+/* Ensure the overlay is truly covering everything */
+#auth-overlay { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    background: #000; 
+    z-index: 9999; 
+}
 :root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
 [data-theme="dark"]{--display:'Baskerville','Baskerville Old Face','Hoefler Text','Big Caslon','Palatino Linotype',serif;--serif:'Iowan Old Style','Palatino Linotype','Palatino','Book Antiqua','Cambria',Georgia,serif;}
 
