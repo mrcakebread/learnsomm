@@ -38,7 +38,7 @@
             const pass = document.getElementById('password').value;
             
             firebase.auth().signInWithEmailAndPassword(email, pass)
-                .then(() => window.location.href = 'hub.html')
+                .then(() => window.location.href = 'wine-wheel.html')
                 .catch(err => alert("Auth Error: " + err.message));
         });
     </script>
