@@ -1195,6 +1195,39 @@
             });
         }
     </script>
+<script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
+<script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+        authDomain: "mark-s-wine-training.firebaseapp.com",
+        projectId: "mark-s-wine-training",
+        storageBucket: "mark-s-wine-training.firebasestorage.app",
+        messagingSenderId: "424279465207",
+        appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+    };
 
+    if (!firebase.apps.length) {
+        firebase.initializeApp(firebaseConfig);
+    }
+
+    // Function to handle the transition safely
+    function enterHub() {
+        // Check if the user is already authenticated
+        const user = firebase.auth().currentUser;
+        
+        // Trigger your existing animation logic
+        startOverlay.classList.add('fade-out');
+        video.muted = false; video.volume = 0.55;
+        video.play().catch(() => { video.muted = true; });
+        
+        setTimeout(() => {
+            startOverlay.style.display = 'none';
+            hubScreen.classList.add('visible');
+            inqFixedWrap.classList.add('hub-visible');
+            document.getElementById('center-stack').classList.add('hub-visible');
+        }, 800);
+    }
+</script>
 </body>
 </html>
