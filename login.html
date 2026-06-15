@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LearnSomm | Secure Login</title>
+    
     <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
 
     <style>
         body { background: #000; color: #d4b276; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Georgia, serif; margin: 0; }
         #login-container { text-align: center; border: 1px solid #332; padding: 40px; border-radius: 8px; background: #0a0602; }
+        h2 { letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 25px; }
         input { display: block; width: 250px; padding: 10px; margin: 10px auto; background: #1a1208; border: 1px solid #332; color: #fff; }
         button { background: #d4b276; color: #000; border: none; padding: 10px 25px; margin-top: 15px; cursor: pointer; text-transform: uppercase; font-weight: bold; }
     </style>
@@ -16,13 +19,12 @@
 <body>
     <div id="login-container">
         <h2>LearnSomm Access</h2>
-        <input type="email" id="email" placeholder="Sommelier Email">
-        <input type="password" id="password" placeholder="Key">
+        <input type="email" id="email" autocomplete="username" placeholder="Sommelier Email">
+        <input type="password" id="password" autocomplete="current-password" placeholder="Key">
         <button id="login-btn">Authenticate</button>
     </div>
 
     <script>
-        // 1. Hardcode your config here to avoid import issues
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -32,21 +34,15 @@
             appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
 
-        // 2. Initialize
         firebase.initializeApp(firebaseConfig);
 
-        // 3. Simple Login Logic
         document.getElementById('login-btn').addEventListener('click', () => {
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
 
             firebase.auth().signInWithEmailAndPassword(email, password)
-                .then(() => {
-                    window.location.href = 'hub.html';
-                })
-                .catch((error) => {
-                    alert("Login Error: " + error.message);
-                });
+                .then(() => { window.location.href = 'hub.html'; })
+                .catch((error) => { alert("Login Error: " + error.message); });
         });
     </script>
 </body>
