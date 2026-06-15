@@ -5,7 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beef Cuts Wheel — Mark Lenington</title>
 
+<script type="module">
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.x.x/firebase-auth.js";
+    import { app } from "./firebase-config.js";
 
+    const auth = getAuth(app);
+    onAuthStateChanged(auth, (user) => {
+        if (!user) {
+            // Redirect to login if not authenticated
+            window.location.href = 'login.html';
+        }
+    });
+</script>
 <style>
 :root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
 [data-theme="dark"]{--display:'Baskerville','Baskerville Old Face','Hoefler Text','Big Caslon','Palatino Linotype',serif;--serif:'Iowan Old Style','Palatino Linotype','Palatino','Book Antiqua','Cambria',Georgia,serif;}
