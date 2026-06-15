@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>LearnSomm | Command Center</title>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
     <style>
         body, html { margin: 0; height: 100%; background: #000; color: #d4b276; font-family: Georgia, serif; overflow: hidden; }
         #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
@@ -23,23 +21,43 @@
     <iframe id="content-frame"></iframe>
 
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
-            authDomain: "mark-s-wine-training.firebaseapp.com",
-            projectId: "mark-s-wine-training",
-            storageBucket: "mark-s-wine-training.firebasestorage.app",
-            messagingSenderId: "424279465207",
-            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
-        };
-        firebase.initializeApp(firebaseConfig);
+        // Manual script injection
+        function loadScript(src) {
+            const script = document.createElement('script');
+            script.src = src;
+            document.head.appendChild(script);
+        }
+        loadScript("https://unpkg.com/firebase@10.x/firebase-app-compat.js");
+        loadScript("https://unpkg.com/firebase@10.x/firebase-auth-compat.js");
 
-        firebase.auth().onAuthStateChanged((user) => {
-            if (!user) {
-                window.location.href = 'login.html';
+        // Polling function to wait for Firebase
+        (function poll() {
+            if (typeof firebase !== 'undefined' && firebase.auth) {
+                initHub();
             } else {
-                document.getElementById('auth-overlay').style.display = 'none';
+                setTimeout(poll, 50);
             }
-        });
+        })();
+
+        function initHub() {
+            const firebaseConfig = {
+                apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+                authDomain: "mark-s-wine-training.firebaseapp.com",
+                projectId: "mark-s-wine-training",
+                storageBucket: "mark-s-wine-training.firebasestorage.app",
+                messagingSenderId: "424279465207",
+                appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+            };
+            firebase.initializeApp(firebaseConfig);
+
+            firebase.auth().onAuthStateChanged((user) => {
+                if (!user) {
+                    window.location.href = 'login.html';
+                } else {
+                    document.getElementById('auth-overlay').style.display = 'none';
+                }
+            });
+        }
 
         function load(url) { document.getElementById('content-frame').src = url; }
     </script>
