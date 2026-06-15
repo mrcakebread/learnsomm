@@ -23,19 +23,21 @@
 
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
+        // Security Gate
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                // Remove the gate and show content
-                document.getElementById('security-gate').remove();
+                // Reveal body
+                const gate = document.getElementById('security-gate');
+                if (gate) gate.remove();
                 document.body.style.visibility = 'visible';
             } else {
-                // Use absolute path to ensure redirect works from any folder
-                window.location.replace('/index.html'); 
+                // Redirect to root index
+                window.location.replace('/index.html');
             }
         });
     </script>
 </head>
-<body style="background:#14110c; margin:0; overflow:hidden;">
+<body style="margin:0; background:#14110c; overflow:hidden;">
     <iframe src="wine-aroma-wheel-demo-v9.html" style="width:100%; height:100vh; border:none; display:block;"></iframe>
 </body>
 </html>
