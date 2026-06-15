@@ -8,42 +8,37 @@
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
 
     <script>
-        // 1. Force black immediately
+        // 1. Force the page hidden instantly
         document.write('<style>body { visibility: hidden !important; background: #14110c !important; }</style>');
 
-        // 2. PASTE YOUR EXACT KEYS FROM LOGIN.HTML HERE
         const firebaseConfig = {
-            apiKey: "AIza...", 
-            authDomain: "...",
-            projectId: "...",
-            storageBucket: "...",
-            messagingSenderId: "...",
-            appId: "..."
+            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+            authDomain: "mark-s-wine-training.firebaseapp.com",
+            projectId: "mark-s-wine-training",
+            storageBucket: "mark-s-wine-training.firebasestorage.app",
+            messagingSenderId: "424279465207",
+            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
 
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
-        // 3. Auth Gate
+        // 2. Auth State Observer
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                console.log("LOGGED IN: Revealing content...");
+                // User is logged in, show the content
                 document.body.style.visibility = 'visible';
             } else {
-                console.log("NOT LOGGED IN: Redirecting...");
-                window.location.href = '/index.html';
+                // User is NOT logged in. Redirect to your login page.
+                window.location.href = 'index.html'; 
             }
         });
-
-        // 4. FAIL-SAFE: If it stays black for 3 seconds, reveal it so we can debug
-        setTimeout(() => {
-            if (document.body.style.visibility !== 'visible') {
-                console.error("FAIL-SAFE: Firebase hung, forcing reveal.");
-                document.body.style.visibility = 'visible';
-            }
-        }, 3000);
     </script>
+    <style>
+        body { margin:0; background:#14110c; overflow:hidden; }
+        #wheel-frame { width:100%; height:100vh; border:none; display:block; }
+    </style>
 </head>
-<body style="background:#14110c">
-    <iframe src="wine-aroma-wheel-demo-v9.html" style="width:100%; height:100vh; border:none;"></iframe>
+<body>
+    <iframe id="wheel-frame" src="wine-aroma-wheel-demo-v9.html"></iframe>
 </body>
 </html>
