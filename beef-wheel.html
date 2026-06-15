@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beef Cuts Wheel — Mark Lenington</title>
-
-    <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
+<script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
 
-    <style>
-        /* Auth Overlay: Locks the page until auth is confirmed */
-        #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
-        
-        /* [PASTE ALL YOUR EXISTING CSS HERE AFTER THIS LINE] */
-The Integrated Security Guard (Put this inside the <head> or at the top of <body>)
-HTML
     <script>
-        // 1. Unified Configuration
+        // 1. Force the page to stay hidden while we check auth
+        document.write('<style>body { visibility: hidden !important; }</style>');
+
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -25,27 +19,24 @@ HTML
             messagingSenderId: "424279465207",
             appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
-        
-        // 2. Initialize exactly once
+
         if (!firebase.apps.length) {
             firebase.initializeApp(firebaseConfig);
         }
 
-        // 3. Persistent Security Guard
+        // 2. Absolute Guard: Only reveal if user is logged in
         firebase.auth().onAuthStateChanged(function(user) {
-            const overlay = document.getElementById('auth-overlay');
-            if (!user) {
-                // Not logged in, kick out to the login page
+            if (user) {
+                // User is valid, reveal the page
+                document.body.style.visibility = 'visible';
+                const overlay = document.getElementById('auth-overlay');
+                if (overlay) overlay.style.display = 'none';
+            } else {
+                // Not logged in: kick them to login
                 window.top.location.href = 'login.html';
-            } else if (overlay) {
-                // User is valid, hide the black screen
-                overlay.style.display = 'none';
             }
         });
     </script>
-</head>
-<body data-view="wheel">
-    <div id="auth-overlay"></div>
 <style>
 :root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
 [data-theme="dark"]{--display:'Baskerville','Baskerville Old Face','Hoefler Text','Big Caslon','Palatino Linotype',serif;--serif:'Iowan Old Style','Palatino Linotype','Palatino','Book Antiqua','Cambria',Georgia,serif;}
