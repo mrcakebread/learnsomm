@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mark Lenington | Wine & Spirits Training Hub — Cheat Sheets, Training Wheels & Education</title>
+    <meta name="description" content="Mark Lenington's interactive Wine & Spirits Training Hub. Explore aroma wheels, tasting cheat sheets, cocktail guides, and training bundles for Wine, Beer, Vodka, Gin, Tequila, Rum, Bourbon, Scotch, Brandy, Coffee & Tea. Buy a bundle or earn it free — Ambassador Program available.">
+    <meta name="keywords" content="wine training, spirits education, wine cheat sheet, wine aroma wheel, tasting notes, sommelier training, beverage training, wine ambassador program, cocktail guide, spirits cheat sheet, beer education, bourbon training, scotch guide, tequila education, gin training, rum guide, coffee education, tea guide, Mark Lenington, BTG program, by the glass training, staff beverage training, wine certification prep, WSET, CMS, Sommelier exam, bilingual wine guide, wine training materials, laminated wine guide, keyring cheat sheet, corporate wine tasting, zoom wine tasting, restaurant beverage program, wine pairing guide, spirit tasting wheel, Co-Op wine, wine training bundles, Gumroad wine, free wine education">
+    <meta name="author" content="Mark Lenington">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://marklenington.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://marklenington.com/">
+    <meta property="og:title" content="Mark Lenington | Wine & Spirits Training Hub">
+    <meta property="og:description" content="Interactive wine & spirits training — aroma wheels, cheat sheets, cocktail guides, and tasting bundles for every beverage category. Buy or earn through the Ambassador Program.">
+    <meta property="og:image" content="https://marklenington.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Mark Lenington Training Hub">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@marklenington">
+    <meta name="twitter:title" content="Mark Lenington | Wine & Spirits Training Hub">
+    <meta name="twitter:description" content="Interactive wine & spirits training — aroma wheels, cheat sheets, cocktail guides, and tasting bundles. Buy or earn free through the Ambassador Program.">
+    <meta name="twitter:image" content="https://marklenington.com/og-image.jpg">
+    <meta name="theme-color" content="#0a0602">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Mark Lenington Training Hub">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Mark Lenington Wine & Spirits Training Hub",
+      "url": "https://marklenington.com",
+      "description": "Interactive online training hub for wine, beer, and spirits education.",
+      "founder": { "@type": "Person", "name": "Mark Lenington", "jobTitle": "Wine & Spirits Educator" },
+      "sameAs": ["https://marklenington.gumroad.com","https://www.instagram.com/marklenington","https://www.linkedin.com/in/marklenington"]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body, html {
+            height: 100%; overflow: hidden;
+            background: #000;
+            font-family: Georgia, 'Times New Roman', serif;
+            user-select: none; -webkit-user-select: none; -moz-user-select: none;
+        }
+
+        /* ── VIDEO ── */
+        #bg-video {
+            position: fixed; top: -144px; left: 0;
+            width: 100vw; height: calc(100vh + 144px);
+            object-fit: cover; z-index: 0;
+        }
+
+        /* Cinematic overlay — black top fade + bottom fade */
+        #cinematic-overlay {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 1; pointer-events: none;
+            background:
+                radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.65) 100%),
+                linear-gradient(180deg,
+                    #000 0%, #000 4%, rgba(0,0,0,0.85) 10%,
+                    rgba(0,0,0,0.3) 20%, transparent 30%,
+                    transparent 52%, rgba(0,0,0,0.80) 76%,
+                    rgba(0,0,0,0.97) 88%, #000 100%);
+        }
+
+        /* ── CENTER STACK: Ambassador (small) / Language Toggle / Connect & Learn ── */
+        .center-stack { display: none; }
+        .center-stack.hub-visible { display: contents; }
+
+        /* ── LANGUAGE TOGGLE — single button, top center, between Wheel and Vault ── */
+        #lang-toggle {
+            position: fixed; top: calc(clamp(220px, 28vw, 420px) * 0.262 + 1.2vh); left: 50%; transform: translateX(-50%);
+            bottom: auto; right: auto;
+            z-index: 50;
+            background: transparent; border: 1px solid rgba(168,127,61,0.35); cursor: pointer;
+            font-family: Georgia, serif;
+            font-size: 1.4rem;
+            letter-spacing: 0.14em; text-transform: uppercase;
+            padding: 0.5rem 1.1rem; border-radius: 6px;
+            transition: color 0.2s, background 0.2s, border-color 0.2s;
+            color: rgba(212,178,118,0.7);
+        }
+        #lang-toggle:hover {
+            color: #d4b276;
+            background: rgba(168,127,61,0.14);
+            border-color: rgba(168,127,61,0.5);
+        }
+
+        /* ── HOVER ILLUMINATION ZONES ── */
+        /*
+         * Two fixed panels anchored to bottom-left and bottom-right.
+         * They sit behind everything (z-index 2) and are revealed
+         * only when the matching teaser button is hovered.
+         * The teaser-img-wrap and teaser-btn both get sibling selectors
+         * via JS class toggling on the parent .teaser-left / .teaser-right.
+         */
+        .hover-illumination {
+            position: fixed; bottom: 0;
+            width: 38vw; height: 50vh;
+            display: flex; align-items: flex-end;
+            padding: 3vh 3vw;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.45s ease;
+            z-index: 2;
+        }
+        .hover-illumination.left  { left: 0;  justify-content: flex-start; }
+        .hover-illumination.right { right: 0; justify-content: flex-end;   }
+        .hover-illumination.show  { opacity: 1; }
+
+        /* "Play and Share to Unlock" centered within its panel */
+        .hover-illumination.left {
+            align-items: center; justify-content: center; text-align: center;
+        }
+
+        /* Wheel hover info — populates underneath the Wheel button, shifted left 2in total, narrowed to the title's width, shifted down 2in */
+        .hover-illumination.wheel {
+            top: calc(clamp(220px, 28vw, 420px) * 0.262 + 1vh + 2in);
+            bottom: auto;
+            left: max(8px, calc(clamp(1.2rem, 3vw, 2.5rem) + 192px - 1.5in - 0.5in - 0.4in));
+            width: 17ch; height: 30vh;
+            align-items: flex-start; justify-content: flex-start;
+            text-align: left;
+            padding: 1.5vh 1.5vw;
+        }
+        .hover-illumination.wheel .illumination-text strong {
+            display: block; font-size: clamp(1rem, 2.4vw, 1.6rem);
+            color: #d4b276; margin-bottom: 0.4rem;
+            font-style: italic; white-space: nowrap;
+            text-shadow: 0 0 10px rgba(212,178,118,0.6), 0 0 24px rgba(168,127,61,0.4);
+        }
+        .hover-illumination.wheel .illumination-text span {
+            display: block; font-size: clamp(0.8rem, 1.6vw, 1.05rem);
+            color: rgba(233,223,200,0.85); line-height: 1.5; font-style: italic;
+        }
+
+        .illumination-text {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+            font-style: italic;
+            line-height: 1.15;
+            text-align: left;
+        }
+        /* Left — green glow for "Play and Share to Unlock" — centered in its panel */
+        .hover-illumination.left .illumination-text {
+            font-size: clamp(1.2rem, 3vw, 2.2rem);
+            color: rgba(127,200,160,0.88);
+            text-align: center;
+            text-shadow:
+                0 0 10px rgba(127,200,160,0.7),
+                0 0 22px rgba(90,170,120,0.45),
+                0 0 44px rgba(50,140,80,0.25);
+        }
+        /* Right — gold glow for Browse Bundles — same new serif-italic family, nudged up 1.5in & left 2in, resized to sit above the spirits row */
+        .hover-illumination.right .illumination-text {
+            font-size: clamp(1.2rem, 3vw, 2.2rem);
+            color: rgba(232,176,64,0.9);
+            text-align: right;
+            text-shadow:
+                0 0 10px rgba(232,176,64,0.7),
+                0 0 22px rgba(200,140,20,0.45),
+                0 0 44px rgba(168,100,0,0.25);
+            transform: translate(-2in, -1.5in);
+        }
+
+        /* ── VAULT HOVER PREVIEW: dims screen, shows centered video frame ── */
+        .vault-preview-overlay {
+            position: fixed; inset: 0; z-index: 90;
+            background: rgba(0,0,0,0.78);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.35s ease;
+        }
+        .vault-preview-overlay.show { opacity: 1; }
+        .vault-preview-frame {
+            width: min(70vw, 900px); aspect-ratio: 16 / 9;
+            border: 2px solid rgba(212,178,118,0.45);
+            border-radius: 12px; overflow: hidden;
+            box-shadow: 0 0 60px rgba(0,0,0,0.85), 0 0 50px rgba(168,127,61,0.22);
+            background: #000;
+        }
+        .vault-preview-frame video {
+            width: 100%; height: 100%; display: block; object-fit: cover;
+        }
+
+        /* ── SPLASH SCREEN ── */
+        #start-overlay {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 20; display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            padding-top: 192px;
+            background: rgba(0,0,0,0.72); transition: opacity 0.8s ease;
+        }
+        #start-overlay.fade-out { opacity: 0; pointer-events: none; }
+
+        /* Glowing white intro copy above the Enter button */
+        .splash-intro {
+            color: rgba(255,255,255,0.92);
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: clamp(1.2rem, 2.64vw, 1.62rem); /* enlarged 20% */
+            line-height: 1.65;
+            text-align: center;
+            max-width: 560px;
+            margin: 0 auto 2.4rem;
+            padding: 0 1.5rem;
+            text-shadow: 0 0 14px rgba(255,255,255,0.55), 0 0 34px rgba(255,255,255,0.28), 0 2px 20px rgba(0,0,0,0.85);
+            opacity: 0;
+            transform-origin: center;
+            animation: introFadeIn 1.6s ease forwards, introGrow 6s ease-out forwards;
+            animation-delay: 0.4s, 0.4s;
+        }
+        @keyframes introFadeIn {
+            to { opacity: 1; }
+        }
+        /* Only ever grows — never shrinks back down — settling at +30% over 6s */
+        @keyframes introGrow {
+            from { transform: scale(1); }
+            to   { transform: scale(1.3); }
+        }
+
+        /* Half-moon button — flat-ish top, circular arc bottom */
+        .enter-btn {
+            padding: 1.4rem 4.25rem 2.2rem;
+            background: rgba(168,127,61,0.13); color: rgba(212,178,118,0.9);
+            border: none; border-radius: 12px 12px 999px 999px;
+            font-family: Georgia, serif; font-size: 1.375rem;
+            letter-spacing: 0.22em; text-transform: uppercase;
+            cursor: pointer; opacity: 0.82;
+            box-shadow: 0 0 0 1.5px rgba(168,127,61,0.28), 0 0 18px 4px rgba(168,127,61,0.12), 0 4px 32px rgba(0,0,0,0.55);
+            transition: background 0.35s, color 0.35s, opacity 0.35s, box-shadow 0.35s;
+            backdrop-filter: blur(2px);
+        }
+        .enter-btn:hover {
+            background: rgba(168,127,61,0.26); color: #fff; opacity: 1;
+            box-shadow: 0 0 0 1.5px rgba(212,178,118,0.45), 0 0 28px 8px rgba(168,127,61,0.22), 0 6px 38px rgba(0,0,0,0.6);
+        }
+
+        /* ── HUB SCREEN ── */
+        #hub-screen {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 10; opacity: 0; pointer-events: none;
+            transition: opacity 1s ease 0.4s;
+        }
+        #hub-screen.visible { opacity: 1; pointer-events: all; }
+
+        /* ── BOTTOM CENTRE TITLE ── */
+        .hub-name {
+            position: absolute; bottom: 0.5in; top: auto; left: 50%; transform: translateX(-50%);
+            text-align: center; white-space: nowrap; line-height: 1;
+            padding: 0 clamp(160px, 20vw, 280px);
+        }
+
+        /*
+         * Wine & Spirits Training Hub — entire line grows together, never flickers.
+         * Animation is on the wrapper so ALL words (Wine, &, Spirits, Training Hub)
+         * scale as one unit. No opacity change — grows and stays grown.
+         * Sans-serif, centered, "Training Hub" on its own line below "Wine & Spirits".
+         */
+        .hub-name-sub-wrap {
+            display: block;
+            font-family: Optima, Candara, 'Gill Sans MT', 'Gill Sans', 'Segoe UI', sans-serif;
+            font-size: clamp(0.72rem, 1.55vw, 1.05rem);
+            letter-spacing: 0.18em; text-shadow: 0 2px 18px rgba(0,0,0,0.9);
+            text-align: center;
+            white-space: nowrap;
+            animation: subtitleGrow 10s ease-out forwards;
+            transform-origin: center top;
+        }
+        @keyframes subtitleGrow {
+            0%   { transform: scale(1); }
+            100% { transform: scale(1.18); }
+        }
+        /* .hub-name-sub is now just a plain inline span — no separate animation */
+        .hub-name-sub { display: inline; }
+
+        .title-wine    { color: #f4e0b8; animation: titleGoldGlow 4s ease-in-out infinite alternate; }
+        .title-amp     { color: #f4e0b8; margin: 0 0.08em; text-shadow: 0 0 10px #c08010, 0 0 24px #805000; }
+        .title-spirits { color: #f4e0b8; animation: titleGoldGlow 3.5s ease-in-out infinite alternate; animation-delay: 0.7s; }
+        @keyframes titleGoldGlow {
+            0%   { text-shadow: 0 0 6px #c08010, 0 0 16px #805000; }
+            100% { text-shadow: 0 0 12px #f4e0b8, 0 0 30px #e8c040, 0 0 56px rgba(220,160,20,0.55); }
+        }
+        .title-rest { color: rgba(255,255,255,0.88); }
+
+        /* ── TOP-LEFT: Wine Aroma Wheel — hugging the top edge; doubled in size ── */
+        .corner-wheel {
+            position: absolute; top: 0; left: calc(clamp(1.2rem, 3vw, 2.5rem) + 192px);
+            z-index: 15;
+        }
+        .corner-wheel .corner-img-btn {
+            width: clamp(220px, 28vw, 420px); /* 2x the shared corner size */
+        }
+
+        /* ── DEMO PREVIEW IMAGE — hugs the left edge of the page, sits directly above the Wine Aroma Wheel description ── */
+        .demo-preview-img {
+            position: fixed; left: 0;
+            top: calc(clamp(220px, 28vw, 420px) * 0.262 + 1vh + 2in - clamp(120px, 14vw, 220px) - 0.6rem);
+            width: clamp(120px, 14vw, 220px); height: auto;
+            z-index: 16; border-radius: 0 8px 8px 0;
+            filter: drop-shadow(0 4px 16px rgba(0,0,0,0.65));
+            pointer-events: none;
+        }
+        /* ── TOP-RIGHT: The Vault — hugging the top edge; doubled in size ── */
+        .corner-vault {
+            position: absolute; top: 0; right: calc(clamp(1.2rem, 3vw, 2.5rem) + 192px);
+            z-index: 15;
+        }
+        .corner-vault .corner-img-btn {
+            width: clamp(220px, 28vw, 420px); /* 2x the shared corner size */
+        }
+        /* Shared corner image button style */
+        .corner-img-btn {
+            position: relative; display: block;
+            width: clamp(110px, 14vw, 210px); cursor: pointer;
+        }
+        .corner-img-btn img {
+            width: 100%; height: auto; display: block;
+            border-radius: 4px;
+            filter: drop-shadow(0 3px 14px rgba(0,0,0,0.7));
+            transition: transform 0.22s ease, filter 0.22s ease;
+        }
+        .corner-img-btn:hover img {
+            transform: translateY(-3px) scale(1.04);
+            filter: drop-shadow(0 6px 22px rgba(168,127,61,0.4)) drop-shadow(0 0 12px rgba(168,127,61,0.25));
+        }
+        .corner-img-btn button {
+            position: absolute; inset: 0;
+            background: transparent; border: none; cursor: pointer;
+        }
+        /* Fallback text for corner buttons */
+        .corner-btn-fallback {
+            padding: 0.5rem 1rem; background: transparent;
+            color: rgba(212,178,118,0.85); border: 1px solid rgba(168,127,61,0.4);
+            font-family: Georgia, serif; font-size: 0.72rem;
+            letter-spacing: 0.13em; text-transform: uppercase; cursor: pointer;
+            border-radius: 4px; transition: background 0.25s, color 0.25s;
+        }
+        .corner-btn-fallback:hover { background: rgba(168,127,61,0.14); color: #fff; }
+
+        /* ── FIXED BOTTOM-RIGHT: INQUIRIES — shifted up 2in ── */
+        .inquiries-fixed-wrap {
+            position: fixed; bottom: calc(clamp(1.2rem, 3vw, 2.5rem) - 0.125in + 2in); right: 0;
+            z-index: 30;
+            display: none;
+        }
+        .inquiries-fixed-wrap.hub-visible { display: block; }
+
+        /* ── INQUIRIES BUTTON ── */
+        .inquiries-btn {
+            display: flex; align-items: center; gap: 0.5rem;
+            padding: 0.7rem 1.6rem;
+            background: rgba(30,18,6,0.55); color: rgba(212,178,118,0.88);
+            border: none; border-radius: 10px;
+            font-family: Georgia, serif;
+            font-size: clamp(0.68rem, 1.1vw, 0.82rem);
+            letter-spacing: 0.17em; text-transform: uppercase;
+            cursor: pointer;
+            box-shadow: 0 0 0 1px rgba(168,127,61,0.22), 0 0 14px 3px rgba(168,127,61,0.09), 0 4px 22px rgba(0,0,0,0.5);
+            transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+            backdrop-filter: blur(3px);
+        }
+        .inquiries-btn:hover, .inquiries-btn.active {
+            background: rgba(168,127,61,0.2); color: #fff; transform: translateY(-2px);
+            box-shadow: 0 0 0 1px rgba(212,178,118,0.38), 0 0 22px 6px rgba(168,127,61,0.18), 0 6px 28px rgba(0,0,0,0.6);
+        }
+        .inquiries-btn-icon { font-size: 0.9rem; opacity: 0.8; }
+
+        /* ── INQUIRIES TAKEOVER ── */
+        .inquiries-wrap { position: relative; }
+        .inquiries-takeover {
+            position: fixed; inset: 0; z-index: 80;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding: 2rem 1.5rem 6rem;
+            background: rgba(4,2,1,0.88); backdrop-filter: blur(8px);
+            opacity: 0; pointer-events: none; transition: opacity 0.32s ease;
+        }
+        .inquiries-takeover.open { opacity: 1; pointer-events: all; }
+        .takeover-dismiss-hint {
+            position: absolute; top: 1.4rem; right: 1.8rem;
+            color: rgba(212,178,118,0.35); font-size: 0.65rem;
+            letter-spacing: 0.18em; text-transform: uppercase;
+            cursor: pointer; transition: color 0.2s;
+        }
+        .takeover-dismiss-hint:hover { color: rgba(212,178,118,0.8); }
+        .takeover-label {
+            color: rgba(212,178,118,0.5); font-size: clamp(0.58rem, 1vw, 0.7rem);
+            letter-spacing: 0.35em; text-transform: uppercase; margin-bottom: 2rem;
+        }
+        .takeover-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 1.1rem; max-width: 860px; width: 100%;
+        }
+        .takeover-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(168,127,61,0.2); border-radius: 12px;
+            padding: 1.4rem 1.2rem; text-align: center; cursor: pointer;
+            transition: background 0.25s, border-color 0.25s, transform 0.2s;
+        }
+        .takeover-card:hover { background: rgba(168,127,61,0.1); border-color: rgba(212,178,118,0.35); transform: translateY(-3px); }
+        .takeover-card-icon { font-size: 2rem; display: block; margin-bottom: 0.7rem; }
+        .takeover-card-title { color: #d4b276; font-size: clamp(0.78rem, 1.3vw, 0.92rem); letter-spacing: 0.08em; display: block; margin-bottom: 0.45rem; }
+        .takeover-card-desc { color: rgba(233,223,200,0.6); font-size: clamp(0.68rem, 1.1vw, 0.78rem); line-height: 1.55; }
+        .takeover-cta { margin-top: 2rem; color: rgba(212,178,118,0.45); font-size: clamp(0.62rem, 1vw, 0.72rem); letter-spacing: 0.2em; text-transform: uppercase; font-style: italic; }
+
+        /* ── BOTTOM ZONE ── */
+        .bottom-zone {
+            position: absolute; bottom: 0; left: 0; width: 100%;
+            display: flex; flex-direction: column; align-items: center;
+        }
+
+        /* Spirits bundle grid */
+        .spirits-bundle {
+            width: 100%; max-width: 980px; padding: 0 1rem 0.5rem;
+            display: grid; grid-template-columns: auto 1fr auto;
+            grid-template-rows: auto auto; align-items: end; gap: 0 1.2rem;
+        }
+        .teaser-left  { position: fixed; bottom: 0; left: 0; z-index: 12;
+                        animation: spiritsRowGrow 6s ease-out forwards; transform-origin: bottom left; }
+        .teaser-right { position: fixed; bottom: 0; right: 0; z-index: 12;
+                        animation: spiritsRowGrow 6s ease-out forwards; transform-origin: bottom right; }
+        .teaser-mid-spacer { grid-column: 2; grid-row: 1; }
+
+        /* ── SPIRITS ROW — grows once, stays grown ── */
+        .spirits-row {
+            grid-column: 1 / -1; grid-row: 2;
+            display: flex; justify-content: center; align-items: center;
+            gap: clamp(0.9rem, 2.8vw, 2.8rem); flex-wrap: nowrap;
+            padding: 0 0 0.4rem;
+            position: relative; top: calc(0.125in - 1.25in);
+            animation: spiritsRowGrow 6s ease-out forwards;
+            transform-origin: bottom center;
+        }
+        @keyframes spiritsRowGrow {
+            0%   { transform: scale(1); }
+            100% { transform: scale(1.09); }
+        }
+
+        /* Spirit link + glow */
+        .spirit-link { position: relative; text-decoration: none; display: inline-block; }
+        .spirit {
+            font-family: Georgia, serif; font-size: clamp(0.7rem, 1.4vw, 1rem);
+            letter-spacing: 0.16em; text-transform: uppercase; font-weight: 400;
+            animation: spiritPulse var(--dur, 3.2s) ease-in-out infinite alternate;
+            animation-delay: var(--delay, 0s); transform-origin: center;
+            display: inline-block; cursor: pointer; transition: filter 0.2s;
+        }
+        .spirit:hover { filter: brightness(1.35); }
+        .spirit-link:hover .spirit { font-size: clamp(1.4rem, 2.8vw, 2rem); }
+        @keyframes spiritPulse {
+            0%   { text-shadow: 0 0 6px var(--glow), 0 0 14px var(--glow); opacity: 0.7; transform: scale(1); }
+            60%  { opacity: 1; }
+            100% { text-shadow: 0 0 10px var(--glow), 0 0 28px var(--glow), 0 0 50px var(--glow2); opacity: 1; transform: scale(1.07); }
+        }
+        .spirit-wine    { color: #d94060; --glow: #c02040; --glow2: #800020; --dur: 3.8s; --delay: 0s;    }
+        .spirit-beer    { color: #e8a020; --glow: #e8a020; --glow2: #a86010; --dur: 4.1s; --delay: 0.4s;  }
+        .spirit-vodka   { color: #c8ddf5; --glow: #a0c4f0; --glow2: #5090d0; --dur: 3.5s; --delay: 0.9s;  }
+        .spirit-gin     { color: #7fc8a0; --glow: #5aaa78; --glow2: #1a7040; --dur: 4.4s; --delay: 1.3s;  }
+        .spirit-tequila { color: #e8d850; --glow: #d4c020; --glow2: #907000; --dur: 3.2s; --delay: 0.2s;  }
+        .spirit-rum     { color: #d4824a; --glow: #c06820; --glow2: #7a3000; --dur: 4.7s; --delay: 0.7s;  }
+        .spirit-bourbon { color: #e8b040; --glow: #c08820; --glow2: #7a5000; --dur: 3.6s; --delay: 1.1s;  }
+        .spirit-scotch  { color: #c8b890; --glow: #b09868; --glow2: #705830; --dur: 4.2s; --delay: 0.5s;  }
+        .spirit-brandy  { color: #c04060; --glow: #a02040; --glow2: #600020; --dur: 3.9s; --delay: 1.5s;  }
+        .spirit-coffee  { color: #c89070; --glow: #a06840; --glow2: #603818; --dur: 4.5s; --delay: 0.8s;  }
+        .spirit-tea     { color: #98c870; --glow: #70a848; --glow2: #386018; --dur: 3.3s; --delay: 1.7s;  }
+
+        /* Mini segmented wheel — appears on top of a beverage link on hover, spins and glows in that spirit's colors */
+        .mini-wheel {
+            position: absolute; top: 50%; left: 50%;
+            width: 5.2em; height: 5.2em;
+            transform: translate(-50%, -50%);
+            opacity: 0; pointer-events: none; z-index: -1;
+            transition: opacity 0.2s ease;
+        }
+        .spirit-link:hover .mini-wheel {
+            opacity: 0.92;
+            animation: miniWheelSpin 2.4s linear infinite;
+        }
+        @keyframes miniWheelSpin {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to   { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        .spirit-wine    ~ .mini-wheel { filter: drop-shadow(0 0 6px #c02040) drop-shadow(0 0 14px #800020); }
+        .spirit-beer    ~ .mini-wheel { filter: drop-shadow(0 0 6px #e8a020) drop-shadow(0 0 14px #a86010); }
+        .spirit-vodka   ~ .mini-wheel { filter: drop-shadow(0 0 6px #a0c4f0) drop-shadow(0 0 14px #5090d0); }
+        .spirit-gin     ~ .mini-wheel { filter: drop-shadow(0 0 6px #5aaa78) drop-shadow(0 0 14px #1a7040); }
+        .spirit-tequila ~ .mini-wheel { filter: drop-shadow(0 0 6px #d4c020) drop-shadow(0 0 14px #907000); }
+        .spirit-rum     ~ .mini-wheel { filter: drop-shadow(0 0 6px #c06820) drop-shadow(0 0 14px #7a3000); }
+        .spirit-bourbon ~ .mini-wheel { filter: drop-shadow(0 0 6px #c08820) drop-shadow(0 0 14px #7a5000); }
+        .spirit-scotch  ~ .mini-wheel { filter: drop-shadow(0 0 6px #b09868) drop-shadow(0 0 14px #705830); }
+        .spirit-brandy  ~ .mini-wheel { filter: drop-shadow(0 0 6px #a02040) drop-shadow(0 0 14px #600020); }
+        .spirit-coffee  ~ .mini-wheel { filter: drop-shadow(0 0 6px #a06840) drop-shadow(0 0 14px #603818); }
+        .spirit-tea     ~ .mini-wheel { filter: drop-shadow(0 0 6px #70a848) drop-shadow(0 0 14px #386018); }
+
+        /* Spirit hover tooltip */
+        .spirit-tooltip {
+            position: absolute; bottom: calc(100% + 0.9rem); left: 50%;
+            transform-origin: bottom center;
+            --edge-x: 0px;
+            transform: translateX(calc(-50% + var(--edge-x))) scaleY(0);
+            width: 210px; background: rgba(8,5,2,0.93);
+            border: 1px solid rgba(168,127,61,0.4); border-radius: 6px;
+            padding: 0.85rem 1rem; color: #e9dfc8;
+            font-size: 0.76rem; line-height: 1.55; text-align: left;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.35s ease;
+            white-space: normal; z-index: 60;
+        }
+        .tooltip-bundle-img {
+            display: block; width: 100%; height: auto;
+            border-radius: 4px; margin-bottom: 0.6rem;
+        }
+        .spirit-tooltip::after {
+            content: ''; position: absolute; top: 100%; left: calc(50% - var(--edge-x));
+            transform: translateX(-50%); border: 6px solid transparent;
+            border-top-color: rgba(168,127,61,0.4);
+        }
+        .spirit-tooltip strong { display: block; font-size: 0.82rem; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+        /* Opens like a menu from the bottom up, doubling in size as it unfolds — --edge-x keeps it on-screen near page edges */
+        .spirit-link:hover .spirit-tooltip { opacity: 1; transform: translateX(calc(-50% + var(--edge-x))) scale(2); }
+
+        /* ── Ambassador Log In — small, sits comfortably above the language toggle ── */
+        /* ── Ambassador Log In + Connect & Learn — same size, stacked with 1/8in gap, Ambassador on top ── */
+        .ambassador-connect-stack {
+            position: fixed; top: calc(2.25in - 2.5rem); right: 0;
+            display: flex; flex-direction: column; align-items: flex-end;
+            gap: 0.125in;
+            z-index: 50;
+        }
+
+        /* Shared bottom button image style */
+        .bottom-img-btn-wrap {
+            position: relative; display: block;
+            width: clamp(138px, 16.25vw, 238px); cursor: pointer;
+        }
+        .bottom-img-btn-wrap img {
+            width: 100%; height: auto; display: block; border-radius: 4px;
+            filter: drop-shadow(0 3px 12px rgba(0,0,0,0.7));
+            transition: transform 0.22s ease, filter 0.22s ease;
+        }
+        /* Dim Connect & Learn 25% to match the Ambassador button's tone */
+        #connect-learn-wrap img { opacity: 0.75; }
+        /* Dim Inquiries button 25% */
+        #inquiries-img-wrap img { opacity: 0.75; }
+        .bottom-img-btn-wrap:hover img {
+            transform: translateY(-3px) scale(1.04);
+            filter: drop-shadow(0 6px 20px rgba(168,127,61,0.45)) drop-shadow(0 0 10px rgba(168,127,61,0.3));
+        }
+        .bottom-img-btn-wrap button {
+            position: absolute; inset: 0; background: transparent; border: none; cursor: pointer; border-radius: 4px;
+        }
+        .bottom-img-btn-wrap button:focus-visible { outline: 2px solid #d4b276; outline-offset: 3px; }
+
+        /* Fallback text button for bottom row */
+        .bottom-btn-fallback {
+            padding: 1rem 2rem; background: rgba(30,18,6,0.55);
+            color: rgba(212,178,118,0.88); border: none; border-radius: 10px;
+            font-family: Georgia, serif; font-size: 0.9rem;
+            letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer;
+            box-shadow: 0 0 0 1px rgba(168,127,61,0.22), 0 4px 22px rgba(0,0,0,0.5);
+            transition: background 0.3s, color 0.3s;
+            backdrop-filter: blur(3px);
+            position: relative; top: 0.125in;
+        }
+        .bottom-btn-fallback:hover { background: rgba(168,127,61,0.2); color: #fff; }
+
+        /* Teaser PNG image buttons (Browse Bundles / Learn for Free) — 30% larger */
+        .teaser-img-wrap {
+            position: relative; display: inline-flex; align-items: center; justify-content: center;
+            border-bottom: 3px solid #000; /* both teasers rest on this — image bottoms merge into it */
+        }
+        .teaser-img-btn {
+            /* 30% larger: clamp(40px,5.5vh,60px) × 1.3 */
+            height: clamp(52px, 7.15vh, 78px); width: auto; cursor: pointer; display: block;
+            filter: drop-shadow(0 2px 10px rgba(0,0,0,0.6));
+            transition: transform 0.22s ease, filter 0.22s ease, opacity 0.22s ease; opacity: 0.88;
+        }
+        .teaser-img-btn:hover { transform: translateY(-2px) scale(1.03); opacity: 1; filter: drop-shadow(0 5px 16px rgba(168,127,61,0.4)); }
+        /* Browse Bundles — grown 25% from its reduced size (now ~94% of the shared teaser size) */
+        .teaser-img-btn.buy-img {
+            height: clamp(48.75px, 6.7vh, 73.125px);
+        }
+        /* Nudge Browse Bundles right 1in, Learn for Free left 1.25in */
+        /* Hug the left/right edges of the page — no offscreen shift */
+        .teaser-right .teaser-img-wrap { transform: none; }
+        .teaser-left  .teaser-img-wrap { transform: none; }
+        /* Fallback text buttons — also 30% larger */
+        .teaser-btn {
+            padding: 0.62rem 1.5rem; border-radius: 20px;
+            font-family: Georgia, serif; font-size: clamp(0.81rem, 1.43vw, 0.95rem);
+            letter-spacing: 0.14em; text-transform: uppercase; cursor: pointer;
+            border: none; transition: background 0.25s, color 0.25s, transform 0.2s; position: relative;
+        }
+        .teaser-btn.buy { background: rgba(232,176,64,0.15); color: #e8b040; box-shadow: 0 0 0 1px rgba(232,176,64,0.28), 0 2px 10px rgba(0,0,0,0.4); }
+        .teaser-btn.buy:hover { background: rgba(232,176,64,0.28); color: #fff; transform: translateY(-1px); }
+        .teaser-btn.earn { background: rgba(127,200,160,0.12); color: #7fc8a0; box-shadow: 0 0 0 1px rgba(127,200,160,0.25), 0 2px 10px rgba(0,0,0,0.4); }
+        .teaser-btn.earn:hover { background: rgba(127,200,160,0.26); color: #fff; transform: translateY(-1px); }
+
+        /* ── INQUIRIES MODAL ── */
+        #inquiries-modal {
+            display: none; position: fixed; inset: 0; z-index: 100;
+            align-items: center; justify-content: center;
+            background: rgba(0,0,0,0.72); backdrop-filter: blur(4px); padding: 1.5rem;
+        }
+        #inquiries-modal.open { display: flex; }
+        .modal-box {
+            background: rgba(12,8,4,0.96); border: 1px solid rgba(168,127,61,0.35);
+            border-radius: 12px; padding: clamp(1.5rem,4vw,2.5rem) clamp(1.5rem,4vw,2.8rem);
+            max-width: 580px; width: 100%; max-height: 88vh; overflow-y: auto;
+            box-shadow: 0 8px 60px rgba(0,0,0,0.8), 0 0 40px rgba(168,127,61,0.1);
+            position: relative;
+        }
+        .modal-close { position: absolute; top: 1rem; right: 1.2rem; background: none; border: none; color: rgba(212,178,118,0.55); font-size: 1.4rem; cursor: pointer; transition: color 0.2s; }
+        .modal-close:hover { color: #fff; }
+        .modal-title { color: #d4b276; font-size: clamp(1rem,2.5vw,1.3rem); letter-spacing: 0.12em; text-align: center; margin-bottom: 0.3rem; }
+        .modal-sub { color: rgba(255,255,255,0.45); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; text-align: center; margin-bottom: 1.5rem; }
+        .modal-divider { width: 60px; height: 1px; background: rgba(168,127,61,0.35); margin: 0 auto 1.5rem; }
+        .inquiry-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; margin-bottom: 1.5rem; }
+        .inquiry-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(168,127,61,0.18); border-radius: 8px; padding: 0.9rem 1rem; cursor: pointer; transition: background 0.25s, border-color 0.25s, transform 0.2s; }
+        .inquiry-card:hover { background: rgba(168,127,61,0.12); border-color: rgba(212,178,118,0.4); transform: translateY(-2px); }
+        .inquiry-card-icon { font-size: 1.3rem; margin-bottom: 0.4rem; display: block; }
+        .inquiry-card-title { color: #d4b276; font-size: 0.78rem; letter-spacing: 0.08em; margin-bottom: 0.25rem; display: block; }
+        .inquiry-card-desc { color: rgba(233,223,200,0.65); font-size: 0.7rem; line-height: 1.5; }
+        .modal-pitch { border-top: 1px solid rgba(168,127,61,0.2); padding-top: 1.2rem; text-align: center; }
+        .modal-pitch-text { color: rgba(255,255,255,0.6); font-size: 0.76rem; line-height: 1.6; margin-bottom: 0.9rem; }
+        .modal-pitch-text strong { color: #7fc8a0; }
+        .modal-pitch-btns { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
+        .modal-pitch-btn { padding: 0.6rem 1.4rem; border-radius: 20px; font-family: Georgia, serif; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; cursor: pointer; border: none; transition: background 0.25s, color 0.25s; }
+        .modal-pitch-btn.buy { background: rgba(232,176,64,0.18); color: #e8b040; box-shadow: 0 0 0 1px rgba(232,176,64,0.3); }
+        .modal-pitch-btn.buy:hover { background: rgba(232,176,64,0.32); color: #fff; }
+        .modal-pitch-btn.earn { background: rgba(127,200,160,0.15); color: #7fc8a0; box-shadow: 0 0 0 1px rgba(127,200,160,0.28); }
+        .modal-pitch-btn.earn:hover { background: rgba(127,200,160,0.28); color: #fff; }
+
+        /* ── MOBILE ── */
+        @media (max-width: 700px) { .takeover-grid { grid-template-columns: repeat(2,1fr); } }
+        @media (max-width: 440px) { .takeover-grid { grid-template-columns: 1fr; max-height: 70vh; overflow-y: auto; } }
+        @media (max-width: 600px) {
+            .hub-name { white-space: normal; width: 60vw; padding: 0 clamp(80px,12vw,140px); }
+            .hub-name-sub-wrap { white-space: normal; }
+            .corner-img-btn { width: clamp(80px, 11vw, 130px); }
+            .spirits-row { gap: 0.65rem; flex-wrap: wrap; }
+            .spirit-tooltip { width: 170px; font-size: 0.69rem; }
+            .inquiry-grid { grid-template-columns: 1fr; }
+            .bottom-img-btn-wrap { width: clamp(110px, 30vw, 180px); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            #start-overlay, #hub-screen, .hub-name-sub-wrap, .hub-name-sub,
+            .title-wine, .title-spirits, .spirit, .spirits-row { transition: none; animation: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <video id="bg-video" autoplay muted playsinline preload="auto">
+        <source src="trainingwheels.mp4" type="video/mp4">
+    </video>
+    <div id="cinematic-overlay"></div>
+
+    <!-- ── CENTER STACK: Ambassador (small) / Language Toggle / Connect & Learn — shown after hub entry ── -->
+    <div class="center-stack" id="center-stack">
+        <!-- LANGUAGE TOGGLE — single button, top center -->
+        <button id="lang-toggle" onclick="toggleLang()" aria-label="Switch to Spanish">ES</button>
+
+        <!-- AMBASSADOR LOG IN + CONNECT & LEARN — stacked, same size, 1/8in gap, Ambassador on top -->
+        <div class="ambassador-connect-stack">
+            <div class="bottom-img-btn-wrap" id="ambassador-wrap">
+                <img src="ambassador-btn.png" alt="Ambassador Log In"
+                    onclick="goToAmbassadorLogin()"
+                    onerror="this.style.display='none'; document.getElementById('ambassador-fallback').style.display='block';">
+                <button onclick="goToAmbassadorLogin()" aria-label="Ambassador Log In"></button>
+            </div>
+            <button id="ambassador-fallback" class="bottom-btn-fallback" style="display:none;" onclick="goToAmbassadorLogin()">
+                <span data-en="Ambassador Log In" data-es="Acceso Embajador">Ambassador Log In</span>
+            </button>
+
+            <!--
+                CONNECT & LEARN BUTTON
+                PNG filename: connect-learn-btn.png
+                Fallback text button shown until PNG is ready.
+            -->
+            <div class="bottom-img-btn-wrap" id="connect-learn-wrap">
+                <img src="connect-learn-btn.png" alt="Connect and Learn"
+                    onclick="goToConnectLearn()"
+                    onerror="this.style.display='none'; document.getElementById('connect-fallback').style.display='block';">
+                <button onclick="goToConnectLearn()" aria-label="Connect and Learn"></button>
+            </div>
+            <button id="connect-fallback" class="bottom-btn-fallback" style="display:none;" onclick="goToConnectLearn()">
+                <span data-en="Connect &amp; Learn" data-es="Conecta y Aprende">Connect &amp; Learn</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ── INQUIRIES — fixed, shown after hub entry ── -->
+    <div class="inquiries-fixed-wrap" id="inquiries-fixed-wrap">
+        <div class="inquiries-wrap" id="inquiries-wrap">
+            <div class="inquiries-takeover" id="inquiries-takeover" aria-hidden="true">
+                <span class="takeover-dismiss-hint" id="takeover-dismiss">✕ &nbsp;click outside or press Esc to close</span>
+                <div class="takeover-label" data-en="What can Mark do for you?" data-es="¿Qué puede hacer Mark por ti?">What can Mark do for you?</div>
+                <div class="takeover-grid">
+                    <div class="takeover-card" onclick="inquire('btg')">
+                        <span class="takeover-card-icon">🍷</span>
+                        <span class="takeover-card-title" data-en="Custom BTG Program" data-es="Programa BTG Personalizado">Custom BTG Program</span>
+                        <p class="takeover-card-desc" data-en="Bespoke cheat sheets and training materials built around your restaurant or group of concepts. Your staff. Your menu. Your voice." data-es="Hojas de referencia y materiales de capacitación diseñados para tu restaurante o grupo de conceptos. Tu equipo. Tu menú. Tu voz.">Bespoke cheat sheets and training materials built around your restaurant or group of concepts. Your staff. Your menu. Your voice.</p>
+                    </div>
+                    <div class="takeover-card" onclick="inquire('vault-staff')">
+                        <span class="takeover-card-icon">🔑</span>
+                        <span class="takeover-card-title" data-en="Staff Vault + Keyring" data-es="Bóveda del Personal + Llavero">Staff Vault + Keyring</span>
+                        <p class="takeover-card-desc" data-en="Digital Vault access for every team member, plus materials printed, laminated, and clipped to a keyring in their pocket. Part of the uniform." data-es="Acceso digital a la bóveda para cada miembro del equipo, más materiales impresos, laminados y sujetos a un llavero en su bolsillo. Parte del uniforme.">Digital Vault access for every team member, plus materials printed, laminated, and clipped to a keyring in their pocket. Part of the uniform.</p>
+                    </div>
+                    <div class="takeover-card" onclick="inquire('exam')">
+                        <span class="takeover-card-icon">📋</span>
+                        <span class="takeover-card-title" data-en="Exam Prep Call" data-es="Llamada de Preparación para Examen">Exam Prep Call</span>
+                        <p class="takeover-card-desc" data-en="Preparing for a certification? Let's get on the phone, assess where you are, and map the exact road to where you're going." data-es="¿Preparándote para una certificación? Hablemos por teléfono, evaluemos tu nivel y trazemos el camino exacto hacia tu meta.">Preparing for a certification? Let's get on the phone, assess where you are, and map the exact road to where you're going.</p>
+                    </div>
+                    <div class="takeover-card" onclick="inquire('zoom-tasting')">
+                        <span class="takeover-card-icon">🎙</span>
+                        <span class="takeover-card-title" data-en="Private Zoom Tasting" data-es="Cata Privada por Zoom">Private Zoom Tasting</span>
+                        <p class="takeover-card-desc" data-en="A guided wine tasting hosted by Mark over Zoom — perfect for friends, a team happy hour, or a virtual celebration you'll actually remember." data-es="Una cata de vinos guiada por Mark vía Zoom — perfecta para amigos, un happy hour de equipo o una celebración virtual que realmente recordarás.">A guided wine tasting hosted by Mark over Zoom — perfect for friends, a team happy hour, or a virtual celebration you'll actually remember.</p>
+                    </div>
+                    <div class="takeover-card" onclick="inquire('wine-cart')">
+                        <span class="takeover-card-icon">🛒</span>
+                        <span class="takeover-card-title" data-en="Personal Wine Cart" data-es="Carrito de Vino Personal">Personal Wine Cart</span>
+                        <p class="takeover-card-desc" data-en="Tell Mark your occasion, palate, and budget. He'll curate a ready-to-pick-up cart waiting for you at your local wine shop." data-es="Cuéntale a Mark tu ocasión, paladar y presupuesto. Él curadurá un carrito listo para recoger en tu tienda de vinos local.">Tell Mark your occasion, palate, and budget. He'll curate a ready-to-pick-up cart waiting for you at your local wine shop.</p>
+                    </div>
+                    <div class="takeover-card" onclick="inquire('corporate')">
+                        <span class="takeover-card-icon">🏛</span>
+                        <span class="takeover-card-title" data-en="Corporate Tasting Event" data-es="Evento Corporativo de Cata">Corporate Tasting Event</span>
+                        <p class="takeover-card-desc" data-en="Fill a room. Mark leads an unforgettable educational tasting for however many people you can fit. You bring the wine and the room. He'll handle the rest." data-es="Llena la sala. Mark lidera una cata educativa inolvidable para cuantas personas puedas reunir. Tú traes el vino y el espacio. Él se encarga del resto.">Fill a room. Mark leads an unforgettable educational tasting for however many people you can fit. You bring the wine and the room. He'll handle the rest.</p>
+                    </div>
+                </div>
+                <p class="takeover-cta" data-en="— or click to reach out directly —" data-es="— o haz clic para contactar directamente —">— or click to reach out directly —</p>
+            </div>
+            <div class="bottom-img-btn-wrap" id="inquiries-img-wrap">
+                <img src="inquiries.png" alt="Inquiries"
+                    onclick="toggleTakeover(event)"
+                    onerror="this.style.display='none'; document.getElementById('inquiries-btn').style.display='flex';">
+                <button onclick="toggleTakeover(event)" aria-label="Inquiries"></button>
+            </div>
+            <button class="inquiries-btn" id="inquiries-btn" style="display:none;" onclick="toggleTakeover(event)">
+                <span class="inquiries-btn-icon">✉</span>
+                <span data-en="Inquiries" data-es="Consultas">Inquiries</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ── HOVER ILLUMINATION PANELS ── -->
+    <div class="hover-illumination left" id="illum-learn">
+        <div class="illumination-text">Play and Share<br>to Unlock</div>
+    </div>
+    <div class="hover-illumination right" id="illum-browse">
+        <div class="illumination-text">Bundle Up!</div>
+    </div>
+    <div class="hover-illumination wheel" id="illum-wheel">
+        <div class="illumination-text">
+            <strong data-en="Wine Aroma Wheel" data-es="Rueda de Aromas del Vino">Wine Aroma Wheel</strong>
+            <span data-en="Explore the full sensory spectrum — from fruit and floral to earth and oak. Train your palate interactively." data-es="Explora el espectro sensorial completo — de fruta y flor a tierra y roble. Entrena tu paladar de forma interactiva.">Explore the full sensory spectrum — from fruit and floral to earth and oak. Train your palate interactively.</span>
+        </div>
+    </div>
+
+    <!-- ── VAULT PREVIEW — dims the screen and shows a video preview on hover ── -->
+    <div class="vault-preview-overlay" id="vault-preview-overlay">
+        <div class="vault-preview-frame">
+            <video id="vault-preview-video" muted loop playsinline preload="none">
+                <source src="vault-preview.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- ── SPLASH SCREEN ── -->
+    <div id="start-overlay">
+        <p class="splash-intro"><span data-en="LearnSomm shares the hospitality world's professional secrets — so you can taste, talk, and host with real confidence. No certification required. Step into the Cellar... and" data-es="LearnSomm comparte los secretos profesionales del mundo de la hospitalidad — para que puedas degustar, conversar y ser un anfitrión memorable con verdadera confianza. No se requiere certificación. Entra a la Cava... y">LearnSomm shares the hospitality world's professional secrets — so you can taste, talk, and host with real confidence. No certification required. Step into the Cellar... and</span><br><span data-en="Check out the Vault!" data-es="¡Descubre la Bóveda!">Check out the Vault!</span></p>
+        <button class="enter-btn" onclick="enterHub()">
+            <span data-en="Training Hub" data-es="Centro de Entrenamiento">Training Hub</span>
+        </button>
+    </div>
+
+    <!-- ── HUB SCREEN ── -->
+    <div id="hub-screen">
+
+        <!-- TOP LEFT: Wine Aroma Wheel -->
+        <div class="corner-wheel">
+            <div class="corner-img-btn" id="wheel-corner">
+                <!--
+                    WHEEL BUTTON PNG — replace src with your actual file.
+                    Recommended filename: wheel-btn.png
+                    Fallback text button shown if image fails.
+                -->
+                <img src="wheel-btn.png" alt="Wine Aroma Wheel"
+                    onerror="this.style.display='none'; document.getElementById('wheel-fallback').style.display='block';">
+                <button onclick="goToWheel()" aria-label="Open Wine Aroma Wheel"></button>
+            </div>
+            <button id="wheel-fallback" class="corner-btn-fallback" style="display:none;" onclick="goToWheel()">
+                <span data-en="Wine Aroma Wheel" data-es="Rueda de Aromas">Wine Aroma Wheel</span>
+            </button>
+        </div>
+
+        <!-- DEMO PREVIEW — hugs the left edge of the page, sits above the Wine Aroma Wheel description -->
+        <img class="demo-preview-img" src="demo.png" alt="" aria-hidden="true" onerror="this.style.display='none'">
+
+        <!-- TOP RIGHT: The Vault -->
+        <div class="corner-vault">
+            <div class="corner-img-btn" id="vault-corner">
+                <!--
+                    VAULT BUTTON PNG — replace src with your actual file.
+                    Recommended filename: vault-btn.png
+                -->
+                <img src="vault-btn.png" alt="The Vault"
+                    onerror="this.style.display='none'; document.getElementById('vault-fallback').style.display='block';">
+                <button onclick="goToVault()" aria-label="Enter The Vault"></button>
+            </div>
+            <button id="vault-fallback" class="corner-btn-fallback" style="display:none;" onclick="goToVault()">
+                <span data-en="The Vault" data-es="La Bóveda">The Vault</span>
+            </button>
+        </div>
+
+        <!-- TOP CENTRE TITLE -->
+        <div class="hub-name">
+            <span class="hub-name-sub-wrap">
+                <span class="hub-name-sub">
+                    <span class="title-wine" data-en="Wine" data-es="Vino">Wine</span>
+                    <span class="title-amp">&amp;</span>
+                    <span class="title-spirits" data-en="Spirits" data-es="Licores">Spirits</span>
+                </span>
+                <br>
+                <span class="title-rest" data-en="Training Hub" data-es="Centro de Entrenamiento">Training Hub</span>
+            </span>
+        </div>
+
+        <!-- BOTTOM ZONE -->
+        <div class="bottom-zone">
+
+            <!-- Spirits bundle: Learn for Free | spirits row | Browse Bundles -->
+            <div class="spirits-bundle">
+
+                <div class="teaser-left">
+                    <div class="teaser-img-wrap">
+                        <img class="teaser-img-btn earn-img" src="learn-free-btn.png" alt="Learn for Free"
+                            onclick="openAmbassador()"
+                            onerror="this.style.display='none'; document.getElementById('earn-fallback').style.display='inline-block';">
+                        <button id="earn-fallback" class="teaser-btn earn" style="display:none;" onclick="openAmbassador()">
+                            <span data-en="Learn for Free" data-es="Aprende Gratis">Learn for Free</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="teaser-mid-spacer"></div>
+
+                <div class="teaser-right">
+                    <div class="teaser-img-wrap">
+                        <img class="teaser-img-btn buy-img" src="browse-bundles-btn.png" alt="Browse Bundles"
+                            onclick="openGumroad()"
+                            onerror="this.style.display='none'; document.getElementById('browse-fallback').style.display='inline-block';">
+                        <button id="browse-fallback" class="teaser-btn buy" style="display:none;" onclick="openGumroad()">
+                            <span data-en="Browse Bundles" data-es="Ver Paquetes">Browse Bundles</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Spirits row -->
+                <div class="spirits-row">
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/wine" target="_blank" rel="noopener">
+                        <span class="spirit spirit-wine" data-en="Wine" data-es="Vino">Wine</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-wine.png" alt="" onerror="this.style.display='none'"><strong style="color:#d94060;" data-en="Wine Bundle" data-es="Paquete de Vino">Wine Bundle</strong><span data-en="Training Wheels, Aroma & Flavor Cheat Sheets, Food Pairing Guide, Tasting Note Templates, and Sommelier Cocktail Recommendations." data-es="Ruedas de Entrenamiento, Hojas de Aroma y Sabor, Guía de Maridaje, Plantillas de Notas de Cata y Recomendaciones de Cócteles.">Training Wheels, Aroma &amp; Flavor Cheat Sheets, Food Pairing Guide, Tasting Note Templates, and Sommelier Cocktail Recommendations.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/beer" target="_blank" rel="noopener">
+                        <span class="spirit spirit-beer" data-en="Beer" data-es="Cerveza">Beer</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-beer.png" alt="" onerror="this.style.display='none'"><strong style="color:#e8a020;" data-en="Beer Bundle" data-es="Paquete de Cerveza">Beer Bundle</strong><span data-en="Style Training Wheels, Flavor Profile Cheat Sheets, Food Pairing Cards, Brewery Tasting Notes, and Craft Cocktail Recommendations." data-es="Ruedas de Estilo, Hojas de Perfil de Sabor, Tarjetas de Maridaje, Notas de Cata de Cervecería y Recomendaciones de Cócteles Artesanales.">Style Training Wheels, Flavor Profile Cheat Sheets, Food Pairing Cards, Brewery Tasting Notes, and Craft Cocktail Recommendations.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/vodka" target="_blank" rel="noopener">
+                        <span class="spirit spirit-vodka" data-en="Vodka" data-es="Vodka">Vodka</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-vodka.png" alt="" onerror="this.style.display='none'"><strong style="color:#c8ddf5;" data-en="Vodka Bundle" data-es="Paquete de Vodka">Vodka Bundle</strong><span data-en="Distillation Training Wheels, Flavor Cheat Sheets, Classic & Modern Cocktail Recipes, Mixology Tips, and Brand Comparison Guides." data-es="Ruedas de Destilación, Hojas de Sabor, Recetas de Cócteles Clásicos y Modernos, Consejos de Mixología y Guías de Comparación de Marcas.">Distillation Training Wheels, Flavor Cheat Sheets, Classic &amp; Modern Cocktail Recipes, Mixology Tips, and Brand Comparison Guides.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/gin" target="_blank" rel="noopener">
+                        <span class="spirit spirit-gin" data-en="Gin" data-es="Ginebra">Gin</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-gin.png" alt="" onerror="this.style.display='none'"><strong style="color:#7fc8a0;" data-en="Gin Bundle" data-es="Paquete de Ginebra">Gin Bundle</strong><span data-en="Botanical Training Wheels, Style Cheat Sheets, Signature Cocktail Recipes, Tonic Pairing Guide, and Tasting Note Cards." data-es="Ruedas Botánicas, Hojas de Estilo, Recetas de Cócteles Exclusivos, Guía de Maridaje con Tónica y Tarjetas de Cata.">Botanical Training Wheels, Style Cheat Sheets, Signature Cocktail Recipes, Tonic Pairing Guide, and Tasting Note Cards.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/tequila" target="_blank" rel="noopener">
+                        <span class="spirit spirit-tequila" data-en="Tequila" data-es="Tequila">Tequila</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-tequila.png" alt="" onerror="this.style.display='none'"><strong style="color:#e8d850;" data-en="Tequila Bundle" data-es="Paquete de Tequila">Tequila Bundle</strong><span data-en="Agave Training Wheels, Blanco–Añejo Cheat Sheets, Cocktail Recipes, Mezcal Comparison Guide, and Tasting Note Templates." data-es="Ruedas de Agave, Hojas Blanco–Añejo, Recetas de Cócteles, Guía de Comparación de Mezcal y Plantillas de Cata.">Agave Training Wheels, Blanco–Añejo Cheat Sheets, Cocktail Recipes, Mezcal Comparison Guide, and Tasting Note Templates.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/rum" target="_blank" rel="noopener">
+                        <span class="spirit spirit-rum" data-en="Rum" data-es="Ron">Rum</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-rum.png" alt="" onerror="this.style.display='none'"><strong style="color:#d4824a;" data-en="Rum Bundle" data-es="Paquete de Ron">Rum Bundle</strong><span data-en="Regional Training Wheels, Style Cheat Sheets, Classic Tropical Cocktail Recipes, Aging Guide, and Tasting Note Templates." data-es="Ruedas Regionales, Hojas de Estilo, Recetas de Cócteles Tropicales, Guía de Envejecimiento y Plantillas de Cata.">Regional Training Wheels, Style Cheat Sheets, Classic Tropical Cocktail Recipes, Aging Guide, and Tasting Note Templates.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/bourbon" target="_blank" rel="noopener">
+                        <span class="spirit spirit-bourbon" data-en="Bourbon" data-es="Bourbon">Bourbon</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-bourbon.png" alt="" onerror="this.style.display='none'"><strong style="color:#e8b040;" data-en="Bourbon Bundle" data-es="Paquete de Bourbon">Bourbon Bundle</strong><span data-en="Mash Bill Training Wheels, Flavor Cheat Sheets, Whiskey Cocktail Recipes, Distillery Comparison Guide, and Tasting Note Cards." data-es="Ruedas de Mash Bill, Hojas de Sabor, Recetas de Cócteles de Whiskey, Guía de Destilerías y Tarjetas de Cata.">Mash Bill Training Wheels, Flavor Cheat Sheets, Whiskey Cocktail Recipes, Distillery Comparison Guide, and Tasting Note Cards.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/scotch" target="_blank" rel="noopener">
+                        <span class="spirit spirit-scotch" data-en="Scotch" data-es="Scotch">Scotch</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-scotch.png" alt="" onerror="this.style.display='none'"><strong style="color:#c8b890;" data-en="Scotch Bundle" data-es="Paquete de Scotch">Scotch Bundle</strong><span data-en="Regional Training Wheels, Single Malt Cheat Sheets, Food & Cigar Pairing Guide, Classic Cocktail Recipes, and Tasting Note Templates." data-es="Ruedas Regionales, Hojas de Malta Única, Guía de Maridaje con Comida y Puros, Recetas Clásicas y Plantillas de Cata.">Regional Training Wheels, Single Malt Cheat Sheets, Food &amp; Cigar Pairing Guide, Classic Cocktail Recipes, and Tasting Note Templates.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/brandy" target="_blank" rel="noopener">
+                        <span class="spirit spirit-brandy" data-en="Brandy" data-es="Brandy">Brandy</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-brandy.png" alt="" onerror="this.style.display='none'"><strong style="color:#c04060;" data-en="Brandy Bundle" data-es="Paquete de Brandy">Brandy Bundle</strong><span data-en="Cognac & Armagnac Training Wheels, Aging Classification Cheat Sheets, Cocktail Recipes, Food Pairing Cards, and Tasting Note Templates." data-es="Ruedas de Coñac y Armagnac, Hojas de Clasificación, Recetas de Cócteles, Tarjetas de Maridaje y Plantillas de Cata.">Cognac &amp; Armagnac Training Wheels, Aging Classification Cheat Sheets, Cocktail Recipes, Food Pairing Cards, and Tasting Note Templates.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/coffee-tea" target="_blank" rel="noopener">
+                        <span class="spirit spirit-coffee" data-en="Coffee" data-es="Café">Coffee</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-coffee-tea.png" alt="" onerror="this.style.display='none'"><strong style="color:#c89070;" data-en="Coffee &amp; Tea Bundle" data-es="Paquete de Café y Té">Coffee &amp; Tea Bundle</strong><span data-en="Origin & Varietal Training Wheels, Roast & Terroir Cheat Sheets, Brew & Steeping Guides, Coffee and Tea Cocktail & Mocktail Recipes, Food Pairing Guide, and Tasting Note Templates." data-es="Ruedas de Origen y Variedades, Hojas de Tueste y Terruño, Guías de Preparación e Infusión, Recetas de Cócteles y Mocktails de Café y Té, Guía de Maridaje y Plantillas de Cata.">Origin &amp; Varietal Training Wheels, Roast &amp; Terroir Cheat Sheets, Brew &amp; Steeping Guides, Coffee and Tea Cocktail &amp; Mocktail Recipes, Food Pairing Guide, and Tasting Note Templates.</span></div>
+                    </a>
+                    <a class="spirit-link" href="https://marklenington.gumroad.com/l/coffee-tea" target="_blank" rel="noopener">
+                        <span class="spirit spirit-tea" data-en="Tea" data-es="Té">Tea</span>
+                        <img class="mini-wheel" src="mini-wheel.png" alt="">
+                        <div class="spirit-tooltip"><img class="tooltip-bundle-img" src="bundle-coffee-tea.png" alt="" onerror="this.style.display='none'"><strong style="color:#98c870;" data-en="Coffee &amp; Tea Bundle" data-es="Paquete de Café y Té">Coffee &amp; Tea Bundle</strong><span data-en="Origin & Varietal Training Wheels, Roast & Terroir Cheat Sheets, Brew & Steeping Guides, Coffee and Tea Cocktail & Mocktail Recipes, Food Pairing Guide, and Tasting Note Templates." data-es="Ruedas de Origen y Variedades, Hojas de Tueste y Terruño, Guías de Preparación e Infusión, Recetas de Cócteles y Mocktails de Café y Té, Guía de Maridaje y Plantillas de Cata.">Origin &amp; Varietal Training Wheels, Roast &amp; Terroir Cheat Sheets, Brew &amp; Steeping Guides, Coffee and Tea Cocktail &amp; Mocktail Recipes, Food Pairing Guide, and Tasting Note Templates.</span></div>
+                    </a>
+                </div><!-- /spirits-row -->
+            </div><!-- /spirits-bundle -->
+        </div><!-- /bottom-zone -->
+
+    </div><!-- /hub-screen -->
+
+    <!-- ── INQUIRIES MODAL ── -->
+    <div id="inquiries-modal">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+            <h2 class="modal-title" data-en="Let's Work Together" data-es="Trabajemos Juntos">Let's Work Together</h2>
+            <p class="modal-sub" data-en="What can Mark do for you?" data-es="¿Qué puede hacer Mark por ti?">What can Mark do for you?</p>
+            <div class="modal-divider"></div>
+            <div class="inquiry-grid">
+                <div class="inquiry-card" onclick="inquire('btg')">
+                    <span class="inquiry-card-icon">🍷</span>
+                    <span class="inquiry-card-title" data-en="Custom BTG Program" data-es="Programa BTG Personalizado">Custom BTG Program</span>
+                    <p class="inquiry-card-desc" data-en="Bespoke cheat sheets and training materials built for your restaurant or group of concepts. Your staff. Your menu. Your voice." data-es="Materiales diseñados para tu restaurante. Tu equipo. Tu menú. Tu voz.">Bespoke cheat sheets and training materials built for your restaurant or group of concepts. Your staff. Your menu. Your voice.</p>
+                </div>
+                <div class="inquiry-card" onclick="inquire('vault-staff')">
+                    <span class="inquiry-card-icon">🔑</span>
+                    <span class="inquiry-card-title" data-en="Staff Vault Access + Keyring" data-es="Acceso Bóveda + Llavero">Staff Vault Access + Keyring</span>
+                    <p class="inquiry-card-desc" data-en="Digital Vault access plus printed, laminated materials on a keyring in every pocket. Part of the uniform." data-es="Acceso digital a la bóveda más materiales impresos y laminados en un llavero. Parte del uniforme.">Digital Vault access plus printed, laminated materials on a keyring in every pocket. Part of the uniform.</p>
+                </div>
+                <div class="inquiry-card" onclick="inquire('exam')">
+                    <span class="inquiry-card-icon">📋</span>
+                    <span class="inquiry-card-title" data-en="Exam Prep Call" data-es="Llamada de Preparación">Exam Prep Call</span>
+                    <p class="inquiry-card-desc" data-en="Preparing for a certification? Let's map the exact road to where you're going." data-es="¿Preparándote para una certificación? Trazemos juntos el camino exacto.">Preparing for a certification? Let's map the exact road to where you're going.</p>
+                </div>
+                <div class="inquiry-card" onclick="inquire('zoom-tasting')">
+                    <span class="inquiry-card-icon">🎙</span>
+                    <span class="inquiry-card-title" data-en="Zoom Wine Tasting" data-es="Cata de Vino por Zoom">Zoom Wine Tasting</span>
+                    <p class="inquiry-card-desc" data-en="A guided tasting hosted by Mark over Zoom — perfect for friends, a team, or a celebration." data-es="Una cata guiada por Mark vía Zoom — perfecta para amigos, un equipo o una celebración.">A guided tasting hosted by Mark over Zoom — perfect for friends, a team, or a celebration.</p>
+                </div>
+                <div class="inquiry-card" onclick="inquire('wine-cart')">
+                    <span class="inquiry-card-icon">🛒</span>
+                    <span class="inquiry-card-title" data-en="Personal Wine Cart" data-es="Carrito de Vino Personal">Personal Wine Cart</span>
+                    <p class="inquiry-card-desc" data-en="Tell Mark your occasion, palate, and budget. He'll curate a ready-to-pick-up cart at your local wine shop." data-es="Cuéntale tu ocasión, paladar y presupuesto. Él preparará un carrito listo para recoger.">Tell Mark your occasion, palate, and budget. He'll curate a ready-to-pick-up cart at your local wine shop.</p>
+                </div>
+                <div class="inquiry-card" onclick="inquire('corporate')">
+                    <span class="inquiry-card-icon">🏛</span>
+                    <span class="inquiry-card-title" data-en="Corporate Tasting Event" data-es="Evento Corporativo de Cata">Corporate Tasting Event</span>
+                    <p class="inquiry-card-desc" data-en="Fill a room. You bring the wine and the space. Mark handles the rest." data-es="Llena la sala. Tú traes el vino y el espacio. Mark se encarga del resto.">Fill a room. You bring the wine and the space. Mark handles the rest.</p>
+                </div>
+            </div>
+            <div class="modal-pitch">
+                <p class="modal-pitch-text">
+                    <span data-en="Not ready to book? " data-es="¿No listo para reservar? ">Not ready to book? </span>
+                    <strong data-en="Buy any training bundle" data-es="Compra cualquier paquete de entrenamiento">Buy any training bundle</strong>
+                    <span data-en=" from the Gumroad store, or " data-es=" en la tienda Gumroad, o "> from the Gumroad store, or </span>
+                    <strong data-en="Put the Mark in Marketing" data-es="Pon la Marca en el Marketing">Put the Mark in Marketing</strong>
+                    <span data-en=" and earn packs at no cost through the Ambassador Program." data-es=" y gana paquetes sin costo a través del Programa Embajador."> and earn packs at no cost through the Ambassador Program.</span>
+                </p>
+                <div class="modal-pitch-btns">
+                    <button class="modal-pitch-btn buy" onclick="openGumroad()"><span data-en="Browse Bundles" data-es="Ver Paquetes">Browse Bundles</span></button>
+                    <button class="modal-pitch-btn earn" onclick="openAmbassador()"><span data-en="Learn for Free" data-es="Aprende Gratis">Learn for Free</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const video        = document.getElementById('bg-video');
+        const startOverlay = document.getElementById('start-overlay');
+        const hubScreen    = document.getElementById('hub-screen');
+        const modal        = document.getElementById('inquiries-modal');
+        const takeover     = document.getElementById('inquiries-takeover');
+        const inqBtn       = document.getElementById('inquiries-btn');
+        const inqFixedWrap = document.getElementById('inquiries-fixed-wrap');
+
+        /* ── VIDEO LOOP: 0–10s ── */
+        video.addEventListener('timeupdate', () => {
+            if (video.currentTime >= 10) video.currentTime = 0;
+        });
+        document.addEventListener('pointerdown', () => {
+            if (video.paused) video.play().catch(() => {});
+        }, { once: true });
+
+        /* ── ENTER HUB ── */
+        function enterHub() {
+            startOverlay.classList.add('fade-out');
+            video.muted = false; video.volume = 0.55;
+            video.play().catch(() => { video.muted = true; });
+            setTimeout(() => {
+                startOverlay.style.display = 'none';
+                hubScreen.classList.add('visible');
+                inqFixedWrap.classList.add('hub-visible');
+                document.getElementById('center-stack').classList.add('hub-visible');
+            }, 800);
+        }
+
+        /* ── ILLUMINATION HOVER — Learn for Free (left) & Browse Bundles (right) ── */
+        const illumLearn  = document.getElementById('illum-learn');
+        const illumBrowse = document.getElementById('illum-browse');
+        const illumWheel  = document.getElementById('illum-wheel');
+
+        function addIllumHover(selector, panel) {
+            // Match both the PNG img and the fallback button inside .teaser-left/.teaser-right
+            document.querySelectorAll(selector).forEach(el => {
+                el.addEventListener('mouseenter', () => panel.classList.add('show'));
+                el.addEventListener('mouseleave', () => panel.classList.remove('show'));
+            });
+        }
+
+        // teaser-left contains Learn for Free
+        addIllumHover('.teaser-left .teaser-img-btn, .teaser-left .teaser-btn, .teaser-left img', illumLearn);
+        // teaser-right contains Browse Bundles
+        addIllumHover('.teaser-right .teaser-img-btn, .teaser-right .teaser-btn, .teaser-right img', illumBrowse);
+        // Wine Aroma Wheel — info now populates in the background panel underneath/left of the button
+        addIllumHover('#wheel-corner, #wheel-corner img, #wheel-fallback', illumWheel);
+
+        /* ── KEEP BEVERAGE TOOLTIPS ON-SCREEN ── */
+        /* Tooltip is 210px wide, doubles to 420px (scale 2), centered on the link.
+           If that would push it past the viewport edge, shift it inward by --edge-x. */
+        document.querySelectorAll('.spirit-link').forEach(link => {
+            const tooltip = link.querySelector('.spirit-tooltip');
+            if (!tooltip) return;
+            const EDGE_MARGIN = 10;
+            const HALF_W = 210; // 210px base width * scale(2) / 2
+            link.addEventListener('mouseenter', () => {
+                const r = link.getBoundingClientRect();
+                const centerX = r.left + r.width / 2;
+                let edge = 0;
+                if (centerX - HALF_W < EDGE_MARGIN) {
+                    edge = EDGE_MARGIN - (centerX - HALF_W);
+                } else if (centerX + HALF_W > window.innerWidth - EDGE_MARGIN) {
+                    edge = (window.innerWidth - EDGE_MARGIN) - (centerX + HALF_W);
+                }
+                tooltip.style.setProperty('--edge-x', edge + 'px');
+            });
+            link.addEventListener('mouseleave', () => {
+                tooltip.style.setProperty('--edge-x', '0px');
+            });
+        });
+
+        /* ── VAULT HOVER PREVIEW — dims screen, shows centered video ── */
+        const vaultPreview = document.getElementById('vault-preview-overlay');
+        const vaultVideo   = document.getElementById('vault-preview-video');
+        document.querySelectorAll('#vault-corner, #vault-corner img, #vault-fallback').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                vaultPreview.classList.add('show');
+                vaultVideo.play().catch(() => {});
+            });
+            el.addEventListener('mouseleave', () => {
+                vaultPreview.classList.remove('show');
+                vaultVideo.pause();
+            });
+        });
+
+        /* ── NAVIGATION ── */
+        function goToWheel()           { window.location.href = 'training.html'; }
+        function goToVault()           { window.location.href = 'vault.html'; }
+        function goToAmbassadorLogin() { window.location.href = 'training.html'; }
+        function goToConnectLearn()    { window.location.href = 'connect.html'; /* update to your Connect & Learn destination */ }
+        function openGumroad()         { window.open('https://marklenington.gumroad.com', '_blank', 'noopener'); }
+        function openAmbassador()      { window.location.href = 'training.html'; }
+
+        /* ── INQUIRIES TAKEOVER ── */
+        let takeoverOpen = false;
+        function toggleTakeover(e) {
+            e.stopPropagation();
+            takeoverOpen ? closeTakeover() : openTakeover();
+        }
+        function openTakeover() {
+            takeoverOpen = true;
+            takeover.classList.add('open');
+            takeover.setAttribute('aria-hidden','false');
+            inqBtn.classList.add('active');
+        }
+        function closeTakeover() {
+            takeoverOpen = false;
+            takeover.classList.remove('open');
+            takeover.setAttribute('aria-hidden','true');
+            inqBtn.classList.remove('active');
+        }
+        takeover.addEventListener('click', e => {
+            if (e.target === takeover || e.target.id === 'takeover-dismiss') closeTakeover();
+        });
+
+        /* ── MODAL ── */
+        function closeModal() { modal.classList.remove('open'); }
+        modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+        function inquire(type) {
+            const subjects = {
+                'btg':'Custom BTG Program Inquiry','vault-staff':'Staff Vault Access + Keyring Inquiry',
+                'exam':'Exam Prep Call Inquiry','zoom-tasting':'Zoom Wine Tasting Inquiry',
+                'wine-cart':'Personal Wine Cart Inquiry','corporate':'Corporate Tasting Event Inquiry'
+            };
+            closeTakeover(); closeModal();
+            window.location.href = 'mailto:mark@marklenington.com?subject=' + encodeURIComponent(subjects[type] || 'General Inquiry');
+        }
+
+        /* ── ESCAPE KEY ── */
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') { if (takeoverOpen) { closeTakeover(); return; } closeModal(); }
+            const k = (e.key||'').toUpperCase();
+            if (e.key==='F12'||((e.ctrlKey||e.metaKey)&&e.shiftKey&&['I','J','C','K'].includes(k))||((e.ctrlKey||e.metaKey)&&['U','S','A','P'].includes(k))) {
+                e.preventDefault(); e.stopPropagation(); return false;
+            }
+        });
+
+        /* ── SECURITY ── */
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart',   e => e.preventDefault());
+        document.addEventListener('copy',        e => e.preventDefault());
+        document.addEventListener('cut',         e => e.preventDefault());
+        document.addEventListener('paste',       e => e.preventDefault());
+        document.addEventListener('selectstart', e => { if (e.target.matches('input,textarea')) return; e.preventDefault(); });
+
+        /* ══════════════════════════════════════════
+           BILINGUAL SYSTEM
+           All translatable elements carry:
+             data-en="English text"
+             data-es="Spanish text"
+           setLang() walks the DOM and swaps text.
+        ══════════════════════════════════════════ */
+        let currentLang = 'en';
+
+        function toggleLang() {
+            setLang(currentLang === 'en' ? 'es' : 'en');
+        }
+
+        function setLang(lang) {
+            currentLang = lang;
+
+            // Single toggle button shows the language you'll switch TO
+            const toggle = document.getElementById('lang-toggle');
+            toggle.textContent = (lang === 'en') ? 'ES' : 'EN';
+            toggle.setAttribute('aria-label', (lang === 'en') ? 'Switch to Spanish' : 'Switch to English');
+
+            // Update <html lang> attribute for accessibility
+            document.documentElement.lang = lang;
+
+            // Walk every element with a data-en attribute
+            document.querySelectorAll('[data-en]').forEach(el => {
+                const text = el.getAttribute('data-' + lang);
+                if (text !== null) {
+                    // If it only contains text (no child elements), swap innerHTML
+                    // Otherwise just swap innerText to avoid clobbering child nodes
+                    if (el.children.length === 0) {
+                        el.textContent = text;
+                    }
+                }
+            });
+
+            /* ── NAMED PNG ALT TEXTS (Spanish) ── */
+            const alts = {
+                'en': {
+                    'wheel-btn':          'Wine Aroma Wheel',
+                    'vault-btn':          'The Vault',
+                    'ambassador-btn':     'Ambassador Log In',
+                    'connect-learn-btn':  'Connect and Learn',
+                    'learn-free-btn':     'Learn for Free',
+                    'browse-bundles-btn': 'Browse Bundles',
+                    'inquiries':          'Inquiries'
+                },
+                'es': {
+                    'wheel-btn':          'Rueda de Aromas del Vino',
+                    'vault-btn':          'La Bóveda',
+                    'ambassador-btn':     'Acceso Embajador',
+                    'connect-learn-btn':  'Conecta y Aprende',
+                    'learn-free-btn':     'Aprende Gratis',
+                    'browse-bundles-btn': 'Ver Paquetes',
+                    'inquiries':          'Consultas'
+                }
+            };
+            // Update alt attributes on PNG images
+            document.querySelectorAll('img[src]').forEach(img => {
+                const base = img.getAttribute('src').replace(/\.png$/,'').replace(/-btn$/,'') + '-btn';
+                const key = Object.keys(alts[lang]).find(k => img.getAttribute('src').startsWith(k));
+                if (key && alts[lang][key]) img.alt = alts[lang][key];
+            });
+        }
+    </script>
+
+</body>
+</html>
