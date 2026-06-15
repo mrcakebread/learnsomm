@@ -12,6 +12,17 @@
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
 
     <script>
+        // FAIL-SAFE: If the security script crashes, show the page anyway after 2 seconds
+        // so you can see what is happening.
+        setTimeout(() => {
+            const gate = document.getElementById('security-gate');
+            if (gate) {
+                console.warn("Security gate failed, forcing reveal.");
+                gate.remove();
+                document.body.style.visibility = 'visible';
+            }
+        }, 2000);
+
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -23,15 +34,13 @@
 
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
-        // Security Gate
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                // SUCCESS: Reveal the portal
                 const gate = document.getElementById('security-gate');
                 if (gate) gate.remove();
                 document.body.style.visibility = 'visible';
             } else {
-                // FAIL: Redirect to root index safely
+                // If not logged in, go to root index.html
                 window.location.replace('/index.html'); 
             }
         });
