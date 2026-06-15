@@ -2,44 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Wheel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beef Cuts Wheel — Mark Lenington</title>
+
     <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+
     <style>
-        /* Only show this if the hub didn't load the user */
         #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
+        /* Include all your existing CSS here below */
+        :root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
+        /* ... paste the rest of your :root and CSS styles here ... */
     </style>
 </head>
-<body>
-    <div id="auth-overlay"></div>
-
-    <script>
-        // Use the same config as Hub
-        const config = {
-            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
-            authDomain: "mark-s-wine-training.firebaseapp.com",
-            projectId: "mark-s-wine-training",
-            storageBucket: "mark-s-wine-training.firebasestorage.app",
-            messagingSenderId: "424279465207",
-            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
-        };
-        firebase.initializeApp(config);
-
-        // Check if the user is already authenticated from the Hub
-        firebase.auth().onAuthStateChanged((user) => {
-            if (user) {
-                document.getElementById('auth-overlay').style.display = 'none';
-            } else {
-                window.top.location.href = 'login.html'; // Redirect the whole page
-            }
-        });
-    </script>
-
+<body data-view="wheel">
 
     <div id="auth-overlay"></div>
 
     <script>
-        // 1. Your config object directly here
+        // 1. Initialize Firebase (Unified)
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -48,14 +29,15 @@
             messagingSenderId: "424279465207",
             appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
-
-        // 2. Initialize
-        firebase.initializeApp(firebaseConfig);
         
-        // 3. The Guard
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+
+        // 2. Authentication Guard
         firebase.auth().onAuthStateChanged(function(user) {
             if (!user) {
-                window.location.href = 'login.html';
+                window.top.location.href = 'login.html';
             } else {
                 document.getElementById('auth-overlay').style.display = 'none';
             }
