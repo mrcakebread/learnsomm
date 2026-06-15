@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LearnSomm | Secure Login</title>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
+    
+    <script defer src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
+
     <style>
         body { background: #000; color: #d4b276; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Georgia, serif; margin: 0; }
         #login-container { text-align: center; border: 1px solid #332; padding: 40px; border-radius: 8px; background: #0a0602; }
@@ -23,23 +25,32 @@
     </div>
 
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
-            authDomain: "mark-s-wine-training.firebaseapp.com",
-            projectId: "mark-s-wine-training",
-            storageBucket: "mark-s-wine-training.firebasestorage.app",
-            messagingSenderId: "424279465207",
-            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
-        };
-        firebase.initializeApp(firebaseConfig);
+        window.onload = function() {
+            const firebaseConfig = {
+                apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+                authDomain: "mark-s-wine-training.firebaseapp.com",
+                projectId: "mark-s-wine-training",
+                storageBucket: "mark-s-wine-training.firebasestorage.app",
+                messagingSenderId: "424279465207",
+                appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+            };
 
-        document.getElementById('login-btn').addEventListener('click', () => {
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            firebase.auth().signInWithEmailAndPassword(email, password)
-                .then(() => { window.location.href = 'hub.html'; })
-                .catch((error) => { alert("Login Error: " + error.message); });
-        });
+            // Ensure Firebase is loaded before initializing
+            if (typeof firebase !== 'undefined') {
+                firebase.initializeApp(firebaseConfig);
+                
+                document.getElementById('login-btn').addEventListener('click', () => {
+                    const email = document.getElementById('email').value;
+                    const password = document.getElementById('password').value;
+                    
+                    firebase.auth().signInWithEmailAndPassword(email, password)
+                        .then(() => { window.location.href = 'hub.html'; })
+                        .catch((error) => { alert("Login Error: " + error.message); });
+                });
+            } else {
+                console.error("Firebase SDK failed to load. Check for browser extensions.");
+            }
+        };
     </script>
 </body>
 </html>
