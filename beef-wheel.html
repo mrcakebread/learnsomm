@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
+   <script>
+    // Standard Firebase scripts in the <head>
+    // ... firebase-app-compat.js
+    // ... firebase-auth-compat.js
+
+    // Use a small delay to ensure the overlay exists
+    window.addEventListener('load', () => {
+        const firebaseConfig = {
+            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+            authDomain: "mark-s-wine-training.firebaseapp.com",
+            projectId: "mark-s-wine-training",
+            storageBucket: "mark-s-wine-training.firebasestorage.app",
+            messagingSenderId: "424279465207",
+            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+        };
+        
+        // Initialize if not already done
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+
+        firebase.auth().onAuthStateChanged((user) => {
+            const overlay = document.getElementById('auth-overlay');
+            if (!user) {
+                window.location.href = 'login.html';
+            } else if (overlay) {
+                // Verification passed: Reveal content
+                overlay.style.display = 'none';
+            }
+        });
+    });
+</script>ebasejs/10.x.x/firebase-auth-compat.js"></script>
     
     <style>
         #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
