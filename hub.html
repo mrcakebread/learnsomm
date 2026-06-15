@@ -23,7 +23,14 @@
     <iframe id="content-frame"></iframe>
 
     <script>
-        const firebaseConfig = { /* Same config object as login.html */ };
+        const firebaseConfig = {
+            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+            authDomain: "mark-s-wine-training.firebaseapp.com",
+            projectId: "mark-s-wine-training",
+            storageBucket: "mark-s-wine-training.firebasestorage.app",
+            messagingSenderId: "424279465207",
+            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+        };
         firebase.initializeApp(firebaseConfig);
 
         firebase.auth().onAuthStateChanged((user) => {
