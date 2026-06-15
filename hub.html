@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSomm | Command Center</title>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth.js"></script>
+    
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; background: #000; color: #d4b276; font-family: Georgia, serif; overflow: hidden; }
+        #nav-row { 
+            height: 45px; background: #0a0602; border-bottom: 1px solid #332; 
+            display: flex; gap: 15px; align-items: center; padding: 0 15px;
+        }
+        .nav-select { 
+            background: #1a1208; color: #d4b276; border: 1px solid #332; 
+            padding: 5px; font-size: 0.7rem; text-transform: uppercase; cursor: pointer;
+        }
+        nav a { color: #d4b276; text-decoration: none; text-transform: uppercase; font-size: 0.75rem; cursor: pointer; padding: 0 5px; }
+        nav a:hover { color: #fff; }
+        #content-frame { width: 100%; height: calc(100vh - 45px); border: none; }
+        .lang-btn { cursor: pointer; background: #1a1208; border: 1px solid #d4b276; color: #d4b276; padding: 5px 10px; border-radius: 4px; font-size: 0.7rem; margin-left: auto; }
+    </style>
+</head>
+<body style="display:none;">
+
+    <div id="nav-row">
+        <nav>
+            <select onchange="load(this.value)" class="nav-select">
+                <option value="" disabled selected data-en="BEVERAGES" data-es="BEBIDAS">BEVERAGES</option>
+                <option value="wine-wheel.html">Wine</option>
+                <option value="beer-wheel.html">Beer</option>
+                <option value="tequila-wheel.html">Tequila</option>
+                <option value="scotch-wheel.html">Scotch</option>
+                <option value="vodka-wheel.html">Vodka</option>
+                <option value="gin-wheel.html">Gin</option>
+                <option value="rum-wheel.html">Rum</option>
+                <option value="brandy-wheel.html">Brandy</option>
+                <option value="coffee-wheel.html">Coffee</option>
+                <option value="tea-wheel.html">Tea</option>
+            </select>
+
+            <select onchange="load(this.value)" class="nav-select">
+                <option value="" disabled selected data-en="FOOD" data-es="COMIDA">FOOD</option>
+                <option value="beef-wheel.html">Beef</option>
+                <option value="seafood-wheel.html">Seafood</option>
+                <option value="sushi-wheel.html">Sushi</option>
+                <option value="charcuterie-wheel.html">Charcuterie</option>
+                <option value="dairy-wheel.html">Dairy</option>
+                <option value="fruitandveg-wheel.html">Fruits & Veg</option>
+            </select>
+
+            <select onchange="load(this.value)" class="nav-select">
+                <option value="" disabled selected data-en="SHEETS" data-es="HOJAS">SHEETS</option>
+                <option value="winecheat.html">Wine</option>
+                <option value="beefcheat.html">Beef</option>
+                <option value="oystercheat.html">Oysters</option>
+                <option value="bourboncheat.html">Bourbon</option>
+            </select>
+
+            <a onclick="load('deductive.html')" data-en="REF" data-es="REF">

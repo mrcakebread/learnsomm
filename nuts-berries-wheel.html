@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<!-- LearnSomm Wheel — Nuts & Berries Wheel — prod-28 — v9 (reference wheel) -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuts & Berries Wheel · learnsomm.com</title>
+
+
+<style>
+:root{--display:'Optima','Candara','Gill Sans','Gill Sans MT','Segoe UI',sans-serif;--serif:'Avenir Next','Avenir','Century Gothic','Futura','Trebuchet MS',sans-serif;}
+[data-theme="dark"]{--display:'Baskerville','Baskerville Old Face','Hoefler Text','Big Caslon','Palatino Linotype',serif;--serif:'Iowan Old Style','Palatino Linotype','Palatino','Book Antiqua','Cambria',Georgia,serif;}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+:root,[data-theme="light"]{--bg:#faf8f3;--text:#2b251d;--muted:#857966;--line:#e2dacb;--panel:#fff;--accent:#8a5a2a;--gold:#a87f3d;--sep:#faf8f3;--hub:#fffdf8;--hub-text:#6b573a;--badge-bg:#f4eee2;--badge-line:#d8cdb8;--shadow:0 8px 30px rgba(80,60,30,.14);}
+[data-theme="dark"]{--bg:#16130e;--text:#e9e2d4;--muted:#9a8d78;--line:#393226;--panel:#1e1a14;--accent:#c9a96e;--gold:#d4b276;--sep:#16130e;--hub:#211c14;--hub-text:#d8c294;--badge-bg:#2a241a;--badge-line:#4a4030;--shadow:0 10px 34px rgba(0,0,0,.55);}
+html{background:var(--bg);}
+body{font-family:var(--serif);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;transition:background .25s,color .25s;}
+
+.topbar{width:100%;max-width:1100px;display:flex;justify-content:flex-end;gap:.5rem;padding:.7rem 1rem 0;}
+.topbar button{background:none;border:1px solid var(--line);color:var(--muted);font-family:inherit;font-size:.75rem;border-radius:6px;padding:.35rem .7rem;cursor:pointer;}
+.topbar button:hover{color:var(--text);border-color:var(--muted);}
+h1{font-size:1.4rem;font-weight:400;letter-spacing:.04em;padding:.2rem 1rem .15rem;text-align:center;}
+.byline{font-size:.78rem;color:var(--muted);text-align:center;margin-bottom:.2rem;}
+.byline em{color:var(--accent);font-style:italic;}
+.spin-hint{font-size:.72rem;color:var(--muted);text-align:center;margin-bottom:.55rem;}
+.controls{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;justify-content:center;border:1px solid var(--line);border-radius:8px;padding:.4rem .9rem;margin-bottom:1rem;max-width:96vw;background:var(--panel);}
+.controls .ctl-label{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+.controls button{background:none;border:1px solid var(--line);color:var(--text);font-family:inherit;font-size:.9rem;line-height:1;border-radius:6px;padding:.32rem .65rem;cursor:pointer;min-width:2.1rem;min-height:2.1rem;}
+.controls button:hover{border-color:var(--gold);color:var(--accent);}
+.controls button:focus-visible{outline:2px solid var(--gold);outline-offset:1px;}
+.controls input[type=range]{width:150px;accent-color:var(--gold);cursor:pointer;}
+.size-ctl{display:flex;align-items:center;gap:.55rem;}
+.view-toggle{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;}
+.view-toggle button{border:none;border-radius:0;min-width:3.4rem;}
+.view-toggle button.active{background:var(--badge-bg);color:var(--accent);font-weight:bold;}
+.layout{display:flex;gap:0;width:100%;max-width:1180px;align-items:flex-start;padding:0 1rem 2.5rem;justify-content:center; position:relative;}
+.wheel-wrap{flex:0 0 auto;display:flex;justify-content:center;}
+#svgContainer { position: relative; line-height: 0; }
+
+#wheelSvg{cursor:grab;user-select:none;touch-action:none;filter:drop-shadow(var(--shadow));}
+#wheelSvg:active{cursor:grabbing;}
+#wheelSvg .cell{stroke:var(--sep);stroke-width:1.5;}
+#wheelSvg .desc-seg{cursor:pointer;transition:filter .15s;}
+#wheelSvg .desc-seg:hover{filter:brightness(1.12) saturate(1.05);}
+#wheelSvg .desc-seg.selected{stroke:var(--gold);stroke-width:2.4;}
+#wheelSvg .hub{fill:var(--hub);stroke:var(--gold);stroke-width:1.4;}
+#wheelSvg .hub-text{fill:var(--hub-text);}
+#wheelSvg .rim{fill:none;stroke:var(--line);stroke-width:1;}
+@media (prefers-reduced-motion:reduce){#wheelSvg .desc-seg{transition:none;}}
+
+#listView{position: relative; display:none; flex:0 1 auto; width:min(720px,94vw); transition: opacity 0.3s, filter 0.3s;}
+#listView.active{display:block;}
+#listSearch{width:100%;padding:.55rem .85rem;font-family:inherit;font-size:.92rem;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--text);margin-bottom:1rem;}
+#listSearch:focus{outline:none;border-color:var(--gold);}
+.cat-block{margin-bottom:1rem;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;}
+.cat-head{display:flex;align-items:center;gap:.45rem;font-size:.74rem;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;}
+.cat-dot{width:.7rem;height:.7rem;border-radius:3px;flex:0 0 auto;}
+.sub-group{margin-bottom:.5rem;}
+.sub-label{font-size:.64rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);opacity:.8;margin-bottom:.3rem;}
+.chip-row{display:flex;flex-wrap:wrap;gap:.4rem;}
+.list-chip{font-size:.82rem;font-family:inherit;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.32rem .62rem;cursor:pointer;color:var(--text);}
+.list-chip:hover{border-color:var(--gold);color:var(--accent);}
+.list-chip:focus-visible{outline:2px solid var(--gold);outline-offset:1px;}
+.list-chip.selected{border-color:var(--gold);background:var(--badge-bg);color:var(--accent);font-weight:bold;}
+#noResults{display:none;color:var(--muted);font-style:italic;font-size:.88rem;padding:.4rem 0;}
+
+.detail-panel{flex:1;min-width:280px;max-width:380px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.3rem 1.5rem;min-height:360px;margin-left:1.4rem; transition: opacity 0.3s; z-index:60; position:relative;}
+.panel-header{display:flex;align-items:center;justify-content:space-between;gap:.6rem;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;margin:-1.3rem -1.5rem 1rem;padding:.5rem .9rem .45rem;border-bottom:1px solid var(--line);border-radius:9px 9px 0 0;}
+.panel-header:active{cursor:grabbing;}
+.panel-header .grip-title{font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);}
+.panel-header .grip-dots{color:var(--line);letter-spacing:2px;margin-right:.4rem;}
+.panel-header button{background:none;border:1px solid var(--line);color:var(--text);font-family:inherit;font-size:.66rem;border-radius:5px;padding:.22rem .5rem;cursor:pointer;display:none;}
+.panel-header button:hover{border-color:var(--gold);color:var(--accent);}
+.detail-panel.floating{position:fixed;z-index:60;margin:0;width:min(380px,92vw);max-height:80vh;overflow-y:auto;box-shadow:var(--shadow);border-color:var(--gold);}
+.detail-panel.floating .panel-header{position:sticky;top:0;z-index:2;background:var(--panel);}
+.detail-panel.floating .panel-header button{display:inline-block;}
+.detail-panel h2{font-size:1.3rem;margin-bottom:.15rem;font-weight:400;font-style:italic;color:var(--accent);}
+.detail-panel h2 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--gold);}
+.detail-panel h2 a:hover,.detail-panel h2 a:focus-visible{border-bottom-style:solid;color:var(--gold);outline:none;}
+.wiki-mark{font-size:.6em;margin-left:.28rem;font-style:normal;color:var(--gold);vertical-align:super;}
+.detail-panel .category-tag{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;}
+.section-title{font-size:.66rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin:.85rem 0 .25rem;font-weight:bold;border-bottom:1px solid var(--line);padding-bottom:2px;}
+.body-text{font-size:.85rem;line-height:1.65;color:var(--text);}
+.flag-note{font-size:.74rem;color:var(--gold);background:var(--badge-bg);border:1px solid var(--gold);border-radius:6px;padding:.5rem .7rem;margin-top:.6rem;line-height:1.5;}
+.grid-list{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.3rem;}
+.grid-badge{font-size:.74rem;background:var(--badge-bg);border:1px solid var(--gold);padding:.18rem .5rem;border-radius:4px;}
+.placeholder{color:var(--muted);font-size:.95rem;margin-top:2.5rem;text-align:center;font-style:italic;}
+@media(max-width:800px){.layout{flex-direction:column;align-items:center;}.detail-panel{margin-left:0;margin-top:1rem;width:100%;max-width:95vw;}h1{font-size:1.15rem;}}
+
+/* Hub center: logo + hover mirror */
+#hubCenter{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:18.5%;height:18.5%;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:5;}
+#hubLogo{max-width:88%;max-height:88%;opacity:1;transition:opacity .18s;display:none;}
+#hubMirror{position:absolute;inset:-30% -55%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-family:var(--display);font-weight:bold;color:var(--hub-text);line-height:1.08;opacity:0;transition:opacity .15s;text-shadow:0 1px 6px var(--hub);}
+#hubMirror.show{opacity:1;}
+#hubCenter.mirroring #hubLogo{opacity:0;}
+#svgContainer.has-logo .hub-text{opacity:0;}
+/* Background echo: giant readable mirror, desktop only */
+#bgEcho{position:fixed;top:.4rem;left:1rem;font-family:var(--display);font-weight:bold;font-size:clamp(2.4rem,7vw,5.8rem);color:var(--hub-text);opacity:0;transition:opacity .2s;pointer-events:none;z-index:0;line-height:1;max-width:55vw;letter-spacing:.02em;}
+#bgEcho.show{opacity:.13;}
+@media(max-width:800px){#bgEcho{display:none;}}
+
+/* deploy: selection lockdown */
+body{user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;}
+input,textarea{user-select:text;-webkit-user-select:text;-moz-user-select:text;}
+</style>
+
+<style id="enhancements">
+/* pill controls */
+.pill-btn{font-family:inherit;font-size:.82rem;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.32rem .7rem;cursor:pointer;color:var(--text);}
+.pill-btn.on{background:var(--badge-bg);color:var(--accent);border-color:var(--gold);font-weight:bold;}
+.mode-toggle button{min-width:2.7rem;}
+/* label glow toggle */
+#wheelSvg.label-glow text{filter:drop-shadow(0 0 1.3px var(--gold)) drop-shadow(0 0 3px var(--gold));}
+/* hub-mirror glow (center hover) handled inline */
+#hubMirror.glow{filter:drop-shadow(0 0 4px currentColor) drop-shadow(0 0 9px currentColor);}
+/* ── docked wheel modes (desktop) ── */
+body[data-view="wheel"][data-mode="dock-left"] .layout,
+body[data-view="wheel"][data-mode="dock-right"] .layout{display:block;max-width:none;padding:0;}
+body[data-view="wheel"][data-mode="dock-left"] #wheelWrap,
+body[data-view="wheel"][data-mode="dock-right"] #wheelWrap{position:fixed;top:130px;bottom:54px;width:60vw;display:flex;align-items:center;overflow:hidden;pointer-events:none;z-index:15;}
+body[data-view="wheel"][data-mode="dock-left"] #wheelWrap{left:0;justify-content:flex-start;}
+body[data-view="wheel"][data-mode="dock-right"] #wheelWrap{right:0;justify-content:flex-end;}
+body[data-view="wheel"][data-mode="dock-left"] #svgContainer{transform:translateX(-40%);pointer-events:auto;}
+body[data-view="wheel"][data-mode="dock-right"] #svgContainer{transform:translateX(40%);pointer-events:auto;}
+body[data-view="wheel"][data-mode="dock-left"] #detailPanel{position:fixed;top:130px;right:0;width:min(380px,38vw);max-height:calc(100vh - 150px);overflow:auto;z-index:30;margin:0;border-radius:10px 0 0 10px;}
+body[data-view="wheel"][data-mode="dock-right"] #detailPanel{position:fixed;top:130px;left:0;width:min(380px,38vw);max-height:calc(100vh - 150px);overflow:auto;z-index:30;margin:0;border-radius:0 10px 10px 0;}
+/* read-point chip */
+#readPoint{position:fixed;display:none;z-index:28;background:var(--panel);border:1px solid var(--gold);border-radius:8px;padding:.3rem .65rem;font-weight:bold;font-family:var(--display);letter-spacing:.05em;box-shadow:var(--shadow);cursor:pointer;pointer-events:auto;max-width:26vw;text-align:center;transform:translate(-50%,-50%);}
+#readPoint::before{content:"\25c0";opacity:.5;margin-right:.3rem;}
+body[data-view="wheel"][data-mode="dock-right"] #readPoint::before{content:"\25b6";}
+body[data-view="wheel"][data-mode="dock-left"] #readPoint,
+body[data-view="wheel"][data-mode="dock-right"] #readPoint{display:block;}
+/* detached move handle */
+#wheelMove{position:fixed;display:none;z-index:28;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.22rem .6rem;font-size:.74rem;color:var(--muted);cursor:move;pointer-events:auto;user-select:none;}
+body[data-view="wheel"][data-mode="detached"] .wheel-move{display:block;}
+#wheelMove2{padding:.22rem .5rem;}
+/* ── collapsible list ── */
+.sub-toggle{display:flex;align-items:center;gap:.45rem;width:100%;text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.34rem .6rem;cursor:pointer;color:var(--text);font-family:inherit;font-size:.82rem;margin:.18rem 0;}
+.sub-toggle:hover{border-color:var(--gold);}
+.sub-caret{display:inline-block;transition:transform .15s;color:var(--accent);font-size:.7rem;}
+.sub-group.expanded .sub-caret{transform:rotate(90deg);}
+.sub-group .chip-row{display:none;margin:.35rem 0 .2rem;}
+.sub-group.expanded .chip-row{display:flex;}
+#listBody.searching .sub-group .chip-row{display:flex;}
+#listBody.searching .sub-caret{transform:rotate(90deg);}
+#listBody.cols{column-width:250px;column-gap:1rem;}
+#listBody.cols .cat-block{break-inside:avoid;}
+/* contact */
+.contact-bar{max-width:1100px;margin:0 auto 1.4rem;padding:.7rem 1rem;text-align:center;font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);}
+.contact-bar a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--gold);margin:0 .55rem;white-space:nowrap;}
+.contact-bar a:hover{color:var(--gold);}
+.contact-bar .lead{display:block;margin-bottom:.35rem;color:var(--text);font-style:italic;}
+.detail-panel .contact{margin-top:1rem;padding-top:.7rem;border-top:1px solid var(--line);font-size:.8rem;}
+.detail-panel .contact a{display:inline-block;margin:.1rem .5rem .1rem 0;color:var(--accent);border-bottom:1px dotted var(--gold);text-decoration:none;}
+.noob-fact{font-size:.92rem;line-height:1.5;}
+/* responsive: docked falls back to centered/stacked on narrow screens */
+@media (max-width:820px){
+  body[data-view="wheel"][data-mode="dock-left"] .layout,
+  body[data-view="wheel"][data-mode="dock-right"] .layout{display:flex;flex-direction:column;align-items:center;padding:0 1rem 2.5rem;}
+  body[data-view="wheel"][data-mode="dock-left"] #wheelWrap,
+  body[data-view="wheel"][data-mode="dock-right"] #wheelWrap{position:static;width:auto;overflow:visible;pointer-events:auto;}
+  body[data-view="wheel"][data-mode="dock-left"] #svgContainer,
+  body[data-view="wheel"][data-mode="dock-right"] #svgContainer{transform:none;}
+  body[data-view="wheel"][data-mode="dock-left"] #detailPanel,
+  body[data-view="wheel"][data-mode="dock-right"] #detailPanel{position:static;width:100%;max-width:95vw;margin-top:1rem;max-height:none;}
+  body[data-view="wheel"][data-mode="dock-left"] #readPoint,
+  body[data-view="wheel"][data-mode="dock-right"] #readPoint{display:none;}
+}
+</style>
+
+<style id="rev2">
+.detail-panel h2{font-size:1.62rem;}
+.detail-panel .category-tag{font-size:.8rem;}
+.section-title{font-size:.82rem !important;}
+.body-text{font-size:1.06rem;line-height:1.62;}
+.noob-fact{font-size:1.0rem;}
+.funfact{font-size:1.04rem;line-height:1.55;background:var(--badge-bg);border:1px solid var(--gold);border-left-width:4px;border-radius:8px;padding:.6rem .8rem;margin:.2rem 0 .9rem;}
+.funfact .ff-label{display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:bold;margin-bottom:.25rem;}
+/* bgEcho hover text: lighter in dark, darker in light */
+[data-theme="dark"] #bgEcho{color:#efe6d4;opacity:.16;}
+[data-theme="light"] #bgEcho{color:#3a2f20;opacity:.13;}
+#bgEcho.show{opacity:var(--echo-op,.15);}
+[data-theme="dark"] #bgEcho.show{opacity:.17;}
+[data-theme="light"] #bgEcho.show{opacity:.14;}
+/* center: logo only, mirror text removed */
+#hubMirror{display:none !important;}
+#hubLogo{display:block;}
+/* spin tally chip */
+#spinTally{font-size:.72rem;color:var(--muted);margin-left:.1rem;white-space:nowrap;}
+/* context-sensitive control visibility handled by JS adding body[data-view] scoping */
+body[data-view="list"] #spinBtn,
+body[data-view="list"] #glowBtn,
+body[data-view="list"] .mode-toggle,
+body[data-view="list"] #spinTally{display:none;}
+body[data-view="wheel"] #listLayoutBtn{display:none;}
+</style>
+
+<style id="rev3">
+/* contact links pinned bottom-middle at all times */
+.contact-bar{position:fixed;left:50%;bottom:0;transform:translateX(-50%);z-index:70;
+  margin:0;border-top:none;border:1px solid var(--line);border-bottom:none;border-radius:10px 10px 0 0;
+  background:var(--panel);box-shadow:0 -2px 10px rgba(0,0,0,.08);padding:.45rem 1.1rem;max-width:96vw;white-space:nowrap;overflow-x:auto;}
+.contact-bar .lead{display:inline;margin:0 .6rem 0 0;font-style:italic;color:var(--muted);font-size:.82rem;}
+.contact-bar a{margin:0 .5rem;}
+/* keep docked wheel + panel clear of the pinned contact bar */
+body[data-view="wheel"][data-mode="dock-left"] #wheelWrap,
+body[data-view="wheel"][data-mode="dock-right"] #wheelWrap{bottom:52px;}
+body[data-view="wheel"][data-mode="dock-left"] #detailPanel,
+body[data-view="wheel"][data-mode="dock-right"] #detailPanel{max-height:calc(100vh - 196px);}
+.layout{padding-bottom:64px;}
+/* topbar: lighter controls, larger focus button */
+.topbar button{color:var(--muted);opacity:.72;border-color:var(--line);transition:opacity .15s,color .15s;}
+.topbar button:hover{opacity:1;color:var(--accent);border-color:var(--gold);}
+#fsBtn{font-size:1.35rem !important;padding:.28rem .6rem !important;line-height:1;}
+</style>
+
+<style id="rev4">
+/* hide old h1/title space; logo carries the name */
+#h1title{display:none !important;}
+.byline{text-align:center;font-size:.74rem;color:var(--muted);padding:.2rem 1rem .4rem;margin-top:2px;}
+/* clear fixed top cluster */
+body{padding-top:60px;}
+/* ===== unified fixed top-right control cluster ===== */
+.topctl{position:fixed;top:0;right:0;z-index:200;display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;
+  gap:.4rem;padding:.5rem .7rem;background:linear-gradient(to left,var(--panel) 70%,transparent);max-width:100vw;}
+.topctl button{font-family:inherit;font-size:.8rem;background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:.3rem .6rem;cursor:pointer;color:var(--text);}
+.topctl .view-toggle button{border:none;border-radius:0;}
+.topctl #langBtn,.topctl #themeBtn{color:var(--muted);opacity:.72;}
+.topctl #langBtn:hover,.topctl #themeBtn:hover{opacity:1;color:var(--accent);border-color:var(--gold);}
+.topctl-div{width:1px;height:22px;background:var(--line);margin:0 .15rem;}
+.size-ctl{display:flex;align-items:center;gap:.25rem;}
+#zoomSlider{width:120px;}
+/* Wheel Format dropdown */
+.wf-wrap{position:relative;}
+#wfMenu{position:absolute;top:calc(100% + 4px);right:0;background:var(--panel);border:1px solid var(--gold);border-radius:8px;
+  box-shadow:var(--shadow);display:none;flex-direction:column;min-width:150px;overflow:hidden;z-index:210;}
+#wfMenu.open{display:flex;}
+#wfMenu button{border:none;border-radius:0;text-align:left;padding:.55rem .8rem;background:var(--panel);}
+#wfMenu button:hover,#wfMenu button.on{background:var(--badge-bg);color:var(--accent);}
+#wheelFormat.on{border-color:var(--gold);color:var(--accent);}
+/* focus button (injected) sizing already handled; ensure it lands in cluster */
+.topctl #fsBtn{font-size:1.3rem !important;padding:.2rem .55rem !important;line-height:1;}
+/* ===== spins counter — top-right background ===== */
+#spinsBg{position:fixed;top:3.2rem;right:1rem;z-index:0;pointer-events:none;font-family:var(--display);font-weight:bold;
+  font-size:clamp(1.6rem,4.4vw,3.4rem);line-height:1;text-align:right;letter-spacing:.02em;opacity:0;transition:opacity .25s;}
+#spinsBg.show{opacity:1;}
+[data-theme="dark"] #spinsBg{color:#efe6d4;opacity:.13;}
+[data-theme="light"] #spinsBg{color:#3a2f20;opacity:.11;}
+[data-theme="dark"] #spinsBg.show{opacity:.16;}
+[data-theme="light"] #spinsBg.show{opacity:.13;}
+#spinsBg .sc-num{font-size:1.5em;}
+[data-theme="dark"] #spinsBg.flash{opacity:.3 !important;}
+[data-theme="light"] #spinsBg.flash{opacity:.26 !important;}
+#spinsBg.flash{transition:opacity .12s;}
+#spinsBg .sc-lab{display:block;font-size:.4em;letter-spacing:.18em;text-transform:uppercase;opacity:.8;}
+/* ===== read-point magnifier +50% ===== */
+#readPoint{font-size:1.5rem;padding:.45rem 1rem;border-width:2px;max-width:34vw;}
+#readPoint::before{font-size:.8em;}
+/* show read-point in FREE mode too (default right side) */
+body[data-view="wheel"][data-mode="detached"] #readPoint{display:block;}
+/* ===== tasting-notes card: larger by default + resizable when floating ===== */
+.detail-panel{max-width:440px;min-width:320px;}
+.body-text{font-size:1.14rem;line-height:1.66;}
+.detail-panel h2{font-size:1.78rem;}
+.funfact{font-size:1.1rem;}
+.detail-panel.floating{resize:both;overflow:auto;width:min(440px,94vw);min-width:300px;min-height:280px;max-height:90vh;}
+.detail-panel.floating::after{content:"\21F2";position:absolute;right:4px;bottom:2px;color:var(--muted);font-size:.85rem;pointer-events:none;}
+/* docked panels start below the fixed cluster */
+body[data-view="wheel"][data-mode="dock-left"] #wheelWrap,
+body[data-view="wheel"][data-mode="dock-right"] #wheelWrap{top:118px;}
+body[data-view="wheel"][data-mode="dock-left"] #detailPanel,
+body[data-view="wheel"][data-mode="dock-right"] #detailPanel{top:118px;}
+@media(max-width:820px){ body{padding-top:96px;} }
+</style>
+
+<style id="rev5">
+/* bgEcho: wrap + length-based sizing so any message fits */
+#bgEcho{white-space:normal;max-width:46vw;line-height:1.05;}
+#bgEcho.len-s{font-size:clamp(2.2rem,6.5vw,5.4rem);}      /* <=12 chars: big */
+#bgEcho.len-m{font-size:clamp(1.5rem,4.2vw,3.3rem);}      /* 13-24 */
+#bgEcho.len-l{font-size:clamp(1.05rem,2.8vw,2.1rem);}     /* 25-40 */
+#bgEcho.len-xl{font-size:clamp(.85rem,2.1vw,1.5rem);}     /* >40 */
+/* spins counter: always visible + proportionate (never huge, never clipped) */
+#spinsBg{font-size:clamp(1.3rem,3vw,2.4rem);max-width:30vw;overflow:visible;}
+[data-theme="dark"] #spinsBg{opacity:.26;}
+[data-theme="light"] #spinsBg{opacity:.22;}
+[data-theme="dark"] #spinsBg.show{opacity:.28;}
+[data-theme="light"] #spinsBg.show{opacity:.24;}
+#spinsBg .sc-num{font-size:1.35em;}
+#spinsBg .sc-line{display:block;}
+#spinsBg .sc-lab{display:block;font-size:.34em;letter-spacing:.16em;text-transform:uppercase;opacity:.85;margin-top:.1em;}
+/* doubled-size controls: Reset, Language, Theme, Focus */
+.topctl #zoomReset,.topctl #langBtn,.topctl #themeBtn,.topctl #fsBtn{
+  font-size:1.5rem !important;padding:.5rem .85rem !important;line-height:1;border-radius:8px;}
+.topctl #fsBtn{font-size:1.7rem !important;}
+/* wheel-format menu separator */
+.wf-sep{height:1px;background:var(--line);margin:.25rem 0;}
+#freeSideBtn{font-size:.82rem;color:var(--accent);}
+</style>
+</head>
+<body data-view="wheel">
+<div id="bgEcho" aria-hidden="true"></div>
+ 
+
+<div id="spinsBg" aria-hidden="true"></div>
+<div class="topctl" id="topctl">
+  <span class="view-toggle" role="group" aria-label="View mode">
+    <button id="viewWheel" type="button" class="active">Wheel</button>
+    <button id="viewList" type="button">List</button>
+  </span>
+  <span class="wf-wrap">
+    <button id="wheelFormat" type="button" class="pill-btn" aria-haspopup="true" aria-expanded="false">◑ Wheel Format ▾</button>
+    <div id="wfMenu" role="menu">
+      <button id="modeDockL" type="button" role="menuitem">◧ Dock Left</button>
+      <button id="modeDockR" type="button" role="menuitem">◨ Dock Right</button>
+      <button id="modeFree" type="button" role="menuitem">⤢ Free Move</button>
+      <div class="wf-sep"></div>
+      <button id="freeSideBtn" type="button" role="menuitem" title="Which side reads upright in Free mode">↔ Free reads: Right</button>
+    </div>
+  </span>
+  <button id="spinBtn" type="button" class="pill-btn" title="Spin to a random descriptor">↻ Spin</button>
+  <button id="glowBtn" type="button" class="pill-btn" title="Toggle label glow">✨ Glow</button>
+  <button id="listLayoutBtn" type="button" class="pill-btn" title="List layout: vertical / columns">▤ Cols</button>
+  <span class="size-ctl" id="sizeCtl">
+    <button id="zoomOut" type="button" aria-label="Shrink">−</button>
+    <input type="range" id="zoomSlider" min="280" max="2200" step="10" value="1360" aria-label="Wheel size">
+    <button id="zoomIn" type="button" aria-label="Enlarge">+</button>
+    <button id="zoomReset" type="button">Reset</button>
+  </span>
+  <span class="topctl-div"></span>
+  <button id="langBtn" type="button" title="Language">ES</button>
+  <button id="themeBtn" type="button" title="Theme">☾</button>
+</div>
+<div class="byline" id="byline"></div>
+<div class="spin-hint" id="spinHint" style="display:none"></div>
+<span id="spinTally" style="display:none"></span>
+<div class="layout">
+  
+  <div class="wheel-wrap" id="wheelWrap">
+    <div id="svgContainer">
+        <div id="hubCenter"><img id="hubLogo" alt="Mark Lenington" draggable="false"><div id="hubMirror" aria-live="polite"></div></div>
+        <svg id="wheelSvg" viewBox="-334 -334 668 668" width="560" height="560" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+  
+  <div id="readPoint" aria-live="polite"></div>
+  <div id="wheelMove" class="wheel-move" title="Drag to move wheel">✥ move</div>
+  <div id="wheelMove2" class="wheel-move" title="Drag to move wheel">✥</div>
+  <div id="listView">
+    <input id="listSearch" type="search" aria-label="Search">
+    <div id="listBody"></div>
+    <div id="noResults"></div>
+  </div>
+  
+  <div class="detail-panel" id="detailPanel">
+    <div class="panel-header" id="panelGrip">
+      <span class="grip-title"><span class="grip-dots">⠿</span><span id="gripLabel">Notes</span></span>
+      <button id="panelDock" type="button">⤺ Dock</button>
+    </div>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<div class="contact-bar" id="contactBar"></div>
+<script>
+// JSON DATA REMAINS UNTOUCHED
+const DATA={"categories": [{"name": "RICH & BUTTERY NUTS", "name_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "color": "#c9a36a", "sub": [{"name": "RICH & BUTTERY NUTS", "name_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "color": "#c9a36a", "descriptors": [{"name": "Macadamia", "name_es": "Macadamia", "slug": "macadamia"}, {"name": "Pecan", "name_es": "Pacana", "slug": "pecan"}, {"name": "Cashew", "name_es": "Anacardo", "slug": "cashew"}, {"name": "Pine Nut", "name_es": "Piñón", "slug": "pine-nut"}]}]}, {"name": "SWEET & VERSATILE NUTS", "name_es": "FRUTOS SECOS DULCES Y VERSÁTILES", "color": "#d9b87a", "sub": [{"name": "SWEET & VERSATILE NUTS", "name_es": "FRUTOS SECOS DULCES Y VERSÁTILES", "color": "#d9b87a", "descriptors": [{"name": "Almond", "name_es": "Almendra", "slug": "almond"}, {"name": "Hazelnut", "name_es": "Avellana", "slug": "hazelnut"}, {"name": "Pistachio", "name_es": "Pistacho", "slug": "pistachio"}]}]}, {"name": "BOLD & DISTINCTIVE NUTS", "name_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS", "color": "#8a5a2b", "sub": [{"name": "BOLD & DISTINCTIVE NUTS", "name_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS", "color": "#8a5a2b", "descriptors": [{"name": "Walnut", "name_es": "Nuez", "slug": "walnut"}, {"name": "Brazil Nut", "name_es": "Nuez de Brasil", "slug": "brazil-nut"}, {"name": "Chestnut", "name_es": "Castaña", "slug": "chestnut"}]}]}, {"name": "LEGUMES & SEEDS", "name_es": "LEGUMBRES Y SEMILLAS", "color": "#b9923e", "sub": [{"name": "LEGUMES & SEEDS", "name_es": "LEGUMBRES Y SEMILLAS", "color": "#b9923e", "descriptors": [{"name": "Peanut", "name_es": "Cacahuete", "slug": "peanut"}, {"name": "Pumpkin Seed (Pepita)", "name_es": "Semilla de Calabaza (Pepita)", "slug": "pumpkin-seed"}, {"name": "Sunflower Seed", "name_es": "Semilla de Girasol", "slug": "sunflower-seed"}, {"name": "Sesame", "name_es": "Sésamo", "slug": "sesame"}, {"name": "Chia Seed", "name_es": "Semilla de Chía", "slug": "chia-seed"}, {"name": "Flaxseed", "name_es": "Linaza", "slug": "flaxseed"}, {"name": "Hemp Seed", "name_es": "Semilla de Cáñamo", "slug": "hemp-seed"}]}]}, {"name": "TRUE & GARDEN BERRIES", "name_es": "BAYAS DE JARDÍN", "color": "#b3324a", "sub": [{"name": "TRUE & GARDEN BERRIES", "name_es": "BAYAS DE JARDÍN", "color": "#b3324a", "descriptors": [{"name": "Strawberry", "name_es": "Fresa", "slug": "strawberry"}, {"name": "Blueberry", "name_es": "Arándano Azul", "slug": "blueberry"}, {"name": "Raspberry", "name_es": "Frambuesa", "slug": "raspberry"}, {"name": "Blackberry", "name_es": "Mora", "slug": "blackberry"}]}]}, {"name": "TART & COOKING BERRIES", "name_es": "BAYAS ÁCIDAS Y DE COCINA", "color": "#8c2f3a", "sub": [{"name": "TART & COOKING BERRIES", "name_es": "BAYAS ÁCIDAS Y DE COCINA", "color": "#8c2f3a", "descriptors": [{"name": "Cranberry", "name_es": "Arándano Rojo", "slug": "cranberry"}, {"name": "Gooseberry", "name_es": "Grosella Espinosa", "slug": "gooseberry"}, {"name": "Black Currant", "name_es": "Grosella Negra", "slug": "black-currant"}, {"name": "Boysenberry", "name_es": "Boysenberry", "slug": "boysenberry"}]}]}, {"name": "WILD & FORAGED BERRIES", "name_es": "BAYAS SILVESTRES", "color": "#5a2a5e", "sub": [{"name": "WILD & FORAGED BERRIES", "name_es": "BAYAS SILVESTRES", "color": "#5a2a5e", "descriptors": [{"name": "Mulberry", "name_es": "Mora de Árbol", "slug": "mulberry"}, {"name": "Elderberry", "name_es": "Saúco", "slug": "elderberry"}, {"name": "Saskatoon Berry (Juneberry)", "name_es": "Baya de Saskatoon", "slug": "saskatoon"}, {"name": "Cloudberry", "name_es": "Mora Ártica", "slug": "cloudberry"}, {"name": "Salmonberry", "name_es": "Baya de Salmón", "slug": "salmonberry"}]}]}, {"name": "GLOBAL SUPERFRUIT BERRIES", "name_es": "SUPERBAYAS DEL MUNDO", "color": "#3a4a8c", "sub": [{"name": "GLOBAL SUPERFRUIT BERRIES", "name_es": "SUPERBAYAS DEL MUNDO", "color": "#3a4a8c", "descriptors": [{"name": "Goji Berry", "name_es": "Baya de Goji", "slug": "goji"}, {"name": "Açaí", "name_es": "Açaí", "slug": "acai"}, {"name": "Bilberry", "name_es": "Arándano Negro", "slug": "bilberry"}]}]}]};
+const DESCRIPTIONS={"macadamia": {"cat": "RICH & BUTTERY NUTS", "cat_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "origin": "Sweet, buttery, and delicate with a faint coconut richness — the mildest, creamiest of the nuts.", "origin_es": "Dulce, mantecoso y delicado, con un leve toque de coco — el más suave y cremoso de los frutos secos.", "chemistry": "A crisp snap giving way to a soft, almost melting interior. Very high oil content.", "chemistry_es": "Un crujido nítido que da paso a un interior blando, casi fundente. Muy alto contenido de aceite.", "pairing": "White chocolate, tropical fruit, vanilla, coffee. Lovely with a buttery Chardonnay.", "pairing_es": "Chocolate blanco, fruta tropical, vainilla, café. Excelente con un Chardonnay mantecoso.", "mixology": "Cookies (the classic white-chocolate macadamia), nut crusts for fish, brittle, eaten raw and salted.", "mixology_es": "Galletas (la clásica de chocolate blanco y macadamia), costras para pescado, crocante, comida cruda y salada.", "examples": "Native to Australia; the seed of an evergreen tree, with one of the hardest shells in the nut world.", "examples_es": "Originaria de Australia; semilla de un árbol perenne, con una de las cáscaras más duras del mundo."}, "pecan": {"cat": "RICH & BUTTERY NUTS", "cat_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "origin": "Rich, sweet, and mellow with a gentle maple-butter warmth. Less tannic than walnut.", "origin_es": "Rica, dulce y suave, con una calidez de mantequilla y arce. Menos tánica que la nuez.", "chemistry": "Tender and oily, with a fine crumble when toasted.", "chemistry_es": "Tierna y aceitosa, con un desmenuzado fino al tostarse.", "pairing": "Maple, brown butter, bourbon, caramel. Excellent with aged rum or tawny Port.", "pairing_es": "Arce, mantequilla tostada, bourbon, caramelo. Excelente con ron añejo u Oporto tawny.", "mixology": "Pecan pie, pralines, candied and spiced, sprinkled over salads and sweet potatoes.", "mixology_es": "Tarta de pacana, pralinés, confitada y especiada, sobre ensaladas y batatas.", "examples": "A hickory native to North America — the only major tree nut indigenous to the United States.", "examples_es": "Un nogal americano (hickory) — el único fruto seco de árbol importante nativo de EE. UU."}, "cashew": {"cat": "RICH & BUTTERY NUTS", "cat_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "origin": "Mild, sweet, and creamy with a subtle savory depth. Almost neutral and very food-friendly.", "origin_es": "Suave, dulce y cremoso, con una sutil profundidad salada. Casi neutro y muy versátil.", "chemistry": "Soft and dense; blends to a silky cream when soaked.", "chemistry_es": "Blando y denso; se licúa en una crema sedosa al remojarse.", "pairing": "Coconut milk, curry spices, dates, chili. Rounds out a Riesling or off-dry white.", "pairing_es": "Leche de coco, especias de curry, dátiles, chile. Redondea un Riesling o un blanco semiseco.", "mixology": "Stir-fries, cashew butter, dairy-free creams and cheeses, snacking, Indian korma.", "mixology_es": "Salteados, mantequilla de anacardo, cremas y quesos sin lácteos, picoteo, korma india.", "examples": "The kidney-shaped seed that grows outside the cashew apple; never sold truly raw, as the shell oil is caustic.", "examples_es": "La semilla en forma de riñón que crece fuera de la manzana de marañón; nunca se vende cruda de verdad, pues el aceite de la cáscara es cáustico."}, "pine-nut": {"cat": "RICH & BUTTERY NUTS", "cat_es": "FRUTOS SECOS RICOS Y MANTECOSOS", "origin": "Delicate, sweet, and resinous with a soft buttery finish. Mild but distinctive.", "origin_es": "Delicado, dulce y resinoso, con un final mantecoso. Suave pero distintivo.", "chemistry": "Tender and waxy; toasts to a light, fragrant crunch.", "chemistry_es": "Tierno y ceroso; se tuesta a un crujido ligero y fragante.", "pairing": "Basil, Parmesan, olive oil, golden raisins. Anchors pesto; pairs with crisp Italian whites.", "pairing_es": "Albahaca, parmesano, aceite de oliva, pasas. Base del pesto; combina con blancos italianos frescos.", "mixology": "Pesto Genovese, toasted over salads and pasta, baklava, Middle Eastern rice.", "mixology_es": "Pesto genovés, tostado sobre ensaladas y pasta, baklava, arroces de Oriente Medio.", "examples": "The edible seed harvested from inside pine cones — labor-intensive, which makes it one of the costliest 'nuts.'", "examples_es": "La semilla comestible que se extrae del interior de las piñas — laboriosa de cosechar, lo que la hace uno de los 'frutos secos' más caros."}, "almond": {"cat": "SWEET & VERSATILE NUTS", "cat_es": "FRUTOS SECOS DULCES Y VERSÁTILES", "origin": "Sweet, clean, and faintly floral, with a gentle marzipan note when ground.", "origin_es": "Dulce, limpia y levemente floral, con un toque de mazapán al molerse.", "chemistry": "Firm and crisp raw; creamy as butter or milk, fine and powdery as flour.", "chemistry_es": "Firme y crujiente en crudo; cremosa como mantequilla o leche, fina como harina.", "pairing": "Stone fruit, honey, cherry, citrus. Classic with sherry and dessert wines.", "pairing_es": "Frutas de hueso, miel, cereza, cítricos. Clásica con jerez y vinos de postre.", "mixology": "Marzipan, almond-flour baking, milk, butter, praline, crusting fish.", "mixology_es": "Mazapán, repostería con harina de almendra, leche, mantequilla, praliné, costras de pescado.", "examples": "The seed of a drupe in the rose family — kin to peaches and cherries, not a true nut.", "examples_es": "La semilla de una drupa de la familia de las rosas — pariente del melocotón y la cereza, no un fruto seco verdadero."}, "hazelnut": {"cat": "SWEET & VERSATILE NUTS", "cat_es": "FRUTOS SECOS DULCES Y VERSÁTILES", "origin": "Warm, sweet, and toasty with deep roasted-cocoa character. Intensifies with toasting.", "origin_es": "Cálida, dulce y tostada, con profundo carácter de cacao. Se intensifica al tostarse.", "chemistry": "Hard and crunchy; grinds to a rich, oily paste.", "chemistry_es": "Dura y crujiente; se muele en una pasta rica y aceitosa.", "pairing": "Chocolate (the gianduja marriage), brown butter, espresso, pear.", "pairing_es": "Chocolate (el matrimonio gianduja), mantequilla tostada, espresso, pera.", "mixology": "Nutella and gianduja, praline, dacquoise, dukkah, roasted over salads.", "mixology_es": "Nutella y gianduja, praliné, dacquoise, dukkah, tostada sobre ensaladas.", "examples": "A true botanical nut from the filbert tree; Turkey grows the lion's share of the world crop.", "examples_es": "Un fruto seco botánico verdadero del avellano; Turquía produce la mayor parte de la cosecha mundial."}, "pistachio": {"cat": "SWEET & VERSATILE NUTS", "cat_es": "FRUTOS SECOS DULCES Y VERSÁTILES", "origin": "Sweet, faintly resinous, and savory with a distinctive green, grassy note.", "origin_es": "Dulce, levemente resinoso y sabroso, con una nota verde y herbácea distintiva.", "chemistry": "Firm, slightly chewy, with a satisfying snap.", "chemistry_es": "Firme, algo masticable, con un crujido satisfactorio.", "pairing": "Rosewater, cardamom, citrus, white chocolate. Bright with dry rosé or Moscato.", "pairing_es": "Agua de rosas, cardamomo, cítricos, chocolate blanco. Vivo con rosado seco o Moscato.", "mixology": "Baklava, gelato, studding mortadella, crusts, Persian and Sicilian sweets.", "mixology_es": "Baklava, gelato, mortadela, costras, dulces persas y sicilianos.", "examples": "The seed of a desert tree in the cashew family; the shell splits open naturally as it ripens.", "examples_es": "La semilla de un árbol del desierto de la familia del anacardo; la cáscara se abre sola al madurar."}, "walnut": {"cat": "BOLD & DISTINCTIVE NUTS", "cat_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS", "origin": "Rich, earthy, and slightly bitter, with a tannic edge in the papery skin.", "origin_es": "Rica, terrosa y algo amarga, con un borde tánico en la piel apergaminada.", "chemistry": "Crisp and oily; the skin adds astringency that mellows when toasted.", "chemistry_es": "Crujiente y aceitosa; la piel aporta astringencia que se suaviza al tostarse.", "pairing": "Blue cheese, honey, fig, coffee. A classic partner for Port and aged reds.", "pairing_es": "Queso azul, miel, higo, café. Compañera clásica del Oporto y los tintos añejos.", "mixology": "Baking, candied, salads, walnut oil, sauces (nogada, tarator), cheese boards.", "mixology_es": "Repostería, confitada, ensaladas, aceite de nuez, salsas (nogada, tarator), tablas de queso.", "examples": "An ancient tree nut grown for millennia across Persia and Europe; the meat looks like two brain-like halves.", "examples_es": "Un fruto seco antiguo, cultivado durante milenios en Persia y Europa; el fruto parece dos mitades cerebrales."}, "brazil-nut": {"cat": "BOLD & DISTINCTIVE NUTS", "cat_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS", "origin": "Rich, creamy, and faintly sweet, with a milky, coconut-like depth.", "origin_es": "Rica, cremosa y levemente dulce, con una profundidad láctea parecida al coco.", "chemistry": "Dense, firm, and very oily; large and meaty.", "chemistry_es": "Densa, firme y muy aceitosa; grande y carnosa.", "pairing": "Dark chocolate, sea salt, tropical fruit.", "pairing_es": "Chocolate negro, sal marina, fruta tropical.", "mixology": "Snacking, baking, chopped into bark and granola, nut milks.", "mixology_es": "Picoteo, repostería, troceada en barras y granola, leches vegetales.", "examples": "Harvested wild from giant Amazon rainforest trees; among the richest natural sources of selenium, so a couple a day is plenty.", "examples_es": "Cosechada de forma silvestre en gigantescos árboles del Amazonas; de las fuentes naturales más ricas en selenio, así que un par al día basta."}, "chestnut": {"cat": "BOLD & DISTINCTIVE NUTS", "cat_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS", "origin": "Sweet, earthy, and starchy — more like a vegetable or grain than an oily nut.", "origin_es": "Dulce, terrosa y almidonada — más parecida a una verdura o cereal que a un fruto seco aceitoso.", "chemistry": "Firm raw; soft, floury, and tender when roasted or boiled. Low in fat.", "chemistry_es": "Firme en crudo; blanda, harinosa y tierna asada o hervida. Baja en grasa.", "pairing": "Brussels sprouts, sage, cream, chocolate, game meats. Lovely with mulled wine.", "pairing_es": "Coles de Bruselas, salvia, nata, chocolate, carnes de caza. Deliciosa con vino caliente especiado.", "mixology": "Roasted whole, puréed (Mont Blanc), stuffing, soups, candied as marrons glacés.", "mixology_es": "Asada entera, en puré (Mont Blanc), rellenos, sopas, confitada como marrons glacés.", "examples": "A true nut and the only one treated as a starch; it must be cooked, never eaten raw in quantity.", "examples_es": "Un fruto seco verdadero y el único tratado como almidón; debe cocinarse, nunca comerse cruda en cantidad."}, "peanut": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Rich, roasty, and savory-sweet — the deepest 'nutty' flavor of all, despite not being a nut.", "origin_es": "Rico, tostado y dulce-salado — el sabor más 'a fruto seco' de todos, aunque no lo sea.", "chemistry": "Crisp and crumbly roasted; smooth or chunky as butter.", "chemistry_es": "Crujiente y desmenuzable tostado; cremoso o con trozos como mantequilla.", "pairing": "Chocolate, chili, lime, soy, banana.", "pairing_es": "Chocolate, chile, lima, soja, plátano.", "mixology": "Peanut butter, satay and other sauces, brittle, boiled (Southern U.S.), snacking.", "mixology_es": "Mantequilla de cacahuete, salsas tipo satay, crocante, hervido (sur de EE. UU.), picoteo.", "examples": "A legume that flowers above ground then ripens its pods underground; kin to peas and beans.", "examples_es": "Una legumbre que florece sobre la tierra y madura sus vainas bajo tierra; pariente de guisantes y frijoles."}, "pumpkin-seed": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Nutty, green, and mildly sweet with a savory toasted depth.", "origin_es": "A fruto seco, verde y suavemente dulce, con profundidad sabrosa al tostarse.", "chemistry": "Chewy with a tender snap; flat and easy to toast.", "chemistry_es": "Masticable con un crujido tierno; plana y fácil de tostar.", "pairing": "Lime, chili, cilantro, dark greens. Central to Mexican pipián and mole verde.", "pairing_es": "Lima, chile, cilantro, verduras de hoja. Esencial en el pipián y el mole verde mexicanos.", "mixology": "Toasted and salted, pepita brittle, granola, ground into Mexican sauces, salad topping.", "mixology_es": "Tostada y salada, crocante de pepita, granola, molida en salsas mexicanas, sobre ensaladas.", "examples": "The hulled green seed of pumpkins and squash; called 'pepita' in Mexican cooking.", "examples_es": "La semilla verde sin cáscara de calabazas; llamada 'pepita' en la cocina mexicana."}, "sunflower-seed": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Mild, nutty, and faintly sweet with a clean finish.", "origin_es": "Suave, a fruto seco y levemente dulce, con un final limpio.", "chemistry": "Tender crunch; grinds to a smooth seed butter.", "chemistry_es": "Crujido tierno; se muele en una mantequilla de semilla suave.", "pairing": "Honey, dried fruit, whole grains.", "pairing_es": "Miel, fruta seca, cereales integrales.", "mixology": "Snacking in-shell, seed butter (sunbutter), bread and granola, salad topping.", "mixology_es": "Picoteo con cáscara, mantequilla de semilla (sunbutter), pan y granola, sobre ensaladas.", "examples": "The seed of the sunflower; a common school-safe alternative where tree nuts and peanuts are banned.", "examples_es": "La semilla del girasol; alternativa habitual y segura donde se prohíben los frutos secos y el cacahuete."}, "sesame": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Warm, nutty, and aromatic; toasting brings out deep roasted intensity.", "origin_es": "Cálido, a fruto seco y aromático; el tostado revela una intensidad profunda.", "chemistry": "Tiny and crisp; grinds to silky tahini.", "chemistry_es": "Diminuto y crujiente; se muele en tahini sedoso.", "pairing": "Honey, soy, citrus, eggplant. Foundational across the Middle East and East Asia.", "pairing_es": "Miel, soja, cítricos, berenjena. Fundamental en Oriente Medio y Asia Oriental.", "mixology": "Tahini, halva, hummus, gomashio, bun and bagel topping, sesame oil.", "mixology_es": "Tahini, halva, hummus, gomashio, sobre panes y bagels, aceite de sésamo.", "examples": "One of the oldest cultivated oilseeds; its pods burst open when ripe — the original 'open sesame.'", "examples_es": "Una de las oleaginosas cultivadas más antiguas; sus vainas se abren al madurar — el original 'ábrete sésamo.'"}, "chia-seed": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Nearly neutral with a faint nutty note; a flavor carrier more than a flavor.", "origin_es": "Casi neutra, con un leve toque a fruto seco; más un vehículo de sabor que un sabor.", "chemistry": "Tiny and crunchy dry; swells into a gel when soaked.", "chemistry_es": "Diminuta y crujiente en seco; se hincha en un gel al remojarse.", "pairing": "Berries, coconut, citrus, oats.", "pairing_es": "Bayas, coco, cítricos, avena.", "mixology": "Chia pudding, smoothies, egg substitute in baking, thickening jams.", "mixology_es": "Pudín de chía, batidos, sustituto del huevo en repostería, para espesar mermeladas.", "examples": "The seed of a Central American sage, prized by the Aztec and Maya; rich in plant omega-3s.", "examples_es": "La semilla de una salvia centroamericana, apreciada por aztecas y mayas; rica en omega-3 vegetal."}, "flaxseed": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Mild, nutty, and slightly bitter; toasting softens the edge.", "origin_es": "Suave, a fruto seco y algo amarga; el tostado atenúa el filo.", "chemistry": "Hard whole (best ground); forms a gel when milled and wet.", "chemistry_es": "Dura entera (mejor molida); forma un gel al molerse y humedecerse.", "pairing": "Whole grains, oats, cinnamon, honey.", "pairing_es": "Cereales integrales, avena, canela, miel.", "mixology": "Ground into baking, smoothies, vegan egg binder, sprinkled on cereal.", "mixology_es": "Molida en repostería, batidos, ligante de huevo vegano, sobre el cereal.", "examples": "An ancient fiber-and-oil crop (linseed); one of the richest plant sources of ALA omega-3.", "examples_es": "Un antiguo cultivo de fibra y aceite (lino); una de las fuentes vegetales más ricas en omega-3 ALA."}, "hemp-seed": {"cat": "LEGUMES & SEEDS", "cat_es": "LEGUMBRES Y SEMILLAS", "origin": "Soft, nutty, and grassy with a gentle pine note. Mild and creamy.", "origin_es": "Suave, a fruto seco y herbácea, con un leve toque a pino. Suave y cremosa.", "chemistry": "Tender and oily; no need to grind — the hulled hearts are soft.", "chemistry_es": "Tierna y aceitosa; no hace falta molerla — los corazones pelados son blandos.", "pairing": "Salads, smoothies, citrus, herbs.", "pairing_es": "Ensaladas, batidos, cítricos, hierbas.", "mixology": "Sprinkled raw over bowls and salads, hemp milk, pressed for oil, protein powder.", "mixology_es": "Cruda sobre bowls y ensaladas, leche de cáñamo, prensada para aceite, proteína en polvo.", "examples": "The hulled seed of the hemp plant; a complete plant protein with no THC.", "examples_es": "La semilla pelada de la planta de cáñamo; una proteína vegetal completa y sin THC."}, "strawberry": {"cat": "TRUE & GARDEN BERRIES", "cat_es": "BAYAS DE JARDÍN", "origin": "Sweet, bright, and floral with a soft acidity; the most universally loved berry flavor.", "origin_es": "Dulce, brillante y floral, con una acidez suave; el sabor de baya más querido del mundo.", "chemistry": "Juicy and tender, with tiny crunchy seeds on the surface.", "chemistry_es": "Jugosa y tierna, con diminutas semillas crujientes en la superficie.", "pairing": "Cream, balsamic, basil, black pepper, Champagne.", "pairing_es": "Nata, balsámico, albahaca, pimienta negra, champán.", "mixology": "Eaten fresh, shortcake, jam, macerated, salads, sorbet.", "mixology_es": "Fresca, shortcake, mermelada, macerada, ensaladas, sorbete.", "examples": "Botanically an 'accessory fruit,' not a true berry — its seeds sit on the outside.", "examples_es": "Botánicamente una 'fruta accesoria', no una baya verdadera — sus semillas van por fuera."}, "blueberry": {"cat": "TRUE & GARDEN BERRIES", "cat_es": "BAYAS DE JARDÍN", "origin": "Sweet-tart and mild with a gentle floral depth; wild ones are more intense.", "origin_es": "Dulce-ácido y suave, con una leve profundidad floral; los silvestres son más intensos.", "chemistry": "Firm skin that pops into soft, juicy flesh.", "chemistry_es": "Piel firme que revienta en una pulpa blanda y jugosa.", "pairing": "Lemon, vanilla, maple, yogurt, oats.", "pairing_es": "Limón, vainilla, arce, yogur, avena.", "mixology": "Muffins and pancakes, pie, jam, eaten fresh, smoothies.", "mixology_es": "Muffins y panqueques, tarta, mermelada, fresco, batidos.", "examples": "A true berry native to North America; the deep blue color comes from anthocyanin pigments.", "examples_es": "Una baya verdadera nativa de Norteamérica; el azul intenso proviene de pigmentos antocianinas."}, "raspberry": {"cat": "TRUE & GARDEN BERRIES", "cat_es": "BAYAS DE JARDÍN", "origin": "Perfumed, sweet-tart, and intense with a delicate floral lift.", "origin_es": "Perfumada, dulce-ácida e intensa, con un delicado matiz floral.", "chemistry": "Soft, hollow, and fragile; a cluster of tiny juicy drupelets.", "chemistry_es": "Blanda, hueca y frágil; un racimo de diminutas drupas jugosas.", "pairing": "Chocolate, peach, almond, rose. Beautiful with sparkling wine.", "pairing_es": "Chocolate, melocotón, almendra, rosa. Preciosa con vino espumoso.", "mixology": "Fresh, coulis, jam, tarts, vinegar, eau-de-vie.", "mixology_es": "Fresca, coulis, mermelada, tartas, vinagre, aguardiente.", "examples": "An aggregate fruit (many drupelets), not a true berry; comes in red, black, and golden.", "examples_es": "Una fruta agregada (muchas drupas), no una baya verdadera; la hay roja, negra y dorada."}, "blackberry": {"cat": "TRUE & GARDEN BERRIES", "cat_es": "BAYAS DE JARDÍN", "origin": "Deep, sweet-tart, and winey with a faint earthy note.", "origin_es": "Profunda, dulce-ácida y vinosa, con un leve toque terroso.", "chemistry": "Juicy and seedy, firmer than raspberry, with a glossy skin.", "chemistry_es": "Jugosa y con semillas, más firme que la frambuesa, de piel brillante.", "pairing": "Apple, sage, dark chocolate, game. Echoes the fruit in a Cabernet or Zinfandel.", "pairing_es": "Manzana, salvia, chocolate negro, caza. Refleja la fruta de un Cabernet o Zinfandel.", "mixology": "Cobbler, jam, pie, sauces for meat, eaten fresh.", "mixology_es": "Cobbler, mermelada, tarta, salsas para carne, fresca.", "examples": "Like the raspberry, an aggregate of drupelets on a bramble; the core stays inside when picked.", "examples_es": "Como la frambuesa, un agregado de drupas en una zarza; el corazón se queda dentro al recogerla."}, "cranberry": {"cat": "TART & COOKING BERRIES", "cat_es": "BAYAS ÁCIDAS Y DE COCINA", "origin": "Sharp, tart, and astringent raw; bright and tangy once sweetened.", "origin_es": "Punzante, ácido y astringente en crudo; brillante y vivo una vez endulzado.", "chemistry": "Firm and dense with a crisp pop; rarely eaten raw.", "chemistry_es": "Firme y denso, con un estallido crujiente; rara vez se come crudo.", "pairing": "Orange, turkey, cinnamon, Brie.", "pairing_es": "Naranja, pavo, canela, Brie.", "mixology": "Sauce and relish, juice, dried (craisins), baking, glazes.", "mixology_es": "Salsa y chutney, zumo, seco (craisins), repostería, glaseados.", "examples": "A North American bog berry that floats and bounces when ripe; harvested by flooding the fields.", "examples_es": "Una baya de turbera norteamericana que flota y rebota al madurar; se cosecha inundando los campos."}, "gooseberry": {"cat": "TART & COOKING BERRIES", "cat_es": "BAYAS ÁCIDAS Y DE COCINA", "origin": "Sharp and tart when green, sweet and tropical when fully ripe; grassy and bright.", "origin_es": "Punzante y ácida en verde, dulce y tropical bien madura; herbácea y brillante.", "chemistry": "Firm, translucent skin with juicy, seedy flesh.", "chemistry_es": "Piel firme y translúcida, con pulpa jugosa y con semillas.", "pairing": "Elderflower, mackerel, cream, custard.", "pairing_es": "Flor de saúco, caballa, nata, crema pastelera.", "mixology": "Fools and crumbles, jam, chutney, savory sauces for oily fish.", "mixology_es": "Fools y crumbles, mermelada, chutney, salsas para pescado azul.", "examples": "A European and North American shrub berry, often striped; a British garden classic.", "examples_es": "Una baya de arbusto europea y norteamericana, a menudo rayada; un clásico del jardín británico."}, "black-currant": {"cat": "TART & COOKING BERRIES", "cat_es": "BAYAS ÁCIDAS Y DE COCINA", "origin": "Intense, tart, and musky-aromatic with a deep, almost savory perfume.", "origin_es": "Intensa, ácida y de aroma almizclado, con un perfume profundo, casi sabroso.", "chemistry": "Firm-skinned and juicy; seedy and bold.", "chemistry_es": "De piel firme y jugosa; con semillas y carácter.", "pairing": "Cream, dark chocolate, game, cassis liqueur.", "pairing_es": "Nata, chocolate negro, caza, licor de casis.", "mixology": "Cassis (liqueur and syrup), jam, sauces for duck and venison, cordials.", "mixology_es": "Casis (licor y sirope), mermelada, salsas para pato y venado, cordiales.", "examples": "A European shrub berry; the base of crème de cassis and the Kir cocktail.", "examples_es": "Una baya de arbusto europea; la base de la crème de cassis y el cóctel Kir."}, "boysenberry": {"cat": "TART & COOKING BERRIES", "cat_es": "BAYAS ÁCIDAS Y DE COCINA", "origin": "Sweet-tart and winey, like a deeper blackberry with a raspberry perfume.", "origin_es": "Dulce-ácida y vinosa, como una mora más profunda con perfume de frambuesa.", "chemistry": "Large, soft, and very juicy with a tender seed.", "chemistry_es": "Grande, blanda y muy jugosa, con una semilla tierna.", "pairing": "Vanilla, cream, citrus, lemon.", "pairing_es": "Vainilla, nata, cítricos, limón.", "mixology": "Pie and cobbler, jam, syrup, ice cream.", "mixology_es": "Tarta y cobbler, mermelada, sirope, helado.", "examples": "A 20th-century cross of blackberry, raspberry, and loganberry, named for grower Rudolph Boysen.", "examples_es": "Un cruce del siglo XX de mora, frambuesa y loganberry, llamado así por el cultivador Rudolph Boysen."}, "mulberry": {"cat": "WILD & FORAGED BERRIES", "cat_es": "BAYAS SILVESTRES", "origin": "Honey-sweet and mild with low acidity; black types are richest, white the sweetest.", "origin_es": "Dulce como la miel y suave, de baja acidez; las negras son más ricas, las blancas más dulces.", "chemistry": "Soft, juicy, and delicate with a long stem; it stains everything.", "chemistry_es": "Blanda, jugosa y delicada, con un tallo largo; lo mancha todo.", "pairing": "Cream, citrus, almond, other berries.", "pairing_es": "Nata, cítricos, almendra, otras bayas.", "mixology": "Eaten fresh off the tree, jam, pies, dried as a snack.", "mixology_es": "Fresca del árbol, mermelada, tartas, seca como tentempié.", "examples": "A tree fruit (a collective fruit, not a true berry); the white mulberry feeds silkworms.", "examples_es": "Un fruto de árbol (fruto colectivo, no baya verdadera); la morera blanca alimenta al gusano de seda."}, "elderberry": {"cat": "WILD & FORAGED BERRIES", "cat_es": "BAYAS SILVESTRES", "origin": "Tart, earthy, and faintly bitter; deepens to wine-like richness when cooked.", "origin_es": "Ácida, terrosa y levemente amarga; se vuelve vinosa y rica al cocinarse.", "chemistry": "Tiny and seedy in big drooping clusters.", "chemistry_es": "Diminuta y con semillas, en grandes racimos colgantes.", "pairing": "Citrus, apple, warm spices, cream.", "pairing_es": "Cítricos, manzana, especias cálidas, nata.", "mixology": "Syrup, cordial, wine, jam, pies — always cooked.", "mixology_es": "Sirope, cordial, vino, mermelada, tartas — siempre cocida.", "examples": "Raw elderberries (and the stems and leaves) are mildly toxic and must be cooked before eating.", "examples_es": "El saúco crudo (y los tallos y hojas) es levemente tóxico y debe cocinarse antes de comerse."}, "saskatoon": {"cat": "WILD & FORAGED BERRIES", "cat_es": "BAYAS SILVESTRES", "origin": "Sweet, mild, and nutty with a soft almond note; tastes like a gentler blueberry.", "origin_es": "Dulce, suave y a fruto seco, con un toque de almendra; sabe a un arándano más delicado.", "chemistry": "Soft and juicy with tiny tender seeds.", "chemistry_es": "Blanda y jugosa, con diminutas semillas tiernas.", "pairing": "Cream, vanilla, other berries, game.", "pairing_es": "Nata, vainilla, otras bayas, caza.", "mixology": "Pies and crumbles, jam, dried, traditional pemmican (with dried meat).", "mixology_es": "Tartas y crumbles, mermelada, seca, pemmican tradicional (con carne seca).", "examples": "A Prairie shrub fruit that's botanically a tiny pome — closer to an apple than a berry.", "examples_es": "Un fruto de arbusto de las praderas, botánicamente un pomo diminuto — más cercano a la manzana que a una baya."}, "cloudberry": {"cat": "WILD & FORAGED BERRIES", "cat_es": "BAYAS SILVESTRES", "origin": "Tart, floral, and honeyed with a distinctive baked-apple-and-citrus perfume.", "origin_es": "Ácida, floral y melosa, con un perfume distintivo de manzana asada y cítricos.", "chemistry": "Soft, juicy, and amber; delicate when ripe.", "chemistry_es": "Blanda, jugosa y ambarina; delicada al madurar.", "pairing": "Cream, mild cheese, Nordic spirits. A Scandinavian delicacy.", "pairing_es": "Nata, queso suave, licores nórdicos. Un manjar escandinavo.", "mixology": "Jam, liqueur (lakka), sauces for cheese, desserts.", "mixology_es": "Mermelada, licor (lakka), salsas para queso, postres.", "examples": "A low Arctic bramble fruit (amber-gold), foraged in the bogs of Scandinavia and the far north.", "examples_es": "Un fruto de zarza ártica (dorado ámbar), recolectado en las turberas de Escandinavia y el extremo norte."}, "salmonberry": {"cat": "WILD & FORAGED BERRIES", "cat_es": "BAYAS SILVESTRES", "origin": "Mild, sweet, and lightly floral with low acidity; subtle and watery.", "origin_es": "Suave, dulce y ligeramente floral, de baja acidez; sutil y acuosa.", "chemistry": "Soft and juicy, like a blush or orange raspberry.", "chemistry_es": "Blanda y jugosa, como una frambuesa rosada o anaranjada.", "pairing": "Cream, honey, other foraged berries.", "pairing_es": "Nata, miel, otras bayas silvestres.", "mixology": "Eaten fresh, jam, mixed with other berries; a Pacific Northwest forage.", "mixology_es": "Fresca, mermelada, mezclada con otras bayas; recolección del noroeste del Pacífico.", "examples": "A Rubus (raspberry kin) of the Pacific coast; colors range from gold to salmon to red.", "examples_es": "Un Rubus (pariente de la frambuesa) de la costa del Pacífico; sus colores van del dorado al salmón y al rojo."}, "goji": {"cat": "GLOBAL SUPERFRUIT BERRIES", "cat_es": "SUPERBAYAS DEL MUNDO", "origin": "Sweet-tart and faintly herbal, almost tomato-like; mellower when dried.", "origin_es": "Dulce-ácida y levemente herbal, casi como tomate; más suave en seco.", "chemistry": "Chewy and leathery dried (how it's usually sold); soft when fresh.", "chemistry_es": "Masticable y correosa en seco (como suele venderse); blanda en fresco.", "pairing": "Tea, citrus, other dried fruit, nuts.", "pairing_es": "Té, cítricos, otra fruta seca, frutos secos.", "mixology": "Trail mix and granola, teas and tonics, broths, smoothies.", "mixology_es": "Mezclas de frutos secos y granola, tés y tónicos, caldos, batidos.", "examples": "A Chinese shrub berry (wolfberry) used for centuries in traditional medicine and cooking.", "examples_es": "Una baya de arbusto china (cambrón) usada durante siglos en la medicina y la cocina tradicionales."}, "acai": {"cat": "GLOBAL SUPERFRUIT BERRIES", "cat_es": "SUPERBAYAS DEL MUNDO", "origin": "Earthy, low-sweet, and faintly chocolatey with a tart edge.", "origin_es": "Terrosa, poco dulce y levemente achocolatada, con un filo ácido.", "chemistry": "Almost all seed; only a thin pulp, sold as frozen purée rather than fresh.", "chemistry_es": "Casi toda semilla; solo una pulpa fina, vendida como puré congelado y no fresca.", "pairing": "Banana, granola, honey, cacao.", "pairing_es": "Plátano, granola, miel, cacao.", "mixology": "Smoothie and açaí bowls, juices, purée blends.", "mixology_es": "Batidos y bowls de açaí, zumos, mezclas de puré.", "examples": "The fruit of an Amazonian palm — botanically a drupe like an olive, picked in tall clusters.", "examples_es": "El fruto de una palmera amazónica — botánicamente una drupa como la aceituna, recogido en racimos altos."}, "bilberry": {"cat": "GLOBAL SUPERFRUIT BERRIES", "cat_es": "SUPERBAYAS DEL MUNDO", "origin": "More intense and tart than a blueberry, with a deep winey richness.", "origin_es": "Más intenso y ácido que el arándano azul, con una profunda riqueza vinosa.", "chemistry": "Soft and very juicy; stains the flesh and hands deep purple.", "chemistry_es": "Blando y muy jugoso; tiñe la pulpa y las manos de púrpura intenso.", "pairing": "Cream, lemon, custard, game.", "pairing_es": "Nata, limón, crema pastelera, caza.", "mixology": "Pies and tarts, jam, liqueur, sauces; a European wild favorite.", "mixology_es": "Tartas, mermelada, licor, salsas; un favorito silvestre europeo.", "examples": "A European wild relative of the blueberry (the whortleberry); smaller and darker, with purple flesh throughout.", "examples_es": "Un pariente silvestre europeo del arándano (el mirtilo); más pequeño y oscuro, con pulpa púrpura por dentro."}};
+const GRID_INDEX={};
+const WIKI_TITLES={"macadamia": "Macadamia", "pecan": "Pecan", "cashew": "Cashew", "pine-nut": "Pine nut", "almond": "Almond", "hazelnut": "Hazelnut", "pistachio": "Pistachio", "walnut": "Walnut", "brazil-nut": "Brazil nut", "chestnut": "Chestnut", "peanut": "Peanut", "pumpkin-seed": "Pumpkin seed", "sunflower-seed": "Sunflower seed", "sesame": "Sesame", "chia-seed": "Chia seed", "flaxseed": "Flax", "hemp-seed": "Hemp seed", "strawberry": "Strawberry", "blueberry": "Blueberry", "raspberry": "Raspberry", "blackberry": "Blackberry", "cranberry": "Cranberry", "gooseberry": "Gooseberry", "black-currant": "Blackcurrant", "boysenberry": "Boysenberry", "mulberry": "Mulberry", "elderberry": "Elderberry", "saskatoon": "Saskatoon berry", "cloudberry": "Cloudberry", "salmonberry": "Salmonberry", "goji": "Goji", "acai": "Açaí palm", "bilberry": "Bilberry"};
+const SUBJECT='nutsberries';
+const HUB=["Mark's", "NUTS &", "BERRIES", "2026"];
+
+// FUN FACTS
+const FUN_FACTS={"RICH & BUTTERY NUTS": {"en": "Pine nuts are the edible seeds tucked inside pine cones — harvested mostly by hand, which is why they're one of the priciest nuts in the kitchen.", "es": "Los piñones son las semillas comestibles que se esconden dentro de las piñas — recolectados casi a mano, por eso son uno de los frutos secos más caros de la cocina."}, "SWEET & VERSATILE NUTS": {"en": "Almonds — like peaches and cherries — are the seed inside a drupe, so botanically the almond is the pit, not a true nut.", "es": "Las almendras, como el melocotón y la cereza, son la semilla dentro de una drupa, así que botánicamente la almendra es el hueso, no un fruto seco verdadero."}, "BOLD & DISTINCTIVE NUTS": {"en": "A couple of Brazil nuts can cover a full day's selenium — they're one of the richest natural sources on earth, so a small handful is plenty.", "es": "Un par de nueces de Brasil pueden cubrir el selenio de todo un día — son de las fuentes naturales más ricas del planeta, así que un puñado pequeño basta."}, "LEGUMES & SEEDS": {"en": "The peanut isn't a nut at all — it's a legume that flowers above ground then ripens its pods underground, closer kin to peas and beans than to almonds.", "es": "El cacahuete no es un fruto seco — es una legumbre que florece sobre la tierra y madura sus vainas bajo tierra, más pariente de guisantes y frijoles que de la almendra."}, "TRUE & GARDEN BERRIES": {"en": "Botanically the strawberry isn't a berry — its seeds sit on the outside, making it an 'accessory fruit,' while the humble blueberry is a true berry.", "es": "Botánicamente la fresa no es una baya — sus semillas van por fuera, lo que la hace una 'fruta accesoria', mientras que el humilde arándano sí es una baya verdadera."}, "TART & COOKING BERRIES": {"en": "Ripe cranberries bounce — growers use a bounce test, and tiny air pockets let the berries float, which is why bogs are flooded at harvest.", "es": "Los arándanos rojos maduros rebotan — los cultivadores usan una prueba de rebote, y unas bolsas de aire los hacen flotar, por eso se inundan las turberas en la cosecha."}, "WILD & FORAGED BERRIES": {"en": "Raw elderberries are mildly toxic and must be cooked before eating — one of the few berries that's a syrup-and-jam fruit rather than an out-of-hand snack.", "es": "El saúco crudo es levemente tóxico y debe cocinarse antes de comerse — una de las pocas bayas que es fruta de sirope y mermelada en vez de tentempié directo."}, "GLOBAL SUPERFRUIT BERRIES": {"en": "Açaí is technically a drupe like an olive — almost all pit, with only a thin skin and pulp, which is why it's sold as frozen purée rather than fresh fruit.", "es": "El açaí es técnicamente una drupa como la aceituna — casi todo hueso, con solo una piel y pulpa finas, por eso se vende como puré congelado y no como fruta fresca."}};
+
+// UI DICTIONARY
+const UI={"en": {"title": "Nuts & Berries Wheel", "wheel": "Wheel", "list": "List", "size": "Wheel size", "reset": "Reset", "notes": "Notes", "dock": "⤺ Dock", "byline": "Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com", "hint": "↺ Drag to spin · Tap any item to study it · Scroll or pinch to resize", "search": "Search 33 nuts, seeds, and berries…", "placeholder": "Select any nut, seed, or berry<br>from the wheel to study it.", "noResults": "Nothing matches that search.", "inProgress": "Notes for {n} are in progress.", "origin": "Flavor & Character", "chemistry": "Texture & Form", "pairing": "Pairings", "mixology": "Kitchen & Use", "examples": "Origin & Notes", "grid": "Deductive Grid Cross-Reference"}, "es": {"title": "Rueda de Frutos Secos y Bayas", "wheel": "Rueda", "list": "Lista", "size": "Tamaño", "reset": "Reiniciar", "notes": "Notas", "dock": "⤺ Acoplar", "byline": "Creado por Mark Lenington · Sommelier Certificado · © 2026 LearnSomm.com", "hint": "↺ Arrastra para girar · Toca un elemento para estudiarlo · Desplaza o pellizca para ajustar", "search": "Busca entre 33 frutos secos, semillas y bayas…", "placeholder": "Selecciona un fruto seco, semilla o baya<br>de la rueda para estudiarlo.", "noResults": "Nada coincide con esa búsqueda.", "inProgress": "Las notas de {n} están en preparación.", "origin": "Sabor y Carácter", "chemistry": "Textura y Forma", "pairing": "Maridajes", "mixology": "Cocina y Uso", "examples": "Origen y Notas", "grid": "Referencia Cruzada de Cuadrícula Deductiva"}};
+
+let lang='en';
+function t(k){return UI[lang][k];}
+function tx(obj,field){if(!obj)return'';const v=lang==='es'&&obj[field+'_es']?obj[field+'_es']:obj[field];return v||'';}
+
+const svg=document.getElementById('wheelSvg'),panel=document.getElementById('detailPanel'),detail=document.getElementById('detailContent');
+const TWO_PI=Math.PI*2;let rotation=0,isDragging=false,lastAngle=0,velocity=0,lastTime=0,animFrame=null,selectedPath=null,currentSlug=null;
+
+/* theme */
+const themeBtn=document.getElementById('themeBtn');
+function setTheme(th){document.documentElement.setAttribute('data-theme',th);themeBtn.textContent=th==='dark'?'☀':'☾';try{localStorage.setItem(SUBJECT+'Theme',th);}catch(e){}if(typeof applyLogo==='function')try{applyLogo();}catch(e){}}
+(function(){let th=null;try{th=localStorage.getItem(SUBJECT+'Theme');}catch(e){}if(!th)th='light';setTheme(th);})();
+themeBtn.addEventListener('click',()=>setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'));
+
+/* lang */
+const langBtn=document.getElementById('langBtn');
+function setLang(l){
+  lang=l;
+  langBtn.textContent=l==='en'?'ES':'EN';
+  try{localStorage.setItem(SUBJECT+'Lang',l);}catch(e){}
+  applyUIStrings();
+  renderLabels();
+  rebuildList();
+  if(currentSlug)showDetail(currentSlug);
+}
+(function(){let l=null;try{l=localStorage.getItem(SUBJECT+'Lang');}catch(e){}lang=l==='es'?'es':'en';langBtn.textContent=lang==='en'?'ES':'EN';})();
+langBtn.addEventListener('click',()=>setLang(lang==='en'?'es':'en'));
+
+function applyUIStrings(){
+  // Main UI
+  {var _h=document.getElementById('h1title');if(_h)_h.textContent=t('title');}
+  document.title=t('title')+' — Mark Lenington';
+  document.getElementById('byline').textContent=t('byline');
+  document.getElementById('spinHint').textContent=t('hint');
+  document.getElementById('viewWheel').textContent=t('wheel');
+  document.getElementById('viewList').textContent=t('list');
+  {var _s=document.getElementById('sizeLabel');if(_s)_s.textContent=t('size');}
+  document.getElementById('zoomReset').textContent=t('reset');
+  document.getElementById('gripLabel').textContent=t('notes');
+  document.getElementById('panelDock').textContent=t('dock');
+  document.getElementById('listSearch').placeholder=t('search');
+  document.getElementById('noResults').textContent=t('noResults');
+  
+  if(!currentSlug)detail.innerHTML='<div class="placeholder">'+t('placeholder')+'</div>';
+}
+
+/* geometry */
+function polarToCart(r,a){return[r*Math.cos(a),r*Math.sin(a)];}
+function arcRing(r1,r2,a1,a2){const[sx1,sy1]=polarToCart(r1,a1),[ex1,ey1]=polarToCart(r1,a2),[sx2,sy2]=polarToCart(r2,a1),[ex2,ey2]=polarToCart(r2,a2);const lg=a2-a1>Math.PI?1:0;return `M ${sx1} ${sy1} A ${r1} ${r1} 0 ${lg} 1 ${ex1} ${ey1} L ${ex2} ${ey2} A ${r2} ${r2} 0 ${lg} 0 ${sx2} ${sy2} Z`;}
+function arcLabelPath(r,a1,a2,rev){const lg=Math.abs(a2-a1)>Math.PI?1:0;if(rev){const[sx,sy]=polarToCart(r,a2),[ex,ey]=polarToCart(r,a1);return `M ${sx} ${sy} A ${r} ${r} 0 ${lg} 0 ${ex} ${ey}`;}const[sx,sy]=polarToCart(r,a1),[ex,ey]=polarToCart(r,a2);return `M ${sx} ${sy} A ${r} ${r} 0 ${lg} 1 ${ex} ${ey}`;}
+function lighten(hex,amt){let r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);r=Math.min(255,r+amt);g=Math.min(255,g+amt);b=Math.min(255,b+amt);return '#'+[r,g,b].map(v=>v.toString(16).padStart(2,'0')).join('');}
+function textOn(hex){const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);return(0.299*r+0.587*g+0.114*b)>150?'#1c2118':'#f3f3ee';}
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
+
+const REGISTRY={};
+const R_IN=62,R_CAT=140,R_SUB=210,R_OUT=300;
+let defsEl,gEl;
+function buildWheel(){
+  const total=DATA.categories.reduce((n,c)=>n+c.sub.reduce((m,s)=>m+s.descriptors.length,0),0);
+  const perItem=TWO_PI/total;
+  defsEl=el('defs',{});svg.appendChild(defsEl);
+  gEl=el('g',{id:'wheelG'});
+  let a=-Math.PI/2,gradN=0;
+  DATA.categories.forEach((cat,ci)=>{
+    const catItems=cat.sub.reduce((m,s)=>m+s.descriptors.length,0);
+    const catSpan=catItems*perItem,catStart=a,catEnd=a+catSpan,catMid=catStart+catSpan/2;
+    gEl.appendChild(el('path',{d:arcRing(R_IN,R_CAT,catStart,catEnd),fill:cat.color,'class':'cell'}));
+    cat._mid=catMid;cat._span=catSpan;
+    cat.sub.forEach(sub=>{
+      const subSpan=sub.descriptors.length*perItem,subStart=a,subEnd=a+subSpan,subMid=subStart+subSpan/2;
+      if(!sub._implicit)gEl.appendChild(el('path',{d:arcRing(R_CAT,R_SUB,subStart,subEnd),fill:sub.color,'class':'cell'}));
+      else gEl.appendChild(el('path',{d:arcRing(R_CAT,R_SUB,subStart,subEnd),fill:lighten(cat.color,8),'class':'cell'}));
+      sub._mid=subMid;sub._span=subSpan;sub._cat=cat;
+      sub.descriptors.forEach(desc=>{
+        const s1=a,s2=a+perItem,m=a+perItem/2;
+        const gid='pg'+(gradN++);
+        const grad=el('radialGradient',{id:gid,gradientUnits:'userSpaceOnUse',cx:'0',cy:'0',r:R_OUT});
+        grad.appendChild(el('stop',{offset:'55%','stop-color':lighten(sub.color,20)}));
+        grad.appendChild(el('stop',{offset:'100%','stop-color':lighten(sub.color,44)}));
+        defsEl.appendChild(grad);
+        const p=el('path',{d:arcRing(R_SUB,R_OUT,s1,s2),fill:`url(#${gid})`,'class':'cell desc-seg','data-slug':desc.slug});
+        p.addEventListener('click',()=>selectItem(desc.slug));
+        gEl.appendChild(p);
+        REGISTRY[desc.slug]={desc,sub,cat,segEl:p,chipEl:null,_mid:m,_fill:lighten(sub.color,30)};
+        a+=perItem;
+      });
+    });
+  });
+  gEl.appendChild(el('circle',{cx:0,cy:0,r:R_IN,'class':'hub'}));
+  gEl.appendChild(el('circle',{cx:0,cy:0,r:R_OUT+4,'class':'rim'}));
+  const ys=['-19','-5','8','22'],fs=['7.5','10','7','6'];
+  HUB.forEach((txt,i)=>{const a={'text-anchor':'middle',y:ys[i],'font-size':fs[i],'class':'hub-text','font-family':"var(--display)",'letter-spacing':i===3?'2.4':'.5'};if(i===0)a['font-style']='italic';if(i===1||i===2)a['font-weight']='bold';const tt=el('text',a);tt.textContent=txt;tt.style.pointerEvents='none';gEl.appendChild(tt);});
+  svg.appendChild(gEl);
+  renderLabels();
+}
+
+let labelEls=[];let descLabels=[];var READ_SIDE='right';
+function renderLabels(){
+  labelEls.forEach(e=>e.remove());labelEls=[];descLabels=[];
+  DATA.categories.forEach((cat,ci)=>{
+    const name=tx(cat,'name').toUpperCase();
+    const labR=(R_IN+R_CAT)/2,arcLen=cat._span*labR,estW=name.length*5.0;
+    if(arcLen>estW+8){
+      const flip=Math.sin(cat._mid)>0,pid='catArc'+ci;
+      const existing=defsEl.querySelector('#'+pid);if(existing)existing.remove();
+      defsEl.appendChild(el('path',{id:pid,d:arcLabelPath(flip?labR-2:labR+2,cat._mid-cat._span/2,cat._mid+cat._span/2,flip)}));
+      const tt=el('text',{'font-size':'7','letter-spacing':'1','font-family':"var(--display)",'font-weight':'bold',fill:cat.textColor||'#fff','dominant-baseline':'middle'});
+      const tp=el('textPath',{startOffset:'50%','text-anchor':'middle'});tp.setAttribute('href','#'+pid);tp.textContent=name;
+      tt.appendChild(tp);tt.style.pointerEvents='none';gEl.appendChild(tt);labelEls.push(tt);
+    }else{
+      let deg=cat._mid*180/Math.PI;const dN=((deg%360)+360)%360;if(dN>90&&dN<270)deg+=180;
+      const[lx,ly]=polarToCart(labR,cat._mid);
+      const tt=el('text',{x:lx,y:ly,'text-anchor':'middle','dominant-baseline':'central','font-size':'5','letter-spacing':'.3',fill:cat.textColor||'#fff','font-family':"var(--display)",'font-weight':'bold',transform:`rotate(${deg},${lx},${ly})`});
+      const w=name.split(' ');
+      if(w.length>1){const t1=el('tspan',{x:lx,dy:'-2.6'});t1.textContent=w[0];const t2=el('tspan',{x:lx,dy:'5.2'});t2.textContent=w.slice(1).join(' ');tt.appendChild(t1);tt.appendChild(t2);}else tt.textContent=name;
+      tt.style.pointerEvents='none';gEl.appendChild(tt);labelEls.push(tt);
+    }
+    cat.sub.forEach((sub,si)=>{
+      if(!sub._implicit){
+        const subName=tx(sub,'name').toUpperCase(),subLabR=(R_CAT+R_SUB)/2,subArc=sub._span*subLabR;
+        if(subArc>subName.length*4+6){
+          const flip=Math.sin(sub._mid)>0,pid='subArc'+ci+'_'+si;
+          const ex=defsEl.querySelector('#'+pid);if(ex)ex.remove();
+          defsEl.appendChild(el('path',{id:pid,d:arcLabelPath(flip?subLabR-1.5:subLabR+1.5,sub._mid-sub._span/2,sub._mid+sub._span/2,flip)}));
+          const tt=el('text',{'font-size':'4.6','font-family':"var(--display)",fill:textOn(sub.color),'dominant-baseline':'middle'});
+          const tp=el('textPath',{startOffset:'50%','text-anchor':'middle'});tp.setAttribute('href','#'+pid);tp.textContent=subName;
+          tt.appendChild(tp);tt.style.pointerEvents='none';gEl.appendChild(tt);labelEls.push(tt);
+        }else{
+          let deg=sub._mid*180/Math.PI;const dN=((deg%360)+360)%360;if(dN>90&&dN<270)deg+=180;
+          const[lx,ly]=polarToCart(subLabR,sub._mid);
+          const tt=el('text',{x:lx,y:ly,'text-anchor':'middle','dominant-baseline':'central','font-size':'4.2',fill:textOn(sub.color),'font-family':"var(--display)",transform:`rotate(${deg},${lx},${ly})`});
+          tt.textContent=subName;tt.style.pointerEvents='none';gEl.appendChild(tt);labelEls.push(tt);
+        }
+      }
+      sub.descriptors.forEach(desc=>{
+        const reg=REGISTRY[desc.slug];const m=reg._mid;
+        const theta=m*180/Math.PI;                 // raw radial angle (0=3 o'clock)
+        const deg=(READ_SIDE==='left')?theta+180:theta;  // flip whole wheel for left-read; reading side stays upright
+        const[lx,ly]=polarToCart((R_SUB+R_OUT)/2,m);
+        const tt=el('text',{x:lx,y:ly,'text-anchor':'middle','dominant-baseline':'central','font-size':'6','letter-spacing':'.2',fill:textOn(reg._fill),'font-family':"var(--display)",transform:`rotate(${deg},${lx},${ly})`});
+        const nm=tx(desc,'name').toUpperCase();
+        const availR=(R_OUT-R_SUB)-12;
+        const fitFs=Math.max(3.4,Math.min(6,availR/(nm.length*0.56)));
+        tt.setAttribute('font-size',fitFs.toFixed(2));
+        tt.textContent=nm;
+        tt.style.pointerEvents='none';gEl.appendChild(tt);labelEls.push(tt);
+        descLabels.push({el:tt,lx:lx,ly:ly,theta:theta});
+      });
+    });
+  });
+}
+
+/* wiki */
+function wikiUrl(slug,name){const t=WIKI_TITLES[name]||WIKI_TITLES[slug]||(name.charAt(0).toUpperCase()+name.slice(1).toLowerCase());const host=lang==='es'?'es.wikipedia.org':'en.wikipedia.org';return 'https://'+host+'/wiki/'+encodeURIComponent(t.replace(/ /g,'_'));}
+function headingHtml(slug,name){return `<h2><a href="${wikiUrl(slug,name)}" target="_blank" rel="noopener noreferrer">${name}<span class="wiki-mark">↗</span></a></h2>`;}
+
+
+function funFactFor(slug){
+  const reg=REGISTRY[slug]; if(!reg) return null;
+  const tryKeys=[reg.cat&&reg.cat.name, reg.sub&&reg.sub.name];
+  for(const k of tryKeys){ if(k&&FUN_FACTS[k]) return FUN_FACTS[k]; }
+  return null;
+}
+
+function showDetail(slug){
+  currentSlug=slug;
+  const d=DESCRIPTIONS[slug],reg=REGISTRY[slug];
+  const name=reg?tx(reg.desc,'name'):slug;
+  if(!d){detail.innerHTML=`${headingHtml(slug,name)}<div class="category-tag"></div><div class="body-text">${t('inProgress').replace('{n}',name)}</div>`;return;}
+  const tag=tx(d,'cat');
+  let html=headingHtml(slug,name)+`<div class="category-tag">${tag}</div>`;
+  const ff=funFactFor(slug);
+  if(ff){const fft=(lang==='es'&&ff.es)?ff.es:ff.en;html+=`<div class="funfact"><span class="ff-label">${lang==='es'?'Dato':'Fun Fact'}</span>${fft}</div>`;}
+  const sec=(key,field)=>{const v=tx(d,field);if(v)html+=`<div class="section-title">${t(key)}</div><div class="body-text">${v}</div>`;};
+  sec('origin','origin');sec('chemistry','chemistry');sec('pairing','pairing');sec('mixology','mixology');sec('examples','examples');
+  const fl=tx(d,'flag');if(fl)html+=`<div class="flag-note">${fl}</div>`;
+
+  detail.innerHTML=html;
+}
+
+function selectItem(slug){
+  const e=REGISTRY[slug];if(!e)return;
+  if(selectedPath)selectedPath.classList.remove('selected');
+  document.querySelectorAll('.list-chip.selected').forEach(c=>c.classList.remove('selected'));
+  if(e.segEl){e.segEl.classList.add('selected');selectedPath=e.segEl;}
+  if(e.chipEl)e.chipEl.classList.add('selected');
+  showDetail(slug);
+}
+
+/* list */
+const wheelWrap=document.getElementById('wheelWrap'),listView=document.getElementById('listView'),listBody=document.getElementById('listBody'),listSearch=document.getElementById('listSearch'),noResults=document.getElementById('noResults'),sizeCtl=document.getElementById('sizeCtl'),viewWheelBtn=document.getElementById('viewWheel'),viewListBtn=document.getElementById('viewList');
+function rebuildList(){listBody.innerHTML='';for(const k in REGISTRY)REGISTRY[k].chipEl=null;buildList();const q=listSearch.value;if(q){listSearch.dispatchEvent(new Event('input'));}}
+function buildList(){
+  DATA.categories.forEach(cat=>{
+    const block=document.createElement('div');block.className='cat-block';
+    const head=document.createElement('div');head.className='cat-head';
+    const dot=document.createElement('span');dot.className='cat-dot';dot.style.background=cat.color;
+    head.appendChild(dot);head.appendChild(document.createTextNode(tx(cat,'name')));block.appendChild(head);
+    cat.sub.forEach(sub=>{
+      const grp=document.createElement('div');grp.className='sub-group';
+      const hdr=document.createElement('button');hdr.type='button';hdr.className='sub-toggle';
+      const cnt=sub.descriptors.length;
+      const hname=sub._implicit?(tx(cat,'name')+' \u00b7 '+cnt):(tx(sub,'name')+' \u00b7 '+cnt);
+      hdr.innerHTML='<span class="sub-caret">\u25b8</span><span class="sub-name">'+hname+'</span>';
+      hdr.addEventListener('click',()=>{grp.classList.toggle('expanded');});
+      grp.appendChild(hdr);
+      const row=document.createElement('div');row.className='chip-row';
+      sub.descriptors.forEach(desc=>{
+        const chip=document.createElement('button');chip.type='button';chip.className='list-chip';chip.textContent=tx(desc,'name');chip.dataset.slug=desc.slug;
+        chip.dataset.search=(tx(desc,'name')+' '+tx(sub,'name')+' '+tx(cat,'name')).toLowerCase();
+        chip.addEventListener('click',()=>selectItem(desc.slug));
+        if(REGISTRY[desc.slug])REGISTRY[desc.slug].chipEl=chip;
+        if(currentSlug===desc.slug){chip.classList.add('selected');grp.classList.add('expanded');}
+        row.appendChild(chip);
+      });
+      grp.appendChild(row);block.appendChild(grp);
+    });
+    listBody.appendChild(block);
+  });
+}
+listSearch.addEventListener('input',()=>{
+  const q=listSearch.value.trim().toLowerCase();let any=false;
+  listBody.classList.toggle('searching',!!q);
+  listBody.querySelectorAll('.cat-block').forEach(block=>{let bHas=false;
+    block.querySelectorAll('.sub-group').forEach(grp=>{let gHas=false;
+      grp.querySelectorAll('.list-chip').forEach(ch=>{const show=!q||ch.dataset.search.includes(q);ch.style.display=show?'':'none';if(show)gHas=true;});
+      grp.classList.toggle('hit',!!q&&gHas);
+      grp.style.display=(q&&!gHas)?'none':'';if(gHas)bHas=true;});
+    block.style.display=bHas?'':'none';if(bHas)any=true;});
+  noResults.style.display=any?'none':'block';
+});
+function setView(v){
+  const list=(v==='list');
+  document.body.dataset.view=v;
+  listView.classList.toggle('active',list);
+  wheelWrap.style.display=list?'none':'';
+  sizeCtl.style.display=list?'none':'flex';
+  viewListBtn.classList.toggle('active',list);
+  viewWheelBtn.classList.toggle('active',!list);
+  
+  // Set attribute on body to trigger the correct Fog Overlay
+  document.body.setAttribute('data-view', v);
+
+  if(list)listSearch.focus();
+  try{localStorage.setItem(SUBJECT+'View',v);}catch(e){}
+}
+viewWheelBtn.addEventListener('click',()=>setView('wheel'));
+viewListBtn.addEventListener('click',()=>setView('list'));
+
+/* spin */
+function getAngle(e,rect){const cx=rect.left+rect.width/2,cy=rect.top+rect.height/2;const x=e.touches?e.touches[0].clientX:e.clientX,y=e.touches?e.touches[0].clientY:e.clientY;return Math.atan2(y-cy,x-cx);}
+function applyRotation(){if(gEl)gEl.setAttribute('transform',`rotate(${rotation*180/Math.PI})`);}
+function momentum(){
+  if(!isDragging&&Math.abs(velocity)>0.001){
+    rotation+=velocity;
+    velocity*=0.96;
+    applyRotation();
+    animFrame=requestAnimationFrame(momentum);
+  }
+}
+
+// User dragging/spinning is totally free! No point consumption.
+svg.addEventListener('mousedown',e=>{
+  if(e.target.classList.contains('desc-seg'))return; 
+  isDragging=true;
+  const r=svg.getBoundingClientRect();lastAngle=getAngle(e,r);lastTime=Date.now();velocity=0;if(animFrame)cancelAnimationFrame(animFrame);
+});
+window.addEventListener('mousemove',e=>{
+  if(!isDragging)return;
+  const r=svg.getBoundingClientRect();const an=getAngle(e,r),dl=an-lastAngle,now=Date.now();velocity=dl/Math.max(1,now-lastTime)*16;
+  rotation+=dl;lastAngle=an;lastTime=now;
+  applyRotation();
+});
+window.addEventListener('mouseup',()=>{
+  if(!isDragging)return;
+  isDragging=false;
+  animFrame=requestAnimationFrame(momentum);
+});
+
+svg.addEventListener('touchstart',e=>{
+  if(e.touches.length===2){e.preventDefault();isDragging=false;pinching=true;pinchDist0=touchDist(e);pinchSize0=wheelSize;if(animFrame)cancelAnimationFrame(animFrame);return;}
+  if(e.target.classList.contains('desc-seg'))return;
+  e.preventDefault();
+  isDragging=true;
+  const r=svg.getBoundingClientRect();lastAngle=getAngle(e,r);lastTime=Date.now();velocity=0;if(animFrame)cancelAnimationFrame(animFrame);
+},{passive:false});
+svg.addEventListener('touchmove',e=>{
+  if(pinching&&e.touches.length===2){e.preventDefault();setWheelSize(pinchSize0*touchDist(e)/Math.max(1,pinchDist0));return;}
+  if(!isDragging)return;
+  e.preventDefault();const r=svg.getBoundingClientRect();const an=getAngle(e,r),dl=an-lastAngle,now=Date.now();velocity=dl/Math.max(1,now-lastTime)*16;
+  rotation+=dl;lastAngle=an;lastTime=now;
+  applyRotation();
+},{passive:false});
+svg.addEventListener('touchend',e=>{
+  if(e.touches.length<2)pinching=false;
+  if(!isDragging)return;
+  isDragging=false;
+  animFrame=requestAnimationFrame(momentum);
+});
+
+/* sizing */
+const zoomSlider=document.getElementById('zoomSlider');let wheelSize=1360,pinching=false,pinchDist0=1,pinchSize0=560;
+function touchDist(e){return Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);}
+function setWheelSize(px){wheelSize=Math.min(2200,Math.max(280,Math.round(px)));svg.setAttribute('width',wheelSize);svg.setAttribute('height',wheelSize);zoomSlider.value=wheelSize;}
+document.getElementById('zoomIn').addEventListener('click',()=>setWheelSize(wheelSize*1.12));
+document.getElementById('zoomOut').addEventListener('click',()=>setWheelSize(wheelSize*0.9));
+document.getElementById('zoomReset').addEventListener('click',()=>setWheelSize(Math.max(980,Math.min(1520,Math.round(window.innerWidth*1.05)))));
+zoomSlider.addEventListener('input',()=>setWheelSize(+zoomSlider.value));
+svg.addEventListener('wheel',e=>{e.preventDefault();setWheelSize(wheelSize*(e.deltaY<0?1.07:0.93));},{passive:false});
+
+/* movable panel */
+const grip=document.getElementById('panelGrip'),dockBtn=document.getElementById('panelDock');let pDrag=null;
+grip.addEventListener('pointerdown',e=>{if(e.target===dockBtn)return;const r=panel.getBoundingClientRect();if(!panel.classList.contains('floating')){panel.classList.add('floating');panel.style.left=r.left+'px';panel.style.top=r.top+'px';}pDrag={dx:e.clientX-r.left,dy:e.clientY-r.top};grip.setPointerCapture(e.pointerId);e.preventDefault();});
+grip.addEventListener('pointermove',e=>{if(!pDrag)return;const w=panel.offsetWidth;const x=Math.min(Math.max(4,e.clientX-pDrag.dx),Math.max(4,window.innerWidth-w-4));const y=Math.min(Math.max(4,e.clientY-pDrag.dy),window.innerHeight-56);panel.style.left=x+'px';panel.style.top=y+'px';});
+grip.addEventListener('pointerup',()=>{pDrag=null;});grip.addEventListener('pointercancel',()=>{pDrag=null;});
+dockBtn.addEventListener('click',()=>{panel.classList.remove('floating');panel.style.left='';panel.style.top='';});
+window.addEventListener('resize',()=>{if(panel.classList.contains('floating')){const r=panel.getBoundingClientRect();if(r.right>window.innerWidth||r.bottom>window.innerHeight){panel.style.left=Math.max(4,window.innerWidth-panel.offsetWidth-4)+'px';panel.style.top=Math.max(4,Math.min(parseFloat(panel.style.top)||4,window.innerHeight-80))+'px';}}});
+
+/* MOCK AD NETWORK LOGIC */
+/* ---------- Hub Mirror + Logo + Background Echo ---------- */
+// Replace these two constants with your final brand marks (SVG data URIs or hosted base64 PNGs).
+// Set both to "" to fall back to the engraved Mark's/AROMA/WHEEL wordmark.
+/* === OFFICIAL LOGO — swap these: paste a data: URI, OR set the *_FILE name to drop a PNG beside the HTML === */
+const LOGO_LIGHT_FILE="wheel-logo-light.png";
+const LOGO_LIGHT='data:image/png;base64,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';
+const LOGO_DARK_FILE="wheel-logo-dark.png";
+const LOGO_DARK='data:image/png;base64,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';
+const hubCenter=document.getElementById('hubCenter'),hubMirror=document.getElementById('hubMirror'),bgEcho=document.getElementById('bgEcho'),hubLogoImg=document.getElementById('hubLogo');
+function applyLogo(){
+  const th=document.documentElement.getAttribute('data-theme');
+  const srcL=(th==='dark')?(LOGO_DARK||LOGO_DARK_FILE):(LOGO_LIGHT||LOGO_LIGHT_FILE);
+  if(srcL){hubLogoImg.src=srcL;hubLogoImg.style.display='block';document.getElementById('svgContainer').classList.add('has-logo');}
+  else{hubLogoImg.style.display='none';document.getElementById('svgContainer').classList.remove('has-logo');}
+}
+function splitTwo(n){
+  const w=n.split(' ');if(w.length<2)return[n];
+  const mid=Math.ceil(w.length/2);return[w.slice(0,mid).join(' '),w.slice(mid).join(' ')];
+}
+function sizeEcho(txt){var n=(txt||'').length;var e=document.getElementById('bgEcho');if(!e)return;e.classList.remove('len-s','len-m','len-l','len-xl');e.classList.add(n<=12?'len-s':n<=24?'len-m':n<=40?'len-l':'len-xl');}
+function showMirror(slug){
+  const reg=REGISTRY[slug];if(!reg)return;
+  const nm=tx(reg.desc,'name');
+  bgEcho.textContent=nm;sizeEcho(nm);bgEcho.classList.add('show');
+}
+function hideMirror(){
+  if(currentSlug){showMirror(currentSlug);return;}
+  bgEcho.classList.remove('show');
+}
+svg.addEventListener('pointerover',function(e){
+  const p=e.target.closest&&e.target.closest('.desc-seg');
+  if(p)showMirror(p.getAttribute('data-slug'));
+});
+svg.addEventListener('pointerout',function(e){
+  const p=e.target.closest&&e.target.closest('.desc-seg');
+  if(p)hideMirror();
+});
+/* Selection (click/tap) also drives the mirror — this is the mobile path */
+const _origSelectItem=selectItem;
+selectItem=function(slug){_origSelectItem(slug);try{showMirror(slug);}catch(e){}};
+applyLogo();
+
+/* init */
+buildWheel();
+buildList();
+applyUIStrings();
+setWheelSize(Math.max(980,Math.min(1520,Math.round(window.innerWidth*1.05))));
+(function(){
+  let v='wheel';
+  try{v=localStorage.getItem(SUBJECT+'View')||'wheel';}catch(e){}
+  setView(v); 
+})();
+document.addEventListener('contextmenu', function(e){ e.preventDefault(); });
+document.addEventListener('keydown', function(e){
+  var k=(e.key||'').toUpperCase();
+  if (e.keyCode===123||((e.ctrlKey||e.metaKey)&&(k==='U'||k==='S'||k==='A'))||((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='I'||k==='J'||k==='C'))){e.preventDefault();e.stopPropagation();return false;}
+});
+document.addEventListener('selectstart', function(e){var t=e.target;if(t&&t.closest&&t.closest('input,textarea'))return;e.preventDefault();});
+document.addEventListener('dragstart', function(e){ e.preventDefault(); });
+(function(){var tb=document.querySelector('.topctl');if(!tb)return;var b=document.createElement('button');b.type='button';b.id='fsBtn';b.textContent='\u26F6';b.title='Focus mode (full screen)';
+b.addEventListener('click',function(){try{if(document.fullscreenElement){document.exitFullscreen();}else if(document.documentElement.requestFullscreen){document.documentElement.requestFullscreen().catch(function(){});}}catch(e){}});
+document.addEventListener('fullscreenchange',function(){b.textContent=document.fullscreenElement?'\u2922':'\u26F6';});tb.appendChild(b);})();
+
+
+/* ============ PRODUCT ENHANCEMENTS (modes, glow, spin, list, noob) ============ */
+(function(){
+  var UC=function(s){return (s||'').toUpperCase();};
+  /* --- localized strings for new UI --- */
+  UI.en.noobTitle="For Noobs";
+  UI.en.noobFact="New to wine? Every taster runs the same four steps, in order: <b>look</b> (color &amp; clarity), <b>smell</b> (the aromas on this wheel), <b>taste</b> (sweet / sour / bitter and the fruit), and <b>finish</b> (how long the flavor lingers). You don't need fancy words \u2014 just decide what the wine reminds you of. Stuck? Hit <b>↻ Spin</b>, land on a note, and try to find it in the glass.";
+  UI.en.contactLead="Questions, Feedback, need help with a specific project?";
+  UI.en.spin="↻ Spin"; UI.en.glow="✨ Glow"; UI.en.cols="▤ Cols"; UI.en.rows="\u25a5 Rows";
+  UI.es.noobTitle="Para Novatos";
+  UI.es.noobFact="\u00bfNuevo en el vino? Todo catador sigue los mismos cuatro pasos, en orden: <b>ver</b> (color y limpidez), <b>oler</b> (los aromas de esta rueda), <b>probar</b> (dulce / \u00e1cido / amargo y la fruta) y <b>final</b> (cu\u00e1nto dura el sabor). No necesitas palabras elegantes \u2014 solo decide a qu\u00e9 te recuerda el vino. \u00bfAtorado? Pulsa <b>\u21bb Girar</b>, cae en una nota e intenta encontrarla en la copa.";
+  UI.es.contactLead="\u00bfPreguntas, comentarios o ayuda con un proyecto espec\u00edfico?";
+  UI.es.spin="\u21bb Girar"; UI.es.glow="\u2728 Brillo"; UI.es.cols="▤ Cols"; UI.es.rows="\u25a5 Filas";
+
+  var $=function(id){return document.getElementById(id);};
+  var spinBtn=$('spinBtn'), glowBtn=$('glowBtn'), llBtn=$('listLayoutBtn');
+  var dL=$('modeDockL'), dR=$('modeDockR'), dF=$('modeFree');
+  var readPoint=$('readPoint'), wheelMove=$('wheelMove'), wheelMove2=$('wheelMove2'), contactBar=$('contactBar');
+  var svgC=$('svgContainer'), wheelSvg=$('wheelSvg'), panelEl=$('detailPanel');
+  var norm=function(a){a%=(2*Math.PI);if(a>Math.PI)a-=2*Math.PI;if(a<-Math.PI)a+=2*Math.PI;return a;};
+
+  /* ---- contact (footer + panel placeholder) ---- */
+  function contactHtml(){
+    var fbBody=encodeURIComponent("Tell Mark what you think \u2014 questions, feedback, or a project you need help with:\n\nWhat wheel / tool: \nWhat you were doing: \nWhat would make it better: \n");
+    return '<div class="contact"><a href="https://learnsomm.com" target="_blank" rel="noopener noreferrer">LearnSomm.com</a>'
+      +'<a href="mailto:mrcakebread@gmail.com">Reach Mark Directly</a>'
+      +'<a href="mailto:mrcakebread@gmail.com?subject='+encodeURIComponent('LearnSomm Feedback')+'&body='+fbBody+'">Feedback</a></div>';
+  }
+  function fillContactBar(){
+    var fbBody=encodeURIComponent("Tell Mark what you think \u2014 questions, feedback, or a project you need help with:\n\nWhat wheel / tool: \nWhat you were doing: \nWhat would make it better: \n");
+    contactBar.innerHTML='<span class="lead">'+t('contactLead')+'</span>'
+      +'<a href="https://learnsomm.com" target="_blank" rel="noopener noreferrer">LearnSomm.com</a>'
+      +'<a href="mailto:mrcakebread@gmail.com">Reach Mark Directly</a>'
+      +'<a href="mailto:mrcakebread@gmail.com?subject='+encodeURIComponent('LearnSomm Feedback')+'&body='+fbBody+'">Feedback</a>';
+  }
+  function showPlaceholder(){
+    detail.innerHTML='<div class="section-title">'+t('noobTitle')+'</div>'
+      +'<div class="body-text noob-fact">'+t('noobFact')+'</div>'+contactHtml();
+  }
+
+  /* ---- GLOW toggle ---- */
+  var glowOn=false; try{glowOn=localStorage.getItem(SUBJECT+'Glow')==='1';}catch(e){}
+  function applyGlow(){wheelSvg.classList.toggle('label-glow',glowOn);glowBtn.classList.toggle('on',glowOn);}
+  glowBtn.addEventListener('click',function(){glowOn=!glowOn;try{localStorage.setItem(SUBJECT+'Glow',glowOn?'1':'0');}catch(e){}applyGlow();});
+  applyGlow();
+
+  /* ---- LIST layout toggle (vertical / columns) ---- */
+  var cols=false; try{cols=localStorage.getItem(SUBJECT+'ListCols')==='1';}catch(e){}
+  function applyCols(){listBody.classList.toggle('cols',cols);llBtn.classList.toggle('on',cols);llBtn.textContent=cols?t('rows'):t('cols');}
+  llBtn.addEventListener('click',function(){cols=!cols;try{localStorage.setItem(SUBJECT+'ListCols',cols?'1':'0');}catch(e){}applyCols();});
+  applyCols();
+
+  /* ---- VIEWING MODES (dock-left / dock-right / detached) ---- */
+  var mode='dock-left'; try{mode=localStorage.getItem(SUBJECT+'Mode')||'dock-left';}catch(e){}
+  var freeReadSide='right'; try{freeReadSide=localStorage.getItem(SUBJECT+'FreeSide')||'right';}catch(e){}
+  function syncReadSide(){READ_SIDE=(mode==='dock-left')?'right':(mode==='dock-right')?'left':freeReadSide;if(typeof uprightLabels==='function')uprightLabels();}
+  var movePos=null; // {left,top} for detached wheel
+  function clearWheelInline(){svgC.style.position='';svgC.style.left='';svgC.style.top='';svgC.style.transform='';}
+  function clearPanelInline(){panelEl.classList.remove('floating');panelEl.style.left='';panelEl.style.top='';}
+  function readAngle(){return READ_SIDE==='left'?Math.PI:0;}
+  function setMode(m){
+    mode=m;document.body.setAttribute('data-mode',m);
+    READ_SIDE=(m==='dock-left')?'right':(m==='dock-right')?'left':freeReadSide;
+    try{localStorage.setItem(SUBJECT+'Mode',m);}catch(e){}
+    dL.classList.toggle('on',m==='dock-left');dR.classList.toggle('on',m==='dock-right');dF.classList.toggle('on',m==='detached');
+    clearWheelInline();clearPanelInline();
+    if(m==='detached'){
+      svgC.style.position='fixed';
+      var p=movePos||{left:Math.round(window.innerWidth*0.06),top:140};
+      svgC.style.left=p.left+'px';svgC.style.top=p.top+'px';movePos=p;
+      syncMoveHandle();
+    }
+    updateReadPoint();
+    if(typeof uprightLabels==='function')uprightLabels();
+  }
+  dL.addEventListener('click',function(){setMode('dock-left');});
+  dR.addEventListener('click',function(){setMode('dock-right');});
+  dF.addEventListener('click',function(){setMode('detached');});
+
+  function syncMoveHandle(){
+    if(mode!=='detached'){return;}
+    var r=svgC.getBoundingClientRect();var ty=Math.max(58,r.top-22);
+    wheelMove.style.left=(r.left)+'px';wheelMove.style.top=ty+'px';
+    if(wheelMove2){wheelMove2.style.left=(r.right-46)+'px';wheelMove2.style.top=ty+'px';}
+  }
+  /* read-point: which descriptor sits at the read angle, drawn upright at the wheel rim */
+  function updateReadPoint(){
+    if(mode==='detached')syncMoveHandle();
+    if(document.body.getAttribute('data-view')!=='wheel'){return;}
+    if(window.innerWidth<=820){return;}
+    var r=wheelSvg.getBoundingClientRect();if(!r.width){return;}
+    var cx=r.left+r.width/2, cy=r.top+r.height/2, unit=r.width/668;
+    var rr=((R_SUB+R_OUT)/2)*unit, ang=readAngle();
+    readPoint.style.left=(cx+rr*Math.cos(ang))+'px';
+    readPoint.style.top=(cy+rr*Math.sin(ang))+'px';
+    var best=null,bd=99;
+    for(var k in REGISTRY){var dd=Math.abs(norm(REGISTRY[k]._mid+rotation-ang));if(dd<bd){bd=dd;best=k;}}
+    if(best){readPoint.textContent=UC(tx(REGISTRY[best].desc,'name'));readPoint.dataset.slug=best;readPoint.style.color=REGISTRY[best]._fill;}
+  }
+  readPoint.addEventListener('click',function(){if(readPoint.dataset.slug)selectItem(readPoint.dataset.slug);});
+
+  /* hook applyRotation + setWheelSize so the read-point tracks spin & zoom */
+  var _applyRotation=applyRotation;
+  applyRotation=function(){_applyRotation();updateReadPoint();};
+  var _setWheelSize=setWheelSize;
+  setWheelSize=function(px){_setWheelSize(px);updateReadPoint();};
+  window.addEventListener('resize',function(){updateReadPoint();});
+
+  /* detached: drag the wheel by its handle */
+  var wDrag=null;
+  function wireMove(handle){ if(!handle)return;
+    handle.addEventListener('pointerdown',function(e){var r=svgC.getBoundingClientRect();wDrag={dx:e.clientX-r.left,dy:e.clientY-r.top};handle.setPointerCapture(e.pointerId);e.preventDefault();});
+    handle.addEventListener('pointermove',function(e){if(!wDrag)return;var L=Math.max(2,Math.min(e.clientX-wDrag.dx,window.innerWidth-80));var T=Math.max(58,Math.min(e.clientY-wDrag.dy,window.innerHeight-80));svgC.style.left=L+'px';svgC.style.top=T+'px';movePos={left:L,top:T};syncMoveHandle();});
+    handle.addEventListener('pointerup',function(){wDrag=null;});
+    handle.addEventListener('pointercancel',function(){wDrag=null;});
+  }
+  wireMove(wheelMove); wireMove(wheelMove2);
+
+  /* ---- SPIN randomizer ---- */
+  var spinning=false;
+  spinBtn.addEventListener('click',function(){
+    if(spinning)return;var keys=Object.keys(REGISTRY);if(!keys.length)return;
+    var slug=keys[Math.floor(Math.random()*keys.length)];var reg=REGISTRY[slug];
+    var target=readAngle()-reg._mid;                 // rotation that lands _mid at the read angle
+    var turns=(3+Math.floor(Math.random()*3))*2*Math.PI;
+    var end=target;while(end<rotation+turns)end+=2*Math.PI;
+    var start=rotation,dur=1700,t0=Date.now();spinning=true;
+    var prevHint=spinHint?spinHint.textContent:'';
+    if(spinHint)spinHint.textContent=(lang==='es'?'Gira para aumentar tus probabilidades de aprender.':'Spin to increase your chances of learning.');
+    if(typeof velocity!=='undefined')velocity=0;
+    function ease(p){return 1-Math.pow(1-p,3);}
+    function step(){var p=Math.min(1,(Date.now()-t0)/dur);rotation=start+(end-start)*ease(p);applyRotation();
+      if(p<1){requestAnimationFrame(step);}else{rotation=end;applyRotation();spinning=false;selectItem(slug);if(spinHint)spinHint.textContent=prevHint;}}
+    requestAnimationFrame(step);
+  })
+/* LearnSomm: spin to a chosen descriptor + name map (crossover-ready) */
+window.spinToSlug=function(slug){var reg=REGISTRY[slug];if(!reg||spinning)return;var target=readAngle()-reg._mid;var turns=2*2*Math.PI;var end=target;while(end<rotation+turns)end+=2*Math.PI;var start=rotation,dur=1400,t0=Date.now();spinning=true;if(typeof velocity!=='undefined')velocity=0;function ease(p){return 1-Math.pow(1-p,3);}function step(){var p=Math.min(1,(Date.now()-t0)/dur);rotation=start+(end-start)*ease(p);applyRotation();if(p<1){requestAnimationFrame(step);}else{rotation=end;applyRotation();spinning=false;selectItem(slug);}}requestAnimationFrame(step);};window.WHEEL_NAMES=(function(){var o={};for(var k in REGISTRY){var dd=REGISTRY[k]&&REGISTRY[k].desc;if(!dd)continue;[dd.name,dd.name_es].forEach(function(n){if(n)o[String(n).toLowerCase().trim()]=k;});}return o;})();;
+
+  /* ---- re-localize the new controls + placeholder on language switch ---- */
+  function enhApplyLang(){
+    spinBtn.textContent=t('spin');glowBtn.textContent=t('glow');llBtn.textContent=cols?t('rows'):t('cols');
+    fillContactBar();
+    if(!currentSlug)showPlaceholder(); else showDetail(currentSlug);
+    updateReadPoint();
+  }
+  var _setLang=setLang;
+  setLang=function(l){_setLang(l);enhApplyLang();};
+
+  /* ---- init ---- */
+  fillContactBar();
+  if(!currentSlug)showPlaceholder();
+  setMode(mode);
+  /* keep placeholder when nothing is selected after a language toggle handled above */
+  setTimeout(updateReadPoint,60);
+
+  /* ---- F: keep descriptor labels screen-upright while docked (so they read right-side-up at the read side) ---- */
+  function uprightLabels(){
+    if(typeof descLabels==='undefined')return;
+    for(var i=0;i<descLabels.length;i++){var o=descLabels[i];
+      var deg=(READ_SIDE==='left')?o.theta+180:o.theta;
+      o.el.setAttribute('transform','rotate('+deg+','+o.lx+','+o.ly+')');
+    }
+  }
+  /* labels are glued radial; they rotate with the wheel group automatically */
+  /* renderLabels rebuilds descLabels (on lang/theme/size) — re-apply upright after each rebuild */
+  (function(){var _rl=renderLabels;renderLabels=function(){_rl();uprightLabels();};})();
+
+  /* ---- H: spin tally (local, per-wheel) ---- */
+  var spins=0; try{spins=parseInt(localStorage.getItem(SUBJECT+'Spins')||'0',10)||0;}catch(e){}
+  var spinsBg=document.getElementById('spinsBg');
+  var spinTally=document.getElementById('spinTally');
+  var _scTimer=null;
+  function renderTally(){
+    if(spinsBg){spinsBg.innerHTML='<span class="sc-line"><span class="sc-num">'+spins+'</span> '+(lang==='es'?'Giros':'Spins')+'</span><span class="sc-lab">'+(lang==='es'?'en el Randomizador':'on the Randomizer')+'</span>';spinsBg.classList.add('show');}
+    if(spinTally)spinTally.textContent=spins+(lang==='es'?' giros':' spins');
+  }
+  function flashSpins(){ if(!spinsBg)return; spinsBg.classList.add('flash'); if(_scTimer)clearTimeout(_scTimer); _scTimer=setTimeout(function(){spinsBg.classList.remove('flash');},900); }
+  renderTally();
+  spinBtn.addEventListener('click',function(){spins++;try{localStorage.setItem(SUBJECT+'Spins',String(spins));}catch(e){}renderTally();flashSpins();});
+
+  /* ---- H: control visibility tied to view (Cols only in List; Spin/Glow/mode only in Wheel) ---- */
+  (function(){var _sv=setView;setView=function(v){_sv(v);uprightLabels();updateReadPoint();};})();
+
+  /* re-localize tally on language switch (chain after existing enhApplyLang via setLang wrap already present) */
+  (function(){var _sl2=setLang;setLang=function(l){_sl2(l);renderTally();};})();
+
+  /* apply upright + readpoint once after init settles */
+  setMode(mode); syncReadSide(); setTimeout(function(){uprightLabels();updateReadPoint();},80);
+
+  /* ---- Wheel Format dropdown ---- */
+  var wfBtn=$('wheelFormat'), wfMenu=$('wfMenu');
+  function wfClose(){wfMenu.classList.remove('open');wfBtn.classList.remove('on');wfBtn.setAttribute('aria-expanded','false');}
+  function wfToggle(){var open=!wfMenu.classList.contains('open');wfMenu.classList.toggle('open',open);wfBtn.classList.toggle('on',open);wfBtn.setAttribute('aria-expanded',open?'true':'false');}
+  wfBtn.addEventListener('click',function(e){e.stopPropagation();wfToggle();});
+  document.addEventListener('click',function(e){if(!wfMenu.contains(e.target)&&e.target!==wfBtn)wfClose();});
+  function markMode(){
+    dL.classList.toggle('on',mode==='dock-left');dR.classList.toggle('on',mode==='dock-right');dF.classList.toggle('on',mode==='detached');
+    var lab=mode==='dock-left'?'◧ Dock Left':(mode==='dock-right'?'◨ Dock Right':'⤢ Free Move');
+    wfBtn.textContent=(lang==='es'?'\u25d1 Formato':'\u25d1 Format')+': '+lab+' \u25be';
+  }
+  [dL,dR,dF].forEach(function(b){b.addEventListener('click',function(){wfClose();setTimeout(markMode,0);});});
+  var freeSideBtn=$('freeSideBtn');
+  function markFreeSide(){var r=freeReadSide==='right';freeSideBtn.textContent=(lang==='es'?('↔ Libre lee: '+(r?'Derecha':'Izquierda')):('↔ Free reads: '+(r?'Right':'Left')));}
+  freeSideBtn.addEventListener('click',function(e){e.stopPropagation();freeReadSide=(freeReadSide==='right')?'left':'right';try{localStorage.setItem(SUBJECT+'FreeSide',freeReadSide);}catch(e){}markFreeSide();if(mode==='detached'){syncReadSide();updateReadPoint();}});
+  markFreeSide();
+  markMode();
+  /* re-label format button on language switch */
+  (function(){var _sl3=setLang;setLang=function(l){_sl3(l);markMode();markFreeSide();};})();
+
+
+  /* ---- top-left background message area: hover explanations for lang / theme / focus ---- */
+  function echoMsg(txt){bgEcho.textContent=txt;sizeEcho(txt);bgEcho.classList.add('show');}
+  function echoClear(){ if(currentSlug){showMirror(currentSlug);} else {bgEcho.classList.remove('show');} }
+  function wireEcho(elm,fn){ if(!elm)return;
+    elm.addEventListener('mouseenter',function(){echoMsg(fn());});
+    elm.addEventListener('mouseleave',echoClear);
+    elm.addEventListener('focus',function(){echoMsg(fn());});
+    elm.addEventListener('blur',echoClear);
+  }
+  wireEcho($('langBtn'),function(){return lang==='es'?'Espa\u00f1ol / English':'English / Spanish';});
+  wireEcho($('themeBtn'),function(){var dk=document.documentElement.getAttribute('data-theme')==='dark';return dk?'Dark / Light':'Light / Dark';});
+  wireEcho($('spinBtn'),function(){return lang==='es'?'Aumenta Tus Probabilidades de Aprender al Azar':'Increase Your Odds of Randomly Learning';});
+  wireEcho($('wheelFormat'),function(){return lang==='es'?'Formato de la Rueda':'Wheel Format';});
+  (function(){var tries=0;var iv=setInterval(function(){var fb=document.getElementById('fsBtn');tries++;
+    if(fb){clearInterval(iv);fb.setAttribute('title','Fully Focused Mode');
+      wireEcho(fb,function(){return lang==='es'?'Modo Concentraci\u00f3n Total':'Fully Focused Mode';});}
+    if(tries>40)clearInterval(iv);},50);})();
+
+})();
+
+
+</script>
+<div style="position:fixed;bottom:2px;left:50%;transform:translateX(-50%);font:11px/1.2 'Optima',sans-serif;color:rgba(120,110,90,.55);pointer-events:none;z-index:5;white-space:nowrap">Licensed to {{USER_EMAIL}} · © 2026 LearnSomm.com</div>
+</body>
+</html>

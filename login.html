@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LearnSomm | Secure Access</title>
+    <style>body { background: #000; color: #d4b276; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Georgia, serif; }</style>
+</head>
+<body>
+    <div id="login-container">
+        <h2>LearnSomm Command Center</h2>
+        <input type="email" id="email" placeholder="Sommelier Email">
+        <input type="password" id="password" placeholder="Key">
+        <button id="login-btn">Authenticate</button>
+    </div>
+
+    <script type="module">
+        import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.x.x/firebase-auth.js";
+        import { app } from "./firebase-config.js";
+
+        const auth = getAuth(app);
+        document.getElementById('login-btn').addEventListener('click', () => {
+            const email = document.getElementById('email').value;
+            const pass = document.getElementById('password').value;
+            signInWithEmailAndPassword(auth, email, pass)
+                .then(() => window.location.href = 'hub.html')
+                .catch(err => alert("Access Denied: " + err.message));
+        });
+    </script>
+</body>
+</html>
