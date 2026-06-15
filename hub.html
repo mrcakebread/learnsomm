@@ -5,25 +5,30 @@
     <title>LearnSomm | Command Center</title>
     <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+    
     <style>
         body, html { margin: 0; height: 100%; background: #000; color: #d4b276; font-family: Georgia, serif; overflow: hidden; }
         #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
-        #nav-row { height: 45px; background: #0a0602; border-bottom: 1px solid #332; display: flex; align-items: center; padding: 0 15px; }
+        #nav-row { height: 45px; background: #0a0602; border-bottom: 1px solid #332; display: flex; align-items: center; padding: 0 15px; gap: 10px; }
+        #nav-row button { background: #1a1208; border: 1px solid #332; color: #d4b276; padding: 5px 15px; cursor: pointer; }
+        #nav-row button:hover { border-color: #d4b276; }
         #content-frame { width: 100%; height: calc(100vh - 45px); border: none; }
     </style>
 </head>
 <body>
     <div id="auth-overlay"></div>
+    
     <div id="nav-row">
         <nav>
             <button onclick="load('wine-wheel.html')">Wine</button>
             <button onclick="load('beef-wheel.html')">Beef</button>
+            <button onclick="logout()">Log Out</button>
         </nav>
     </div>
+    
     <iframe id="content-frame"></iframe>
 
     <script>
-        // Since scripts are in the head, 'firebase' is now globally available
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -32,7 +37,10 @@
             messagingSenderId: "424279465207",
             appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
-        firebase.initializeApp(firebaseConfig);
+
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
 
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
@@ -42,7 +50,15 @@
             }
         });
 
-        function load(url) { document.getElementById('content-frame').src = url; }
+        function load(url) {
+            document.getElementById('content-frame').src = url;
+        }
+
+        function logout() {
+            firebase.auth().signOut().then(() => {
+                window.location.href = 'login.html';
+            });
+        }
     </script>
 </body>
 </html>
