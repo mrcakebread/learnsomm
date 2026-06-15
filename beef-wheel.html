@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-   <script>
-    // Standard Firebase scripts in the <head>
-    // ... firebase-app-compat.js
-    // ... firebase-auth-compat.js
+    <meta charset="UTF-8">
+    <title>Wheel</title>
+    <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
+    <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+    <style>
+        /* Only show this if the hub didn't load the user */
+        #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
+    </style>
+</head>
+<body>
+    <div id="auth-overlay"></div>
 
-    // Use a small delay to ensure the overlay exists
-    window.addEventListener('load', () => {
-        const firebaseConfig = {
+    <script>
+        // Use the same config as Hub
+        const config = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
             projectId: "mark-s-wine-training",
@@ -16,30 +23,19 @@
             messagingSenderId: "424279465207",
             appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
         };
-        
-        // Initialize if not already done
-        if (!firebase.apps.length) {
-            firebase.initializeApp(firebaseConfig);
-        }
+        firebase.initializeApp(config);
 
+        // Check if the user is already authenticated from the Hub
         firebase.auth().onAuthStateChanged((user) => {
-            const overlay = document.getElementById('auth-overlay');
-            if (!user) {
-                window.location.href = 'login.html';
-            } else if (overlay) {
-                // Verification passed: Reveal content
-                overlay.style.display = 'none';
+            if (user) {
+                document.getElementById('auth-overlay').style.display = 'none';
+            } else {
+                window.top.location.href = 'login.html'; // Redirect the whole page
             }
         });
-    });
-</script>ebasejs/10.x.x/firebase-auth-compat.js"></script>
-    
-    <style>
-        #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
-    </style>
-</head>
+    </script>
 
-<body>
+
     <div id="auth-overlay"></div>
 
     <script>
