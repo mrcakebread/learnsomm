@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <title>LearnSomm · Training Portal</title>
     
-    <style id="security-gate">
-        body { visibility: hidden !important; background: #14110c !important; }
-    </style>
-
     <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
 
     <script>
+        document.write('<style>body { visibility: hidden !important; background: #14110c !important; }</style>');
+
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -23,15 +21,11 @@
 
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
-        // Security Gate
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                // Reveal body
-                const gate = document.getElementById('security-gate');
-                if (gate) gate.remove();
                 document.body.style.visibility = 'visible';
             } else {
-                // Redirect to root index
+                // If not logged in, go back to the root index
                 window.location.replace('/index.html');
             }
         });
