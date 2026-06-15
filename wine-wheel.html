@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+<script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
+    <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
+    <script>
+        document.write('<style>body { visibility: hidden !important; background-color: #000 !important; }</style>');
+        const firebaseConfig = {
+            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+            authDomain: "mark-s-wine-training.firebaseapp.com",
+            projectId: "mark-s-wine-training",
+            storageBucket: "mark-s-wine-training.firebasestorage.app",
+            messagingSenderId: "424279465207",
+            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+        };
+        if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+        
+        firebase.auth().onAuthStateChanged(user => {
+            if (user) {
+                document.body.style.visibility = 'visible';
+                const overlay = document.getElementById('auth-overlay');
+                if (overlay) overlay.style.display = 'none';
+            } else {
+                window.location.href = 'login.html';
+            }
+        });
+    </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wine Aroma & Flavor Wheel — Mark Lenington</title>
