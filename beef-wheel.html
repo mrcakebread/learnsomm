@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
+    
     <style>
-        /* This overlay stays until JS removes it */
-        #auth-overlay {
-            position: fixed; inset: 0; background: #000; 
-            z-index: 9999; display: flex; align-items: center; justify-content: center;
-        }
+        #auth-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; }
     </style>
+</head>
+
+<body>
+    <div id="auth-overlay"></div>
+
+    <script>
+        // 1. Your config object directly here
+        const firebaseConfig = {
+            apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
+            authDomain: "mark-s-wine-training.firebaseapp.com",
+            projectId: "mark-s-wine-training",
+            storageBucket: "mark-s-wine-training.firebasestorage.app",
+            messagingSenderId: "424279465207",
+            appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
+        };
+
+        // 2. Initialize
+        firebase.initializeApp(firebaseConfig);
+        
+        // 3. The Guard
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (!user) {
+                window.location.href = 'login.html';
+            } else {
+                document.getElementById('auth-overlay').style.display = 'none';
+            }
+        });
+    </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beef Cuts Wheel — Mark Lenington</title>
