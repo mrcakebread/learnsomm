@@ -654,7 +654,7 @@
             const provider = new firebase.auth.GoogleAuthProvider();
             firebase.auth().signInWithPopup(provider)
                 .then(() => {
-                    window.location.href = 'demos/training.html';
+                    window.location.href = 'training.html';
                 })
                 .catch((error) => {
                     console.error("Login failed:", error);
