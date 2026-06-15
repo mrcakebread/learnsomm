@@ -25,13 +25,20 @@
         // 2. Auth State Observer
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                // User is logged in, show the content
                 document.body.style.visibility = 'visible';
             } else {
-                // User is NOT logged in. Redirect to your login page.
-                window.location.href = 'index.html'; 
+                // The leading slash "/" forces the browser to look in the root folder
+                window.location.href = '/index.html'; 
             }
         });
+
+        // 3. DEBUG FAIL-SAFE: If Firebase takes longer than 3s, show the page
+        setTimeout(() => {
+            if (document.body.style.visibility !== 'visible') {
+                console.warn("Security check taking too long, forcing reveal...");
+                document.body.style.visibility = 'visible';
+            }
+        }, 3000);
     </script>
     <style>
         body { margin:0; background:#14110c; overflow:hidden; }
