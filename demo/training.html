@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>LearnSomm · Training Portal</title>
     
+    <style id="security-gate">
+        body { visibility: hidden !important; background: #14110c !important; }
+    </style>
+
     <script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
     <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
 
     <script>
-        // 1. Force the page hidden immediately to prevent white flash
-        document.write('<style>body { visibility: hidden !important; background: #14110c !important; }</style>');
-
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
             authDomain: "mark-s-wine-training.firebaseapp.com",
@@ -22,39 +23,19 @@
 
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
-        // 2. Auth Gate
         firebase.auth().onAuthStateChanged(user => {
             if (user) {
-                // User is authenticated, reveal the content
+                // Remove the gate and show content
+                document.getElementById('security-gate').remove();
                 document.body.style.visibility = 'visible';
             } else {
-                // User is not authenticated, redirect to index
-                // Use replace to prevent back-button loops
-                if (window.location.pathname !== '/index.html') {
-                    window.location.replace('/index.html');
-                }
+                // Use absolute path to ensure redirect works from any folder
+                window.location.replace('/index.html'); 
             }
         });
     </script>
-    <style>
-        body { margin:0; background:#14110c; overflow:hidden; }
-        #wheel-frame { width:100%; height:100vh; border:none; display:block; }
-    </style>
 </head>
-<body>
-    <iframe id="wheel-frame" src="wine-aroma-wheel-demo-v9.html"></iframe>
-    
-    <script>
-        /* Anti-copy protections */
-        document.addEventListener('contextmenu', e => e.preventDefault());
-        document.addEventListener('keydown', e => {
-            const k = e.key.toUpperCase();
-            if (e.key === 'F12' || 
-               ((e.ctrlKey || e.metaKey) && e.shiftKey && ['I','C','J'].includes(k)) ||
-               ((e.ctrlKey || e.metaKey) && ['U','S'].includes(k))) {
-                e.preventDefault();
-            }
-        });
-    </script>
+<body style="background:#14110c; margin:0; overflow:hidden;">
+    <iframe src="wine-aroma-wheel-demo-v9.html" style="width:100%; height:100vh; border:none; display:block;"></iframe>
 </body>
 </html>
