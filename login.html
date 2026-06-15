@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>LearnSomm | Access</title>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
     <style>
         body { background: #000; color: #d4b276; display: flex; align-items: center; justify-content: center; height: 100vh; font-family: sans-serif; }
         #login-container { text-align: center; border: 1px solid #332; padding: 40px; background: #0a0602; }
         input { display: block; width: 250px; padding: 10px; margin: 10px auto; background: #1a1208; border: 1px solid #332; color: #fff; }
-        button { background: #d4b276; padding: 10px 25px; cursor: pointer; }
+        button { background: #d4b276; padding: 10px 25px; cursor: pointer; text-transform: uppercase; font-weight: bold; }
     </style>
 </head>
 <body>
     <div id="login-container">
         <h2>LearnSomm Access</h2>
-        <input type="email" id="email" placeholder="Email">
-        <input type="password" id="password" placeholder="Key">
+        <input type="email" id="email" placeholder="Email" autocomplete="username">
+        <input type="password" id="password" placeholder="Key" autocomplete="current-password">
         <button id="login-btn">Authenticate</button>
     </div>
 
     <script>
-        (function waitForFirebase() {
-            if (typeof firebase !== 'undefined' && firebase.auth) {
+        // Inject scripts manually to avoid external extension interference
+        function loadScript(src) {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = false;
+            document.body.appendChild(script);
+        }
+
+        loadScript("https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js");
+        loadScript("https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js");
+
+        // Polling function to wait for Firebase to initialize
+        (function poll() {
+            if (typeof firebase !== 'undefined' && firebase.initializeApp) {
                 initApp();
             } else {
-                console.log("Waiting for Firebase...");
-                setTimeout(waitForFirebase, 100);
+                setTimeout(poll, 50);
             }
         })();
 
@@ -39,6 +48,7 @@
                 messagingSenderId: "424279465207",
                 appId: "1:424279465207:web:7be6d1a760bc92d045c7f2"
             };
+            
             firebase.initializeApp(firebaseConfig);
 
             document.getElementById('login-btn').addEventListener('click', () => {
