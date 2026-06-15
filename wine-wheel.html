@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beef Cuts Wheel — Mark Lenington</title>
-<script src="https://unpkg.com/firebase@10.x/firebase-app-compat.js"></script>
-    <script src="https://unpkg.com/firebase@10.x/firebase-auth-compat.js"></script>
-
-    <script>
-        // 1. Force the page to stay hidden while we check auth
-        document.write('<style>body { visibility: hidden !important; }</style>');
+<script>
+        // 1. Force the page to stay hidden
+        document.write('<style>body { visibility: hidden !important; background-color: #000 !important; }</style>');
 
         const firebaseConfig = {
             apiKey: "AIzaSyCsmpFOWKhVaUZD4EQR24AtOpyKDX2JhGg",
@@ -24,18 +21,25 @@
             firebase.initializeApp(firebaseConfig);
         }
 
-        // 2. Absolute Guard: Only reveal if user is logged in
+        // 2. Security Guard with Visibility Fallback
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
-                // User is valid, reveal the page
+                // Reveal the page
                 document.body.style.visibility = 'visible';
                 const overlay = document.getElementById('auth-overlay');
                 if (overlay) overlay.style.display = 'none';
             } else {
-                // Not logged in: kick them to login
                 window.top.location.href = 'login.html';
             }
         });
+
+        // 3. Emergency Fallback: If auth takes too long, force reveal after 3 seconds
+        setTimeout(function() {
+            if (document.body.style.visibility === 'hidden') {
+                console.warn("Auth check timed out, forcing visibility.");
+                document.body.style.visibility = 'visible';
+            }
+        }, 3000);
     </script>
 <style>
 
