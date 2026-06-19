@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>LearnSomm · Bilingual Track</title>
+<style>
+:root,[data-theme="light"]{--bg:#faf8f3;--text:#2b251d;--muted:#857966;--line:#e2dacb;--panel:#fff;--accent:#8a5a2a;--gold:#a87f3d;--good:#3f7d4f;--bad:#9d4040;--shadow:0 8px 30px rgba(80,60,30,.14);}
+[data-theme="dark"]{--bg:#16130e;--text:#e9e2d4;--muted:#9a8d78;--line:#393226;--panel:#1e1a14;--accent:#c9a96e;--gold:#d4b276;--good:#6fb98a;--bad:#d98080;--shadow:0 10px 34px rgba(0,0,0,.55);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Archivo','Segoe UI',system-ui,sans-serif;
+  min-height:100vh;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+.serif{font-family:'Fraunces','Georgia',serif}
+#wrap{max-width:560px;margin:0 auto;padding:1rem 1rem 3rem;min-height:100vh;display:flex;flex-direction:column}
+/* top bar */
+#top{display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+#top .brand{font-family:'Fraunces','Georgia',serif;font-weight:700;font-size:1.05rem;flex:1}
+#top .brand b{color:var(--gold)}
+.icon-btn{width:36px;height:36px;border:1px solid var(--line);border-radius:9px;background:var(--panel);
+  color:var(--muted);cursor:pointer;font-size:1rem;display:grid;place-items:center}
+.icon-btn:hover{border-color:var(--gold);color:var(--gold)}
+/* cards / screens */
+.screen{display:none;animation:fade .35s ease}
+.screen.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kick{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;text-align:center}
+h1.title{font-family:'Fraunces','Georgia',serif;font-weight:600;font-size:1.7rem;line-height:1.2;text-align:center;margin-bottom:.5rem}
+h1.title em{color:var(--gold);font-style:italic}
+.sub{color:var(--muted);text-align:center;margin-bottom:1.4rem;font-size:.95rem}
+.choice-grid{display:grid;gap:.7rem}
+.choice{display:flex;align-items:center;gap:.8rem;width:100%;text-align:left;padding:1rem;border:1px solid var(--line);
+  border-radius:14px;background:var(--panel);color:var(--text);cursor:pointer;font-size:1rem;transition:.15s;font-family:inherit}
+.choice:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:var(--shadow)}
+.choice.sel{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 12%,transparent)}
+.choice .em{font-size:1.5rem;flex:none}
+.choice .tx{flex:1}
+.choice .tx b{display:block;font-weight:600}
+.choice .tx span{font-size:.82rem;color:var(--muted)}
+.btn{display:block;width:100%;padding:.95rem;border:none;border-radius:12px;background:var(--gold);color:#1a140a;
+  font-weight:700;font-size:1rem;cursor:pointer;margin-top:1.2rem;font-family:inherit;transition:.15s}
+.btn:hover{filter:brightness(1.07)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+/* quiz */
+#qHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;font-size:.85rem;color:var(--muted)}
+.pill{padding:.3rem .7rem;border-radius:20px;border:1px solid var(--line);background:var(--panel)}
+.pill b{color:var(--gold)}
+#prompt{text-align:center;padding:2rem 1rem;border:1px solid var(--line);border-radius:18px;background:var(--panel);margin-bottom:.5rem}
+#prompt .lang{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}
+#prompt .word{font-family:'Fraunces','Georgia',serif;font-size:2.1rem;font-weight:600}
+#prompt .cat{font-size:.8rem;color:var(--muted);margin-top:.5rem}
+#opts{display:grid;gap:.6rem;margin-top:1rem}
+.opt{padding:.95rem 1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);
+  cursor:pointer;font-size:1.05rem;text-align:center;transition:.12s;font-family:inherit}
+.opt:hover{border-color:var(--gold)}
+.opt.correct{border-color:var(--good);background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good);font-weight:700}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.opt:disabled{cursor:default}
+/* say sommthing */
+#say{margin-top:1rem;padding:1rem;border:1px dashed var(--gold);border-radius:14px;background:color-mix(in srgb,var(--gold) 6%,transparent)}
+#say .lbl{font-family:'Fraunces','Georgia',serif;font-size:.95rem;margin-bottom:.7rem;display:flex;align-items:center;gap:.4rem}
+#say .row{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.rec-btn{display:inline-flex;align-items:center;gap:.45rem;padding:.6rem .9rem;border:1px solid var(--line);border-radius:10px;
+  background:var(--panel);color:var(--text);cursor:pointer;font-size:.9rem;font-family:inherit}
+.rec-btn.recording{border-color:var(--bad);color:var(--bad);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+.rec-dot{width:9px;height:9px;border-radius:50%;background:var(--bad);display:inline-block}
+.hint{font-size:.78rem;color:var(--muted);margin-top:.5rem;line-height:1.4}
+/* progress + score */
+#bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+#bar i{display:block;height:100%;background:var(--gold);width:0;transition:width .3s}
+.statline{display:flex;gap:.6rem;justify-content:center;margin:1.3rem 0}
+.stat{text-align:center;padding:.8rem 1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);flex:1}
+.stat .n{font-family:'Fraunces','Georgia',serif;font-size:1.7rem;font-weight:700;color:var(--gold)}
+.stat .l{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+/* review list */
+.rev{display:flex;align-items:center;gap:.6rem;padding:.7rem;border:1px solid var(--line);border-radius:10px;margin-bottom:.5rem;background:var(--panel)}
+.rev .pair{flex:1}
+.rev .pair b{font-family:'Fraunces','Georgia',serif}
+.rev .pair span{color:var(--muted);font-size:.85rem}
+.play-btn{width:34px;height:34px;border-radius:50%;border:1px solid var(--gold);background:transparent;color:var(--gold);cursor:pointer;flex:none}
+.play-btn:disabled{opacity:.3;border-color:var(--line);color:var(--muted);cursor:default}
+.foot{text-align:center;color:var(--muted);font-size:.75rem;margin-top:auto;padding-top:1.5rem}
+.lt{font-size:.8rem;color:var(--muted);text-align:center;margin-top:.8rem;cursor:pointer;text-decoration:underline}
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="top">
+    <div class="brand">Learn<b>Somm</b> · <span id="brandSub">Bilingual Track</span></div>
+    <button class="icon-btn" id="langBtn" title="EN / ES">EN</button>
+    <button class="icon-btn" id="themeBtn" title="Theme">☾</button>
+  </div>
+
+  <!-- 1. direction -->
+  <section class="screen on" id="scDir">
+    <div class="kick" id="k1">Learn together</div>
+    <h1 class="title serif" id="t1">Which way are you <em>learning</em>?</h1>
+    <p class="sub" id="s1">Pick your direction — you can switch any time.</p>
+    <div class="choice-grid" id="dirGrid">
+      <button class="choice" data-dir="en2es"><span class="em">🇬🇧→🇪🇸</span><span class="tx"><b>English → Spanish</b><span>I speak English, learning Spanish</span></span></button>
+      <button class="choice" data-dir="es2en"><span class="em">🇪🇸→🇬🇧</span><span class="tx"><b>Español → Inglés</b><span>Hablo español, aprendiendo inglés</span></span></button>
+      <button class="choice" data-dir="both"><span class="em">🔁</span><span class="tx"><b>Both / Ambos</b><span>Keep both sharp · Mantener ambos</span></span></button>
+    </div>
+    <button class="btn" id="dirNext" disabled>Continue</button>
+  </section>
+
+  <!-- 2. track -->
+  <section class="screen" id="scTrack">
+    <div class="kick" id="k2">Your track</div>
+    <h1 class="title serif" id="t2">Pick your <em>track</em></h1>
+    <p class="sub" id="s2">This sets your hourly lightning quizzes.</p>
+    <div class="choice-grid" id="trackGrid">
+      <button class="choice" data-track="mocktail"><span class="em">☕</span><span class="tx"><b id="trM">Mocktail Track</b><span id="trMs">Coffee & tea lightning quizzes — no alcohol</span></span></button>
+      <button class="choice" data-track="full"><span class="em">🍷</span><span class="tx"><b id="trF">Full Cellar</b><span id="trFs">Everything — coffee, tea, wine, spirits & more</span></span></button>
+    </div>
+    <button class="btn" id="trackNext" disabled>Continue</button>
+    <div class="lt" id="backToDir">← Back</div>
+  </section>
+
+  <!-- 3. category (start where people win) -->
+  <section class="screen" id="scCat">
+    <div class="kick" id="k3">Start easy, win early</div>
+    <h1 class="title serif" id="t3">Where do you want to <em>begin</em>?</h1>
+    <p class="sub" id="s3">These start with words you already know — the fastest wins.</p>
+    <div class="choice-grid" id="catGrid"></div>
+    <div class="lt" id="backToTrack">← Back</div>
+  </section>
+
+  <!-- 4. quiz -->
+  <section class="screen" id="scQuiz">
+    <div id="bar"><i id="barFill"></i></div>
+    <div id="qHead">
+      <span class="pill" id="catPill">—</span>
+      <span class="pill" id="scorePill"><b id="scoreNow">0</b> <span id="ptsLbl">pts</span></span>
+    </div>
+    <div id="prompt">
+      <div class="lang" id="promptLang">SAY IT IN SPANISH</div>
+      <div class="word serif" id="promptWord">—</div>
+      <div class="cat" id="promptCat"></div>
+    </div>
+    <div id="opts"></div>
+
+    <!-- Say Sommthing -->
+    <div id="say">
+      <div class="lbl serif">🎙️ <span id="sayTitle">Say Sommthing about it!</span></div>
+      <div class="row">
+        <button class="rec-btn" id="recBtn"><span class="rec-dot" style="display:none"></span><span id="recLbl">Record yourself saying it</span></button>
+        <button class="play-btn" id="playBtn" disabled>▶</button>
+      </div>
+      <div class="hint" id="sayHint">Speak the word out loud, then hear yourself on review. Building the confidence to say it is half of learning it.</div>
+    </div>
+    <button class="btn" id="nextBtn" style="display:none">Next →</button>
+  </section>
+
+  <!-- 5. done / review -->
+  <section class="screen" id="scDone">
+    <div class="kick" id="k5">Round complete</div>
+    <h1 class="title serif" id="t5">¡Bien hecho! <em>Nicely done.</em></h1>
+    <div class="statline">
+      <div class="stat"><div class="n" id="fScore">0</div><div class="l" id="fScoreL">Points</div></div>
+      <div class="stat"><div class="n" id="fAcc">0%</div><div class="l" id="fAccL">Accuracy</div></div>
+      <div class="stat"><div class="n" id="fRec">0</div><div class="l" id="fRecL">Recorded</div></div>
+    </div>
+    <p class="sub" id="revIntro">Tap ▶ to hear yourself — compare your voice to the word.</p>
+    <div id="revList"></div>
+    <button class="btn" id="againBtn">Another round</button>
+    <button class="btn ghost" id="homeBtn" style="margin-top:.6rem">Change track</button>
+  </section>
+
+  <div class="foot">Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com<br>
+    <span id="footNote">Voice notes stay on your device. Mic needs https or localhost.</span></div>
+</div>
+
+<script>
+var VOCAB = {"Water": [{"en": "Tap Water", "es": "Agua de Grifo"}, {"en": "Filtered Water", "es": "Agua Filtrada"}, {"en": "Fluoridated Water", "es": "Agua Fluorada"}, {"en": "Rainwater", "es": "Agua de Lluvia"}, {"en": "Spring Water", "es": "Agua de Manantial"}, {"en": "Artesian Water", "es": "Agua Artesiana"}, {"en": "Mineral Water", "es": "Agua Mineral"}, {"en": "Well Water", "es": "Agua de Pozo"}, {"en": "Purified Water", "es": "Agua Purificada"}, {"en": "Distilled Water", "es": "Agua Destilada"}, {"en": "Reverse Osmosis Water", "es": "Agua de Ósmosis Inversa"}, {"en": "Deionized Water", "es": "Agua Desionizada"}, {"en": "Alkaline Water", "es": "Agua Alcalina"}, {"en": "Electrolyte Water", "es": "Agua con Electrolitos"}, {"en": "Structured Water", "es": "Agua Estructurada"}, {"en": "Soft Water", "es": "Agua Blanda"}, {"en": "Sparkling Water", "es": "Agua con Gas"}, {"en": "Sparkling Mineral Water", "es": "Agua Mineral Carbonatada"}, {"en": "Seltzer Water", "es": "Agua Seltz"}, {"en": "Tonic Water", "es": "Agua Tónica"}, {"en": "Flavored Water", "es": "Agua con Sabor"}, {"en": "Infused Water", "es": "Agua Infusionada"}, {"en": "Electrolyte Drink", "es": "Bebida con Electrolitos"}, {"en": "Hard Water", "es": "Agua Dura"}, {"en": "Calcium-Rich Water", "es": "Agua Rica en Calcio"}, {"en": "Magnesium-Rich Water", "es": "Agua Rica en Magnesio"}], "Bread": [{"en": "Italian Loaf", "es": "Pan Italiano"}, {"en": "Challah", "es": "Jalá"}, {"en": "Hokkaido Milk Bread", "es": "Pan de Leche Hokkaido"}, {"en": "Hawaiian Bread", "es": "Pan Hawaiano"}, {"en": "White Bread", "es": "Pan Blanco"}, {"en": "Potato Bread", "es": "Pan de Papa"}, {"en": "Sliced Bread", "es": "Pan de Molde"}, {"en": "Milk Bread", "es": "Pan de Leche"}, {"en": "Whole Wheat", "es": "Trigo Integral"}, {"en": "Multigrain", "es": "Multigrano"}, {"en": "Sprouted Grain", "es": "Grano Germinado"}, {"en": "Rye Bread", "es": "Pan de Centeno"}, {"en": "Classic Sourdough", "es": "Masa Madre Clásica"}, {"en": "San Francisco Sourdough", "es": "Masa Madre San Francisco"}, {"en": "Sourdough Rye", "es": "Centeno de Masa Madre"}, {"en": "Banana Bread", "es": "Pan de Plátano"}, {"en": "Irish Soda Bread", "es": "Pan de Soda Irlandés"}, {"en": "Cornbread", "es": "Pan de Maíz"}, {"en": "Beer Bread", "es": "Pan de Cerveza"}, {"en": "Matzo", "es": "Matzá"}, {"en": "English Muffin", "es": "Muffin Inglés"}, {"en": "Bao Bun", "es": "Bollo Bao"}, {"en": "Fry Bread", "es": "Pan Frito"}, {"en": "Curry Bread", "es": "Pan de Curry"}], "Coffee": [{"en": "Chamomile", "es": "Manzanilla"}, {"en": "Rose", "es": "Rosa"}, {"en": "Jasmine", "es": "Jazmín"}, {"en": "Black Tea", "es": "Té Negro"}, {"en": "Blackberry", "es": "Zarzamora"}, {"en": "Raspberry", "es": "Frambuesa"}, {"en": "Blueberry", "es": "Mora Azul"}, {"en": "Strawberry", "es": "Fresa"}, {"en": "Raisin", "es": "Pasa"}, {"en": "Prune", "es": "Ciruela Pasa"}, {"en": "Coconut", "es": "Coco"}, {"en": "Cherry", "es": "Cereza"}, {"en": "Pomegranate", "es": "Granada"}, {"en": "Pineapple", "es": "Piña"}, {"en": "Grape", "es": "Uva"}, {"en": "Apple", "es": "Manzana"}, {"en": "Peach", "es": "Durazno"}, {"en": "Pear", "es": "Pera"}, {"en": "Grapefruit", "es": "Toronja"}, {"en": "Orange", "es": "Naranja"}, {"en": "Lemon", "es": "Limón"}, {"en": "Lime", "es": "Lima"}, {"en": "Sour Aromatics", "es": "Aromas Ácidos"}, {"en": "Acetic Acid", "es": "Ácido Acético"}, {"en": "Butyric Acid", "es": "Ácido Butírico"}, {"en": "Isovaleric Acid", "es": "Ácido Isovalérico"}, {"en": "Citric Acid", "es": "Ácido Cítrico"}, {"en": "Malic Acid", "es": "Ácido Málico"}, {"en": "Winey", "es": "Vinoso"}, {"en": "Whiskey", "es": "Whisky"}, {"en": "Fermented", "es": "Fermentado"}, {"en": "Overripe", "es": "Sobremaduro"}, {"en": "Under-ripe", "es": "Inmaduro"}, {"en": "Peapod", "es": "Vaina de Chícharo"}, {"en": "Fresh", "es": "Fresco"}, {"en": "Dark Green", "es": "Verde Oscuro"}, {"en": "Vegetative", "es": "Vegetal"}, {"en": "Hay-like", "es": "A Heno"}, {"en": "Herb-like", "es": "Herbal"}, {"en": "Olive Oil", "es": "Aceite de Oliva"}, {"en": "Raw", "es": "Crudo"}, {"en": "Beany", "es": "A Frijol"}, {"en": "Stale", "es": "Rancio"}, {"en": "Cardboard", "es": "Cartón"}, {"en": "Papery", "es": "A Papel"}, {"en": "Woody", "es": "Amaderado"}, {"en": "Moldy/Damp", "es": "Moho / Humedad"}, {"en": "Musty/Dusty", "es": "Humedad / Polvo"}, {"en": "Musty/Earthy", "es": "Humedad / Tierra"}, {"en": "Animalic", "es": "Animal"}, {"en": "Meaty Brothy", "es": "A Caldo"}, {"en": "Phenolic", "es": "Fenólico"}, {"en": "Bitter", "es": "Amargo"}, {"en": "Salty", "es": "Salado"}, {"en": "Petroleum", "es": "Petróleo"}, {"en": "Skunky", "es": "A Zorrillo"}, {"en": "Rubber", "es": "Hule"}, {"en": "Acrid", "es": "Acre"}, {"en": "Ashy", "es": "A Ceniza"}, {"en": "Smoky", "es": "Ahumado"}, {"en": "Brown, Roast", "es": "Tueste Oscuro"}, {"en": "Grain", "es": "Grano"}, {"en": "Malt", "es": "Malta"}, {"en": "Pipe Tobacco", "es": "Tabaco de Pipa"}, {"en": "Tobacco", "es": "Tabaco"}, {"en": "Anise", "es": "Anís"}, {"en": "Nutmeg", "es": "Nuez Moscada"}, {"en": "Cinnamon", "es": "Canela"}, {"en": "Clove", "es": "Clavo"}, {"en": "Pungent", "es": "Punzante"}, {"en": "Pepper", "es": "Pimienta"}, {"en": "Peanuts", "es": "Cacahuates"}, {"en": "Hazelnut", "es": "Avellana"}, {"en": "Almond", "es": "Almendra"}, {"en": "Dark Chocolate", "es": "Chocolate Amargo"}, {"en": "Molasses", "es": "Melaza"}, {"en": "Maple Syrup", "es": "Miel de Maple"}, {"en": "Caramelized", "es": "Caramelizado"}, {"en": "Honey", "es": "Miel"}, {"en": "Vanilla", "es": "Vainilla"}, {"en": "Vanillin", "es": "Vainillina"}, {"en": "Overall Sweet", "es": "Dulzor General"}, {"en": "Sweet Aromatics", "es": "Aromas Dulces"}], "Tea": [{"en": "Raspberry", "es": "Frambuesa"}, {"en": "Strawberry", "es": "Fresa"}, {"en": "Blackberry", "es": "Zarzamora"}, {"en": "Black Currant", "es": "Grosella Negra"}, {"en": "Orange", "es": "Naranja"}, {"en": "Lemon", "es": "Limón"}, {"en": "Grapefruit", "es": "Toronja"}, {"en": "Citrus Zest", "es": "Ralladura de Cítricos"}, {"en": "Green Apple", "es": "Manzana Verde"}, {"en": "Red Apple", "es": "Manzana Roja"}, {"en": "Banana", "es": "Plátano"}, {"en": "Peach", "es": "Durazno"}, {"en": "Apricot", "es": "Chabacano"}, {"en": "Pear", "es": "Pera"}, {"en": "Dried Fruit", "es": "Fruta Seca"}, {"en": "Melon", "es": "Melón"}, {"en": "Lychee", "es": "Lichi"}, {"en": "Pineapple", "es": "Piña"}, {"en": "Jasmine", "es": "Jazmín"}, {"en": "Lilac", "es": "Lila"}, {"en": "Orchid", "es": "Orquídea"}, {"en": "Honeysuckle", "es": "Madreselva"}, {"en": "Cherry Blossom", "es": "Flor de Cerezo"}, {"en": "Orange Blossom", "es": "Azahar"}, {"en": "Rose", "es": "Rosa"}, {"en": "Dandelion", "es": "Diente de León"}, {"en": "Violet", "es": "Violeta"}, {"en": "Geranium", "es": "Geranio"}, {"en": "Hops", "es": "Lúpulo"}, {"en": "Almond", "es": "Almendra"}, {"en": "Peanut", "es": "Cacahuate"}, {"en": "Walnut", "es": "Nuez de Castilla"}, {"en": "Chestnut", "es": "Castaña"}, {"en": "Hazelnut", "es": "Avellana"}, {"en": "Roasted Nuts", "es": "Nueces Tostadas"}, {"en": "Honey", "es": "Miel"}, {"en": "Maple Syrup", "es": "Miel de Maple"}, {"en": "Malt", "es": "Malta"}, {"en": "Nectar", "es": "Néctar"}, {"en": "Caramel", "es": "Caramelo"}, {"en": "Molasses", "es": "Melaza"}, {"en": "Burnt Sugar", "es": "Azúcar Quemada"}, {"en": "Candy", "es": "Dulce"}, {"en": "Cocoa", "es": "Cacao"}, {"en": "Clove", "es": "Clavo"}, {"en": "Thyme", "es": "Tomillo"}, {"en": "Parsley", "es": "Perejil"}, {"en": "Nutmeg", "es": "Nuez Moscada"}, {"en": "Menthol", "es": "Mentol"}, {"en": "Vanilla", "es": "Vainilla"}, {"en": "Black Pepper", "es": "Pimienta Negra"}, {"en": "White Pepper", "es": "Pimienta Blanca"}, {"en": "Coriander Seed", "es": "Semilla de Cilantro"}, {"en": "Cardamom", "es": "Cardamomo"}, {"en": "Eucalyptus", "es": "Eucalipto"}, {"en": "Cinnamon", "es": "Canela"}, {"en": "Licorice", "es": "Regaliz"}, {"en": "Saffron", "es": "Azafrán"}, {"en": "Fennel", "es": "Hinojo"}, {"en": "Ash", "es": "Ceniza"}, {"en": "Tar", "es": "Brea"}, {"en": "Smoke", "es": "Humo"}, {"en": "Toast", "es": "Pan Tostado"}, {"en": "Tobacco", "es": "Tabaco"}, {"en": "Grilled Food", "es": "Comida a la Parrilla"}, {"en": "Burnt Food", "es": "Comida Quemada"}, {"en": "Fireplace", "es": "Chimenea"}, {"en": "Grass", "es": "Pasto"}, {"en": "Freshly Cut Grass", "es": "Pasto Recién Cortado"}, {"en": "Grass Seed", "es": "Semilla de Pasto"}, {"en": "Barnyard", "es": "Establo"}, {"en": "Stems", "es": "Tallos"}, {"en": "Straw", "es": "Paja"}, {"en": "Pine", "es": "Pino"}, {"en": "Cedar", "es": "Cedro"}, {"en": "Cherry Wood", "es": "Madera de Cerezo"}, {"en": "Green Wood", "es": "Madera Verde"}, {"en": "Dark Wood", "es": "Madera Oscura"}, {"en": "Sawdust", "es": "Aserrín"}, {"en": "Camphor", "es": "Alcanfor"}, {"en": "Resin", "es": "Resina"}, {"en": "Bark", "es": "Corteza"}, {"en": "Peat", "es": "Turba"}, {"en": "Moss", "es": "Musgo"}, {"en": "Wet Wood", "es": "Madera Mojada"}, {"en": "Wet Earth", "es": "Tierra Mojada"}, {"en": "Leather", "es": "Cuero"}, {"en": "Forest Floor", "es": "Suelo de Bosque"}, {"en": "Decaying Wood", "es": "Madera en Descomposición"}, {"en": "Compost", "es": "Composta"}, {"en": "Musty", "es": "A Humedad"}, {"en": "Metallic", "es": "Metálico"}, {"en": "Wet Rocks", "es": "Piedras Mojadas"}, {"en": "Salt", "es": "Sal"}, {"en": "Seaweed", "es": "Alga Marina"}, {"en": "Ocean Air", "es": "Brisa Marina"}, {"en": "Fish", "es": "Pescado"}, {"en": "Garden Peas", "es": "Chícharos"}, {"en": "Green Pepper", "es": "Pimiento Morrón"}, {"en": "Asparagus", "es": "Espárrago"}]};
+var CAT_EMOJI = {Water:"💧",Bread:"🍞",Coffee:"☕",Tea:"🍵"};
+var CAT_ES = {Water:"Agua",Bread:"Pan",Coffee:"Café",Tea:"Té"};
+
+var S = { dir:null, track:null, cat:null, lang:'en', queue:[], idx:0, score:0, correct:0, total:0, recorded:0, results:[] };
+var recordings = {};   // key -> blob url (in-memory for this session)
+var REC = { mediaRecorder:null, chunks:[], stream:null, currentKey:null };
+
+function $(id){return document.getElementById(id);}
+function show(id){document.querySelectorAll('.screen').forEach(function(s){s.classList.remove('on');});$(id).classList.add('on');}
+function isES(){return S.lang==='es';}
+
+/* ---- i18n for UI chrome ---- */
+var STR = {
+  brandSub:["Bilingual Track","Ruta Bilingüe"],
+  k1:["Learn together","Aprendamos juntos"], t1:["Which way are you <em>learning</em>?","¿En qué <em>dirección</em> aprendes?"],
+  s1:["Pick your direction — you can switch any time.","Elige tu dirección — puedes cambiar cuando quieras."],
+  dirNext:["Continue","Continuar"],
+  k2:["Your track","Tu ruta"], t2:["Pick your <em>track</em>","Elige tu <em>ruta</em>"],
+  s2:["This sets your hourly lightning quizzes.","Esto define tus pruebas relámpago por hora."],
+  trM:["Mocktail Track","Ruta Sin Alcohol"], trMs:["Coffee & tea lightning quizzes — no alcohol","Pruebas de café y té — sin alcohol"],
+  trF:["Full Cellar","Bodega Completa"], trFs:["Everything — coffee, tea, wine, spirits & more","Todo — café, té, vino, destilados y más"],
+  trackNext:["Continue","Continuar"], backToDir:["← Back","← Atrás"], backToTrack:["← Back","← Atrás"],
+  k3:["Start easy, win early","Empieza fácil, gana pronto"], t3:["Where do you want to <em>begin</em>?","¿Por dónde quieres <em>empezar</em>?"],
+  s3:["These start with words you already know — the fastest wins.","Empiezan con palabras que ya conoces — las victorias más rápidas."],
+  ptsLbl:["pts","pts"], sayTitle:["Say Sommthing about it!","¡Di algo al respecto!"],
+  recLbl:["Record yourself saying it","Grábate diciéndolo"], recStop:["Stop recording","Detener"],
+  sayHint:["Speak the word out loud, then hear yourself on review. Building the confidence to say it is half of learning it.","Di la palabra en voz alta y escúchate al repasar. La confianza de decirla es la mitad de aprenderla."],
+  nextBtn:["Next →","Siguiente →"],
+  k5:["Round complete","Ronda completa"], t5:["¡Bien hecho! <em>Nicely done.</em>","¡Bien hecho! <em>Nicely done.</em>"],
+  fScoreL:["Points","Puntos"], fAccL:["Accuracy","Precisión"], fRecL:["Recorded","Grabadas"],
+  revIntro:["Tap ▶ to hear yourself — compare your voice to the word.","Toca ▶ para escucharte — compara tu voz con la palabra."],
+  againBtn:["Another round","Otra ronda"], homeBtn:["Change track","Cambiar ruta"],
+  footNote:["Voice notes stay on your device. Mic needs https or localhost.","Las notas de voz quedan en tu dispositivo. El micrófono requiere https o localhost."]
+};
+function applyLang(){
+  var i=isES()?1:0;
+  for(var id in STR){ var el=$(id); if(el) el.innerHTML=STR[id][i]; }
+  $('langBtn').textContent=isES()?'ES':'EN';
+  document.documentElement.setAttribute('lang',isES()?'es':'en');
+  buildCats();
+}
+
+/* ---- onboarding wiring ---- */
+$('dirGrid').addEventListener('click',function(e){
+  var b=e.target.closest('[data-dir]'); if(!b)return;
+  $('dirGrid').querySelectorAll('.choice').forEach(function(c){c.classList.remove('sel');});
+  b.classList.add('sel'); S.dir=b.dataset.dir; $('dirNext').disabled=false;
+});
+$('dirNext').addEventListener('click',function(){ show('scTrack'); });
+$('trackGrid').addEventListener('click',function(e){
+  var b=e.target.closest('[data-track]'); if(!b)return;
+  $('trackGrid').querySelectorAll('.choice').forEach(function(c){c.classList.remove('sel');});
+  b.classList.add('sel'); S.track=b.dataset.track; $('trackNext').disabled=false;
+});
+$('trackNext').addEventListener('click',function(){ buildCats(); show('scCat'); });
+$('backToDir').addEventListener('click',function(){ show('scDir'); });
+$('backToTrack').addEventListener('click',function(){ show('scTrack'); });
+
+function buildCats(){
+  var grid=$('catGrid'); if(!grid)return; grid.innerHTML='';
+  // success order: Water, Bread, Coffee, Tea (concrete → familiar → richer)
+  var cats=['Water','Bread','Coffee','Tea'];
+  cats.forEach(function(cat){
+    var n=(VOCAB[cat]||[]).length;
+    var label=isES()?CAT_ES[cat]:cat;
+    var b=document.createElement('button'); b.className='choice'; b.dataset.cat=cat;
+    b.innerHTML='<span class="em">'+CAT_EMOJI[cat]+'</span><span class="tx"><b>'+label+'</b><span>'+n+(isES()?' palabras':' words')+'</span></span>';
+    b.addEventListener('click',function(){ S.cat=cat; startQuiz(); });
+    grid.appendChild(b);
+  });
+}
+
+/* ---- quiz engine ---- */
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function startQuiz(){
+  var pool=VOCAB[S.cat]||[];
+  S.queue=shuffle(pool).slice(0,Math.min(8,pool.length));
+  S.idx=0;S.score=0;S.correct=0;S.total=0;S.recorded=0;S.results=[];
+  $('catPill').textContent=(isES()?CAT_ES[S.cat]:S.cat);
+  show('scQuiz'); renderQ();
+}
+function askLang(){ // which language the ANSWER should be in
+  if(S.dir==='en2es')return 'es';
+  if(S.dir==='es2en')return 'en';
+  return Math.random()<0.5?'es':'en'; // both
+}
+var curAnswerLang;
+function renderQ(){
+  if(S.idx>=S.queue.length){ finish(); return; }
+  $('barFill').style.width=(S.idx/S.queue.length*100)+'%';
+  var item=S.queue[S.idx];
+  curAnswerLang=askLang();
+  var promptLang = curAnswerLang==='es' ? 'en' : 'es';
+  var promptWord = promptLang==='en'? item.en : item.es;
+  var answer = curAnswerLang==='es'? item.es : item.en;
+  $('promptLang').textContent = isES()
+    ? (curAnswerLang==='es'?'DILO EN ESPAÑOL':'DILO EN INGLÉS')
+    : (curAnswerLang==='es'?'SAY IT IN SPANISH':'SAY IT IN ENGLISH');
+  $('promptWord').textContent=promptWord;
+  $('promptCat').textContent=(isES()?CAT_ES[S.cat]:S.cat);
+  // options: correct + 3 distractors from same category
+  var pool=VOCAB[S.cat].map(function(v){return curAnswerLang==='es'?v.es:v.en;});
+  var distract=shuffle(pool.filter(function(x){return x!==answer;})).slice(0,3);
+  var opts=shuffle([answer].concat(distract));
+  var box=$('opts'); box.innerHTML='';
+  opts.forEach(function(o){
+    var b=document.createElement('button'); b.className='opt'; b.textContent=o;
+    b.addEventListener('click',function(){ answerPick(b,o,answer,item); });
+    box.appendChild(b);
+  });
+  // reset say-sommthing
+  $('nextBtn').style.display='none';
+  $('playBtn').disabled=true; REC.currentKey=item.en+'|'+item.es;
+  resetRec();
+}
+function answerPick(btn,chosen,answer,item){
+  S.total++;
+  var all=$('opts').querySelectorAll('.opt');
+  all.forEach(function(b){ b.disabled=true;
+    if(b.textContent===answer) b.classList.add('correct');
+    else if(b===btn) b.classList.add('wrong'); });
+  var ok=chosen===answer;
+  if(ok){ S.correct++; S.score+=10; }
+  $('scoreNow').textContent=S.score;
+  S.results.push({en:item.en,es:item.es,ok:ok});
+  $('nextBtn').style.display='block';
+}
+$('nextBtn').addEventListener('click',function(){ S.idx++; renderQ(); });
+
+/* ---- Say Sommthing: record + replay ---- */
+function resetRec(){
+  $('recBtn').classList.remove('recording');
+  $('recBtn').querySelector('.rec-dot').style.display='none';
+  $('recLbl').textContent=STR.recLbl[isES()?1:0];
+  REC.chunks=[];
+}
+$('recBtn').addEventListener('click',function(){
+  if(REC.mediaRecorder && REC.mediaRecorder.state==='recording'){ stopRec(); return; }
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+    $('sayHint').textContent='Recording needs a secure context (https or localhost) and mic permission.'; return;
+  }
+  navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+    REC.stream=stream; REC.chunks=[];
+    var mr=new MediaRecorder(stream); REC.mediaRecorder=mr;
+    mr.ondataavailable=function(e){ if(e.data.size>0) REC.chunks.push(e.data); };
+    mr.onstop=function(){
+      var blob=new Blob(REC.chunks,{type:'audio/webm'});
+      var url=URL.createObjectURL(blob);
+      recordings[REC.currentKey]=url;
+      $('playBtn').disabled=false;
+      S.recorded++;
+      stream.getTracks().forEach(function(t){t.stop();});
+    };
+    mr.start();
+    $('recBtn').classList.add('recording');
+    $('recBtn').querySelector('.rec-dot').style.display='inline-block';
+    $('recLbl').textContent=STR.recStop[isES()?1:0];
+  }).catch(function(){
+    $('sayHint').textContent='Mic permission denied. Allow microphone access to use Say Sommthing.';
+  });
+});
+function stopRec(){ if(REC.mediaRecorder && REC.mediaRecorder.state==='recording') REC.mediaRecorder.stop(); resetRec(); }
+$('playBtn').addEventListener('click',function(){
+  var url=recordings[REC.currentKey]; if(url){ new Audio(url).play(); }
+});
+
+/* ---- finish + review ---- */
+function finish(){
+  $('barFill').style.width='100%';
+  $('fScore').textContent=S.score;
+  $('fAcc').textContent=(S.total?Math.round(S.correct/S.total*100):0)+'%';
+  $('fRec').textContent=S.recorded;
+  var list=$('revList'); list.innerHTML='';
+  S.results.forEach(function(r){
+    var key=r.en+'|'+r.es;
+    var row=document.createElement('div'); row.className='rev';
+    row.innerHTML='<div class="pair"><b>'+r.en+'</b> <span>· '+r.es+'</span></div>';
+    var pb=document.createElement('button'); pb.className='play-btn'; pb.textContent='▶';
+    if(recordings[key]){ pb.addEventListener('click',function(){ new Audio(recordings[key]).play(); }); }
+    else { pb.disabled=true; }
+    row.appendChild(pb); list.appendChild(row);
+  });
+  show('scDone');
+}
+$('againBtn').addEventListener('click',function(){ startQuiz(); });
+$('homeBtn').addEventListener('click',function(){ show('scTrack'); });
+
+/* ---- chrome ---- */
+$('langBtn').addEventListener('click',function(){ S.lang=isES()?'en':'es'; applyLang(); });
+$('themeBtn').addEventListener('click',function(){
+  var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+  document.documentElement.setAttribute('data-theme',t);
+  $('themeBtn').textContent=t==='dark'?'☾':'☀';
+  try{localStorage.setItem('ls_bil_theme',t);}catch(e){}
+});
+(function(){ try{var t=localStorage.getItem('ls_bil_theme'); if(t){document.documentElement.setAttribute('data-theme',t);$('themeBtn').textContent=t==='dark'?'☾':'☀';}}catch(e){} })();
+applyLang(); buildCats();
+</script>
+<script id="lsNoRightClick">
+(function(){
+  document.addEventListener('contextmenu',function(e){ e.preventDefault(); return false; },{capture:true});
+  // also discourage drag-saving of images
+  document.addEventListener('dragstart',function(e){ if(e.target&&e.target.tagName==='IMG'){ e.preventDefault(); } },{capture:true});
+})();
+</script>
+</body>
+</html>

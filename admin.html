@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnSomm · Admin — Strings & Translations</title>
+<style>
+:root{
+  --bg:#F4F2EA; --bg-2:#ECE9DD; --panel:#FBFAF4; --ink:#1A1714; --muted:#7c7263;
+  --line:#d8d3c4; --line-2:#c6c0ad; --garnet:#6E1B2E; --garnet-hi:#8a2538; --gold:#b5862a;
+  --ok:#2f8f57; --warn:#b5862a; --bad:#b23a48;
+  --display:'IBM Plex Serif',Georgia,serif; --ui:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+[data-theme="cellar"]{ --bg:#14100c; --bg-2:#1c1712; --panel:#1c1712; --ink:#f0e8da; --muted:#a89e8d; --line:#3a2f24; --line-2:#4d4032; --garnet:#b5485e; --garnet-hi:#c75d72; }
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--ui);background:var(--bg);color:var(--ink);font-size:.84rem;line-height:1.4;padding:1rem;}
+header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:.6rem;margin-bottom:.8rem;flex-wrap:wrap;gap:.5rem;}
+h1{font-family:var(--display);font-size:1.3rem;color:var(--garnet);font-weight:600;}
+.kick{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+.bar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
+button,.btn{font-family:var(--ui);border:1px solid var(--line-2);background:var(--panel);color:var(--ink);border-radius:12px;padding:.4rem .8rem;cursor:pointer;font-size:.78rem;}
+button.primary{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+button.primary:disabled{opacity:.45;cursor:not-allowed;}
+button.ghost{background:transparent;}
+.tabs{display:flex;gap:.4rem;margin-bottom:.8rem;flex-wrap:wrap;}
+.tab{border:1px solid var(--line-2);background:var(--panel);border-radius:14px;padding:.35rem .8rem;cursor:pointer;}
+.tab.on{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+.pane{display:none;}
+.pane.on{display:block;}
+.toolrow{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.7rem;}
+input[type=text],input[type=search],textarea,select{font-family:var(--ui);border:1px solid var(--line-2);background:var(--panel);color:var(--ink);border-radius:8px;padding:.35rem .5rem;font-size:.78rem;}
+input:focus,textarea:focus{outline:none;border-color:var(--garnet);}
+table{width:100%;border-collapse:collapse;font-size:.76rem;}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid var(--line);vertical-align:top;}
+th{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);position:sticky;top:0;background:var(--bg);}
+.key-cell{font-family:var(--mono);font-size:.66rem;color:var(--muted);max-width:200px;word-break:break-all;}
+.ctx{font-size:.62rem;color:var(--muted);display:block;margin-top:.15rem;}
+.lang-in{width:100%;min-width:120px;}
+.req-empty{border-color:var(--bad)!important;background:rgba(178,58,72,.06);}
+.fill-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:2px;}
+.cov{font-family:var(--mono);font-size:.66rem;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem;margin-bottom:.7rem;}
+.gate{display:flex;align-items:flex-start;gap:.5rem;padding:.5rem 0;border-bottom:1px solid var(--line);}
+.gate:last-child{border-bottom:none;}
+.badge{font-family:var(--mono);font-size:.62rem;padding:.1rem .45rem;border-radius:8px;white-space:nowrap;}
+.b-ok{background:rgba(47,143,87,.14);color:var(--ok);}
+.b-warn{background:rgba(181,134,42,.16);color:var(--warn);}
+.b-bad{background:rgba(178,58,72,.14);color:var(--bad);}
+.muted{color:var(--muted);}
+.small{font-size:.7rem;}
+.log-old{color:var(--bad);text-decoration:line-through;}
+.log-new{color:var(--ok);}
+code{font-family:var(--mono);background:var(--bg-2);padding:.05rem .3rem;border-radius:5px;}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="kick">LearnSomm · Admin Console</div>
+    <h1>Strings &amp; Translations</h1>
+  </div>
+  <div class="bar">
+    <button class="ghost" id="themeBtn" type="button">◐ Theme</button>
+    <button class="ghost" id="importBtn" type="button">Import JSON</button>
+    <button class="ghost" id="exportBtn" type="button">Export JSON</button>
+  </div>
+</header>
+
+<div class="tabs">
+  <button class="tab on" data-pane="edit" type="button">Edit strings</button>
+  <button class="tab" data-pane="check" type="button">Triple-checker</button>
+  <button class="tab" data-pane="log" type="button">Change log</button>
+  <button class="tab" data-pane="about" type="button">Schema</button>
+</div>
+
+<!-- EDIT -->
+<div class="pane on" data-pane="edit">
+  <div class="toolrow">
+    <select id="srcFilter" title="Filter by source/zone"><option value="">All sources</option></select>
+    <input type="search" id="q" placeholder="Filter by key, context, or text…" style="flex:1;min-width:200px;">
+    <select id="editorName" title="Who's editing"><option value="">— editor —</option><option>Mark</option><option>Assistant 1</option><option>Assistant 2</option></select>
+    <input type="text" id="reason" placeholder="reason for change (e.g. accuracy fix)" style="min-width:200px;flex:1;">
+    <span class="cov muted" id="covSummary"></span>
+  </div>
+  <div style="overflow:auto;max-height:62vh;border:1px solid var(--line);border-radius:12px;">
+    <table id="strTable"><thead><tr>
+      <th>Source</th><th>Key / context</th><th>EN <span class="muted">(base)</span></th><th>ES <span class="muted">(req)</span></th><th>IT</th><th>DE</th><th>FR</th><th>Fill</th>
+    </tr></thead><tbody id="strBody"></tbody></table>
+  </div>
+  <p class="small muted" style="margin-top:.5rem;">This is where you change <b>any user-facing text anywhere in the app</b> — a tip-frame line, the bundle frame, a nav label, a wheel descriptor, a cheat sheet, a map description — most often to fix the accuracy of what's taught. Use the <b>Source</b> filter to jump to a zone. EN is the base; ES required for launch; IT/DE/FR optional (fall back to EN). When you change the base text, existing translations are flagged <b>stale</b> until re-checked, so a corrected fact can't go out with an out-of-date translation. Every edit is logged with a reason.</p>
+</div>
+
+<!-- TRIPLE CHECK -->
+<div class="pane" data-pane="check">
+  <div class="card">
+    <p class="small muted">Run all three gates before publishing. A change can only be <b>published</b> when the structural gate passes, the required-language gate passes, and an assistant has signed off.</p>
+  </div>
+  <div class="card" id="gateResults"><p class="muted small">Press <b>Run triple-check</b>.</p></div>
+  <div class="card">
+    <div class="gate" style="border:none;">
+      <div style="flex:1;">
+        <b>Gate 3 · Assistant sign-off</b>
+        <div class="small muted">A human reviewer confirms the changes read correctly and are suitable across languages.</div>
+        <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;">
+          <select id="approver"><option value="">— reviewer —</option><option>Assistant 1</option><option>Assistant 2</option><option>Mark</option></select>
+          <label class="small"><input type="checkbox" id="signoff"> Reviewed &amp; suitable for all active languages</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bar">
+    <button id="runCheck" type="button">Run triple-check</button>
+    <button class="primary" id="publishBtn" type="button" disabled>Publish changes</button>
+    <span id="publishMsg" class="small"></span>
+  </div>
+</div>
+
+<!-- LOG -->
+<div class="pane" data-pane="log">
+  <div class="toolrow">
+    <span class="muted small" id="logCount"></span>
+    <button class="ghost" id="logExport" type="button">Export log</button>
+    <button class="ghost" id="logClear" type="button">Clear log</button>
+  </div>
+  <div style="overflow:auto;max-height:66vh;border:1px solid var(--line);border-radius:12px;">
+    <table><thead><tr><th>When</th><th>Editor</th><th>Key · lang</th><th>Change</th></tr></thead><tbody id="logBody"></tbody></table>
+  </div>
+</div>
+
+<!-- ABOUT/SCHEMA -->
+<div class="pane" data-pane="about">
+  <div class="card">
+    <h2 style="font-family:var(--display);color:var(--garnet);font-size:1rem;margin-bottom:.4rem;">Canonical multilingual schema</h2>
+    <p class="small">Every user-facing string is a keyed entry. EN is the base; ES required; IT/DE/FR optional with English fallback. This is the shape every wheel/cheat/UI dataset should adopt <b>before</b> the big build so adding a language is just filling slots — never re-architecting.</p>
+    <pre style="background:var(--bg-2);border:1px solid var(--line);border-radius:8px;padding:.6rem;margin-top:.5rem;font-family:var(--mono);font-size:.66rem;overflow:auto;">{
+  "key": "bubbles.brut-nv.name",
+  "context": "Sparkling wheel · descriptor name",
+  "en": "Brut Non-Vintage",   // base (required)
+  "es": "Brut sin a&ntilde;ada",     // required for launch
+  "it": "", "de": "", "fr": ""// optional &rarr; fall back to EN
+}</pre>
+    <p class="small" style="margin-top:.5rem;">Runtime helper (drop into wheels):</p>
+    <pre style="background:var(--bg-2);border:1px solid var(--line);border-radius:8px;padding:.6rem;margin-top:.3rem;font-family:var(--mono);font-size:.66rem;overflow:auto;">function t(v, lang){ if(v==null) return '';
+  if(typeof v==='string') return v;          // legacy plain string
+  return v[lang] || v.en || Object.values(v).find(Boolean) || ''; }</pre>
+  </div>
+</div>
+
+<script>
+"use strict";
+var LANGS=['en','es','it','de','fr'];
+var REQUIRED=['en','es'];           // base + launch language
+var OPTIONAL=['it','de','fr'];      // fall back to EN
+var LANG_COLOR={ filled:'#2f8f57', empty:'#c6c0ad' };
+
+// ---- seed data (sample; replace via Import) ----
+var STRINGS = [
+  // ---- UI · Tip the Somm frame ----
+  {key:'ui.tip.headline', source:'UI · Tip frame', context:'Tip panel headline', en:'Pour a little back into the bar.', es:'Devuelve un poco a la barra.', it:'', de:'', fr:''},
+  {key:'ui.tip.everyone', source:'UI · Tip frame', context:'Tip reason · inclusivity', en:'A seat at the bar for everyone', es:'Un lugar en la barra para todos', it:'', de:'', fr:''},
+  // ---- UI · Bundle / Group frame ----
+  {key:'ui.bundle.everyone_throws', source:'UI · Bundle frame', context:'Group pricing line', en:'Everyone throws in {amount}.', es:'Cada uno pone {amount}.', it:'', de:'', fr:''},
+  {key:'ui.bundle.per_day', source:'UI · Bundle frame', context:'Group pricing value', en:'{ppd} per person, per day for {days} days.', es:'{ppd} por persona, por día durante {days} días.', it:'', de:'', fr:''},
+  {key:'ui.bundle.over15', source:'UI · Bundle frame', context:'Group >15 redirect', en:"That's a bigger deal than this page handles.", es:'Esto es más grande de lo que maneja esta página.', it:'', de:'', fr:''},
+  // ---- UI · Nav bar ----
+  {key:'ui.nav.search', source:'UI · Nav', context:'Nav button label', en:'Search', es:'Buscar', it:'', de:'', fr:''},
+  {key:'ui.nav.build_challenge', source:'UI · Nav', context:'Nav button label', en:'Build a Challenge', es:'Crea un reto', it:'', de:'', fr:''},
+  {key:'ui.nav.cheat', source:'UI · Nav', context:'Nav button label', en:'Cheat Sheet', es:'Chuleta', it:'', de:'', fr:''},
+  // ---- UI · My Journey ----
+  {key:'ui.journey.title', source:'UI · Journey', context:'Journey panel title', en:'Where you stand', es:'Dónde estás', it:'', de:'', fr:''},
+  {key:'ui.spin.hint', source:'UI · Wheel chrome', context:'Faint hint at wheel pointer', en:'Click / Press to Spin', es:'Toca para girar', it:'', de:'', fr:''},
+  // ---- Wheel content ----
+  {key:'wheel.sparkling.brut-nv.name', source:'Wheel · Sparkling Aroma', context:'Descriptor name', en:'Brut Non-Vintage', es:'Brut sin añada', it:'', de:'', fr:''},
+  {key:'wheel.sparkling.brut-nv.note', source:'Wheel · Sparkling Aroma', context:'Descriptor note', en:'The house style — blended across years for consistency. Dry.', es:'El estilo de la casa — mezclado entre añadas para consistencia. Seco.', it:'', de:'', fr:''},
+  {key:'wheel.wine.acid.high', source:'Wheel · Wine', context:'Structure term', en:'High acidity', es:'Acidez alta', it:'', de:'', fr:''},
+  // ---- Cheat sheet content ----
+  {key:'cheat.sparkling.citrus', source:'Cheat · Sparkling', context:'Aroma card note', en:'The classic young-Champagne high notes. Bright, zesty.', es:'Las notas altas clásicas del Champán joven. Brillante, cítrico.', it:'', de:'', fr:''},
+  // ---- Map descriptions ----
+  {key:'map.napa.rutherford', source:'Map · Napa AVA', context:'Sub-AVA description', en:'Rutherford — famed for structured Cabernet and the elusive "Rutherford dust."', es:'Rutherford — famoso por su Cabernet estructurado y el escurridizo “polvo de Rutherford”.', it:'', de:'', fr:''}
+];
+try{ var saved=JSON.parse(localStorage.getItem('ls_admin_strings')||'null'); if(saved&&saved.length) STRINGS=saved; }catch(e){}
+
+var LOG=[]; try{ LOG=JSON.parse(localStorage.getItem('ls_admin_log')||'[]'); }catch(e){}
+function persist(){ try{ localStorage.setItem('ls_admin_strings',JSON.stringify(STRINGS)); localStorage.setItem('ls_admin_log',JSON.stringify(LOG)); }catch(e){} }
+function $(id){return document.getElementById(id);}
+function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+// ---- render edit table ----
+function isStale(row,l){ // a filled translation set BEFORE the base text last changed
+  if(l==='en') return false;
+  if(!(row[l]&&row[l].trim())) return false;
+  if(!row._baseAt) return false;
+  var t=(row._trAt&&row._trAt[l])||0;
+  return t < row._baseAt;
+}
+function rowHasStale(row){ return OPTIONAL.concat(['es']).some(function(l){return isStale(row,l);}); }
+function fillBadge(row){
+  var html=''; LANGS.forEach(function(l){ var st=isStale(row,l); var c=st?'#b5862a':((row[l]&&row[l].trim())?LANG_COLOR.filled:LANG_COLOR.empty); html+='<span class="fill-dot" title="'+l+(st?' (stale)':'')+'" style="background:'+c+'"></span>'; });
+  if(rowHasStale(row)) html+=' <button class="recheck" title="Re-confirm translations are still accurate" style="border:1px solid var(--warn);background:transparent;color:var(--warn);border-radius:8px;padding:0 .35rem;cursor:pointer;font-size:.62rem;">&#9888; recheck</button>';
+  return html;
+}
+function populateSrcFilter(){
+  var sel=$('srcFilter'); var cur=sel.value;
+  var srcs=[]; STRINGS.forEach(function(r){ if(r.source && srcs.indexOf(r.source)<0) srcs.push(r.source); });
+  srcs.sort();
+  sel.innerHTML='<option value="">All sources ('+STRINGS.length+')</option>'+srcs.map(function(s){ var n=STRINGS.filter(function(r){return r.source===s;}).length; return '<option value="'+esc(s)+'"'+(s===cur?' selected':'')+'>'+esc(s)+' ('+n+')</option>'; }).join('');
+}
+function renderTable(){
+  populateSrcFilter();
+  var q=($('q').value||'').toLowerCase(); var sf=$('srcFilter').value; var body=$('strBody'); body.innerHTML='';
+  var lastSrc=null;
+  STRINGS.forEach(function(row,idx){
+    if(sf && row.source!==sf) return;
+    var hay=((row.source||'')+' '+row.key+' '+row.context+' '+LANGS.map(function(l){return row[l]||'';}).join(' ')).toLowerCase();
+    if(q && hay.indexOf(q)<0) return;
+    var tr=document.createElement('tr');
+    var cells='<td class="small muted" style="white-space:nowrap;">'+esc(row.source||'—')+'</td><td class="key-cell">'+esc(row.key)+'<span class="ctx">'+esc(row.context||'')+'</span></td>';
+    LANGS.forEach(function(l){
+      var reqEmpty=(REQUIRED.indexOf(l)>=0 && !(row[l]&&row[l].trim()));
+      cells+='<td><input class="lang-in'+(reqEmpty?' req-empty':'')+'" data-idx="'+idx+'" data-lang="'+l+'" value="'+esc(row[l]||'')+'"></td>';
+    });
+    cells+='<td>'+fillBadge(row)+'</td>';
+    tr.innerHTML=cells; body.appendChild(tr);
+  });
+  // wire inputs
+  body.querySelectorAll('.lang-in').forEach(function(inp){
+    inp.addEventListener('change',function(){
+      var idx=+inp.getAttribute('data-idx'), lang=inp.getAttribute('data-lang');
+      var row=STRINGS[idx];
+      var oldv=row[lang]||'', newv=inp.value;
+      if(oldv===newv) return;
+      row[lang]=newv;
+      var now=Date.now();
+      row._trAt=row._trAt||{};
+      if(lang==='en'){
+        row._baseAt=now;            // base changed → translations become stale until re-checked
+      } else {
+        row._trAt[lang]=now;        // this translation was just (re)confirmed
+      }
+      LOG.unshift({ts:now, editor:($('editorName').value||'(unsigned)'), reason:($('reason').value||''), key:row.key, lang:lang, old:oldv, new:newv});
+      persist(); renderTable(); renderLog(); covSummary();
+    });
+  });
+  // recheck buttons: re-confirm a row's translations as accurate after a base edit
+  body.querySelectorAll('.recheck').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var tr=btn.closest('tr'); var idx=tr&&tr.querySelector('.lang-in')?+tr.querySelector('.lang-in').getAttribute('data-idx'):-1;
+      if(idx<0)return; var row=STRINGS[idx]; var now=Date.now(); row._trAt=row._trAt||{};
+      ['es'].concat(OPTIONAL).forEach(function(l){ if(row[l]&&row[l].trim()) row._trAt[l]=now; });
+      LOG.unshift({ts:now, editor:($('editorName').value||'(unsigned)'), reason:'re-checked after base edit', key:row.key, lang:'(recheck)', old:'stale', new:'confirmed accurate'});
+      persist(); renderTable(); renderLog();
+    });
+  });
+  covSummary();
+}
+function covSummary(){
+  var n=STRINGS.length||1; var out=LANGS.map(function(l){
+    var f=STRINGS.filter(function(r){return r[l]&&r[l].trim();}).length;
+    return l.toUpperCase()+' '+Math.round(f/n*100)+'%';
+  }).join(' · ');
+  $('covSummary').textContent=out;
+}
+
+// ---- triple checker ----
+var checkState={g1:false,g2:false};
+function placeholders(s){ return (String(s||'').match(/\{[^}]+\}|%[sd@]/g)||[]).sort().join(','); }
+function runCheck(){
+  // Gate 1 — structural
+  var issues1=[]; var seen={};
+  STRINGS.forEach(function(r){
+    if(!r.key||!String(r.key).trim()) issues1.push('Entry missing a key.');
+    if(seen[r.key]) issues1.push('Duplicate key: '+r.key); seen[r.key]=1;
+    if(!(r.en&&r.en.trim())) issues1.push('Missing EN (base) for '+r.key);
+  });
+  // Gate 2 — language suitability: ES required filled; placeholder parity across filled langs; report optional coverage
+  var issues2=[]; var optReport={};
+  OPTIONAL.forEach(function(l){ optReport[l]=0; });
+  STRINGS.forEach(function(r){
+    if(!(r.es&&r.es.trim())) issues2.push('Missing required ES for '+r.key);
+    var base=placeholders(r.en);
+    LANGS.forEach(function(l){ if(l==='en')return; if(r[l]&&r[l].trim()){ if(placeholders(r[l])!==base) issues2.push('Placeholder mismatch ('+l.toUpperCase()+') in '+r.key); if(OPTIONAL.indexOf(l)>=0) optReport[l]++; if(isStale(r,l)) issues2.push('Stale '+l.toUpperCase()+' (base text changed since it was set) in '+r.key+' — re-check before publishing'); } });
+  });
+  checkState.g1=issues1.length===0;
+  checkState.g2=issues2.length===0; // ES + placeholder parity must hold; optional coverage is informational
+  var n=STRINGS.length||1;
+  var html='';
+  html+=gateBlock('Gate 1 · Structural', checkState.g1, issues1, checkState.g1?'Every entry has a key and EN base; no duplicates.':null);
+  var optLines=OPTIONAL.map(function(l){return l.toUpperCase()+' '+Math.round(optReport[l]/n*100)+'%';}).join(' · ');
+  html+=gateBlock('Gate 2 · Language completeness &amp; suitability', checkState.g2, issues2,
+     'Required EN+ES present and placeholders match across languages. Optional coverage (fallback to EN): '+optLines);
+  html+='<div class="gate"><span class="badge '+(signoffOK()?'b-ok':'b-warn')+'">'+(signoffOK()?'SIGNED':'PENDING')+'</span><div><b>Gate 3 · Assistant sign-off</b><div class="small muted">'+(signoffOK()?('Approved by '+$('approver').value):'Awaiting reviewer + checkbox below.')+'</div></div></div>';
+  $('gateResults').innerHTML=html;
+  refreshPublish();
+}
+function gateBlock(title, ok, issues, okMsg){
+  var badge=ok?'<span class="badge b-ok">PASS</span>':'<span class="badge b-bad">FAIL ('+issues.length+')</span>';
+  var detail = ok ? '<div class="small muted">'+okMsg+'</div>' : '<ul class="small" style="margin:.3rem 0 0 1rem;color:var(--bad);">'+issues.slice(0,12).map(function(i){return '<li>'+esc(i)+'</li>';}).join('')+(issues.length>12?'<li>…and '+(issues.length-12)+' more</li>':'')+'</ul>';
+  return '<div class="gate">'+badge+'<div style="flex:1;"><b>'+title+'</b>'+detail+'</div></div>';
+}
+function signoffOK(){ return !!($('approver').value && $('signoff').checked); }
+function refreshPublish(){
+  var ok=checkState.g1 && checkState.g2 && signoffOK();
+  $('publishBtn').disabled=!ok;
+  $('publishMsg').innerHTML = ok ? '<span class="b-ok badge">READY</span>' : '';
+}
+function publish(){
+  if($('publishBtn').disabled) return;
+  LOG.unshift({ts:Date.now(), editor:$('approver').value, key:'(PUBLISH)', lang:'all', old:'', new:'Published & signed off by '+$('approver').value});
+  persist(); renderLog();
+  $('signoff').checked=false; refreshPublish();
+  $('publishMsg').innerHTML='<span class="b-ok badge">PUBLISHED</span> <span class="small muted">strings saved &amp; logged</span>';
+}
+
+// ---- log ----
+function renderLog(){
+  var b=$('logBody'); b.innerHTML='';
+  LOG.forEach(function(e){
+    var tr=document.createElement('tr');
+    var when=new Date(e.ts).toLocaleString();
+    var chg = e.key==='(PUBLISH)' ? '<span class="log-new">'+esc(e.new)+'</span>'
+            : '<span class="log-old">'+esc(e.old||'(empty)')+'</span> &rarr; <span class="log-new">'+esc(e.new||'(empty)')+'</span>';
+    var reason=e.reason?'<span class="ctx">'+esc(e.reason)+'</span>':'';
+    tr.innerHTML='<td class="small muted">'+when+'</td><td class="small">'+esc(e.editor)+'</td><td class="key-cell">'+esc(e.key)+' · '+esc(e.lang)+reason+'</td><td class="small">'+chg+'</td>';
+    b.appendChild(tr);
+  });
+  $('logCount').textContent=LOG.length+' entries';
+}
+
+// ---- import / export ----
+function exportJSON(){
+  var blob=new Blob([JSON.stringify(STRINGS,null,2)],{type:'application/json'});
+  var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='learnsomm-strings.json'; a.click();
+}
+function exportLog(){
+  var blob=new Blob([JSON.stringify(LOG,null,2)],{type:'application/json'});
+  var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='learnsomm-change-log.json'; a.click();
+}
+function importJSON(){
+  var inp=document.createElement('input'); inp.type='file'; inp.accept='.json,application/json';
+  inp.onchange=function(){ var f=inp.files[0]; if(!f)return; var r=new FileReader();
+    r.onload=function(){ try{ var d=JSON.parse(r.result); if(Array.isArray(d)){ d.forEach(function(row){ LANGS.forEach(function(l){ if(row[l]==null)row[l]=''; }); }); STRINGS=d; persist(); renderTable(); alert('Imported '+d.length+' entries.'); } else alert('Expected a JSON array of entries.'); }catch(e){ alert('Could not parse JSON: '+e.message); } };
+    r.readAsText(f); };
+  inp.click();
+}
+
+// ---- tabs + wiring ----
+document.querySelectorAll('.tab').forEach(function(t){ t.addEventListener('click',function(){
+  document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('on');}); t.classList.add('on');
+  var p=t.getAttribute('data-pane');
+  document.querySelectorAll('.pane').forEach(function(pp){ pp.classList.toggle('on', pp.getAttribute('data-pane')===p); });
+  if(p==='log') renderLog();
+}); });
+$('q').addEventListener('input', renderTable);
+$('srcFilter').addEventListener('change', renderTable);
+$('runCheck').addEventListener('click', runCheck);
+$('publishBtn').addEventListener('click', publish);
+$('approver').addEventListener('change', refreshPublish);
+$('signoff').addEventListener('change', refreshPublish);
+$('exportBtn').addEventListener('click', exportJSON);
+$('logExport').addEventListener('click', exportLog);
+$('importBtn').addEventListener('click', importJSON);
+$('logClear').addEventListener('click', function(){ if(confirm('Clear the change log?')){ LOG=[]; persist(); renderLog(); } });
+$('themeBtn').addEventListener('click', function(){ document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme')==='cellar'?'':'cellar'); });
+
+renderTable(); renderLog();
+</script>
+</body>
+</html>
