@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<!-- LearnSomm Cheat Sheet — finfish — companion to finfish-wheel.html -->
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>LearnSomm · Fin Fish Cheat Sheet</title><style>
+:root,[data-theme="light"]{--bg:#faf8f3;--text:#2b251d;--muted:#857966;--line:#e2dacb;--panel:#fff;--accent:#6b4a2f;--gold:#9a7344;--shadow:0 8px 30px rgba(80,60,30,.14);}
+[data-theme="dark"]{--bg:#16130e;--text:#e9e2d4;--muted:#9a8d78;--line:#393226;--panel:#1e1a14;--accent:#cba47a;--gold:#d8b88a;--shadow:0 10px 34px rgba(0,0,0,.55);}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--text);font-family:'Charter','Bitstream Charter','Cambria','Iowan Old Style',Georgia,serif;line-height:1.5;}
+.topctl{position:fixed;top:0;right:0;z-index:50;display:flex;gap:.45rem;padding:.55rem .8rem;background:linear-gradient(to left,var(--bg) 72%,transparent);}
+.topctl button{font-family:'Optima','Candara','Gill Sans','Segoe UI',sans-serif;font-size:.82rem;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem;cursor:pointer;color:var(--text);}
+.topctl button:hover{border-color:var(--gold);color:var(--accent);}.topctl .big{font-size:1.25rem;padding:.35rem .55rem;line-height:1;}
+.topctl .print{background:var(--accent);color:#fff;border-color:var(--accent);}[data-theme="dark"] .topctl .print{color:#1a1410;}
+.screen{max-width:720px;margin:0 auto;padding:3.4rem 1rem 4rem;}.head{text-align:center;margin-bottom:1rem;}
+.kicker{font-family:'Optima',sans-serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);}
+.title{font-family:'Optima',sans-serif;font-weight:700;font-size:2.1rem;color:var(--accent);margin:.1rem 0;}.sub{color:var(--muted);font-style:italic;}
+.section-label{font-family:'Optima',sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.6rem;margin:1.5rem 0 .7rem;}.section-label::after{content:'';flex:1;height:1px;background:var(--line);}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);margin-bottom:.55rem;overflow:hidden;}
+.card-header{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;gap:.5rem;}
+.card-title{font-family:'Optima',sans-serif;font-weight:600;color:var(--accent);font-size:1.06rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
+.badge{font-family:'Optima',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.12rem .5rem;border-radius:20px;background:var(--gold);color:#1a1410;}
+.chevron{color:var(--muted);transition:transform .2s;flex-shrink:0;}.card.active .chevron{transform:rotate(180deg);}
+.card-body{max-height:0;overflow:hidden;transition:max-height .3s ease;}.card.active .card-body{max-height:640px;}.card-inner{padding:0 1rem 1rem;}
+.row{margin:.42rem 0;font-size:.95rem;display:flex;gap:.55rem;align-items:baseline;}
+.tag{font-family:'Optima',sans-serif;font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;font-weight:700;color:#fff;border-radius:5px;padding:.12rem .45rem;white-space:nowrap;flex-shrink:0;}
+.pair .tag{background:transparent!important;color:var(--gold);border:1px solid var(--gold);}
+.byline{text-align:center;color:var(--muted);font-size:.78rem;margin-top:1.6rem;font-family:'Optima',sans-serif;}.license{text-align:center;color:var(--muted);font-size:.7rem;margin-top:.3rem;font-family:'Optima',sans-serif;}
+.foldhint{text-align:center;margin-top:1rem;font-family:'Optima',sans-serif;font-size:.82rem;color:var(--muted);}.foldhint b{color:var(--accent);}
+.printsheet{display:none;}
+@media print{@page{size:letter landscape;margin:0;}.topctl,.screen{display:none!important;}body{background:#fff;color:#000;}
+.printsheet{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);width:11in;height:8.5in;}
+.panel{border:1px dashed #bbb;padding:.16in .18in;overflow:hidden;position:relative;font-size:7pt;line-height:1.26;color:#1a1a1a;}
+.p1{grid-column:4;grid-row:2}.p2{grid-column:3;grid-row:2}.p3{grid-column:2;grid-row:2}.p4{grid-column:1;grid-row:2}
+.p5{grid-column:1;grid-row:1;transform:rotate(180deg)}.p6{grid-column:2;grid-row:1;transform:rotate(180deg)}.p7{grid-column:3;grid-row:1;transform:rotate(180deg)}.p8{grid-column:4;grid-row:1;transform:rotate(180deg)}
+.panel h4{font-family:'Optima',sans-serif;font-size:8pt;color:#7b2035;margin:.02in 0 .05in;border-bottom:.5pt solid #ddd;padding-bottom:.02in;}
+.pc{margin:.05in 0;break-inside:avoid;}.pc .pn{font-family:'Optima',sans-serif;font-weight:700;font-size:7.2pt;color:#5a3a18;}.pc .pl{color:#333;}
+.pcover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#7b2035;}.pcover .ct{font-family:'Optima',sans-serif;font-weight:700;font-size:15pt;}.pcover .ck{font-family:'Optima',sans-serif;font-size:6pt;letter-spacing:.16em;text-transform:uppercase;color:#a87f3d;}
+.pback{font-size:6.6pt;color:#444;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}.pback .wt{font-family:'Optima',sans-serif;font-weight:700;font-size:9pt;color:#7b2035;margin-bottom:.06in;}}
+
+#searchWrap{display:flex;align-items:center;gap:.4rem;padding:.5rem .75rem .25rem;position:sticky;top:0;z-index:10;background:var(--bg,#fff8ec);}
+#searchInput{flex:1;padding:.45rem .7rem;border:1px solid var(--line,#c8b89a);border-radius:8px;font-size:.88rem;background:var(--card,#fff);color:var(--text,#2a1a0e);outline:none;font-family:inherit;}
+#searchInput:focus{border-color:var(--accent,#7b2035);}
+#searchClear{background:none;border:none;cursor:pointer;font-size:1rem;color:var(--muted,#8a7a6a);padding:0 .2rem;display:none;}
+.no-results{text-align:center;color:var(--muted,#8a7a6a);padding:1.5rem;font-size:.9rem;display:none;}
+
+.card[data-slug]{cursor:default;}
+.card.spinnable{cursor:pointer;transition:transform .12s ease,box-shadow .12s ease;}
+.card.spinnable:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(123,32,53,.25);}
+.card.spinnable .card-title::after{content:" ↻";opacity:.45;font-size:.8em;}
+</style></head><body data-theme="light">
+<div class="topctl"><button id="langBtn" title="English / Español">ES</button><button id="themeBtn" class="big" title="Light / Dark">☾</button><button id="printBtn" class="print" title="Print fold-up pocket card">⎙ Print fold-up</button></div>
+<div id="searchWrap"><input id="searchInput" type="search" placeholder="Search cards…" autocomplete="off"><button id="searchClear" title="Clear">✕</button></div>
+<div class="screen"><div class="head"><div class="kicker">LearnSomm · Cheat Sheet</div><div class="title" id="docTitle">Fin Fish</div><div class="sub" id="docSub">Species, texture & cooking — pocket reference</div></div><div id="sections"></div>
+<div class="foldhint" id="foldHint"></div><div class="byline" id="byline">Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com</div><div class="license">Licensed to {{USER_EMAIL}}</div></div>
+<div class="printsheet" id="printsheet"></div>
+<script>
+const TC={"Includes":"#7a6a55","Best For":"#7a5a2a","Pairing Logic":"#7a5a2a","Use It For":"#7a5a2a","Tasting Cue":"#7a5a2a"};
+const DATA = {"sections": [{"label": null, "cards": [{"title": "Mild White Fish", "title_es": "Pescados Blancos Suaves", "badge": "6", "badge_es": "6", "color": "#cdbf8e", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Cod, Haddock, Alaskan Pollock, Tilapia, Pangasius (Swai), Whiting", "text_es": "Bacalao, Eglefino, Abadejo de Alaska, Tilapia, Pangasius (Swai), Pescadilla", "color": "#cdbf8e"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Mild, flaky, and forgiving — great for breading, baking, or simple sautés.", "text_es": "Suaves, escamosos y versátiles — ideales para empanizar, hornear o saltear de forma simple."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "The whiter a fish's raw flesh, the milder it usually tastes — a simple rule that lets you guess almost any unfamiliar fish on a menu: pale flesh means mild, deeply colored flesh means bold.", "text_es": "Cuanto más blanca es la carne cruda de un pescado, más suave suele saber — una regla sencilla para adivinar casi cualquier pescado desconocido en un menú: carne pálida, sabor suave; carne de color intenso, sabor fuerte.", "pair": true}]}, {"title": "Flatfish", "title_es": "Pescados Planos", "badge": "5", "badge_es": "5", "color": "#bba775", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Halibut, Flounder, Sole, Turbot, Plaice", "text_es": "Halibut (Fletán), Platija, Lenguado, Rodaballo, Solla", "color": "#bba775"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Delicate, fast-cooking fillets — best with gentle methods like pan-searing or poaching.", "text_es": "Filetes delicados y de cocción rápida — mejor con métodos suaves como sellado o escalfado."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Flatfish like sole and flounder are born looking like normal fish, with an eye on each side — then, as they grow, one eye slowly migrates around the head so the fish can lie flat on the seabed with both eyes facing up.", "text_es": "Los peces planos como el lenguado y la platija nacen con aspecto de pez normal, con un ojo a cada lado — y al crecer, un ojo migra poco a poco por la cabeza para que el pez pueda tumbarse en el fondo con ambos ojos hacia arriba.", "pair": true}]}, {"title": "Firm & Meaty Fish", "title_es": "Pescados Firmes Y Carnosos", "badge": "7", "badge_es": "7", "color": "#b8835f", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Swordfish, Mahi-Mahi, Grouper, Monkfish, Branzino (Sea Bass), Chilean Sea Bass, Red Snapper", "text_es": "Pez Espada, Mahi-Mahi (Dorado), Mero, Rape, Branzino (Lubina), Mero Chileno (Merluza Negra), Pargo Rojo (Huachinango)", "color": "#b8835f"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Dense enough to grill, sear, or skewer without falling apart.", "text_es": "Suficientemente firmes para asar, sellar o ensartar sin desarmarse."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "'Chilean sea bass' is a marketing invention — the fish is actually the Patagonian toothfish, renamed in the 1970s because no one wanted to order something called a toothfish.", "text_es": "El 'mero chileno' (Chilean sea bass) es un invento de marketing — el pez es en realidad la merluza negra (Patagonian toothfish), renombrado en los años 70 porque nadie quería pedir algo llamado 'pez diente'.", "pair": true}]}, {"title": "Oily & Pelagic Fish", "title_es": "Pescados Grasos Y Pelágicos", "badge": "6", "badge_es": "6", "color": "#5a8a9a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Mackerel, Sardine, Anchovy, Herring, Bluefish, Sablefish (Black Cod)", "text_es": "Caballa, Sardina, Anchoa (Boquerón), Arenque, Anjova, Bacalao Negro (Sablefish)", "color": "#5a8a9a"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Rich in omega-3s with bold flavor — stand up to grilling, smoking, and strong seasonings.", "text_es": "Ricos en omega-3 y de sabor intenso — soportan asado, ahumado y sazones fuertes."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Oily fish carry their fat throughout the flesh rather than in the liver, which is exactly why they're so rich in omega-3s — and why mackerel, sardines, and herring spoil faster and taste 'fishier' than lean white fish.", "text_es": "Los pescados grasos llevan la grasa repartida por la carne y no en el hígado, y por eso son tan ricos en omega-3 — y por eso la caballa, la sardina y el arenque se estropean antes y saben más 'a pescado' que los blancos magros.", "pair": true}]}, {"title": "Salmon & Trout", "title_es": "Salmón Y Trucha", "badge": "6", "badge_es": "6", "color": "#e08a6a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Atlantic Salmon, King (Chinook) Salmon, Sockeye Salmon, Rainbow Trout, Steelhead Trout, Arctic Char", "text_es": "Salmón Atlántico, Salmón Real (Chinook), Salmón Rojo (Sockeye), Trucha Arcoíris, Trucha Steelhead, Salvelino Ártico", "color": "#e08a6a"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Versatile and forgiving — roast, grill, cure, or smoke with great results.", "text_es": "Versátiles y tolerantes — al horno, a la parrilla, curados o ahumados, todos con buen resultado."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Wild salmon get their pink-red color from a diet of krill and shrimp; farmed salmon would be grey without it, so their feed includes the same natural pigment to turn the flesh pink.", "text_es": "El salmón salvaje obtiene su color rosa-rojizo de una dieta de krill y camarón; el de cultivo sería gris sin ello, así que su pienso incluye el mismo pigmento natural para teñir la carne de rosa.", "pair": true}]}, {"title": "Tuna & Amberjack", "title_es": "Atún Y Medregal", "badge": "6", "badge_es": "6", "color": "#b0485a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Bluefin Tuna, Yellowfin (Ahi) Tuna, Albacore Tuna, Skipjack Tuna, Yellowtail (Hamachi), Kanpachi", "text_es": "Atún Rojo (Bluefin), Atún Aleta Amarilla (Ahi), Atún Blanco (Albacora), Bonito (Listado), Hamachi (Pez Limón), Kanpachi (Medregal)", "color": "#b0485a"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Best served rare or seared — overcooking dries out these lean, meaty fish quickly.", "text_es": "Mejor servidos crudos o sellados — la sobrecocción seca rápido a estos pescados magros y carnosos."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Tuna are warm-blooded — among the few fish that can raise their body temperature above the surrounding water — which lets them swim fast enough to cross entire oceans and gives the prized bluefin its rich, marbled belly.", "text_es": "Los atunes son de sangre caliente — de los pocos peces que pueden elevar su temperatura por encima del agua que los rodea — lo que les permite nadar lo bastante rápido para cruzar océanos enteros y da al preciado atún rojo su ventresca rica y vetada.", "pair": true}]}, {"title": "Freshwater Fish", "title_es": "Pescados De Agua Dulce", "badge": "5", "badge_es": "5", "color": "#8a9a5a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Catfish, Walleye, Yellow Perch, Carp, Striped Bass", "text_es": "Bagre (Pez Gato), Lucioperca, Perca Amarilla, Carpa, Lubina Rayada", "color": "#8a9a5a"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Mild, approachable flavors — classic for frying, blackening, or simple pan dishes.", "text_es": "Sabores suaves y accesibles — clásicos para freír, ennegrecer o preparaciones simples en sartén."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "A fish's flavor depends heavily on its water — many freshwater fish like catfish and carp can taste 'muddy' from compounds absorbed from their environment, which is why cooks soak them or rely on clean, cold, fast-moving water.", "text_es": "El sabor de un pez depende mucho de su agua — muchos peces de agua dulce como el bagre y la carpa pueden saber 'a fango' por compuestos absorbidos del entorno, por eso los cocineros los remojan o recurren a aguas limpias, frías y de corriente rápida.", "pair": true}]}, {"title": "Roe & Caviar", "title_es": "Huevas Y Caviar", "badge": "5", "badge_es": "5", "color": "#d49a3a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Sturgeon Caviar, Salmon Roe (Ikura), Flying Fish Roe (Tobiko), Capelin Roe (Masago), Trout Roe", "text_es": "Caviar de Esturión, Hueva de Salmón (Ikura), Hueva de Pez Volador (Tobiko), Hueva de Capelán (Masago), Hueva de Trucha", "color": "#d49a3a"}, {"tag": "Best For", "tag_es": "Mejor Para", "text": "Served cold, in small amounts, with simple accompaniments that don't compete with the briny pop.", "text_es": "Se sirven fríos, en pequeñas cantidades, con acompañamientos simples que no compitan con su estallido salino."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Only the salted roe of sturgeon may legally be called 'caviar' — everything else, from salmon ikura to flying-fish tobiko, is technically just 'roe,' however luxurious; and true caviar is always served with a non-metal spoon, since metal taints its delicate flavor.", "text_es": "Solo la hueva salada de esturión puede llamarse legalmente 'caviar' — todo lo demás, desde la ikura de salmón hasta el tobiko de pez volador, es técnicamente solo 'hueva', por lujosa que sea; y el caviar verdadero se sirve siempre con cuchara que no sea de metal, porque el metal altera su delicado sabor.", "pair": true}]}]}]};
+const UI={"en":{"sub":"Species, texture & cooking — pocket reference","use":"How to use","useText":"Tap a card to see what's in each category, how to use it, and a fun fact. The full Fin Fish Wheel (finfish-wheel.html) has detailed notes for every individual item.","wheel":"The Wheel","scan":"Companion wheel file","cover":"Pocket guide","fold":"<b>Tip:</b> hit <b>Print fold-up</b> for a one-page pocket card — print one side, fold into eighths, one short center cut, and it becomes a little booklet.","byline":"Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com"},"es":{"sub":"Especies, textura y cocción — referencia de bolsillo","use":"Cómo usarla","useText":"Toca una tarjeta para ver qué incluye cada categoría, cómo usarla y un dato curioso. La Rueda de Pescados completa (finfish-wheel.html) tiene notas detalladas de cada elemento.","wheel":"La Rueda","scan":"Archivo de la rueda complementaria","cover":"Guía de bolsillo","fold":"<b>Tip:</b> pulsa <b>Imprimir plegable</b> para una tarjeta de bolsillo — imprime un lado, dobla en octavos, un corte corto al centro y se vuelve un folletito.","byline":"Creado por Mark Lenington · Sommelier Certificado · © 2026 LearnSomm.com"}};
+const TITLE_EN="Fin Fish";const TITLE_ES="Pescados";
+const $=id=>document.getElementById(id);let lang="en";
+function tc(t){return TC[t]||"#7a6a55";}
+function L(o,k){return lang==="es"&&o[k+"_es"]!=null?o[k+"_es"]:o[k];}
+function rowHTML(r){const pc=r.pair?" pair":"";const tag=lang==="es"?(r.tag_es||r.tag):r.tag;const txt=lang==="es"?(r.text_es||r.text):r.text;const st=r.pair?"":`style="background:${r.color||tc(r.tag)}"`;return `<div class="row${pc}"><span class="tag" ${st}>${tag}</span><span>${txt}</span></div>`;}
+function renderScreen(){const t=UI[lang];$("langBtn").textContent=lang==="es"?"EN":"ES";$("docTitle").textContent=lang==="es"?TITLE_ES:TITLE_EN;$("docSub").textContent=t.sub;$("foldHint").innerHTML=t.fold;$("byline").innerHTML=t.byline;
+$("sections").innerHTML=DATA.sections.map(s=>{const label=s.label?L(s,"label"):null;const cards=s.cards.map(c=>{const title=L(c,"title");const badge=c.badge?(lang==="es"?(c.badge_es||c.badge):c.badge):null;return `<div class="card" data-slug="${((c.slug)||L(c,'title')||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}" data-title="${title}"><div class="card-header"><span class="card-title">${title}${badge?`<span class="badge" style="background:${c.color||'var(--gold)'}">${badge}</span>`:""}</span><span class="chevron">\u25bc</span></div><div class="card-body"><div class="card-inner">${c.rows.map(rowHTML).join("")}</div></div></div>`;}).join("");return label?`<div class="section-label">${label}</div>${cards}`:cards;}).join("");
+$("sections").onclick=ev=>{const c=ev.target.closest(".card");if(c)c.classList.toggle("active");};}
+const FLAT=[];DATA.sections.forEach(s=>s.cards.forEach(c=>FLAT.push({sec:s,c})));
+function sizes(n){const b=Math.floor(n/5),r=n%5;return Array.from({length:5},(_,i)=>b+(i<r?1:0));}
+function pcard(f){const rows=f.c.rows.filter(r=>!r.pair).slice(0,2).map(r=>`<span class="pl">${lang==="es"?(r.text_es||r.text):r.text}</span>`).join("; ");return `<div class="pc"><span class="pn">${L(f.c,"title")}</span> — ${rows}</div>`;}
+function renderPrint(){const t=UI[lang];const sz=sizes(FLAT.length);const packs=[];let i=0;sz.forEach(s=>{packs.push(FLAT.slice(i,i+s));i+=s;});const TT=lang==="es"?TITLE_ES:TITLE_EN;
+function cp(arr,cls){let html="";arr.forEach(f=>{html+=pcard(f);});return `<div class="panel ${cls}"><h4>${TT}</h4>${html}</div>`;}
+const panels={1:`<div class="panel p1 pcover"><div class="ck">LearnSomm · Cheat Sheet</div><div class="ct">${TT}</div><div style="font-size:6pt;color:#a87f3d;margin-top:.05in">${t.cover}</div><div style="font-size:5.4pt;color:#888;margin-top:.5in">© 2026 LearnSomm.com</div></div>`,
+2:cp(packs[0],"p2"),3:cp(packs[1],"p3"),4:cp(packs[2],"p4"),5:cp(packs[3],"p5"),6:cp(packs[4],"p6"),
+7:`<div class="panel p7"><h4>${t.use}</h4><div class="pl">${t.useText}</div></div>`,
+8:`<div class="panel p8 pback"><div class="wt">${TT}</div><div>${t.scan}:</div><div style="font-family:'Optima',sans-serif;font-weight:700;margin:.05in 0">finfish-wheel.html</div><div style="margin-top:.15in;font-size:5.4pt;color:#888">{{USER_EMAIL}}<br>© 2026 LearnSomm.com</div></div>`};
+$("printsheet").innerHTML=[1,2,3,4,5,6,7,8].map(n=>panels[n]).join("");}
+function renderAll(){renderScreen();renderPrint();}
+$("langBtn").onclick=()=>{lang=lang==="es"?"en":"es";renderAll();};
+$("themeBtn").onclick=()=>{const dk=document.body.getAttribute("data-theme")==="dark";document.body.setAttribute("data-theme",dk?"light":"dark");$("themeBtn").textContent=dk?"\u263e":"\u2600";};
+$("printBtn").onclick=()=>window.print();renderAll();
+
+function initSearch(){
+  const inp=document.getElementById("searchInput");
+  const clr=document.getElementById("searchClear");
+  if(!inp)return;
+  function doFilter(){
+    const q=inp.value.trim().toLowerCase();
+    clr.style.display=q?"inline":"none";
+    const sect=document.getElementById("sections");
+    if(!sect)return;
+    let anyVisible=false;
+    sect.querySelectorAll(".card").forEach(card=>{
+      const txt=(card.textContent||"").toLowerCase();
+      const show=!q||txt.includes(q);
+      card.style.display=show?"":"none";
+      if(show)anyVisible=true;
+    });
+    sect.querySelectorAll(".section-label").forEach(lbl=>{
+      let next=lbl.nextElementSibling;let vis=false;
+      while(next&&!next.classList.contains("section-label")){
+        if(next.style.display!=="none")vis=true;
+        next=next.nextElementSibling;
+      }
+      lbl.style.display=vis?"":"none";
+    });
+    let nr=document.querySelector(".no-results");
+    if(!nr){nr=document.createElement("div");nr.className="no-results";nr.textContent="No cards match that search.";sect.after(nr);}
+    nr.style.display=anyVisible||!q?"none":"block";
+  }
+  inp.addEventListener("input",doFilter);
+  clr.addEventListener("click",()=>{inp.value="";clr.style.display="none";doFilter();inp.focus();});
+}
+
+initSearch();
+
+/* ── click-to-spin ── */
+(function(){
+  function norm(s){return (''+s).toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/^ | $/g,'');}
+  function send(key){if(!key)return;try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SPIN_TO',slug:key},'*');}}catch(e){}}
+  document.addEventListener('click',function(e){
+    var card=e.target.closest&&e.target.closest('.card[data-slug],.card[data-title]');
+    if(!card)return;
+    var slug=card.getAttribute('data-slug')||'';
+    var title=card.getAttribute('data-title')||'';
+    send(slug||title);
+    if(title&&title!==slug)send(title);
+  });
+  try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SHEET_READY'},'*');}}catch(e){}
+  window.addEventListener('message',function(e){
+    var d=e.data;if(!d||d.type!=='LS_WHEEL_NAMES')return;
+    var names=d.names||{};
+    document.querySelectorAll('.card[data-slug],.card[data-title]').forEach(function(card){
+      var s=card.getAttribute('data-slug')||'';
+      var t=norm(card.getAttribute('data-title')||'');
+      if((s&&names[s])||(t&&names[t])){card.classList.add('spinnable');card.style.cursor='pointer';}
+    });
+  });
+})();
+/* data-spin-wired */
+
+</script><script id="lsNoRightClick">
+(function(){
+  document.addEventListener('contextmenu',function(e){ e.preventDefault(); return false; },{capture:true});
+  // also discourage drag-saving of images
+  document.addEventListener('dragstart',function(e){ if(e.target&&e.target.tagName==='IMG'){ e.preventDefault(); } },{capture:true});
+})();
+</script>
+<script id="lsFontApply">
+(function(){ window.addEventListener('message',function(e){ var d=e.data; if(d&&d.type==='LS_CMD'&&d.cmd==='fontStack'&&d.value){ try{ ['--ui','--app-font','--display','--serif','--sans','--mono','--font','--font-ui','--font-display','--bgecho-font'].forEach(function(v){try{document.documentElement.style.setProperty(v,d.value);}catch(_){}}); try{document.body.style.fontFamily=d.value;}catch(_){}}catch(err){} } }); })();
+</script>
+</body></html>

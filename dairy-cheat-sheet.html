@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<!-- LearnSomm Cheat Sheet — Brandy — prod-17 — v1 (bilingual; rename internal key later) -->
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>LearnSomm · Dairy & Cheese Cheat Sheet</title><style>
+:root,[data-theme="light"]{--bg:#faf8f3;--text:#2b251d;--muted:#857966;--line:#e2dacb;--panel:#fff;--accent:#9a4f2a;--gold:#b87340;--shadow:0 8px 30px rgba(80,60,30,.14);}
+[data-theme="dark"]{--bg:#16130e;--text:#e9e2d4;--muted:#9a8d78;--line:#393226;--panel:#1e1a14;--accent:#dd9a6a;--gold:#e3b486;--shadow:0 10px 34px rgba(0,0,0,.55);}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--text);font-family:'Charter','Bitstream Charter','Cambria','Iowan Old Style',Georgia,serif;line-height:1.5;}
+.topctl{position:fixed;top:0;right:0;z-index:50;display:flex;gap:.45rem;padding:.55rem .8rem;background:linear-gradient(to left,var(--bg) 72%,transparent);}
+.topctl button{font-family:'Optima','Candara','Gill Sans','Segoe UI',sans-serif;font-size:.82rem;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem;cursor:pointer;color:var(--text);}
+.topctl button:hover{border-color:var(--gold);color:var(--accent);}.topctl .big{font-size:1.25rem;padding:.35rem .55rem;line-height:1;}
+.topctl .print{background:var(--accent);color:#fff;border-color:var(--accent);}[data-theme="dark"] .topctl .print{color:#1a1410;}
+.screen{max-width:720px;margin:0 auto;padding:3.4rem 1rem 4rem;}.head{text-align:center;margin-bottom:1rem;}
+.kicker{font-family:'Optima',sans-serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);}
+.title{font-family:'Optima',sans-serif;font-weight:700;font-size:2.1rem;color:var(--accent);margin:.1rem 0;}.sub{color:var(--muted);font-style:italic;}
+.section-label{font-family:'Optima',sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.6rem;margin:1.5rem 0 .7rem;}.section-label::after{content:'';flex:1;height:1px;background:var(--line);}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);margin-bottom:.55rem;overflow:hidden;}
+.card-header{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;gap:.5rem;}
+.card-title{font-family:'Optima',sans-serif;font-weight:600;color:var(--accent);font-size:1.06rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
+.badge{font-family:'Optima',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.12rem .5rem;border-radius:20px;background:var(--gold);color:#1a1410;}
+.chevron{color:var(--muted);transition:transform .2s;flex-shrink:0;}.card.active .chevron{transform:rotate(180deg);}
+.card-body{max-height:0;overflow:hidden;transition:max-height .3s ease;}.card.active .card-body{max-height:640px;}.card-inner{padding:0 1rem 1rem;}
+.row{margin:.42rem 0;font-size:.95rem;display:flex;gap:.55rem;align-items:baseline;}
+.tag{font-family:'Optima',sans-serif;font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;font-weight:700;color:#fff;border-radius:5px;padding:.12rem .45rem;white-space:nowrap;flex-shrink:0;}
+.pair .tag{background:transparent!important;color:var(--gold);border:1px solid var(--gold);}
+.byline{text-align:center;color:var(--muted);font-size:.78rem;margin-top:1.6rem;font-family:'Optima',sans-serif;}.license{text-align:center;color:var(--muted);font-size:.7rem;margin-top:.3rem;font-family:'Optima',sans-serif;}
+.foldhint{text-align:center;margin-top:1rem;font-family:'Optima',sans-serif;font-size:.82rem;color:var(--muted);}.foldhint b{color:var(--accent);}
+.printsheet{display:none;}
+@media print{@page{size:letter landscape;margin:0;}.topctl,.screen{display:none!important;}body{background:#fff;color:#000;}
+.printsheet{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);width:11in;height:8.5in;}
+.panel{border:1px dashed #bbb;padding:.16in .18in;overflow:hidden;position:relative;font-size:7pt;line-height:1.26;color:#1a1a1a;}
+.p1{grid-column:4;grid-row:2}.p2{grid-column:3;grid-row:2}.p3{grid-column:2;grid-row:2}.p4{grid-column:1;grid-row:2}
+.p5{grid-column:1;grid-row:1;transform:rotate(180deg)}.p6{grid-column:2;grid-row:1;transform:rotate(180deg)}.p7{grid-column:3;grid-row:1;transform:rotate(180deg)}.p8{grid-column:4;grid-row:1;transform:rotate(180deg)}
+.panel h4{font-family:'Optima',sans-serif;font-size:8pt;color:#7b2035;margin:.02in 0 .05in;border-bottom:.5pt solid #ddd;padding-bottom:.02in;}
+.pc{margin:.05in 0;break-inside:avoid;}.pc .pn{font-family:'Optima',sans-serif;font-weight:700;font-size:7.2pt;color:#5a3a18;}.pc .pl{color:#333;}
+.pqr{position:absolute;width:.4in;height:.4in;bottom:.08in;right:.08in;}
+.pcover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#7b2035;}.pcover .ct{font-family:'Optima',sans-serif;font-weight:700;font-size:15pt;}.pcover .ck{font-family:'Optima',sans-serif;font-size:6pt;letter-spacing:.16em;text-transform:uppercase;color:#a87f3d;}
+.pback{font-size:6.6pt;color:#444;}.pback .bigqr{width:1in;height:1in;display:block;margin:.06in auto;}}
+
+#searchWrap{display:flex;align-items:center;gap:.4rem;padding:.5rem .75rem .25rem;position:sticky;top:0;z-index:10;background:var(--bg,#faf8f3);}
+#searchInput{flex:1;padding:.45rem .7rem;border:1px solid var(--line,#e2dacb);border-radius:8px;font-size:.88rem;background:var(--panel,#fff);color:var(--text,#2b251d);outline:none;font-family:inherit;}
+#searchInput:focus{border-color:var(--accent,#9a4f2a);}
+#searchClear{background:none;border:none;cursor:pointer;font-size:1rem;color:var(--muted,#857966);padding:0 .2rem;display:none;}
+.no-results{text-align:center;color:var(--muted,#857966);padding:1.5rem;font-size:.9rem;display:none;}
+
+.card[data-slug]{cursor:default;}
+.card.spinnable{cursor:pointer;transition:transform .12s ease,box-shadow .12s ease;}
+.card.spinnable:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(123,32,53,.25);}
+.card.spinnable .card-title::after{content:" ↻";opacity:.45;font-size:.8em;}
+</style></head><body data-theme="light">
+
+<div class="topctl"><button id="langBtn" title="English / Español">ES</button><button id="themeBtn" class="big" title="Light / Dark">☾</button><button id="printBtn" class="print" title="Print fold-up pocket card">⎙ Print fold-up</button></div>
+<div id="searchWrap"><input id="searchInput" type="search" placeholder="Search cards…" autocomplete="off"><button id="searchClear" title="Clear">✕</button></div>
+<div class="screen"><div class="head"><div class="kicker">LearnSomm · Cheat Sheet</div><div class="title" id="docTitle"></div><div class="sub" id="docSub"></div></div><div id="sections"></div>
+<div class="foldhint" id="foldHint"></div><div class="byline" id="byline"></div><div class="license">Licensed to {{USER_EMAIL}}</div></div>
+<div class="printsheet" id="printsheet"></div>
+
+<script>
+const DATA={"sections": [{"label": "Dairy & Cultured", "label_es": "Lácteos y Fermentados", "cards": [{"title": "Fluid Milk", "title_es": "Leche Fluida", "badge": null, "badge_es": null, "slug": "milk", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Whole Milk (3.25% fat), Reduced-Fat (2%), Skim (0%), Lactose-Free, Buttermilk", "text_es": "Leche Entera (3.25% grasa), Reducida en Grasa (2%), Descremada (0%), Sin Lactosa, Suero de Leche", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Whole: sweet, round, full coating; Skim: watery, clean; Buttermilk: tangy, thick, slightly acidic", "text_es": "Entera: dulce, redonda, recubrimiento pleno; Descremada: acuosa, limpia; Suero: ácido, espeso, ligeramente acidulado", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Whole milk → off-dry Riesling, light Champagne; Buttermilk → crisp Albariño, Grüner Veltliner", "text_es": "Leche entera → Riesling semiseco, Champagne ligero; Suero de leche → Albariño crujiente, Grüner Veltliner", "pair": true}]}, {"title": "Cultured & Fermented", "title_es": "Cultivos y Fermentados", "badge": null, "badge_es": null, "slug": "cultured", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Yogurt, Greek Yogurt, Kefir, Sour Cream", "text_es": "Yogur, Yogur Griego, Kéfir, Crema Agria", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Greek yogurt: thick, tangy, high protein; Kefir: thin, effervescent, probiotic-rich; Sour cream: lush, mild acid", "text_es": "Yogur griego: espeso, ácido, alto en proteínas; Kéfir: fino, efervescente, rico en probióticos; Crema agria: suave, ácido leve", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Greek yogurt → dry Riesling, Assyrtiko; Kefir → natural wines; Sour cream (with blini) → Champagne, vodka", "text_es": "Yogur griego → Riesling seco, Assyrtiko; Kéfir → vinos naturales; Crema agria (con blini) → Champagne, vodka", "pair": true}]}, {"title": "Fats & Creams", "title_es": "Grasas y Cremas", "badge": null, "badge_es": null, "slug": "creams", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Heavy Cream (36%+ fat), Butter, Ghee (clarified butter, milk solids removed)", "text_es": "Crema Para Batir (36%+ grasa), Mantequilla, Ghee (mantequilla clarificada, sin sólidos lácteos)", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Heavy cream: rich, coats everything; Butter: sweet-dairy, salt-forward when cultured; Ghee: nutty, pure fat, high smoke point", "text_es": "Crema: rica, recubre todo; Mantequilla: dulce-lácteo, salada cuando es cultivada; Ghee: a nuez, grasa pura, alto punto de humo", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Butter sauces → white Burgundy, Meursault; Cream-based pasta → aged Chardonnay; Ghee dishes → Gewurztraminer", "text_es": "Salsas de mantequilla → Borgoña blanco, Meursault; Pasta con crema → Chardonnay añejo; Platos con ghee → Gewurztraminer", "pair": true}]}]}, {"label": "Cheese Guide", "label_es": "Guía de Quesos", "cards": [{"title": "Fresh Cheeses", "title_es": "Quesos Frescos", "badge": "Start Here", "badge_es": "Empieza Aquí", "slug": "fresh-cheese", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Mozzarella, Ricotta, Burrata, Cottage Cheese, Mascarpone, Cream Cheese, Chèvre", "text_es": "Mozzarella, Ricotta, Burrata, Queso Cottage, Mascarpone, Queso Crema, Chèvre", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Mild, milky, high moisture; little to no rind; meant to be eaten fresh; delicate and clean flavors", "text_es": "Suave, lácteo, alta humedad; poca o ninguna corteza; para consumir fresco; sabores delicados y limpios", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Mozzarella/Burrata → Pinot Grigio, Vermentino; Chèvre → Sancerre, Sauvignon Blanc; Ricotta → Prosecco, light Chardonnay", "text_es": "Mozzarella/Burrata → Pinot Grigio, Vermentino; Chèvre → Sancerre, Sauvignon Blanc; Ricotta → Prosecco, Chardonnay ligero", "pair": true}]}, {"title": "Semi-Soft to Semi-Hard", "title_es": "Semi-Blando a Semi-Duro", "badge": null, "badge_es": null, "slug": "semi-cheese", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Havarti, Muenster, Taleggio, Provolone, Gouda (young), Gruyère (young), Cheddar (mild)", "text_es": "Havarti, Muenster, Taleggio, Provolone, Gouda (joven), Gruyère (joven), Cheddar (suave)", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Buttery to earthy; sliceable; some develop washed rinds (Taleggio: funky, fruity); aging deepens complexity", "text_es": "Mantequilloso a terroso; cortable; algunos desarrollan corteza lavada (Taleggio: intenso, afrutado); el añejo aumenta complejidad", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Havarti/Muenster → Pinot Blanc, light Merlot; Taleggio → Barbera, Nebbiolo; Gouda (young) → Viognier, Chardonnay", "text_es": "Havarti/Muenster → Pinot Blanc, Merlot ligero; Taleggio → Barbera, Nebbiolo; Gouda (joven) → Viognier, Chardonnay", "pair": true}]}, {"title": "Hard & Aged Cheeses", "title_es": "Quesos Duros y Añejos", "badge": null, "badge_es": null, "slug": "hard-cheese", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Parmigiano-Reggiano, Manchego, Aged Cheddar, Aged Gouda, Emmental, Comté, Pecorino", "text_es": "Parmigiano-Reggiano, Manchego, Cheddar Añejo, Gouda Añejo, Emmental, Comté, Pecorino", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Crystalline texture from tyrosine crystals; concentrated, nutty, umami-rich; long finish; grating or snacking", "text_es": "Textura cristalina por cristales de tirosina; concentrado, a nuez, rico en umami; final largo; para rallar o picar", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Parmigiano → Barolo, Amarone; Manchego → Tempranillo, Rioja; Aged Cheddar → Cabernet Sauvignon, Port; Aged Gouda → Zinfandel, Tawny Port", "text_es": "Parmigiano → Barolo, Amarone; Manchego → Tempranillo, Rioja; Cheddar Añejo → Cabernet Sauvignon, Oporto; Gouda Añejo → Zinfandel, Oporto Tawny", "pair": true}]}, {"title": "Soft-Ripened & Blue", "title_es": "Corteza Blanca y Azul", "badge": null, "badge_es": null, "slug": "soft-blue", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Soft-ripened: Brie, Camembert | Blue: Roquefort (sheep), Gorgonzola (Italian), Stilton (English)", "text_es": "Corteza blanca: Brie, Camembert | Azul: Roquefort (oveja), Gorgonzola (italiano), Stilton (inglés)", "pair": false}, {"tag": "Character", "tag_es": "Carácter", "text": "Brie/Camembert: bloomy white rind, buttery, mushroomy paste; Blues: veined with Penicillium, sharp, salty, pungent", "text_es": "Brie/Camembert: corteza blanca florida, mantequillosa, pasta a champiñón; Azules: veteado con Penicillium, intenso, salado, pungente", "pair": false}, {"tag": "Pairs with", "tag_es": "Maridaje", "text": "Brie/Camembert → Champagne, Crémant, light Pinot Noir; Roquefort → Sauternes (classic); Gorgonzola → Barolo; Stilton → Vintage Port", "text_es": "Brie/Camembert → Champagne, Crémant, Pinot Noir ligero; Roquefort → Sauternes (clásico); Gorgonzola → Barolo; Stilton → Oporto Vintage", "pair": true}]}]}]};const TC={"Style": "#8a5a2a", "Profile": "#7b6b2a", "Notes": "#5a6b3b", "Examples": "#3f6b8a", "Mix": "#a8652a", "Age": "#8a7d2e", "Source": "#6b4a8a", "Flavor": "#9a5a3a", "What it is": "#5a5a8a", "Best for": "#7a5a2a", "Pairs with": "#8a3a5a", "Pairing": "#8a3a5a", "Includes": "#5a6b3b", "Use It For": "#3f6b8a", "Tasting Cue": "#7a5a2a", "Quick Tip": "#9a7d2e", "Serve With": "#8a3a5a", "Service": "#6b4a8a", "Temperature": "#5a6b3b", "Character": "#9a5a3a", "Texture": "#6b4a8a", "Fermentation": "#8a7d2e", "Origin": "#6b4a8a", "Nutrition": "#5a6b3b", "Mineral Profile": "#6b4a8a", "TDS": "#7b6b2a", "pH": "#8a5a2a", "Region": "#6b4a8a", "Polishing": "#7b6b2a", "Grades": "#8a5a2a", "Best Paired With": "#8a3a5a", "Peak Season": "#5a6b3b", "Pairs With": "#8a3a5a", "Mineral": "#6b4a8a", "Flavor Notes": "#9a5a3a", "Best Uses": "#7a5a2a"};const UI={"en": {"sub": "Milk, cultured dairy & cheese pairings — pocket reference", "use": "How to use", "useText": "Tap a card for dairy profiles & cheese pairing notes. Scan a QR to explore the Dairy Wheel.", "wheel": "The Wheel", "scan": "Scan to explore the Dairy Wheel", "cover": "Pocket guide", "fold": "<b>Tip:</b> hit <b>Print fold-up</b> for a one-page pocket card — print one side, fold into eighths, one short center cut, and it becomes a little booklet.", "byline": "Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com"}, "es": {"sub": "Leche, lácteos fermentados y maridajes de quesos — referencia de bolsillo", "use": "Cómo usarla", "useText": "Toca una tarjeta para perfiles lácteos y notas de maridaje de quesos. Escanea un QR para explorar la Rueda de Lácteos.", "wheel": "La Rueda", "scan": "Escanea para explorar la Rueda de Lácteos", "cover": "Guía de bolsillo", "fold": "<b>Tip:</b> pulsa <b>Imprimir plegable</b> para una tarjeta de bolsillo — imprime un lado, dobla en octavos, un corte corto al centro y se vuelve un folletito.", "byline": "Creado por Mark Lenington · Sommelier Certificado · © 2026 LearnSomm.com"}};const TITLE_EN="Dairy & Cheese";const TITLE_ES="Lácteos y Quesos";
+;
+const $=id=>document.getElementById(id);let lang="en";
+function tc(t){return TC[t]||"#7a6a55";}
+function L(o,k){return lang==="es"&&o[k+"_es"]!=null?o[k+"_es"]:o[k];}
+function rowHTML(r){const pc=r.pair?" pair":"";const tag=lang==="es"?(r.tag_es||r.tag):r.tag;const txt=lang==="es"?(r.text_es||r.text):r.text;const st=r.pair?"":`style="background:${tc(r.tag)}"`;return `<div class="row${pc}"><span class="tag" ${st}>${tag}</span><span>${txt}</span></div>`;}
+function renderScreen(){const t=UI[lang];$("langBtn").textContent=lang==="es"?"EN":"ES";$("docTitle").textContent=lang==="es"?TITLE_ES:TITLE_EN;$("docSub").textContent=t.sub;$("foldHint").innerHTML=t.fold;$("byline").innerHTML=t.byline;
+$("sections").innerHTML=DATA.sections.map(s=>{const label=L(s,"label");const cards=s.cards.map(c=>{const title=L(c,"title");const badge=c.badge?(lang==="es"?(c.badge_es||c.badge):c.badge):null;return `<div class="card" data-slug="${(c.slug)||''}" data-title="${title}"><div class="card-header"><span class="card-title">${title}${badge?`<span class="badge">${badge}</span>`:""}</span><span class="chevron">\u25bc</span></div><div class="card-body"><div class="card-inner">${c.rows.map(rowHTML).join("")}</div></div></div>`;}).join("");return label?`<div class="section-label">${label}</div>${cards}`:cards;}).join("");
+$("sections").onclick=ev=>{const c=ev.target.closest(".card");if(c)c.classList.toggle("active");};}
+const FLAT=[];DATA.sections.forEach(s=>s.cards.forEach(c=>FLAT.push({sec:s,c})));
+function sizes(n){const b=Math.floor(n/5),r=n%5;return Array.from({length:5},(_,i)=>b+(i<r?1:0));}
+function pcard(f){const rows=f.c.rows.filter(r=>!r.pair).slice(0,2).map(r=>`<span class="pl">${lang==="es"?(r.text_es||r.text):r.text}</span>`).join("; ");return `<div class="pc"><span class="pn">${L(f.c,"title")}</span> — ${rows}</div>`;}
+function renderPrint(){const t=UI[lang];const sz=sizes(FLAT.length);const packs=[];let i=0;sz.forEach(s=>{packs.push(FLAT.slice(i,i+s));i+=s;});const big=FLAT[0]?FLAT[0].c.qr:"";const TT=lang==="es"?TITLE_ES:TITLE_EN;
+function cp(arr,cls){let html="",last=null;arr.forEach(f=>{const lbl=L(f.sec,"label")||TT;if(lbl!==last){html+=`<h4>${lbl}</h4>`;last=lbl;}html+=pcard(f);});const qr=arr[0]?arr[0].c.qr:"";return `<div class="panel ${cls}">${html}<div class="pqr">${qr}</div></div>`;}
+const panels={1:`<div class="panel p1 pcover"><div class="ck">LearnSomm · Cheat Sheet</div><div class="ct">${TT}</div><div style="font-size:6pt;color:#a87f3d;margin-top:.05in">${t.cover}</div><div style="font-size:5.4pt;color:#888;margin-top:.5in">© 2026 LearnSomm.com</div></div>`,
+2:cp(packs[0],"p2"),3:cp(packs[1],"p3"),4:cp(packs[2],"p4"),5:cp(packs[3],"p5"),6:cp(packs[4],"p6"),
+7:`<div class="panel p7"><h4>${t.use}</h4><div class="pl">${t.useText}</div></div>`,
+8:`<div class="panel p8 pback"><h4>${t.wheel}</h4><div style="text-align:center">${t.scan}</div><div class="bigqr">${big}</div><div style="text-align:center;font-size:5.4pt;color:#888">{{USER_EMAIL}}<br>© 2026 LearnSomm.com</div></div>`};
+$("printsheet").innerHTML=[1,2,3,4,5,6,7,8].map(n=>panels[n]).join("");}
+function renderAll(){renderScreen();renderPrint();}
+$("langBtn").onclick=()=>{lang=lang==="es"?"en":"es";renderAll();};
+$("themeBtn").onclick=()=>{const dk=document.body.getAttribute("data-theme")==="dark";document.body.setAttribute("data-theme",dk?"light":"dark");$("themeBtn").textContent=dk?"\u263e":"\u2600";};
+$("printBtn").onclick=()=>window.print();renderAll();
+
+function initSearch(){
+  const inp=document.getElementById("searchInput"),clr=document.getElementById("searchClear");
+  if(!inp)return;
+  function doFilter(){const q=inp.value.trim().toLowerCase();clr.style.display=q?"inline":"none";
+    const sect=document.getElementById("sections");if(!sect)return;let any=false;
+    sect.querySelectorAll(".card").forEach(card=>{const show=!q||(card.textContent||"").toLowerCase().includes(q);card.style.display=show?"":"none";if(show)any=true;});
+    sect.querySelectorAll(".section-label").forEach(lbl=>{let nx=lbl.nextElementSibling,vis=false;while(nx&&!nx.classList.contains("section-label")){if(nx.style.display!=="none")vis=true;nx=nx.nextElementSibling;}lbl.style.display=vis?"":"none";});
+    let nr=document.querySelector(".no-results");if(!nr){nr=document.createElement("div");nr.className="no-results";nr.textContent="No cards match that search.";sect.after(nr);}nr.style.display=any||!q?"none":"block";}
+  inp.addEventListener("input",doFilter);clr.addEventListener("click",()=>{inp.value="";clr.style.display="none";doFilter();inp.focus();});}
+initSearch();
+
+/* ── click-to-spin ── */
+(function(){
+  function norm(s){return (''+s).toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/^ | $/g,'');}
+  function send(key){if(!key)return;try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SPIN_TO',slug:key},'*');}}catch(e){}}
+  document.addEventListener('click',function(e){
+    var card=e.target.closest&&e.target.closest('.card[data-slug],.card[data-title]');
+    if(!card)return;
+    var slug=card.getAttribute('data-slug')||'';
+    var title=card.getAttribute('data-title')||'';
+    send(slug||title);
+    if(title&&title!==slug)send(title);
+  });
+  try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SHEET_READY'},'*');}}catch(e){}
+  window.addEventListener('message',function(e){
+    var d=e.data;if(!d||d.type!=='LS_WHEEL_NAMES')return;
+    var names=d.names||{};
+    document.querySelectorAll('.card[data-slug],.card[data-title]').forEach(function(card){
+      var s=card.getAttribute('data-slug')||'';
+      var t=norm(card.getAttribute('data-title')||'');
+      if((s&&names[s])||(t&&names[t])){card.classList.add('spinnable');card.style.cursor='pointer';}
+    });
+  });
+})();
+/* data-spin-wired */
+
+</script>
+<script id="lsNoRightClick">
+(function(){
+  document.addEventListener('contextmenu',function(e){ e.preventDefault(); return false; },{capture:true});
+  // also discourage drag-saving of images
+  document.addEventListener('dragstart',function(e){ if(e.target&&e.target.tagName==='IMG'){ e.preventDefault(); } },{capture:true});
+})();
+</script>
+<script id="lsFontApply">
+(function(){ window.addEventListener('message',function(e){ var d=e.data; if(d&&d.type==='LS_CMD'&&d.cmd==='fontStack'&&d.value){ try{ ['--ui','--app-font','--display','--serif','--sans','--mono','--font','--font-ui','--font-display','--bgecho-font'].forEach(function(v){try{document.documentElement.style.setProperty(v,d.value);}catch(_){}}); try{document.body.style.fontFamily=d.value;}catch(_){}}catch(err){} } }); })();
+</script>
+</body></html>
