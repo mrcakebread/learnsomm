@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LearnSomm · Academy</title>
+<style>
+:root{
+  --bg:#14110c;--ink:#ece3d2;--muted:#9a8d78;--line:#2e2820;
+  --gold:#b08a3e;--gold-hi:#d4b276;--accent:#7d2b34;
+  --panel:rgba(30,26,18,.88);
+  --display:'Optima','Candara','Gill Sans',sans-serif;
+  --body:'Charter','Bitstream Charter','Cambria',Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);
+  min-height:100vh;overflow-x:hidden;}
+
+/* ── HERO ─────────────────────────────────────────────── */
+.hero{
+  min-height:100vh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  text-align:center;padding:4rem 1.5rem 8rem;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(176,138,62,.18) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(125,43,52,.2) 0%, transparent 60%),
+    var(--bg);
+}
+.kicker{
+  font-family:var(--display);font-size:.72rem;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;
+}
+h1{
+  font-family:var(--display);font-size:clamp(2.4rem,6vw,4.2rem);
+  font-weight:700;color:var(--gold-hi);line-height:1.1;
+  margin-bottom:.8rem;
+}
+h1 em{color:var(--accent);font-style:normal;}
+.sub{
+  font-size:clamp(1rem,2.5vw,1.2rem);color:var(--muted);
+  max-width:540px;line-height:1.6;margin-bottom:2.8rem;
+}
+
+/* ── CARDS ────────────────────────────────────────────── */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:1rem;max-width:860px;width:100%;margin-bottom:3rem;
+}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:16px;
+  padding:1.6rem 1.4rem;text-align:left;
+  backdrop-filter:blur(6px);
+  transition:border-color .2s,transform .2s;
+}
+.card:hover{border-color:var(--gold);transform:translateY(-3px);}
+.card-icon{font-size:2rem;margin-bottom:.7rem;display:block;}
+.card-title{
+  font-family:var(--display);font-size:1.05rem;font-weight:600;
+  color:var(--gold-hi);margin-bottom:.4rem;
+}
+.card-desc{font-size:.88rem;color:var(--muted);line-height:1.5;margin-bottom:1rem;}
+.card-badge{
+  display:inline-block;font-family:var(--display);font-size:.62rem;
+  letter-spacing:.1em;text-transform:uppercase;
+  padding:.2rem .55rem;border-radius:20px;
+  background:rgba(125,43,52,.25);border:1px solid rgba(125,43,52,.5);
+  color:var(--accent);
+}
+.card-badge.soon{
+  background:rgba(176,138,62,.12);border-color:rgba(176,138,62,.3);
+  color:var(--gold);
+}
+
+/* ── CTA ──────────────────────────────────────────────── */
+.notify-form{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center;margin-bottom:1.2rem;}
+.notify-input{
+  padding:.65rem 1rem;font-family:var(--body);font-size:.95rem;
+  background:rgba(30,26,18,.7);border:1px solid var(--line);border-radius:8px;
+  color:var(--ink);width:260px;outline:none;
+}
+.notify-input:focus{border-color:var(--gold);}
+.notify-input::placeholder{color:var(--muted);}
+.notify-btn{
+  padding:.65rem 1.4rem;font-family:var(--display);font-size:.88rem;
+  letter-spacing:.08em;text-transform:uppercase;
+  background:linear-gradient(135deg,var(--gold),var(--gold-hi));
+  border:none;border-radius:8px;color:#191510;font-weight:700;
+  cursor:pointer;transition:filter .15s;
+}
+.notify-btn:hover{filter:brightness(1.1);}
+#notify-msg{font-size:.82rem;color:var(--gold);min-height:1.2rem;}
+
+/* ── BACK NAV ─────────────────────────────────────────── */
+.back-bar{
+  position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+  z-index:100;display:flex;gap:.4rem;
+  background:rgba(18,14,9,.92);border:1px solid var(--line);border-radius:40px;
+  padding:.38rem .55rem;backdrop-filter:blur(8px);
+}
+.back-pill{
+  display:inline-flex;align-items:center;gap:.28rem;text-decoration:none;
+  font-family:var(--display);font-size:.76rem;color:var(--gold-hi);
+  border:1px solid var(--gold);border-radius:30px;
+  padding:.42rem .75rem;cursor:pointer;letter-spacing:.04em;
+  background:none;transition:all .15s;
+}
+.back-pill:hover{background:rgba(176,138,62,.2);}
+.back-pill.accent{
+  background:linear-gradient(135deg,var(--accent),#a83040);
+  border-color:transparent;color:#fff;
+}
+
+/* ── DIVIDER ──────────────────────────────────────────── */
+.section-rule{
+  width:40px;height:2px;background:var(--gold);margin:0 auto 2rem;
+  opacity:.5;
+}
+
+@media(max-width:480px){
+  .cards{grid-template-columns:1fr;}
+  .notify-input{width:100%;}
+  .notify-form{flex-direction:column;align-items:stretch;}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <p class="kicker">LearnSomm · Academy</p>
+  <h1>The <em>Vault</em> gets<br>a classroom</h1>
+  <p class="sub">Structured lessons for sommeliers, servers, bartenders, and serious hospitality professionals — built on the same wheel data you already train with.</p>
+
+  <div class="cards">
+    <div class="card">
+      <span class="card-icon">🍷</span>
+      <div class="card-title">Wine Fundamentals</div>
+      <div class="card-desc">Old World vs New World. Major grapes, regions, styles, and service. CMS-aligned vocabulary throughout.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Blind Tasting Method</div>
+      <div class="card-desc">The full CMS deductive sequence — Sight, Nose, Palate, Conclusion — with practice flights and self-graded grids.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+    <div class="card">
+      <span class="card-icon">🌍</span>
+      <div class="card-title">Regional Deep Dives</div>
+      <div class="card-desc">Napa, Burgundy, Barolo, Rioja, Champagne — paired with interactive maps and AVA breakdowns.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+    <div class="card">
+      <span class="card-icon">🍽</span>
+      <div class="card-title">Food & Beverage Pairing</div>
+      <div class="card-desc">Principles and practice across all 29 flavor wheels — from cheese to sushi to charcuterie.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+    <div class="card">
+      <span class="card-icon">📋</span>
+      <div class="card-title">Exam Prep</div>
+      <div class="card-desc">Certified Sommelier and Advanced Sommelier prep modules. Timed grids, flashcards, and mark-scheme walkthroughs.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎤</span>
+      <div class="card-title">Service & Floor Skills</div>
+      <div class="card-desc">Guest interaction, tableside decanting, upselling without pressure, and handling difficult situations.</div>
+      <span class="card-badge soon">Coming Soon</span>
+    </div>
+  </div>
+
+  <div class="section-rule"></div>
+
+  <p class="sub" style="font-size:.92rem;margin-bottom:1.4rem;">Get notified when the first lessons drop.</p>
+  <div class="notify-form">
+    <input id="notify-email" class="notify-input" type="email"
+           placeholder="your@email.com" autocomplete="email">
+    <button class="notify-btn" onclick="notifySubmit()">Notify me</button>
+  </div>
+  <div id="notify-msg"></div>
+</section>
+
+<!-- Back nav -->
+<div class="back-bar">
+  <a class="back-pill" href="dashboard.html">🏠 Dashboard</a>
+  <a class="back-pill" href="wine-live.html">🍷 Wheels</a>
+  <a class="back-pill" href="deductive.html">📋 Test Prep</a>
+  <a class="back-pill" href="napaexplorer.html">🗺 Maps</a>
+</div>
+
+<script>
+function notifySubmit(){
+  var e = document.getElementById('notify-email').value.trim();
+  var msg = document.getElementById('notify-msg');
+  if(!e || !e.includes('@')){ msg.textContent='Enter a valid email.'; msg.style.color='#e04040'; return; }
+  // In production: POST to your backend / Make.com webhook / Firebase
+  msg.textContent = '✓ You\'re on the list — we\'ll email ' + e + ' when Academy launches.';
+  msg.style.color = '';
+  document.getElementById('notify-email').value = '';
+}
+document.getElementById('notify-email').addEventListener('keydown', function(e){
+  if(e.key==='Enter') notifySubmit();
+});
+</script>
+<script id="lsNoRightClick">
+(function(){
+  document.addEventListener('contextmenu',function(e){ e.preventDefault(); return false; },{capture:true});
+  // also discourage drag-saving of images
+  document.addEventListener('dragstart',function(e){ if(e.target&&e.target.tagName==='IMG'){ e.preventDefault(); } },{capture:true});
+})();
+</script>
+</body>
+</html>

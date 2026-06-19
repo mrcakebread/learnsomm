@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LearnSomm · Mexican Cuisine Cheat Sheet</title>
+<style>
+:root{--bg:#faf8f3;--panel:#fffdf7;--ink:#2b2118;--muted:#8a7c66;--line:#e2dacb;--line2:#c9bfa6;--garnet:#6E1B2E;--gold:#C49A4A;--ui:'Jost',system-ui,sans-serif;--serif:'Cormorant Garamond',Georgia,serif;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:var(--ui);background:var(--bg);color:var(--ink);}
+button,input,select,textarea,.card,.ct,.cn,.gcard,.ghead,#tierBar,.viewseg{font-family:var(--ui)!important;}
+.wrap{max-width:1100px;margin:0 auto;padding:14px 14px 60px;}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;padding:.4rem 0 .8rem;}
+h1{font-family:var(--serif);font-size:1.5rem;margin:0;font-weight:600;}
+.sub{color:var(--muted);font-size:.82rem;}
+#tierBar{display:inline-flex;align-items:center;gap:.4rem;background:var(--panel);border:1px solid var(--line2);border-radius:20px;padding:.32rem .5rem;}
+#tierBar .tl{font-size:.62rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);padding:0 .3rem;}
+#tierBar button{border:1px solid var(--line2);background:var(--bg);color:var(--ink);border-radius:14px;padding:.3rem .7rem;font-family:var(--ui);font-size:.8rem;cursor:pointer;}
+#tierBar button.active{background:var(--garnet);color:#fff;border-color:var(--garnet);}
+.viewseg{display:inline-flex;border:1px solid var(--line2);border-radius:14px;overflow:hidden;}
+.viewseg button{border:none;background:transparent;color:var(--ink);font-size:.78rem;padding:.3rem .7rem;cursor:pointer;font-family:var(--ui);}
+.viewseg button.active{background:var(--gold);color:#3a2a20;}
+#search{flex:1 1 200px;min-width:160px;}
+#search input{width:100%;padding:.5rem .7rem;border:1px solid var(--line2);border-radius:10px;font-family:var(--ui);font-size:.9rem;background:var(--panel);color:var(--ink);}
+.grid{column-width:250px;column-gap:14px;}
+.gcard{display:inline-block;width:100%;break-inside:avoid;margin:0 0 14px;background:var(--panel);border:1.5px solid var(--g);border-top:5px solid var(--g);border-radius:10px;padding:.6rem .7rem;box-shadow:0 1px 3px rgba(0,0,0,.07);}
+.ghead{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g);margin:0 0 .5rem;}
+.card{display:block;width:100%;text-align:left;border:1px solid color-mix(in srgb,var(--g) 35%,transparent);border-left:3px solid var(--g);background:color-mix(in srgb,var(--g) 8%,var(--bg));border-radius:7px;padding:.45rem .55rem;margin:0 0 .35rem;cursor:pointer;}
+.card:hover{background:color-mix(in srgb,var(--g) 18%,var(--bg));}
+.card .ct{font-weight:600;font-size:.9rem;}
+.card .cn{font-size:.8rem;color:var(--muted);margin-top:.15rem;line-height:1.35;}
+.card .badge{float:right;font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line2);border-radius:8px;padding:.05rem .35rem;}
+.card.spinnable .ct::after{content:' ↻';color:var(--gold);font-size:.8rem;}
+.empty{color:var(--muted);font-style:italic;padding:1rem;}
+#tierNote{font-size:.8rem;color:var(--muted);margin:.2rem 0 .8rem;}
+</style></head>
+<body><div class="wrap">
+<div class="top">
+  <div><h1>Mexican Cuisine</h1><div class="sub">Dishes, sauces & techniques · the all-in-one Italian cuisine reference</div></div>
+  <div id="tierBar"><span class="tl">Tier</span>
+    <button data-tier="1">Intro</button>
+    <button data-tier="2" class="active">Next Level</button>
+    <button data-tier="3">Master</button>
+  </div>
+  <div class="viewseg"><button data-view="all" class="active">All</button><button data-view="type">Types</button><button data-view="aroma">Aromas</button></div>
+  <div id="search"><input id="q" type="search" placeholder="Search styles, terms, aromas…" autocomplete="off"></div>
+</div>
+<div id="tierNote"></div>
+<div class="grid" id="grid"></div>
+</div>
+<script>
+var CARDS=[{"name": "Taco", "tier": 1, "group": "Antojitos", "note": "Folded tortilla with filling; the cornerstone.", "wheel": "type", "color": "#c0392b", "slug": "mx-taco"}, {"name": "Quesadilla", "tier": 1, "group": "Antojitos", "note": "Folded tortilla with melted cheese.", "wheel": "type", "color": "#c0392b", "slug": "mx-quesadilla"}, {"name": "Tamale", "tier": 1, "group": "Antojitos", "note": "Masa steamed in corn husk or banana leaf.", "wheel": "type", "color": "#c0392b", "slug": "mx-tamale"}, {"name": "Sope", "tier": 2, "group": "Antojitos", "note": "Thick masa base with raised edge, topped.", "wheel": "type", "color": "#c0392b", "slug": "mx-sope"}, {"name": "Tlacoyo", "tier": 3, "group": "Antojitos", "note": "Stuffed masa oval, often with beans.", "wheel": "type", "color": "#c0392b", "slug": "mx-tlacoyo"}, {"name": "Gordita", "tier": 2, "group": "Antojitos", "note": "Thick stuffed masa pocket.", "wheel": "type", "color": "#c0392b", "slug": "mx-gordita"}, {"name": "Tostada", "tier": 2, "group": "Antojitos", "note": "Crisp flat tortilla, layered toppings.", "wheel": "type", "color": "#c0392b", "slug": "mx-tostada"}, {"name": "Salsa Roja", "tier": 1, "group": "Salsas & Moles", "note": "Red sauce from ripe tomato & dried chili.", "wheel": "type", "color": "#8e44ad", "slug": "mx-salsaroja"}, {"name": "Salsa Verde", "tier": 1, "group": "Salsas & Moles", "note": "Tomatillo-green chili sauce.", "wheel": "type", "color": "#8e44ad", "slug": "mx-salsaverde"}, {"name": "Guacamole", "tier": 1, "group": "Salsas & Moles", "note": "Mashed avocado with lime, onion, chili.", "wheel": "type", "color": "#8e44ad", "slug": "mx-guacamole"}, {"name": "Mole Poblano", "tier": 1, "group": "Salsas & Moles", "note": "Complex chili-chocolate-spice sauce, Puebla.", "wheel": "type", "color": "#8e44ad", "slug": "mx-molepoblano"}, {"name": "Mole Negro", "tier": 2, "group": "Salsas & Moles", "note": "Oaxacan dark mole, deeply layered.", "wheel": "type", "color": "#8e44ad", "slug": "mx-molenegro"}, {"name": "Pico de Gallo", "tier": 1, "group": "Salsas & Moles", "note": "Fresh chopped tomato-onion-chili-lime.", "wheel": "type", "color": "#8e44ad", "slug": "mx-pico"}, {"name": "Adobo", "tier": 2, "group": "Salsas & Moles", "note": "Chili-vinegar marinade paste.", "wheel": "type", "color": "#8e44ad", "slug": "mx-adobo"}, {"name": "Pipián", "tier": 3, "group": "Salsas & Moles", "note": "Pumpkin-seed based sauce.", "wheel": "type", "color": "#8e44ad", "slug": "mx-pipian"}, {"name": "Jalapeño", "tier": 1, "group": "Chiles", "note": "Fresh medium-heat green chili.", "wheel": "type", "color": "#e67e22", "slug": "mx-jalapeno"}, {"name": "Chipotle", "tier": 1, "group": "Chiles", "note": "Smoked, dried jalapeño.", "wheel": "type", "color": "#e67e22", "slug": "mx-chipotle"}, {"name": "Ancho", "tier": 2, "group": "Chiles", "note": "Dried poblano; sweet, mild, raisiny.", "wheel": "type", "color": "#e67e22", "slug": "mx-ancho"}, {"name": "Guajillo", "tier": 2, "group": "Chiles", "note": "Dried, bright, tangy workhorse chili.", "wheel": "type", "color": "#e67e22", "slug": "mx-guajillo"}, {"name": "Habanero", "tier": 2, "group": "Chiles", "note": "Fiery fruity chili, Yucatán.", "wheel": "type", "color": "#e67e22", "slug": "mx-habanero"}, {"name": "Pasilla", "tier": 3, "group": "Chiles", "note": "Dried chilaca; dark, rich.", "wheel": "type", "color": "#e67e22", "slug": "mx-pasilla"}, {"name": "Serrano", "tier": 2, "group": "Chiles", "note": "Hotter, smaller than jalapeño.", "wheel": "type", "color": "#e67e22", "slug": "mx-serrano"}, {"name": "Carnitas", "tier": 1, "group": "Mains", "note": "Pork confited then crisped, Michoacán.", "wheel": "type", "color": "#d4a017", "slug": "mx-carnitas"}, {"name": "Al Pastor", "tier": 1, "group": "Mains", "note": "Marinated pork on vertical spit with pineapple.", "wheel": "type", "color": "#d4a017", "slug": "mx-pastor"}, {"name": "Barbacoa", "tier": 1, "group": "Mains", "note": "Slow-cooked (traditionally pit) seasoned meat.", "wheel": "type", "color": "#d4a017", "slug": "mx-barbacoa"}, {"name": "Cochinita Pibil", "tier": 2, "group": "Mains", "note": "Achiote-marinated pork, Yucatán.", "wheel": "type", "color": "#d4a017", "slug": "mx-cochinita"}, {"name": "Chiles en Nogada", "tier": 3, "group": "Mains", "note": "Stuffed poblano with walnut sauce, patriotic.", "wheel": "type", "color": "#d4a017", "slug": "mx-nogada"}, {"name": "Birria", "tier": 1, "group": "Mains", "note": "Chili-braised goat/beef stew, now taco-famous.", "wheel": "type", "color": "#d4a017", "slug": "mx-birria"}, {"name": "Pozole", "tier": 2, "group": "Mains", "note": "Hominy soup with pork, red/green/white.", "wheel": "type", "color": "#d4a017", "slug": "mx-pozole"}, {"name": "Masa", "tier": 1, "group": "Masa & Staples", "note": "Nixtamalized corn dough, the foundation.", "wheel": "type", "color": "#16a085", "slug": "mx-masa"}, {"name": "Nixtamal", "tier": 2, "group": "Masa & Staples", "note": "Corn treated with lime (cal) for masa.", "wheel": "type", "color": "#16a085", "slug": "mx-nixtamal"}, {"name": "Corn Tortilla", "tier": 1, "group": "Masa & Staples", "note": "Pressed masa flatbread.", "wheel": "type", "color": "#16a085", "slug": "mx-corntortilla"}, {"name": "Frijoles", "tier": 1, "group": "Masa & Staples", "note": "Beans, often refried.", "wheel": "type", "color": "#16a085", "slug": "mx-frijoles"}, {"name": "Queso Fresco", "tier": 2, "group": "Masa & Staples", "note": "Fresh crumbly cheese.", "wheel": "type", "color": "#16a085", "slug": "mx-quesofresco"}, {"name": "Crema", "tier": 2, "group": "Masa & Staples", "note": "Mexican soured cream.", "wheel": "type", "color": "#16a085", "slug": "mx-crema"}, {"name": "Epazote", "tier": 3, "group": "Masa & Staples", "note": "Pungent herb for beans.", "wheel": "type", "color": "#16a085", "slug": "mx-epazote"}, {"name": "Cilantro", "tier": 1, "group": "Aromatics", "note": "Bright herb, ubiquitous garnish.", "wheel": "type", "color": "#27ae60", "slug": "mx-cilantro"}, {"name": "Lime", "tier": 1, "group": "Aromatics", "note": "Sour citrus finishing everything.", "wheel": "type", "color": "#27ae60", "slug": "mx-lime"}, {"name": "White Onion", "tier": 1, "group": "Aromatics", "note": "Sharp raw topping.", "wheel": "type", "color": "#27ae60", "slug": "mx-onion"}, {"name": "Tomatillo", "tier": 2, "group": "Aromatics", "note": "Tart husked green fruit.", "wheel": "type", "color": "#27ae60", "slug": "mx-tomatillo"}, {"name": "Achiote", "tier": 2, "group": "Aromatics", "note": "Annatto seed; earthy, red.", "wheel": "type", "color": "#27ae60", "slug": "mx-achiote"}, {"name": "Mexican Oregano", "tier": 3, "group": "Aromatics", "note": "More citrusy than Mediterranean.", "wheel": "type", "color": "#27ae60", "slug": "mx-oregano"}, {"name": "Oaxacan", "tier": 2, "group": "Regional", "note": "Land of seven moles & string cheese.", "wheel": "type", "color": "#2980b9", "slug": "mx-oaxacan"}, {"name": "Yucatecan", "tier": 2, "group": "Regional", "note": "Mayan-influenced, achiote & citrus.", "wheel": "type", "color": "#2980b9", "slug": "mx-yucatecan"}, {"name": "Pueblan", "tier": 2, "group": "Regional", "note": "Home of mole poblano & chiles en nogada.", "wheel": "type", "color": "#2980b9", "slug": "mx-pueblan"}, {"name": "Norteño", "tier": 2, "group": "Regional", "note": "Northern; beef, flour tortillas, grilling.", "wheel": "type", "color": "#2980b9", "slug": "mx-norteno"}, {"name": "Veracruz", "tier": 3, "group": "Regional", "note": "Gulf coast; seafood, olives, capers (a la veracruzana).", "wheel": "type", "color": "#2980b9", "slug": "mx-veracruz"}, {"name": "Churros", "tier": 1, "group": "Sweets & Drinks", "note": "Fried dough with cinnamon sugar.", "wheel": "type", "color": "#c39bd3", "slug": "mx-churros"}, {"name": "Flan", "tier": 1, "group": "Sweets & Drinks", "note": "Caramel custard.", "wheel": "type", "color": "#c39bd3", "slug": "mx-flan"}, {"name": "Tres Leches", "tier": 1, "group": "Sweets & Drinks", "note": "Three-milk soaked cake.", "wheel": "type", "color": "#c39bd3", "slug": "mx-tresleches"}, {"name": "Horchata", "tier": 1, "group": "Sweets & Drinks", "note": "Rice-cinnamon sweet drink.", "wheel": "type", "color": "#c39bd3", "slug": "mx-horchata"}, {"name": "Agua Fresca", "tier": 2, "group": "Sweets & Drinks", "note": "Fruit-water cooler.", "wheel": "type", "color": "#c39bd3", "slug": "mx-aguafresca"}, {"name": "Champurrado", "tier": 3, "group": "Sweets & Drinks", "note": "Masa-thickened hot chocolate.", "wheel": "type", "color": "#c39bd3", "slug": "mx-champurrado"}];
+var TIER=2, VIEW='all', Q='';
+var TIERNAME={1:'Intro',2:'Next Level',3:'Master'};
+function visible(c){
+  if(c.tier>TIER) return false;
+  if(VIEW!=='all' && c.wheel!==VIEW) return false;
+  if(Q){ var s=(c.name+' '+c.group+' '+c.note).toLowerCase(); if(s.indexOf(Q)<0) return false; }
+  return true;
+}
+function slugify(s){ return s.toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+function render(){
+  var grid=document.getElementById('grid'); grid.innerHTML='';
+  // group visible cards by group
+  var groups={};
+  CARDS.filter(visible).forEach(function(c){ (groups[c.group]=groups[c.group]||[]).push(c); });
+  // Aromas & tasting notes always come first, then the other (type/style/service) groups.
+  var order=Object.keys(groups).sort(function(a,b){
+    var aw=(groups[a][0].wheel==='aroma')?0:1, bw=(groups[b][0].wheel==='aroma')?0:1;
+    return aw-bw; // stable-ish: aroma groups (0) before type groups (1)
+  });
+  if(!order.length){ grid.innerHTML='<div class="empty">Nothing at this tier/filter.</div>'; updateNote(0); return; }
+  var shown=0;
+  order.forEach(function(g){
+    var color=groups[g][0].color;
+    var block=document.createElement('div'); block.className='gcard'; block.style.setProperty('--g',color);
+    var head=document.createElement('div'); head.className='ghead'; head.textContent=g; block.appendChild(head);
+    groups[g].forEach(function(c){
+      shown++;
+      var card=document.createElement('button'); card.type='button'; card.className='card';
+      card.style.setProperty('--g',color);
+      card.setAttribute('data-title', c.name); card.setAttribute('data-slug', slugify(c.name)); if(c.slug)card.setAttribute('data-wheelslug', c.slug);
+      // per-card tier label removed — the tier toggle already conveys this
+      card.innerHTML='<div class="ct">'+c.name+'</div><div class="cn">'+c.note+'</div>';
+      block.appendChild(card);
+    });
+    grid.appendChild(block);
+  });
+  updateNote(shown);
+  applyWheelNames();
+}
+function updateNote(n){
+  var locked=CARDS.filter(function(c){return c.tier>TIER;}).length;
+  var t=document.getElementById('tierNote');
+  t.textContent=TIERNAME[TIER]+' view · '+n+' entries shown'+(locked? ' · '+locked+' more unlock at higher tiers':'');
+}
+// tier + view + search wiring
+document.querySelectorAll('#tierBar button').forEach(function(b){ b.addEventListener('click',function(){
+  document.querySelectorAll('#tierBar button').forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+  TIER=parseInt(b.getAttribute('data-tier')); render();
+}); });
+document.querySelectorAll('.viewseg button').forEach(function(b){ b.addEventListener('click',function(){
+  document.querySelectorAll('.viewseg button').forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+  VIEW=b.getAttribute('data-view'); render();
+}); });
+document.getElementById('q').addEventListener('input',function(e){ Q=e.target.value.trim().toLowerCase(); render(); });
+
+// ---- click-to-spin: tell the parent wheel to spin to this term (by NAME; wheel resolves) ----
+function postSpin(name){ try{ if(window.parent&&window.parent!==window){ window.parent.postMessage({type:'LS_SPIN_TO',slug:name},'*'); } }catch(e){} }
+document.addEventListener('click',function(e){
+  var card=e.target.closest&&e.target.closest('.card');
+  if(card){ postSpin(card.getAttribute('data-wheelslug')||card.getAttribute('data-title')); }
+});
+// announce ready; receive wheel names to mark spinnable + resolve
+try{ if(window.parent&&window.parent!==window){ window.parent.postMessage({type:'LS_SHEET_READY'},'*'); } }catch(e){}
+var WHEEL_NAMES={};
+window.addEventListener('message',function(e){ var d=e.data; if(!d)return;
+  if(d.type==='LS_WHEEL_NAMES'){ WHEEL_NAMES=d.names||{}; applyWheelNames(); }
+  if(d.type==='LS_CMD' && d.cmd==='tier'){ var bt=document.querySelector('#tierBar [data-tier="'+(d.value||2)+'"]'); if(bt)bt.click(); }
+});
+function applyWheelNames(){
+  document.querySelectorAll('.card').forEach(function(card){
+    var title=(card.getAttribute('data-title')||'').toLowerCase().trim();
+    var ws=null;
+    if(WHEEL_NAMES[title]) ws=WHEEL_NAMES[title];
+    else for(var nm in WHEEL_NAMES){ if(nm===title||(title&&(nm.indexOf(title)>=0||title.indexOf(nm)>=0))){ ws=WHEEL_NAMES[nm]; break; } }
+    if(ws){ card.setAttribute('data-wheelslug',ws); card.classList.add('spinnable'); }
+  });
+}
+render();
+</script><script id="lsFontApply">
+(function(){ window.addEventListener('message',function(e){ var d=e.data; if(d&&d.type==='LS_CMD'&&d.cmd==='fontStack'&&d.value){ try{ ['--ui','--app-font','--display','--serif','--sans','--mono','--font','--font-ui','--font-display','--bgecho-font'].forEach(function(v){try{document.documentElement.style.setProperty(v,d.value);}catch(_){}}); try{document.body.style.fontFamily=d.value;}catch(_){}}catch(err){} } }); })();
+</script>
+</body></html>
