@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<!-- LearnSomm Cheat Sheet — cordials — companion to cordials-liqueurs-wheel.html -->
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>LearnSomm · Cordials & Liqueurs Cheat Sheet</title><style>
+:root,[data-theme="light"]{--bg:#faf8f3;--text:#2b251d;--muted:#857966;--line:#e2dacb;--panel:#fff;--accent:#6b4a2f;--gold:#9a7344;--shadow:0 8px 30px rgba(80,60,30,.14);}
+[data-theme="dark"]{--bg:#16130e;--text:#e9e2d4;--muted:#9a8d78;--line:#393226;--panel:#1e1a14;--accent:#cba47a;--gold:#d8b88a;--shadow:0 10px 34px rgba(0,0,0,.55);}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--text);font-family:'Charter','Bitstream Charter','Cambria','Iowan Old Style',Georgia,serif;line-height:1.5;}
+.topctl{position:fixed;top:0;right:0;z-index:50;display:flex;gap:.45rem;padding:.55rem .8rem;background:linear-gradient(to left,var(--bg) 72%,transparent);}
+.topctl button{font-family:'Optima','Candara','Gill Sans','Segoe UI',sans-serif;font-size:.82rem;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem;cursor:pointer;color:var(--text);}
+.topctl button:hover{border-color:var(--gold);color:var(--accent);}.topctl .big{font-size:1.25rem;padding:.35rem .55rem;line-height:1;}
+.topctl .print{background:var(--accent);color:#fff;border-color:var(--accent);}[data-theme="dark"] .topctl .print{color:#1a1410;}
+.screen{max-width:720px;margin:0 auto;padding:3.4rem 1rem 4rem;}.head{text-align:center;margin-bottom:1rem;}
+.kicker{font-family:'Optima',sans-serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);}
+.title{font-family:'Optima',sans-serif;font-weight:700;font-size:2.1rem;color:var(--accent);margin:.1rem 0;}.sub{color:var(--muted);font-style:italic;}
+.section-label{font-family:'Optima',sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.6rem;margin:1.5rem 0 .7rem;}.section-label::after{content:'';flex:1;height:1px;background:var(--line);}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);margin-bottom:.55rem;overflow:hidden;}
+.card-header{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;gap:.5rem;}
+.card-title{font-family:'Optima',sans-serif;font-weight:600;color:var(--accent);font-size:1.06rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
+.badge{font-family:'Optima',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.12rem .5rem;border-radius:20px;background:var(--gold);color:#1a1410;}
+.chevron{color:var(--muted);transition:transform .2s;flex-shrink:0;}.card.active .chevron{transform:rotate(180deg);}
+.card-body{max-height:0;overflow:hidden;transition:max-height .3s ease;}.card.active .card-body{max-height:640px;}.card-inner{padding:0 1rem 1rem;}
+.row{margin:.42rem 0;font-size:.95rem;display:flex;gap:.55rem;align-items:baseline;}
+.tag{font-family:'Optima',sans-serif;font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;font-weight:700;color:#fff;border-radius:5px;padding:.12rem .45rem;white-space:nowrap;flex-shrink:0;}
+.pair .tag{background:transparent!important;color:var(--gold);border:1px solid var(--gold);}
+.byline{text-align:center;color:var(--muted);font-size:.78rem;margin-top:1.6rem;font-family:'Optima',sans-serif;}.license{text-align:center;color:var(--muted);font-size:.7rem;margin-top:.3rem;font-family:'Optima',sans-serif;}
+.foldhint{text-align:center;margin-top:1rem;font-family:'Optima',sans-serif;font-size:.82rem;color:var(--muted);}.foldhint b{color:var(--accent);}
+.printsheet{display:none;}
+@media print{@page{size:letter landscape;margin:0;}.topctl,.screen{display:none!important;}body{background:#fff;color:#000;}
+.printsheet{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);width:11in;height:8.5in;}
+.panel{border:1px dashed #bbb;padding:.16in .18in;overflow:hidden;position:relative;font-size:7pt;line-height:1.26;color:#1a1a1a;}
+.p1{grid-column:4;grid-row:2}.p2{grid-column:3;grid-row:2}.p3{grid-column:2;grid-row:2}.p4{grid-column:1;grid-row:2}
+.p5{grid-column:1;grid-row:1;transform:rotate(180deg)}.p6{grid-column:2;grid-row:1;transform:rotate(180deg)}.p7{grid-column:3;grid-row:1;transform:rotate(180deg)}.p8{grid-column:4;grid-row:1;transform:rotate(180deg)}
+.panel h4{font-family:'Optima',sans-serif;font-size:8pt;color:#7b2035;margin:.02in 0 .05in;border-bottom:.5pt solid #ddd;padding-bottom:.02in;}
+.pc{margin:.05in 0;break-inside:avoid;}.pc .pn{font-family:'Optima',sans-serif;font-weight:700;font-size:7.2pt;color:#5a3a18;}.pc .pl{color:#333;}
+.pcover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#7b2035;}.pcover .ct{font-family:'Optima',sans-serif;font-weight:700;font-size:15pt;}.pcover .ck{font-family:'Optima',sans-serif;font-size:6pt;letter-spacing:.16em;text-transform:uppercase;color:#a87f3d;}
+.pback{font-size:6.6pt;color:#444;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}.pback .wt{font-family:'Optima',sans-serif;font-weight:700;font-size:9pt;color:#7b2035;margin-bottom:.06in;}}
+
+#searchWrap{display:flex;align-items:center;gap:.4rem;padding:.5rem .75rem .25rem;position:sticky;top:0;z-index:10;background:var(--bg,#fff8ec);}
+#searchInput{flex:1;padding:.45rem .7rem;border:1px solid var(--line,#c8b89a);border-radius:8px;font-size:.88rem;background:var(--card,#fff);color:var(--text,#2a1a0e);outline:none;font-family:inherit;}
+#searchInput:focus{border-color:var(--accent,#7b2035);}
+#searchClear{background:none;border:none;cursor:pointer;font-size:1rem;color:var(--muted,#8a7a6a);padding:0 .2rem;display:none;}
+.no-results{text-align:center;color:var(--muted,#8a7a6a);padding:1.5rem;font-size:.9rem;display:none;}
+
+.card[data-slug]{cursor:default;}
+.card.spinnable{cursor:pointer;transition:transform .12s ease,box-shadow .12s ease;}
+.card.spinnable:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(123,32,53,.25);}
+.card.spinnable .card-title::after{content:" ↻";opacity:.45;font-size:.8em;}
+</style></head><body data-theme="light">
+<div class="topctl"><button id="langBtn" title="English / Español">ES</button><button id="themeBtn" class="big" title="Light / Dark">☾</button><button id="printBtn" class="print" title="Print fold-up pocket card">⎙ Print fold-up</button></div>
+<div id="searchWrap"><input id="searchInput" type="search" placeholder="Search cards…" autocomplete="off"><button id="searchClear" title="Clear">✕</button></div>
+<div class="screen"><div class="head"><div class="kicker">LearnSomm · Cheat Sheet</div><div class="title" id="docTitle">Cordials & Liqueurs</div><div class="sub" id="docSub">Styles & uses — pocket reference</div></div><div id="sections"></div>
+<div class="foldhint" id="foldHint"></div><div class="byline" id="byline">Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com</div><div class="license">Licensed to {{USER_EMAIL}}</div></div>
+<div class="printsheet" id="printsheet"></div>
+<script>
+const TC={"Includes":"#7a6a55","Best For":"#7a5a2a","Pairing Logic":"#7a5a2a","Use It For":"#7a5a2a","Tasting Cue":"#7a5a2a"};
+const DATA = {"sections": [{"label": null, "cards": [{"title": "Orange & Citrus Liqueurs", "title_es": "Licores De Naranja Y Cítricos", "badge": "6", "badge_es": "6", "color": "#e08a1e", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Cointreau, Grand Marnier, Triple Sec, Blue Curaçao, Limoncello, Grapefruit Liqueur", "text_es": "Cointreau, Grand Marnier, Triple Sec, Curaçao Azul, Limoncello, Licor de Pomelo", "color": "#e08a1e"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "The backbone of countless classic cocktails — Margaritas, Sidecars, and more.", "text_es": "La base de innumerables cócteles clásicos — Margaritas, Sidecars y más."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Curaçao began on a dry Caribbean island where transplanted Spanish orange trees turned bitter and inedible — but the fragrant peel became the base of the world's orange liqueurs.", "text_es": "El curaçao nació en una seca isla caribeña donde los naranjos españoles trasplantados se volvieron amargos e incomibles — pero su cáscara fragante se hizo la base de los licores de naranja del mundo.", "pair": true}]}, {"title": "Berry & Red-Fruit Liqueurs", "title_es": "Licores De Bayas Y Fruta Roja", "badge": "5", "badge_es": "5", "color": "#a8324e", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Chambord, Crème de Cassis, Crème de Framboise, Maraschino, Sloe Gin", "text_es": "Chambord, Crème de Cassis, Crème de Framboise, Maraschino, Sloe Gin", "color": "#a8324e"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Add color and fruity depth to cocktails, or drizzle over desserts.", "text_es": "Añaden color y profundidad afrutada a los cócteles, o se usan sobre postres."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Maraschino is made from sour Marasca cherries crushed whole — pits and all — which is exactly where its faintly bitter, almond-like edge comes from.", "text_es": "El maraschino se hace de cerezas Marasca ácidas trituradas enteras — con huesos y todo — y de ahí viene justo su borde levemente amargo, parecido a la almendra.", "pair": true}]}, {"title": "Orchard & Tropical Liqueurs", "title_es": "Licores De Huerto Y Tropicales", "badge": "5", "badge_es": "5", "color": "#d9a520", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Apricot Liqueur, Peach Schnapps, Crème de Banane, Midori (Melon), Pomegranate Liqueur", "text_es": "Licor de Albaricoque, Schnapps de Durazno, Crème de Banane, Midori (Melón), Licor de Granada", "color": "#d9a520"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Bring fruit-forward sweetness to tiki drinks, sours, and simple highballs.", "text_es": "Aportan dulzura afrutada a tragos tiki, sours y highballs simples."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Midori means 'green' in Japanese, and the electric color is the whole point — it launched at a Studio 54 party in 1978 to fuel disco-era cocktails.", "text_es": "Midori significa 'verde' en japonés, y el color eléctrico es toda la idea — se lanzó en una fiesta de Studio 54 en 1978 para alimentar los cócteles de la era disco.", "pair": true}]}, {"title": "Bitter Aperitifs & Amari", "title_es": "Aperitivos Amargos Y Amari", "badge": "6", "badge_es": "6", "color": "#c0392b", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Aperol, Campari, Cynar, Fernet-Branca, Amaro Montenegro, Suze", "text_es": "Aperol, Campari, Cynar, Fernet-Branca, Amaro Montenegro, Suze", "color": "#c0392b"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Sip on their own before dinner, or use to add bitter complexity to cocktails.", "text_es": "Se toman solos antes de la cena, o se usan para añadir complejidad amarga a los cócteles."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Campari got its signature red from carmine dye made of crushed cochineal insects for over a century, until the brand finally switched to an artificial colorant.", "text_es": "El Campari obtuvo su rojo característico de un tinte de carmín hecho con cochinillas trituradas durante más de un siglo, hasta que la marca cambió a un colorante artificial.", "pair": true}]}, {"title": "Herbal, Monastic & Anise", "title_es": "Herbales, Monásticos Y De Anís", "badge": "6", "badge_es": "6", "color": "#5a7d3a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Chartreuse, Bénédictine, Jägermeister, Drambuie, Sambuca, Pastis", "text_es": "Chartreuse, Bénédictine, Jägermeister, Drambuie, Sambuca, Pastis", "color": "#5a7d3a"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Complex, herb-driven liqueurs — sip neat, use as a modifier, or finish a cocktail with a float.", "text_es": "Licores complejos a base de hierbas — se toman solos, como modificador, o como toque final de un cóctel."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Only two Carthusian monks at a time know the full recipe for Chartreuse — a blend of 130 herbs — and they're famously not allowed to travel together.", "text_es": "Solo dos monjes cartujos a la vez conocen la receta completa del Chartreuse — una mezcla de 130 hierbas — y, célebremente, no pueden viajar juntos.", "pair": true}]}, {"title": "Floral & Mint Liqueurs", "title_es": "Licores Florales Y De Menta", "badge": "4", "badge_es": "4", "color": "#7a5aa8", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "St-Germain (Elderflower), Crème de Violette, Crème de Menthe, Crème de Rose", "text_es": "St-Germain (Saúco), Crème de Violette, Crème de Menthe, Crème de Rose", "color": "#7a5aa8"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Small amounts add aromatic lift to cocktails without overwhelming the base spirit.", "text_es": "Pequeñas cantidades aportan un toque aromático a los cócteles sin dominar el licor base."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "St-Germain is pressed from elderflowers picked by hand in the French Alps each spring — and in the early days the blossoms were carried down the mountain on bicycles.", "text_es": "El St-Germain se prensa de flores de saúco recogidas a mano en los Alpes franceses cada primavera — y al principio las flores bajaban de la montaña en bicicleta.", "pair": true}]}, {"title": "Nutty & Spice Liqueurs", "title_es": "Licores De Frutos Secos Y Especias", "badge": "6", "badge_es": "6", "color": "#9a6a3a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Amaretto, Frangelico, Nocino, Crème de Noyaux, Fireball, Allspice Dram", "text_es": "Amaretto, Frangelico, Nocino, Crème de Noyaux, Fireball, Allspice Dram", "color": "#9a6a3a"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Add warmth and richness to dessert cocktails, coffee drinks, and baking.", "text_es": "Añaden calidez y riqueza a cócteles de postre, bebidas de café y repostería."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Amaretto often tastes of almond without containing a single nut — the flavor comes from apricot kernels, whose pits share the same aromatic compound as almonds.", "text_es": "El amaretto a menudo sabe a almendra sin contener un solo fruto seco — el sabor viene de los huesos de albaricoque, que comparten el mismo compuesto aromático que la almendra.", "pair": true}]}, {"title": "Coffee, Chocolate & Cream", "title_es": "Café, Chocolate Y Crema", "badge": "6", "badge_es": "6", "color": "#5a3a2a", "rows": [{"tag": "Includes", "tag_es": "Incluye", "text": "Kahlúa, Tia Maria, Espresso Liqueur, Crème de Cacao, Baileys Irish Cream, Advocaat", "text_es": "Kahlúa, Tía María, Licor de Espresso, Crème de Cacao, Baileys Irish Cream, Advocaat", "color": "#5a3a2a"}, {"tag": "Use It In", "tag_es": "Úsalo En", "text": "Dessert in a glass — shake into cream-based cocktails or pour over ice cream.", "text_es": "Postre en un vaso — agítalos en cócteles cremosos o sírvelos sobre helado."}, {"tag": "Fun Fact", "tag_es": "Dato Curioso", "text": "Baileys had to invent a way to stop cream and whiskey from separating — once they cracked that emulsion in 1974, the entire cream-liqueur category was born.", "text_es": "Baileys tuvo que inventar cómo evitar que la nata y el whiskey se separaran — cuando lograron esa emulsión en 1974, nació toda la categoría de licores de crema.", "pair": true}]}]}]};
+const UI={"en":{"sub":"Styles & uses — pocket reference","use":"How to use","useText":"Tap a card to see what's in each category, how to use it, and a fun fact. The full Cordials & Liqueurs Wheel (cordials-liqueurs-wheel.html) has detailed notes for every individual item.","wheel":"The Wheel","scan":"Companion wheel file","cover":"Pocket guide","fold":"<b>Tip:</b> hit <b>Print fold-up</b> for a one-page pocket card — print one side, fold into eighths, one short center cut, and it becomes a little booklet.","byline":"Curated by Mark Lenington · Certified Sommelier · © 2026 LearnSomm.com"},"es":{"sub":"Estilos y usos — referencia de bolsillo","use":"Cómo usarla","useText":"Toca una tarjeta para ver qué incluye cada categoría, cómo usarla y un dato curioso. La Rueda de Cordiales y Licores completa (cordials-liqueurs-wheel.html) tiene notas detalladas de cada elemento.","wheel":"La Rueda","scan":"Archivo de la rueda complementaria","cover":"Guía de bolsillo","fold":"<b>Tip:</b> pulsa <b>Imprimir plegable</b> para una tarjeta de bolsillo — imprime un lado, dobla en octavos, un corte corto al centro y se vuelve un folletito.","byline":"Creado por Mark Lenington · Sommelier Certificado · © 2026 LearnSomm.com"}};
+const TITLE_EN="Cordials & Liqueurs";const TITLE_ES="Cordiales y Licores";
+const $=id=>document.getElementById(id);let lang="en";
+function tc(t){return TC[t]||"#7a6a55";}
+function L(o,k){return lang==="es"&&o[k+"_es"]!=null?o[k+"_es"]:o[k];}
+function rowHTML(r){const pc=r.pair?" pair":"";const tag=lang==="es"?(r.tag_es||r.tag):r.tag;const txt=lang==="es"?(r.text_es||r.text):r.text;const st=r.pair?"":`style="background:${r.color||tc(r.tag)}"`;return `<div class="row${pc}"><span class="tag" ${st}>${tag}</span><span>${txt}</span></div>`;}
+function renderScreen(){const t=UI[lang];$("langBtn").textContent=lang==="es"?"EN":"ES";$("docTitle").textContent=lang==="es"?TITLE_ES:TITLE_EN;$("docSub").textContent=t.sub;$("foldHint").innerHTML=t.fold;$("byline").innerHTML=t.byline;
+$("sections").innerHTML=DATA.sections.map(s=>{const label=s.label?L(s,"label"):null;const cards=s.cards.map(c=>{const title=L(c,"title");const badge=c.badge?(lang==="es"?(c.badge_es||c.badge):c.badge):null;return `<div class="card" data-slug="${((c.slug)||L(c,'title')||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}" data-title="${title}"><div class="card-header"><span class="card-title">${title}${badge?`<span class="badge" style="background:${c.color||'var(--gold)'}">${badge}</span>`:""}</span><span class="chevron">\u25bc</span></div><div class="card-body"><div class="card-inner">${c.rows.map(rowHTML).join("")}</div></div></div>`;}).join("");return label?`<div class="section-label">${label}</div>${cards}`:cards;}).join("");
+$("sections").onclick=ev=>{const c=ev.target.closest(".card");if(c)c.classList.toggle("active");};}
+const FLAT=[];DATA.sections.forEach(s=>s.cards.forEach(c=>FLAT.push({sec:s,c})));
+function sizes(n){const b=Math.floor(n/5),r=n%5;return Array.from({length:5},(_,i)=>b+(i<r?1:0));}
+function pcard(f){const rows=f.c.rows.filter(r=>!r.pair).slice(0,2).map(r=>`<span class="pl">${lang==="es"?(r.text_es||r.text):r.text}</span>`).join("; ");return `<div class="pc"><span class="pn">${L(f.c,"title")}</span> — ${rows}</div>`;}
+function renderPrint(){const t=UI[lang];const sz=sizes(FLAT.length);const packs=[];let i=0;sz.forEach(s=>{packs.push(FLAT.slice(i,i+s));i+=s;});const TT=lang==="es"?TITLE_ES:TITLE_EN;
+function cp(arr,cls){let html="";arr.forEach(f=>{html+=pcard(f);});return `<div class="panel ${cls}"><h4>${TT}</h4>${html}</div>`;}
+const panels={1:`<div class="panel p1 pcover"><div class="ck">LearnSomm · Cheat Sheet</div><div class="ct">${TT}</div><div style="font-size:6pt;color:#a87f3d;margin-top:.05in">${t.cover}</div><div style="font-size:5.4pt;color:#888;margin-top:.5in">© 2026 LearnSomm.com</div></div>`,
+2:cp(packs[0],"p2"),3:cp(packs[1],"p3"),4:cp(packs[2],"p4"),5:cp(packs[3],"p5"),6:cp(packs[4],"p6"),
+7:`<div class="panel p7"><h4>${t.use}</h4><div class="pl">${t.useText}</div></div>`,
+8:`<div class="panel p8 pback"><div class="wt">${TT}</div><div>${t.scan}:</div><div style="font-family:'Optima',sans-serif;font-weight:700;margin:.05in 0">cordials-liqueurs-wheel.html</div><div style="margin-top:.15in;font-size:5.4pt;color:#888">{{USER_EMAIL}}<br>© 2026 LearnSomm.com</div></div>`};
+$("printsheet").innerHTML=[1,2,3,4,5,6,7,8].map(n=>panels[n]).join("");}
+function renderAll(){renderScreen();renderPrint();}
+$("langBtn").onclick=()=>{lang=lang==="es"?"en":"es";renderAll();};
+$("themeBtn").onclick=()=>{const dk=document.body.getAttribute("data-theme")==="dark";document.body.setAttribute("data-theme",dk?"light":"dark");$("themeBtn").textContent=dk?"\u263e":"\u2600";};
+$("printBtn").onclick=()=>window.print();renderAll();
+
+function initSearch(){
+  const inp=document.getElementById("searchInput");
+  const clr=document.getElementById("searchClear");
+  if(!inp)return;
+  function doFilter(){
+    const q=inp.value.trim().toLowerCase();
+    clr.style.display=q?"inline":"none";
+    const sect=document.getElementById("sections");
+    if(!sect)return;
+    let anyVisible=false;
+    sect.querySelectorAll(".card").forEach(card=>{
+      const txt=(card.textContent||"").toLowerCase();
+      const show=!q||txt.includes(q);
+      card.style.display=show?"":"none";
+      if(show)anyVisible=true;
+    });
+    sect.querySelectorAll(".section-label").forEach(lbl=>{
+      let next=lbl.nextElementSibling;let vis=false;
+      while(next&&!next.classList.contains("section-label")){
+        if(next.style.display!=="none")vis=true;
+        next=next.nextElementSibling;
+      }
+      lbl.style.display=vis?"":"none";
+    });
+    let nr=document.querySelector(".no-results");
+    if(!nr){nr=document.createElement("div");nr.className="no-results";nr.textContent="No cards match that search.";sect.after(nr);}
+    nr.style.display=anyVisible||!q?"none":"block";
+  }
+  inp.addEventListener("input",doFilter);
+  clr.addEventListener("click",()=>{inp.value="";clr.style.display="none";doFilter();inp.focus();});
+}
+
+initSearch();
+
+/* ── click-to-spin ── */
+(function(){
+  function norm(s){return (''+s).toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/^ | $/g,'');}
+  function send(key){if(!key)return;try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SPIN_TO',slug:key},'*');}}catch(e){}}
+  document.addEventListener('click',function(e){
+    var card=e.target.closest&&e.target.closest('.card[data-slug],.card[data-title]');
+    if(!card)return;
+    var slug=card.getAttribute('data-slug')||'';
+    var title=card.getAttribute('data-title')||'';
+    send(slug||title);
+    if(title&&title!==slug)send(title);
+  });
+  try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'LS_SHEET_READY'},'*');}}catch(e){}
+  window.addEventListener('message',function(e){
+    var d=e.data;if(!d||d.type!=='LS_WHEEL_NAMES')return;
+    var names=d.names||{};
+    document.querySelectorAll('.card[data-slug],.card[data-title]').forEach(function(card){
+      var s=card.getAttribute('data-slug')||'';
+      var t=norm(card.getAttribute('data-title')||'');
+      if((s&&names[s])||(t&&names[t])){card.classList.add('spinnable');card.style.cursor='pointer';}
+    });
+  });
+})();
+/* data-spin-wired */
+
+</script><script id="lsNoRightClick">
+(function(){
+  document.addEventListener('contextmenu',function(e){ e.preventDefault(); return false; },{capture:true});
+  // also discourage drag-saving of images
+  document.addEventListener('dragstart',function(e){ if(e.target&&e.target.tagName==='IMG'){ e.preventDefault(); } },{capture:true});
+})();
+</script>
+<script id="lsFontApply">
+(function(){ window.addEventListener('message',function(e){ var d=e.data; if(d&&d.type==='LS_CMD'&&d.cmd==='fontStack'&&d.value){ try{ ['--ui','--app-font','--display','--serif','--sans','--mono','--font','--font-ui','--font-display','--bgecho-font'].forEach(function(v){try{document.documentElement.style.setProperty(v,d.value);}catch(_){}}); try{document.body.style.fontFamily=d.value;}catch(_){}}catch(err){} } }); })();
+</script>
+</body></html>
