@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LearnSomm · Other Meats Cheat Sheet</title>
+<style>
+:root{--bg:#faf8f3;--panel:#fffdf7;--ink:#2b2118;--muted:#8a7c66;--line:#e2dacb;--line2:#c9bfa6;--garnet:#6E1B2E;--gold:#C49A4A;--ui:'Jost',system-ui,sans-serif;--serif:'Cormorant Garamond',Georgia,serif;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:var(--ui);background:var(--bg);color:var(--ink);}
+button,input,select,textarea,.card,.ct,.cn,.gcard,.ghead,#tierBar,.viewseg{font-family:var(--ui)!important;}
+.wrap{max-width:1100px;margin:0 auto;padding:14px 14px 60px;}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;padding:.4rem 0 .8rem;}
+h1{font-family:var(--serif);font-size:1.5rem;margin:0;font-weight:600;}
+.sub{color:var(--muted);font-size:.82rem;}
+#tierBar{display:inline-flex;align-items:center;gap:.4rem;background:var(--panel);border:1px solid var(--line2);border-radius:20px;padding:.32rem .5rem;}
+#tierBar .tl{font-size:.62rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);padding:0 .3rem;}
+#tierBar button{border:1px solid var(--line2);background:var(--bg);color:var(--ink);border-radius:14px;padding:.3rem .7rem;font-family:var(--ui);font-size:.8rem;cursor:pointer;}
+#tierBar button.active{background:var(--garnet);color:#fff;border-color:var(--garnet);}
+.viewseg{display:inline-flex;border:1px solid var(--line2);border-radius:14px;overflow:hidden;}
+.viewseg button{border:none;background:transparent;color:var(--ink);font-size:.78rem;padding:.3rem .7rem;cursor:pointer;font-family:var(--ui);}
+.viewseg button.active{background:var(--gold);color:#3a2a20;}
+#search{flex:1 1 200px;min-width:160px;}
+#search input{width:100%;padding:.5rem .7rem;border:1px solid var(--line2);border-radius:10px;font-family:var(--ui);font-size:.9rem;background:var(--panel);color:var(--ink);}
+.grid{column-width:250px;column-gap:14px;}
+.gcard{display:inline-block;width:100%;break-inside:avoid;margin:0 0 14px;background:var(--panel);border:1.5px solid var(--g);border-top:5px solid var(--g);border-radius:10px;padding:.6rem .7rem;box-shadow:0 1px 3px rgba(0,0,0,.07);}
+.ghead{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g);margin:0 0 .5rem;}
+.card{display:block;width:100%;text-align:left;border:1px solid color-mix(in srgb,var(--g) 35%,transparent);border-left:3px solid var(--g);background:color-mix(in srgb,var(--g) 8%,var(--bg));border-radius:7px;padding:.45rem .55rem;margin:0 0 .35rem;cursor:pointer;}
+.card:hover{background:color-mix(in srgb,var(--g) 18%,var(--bg));}
+.card .ct{font-weight:600;font-size:.9rem;}
+.card .cn{font-size:.8rem;color:var(--muted);margin-top:.15rem;line-height:1.35;}
+.card .badge{float:right;font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line2);border-radius:8px;padding:.05rem .35rem;}
+.card.spinnable .ct::after{content:' ↻';color:var(--gold);font-size:.8rem;}
+.empty{color:var(--muted);font-style:italic;padding:1rem;}
+#tierNote{font-size:.8rem;color:var(--muted);margin:.2rem 0 .8rem;}
+</style></head>
+<body><div class="wrap">
+<div class="top">
+  <div><h1>Other Meats</h1><div class="sub">Dishes, sauces & techniques · the all-in-one Italian cuisine reference</div></div>
+  <div id="tierBar"><span class="tl">Tier</span>
+    <button data-tier="1">Intro</button>
+    <button data-tier="2" class="active">Next Level</button>
+    <button data-tier="3">Master</button>
+  </div>
+  <div class="viewseg"><button data-view="all" class="active">All</button><button data-view="type">Types</button><button data-view="aroma">Aromas</button></div>
+  <div id="search"><input id="q" type="search" placeholder="Search styles, terms, aromas…" autocomplete="off"></div>
+</div>
+<div id="tierNote"></div>
+<div class="grid" id="grid"></div>
+</div>
+<script>
+var CARDS=[{"name": "Pork Loin", "tier": 1, "group": "Pork — Cuts", "note": "Lean cut from the back; chops and roasts. Easy to overcook.", "wheel": "type", "color": "#e0a3a8", "slug": "pork-loin"}, {"name": "Pork Belly", "tier": 1, "group": "Pork — Cuts", "note": "Fatty underside; bacon, braises, and crisp-skin roasts.", "wheel": "type", "color": "#e0a3a8", "slug": "pork-belly"}, {"name": "Pork Shoulder", "tier": 1, "group": "Pork — Cuts", "note": "Butt/Boston butt; collagen-rich, ideal for slow pulled pork.", "wheel": "type", "color": "#e0a3a8", "slug": "pork-shoulder"}, {"name": "Pork Tenderloin", "tier": 2, "group": "Pork — Cuts", "note": "The leanest, most tender muscle; quick-cooking.", "wheel": "type", "color": "#e0a3a8", "slug": "pork-tenderloin"}, {"name": "Spare Ribs", "tier": 2, "group": "Pork — Cuts", "note": "From the belly side of the ribs; meatier, fattier than baby back.", "wheel": "type", "color": "#e0a3a8", "slug": "spare-ribs"}, {"name": "Baby Back Ribs", "tier": 2, "group": "Pork — Cuts", "note": "From the loin near the spine; leaner, more curved, tender.", "wheel": "type", "color": "#e0a3a8", "slug": "baby-back-ribs"}, {"name": "Ham (Fresh)", "tier": 3, "group": "Pork — Cuts", "note": "The hind leg, uncured; roasted as fresh ham.", "wheel": "type", "color": "#e0a3a8", "slug": "ham-fresh"}, {"name": "Pork Hock", "tier": 3, "group": "Pork — Cuts", "note": "Joint above the trotter; gelatinous, for braises and stock.", "wheel": "type", "color": "#e0a3a8", "slug": "pork-hock"}, {"name": "Rack of Lamb", "tier": 1, "group": "Lamb & Mutton", "note": "Rib section; the elegant Frenched roast, quick to cook.", "wheel": "type", "color": "#c97f6d", "slug": "rack-of-lamb"}, {"name": "Leg of Lamb", "tier": 1, "group": "Lamb & Mutton", "note": "Large hind cut; roasted bone-in or butterflied.", "wheel": "type", "color": "#c97f6d", "slug": "leg-of-lamb"}, {"name": "Lamb Loin Chop", "tier": 2, "group": "Lamb & Mutton", "note": "Tender mini T-bones from the loin.", "wheel": "type", "color": "#c97f6d", "slug": "lamb-loin-chop"}, {"name": "Lamb Shoulder", "tier": 2, "group": "Lamb & Mutton", "note": "Fattier, flavorful; braises and slow roasts.", "wheel": "type", "color": "#c97f6d", "slug": "lamb-shoulder"}, {"name": "Lamb Shank", "tier": 2, "group": "Lamb & Mutton", "note": "Lower leg; collagen-rich, braised until falling off the bone.", "wheel": "type", "color": "#c97f6d", "slug": "lamb-shank"}, {"name": "Mutton", "tier": 3, "group": "Lamb & Mutton", "note": "Meat from sheep over two years; stronger, gamier flavor.", "wheel": "type", "color": "#c97f6d", "slug": "mutton"}, {"name": "Lamb Neck", "tier": 3, "group": "Lamb & Mutton", "note": "Hard-working, tough cut prized for stews and ragù.", "wheel": "type", "color": "#c97f6d", "slug": "lamb-neck"}, {"name": "Chicken Breast", "tier": 1, "group": "Poultry — Chicken", "note": "Lean white meat; dries out fast, cook to 74°C/165°F.", "wheel": "type", "color": "#e8c87a", "slug": "chicken-breast"}, {"name": "Chicken Thigh", "tier": 1, "group": "Poultry — Chicken", "note": "Dark, forgiving, flavorful; the cook's favorite.", "wheel": "type", "color": "#e8c87a", "slug": "chicken-thigh"}, {"name": "Whole Chicken", "tier": 1, "group": "Poultry — Chicken", "note": "Roasted or spatchcocked; the Sunday centerpiece.", "wheel": "type", "color": "#e8c87a", "slug": "whole-chicken"}, {"name": "Chicken Wing", "tier": 2, "group": "Poultry — Chicken", "note": "Drumette + flat; fried, roasted, or braised.", "wheel": "type", "color": "#e8c87a", "slug": "chicken-wing"}, {"name": "Chicken Drumstick", "tier": 2, "group": "Poultry — Chicken", "note": "Lower leg, dark meat; cheap and juicy.", "wheel": "type", "color": "#e8c87a", "slug": "chicken-drumstick"}, {"name": "Chicken Liver", "tier": 3, "group": "Poultry — Chicken", "note": "Offal; pâté, parfait, and seared dishes.", "wheel": "type", "color": "#e8c87a", "slug": "chicken-liver"}, {"name": "Turkey", "tier": 1, "group": "Poultry — Other Birds", "note": "Large bird; lean breast vs richer leg, the holiday roast.", "wheel": "type", "color": "#d8b25a", "slug": "turkey"}, {"name": "Duck Breast", "tier": 1, "group": "Poultry — Other Birds", "note": "Rich, fatty-skinned; seared rare to medium (magret).", "wheel": "type", "color": "#d8b25a", "slug": "duck-breast"}, {"name": "Duck Leg", "tier": 2, "group": "Poultry — Other Birds", "note": "Tougher dark meat; the classic confit cut.", "wheel": "type", "color": "#d8b25a", "slug": "duck-leg"}, {"name": "Goose", "tier": 2, "group": "Poultry — Other Birds", "note": "Dark, very fatty bird; festive roast, rendered fat prized.", "wheel": "type", "color": "#d8b25a", "slug": "goose"}, {"name": "Quail", "tier": 3, "group": "Poultry — Other Birds", "note": "Tiny, delicate bird; quick-roasted or grilled.", "wheel": "type", "color": "#d8b25a", "slug": "quail"}, {"name": "Squab", "tier": 3, "group": "Poultry — Other Birds", "note": "Young domestic pigeon; tender, dark, served pink.", "wheel": "type", "color": "#d8b25a", "slug": "squab"}, {"name": "Guinea Fowl", "tier": 3, "group": "Poultry — Other Birds", "note": "Leaner, gamier than chicken; roasted whole.", "wheel": "type", "color": "#d8b25a", "slug": "guinea-fowl"}, {"name": "Venison", "tier": 1, "group": "Game — Furred", "note": "Deer; very lean, dark, mineral; cook rare to avoid drying.", "wheel": "type", "color": "#8a5a3c", "slug": "venison"}, {"name": "Rabbit", "tier": 2, "group": "Game — Furred", "note": "Lean white meat; braised or roasted, mild.", "wheel": "type", "color": "#8a5a3c", "slug": "rabbit"}, {"name": "Wild Boar", "tier": 2, "group": "Game — Furred", "note": "Leaner, gamier pork relative; braises well.", "wheel": "type", "color": "#8a5a3c", "slug": "wild-boar"}, {"name": "Hare", "tier": 3, "group": "Game — Furred", "note": "Darker, richer than rabbit; classic in jugged stews.", "wheel": "type", "color": "#8a5a3c", "slug": "hare"}, {"name": "Bison", "tier": 2, "group": "Game — Furred", "note": "Lean, sweet, beef-like; cook gently, low fat.", "wheel": "type", "color": "#8a5a3c", "slug": "bison"}, {"name": "Elk", "tier": 3, "group": "Game — Furred", "note": "Very lean large game; mild, tender when not overcooked.", "wheel": "type", "color": "#8a5a3c", "slug": "elk"}, {"name": "Pheasant", "tier": 2, "group": "Game — Feathered", "note": "Lean game bird; prone to drying, often barded or braised.", "wheel": "type", "color": "#9c7b4a", "slug": "pheasant"}, {"name": "Partridge", "tier": 3, "group": "Game — Feathered", "note": "Small game bird; delicate, roasted quickly.", "wheel": "type", "color": "#9c7b4a", "slug": "partridge"}, {"name": "Grouse", "tier": 3, "group": "Game — Feathered", "note": "Strong, heathery wild flavor; the prized British game bird.", "wheel": "type", "color": "#9c7b4a", "slug": "grouse"}, {"name": "Wild Duck", "tier": 3, "group": "Game — Feathered", "note": "Leaner, gamier than farmed; mallard, teal, widgeon.", "wheel": "type", "color": "#9c7b4a", "slug": "wild-duck"}, {"name": "Woodcock", "tier": 3, "group": "Game — Feathered", "note": "Tiny, intensely flavored wader; traditional roasted whole.", "wheel": "type", "color": "#9c7b4a", "slug": "woodcock"}, {"name": "Veal Chop", "tier": 1, "group": "Veal & Offal", "note": "Young calf; pale, tender, mild; loin or rib chop.", "wheel": "type", "color": "#cdb79a", "slug": "veal-chop"}, {"name": "Veal Shank", "tier": 2, "group": "Veal & Offal", "note": "Cross-cut shank for osso buco; marrow and gelatin.", "wheel": "type", "color": "#cdb79a", "slug": "veal-shank"}, {"name": "Sweetbreads", "tier": 2, "group": "Veal & Offal", "note": "Thymus/pancreas offal; creamy, delicate, prized.", "wheel": "type", "color": "#cdb79a", "slug": "sweetbreads"}, {"name": "Liver", "tier": 2, "group": "Veal & Offal", "note": "Calf or pork liver; iron-rich, seared or for pâté.", "wheel": "type", "color": "#cdb79a", "slug": "liver"}, {"name": "Kidney", "tier": 3, "group": "Veal & Offal", "note": "Offal with mineral tang; steak-and-kidney, devilled.", "wheel": "type", "color": "#cdb79a", "slug": "kidney"}, {"name": "Tripe", "tier": 3, "group": "Veal & Offal", "note": "Stomach lining; long-cooked in menudo, trippa, pho.", "wheel": "type", "color": "#cdb79a", "slug": "tripe"}, {"name": "Tongue", "tier": 3, "group": "Veal & Offal", "note": "Braised then peeled; tender, rich; tacos de lengua.", "wheel": "type", "color": "#cdb79a", "slug": "tongue"}, {"name": "Oxtail", "tier": 3, "group": "Veal & Offal", "note": "Gelatin-rich tail (often beef but classic cross-cut); deep braises.", "wheel": "type", "color": "#cdb79a", "slug": "oxtail"}, {"name": "Sausage", "tier": 1, "group": "Processed & Technique", "note": "Ground seasoned meat in casing; fresh, smoked, or cured.", "wheel": "type", "color": "#b08968", "slug": "sausage"}, {"name": "Bacon", "tier": 1, "group": "Processed & Technique", "note": "Cured, often smoked pork belly or back.", "wheel": "type", "color": "#b08968", "slug": "bacon"}, {"name": "Prosciutto", "tier": 2, "group": "Processed & Technique", "note": "Dry-cured ham, sliced paper-thin; Parma, San Daniele.", "wheel": "type", "color": "#b08968", "slug": "prosciutto"}, {"name": "Pancetta", "tier": 2, "group": "Processed & Technique", "note": "Salt-cured pork belly; Italian, unsmoked, for cooking.", "wheel": "type", "color": "#b08968", "slug": "pancetta"}, {"name": "Confit", "tier": 2, "group": "Processed & Technique", "note": "Slow-cooked and preserved in fat; classic for duck.", "wheel": "type", "color": "#b08968", "slug": "confit"}, {"name": "Brining", "tier": 2, "group": "Processed & Technique", "note": "Salt-water soak for moisture and seasoning, esp. poultry/pork.", "wheel": "type", "color": "#b08968", "slug": "brining"}, {"name": "Curing", "tier": 3, "group": "Processed & Technique", "note": "Preserving with salt/nitrite; the basis of charcuterie.", "wheel": "type", "color": "#b08968", "slug": "curing"}, {"name": "Rillettes", "tier": 3, "group": "Processed & Technique", "note": "Meat slow-cooked and shredded into a spreadable potted form.", "wheel": "type", "color": "#b08968", "slug": "rillettes-om"}];
+var TIER=2, VIEW='all', Q='';
+var TIERNAME={1:'Intro',2:'Next Level',3:'Master'};
+function visible(c){
+  if(c.tier>TIER) return false;
+  if(VIEW!=='all' && c.wheel!==VIEW) return false;
+  if(Q){ var s=(c.name+' '+c.group+' '+c.note).toLowerCase(); if(s.indexOf(Q)<0) return false; }
+  return true;
+}
+function slugify(s){ return s.toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+function render(){
+  var grid=document.getElementById('grid'); grid.innerHTML='';
+  // group visible cards by group
+  var groups={};
+  CARDS.filter(visible).forEach(function(c){ (groups[c.group]=groups[c.group]||[]).push(c); });
+  // Aromas & tasting notes always come first, then the other (type/style/service) groups.
+  var order=Object.keys(groups).sort(function(a,b){
+    var aw=(groups[a][0].wheel==='aroma')?0:1, bw=(groups[b][0].wheel==='aroma')?0:1;
+    return aw-bw; // stable-ish: aroma groups (0) before type groups (1)
+  });
+  if(!order.length){ grid.innerHTML='<div class="empty">Nothing at this tier/filter.</div>'; updateNote(0); return; }
+  var shown=0;
+  order.forEach(function(g){
+    var color=groups[g][0].color;
+    var block=document.createElement('div'); block.className='gcard'; block.style.setProperty('--g',color);
+    var head=document.createElement('div'); head.className='ghead'; head.textContent=g; block.appendChild(head);
+    groups[g].forEach(function(c){
+      shown++;
+      var card=document.createElement('button'); card.type='button'; card.className='card';
+      card.style.setProperty('--g',color);
+      card.setAttribute('data-title', c.name); card.setAttribute('data-slug', slugify(c.name)); if(c.slug)card.setAttribute('data-wheelslug', c.slug);
+      // per-card tier label removed — the tier toggle already conveys this
+      card.innerHTML='<div class="ct">'+c.name+'</div><div class="cn">'+c.note+'</div>';
+      block.appendChild(card);
+    });
+    grid.appendChild(block);
+  });
+  updateNote(shown);
+  applyWheelNames();
+}
+function updateNote(n){
+  var locked=CARDS.filter(function(c){return c.tier>TIER;}).length;
+  var t=document.getElementById('tierNote');
+  t.textContent=TIERNAME[TIER]+' view · '+n+' entries shown'+(locked? ' · '+locked+' more unlock at higher tiers':'');
+}
+// tier + view + search wiring
+document.querySelectorAll('#tierBar button').forEach(function(b){ b.addEventListener('click',function(){
+  document.querySelectorAll('#tierBar button').forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+  TIER=parseInt(b.getAttribute('data-tier')); render();
+}); });
+document.querySelectorAll('.viewseg button').forEach(function(b){ b.addEventListener('click',function(){
+  document.querySelectorAll('.viewseg button').forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+  VIEW=b.getAttribute('data-view'); render();
+}); });
+document.getElementById('q').addEventListener('input',function(e){ Q=e.target.value.trim().toLowerCase(); render(); });
+
+// ---- click-to-spin: tell the parent wheel to spin to this term (by NAME; wheel resolves) ----
+function postSpin(name){ try{ if(window.parent&&window.parent!==window){ window.parent.postMessage({type:'LS_SPIN_TO',slug:name},'*'); } }catch(e){} }
+document.addEventListener('click',function(e){
+  var card=e.target.closest&&e.target.closest('.card');
+  if(card){ postSpin(card.getAttribute('data-wheelslug')||card.getAttribute('data-title')); }
+});
+// announce ready; receive wheel names to mark spinnable + resolve
+try{ if(window.parent&&window.parent!==window){ window.parent.postMessage({type:'LS_SHEET_READY'},'*'); } }catch(e){}
+var WHEEL_NAMES={};
+window.addEventListener('message',function(e){ var d=e.data; if(!d)return;
+  if(d.type==='LS_WHEEL_NAMES'){ WHEEL_NAMES=d.names||{}; applyWheelNames(); }
+  if(d.type==='LS_CMD' && d.cmd==='tier'){ var bt=document.querySelector('#tierBar [data-tier="'+(d.value||2)+'"]'); if(bt)bt.click(); }
+});
+function applyWheelNames(){
+  document.querySelectorAll('.card').forEach(function(card){
+    var title=(card.getAttribute('data-title')||'').toLowerCase().trim();
+    var ws=null;
+    if(WHEEL_NAMES[title]) ws=WHEEL_NAMES[title];
+    else for(var nm in WHEEL_NAMES){ if(nm===title||(title&&(nm.indexOf(title)>=0||title.indexOf(nm)>=0))){ ws=WHEEL_NAMES[nm]; break; } }
+    if(ws){ card.setAttribute('data-wheelslug',ws); card.classList.add('spinnable'); }
+  });
+}
+render();
+</script><script id="lsFontApply">
+(function(){ window.addEventListener('message',function(e){ var d=e.data; if(d&&d.type==='LS_CMD'&&d.cmd==='fontStack'&&d.value){ try{ ['--ui','--app-font','--display','--serif','--sans','--mono','--font','--font-ui','--font-display','--bgecho-font'].forEach(function(v){try{document.documentElement.style.setProperty(v,d.value);}catch(_){}}); try{document.body.style.fontFamily=d.value;}catch(_){}}catch(err){} } }); })();
+</script>
+</body></html>
