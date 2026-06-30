@@ -1,0 +1,776 @@
+{
+ "title": "Film & Cinema Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "CAMERA & SHOTS"
+  },
+  {
+   "name": "Wide / Establishing Shot",
+   "slug": "wide-shot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shot that captures a broad view of a scene, often to 'establish' where the action takes place. Sets the stage and shows context."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The film opened on a wide establishing shot of the city skyline before cutting to the apartment."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a 'wide' view, and an 'establishing' one when it sets the location. The opening wide shot orients the audience before the story narrows in."
+    }
+   ],
+   "name_es": "Wide / Establishing Shot",
+   "name_fr": "Wide / Establishing Shot",
+   "name_it": "Wide / Establishing Shot"
+  },
+  {
+   "name": "Close-Up",
+   "slug": "close-up",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shot that fills the frame with a subject's face or a small detail, emphasizing emotion or importance. Intimate and revealing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The close-up on her trembling lip told the audience everything words couldn't."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the camera moves 'close up' to its subject. Pioneered in early cinema, the close-up gave film its uniquely intimate emotional power."
+    }
+   ],
+   "name_es": "Close-Up",
+   "name_fr": "Close-Up",
+   "name_it": "Close-Up"
+  },
+  {
+   "name": "Pan / Tilt",
+   "slug": "pan-tilt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Panning' swivels the camera horizontally (left-right); 'tilting' swivels it vertically (up-down). Both move the view while the camera stays fixed in place."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The camera panned across the crowd, then tilted up to reveal the towering statue."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Pan' is short for 'panorama' (a sweeping view); 'tilt' from the everyday sense of leaning. Two basic camera movements from a fixed position."
+    }
+   ],
+   "name_es": "Pan / Tilt",
+   "name_fr": "Pan / Tilt",
+   "name_it": "Pan / Tilt"
+  },
+  {
+   "name": "Dolly / Tracking",
+   "slug": "dolly",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Moving the entire camera through space, usually on a wheeled 'dolly' or track. A dolly or tracking shot follows or glides alongside the action."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A slow dolly pushed in toward the actor as the tension built."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the wheeled cart ('dolly') the camera rides on. Unlike a pan, the whole camera physically travels, creating immersive movement through a scene."
+    }
+   ],
+   "name_es": "Dolly / Tracking",
+   "name_fr": "Dolly / Tracking",
+   "name_it": "Dolly / Tracking"
+  },
+  {
+   "name": "Crane Shot",
+   "slug": "crane",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shot taken from a camera mounted on a large mechanical crane or jib, allowing sweeping vertical and aerial movements high above the action."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The film ended on a soaring crane shot rising up and away from the lovers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the construction crane it resembles. The towering, swooping movement it enables is often used for grand, emotional opening or closing shots."
+    }
+   ],
+   "name_es": "Crane Shot",
+   "name_fr": "Crane Shot",
+   "name_it": "Crane Shot"
+  },
+  {
+   "name": "POV Shot",
+   "slug": "pov",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Point-of-View shot — framed to show what a character is seeing, putting the audience directly in their eyes. Builds immersion and identification."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The POV shot through the keyhole made the audience feel like the one spying."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'point of view'. By showing exactly what a character sees, it collapses the distance between audience and character into a single gaze."
+    }
+   ],
+   "name_es": "POV Shot",
+   "name_fr": "POV Shot",
+   "name_it": "POV Shot"
+  },
+  {
+   "name": "Dutch Angle",
+   "slug": "dutch-angle",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shot where the camera is deliberately tilted off-level, creating a slanted, unsettling frame. Signals tension, unease, or disorientation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The Dutch angle on the villain's face made the whole scene feel wrong and tense."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Despite the name, it's from 'Deutsch' (German) — the technique was popularized by German Expressionist filmmakers of the 1920s to convey psychological disturbance."
+    }
+   ],
+   "name_es": "Dutch Angle",
+   "name_fr": "Dutch Angle",
+   "name_it": "Dutch Angle"
+  },
+  {
+   "name": "Depth of Field",
+   "slug": "depth-of-field",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How much of the image is in sharp focus from front to back. Shallow focus isolates a character; deep focus keeps everything sharp, layering the frame."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Shallow depth of field blurred the chaos behind the hero, locking the audience onto his face."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed directly from photography. In film it's a storytelling tool — directing the eye, or (in deep focus) letting the audience choose where to look."
+    }
+   ],
+   "name_es": "Depth of Field",
+   "name_fr": "Depth of Field",
+   "name_it": "Depth of Field"
+  },
+  {
+   "cat": "EDITING & POST"
+  },
+  {
+   "name": "Cut",
+   "slug": "cut",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The basic edit: an instant switch from one shot to another. The cut is the fundamental unit of film editing and pacing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A sharp cut from the gun to the falling body let the audience's mind fill the gap."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From physically 'cutting' and splicing film strips together. The simplest transition, yet the rhythm of cuts shapes a film's entire energy and pace."
+    }
+   ],
+   "name_es": "Cut",
+   "name_fr": "Cut",
+   "name_it": "Cut"
+  },
+  {
+   "name": "Montage",
+   "slug": "montage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sequence of short shots edited together to compress time or convey a lot of information quickly — like a training or falling-in-love sequence."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A montage showed the boxer's months of grueling training in ninety seconds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'assembling'. The technique of building meaning by juxtaposing shots was theorized by Soviet filmmakers and became a storytelling shorthand."
+    }
+   ],
+   "name_es": "Montage",
+   "name_fr": "Montage",
+   "name_it": "Montage"
+  },
+  {
+   "name": "Cross-Cutting",
+   "slug": "cross-cutting",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Editing that alternates between two or more scenes happening simultaneously in different places, building tension and connection between them."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Cross-cutting between the ticking bomb and the racing hero ratcheted up unbearable suspense."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Also called 'parallel editing'. By cutting back and forth, the film implies the events are happening at once, a classic engine of suspense."
+    }
+   ],
+   "name_es": "Cross-Cutting",
+   "name_fr": "Cross-Cutting",
+   "name_it": "Cross-Cutting"
+  },
+  {
+   "name": "Jump Cut",
+   "slug": "jump-cut",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An abrupt, jarring cut within a single continuous shot that breaks the smooth flow of time, often skipping forward. Can feel disorienting or stylish."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A series of jump-cuts showed her getting ready, time skipping forward in jarring leaps."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the way the image seems to 'jump'. Once considered an error, it was embraced as a bold stylistic device by the French New Wave."
+    }
+   ],
+   "name_es": "Jump Cut",
+   "name_fr": "Jump Cut",
+   "name_it": "Jump Cut"
+  },
+  {
+   "name": "Match Cut",
+   "slug": "match-cut",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A cut between two shots linked by a visual or thematic similarity — a shape, motion, or idea carrying across the edit. Elegant and meaningful."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The famous match-cut leapt from a spinning bone to a spaceship, millennia passing in an instant."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the two shots 'match' in composition or movement, making the cut feel seamless and significant rather than abrupt."
+    }
+   ],
+   "name_es": "Match Cut",
+   "name_fr": "Match Cut",
+   "name_it": "Match Cut"
+  },
+  {
+   "name": "Fade / Dissolve",
+   "slug": "fade-dissolve",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'fade' transitions to or from black; a 'dissolve' blends one shot into the next as they briefly overlap. Both signal a softer passage of time than a cut."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The scene dissolved gently into the next, suggesting hours had quietly passed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Fade' from the image fading out; 'dissolve' from one image dissolving into another. These gentle transitions traditionally signal time or place shifts."
+    }
+   ],
+   "name_es": "Fade / Dissolve",
+   "name_fr": "Fade / Dissolve",
+   "name_it": "Fade / Dissolve"
+  },
+  {
+   "name": "Continuity",
+   "slug": "continuity",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Consistency of details from shot to shot, so the world feels seamless — matching props, positions, and action across cuts. Errors break the illusion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A continuity error left the actor's glass full in one shot and empty in the next."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'continuous' — the goal that action flows continuously despite being filmed in pieces. A dedicated crew member tracks it to avoid jarring mismatches."
+    }
+   ],
+   "name_es": "Continuity",
+   "name_fr": "Continuity",
+   "name_it": "Continuity"
+  },
+  {
+   "name": "Color Grading",
+   "slug": "color-grading",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Adjusting and stylizing the colors of footage in post-production to set mood, ensure consistency, and create a distinctive look."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The film's cold blue color grading gave every scene a bleak, dystopian chill."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'grading' film stock for color. Modern digital grading is a powerful creative tool — the teal-and-orange blockbuster look is one famous example."
+    }
+   ],
+   "name_es": "Color Grading",
+   "name_fr": "Color Grading",
+   "name_it": "Color Grading"
+  },
+  {
+   "cat": "PRODUCTION & CREW"
+  },
+  {
+   "name": "Director",
+   "slug": "director",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The creative leader of a film, responsible for the overall vision, guiding actors, and making the key artistic decisions on set."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The director called for another take, pushing the actor toward a rawer performance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of one who 'directs' or guides. The director is the central creative authority, shaping every department toward a unified vision."
+    }
+   ],
+   "name_es": "Director",
+   "name_fr": "Director",
+   "name_it": "Director"
+  },
+  {
+   "name": "DP / Cinematographer",
+   "slug": "dp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Director of Photography (cinematographer) — the person in charge of the camera and lighting, translating the director's vision into images."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The DP chose a handheld camera and harsh lighting to give the scene a raw, documentary feel."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Also called the cinematographer, from Greek 'kinema' (movement) + 'graphein' (to write) — literally 'writing with motion', crafting the film's visual language."
+    }
+   ],
+   "name_es": "DP / Cinematographer",
+   "name_fr": "DP / Cinematographer",
+   "name_it": "DP / Cinematographer"
+  },
+  {
+   "name": "Gaffer",
+   "slug": "gaffer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The head of the lighting department on a film set, responsible for executing the lighting plan designed with the cinematographer."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The gaffer rigged the lights to cast the long, dramatic shadows the DP wanted."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From an old British word for an elder or boss ('gaffer', a contraction of 'godfather'). On set, the gaffer is the chief electrician running the lights."
+    }
+   ],
+   "name_es": "Gaffer",
+   "name_fr": "Gaffer",
+   "name_it": "Gaffer"
+  },
+  {
+   "name": "Best Boy",
+   "slug": "best-boy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The chief assistant to the gaffer (lighting) or key grip (rigging) — the second-in-command of those departments, handling logistics and crew."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The best boy coordinated the lighting crew while the gaffer focused on the setup."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An old theatrical term of uncertain origin; one story says a department head would ask another to lend their 'best boy' for a job. The title simply stuck."
+    }
+   ],
+   "name_es": "Best Boy",
+   "name_fr": "Best Boy",
+   "name_it": "Best Boy"
+  },
+  {
+   "name": "Foley",
+   "slug": "foley",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The art of creating and recording everyday sound effects — footsteps, rustling, punches — in sync with the picture, in post-production."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The foley artist snapped celery to create the sound of breaking bones."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for sound pioneer Jack Foley, who developed the technique. These artists rebuild a film's everyday sounds from scratch, often with surprising props."
+    }
+   ],
+   "name_es": "Foley",
+   "name_fr": "Foley",
+   "name_it": "Foley"
+  },
+  {
+   "name": "Blocking",
+   "slug": "blocking",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Planning and arranging the actors' movements and positions within a scene relative to the camera and set. The choreography of a scene."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They spent an hour on blocking, mapping exactly where each actor would stand and move."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From theater, where actors' positions were once marked with wooden blocks. It's the foundational staging done before lighting and shooting a scene."
+    }
+   ],
+   "name_es": "Blocking",
+   "name_fr": "Blocking",
+   "name_it": "Blocking"
+  },
+  {
+   "name": "Call Sheet",
+   "slug": "call-sheet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The daily schedule distributed to cast and crew, listing who's needed, when, where, and what scenes are being shot. The logistical bible of a shoot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The call sheet had her in makeup at 5 a.m. for the first scene at dawn."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: it lists the 'call' times when each person must report. A meticulously organized document keeping a complex production running on schedule."
+    }
+   ],
+   "name_es": "Call Sheet",
+   "name_fr": "Call Sheet",
+   "name_it": "Call Sheet"
+  },
+  {
+   "cat": "STORY & SCREEN"
+  },
+  {
+   "name": "Three-Act Structure",
+   "slug": "three-act",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The classic screenplay structure dividing a story into three parts: Setup (Act 1), Confrontation (Act 2), and Resolution (Act 3). The skeleton of most films."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The script followed a tidy three-act structure, the hero hitting rock bottom right at the act two break."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A storytelling framework traced back to Aristotle's beginning-middle-end. Codified for screenwriting, it underlies the vast majority of mainstream films."
+    }
+   ],
+   "name_es": "Three-Act Structure",
+   "name_fr": "Three-Act Structure",
+   "name_it": "Three-Act Structure"
+  },
+  {
+   "name": "Protagonist / Antagonist",
+   "slug": "protagonist",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The 'protagonist' is the main character driving the story; the 'antagonist' is the force or character opposing them. The central conflict's two poles."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The protagonist's quest was thwarted at every turn by a cunning antagonist."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'protagonistes' (first actor) and 'antagonistes' (opponent) — the lead and the one who 'struggles against' them, terms straight from ancient theater."
+    }
+   ],
+   "name_es": "Protagonist / Antagonist",
+   "name_fr": "Protagonist / Antagonist",
+   "name_it": "Protagonist / Antagonist"
+  },
+  {
+   "name": "MacGuffin",
+   "slug": "mcguffin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An object, goal, or device that drives the plot and motivates the characters, but whose specific nature is ultimately unimportant to the audience."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The secret documents were a pure MacGuffin — what mattered was the chase, not the papers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularized by Alfred Hitchcock, who told a nonsense story explaining the meaningless word. It names the plot-driving thing nobody really cares about."
+    }
+   ],
+   "name_es": "MacGuffin",
+   "name_fr": "MacGuffin",
+   "name_it": "MacGuffin"
+  },
+  {
+   "name": "Exposition",
+   "slug": "exposition",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The background information an audience needs — who characters are, what's happened, how the world works. The challenge is delivering it without boring the viewer."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Clumsy exposition had characters explaining things they'd both obviously already know."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'exponere' (to set forth). Skilled writers hide exposition inside conflict and action; clumsy 'info-dumps' are a common screenwriting pitfall."
+    }
+   ],
+   "name_es": "Exposition",
+   "name_fr": "Exposition",
+   "name_it": "Exposition"
+  },
+  {
+   "name": "Character Arc",
+   "slug": "arc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Character Arc — the internal transformation a character undergoes over a story, from who they are at the start to who they become by the end."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His character arc took him from a selfish loner to a man willing to sacrifice everything."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the geometric 'arc' (a curved path) — the character's journey curves from one state to another. A satisfying arc is the heart of memorable storytelling."
+    }
+   ],
+   "name_es": "Character Arc",
+   "name_fr": "Character Arc",
+   "name_it": "Character Arc"
+  },
+  {
+   "name": "Subtext",
+   "slug": "subtext",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The unspoken meaning beneath the literal dialogue — what characters really mean or feel but don't say directly. The real conversation under the words."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "On the surface they discussed the weather, but the subtext crackled with old resentment."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'sub-' (under) + 'text' — the meaning running underneath the spoken lines. Rich subtext is what separates flat dialogue from compelling drama."
+    }
+   ],
+   "name_es": "Subtext",
+   "name_fr": "Subtext",
+   "name_it": "Subtext"
+  },
+  {
+   "name": "Mise-en-Scène",
+   "slug": "mise-en-scene",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Everything arranged within the frame — sets, props, lighting, costume, actor placement. The total visual composition of a shot's content."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The cluttered mise-en-scène of the hoarder's apartment told his story before a word was spoken."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'placing on stage', borrowed from theater. It encompasses every visual element deliberately arranged within the frame to create meaning."
+    }
+   ],
+   "name_es": "Mise-en-Scène",
+   "name_fr": "Mise-en-Scène",
+   "name_it": "Mise-en-Scène"
+  },
+  {
+   "cat": "SET SLANG"
+  },
+  {
+   "name": "Martini Shot",
+   "slug": "martini",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The 'martini shot' is the last shot of the day's filming. After it wraps, the crew is done — and the joke is the next shot is 'in a glass.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The AD announced the martini shot, and the exhausted crew cheered for the final setup of the day."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Old Hollywood slang: the final shot of the day, after which everyone could go have a drink — the next 'shot' being a martini in hand."
+    }
+   ],
+   "name_es": "Martini Shot",
+   "name_fr": "Martini Shot",
+   "name_it": "Martini Shot"
+  },
+  {
+   "name": "Magic Hour",
+   "slug": "magic-hour",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The brief window around sunrise or sunset offering soft, warm, golden light — beloved by filmmakers but a race against fading daylight. Same as photography's golden hour."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They had only twenty minutes of magic hour to capture the romantic sunset scene."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the magical quality of low-angle sunlight. 'Hour' is optimistic — the usable window is often closer to a frantic twenty or thirty minutes."
+    }
+   ],
+   "name_es": "Magic Hour",
+   "name_fr": "Magic Hour",
+   "name_it": "Magic Hour"
+  },
+  {
+   "name": "Craft Services",
+   "slug": "craft-services",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The on-set department providing snacks, drinks, and refreshments to the cast and crew throughout the shooting day. Often a crew morale barometer."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Everyone judged the production by its craft services — a well-stocked table kept the crew happy."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'craft' (the various crafts/trades of the crew) being 'serviced' with food. 'Crafty', as it's nicknamed, is a beloved fixture of any film set."
+    }
+   ],
+   "name_es": "Craft Services",
+   "name_fr": "Craft Services",
+   "name_it": "Craft Services"
+  },
+  {
+   "name": "Cameo",
+   "slug": "cameo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A brief appearance by a famous person or notable figure, often as a fun surprise or in-joke for the audience. A small but memorable role."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The director made his usual cameo, appearing for three seconds as a man on the street."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Italian 'cammeo' (a small carved gem with a portrait) — a tiny, jewel-like appearance. The fleeting, recognizable face is the treat."
+    }
+   ],
+   "name_es": "Cameo",
+   "name_fr": "Cameo",
+   "name_it": "Cameo"
+  },
+  {
+   "name": "Blockbuster",
+   "slug": "blockbuster",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A film that is a massive commercial success, drawing huge audiences and revenue. The big-budget, crowd-pulling tentpole movie."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The summer blockbuster broke box-office records in its opening weekend."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From WWII-era 'blockbuster' bombs powerful enough to destroy a city block; applied to films whose lines 'busted the block', wrapping around the theater."
+    }
+   ],
+   "name_es": "Blockbuster",
+   "name_fr": "Blockbuster",
+   "name_it": "Blockbuster"
+  },
+  {
+   "name": "That's a Wrap",
+   "slug": "wrap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'That's a wrap' announces that filming is complete — for the day, a scene, or the whole production. The satisfying end of shooting."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After the final take, the director called 'That's a wrap!' and the set erupted in applause."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Possibly from 'wrap up' (to conclude), or a backronym for 'Wind, Reel, and Print'. Either way, it's the universal call that shooting is finished."
+    }
+   ],
+   "name_es": "That's a Wrap",
+   "name_fr": "That's a Wrap",
+   "name_it": "That's a Wrap"
+  }
+ ]
+}

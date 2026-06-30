@@ -1,0 +1,314 @@
+{
+ "title": "Circle of Fifths — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "THE NATURALS"
+  },
+  {
+   "name": "C Major",
+   "slug": "c-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "No sharps and no flats — the only major key written on entirely white piano keys. This is the reference point at the top (12 o'clock) of the circle."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: A minor (shares the exact same notes). Parallel minor: C minor (same tonic, three flats). A minor is the most important relationship — same key signature, different home note."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = C · ii = Dm · iii = Em · IV = F · V = G · vi = Am · vii° = B diminished. The three you'll use most are C, F, and G (I–IV–V)."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Bright, plain, and neutral — the blank canvas of music. Countless pop and folk songs live here because it's the easiest key to read and play. 'Let It Be' and endless beginner pieces sit in C."
+    }
+   ],
+   "name_es": "C Major",
+   "name_fr": "C Major",
+   "name_it": "C Major"
+  },
+  {
+   "cat": "SHARP KEYS"
+  },
+  {
+   "name": "G Major",
+   "slug": "g-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "One sharp: F♯. The first step clockwise from C. To find a key's sharps, the last sharp is always one half-step below the key name (F♯ → G)."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: E minor. Parallel minor: G minor (two flats). E minor is one of the most common keys in guitar music, so G major and E minor turn up everywhere together."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = G · ii = Am · iii = Bm · IV = C · V = D · vi = Em · vii° = F♯ diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Warm and open, and a favorite on guitar because the open strings ring out. A huge amount of folk, country, and rock lives in G — it simply sounds good on a guitar."
+    }
+   ],
+   "name_es": "G Major",
+   "name_fr": "G Major",
+   "name_it": "G Major"
+  },
+  {
+   "name": "D Major",
+   "slug": "d-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Two sharps: F♯ and C♯. Two steps clockwise. The sharps always added in the same order: F♯ then C♯."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: B minor. Parallel minor: D minor (one flat). B minor gives D major a darker cousin much used in classical and folk."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = D · ii = Em · iii = F♯m · IV = G · V = A · vi = Bm · vii° = C♯ diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Bright, triumphant, and resonant on string instruments — the violin's open strings reinforce it, so much joyful classical music (and Pachelbel's Canon) is in D."
+    }
+   ],
+   "name_es": "D Major",
+   "name_fr": "D Major",
+   "name_it": "D Major"
+  },
+  {
+   "name": "A Major",
+   "slug": "a-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Three sharps: F♯, C♯, G♯. Three steps clockwise from C."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: F♯ minor. Parallel minor: A minor (no accidentals — back to C's signature). F♯ minor is a richly expressive key in its own right."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = A · ii = Bm · iii = C♯m · IV = D · V = E · vi = F♯m · vii° = G♯ diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Confident and bright, comfortable for both guitar and strings. Common in rock and pop — plenty of anthems sit in A for its punchy, open sound."
+    }
+   ],
+   "name_es": "A Major",
+   "name_fr": "A Major",
+   "name_it": "A Major"
+  },
+  {
+   "name": "E Major",
+   "slug": "e-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Four sharps: F♯, C♯, G♯, D♯. Four steps clockwise."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: C♯ minor. Parallel minor: E minor (one sharp). C♯ minor is a dramatic, much-loved key — Beethoven's 'Moonlight' Sonata lives there."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = E · ii = F♯m · iii = G♯m · IV = A · V = B · vi = C♯m · vii° = D♯ diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Full and ringing on guitar (E is the lowest open string), so it's a backbone of blues and rock. Bright and powerful with real low-end resonance."
+    }
+   ],
+   "name_es": "E Major",
+   "name_fr": "E Major",
+   "name_it": "E Major"
+  },
+  {
+   "name": "B Major",
+   "slug": "b-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Five sharps: F♯, C♯, G♯, D♯, A♯. Five steps clockwise — getting toward the busy bottom of the circle."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: G♯ minor. Parallel minor: B minor (two sharps). B major is enharmonically equal to C♭ major (seven flats), the spelling you'd meet coming the other way."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = B · ii = C♯m · iii = D♯m · IV = E · V = F♯ · vi = G♯m · vii° = A♯ diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Brilliant and a little demanding to read with five sharps, so it's less common in beginner music but prized in jazz and for its bright, vivid color."
+    }
+   ],
+   "name_es": "B Major",
+   "name_fr": "B Major",
+   "name_it": "B Major"
+  },
+  {
+   "cat": "FLAT KEYS"
+  },
+  {
+   "name": "F Major",
+   "slug": "f-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "One flat: B♭. The first step counter-clockwise from C. For flat keys, the second-to-last flat names the key — except F, the one you simply memorize."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: D minor. Parallel minor: F minor (four flats). D minor is famously the 'saddest' key in popular lore."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = F · ii = Gm · iii = Am · IV = B♭ · V = C · vi = Dm · vii° = E diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Mellow, warm, and rounded. Common for woodwinds and a frequent home for ballads and folk songs — softer-edged than the sharp keys."
+    }
+   ],
+   "name_es": "F Major",
+   "name_fr": "F Major",
+   "name_it": "F Major"
+  },
+  {
+   "name": "B♭ Major",
+   "slug": "bb-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Two flats: B♭ and E♭. Two steps counter-clockwise. The second-to-last flat (B♭) names the key."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: G minor. Parallel minor: B♭ minor (five flats). G minor is a deeply expressive key used across centuries of music."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = B♭ · ii = Cm · iii = Dm · IV = E♭ · V = F · vi = Gm · vii° = A diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Rich and resonant for brass and wind instruments — many trumpets, clarinets, and saxophones are built in B♭, so concert bands and jazz live here constantly."
+    }
+   ],
+   "name_es": "B♭ Major",
+   "name_fr": "B♭ Major",
+   "name_it": "B♭ Major"
+  },
+  {
+   "name": "E♭ Major",
+   "slug": "eb-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Three flats: B♭, E♭, A♭. Three steps counter-clockwise. The second-to-last flat (E♭) names the key."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: C minor. Parallel minor: E♭ minor (six flats). C minor is one of the great dramatic keys — Beethoven's Fifth Symphony is in it."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = E♭ · ii = Fm · iii = Gm · IV = A♭ · V = B♭ · vi = Cm · vii° = D diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Warm, heroic, and noble — long associated with grandeur (Beethoven's 'Eroica'). A cornerstone of band and jazz repertoire alongside B♭."
+    }
+   ],
+   "name_es": "E♭ Major",
+   "name_fr": "E♭ Major",
+   "name_it": "E♭ Major"
+  },
+  {
+   "name": "A♭ Major",
+   "slug": "ab-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Four flats: B♭, E♭, A♭, D♭. Four steps counter-clockwise."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: F minor. Parallel minor: A♭ minor (seven flats). F minor is dark and intense, a frequent choice for somber music."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = A♭ · ii = B♭m · iii = Cm · IV = D♭ · V = E♭ · vi = Fm · vii° = G diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Lush, soft, and romantic — a favorite for expressive piano writing. Chopin and the Romantics drew on its mellow, velvety character."
+    }
+   ],
+   "name_es": "A♭ Major",
+   "name_fr": "A♭ Major",
+   "name_it": "A♭ Major"
+  },
+  {
+   "name": "D♭ Major",
+   "slug": "db-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Five flats: B♭, E♭, A♭, D♭, G♭. Five steps counter-clockwise. Enharmonically equal to C♯ major (seven sharps)."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: B♭ minor. Parallel minor: D♭ minor (theoretical — usually respelled as C♯ minor). B♭ minor is a rich, dark key well used in jazz and Romantic piano."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = D♭ · ii = E♭m · iii = Fm · IV = G♭ · V = A♭ · vi = B♭m · vii° = C diminished."
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Smooth, dark, and luxurious. It sits beautifully under the hands on piano (lots of black keys) and is a favorite for lush ballads and jazz standards."
+    }
+   ],
+   "name_es": "D♭ Major",
+   "name_fr": "D♭ Major",
+   "name_it": "D♭ Major"
+  },
+  {
+   "name": "F♯ / G♭ Major",
+   "slug": "gb-major",
+   "rows": [
+    {
+     "k": "Key Signature",
+     "v": "Six flats: B♭, E♭, A♭, D♭, G♭, C♭ — sitting at the bottom (6 o'clock) of the circle. This is the enharmonic twin of F♯ major (six sharps): the same sound, spelled two ways."
+    },
+    {
+     "k": "Relative & Parallel",
+     "v": "Relative minor: E♭ minor (or D♯ minor on the sharp side). Parallel: G♭ minor is theoretical. This is the point where the sharp road and the flat road meet at the same pitches."
+    },
+    {
+     "k": "Diatonic Chords",
+     "v": "I = G♭ · ii = A♭m · iii = B♭m · IV = C♭ · V = D♭ · vi = E♭m · vii° = F diminished. (Spell as F♯ major and it's F♯, G♯m, A♯m, B, C♯, D♯m, E♯° — same keys, different names.)"
+    },
+    {
+     "k": "Sound & Where You Hear It",
+     "v": "Dark, rich, and exotic-sounding. Rare in beginner music because of all the accidentals, but loved by composers for its deep, shadowy color. Where the circle closes the loop."
+    }
+   ],
+   "name_es": "F♯ / G♭ Major",
+   "name_fr": "F♯ / G♭ Major",
+   "name_it": "F♯ / G♭ Major"
+  }
+ ]
+}

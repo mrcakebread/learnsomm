@@ -1,0 +1,797 @@
+{
+ "title": "Real Estate Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "BUYING & FINANCING"
+  },
+  {
+   "name": "Escrow",
+   "slug": "escrow",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A neutral third party that holds money and documents during a transaction, releasing them only when all conditions are met. Protects both buyer and seller."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their deposit sat safely in escrow until the inspection passed and the deal officially closed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'escroue' (a scroll or roll of writing) — originally a deed held by a third party until conditions were fulfilled."
+    }
+   ],
+   "name_es": "Escrow",
+   "name_fr": "Escrow",
+   "name_it": "Escrow"
+  },
+  {
+   "name": "Earnest Money",
+   "slug": "earnest-money",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A deposit a buyer puts down to show they're serious about an offer. It's credited toward the purchase at closing, but can be forfeited if the buyer backs out improperly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She included $5,000 in earnest money with her offer to prove to the seller she was committed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'earnest' in its old sense of a pledge or down payment given to seal a bargain — a token of serious intent dating back centuries."
+    }
+   ],
+   "name_es": "Earnest Money",
+   "name_fr": "Earnest Money",
+   "name_it": "Earnest Money"
+  },
+  {
+   "name": "Contingency",
+   "slug": "contingency",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A condition that must be met for a sale to proceed — like financing, inspection, or appraisal. If a contingency fails, the buyer can usually walk away without penalty."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His offer included a financing contingency, so when the loan fell through, he got his deposit back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'contingere' (to touch, befall) — the deal is contingent on these conditions being satisfied. The buyer's main escape hatches."
+    }
+   ],
+   "name_es": "Contingency",
+   "name_fr": "Contingency",
+   "name_it": "Contingency"
+  },
+  {
+   "name": "Appraisal",
+   "slug": "appraisal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A professional, independent estimate of a property's market value, usually required by lenders to ensure they aren't loaning more than the home is worth."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The deal hit a snag when the appraisal came in $20,000 below the agreed price, spooking the lender."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'appraise' (to set a price on), via Latin 'pretium' (price). The appraisal protects the lender from over-lending on an inflated price."
+    }
+   ],
+   "name_es": "Appraisal",
+   "name_fr": "Appraisal",
+   "name_it": "Appraisal"
+  },
+  {
+   "name": "Inspection",
+   "slug": "inspection",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A detailed examination of a property's condition by a professional, checking structure, systems, and safety before a buyer commits."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The inspection revealed a cracked foundation, giving the buyers leverage to renegotiate the price."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'inspicere' (to look into). A buyer's key tool for discovering problems the seller may not have disclosed."
+    }
+   ],
+   "name_es": "Inspection",
+   "name_fr": "Inspection",
+   "name_it": "Inspection"
+  },
+  {
+   "name": "Closing Costs",
+   "slug": "closing-costs",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The fees and expenses, beyond the purchase price, paid when a real estate deal is finalized — lender fees, title insurance, taxes, and more."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Beyond the down payment, they had to budget another 3% in closing costs to seal the deal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the 'closing' — the final meeting where ownership transfers. These bundled fees often surprise first-time buyers."
+    }
+   ],
+   "name_es": "Closing Costs",
+   "name_fr": "Closing Costs",
+   "name_it": "Closing Costs"
+  },
+  {
+   "name": "Due Diligence",
+   "slug": "due-diligence",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The careful investigation a buyer does before committing — reviewing documents, inspections, finances, and risks. Doing your homework before you sign."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "During due diligence, they uncovered an unpermitted addition that changed their whole view of the property."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A legal and finance term meaning the 'diligence' (care) that is 'due' (owed) before a deal — adopted widely into real estate practice."
+    }
+   ],
+   "name_es": "Due Diligence",
+   "name_fr": "Due Diligence",
+   "name_it": "Due Diligence"
+  },
+  {
+   "name": "Under Contract",
+   "slug": "under-contract",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The status of a property once a seller has accepted an offer but before the sale closes. The deal is agreed but not yet final, pending contingencies."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The house went under contract within a weekend, but it stayed that way for a month until closing."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the parties are now bound by a signed contract, though the transaction isn't complete until all conditions clear."
+    }
+   ],
+   "name_es": "Under Contract",
+   "name_fr": "Under Contract",
+   "name_it": "Under Contract"
+  },
+  {
+   "cat": "MORTGAGE & MONEY"
+  },
+  {
+   "name": "Down Payment",
+   "slug": "down-payment",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The portion of a home's price the buyer pays upfront in cash, with the rest financed by a mortgage. A larger down payment means a smaller loan."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They saved for years to afford a 20% down payment and avoid extra insurance costs."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A plain compound — the payment made 'down' front before financing the balance. The 20% threshold is a long-standing lending benchmark."
+    }
+   ],
+   "name_es": "Down Payment",
+   "name_fr": "Down Payment",
+   "name_it": "Down Payment"
+  },
+  {
+   "name": "Pre-Approval",
+   "slug": "pre-approval",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A lender's conditional commitment to loan a buyer up to a certain amount, based on a review of their finances. It makes offers far more credible to sellers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a pre-approval letter in hand, their offer stood out against buyers who hadn't secured financing."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the loan is 'approved' in advance ('pre-'), subject to final conditions — a stronger signal than a mere 'pre-qualification'."
+    }
+   ],
+   "name_es": "Pre-Approval",
+   "name_fr": "Pre-Approval",
+   "name_it": "Pre-Approval"
+  },
+  {
+   "name": "APR",
+   "slug": "apr",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Annual Percentage Rate — the yearly cost of a loan including interest plus fees, expressed as a percentage. A truer cost than the interest rate alone."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The two loans had the same interest rate, but the higher APR revealed one carried far steeper fees."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Mandated by lending-disclosure laws to let borrowers compare loans on equal footing, folding fees into a single annual figure."
+    }
+   ],
+   "name_es": "APR",
+   "name_fr": "APR",
+   "name_it": "APR"
+  },
+  {
+   "name": "PMI",
+   "slug": "pmi",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Private Mortgage Insurance — extra insurance a borrower must pay when their down payment is under 20%, protecting the lender (not the buyer) if they default."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Because they put down only 10%, they owed monthly PMI until their equity reached the 20% mark."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the insurance product; it exists to make low-down-payment loans less risky for lenders, at the borrower's expense."
+    }
+   ],
+   "name_es": "PMI",
+   "name_fr": "PMI",
+   "name_it": "PMI"
+  },
+  {
+   "name": "Amortization",
+   "slug": "amortization",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The gradual paying off of a loan through regular payments over time. Early payments go mostly to interest; later ones go mostly to principal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The amortization schedule showed that after ten years, she'd barely dented the principal of her 30-year loan."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'mortus' (death) via Old French — the debt is gradually 'killed off' payment by payment until it reaches zero."
+    }
+   ],
+   "name_es": "Amortization",
+   "name_fr": "Amortization",
+   "name_it": "Amortization"
+  },
+  {
+   "name": "Fixed vs. ARM",
+   "slug": "fixed-arm",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two mortgage types: a 'fixed-rate' loan keeps the same interest rate for its whole term; an 'ARM' (adjustable-rate mortgage) starts lower but can change over time."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They chose a fixed-rate mortgage for certainty, wary that an ARM's payments could spike years later."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Fixed' for its unchanging rate; 'ARM' an acronym capturing that the rate 'adjusts'. The choice is a classic bet on stability versus early savings."
+    }
+   ],
+   "name_es": "Fixed vs. ARM",
+   "name_fr": "Fixed vs. ARM",
+   "name_it": "Fixed vs. ARM"
+  },
+  {
+   "name": "Points",
+   "slug": "points",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Upfront fees paid to a lender to lower the loan's interest rate — 'buying down' the rate. One point typically costs 1% of the loan amount."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "By paying two points at closing, they bought a lower rate that would save them money over the long haul."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a 'point' as one percent. A tool for trading cash now against interest savings later, worthwhile only if you keep the loan long enough."
+    }
+   ],
+   "name_es": "Points",
+   "name_fr": "Points",
+   "name_it": "Points"
+  },
+  {
+   "name": "Home Equity",
+   "slug": "equity",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The portion of a home the owner truly owns — its market value minus what's still owed on the mortgage. It grows as the loan is paid down and the value rises."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After five years of payments and rising prices, they'd built enough equity to borrow against it for a renovation."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'aequitas' (fairness) — your fair, owned share of the property, separate from the bank's stake in it."
+    }
+   ],
+   "name_es": "Home Equity",
+   "name_fr": "Home Equity",
+   "name_it": "Home Equity"
+  },
+  {
+   "cat": "LISTING & SELLING"
+  },
+  {
+   "name": "MLS",
+   "slug": "mls",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Multiple Listing Service — the shared database real estate agents use to list properties for sale and find them for buyers. The industry's central marketplace."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The moment the home hit the MLS, a dozen agents alerted their clients and showings began."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An industry cooperative system dating to the late 1800s, built on agents agreeing to share listings — and commissions — with one another."
+    }
+   ],
+   "name_es": "MLS",
+   "name_fr": "MLS",
+   "name_it": "MLS"
+  },
+  {
+   "name": "Comps",
+   "slug": "comps",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Short for 'comparable sales' — recently sold properties similar to one being valued, used to estimate a fair price. The backbone of pricing a home."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "To set the list price, the agent pulled comps from three similar homes sold nearby in the past few months."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'comparables'. The logic is simple: a home is worth roughly what similar nearby homes recently sold for."
+    }
+   ],
+   "name_es": "Comps",
+   "name_fr": "Comps",
+   "name_it": "Comps"
+  },
+  {
+   "name": "List Price",
+   "slug": "list-price",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The price at which a property is advertised for sale. It's a starting point for negotiation, not necessarily the final sale price."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They set an aggressive list price, expecting a bidding war to push the final number even higher."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the price on the 'listing'. Strategic pricing — sometimes deliberately low to spark competition — is an art in itself."
+    }
+   ],
+   "name_es": "List Price",
+   "name_fr": "List Price",
+   "name_it": "List Price"
+  },
+  {
+   "name": "Days on Market (DOM)",
+   "slug": "days-on-market",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'DOM' — how long a property has been listed for sale. A high number can signal an overpriced home or hidden problems, weakening the seller's position."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With 90 days on market, the stale listing gave buyers confidence to come in well below asking."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of the count of days a home sits 'on the market'. Buyers watch it closely as a clue to a seller's desperation."
+    }
+   ],
+   "name_es": "Days on Market (DOM)",
+   "name_fr": "Days on Market (DOM)",
+   "name_it": "Days on Market (DOM)"
+  },
+  {
+   "name": "Staging",
+   "slug": "staging",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Furnishing and decorating a home to make it more appealing to buyers — emphasizing space, light, and lifestyle. A marketing tool to sell faster and higher."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After professional staging, the empty house suddenly felt like a home, and offers came in within days."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the theatrical 'staging' (setting a scene) — the home is dressed and arranged like a set to help buyers imagine living there."
+    }
+   ],
+   "name_es": "Staging",
+   "name_fr": "Staging",
+   "name_it": "Staging"
+  },
+  {
+   "name": "Curb Appeal",
+   "slug": "curb-appeal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How attractive a property looks from the street — the crucial first impression that draws buyers in before they ever step inside."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A fresh coat of paint and tidy landscaping boosted the curb appeal and doubled the weekend showings."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid compound — the 'appeal' a home has when viewed from the 'curb'. First impressions, agents insist, are made before the front door opens."
+    }
+   ],
+   "name_es": "Curb Appeal",
+   "name_fr": "Curb Appeal",
+   "name_it": "Curb Appeal"
+  },
+  {
+   "name": "Open House",
+   "slug": "open-house",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A scheduled period when a listed home is open for any prospective buyer to tour without an appointment. A classic marketing event."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The Sunday open house drew thirty groups through the door and produced two competing offers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the house is thrown 'open' to the public for viewing — a long-standing, low-pressure way to generate buyer interest."
+    }
+   ],
+   "name_es": "Open House",
+   "name_fr": "Open House",
+   "name_it": "Open House"
+  },
+  {
+   "name": "Offer / Counteroffer",
+   "slug": "offer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A buyer's formal proposal to purchase at a stated price and terms; a 'counteroffer' is the seller's revised response. The back-and-forth of negotiation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their first offer was countered, and after two rounds of counteroffers they met in the middle."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the plain sense of 'offering' to buy. The volley of offer and counteroffer is the heart of every real estate negotiation."
+    }
+   ],
+   "name_es": "Offer / Counteroffer",
+   "name_fr": "Offer / Counteroffer",
+   "name_it": "Offer / Counteroffer"
+  },
+  {
+   "cat": "LEGAL & OWNERSHIP"
+  },
+  {
+   "name": "Title",
+   "slug": "title",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The legal right to own and use a property. A 'clear title' means no disputes or claims against it — essential for a clean sale."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A title search uncovered an old unpaid claim that had to be cleared before ownership could transfer."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'titulus' (inscription, label) — the documented proof of who rightfully owns the property. Not to be confused with the deed."
+    }
+   ],
+   "name_es": "Title",
+   "name_fr": "Title",
+   "name_it": "Title"
+  },
+  {
+   "name": "Deed",
+   "slug": "deed",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The legal document that actually transfers ownership of property from one party to another. Signing and recording the deed makes the transfer official."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "At closing, the seller signed the deed, and once recorded, the home legally belonged to the buyers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old English 'dǣd' (something done) — the formal written act of transfer. The title is the right; the deed is the document conveying it."
+    }
+   ],
+   "name_es": "Deed",
+   "name_fr": "Deed",
+   "name_it": "Deed"
+  },
+  {
+   "name": "Lien",
+   "slug": "lien",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A legal claim against a property for an unpaid debt, which can block a sale until it's resolved. Mortgages, taxes, and contractors can all place liens."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The sale stalled when a contractor's lien for unpaid work surfaced during the title search."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'ligamen' (a binding, tie), via French 'lien' (bond) — the debt is legally 'tied' to the property until paid."
+    }
+   ],
+   "name_es": "Lien",
+   "name_fr": "Lien",
+   "name_it": "Lien"
+  },
+  {
+   "name": "Easement",
+   "slug": "easement",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A legal right for someone to use part of another's property for a specific purpose — like a shared driveway or utility access — without owning it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The deed noted an easement letting the neighbor cross the back corner to reach the lake."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'aisement' (comfort, convenience) — a convenience granted over someone else's land. It 'runs with' the property to future owners."
+    }
+   ],
+   "name_es": "Easement",
+   "name_fr": "Easement",
+   "name_it": "Easement"
+  },
+  {
+   "name": "Zoning",
+   "slug": "zoning",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Local government rules dictating how land in an area can be used — residential, commercial, industrial — and what can be built. Shapes what a property can become."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their dream of opening a shop died when they learned the lot was zoned strictly residential."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'zone' (a designated area). Modern zoning emerged in the early 20th century to separate incompatible land uses and control growth."
+    }
+   ],
+   "name_es": "Zoning",
+   "name_fr": "Zoning",
+   "name_it": "Zoning"
+  },
+  {
+   "name": "HOA",
+   "slug": "hoa",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Homeowners Association — an organization in many communities that sets rules and collects dues for shared upkeep and amenities. It can govern everything from paint colors to pets."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The HOA fees covered the pool and landscaping, but the strict rules on exterior changes gave them pause."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the governing body of a planned community; its power to set rules and fees is a major consideration for many buyers."
+    }
+   ],
+   "name_es": "HOA",
+   "name_fr": "HOA",
+   "name_it": "HOA"
+  },
+  {
+   "name": "Survey",
+   "slug": "survey",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A professional measurement of a property's exact boundaries, dimensions, and features. It settles disputes over where one lot ends and another begins."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The survey revealed the old fence actually sat two feet onto the neighbor's land."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'surveeir' (to look over) — a precise mapping of the land's legal limits, often required before building or to resolve boundary questions."
+    }
+   ],
+   "name_es": "Survey",
+   "name_fr": "Survey",
+   "name_it": "Survey"
+  },
+  {
+   "cat": "AGENT SLANG"
+  },
+  {
+   "name": "FSBO",
+   "slug": "fsbo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'For Sale By Owner' (pronounced 'fizz-bo') — a home sold directly by the owner without a listing agent, to save the commission. Often harder than sellers expect."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The FSBO listing languished for months until the owner finally hired an agent to get it sold."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym-turned-word from 'For Sale By Owner', pronounced 'FIZZ-bo' in the trade — agents' shorthand for an unrepresented seller."
+    }
+   ],
+   "name_es": "FSBO",
+   "name_fr": "FSBO",
+   "name_it": "FSBO"
+  },
+  {
+   "name": "Fixer-Upper",
+   "slug": "fixer-upper",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A property in poor condition, priced low because it needs significant repairs or renovation. A bargain for those willing to do the work."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They bought a dated fixer-upper, planning to renovate the kitchen and baths themselves over a year."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A folksy compound — a home you must 'fix up'. A staple of the bargain-hunting and house-flipping world."
+    }
+   ],
+   "name_es": "Fixer-Upper",
+   "name_fr": "Fixer-Upper",
+   "name_it": "Fixer-Upper"
+  },
+  {
+   "name": "Turnkey",
+   "slug": "turnkey",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A property in move-in-ready condition, needing no work — you just 'turn the key' and live there. The opposite of a fixer-upper."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Busy professionals, they wanted a turnkey home and happily paid a premium to skip any renovations."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal image of turning a key to move right in — nothing left to do. Borrowed from manufacturing, where a 'turnkey' system is ready to operate."
+    }
+   ],
+   "name_es": "Turnkey",
+   "name_fr": "Turnkey",
+   "name_it": "Turnkey"
+  },
+  {
+   "name": "Flip",
+   "slug": "flip",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To buy a property, improve it quickly, and resell it for profit in a short time. A whole sub-industry of real estate investing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He made a living flipping houses — buying distressed homes, renovating fast, and reselling within months."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'flip' in the sense of quickly turning something over. The speed of the buy-improve-sell cycle defines the strategy."
+    }
+   ],
+   "name_es": "Flip",
+   "name_fr": "Flip",
+   "name_it": "Flip"
+  },
+  {
+   "name": "Motivated Seller",
+   "slug": "motivated-seller",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A listing-speak euphemism for an owner eager or pressured to sell quickly — often willing to accept a lower price. A signal of negotiating room."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The listing's 'motivated seller' line told her there was real room to negotiate below asking."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Agent code: 'motivated' politely signals the seller's urgency — from divorce, relocation, or financial pressure — without stating the reason."
+    }
+   ],
+   "name_es": "Motivated Seller",
+   "name_fr": "Motivated Seller",
+   "name_it": "Motivated Seller"
+  },
+  {
+   "name": "Lowball",
+   "slug": "low-ball",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An offer far below the asking price, hoping to snag a bargain. It can open negotiation or insult the seller, depending on the situation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their lowball offer of 30% under asking was rejected outright, and the seller refused to counter."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'low' plus 'ball' (as in throwing a pitch) — to 'lowball' is to pitch a deliberately low number, a tactic that can backfire."
+    }
+   ],
+   "name_es": "Lowball",
+   "name_fr": "Lowball",
+   "name_it": "Lowball"
+  }
+ ]
+}

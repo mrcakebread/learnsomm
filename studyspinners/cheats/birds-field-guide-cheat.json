@@ -1,0 +1,1079 @@
+{
+ "title": "Birds — Field Guide — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "BIRDS OF PREY"
+  },
+  {
+   "name": "Bald Eagle",
+   "slug": "bald-eagle",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The national bird of the United States — a huge raptor, unmistakable as an adult."
+    },
+    {
+     "k": "ID Features",
+     "v": "Adult: dark brown body with a brilliant white head and tail, heavy yellow beak. Wingspan up to ~2.3 m. Juveniles are mottled brown and often mistaken for golden eagles."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Near lakes, rivers, and coasts across North America, anywhere with fish and tall nesting trees. Has recovered dramatically from near-extinction."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Soars on flat, plank-like wings; surprisingly weak, chirpy call (the 'eagle scream' in movies is usually a red-tailed hawk). Steals fish from ospreys."
+    }
+   ],
+   "name_es": "Bald Eagle",
+   "name_fr": "Bald Eagle",
+   "name_it": "Bald Eagle"
+  },
+  {
+   "name": "Red-tailed Hawk",
+   "slug": "red-tailed-hawk",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most common and widespread large hawk in North America — the default roadside hawk."
+    },
+    {
+     "k": "ID Features",
+     "v": "Stocky, broad-winged buteo; most adults show a brick-red tail above and a dark 'belly band' across a pale chest. Variable plumage overall."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open country, fields, deserts, and roadsides across the continent. Famously perches on highway poles scanning for prey."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Soars in wide circles; gives the iconic raspy, descending scream Hollywood dubs onto every eagle and hawk."
+    }
+   ],
+   "name_es": "Red-tailed Hawk",
+   "name_fr": "Red-tailed Hawk",
+   "name_it": "Red-tailed Hawk"
+  },
+  {
+   "name": "Peregrine Falcon",
+   "slug": "peregrine-falcon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The fastest animal on Earth, reaching over 320 km/h in a hunting dive."
+    },
+    {
+     "k": "ID Features",
+     "v": "Crow-sized falcon with long pointed wings, slate-gray back, pale barred underparts, and a bold dark 'mustache' mark on the face."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Cliffs, coasts, and — increasingly — city skyscrapers worldwide, where it hunts pigeons. Recovered after DDT nearly wiped it out."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Hunts by 'stooping' — a breathtaking high-speed dive onto birds in midair. Fast, powerful, direct flight on flickering wingbeats."
+    }
+   ],
+   "name_es": "Peregrine Falcon",
+   "name_fr": "Peregrine Falcon",
+   "name_it": "Peregrine Falcon"
+  },
+  {
+   "name": "Osprey",
+   "slug": "osprey",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large fish-eating raptor sometimes called the 'fish hawk,' found on every continent but Antarctica."
+    },
+    {
+     "k": "ID Features",
+     "v": "Brown above, white below, with a white head crossed by a dark eye stripe. Long, crooked wings show a dark 'wrist' patch in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Always near water — lakes, rivers, coasts, and reservoirs. Builds bulky stick nests on poles, platforms, and dead trees."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Hovers, then plunges feet-first into water to grab fish. Flies with fish held head-forward to reduce drag."
+    }
+   ],
+   "name_es": "Osprey",
+   "name_fr": "Osprey",
+   "name_it": "Osprey"
+  },
+  {
+   "name": "Turkey Vulture",
+   "slug": "turkey-vulture",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large scavenger with an unfeathered red head, riding the wind on outstretched wings."
+    },
+    {
+     "k": "ID Features",
+     "v": "All dark with silvery flight feathers beneath, a small bare red head, and long broad wings. Holds wings in a shallow 'V' (dihedral)."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Across the Americas in open and wooded country. Roosts communally; follows warm air currents on migration."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Rocks and tilts as it soars, rarely flapping. One of the few birds with a strong sense of smell — it finds carrion by scent."
+    }
+   ],
+   "name_es": "Turkey Vulture",
+   "name_fr": "Turkey Vulture",
+   "name_it": "Turkey Vulture"
+  },
+  {
+   "name": "Cooper's Hawk",
+   "slug": "coopers-hawk",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A medium-sized woodland hawk, the classic 'backyard bird-feeder hawk' that hunts other birds."
+    },
+    {
+     "k": "ID Features",
+     "v": "Slate-gray back, rusty-barred chest, long banded tail with a rounded tip, and red eyes in adults. Females noticeably larger than males."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Woodlands, suburbs, and city parks across North America. Increasingly common around feeders, hunting the songbirds they attract."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Flies with several quick flaps then a glide; bursts through cover to ambush birds. Agile and acrobatic among trees."
+    }
+   ],
+   "name_es": "Cooper's Hawk",
+   "name_fr": "Cooper's Hawk",
+   "name_it": "Cooper's Hawk"
+  },
+  {
+   "cat": "WATERFOWL"
+  },
+  {
+   "name": "Mallard",
+   "slug": "mallard",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The familiar wild duck of ponds and parks — ancestor of most domestic ducks."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: glossy green head, yellow bill, chestnut chest, curled black tail feathers. Female: mottled brown with an orange-and-black bill. Both show a blue wing patch."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Virtually any freshwater across the Northern Hemisphere — ponds, marshes, rivers, city parks. Extremely adaptable."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "The classic loud 'quack' is actually the female; males give a quieter rasp. 'Dabbles,' tipping bottom-up to feed."
+    }
+   ],
+   "name_es": "Mallard",
+   "name_fr": "Mallard",
+   "name_it": "Mallard"
+  },
+  {
+   "name": "Canada Goose",
+   "slug": "canada-goose",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The big, honking goose seen in V-formation and on countless lawns and golf courses."
+    },
+    {
+     "k": "ID Features",
+     "v": "Large, with a black head and neck, a white 'chinstrap' across the cheek, brown body, and pale chest."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Across North America near water and grass; many populations no longer migrate and live year-round in parks and suburbs."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Loud, resonant honking, especially in flight. Flies in V-formations; aggressively defends nests in spring."
+    }
+   ],
+   "name_es": "Canada Goose",
+   "name_fr": "Canada Goose",
+   "name_it": "Canada Goose"
+  },
+  {
+   "name": "Wood Duck",
+   "slug": "wood-duck",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Often called the most beautiful duck in North America — a jewel of wooded swamps."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: iridescent green-and-purple crested head with bold white stripes, red eye, chestnut chest. Female: gray-brown with a white teardrop eye-ring."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Wooded swamps, marshes, and quiet ponds with trees. Unusual among ducks for nesting in tree cavities and boxes."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Ducklings leap from high nest holes to the ground days after hatching. Gives a rising squeal when flushed."
+    }
+   ],
+   "name_es": "Wood Duck",
+   "name_fr": "Wood Duck",
+   "name_it": "Wood Duck"
+  },
+  {
+   "name": "Mute Swan",
+   "slug": "mute-swan",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A huge, elegant white swan with an orange bill — graceful but introduced and often aggressive."
+    },
+    {
+     "k": "ID Features",
+     "v": "All-white with a long curved neck, orange bill with a black knob at the base. Holds neck in a graceful S-curve."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Ponds, lakes, and coastal bays; native to Eurasia but widely introduced and now feral in North America."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Despite the name, hisses, grunts, and snorts rather than being silent. Aggressively defends territory, even against people."
+    }
+   ],
+   "name_es": "Mute Swan",
+   "name_fr": "Mute Swan",
+   "name_it": "Mute Swan"
+  },
+  {
+   "name": "Common Loon",
+   "slug": "common-loon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An iconic diving bird of northern lakes, famous for its haunting, echoing call."
+    },
+    {
+     "k": "ID Features",
+     "v": "Breeding adult: black head, blood-red eye, checkerboard black-and-white back, banded neck collar. Heavy, dagger-like bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Clear northern lakes in summer; coasts and large lakes in winter (in plainer gray plumage). A symbol of northern wilderness."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Its wailing, yodeling, and laughing calls carry across lakes at night. Dives deep to catch fish; nearly helpless on land."
+    }
+   ],
+   "name_es": "Common Loon",
+   "name_fr": "Common Loon",
+   "name_it": "Common Loon"
+  },
+  {
+   "cat": "SONGBIRDS"
+  },
+  {
+   "name": "American Robin",
+   "slug": "american-robin",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The classic harbinger of spring — a familiar thrush hopping across lawns."
+    },
+    {
+     "k": "ID Features",
+     "v": "Gray-brown above with a warm brick-orange breast, dark head, white throat streaks, and a yellow bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Lawns, gardens, parks, and woodlands across North America. Among the first birds singing before dawn."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Cocks its head to 'listen' for worms, then runs and stops across the grass. Sings a cheerful, caroling 'cheerily, cheer-up'."
+    }
+   ],
+   "name_es": "American Robin",
+   "name_fr": "American Robin",
+   "name_it": "American Robin"
+  },
+  {
+   "name": "Northern Cardinal",
+   "slug": "northern-cardinal",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A beloved year-round backyard bird — the bright red 'redbird' of the eastern US."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: brilliant red all over with a black face mask and a pointed crest. Female: warm tan with red tinges, same crest and mask."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Woodland edges, gardens, and shrubby backyards across the eastern and central US. A common, welcome feeder visitor."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Both sexes sing a clear, whistled 'birdy-birdy-birdy' or 'cheer-cheer-cheer.' Doesn't migrate, brightening winter feeders."
+    }
+   ],
+   "name_es": "Northern Cardinal",
+   "name_fr": "Northern Cardinal",
+   "name_it": "Northern Cardinal"
+  },
+  {
+   "name": "Eastern Bluebird",
+   "slug": "eastern-bluebird",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small, vivid thrush and a classic symbol of happiness, saved by nest-box programs."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: deep blue above with a rusty-orange throat and chest, white belly. Female: grayer with blue-tinged wings and tail."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open country with scattered trees — meadows, orchards, and roadsides — in the eastern US. Nests in cavities and boxes."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Perches low and drops to catch insects. Gives a soft, warbling 'chur-lee' call. Recovered thanks to widespread nest boxes."
+    }
+   ],
+   "name_es": "Eastern Bluebird",
+   "name_fr": "Eastern Bluebird",
+   "name_it": "Eastern Bluebird"
+  },
+  {
+   "name": "American Goldfinch",
+   "slug": "american-goldfinch",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The bright 'wild canary' that brightens summer fields and thistle feeders."
+    },
+    {
+     "k": "ID Features",
+     "v": "Breeding male: brilliant lemon-yellow with a black cap and black-and-white wings. Female and winter birds: dull olive-yellow."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Weedy fields, gardens, and roadsides across North America. A late nester, timed to thistle and sunflower seeds."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Bounces through the air in deep undulations, calling 'po-ta-to-chip.' Almost entirely vegetarian, eating seeds."
+    }
+   ],
+   "name_es": "American Goldfinch",
+   "name_fr": "American Goldfinch",
+   "name_it": "American Goldfinch"
+  },
+  {
+   "name": "Song Sparrow",
+   "slug": "song-sparrow",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A widespread, streaky brown sparrow with one of the most variable, musical songs."
+    },
+    {
+     "k": "ID Features",
+     "v": "Brown and gray with heavy dark streaks converging into a central spot on the chest. Long, rounded tail it pumps in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Brushy fields, marsh edges, gardens, and thickets across most of North America. One of the continent's most common sparrows."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Sings a bright, complex song that varies by region — a few clear notes followed by a trill. Pumps its tail as it flies."
+    }
+   ],
+   "name_es": "Song Sparrow",
+   "name_fr": "Song Sparrow",
+   "name_it": "Song Sparrow"
+  },
+  {
+   "name": "Red-winged Blackbird",
+   "slug": "red-winged-blackbird",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An abundant marsh blackbird whose males flash scarlet shoulder patches."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: glossy black with bright red-and-yellow shoulder patches (epaulets). Female: heavily streaked brown, looking like a large sparrow."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Marshes, wet fields, and roadside ditches across North America — one of the continent's most numerous birds."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Males sing a gurgling 'conk-la-ree!' from cattails and fiercely defend territory, even dive-bombing intruders."
+    }
+   ],
+   "name_es": "Red-winged Blackbird",
+   "name_fr": "Red-winged Blackbird",
+   "name_it": "Red-winged Blackbird"
+  },
+  {
+   "name": "Baltimore Oriole",
+   "slug": "baltimore-oriole",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A flame-orange songbird that weaves a hanging, sock-like nest."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: brilliant orange and black with white wing bars. Female: yellow-orange and grayer. Slender, pointed bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open woodlands, parks, and leafy suburbs in the eastern US in summer; winters in the tropics."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a rich, flutelike whistle from the treetops. Sips nectar and fruit — attracted to orange halves and jelly feeders."
+    }
+   ],
+   "name_es": "Baltimore Oriole",
+   "name_fr": "Baltimore Oriole",
+   "name_it": "Baltimore Oriole"
+  },
+  {
+   "cat": "CROWS & JAYS"
+  },
+  {
+   "name": "American Crow",
+   "slug": "american-crow",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The familiar all-black, highly intelligent bird with the classic 'caw.'"
+    },
+    {
+     "k": "ID Features",
+     "v": "Entirely glossy black, including the bill and legs; fan-shaped tail in flight. Smaller than a raven, with a straighter bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Nearly everywhere in North America — fields, towns, woods, and dumps. Gathers in huge winter roosts."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Says a clear 'caw-caw.' Remarkably smart: uses tools, recognizes human faces, and remembers them for years."
+    }
+   ],
+   "name_es": "American Crow",
+   "name_fr": "American Crow",
+   "name_it": "American Crow"
+  },
+  {
+   "name": "Common Raven",
+   "slug": "common-raven",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large, shaggy, supremely intelligent black bird of wild and mountainous country."
+    },
+    {
+     "k": "ID Features",
+     "v": "Bigger and bulkier than a crow, with a heavy bill, shaggy throat feathers, and a wedge-shaped (diamond) tail in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Mountains, forests, deserts, and coasts across the Northern Hemisphere. Returning to many areas it was once driven from."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a deep, croaking 'gronk' rather than a caw. Soars and tumbles in acrobatic flight; among the smartest of all birds."
+    }
+   ],
+   "name_es": "Common Raven",
+   "name_fr": "Common Raven",
+   "name_it": "Common Raven"
+  },
+  {
+   "name": "Blue Jay",
+   "slug": "blue-jay",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A bold, noisy, crested blue bird that dominates eastern feeders."
+    },
+    {
+     "k": "ID Features",
+     "v": "Bright blue above with white underparts, a blue crest, black necklace, and white-and-black barred wings and tail."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Oak and mixed woods, parks, and suburbs in the eastern and central US. Plants oak forests by caching acorns."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Loud and varied: harsh 'jay-jay' screams, plus eerily accurate imitations of hawk calls to scare other birds off feeders."
+    }
+   ],
+   "name_es": "Blue Jay",
+   "name_fr": "Blue Jay",
+   "name_it": "Blue Jay"
+  },
+  {
+   "name": "Black-billed Magpie",
+   "slug": "black-billed-magpie",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A flashy, long-tailed black-and-white relative of crows in the open West."
+    },
+    {
+     "k": "ID Features",
+     "v": "Bold black-and-white pattern with iridescent blue-green wings and an extremely long, tapering tail."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open country, ranchland, and streamside thickets in the western US and Canada. Often seen near livestock."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Noisy, chattering calls. Builds huge domed stick nests. Curious and intelligent, like its crow and jay relatives."
+    }
+   ],
+   "name_es": "Black-billed Magpie",
+   "name_fr": "Black-billed Magpie",
+   "name_it": "Black-billed Magpie"
+  },
+  {
+   "cat": "WOODPECKERS"
+  },
+  {
+   "name": "Downy Woodpecker",
+   "slug": "downy-woodpecker",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The smallest and most common North American woodpecker — a tiny feeder regular."
+    },
+    {
+     "k": "ID Features",
+     "v": "Black-and-white with a checkered back, white belly, and (in males) a small red patch on the back of the head. Tiny, stubby bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Woodlands, parks, and backyards across most of North America. Readily visits suet feeders."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a soft 'pik' and a descending whinny. Taps lightly on small branches; nearly identical to the larger Hairy Woodpecker."
+    }
+   ],
+   "name_es": "Downy Woodpecker",
+   "name_fr": "Downy Woodpecker",
+   "name_it": "Downy Woodpecker"
+  },
+  {
+   "name": "Pileated Woodpecker",
+   "slug": "pileated-woodpecker",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A spectacular crow-sized woodpecker with a flaming red crest — the 'Woody Woodpecker' bird."
+    },
+    {
+     "k": "ID Features",
+     "v": "Big and black with a bright red triangular crest, white neck stripes, and white wing flashes in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Mature forests with large dead trees across much of North America. Increasingly seen in wooded suburbs."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Loud, ringing, irregular call and powerful drumming. Chisels large rectangular holes in trees hunting carpenter ants."
+    }
+   ],
+   "name_es": "Pileated Woodpecker",
+   "name_fr": "Pileated Woodpecker",
+   "name_it": "Pileated Woodpecker"
+  },
+  {
+   "name": "Northern Flicker",
+   "slug": "northern-flicker",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An unusual brown woodpecker that feeds on the ground, eating ants."
+    },
+    {
+     "k": "ID Features",
+     "v": "Brown with black bars and spots, a black chest crescent, and a flash of yellow or red under the wings and tail. White rump in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open woods, parks, and lawns across North America. Often seen hopping on the ground rather than on tree trunks."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a loud, rolling 'wick-wick-wick' and a sharp 'klee-yer.' Drums on metal gutters in spring to claim territory."
+    }
+   ],
+   "name_es": "Northern Flicker",
+   "name_fr": "Northern Flicker",
+   "name_it": "Northern Flicker"
+  },
+  {
+   "name": "Red-bellied Woodpecker",
+   "slug": "red-bellied-woodpecker",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A common eastern woodpecker, confusingly named for a faint belly tinge, not its bold red cap."
+    },
+    {
+     "k": "ID Features",
+     "v": "Pale gray face and underparts with a black-and-white 'zebra' back and a red crown and nape (the belly red is hard to see)."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Woodlands, parks, and suburbs in the eastern US, expanding northward. A frequent feeder visitor."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a rolling 'churr' call. Stores food in bark crevices; comes readily to suet and seed feeders."
+    }
+   ],
+   "name_es": "Red-bellied Woodpecker",
+   "name_fr": "Red-bellied Woodpecker",
+   "name_it": "Red-bellied Woodpecker"
+  },
+  {
+   "cat": "SHORE & WATER"
+  },
+  {
+   "name": "Great Blue Heron",
+   "slug": "great-blue-heron",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tall, stately wading bird — the largest heron in North America."
+    },
+    {
+     "k": "ID Features",
+     "v": "Blue-gray with a long neck, dagger bill, black eye plume, and long legs. Stands over a meter tall; flies with neck folded into an S."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Marshes, shorelines, rivers, and ponds across North America. Nests colonially in treetop 'rookeries.'"
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Stalks slowly in shallow water, then spears fish with a lightning strike. Gives a harsh, croaking squawk when flushed."
+    }
+   ],
+   "name_es": "Great Blue Heron",
+   "name_fr": "Great Blue Heron",
+   "name_it": "Great Blue Heron"
+  },
+  {
+   "name": "American White Pelican",
+   "slug": "american-white-pelican",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An enormous white waterbird with one of the largest wingspans on the continent."
+    },
+    {
+     "k": "ID Features",
+     "v": "Bright white with black wingtips, a huge orange bill and throat pouch. Wingspan up to ~2.7 m."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Large lakes and marshes in the interior West in summer; southern coasts in winter. Breeds in colonies on isolated islands."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Unlike brown pelicans, it doesn't dive — groups herd fish cooperatively at the surface and scoop them up. Soars in graceful formations."
+    }
+   ],
+   "name_es": "American White Pelican",
+   "name_fr": "American White Pelican",
+   "name_it": "American White Pelican"
+  },
+  {
+   "name": "Ring-billed Gull",
+   "slug": "ring-billed-gull",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The common 'seagull' of parking lots, parks, and lakes far from any sea."
+    },
+    {
+     "k": "ID Features",
+     "v": "White with a gray back, black wingtips, yellow legs, and a yellow bill with a distinct black ring near the tip."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Lakes, rivers, fields, and urban areas across North America — often nowhere near the ocean."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Bold and adaptable, scavenging fries and scraps. Gives the classic squealing gull calls. Takes years to reach adult plumage."
+    }
+   ],
+   "name_es": "Ring-billed Gull",
+   "name_fr": "Ring-billed Gull",
+   "name_it": "Ring-billed Gull"
+  },
+  {
+   "name": "Sandhill Crane",
+   "slug": "sandhill-crane",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tall gray crane famous for spectacular migrations and bugling calls."
+    },
+    {
+     "k": "ID Features",
+     "v": "Tall and gray with a red crown, long neck and legs, and a bustle of feathers over the rump. Flies with neck outstretched."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Marshes, prairies, and fields. Gathers by the hundreds of thousands at migration stopovers like Nebraska's Platte River."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a loud, rolling, bugling call audible for miles. Performs leaping, bowing courtship dances. Flies with neck straight, unlike herons."
+    }
+   ],
+   "name_es": "Sandhill Crane",
+   "name_fr": "Sandhill Crane",
+   "name_it": "Sandhill Crane"
+  },
+  {
+   "name": "Belted Kingfisher",
+   "slug": "belted-kingfisher",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A stocky, big-headed bird that dives headfirst for fish."
+    },
+    {
+     "k": "ID Features",
+     "v": "Blue-gray with a shaggy crest, white collar, and a heavy bill. Females have an extra rusty band across the belly."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Along rivers, lakes, and coasts across North America. Nests in burrows dug into earthen banks."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a loud, dry rattle as it flies along the water. Hovers, then plunges headfirst to catch fish."
+    }
+   ],
+   "name_es": "Belted Kingfisher",
+   "name_fr": "Belted Kingfisher",
+   "name_it": "Belted Kingfisher"
+  },
+  {
+   "cat": "OWLS"
+  },
+  {
+   "name": "Great Horned Owl",
+   "slug": "great-horned-owl",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A powerful, wide-ranging owl with prominent ear tufts — the classic 'hoot owl.'"
+    },
+    {
+     "k": "ID Features",
+     "v": "Large and bulky with feathered 'horns' (ear tufts), a white throat patch, yellow eyes, and mottled gray-brown camouflage."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Forests, deserts, city parks — nearly every habitat across the Americas. One of the most adaptable owls."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a deep, rhythmic 'hoo-h'HOO-hoo-hoo.' A fierce nocturnal hunter that even takes skunks and other raptors."
+    }
+   ],
+   "name_es": "Great Horned Owl",
+   "name_fr": "Great Horned Owl",
+   "name_it": "Great Horned Owl"
+  },
+  {
+   "name": "Barred Owl",
+   "slug": "barred-owl",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A round-headed, dark-eyed owl of wet woodlands, known for its 'who-cooks-for-you' call."
+    },
+    {
+     "k": "ID Features",
+     "v": "Stocky and gray-brown with no ear tufts, dark brown eyes (most owls have yellow), and vertical belly streaks over horizontal chest bars."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Mature, often swampy forests in the eastern US, expanding into the Pacific Northwest. Roosts quietly by day."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Famous hooting cadence sounds like 'Who cooks for you? Who cooks for you-all?' Active at dusk and on cloudy days."
+    }
+   ],
+   "name_es": "Barred Owl",
+   "name_fr": "Barred Owl",
+   "name_it": "Barred Owl"
+  },
+  {
+   "name": "Barn Owl",
+   "slug": "barn-owl",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A pale, ghostly, heart-faced owl found on nearly every continent."
+    },
+    {
+     "k": "ID Features",
+     "v": "Pale golden-buff above, white below, with a distinctive white heart-shaped facial disc and dark eyes. Long legs."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open country, farmland, and grasslands worldwide. Nests in barns, hollow trees, and nest boxes."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives an eerie, raspy shriek rather than a hoot. Hunts low over fields, locating rodents by sound with extraordinary hearing."
+    }
+   ],
+   "name_es": "Barn Owl",
+   "name_fr": "Barn Owl",
+   "name_it": "Barn Owl"
+  },
+  {
+   "name": "Eastern Screech-Owl",
+   "slug": "eastern-screech-owl",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tiny, well-camouflaged owl with a wavering, whinnying call — not a screech."
+    },
+    {
+     "k": "ID Features",
+     "v": "Small with ear tufts and yellow eyes; comes in gray or rusty-red color forms. Superbly camouflaged against bark."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Wooded suburbs, parks, and forests in the eastern US. Roosts in tree cavities and nest boxes, often in plain sight."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a soft, descending whinny and an even trill — not an actual screech. Strictly nocturnal and easily overlooked."
+    }
+   ],
+   "name_es": "Eastern Screech-Owl",
+   "name_fr": "Eastern Screech-Owl",
+   "name_it": "Eastern Screech-Owl"
+  },
+  {
+   "name": "Snowy Owl",
+   "slug": "snowy-owl",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large white owl of the Arctic, made famous as Harry Potter's Hedwig."
+    },
+    {
+     "k": "ID Features",
+     "v": "Big and rounded with no ear tufts; males nearly pure white, females and young flecked with dark bars. Bright yellow eyes."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Breeds on the open Arctic tundra; some winters move south into fields, airports, and shorelines ('irruptions')."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Largely silent in winter. Hunts by day as well as night, unusual for an owl — adapted to the round-the-clock Arctic summer."
+    }
+   ],
+   "name_es": "Snowy Owl",
+   "name_fr": "Snowy Owl",
+   "name_it": "Snowy Owl"
+  },
+  {
+   "cat": "BACKYARD BIRDS"
+  },
+  {
+   "name": "Black-capped Chickadee",
+   "slug": "black-capped-chickadee",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tiny, fearless, endlessly cheerful feeder bird that often comes to the hand."
+    },
+    {
+     "k": "ID Features",
+     "v": "Round little bird with a black cap and bib, white cheeks, gray back, and buffy sides. Big head, small body."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Woods, parks, and backyards across the northern US and Canada. A constant, tame presence at feeders."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Says its own name: 'chick-a-dee-dee-dee,' adding more 'dees' when alarmed. Also whistles a clear 'fee-bee.'"
+    }
+   ],
+   "name_es": "Black-capped Chickadee",
+   "name_fr": "Black-capped Chickadee",
+   "name_it": "Black-capped Chickadee"
+  },
+  {
+   "name": "House Sparrow",
+   "slug": "house-sparrow",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The ubiquitous little brown bird of cities and farms worldwide — introduced from Europe."
+    },
+    {
+     "k": "ID Features",
+     "v": "Male: gray crown, black bib, chestnut nape, streaky brown back. Female: plain brown with a pale eyebrow stripe."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Cities, farms, and buildings on every inhabited continent. Thrives around human structures and activity."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives monotonous chirps and cheeps. Highly social, nesting in building crevices; an aggressive competitor with native birds."
+    }
+   ],
+   "name_es": "House Sparrow",
+   "name_fr": "House Sparrow",
+   "name_it": "House Sparrow"
+  },
+  {
+   "name": "Mourning Dove",
+   "slug": "mourning-dove",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A slim, soft-gray dove whose mournful cooing is one of the most familiar bird sounds."
+    },
+    {
+     "k": "ID Features",
+     "v": "Slender and gray-tan with black spots on the wings, a long pointed tail with white edges, and a small head."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Open country, farms, and suburbs across North America — one of the most abundant and widespread birds."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Its low, sad 'coo-OO-oo-oo-oo' is often mistaken for an owl. Wings whistle sharply on takeoff."
+    }
+   ],
+   "name_es": "Mourning Dove",
+   "name_fr": "Mourning Dove",
+   "name_it": "Mourning Dove"
+  },
+  {
+   "name": "Ruby-throated Hummingbird",
+   "slug": "ruby-throated-hummingbird",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tiny, dazzling hummingbird — the common breeding hummingbird of eastern North America."
+    },
+    {
+     "k": "ID Features",
+     "v": "Iridescent green above, pale below; males flash a brilliant ruby-red throat that can look black in poor light. Needle-like bill."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Gardens, woodland edges, and feeders in the eastern US in summer. Migrates astonishingly far for its size, crossing the Gulf of Mexico."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Hovers and even flies backward, wings humming. Fiercely territorial at flowers and nectar feeders despite its tiny size."
+    }
+   ],
+   "name_es": "Ruby-throated Hummingbird",
+   "name_fr": "Ruby-throated Hummingbird",
+   "name_it": "Ruby-throated Hummingbird"
+  },
+  {
+   "name": "White-breasted Nuthatch",
+   "slug": "white-breasted-nuthatch",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A compact bird famous for walking headfirst down tree trunks."
+    },
+    {
+     "k": "ID Features",
+     "v": "Blue-gray back, white face and underparts, black cap, and a long straight bill. Stubby tail, big head."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Mature woods, parks, and wooded backyards across North America. A regular at seed and suet feeders."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a nasal 'yank-yank.' Creeps down trunks head-first, a trick that lets it spot insects other birds miss."
+    }
+   ],
+   "name_es": "White-breasted Nuthatch",
+   "name_fr": "White-breasted Nuthatch",
+   "name_it": "White-breasted Nuthatch"
+  },
+  {
+   "name": "Dark-eyed Junco",
+   "slug": "dark-eyed-junco",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small, neat sparrow nicknamed the 'snowbird' for arriving with winter."
+    },
+    {
+     "k": "ID Features",
+     "v": "Slate-gray or brown above with a crisp white belly, pink bill, and white outer tail feathers that flash in flight."
+    },
+    {
+     "k": "Habitat & Range",
+     "v": "Breeds in northern and mountain forests; floods into backyards and feeders across the US in winter."
+    },
+    {
+     "k": "Song & Behavior",
+     "v": "Gives a musical trill and sharp smacking call notes. Forages on the ground, flashing white tail feathers as it flushes."
+    }
+   ],
+   "name_es": "Dark-eyed Junco",
+   "name_fr": "Dark-eyed Junco",
+   "name_it": "Dark-eyed Junco"
+  }
+ ]
+}

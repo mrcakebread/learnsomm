@@ -1,0 +1,356 @@
+{
+ "title": "Space Exploration — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "AGENCIES"
+  },
+  {
+   "name": "NASA",
+   "slug": "agencies-nasa",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "NASA (National Aeronautics and Space Administration) was founded in 1958 by President Eisenhower in response to the Soviet Sputnik launch. Headquartered in Washington D.C."
+    },
+    {
+     "k": "Significance",
+     "v": "NASA's annual budget is approximately $25 billion — less than 0.5% of the federal budget, yet it has produced technologies including memory foam, scratch-resistant lenses, water filters, CAT scans, and the internet (ARPANET was defense-fund…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "NASA stands for 'National Aeronautics and Space Administration.' Before NASA, the NACA (National Advisory Committee for Aeronautics, founded 1915) handled aviation research."
+    }
+   ],
+   "name_es": "NASA",
+   "name_fr": "NASA",
+   "name_it": "NASA"
+  },
+  {
+   "name": "ESA",
+   "slug": "agencies-esa",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "ESA (European Space Agency) was founded in 1975 and has 22 member states. It operates the Ariane rocket program, the Copernicus Earth observation system, and has contributed to the ISS, Hubble, and Mars missions."
+    },
+    {
+     "k": "Significance",
+     "v": "Kourou, French Guiana is ideal for rocket launches because it's near the equator (2° N), where Earth's rotation gives rockets an extra velocity boost — saving fuel equivalent to 15–25% of the rocket's mass."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "ESA's Huygens probe (2005) made the first landing on Saturn's moon Titan — the most distant landing ever achieved. The Rosetta mission (2014) achieved the first soft landing on a comet."
+    }
+   ],
+   "name_es": "ESA",
+   "name_fr": "ESA",
+   "name_it": "ESA"
+  },
+  {
+   "name": "SpaceX",
+   "slug": "agencies-spacex",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "SpaceX (Space Exploration Technologies Corp.) was founded by Elon Musk in 2002. It became the first private company to successfully launch, orbit, and recover a spacecraft (2010), dock with the ISS (2012), and land orbital rocket boosters (…"
+    },
+    {
+     "k": "Significance",
+     "v": "SpaceX's reusable rockets cut launch costs from ~$60,000/kg (Space Shuttle era) to ~$2,700/kg — a 20× reduction that triggered a commercial space revolution and enabled the Starlink constellation of 6,000+ satellites."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "SpaceX was the first private company to send humans to orbit (Crew Dragon Demo-2, May 2020). Its Starship — the largest and most powerful rocket ever built (33 Raptor engines, 7.5 million kg of thrust) — aims to carry humans to Mars."
+    }
+   ],
+   "name_es": "SpaceX",
+   "name_fr": "SpaceX",
+   "name_it": "SpaceX"
+  },
+  {
+   "name": "Roscosmos",
+   "slug": "agencies-roscosmos",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Roscosmos is Russia's state space corporation, successor to the Soviet space program."
+    },
+    {
+     "k": "Significance",
+     "v": "After the Space Shuttle retired (2011), the Russian Soyuz was the only way to reach the ISS until SpaceX Crew Dragon (2020) — NASA paid ~$90 million per seat."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Soviet/Russian space program pioneered the Venera probes (first soft landing on Venus, 1970), the Mir space station (1986–2001), and the world's longest-running crewed rocket (Soyuz)."
+    }
+   ],
+   "name_es": "Roscosmos",
+   "name_fr": "Roscosmos",
+   "name_it": "Roscosmos"
+  },
+  {
+   "cat": "MISSIONS"
+  },
+  {
+   "name": "Apollo 11",
+   "slug": "missions-apollo-11",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Apollo 11 (July 16–24, 1969) was the first crewed mission to land on the Moon. Neil Armstrong became the first human to walk on the Moon on July 20, 1969, followed by Buzz Aldrin. Michael Collins orbited in the Command Module."
+    },
+    {
+     "k": "Significance",
+     "v": "Apollo 11 is the most watched television event in history up to that point (600 million viewers) and represents the culmination of the Space Race — demonstrating U.S."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Armstrong's first words on the Moon: 'That's one small step for [a] man, one giant leap for mankind.' The lunar module was named Eagle ('The Eagle has landed'). The mission computer had less processing power than a modern smartphone."
+    }
+   ],
+   "name_es": "Apolo 11",
+   "name_fr": "Apollo 11",
+   "name_it": "Apollo 11"
+  },
+  {
+   "name": "Voyager Program",
+   "slug": "missions-voyager",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Voyager 1 and 2 were launched in 1977 to explore the outer solar system. Both took advantage of a rare planetary alignment occurring once every 176 years."
+    },
+    {
+     "k": "Significance",
+     "v": "Voyager 2 is the only spacecraft to have visited all four outer planets (Jupiter, Saturn, Uranus, Neptune). Its flyby of Neptune in 1989 discovered 5 new moons and the Great Dark Spot."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Voyager mission was proposed by JPL's Gary Flandro in 1966. The Golden Record was curated by Carl Sagan's team and contains music (including Beethoven and Chuck Berry), greetings in 55 languages, and images of Earth."
+    }
+   ],
+   "name_es": "Programa Voyager",
+   "name_fr": "Programme Voyager",
+   "name_it": "Programma Voyager"
+  },
+  {
+   "name": "Mars Rovers",
+   "slug": "missions-mars-rovers",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Five rovers have operated on Mars: Sojourner (1997, 83 days), Spirit (2004–2010, 6 years), Opportunity (2004–2018, 14 years), Curiosity (2012–present), and Perseverance (2021–present)."
+    },
+    {
+     "k": "Significance",
+     "v": "The Mars rovers have discovered evidence that Mars once had liquid water on its surface — including dry river beds, mineral deposits formed in water, and rounded pebbles — strongly suggesting Mars may once have been habitable."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Opportunity was designed for 90 days but lasted 14 years, covering 45.16 km — the longest extraterrestrial drive."
+    }
+   ],
+   "name_es": "Róvers de Marte",
+   "name_fr": "Rovers de Mars",
+   "name_it": "Rover di Marte"
+  },
+  {
+   "name": "Hubble Space Telescope",
+   "slug": "missions-hubble",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Hubble was launched in 1990 and orbits Earth at 547 km altitude, completing one orbit every 95 minutes. It operates in ultraviolet, visible, and near-infrared light."
+    },
+    {
+     "k": "Significance",
+     "v": "Hubble's observations determined the age of the universe (13.8 billion years), confirmed that the universe's expansion is accelerating (discovering dark energy), and produced the Deep Field images showing thousands of galaxies in a tiny pat…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named for astronomer Edwin Hubble (1889–1953), who proved in 1924 that 'nebulae' outside the Milky Way were actually separate galaxies, and in 1929 discovered that the universe is expanding."
+    }
+   ],
+   "name_es": "Telescopio Espacial Hubble",
+   "name_fr": "Télescope Spatial Hubble",
+   "name_it": "Telescopio Spaziale Hubble"
+  },
+  {
+   "cat": "VEHICLES"
+  },
+  {
+   "name": "International Space Station",
+   "slug": "vehicles-iss",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The ISS is the largest structure ever assembled in space — 109 m wide, 73 m long, weighing 420,000 kg. It orbits at ~408 km altitude, traveling at 27,600 km/h and completing 15.5 orbits per day."
+    },
+    {
+     "k": "Significance",
+     "v": "The ISS represents one of the greatest international collaborations in history — built jointly by the U.S., Russia, Europe, Japan, and Canada during a period of post-Cold War cooperation."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The ISS is visible to the naked eye from Earth — it's the third-brightest object in the night sky after the Moon and Venus. It cost approximately $150 billion to build — the most expensive single structure ever constructed."
+    }
+   ],
+   "name_es": "Estación Espacial Internacional",
+   "name_fr": "Station Spatiale Internationale",
+   "name_it": "Stazione Spaziale Internazionale"
+  },
+  {
+   "name": "Saturn V Rocket",
+   "slug": "vehicles-saturn-v",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Saturn V was the most powerful rocket ever flown successfully — 111 m tall, generating 3.4 million kg of thrust (7.5 million pounds), burning 2 million liters of fuel in 2.5 minutes, and lifting 140,000 kg to low Earth orbit."
+    },
+    {
+     "k": "Significance",
+     "v": "Saturn V had a perfect record — 13 launches, 13 successes, no crew lost due to rocket failure. Its F-1 engines remain the most powerful single-chamber liquid-fueled rocket engines ever built."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Saturn V was designed by Wernher von Braun's team at NASA's Marshall Space Flight Center. Von Braun had previously designed the Nazi V-2 rocket. Saturn V remains the only launch vehicle to carry humans beyond low Earth orbit."
+    }
+   ],
+   "name_es": "Cohete Saturno V",
+   "name_fr": "Fusée Saturn V",
+   "name_it": "Razzo Saturn V"
+  },
+  {
+   "cat": "MILESTONES"
+  },
+  {
+   "name": "Sputnik (1957)",
+   "slug": "milestones-sputnik",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Sputnik 1 was the world's first artificial satellite, launched by the Soviet Union on October 4, 1957."
+    },
+    {
+     "k": "Significance",
+     "v": "Sputnik's launch shocked the U.S. and triggered the Space Race — directly leading to the creation of NASA (1958), DARPA (1958), and a massive increase in science and math education funding (National Defense Education Act, 1958)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Sputnik' is Russian for 'satellite' or 'fellow traveler.' Sputnik 2 (November 1957) carried Laika the dog — the first living creature in orbit, though she died within hours from overheating. The U.S."
+    }
+   ],
+   "name_es": "Sputnik (1957)",
+   "name_fr": "Spoutnik (1957)",
+   "name_it": "Sputnik (1957)"
+  },
+  {
+   "name": "Yuri Gagarin (1961)",
+   "slug": "milestones-gagarin",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human in space, completing one orbit of Earth in 108 minutes aboard Vostok 1. He reached an altitude of 327 km and traveled at 27,400 km/h."
+    },
+    {
+     "k": "Significance",
+     "v": "Gagarin's flight was a massive Soviet propaganda victory, demonstrating that the USSR had beaten the U.S. to every early milestone — first satellite, first animal in space, first human in space."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Gagarin's famous words in orbit: 'Poyekhali!' ('Let's go!'). He became one of the most famous people on Earth and was awarded the Hero of the Soviet Union. He died in a MiG-15 training jet crash in 1968 at age 34."
+    }
+   ],
+   "name_es": "Yuri Gagarin (1961)",
+   "name_fr": "Youri Gagarine (1961)",
+   "name_it": "Yuri Gagarin (1961)"
+  },
+  {
+   "name": "James Webb Space Telescope",
+   "slug": "milestones-james-webb-telescope",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The James Webb Space Telescope (JWST) launched December 25, 2021, and reached its orbital position (L2, 1.5 million km from Earth) in January 2022."
+    },
+    {
+     "k": "Significance",
+     "v": "JWST operates in infrared light, allowing it to see through dust clouds and observe the earliest galaxies formed after the Big Bang."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "JWST took 25 years and $10 billion to develop. It was named after NASA administrator James E. Webb (1961–1968), who oversaw the Apollo program."
+    }
+   ],
+   "name_es": "Telescopio Espacial James Webb",
+   "name_fr": "Télescope Spatial James Webb",
+   "name_it": "Telescopio Spaziale James Webb"
+  },
+  {
+   "cat": "ASTRONOMY BASICS"
+  },
+  {
+   "name": "Light-Year",
+   "slug": "astronomy-light-year",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A light-year is the distance light travels in one year — approximately 9.46 trillion km (5.88 trillion miles). Light travels at 299,792 km/s. The nearest star system (Alpha Centauri) is 4.24 light-years away."
+    },
+    {
+     "k": "Significance",
+     "v": "Because light takes time to travel, looking at distant objects means looking back in time. The Sun's light takes 8 minutes to reach Earth."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The term 'light-year' was coined in 1838 by Friedrich Bessel after he measured the first stellar parallax. It is a unit of distance, not time — a common misconception."
+    }
+   ],
+   "name_es": "Año Luz",
+   "name_fr": "Année-Lumière",
+   "name_it": "Anno Luce"
+  },
+  {
+   "name": "Black Hole",
+   "slug": "astronomy-black-hole",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A black hole is a region of spacetime where gravity is so strong that nothing — not even light — can escape. It forms when a massive star (>20 solar masses) collapses."
+    },
+    {
+     "k": "Significance",
+     "v": "The first image of a black hole was captured in 2019 (M87*), and the first image of our galaxy's black hole Sagittarius A* in 2022, by the Event Horizon Telescope — a global network of radio telescopes acting as one Earth-sized instrument."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The term 'black hole' was coined by physicist John Wheeler in 1967. Einstein's General Relativity predicted their existence (1916), but Einstein himself didn't believe they were real."
+    }
+   ],
+   "name_es": "Agujero Negro",
+   "name_fr": "Trou Noir",
+   "name_it": "Buco Nero"
+  },
+  {
+   "name": "Big Bang",
+   "slug": "astronomy-big-bang",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Big Bang is the prevailing cosmological model for the origin of the universe: approximately 13.8 billion years ago, all matter, energy, space, and time originated from an extremely hot, dense singularity and has been expanding ever sinc…"
+    },
+    {
+     "k": "Significance",
+     "v": "The Big Bang is supported by three key pieces of evidence: the CMB radiation (predicted by the theory and discovered by accident in 1964), the observed expansion of the universe (Hubble, 1929), and the abundance of light elements (hydrogen/…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The term 'Big Bang' was coined sarcastically by astronomer Fred Hoyle in 1949 — he rejected the theory and preferred the 'Steady State' model."
+    }
+   ],
+   "name_es": "Big Bang",
+   "name_fr": "Big Bang",
+   "name_it": "Big Bang"
+  }
+ ]
+}

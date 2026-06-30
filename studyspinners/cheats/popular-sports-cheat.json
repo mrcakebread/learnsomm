@@ -1,0 +1,1229 @@
+{
+ "title": "Popular Sports — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "BALL & TEAM"
+  },
+  {
+   "name": "Soccer (Football)",
+   "slug": "soccer",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The world's most popular sport — two teams of eleven trying to kick a ball into the opposing goal."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more goals than the opponent within 90 minutes by getting the ball into the net, using anything but your hands (except the goalkeeper)."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Endurance, footwork, teamwork, and tactical awareness over a large field for a full 90 minutes."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Universal — the World Cup is the most-watched sporting event on Earth; huge in Europe, South America, Africa, and Asia."
+    }
+   ],
+   "name_es": "Soccer (Football)",
+   "name_fr": "Soccer (Football)",
+   "name_it": "Soccer (Football)"
+  },
+  {
+   "name": "Basketball",
+   "slug": "basketball",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A fast, high-scoring team game of shooting a ball through an elevated hoop."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more points than the other team by shooting the ball through the hoop — worth 2 or 3 points, or 1 from the free-throw line."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Speed, agility, vertical leap, ball-handling, and constant quick decision-making."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "The NBA is a global powerhouse; enormous in the US, and growing fast worldwide."
+    }
+   ],
+   "name_es": "Basketball",
+   "name_fr": "Basketball",
+   "name_it": "Basketball"
+  },
+  {
+   "name": "American Football",
+   "slug": "american-football",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A hard-hitting team sport of advancing an oval ball down the field in set plays."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score by carrying or catching the ball into the end zone (touchdown) or kicking it through the posts; advance 10 yards in four 'downs' to keep possession."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Power, speed, strategy, and specialized roles; bursts of intense effort between set plays."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Dominates US sports culture; the Super Bowl is the biggest single-day sporting event in America."
+    }
+   ],
+   "name_es": "American Football",
+   "name_fr": "American Football",
+   "name_it": "American Football"
+  },
+  {
+   "name": "Baseball",
+   "slug": "baseball",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A bat-and-ball game of pitching, hitting, and running around four bases."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more runs by hitting the pitched ball and running around all four bases before the fielding team gets you out."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Hand-eye coordination, throwing accuracy, explosive bursts, and strategic patience."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "America's 'national pastime'; hugely popular in Japan, South Korea, and Latin America."
+    }
+   ],
+   "name_es": "Baseball",
+   "name_fr": "Baseball",
+   "name_it": "Baseball"
+  },
+  {
+   "name": "Cricket",
+   "slug": "cricket",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A bat-and-ball game between two teams of eleven, played over hours or even days."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more runs than the opponent by hitting the bowled ball and running between wickets, while bowling them out."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Technique, concentration, stamina, and tactics sustained over very long matches."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "The second most-followed sport globally; a passion in India, Pakistan, Australia, England, and the West Indies."
+    }
+   ],
+   "name_es": "Cricket",
+   "name_fr": "Cricket",
+   "name_it": "Cricket"
+  },
+  {
+   "name": "Rugby",
+   "slug": "rugby",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A physical team sport of carrying, passing, and kicking an oval ball to ground it over the line."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score by touching the ball down over the opponent's line (a try) or kicking it through the posts; the ball can only be passed backward."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Strength, stamina, toughness, and teamwork, with continuous full-contact play."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Big in New Zealand, South Africa, the UK, France, and Australia; the Rugby World Cup draws global crowds."
+    }
+   ],
+   "name_es": "Rugby",
+   "name_fr": "Rugby",
+   "name_it": "Rugby"
+  },
+  {
+   "name": "Volleyball",
+   "slug": "volleyball",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A team sport of hitting a ball over a high net so it lands in the opponent's court."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by grounding the ball on the opponent's side; a team has three touches to send it back over the net."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Jumping, quick reflexes, precise hitting and setting, and tight teamwork."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Popular worldwide, including a thriving beach-volleyball version; strong in Brazil, the US, Italy, and Asia."
+    }
+   ],
+   "name_es": "Volleyball",
+   "name_fr": "Volleyball",
+   "name_it": "Volleyball"
+  },
+  {
+   "name": "Field Hockey",
+   "slug": "field-hockey",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A team sport of moving a small hard ball with curved sticks into the goal."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more goals than the opponent by hitting or pushing the ball into the net with a stick."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Stick skills, speed, stamina, and coordination, often played bent low to the ground."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Strong in India, Pakistan, the Netherlands, Australia, and across Europe; a long-standing Olympic sport."
+    }
+   ],
+   "name_es": "Field Hockey",
+   "name_fr": "Field Hockey",
+   "name_it": "Field Hockey"
+  },
+  {
+   "cat": "RACKET & NET"
+  },
+  {
+   "name": "Tennis",
+   "slug": "tennis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A racket sport played one-on-one or in pairs across a net on a marked court."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by hitting the ball so the opponent can't return it in bounds; points build into games, sets, and the match."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Power, agility, precision, and mental stamina over long, momentum-swinging matches."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A global sport with four prestigious Grand Slams (Australian Open, French Open, Wimbledon, US Open)."
+    }
+   ],
+   "name_es": "Tennis",
+   "name_fr": "Tennis",
+   "name_it": "Tennis"
+  },
+  {
+   "name": "Badminton",
+   "slug": "badminton",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A fast racket sport using a feathered shuttlecock instead of a ball."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by landing the shuttlecock in the opponent's court; it must not touch the ground on your side."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Lightning reflexes, agility, and explosive movement — the shuttle can fly off the racket at over 400 km/h."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Enormously popular in Asia, especially China, Indonesia, India, and Malaysia."
+    }
+   ],
+   "name_es": "Badminton",
+   "name_fr": "Badminton",
+   "name_it": "Badminton"
+  },
+  {
+   "name": "Table Tennis",
+   "slug": "table-tennis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A lightning-fast racket sport played across a small table with a light hollow ball — also called ping-pong."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by hitting the ball so it bounces on the opponent's half and they fail to return it legally."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Extraordinary reflexes, fine touch, and spin control in a tiny, high-speed space."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Dominated by China; played casually and competitively all over the world."
+    }
+   ],
+   "name_es": "Table Tennis",
+   "name_fr": "Table Tennis",
+   "name_it": "Table Tennis"
+  },
+  {
+   "name": "Squash",
+   "slug": "squash",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An indoor racket sport played by hitting a small rubber ball against a front wall in an enclosed court."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by hitting the ball off the front wall so the opponent can't return it before it bounces twice."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Explosive fitness, agility, and tactical court positioning in a fast, enclosed space."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Popular in the UK, Egypt (a perennial powerhouse), and across the Commonwealth."
+    }
+   ],
+   "name_es": "Squash",
+   "name_fr": "Squash",
+   "name_it": "Squash"
+  },
+  {
+   "name": "Pickleball",
+   "slug": "pickleball",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A fast-growing paddle sport blending tennis, badminton, and table tennis on a small court."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win points by hitting a perforated plastic ball over the net so the opponent can't return it legally."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Quick reflexes and placement over raw power; easy to learn, which fuels its explosive growth."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "The fastest-growing sport in the United States, spreading rapidly to all ages."
+    }
+   ],
+   "name_es": "Pickleball",
+   "name_fr": "Pickleball",
+   "name_it": "Pickleball"
+  },
+  {
+   "cat": "COMBAT & STRENGTH"
+  },
+  {
+   "name": "Boxing",
+   "slug": "boxing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A combat sport of two fighters throwing punches within a roped ring."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win by knockout, by stopping the opponent, or on points scored for clean, effective punches over the rounds."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Power, speed, footwork, defense, and conditioning, plus tactical ring craft."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A historic global sport with legendary champions; huge pay-per-view title fights."
+    }
+   ],
+   "name_es": "Boxing",
+   "name_fr": "Boxing",
+   "name_it": "Boxing"
+  },
+  {
+   "name": "Wrestling",
+   "slug": "wrestling",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "One of the oldest sports — two competitors grappling to pin or control each other."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win by pinning the opponent's shoulders to the mat, or on points for takedowns, escapes, and control."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Strength, leverage, balance, and technique in close, physical grappling."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "An ancient Olympic sport; strong traditions in the US, Iran, Russia, Japan, and Eastern Europe."
+    }
+   ],
+   "name_es": "Wrestling",
+   "name_fr": "Wrestling",
+   "name_it": "Wrestling"
+  },
+  {
+   "name": "Mixed Martial Arts",
+   "slug": "mma",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A full-contact combat sport combining striking and grappling from many martial arts."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win by knockout, submission (forcing a tap-out), or judges' decision over the rounds."
+    },
+    {
+     "k": "What It Takes",
+     "v": "A complete fighter's skill set — striking, wrestling, and ground grappling — plus elite conditioning."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Driven globally by the UFC; one of the fastest-growing sports of the 21st century."
+    }
+   ],
+   "name_es": "Mixed Martial Arts",
+   "name_fr": "Mixed Martial Arts",
+   "name_it": "Mixed Martial Arts"
+  },
+  {
+   "name": "Judo",
+   "slug": "judo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A Japanese martial art and Olympic sport of throwing and grappling an opponent to the ground."
+    },
+    {
+     "k": "How You Win",
+     "v": "Win by a clean throw (ippon), or by a hold-down, choke, or arm-lock that forces a submission."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Balance, timing, and technique to use the opponent's force against them, rather than brute strength."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Originated in Japan; a global Olympic sport with strong followings across Europe and Asia."
+    }
+   ],
+   "name_es": "Judo",
+   "name_fr": "Judo",
+   "name_it": "Judo"
+  },
+  {
+   "name": "Karate",
+   "slug": "karate",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A striking martial art of punches, kicks, and blocks, practiced for sport, self-defense, and discipline."
+    },
+    {
+     "k": "How You Win",
+     "v": "In sport karate, score points for controlled strikes to target areas, or perform set forms (kata) judged on precision."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Speed, precision, control, and discipline, with years of practice on form and technique."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Rooted in Okinawa, Japan; practiced worldwide and featured in the Olympics."
+    }
+   ],
+   "name_es": "Karate",
+   "name_fr": "Karate",
+   "name_it": "Karate"
+  },
+  {
+   "name": "Weightlifting",
+   "slug": "weightlifting",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A strength sport of lifting a loaded barbell overhead in two precise lifts."
+    },
+    {
+     "k": "How You Win",
+     "v": "Lift the heaviest possible weight in the 'snatch' and the 'clean and jerk'; the best of each are combined for your total."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Explosive power, technique, mobility, and total-body strength in a single all-out effort."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A classic Olympic sport with powerhouse nations including China, Iran, and the former Soviet states."
+    }
+   ],
+   "name_es": "Weightlifting",
+   "name_fr": "Weightlifting",
+   "name_it": "Weightlifting"
+  },
+  {
+   "cat": "TRACK & FIELD"
+  },
+  {
+   "name": "Sprinting",
+   "slug": "sprinting",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Explosive short-distance running races — the purest test of human speed."
+    },
+    {
+     "k": "How You Win",
+     "v": "First across the finish line wins; races like the 100m and 200m are decided in seconds (or hundredths of a second)."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Raw explosive power, fast-twitch speed, and a lightning reaction to the starting gun."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "The blue-riband event of every Olympics and World Championships; the 100m crowns the 'fastest human alive.'"
+    }
+   ],
+   "name_es": "Sprinting",
+   "name_fr": "Sprinting",
+   "name_it": "Sprinting"
+  },
+  {
+   "name": "Distance Running",
+   "slug": "distance-running",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Endurance races over middle and long distances on the track, from 800m up to 10,000m."
+    },
+    {
+     "k": "How You Win",
+     "v": "First to finish wins; success blends raw speed with the stamina to sustain a punishing pace over many laps."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Aerobic endurance, pacing, and a strong finishing kick."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Dominated by East African nations, especially Kenya and Ethiopia; a centerpiece of athletics."
+    }
+   ],
+   "name_es": "Distance Running",
+   "name_fr": "Distance Running",
+   "name_it": "Distance Running"
+  },
+  {
+   "name": "Marathon",
+   "slug": "marathon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A grueling 42.195 km endurance road race — the ultimate test of distance running."
+    },
+    {
+     "k": "How You Win",
+     "v": "First across the line over the full 42.195 km wins; for most runners, simply finishing is the goal."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Extraordinary aerobic endurance, mental toughness, pacing, and fuel management over two-plus hours."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Major city marathons (Boston, London, Berlin, New York, Tokyo) draw tens of thousands of runners."
+    }
+   ],
+   "name_es": "Marathon",
+   "name_fr": "Marathon",
+   "name_it": "Marathon"
+  },
+  {
+   "name": "High Jump",
+   "slug": "high-jump",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A field event of leaping over a horizontal bar set as high as possible."
+    },
+    {
+     "k": "How You Win",
+     "v": "Clear the bar at the greatest height without knocking it off; the highest successful jump wins."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Explosive leg power, speed on the approach, and the precise 'Fosbury flop' technique to arch over the bar."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A staple field event at every athletics championship and the Olympics."
+    }
+   ],
+   "name_es": "High Jump",
+   "name_fr": "High Jump",
+   "name_it": "High Jump"
+  },
+  {
+   "name": "Long Jump",
+   "slug": "long-jump",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A field event of sprinting and leaping for maximum horizontal distance into a sand pit."
+    },
+    {
+     "k": "How You Win",
+     "v": "Jump the farthest from the take-off board into the pit; the longest legal jump wins."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Sprint speed, explosive take-off, and in-air technique to maximize distance."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A classic track-and-field event since the ancient Olympics."
+    }
+   ],
+   "name_es": "Long Jump",
+   "name_fr": "Long Jump",
+   "name_it": "Long Jump"
+  },
+  {
+   "name": "Pole Vault",
+   "slug": "pole-vault",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A spectacular field event of using a flexible pole to launch the body over a high bar."
+    },
+    {
+     "k": "How You Win",
+     "v": "Clear the bar at the greatest height; vaulters use the pole's stored energy to fling themselves upward."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Sprint speed, gymnastic strength, and fearless precise technique while inverted several meters up."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "One of the most thrilling athletics events; vaulters clear over 6 meters at the elite level."
+    }
+   ],
+   "name_es": "Pole Vault",
+   "name_fr": "Pole Vault",
+   "name_it": "Pole Vault"
+  },
+  {
+   "name": "Throwing Events",
+   "slug": "shot-put",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The throwing events of athletics — hurling a heavy object as far as possible (shot put, discus, javelin, hammer)."
+    },
+    {
+     "k": "How You Win",
+     "v": "Throw the implement the greatest legal distance from within the throwing circle or runway."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Raw power, explosive technique, and precise timing to transfer the body's force into the throw."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Core field events at every athletics championship, each with its own specialist technique."
+    }
+   ],
+   "name_es": "Throwing Events",
+   "name_fr": "Throwing Events",
+   "name_it": "Throwing Events"
+  },
+  {
+   "cat": "WATER SPORTS"
+  },
+  {
+   "name": "Swimming",
+   "slug": "swimming",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing through water using one of four strokes over set distances."
+    },
+    {
+     "k": "How You Win",
+     "v": "First to touch the wall wins; races span freestyle, backstroke, breaststroke, and butterfly over various distances."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Full-body power, technique, breath control, and endurance with minimal drag."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A marquee Olympic sport; the pool produces some of the Games' biggest stars."
+    }
+   ],
+   "name_es": "Swimming",
+   "name_fr": "Swimming",
+   "name_it": "Swimming"
+  },
+  {
+   "name": "Diving",
+   "slug": "diving",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Performing acrobatic dives from a springboard or high platform, judged on form."
+    },
+    {
+     "k": "How You Win",
+     "v": "Judges score each dive on take-off, technique, the somersaults and twists, and the splash-free entry."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Body control, courage, spatial awareness, and precision in mid-air during a dive lasting under two seconds."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "An elegant Olympic sport, with China a long-dominant powerhouse."
+    }
+   ],
+   "name_es": "Diving",
+   "name_fr": "Diving",
+   "name_it": "Diving"
+  },
+  {
+   "name": "Surfing",
+   "slug": "surfing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Riding ocean waves on a board — part sport, part art, deeply tied to ocean culture."
+    },
+    {
+     "k": "How You Win",
+     "v": "In competition, judges score riders on the difficulty and style of the maneuvers they perform on each wave."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Balance, wave-reading, paddling fitness, and fearless timing in a constantly changing ocean."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Big in Hawaii, Australia, California, and Brazil; now an Olympic sport."
+    }
+   ],
+   "name_es": "Surfing",
+   "name_fr": "Surfing",
+   "name_it": "Surfing"
+  },
+  {
+   "name": "Water Polo",
+   "slug": "water-polo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A physical team sport of throwing a ball into a goal while treading water in a deep pool."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more goals than the opponent by throwing the ball into their net, all while staying afloat without touching the bottom."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Tremendous swimming stamina, treading-water leg strength, and physical toughness."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Strong in Hungary, the Balkans, Italy, and along the US coasts; a long-standing Olympic sport."
+    }
+   ],
+   "name_es": "Water Polo",
+   "name_fr": "Water Polo",
+   "name_it": "Water Polo"
+  },
+  {
+   "name": "Rowing",
+   "slug": "rowing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Propelling a narrow boat through water with oars, racing in crews or solo."
+    },
+    {
+     "k": "How You Win",
+     "v": "First boat across the line wins; crews of one, two, four, or eight row in perfect unison."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Brutal full-body endurance, leg and core power, and flawless synchronization with the crew."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A prestigious Olympic and collegiate sport; the Oxford–Cambridge Boat Race is a famous tradition."
+    }
+   ],
+   "name_es": "Rowing",
+   "name_fr": "Rowing",
+   "name_it": "Rowing"
+  },
+  {
+   "name": "Sailing",
+   "slug": "sailing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing wind-powered boats around a course, reading wind and water to find the fastest line."
+    },
+    {
+     "k": "How You Win",
+     "v": "First boat to complete the course wins; success comes from harnessing the wind better than rivals."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Tactics, balance, teamwork, and constant reading of wind, current, and weather."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A global Olympic sport; the America's Cup is its most famous prize."
+    }
+   ],
+   "name_es": "Sailing",
+   "name_fr": "Sailing",
+   "name_it": "Sailing"
+  },
+  {
+   "cat": "WHEELS & MOTOR"
+  },
+  {
+   "name": "Cycling",
+   "slug": "cycling",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing bicycles, on roads, tracks, or mountains, individually or in teams."
+    },
+    {
+     "k": "How You Win",
+     "v": "First across the line wins; road racing also rewards team tactics, climbing, and sprinting over long stages."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Leg power, aerobic endurance, tactical racing sense, and bike-handling skill."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "The Tour de France is the sport's crown jewel; track and mountain cycling feature at the Olympics."
+    }
+   ],
+   "name_es": "Cycling",
+   "name_fr": "Cycling",
+   "name_it": "Cycling"
+  },
+  {
+   "name": "Formula 1",
+   "slug": "formula1",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The pinnacle of motorsport — single-seat open-wheel cars racing at extreme speed."
+    },
+    {
+     "k": "How You Win",
+     "v": "First across the line over a Grand Prix wins; a season-long points championship crowns the world champion."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Lightning reflexes, physical endurance against G-forces, precision, and split-second decisions at 300+ km/h."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A global spectacle; Grands Prix span Europe, the Middle East, Asia, and the Americas."
+    }
+   ],
+   "name_es": "Formula 1",
+   "name_fr": "Formula 1",
+   "name_it": "Formula 1"
+  },
+  {
+   "name": "Motorcycle Racing",
+   "slug": "motogp",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Elite motorcycle racing, with riders leaning their bikes to extreme angles at high speed."
+    },
+    {
+     "k": "How You Win",
+     "v": "First across the line over a race wins; a championship runs across a season of Grands Prix."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Fearless precision, balance, physical strength, and razor-fine throttle and braking control."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Hugely popular across Europe and Asia; the premier class of motorcycle road racing."
+    }
+   ],
+   "name_es": "Motorcycle Racing",
+   "name_fr": "Motorcycle Racing",
+   "name_it": "Motorcycle Racing"
+  },
+  {
+   "name": "Skateboarding",
+   "slug": "skateboarding",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Performing tricks and riding on a board with wheels, blending sport and street culture."
+    },
+    {
+     "k": "How You Win",
+     "v": "In competition, judges score the difficulty, style, and execution of tricks on ramps, rails, and street courses."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Balance, fearlessness, creativity, and endless practice to land technical tricks."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Rooted in California street culture; now a global Olympic sport."
+    }
+   ],
+   "name_es": "Skateboarding",
+   "name_fr": "Skateboarding",
+   "name_it": "Skateboarding"
+  },
+  {
+   "name": "BMX",
+   "slug": "bmx",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing or performing tricks on small, sturdy bikes, on dirt tracks or in skate parks."
+    },
+    {
+     "k": "How You Win",
+     "v": "BMX racing: first across a jump-filled dirt track wins. BMX freestyle: judges score tricks on style and difficulty."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Explosive power, balance, bike control, and nerve on jumps and ramps."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Both BMX racing and freestyle are Olympic sports with a strong action-sports following."
+    }
+   ],
+   "name_es": "BMX",
+   "name_fr": "BMX",
+   "name_it": "BMX"
+  },
+  {
+   "cat": "WINTER & ICE"
+  },
+  {
+   "name": "Ice Hockey",
+   "slug": "ice-hockey",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A fast, physical team sport played on ice, driving a puck into the goal with sticks."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score more goals than the opponent by shooting the puck into their net, while skating at high speed."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Skating skill, speed, toughness, stick-handling, and split-second teamwork."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Huge in Canada, the US, Russia, and Northern Europe; the NHL is its top league."
+    }
+   ],
+   "name_es": "Ice Hockey",
+   "name_fr": "Ice Hockey",
+   "name_it": "Ice Hockey"
+  },
+  {
+   "name": "Figure Skating",
+   "slug": "figure-skating",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An elegant ice sport combining jumps, spins, and footwork into a judged performance."
+    },
+    {
+     "k": "How You Win",
+     "v": "Judges score the difficulty and quality of jumps, spins, and choreography set to music."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Balance, artistry, explosive jumping power, and precise technique on thin blades."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A glamorous, popular Winter Olympics sport; strong in Russia, Japan, and the US."
+    }
+   ],
+   "name_es": "Figure Skating",
+   "name_fr": "Figure Skating",
+   "name_it": "Figure Skating"
+  },
+  {
+   "name": "Alpine Skiing",
+   "slug": "alpine-skiing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing down a snow-covered mountain course on skis at high speed."
+    },
+    {
+     "k": "How You Win",
+     "v": "Fastest time down the marked course wins, through gates in events like slalom, giant slalom, and downhill."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Nerve, leg strength, balance, and precise turning at speeds that can top 130 km/h."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A flagship Winter Olympics sport; strong in the Alpine nations of Austria, Switzerland, and France."
+    }
+   ],
+   "name_es": "Alpine Skiing",
+   "name_fr": "Alpine Skiing",
+   "name_it": "Alpine Skiing"
+  },
+  {
+   "name": "Snowboarding",
+   "slug": "snowboarding",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Riding down slopes or performing tricks on a single board strapped to both feet."
+    },
+    {
+     "k": "How You Win",
+     "v": "Racing events reward the fastest time; freestyle events are judged on the difficulty and style of tricks in the halfpipe or slopestyle course."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Balance, board control, and fearless aerial skill, especially in freestyle events."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A youthful, culture-driven Winter Olympics sport with a big action-sports following."
+    }
+   ],
+   "name_es": "Snowboarding",
+   "name_fr": "Snowboarding",
+   "name_it": "Snowboarding"
+  },
+  {
+   "name": "Speed Skating",
+   "slug": "speed-skating",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Racing on ice skates around an oval track, in long-track or short-track formats."
+    },
+    {
+     "k": "How You Win",
+     "v": "Fastest around the track wins; long-track races the clock, while short-track is a tactical pack race."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Powerful legs, balance, aerobic endurance, and (in short-track) fearless tactics in tight packs."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Popular in the Netherlands (a long-track powerhouse), South Korea, and across Northern Europe."
+    }
+   ],
+   "name_es": "Speed Skating",
+   "name_fr": "Speed Skating",
+   "name_it": "Speed Skating"
+  },
+  {
+   "name": "Curling",
+   "slug": "curling",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A strategic ice sport of sliding heavy stones toward a target, sweeping the ice to guide them."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score points by landing your stones closer to the target's center than the opponent's, over several ends."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Precision, strategy, and teamwork — nicknamed 'chess on ice' for its tactical depth."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Strong in Canada, Scotland, and Scandinavia; a quirky Winter Olympics favorite."
+    }
+   ],
+   "name_es": "Curling",
+   "name_fr": "Curling",
+   "name_it": "Curling"
+  },
+  {
+   "cat": "TARGET & PRECISION"
+  },
+  {
+   "name": "Golf",
+   "slug": "golf",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A precision sport of hitting a ball into a series of holes in as few strokes as possible."
+    },
+    {
+     "k": "How You Win",
+     "v": "The lowest total number of strokes over 18 holes wins; every shot from tee to green counts."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Precision, consistency, course management, and mental composure over a four-hour round."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A global sport with four prestigious majors; huge in the US, UK, and increasingly across Asia."
+    }
+   ],
+   "name_es": "Golf",
+   "name_fr": "Golf",
+   "name_it": "Golf"
+  },
+  {
+   "name": "Archery",
+   "slug": "archery",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A precision sport of shooting arrows at a distant target with a bow."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score the most points by landing arrows closest to the bullseye of the target."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Steady nerves, focus, fine motor control, and consistency under pressure."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A long-standing Olympic sport; South Korea is a dominant powerhouse."
+    }
+   ],
+   "name_es": "Archery",
+   "name_fr": "Archery",
+   "name_it": "Archery"
+  },
+  {
+   "name": "Bowling",
+   "slug": "bowling",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Rolling a heavy ball down a lane to knock over ten pins."
+    },
+    {
+     "k": "How You Win",
+     "v": "Score points by knocking down as many pins as possible per frame; strikes and spares earn bonus pins."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Consistency, accuracy, spin control, and concentration over ten frames."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A hugely popular recreational sport, especially in the US, with a competitive professional tour."
+    }
+   ],
+   "name_es": "Bowling",
+   "name_fr": "Bowling",
+   "name_it": "Bowling"
+  },
+  {
+   "name": "Darts",
+   "slug": "darts",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A precision sport of throwing small darts at a numbered circular board."
+    },
+    {
+     "k": "How You Win",
+     "v": "Race from 501 down to exactly zero, finishing on a double; precise scoring and checkout strategy decide it."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Steady aim, fine control, mental arithmetic, and nerves of steel under crowd pressure."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "A beloved pub sport turned major TV spectacle, especially in the UK and the Netherlands."
+    }
+   ],
+   "name_es": "Darts",
+   "name_fr": "Darts",
+   "name_it": "Darts"
+  },
+  {
+   "name": "Billiards / Pool",
+   "slug": "billiards",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Cue sports played on a cloth table, potting balls into pockets (pool) or scoring by caroms (billiards)."
+    },
+    {
+     "k": "How You Win",
+     "v": "In pool, pot your assigned balls and then the black; in carom billiards, score by striking balls in sequence."
+    },
+    {
+     "k": "What It Takes",
+     "v": "Precision, geometry, cue control, and strategic position play for the next shot."
+    },
+    {
+     "k": "Where It's Big",
+     "v": "Played in bars and halls worldwide; snooker is a major TV sport in the UK and Asia."
+    }
+   ],
+   "name_es": "Billiards / Pool",
+   "name_fr": "Billiards / Pool",
+   "name_it": "Billiards / Pool"
+  }
+ ]
+}

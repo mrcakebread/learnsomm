@@ -1,0 +1,755 @@
+{
+ "title": "Gen-Z & Internet Slang — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "HYPE & PRAISE"
+  },
+  {
+   "name": "Slay",
+   "slug": "slay",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To do something exceptionally well or look fantastic. A versatile term of praise and encouragement — 'you slayed that!' means you crushed it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She walked in wearing that outfit and the whole room agreed: she slayed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'slay' (to kill), via Black and LGBTQ+ ballroom culture, where it long meant to impress dramatically. It spread mainstream as all-purpose praise."
+    }
+   ],
+   "name_es": "Slay",
+   "name_fr": "Slay",
+   "name_it": "Slay"
+  },
+  {
+   "name": "GOAT",
+   "slug": "goat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Greatest Of All Time. Calling someone 'the GOAT' is the highest praise — declaring them the best ever at what they do."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After that performance, fans were calling her the GOAT without hesitation."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'Greatest Of All Time', helped along by the literal goat animal in memes and emojis. Popularized in sports before spreading everywhere."
+    }
+   ],
+   "name_es": "GOAT",
+   "name_fr": "GOAT",
+   "name_it": "GOAT"
+  },
+  {
+   "name": "Fire / Lit",
+   "slug": "fire",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes something excellent, exciting, or impressive. 'Lit' is a close cousin. 'That song is fire' means it's outstanding."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The new album is straight fire — every track hits."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal heat and intensity of 'fire'. Like 'lit' (originally meaning drunk or excited), it casts excellence as something blazing and intense."
+    }
+   ],
+   "name_es": "Fire / Lit",
+   "name_fr": "Fire / Lit",
+   "name_it": "Fire / Lit"
+  },
+  {
+   "name": "W / L",
+   "slug": "w",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'W' is a win; an 'L' is a loss. 'Take the W' means accept the victory; 'that's an L' marks a failure or embarrassment."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Getting the job after that interview? Huge W."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From sports box scores, where 'W' and 'L' mark wins and losses. Internet culture extended them to any success or failure in life, big or small."
+    }
+   ],
+   "name_es": "W / L",
+   "name_fr": "W / L",
+   "name_it": "W / L"
+  },
+  {
+   "name": "Ate (and left no crumbs)",
+   "slug": "ate",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'eat' or 'ate' means to perform something flawlessly. 'Ate and left no crumbs' means doing it so perfectly nothing was left to critique."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She ate that presentation and left no crumbs — absolutely flawless."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Black and drag culture, where 'eating it up' meant a stellar performance. The 'no crumbs' tag emphasizes a perfect, complete job."
+    }
+   ],
+   "name_es": "Ate (and left no crumbs)",
+   "name_fr": "Ate (and left no crumbs)",
+   "name_it": "Ate (and left no crumbs)"
+  },
+  {
+   "name": "Based",
+   "slug": "based",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes someone admirably authentic and unafraid to express their true opinions, regardless of others' approval. A term of respect for being yourself."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He stated his unpopular opinion without flinching, and the reply just said 'based.'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularized by rapper Lil B, who reclaimed 'based' (once an insult tied to drugs) to mean being positive and true to yourself, free from others' judgment."
+    }
+   ],
+   "name_es": "Based",
+   "name_fr": "Based",
+   "name_it": "Based"
+  },
+  {
+   "name": "Hits Different",
+   "slug": "hits-different",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes something that feels uniquely good or affects you more powerfully than usual, often in a special or nostalgic way."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Coffee on a quiet Sunday morning just hits different."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A phrase capturing when an experience 'hits' (lands emotionally) in a way that's notably 'different' — better, deeper, or more meaningful than the norm."
+    }
+   ],
+   "name_es": "Hits Different",
+   "name_fr": "Hits Different",
+   "name_it": "Hits Different"
+  },
+  {
+   "name": "Understood the Assignment",
+   "slug": "understood-assignment",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Praise for someone who did exactly what was needed, and excelled at it. They grasped the task perfectly and delivered."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Everyone dressed for the theme, but she really understood the assignment."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A school metaphor: they 'understood the assignment' and aced it. It praises someone for perfectly grasping what a moment called for and nailing it."
+    }
+   ],
+   "name_es": "Understood the Assignment",
+   "name_fr": "Understood the Assignment",
+   "name_it": "Understood the Assignment"
+  },
+  {
+   "cat": "JUDGMENT & VIBES"
+  },
+  {
+   "name": "Mid",
+   "slug": "mid",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes something mediocre, average, or overrated — neither good nor bad, just unremarkable. A dismissive verdict."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Everyone hyped the restaurant, but honestly the food was mid."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'middle' or 'mid-tier'. It became a cutting put-down precisely because it's so deflating — not terrible, just thoroughly unremarkable and overhyped."
+    }
+   ],
+   "name_es": "Mid",
+   "name_fr": "Mid",
+   "name_it": "Mid"
+  },
+  {
+   "name": "Cringe",
+   "slug": "cringe",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes something so awkward or embarrassing it makes you wince. Can be a noun, adjective, or verb — 'that's so cringe.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The forced slang in the ad was pure cringe."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the physical 'cringe' (to recoil in embarrassment). The internet turned the bodily reaction into a label for anything painfully awkward to witness."
+    }
+   ],
+   "name_es": "Cringe",
+   "name_fr": "Cringe",
+   "name_it": "Cringe"
+  },
+  {
+   "name": "Sus",
+   "slug": "sus",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Short for 'suspicious' — describing someone or something shady, untrustworthy, or off. Boosted massively by the game Among Us."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He's been acting really sus, dodging every direct question."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'suspicious'. Long-standing slang, it exploded into mainstream use through the game Among Us, where players accuse each other of being 'sus'."
+    }
+   ],
+   "name_es": "Sus",
+   "name_fr": "Sus",
+   "name_it": "Sus"
+  },
+  {
+   "name": "Vibe Check",
+   "slug": "vibe-check",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An assessment of someone's mood, attitude, or energy. 'Failing the vibe check' means giving off bad or mismatched energy."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He showed up grumpy to the party and immediately failed the vibe check."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'vibe' (atmosphere/energy) + 'check' (an assessment). It frames someone's energy as something that can pass or fail inspection."
+    }
+   ],
+   "name_es": "Vibe Check",
+   "name_fr": "Vibe Check",
+   "name_it": "Vibe Check"
+  },
+  {
+   "name": "The Ick",
+   "slug": "ick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'The ick' is a sudden feeling of disgust or turn-off toward someone you were attracted to, triggered by some small, often trivial thing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She caught the ick when he tripped and then blamed the sidewalk."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'icky' (distasteful). Popularized by reality TV and dating culture, it names that abrupt, often irrational moment attraction flips to repulsion."
+    }
+   ],
+   "name_es": "The Ick",
+   "name_fr": "The Ick",
+   "name_it": "The Ick"
+  },
+  {
+   "name": "Red Flag / Green Flag",
+   "slug": "red-flag",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'red flag' is a warning sign of bad behavior or character; a 'green flag' is a sign of healthy, positive traits. The vocabulary of vetting people."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Talking only about themselves all night? Red flag. Asking about your day? Green flag."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From literal red warning flags. Dating and relationship culture extended it into a whole system, adding 'green flags' for the encouraging, healthy signs."
+    }
+   ],
+   "name_es": "Red Flag / Green Flag",
+   "name_fr": "Red Flag / Green Flag",
+   "name_it": "Red Flag / Green Flag"
+  },
+  {
+   "name": "Basic",
+   "slug": "basic",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes someone or something unoriginal and mainstream, predictably following popular trends without individuality. A mild put-down."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Pumpkin spice everything in autumn is the definition of basic."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'basic' (plain, unremarkable). It became a pointed critique of conformity — embracing only the most popular, predictable trends without personal flair."
+    }
+   ],
+   "name_es": "Basic",
+   "name_fr": "Basic",
+   "name_it": "Basic"
+  },
+  {
+   "cat": "SOCIAL & DRAMA"
+  },
+  {
+   "name": "Tea",
+   "slug": "tea",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Gossip, news, or juicy information. 'Spill the tea' means share the gossip; 'what's the tea?' asks what's going on."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Sit down, because I have got some tea about what happened last night."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Black drag culture, where 'T' stood for 'truth' (the real story). It evolved into 'tea' — the gossip and inside scoop worth sharing over a cup."
+    }
+   ],
+   "name_es": "Tea",
+   "name_fr": "Tea",
+   "name_it": "Tea"
+  },
+  {
+   "name": "Shade",
+   "slug": "shade",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A subtle, sly insult or expression of disrespect. To 'throw shade' is to disparage someone cleverly, often without naming them outright."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She never said his name, but everyone knew that comment was throwing shade."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Black and Latino drag culture, documented in the film 'Paris Is Burning'. Shade is the art of the indirect insult — disrespect delivered with style."
+    }
+   ],
+   "name_es": "Shade",
+   "name_fr": "Shade",
+   "name_it": "Shade"
+  },
+  {
+   "name": "Salty",
+   "slug": "salty",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes someone bitter, resentful, or upset, especially over something minor. 'Why are you so salty?' calls out sore feelings."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He's still salty about losing the game last week."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the taste of salt and tears. The image of being 'salty' captures sourness and bitterness — the residue of irritation or wounded pride."
+    }
+   ],
+   "name_es": "Salty",
+   "name_fr": "Salty",
+   "name_it": "Salty"
+  },
+  {
+   "name": "Ghosting",
+   "slug": "ghosting",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Abruptly cutting off all communication with someone, disappearing without explanation. Most common in dating, but applies to friendships and even jobs."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They had three great dates, and then he just ghosted her completely."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'ghost' — the person vanishes like a phantom, leaving no trace or word. It names the modern act of ending a relationship through total silence."
+    }
+   ],
+   "name_es": "Ghosting",
+   "name_fr": "Ghosting",
+   "name_it": "Ghosting"
+  },
+  {
+   "name": "Flex",
+   "slug": "flex",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To show off or boast, especially about wealth, success, or possessions. 'Weird flex but okay' mocks an odd thing to brag about."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Posting the receipt was a pretty obvious flex."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'flex' (to flex one's muscles to display strength). It broadened to mean any showy display of one's advantages, possessions, or achievements."
+    }
+   ],
+   "name_es": "Flex",
+   "name_fr": "Flex",
+   "name_it": "Flex"
+  },
+  {
+   "name": "Simp",
+   "slug": "simp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Someone who is excessively attentive or submissive toward a person they're attracted to, often to an embarrassing or one-sided degree."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He drove two hours to bring her coffee she didn't ask for — total simp behavior."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Older slang (once short for 'simpleton') revived and reshaped online. It now targets over-the-top, often unreciprocated devotion to a romantic interest."
+    }
+   ],
+   "name_es": "Simp",
+   "name_fr": "Simp",
+   "name_it": "Simp"
+  },
+  {
+   "name": "Clout",
+   "slug": "clout",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Influence, fame, or social power, especially online. 'Clout-chasing' is doing things purely to gain attention and followers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He only posted the stunt for clout, chasing views and followers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sense of 'clout' as influence or power. The internet sharpened it to mean social-media fame and reach — a currency people actively chase."
+    }
+   ],
+   "name_es": "Clout",
+   "name_fr": "Clout",
+   "name_it": "Clout"
+  },
+  {
+   "cat": "ONLINE & MEME"
+  },
+  {
+   "name": "Rizz",
+   "slug": "rizz",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Charisma, especially the skill of charming or flirting with a romantic interest. 'He's got rizz' means he's smooth. 'Rizz someone up' means to charm them."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He walked over, said one perfect line, and just rizzed her up effortlessly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'charisma' (taking the middle sound). Popularized by streamer Kai Cenat, it became so prominent it was named a dictionary word of the year."
+    }
+   ],
+   "name_es": "Rizz",
+   "name_fr": "Rizz",
+   "name_it": "Rizz"
+  },
+  {
+   "name": "NPC",
+   "slug": "npc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Calling someone an 'NPC' (a video-game term for a non-player character) implies they act robotically, without independent thought, like background filler in life."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He just repeats whatever he hears, total NPC behavior."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from gaming's 'non-player character' — the scripted background figures. As an insult, it paints someone as thoughtless and programmed rather than genuinely autonomous."
+    }
+   ],
+   "name_es": "NPC",
+   "name_fr": "NPC",
+   "name_it": "NPC"
+  },
+  {
+   "name": "Ratio",
+   "slug": "ratio",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "On social media, when a reply gets far more likes than the original post, it 'ratios' it — a sign the crowd sides against the original. 'Ratio'd' is a public defeat."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His bad take got ratio'd hard, the replies dragging him with thousands of likes."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the 'ratio' of replies/likes to the original post's engagement. A reply outperforming the post signals mass disagreement — a uniquely online humiliation."
+    }
+   ],
+   "name_es": "Ratio",
+   "name_fr": "Ratio",
+   "name_it": "Ratio"
+  },
+  {
+   "name": "Touch Grass",
+   "slug": "touch-grass",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An instruction to step away from the internet and reconnect with the real world. Telling someone to 'touch grass' implies they're too online."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "You've been arguing online for six hours — go touch grass."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid image: go outside and literally touch the 'grass'. It became the go-to retort for telling someone they're too deep in online drama and need reality."
+    }
+   ],
+   "name_es": "Touch Grass",
+   "name_fr": "Touch Grass",
+   "name_it": "Touch Grass"
+  },
+  {
+   "name": "Main Character",
+   "slug": "main-character",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To have 'main character energy' is to act as if you're the protagonist of life — confident and central. Can be aspirational or a critique of self-absorption."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She romanticized her morning commute like she was the main character in a film."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From storytelling's 'main character'. It frames treating yourself as the protagonist of your own story — sometimes empowering self-confidence, sometimes self-centered delusion."
+    }
+   ],
+   "name_es": "Main Character",
+   "name_fr": "Main Character",
+   "name_it": "Main Character"
+  },
+  {
+   "name": "Delulu",
+   "slug": "delulu",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Playful shorthand for 'delusional' — holding unrealistic beliefs or hopes, especially about romance or success. Often used affectionately and self-aware."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "I'm fully delulu thinking my celebrity crush will notice me, but let me dream."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A cutesy reduplication of 'delusional', originating in K-pop fan communities. The phrase 'delulu is the solulu' jokingly casts delusion as the path to success."
+    }
+   ],
+   "name_es": "Delulu",
+   "name_fr": "Delulu",
+   "name_it": "Delulu"
+  },
+  {
+   "name": "Brainrot",
+   "slug": "brainrot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Low-quality, addictive online content that supposedly numbs the mind — or the mental fog from consuming too much of it. Often used self-deprecatingly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "I've watched so many short videos my brain is pure brainrot now."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid compound suggesting the 'brain' is 'rotting' from junk content. It names both the mind-numbing media and the scrambled mental state it produces."
+    }
+   ],
+   "name_es": "Brainrot",
+   "name_fr": "Brainrot",
+   "name_it": "Brainrot"
+  },
+  {
+   "cat": "EXPRESSIONS"
+  },
+  {
+   "name": "No Cap",
+   "slug": "no-cap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Cap' means a lie; 'no cap' means 'no lie' — I'm being completely truthful. 'That's cap' means 'that's false.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "No cap, that was the best meal I've ever had."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Black American slang, where 'capping' has long meant lying or boasting. 'No cap' affirms honesty; the backwards-cap emoji often stands in for it."
+    }
+   ],
+   "name_es": "No Cap",
+   "name_fr": "No Cap",
+   "name_it": "No Cap"
+  },
+  {
+   "name": "Fr / Deadass",
+   "slug": "fr",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Fr' (for real) and 'deadass' both emphasize sincerity — 'I'm serious.' 'Fr fr' doubles down: 'for real, for real.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Deadass, I almost forgot my own birthday this year."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Fr' abbreviates 'for real'; 'deadass' (dead-serious) comes from New York slang. Both insist the speaker genuinely means what they're saying."
+    }
+   ],
+   "name_es": "Fr / Deadass",
+   "name_fr": "Fr / Deadass",
+   "name_it": "Fr / Deadass"
+  },
+  {
+   "name": "Bet",
+   "slug": "bet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A versatile affirmation meaning 'okay,' 'sounds good,' or 'I agree.' It can also signal acceptance of a challenge: 'Bet.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Want to meet at eight?' 'Bet.'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the gambling 'bet' (you can count on it). It evolved into a casual all-purpose 'yes' or confirmation — and a confident 'watch me' when challenged."
+    }
+   ],
+   "name_es": "Bet",
+   "name_fr": "Bet",
+   "name_it": "Bet"
+  },
+  {
+   "name": "IYKYK",
+   "slug": "iykyk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'If You Know, You Know' — marking an inside joke or reference that only certain people will understand. A nod to the in-group."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The diner closes at 2 a.m. for a reason, iykyk."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An initialism for 'if you know, you know'. It flags shared, insider knowledge — winking at those in on the reference while leaving outsiders politely puzzled."
+    }
+   ],
+   "name_es": "IYKYK",
+   "name_fr": "IYKYK",
+   "name_it": "IYKYK"
+  },
+  {
+   "name": "It's Giving",
+   "slug": "its-giving",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Used to describe the vibe, energy, or impression something gives off. 'It's giving main character' means it radiates that quality."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "That outfit? It's giving effortless cool."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Black and drag culture. The phrase 'it's giving [X]' names the energy or aesthetic something projects, like a more vivid version of 'it gives off'."
+    }
+   ],
+   "name_es": "It's Giving",
+   "name_fr": "It's Giving",
+   "name_it": "It's Giving"
+  },
+  {
+   "name": "Lowkey / Highkey",
+   "slug": "lowkey",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Lowkey' means subtly, slightly, or secretly; 'highkey' means openly and intensely. 'I lowkey want to leave' admits a quiet feeling."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "I'm lowkey nervous but highkey excited about the move."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'low-key' (understated, quiet). Paired with its opposite 'highkey' (overt, intense), the two now mark the intensity of a feeling or admission."
+    }
+   ],
+   "name_es": "Lowkey / Highkey",
+   "name_fr": "Lowkey / Highkey",
+   "name_it": "Lowkey / Highkey"
+  }
+ ]
+}

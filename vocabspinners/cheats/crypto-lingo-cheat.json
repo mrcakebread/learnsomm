@@ -1,0 +1,755 @@
+{
+ "title": "Crypto & Web3 Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "BLOCKCHAIN BASICS"
+  },
+  {
+   "name": "Blockchain",
+   "slug": "blockchain",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shared, tamper-resistant digital ledger that records transactions in linked 'blocks' across many computers. The foundational technology behind cryptocurrencies."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Every transaction was permanently recorded on the blockchain for anyone to verify."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'block' (a batch of transactions) + 'chain' (cryptographically linked in sequence). Each block references the last, making the history extremely hard to alter."
+    }
+   ],
+   "name_es": "Blockchain",
+   "name_fr": "Blockchain",
+   "name_it": "Blockchain"
+  },
+  {
+   "name": "Decentralization",
+   "slug": "decentralized",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes a system run by many independent participants rather than a single central authority like a bank or government. The core ideal of crypto."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Because the network was decentralized, no single company or government could shut it down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'de-' (removal of) + 'central'. The aspiration to remove central gatekeepers — spreading control across a distributed network — is crypto's founding philosophy."
+    }
+   ],
+   "name_es": "Decentralization",
+   "name_fr": "Decentralization",
+   "name_it": "Decentralization"
+  },
+  {
+   "name": "Mining",
+   "slug": "mining",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The process of validating transactions and creating new coins by solving complex computations. Miners are rewarded with cryptocurrency for securing the network."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His powerful rig spent all day mining, racing other computers to validate the next block."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Likened to mining gold — expending effort (here, computing power) to extract new currency. The metaphor captures both the reward and the resource cost."
+    }
+   ],
+   "name_es": "Mining",
+   "name_fr": "Mining",
+   "name_it": "Mining"
+  },
+  {
+   "name": "Node",
+   "slug": "node",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A computer that participates in a blockchain network, storing a copy of the ledger and helping validate and relay transactions. The network is built of nodes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Running a full node, she kept her own complete copy of the blockchain to verify everything independently."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the general sense of a 'node' as a connection point in a network. Each participating computer is a node, and their distribution is what makes the system resilient."
+    }
+   ],
+   "name_es": "Node",
+   "name_fr": "Node",
+   "name_it": "Node"
+  },
+  {
+   "name": "Consensus",
+   "slug": "consensus",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The mechanism by which a decentralized network agrees on which transactions are valid, without a central authority. How strangers' computers reach agreement."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The network reached consensus on the valid chain, rejecting the fraudulent transactions."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'consensus' (general agreement). The hard problem crypto solves: getting thousands of distrustful, anonymous computers to agree on a single shared truth."
+    }
+   ],
+   "name_es": "Consensus",
+   "name_fr": "Consensus",
+   "name_it": "Consensus"
+  },
+  {
+   "name": "Proof of Work / Stake",
+   "slug": "pow-pos",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two ways to reach consensus: 'Proof of Work' requires solving hard computations (energy-intensive); 'Proof of Stake' requires locking up coins as collateral (energy-light)."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The network switched from Proof of Work to Proof of Stake, slashing its energy use dramatically."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: you prove your stake in the network either through 'work' (computation) or a 'stake' (deposited coins). The two dominant approaches to securing a blockchain."
+    }
+   ],
+   "name_es": "Proof of Work / Stake",
+   "name_fr": "Proof of Work / Stake",
+   "name_it": "Proof of Work / Stake"
+  },
+  {
+   "name": "Distributed Ledger",
+   "slug": "ledger",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A distributed ledger is a database of transactions copied and synchronized across many locations. Unlike a bank's private books, it's shared and publicly verifiable."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The distributed ledger meant thousands of identical copies existed, with no single point of failure."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the accounting 'ledger' (a record book). 'Distributed' because the book is copied across the whole network rather than held privately by one institution."
+    }
+   ],
+   "name_es": "Distributed Ledger",
+   "name_fr": "Distributed Ledger",
+   "name_it": "Distributed Ledger"
+  },
+  {
+   "name": "Smart Contract",
+   "slug": "smart-contract",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Self-executing code on a blockchain that automatically carries out an agreement when conditions are met — no middleman needed. The engine of much of crypto."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The smart contract automatically released the funds the instant the goods were confirmed delivered."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Coined by Nick Szabo in the 1990s. 'Smart' because it enforces itself, and 'contract' because it codifies an agreement — executed by code rather than courts."
+    }
+   ],
+   "name_es": "Smart Contract",
+   "name_fr": "Smart Contract",
+   "name_it": "Smart Contract"
+  },
+  {
+   "cat": "COINS & TOKENS"
+  },
+  {
+   "name": "Bitcoin",
+   "slug": "bitcoin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The first and largest cryptocurrency, created in 2009 as decentralized digital money. Often called 'digital gold' and used as a store of value."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He bought a fraction of a Bitcoin as a long-term bet on digital money."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Created by the pseudonymous Satoshi Nakamoto in 2009; the name simply joins 'bit' (a unit of digital data) with 'coin' (money). The original cryptocurrency."
+    }
+   ],
+   "name_es": "Bitcoin",
+   "name_fr": "Bitcoin",
+   "name_it": "Bitcoin"
+  },
+  {
+   "name": "Altcoin",
+   "slug": "altcoin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Any cryptocurrency other than Bitcoin — short for 'alternative coin.' Thousands exist, from major platforms to obscure speculative tokens."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After Bitcoin, she diversified into a handful of promising altcoins."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'alternative' + 'coin' — everything that isn't Bitcoin. The term captures the vast, varied field of coins that followed the original."
+    }
+   ],
+   "name_es": "Altcoin",
+   "name_fr": "Altcoin",
+   "name_it": "Altcoin"
+  },
+  {
+   "name": "Token",
+   "slug": "token",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A digital asset created on top of an existing blockchain, often representing anything from currency to ownership to access rights. Distinct from a blockchain's native coin."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The project issued its own token to give holders voting rights in the platform."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'token' (a symbol or representation of value). Unlike a blockchain's native coin, tokens are built atop existing chains and can represent almost anything."
+    }
+   ],
+   "name_es": "Token",
+   "name_fr": "Token",
+   "name_it": "Token"
+  },
+  {
+   "name": "Stablecoin",
+   "slug": "stablecoin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A cryptocurrency designed to hold a steady value, usually pegged to a currency like the US dollar. A refuge from crypto's wild price swings."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She parked her profits in a stablecoin to escape volatility without cashing out entirely."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound emphasizing 'stable' value — engineered to avoid the volatility of typical crypto by pegging to an external asset like the dollar."
+    }
+   ],
+   "name_es": "Stablecoin",
+   "name_fr": "Stablecoin",
+   "name_it": "Stablecoin"
+  },
+  {
+   "name": "NFT",
+   "slug": "nft",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Non-Fungible Token — a unique digital asset whose ownership is recorded on a blockchain, often representing art, collectibles, or media. Each one is one-of-a-kind."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He bought an NFT of the digital artwork, owning a verifiable one-of-a-kind original."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Non-fungible' means non-interchangeable — unlike a dollar or a Bitcoin, each NFT is unique. The acronym names a token proving ownership of a singular item."
+    }
+   ],
+   "name_es": "NFT",
+   "name_fr": "NFT",
+   "name_it": "NFT"
+  },
+  {
+   "name": "Gas Fees",
+   "slug": "gas",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The fee paid to process a transaction or run a smart contract on a blockchain. Gas fees rise and fall with network demand, sometimes dramatically."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The transaction stalled until he paid higher gas fees to prioritize it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Metaphorically the 'fuel' that powers transactions — like gas in a car. The busier the network, the more 'gas' you must pay to get your transaction processed."
+    }
+   ],
+   "name_es": "Gas Fees",
+   "name_fr": "Gas Fees",
+   "name_it": "Gas Fees"
+  },
+  {
+   "name": "Halving",
+   "slug": "halving",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A scheduled event where the reward for mining new Bitcoin is cut in half, roughly every four years. It slows new supply and is closely watched by investors."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The market buzzed with speculation ahead of the next halving and its effect on supply."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the mining reward is 'halved'. Built into Bitcoin's code to gradually reduce new supply, each halving is a major, anticipated event."
+    }
+   ],
+   "name_es": "Halving",
+   "name_fr": "Halving",
+   "name_it": "Halving"
+  },
+  {
+   "cat": "DEFI & TRADING"
+  },
+  {
+   "name": "DeFi",
+   "slug": "defi",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Decentralized Finance — financial services (lending, trading, earning interest) built on blockchains without banks or brokers. Finance run by code, open to anyone."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Through DeFi, she lent out her crypto and earned interest with no bank involved."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'decentralized' + 'finance'. The movement to rebuild financial services — loans, exchanges, interest — on open blockchains instead of institutions."
+    }
+   ],
+   "name_es": "DeFi",
+   "name_fr": "DeFi",
+   "name_it": "DeFi"
+  },
+  {
+   "name": "DEX",
+   "slug": "dex",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Decentralized Exchange — a platform for trading crypto directly between users via smart contracts, without a central company holding your funds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He swapped tokens on a DEX, trading peer-to-peer without trusting any company with his coins."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'decentralized exchange'. Unlike a traditional exchange, a DEX never takes custody of your funds — trades happen directly via code."
+    }
+   ],
+   "name_es": "DEX",
+   "name_fr": "DEX",
+   "name_it": "DEX"
+  },
+  {
+   "name": "Liquidity Pool",
+   "slug": "liquidity-pool",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A crowdsourced pile of funds locked in a smart contract that enables trading on decentralized exchanges. Users supply the pool and earn fees in return."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She added her tokens to a liquidity pool, earning a share of the trading fees."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a 'pool' of funds providing 'liquidity' (available capital) for trades. It replaces the traditional buyer-meets-seller model with a shared communal reserve."
+    }
+   ],
+   "name_es": "Liquidity Pool",
+   "name_fr": "Liquidity Pool",
+   "name_it": "Liquidity Pool"
+  },
+  {
+   "name": "Staking",
+   "slug": "staking",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Locking up cryptocurrency to help secure a Proof-of-Stake network, earning rewards in return. A way to earn passive income on holdings."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "By staking his coins, he earned steady rewards while helping validate the network."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'stake' (to put up as collateral). You commit ('stake') your coins to support the network's security, and the protocol rewards you for it."
+    }
+   ],
+   "name_es": "Staking",
+   "name_fr": "Staking",
+   "name_it": "Staking"
+  },
+  {
+   "name": "Yield Farming",
+   "slug": "yield-farming",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Actively moving crypto between DeFi protocols to chase the highest returns. A complex, high-risk pursuit of maximum yield."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Yield farming across protocols chased double-digit returns, but the risks were just as high."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An agricultural metaphor: 'farming' the highest 'yield' (return) by cultivating funds across protocols. It captures the active, return-maximizing hustle of DeFi."
+    }
+   ],
+   "name_es": "Yield Farming",
+   "name_fr": "Yield Farming",
+   "name_it": "Yield Farming"
+  },
+  {
+   "name": "Market Cap",
+   "slug": "market-cap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Market capitalization — a cryptocurrency's total value, calculated as price times circulating supply. The standard measure of a coin's overall size."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Despite a low price per coin, its massive supply gave it a huge market cap."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from stock markets. A coin's cheap unit price can be misleading — market cap (price × supply) reveals its true total size relative to others."
+    }
+   ],
+   "name_es": "Market Cap",
+   "name_fr": "Market Cap",
+   "name_it": "Market Cap"
+  },
+  {
+   "name": "Slippage",
+   "slug": "slippage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The difference between a trade's expected price and the price it actually executes at, caused by price movement or low liquidity. The cost of a moving market."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The large order suffered heavy slippage, filling at a worse price than he expected."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'slip' — the price 'slips' between order and execution. Common in volatile or thin markets, where a big trade moves the price against itself."
+    }
+   ],
+   "name_es": "Slippage",
+   "name_fr": "Slippage",
+   "name_it": "Slippage"
+  },
+  {
+   "cat": "WALLETS & TECH"
+  },
+  {
+   "name": "Wallet",
+   "slug": "wallet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Software or hardware that stores the keys controlling your cryptocurrency and lets you send and receive it. Your gateway to your crypto — though the coins live on the blockchain."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She transferred the coins to her own wallet, taking direct control of her funds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'wallet'. Slightly misleading — it holds the cryptographic keys that control your coins, not the coins themselves, which live on the chain."
+    }
+   ],
+   "name_es": "Wallet",
+   "name_fr": "Wallet",
+   "name_it": "Wallet"
+  },
+  {
+   "name": "Private Key",
+   "slug": "private-key",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A secret cryptographic code that proves ownership and authorizes spending of your crypto. Whoever holds the private key controls the funds — guard it absolutely."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He kept his private key offline and secret, knowing anyone who had it could take everything."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a 'private', secret 'key' that unlocks control of your funds. The cardinal rule of crypto — 'not your keys, not your coins' — flows from this."
+    }
+   ],
+   "name_es": "Private Key",
+   "name_fr": "Private Key",
+   "name_it": "Private Key"
+  },
+  {
+   "name": "Seed Phrase",
+   "slug": "seed-phrase",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A list of (usually 12 or 24) random words that can restore access to a crypto wallet. The master backup — and a catastrophic loss if it falls into the wrong hands."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She wrote her seed phrase on paper and locked it away, never storing it online."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Also called a 'recovery phrase'. The 'seed' from which all your wallet's keys are generated — a human-readable master backup that must be protected at all costs."
+    }
+   ],
+   "name_es": "Seed Phrase",
+   "name_fr": "Seed Phrase",
+   "name_it": "Seed Phrase"
+  },
+  {
+   "name": "Cold Storage",
+   "slug": "cold-storage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Keeping crypto keys completely offline, on a device or paper disconnected from the internet, for maximum security against hackers. The opposite of a 'hot' (online) wallet."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "For his long-term holdings, he used cold storage, keeping the keys entirely offline."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: storage kept 'cold' (offline), versus a 'hot' wallet connected to the internet. Disconnecting from the net removes the biggest avenue for theft."
+    }
+   ],
+   "name_es": "Cold Storage",
+   "name_fr": "Cold Storage",
+   "name_it": "Cold Storage"
+  },
+  {
+   "name": "Address",
+   "slug": "gas-fee",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A blockchain address is a unique string of characters identifying where crypto can be sent, like an account number. Public and shareable, unlike the private key."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She shared her wallet address so the payment could be sent to her."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Like an account number or email for receiving funds. The address is derived from your keys and is safe to share publicly — it only lets others send you crypto."
+    }
+   ],
+   "name_es": "Address",
+   "name_fr": "Address",
+   "name_it": "Address"
+  },
+  {
+   "name": "dApp",
+   "slug": "dapp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Decentralized Application — software that runs on a blockchain via smart contracts rather than on a company's central servers. The apps of the Web3 world."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He used a dApp to trade and lend, all running on the blockchain instead of a company's servers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'decentralized' + 'app'. Pronounced 'dapp', these applications run on a blockchain's distributed network rather than corporate servers."
+    }
+   ],
+   "name_es": "dApp",
+   "name_fr": "dApp",
+   "name_it": "dApp"
+  },
+  {
+   "name": "Layer 2",
+   "slug": "layer-two",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A secondary network built on top of a main blockchain (Layer 1) to make transactions faster and cheaper, easing congestion on the base chain."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "By moving to a Layer 2, his transactions became nearly instant and cost a fraction of the fees."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a second 'layer' atop the base blockchain. By handling transactions off the main chain, Layer 2s tackle the speed and cost limits of popular networks."
+    }
+   ],
+   "name_es": "Layer 2",
+   "name_fr": "Layer 2",
+   "name_it": "Layer 2"
+  },
+  {
+   "cat": "CRYPTO SLANG"
+  },
+  {
+   "name": "HODL",
+   "slug": "hodl",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A famous misspelling of 'hold' that became a mantra for keeping your crypto through volatility rather than selling. Often backronymed as 'Hold On for Dear Life.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Through the brutal crash, she chose to HODL rather than panic-sell."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Born from a drunken, typo-ridden 2013 forum post titled 'I AM HODLING'. The misspelling went viral and became crypto's rallying cry for steadfast holding."
+    }
+   ],
+   "name_es": "HODL",
+   "name_fr": "HODL",
+   "name_it": "HODL"
+  },
+  {
+   "name": "FOMO / FUD",
+   "slug": "fomo-fud",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'FOMO' (Fear Of Missing Out) drives people to buy in a rising frenzy; 'FUD' (Fear, Uncertainty, Doubt) spreads negativity to drive prices down. Two emotional forces."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He bought the top out of FOMO, then panic-sold the bottom because of FUD."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Acronyms for the twin emotions ruling crypto markets. FOMO is greed-driven buying; FUD is fear-driven selling, often spread deliberately to manipulate sentiment."
+    }
+   ],
+   "name_es": "FOMO / FUD",
+   "name_fr": "FOMO / FUD",
+   "name_it": "FOMO / FUD"
+  },
+  {
+   "name": "Whale",
+   "slug": "whale",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A person or entity holding a very large amount of cryptocurrency, big enough to move the market with a single trade. Smaller traders watch whales closely."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "When a whale dumped thousands of coins, the price plunged in minutes."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the casino term for a high-roller, and the image of an enormous creature making waves. A whale's massive holdings let it ripple — or crash — the whole market."
+    }
+   ],
+   "name_es": "Whale",
+   "name_fr": "Whale",
+   "name_it": "Whale"
+  },
+  {
+   "name": "Rug Pull",
+   "slug": "rug-pull",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A scam where developers hype a project, attract investment, then suddenly abandon it and vanish with the money. A notorious crypto fraud."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The project turned out to be a rug pull — the founders disappeared overnight with everyone's funds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'pulling the rug out' from under someone. The creators yank away the project (and the money), leaving investors to come crashing down."
+    }
+   ],
+   "name_es": "Rug Pull",
+   "name_fr": "Rug Pull",
+   "name_it": "Rug Pull"
+  },
+  {
+   "name": "To the Moon",
+   "slug": "to-the-moon",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An exclamation expressing hope or hype that a coin's price will skyrocket. 'We're going to the moon!' is the optimist's battle cry."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "As the price surged, the chat filled with rocket emojis and cries of 'to the moon!'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid metaphor for a price rocketing skyward, often paired with rocket emojis. The hopeful, hype-fueled rallying cry of crypto bulls everywhere."
+    }
+   ],
+   "name_es": "To the Moon",
+   "name_fr": "To the Moon",
+   "name_it": "To the Moon"
+  },
+  {
+   "name": "Diamond Hands",
+   "slug": "diamond-hands",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for holding an investment with unshakable conviction through extreme volatility, refusing to sell. The opposite is 'paper hands' — selling at the first scare."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She had diamond hands, gripping her coins through every crash without flinching."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A metaphor: hands strong as 'diamond' that won't drop the asset under pressure. Popularized in meme-stock and crypto culture as a badge of steadfast resolve."
+    }
+   ],
+   "name_es": "Diamond Hands",
+   "name_fr": "Diamond Hands",
+   "name_it": "Diamond Hands"
+  }
+ ]
+}

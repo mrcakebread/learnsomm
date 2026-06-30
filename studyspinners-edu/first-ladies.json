@@ -1,0 +1,412 @@
+{
+ "title": "First Ladies",
+ "subject": "Reference Wheel",
+ "categories": [
+  {
+   "name": "FOUNDING ERA",
+   "color": "#3f6f9f",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "FOUNDING ERA",
+     "color": "#3f6f9f",
+     "descriptors": [
+      {
+       "name": "Martha Washington",
+       "slug": "martha",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The first First Lady of the United States (1789–1797), wife of George Washington, who defined a role with no precedent or title.",
+        "mixology": "Martha set the template for the position, hosting formal receptions that balanced republican simplicity with the dignity of the new nation.",
+        "examples": "She was not yet called 'First Lady'; that term emerged later. Contemporaries addressed her as 'Lady Washington,' inventing the role as she went."
+       }
+      },
+      {
+       "name": "Abigail Adams",
+       "slug": "abigail",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The second First Lady (1797–1801), wife of John Adams, and one of the most politically influential women of the founding generation.",
+        "mixology": "Abigail's extensive letters to her husband, urging him to 'remember the ladies,' make her an early voice for women's rights.",
+        "examples": "She was the first First Lady to live in the White House, hanging laundry in the unfinished East Room of the brand-new, drafty mansion."
+       }
+      },
+      {
+       "name": "Dolley Madison",
+       "slug": "dolley",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The First Lady (1809–1817), wife of James Madison, remembered as one of the most beloved and consequential hostesses in the role's history.",
+        "mixology": "Dolley famously saved a portrait of George Washington from the White House before the British burned it in 1814.",
+        "examples": "Her vibrant social gatherings helped define Washington political culture, and she effectively served as hostess for the widower Jefferson as well."
+       }
+      },
+      {
+       "name": "Louisa Adams",
+       "slug": "louisa",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The First Lady (1825–1829), wife of John Quincy Adams, and the only First Lady born outside the United States until the 21st century.",
+        "mixology": "Born in London, Louisa was the only foreign-born First Lady for nearly two centuries, until Melania Trump.",
+        "examples": "Her detailed memoirs offer a rare, candid window into the loneliness and political pressures of life in the early White House."
+       }
+      },
+      {
+       "name": "Rachel Jackson",
+       "slug": "rachel",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The wife of Andrew Jackson, who died weeks after his 1828 election victory and never served as First Lady.",
+        "mixology": "Rachel died before the inauguration, and her niece Emily Donelson served as White House hostess in her place.",
+        "examples": "Vicious attacks on her marriage during the bitter campaign were blamed by Jackson for her death, fueling his lifelong fury at his political enemies."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "19TH CENTURY",
+   "color": "#caa53a",
+   "textColor": "#2a2105",
+   "sub": [
+    {
+     "name": "19TH CENTURY",
+     "color": "#caa53a",
+     "descriptors": [
+      {
+       "name": "Sarah Polk",
+       "slug": "sarah",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1845–1849), wife of James K. Polk, an unusually engaged political partner and adviser to her husband.",
+        "mixology": "Sarah served as Polk's private secretary and closest political confidante, a substantive role rare for the era.",
+        "examples": "A devout Presbyterian, she banned dancing and hard liquor at White House functions, lending the Polk administration a notably austere tone."
+       }
+      },
+      {
+       "name": "Mary Todd Lincoln",
+       "slug": "mary",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1861–1865), wife of Abraham Lincoln, whose tenure was marked by the Civil War and personal tragedy.",
+        "mixology": "Mary endured the deaths of her sons and witnessed her husband's assassination at her side, suffering profound grief throughout.",
+        "examples": "Often unfairly maligned in her time, modern historians have reassessed her as a complex, intelligent woman crushed by extraordinary loss."
+       }
+      },
+      {
+       "name": "Julia Grant",
+       "slug": "julia",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1869–1877), wife of Ulysses S. Grant, who presided over a glittering post-war White House social scene.",
+        "mixology": "Julia later called her White House years 'the happiest period' of her life, relishing the role's social prominence.",
+        "examples": "Her memoirs were the first ever written by a First Lady, though they remained unpublished until well over a century later."
+       }
+      },
+      {
+       "name": "Lucy Hayes",
+       "slug": "lucy",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1877–1881), wife of Rutherford B. Hayes, the first to hold a college degree.",
+        "mixology": "Lucy was the first First Lady to be a college graduate, signaling a shift in expectations for women in public life.",
+        "examples": "Her ban on alcohol in the White House earned her the nickname 'Lemonade Lucy,' though the moniker was coined only after her time."
+       }
+      },
+      {
+       "name": "Frances Cleveland",
+       "slug": "frances",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1886–1889, 1893–1897), wife of Grover Cleveland, and the youngest First Lady in history.",
+        "mixology": "Frances was just 21 when she married the president in the White House, the only First Lady wed in the executive mansion.",
+        "examples": "Her immense popularity made her an early celebrity, with her image used, without permission, to sell countless commercial products."
+       }
+      },
+      {
+       "name": "Ida McKinley",
+       "slug": "ida",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The First Lady (1897–1901), wife of William McKinley, who served despite chronic illness and frequent seizures.",
+        "mixology": "Ida defied medical convention by remaining at her husband's side at public events despite her epilepsy.",
+        "examples": "The president's tender, attentive care for his ailing wife was widely noted and admired throughout his time in office."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PROGRESSIVE ERA",
+   "color": "#3f8f6a",
+   "textColor": "#06231a",
+   "sub": [
+    {
+     "name": "PROGRESSIVE ERA",
+     "color": "#3f8f6a",
+     "descriptors": [
+      {
+       "name": "Edith Roosevelt",
+       "slug": "edith-r",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The First Lady (1901–1909), second wife of Theodore Roosevelt, who modernized and professionalized the role.",
+        "mixology": "Edith was the first First Lady to employ a full-time social secretary, formalizing the office's growing duties.",
+        "examples": "She skillfully managed both a boisterous White House full of children and her famously energetic husband, bringing order to the chaos."
+       }
+      },
+      {
+       "name": "Helen Taft",
+       "slug": "helen",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The First Lady (1909–1913), wife of William Howard Taft, who left an enduring mark on the capital's landscape.",
+        "mixology": "Helen was instrumental in bringing Japan's gift of cherry trees to Washington, D.C., now a beloved springtime spectacle.",
+        "examples": "An ambitious political partner, she suffered a stroke early in her tenure but recovered to resume an active public role."
+       }
+      },
+      {
+       "name": "Ellen Wilson",
+       "slug": "ellen",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The first wife of Woodrow Wilson and First Lady (1913–1914), an accomplished painter who died in office.",
+        "mixology": "Ellen used her position to advocate for slum-clearance housing reform in Washington before her death in 1914.",
+        "examples": "A serious landscape artist, she was among the most genuinely talented painters ever to serve as First Lady."
+       }
+      },
+      {
+       "name": "Edith Wilson",
+       "slug": "edith-w",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The second wife of Woodrow Wilson and First Lady (1915–1921), who took on extraordinary influence after his stroke.",
+        "mixology": "After Wilson's 1919 stroke, Edith controlled access to him, screening matters of state in what critics called a 'stewardship.'",
+        "examples": "Some historians describe her as effectively the nation's first acting female leader, though she insisted she merely managed her husband's affairs."
+       }
+      },
+      {
+       "name": "Florence Harding",
+       "slug": "florence",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The First Lady (1921–1923), wife of Warren Harding, an assertive partner who shaped her husband's career and image.",
+        "mixology": "Florence, who called her husband 'Wurr'n,' was a shrewd political operator who helped manage his rise to the presidency.",
+        "examples": "A pioneering figure, she embraced the press and new media, hosting garden parties for veterans and projecting a modern public persona."
+       }
+      },
+      {
+       "name": "Grace Coolidge",
+       "slug": "grace",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The First Lady (1923–1929), wife of Calvin Coolidge, whose warmth provided a vivid contrast to her famously reserved husband.",
+        "mixology": "Grace's vivacious charm balanced 'Silent Cal's' austerity, making her one of the most popular First Ladies of her time.",
+        "examples": "A former teacher of deaf students, she brought a lively spirit and a beloved pet raccoon named Rebecca to the White House."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MID-CENTURY",
+   "color": "#c0504d",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "MID-CENTURY",
+     "color": "#c0504d",
+     "descriptors": [
+      {
+       "name": "Lou Hoover",
+       "slug": "lou",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1929–1933), wife of Herbert Hoover, a geologist and linguist of remarkable accomplishment.",
+        "mixology": "Lou was fluent in several languages and, with her husband, translated a 16th-century Latin mining text into English.",
+        "examples": "She was the first First Lady to deliver regular national radio addresses, pioneering the role's use of broadcast media."
+       }
+      },
+      {
+       "name": "Eleanor Roosevelt",
+       "slug": "eleanor",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1933–1945), wife of Franklin D. Roosevelt, widely considered the most influential First Lady in history.",
+        "mixology": "Eleanor transformed the role into a platform for activism, holding her own press conferences and championing civil and human rights.",
+        "examples": "After the White House, she chaired the UN commission that drafted the Universal Declaration of Human Rights, earning the title 'First Lady of the World.'"
+       }
+      },
+      {
+       "name": "Bess Truman",
+       "slug": "bess",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1945–1953), wife of Harry Truman, who valued privacy and shunned the public spotlight.",
+        "mixology": "Bess was a trusted private adviser to her husband, who called her 'the Boss,' though she avoided public political roles.",
+        "examples": "A sharp contrast to her activist predecessor Eleanor Roosevelt, she deliberately kept a low profile throughout her tenure."
+       }
+      },
+      {
+       "name": "Mamie Eisenhower",
+       "slug": "mamie",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1953–1961), wife of Dwight Eisenhower, a popular hostess who embodied 1950s domestic ideals.",
+        "mixology": "Mamie's warm, traditional style and signature pink wardrobe made her a beloved and fashionable national figure.",
+        "examples": "Having moved dozens of times as a military wife, she relished finally settling into a permanent home in the White House."
+       }
+      },
+      {
+       "name": "Jacqueline Kennedy",
+       "slug": "jackie",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1961–1963), wife of John F. Kennedy, who brought unprecedented glamour, culture, and style to the role.",
+        "mixology": "Jacqueline led a historic restoration of the White House and gave a famous televised tour of its restored rooms.",
+        "examples": "Her grace and composure after her husband's assassination, and her crafting of his 'Camelot' legacy, made her an enduring global icon."
+       }
+      },
+      {
+       "name": "Lady Bird Johnson",
+       "slug": "ladybird",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The First Lady (1963–1969), wife of Lyndon B. Johnson, a savvy businesswoman and pioneering environmental advocate.",
+        "mixology": "Lady Bird championed a national beautification and conservation campaign, a forerunner of the modern environmental movement.",
+        "examples": "She was the first First Lady to have her own press secretary and chief of staff, and a successful businesswoman in her own right."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MODERN ERA",
+   "color": "#7e57c2",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "MODERN ERA",
+     "color": "#7e57c2",
+     "descriptors": [
+      {
+       "name": "Pat Nixon",
+       "slug": "pat",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1969–1974), wife of Richard Nixon, who promoted volunteerism and undertook significant solo diplomacy.",
+        "mixology": "Pat traveled extensively as a goodwill ambassador, becoming the most-traveled First Lady up to that point.",
+        "examples": "She championed personal volunteer service as 'the spirit of America,' though her tenure ended under the shadow of Watergate."
+       }
+      },
+      {
+       "name": "Betty Ford",
+       "slug": "betty",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1974–1977), wife of Gerald Ford, celebrated for her candor on issues long considered taboo.",
+        "mixology": "Betty spoke openly about her breast cancer and mastectomy, dramatically raising public awareness of the disease.",
+        "examples": "Her later openness about her own addiction led to the founding of the Betty Ford Center, a landmark in addiction treatment."
+       }
+      },
+      {
+       "name": "Rosalynn Carter",
+       "slug": "rosalynn",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1977–1981), wife of Jimmy Carter, a close governing partner and tireless mental health advocate.",
+        "mixology": "Rosalynn sat in on Cabinet meetings and championed mental health reform, an unusually substantive policy role.",
+        "examples": "Her decades of humanitarian work alongside her husband after leaving office redefined the post-presidency for both of them."
+       }
+      },
+      {
+       "name": "Nancy Reagan",
+       "slug": "nancy",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1981–1989), wife of Ronald Reagan, known for her protective devotion to her husband and her anti-drug campaign.",
+        "mixology": "Nancy's 'Just Say No' campaign became one of the most recognized anti-drug efforts in American history.",
+        "examples": "A fiercely loyal guardian of her husband's interests, she wielded quiet but significant influence over his staff and schedule."
+       }
+      },
+      {
+       "name": "Barbara Bush",
+       "slug": "barbara",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1989–1993), wife of George H. W. Bush, a beloved figure who championed family literacy.",
+        "mixology": "Barbara made universal literacy her signature cause, founding a foundation still devoted to the effort.",
+        "examples": "She is one of only two women in American history to be both the wife and the mother of a president, a rare distinction."
+       }
+      },
+      {
+       "name": "Hillary Clinton",
+       "slug": "hillary",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (1993–2001), wife of Bill Clinton, who later forged a singular political career of her own.",
+        "mixology": "Hillary took an active policy role, leading a major health-care reform effort early in her husband's first term.",
+        "examples": "She is the only First Lady to later hold high office herself, becoming a senator, secretary of state, and a major-party presidential nominee."
+       }
+      },
+      {
+       "name": "Laura Bush",
+       "slug": "laura",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (2001–2009), wife of George W. Bush, a former teacher and librarian who promoted education and literacy.",
+        "mixology": "Laura, a trained librarian, made education, reading, and literacy the central focus of her time in the role.",
+        "examples": "Her calm, steady public presence was widely noted in the difficult period following the September 11 attacks."
+       }
+      },
+      {
+       "name": "Michelle Obama",
+       "slug": "michelle",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The First Lady (2009–2017), wife of Barack Obama, the first Black First Lady, who became a global cultural figure.",
+        "mixology": "Michelle championed health and nutrition through her 'Let's Move!' campaign and support for military families and education.",
+        "examples": "A Princeton and Harvard Law graduate, her bestselling memoir 'Becoming' set sales records and cemented her broad public influence."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FOUNDING ERA": {
+   "en": "The term 'First Lady' didn't exist at first — Martha Washington was simply called 'Lady Washington' as she invented the role."
+  },
+  "19TH CENTURY": {
+   "en": "Frances Cleveland was just 21 when she married in the White House, making her the youngest First Lady in history."
+  },
+  "PROGRESSIVE ERA": {
+   "en": "After Woodrow Wilson's stroke, Edith Wilson controlled access to him so tightly that some called her the nation's first acting female leader."
+  },
+  "MID-CENTURY": {
+   "en": "Eleanor Roosevelt held her own press conferences and later helped draft the UN's Universal Declaration of Human Rights."
+  },
+  "MODERN ERA": {
+   "en": "Betty Ford's openness about addiction led to the founding of the Betty Ford Center, transforming how America treats addiction."
+  }
+ },
+ "ui": {
+  "en": {
+   "title": "First Ladies",
+   "origin": "Fact",
+   "chemistry": "",
+   "pairing": "",
+   "mixology": "Significance",
+   "examples": "Origin & Context",
+   "byline": "A StudySpinners reference wheel · © 2026 StudySpinners.com",
+   "search": "Search 31…",
+   "wheel": "Wheel",
+   "list": "List"
+  }
+ }
+}

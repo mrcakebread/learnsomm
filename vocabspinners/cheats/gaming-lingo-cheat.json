@@ -1,0 +1,755 @@
+{
+ "title": "eSports & Gaming Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "CORE GAMEPLAY"
+  },
+  {
+   "name": "Spawn",
+   "slug": "spawn",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The point where a player or object appears in the game world. 'Spawn point' is where you start or re-enter, and enemies 'spawn' into existence too."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The team rushed out of spawn the moment the round began."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'spawn' (to produce offspring, as fish do en masse). In games, characters and items 'spawn' into being at set points, often in waves."
+    }
+   ],
+   "name_es": "Spawn",
+   "name_fr": "Spawn",
+   "name_it": "Spawn"
+  },
+  {
+   "name": "Respawn",
+   "slug": "respawn",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To return to the game after dying, reappearing at a spawn point. Respawn rules — timers, locations, limits — shape much of competitive play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After getting eliminated, she had to wait ten seconds to respawn and rejoin the fight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 're-' (again) + 'spawn'. The ability to respawn defines a game's stakes — instant respawns feel forgiving; permadeath makes every life precious."
+    }
+   ],
+   "name_es": "Respawn",
+   "name_fr": "Respawn",
+   "name_it": "Respawn"
+  },
+  {
+   "name": "Grind",
+   "slug": "grind",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Repetitive gameplay done to earn experience, currency, or loot. 'Grinding' is the long, often tedious path to leveling up or unlocking rewards."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He spent the weekend grinding the same dungeon to finally hit max level."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'grind' (laborious, repetitive work). The gameplay loop of repeating tasks for incremental rewards — sometimes satisfying, sometimes a chore."
+    }
+   ],
+   "name_es": "Grind",
+   "name_fr": "Grind",
+   "name_it": "Grind"
+  },
+  {
+   "name": "Loot",
+   "slug": "loot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Items, gear, and currency collected from defeated enemies, chests, or the environment. 'Loot' drives much of the reward and progression in games."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The boss dropped rare loot, including a legendary weapon she'd hunted for weeks."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Hindi 'lūṭ' (plunder, booty), absorbed into English via colonial India. In games it's the treasure and gear that reward exploration and combat."
+    }
+   ],
+   "name_es": "Loot",
+   "name_fr": "Loot",
+   "name_it": "Loot"
+  },
+  {
+   "name": "Aggro",
+   "slug": "aggro",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The attention or hostility of enemies, especially AI-controlled ones. To 'pull aggro' is to make enemies target you — sometimes on purpose, sometimes disastrously."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The tank pulled aggro so the enemies attacked him instead of the fragile healer."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'aggravation' or 'aggression'. It names an enemy's targeting priority — managing who holds aggro is central to team-based combat."
+    }
+   ],
+   "name_es": "Aggro",
+   "name_fr": "Aggro",
+   "name_it": "Aggro"
+  },
+  {
+   "name": "Cooldown",
+   "slug": "cooldown",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The mandatory wait time before an ability can be used again after activating it. Cooldowns force players to time their powerful moves carefully."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She unleashed her ultimate, then had to survive ninety seconds of cooldown before using it again."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the ability must 'cool down' before reuse, like an overheated engine. Cooldowns balance powerful abilities by limiting how often they fire."
+    }
+   ],
+   "name_es": "Cooldown",
+   "name_fr": "Cooldown",
+   "name_it": "Cooldown"
+  },
+  {
+   "name": "Hitbox",
+   "slug": "hitbox",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The invisible shape defining where a character or object can be hit. A shot landing within the hitbox counts; outside it misses, even if it looks close."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The complaint was that the hitbox was too big, registering hits that clearly should have missed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'box' (or shape) that registers a 'hit'. This hidden geometry determines collisions and damage, and its size is a constant source of debate."
+    }
+   ],
+   "name_es": "Hitbox",
+   "name_fr": "Hitbox",
+   "name_it": "Hitbox"
+  },
+  {
+   "name": "Frame Rate / FPS",
+   "slug": "frame-rate",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "FPS (frames per second) — how many images the game displays each second. Higher frame rates mean smoother motion and a competitive edge."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He upgraded his rig to hit 240 frames per second for buttery-smooth, responsive aiming."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From film's 'frames'. A game's frame rate (confusingly also abbreviated FPS, like the genre) is prized by competitive players for smoothness and responsiveness."
+    }
+   ],
+   "name_es": "Frame Rate / FPS",
+   "name_fr": "Frame Rate / FPS",
+   "name_it": "Frame Rate / FPS"
+  },
+  {
+   "cat": "COMPETITIVE & RANKED"
+  },
+  {
+   "name": "Ranked",
+   "slug": "ranked",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A competitive game mode where wins and losses adjust your rank, matching you against similarly-skilled players. The ladder serious players climb."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She spent the season climbing ranked, grinding from Gold up to Diamond."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'rank' (a position in a hierarchy). Ranked play sorts players into tiers and divisions, providing the structured competitive ladder for the dedicated."
+    }
+   ],
+   "name_es": "Ranked",
+   "name_fr": "Ranked",
+   "name_it": "Ranked"
+  },
+  {
+   "name": "Elo / MMR",
+   "slug": "elo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A rating system measuring player skill, used to match opponents fairly. 'MMR' (Matchmaking Rating) is the modern hidden version behind the scenes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His Elo climbed steadily as he won, pairing him against tougher opponents each game."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for physicist Arpad Elo, who devised the system for chess. Adopted by video games as the math behind skill-based matchmaking and ranking."
+    }
+   ],
+   "name_es": "Elo / MMR",
+   "name_fr": "Elo / MMR",
+   "name_it": "Elo / MMR"
+  },
+  {
+   "name": "Smurf",
+   "slug": "smurf",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A high-skilled player using a new or low-ranked account to play against weaker opponents. Often frowned upon for ruining matches for beginners."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The lobby suspected a smurf when one player dominated far above everyone else's level."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Originating in 'Warcraft', where two top players used the names 'Papa Smurf' and 'Smurfette' to hide their identity. The term stuck for any expert on an alt account."
+    }
+   ],
+   "name_es": "Smurf",
+   "name_fr": "Smurf",
+   "name_it": "Smurf"
+  },
+  {
+   "name": "Meta",
+   "slug": "meta",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The dominant strategies, characters, or tactics currently considered most effective. The 'meta' shapes how everyone plays — until it shifts."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After the patch, the meta shifted entirely, and yesterday's best character became useless."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Often explained as 'Most Effective Tactics Available', though it really comes from 'meta' (above/beyond) — the game-about-the-game of optimal strategy choices."
+    }
+   ],
+   "name_es": "Meta",
+   "name_fr": "Meta",
+   "name_it": "Meta"
+  },
+  {
+   "name": "Clutch",
+   "slug": "clutch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To win a high-pressure situation against the odds, often alone against multiple opponents. A 'clutch play' is the heroic, last-second victory."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down to one player, he clutched the round with three straight eliminations."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sports sense of performing 'in the clutch' (a critical moment). A clutch is gaming's most celebrated feat — snatching victory from near-certain defeat."
+    }
+   ],
+   "name_es": "Clutch",
+   "name_fr": "Clutch",
+   "name_it": "Clutch"
+  },
+  {
+   "name": "Throw",
+   "slug": "throw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To lose a game from a winning position through mistakes or poor decisions. To 'throw' is to snatch defeat from the jaws of victory."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They had it won, then threw the whole match with one greedy, reckless mistake."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'throw' a game (to deliberately lose), though in modern usage it usually means an accidental, painful collapse rather than intentional cheating."
+    }
+   ],
+   "name_es": "Throw",
+   "name_fr": "Throw",
+   "name_it": "Throw"
+  },
+  {
+   "name": "GG",
+   "slug": "gg",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Good game' — said at a match's end as a sign of sportsmanship. 'GG' can be sincere, sarcastic ('GG EZ'), or a concession that the game is lost."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After the hard-fought match, both teams typed 'GG' in mutual respect."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An initialism for 'good game', a courtesy carried over from early online play. Its meaning bends with tone — gracious, dismissive, or a white-flag surrender."
+    }
+   ],
+   "name_es": "GG",
+   "name_fr": "GG",
+   "name_it": "GG"
+  },
+  {
+   "cat": "ROLES & GENRES"
+  },
+  {
+   "name": "Tank",
+   "slug": "tank",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A character built to absorb damage and protect teammates, drawing enemy fire while dealing less damage themselves. The team's frontline shield."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The tank charged in first, soaking up damage while the team followed behind."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From military 'tanks' — heavily armored and durable. The tank role trades offense for survivability, anchoring a team by absorbing punishment."
+    }
+   ],
+   "name_es": "Tank",
+   "name_fr": "Tank",
+   "name_it": "Tank"
+  },
+  {
+   "name": "DPS",
+   "slug": "dps",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Damage Per Second — both a measure of damage output and the name for damage-dealing roles. 'The DPS' are the characters who do the killing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The DPS focused the enemy healer while the tank held the line."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym measuring 'damage per second'. It became shorthand for the damage-dealer role itself — the glass cannons who provide a team's offensive power."
+    }
+   ],
+   "name_es": "DPS",
+   "name_fr": "DPS",
+   "name_it": "DPS"
+  },
+  {
+   "name": "Support / Healer",
+   "slug": "support",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A role focused on aiding teammates through healing, buffs, or utility rather than dealing damage. Healers keep the team alive; supports enable everyone else."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A great support, she kept the whole team topped up and shielded through every fight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'support' (to assist). These selfless roles win games quietly, healing and empowering teammates rather than chasing kills and glory themselves."
+    }
+   ],
+   "name_es": "Support / Healer",
+   "name_fr": "Support / Healer",
+   "name_it": "Support / Healer"
+  },
+  {
+   "name": "MOBA",
+   "slug": "moba",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Multiplayer Online Battle Arena — a genre where two teams of players each control a single hero, battling to destroy the enemy's base. Hugely popular in esports."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The MOBA's two teams fought lane by lane to push toward the enemy's base."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the genre that grew from 'Defense of the Ancients'. MOBAs like League of Legends and Dota 2 became esports juggernauts."
+    }
+   ],
+   "name_es": "MOBA",
+   "name_fr": "MOBA",
+   "name_it": "MOBA"
+  },
+  {
+   "name": "FPS (Genre)",
+   "slug": "fps",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "First-Person Shooter — a genre played from the character's own viewpoint, centered on gun combat. Note: confusingly shares its initials with 'frames per second.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He preferred the FPS genre, where fast reflexes and precise aim decided every duel."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the genre seen through the character's own eyes ('first-person'). It shares its letters with the unrelated frame-rate measure — context tells them apart."
+    }
+   ],
+   "name_es": "FPS (Genre)",
+   "name_fr": "FPS (Genre)",
+   "name_it": "FPS (Genre)"
+  },
+  {
+   "name": "Battle Royale",
+   "slug": "battle-royale",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A genre where many players fight on a shrinking map until one player or team remains. Popularized by games like PUBG and Fortnite."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "In the battle royale, a hundred players dropped in and the safe zone shrank until one was left."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named after the Japanese film 'Battle Royale', about a last-one-standing fight. The shrinking-map, last-survivor formula became one of gaming's biggest crazes."
+    }
+   ],
+   "name_es": "Battle Royale",
+   "name_fr": "Battle Royale",
+   "name_it": "Battle Royale"
+  },
+  {
+   "name": "MMO",
+   "slug": "mmo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Massively Multiplayer Online — a genre where thousands of players share a persistent online world simultaneously. 'MMORPGs' add role-playing progression."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The MMO's world teemed with thousands of real players adventuring side by side."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the 'massively multiplayer' experience. These vast, persistent shared worlds — World of Warcraft chief among them — host whole online societies."
+    }
+   ],
+   "name_es": "MMO",
+   "name_fr": "MMO",
+   "name_it": "MMO"
+  },
+  {
+   "cat": "MECHANICS & STATS"
+  },
+  {
+   "name": "Buff / Nerf",
+   "slug": "buff-nerf",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'buff' is to strengthen something in a game update; to 'nerf' is to weaken it. Developers buff and nerf to keep the game balanced."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The patch buffed the underused character and nerfed the one everyone complained about."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Buff' from making something stronger/'buffed up'; 'nerf' from the soft, harmless Nerf toys — to 'nerf' is to make a weapon as weak as a foam dart."
+    }
+   ],
+   "name_es": "Buff / Nerf",
+   "name_fr": "Buff / Nerf",
+   "name_it": "Buff / Nerf"
+  },
+  {
+   "name": "Crowd Control (CC)",
+   "slug": "cc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Crowd Control — abilities that limit enemies' actions, like stuns, slows, roots, or silences. CC controls fights by taking opponents out of the action."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She chained her crowd control to lock down the enemy team while her allies cleaned up."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'crowd control' — abilities that 'control' enemies by restricting their movement or actions. Landing CC at the right moment often decides team fights."
+    }
+   ],
+   "name_es": "Crowd Control (CC)",
+   "name_fr": "Crowd Control (CC)",
+   "name_it": "Crowd Control (CC)"
+  },
+  {
+   "name": "DoT",
+   "slug": "dot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Damage over Time — an effect that deals damage gradually over a period, like poison or burning, rather than all at once. Steady, lingering harm."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His poison DoT ticked away at the boss's health long after the initial hit."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'damage over time'. Rather than a single burst, a DoT 'ticks' repeatedly, wearing an enemy down — and forcing them to react or cleanse it."
+    }
+   ],
+   "name_es": "DoT",
+   "name_fr": "DoT",
+   "name_it": "DoT"
+  },
+  {
+   "name": "AoE",
+   "slug": "aoe",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Area of Effect — an attack or ability that affects everything in a region rather than a single target. AoE clears groups of enemies efficiently."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He dropped an AoE spell on the clustered enemies, hitting them all at once."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'area of effect'. AoE abilities reward grouping enemies together (or punish players who clump up), shaping positioning in every fight."
+    }
+   ],
+   "name_es": "AoE",
+   "name_fr": "AoE",
+   "name_it": "AoE"
+  },
+  {
+   "name": "Proc",
+   "slug": "proc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a chance-based effect triggers — like a weapon randomly dealing bonus damage. 'It proc'd' means the random effect activated."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her sword had a chance to proc lightning, and it triggered at the perfect moment."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Believed to come from 'programmed random occurrence' or simply 'process'. It names the moment a probability-based effect fires, often at a lucky instant."
+    }
+   ],
+   "name_es": "Proc",
+   "name_fr": "Proc",
+   "name_it": "Proc"
+  },
+  {
+   "name": "Hitscan",
+   "slug": "hitscan",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A weapon mechanic where shots register instantly along a line, with no travel time — if your aim is on target when you fire, it hits. Common in shooters."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The hitscan rifle hit instantly, so there was no need to lead moving targets."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A blend of 'hit' + 'scan' — the game instantly 'scans' for a target along the aim line. Contrasts with 'projectile' weapons whose shots travel and can be dodged."
+    }
+   ],
+   "name_es": "Hitscan",
+   "name_fr": "Hitscan",
+   "name_it": "Hitscan"
+  },
+  {
+   "name": "Time to Kill (TTK)",
+   "slug": "ttk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Time to Kill — how long it takes to eliminate an opponent once you start landing hits. Low TTK games are fast and lethal; high TTK rewards sustained accuracy."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The game's low TTK meant a single burst of fire could drop an enemy instantly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'time to kill'. A core measure of a shooter's feel — low TTK is punishing and twitchy, high TTK gives more room to react and recover."
+    }
+   ],
+   "name_es": "Time to Kill (TTK)",
+   "name_fr": "Time to Kill (TTK)",
+   "name_it": "Time to Kill (TTK)"
+  },
+  {
+   "cat": "GAMER SLANG"
+  },
+  {
+   "name": "Noob",
+   "slug": "noob",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A new or unskilled player. Sometimes neutral (a genuine beginner), often a mild insult for someone playing badly. Spelled 'noob', 'n00b', or 'newb.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Don't worry about the mistakes — everyone's a noob when they start out."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A corruption of 'newbie' (a newcomer). 'Newb' tends to mean an innocent beginner, while 'noob' often implies someone unskilled who should know better."
+    }
+   ],
+   "name_es": "Noob",
+   "name_fr": "Noob",
+   "name_it": "Noob"
+  },
+  {
+   "name": "Camping",
+   "slug": "camping",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Staying hidden in one spot to ambush opponents rather than moving around. An effective but widely disliked tactic, seen as cheap or cowardly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He kept camping the same corner, picking off players who wandered past."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'camping' out in one place. The tactic of lurking in a fixed position to ambush passersby is effective yet scorned as unsporting by many players."
+    }
+   ],
+   "name_es": "Camping",
+   "name_fr": "Camping",
+   "name_it": "Camping"
+  },
+  {
+   "name": "Rage Quit",
+   "slug": "ragequit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To quit a game abruptly in anger after losing or making a mistake. The dramatic, frustrated exit — sometimes with a slammed keyboard."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After the third loss in a row, he ragequit and shut the whole game down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'rage' + 'quit'. It names the all-too-human act of storming off mid-game in frustration — a meme as much as a behavior."
+    }
+   ],
+   "name_es": "Rage Quit",
+   "name_fr": "Rage Quit",
+   "name_it": "Rage Quit"
+  },
+  {
+   "name": "One-Shot",
+   "slug": "nerf-this",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'one-shot' is an attack powerful enough to eliminate an opponent in a single hit. The dream of burst damage — and the bane of those on the receiving end."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her sniper rifle could one-shot any enemy with a clean headshot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the target is eliminated in 'one shot'. The ultimate burst payoff, one-shots reward precision but often spark balance complaints from victims."
+    }
+   ],
+   "name_es": "One-Shot",
+   "name_fr": "One-Shot",
+   "name_it": "One-Shot"
+  },
+  {
+   "name": "Pog",
+   "slug": "poggers",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Pog' or 'poggers' expresses excitement or amazement at something awesome, especially in streaming chat. The reaction to an incredible play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "When the clutch landed, the whole chat erupted with 'Pog!'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "From a Twitch emote ('PogChamp') showing a surprised face. 'Pog' became streaming culture's go-to exclamation of hype and astonishment at a great moment."
+    }
+   ],
+   "name_es": "Pog",
+   "name_fr": "Pog",
+   "name_it": "Pog"
+  },
+  {
+   "name": "Carry",
+   "slug": "carry",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'carry' is to lead your team to victory through outstanding individual play, compensating for weaker teammates. The hard-carry wins games almost single-handedly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She hard-carried the match, racking up most of the team's kills and dragging them to a win."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'carry' (to bear the load) — a dominant player 'carries' the team on their back. The term also names damage-focused roles expected to do exactly that."
+    }
+   ],
+   "name_es": "Carry",
+   "name_fr": "Carry",
+   "name_it": "Carry"
+  }
+ ]
+}

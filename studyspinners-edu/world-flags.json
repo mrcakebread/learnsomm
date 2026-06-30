@@ -1,0 +1,402 @@
+{
+ "title": "World Flags",
+ "subject": "Reference Wheel",
+ "categories": [
+  {
+   "name": "THE AMERICAS",
+   "color": "#3f6f9f",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "THE AMERICAS",
+     "color": "#3f6f9f",
+     "descriptors": [
+      {
+       "name": "United States",
+       "slug": "usa",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The 'Stars and Stripes' features 13 horizontal red and white stripes and a blue canton with 50 white stars.",
+        "mixology": "The 13 stripes represent the original colonies, while each of the 50 stars stands for a current state.",
+        "examples": "The design has been modified 27 times as states joined; the current 50-star version, designed in part by a teenager for a school project, dates to 1960."
+       }
+      },
+      {
+       "name": "Canada",
+       "slug": "canada",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The 'Maple Leaf' flag features a single red, 11-pointed maple leaf centered on a white square between two red bands.",
+        "mixology": "The maple leaf is a longstanding national symbol of Canada, and the red-and-white colors were declared the national colors in 1921.",
+        "examples": "Adopted only in 1965 after fierce debate, it replaced flags bearing the British Union Jack, marking a milestone in Canada's distinct national identity."
+       }
+      },
+      {
+       "name": "Mexico",
+       "slug": "mexico",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "A vertical tricolor of green, white, and red, with the national coat of arms centered on the white band.",
+        "mixology": "The emblem depicts an eagle devouring a serpent atop a cactus, fulfilling an Aztec prophecy about where to found their capital.",
+        "examples": "The legend guided the Aztecs to build Tenochtitlan, today's Mexico City, making the flag a direct link to the nation's pre-colonial roots."
+       }
+      },
+      {
+       "name": "Brazil",
+       "slug": "brazil",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "A green field with a yellow rhombus, a blue celestial globe, and a white banner reading 'Ordem e Progresso.'",
+        "mixology": "The motto means 'Order and Progress,' and the stars depict the sky over Rio de Janeiro on a specific date in 1889.",
+        "examples": "The 27 stars represent the states and federal district; the sky shown is that of the morning the republic was proclaimed, frozen in the flag forever."
+       }
+      },
+      {
+       "name": "Argentina",
+       "slug": "argentina",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "Three horizontal bands of light blue, white, and light blue, with a golden 'Sun of May' centered on the white.",
+        "mixology": "The Sun of May commemorates the May Revolution of 1810 that began Argentina's path to independence.",
+        "examples": "The sky-blue and white colors are traditionally linked to the cockades worn by patriots, and the radiant sun is an emblem also found on Uruguay's flag."
+       }
+      },
+      {
+       "name": "Jamaica",
+       "slug": "jamaica",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "A gold saltire (diagonal cross) dividing the flag into green triangles at top and bottom and black triangles at the sides.",
+        "mixology": "Jamaica's is the only national flag in the world that contains none of the colors red, white, or blue.",
+        "examples": "Adopted at independence in 1962, its colors symbolize the strength and creativity of the people (black), the land and hope (green), and sunshine (gold)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EUROPE",
+   "color": "#caa53a",
+   "textColor": "#2a2105",
+   "sub": [
+    {
+     "name": "EUROPE",
+     "color": "#caa53a",
+     "descriptors": [
+      {
+       "name": "United Kingdom",
+       "slug": "uk",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 'Union Jack' combines the crosses of three patron saints into a single overlapping red, white, and blue design.",
+        "mixology": "It merges the crosses of St. George (England), St. Andrew (Scotland), and St. Patrick (Ireland) into one flag.",
+        "examples": "Its layered design reflects the political union of the kingdoms, and it appears within the flags of many former British territories and Commonwealth nations."
+       }
+      },
+      {
+       "name": "France",
+       "slug": "france",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 'Tricolore' consists of three equal vertical bands of blue, white, and red.",
+        "mixology": "Born of the French Revolution, its colors are often linked to liberty, equality, and fraternity, and to the city of Paris and the monarchy.",
+        "examples": "One of the most influential flag designs in history, its revolutionary tricolor pattern inspired the national flags of countless other nations."
+       }
+      },
+      {
+       "name": "Germany",
+       "slug": "germany",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "Three horizontal bands of black, red, and gold.",
+        "mixology": "The colors trace to 19th-century movements for German unity and democracy, and to the uniforms of volunteer soldiers fighting Napoleon.",
+        "examples": "Banned and revived through Germany's turbulent history, the black-red-gold tricolor today stands specifically for democratic and republican tradition."
+       }
+      },
+      {
+       "name": "Italy",
+       "slug": "italy",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "A vertical tricolor of green, white, and red, inspired by the French Tricolore.",
+        "mixology": "Adopted by revolutionaries seeking Italian unification, the design echoes the French flag that inspired Europe's age of nationalism.",
+        "examples": "First used in the 1790s, it became the flag of a unified Italy in the 19th century; popular legend ties its colors to the landscape and faith."
+       }
+      },
+      {
+       "name": "Spain",
+       "slug": "spain",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "Two horizontal red bands framing a wider yellow band, with the national coat of arms set toward the hoist side.",
+        "mixology": "The coat of arms displays the heraldic symbols of Spain's historic kingdoms and the Pillars of Hercules.",
+        "examples": "The pillars bear the motto 'Plus Ultra' (Further Beyond), a reference to Spanish exploration past the edge of the once-known world."
+       }
+      },
+      {
+       "name": "Switzerland",
+       "slug": "switzerland",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "A red square — one of only two square national flags — bearing a bold white cross at its center.",
+        "mixology": "The white cross on red is an ancient symbol, and Switzerland's flag inspired the emblem of the Red Cross in reverse colors.",
+        "examples": "The humanitarian Red Cross, founded in Geneva, honored its host nation by inverting the Swiss flag's colors for its now-universal symbol."
+       }
+      },
+      {
+       "name": "Greece",
+       "slug": "greece",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "Nine horizontal blue and white stripes with a white cross on a blue canton in the upper corner.",
+        "mixology": "The cross represents Greek Orthodox Christianity, and the nine stripes are popularly linked to the syllables of the independence motto.",
+        "examples": "The motto, 'Eleftheria i Thanatos' (Freedom or Death), drove the Greek War of Independence; blue and white have evoked sea and sky for generations."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AFRICA",
+   "color": "#3f8f6a",
+   "textColor": "#06231a",
+   "sub": [
+    {
+     "name": "AFRICA",
+     "color": "#3f8f6a",
+     "descriptors": [
+      {
+       "name": "South Africa",
+       "slug": "southafrica",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "A unique design featuring a horizontal 'Y' shape in green that converges the flag's six colors.",
+        "mixology": "Adopted in 1994 at the end of apartheid, the converging 'Y' symbolizes the unification of diverse elements into one nation.",
+        "examples": "It incorporates colors from earlier flags and liberation movements, and was the first national flag designed in the post-apartheid democratic era."
+       }
+      },
+      {
+       "name": "Kenya",
+       "slug": "kenya",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "Horizontal bands of black, red, and green separated by thin white stripes, with a Maasai shield and spears at the center.",
+        "mixology": "The shield and spears symbolize the defense of freedom, while black, red, and green represent the people, struggle, and land.",
+        "examples": "The Maasai warrior's shield at the heart of the flag honors the nation's defense of the hard-won independence achieved in 1963."
+       }
+      },
+      {
+       "name": "Egypt",
+       "slug": "egypt",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "Three horizontal bands of red, white, and black, with the golden 'Eagle of Saladin' centered on the white.",
+        "mixology": "The Eagle of Saladin is a symbol of Arab nationalism and a medieval Muslim leader, shared with several other Arab nations' heraldry.",
+        "examples": "The red-white-black tricolor is a pan-Arab pattern, and the eagle ties modern Egypt to the legendary 12th-century commander Saladin."
+       }
+      },
+      {
+       "name": "Nigeria",
+       "slug": "nigeria",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "Three vertical bands, with green on the outer edges framing a white band in the center.",
+        "mixology": "The green represents Nigeria's agriculture and forests, while the white symbolizes peace and unity.",
+        "examples": "Chosen through a 1959 design contest won by a student, its simple, striking design has represented the nation since independence in 1960."
+       }
+      },
+      {
+       "name": "Ghana",
+       "slug": "ghana",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "Three horizontal bands of red, gold, and green with a black five-pointed star centered on the gold band.",
+        "mixology": "The black 'Lodestar of African Freedom' is a symbol of African emancipation, inspiring liberation movements across the continent.",
+        "examples": "Ghana was the first sub-Saharan African nation to gain independence, in 1957, and its pioneering flag influenced many that followed."
+       }
+      },
+      {
+       "name": "Ethiopia",
+       "slug": "ethiopia",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "Horizontal bands of green, yellow, and red with a blue disc bearing a golden star and rays at the center.",
+        "mixology": "Ethiopia's green-yellow-red combination became the basis for the Pan-African colors adopted across the continent.",
+        "examples": "As one of the few African nations never colonized, its ancient flag became a powerful emblem of African independence and pride worldwide."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ASIA",
+   "color": "#c0504d",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "ASIA",
+     "color": "#c0504d",
+     "descriptors": [
+      {
+       "name": "Japan",
+       "slug": "japan",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A white field with a single large red disc in the center, representing the sun.",
+        "mixology": "Called the 'Hinomaru' (circle of the sun), it reflects Japan's name as the 'Land of the Rising Sun.'",
+        "examples": "The sun holds deep significance in Japanese tradition and Shinto belief, and the elegant, minimalist design is among the world's most recognizable."
+       }
+      },
+      {
+       "name": "China",
+       "slug": "china",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A red field with a large golden star and four smaller golden stars arranged in an arc in the upper hoist corner.",
+        "mixology": "The large star represents the Communist Party, and the four smaller stars the united people of the nation.",
+        "examples": "Adopted in 1949 at the founding of the People's Republic, the red field symbolizes the communist revolution that brought it to power."
+       }
+      },
+      {
+       "name": "India",
+       "slug": "india",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A horizontal tricolor of saffron, white, and green, with a navy-blue 24-spoked wheel centered on the white band.",
+        "mixology": "The wheel, the 'Ashoka Chakra,' represents the eternal wheel of law and dharma from ancient Indian tradition.",
+        "examples": "The saffron, white, and green are often read as courage, peace, and faith, and the ancient chakra ties modern India to its philosophical heritage."
+       }
+      },
+      {
+       "name": "South Korea",
+       "slug": "southkorea",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A white field with a red-and-blue 'taegeuk' yin-yang symbol at the center, framed by four black trigrams.",
+        "mixology": "The taegeuk represents cosmic balance, while the four trigrams symbolize the elements and principles of the universe.",
+        "examples": "Drawn from East Asian philosophy and the I Ching, the 'Taegukgi' expresses harmony and balance, a meditative emblem unique among national flags."
+       }
+      },
+      {
+       "name": "Turkey",
+       "slug": "turkey",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A red field bearing a white crescent moon and a five-pointed star.",
+        "mixology": "The star and crescent are longstanding symbols associated with the Ottoman Empire and the wider Islamic world.",
+        "examples": "Inherited from the Ottoman Empire, the design has become one of the most widely recognized symbols associated with Turkey and Muslim heritage."
+       }
+      },
+      {
+       "name": "Israel",
+       "slug": "israel",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "A white field with two horizontal blue stripes and a blue Star of David centered between them.",
+        "mixology": "The Star of David is an ancient symbol of Jewish identity, and the design evokes the traditional Jewish prayer shawl.",
+        "examples": "The blue stripes recall the 'tallit,' the prayer shawl, linking the modern state's flag directly to centuries of Jewish religious tradition."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ASIA-PACIFIC & BEYOND",
+   "color": "#7e57c2",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "ASIA-PACIFIC & BEYOND",
+     "color": "#7e57c2",
+     "descriptors": [
+      {
+       "name": "Australia",
+       "slug": "australia",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "A blue field with the Union Jack in the canton, a large Commonwealth Star, and the Southern Cross constellation.",
+        "mixology": "The Southern Cross is a constellation visible in the Southern Hemisphere, and the large star represents the federation of states.",
+        "examples": "The Union Jack reflects British heritage, while the Southern Cross has long served as a navigational and symbolic marker of the southern skies."
+       }
+      },
+      {
+       "name": "New Zealand",
+       "slug": "newzealand",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "A blue field with the Union Jack in the canton and four red, white-bordered stars forming the Southern Cross.",
+        "mixology": "Like Australia's, it features the Southern Cross, but with four red stars rather than the larger constellation and federation star.",
+        "examples": "A 2016 national referendum considered replacing it with a silver-fern design, but voters chose to keep the historic flag."
+       }
+      },
+      {
+       "name": "Nepal",
+       "slug": "nepal",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The world's only non-rectangular national flag, formed by two stacked crimson pennants with a blue border.",
+        "mixology": "Nepal's flag is the only national flag that is not a quadrilateral, its shape derived from two combined triangular pennants.",
+        "examples": "The two pennants represent the Himalayas and two branches of the royal and political past; the moon and sun symbols express a wish for the nation's longevity."
+       }
+      },
+      {
+       "name": "Vietnam",
+       "slug": "vietnam",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "A red field with a single large five-pointed golden star at its center.",
+        "mixology": "The red symbolizes revolution and bloodshed, while the gold star's five points represent the classes united in building the nation.",
+        "examples": "Known as the 'red flag with a gold star,' it emerged from the communist independence movement and was adopted upon reunification."
+       }
+      },
+      {
+       "name": "Thailand",
+       "slug": "thailand",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "Five horizontal bands of red, white, blue, white, and red, with the central blue band twice the height of the others.",
+        "mixology": "The colors stand for the nation (red), religion (white), and the monarchy (blue), the three pillars of Thai identity.",
+        "examples": "The prominent central blue band, added in 1917, was also a gesture of solidarity with allies who shared red-white-blue flags during World War I."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "THE AMERICAS": {
+   "en": "Jamaica's flag is the only national flag in the world that contains none of the colors red, white, or blue."
+  },
+  "EUROPE": {
+   "en": "The Red Cross honored its Swiss birthplace by simply inverting the colors of the Swiss flag for its now-universal symbol."
+  },
+  "AFRICA": {
+   "en": "Ethiopia's green-yellow-red flag became the basis for the Pan-African colors found on flags across the continent."
+  },
+  "ASIA": {
+   "en": "Nepal has the only non-rectangular national flag — it's formed from two stacked triangular pennants."
+  },
+  "ASIA-PACIFIC & BEYOND": {
+   "en": "The Southern Cross constellation appears on both the Australian and New Zealand flags, marking the southern skies."
+  }
+ },
+ "ui": {
+  "en": {
+   "title": "World Flags",
+   "origin": "Fact",
+   "chemistry": "",
+   "pairing": "",
+   "mixology": "Significance",
+   "examples": "Origin & Context",
+   "byline": "A StudySpinners reference wheel · © 2026 StudySpinners.com",
+   "search": "Search 30…",
+   "wheel": "Wheel",
+   "list": "List"
+  }
+ }
+}

@@ -1,0 +1,1204 @@
+{
+ "title": "Grammar & Punctuation — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "PARTS OF SPEECH"
+  },
+  {
+   "name": "Noun",
+   "slug": "noun",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that names a person, place, thing, or idea — the 'who' or 'what' of a sentence."
+    },
+    {
+     "k": "The Rule",
+     "v": "Nouns can be common (dog) or proper (Rex), concrete (table) or abstract (freedom), singular or plural. They can be subjects, objects, or complements."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't capitalize common nouns; only proper nouns (specific names) get a capital letter."
+    },
+    {
+     "k": "Example",
+     "v": "The teacher gave the students hope. (teacher, students, hope are nouns)"
+    }
+   ],
+   "name_es": "Noun",
+   "name_fr": "Noun",
+   "name_it": "Noun"
+  },
+  {
+   "name": "Pronoun",
+   "slug": "pronoun",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that stands in for a noun so you don't have to repeat it — he, she, it, they, this, who."
+    },
+    {
+     "k": "The Rule",
+     "v": "Pronouns replace a noun (the antecedent) and must match it in number and gender. Types include personal, possessive, relative, and demonstrative."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Make sure it's always clear which noun a pronoun refers to — vague pronouns confuse readers."
+    },
+    {
+     "k": "Example",
+     "v": "Maria lost her keys, so she called a locksmith. (her, she replace Maria)"
+    }
+   ],
+   "name_es": "Pronoun",
+   "name_fr": "Pronoun",
+   "name_it": "Pronoun"
+  },
+  {
+   "name": "Verb",
+   "slug": "verb",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that expresses an action or a state of being — the engine of every sentence."
+    },
+    {
+     "k": "The Rule",
+     "v": "Every complete sentence needs a verb. Action verbs (run, think) show what the subject does; linking verbs (is, seem) connect it to a description."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't confuse action verbs with linking verbs — 'She is happy' uses a linking verb, not an action."
+    },
+    {
+     "k": "Example",
+     "v": "Birds fly. The soup tastes salty. (fly = action, tastes = linking)"
+    }
+   ],
+   "name_es": "Verb",
+   "name_fr": "Verb",
+   "name_it": "Verb"
+  },
+  {
+   "name": "Adjective",
+   "slug": "adjective",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that describes or modifies a noun — telling which, what kind, or how many."
+    },
+    {
+     "k": "The Rule",
+     "v": "Adjectives answer 'what kind?', 'which one?', or 'how many?' They usually sit before the noun or after a linking verb."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use commas between adjectives only if you could swap their order or insert 'and' (a tall, dark stranger)."
+    },
+    {
+     "k": "Example",
+     "v": "The red car. Seven loud dogs. The sky is blue. (red, seven, loud, blue)"
+    }
+   ],
+   "name_es": "Adjective",
+   "name_fr": "Adjective",
+   "name_it": "Adjective"
+  },
+  {
+   "name": "Adverb",
+   "slug": "adverb",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that modifies a verb, adjective, or another adverb — telling how, when, where, or to what degree."
+    },
+    {
+     "k": "The Rule",
+     "v": "Many adverbs end in -ly (quickly), but not all (very, often, here). They add detail about manner, time, place, or intensity."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Avoid piling on adverbs; a strong verb usually beats a weak verb plus an adverb ('sprinted' over 'ran quickly')."
+    },
+    {
+     "k": "Example",
+     "v": "She sang beautifully. He arrived late. It's very cold. (beautifully, late, very)"
+    }
+   ],
+   "name_es": "Adverb",
+   "name_fr": "Adverb",
+   "name_it": "Adverb"
+  },
+  {
+   "name": "Preposition",
+   "slug": "preposition",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that shows the relationship between a noun and other words — usually position, direction, or time."
+    },
+    {
+     "k": "The Rule",
+     "v": "Prepositions (in, on, at, under, before, between) introduce a phrase that links a noun to the rest of the sentence."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "The old 'never end a sentence with a preposition' rule is a myth — natural English often does ('What are you waiting for?')."
+    },
+    {
+     "k": "Example",
+     "v": "The cat sat on the mat under the table. (on, under)"
+    }
+   ],
+   "name_es": "Preposition",
+   "name_fr": "Preposition",
+   "name_it": "Preposition"
+  },
+  {
+   "name": "Conjunction",
+   "slug": "conjunction",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A word that joins words, phrases, or clauses together — and, but, or, because, although."
+    },
+    {
+     "k": "The Rule",
+     "v": "Coordinating conjunctions (FANBOYS: for, and, nor, but, or, yet, so) join equals; subordinating ones (because, while) attach a dependent clause."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use a comma before a coordinating conjunction only when it joins two complete sentences."
+    },
+    {
+     "k": "Example",
+     "v": "Tea or coffee? I stayed because it rained. (or, because)"
+    }
+   ],
+   "name_es": "Conjunction",
+   "name_fr": "Conjunction",
+   "name_it": "Conjunction"
+  },
+  {
+   "name": "Interjection",
+   "slug": "interjection",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A short word or phrase that expresses sudden emotion — Wow! Ouch! Oh no!"
+    },
+    {
+     "k": "The Rule",
+     "v": "Interjections stand apart from the grammar of a sentence and are usually followed by an exclamation point or comma."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use them sparingly in formal writing; they're best for dialogue and casual tone."
+    },
+    {
+     "k": "Example",
+     "v": "Wow, that's amazing! Ouch! Well, I suppose so. (Wow, Ouch, Well)"
+    }
+   ],
+   "name_es": "Interjection",
+   "name_fr": "Interjection",
+   "name_it": "Interjection"
+  },
+  {
+   "name": "Article",
+   "slug": "article",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The small words a, an, and the that introduce a noun and signal whether it's specific or general."
+    },
+    {
+     "k": "The Rule",
+     "v": "'The' is definite (a specific thing); 'a/an' is indefinite (any one). Use 'an' before a vowel sound, 'a' before a consonant sound."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "It's 'an hour' (silent h, vowel sound) but 'a university' (sounds like 'yoo') — go by sound, not spelling."
+    },
+    {
+     "k": "Example",
+     "v": "The dog chased a cat for an hour. (the, a, an)"
+    }
+   ],
+   "name_es": "Article",
+   "name_fr": "Article",
+   "name_it": "Article"
+  },
+  {
+   "cat": "VERBS & TENSE"
+  },
+  {
+   "name": "Present Tense",
+   "slug": "present-tense",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The verb form for actions happening now or that happen habitually."
+    },
+    {
+     "k": "The Rule",
+     "v": "Simple present states facts and habits (I walk); it also covers general truths. Third-person singular usually adds -s (he walks)."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't forget the -s on he/she/it ('she runs', not 'she run') — a very common error."
+    },
+    {
+     "k": "Example",
+     "v": "I work downtown. The sun rises in the east. She walks to school."
+    }
+   ],
+   "name_es": "Present Tense",
+   "name_fr": "Present Tense",
+   "name_it": "Present Tense"
+  },
+  {
+   "name": "Past Tense",
+   "slug": "past-tense",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The verb form for actions that already happened and are now complete."
+    },
+    {
+     "k": "The Rule",
+     "v": "Regular verbs add -ed (walked); irregular verbs change form unpredictably (go→went, see→saw). It places the action firmly in the past."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Irregular past forms must be memorized — 'I seen it' is wrong; it's 'I saw it' or 'I have seen it'."
+    },
+    {
+     "k": "Example",
+     "v": "She walked home. They went to the beach. I saw the movie."
+    }
+   ],
+   "name_es": "Past Tense",
+   "name_fr": "Past Tense",
+   "name_it": "Past Tense"
+  },
+  {
+   "name": "Future Tense",
+   "slug": "future-tense",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The verb form for actions that haven't happened yet."
+    },
+    {
+     "k": "The Rule",
+     "v": "English forms the future with 'will' + verb, or with 'going to' for plans and intentions. There's no single future ending."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "'Will' and 'going to' differ subtly: 'going to' suits planned intentions, 'will' suits spontaneous decisions and predictions."
+    },
+    {
+     "k": "Example",
+     "v": "I will call you. We are going to travel next year."
+    }
+   ],
+   "name_es": "Future Tense",
+   "name_fr": "Future Tense",
+   "name_it": "Future Tense"
+  },
+  {
+   "name": "Perfect Aspect",
+   "slug": "perfect",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An aspect that links a past action to another time — using 'have/has/had' plus a past participle."
+    },
+    {
+     "k": "The Rule",
+     "v": "Present perfect (have done) connects past to now; past perfect (had done) shows one past action before another. It's about completion relative to a reference point."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use present perfect for unfinished time ('I have lived here for years'), simple past for finished time ('I lived there in 2010')."
+    },
+    {
+     "k": "Example",
+     "v": "I have finished. She had left before we arrived."
+    }
+   ],
+   "name_es": "Perfect Aspect",
+   "name_fr": "Perfect Aspect",
+   "name_it": "Perfect Aspect"
+  },
+  {
+   "name": "Progressive Aspect",
+   "slug": "progressive",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An aspect showing an action in progress — using 'be' plus the -ing form."
+    },
+    {
+     "k": "The Rule",
+     "v": "The progressive (am/is/are/was + verb-ing) emphasizes that an action is ongoing rather than complete."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Some 'state' verbs resist the progressive — say 'I know', not 'I am knowing'."
+    },
+    {
+     "k": "Example",
+     "v": "I am reading. They were sleeping. She will be waiting."
+    }
+   ],
+   "name_es": "Progressive Aspect",
+   "name_fr": "Progressive Aspect",
+   "name_it": "Progressive Aspect"
+  },
+  {
+   "name": "Active vs Passive",
+   "slug": "active-passive",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Two ways to arrange a sentence: active (subject acts) or passive (subject is acted upon)."
+    },
+    {
+     "k": "The Rule",
+     "v": "Active: 'The dog bit the man.' Passive: 'The man was bitten by the dog.' Passive uses 'be' + past participle and can drop the doer."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Prefer active voice for clarity and energy; use passive deliberately when the doer is unknown or unimportant."
+    },
+    {
+     "k": "Example",
+     "v": "The committee made the decision. (active) / The decision was made. (passive)"
+    }
+   ],
+   "name_es": "Active vs Passive",
+   "name_fr": "Active vs Passive",
+   "name_it": "Active vs Passive"
+  },
+  {
+   "name": "Mood",
+   "slug": "mood",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The form of a verb that signals whether something is a fact, a command, or a hypothetical."
+    },
+    {
+     "k": "The Rule",
+     "v": "Indicative states facts (You are here); imperative gives commands (Be here); subjunctive expresses wishes or unreal conditions (If I were you)."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "The subjunctive 'were' survives in set phrases — 'If I were you', not 'If I was you', in formal usage."
+    },
+    {
+     "k": "Example",
+     "v": "She is ready. (indicative) Be ready! (imperative) I wish I were ready. (subjunctive)"
+    }
+   ],
+   "name_es": "Mood",
+   "name_fr": "Mood",
+   "name_it": "Mood"
+  },
+  {
+   "cat": "SENTENCE STRUCTURE"
+  },
+  {
+   "name": "Subject & Predicate",
+   "slug": "subject-predicate",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The two essential halves of a sentence: the subject (who/what) and the predicate (what's said about it)."
+    },
+    {
+     "k": "The Rule",
+     "v": "The subject is the noun or pronoun doing or being something; the predicate contains the verb and everything that completes the thought."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Every complete sentence needs both — a string of words with no subject-predicate pair is a fragment."
+    },
+    {
+     "k": "Example",
+     "v": "The tired dog | slept all afternoon. (subject | predicate)"
+    }
+   ],
+   "name_es": "Subject & Predicate",
+   "name_fr": "Subject & Predicate",
+   "name_it": "Subject & Predicate"
+  },
+  {
+   "name": "Clause",
+   "slug": "clause",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A group of words containing a subject and a verb — the building block of sentences."
+    },
+    {
+     "k": "The Rule",
+     "v": "An independent clause stands alone as a sentence; a dependent (subordinate) clause cannot, because it begins with a word like 'because' or 'when'."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "A dependent clause left on its own is a fragment — 'Because it rained.' needs a main clause to complete it."
+    },
+    {
+     "k": "Example",
+     "v": "She smiled (independent) / because she won (dependent)."
+    }
+   ],
+   "name_es": "Clause",
+   "name_fr": "Clause",
+   "name_it": "Clause"
+  },
+  {
+   "name": "Phrase",
+   "slug": "phrase",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A group of related words that lacks a subject-verb pair, acting as a single unit."
+    },
+    {
+     "k": "The Rule",
+     "v": "Phrases (prepositional, noun, verb, participial) add information but can't stand alone as sentences because they have no subject doing a verb."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't mistake a long phrase for a sentence — 'Running down the street' is a phrase, not a complete thought."
+    },
+    {
+     "k": "Example",
+     "v": "in the morning / the big red barn / running quickly (all phrases)"
+    }
+   ],
+   "name_es": "Phrase",
+   "name_fr": "Phrase",
+   "name_it": "Phrase"
+  },
+  {
+   "name": "Simple vs Compound",
+   "slug": "simple-compound",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A simple sentence has one independent clause; a compound has two or more joined as equals."
+    },
+    {
+     "k": "The Rule",
+     "v": "Simple: one complete thought. Compound: two complete thoughts linked by a comma + conjunction, or a semicolon."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Join two independent clauses with a comma AND a conjunction — a comma alone creates a comma splice."
+    },
+    {
+     "k": "Example",
+     "v": "I ran. (simple) / I ran, and she walked. (compound)"
+    }
+   ],
+   "name_es": "Simple vs Compound",
+   "name_fr": "Simple vs Compound",
+   "name_it": "Simple vs Compound"
+  },
+  {
+   "name": "Complex Sentence",
+   "slug": "complex-sentence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A sentence with one independent clause plus at least one dependent clause."
+    },
+    {
+     "k": "The Rule",
+     "v": "It pairs a complete thought with a subordinate one introduced by a word like because, although, when, or if."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "When the dependent clause comes first, put a comma after it; when it comes second, usually don't."
+    },
+    {
+     "k": "Example",
+     "v": "Although it rained, we went out. / We went out although it rained."
+    }
+   ],
+   "name_es": "Complex Sentence",
+   "name_fr": "Complex Sentence",
+   "name_it": "Complex Sentence"
+  },
+  {
+   "name": "Sentence Fragment",
+   "slug": "fragment",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An incomplete sentence missing a subject, a verb, or a complete thought."
+    },
+    {
+     "k": "The Rule",
+     "v": "Fragments are pieces punctuated as if they were full sentences but can't stand alone grammatically."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Fix a fragment by attaching it to a nearby sentence or adding the missing subject or verb."
+    },
+    {
+     "k": "Example",
+     "v": "Fragment: 'Running to the store.' Fix: 'She was running to the store.'"
+    }
+   ],
+   "name_es": "Sentence Fragment",
+   "name_fr": "Sentence Fragment",
+   "name_it": "Sentence Fragment"
+  },
+  {
+   "cat": "AGREEMENT & CASE"
+  },
+  {
+   "name": "Subject-Verb Agreement",
+   "slug": "subject-verb",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The rule that a verb must match its subject in number — singular subject, singular verb."
+    },
+    {
+     "k": "The Rule",
+     "v": "Singular subjects take singular verbs (The dog barks); plural subjects take plural verbs (The dogs bark)."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Watch for phrases between subject and verb — 'The box of chocolates IS', not 'are', because the subject is 'box'."
+    },
+    {
+     "k": "Example",
+     "v": "The list of items is long. The students are ready."
+    }
+   ],
+   "name_es": "Subject-Verb Agreement",
+   "name_fr": "Subject-Verb Agreement",
+   "name_it": "Subject-Verb Agreement"
+  },
+  {
+   "name": "Pronoun-Antecedent",
+   "slug": "pronoun-antecedent",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The rule that a pronoun must agree with the noun it replaces in number and gender."
+    },
+    {
+     "k": "The Rule",
+     "v": "A singular antecedent needs a singular pronoun; a plural one needs a plural pronoun. The pronoun should clearly point to one noun."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Singular 'they' is now widely accepted for an unknown or nonbinary person ('Each student brought their book')."
+    },
+    {
+     "k": "Example",
+     "v": "The players grabbed their gear. A nurse knows their patients."
+    }
+   ],
+   "name_es": "Pronoun-Antecedent",
+   "name_fr": "Pronoun-Antecedent",
+   "name_it": "Pronoun-Antecedent"
+  },
+  {
+   "name": "Pronoun Case",
+   "slug": "pronoun-case",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Whether to use a subject pronoun (I, he, she, they) or object pronoun (me, him, her, them)."
+    },
+    {
+     "k": "The Rule",
+     "v": "Subject pronouns do the action; object pronouns receive it. Test tricky pairs by dropping the other person."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "'Between you and me', never 'between you and I' — after a preposition you need the object form."
+    },
+    {
+     "k": "Example",
+     "v": "She and I left. (subjects) / He gave it to her and me. (objects)"
+    }
+   ],
+   "name_es": "Pronoun Case",
+   "name_fr": "Pronoun Case",
+   "name_it": "Pronoun Case"
+  },
+  {
+   "name": "Parallelism",
+   "slug": "parallelism",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The principle that items in a series or comparison should share the same grammatical form."
+    },
+    {
+     "k": "The Rule",
+     "v": "List items, paired ideas, and comparisons read smoothly when they match: all nouns, all -ing verbs, all the same structure."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Faulty: 'I like hiking, swimming, and to read.' Parallel: 'hiking, swimming, and reading.'"
+    },
+    {
+     "k": "Example",
+     "v": "She is smart, kind, and generous. We came to see, to learn, and to grow."
+    }
+   ],
+   "name_es": "Parallelism",
+   "name_fr": "Parallelism",
+   "name_it": "Parallelism"
+  },
+  {
+   "cat": "END PUNCTUATION"
+  },
+  {
+   "name": "Period",
+   "slug": "period",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The dot that ends a statement or command — the most basic full stop."
+    },
+    {
+     "k": "The Rule",
+     "v": "Use a period to close a declarative or imperative sentence, and in many abbreviations (Dr., etc.)."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't use a period to join two sentences into one — that needs a conjunction, semicolon, or staying separate."
+    },
+    {
+     "k": "Example",
+     "v": "The meeting is over. Please sit down."
+    }
+   ],
+   "name_es": "Period",
+   "name_fr": "Period",
+   "name_it": "Period"
+  },
+  {
+   "name": "Question Mark",
+   "slug": "question-mark",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The mark that ends a direct question."
+    },
+    {
+     "k": "The Rule",
+     "v": "Place it at the end of a direct question. Don't use it for indirect questions, which are really statements."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Indirect questions take a period, not a question mark — 'I wonder what time it is.', not '...is?'"
+    },
+    {
+     "k": "Example",
+     "v": "Direct: 'What time is it?' Indirect: 'She asked what time it was.'"
+    }
+   ],
+   "name_es": "Question Mark",
+   "name_fr": "Question Mark",
+   "name_it": "Question Mark"
+  },
+  {
+   "name": "Exclamation Point",
+   "slug": "exclamation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The mark that signals strong emotion, emphasis, or a forceful command."
+    },
+    {
+     "k": "The Rule",
+     "v": "It ends an exclamatory sentence or a sharp command, conveying surprise, excitement, or urgency."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use it sparingly — overusing exclamation points drains their force and looks unprofessional."
+    },
+    {
+     "k": "Example",
+     "v": "Watch out! That's incredible! Stop right now!"
+    }
+   ],
+   "name_es": "Exclamation Point",
+   "name_fr": "Exclamation Point",
+   "name_it": "Exclamation Point"
+  },
+  {
+   "cat": "INTERNAL PUNCTUATION"
+  },
+  {
+   "name": "Comma",
+   "slug": "comma",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most versatile mark — it separates, groups, and clarifies within a sentence."
+    },
+    {
+     "k": "The Rule",
+     "v": "Commas separate list items, set off introductory and nonessential elements, and join clauses with a conjunction."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "A comma alone can't join two sentences (that's a comma splice) — add a conjunction or use a semicolon."
+    },
+    {
+     "k": "Example",
+     "v": "We bought apples, pears, and figs. After lunch, we left."
+    }
+   ],
+   "name_es": "Comma",
+   "name_fr": "Comma",
+   "name_it": "Comma"
+  },
+  {
+   "name": "Semicolon",
+   "slug": "semicolon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A mark that links two closely related complete sentences, or separates complex list items."
+    },
+    {
+     "k": "The Rule",
+     "v": "Use a semicolon to join two independent clauses without a conjunction, or to separate list items that already contain commas."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Both sides of a semicolon must be able to stand alone as sentences — otherwise use a comma."
+    },
+    {
+     "k": "Example",
+     "v": "I came; I saw; I conquered. We visited Paris, France; Rome, Italy; and Bern."
+    }
+   ],
+   "name_es": "Semicolon",
+   "name_fr": "Semicolon",
+   "name_it": "Semicolon"
+  },
+  {
+   "name": "Colon",
+   "slug": "colon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A mark that introduces a list, an explanation, or a quotation — it points forward."
+    },
+    {
+     "k": "The Rule",
+     "v": "A colon follows a complete sentence and announces what comes next: a list, a definition, or an elaboration."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Use a complete sentence before a colon — not 'The colors are: red, blue' but 'I bought three colors: red, blue, green.'"
+    },
+    {
+     "k": "Example",
+     "v": "She had one goal: to win. Bring these: a pen, paper, and ID."
+    }
+   ],
+   "name_es": "Colon",
+   "name_fr": "Colon",
+   "name_it": "Colon"
+  },
+  {
+   "name": "Dash",
+   "slug": "dash",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A versatile mark — the em dash — that adds emphasis, interruption, or an aside."
+    },
+    {
+     "k": "The Rule",
+     "v": "An em dash sets off a strong break, an abrupt change, or a parenthetical you want to spotlight rather than tuck away."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't overuse dashes; too many make writing feel breathless. They're stronger than commas, looser than colons."
+    },
+    {
+     "k": "Example",
+     "v": "He grabbed the keys — and then froze. The plan — risky as it was — worked."
+    }
+   ],
+   "name_es": "Dash",
+   "name_fr": "Dash",
+   "name_it": "Dash"
+  },
+  {
+   "name": "Parentheses",
+   "slug": "parentheses",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Curved marks that enclose extra, non-essential information or asides."
+    },
+    {
+     "k": "The Rule",
+     "v": "Parentheses tuck in a clarification, example, or aside that could be removed without breaking the sentence."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Keep parenthetical asides brief; if the info is essential, it probably shouldn't be in parentheses."
+    },
+    {
+     "k": "Example",
+     "v": "The trip (our first abroad) was unforgettable. Call me (after 5 pm)."
+    }
+   ],
+   "name_es": "Parentheses",
+   "name_fr": "Parentheses",
+   "name_it": "Parentheses"
+  },
+  {
+   "name": "Comma Splice",
+   "slug": "comma-splice",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An error where two complete sentences are wrongly joined by only a comma."
+    },
+    {
+     "k": "The Rule",
+     "v": "A comma splice happens when a comma alone connects two independent clauses, which it can't do on its own."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Fix it four ways: add a conjunction, swap in a semicolon, use a period, or subordinate one clause."
+    },
+    {
+     "k": "Example",
+     "v": "Wrong: 'It rained, we stayed home.' Right: 'It rained, so we stayed home.'"
+    }
+   ],
+   "name_es": "Comma Splice",
+   "name_fr": "Comma Splice",
+   "name_it": "Comma Splice"
+  },
+  {
+   "cat": "OTHER MARKS"
+  },
+  {
+   "name": "Apostrophe",
+   "slug": "apostrophe",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A mark that shows possession or marks the missing letters in a contraction."
+    },
+    {
+     "k": "The Rule",
+     "v": "Add 's for singular possession (dog's bone), just ' for plural possession (dogs' park), and use it for contractions (can't = cannot)."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Never use an apostrophe to make a plain plural — it's 'apples', not 'apple's'."
+    },
+    {
+     "k": "Example",
+     "v": "The cat's toy. The girls' team. It's late (it is). Don't go."
+    }
+   ],
+   "name_es": "Apostrophe",
+   "name_fr": "Apostrophe",
+   "name_it": "Apostrophe"
+  },
+  {
+   "name": "Quotation Marks",
+   "slug": "quotation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Marks that enclose direct speech, quoted text, or certain titles."
+    },
+    {
+     "k": "The Rule",
+     "v": "Use quotation marks around someone's exact words and around titles of short works. Periods and commas go inside them in US style."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't use quotation marks for emphasis — that 'fresh' sign suggests the food is anything but."
+    },
+    {
+     "k": "Example",
+     "v": "She said, \"Hello.\" The story is titled \"The Gift.\""
+    }
+   ],
+   "name_es": "Quotation Marks",
+   "name_fr": "Quotation Marks",
+   "name_it": "Quotation Marks"
+  },
+  {
+   "name": "Hyphen",
+   "slug": "hyphen",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A short mark that joins words or parts of words into a single unit."
+    },
+    {
+     "k": "The Rule",
+     "v": "Hyphens link compound modifiers before a noun (well-known author), join some prefixes, and split words at line ends."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't confuse the short hyphen with the longer dash — the hyphen joins, the dash separates."
+    },
+    {
+     "k": "Example",
+     "v": "A well-known writer. Twenty-one. A state-of-the-art lab."
+    }
+   ],
+   "name_es": "Hyphen",
+   "name_fr": "Hyphen",
+   "name_it": "Hyphen"
+  },
+  {
+   "name": "Ellipsis",
+   "slug": "ellipsis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Three spaced dots that mark omitted words or a trailing-off thought."
+    },
+    {
+     "k": "The Rule",
+     "v": "An ellipsis (…) shows that text has been left out of a quotation, or signals a pause or unfinished thought."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't scatter ellipses through casual writing for effect — they read as vague or hesitant."
+    },
+    {
+     "k": "Example",
+     "v": "She quoted, \"We the people … form a union.\" I wonder…"
+    }
+   ],
+   "name_es": "Ellipsis",
+   "name_fr": "Ellipsis",
+   "name_it": "Ellipsis"
+  },
+  {
+   "name": "Brackets",
+   "slug": "brackets",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Square marks that enclose editorial additions inside quoted material."
+    },
+    {
+     "k": "The Rule",
+     "v": "Square brackets [ ] mark words you insert into a quotation for clarity, distinct from the original speaker's words."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Don't mix up square brackets with parentheses — brackets signal an editor's insertion, not the author's aside."
+    },
+    {
+     "k": "Example",
+     "v": "He said, \"[The plan] worked perfectly.\" (clarifying who/what)"
+    }
+   ],
+   "name_es": "Brackets",
+   "name_fr": "Brackets",
+   "name_it": "Brackets"
+  },
+  {
+   "cat": "COMMON PITFALLS"
+  },
+  {
+   "name": "Its vs It's",
+   "slug": "its-its",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The classic mix-up: 'its' (belonging to it) versus 'it's' (it is / it has)."
+    },
+    {
+     "k": "The Rule",
+     "v": "'Its' is the possessive (the dog wagged its tail); 'it's' is always a contraction of 'it is' or 'it has'."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Test it: if you can replace it with 'it is', use 'it's'. If not, use 'its'."
+    },
+    {
+     "k": "Example",
+     "v": "The cat licked its paws. It's raining. It's been a long day."
+    }
+   ],
+   "name_es": "Its vs It's",
+   "name_fr": "Its vs It's",
+   "name_it": "Its vs It's"
+  },
+  {
+   "name": "Your vs You're",
+   "slug": "your-youre",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "'Your' (belonging to you) versus 'you're' (you are)."
+    },
+    {
+     "k": "The Rule",
+     "v": "'Your' shows possession; 'you're' is the contraction of 'you are'. They sound identical but mean different things."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Test it: if 'you are' fits, write 'you're'. Otherwise it's 'your'."
+    },
+    {
+     "k": "Example",
+     "v": "Your book is here. You're going to love it."
+    }
+   ],
+   "name_es": "Your vs You're",
+   "name_fr": "Your vs You're",
+   "name_it": "Your vs You're"
+  },
+  {
+   "name": "There/Their/They're",
+   "slug": "there-their",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The three sound-alikes: there (place), their (possession), they're (they are)."
+    },
+    {
+     "k": "The Rule",
+     "v": "'There' points to a place or fact; 'their' shows possession; 'they're' means 'they are'."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Swap-test: 'they are' → they're; belongs to them → their; everything else → there."
+    },
+    {
+     "k": "Example",
+     "v": "They're putting their bags over there."
+    }
+   ],
+   "name_es": "There/Their/They're",
+   "name_fr": "There/Their/They're",
+   "name_it": "There/Their/They're"
+  },
+  {
+   "name": "Affect vs Effect",
+   "slug": "affect-effect",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "'Affect' (usually a verb, to influence) versus 'effect' (usually a noun, a result)."
+    },
+    {
+     "k": "The Rule",
+     "v": "Affect is normally the action ('the rain affected traffic'); effect is normally the result ('the effect was chaos')."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Trick: A=Action (affect), E=End result (effect). The rare exceptions ('effect change') confuse even pros."
+    },
+    {
+     "k": "Example",
+     "v": "The news affected her. The effect was immediate."
+    }
+   ],
+   "name_es": "Affect vs Effect",
+   "name_fr": "Affect vs Effect",
+   "name_it": "Affect vs Effect"
+  },
+  {
+   "name": "Who vs Whom",
+   "slug": "who-whom",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "'Who' (subject) versus 'whom' (object) — the formal distinction many people skip."
+    },
+    {
+     "k": "The Rule",
+     "v": "Use 'who' when it's doing the action, 'whom' when it's receiving it. 'Whom' follows prepositions in formal use."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Test: answer with he/him — 'he' → who, 'him' → whom. ('To whom?' → 'to him.')"
+    },
+    {
+     "k": "Example",
+     "v": "Who called? (he called) / To whom did you give it? (to him)"
+    }
+   ],
+   "name_es": "Who vs Whom",
+   "name_fr": "Who vs Whom",
+   "name_it": "Who vs Whom"
+  },
+  {
+   "name": "Run-On Sentence",
+   "slug": "run-on",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Two or more complete sentences crammed together without proper punctuation."
+    },
+    {
+     "k": "The Rule",
+     "v": "A run-on (or fused sentence) joins independent clauses with nothing between them, leaving the reader breathless."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Fix by splitting into separate sentences, or joining with a semicolon or a comma + conjunction."
+    },
+    {
+     "k": "Example",
+     "v": "Wrong: 'I ran I was late.' Right: 'I ran because I was late.'"
+    }
+   ],
+   "name_es": "Run-On Sentence",
+   "name_fr": "Run-On Sentence",
+   "name_it": "Run-On Sentence"
+  },
+  {
+   "name": "Dangling Modifier",
+   "slug": "dangling-modifier",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A descriptive phrase that accidentally attaches to the wrong subject — often unintentionally funny."
+    },
+    {
+     "k": "The Rule",
+     "v": "A modifier 'dangles' when the thing it's supposed to describe isn't actually in the sentence, so it lands on the wrong noun."
+    },
+    {
+     "k": "Watch Out For",
+     "v": "Make sure the word right after an opening modifier is the thing it describes."
+    },
+    {
+     "k": "Example",
+     "v": "Wrong: 'Walking home, the rain started.' (the rain wasn't walking) Right: 'Walking home, I felt the rain start.'"
+    }
+   ],
+   "name_es": "Dangling Modifier",
+   "name_fr": "Dangling Modifier",
+   "name_it": "Dangling Modifier"
+  }
+ ]
+}

@@ -1,0 +1,755 @@
+{
+ "title": "Basketball Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "OFFENSE"
+  },
+  {
+   "name": "Layup",
+   "slug": "layup",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A close-range shot, usually banked softly off the backboard or laid over the rim, taken while moving toward the basket."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She drove the lane, absorbed the contact, and still kissed the layup off the glass — the most basic shot in the game, made to look effortless."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the shooter 'lays the ball up' gently toward the hoop. It's the first shot most players ever learn."
+    }
+   ],
+   "name_es": "Layup",
+   "name_fr": "Layup",
+   "name_it": "Layup"
+  },
+  {
+   "name": "Three-Pointer",
+   "slug": "three-pointer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A field goal scored from behind the three-point arc, worth three points instead of two — the shot that reshaped modern basketball."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down two with seconds left, he stepped back behind the line and let the three-pointer fly; the gym held its breath as it arced toward the rim."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The three-point line was adopted by the NBA in 1979 after experiments in the old ABA; decades later, analytics made it the centerpiece of strategy."
+    }
+   ],
+   "name_es": "Three-Pointer",
+   "name_fr": "Three-Pointer",
+   "name_it": "Three-Pointer"
+  },
+  {
+   "name": "Pick-and-Roll",
+   "slug": "pick-and-roll",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A two-player action where one sets a screen ('pick') for the ball-handler, then cuts ('rolls') to the basket for a pass."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They ran the pick-and-roll to perfection all night — the screen freeing the guard, the big man rolling to the rim, the defense always a step behind."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of its two phases. Often called basketball's most fundamental play, it has anchored offenses from the playground to the pros for generations."
+    }
+   ],
+   "name_es": "Pick-and-Roll",
+   "name_fr": "Pick-and-Roll",
+   "name_it": "Pick-and-Roll"
+  },
+  {
+   "name": "Alley-Oop",
+   "slug": "alley-oop",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pass thrown near the rim for a teammate to catch in mid-air and finish with a dunk or layup before landing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The lob hung in the air for an impossible beat before he rose, caught it, and slammed the alley-oop home as the bench exploded."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the French 'allez, hop!' — a cry used by circus acrobats and trapeze artists before a leap, borrowed for the airborne finish."
+    }
+   ],
+   "name_es": "Alley-Oop",
+   "name_fr": "Alley-Oop",
+   "name_it": "Alley-Oop"
+  },
+  {
+   "name": "Isolation (Iso)",
+   "slug": "iso",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Clearing out a side of the court so one player can go one-on-one against a single defender, isolating the matchup."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Late in the clock they cleared out for an iso, handing the ball to their best scorer and letting four teammates simply watch the duel unfold."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'isolation,' the term grew as star-driven offenses leaned on individual scorers to beat their defender in open space."
+    }
+   ],
+   "name_es": "Isolation (Iso)",
+   "name_fr": "Isolation (Iso)",
+   "name_it": "Isolation (Iso)"
+  },
+  {
+   "name": "Dunk",
+   "slug": "dunk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scoring by jumping and forcing the ball directly down through the hoop with one or both hands — basketball's most emphatic play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He caught the lob and threw down a thunderous dunk, hanging on the rim a beat too long as the crowd lost its collective mind."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'dunk,' to dip something into liquid — the motion of pushing the ball down into the basket. It was actually banned in college play through the 1970s."
+    }
+   ],
+   "name_es": "Dunk",
+   "name_fr": "Dunk",
+   "name_it": "Dunk"
+  },
+  {
+   "name": "Crossover",
+   "slug": "crossover",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A dribble move that quickly switches the ball from one hand to the other to fake a defender out of position."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His crossover was lethal; one hard dribble left, then a snap back right, and the defender's ankles were left tangled on the hardwood."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the ball 'crosses over' between hands. The move's flashiest form, the 'ankle-breaker,' became an icon of 1990s playground and pro style."
+    }
+   ],
+   "name_es": "Crossover",
+   "name_fr": "Crossover",
+   "name_it": "Crossover"
+  },
+  {
+   "name": "Floater",
+   "slug": "floater",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A soft, high-arcing shot lofted over taller defenders near the basket before they can contest it. Also called a 'teardrop.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Too small to challenge the giant in the paint, the guard floated a teardrop over his outstretched arms, the ball dropping in untouched."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the way the ball seems to 'float' over the defense. It's the small player's classic answer to shot-blockers guarding the rim."
+    }
+   ],
+   "name_es": "Floater",
+   "name_fr": "Floater",
+   "name_it": "Floater"
+  },
+  {
+   "name": "Post-Up",
+   "slug": "post-up",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Establishing position with your back to the basket near the low post, using size and footwork to score close in."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The big man posted up on the block, backed his defender down with two dribbles, and finished with a smooth turnaround over his shoulder."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'the post,' the area near the basket. Once the dominant way big men scored, the post-up has faded somewhat in the three-point era."
+    }
+   ],
+   "name_es": "Post-Up",
+   "name_fr": "Post-Up",
+   "name_it": "Post-Up"
+  },
+  {
+   "cat": "DEFENSE"
+  },
+  {
+   "name": "Man-to-Man",
+   "slug": "man-to-man",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive scheme where each defender guards one specific opponent, following them across the court."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They switched to man-to-man in the fourth, every defender locked onto a man, turning the game into five individual battles of will."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — each defender takes one man. It's the foundational defense taught before players learn the team-oriented complexities of zone."
+    }
+   ],
+   "name_es": "Man-to-Man",
+   "name_fr": "Man-to-Man",
+   "name_it": "Man-to-Man"
+  },
+  {
+   "name": "Zone Defense",
+   "slug": "zone",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive scheme where players guard areas of the court rather than specific opponents, packing space to deter drives."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The 2-3 zone clogged the paint completely, forcing the offense into rushed jumpers all night and daring them to beat it from outside."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — defenders cover 'zones' of the floor. The NBA actually banned zone defense for decades to keep the game flowing before reintroducing it in 2001."
+    }
+   ],
+   "name_es": "Zone Defense",
+   "name_fr": "Zone Defense",
+   "name_it": "Zone Defense"
+  },
+  {
+   "name": "Block",
+   "slug": "block",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Deflecting or stopping an opponent's shot in mid-air without fouling — one of defense's most dramatic plays. Also a 'rejection.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He timed the leap perfectly and swatted the layup off the backboard, a rejection so emphatic the shooter just stood and stared."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the general sense of 'to block,' to obstruct. The spectacular swat-into-the-stands version is showy; purists prize the controlled block that keeps possession."
+    }
+   ],
+   "name_es": "Block",
+   "name_fr": "Block",
+   "name_it": "Block"
+  },
+  {
+   "name": "Steal",
+   "slug": "steal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Taking the ball away from the offense, by picking off a pass or knocking it loose from a dribbler."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She read the lazy cross-court pass, jumped the lane for the steal, and was gone the other way before anyone could react."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to steal,' to take what isn't yours. It's the defensive playmaker's signature stat, the reward for anticipation and quick hands."
+    }
+   ],
+   "name_es": "Steal",
+   "name_fr": "Steal",
+   "name_it": "Steal"
+  },
+  {
+   "name": "Box Out",
+   "slug": "box-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Using your body to seal off an opponent and carve out space for a rebound as a shot goes up."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He didn't grab a single highlight, but his relentless boxing out gave his guards the rebounds that quietly won the game."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'boxing out' an opponent — putting your body like a box between them and the ball. It's the unglamorous fundamental behind every rebound."
+    }
+   ],
+   "name_es": "Box Out",
+   "name_fr": "Box Out",
+   "name_it": "Box Out"
+  },
+  {
+   "name": "Full-Court Press",
+   "slug": "full-court-press",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An aggressive defense applied across the entire court, pressuring the offense the moment they inbound to force turnovers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Trailing late, they sprang the full-court press, swarming the inbounds pass and forcing a panicked turnover that swung the whole game."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the 'press' extends the full length of the court. Famously weaponized by coaches as a comeback tool and a way to exhaust opponents."
+    }
+   ],
+   "name_es": "Full-Court Press",
+   "name_fr": "Full-Court Press",
+   "name_it": "Full-Court Press"
+  },
+  {
+   "name": "Help Defense",
+   "slug": "help-defense",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a defender leaves their own assignment to assist a teammate who's been beaten, then recovers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Beaten off the dribble, he trusted his teammate's help defense; sure enough, the weak-side big rotated over to wall off the rim."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — a defender comes to 'help.' Good help defense is the hallmark of a connected team, turning five individuals into a single shifting wall."
+    }
+   ],
+   "name_es": "Help Defense",
+   "name_fr": "Help Defense",
+   "name_it": "Help Defense"
+  },
+  {
+   "cat": "COURT & POSITIONS"
+  },
+  {
+   "name": "Point Guard",
+   "slug": "point-guard",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The primary ball-handler and floor leader, responsible for running the offense and setting up teammates. The 'one.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The point guard surveyed the floor like a chess player, calling the play, probing the defense, and slipping a no-look pass to the open shooter."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'point,' the position at the top of the offense from which a guard 'points' the team's attack. Traditionally the smallest, quickest player."
+    }
+   ],
+   "name_es": "Point Guard",
+   "name_fr": "Point Guard",
+   "name_it": "Point Guard"
+  },
+  {
+   "name": "The Paint",
+   "slug": "the-paint",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The painted rectangular area beneath each basket — also the 'key' or 'lane' — where much of the game's contact happens."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He owned the paint all night, swatting drives and grabbing rebounds; in that cramped, physical space, his size simply ruled."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the area is literally painted a solid color on the court. The related 'key' refers to its old keyhole shape in earlier eras of the game."
+    }
+   ],
+   "name_es": "The Paint",
+   "name_fr": "The Paint",
+   "name_it": "The Paint"
+  },
+  {
+   "name": "Sixth Man",
+   "slug": "sixth-man",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The team's best substitute, first off the bench, often a scorer who provides an instant spark."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He embraced the sixth-man role, entering with the second unit and lighting up tired defenses with a burst of scoring off the bench."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because they are effectively the sixth starter — the first player off the bench beyond the five on the floor. The NBA gives a dedicated award for it."
+    }
+   ],
+   "name_es": "Sixth Man",
+   "name_fr": "Sixth Man",
+   "name_it": "Sixth Man"
+  },
+  {
+   "name": "Center",
+   "slug": "center",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Traditionally the tallest player, stationed near the basket to score inside, rebound, and protect the rim. The 'five.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The center anchored everything, a towering presence who altered every shot in the paint and cleaned the glass at both ends."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the position's traditional role at the 'center' of action near the hoop. The role has evolved as modern centers stretch out to shoot threes."
+    }
+   ],
+   "name_es": "Center",
+   "name_fr": "Center",
+   "name_it": "Center"
+  },
+  {
+   "name": "The Arc",
+   "slug": "the-arc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The three-point line itself — the curved boundary beyond which made shots count for three. Also 'beyond the arc.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Spotting up beyond the arc, she caught and released in one motion; the analytics era has made that spot the most valuable real estate on the floor."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for its curved, arc-like shape on the court. 'From beyond the arc' has become shorthand for the entire three-point revolution in the modern game."
+    }
+   ],
+   "name_es": "The Arc",
+   "name_fr": "The Arc",
+   "name_it": "The Arc"
+  },
+  {
+   "name": "Baseline",
+   "slug": "baseline",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The boundary line running under each basket, along the ends of the court. Players use it as an extra 'defender' to trap dribblers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She drove the baseline and reversed it under the hoop, using the line itself as cover before laying it in on the far side."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — it forms the 'base' line at each end of the court. A defender who steers a dribbler toward it can trap them with nowhere to go."
+    }
+   ],
+   "name_es": "Baseline",
+   "name_fr": "Baseline",
+   "name_it": "Baseline"
+  },
+  {
+   "cat": "PLAYS & STRATEGY"
+  },
+  {
+   "name": "Fast Break",
+   "slug": "fast-break",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Pushing the ball up the floor quickly after a rebound or steal to score before the defense can set up."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The rebound triggered a fast break, three players streaking downcourt in a blur, the outlet pass finding the leader for an easy two."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — a 'fast' attack that 'breaks' away from the defense before it recovers. The thrilling antidote to slow, set half-court basketball."
+    }
+   ],
+   "name_es": "Fast Break",
+   "name_fr": "Fast Break",
+   "name_it": "Fast Break"
+  },
+  {
+   "name": "Triple Threat",
+   "slug": "triple-threat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A balanced stance, ball in hand, from which a player can immediately shoot, pass, or dribble — keeping the defense guessing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He caught the ball in triple-threat position, and the defender froze, unable to commit because all three options were equally live."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the three simultaneous 'threats' — shoot, pass, drive — the stance preserves. It's a cornerstone of fundamental offensive teaching."
+    }
+   ],
+   "name_es": "Triple Threat",
+   "name_fr": "Triple Threat",
+   "name_it": "Triple Threat"
+  },
+  {
+   "name": "Screen",
+   "slug": "screen",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A legal block set by an offensive player to free a teammate from their defender. The same action as a 'pick.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The screen caught the defender flush, and for a split second the shooter was wide open — all the daylight a great shooter ever needs."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to screen,' to shield or block from view — the screener's body shields the teammate from the defender. 'Pick' is the more informal synonym."
+    }
+   ],
+   "name_es": "Screen",
+   "name_fr": "Screen",
+   "name_it": "Screen"
+  },
+  {
+   "name": "Give-and-Go",
+   "slug": "give-and-go",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Passing to a teammate and immediately cutting to the basket to receive a return pass for an easy score."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Classic give-and-go: he hit the post, cut hard to the rim, and the ball came right back for a layup before the defense even turned its head."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of its rhythm — you 'give' the ball, then 'go' to the basket. One of the oldest two-man plays in the sport, predating the modern game."
+    }
+   ],
+   "name_es": "Give-and-Go",
+   "name_fr": "Give-and-Go",
+   "name_it": "Give-and-Go"
+  },
+  {
+   "name": "Double Team",
+   "slug": "double-team",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Sending two defenders to guard a single ball-handler, usually to trap a star scorer or force the ball out of their hands."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They double-teamed him the instant he touched the ball, two defenders swarming, betting that anyone else beating them was a risk worth taking."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — two defenders 'team up' on one. The strategic gamble is that leaving someone else open is the lesser evil against an elite scorer."
+    }
+   ],
+   "name_es": "Double Team",
+   "name_fr": "Double Team",
+   "name_it": "Double Team"
+  },
+  {
+   "name": "Transition",
+   "slug": "transition",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The phase when possession changes and a team moves quickly from defense to offense, before the opposing defense is set."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They were lethal in transition, turning every stop into a sprint the other way, scoring before the defense could even find its assignments."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'transition,' the change from one state to another — here, from defense to offense. Modern pace-and-space basketball thrives in these chaotic moments."
+    }
+   ],
+   "name_es": "Transition",
+   "name_fr": "Transition",
+   "name_it": "Transition"
+  },
+  {
+   "cat": "SLANG & CULTURE"
+  },
+  {
+   "name": "Brick",
+   "slug": "brick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A badly missed shot that clangs hard off the rim or backboard, as ugly and heavy as a thrown brick."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He threw up an air-balling brick at the worst possible moment, and the home crowd let him hear about it with a chorus of groans."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Slang likening a clanging miss to a brick — heavy, hard, and graceless. The crowd chant 'brick! brick!' to rattle a struggling free-throw shooter is a staple."
+    }
+   ],
+   "name_es": "Brick",
+   "name_fr": "Brick",
+   "name_it": "Brick"
+  },
+  {
+   "name": "And-One",
+   "slug": "and-one",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Being fouled while making a shot, earning the basket plus one free throw — a three-point play from a two-point bucket."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He finished through the contact and roared 'and-one!' as the whistle blew, the chance to complete a three-point play already in his eyes."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'the basket and one free throw.' The triumphant shout has become a celebration in itself, even lending its name to a streetball brand."
+    }
+   ],
+   "name_es": "And-One",
+   "name_fr": "And-One",
+   "name_it": "And-One"
+  },
+  {
+   "name": "Downtown",
+   "slug": "downtown",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a long three-point shot, as if launched from far away — 'from downtown.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He pulled up from well beyond the line and drained it — 'from downtown!' the announcer howled, the call as old as the three itself."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Broadcaster slang evoking a shot from way out, 'downtown,' far from the basket. It became a signature call of the three-point era's growing showmanship."
+    }
+   ],
+   "name_es": "Downtown",
+   "name_fr": "Downtown",
+   "name_it": "Downtown"
+  },
+  {
+   "name": "Posterize",
+   "slug": "posterize",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To dunk dramatically over a defender, humiliating them so memorably the moment belongs on a poster."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He rose over the helpless defender and posterized him with a one-handed slam, an image destined for every highlight reel that night."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal posters such dunks became — the dunker immortalized, the defender frozen beneath. A modern coinage of the highlight-and-social-media age."
+    }
+   ],
+   "name_es": "Posterize",
+   "name_fr": "Posterize",
+   "name_it": "Posterize"
+  },
+  {
+   "name": "Buzzer-Beater",
+   "slug": "buzzer-beater",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A shot released just before the game or quarter clock expires that counts if it leaves the hand in time — the ultimate dramatic finish."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The buzzer-beater banked in as time hit zero, and the arena erupted; one shot, half a second, and a season changed forever."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for beating the 'buzzer' that signals the end of a period. Replay review now settles the agonizing question of whether the ball left the hand in time."
+    }
+   ],
+   "name_es": "Buzzer-Beater",
+   "name_fr": "Buzzer-Beater",
+   "name_it": "Buzzer-Beater"
+  },
+  {
+   "name": "Triple-Double",
+   "slug": "triple-double",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Recording double-digit totals in three statistical categories in one game — usually points, rebounds, and assists."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He notched a triple-double by the third quarter — points, boards, and dimes all in double figures — a stat line that screams all-around dominance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — three categories reaching 'double' digits. The rarer 'quadruple-double' adds a fourth, a feat achieved only a handful of times in NBA history."
+    }
+   ],
+   "name_es": "Triple-Double",
+   "name_fr": "Triple-Double",
+   "name_it": "Triple-Double"
+  },
+  {
+   "name": "Swish",
+   "slug": "swish",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A perfect made shot that drops cleanly through the net without touching the rim — pure and satisfying."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Nothing but net — the swish so clean the net snapped up and the shooter was already backpedaling on defense, certain it was good."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Onomatopoeic, imitating the soft 'swish' sound of the ball passing through the net untouched. The sound itself has become shorthand for a perfect shot."
+    }
+   ],
+   "name_es": "Swish",
+   "name_fr": "Swish",
+   "name_it": "Swish"
+  }
+ ]
+}

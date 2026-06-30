@@ -1,0 +1,402 @@
+{
+ "title": "World Currencies",
+ "subject": "Reference Wheel",
+ "categories": [
+  {
+   "name": "MAJOR RESERVE CURRENCIES",
+   "color": "#3f6f9f",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "MAJOR RESERVE CURRENCIES",
+     "color": "#3f6f9f",
+     "descriptors": [
+      {
+       "name": "US Dollar",
+       "slug": "usd",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The US Dollar ($), the world's primary reserve currency and the most widely used in international trade and finance.",
+        "mixology": "The dollar's dominance makes it the default currency for global commodities like oil and for central bank reserves worldwide.",
+        "examples": "Its name traces to the 'thaler,' a silver coin from a Bohemian valley ('Tal'); the dollar sign's origin is debated, possibly from the Spanish peso."
+       }
+      },
+      {
+       "name": "Euro",
+       "slug": "eur",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The Euro (€), the shared currency of much of the European Union, and the second-most-held reserve currency in the world.",
+        "mixology": "Introduced for accounting in 1999 and as cash in 2002, the euro unified the currencies of numerous European nations into one.",
+        "examples": "The currency symbol was inspired by the Greek letter epsilon and the first letter of 'Europe,' with two parallel lines signifying stability."
+       }
+      },
+      {
+       "name": "Japanese Yen",
+       "slug": "jpy",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The Japanese Yen (¥), one of the world's most traded currencies and a major reserve asset.",
+        "mixology": "The yen is often treated by investors as a 'safe haven,' strengthening in times of global financial uncertainty.",
+        "examples": "The name derives from the Japanese word for a round object; the currency was adopted in 1871 as Japan modernized its economy."
+       }
+      },
+      {
+       "name": "British Pound",
+       "slug": "gbp",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The British Pound Sterling (£), the world's oldest currency still in use, and a major reserve currency.",
+        "mixology": "Sterling has been in continuous use for over 1,200 years, making it the oldest currency still circulating today.",
+        "examples": "The name reflects that a pound originally equaled a pound weight of sterling silver; the '£' symbol comes from the Latin 'libra,' meaning scales or weight."
+       }
+      },
+      {
+       "name": "Swiss Franc",
+       "slug": "chf",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The Swiss Franc (CHF), prized for its stability and long associated with safety and discretion.",
+        "mixology": "Like the yen, the franc is considered a safe-haven currency, sought by investors during global turmoil.",
+        "examples": "Its abbreviation comes from 'Confoederatio Helvetica,' the Latin name for Switzerland, which avoids favoring any of the nation's official languages."
+       }
+      },
+      {
+       "name": "Chinese Yuan",
+       "slug": "cny",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The Chinese Yuan or Renminbi (¥), the official currency of the world's second-largest economy and a growing reserve asset.",
+        "mixology": "'Renminbi' means 'people's currency' and is the official name, while 'yuan' refers to a single unit of it.",
+        "examples": "China has actively promoted the yuan's international use, and it was added to the IMF's basket of major reserve currencies in 2016."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "THE AMERICAS",
+   "color": "#caa53a",
+   "textColor": "#2a2105",
+   "sub": [
+    {
+     "name": "THE AMERICAS",
+     "color": "#caa53a",
+     "descriptors": [
+      {
+       "name": "Canadian Dollar",
+       "slug": "cad",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The Canadian Dollar (C$), often nicknamed the 'loonie' after the bird on its one-dollar coin.",
+        "mixology": "The loonie's value is closely tied to commodity prices, especially oil, given Canada's resource-rich economy.",
+        "examples": "The nickname comes from the common loon depicted on the gold-colored coin; the two-dollar coin is affectionately called the 'toonie.'"
+       }
+      },
+      {
+       "name": "Mexican Peso",
+       "slug": "mxn",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The Mexican Peso ($), one of the most traded currencies in Latin America and among emerging markets.",
+        "mixology": "The peso is among the most liquid and widely traded of all emerging-market currencies.",
+        "examples": "The very '$' sign now used for the dollar likely derives from the Spanish peso, which circulated widely, making the peso an ancestor of modern dollar notation."
+       }
+      },
+      {
+       "name": "Brazilian Real",
+       "slug": "brl",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The Brazilian Real (R$), the currency of South America's largest economy.",
+        "mixology": "The real was introduced in 1994 as part of a successful plan to tame Brazil's catastrophic hyperinflation.",
+        "examples": "Its name means 'royal' and harks back to an old colonial-era Portuguese currency, revived for the modern stabilization effort."
+       }
+      },
+      {
+       "name": "Argentine Peso",
+       "slug": "ars",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The Argentine Peso ($), a currency long shaped by recurring inflation and economic volatility.",
+        "mixology": "Argentina's peso has endured repeated bouts of severe inflation, making currency stability a persistent national challenge.",
+        "examples": "The country has changed and redenominated its currency several times over the decades in response to economic crises."
+       }
+      },
+      {
+       "name": "Chilean Peso",
+       "slug": "clp",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The Chilean Peso ($), the currency of one of South America's most stable economies.",
+        "mixology": "Chile's peso reflects an economy heavily influenced by copper, of which the country is the world's largest producer.",
+        "examples": "Like many regional currencies, it descends from the Spanish colonial peso, a lineage shared across much of Latin America."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EUROPE & BEYOND",
+   "color": "#3f8f6a",
+   "textColor": "#06231a",
+   "sub": [
+    {
+     "name": "EUROPE & BEYOND",
+     "color": "#3f8f6a",
+     "descriptors": [
+      {
+       "name": "Swedish Krona",
+       "slug": "sek",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Swedish Krona (kr), the currency of Sweden, which has chosen not to adopt the euro.",
+        "mixology": "Despite being an EU member, Sweden retains its own krona after a 2003 referendum rejected joining the euro.",
+        "examples": "'Krona' means 'crown,' a name shared by several Nordic currencies reflecting their historic monarchies."
+       }
+      },
+      {
+       "name": "Norwegian Krone",
+       "slug": "nok",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Norwegian Krone (kr), a currency bolstered by the nation's vast oil wealth.",
+        "mixology": "Norway's krone is supported by one of the world's largest sovereign wealth funds, built from North Sea oil revenues.",
+        "examples": "Like its Nordic neighbors, the name means 'crown'; Norway, not an EU member, has kept its independent currency throughout."
+       }
+      },
+      {
+       "name": "Polish Zloty",
+       "slug": "pln",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Polish Zloty (zł), the currency of one of Central Europe's largest economies.",
+        "mixology": "Poland, an EU member, continues to use the zloty rather than adopting the euro.",
+        "examples": "The name means 'golden,' originally referring to medieval gold coins that circulated in the region centuries ago."
+       }
+      },
+      {
+       "name": "Turkish Lira",
+       "slug": "try",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Turkish Lira (₺), a currency that has faced significant inflation and volatility in recent years.",
+        "mixology": "The lira has experienced sharp depreciation amid economic turbulence, a major concern for Turkey's economy.",
+        "examples": "The name derives, like the Italian lira, from the Latin 'libra' (a pound weight); a modern symbol was introduced in 2012."
+       }
+      },
+      {
+       "name": "Russian Ruble",
+       "slug": "rub",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Russian Ruble (₽), one of the oldest currencies in Europe, dating back centuries.",
+        "mixology": "The ruble is among the oldest national currencies still in use, with roots stretching back to the medieval era.",
+        "examples": "The name may come from a verb meaning 'to chop,' as early rubles were reportedly cut from larger pieces of silver."
+       }
+      },
+      {
+       "name": "Icelandic Krona",
+       "slug": "isk",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The Icelandic Krona (kr), the currency of one of the world's smallest independent currency areas.",
+        "mixology": "Iceland's tiny, isolated currency was at the center of the nation's dramatic 2008 banking collapse.",
+        "examples": "Another Nordic 'crown' currency, it serves a population smaller than many cities, making it one of the world's most unusual sovereign currencies."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ASIA",
+   "color": "#c0504d",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "ASIA",
+     "color": "#c0504d",
+     "descriptors": [
+      {
+       "name": "Indian Rupee",
+       "slug": "inr",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The Indian Rupee (₹), the currency of the world's most populous nation.",
+        "mixology": "The rupee serves one of the world's largest and fastest-growing economies and populations.",
+        "examples": "The name comes from a Sanskrit word for wrought silver; a distinctive modern symbol, blending Latin and Devanagari script, was adopted in 2010."
+       }
+      },
+      {
+       "name": "South Korean Won",
+       "slug": "krw",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The South Korean Won (₩), the currency of a major global technology and manufacturing economy.",
+        "mixology": "The won underpins one of Asia's most advanced economies, home to global electronics and automotive giants.",
+        "examples": "The name shares a root with the Japanese yen and Chinese yuan, all derived from a word meaning 'round object' or coin."
+       }
+      },
+      {
+       "name": "Singapore Dollar",
+       "slug": "sgd",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The Singapore Dollar (S$), the currency of one of the world's leading financial centers.",
+        "mixology": "The Singapore dollar reflects the city-state's status as a global hub for trade, banking, and finance.",
+        "examples": "It maintains an unusual currency interchangeability agreement with Brunei, where each nation accepts the other's notes at par."
+       }
+      },
+      {
+       "name": "Thai Baht",
+       "slug": "thb",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The Thai Baht (฿), the currency of Thailand and a significant Southeast Asian currency.",
+        "mixology": "The baht was at the epicenter of the 1997 Asian financial crisis, which began when Thailand floated its currency.",
+        "examples": "The name once referred to a traditional unit of weight for silver and gold, still used for measuring gold in Thailand today."
+       }
+      },
+      {
+       "name": "Vietnamese Dong",
+       "slug": "vnd",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The Vietnamese Dong (₫), notable for having one of the highest denominations in everyday use.",
+        "mixology": "Years of past inflation mean even modest purchases in Vietnam can involve tens of thousands of dong.",
+        "examples": "The name derives from a term for 'copper,' the metal of historic coinage; large-denomination banknotes are a feature of daily life."
+       }
+      },
+      {
+       "name": "Indonesian Rupiah",
+       "slug": "idr",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The Indonesian Rupiah (Rp), the currency of Southeast Asia's largest economy.",
+        "mixology": "Like the dong, the rupiah trades in very large numbers, with common notes in the tens of thousands.",
+        "examples": "Its name, like India's rupee, descends from the Sanskrit word for silver, reflecting shared historical roots across South and Southeast Asia."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AFRICA & MIDDLE EAST",
+   "color": "#7e57c2",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "AFRICA & MIDDLE EAST",
+     "color": "#7e57c2",
+     "descriptors": [
+      {
+       "name": "South African Rand",
+       "slug": "zar",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The South African Rand (R), the most traded currency on the African continent.",
+        "mixology": "The rand is widely used across southern Africa and serves as a benchmark for the region's economies.",
+        "examples": "It is named after the Witwatersrand, the gold-rich ridge near Johannesburg whose mines built much of the nation's wealth."
+       }
+      },
+      {
+       "name": "Nigerian Naira",
+       "slug": "ngn",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The Nigerian Naira (₦), the currency of Africa's most populous nation and one of its largest economies.",
+        "mixology": "The naira serves a vast and youthful population in a major oil-producing economy.",
+        "examples": "Introduced in 1973 to replace the Nigerian pound, its name is a contraction of 'Nigeria' itself."
+       }
+      },
+      {
+       "name": "Egyptian Pound",
+       "slug": "egp",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The Egyptian Pound (£ or E£), one of the oldest currencies in the Arab world.",
+        "mixology": "The Egyptian pound reflects a long monetary history in a nation central to the region's economy.",
+        "examples": "Subdivided into 100 piastres, it carries a name and structure inherited from the era when many regional currencies followed a pound standard."
+       }
+      },
+      {
+       "name": "UAE Dirham",
+       "slug": "aed",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The UAE Dirham (د.إ), the currency of the United Arab Emirates, a major Gulf financial center.",
+        "mixology": "The dirham is pegged to the US dollar, providing stability for the UAE's trade- and tourism-driven economy.",
+        "examples": "The name 'dirham' descends from the ancient Greek 'drachma,' a coin name that spread across the Middle East over many centuries."
+       }
+      },
+      {
+       "name": "Saudi Riyal",
+       "slug": "sar",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The Saudi Riyal (﷼), the currency of the world's largest oil exporter.",
+        "mixology": "The riyal is pegged to the US dollar, reflecting the central role of dollar-priced oil in Saudi Arabia's economy.",
+        "examples": "The name comes from the 'real,' the Spanish silver coin that once circulated globally, linking Gulf currency to the age of world trade."
+       }
+      },
+      {
+       "name": "Israeli Shekel",
+       "slug": "ils",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The Israeli New Shekel (₪), a currency whose name is among the most ancient in recorded history.",
+        "mixology": "The shekel ranks among the more stable and widely traded currencies in the Middle East.",
+        "examples": "'Shekel' was a unit of weight and currency in the ancient Near East thousands of years ago, revived for the modern state's money."
+       }
+      },
+      {
+       "name": "Kenyan Shilling",
+       "slug": "kes",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The Kenyan Shilling (KSh), one of the most prominent currencies in East Africa.",
+        "mixology": "The shilling is a key trading currency across the East African region.",
+        "examples": "It retains the name 'shilling' from the British colonial era, a unit once common throughout Britain's former territories worldwide."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "MAJOR RESERVE CURRENCIES": {
+   "en": "The British pound sterling has been in continuous use for over 1,200 years — the oldest currency still circulating today."
+  },
+  "THE AMERICAS": {
+   "en": "The '$' sign now used for the dollar likely descends from the Spanish peso, making the peso an ancestor of dollar notation."
+  },
+  "EUROPE & BEYOND": {
+   "en": "Several Nordic currencies — the Swedish krona, Norwegian krone, and Icelandic krona — all share a name meaning 'crown.'"
+  },
+  "ASIA": {
+   "en": "Years of inflation mean a modest purchase in Vietnam can involve tens of thousands of dong, one of the highest-denomination currencies in daily use."
+  },
+  "AFRICA & MIDDLE EAST": {
+   "en": "'Shekel' is among the most ancient currency names on Earth, used as a unit of weight and money thousands of years ago."
+  }
+ },
+ "ui": {
+  "en": {
+   "title": "World Currencies",
+   "origin": "Fact",
+   "chemistry": "",
+   "pairing": "",
+   "mixology": "Significance",
+   "examples": "Origin & Context",
+   "byline": "A StudySpinners reference wheel · © 2026 StudySpinners.com",
+   "search": "Search 30…",
+   "wheel": "Wheel",
+   "list": "List"
+  }
+ }
+}

@@ -1,0 +1,578 @@
+{
+ "title": "U.S. Vice Presidents — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "FOUNDING ERA"
+  },
+  {
+   "name": "John Adams",
+   "slug": "adams",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The first Vice President of the United States (1789–1797), serving under George Washington before becoming the second President."
+    },
+    {
+     "k": "Significance",
+     "v": "Adams established the vice presidency's primary constitutional role as president of the Senate, casting a record number of tie-breaking votes."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Adams famously called the vice presidency 'the most insignificant office that ever the invention of man contrived,' setting an enduring tone of frustration with the role."
+    }
+   ]
+  },
+  {
+   "name": "Thomas Jefferson",
+   "slug": "jefferson",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The second Vice President (1797–1801), serving under his political rival John Adams before winning the presidency himself."
+    },
+    {
+     "k": "Significance",
+     "v": "Jefferson's service under an opposing-party president exposed a flaw in the original system, where the runner-up became vice president."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The awkward Adams–Jefferson pairing helped prompt the 12th Amendment (1804), which had presidential and vice-presidential candidates run on a single ticket."
+    }
+   ]
+  },
+  {
+   "name": "Aaron Burr",
+   "slug": "burr",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The third Vice President (1801–1805) under Thomas Jefferson, and the most notorious figure ever to hold the office."
+    },
+    {
+     "k": "Significance",
+     "v": "Burr killed former Treasury Secretary Alexander Hamilton in an 1804 duel while still serving as vice president, then was later tried for treason."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His tied electoral vote with Jefferson in 1800, thrown to the House of Representatives, directly spurred the 12th Amendment's reform of presidential elections."
+    }
+   ]
+  },
+  {
+   "name": "George Clinton",
+   "slug": "clinton",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The fourth Vice President (1805–1812), serving under both Jefferson and Madison. A longtime governor of New York."
+    },
+    {
+     "k": "Significance",
+     "v": "Clinton was the first vice president to die in office, and the first to serve under two different presidents."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A leading Anti-Federalist, he had earlier opposed ratifying the Constitution, fearing it gave the federal government too much power over the states."
+    }
+   ]
+  },
+  {
+   "name": "Elbridge Gerry",
+   "slug": "gerry",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The fifth Vice President (1813–1814) under James Madison. A signer of the Declaration of Independence whose name became a lasting political term."
+    },
+    {
+     "k": "Significance",
+     "v": "Gerry died in office in 1814, the second vice president to do so, leaving the office vacant for the rest of Madison's term."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "As governor of Massachusetts, he approved a district so contorted it resembled a salamander, giving us the enduring word 'gerrymander.'"
+    }
+   ]
+  },
+  {
+   "cat": "19TH CENTURY"
+  },
+  {
+   "name": "John C. Calhoun",
+   "slug": "calhoun",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The seventh Vice President (1825–1832), serving under two presidents before resigning. One of the most formidable political minds of his era."
+    },
+    {
+     "k": "Significance",
+     "v": "Calhoun was the first vice president to resign the office, stepping down to take a Senate seat and champion states' rights."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His fierce advocacy of nullification and slavery made him a towering and divisive figure whose ideas foreshadowed the coming sectional crisis."
+    }
+   ]
+  },
+  {
+   "name": "Martin Van Buren",
+   "slug": "vanburen",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The eighth Vice President (1833–1837) under Andrew Jackson, and the first to be elected president directly from the office in modern fashion."
+    },
+    {
+     "k": "Significance",
+     "v": "Van Buren was a master political organizer, credited with helping build the modern Democratic Party and the spoils system."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born after the Declaration of Independence, he was the first president and vice president who was a citizen of the United States rather than a British subject."
+    }
+   ]
+  },
+  {
+   "name": "Richard M. Johnson",
+   "slug": "johnson-r",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The ninth Vice President (1837–1841) under Martin Van Buren, and the only vice president ever chosen by the Senate."
+    },
+    {
+     "k": "Significance",
+     "v": "When no candidate won an electoral majority in 1836, the Senate elected Johnson under the 12th Amendment's contingency procedure."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "He was popularly, if dubiously, credited with killing the Shawnee leader Tecumseh at the Battle of the Thames, a claim central to his political fame."
+    }
+   ]
+  },
+  {
+   "name": "Hannibal Hamlin",
+   "slug": "hamlin",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 15th Vice President (1861–1865), Abraham Lincoln's first-term running mate, dropped from the ticket for Lincoln's 1864 reelection."
+    },
+    {
+     "k": "Significance",
+     "v": "Hamlin's replacement by Andrew Johnson placed Johnson, not the antislavery Hamlin, in the presidency after Lincoln's assassination."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A staunch opponent of slavery, Hamlin is one of history's great might-have-beens, narrowly missing the presidency that Reconstruction would soon define."
+    }
+   ]
+  },
+  {
+   "name": "Andrew Johnson",
+   "slug": "johnson-a",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 16th Vice President (1865), who became president just weeks into the term after Lincoln's assassination."
+    },
+    {
+     "k": "Significance",
+     "v": "Johnson is the only person to serve as vice president, then president, and later be impeached, surviving his Senate trial by a single vote."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A Southern Democrat kept on Lincoln's ticket for unity, his clashes with Congress over Reconstruction made his presidency one of the most contentious in history."
+    }
+   ]
+  },
+  {
+   "name": "Schuyler Colfax",
+   "slug": "colfax",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 17th Vice President (1869–1873) under Ulysses S. Grant. A former Speaker of the House caught in a major scandal."
+    },
+    {
+     "k": "Significance",
+     "v": "Colfax is one of only two people to serve as both Speaker of the House and Vice President."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His career collapsed in the Crédit Mobilier railroad bribery scandal, and he was dropped from the ticket for Grant's second term."
+    }
+   ]
+  },
+  {
+   "cat": "TURN OF THE CENTURY"
+  },
+  {
+   "name": "Levi P. Morton",
+   "slug": "morton",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 22nd Vice President (1889–1893) under Benjamin Harrison. A wealthy banker and diplomat."
+    },
+    {
+     "k": "Significance",
+     "v": "Morton had earlier declined the vice-presidential nomination alongside James Garfield, who was assassinated; the man who accepted instead became president."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His decision to refuse the 1880 nomination is a striking historical near-miss, as that very office led directly to the White House."
+    }
+   ]
+  },
+  {
+   "name": "Garret Hobart",
+   "slug": "hobart",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 24th Vice President (1897–1899) under William McKinley. An influential adviser who died in office."
+    },
+    {
+     "k": "Significance",
+     "v": "Hobart restored the vice presidency's prestige as a close confidant of McKinley, then died in office in 1899."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His death opened the 1900 vice-presidential slot for Theodore Roosevelt, setting in motion Roosevelt's rise to the presidency the very next year."
+    }
+   ]
+  },
+  {
+   "name": "Theodore Roosevelt",
+   "slug": "roosevelt",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 25th Vice President (1901) under William McKinley, who became president after just six months when McKinley was assassinated."
+    },
+    {
+     "k": "Significance",
+     "v": "At 42, Roosevelt became the youngest person ever to assume the presidency, transforming the office with his energetic, activist style."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Party bosses had pushed him into the 'powerless' vice presidency to sideline him, a plan that backfired spectacularly when McKinley was shot."
+    }
+   ]
+  },
+  {
+   "name": "Charles Fairbanks",
+   "slug": "fairbanks",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 26th Vice President (1905–1909) under Theodore Roosevelt. A conservative senator from Indiana."
+    },
+    {
+     "k": "Significance",
+     "v": "Fairbanks represented the Republican Party's conservative wing, an ideological counterweight to the progressive Roosevelt."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The city of Fairbanks, Alaska, was named in his honor, a lasting mark from an otherwise quiet tenure in the office."
+    }
+   ]
+  },
+  {
+   "name": "Thomas Marshall",
+   "slug": "marshall",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 28th Vice President (1913–1921) under Woodrow Wilson, serving two full terms during World War I."
+    },
+    {
+     "k": "Significance",
+     "v": "When Wilson was incapacitated by a stroke in 1919, Marshall declined to assume presidential powers, as no clear procedure then existed."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "That constitutional gray area, with the nation effectively leaderless, helped inspire the 25th Amendment's presidential disability provisions decades later."
+    }
+   ]
+  },
+  {
+   "name": "Charles Dawes",
+   "slug": "dawes",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 30th Vice President (1925–1929) under Calvin Coolidge. A banker and diplomat with a Nobel Peace Prize."
+    },
+    {
+     "k": "Significance",
+     "v": "Dawes won the Nobel Peace Prize for the Dawes Plan, which restructured Germany's punishing World War I reparations."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "He is also the only vice president to have co-written a number-one pop song; his melody later became the standard 'It's All in the Game.'"
+    }
+   ]
+  },
+  {
+   "cat": "MODERN ERA"
+  },
+  {
+   "name": "John Nance Garner",
+   "slug": "garner",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 32nd Vice President (1933–1941) under Franklin D. Roosevelt, serving two terms before a bitter falling-out."
+    },
+    {
+     "k": "Significance",
+     "v": "Garner broke with FDR over the court-packing plan and a third term, a rare open rift between a president and vice president."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "He is famous for reportedly calling the vice presidency not worth 'a bucket of warm spit,' a blunt verdict on the office's limited power."
+    }
+   ]
+  },
+  {
+   "name": "Henry Wallace",
+   "slug": "wallace",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 33rd Vice President (1941–1945) under Franklin D. Roosevelt during World War II, dropped from the 1944 ticket."
+    },
+    {
+     "k": "Significance",
+     "v": "Wallace's replacement by Harry Truman proved pivotal, as FDR died months into the term, making Truman president instead."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A progressive idealist, Wallace's ouster at the 1944 convention is one of history's great turning points, shaping the early Cold War's course."
+    }
+   ]
+  },
+  {
+   "name": "Harry Truman",
+   "slug": "truman",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 34th Vice President (1945) under Franklin D. Roosevelt, who became president after just 82 days when FDR died."
+    },
+    {
+     "k": "Significance",
+     "v": "Truman was kept so uninformed as vice president that he learned of the atomic bomb only after becoming president."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His abrupt elevation amid World War II underscored the stakes of the vice presidency, thrusting an unprepared man into history's gravest decisions."
+    }
+   ]
+  },
+  {
+   "name": "Alben Barkley",
+   "slug": "barkley",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 35th Vice President (1949–1953) under Harry Truman. A beloved Senate veteran who coined the office's nickname."
+    },
+    {
+     "k": "Significance",
+     "v": "Barkley's grandson suggested the nickname 'Veep' for the office, a term that has endured ever since."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "At 71 the oldest man to take the office at the time, his folksy charm helped rehabilitate the vice presidency's public image."
+    }
+   ]
+  },
+  {
+   "name": "Richard Nixon",
+   "slug": "nixon",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 36th Vice President (1953–1961) under Dwight Eisenhower, who later became president himself in 1969."
+    },
+    {
+     "k": "Significance",
+     "v": "Nixon expanded the vice presidency's visibility, taking on diplomatic missions and a far more public role than predecessors."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His 'Checkers speech,' saving his spot on the 1952 ticket amid a funds scandal, was a pioneering use of television in American politics."
+    }
+   ]
+  },
+  {
+   "name": "Lyndon B. Johnson",
+   "slug": "johnson-l",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 37th Vice President (1961–1963) under John F. Kennedy, who became president after Kennedy's assassination."
+    },
+    {
+     "k": "Significance",
+     "v": "Johnson took the oath aboard Air Force One hours after Kennedy was shot, then drove landmark civil rights legislation through Congress."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A legendary Senate majority leader before the office, his masterful command of legislative power defined his consequential presidency."
+    }
+   ]
+  },
+  {
+   "cat": "CONTEMPORARY"
+  },
+  {
+   "name": "Hubert Humphrey",
+   "slug": "humphrey",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 38th Vice President (1965–1969) under Lyndon Johnson, and the Democratic nominee who narrowly lost the 1968 presidential race."
+    },
+    {
+     "k": "Significance",
+     "v": "Humphrey championed civil rights for decades, having electrified the 1948 convention with a landmark speech on the issue."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His loyalty to Johnson's Vietnam policy as vice president hampered his own 1968 campaign, a cautionary tale of the office's constraints."
+    }
+   ]
+  },
+  {
+   "name": "Gerald Ford",
+   "slug": "ford",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 40th Vice President (1973–1974), the first appointed under the 25th Amendment, who then became the only unelected president."
+    },
+    {
+     "k": "Significance",
+     "v": "Ford was appointed after Spiro Agnew resigned, then became president when Nixon resigned, never having been elected to either office."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His unprecedented path to the White House, entirely through appointment and resignation, was a unique test of the 25th Amendment's machinery."
+    }
+   ]
+  },
+  {
+   "name": "Walter Mondale",
+   "slug": "mondale",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 42nd Vice President (1977–1981) under Jimmy Carter, who transformed the office into a genuine governing partnership."
+    },
+    {
+     "k": "Significance",
+     "v": "Mondale is credited with redefining the modern vice presidency, securing a West Wing office and a true advisory role for the first time."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His partnership model with Carter became the template every subsequent vice president has followed, turning a ceremonial post into real influence."
+    }
+   ]
+  },
+  {
+   "name": "George H. W. Bush",
+   "slug": "bush",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 43rd Vice President (1981–1989) under Ronald Reagan, who then won the presidency in 1988."
+    },
+    {
+     "k": "Significance",
+     "v": "Bush was the first sitting vice president since Martin Van Buren in 1836 to be elected directly to the presidency."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His broad résumé as the office's holder, from the CIA to the UN, exemplified the modern vice presidency as a launchpad to the top job."
+    }
+   ]
+  },
+  {
+   "name": "Al Gore",
+   "slug": "gore",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 45th Vice President (1993–2001) under Bill Clinton, and the central figure in one of the closest elections in history."
+    },
+    {
+     "k": "Significance",
+     "v": "Gore won the national popular vote in 2000 but lost the presidency after a Supreme Court ruling halted the Florida recount."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "He later won the Nobel Peace Prize and an Academy Award for his climate-change advocacy, a remarkable post-office second act."
+    }
+   ]
+  },
+  {
+   "name": "Dick Cheney",
+   "slug": "cheney",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 46th Vice President (2001–2009) under George W. Bush, widely regarded as among the most powerful ever to hold the office."
+    },
+    {
+     "k": "Significance",
+     "v": "Cheney wielded unprecedented influence over national security and foreign policy, especially after the September 11 attacks."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His expansive vision of vice-presidential and executive power made him a defining, and deeply debated, figure of the post-9/11 era."
+    }
+   ]
+  },
+  {
+   "name": "Joe Biden",
+   "slug": "biden",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 47th Vice President (2009–2017) under Barack Obama, who later won the presidency himself in 2020."
+    },
+    {
+     "k": "Significance",
+     "v": "Biden drew on decades of Senate experience to serve as a key legislative negotiator and adviser throughout Obama's two terms."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "His path from the office to the presidency four years later echoed a route walked by Nixon, marking him among the most experienced figures in modern politics."
+    }
+   ]
+  },
+  {
+   "name": "Kamala Harris",
+   "slug": "harris",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 49th Vice President (2021–2025) under Joe Biden, the first woman and first person of South Asian and Black heritage in the office."
+    },
+    {
+     "k": "Significance",
+     "v": "Harris broke a historic barrier as the first female vice president, and as a senator had cast tie-breaking votes of unusual frequency."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "A former senator and California attorney general, her election marked a milestone in the long expansion of who could hold national executive office."
+    }
+   ]
+  }
+ ]
+}

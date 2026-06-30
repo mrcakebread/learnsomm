@@ -1,0 +1,818 @@
+{
+ "title": "Business & Finance Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "CORPORATE & STRATEGY"
+  },
+  {
+   "name": "ROI",
+   "slug": "roi",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Return on Investment — a measure of how much profit an investment generates relative to its cost, usually expressed as a percentage. The fundamental yardstick of whether something was worth it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Marketing pushed for the new campaign, but the CFO wanted to see the projected ROI before approving the budget."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 20th-century accounting term that escaped the finance department to become business shorthand for 'was this worth the money?' applied to almost anything."
+    }
+   ],
+   "name_es": "ROI",
+   "name_fr": "ROI",
+   "name_it": "ROI"
+  },
+  {
+   "name": "KPI",
+   "slug": "kpi",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Key Performance Indicator — a specific, measurable value that shows how well a team or company is hitting its goals. The numbers leadership actually watches."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her dashboard tracked three KPIs: monthly active users, churn rate, and average revenue per customer."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Rose to prominence with the data-driven management movement; the word 'key' signals these are the vital few metrics, not every number you could measure."
+    }
+   ],
+   "name_es": "KPI",
+   "name_fr": "KPI",
+   "name_it": "KPI"
+  },
+  {
+   "name": "B2B / B2C",
+   "slug": "b2b-b2c",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two business models: 'B2B' (business-to-business) sells to other companies; 'B2C' (business-to-consumer) sells directly to individuals. They demand very different sales and marketing approaches."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The software started B2C with individual users, then pivoted to B2B to chase larger enterprise contracts."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Shorthand born in the dot-com era, using '2' as a phonetic stand-in for 'to' — a style that also gave us B2B marketplaces and the broader '-2-' naming convention."
+    }
+   ],
+   "name_es": "B2B / B2C",
+   "name_fr": "B2B / B2C",
+   "name_it": "B2B / B2C"
+  },
+  {
+   "name": "Synergy",
+   "slug": "synergy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The idea that combined efforts produce greater results than the sum of their parts — '1 + 1 = 3.' Often invoked to justify mergers, sometimes more hope than reality."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The merger was sold on synergy: shared infrastructure and cross-selling that would supposedly make the whole worth more than the two halves."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'synergos' (working together). A legitimate concept so overused in corporate decks that it became a punchline for empty buzzwords."
+    }
+   ],
+   "name_es": "Synergy",
+   "name_fr": "Synergy",
+   "name_it": "Synergy"
+  },
+  {
+   "name": "Scalable",
+   "slug": "scalable",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes a business or system that can grow revenue rapidly without a matching rise in costs. The holy grail for investors — growth that doesn't get more expensive."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Software is scalable: the thousandth customer costs almost nothing to serve, unlike a restaurant that needs another kitchen."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'scale' (size, extent). The term exploded with software, where serving more users barely raises costs — the dream investors pay a premium for."
+    }
+   ],
+   "name_es": "Scalable",
+   "name_fr": "Scalable",
+   "name_it": "Scalable"
+  },
+  {
+   "name": "Vertical / Horizontal",
+   "slug": "vertical",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Vertical' integration or markets means going deep within one industry or owning your supply chain; 'horizontal' means expanding across industries or to competitors' offerings."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They grew vertically by acquiring their own supplier, then horizontally by adding an unrelated product line."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From geometry's axes: 'vertical' moves up and down a single industry's chain; 'horizontal' moves sideways across markets. A staple of strategy vocabulary."
+    }
+   ],
+   "name_es": "Vertical / Horizontal",
+   "name_fr": "Vertical / Horizontal",
+   "name_it": "Vertical / Horizontal"
+  },
+  {
+   "name": "Core Competency",
+   "slug": "core-competency",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The unique strength or capability that a company does better than anyone else — the thing it should build around and not outsource."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Advised to stick to their core competency, they sold off the side ventures and refocused on what they did best."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Coined by management theorists Prahalad and Hamel in a landmark 1990 article, it became central to corporate strategy thinking in the decade after."
+    }
+   ],
+   "name_es": "Core Competency",
+   "name_fr": "Core Competency",
+   "name_it": "Core Competency"
+  },
+  {
+   "name": "Stakeholder",
+   "slug": "stakeholder",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Anyone with an interest in a company's outcomes — not just shareholders, but employees, customers, suppliers, and communities. Broadens 'who matters' beyond the owners."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The new policy weighed every stakeholder: investors wanted profit, employees wanted stability, and customers wanted lower prices."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A deliberate play on 'shareholder' (one who holds shares), widening it to anyone holding a 'stake' in the outcome — central to debates about corporate purpose."
+    }
+   ],
+   "name_es": "Stakeholder",
+   "name_fr": "Stakeholder",
+   "name_it": "Stakeholder"
+  },
+  {
+   "cat": "FINANCE & ACCOUNTING"
+  },
+  {
+   "name": "Revenue vs. Profit",
+   "slug": "revenue-profit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Revenue' is all the money coming in from sales; 'profit' is what's left after subtracting all costs. A company can have huge revenue and still lose money."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The startup boasted $10M in revenue but zero profit — every dollar earned was spent on growth."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Revenue' from Old French 'revenir' (to return, come back); 'profit' from Latin 'profectus' (progress, advance). The gap between them is the whole game."
+    }
+   ],
+   "name_es": "Revenue vs. Profit",
+   "name_fr": "Revenue vs. Profit",
+   "name_it": "Revenue vs. Profit"
+  },
+  {
+   "name": "Margin",
+   "slug": "margin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The percentage of revenue left as profit after costs. 'Gross margin' subtracts the cost of goods; 'net margin' subtracts everything. Higher margins mean a healthier business."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Luxury goods run on fat margins, while groceries survive on razor-thin ones and make it up on volume."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal 'margin' (edge) — the slim edge of money remaining after costs are stripped away. The narrower it is, the less room for error."
+    }
+   ],
+   "name_es": "Margin",
+   "name_fr": "Margin",
+   "name_it": "Margin"
+  },
+  {
+   "name": "Cash Flow",
+   "slug": "cash-flow",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The actual movement of money in and out of a business over time. A profitable company can still fail if cash doesn't arrive when bills are due."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "On paper they were profitable, but a cash-flow crunch — customers paying late — nearly sank them before payday."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A plain compound of 'cash' and 'flow', emphasizing timing over accounting profit. 'Cash is king' became the mantra precisely because of this distinction."
+    }
+   ],
+   "name_es": "Cash Flow",
+   "name_fr": "Cash Flow",
+   "name_it": "Cash Flow"
+  },
+  {
+   "name": "EBITDA",
+   "slug": "ebitda",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Earnings Before Interest, Taxes, Depreciation, and Amortization — a measure of a company's core operating profitability, stripping out financing and accounting effects."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Investors focused on EBITDA to compare the two firms' raw operating performance, ignoring their different debt loads."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym from 1980s leveraged-buyout finance, designed to show a company's earning power before the distortions of how it's financed and taxed."
+    }
+   ],
+   "name_es": "EBITDA",
+   "name_fr": "EBITDA",
+   "name_it": "EBITDA"
+  },
+  {
+   "name": "Balance Sheet",
+   "slug": "balance-sheet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A financial statement showing what a company owns (assets), owes (liabilities), and the difference (equity) at a single point in time. A snapshot of financial health."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her first move was to read the balance sheet, checking whether assets comfortably covered the company's debts."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the two sides must 'balance': assets always equal liabilities plus equity. One of the three core financial statements."
+    }
+   ],
+   "name_es": "Balance Sheet",
+   "name_fr": "Balance Sheet",
+   "name_it": "Balance Sheet"
+  },
+  {
+   "name": "Liquidity",
+   "slug": "liquidity",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How easily an asset can be converted to cash without losing value. Cash is perfectly liquid; a building is not. Also a company's ability to cover short-term obligations."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The fund held too many illiquid properties, so when investors wanted out, it couldn't raise cash fast enough."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'liquid' (flowing freely) — liquid assets 'flow' easily into cash, while illiquid ones are stuck. The metaphor runs through all of finance."
+    }
+   ],
+   "name_es": "Liquidity",
+   "name_fr": "Liquidity",
+   "name_it": "Liquidity"
+  },
+  {
+   "name": "Accrual",
+   "slug": "accrual",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An accounting method that records revenue and expenses when they're earned or incurred, not when cash actually changes hands. The standard for serious businesses."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Under accrual accounting, the December sale counted in December's books even though the customer paid in January."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'accrescere' (to grow, increase). It captures economic activity as it accrues, giving a truer picture than simple cash-in, cash-out accounting."
+    }
+   ],
+   "name_es": "Accrual",
+   "name_fr": "Accrual",
+   "name_it": "Accrual"
+  },
+  {
+   "name": "Depreciation",
+   "slug": "depreciation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Spreading the cost of a long-lived asset (like equipment) across the years it's used, rather than expensing it all at once. Reflects wear and aging on the books."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The $50,000 truck was depreciated over five years, deducting $10,000 annually rather than all at purchase."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'depretiare' (to lower in price). It matches an asset's cost to the periods that benefit from it — a foundational accounting principle."
+    }
+   ],
+   "name_es": "Depreciation",
+   "name_fr": "Depreciation",
+   "name_it": "Depreciation"
+  },
+  {
+   "cat": "INVESTING & MARKETS"
+  },
+  {
+   "name": "Bull / Bear Market",
+   "slug": "bull-bear",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'bull market' is rising and optimistic; a 'bear market' is falling and pessimistic. The two animals define market mood and investor psychology."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After two years of a roaring bull market, the sudden 20% drop signaled the bears had taken over."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularly explained by how each animal attacks — a bull thrusts its horns up, a bear swipes its paws down — though the terms' true origins are debated."
+    }
+   ],
+   "name_es": "Bull / Bear Market",
+   "name_fr": "Bull / Bear Market",
+   "name_it": "Bull / Bear Market"
+  },
+  {
+   "name": "Dividend",
+   "slug": "dividend",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A portion of a company's profits paid out to shareholders, usually quarterly. Income from owning stock, separate from the stock's price rising."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She built a portfolio of dividend stocks, collecting steady quarterly payments regardless of daily price swings."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'dividendum' (thing to be divided) — the profit divided among owners. 'Dividend' also survives in math as the number being divided."
+    }
+   ],
+   "name_es": "Dividend",
+   "name_fr": "Dividend",
+   "name_it": "Dividend"
+  },
+  {
+   "name": "Market Cap",
+   "slug": "market-cap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Market capitalization — the total value of a company's shares (share price × number of shares). The standard measure of a company's size."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a $2 trillion market cap, the tech giant was worth more than the entire economy of many countries."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'market' and 'capitalization', it reflects what the market collectively values the whole company at, right now."
+    }
+   ],
+   "name_es": "Market Cap",
+   "name_fr": "Market Cap",
+   "name_it": "Market Cap"
+  },
+  {
+   "name": "P/E Ratio",
+   "slug": "pe-ratio",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Price-to-Earnings ratio — a stock's price divided by its earnings per share. A rough gauge of how expensive a stock is relative to its profits."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The stock's sky-high P/E ratio meant investors were paying a steep premium, betting on huge future growth."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A cornerstone of stock valuation since the early 20th century, it answers 'how many dollars am I paying for each dollar of the company's earnings?'"
+    }
+   ],
+   "name_es": "P/E Ratio",
+   "name_fr": "P/E Ratio",
+   "name_it": "P/E Ratio"
+  },
+  {
+   "name": "Diversification",
+   "slug": "diversification",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Spreading investments across many assets so no single failure can sink the whole portfolio. The closest thing finance has to a free lunch."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Rather than bet everything on one stock, she practiced diversification across dozens of companies and sectors."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'diverse' (varied). The principle 'don't put all your eggs in one basket' formalized into modern portfolio theory, which won a Nobel Prize."
+    }
+   ],
+   "name_es": "Diversification",
+   "name_fr": "Diversification",
+   "name_it": "Diversification"
+  },
+  {
+   "name": "Hedge",
+   "slug": "hedge",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An investment made to offset the risk of another — like insurance for a position. To 'hedge' is to reduce potential loss, often at the cost of some potential gain."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He hedged his big tech bet by buying options that would pay off if the sector crashed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sense of a 'hedge' as a protective boundary; to 'hedge your bets' (cover yourself on multiple sides) dates back centuries before modern finance adopted it."
+    }
+   ],
+   "name_es": "Hedge",
+   "name_fr": "Hedge",
+   "name_it": "Hedge"
+  },
+  {
+   "name": "Short Selling",
+   "slug": "short-selling",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Betting that a stock will fall: you borrow shares, sell them, and aim to buy them back cheaper later. Profitable if the price drops, dangerous if it soars."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The short-seller borrowed and sold the overhyped stock, profiting handsomely when it later collapsed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'short' meaning being in deficit — you sell shares you don't own (are 'short' on) and must buy them back. The opposite of going 'long'."
+    }
+   ],
+   "name_es": "Short Selling",
+   "name_fr": "Short Selling",
+   "name_it": "Short Selling"
+  },
+  {
+   "name": "ETF / Index Fund",
+   "slug": "etf",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Exchange-Traded Fund — a basket of investments (often tracking an index like the S&P 500) that trades like a single stock. A simple, low-cost way to own the whole market."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Instead of picking winners, she bought a low-fee index ETF and owned a slice of 500 companies at once."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A product innovation of the 1990s; the name describes exactly what it is — a fund that trades (is exchanged) on the market like a stock."
+    }
+   ],
+   "name_es": "ETF / Index Fund",
+   "name_fr": "ETF / Index Fund",
+   "name_it": "ETF / Index Fund"
+  },
+  {
+   "cat": "STARTUP & VENTURE"
+  },
+  {
+   "name": "Runway",
+   "slug": "runway",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How long a startup can survive before running out of money, based on its current cash and spending rate. Measured in months."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With $1.2M in the bank and $100K monthly burn, they had twelve months of runway to find profitability or raise again."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An aviation metaphor: like a plane needing enough runway to take off, a startup needs enough cash-distance to reach liftoff before it runs out."
+    }
+   ],
+   "name_es": "Runway",
+   "name_fr": "Runway",
+   "name_it": "Runway"
+  },
+  {
+   "name": "Burn Rate",
+   "slug": "burn-rate",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The speed at which a startup spends its cash reserves, usually stated per month. High burn shortens runway and raises the pressure to grow or raise funds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their burn rate doubled after the hiring spree, alarming investors who watched the runway shrink."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'burning through' cash — the vivid image of money going up in flames. A core metric venture investors track obsessively."
+    }
+   ],
+   "name_es": "Burn Rate",
+   "name_fr": "Burn Rate",
+   "name_it": "Burn Rate"
+  },
+  {
+   "name": "Valuation",
+   "slug": "valuation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The estimated total worth of a company, especially a private startup. Set during funding rounds, it determines how much of the company investors get for their money."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The Series A valued the company at $40M, so the $10M investment bought a 25% stake."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'value'. For startups with little revenue, valuation is as much art and negotiation as math — a bet on future potential."
+    }
+   ],
+   "name_es": "Valuation",
+   "name_fr": "Valuation",
+   "name_it": "Valuation"
+  },
+  {
+   "name": "Equity",
+   "slug": "equity",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Ownership in a company, usually as shares. Founders, investors, and employees hold equity; its value rises and falls with the company. The currency of startups."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She took a lower salary in exchange for equity, betting that her slice of the company would one day be worth millions."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'aequitas' (fairness, evenness) — your equity is your fair share of ownership. In finance it broadly means ownership value after debts."
+    }
+   ],
+   "name_es": "Equity",
+   "name_fr": "Equity",
+   "name_it": "Equity"
+  },
+  {
+   "name": "Venture Capital",
+   "slug": "vc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Venture Capital — money invested in early-stage, high-risk, high-growth startups in exchange for equity. VCs bet on many companies expecting a few huge wins."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After bootstrapping for a year, they raised VC to fuel aggressive expansion and hire fast."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'venture' (a risky undertaking) — capital for ventures too risky for banks. The modern VC industry grew up alongside Silicon Valley."
+    }
+   ],
+   "name_es": "Venture Capital",
+   "name_fr": "Venture Capital",
+   "name_it": "Venture Capital"
+  },
+  {
+   "name": "Pivot",
+   "slug": "pivot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fundamental change in a startup's strategy, product, or market when the original idea isn't working. A controlled change of direction, not a failure."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The team pivoted from a struggling photo app to the messaging feature users actually loved, and it took off."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal 'pivot' (turning on a fixed point) — the company keeps one foot planted (its team, learnings) while swinging in a new direction. Popularized by the Lean Startup movement."
+    }
+   ],
+   "name_es": "Pivot",
+   "name_fr": "Pivot",
+   "name_it": "Pivot"
+  },
+  {
+   "name": "Unicorn",
+   "slug": "unicorn",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A privately held startup valued at over $1 billion. Once mythically rare, hence the name; now more common but still a major milestone."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Reaching a $1B valuation, the startup officially became a unicorn, and the press took notice."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Coined by investor Aileen Lee in 2013 to capture how rare and magical billion-dollar startups then were — like the mythical creature."
+    }
+   ],
+   "name_es": "Unicorn",
+   "name_fr": "Unicorn",
+   "name_it": "Unicorn"
+  },
+  {
+   "name": "Product-Market Fit",
+   "slug": "product-market-fit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The point where a product satisfies a strong market demand — customers want it, use it, and tell others. The make-or-break milestone for any startup."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Before product-market fit, growth was a grind; after it, demand pulled the product forward on its own."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularized by investor Marc Andreessen, who argued nothing else matters until you find it — the moment the market clearly wants what you built."
+    }
+   ],
+   "name_es": "Product-Market Fit",
+   "name_fr": "Product-Market Fit",
+   "name_it": "Product-Market Fit"
+  },
+  {
+   "cat": "OFFICE & DEAL SLANG"
+  },
+  {
+   "name": "Bandwidth",
+   "slug": "bandwidth",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Borrowed from tech, it means a person's available time and mental capacity to take on work. 'I don't have the bandwidth' is a polite 'I'm maxed out.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She wanted to help with the launch but simply didn't have the bandwidth on top of her current projects."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Lifted from telecommunications (the data a channel can carry) and applied to human capacity — one of the most successful tech-to-office metaphor transfers."
+    }
+   ],
+   "name_es": "Bandwidth",
+   "name_fr": "Bandwidth",
+   "name_it": "Bandwidth"
+  },
+  {
+   "name": "Low-Hanging Fruit",
+   "slug": "low-hanging",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Low-hanging fruit' means the easiest, quickest wins — the gains you can grab with minimal effort before tackling harder problems."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Let's grab the low-hanging fruit first: fixing the checkout bug will boost sales faster than any redesign."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal image of fruit easiest to pick because it hangs within reach — a vivid metaphor for the simplest available opportunities."
+    }
+   ],
+   "name_es": "Low-Hanging Fruit",
+   "name_fr": "Low-Hanging Fruit",
+   "name_it": "Low-Hanging Fruit"
+  },
+  {
+   "name": "Circle Back",
+   "slug": "circle-back",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To return to a topic or person later, after setting it aside for now. A staple of meeting-speak for 'we'll deal with this another time.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "We're short on time, so let's circle back on the budget question after we've nailed down the timeline."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the image of looping back around to something — one of the most mocked yet most-used phrases in corporate meetings."
+    }
+   ],
+   "name_es": "Circle Back",
+   "name_fr": "Circle Back",
+   "name_it": "Circle Back"
+  },
+  {
+   "name": "Move the Needle",
+   "slug": "move-needle",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'move the needle' is to make a difference big enough to actually register on a gauge — a meaningful, measurable impact, not a trivial one."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A few extra signups won't move the needle; we need a channel that brings in thousands."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the image of a dial or meter's needle visibly moving — used to separate changes that genuinely matter from cosmetic ones."
+    }
+   ],
+   "name_es": "Move the Needle",
+   "name_fr": "Move the Needle",
+   "name_it": "Move the Needle"
+  },
+  {
+   "name": "Deep Dive",
+   "slug": "deep-dive",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A thorough, detailed examination of a topic, going well beyond a surface overview. 'Let's do a deep dive' signals a focused, in-depth session."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The quarterly numbers looked off, so the team scheduled a deep dive to find the root cause."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the diving metaphor of going below the surface — plunging into the details rather than skimming the top of a subject."
+    }
+   ],
+   "name_es": "Deep Dive",
+   "name_fr": "Deep Dive",
+   "name_it": "Deep Dive"
+  },
+  {
+   "name": "EOD / COB",
+   "slug": "eod-cob",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two deadline abbreviations: 'EOD' (end of day) and 'COB' (close of business). Both mean 'by the end of today,' COB leaning toward standard business hours."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He needed the report by EOD, so she stayed late to send it before midnight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Office shorthand for setting same-day deadlines; 'COB' descends from banking and trading hours (when business formally 'closes'), while 'EOD' is the looser modern cousin."
+    }
+   ],
+   "name_es": "EOD / COB",
+   "name_fr": "EOD / COB",
+   "name_it": "EOD / COB"
+  }
+ ]
+}

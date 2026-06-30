@@ -1,0 +1,797 @@
+{
+ "title": "Coding & Dev Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "CORE CONCEPTS"
+  },
+  {
+   "name": "Algorithm",
+   "slug": "algorithm",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A precise, step-by-step set of instructions for solving a problem or completing a task. The fundamental recipe behind every program."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She optimized the search algorithm to find results in milliseconds instead of seconds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the name of 9th-century Persian mathematician al-Khwarizmi, Latinized as 'Algoritmi' — whose work on systematic calculation gave us the term."
+    }
+   ],
+   "name_es": "Algorithm",
+   "name_fr": "Algorithm",
+   "name_it": "Algorithm"
+  },
+  {
+   "name": "Function",
+   "slug": "function",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A reusable, self-contained block of code that performs a specific task and can be called whenever needed. The basic unit of organizing code."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Instead of repeating the same logic five times, he wrote one function and called it where needed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from mathematics, where a function maps inputs to outputs — programming functions do the same with data, taking arguments and returning results."
+    }
+   ],
+   "name_es": "Function",
+   "name_fr": "Function",
+   "name_it": "Function"
+  },
+  {
+   "name": "Variable",
+   "slug": "variable",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A named container that stores a value which can change as a program runs. The basic way code remembers and manipulates data."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He stored the user's score in a variable and updated it each time they earned points."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From mathematics' 'variable' (a quantity that can vary). In code it's literally a labeled box holding a value that may change over time."
+    }
+   ],
+   "name_es": "Variable",
+   "name_fr": "Variable",
+   "name_it": "Variable"
+  },
+  {
+   "name": "Loop",
+   "slug": "loop",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A structure that repeats a block of code multiple times — until a condition is met or for each item in a collection. How programs handle repetition."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A simple loop printed every name in the list without writing the same line a hundred times."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'loop' (a circle returning on itself) — the code execution circles back to repeat until told to stop."
+    }
+   ],
+   "name_es": "Loop",
+   "name_fr": "Loop",
+   "name_it": "Loop"
+  },
+  {
+   "name": "Conditional",
+   "slug": "conditional",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Code that makes decisions — running different instructions depending on whether a condition is true or false. The 'if this, then that' logic of programming."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The conditional checked if the user was logged in, showing the dashboard if true and the login page if not."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'condition' — the code branches based on conditions. The 'if/else' statement is the most fundamental conditional in nearly every language."
+    }
+   ],
+   "name_es": "Conditional",
+   "name_fr": "Conditional",
+   "name_it": "Conditional"
+  },
+  {
+   "name": "Recursion",
+   "slug": "recursion",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A technique where a function calls itself to solve a problem by breaking it into smaller versions of the same problem. Powerful, elegant, and famously mind-bending."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He solved the folder-scanning task with recursion: the function processed each folder by calling itself on subfolders."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'recurrere' (to run back). The classic joke: 'To understand recursion, you must first understand recursion' — a function defined in terms of itself."
+    }
+   ],
+   "name_es": "Recursion",
+   "name_fr": "Recursion",
+   "name_it": "Recursion"
+  },
+  {
+   "name": "Abstraction",
+   "slug": "abstraction",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Hiding complex details behind a simpler interface, so you can use something without knowing exactly how it works inside. A core principle for managing complexity."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The payment library was a clean abstraction — she called one function and never saw the messy banking details underneath."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'abstrahere' (to draw away). It 'draws away' the complicated internals, leaving a simple surface — like driving a car without understanding the engine."
+    }
+   ],
+   "name_es": "Abstraction",
+   "name_fr": "Abstraction",
+   "name_it": "Abstraction"
+  },
+  {
+   "name": "OOP",
+   "slug": "oop",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Object-Oriented Programming — a style that organizes code around 'objects' that bundle data and the actions that work on it. One of the dominant programming paradigms."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Using OOP, he modeled each user as an object with its own properties and methods."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for a paradigm popularized in the 1980s–90s; it organizes programs around 'objects' rather than just sequences of instructions."
+    }
+   ],
+   "name_es": "OOP",
+   "name_fr": "OOP",
+   "name_it": "OOP"
+  },
+  {
+   "cat": "DATA & STRUCTURES"
+  },
+  {
+   "name": "Array",
+   "slug": "array",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An ordered collection of values stored in a single variable, accessed by their position (index). One of the most fundamental data structures."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She stored the seven days in an array and grabbed any one by its index number."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'array' (an ordered arrangement). In most languages the index starts at zero — a famous source of off-by-one confusion."
+    }
+   ],
+   "name_es": "Array",
+   "name_fr": "Array",
+   "name_it": "Array"
+  },
+  {
+   "name": "Object / Dictionary",
+   "slug": "object",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A data structure that stores values as key-value pairs (also called a dictionary, map, or hash). You look up values by name rather than position."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He used an object to store the user's profile, fetching the email by its key instead of a number."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The 'object/dictionary' name fits: like a dictionary, you look up a value (definition) by its key (word) rather than by position."
+    }
+   ],
+   "name_es": "Object / Dictionary",
+   "name_fr": "Object / Dictionary",
+   "name_it": "Object / Dictionary"
+  },
+  {
+   "name": "String",
+   "slug": "string",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sequence of characters — text. From a single letter to an entire document, any text data is a string."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The function took a string of the user's name and capitalized the first letter."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the image of characters 'strung' together in sequence, like beads on a thread — one of the oldest data-type names in computing."
+    }
+   ],
+   "name_es": "String",
+   "name_fr": "String",
+   "name_it": "String"
+  },
+  {
+   "name": "Boolean",
+   "slug": "boolean",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A data type with only two possible values: true or false. The foundation of all logic and decision-making in code."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A boolean flag tracked whether the form was valid, flipping to true once all fields passed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named after 19th-century mathematician George Boole, whose 'Boolean algebra' of true/false logic became the bedrock of digital computing."
+    }
+   ],
+   "name_es": "Boolean",
+   "name_fr": "Boolean",
+   "name_it": "Boolean"
+  },
+  {
+   "name": "Stack / Queue",
+   "slug": "stack-queue",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two ways to organize data by order: a 'stack' is last-in-first-out (like a pile of plates); a 'queue' is first-in-first-out (like a line at a store)."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He used a stack to track the undo history and a queue to process incoming jobs in order."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Stack' from a literal pile (you take from the top); 'queue' from the British word for a waiting line (first to arrive is first served)."
+    }
+   ],
+   "name_es": "Stack / Queue",
+   "name_fr": "Stack / Queue",
+   "name_it": "Stack / Queue"
+  },
+  {
+   "name": "API",
+   "slug": "api",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Application Programming Interface — a defined way for two pieces of software to talk to each other. How apps request data and services from one another."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The weather app pulled live forecasts by calling a third-party API instead of measuring the sky itself."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym describing the 'interface' through which programs interact — the contract specifying how to ask for something and what you'll get back."
+    }
+   ],
+   "name_es": "API",
+   "name_fr": "API",
+   "name_it": "API"
+  },
+  {
+   "name": "JSON",
+   "slug": "json",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "JavaScript Object Notation — a lightweight, human-readable text format for storing and exchanging data. The lingua franca of web APIs."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The API returned the user's data as JSON, which the app parsed into usable objects."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym from its JavaScript origins; its simple, readable structure of keys and values made it the dominant data-exchange format on the web."
+    }
+   ],
+   "name_es": "JSON",
+   "name_fr": "JSON",
+   "name_it": "JSON"
+  },
+  {
+   "name": "Database",
+   "slug": "database",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An organized collection of data stored so it can be efficiently searched, updated, and managed. The persistent memory behind almost every app."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Every order was saved to the database, so the records survived long after the app was closed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'data' + 'base' (a foundation or store). The structured store that holds an application's information permanently, beyond a single session."
+    }
+   ],
+   "name_es": "Database",
+   "name_fr": "Database",
+   "name_it": "Database"
+  },
+  {
+   "cat": "DEV WORKFLOW"
+  },
+  {
+   "name": "Git",
+   "slug": "git",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The dominant version-control system, which tracks every change to code over time and lets teams collaborate without overwriting each other's work."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Thanks to Git, she could see exactly who changed which line, and roll back the bug to last week's version."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Created by Linus Torvalds (of Linux fame) in 2005; he jokingly named it after British slang for an unpleasant person — 'I name all my projects after myself.'"
+    }
+   ],
+   "name_es": "Git",
+   "name_fr": "Git",
+   "name_it": "Git"
+  },
+  {
+   "name": "Commit",
+   "slug": "commit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A saved snapshot of changes in version control, with a message describing what changed. The basic unit of recorded progress in Git."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He made a commit with the message 'fix login bug' so the team could see exactly what he'd changed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'commit' (to formally record or pledge) — you 'commit' your changes to the project's permanent history."
+    }
+   ],
+   "name_es": "Commit",
+   "name_fr": "Commit",
+   "name_it": "Commit"
+  },
+  {
+   "name": "Branch / Merge",
+   "slug": "branch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A separate line of development that lets you work on a feature without affecting the main code; 'merging' combines a branch back in when it's ready."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She created a branch to build the new feature, then merged it into the main code once it was tested."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the tree metaphor: development 'branches' off from the trunk to grow independently, then merges back — a vivid model of parallel work."
+    }
+   ],
+   "name_es": "Branch / Merge",
+   "name_fr": "Branch / Merge",
+   "name_it": "Branch / Merge"
+  },
+  {
+   "name": "Pull Request",
+   "slug": "pull-request",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A proposal to merge your code changes into the main project, opened for others to review, discuss, and approve. The heart of team collaboration on platforms like GitHub."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He opened a pull request, and two teammates reviewed his code before it was approved and merged."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because you're requesting that maintainers 'pull' your changes into their codebase — the standard gateway for contributing to shared projects."
+    }
+   ],
+   "name_es": "Pull Request",
+   "name_fr": "Pull Request",
+   "name_it": "Pull Request"
+  },
+  {
+   "name": "CI/CD",
+   "slug": "ci-cd",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Continuous Integration / Continuous Deployment — automated pipelines that test code as it's added and push it live with minimal manual steps. Modern software delivery."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their CI/CD pipeline ran every test automatically and deployed passing code to production within minutes."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Acronyms from the DevOps movement; 'continuous' captures the goal of integrating and shipping code constantly rather than in big, risky batches."
+    }
+   ],
+   "name_es": "CI/CD",
+   "name_fr": "CI/CD",
+   "name_it": "CI/CD"
+  },
+  {
+   "name": "Debugging",
+   "slug": "debugging",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The process of finding and fixing errors ('bugs') in code. Often the most time-consuming part of programming."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He spent the afternoon debugging, tracing the crash back to a single misplaced comma."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From removing 'bugs' — a term famously linked to a 1947 incident when a real moth was found jamming a Harvard computer, though 'bug' for a flaw predates it."
+    }
+   ],
+   "name_es": "Debugging",
+   "name_fr": "Debugging",
+   "name_it": "Debugging"
+  },
+  {
+   "name": "Refactor",
+   "slug": "refactor",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Restructuring existing code to make it cleaner, simpler, or faster — without changing what it actually does. Improving the inside, not the behavior."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Before adding features, she refactored the tangled function into three clear, readable pieces."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 're-' (again) + 'factor' (from mathematics, breaking into components) — reorganizing code's structure while preserving its output."
+    }
+   ],
+   "name_es": "Refactor",
+   "name_fr": "Refactor",
+   "name_it": "Refactor"
+  },
+  {
+   "name": "Repository",
+   "slug": "repo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Short for 'repository' — the storage location for a project's code and its entire change history. Where a codebase lives, often on GitHub."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She cloned the repo to her laptop to start working on the project locally."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'repository' (a place where things are stored), from Latin 'reponere' (to put back). Universally shortened to 'repo' among developers."
+    }
+   ],
+   "name_es": "Repository",
+   "name_fr": "Repository",
+   "name_it": "Repository"
+  },
+  {
+   "cat": "WEB & SYSTEMS"
+  },
+  {
+   "name": "Frontend / Backend",
+   "slug": "frontend-backend",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Frontend' is what users see and interact with (the interface); 'backend' is the behind-the-scenes server, logic, and database. Two halves of most web apps."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The frontend showed a sleek button, while the backend quietly processed the payment and updated the database."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'front' the user faces versus the 'back' they never see. A 'full-stack' developer works across both."
+    }
+   ],
+   "name_es": "Frontend / Backend",
+   "name_fr": "Frontend / Backend",
+   "name_it": "Frontend / Backend"
+  },
+  {
+   "name": "Framework",
+   "slug": "framework",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pre-built foundation of reusable code and structure that speeds up development by handling common tasks, so you don't start from scratch."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Rather than build everything by hand, they used a web framework that handled routing and security out of the box."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal 'framework' (a supporting structure). It provides the skeleton you build your specific app on top of — scaffolding for code."
+    }
+   ],
+   "name_es": "Framework",
+   "name_fr": "Framework",
+   "name_it": "Framework"
+  },
+  {
+   "name": "HTTP / HTTPS",
+   "slug": "http",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "HyperText Transfer Protocol — the rules governing how web browsers and servers communicate. 'HTTPS' is its encrypted, secure version."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The browser sent an HTTP request for the page, and the server responded with the HTML."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From its role transferring 'hypertext' (linked documents) on the web; the 'S' in HTTPS stands for 'Secure', added once encryption became essential."
+    }
+   ],
+   "name_es": "HTTP / HTTPS",
+   "name_fr": "HTTP / HTTPS",
+   "name_it": "HTTP / HTTPS"
+  },
+  {
+   "name": "Server / Client",
+   "slug": "server-client",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The 'client' (your browser or app) requests something; the 'server' (a remote computer) provides it. The basic two-party model of the internet."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The client app requested today's news, and the server sent back the latest articles."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Server' from one who serves; 'client' from one who is served. The model mirrors a restaurant — you (client) order, the kitchen (server) delivers."
+    }
+   ],
+   "name_es": "Server / Client",
+   "name_fr": "Server / Client",
+   "name_it": "Server / Client"
+  },
+  {
+   "name": "Cache",
+   "slug": "cache",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A temporary store of frequently-used data kept close at hand so it can be retrieved quickly, avoiding slower repeated work. Speeds up nearly everything."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The site cached the homepage so returning visitors loaded it instantly instead of rebuilding it each time."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'cacher' (to hide) — a hidden, fast store of data. Pronounced 'cash'. 'Clearing the cache' is the classic first fix for stale data."
+    }
+   ],
+   "name_es": "Cache",
+   "name_fr": "Cache",
+   "name_it": "Cache"
+  },
+  {
+   "name": "Deploy",
+   "slug": "deploy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To release code to a live environment where real users can access it — taking a project from a developer's machine to production."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After testing, they deployed the update, and within minutes users worldwide saw the new feature."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From military usage (to position forces into action). In software, you 'deploy' code into live operation — moving it from development into the real world."
+    }
+   ],
+   "name_es": "Deploy",
+   "name_fr": "Deploy",
+   "name_it": "Deploy"
+  },
+  {
+   "name": "Dependency",
+   "slug": "dependency",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An external piece of code or library that your project relies on to function. Modern software is built on towering stacks of dependencies."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The app wouldn't build until she installed a missing dependency the code relied on."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'depend' — your code depends on this external piece. 'Dependency hell' is the dreaded tangle when these libraries conflict with one another."
+    }
+   ],
+   "name_es": "Dependency",
+   "name_fr": "Dependency",
+   "name_it": "Dependency"
+  },
+  {
+   "cat": "DEVELOPER SLANG"
+  },
+  {
+   "name": "Bug",
+   "slug": "bug",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An error or flaw in code that makes it behave incorrectly. The universal name for things gone wrong in software."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A nasty bug crashed the app whenever a user entered an emoji in their name."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Engineers used 'bug' for flaws long before computers; it entered computing lore via a 1947 moth literally stuck in a Harvard machine, which was taped into the logbook."
+    }
+   ],
+   "name_es": "Bug",
+   "name_fr": "Bug",
+   "name_it": "Bug"
+  },
+  {
+   "name": "Boilerplate",
+   "slug": "boilerplate",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Standard, repetitive code that must be included in many places with little change — necessary setup that adds bulk but little unique value."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Every new file started with the same twenty lines of boilerplate before the real logic began."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 19th-century printing, where 'boilerplate' was pre-cast metal text syndicated to newspapers — reused, standardized blocks, exactly as in code."
+    }
+   ],
+   "name_es": "Boilerplate",
+   "name_fr": "Boilerplate",
+   "name_it": "Boilerplate"
+  },
+  {
+   "name": "Spaghetti Code",
+   "slug": "spaghetti",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Spaghetti code' is tangled, disorganized code that's hard to follow — logic jumping around with no clear structure, like a plate of noodles."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The legacy module was pure spaghetti code, every change risking three new bugs elsewhere."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid metaphor from the 1970s: the control flow is so twisted and interwoven that tracing it is like following a single strand through a plate of spaghetti."
+    }
+   ],
+   "name_es": "Spaghetti Code",
+   "name_fr": "Spaghetti Code",
+   "name_it": "Spaghetti Code"
+  },
+  {
+   "name": "Rubber-Ducking",
+   "slug": "rubber-duck",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Rubber-duck debugging' — explaining your code line by line to an inanimate object (like a rubber duck) to find the flaw yourself. The act of explaining reveals the bug."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Stuck for an hour, she explained the function aloud to her desk duck and spotted the error mid-sentence."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From a story in a programming book where a developer carried a rubber duck and debugged by explaining code to it — the act of articulating clarifies the problem."
+    }
+   ],
+   "name_es": "Rubber-Ducking",
+   "name_fr": "Rubber-Ducking",
+   "name_it": "Rubber-Ducking"
+  },
+  {
+   "name": "Technical Debt",
+   "slug": "technical-debt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The future cost of choosing a quick, easy solution now instead of a better one that would take longer. Like financial debt, it accrues 'interest' over time."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Rushing the launch piled up technical debt they spent the next year slowly paying down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A metaphor coined by programmer Ward Cunningham: shortcuts taken today are a 'debt' that must eventually be repaid, with interest, in extra work."
+    }
+   ],
+   "name_es": "Technical Debt",
+   "name_fr": "Technical Debt",
+   "name_it": "Technical Debt"
+  },
+  {
+   "name": "Ship It",
+   "slug": "ship-it",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To release a product or feature to users. A rallying cry in dev culture for getting work out the door rather than endlessly polishing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The feature was good enough and the deadline loomed, so the lead said 'ship it' and they launched."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of 'shipping' a finished product. It captures a culture valuing delivery over perfectionism — 'real artists ship', as the saying goes."
+    }
+   ],
+   "name_es": "Ship It",
+   "name_fr": "Ship It",
+   "name_it": "Ship It"
+  }
+ ]
+}

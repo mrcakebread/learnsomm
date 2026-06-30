@@ -1,0 +1,402 @@
+{
+ "title": "Supreme Court Justices",
+ "subject": "Reference Wheel",
+ "categories": [
+  {
+   "name": "EARLY CHIEF JUSTICES",
+   "color": "#3f6f9f",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "EARLY CHIEF JUSTICES",
+     "color": "#3f6f9f",
+     "descriptors": [
+      {
+       "name": "John Jay",
+       "slug": "jay",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The first Chief Justice of the United States (1789–1795), a Founding Father who helped shape the new federal judiciary.",
+        "mixology": "Jay led a Court with little defined power, and resigned to become governor of New York, then seen as a more important post.",
+        "examples": "A principal author of the Federalist Papers, he later negotiated the Jay Treaty with Britain, a controversial cornerstone of early foreign policy."
+       }
+      },
+      {
+       "name": "John Marshall",
+       "slug": "marshall",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The fourth and longest-serving Chief Justice (1801–1835), regarded as the most important in the Court's history.",
+        "mixology": "Marshall's ruling in Marbury v. Madison established judicial review, the Court's power to strike down unconstitutional laws.",
+        "examples": "Over 34 years he transformed the Supreme Court from a weak body into a coequal branch of government, defining its authority for all time."
+       }
+      },
+      {
+       "name": "Roger Taney",
+       "slug": "taney",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The fifth Chief Justice (1836–1864), whose tenure is forever defined by one catastrophic decision.",
+        "mixology": "Taney authored the Dred Scott decision, ruling that Black Americans could not be citizens, a ruling that helped precipitate the Civil War.",
+        "examples": "Though he had a long career and earlier reputation for ability, that single 1857 opinion stands as one of the most reviled in American legal history."
+       }
+      },
+      {
+       "name": "Salmon Chase",
+       "slug": "chase",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The sixth Chief Justice (1864–1873), who presided over the nation during Reconstruction.",
+        "mixology": "Chase presided over the impeachment trial of President Andrew Johnson, lending the proceedings judicial gravity.",
+        "examples": "A former Treasury secretary and abolitionist, he had ambitions for the presidency himself even while leading the Court."
+       }
+      },
+      {
+       "name": "Melville Fuller",
+       "slug": "fuller",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The eighth Chief Justice (1888–1910), who led the Court through the Gilded Age.",
+        "mixology": "Fuller's Court issued rulings that limited federal economic regulation, reflecting the era's laissez-faire philosophy.",
+        "examples": "His long tenure spanned a period of rapid industrialization, with a Court often siding with business against reform efforts."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MODERN CHIEF JUSTICES",
+   "color": "#caa53a",
+   "textColor": "#2a2105",
+   "sub": [
+    {
+     "name": "MODERN CHIEF JUSTICES",
+     "color": "#caa53a",
+     "descriptors": [
+      {
+       "name": "William Howard Taft",
+       "slug": "taft",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The tenth Chief Justice (1921–1930) and the only person to lead both the executive and judicial branches.",
+        "mixology": "Taft is the only person to serve as both President of the United States and Chief Justice, a unique distinction.",
+        "examples": "He considered the Chief Justiceship the greater honor, and successfully lobbied for the Court's own building, separating it from Congress."
+       }
+      },
+      {
+       "name": "Charles Evans Hughes",
+       "slug": "hughes",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 11th Chief Justice (1930–1941), who steered the Court through the constitutional crisis of the New Deal.",
+        "mixology": "Hughes navigated President Roosevelt's court-packing threat, presiding as the Court shifted to uphold New Deal legislation.",
+        "examples": "He had earlier resigned from the Court to run for president, narrowly losing in 1916, before returning years later to lead it."
+       }
+      },
+      {
+       "name": "Earl Warren",
+       "slug": "warren",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 14th Chief Justice (1953–1969), who led one of the most transformative and activist eras in the Court's history.",
+        "mixology": "Warren's Court issued Brown v. Board of Education, ending legal school segregation, and expanded civil liberties dramatically.",
+        "examples": "A former California governor, his tenure reshaped American law on civil rights, criminal procedure, and the principle of one person, one vote."
+       }
+      },
+      {
+       "name": "Warren Burger",
+       "slug": "burger",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 15th Chief Justice (1969–1986), who led a Court that was more moderate than expected.",
+        "mixology": "Burger wrote the unanimous opinion in United States v. Nixon, forcing the president to release the Watergate tapes.",
+        "examples": "Though appointed to rein in the liberal Warren Court, his tenure preserved many of its precedents while addressing new constitutional questions."
+       }
+      },
+      {
+       "name": "William Rehnquist",
+       "slug": "rehnquist",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 16th Chief Justice (1986–2005), who guided the Court in a more conservative direction over nearly two decades.",
+        "mixology": "Rehnquist championed federalism and states' rights, and presided over the impeachment trial of President Bill Clinton.",
+        "examples": "Elevated from associate justice, his long leadership marked a deliberate shift away from the expansive rulings of the Warren era."
+       }
+      },
+      {
+       "name": "John Roberts",
+       "slug": "roberts",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The 17th and current Chief Justice (2005–present), known for his concern with the Court's institutional legitimacy.",
+        "mixology": "Roberts cast a decisive vote to uphold the Affordable Care Act, surprising many and reflecting his institutionalist instincts.",
+        "examples": "He famously likened a judge's role to a baseball umpire calling balls and strikes, a metaphor for judicial restraint that has defined his public image."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LANDMARK JUSTICES",
+   "color": "#3f8f6a",
+   "textColor": "#06231a",
+   "sub": [
+    {
+     "name": "LANDMARK JUSTICES",
+     "color": "#3f8f6a",
+     "descriptors": [
+      {
+       "name": "Oliver Wendell Holmes Jr.",
+       "slug": "holmes",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "An associate justice (1902–1932) often called one of the greatest legal minds in American history.",
+        "mixology": "Holmes's incisive opinions and dissents, prizing judicial restraint and free speech, profoundly shaped American law.",
+        "examples": "Known as 'The Great Dissenter,' his eloquent minority opinions frequently became the law of the land generations later."
+       }
+      },
+      {
+       "name": "Louis Brandeis",
+       "slug": "brandeis",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "An associate justice (1916–1939), the first Jewish member of the Court and a champion of individual rights.",
+        "mixology": "Brandeis pioneered the use of real-world social and economic data in legal arguments, the famous 'Brandeis brief.'",
+        "examples": "A fierce critic of monopoly and defender of privacy, his appointment was bitterly contested but proved enormously influential."
+       }
+      },
+      {
+       "name": "Hugo Black",
+       "slug": "black",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "An associate justice (1937–1971) known for his absolutist defense of the Bill of Rights.",
+        "mixology": "Black argued the First Amendment's protections were absolute, reading 'no law' abridging free speech to mean exactly that.",
+        "examples": "A former senator, he was a leading force in applying the Bill of Rights to the states, expanding individual liberties nationwide."
+       }
+      },
+      {
+       "name": "Felix Frankfurter",
+       "slug": "frankfurter",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "An associate justice (1939–1962) and leading advocate of judicial restraint.",
+        "mixology": "Frankfurter believed courts should defer to elected legislatures, often clashing with colleagues who favored bolder intervention.",
+        "examples": "An immigrant and former Harvard Law professor, he was a towering intellectual whose philosophy of restraint influenced generations of jurists."
+       }
+      },
+      {
+       "name": "William O. Douglas",
+       "slug": "douglas",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The longest-serving justice in the Court's history (1939–1975), a fierce defender of civil liberties and the environment.",
+        "mixology": "Douglas served over 36 years and authored the opinion finding a constitutional right to privacy in Griswold v. Connecticut.",
+        "examples": "A passionate individualist and outdoorsman, his record-setting tenure and bold libertarian streak made him one of the Court's most colorful figures."
+       }
+      },
+      {
+       "name": "William Brennan",
+       "slug": "brennan",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "An associate justice (1956–1990) and one of the most influential liberal voices of the modern Court.",
+        "mixology": "Brennan was a master coalition-builder whose opinions shaped law on free speech, civil rights, and criminal justice.",
+        "examples": "Appointed by a Republican president, he became a leading architect of the Warren Court's revolution, famously counting votes on his fingers — 'five.'"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TRAILBLAZERS",
+   "color": "#c0504d",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "TRAILBLAZERS",
+     "color": "#c0504d",
+     "descriptors": [
+      {
+       "name": "Thurgood Marshall",
+       "slug": "marshall-t",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The first Black Supreme Court Justice (1967–1991), and the lawyer who had argued and won Brown v. Board of Education.",
+        "mixology": "Before joining the Court, Marshall won the landmark case ending school segregation as the nation's leading civil rights attorney.",
+        "examples": "His appointment broke a centuries-old color barrier, and on the bench he remained a passionate champion of equality and individual rights."
+       }
+      },
+      {
+       "name": "Sandra Day O'Connor",
+       "slug": "oconnor",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The first woman to serve on the Supreme Court (1981–2006), often the decisive swing vote in closely divided cases.",
+        "mixology": "O'Connor's pragmatic, case-by-case approach made her the pivotal vote on issues from abortion to affirmative action for years.",
+        "examples": "Her appointment shattered the Court's all-male history, and her centrist influence made her, for a time, arguably the most powerful jurist in America."
+       }
+      },
+      {
+       "name": "Ruth Bader Ginsburg",
+       "slug": "ginsburg",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "An associate justice (1993–2020), a pioneering advocate for gender equality who became a cultural icon.",
+        "mixology": "Before the Court, Ginsburg argued landmark gender-discrimination cases; on it, she became a powerful, pointed dissenter.",
+        "examples": "Affectionately nicknamed 'The Notorious R.B.G.,' her fierce dissents and lifelong fight for equal rights made her a beloved public figure."
+       }
+      },
+      {
+       "name": "Sonia Sotomayor",
+       "slug": "sotomayor",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The first Latina and first Hispanic Supreme Court Justice (2009–present).",
+        "mixology": "Sotomayor's appointment marked a historic milestone, and she has become a leading liberal voice known for her pointed dissents.",
+        "examples": "Raised in a Bronx housing project, her path from humble beginnings to the nation's highest court embodies a powerful American story."
+       }
+      },
+      {
+       "name": "Ketanji Brown Jackson",
+       "slug": "jackson",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The first Black woman to serve on the Supreme Court (2022–present).",
+        "mixology": "Jackson's confirmation broke a historic barrier, adding the perspective of a former public defender to the bench.",
+        "examples": "A graduate of Harvard and a former federal judge, her appointment continued the slow diversification of an institution long dominated by white men."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CONTEMPORARY COURT",
+   "color": "#7e57c2",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "CONTEMPORARY COURT",
+     "color": "#7e57c2",
+     "descriptors": [
+      {
+       "name": "Clarence Thomas",
+       "slug": "thomas",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (1991–present) and a leading conservative voice, known for his originalist philosophy.",
+        "mixology": "Thomas advocates interpreting the Constitution by its original public meaning, and is often the Court's most willing to revisit precedent.",
+        "examples": "Only the second Black justice, his contentious confirmation and his long, influential conservative tenure have made him a defining figure."
+       }
+      },
+      {
+       "name": "Antonin Scalia",
+       "slug": "scalia",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (1986–2016) and the intellectual champion of originalism and textualism.",
+        "mixology": "Scalia argued laws and the Constitution should be read by their text and original meaning, transforming American legal interpretation.",
+        "examples": "His vivid, combative writing and forceful dissents made him perhaps the most influential conservative jurist of his generation."
+       }
+      },
+      {
+       "name": "Anthony Kennedy",
+       "slug": "kennedy",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (1988–2018) who served for decades as the Court's pivotal swing vote.",
+        "mixology": "Kennedy authored the landmark opinion in Obergefell v. Hodges, establishing a nationwide right to same-sex marriage.",
+        "examples": "His unpredictable, deciding vote in major cases on liberty and equality gave him outsized influence over the law for a generation."
+       }
+      },
+      {
+       "name": "Stephen Breyer",
+       "slug": "breyer",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (1994–2022) known for a pragmatic approach focused on a law's real-world consequences.",
+        "mixology": "Breyer argued for interpreting laws by their purpose and practical effects, a counterpoint to the originalism of his colleagues.",
+        "examples": "A consensus-seeker who valued the Court's collegiality, he stepped down after nearly three decades to allow a timely successor."
+       }
+      },
+      {
+       "name": "Samuel Alito",
+       "slug": "alito",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (2006–present) and a reliably conservative voice on the Court.",
+        "mixology": "Alito authored the 2022 opinion in Dobbs that overturned Roe v. Wade, ending the constitutional right to abortion.",
+        "examples": "A former prosecutor and appeals judge, his consequential majority opinions have made him a central figure in the Court's conservative turn."
+       }
+      },
+      {
+       "name": "Elena Kagan",
+       "slug": "kagan",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (2010–present), a former Solicitor General and Harvard Law dean known for her sharp, accessible writing.",
+        "mixology": "Kagan is regarded as one of the Court's most effective writers, crafting clear, pointed opinions and dissents.",
+        "examples": "She was the first justice in decades appointed without prior experience as a judge, having instead led one of the nation's top law schools."
+       }
+      },
+      {
+       "name": "Neil Gorsuch",
+       "slug": "gorsuch",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (2017–present), an originalist in the mold of the seat's previous occupant.",
+        "mixology": "Gorsuch surprised observers by authoring a ruling extending federal civil rights protections to LGBTQ workers, on textualist grounds.",
+        "examples": "Known for his strong defense of textualism, his independent streak occasionally produces rulings that cross the Court's usual ideological lines."
+       }
+      },
+      {
+       "name": "Amy Coney Barrett",
+       "slug": "barrett",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "An associate justice (2020–present), a former law professor and the Court's youngest current member at her appointment.",
+        "mixology": "Barrett, a self-described originalist, was a student and clerk of Antonin Scalia, whose interpretive philosophy she shares.",
+        "examples": "Her confirmation just before the 2020 election solidified a conservative majority, marking a significant moment in the Court's modern trajectory."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "EARLY CHIEF JUSTICES": {
+   "en": "John Marshall's ruling in Marbury v. Madison established judicial review — the Court's power to strike down unconstitutional laws."
+  },
+  "MODERN CHIEF JUSTICES": {
+   "en": "William Howard Taft is the only person in history to serve as both President and Chief Justice of the United States."
+  },
+  "LANDMARK JUSTICES": {
+   "en": "Oliver Wendell Holmes Jr. was nicknamed 'The Great Dissenter' because his minority opinions so often became law generations later."
+  },
+  "TRAILBLAZERS": {
+   "en": "Thurgood Marshall won Brown v. Board of Education as a lawyer before later becoming the first Black Supreme Court Justice."
+  },
+  "CONTEMPORARY COURT": {
+   "en": "Anthony Kennedy served for decades as the pivotal swing vote, authoring the opinion that established nationwide same-sex marriage."
+  }
+ },
+ "ui": {
+  "en": {
+   "title": "Supreme Court Justices",
+   "origin": "Fact",
+   "chemistry": "",
+   "pairing": "",
+   "mixology": "Significance",
+   "examples": "Origin & Context",
+   "byline": "A StudySpinners reference wheel · © 2026 StudySpinners.com",
+   "search": "Search 30…",
+   "wheel": "Wheel",
+   "list": "List"
+  }
+ }
+}

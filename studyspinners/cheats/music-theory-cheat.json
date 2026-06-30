@@ -1,0 +1,1201 @@
+{
+ "title": "Music Theory — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "INTERVALS"
+  },
+  {
+   "name": "Unison & Octave",
+   "slug": "unison-octave",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An interval is the distance between two pitches. The unison is the same note; the octave is the next note of the same name, eight scale steps up."
+    },
+    {
+     "k": "How It Works",
+     "v": "An octave doubles the frequency — play A at 440 Hz and the A above is 880 Hz. Our ears hear that 2:1 ratio as 'the same note, higher,' which is why both are called A."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Octaves thicken a melody and add power without changing the harmony. Doubling a bass line an octave up is one of the oldest tricks for fullness."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Somewhere Over the Rainbow opens with an octave leap on 'Some-where' — the single most recognizable octave in music."
+    }
+   ],
+   "name_es": "Unison & Octave",
+   "name_fr": "Unison & Octave",
+   "name_it": "Unison & Octave"
+  },
+  {
+   "name": "Thirds",
+   "slug": "major-minor-third",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A third spans three scale steps. The major third is bright and happy; the minor third is darker and sadder. This one interval decides a chord's whole mood."
+    },
+    {
+     "k": "How It Works",
+     "v": "A major third is four half-steps; a minor third is three. That single half-step difference is the line between a major and a minor chord — the emotional heart of Western harmony."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Stack thirds to build every basic chord. Want a sadder version of any major chord? Lower its third by a half-step."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The major third opens 'Oh When the Saints'; the minor third is the 'Greensleeves' / 'Stairway' melancholy color."
+    }
+   ],
+   "name_es": "Thirds",
+   "name_fr": "Thirds",
+   "name_it": "Thirds"
+  },
+  {
+   "name": "Perfect Fifth",
+   "slug": "perfect-fifth",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The interval spanning five scale steps — the most stable and consonant interval after the octave, and the backbone of the circle of fifths."
+    },
+    {
+     "k": "How It Works",
+     "v": "Its frequencies sit in a clean 3:2 ratio, which the ear hears as open and strong. It's so stable it sounds almost hollow on its own."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Fifths anchor harmony and define a key's home (tonic) and away (dominant). Rock power chords are nothing but stacked fifths."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The Star Wars main theme leaps a perfect fifth; 'Twinkle, Twinkle' jumps one between its first two notes."
+    }
+   ],
+   "name_es": "Perfect Fifth",
+   "name_fr": "Perfect Fifth",
+   "name_it": "Perfect Fifth"
+  },
+  {
+   "name": "Perfect Fourth",
+   "slug": "perfect-fourth",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The interval of four scale steps — strong and consonant, the inversion of the perfect fifth. Stable but with a slight pull to resolve."
+    },
+    {
+     "k": "How It Works",
+     "v": "A 4:3 frequency ratio. Flip a perfect fifth upside down and you get a perfect fourth; the two are mirror images within the octave."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Fourths give a bold, open, sometimes heroic sound. Quartal harmony (chords built in fourths) is a staple of modern jazz."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Here Comes the Bride' and the opening of 'Amazing Grace' both rise a perfect fourth."
+    }
+   ],
+   "name_es": "Perfect Fourth",
+   "name_fr": "Perfect Fourth",
+   "name_it": "Perfect Fourth"
+  },
+  {
+   "name": "The Tritone",
+   "slug": "tritone",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The interval splitting the octave exactly in half — three whole steps. The most dissonant, unstable interval, historically nicknamed 'the devil in music.'"
+    },
+    {
+     "k": "How It Works",
+     "v": "It sits at the awkward midpoint with no simple frequency ratio, so the ear hears maximum tension. That tension is exactly what makes it useful."
+    },
+    {
+     "k": "How to Use It",
+     "v": "The tritone inside a dominant-seventh chord is what creates the urge to resolve home. Tension you can deploy on purpose."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Maria' from West Side Story opens on a tritone; it's also the wailing two-note siren of The Simpsons theme."
+    }
+   ],
+   "name_es": "The Tritone",
+   "name_fr": "The Tritone",
+   "name_it": "The Tritone"
+  },
+  {
+   "name": "Sixths & Sevenths",
+   "slug": "sixths-sevenths",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Larger intervals: the sixth is sweet and lyrical; the seventh is tense and yearning, just shy of the octave."
+    },
+    {
+     "k": "How It Works",
+     "v": "Sixths are mild consonances that sound rich and warm. Sevenths are dissonances that strongly want to step up to the octave, creating forward motion."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Sixths make lovely harmony lines for two singers or guitars. Sevenths add the color and tension that define jazz chords."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'My Bonnie Lies Over the Ocean' opens on a sixth; the major-seventh stretch colors countless jazz ballads."
+    }
+   ],
+   "name_es": "Sixths & Sevenths",
+   "name_fr": "Sixths & Sevenths",
+   "name_it": "Sixths & Sevenths"
+  },
+  {
+   "name": "Consonance & Dissonance",
+   "slug": "consonance",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Consonance is the quality of intervals that sound stable and at rest; dissonance is tension that wants to resolve. The push and pull between them drives all music."
+    },
+    {
+     "k": "How It Works",
+     "v": "Simple frequency ratios (octave 2:1, fifth 3:2) sound consonant; complex ones (tritone, seconds, sevenths) sound dissonant. But it's also cultural — what counts as 'harsh' has shifted over centuries."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Music breathes by moving from tension to release. Set up dissonance, then resolve it to consonance — that arc is the basic engine of emotional effect."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every suspension in a hymn, every bluesy clash, every jazz chord that 'wants' to move is consonance and dissonance at work."
+    }
+   ],
+   "name_es": "Consonance & Dissonance",
+   "name_fr": "Consonance & Dissonance",
+   "name_it": "Consonance & Dissonance"
+  },
+  {
+   "cat": "SCALES & MODES"
+  },
+  {
+   "name": "Major Scale",
+   "slug": "major-scale",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The seven-note scale that sounds bright and 'complete' — do-re-mi-fa-sol-la-ti-do. The reference scale for nearly all Western music."
+    },
+    {
+     "k": "How It Works",
+     "v": "Its pattern of whole and half steps is fixed: W-W-H-W-W-W-H. That exact sequence is what makes any major scale sound major, no matter which note you start on."
+    },
+    {
+     "k": "How to Use It",
+     "v": "It's the foundation everything else is measured against. Learn it in every key and most other theory falls into place."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Do-Re-Mi' from The Sound of Music literally teaches it; 'Joy to the World' is a major scale descending."
+    }
+   ],
+   "name_es": "Major Scale",
+   "name_fr": "Major Scale",
+   "name_it": "Major Scale"
+  },
+  {
+   "name": "Natural Minor",
+   "slug": "natural-minor",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The basic minor scale — darker and more somber than major. The 'sad' scale, also called the Aeolian mode."
+    },
+    {
+     "k": "How It Works",
+     "v": "It flattens the 3rd, 6th, and 7th degrees of the major scale (pattern W-H-W-W-H-W-W). Those three lowered notes are the source of its melancholy."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Reach for it whenever you want a sad, serious, or moody feel. It shares all its notes with its relative major."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Greensleeves,' 'Scarborough Fair,' and a huge amount of folk and metal live in natural minor."
+    }
+   ],
+   "name_es": "Natural Minor",
+   "name_fr": "Natural Minor",
+   "name_it": "Natural Minor"
+  },
+  {
+   "name": "Harmonic Minor",
+   "slug": "harmonic-minor",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A minor scale with a raised 7th, giving an exotic, dramatic flavor and a strong pull back to the tonic."
+    },
+    {
+     "k": "How It Works",
+     "v": "Raising the 7th creates a leading tone that resolves strongly home, but it also opens an unusual step-and-a-half gap that gives the scale its Middle-Eastern/Spanish color."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use it when minor-key harmony needs a strong dominant chord, or when you want that dramatic, slightly exotic sound."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The 'Sherlock'/spy-movie tension sound and much flamenco and classical minor-key music use harmonic minor."
+    }
+   ],
+   "name_es": "Harmonic Minor",
+   "name_fr": "Harmonic Minor",
+   "name_it": "Harmonic Minor"
+  },
+  {
+   "name": "Melodic Minor",
+   "slug": "melodic-minor",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A minor scale that raises both the 6th and 7th going up, then often reverts to natural minor coming down — built to make minor-key melodies flow smoothly."
+    },
+    {
+     "k": "How It Works",
+     "v": "The raised 6th and 7th smooth out the awkward leap of harmonic minor when a melody is ascending. Composers traditionally lowered them again on the way down."
+    },
+    {
+     "k": "How to Use It",
+     "v": "A go-to for graceful minor-key melody writing, and (in its ascending form) a core scale in jazz improvisation."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Bach's minor-key melodies and a great deal of jazz soloing draw on melodic minor."
+    }
+   ],
+   "name_es": "Melodic Minor",
+   "name_fr": "Melodic Minor",
+   "name_it": "Melodic Minor"
+  },
+  {
+   "name": "Pentatonic Scale",
+   "slug": "pentatonic",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A five-note scale that sounds good over almost anything — the friendliest scale in music, with no 'wrong' notes."
+    },
+    {
+     "k": "How It Works",
+     "v": "It removes the two most tension-prone notes from the major or minor scale, leaving five that consistently sound consonant together. That's why it's nearly foolproof."
+    },
+    {
+     "k": "How to Use It",
+     "v": "The first scale to learn for improvising. Solo over a blues or pop song with the matching pentatonic and you'll rarely hit a clashing note."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Countless guitar solos, 'Amazing Grace,' 'My Girl,' and folk music worldwide are pentatonic."
+    }
+   ],
+   "name_es": "Pentatonic Scale",
+   "name_fr": "Pentatonic Scale",
+   "name_it": "Pentatonic Scale"
+  },
+  {
+   "name": "Blues Scale",
+   "slug": "blues-scale",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The pentatonic minor scale plus one extra note — the 'blue note' — that gives blues, rock, and jazz their gritty, expressive sound."
+    },
+    {
+     "k": "How It Works",
+     "v": "Adding a flatted fifth (the blue note) between the 4th and 5th creates a sliding, dissonant tension that's the signature of the blues."
+    },
+    {
+     "k": "How to Use It",
+     "v": "The default vocabulary for blues and rock soloing. Bend into and out of the blue note for that crying, vocal quality."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every blues guitar solo, plus the swagger of countless rock riffs, leans on the blues scale."
+    }
+   ],
+   "name_es": "Blues Scale",
+   "name_fr": "Blues Scale",
+   "name_it": "Blues Scale"
+  },
+  {
+   "name": "The Modes",
+   "slug": "modes",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Seven scales made by starting the major scale on each of its different notes — the same notes, but a different 'home,' giving each a distinct mood."
+    },
+    {
+     "k": "How It Works",
+     "v": "Start C major on D and you get D Dorian; on E, E Phrygian, and so on. Same seven notes, but the new tonic shifts which intervals fall where, changing the color completely."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Modes let you stay in one set of notes while conjuring very different moods — Dorian's cool jazz, Phrygian's Spanish edge, Lydian's dreamy lift."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'So What' (Dorian), Spanish flamenco (Phrygian), and The Simpsons theme (Lydian) showcase the modes."
+    }
+   ],
+   "name_es": "The Modes",
+   "name_fr": "The Modes",
+   "name_it": "The Modes"
+  },
+  {
+   "name": "Chromatic Scale",
+   "slug": "chromatic",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The scale of all twelve notes — every half-step within the octave, with no gaps."
+    },
+    {
+     "k": "How It Works",
+     "v": "It includes every pitch Western music uses, so it has no key center of its own. It's raw material rather than a 'home' scale."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use chromatic runs and passing tones to connect other notes smoothly and add tension, color, or a sense of slithering motion."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Flight of the Bumblebee' is almost pure chromatic motion; jazz fills are full of chromatic passing notes."
+    }
+   ],
+   "name_es": "Chromatic Scale",
+   "name_fr": "Chromatic Scale",
+   "name_it": "Chromatic Scale"
+  },
+  {
+   "cat": "CHORDS"
+  },
+  {
+   "name": "Triads",
+   "slug": "triads",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The basic three-note chord, built by stacking two thirds. Major, minor, diminished, and augmented triads are the building blocks of harmony."
+    },
+    {
+     "k": "How It Works",
+     "v": "Take a root, add the note a third above, then another third on top. The size of those thirds (major or minor) decides the chord's quality and mood."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Triads are the harmonic vocabulary of most songs. Knowing the four types and how to build them on any note covers an enormous amount of music."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Nearly every pop, folk, and rock song is built on major and minor triads."
+    }
+   ],
+   "name_es": "Triads",
+   "name_fr": "Triads",
+   "name_it": "Triads"
+  },
+  {
+   "name": "Seventh Chords",
+   "slug": "seventh-chords",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A triad with one more third stacked on top, adding a 4th note (the seventh). Richer and more colorful than a plain triad."
+    },
+    {
+     "k": "How It Works",
+     "v": "The added seventh introduces mild tension and sophistication. Dominant sevenths in particular create a strong pull to resolve, driving harmony forward."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Sevenths are the entry point to jazzier, more emotional harmony. Swap a plain chord for its seventh to instantly add color."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The bluesy dominant sevenths of every blues tune, and the lush major sevenths of jazz and R&B ballads."
+    }
+   ],
+   "name_es": "Seventh Chords",
+   "name_fr": "Seventh Chords",
+   "name_it": "Seventh Chords"
+  },
+  {
+   "name": "Inversions",
+   "slug": "inversions",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The same chord with a note other than the root in the bass — same notes, different bottom, different feel."
+    },
+    {
+     "k": "How It Works",
+     "v": "Move the root up an octave and the third sits in the bass (first inversion); move the third up too and the fifth is in the bass (second inversion). The harmony is unchanged, but the color and smoothness shift."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Inversions let the bass line move smoothly between chords instead of leaping, and they vary the texture of repeated chords."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Pachelbel's Canon and countless hymns use inversions to create a stepwise, flowing bass."
+    }
+   ],
+   "name_es": "Inversions",
+   "name_fr": "Inversions",
+   "name_it": "Inversions"
+  },
+  {
+   "name": "Extended Chords",
+   "slug": "extended-chords",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Chords stacked beyond the seventh — adding the 9th, 11th, or 13th for lush, complex color."
+    },
+    {
+     "k": "How It Works",
+     "v": "Keep stacking thirds above a seventh chord and you reach the 9th, 11th, and 13th. Each added note brings more richness and ambiguity."
+    },
+    {
+     "k": "How to Use It",
+     "v": "These are the sophisticated colors of jazz, funk, soul, and film scoring. Use them where a plain chord would feel too simple."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The shimmering chords of jazz, the funk of Stevie Wonder, and lush film scores all use extensions."
+    }
+   ],
+   "name_es": "Extended Chords",
+   "name_fr": "Extended Chords",
+   "name_it": "Extended Chords"
+  },
+  {
+   "name": "Suspended Chords",
+   "slug": "suspended",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A chord where the third is replaced by the note just above or below it (the 4th or 2nd), creating an open, unresolved sound that 'hangs.'"
+    },
+    {
+     "k": "How It Works",
+     "v": "With no third, a sus chord is neither major nor minor — it sits in suspense, usually wanting to resolve to the regular chord."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use sus chords to delay resolution and build gentle tension, then drop to the plain chord for release. Great for intros and atmosphere."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The opening of 'Pinball Wizard' and the jangle of countless folk-rock songs lean on sus chords."
+    }
+   ],
+   "name_es": "Suspended Chords",
+   "name_fr": "Suspended Chords",
+   "name_it": "Suspended Chords"
+  },
+  {
+   "name": "Power Chords",
+   "slug": "power-chords",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Just the root and the fifth — no third — so it's neither major nor minor. The raw, heavy backbone of rock and metal."
+    },
+    {
+     "k": "How It Works",
+     "v": "Dropping the third removes the major/minor flavor and any harmonic 'sweetness,' leaving a thick, neutral sound that holds up under distortion."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Play them on a distorted electric guitar for power and aggression. Their neutrality lets them sit over any harmony."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Virtually every rock and metal riff — from 'Smoke on the Water' to punk — is built on power chords."
+    }
+   ],
+   "name_es": "Power Chords",
+   "name_fr": "Power Chords",
+   "name_it": "Power Chords"
+  },
+  {
+   "name": "Diminished & Augmented",
+   "slug": "diminished-augmented",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Two tense, unstable triads: the diminished (two stacked minor thirds) sounds dark and anxious; the augmented (two major thirds) sounds eerie and unresolved."
+    },
+    {
+     "k": "How It Works",
+     "v": "Both break the comfortable major/minor mold. Diminished chords are full of tritone tension; augmented chords stretch the fifth wider until it floats."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use them as tension chords that demand resolution, or as colorful passing chords between stable ones. Staples of suspense and surprise."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Horror and suspense scores lean on diminished chords; the dreamy unease of augmented chords colors many film and jazz moments."
+    }
+   ],
+   "name_es": "Diminished & Augmented",
+   "name_fr": "Diminished & Augmented",
+   "name_it": "Diminished & Augmented"
+  },
+  {
+   "cat": "PROGRESSIONS & CADENCES"
+  },
+  {
+   "name": "I–IV–V",
+   "slug": "i-iv-v",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The three-chord backbone of Western music — the I, IV, and V chords of a key. With these alone you can play thousands of songs."
+    },
+    {
+     "k": "How It Works",
+     "v": "These are the three major chords built on the 1st, 4th, and 5th degrees of a scale. Together they cover every note of the key, so almost any melody fits over them."
+    },
+    {
+     "k": "How to Use It",
+     "v": "The first progression to learn. Master I–IV–V in a few keys and you can play along with an enormous swath of folk, rock, country, and pop."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Twist and Shout,' 'La Bamba,' 'Wild Thing,' and most early rock 'n' roll are I–IV–V."
+    }
+   ],
+   "name_es": "I–IV–V",
+   "name_fr": "I–IV–V",
+   "name_it": "I–IV–V"
+  },
+  {
+   "name": "ii–V–I",
+   "slug": "ii-v-i",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most important progression in jazz — a smooth, satisfying path home through the ii, V, and I chords."
+    },
+    {
+     "k": "How It Works",
+     "v": "The ii leads naturally to the V (a fifth away), which has a strong pull to the I. Each chord sets up the next, creating an irresistible sense of arrival."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Recognize and practice ii–V–I in every key and you've unlocked the grammar of jazz standards. It's the progression that ties countless tunes together."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Autumn Leaves,' 'Fly Me to the Moon,' and most jazz standards are built from chains of ii–V–I."
+    }
+   ],
+   "name_es": "ii–V–I",
+   "name_fr": "ii–V–I",
+   "name_it": "ii–V–I"
+  },
+  {
+   "name": "Authentic Cadence",
+   "slug": "authentic-cadence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The strongest way to end a phrase — V moving to I — that sounds fully resolved, like a musical period at the end of a sentence."
+    },
+    {
+     "k": "How It Works",
+     "v": "The dominant (V) chord contains the tension-laden leading tone and tritone that pull hard toward the tonic (I). Landing on I releases all that tension: home at last."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use it to end sections and songs with a sense of finality. It's the default 'the end' in tonal music."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The decisive final chords of nearly every classical piece and hymn."
+    }
+   ],
+   "name_es": "Authentic Cadence",
+   "name_fr": "Authentic Cadence",
+   "name_it": "Authentic Cadence"
+  },
+  {
+   "name": "Plagal Cadence",
+   "slug": "plagal-cadence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The 'Amen' cadence — IV moving to I — a softer, more peaceful resolution than the authentic cadence."
+    },
+    {
+     "k": "How It Works",
+     "v": "Moving from the subdominant (IV) to the tonic (I) resolves gently, without the sharp leading-tone pull of a V–I. The effect is calm and settled rather than emphatic."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use it for a gentle, reverent, or relaxed ending — anywhere a full authentic cadence would feel too forceful."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The 'A-men' sung at the end of hymns is the textbook plagal cadence."
+    }
+   ],
+   "name_es": "Plagal Cadence",
+   "name_fr": "Plagal Cadence",
+   "name_it": "Plagal Cadence"
+  },
+  {
+   "name": "Deceptive Cadence",
+   "slug": "deceptive-cadence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A surprise ending — the V chord sets you up to land on I, but resolves somewhere unexpected (usually vi) instead."
+    },
+    {
+     "k": "How It Works",
+     "v": "The ear expects V to resolve to I. Substituting the vi chord (which shares two notes with I) gives a soft landing that's a surprise without being jarring — resolution deferred."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use it to extend a phrase, dodge a too-early ending, or create a moment of wistful surprise before the real cadence arrives."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Composers from Bach to film scorers use deceptive cadences to keep a piece from ending before its time."
+    }
+   ],
+   "name_es": "Deceptive Cadence",
+   "name_fr": "Deceptive Cadence",
+   "name_it": "Deceptive Cadence"
+  },
+  {
+   "name": "12-Bar Blues",
+   "slug": "twelve-bar-blues",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A 12-measure chord pattern using I, IV, and V — the form underneath most blues and a huge amount of early rock 'n' roll."
+    },
+    {
+     "k": "How It Works",
+     "v": "It arranges the three primary chords into a fixed 12-bar cycle with a predictable shape, leaving room for endless melodic and lyrical variation over the same frame."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Learn the 12-bar pattern and you can jam with blues musicians anywhere — it's a shared language. A perfect frame for practicing soloing."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Johnny B. Goode,' 'Hound Dog,' and the entire blues tradition run on the 12-bar form."
+    }
+   ],
+   "name_es": "12-Bar Blues",
+   "name_fr": "12-Bar Blues",
+   "name_it": "12-Bar Blues"
+  },
+  {
+   "name": "Circle Progression",
+   "slug": "circle-progression",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A chord progression that moves by descending fifths — following the circle of fifths — producing a powerfully natural sense of forward motion."
+    },
+    {
+     "k": "How It Works",
+     "v": "Each chord sits a fifth below the last, so every change feels like the strongest possible resolution, chained one after another. The ear is pulled continuously forward."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use a circle progression when you want momentum and inevitability, or to travel smoothly through several chords back to home."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Hey Joe,' 'I Will Survive,' and the turnarounds of countless jazz tunes use circle-of-fifths motion."
+    }
+   ],
+   "name_es": "Circle Progression",
+   "name_fr": "Circle Progression",
+   "name_it": "Circle Progression"
+  },
+  {
+   "cat": "RHYTHM & METER"
+  },
+  {
+   "name": "Beat & Tempo",
+   "slug": "beat-tempo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The beat is the steady pulse you tap your foot to; tempo is how fast that pulse goes, measured in beats per minute (BPM)."
+    },
+    {
+     "k": "How It Works",
+     "v": "The beat is the underlying grid of time; tempo sets its speed. A slow 60 BPM is one beat a second; a fast dance track might run 128 BPM or more."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Lock to the beat to play in time, and choose a tempo that fits the feel — slow for ballads, fast for energy. A metronome trains both."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every song you can clap along to is built on a beat; the difference between a lullaby and a dance track is largely tempo."
+    }
+   ],
+   "name_es": "Beat & Tempo",
+   "name_fr": "Beat & Tempo",
+   "name_it": "Beat & Tempo"
+  },
+  {
+   "name": "Time Signatures",
+   "slug": "time-signatures",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The two stacked numbers at the start of music that tell you how beats are grouped — like 4/4, 3/4, or 6/8."
+    },
+    {
+     "k": "How It Works",
+     "v": "The top number is how many beats per measure; the bottom is which note value gets the beat. 4/4 is four quarter-notes a bar; 3/4 is the three-beat waltz feel."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Knowing the time signature tells you where the strong beats fall, so you can feel the groove and place accents correctly."
+    },
+    {
+     "k": "Hear It In",
+     "v": "4/4 powers nearly all pop and rock; 3/4 is every waltz; 6/8 gives the lilt of many ballads and jigs."
+    }
+   ],
+   "name_es": "Time Signatures",
+   "name_fr": "Time Signatures",
+   "name_it": "Time Signatures"
+  },
+  {
+   "name": "Note Values",
+   "slug": "note-values",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The symbols showing how long each note lasts — whole, half, quarter, eighth, sixteenth — each half the length of the one before."
+    },
+    {
+     "k": "How It Works",
+     "v": "It's a halving system: a whole note splits into two halves, a half into two quarters, and so on. Dots and ties extend these basic durations."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Reading note values lets you play rhythms accurately from a page and count complex passages by subdividing the beat."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The steady quarter-notes of a march versus the rapid sixteenths of a drum fill are note values at work."
+    }
+   ],
+   "name_es": "Note Values",
+   "name_fr": "Note Values",
+   "name_it": "Note Values"
+  },
+  {
+   "name": "Syncopation",
+   "slug": "syncopation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Rhythm that accents the off-beats — the 'and' between the main beats — creating a sense of surprise, groove, and momentum."
+    },
+    {
+     "k": "How It Works",
+     "v": "By placing stresses where the ear expects rest (and vice versa), syncopation works against the steady pulse, which is exactly what makes it feel lively and propulsive."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use syncopation to make a rhythm groove instead of plod. It's the difference between stiff and funky."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Ragtime, funk, reggae's off-beat skank, and most catchy pop hooks are deeply syncopated."
+    }
+   ],
+   "name_es": "Syncopation",
+   "name_fr": "Syncopation",
+   "name_it": "Syncopation"
+  },
+  {
+   "name": "Swing & Shuffle",
+   "slug": "swing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A rhythmic feel where pairs of notes are played long-short instead of even, giving jazz and blues their characteristic bounce."
+    },
+    {
+     "k": "How It Works",
+     "v": "Instead of dividing the beat into two equal halves, swing stretches the first and shortens the second (roughly a 2:1 lilt), creating a rolling, triplet-based groove."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Apply swing to straight eighth-notes to instantly turn a stiff line jazzy. It's felt more than counted — you learn it by listening."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Big-band jazz, blues shuffles, and 'It Don't Mean a Thing (If It Ain't Got That Swing)' define the feel."
+    }
+   ],
+   "name_es": "Swing & Shuffle",
+   "name_fr": "Swing & Shuffle",
+   "name_it": "Swing & Shuffle"
+  },
+  {
+   "name": "Polyrhythm",
+   "slug": "polyrhythm",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Two conflicting rhythms played at once — like three beats against two — creating rich, complex, often hypnotic textures."
+    },
+    {
+     "k": "How It Works",
+     "v": "Each rhythm keeps its own pulse, and the ear hears both grids at once. Where they line up and pull apart creates the characteristic tension and motion."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use polyrhythm to add depth and sophistication, layering a contrasting rhythm over the main groove. Central to African and much modern music."
+    },
+    {
+     "k": "Hear It In",
+     "v": "West African drumming, much of Steve Reich's music, and progressive rock and metal thrive on polyrhythm."
+    }
+   ],
+   "name_es": "Polyrhythm",
+   "name_fr": "Polyrhythm",
+   "name_it": "Polyrhythm"
+  },
+  {
+   "cat": "HARMONY & FUNCTION"
+  },
+  {
+   "name": "Scale Degrees",
+   "slug": "scale-degrees",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The numbered positions within a scale (1 through 7), each with a name and a characteristic 'pull' — like the restful tonic or the restless leading tone."
+    },
+    {
+     "k": "How It Works",
+     "v": "Every note of a key has a role: the 1st (tonic) is home, the 5th (dominant) is the main tension, the 7th (leading tone) strains upward to resolve. These roles, not the letter names, drive harmony."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Thinking in scale degrees (or Roman numerals) lets you understand and transpose music in any key — the relationships stay the same even when the notes change."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Solfège ('do-re-mi') is scale degrees by another name; it's how singers internalize a key."
+    }
+   ],
+   "name_es": "Scale Degrees",
+   "name_fr": "Scale Degrees",
+   "name_it": "Scale Degrees"
+  },
+  {
+   "name": "Tonic & Dominant",
+   "slug": "tonic-dominant",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The two harmonic poles of a key: the tonic (I) is home and rest; the dominant (V) is tension that pulls back to it. The basic gravity of tonal music."
+    },
+    {
+     "k": "How It Works",
+     "v": "The dominant chord contains the leading tone and a tritone, both straining toward the tonic. That built-in tension-and-release is the engine of nearly all Western harmony."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Set up the dominant, then resolve to the tonic, to create satisfying arrival. Almost every phrase and cadence relies on this relationship."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The 'away then home' feeling at the end of virtually every classical phrase and pop chorus."
+    }
+   ],
+   "name_es": "Tonic & Dominant",
+   "name_fr": "Tonic & Dominant",
+   "name_it": "Tonic & Dominant"
+  },
+  {
+   "name": "Diatonic Harmony",
+   "slug": "diatonic-harmony",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The chords built using only the notes of one key — the seven chords that 'belong' together and form the harmonic palette of most songs."
+    },
+    {
+     "k": "How It Works",
+     "v": "Stack thirds on each scale degree and you get a fixed set of chord qualities (in major: I, ii, iii, IV, V, vi, vii°). These are the chords that naturally fit a key."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Knowing a key's diatonic chords tells you which chords will sound 'right' together, so you can build progressions and harmonize melodies confidently."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Most pop songs use only diatonic chords; the famous I–V–vi–IV pop progression is pure diatonic harmony."
+    }
+   ],
+   "name_es": "Diatonic Harmony",
+   "name_fr": "Diatonic Harmony",
+   "name_it": "Diatonic Harmony"
+  },
+  {
+   "name": "Modulation",
+   "slug": "key-modulation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Changing from one key to another within a piece — shifting the harmonic home to create contrast, lift, or drama."
+    },
+    {
+     "k": "How It Works",
+     "v": "A modulation usually pivots through a chord shared by both keys, then confirms the new home with its own dominant. Done smoothly, the ear is led somewhere new without feeling lost."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use modulation for a fresh-energy key change in a final chorus, or to give a longer piece structural variety and travel."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The triumphant final-chorus key-bump in countless pop songs, and the elaborate modulations of classical sonatas."
+    }
+   ],
+   "name_es": "Modulation",
+   "name_fr": "Modulation",
+   "name_it": "Modulation"
+  },
+  {
+   "name": "Voice Leading",
+   "slug": "voice-leading",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The art of moving each individual melodic line (voice) smoothly from chord to chord, usually by small steps rather than leaps."
+    },
+    {
+     "k": "How It Works",
+     "v": "Good voice-leading keeps common tones held, moves other voices to the nearest available note, and avoids awkward parallels. The chords connect like interlocking gears."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Apply it to make chord progressions sound smooth and professional, and to write inner harmony parts that are satisfying to sing or play."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The seamless part-writing of Bach chorales is the gold standard of voice-leading."
+    }
+   ],
+   "name_es": "Voice Leading",
+   "name_fr": "Voice Leading",
+   "name_it": "Voice Leading"
+  },
+  {
+   "name": "Secondary Dominants",
+   "slug": "secondary-dominant",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A chord borrowed from outside the key that acts as the dominant of a chord other than the tonic — a temporary detour that adds color and pull."
+    },
+    {
+     "k": "How It Works",
+     "v": "It's a 'V of' something: a dominant chord aimed at a chord that isn't the key's home, momentarily treating that chord as a temporary tonic before resolving to it."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use secondary dominants to add richness and forward drive to an otherwise plain diatonic progression — a splash of harmonic spice."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The surprise bright chord that 'leads somewhere' in jazz standards and sophisticated pop is often a secondary dominant."
+    }
+   ],
+   "name_es": "Secondary Dominants",
+   "name_fr": "Secondary Dominants",
+   "name_it": "Secondary Dominants"
+  },
+  {
+   "cat": "FORM & NOTATION"
+  },
+  {
+   "name": "Staff & Clefs",
+   "slug": "staff-clefs",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The five-line staff where notes are written, and the clefs (treble, bass) that fix which pitches the lines and spaces represent."
+    },
+    {
+     "k": "How It Works",
+     "v": "A note's vertical position on the staff shows its pitch; the clef at the start anchors the whole system — treble for higher instruments and voices, bass for lower."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Reading the staff and clefs is the entry point to sheet music. The mnemonics ('Every Good Boy…', 'FACE') get you started fast."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Any piece of sheet music you've ever seen relies on the staff and a clef."
+    }
+   ],
+   "name_es": "Staff & Clefs",
+   "name_fr": "Staff & Clefs",
+   "name_it": "Staff & Clefs"
+  },
+  {
+   "name": "Key Signatures",
+   "slug": "key-signature",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The group of sharps or flats at the start of each line that tells you which key the music is in, so you don't mark every accidental individually."
+    },
+    {
+     "k": "How It Works",
+     "v": "The number and pattern of sharps or flats maps directly to a key (1 sharp = G major, 2 flats = B♭ major, and so on). It's shorthand drawn straight from the circle of fifths."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Read the key signature first to know which notes are consistently sharp or flat, and to identify the key (and its likely chords) at a glance."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every printed score opens with a key signature; recognizing them is half of sight-reading."
+    }
+   ],
+   "name_es": "Key Signatures",
+   "name_fr": "Key Signatures",
+   "name_it": "Key Signatures"
+  },
+  {
+   "name": "Dynamics",
+   "slug": "dynamics",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The markings that tell you how loud or soft to play — from pianissimo (very soft) to fortissimo (very loud) — and how to shade between them."
+    },
+    {
+     "k": "How It Works",
+     "v": "Italian terms and symbols set relative volume (p, f) and gradual change (crescendo to grow, decrescendo to fade). They shape the emotional contour of a performance."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use dynamics to give music life and direction — swelling into a climax, pulling back for intimacy. Flat dynamics make even great notes feel lifeless."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The hushed-to-thunderous swells of a film score or symphony are dynamics doing the emotional heavy lifting."
+    }
+   ],
+   "name_es": "Dynamics",
+   "name_fr": "Dynamics",
+   "name_it": "Dynamics"
+  },
+  {
+   "name": "Verse–Chorus Form",
+   "slug": "verse-chorus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most common song form in popular music: alternating verses (same music, new words) with a repeating chorus (the memorable hook)."
+    },
+    {
+     "k": "How It Works",
+     "v": "Verses advance the story while the chorus delivers the central, repeated emotional payoff. A bridge often adds contrast before a final chorus. The structure balances novelty and familiarity."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Use it as the default blueprint for writing a catchy song: verse, chorus, verse, chorus, bridge, chorus."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The overwhelming majority of pop, rock, and country hits follow verse–chorus form."
+    }
+   ],
+   "name_es": "Verse–Chorus Form",
+   "name_fr": "Verse–Chorus Form",
+   "name_it": "Verse–Chorus Form"
+  },
+  {
+   "name": "32-Bar (AABA) Form",
+   "slug": "aaba",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A 32-bar song form in four 8-bar sections: a main melody (A) repeated, a contrasting bridge (B), then the main melody again. The backbone of the Great American Songbook."
+    },
+    {
+     "k": "How It Works",
+     "v": "Three statements of the A section frame a single contrasting B section (the 'middle eight'). The repetition makes the tune memorable; the bridge keeps it from growing stale."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Reach for AABA when writing in a classic, standards-style idiom, or to give a melody a satisfying, balanced shape."
+    },
+    {
+     "k": "Hear It In",
+     "v": "'Somewhere Over the Rainbow,' 'I Got Rhythm,' and most jazz standards are AABA."
+    }
+   ],
+   "name_es": "32-Bar (AABA) Form",
+   "name_fr": "32-Bar (AABA) Form",
+   "name_it": "32-Bar (AABA) Form"
+  },
+  {
+   "name": "Sonata Form",
+   "slug": "sonata",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large-scale classical form in three parts — exposition, development, recapitulation — that presents themes, explores them, then brings them home."
+    },
+    {
+     "k": "How It Works",
+     "v": "The exposition states two contrasting themes in different keys; the development fragments and transforms them through distant keys; the recapitulation returns them, now reconciled in the home key."
+    },
+    {
+     "k": "How to Use It",
+     "v": "Understanding sonata form is the key to following the architecture of most classical first movements — knowing where you are in the journey."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The opening movements of Mozart, Haydn, and Beethoven symphonies and sonatas are built on sonata form."
+    }
+   ],
+   "name_es": "Sonata Form",
+   "name_fr": "Sonata Form",
+   "name_it": "Sonata Form"
+  }
+ ]
+}

@@ -1,0 +1,755 @@
+{
+ "title": "Culinary & Cooking Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "COOKING TECHNIQUES"
+  },
+  {
+   "name": "Sauté",
+   "slug": "saute",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook food quickly in a small amount of fat over relatively high heat, tossing or stirring frequently. A foundational fast-cooking method."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She sautéed the mushrooms in butter until golden, tossing them so they browned evenly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'sauter' (to jump) — the food literally 'jumps' in the pan as a skilled cook flicks it, the classic toss of the sauté."
+    }
+   ],
+   "name_es": "Sauté",
+   "name_fr": "Sauté",
+   "name_it": "Sauté"
+  },
+  {
+   "name": "Braise",
+   "slug": "braise",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook tough cuts slowly in a covered pot with a little liquid, after first searing. Low, slow, moist heat that turns tough meat tender."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He braised the short ribs for three hours until they fell apart at the touch of a fork."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'braiser', linked to 'braise' (hot coals) — the dish was traditionally cooked over and under embers in a covered pot."
+    }
+   ],
+   "name_es": "Braise",
+   "name_fr": "Braise",
+   "name_it": "Braise"
+  },
+  {
+   "name": "Blanch",
+   "slug": "blanch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To briefly boil food then plunge it into ice water, stopping the cooking. Sets color, loosens skins, and softens slightly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She blanched the green beans for a minute, then shocked them in ice water to keep them vivid green."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'blanchir' (to whiten) — originally used to whiten or pre-cook foods; the quick boil-and-shock preserves color and texture."
+    }
+   ],
+   "name_es": "Blanch",
+   "name_fr": "Blanch",
+   "name_it": "Blanch"
+  },
+  {
+   "name": "Deglaze",
+   "slug": "deglaze",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To add liquid (wine, stock) to a hot pan to dissolve the browned bits stuck to the bottom, turning them into the base of a sauce."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After searing the steak, he deglazed the pan with red wine, scraping up the flavorful fond."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'déglacer' (to unfreeze, melt). The 'glaze' of caramelized juices is dissolved back into liquid — pure concentrated flavor."
+    }
+   ],
+   "name_es": "Deglaze",
+   "name_fr": "Deglaze",
+   "name_it": "Deglaze"
+  },
+  {
+   "name": "Emulsify",
+   "slug": "emulsify",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To combine two liquids that don't normally mix (like oil and vinegar) into a smooth, stable blend. The science behind mayonnaise and vinaigrette."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She slowly whisked oil into the egg yolk to emulsify it into a thick, glossy mayonnaise."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'emulgere' (to milk out) — an emulsion suspends tiny droplets of one liquid throughout another, like the fat in milk."
+    }
+   ],
+   "name_es": "Emulsify",
+   "name_fr": "Emulsify",
+   "name_it": "Emulsify"
+  },
+  {
+   "name": "Reduce",
+   "slug": "reduce",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To simmer a liquid so water evaporates, concentrating its flavor and thickening it. Patience turns thin sauce into intense glaze."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He let the sauce reduce by half until it coated the back of a spoon and the flavor deepened."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'reduce' in its sense of making smaller — the volume shrinks as water boils off, leaving a more concentrated, flavorful result."
+    }
+   ],
+   "name_es": "Reduce",
+   "name_fr": "Reduce",
+   "name_it": "Reduce"
+  },
+  {
+   "name": "Sear",
+   "slug": "sear",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To brown the surface of food quickly at high heat, building a flavorful crust through caramelization. The first step of countless dishes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She seared the scallops hard for ninety seconds a side, building a deep golden crust."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old English 'sēar' (dry, withered) — high heat dries and browns the surface. The crust's flavor comes from the Maillard reaction."
+    }
+   ],
+   "name_es": "Sear",
+   "name_fr": "Sear",
+   "name_it": "Sear"
+  },
+  {
+   "name": "Poach",
+   "slug": "poach",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook food gently in liquid kept just below a simmer. The delicate heat suits eggs, fish, and fruit without toughening them."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He poached the eggs in barely-trembling water until the whites set around still-runny yolks."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'pochier' (to pocket) — said to describe how a poached egg's white forms a 'pocket' around the yolk."
+    }
+   ],
+   "name_es": "Poach",
+   "name_fr": "Poach",
+   "name_it": "Poach"
+  },
+  {
+   "cat": "KNIFE & PREP"
+  },
+  {
+   "name": "Mince",
+   "slug": "mince",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To chop food into very small, fine pieces. The finest standard chop, used for garlic, herbs, and aromatics."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She minced the garlic so finely it nearly melted into the sauce."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'mincier' (to cut small), from Latin 'minutia' (smallness) — the same root behind 'minute' and 'diminish'."
+    }
+   ],
+   "name_es": "Mince",
+   "name_fr": "Mince",
+   "name_it": "Mince"
+  },
+  {
+   "name": "Julienne",
+   "slug": "julienne",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cut food into long, thin matchstick strips. A classic knife cut for vegetables, prized for its uniform, elegant shape."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He julienned the carrots into delicate matchsticks for the stir-fry."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A French term, possibly from a chef or cook named Jean Julien; it has denoted thin matchstick cuts in cookbooks since the 18th century."
+    }
+   ],
+   "name_es": "Julienne",
+   "name_fr": "Julienne",
+   "name_it": "Julienne"
+  },
+  {
+   "name": "Brunoise",
+   "slug": "brunoise",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cut food into tiny, precise cubes (about 1–3mm), usually by julienning first then dicing. The finest classic dice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The brunoise of peppers added a confetti of perfectly even, tiny cubes to the garnish."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French, derived from Brunoy, a town near Paris. One of the most exacting cuts in classical knife work — a test of precision."
+    }
+   ],
+   "name_es": "Brunoise",
+   "name_fr": "Brunoise",
+   "name_it": "Brunoise"
+  },
+  {
+   "name": "Chiffonade",
+   "slug": "chiffonade",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To slice leafy herbs or greens into thin ribbons, by stacking, rolling, and cutting. A delicate cut for basil, mint, or greens."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She rolled the basil leaves and sliced a fine chiffonade to scatter over the dish."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'chiffon' (rag, ribbon) — the technique produces thin, ribbon-like strips resembling soft fabric shreds."
+    }
+   ],
+   "name_es": "Chiffonade",
+   "name_fr": "Chiffonade",
+   "name_it": "Chiffonade"
+  },
+  {
+   "name": "Dice",
+   "slug": "dice",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cut food into uniform cube shapes. Sizes range from fine to large, and evenness ensures even cooking."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He diced the onion into neat, even cubes so it would cook uniformly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'des' (plural of 'de', a die for gaming) — the cubes resemble the six-sided dice used in games."
+    }
+   ],
+   "name_es": "Dice",
+   "name_fr": "Dice",
+   "name_it": "Dice"
+  },
+  {
+   "name": "Mise en Place",
+   "slug": "mise",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Mise en place' — having all ingredients prepped, measured, and arranged before you start cooking. The discipline that makes service run smoothly."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her mise en place was immaculate: every ingredient chopped and bowled before the first pan hit the heat."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'putting in place'. The professional kitchen's golden rule — preparation before action — credited with separating calm cooks from chaotic ones."
+    }
+   ],
+   "name_es": "Mise en Place",
+   "name_fr": "Mise en Place",
+   "name_it": "Mise en Place"
+  },
+  {
+   "name": "Fillet",
+   "slug": "fillet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cut the bones out of fish or meat, producing a boneless piece. Also the boneless cut itself."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The chef filleted the whole fish in seconds, sliding the knife cleanly along the bones."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'filet' (a thread, little band) — the boneless strip of flesh. Pronounced 'fih-LAY' for the French cut, 'FILL-it' in British usage."
+    }
+   ],
+   "name_es": "Fillet",
+   "name_fr": "Fillet",
+   "name_it": "Fillet"
+  },
+  {
+   "cat": "HEAT & METHOD"
+  },
+  {
+   "name": "Roast",
+   "slug": "roast",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook food, usually meat or vegetables, with dry heat in an oven, browning the exterior while cooking through. A cornerstone method."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She roasted the chicken at high heat until the skin turned crackling and golden."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'rostir' — originally cooking on a spit over fire, now generally dry-heat oven cooking. The browning builds deep, savory flavor."
+    }
+   ],
+   "name_es": "Roast",
+   "name_fr": "Roast",
+   "name_it": "Roast"
+  },
+  {
+   "name": "Grill / Broil",
+   "slug": "grill-broil",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Grilling' cooks over direct heat from below; 'broiling' cooks under direct heat from above. Both use intense, direct heat to char and brown."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He grilled the steaks over the coals, then finished the cheese topping under the broiler."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Grill' from Old French 'graille' (a grate); 'broil' from Old French 'bruler' (to burn) — both capture cooking by fierce, direct radiant heat."
+    }
+   ],
+   "name_es": "Grill / Broil",
+   "name_fr": "Grill / Broil",
+   "name_it": "Grill / Broil"
+  },
+  {
+   "name": "Steam",
+   "slug": "steam",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook food with the vapor from boiling water, keeping it moist and preserving nutrients and color. A gentle, fat-free method."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She steamed the dumplings over simmering water until the wrappers turned translucent."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old English 'stēam' (vapor) — the food never touches the water, cooking purely in the rising hot vapor. Prized for keeping vegetables vivid."
+    }
+   ],
+   "name_es": "Steam",
+   "name_fr": "Steam",
+   "name_it": "Steam"
+  },
+  {
+   "name": "Deep / Shallow Fry",
+   "slug": "fry",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Deep frying' submerges food in hot oil; 'shallow frying' uses a thin layer. High heat crisps the exterior fast."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They deep-fried the chicken until shatteringly crisp, then shallow-fried the next batch in less oil."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'frire', from Latin 'frigere' (to roast, fry). The crisp, golden crust comes from rapid moisture loss and browning in hot fat."
+    }
+   ],
+   "name_es": "Deep / Shallow Fry",
+   "name_fr": "Deep / Shallow Fry",
+   "name_it": "Deep / Shallow Fry"
+  },
+  {
+   "name": "Sous Vide",
+   "slug": "sous-vide",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook food sealed in a bag, submerged in precisely temperature-controlled water for a long time. Delivers perfect, edge-to-edge doneness."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He cooked the steak sous vide at 130°F for two hours, then seared it for a perfect medium-rare throughout."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'under vacuum' — the food is vacuum-sealed and cooked in a precise water bath. A modern technique embraced by both pros and home cooks."
+    }
+   ],
+   "name_es": "Sous Vide",
+   "name_fr": "Sous Vide",
+   "name_it": "Sous Vide"
+  },
+  {
+   "name": "Caramelize",
+   "slug": "caramelize",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To cook sugars (in sugar itself or in foods like onions) until they brown and develop deep, sweet, complex flavor."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She caramelized the onions low and slow for an hour until they turned jammy and golden brown."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'caramel', via Spanish/Portuguese, possibly from Latin 'calamus' (reed/sugar cane). The browning of sugar at high heat creates hundreds of new flavor compounds."
+    }
+   ],
+   "name_es": "Caramelize",
+   "name_fr": "Caramelize",
+   "name_it": "Caramelize"
+  },
+  {
+   "name": "Render",
+   "slug": "render",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To slowly melt the fat out of meat (like bacon or duck) over gentle heat, leaving crisp solids and usable liquid fat."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He rendered the bacon slowly so the fat melted out and the strips crisped without burning."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'rendre' (to give back, yield) — the heat coaxes the meat to 'yield up' its fat, separating liquid from solid."
+    }
+   ],
+   "name_es": "Render",
+   "name_fr": "Render",
+   "name_it": "Render"
+  },
+  {
+   "cat": "KITCHEN & FRENCH"
+  },
+  {
+   "name": "Roux",
+   "slug": "roux",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A cooked paste of equal parts flour and fat, used to thicken sauces and soups. The base of countless classic dishes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She whisked a blond roux of butter and flour as the foundation for the creamy sauce."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'reddish-brown', describing the color it takes as it cooks. Longer cooking deepens it from white to blond to brown, each with a distinct flavor."
+    }
+   ],
+   "name_es": "Roux",
+   "name_fr": "Roux",
+   "name_it": "Roux"
+  },
+  {
+   "name": "Mirepoix",
+   "slug": "mirepoix",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A flavor base of diced onion, carrot, and celery, slowly cooked to build depth in soups, stocks, and braises. The aromatic foundation of French cooking."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Every braise started with a mirepoix sweating gently in the pot to build a savory foundation."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named after an 18th-century French duke, the Duc de Mirepoix, whose cook is credited with popularizing the aromatic trio."
+    }
+   ],
+   "name_es": "Mirepoix",
+   "name_fr": "Mirepoix",
+   "name_it": "Mirepoix"
+  },
+  {
+   "name": "Stock",
+   "slug": "stock",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A flavorful liquid made by simmering bones, vegetables, and aromatics. The backbone of soups, sauces, and braises — distinct from quicker broth."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He simmered the roasted bones for hours to coax out a rich, gelatinous stock."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of stock as a stored supply or base. A good kitchen keeps stock on hand as the foundation that flavors everything built upon it."
+    }
+   ],
+   "name_es": "Stock",
+   "name_fr": "Stock",
+   "name_it": "Stock"
+  },
+  {
+   "name": "Mother Sauces",
+   "slug": "mother-sauce",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The five classic French 'mother sauces' (Béchamel, Velouté, Espagnole, Hollandaise, Tomato) from which countless other sauces are derived."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Once she mastered the five mother sauces, dozens of derivative sauces became simple variations."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Codified by chef Auguste Escoffier in the early 1900s; they're 'mothers' because every other classic sauce is a 'daughter' built from one of them."
+    }
+   ],
+   "name_es": "Mother Sauces",
+   "name_fr": "Mother Sauces",
+   "name_it": "Mother Sauces"
+  },
+  {
+   "name": "Bouquet Garni",
+   "slug": "bouquet-garni",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A bundle of herbs (often parsley, thyme, bay) tied together and simmered in a dish to add flavor, then removed before serving."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She dropped a bouquet garni into the simmering stock, fishing it out once it had given up its aroma."
+    },
+    {
+     "k": "Origin & History",
+     "v": "French for 'garnished bouquet' — the herbs are bundled like a small bouquet so they flavor the pot, then lift out cleanly in one piece."
+    }
+   ],
+   "name_es": "Bouquet Garni",
+   "name_fr": "Bouquet Garni",
+   "name_it": "Bouquet Garni"
+  },
+  {
+   "name": "Al Dente",
+   "slug": "al-dente",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Pasta (or vegetables) cooked until tender but still firm to the bite, not soft. The proper, traditional doneness for pasta."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He drained the pasta a minute early, leaving it al dente with a pleasant bite."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Italian for 'to the tooth' — the pasta offers a slight resistance 'to the tooth', the hallmark of properly cooked pasta in Italian tradition."
+    }
+   ],
+   "name_es": "Al Dente",
+   "name_fr": "Al Dente",
+   "name_it": "Al Dente"
+  },
+  {
+   "name": "Zest",
+   "slug": "zest",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The colored outer peel of citrus, grated or peeled to add bright, aromatic flavor without the bitter white pith beneath."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She grated lemon zest over the dish, releasing a burst of fresh citrus aroma."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the original sense of 'zest' as orange or lemon peel used for flavoring — which gave rise to the figurative 'zest' meaning lively enthusiasm."
+    }
+   ],
+   "name_es": "Zest",
+   "name_fr": "Zest",
+   "name_it": "Zest"
+  },
+  {
+   "cat": "LINE & SLANG"
+  },
+  {
+   "name": "86",
+   "slug": "eighty-six",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To '86' something means it's run out, removed from the menu, or to get rid of it. Universal kitchen shorthand for 'we're out' or 'cancel that.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'86 the salmon!' the chef called when the last fillet went out the door."
+    },
+    {
+     "k": "Origin & History",
+     "v": "American diner slang of uncertain origin from the 1930s; among many theories, it may be rhyming slang for 'nix'. It spread far beyond kitchens to mean 'get rid of'."
+    }
+   ],
+   "name_es": "86",
+   "name_fr": "86",
+   "name_it": "86"
+  },
+  {
+   "name": "Fire",
+   "slug": "fire",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'fire' a dish means to start cooking it now. The command that launches a plate or course toward the table."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Fire table six!' meant the entrées for that table needed to start cooking immediately."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of igniting or launching into action — 'firing' a dish kicks off its cooking, timed so courses reach the table together."
+    }
+   ],
+   "name_es": "Fire",
+   "name_fr": "Fire",
+   "name_it": "Fire"
+  },
+  {
+   "name": "On the Fly",
+   "slug": "on-the-fly",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A dish needed 'on the fly' must be made immediately and fast, usually because something went wrong or a table is waiting. Urgent, rush cooking."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A plate came back wrong, so the chef had to remake it on the fly while the table waited."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of doing something hurriedly 'while in flight' — without the normal lead time, improvised and rushed under pressure."
+    }
+   ],
+   "name_es": "On the Fly",
+   "name_fr": "On the Fly",
+   "name_it": "On the Fly"
+  },
+  {
+   "name": "In the Weeds",
+   "slug": "in-the-weeds",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To be 'in the weeds' is to be hopelessly overwhelmed with more orders than you can handle. The dreaded state of falling behind during service."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Three big tables sat at once and suddenly the whole line was in the weeds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid metaphor of being lost and tangled in tall weeds, unable to find your way out — kitchen and restaurant slang for drowning in work."
+    }
+   ],
+   "name_es": "In the Weeds",
+   "name_fr": "In the Weeds",
+   "name_it": "In the Weeds"
+  },
+  {
+   "name": "All Day",
+   "slug": "all-day",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'All day' is the running total of how many of an item are needed across all current orders. 'Three burgers all day' means three total, right now."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'That's six steaks all day!' the expediter called, tallying every table's order into one number."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Kitchen shorthand for the grand total 'in all' — it cuts through ticket-by-ticket confusion so the line knows the full count at a glance."
+    }
+   ],
+   "name_es": "All Day",
+   "name_fr": "All Day",
+   "name_it": "All Day"
+  },
+  {
+   "name": "Two-Top",
+   "slug": "two-top",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Restaurant shorthand for a table that seats a given number — a 'two-top' seats two, a 'four-top' seats four. Basic front-and-back-of-house lingo."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The host seated a two-top by the window and a six-top in the corner booth."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'top' meaning a tabletop, with the number indicating its seats — efficient shorthand for communicating table size across a busy restaurant."
+    }
+   ],
+   "name_es": "Two-Top",
+   "name_fr": "Two-Top",
+   "name_it": "Two-Top"
+  }
+ ]
+}

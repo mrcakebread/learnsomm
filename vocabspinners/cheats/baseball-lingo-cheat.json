@@ -1,0 +1,776 @@
+{
+ "title": "Baseball Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "HITTING"
+  },
+  {
+   "name": "Home Run",
+   "slug": "home-run",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hit that lets the batter circle all the bases and score in one play, usually by clearing the outfield fence. The 'homer.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He turned on the inside pitch and crushed it, the ball vanishing into the night beyond the wall as he flipped his bat and watched it go."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Originally a hit that simply let a runner reach home, long before fences were standard. The over-the-wall version became the iconic form as ballparks were enclosed."
+    }
+   ],
+   "name_es": "Home Run",
+   "name_fr": "Home Run",
+   "name_it": "Home Run"
+  },
+  {
+   "name": "Batting Average",
+   "slug": "batting-average",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hitter's rate of getting hits, calculated as hits divided by at-bats — a .300 average is the traditional mark of excellence."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He carried a .320 batting average into September, the kind of number that, in the old way of measuring hitters, marked a man as a star."
+    },
+    {
+     "k": "Origin & History",
+     "v": "One of baseball's oldest statistics, dating to the 19th century. Long the headline measure of a hitter, it has been partly eclipsed by newer on-base metrics."
+    }
+   ],
+   "name_es": "Batting Average",
+   "name_fr": "Batting Average",
+   "name_it": "Batting Average"
+  },
+  {
+   "name": "Strikeout",
+   "slug": "strikeout",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An out recorded when a batter accumulates three strikes — the pitcher's signature triumph. Marked as 'K' on the scorecard."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He froze the batter with a curveball on the corner for the strikeout, punching the air as the crowd held up another red 'K' card."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The scorekeeping shorthand 'K' was coined in the 19th century by reporter Henry Chadwick, using the last distinctive letter of 'struck.' A backward K means called strike three."
+    }
+   ],
+   "name_es": "Strikeout",
+   "name_fr": "Strikeout",
+   "name_it": "Strikeout"
+  },
+  {
+   "name": "Walk",
+   "slug": "walk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Reaching first base after the pitcher throws four balls outside the strike zone. Officially a 'base on balls.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Rather than give him anything to hit, they pitched around the slugger for a walk, conceding first base instead of risking the long ball."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Officially the 'base on balls,' it rewards a hitter's patience and a pitcher's wildness alike. A walk is as valuable as a single for reaching base, a truth that newer stats emphasize."
+    }
+   ],
+   "name_es": "Walk",
+   "name_fr": "Walk",
+   "name_it": "Walk"
+  },
+  {
+   "name": "Grand Slam",
+   "slug": "grand-slam",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A home run hit with all three bases occupied, scoring four runs at once — the single biggest swing in the game."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Bases loaded, full count, and he launched a grand slam into the upper deck — four runs on one swing that emptied the dugout in celebration."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from the card game bridge, where a 'grand slam' is winning all the tricks. Baseball adopted it for the maximum-impact home run."
+    }
+   ],
+   "name_es": "Grand Slam",
+   "name_fr": "Grand Slam",
+   "name_it": "Grand Slam"
+  },
+  {
+   "name": "RBI",
+   "slug": "rbi",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'run batted in' — credited to a hitter whose at-bat directly drives a teammate home to score."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His sacrifice fly drove in the winning run for the crucial RBI, the kind of clutch, unselfish at-bat that wins games without a hit."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'run batted in,' a statistic measuring a hitter's run production. The plural is often just 'RBIs,' though purists argue for 'runs batted in.'"
+    }
+   ],
+   "name_es": "RBI",
+   "name_fr": "RBI",
+   "name_it": "RBI"
+  },
+  {
+   "name": "Bunt",
+   "slug": "bunt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Tapping the ball softly into play with a held-out bat rather than swinging, used to advance runners or beat out a surprise hit."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He squared to bunt at the last instant, deadening the ball down the third-base line, and beat the throw by a step for a clever single."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From an old dialect word possibly related to 'butt,' meaning to push gently with the head. The bunt is a strategic, finesse alternative to the full swing."
+    }
+   ],
+   "name_es": "Bunt",
+   "name_fr": "Bunt",
+   "name_it": "Bunt"
+  },
+  {
+   "name": "On-Base Percentage",
+   "slug": "on-base",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "On-base percentage (OBP) — how often a hitter reaches base by any means, including walks and hit-by-pitches, not just hits."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His batting average was ordinary, but his on-base percentage was elite; he simply refused to make outs, working walk after patient walk."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern, analytics-driven statistic that the 'Moneyball' era elevated above batting average, recognizing that avoiding outs is a hitter's true core value."
+    }
+   ],
+   "name_es": "On-Base Percentage",
+   "name_fr": "On-Base Percentage",
+   "name_it": "On-Base Percentage"
+  },
+  {
+   "name": "Line Drive",
+   "slug": "line-drive",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A ball hit hard and on a flat, fast trajectory, neither a high fly nor a ground ball — usually the sign of solid contact."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He squared it up perfectly, a screaming line drive that split the gap before the outfielders could even take their first step."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the ball travels in a straight 'line' rather than arcing. Hitters prize line drives because they fall for hits far more often than flies or grounders."
+    }
+   ],
+   "name_es": "Line Drive",
+   "name_fr": "Line Drive",
+   "name_it": "Line Drive"
+  },
+  {
+   "cat": "PITCHING"
+  },
+  {
+   "name": "Curveball",
+   "slug": "curveball",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pitch thrown with topspin that breaks downward and sideways as it nears the plate, fooling hitters expecting a straight ball."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The curveball started at the batter's eyes and dropped off the table into the catcher's mitt, leaving him swinging at air a foot above the ball."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Pioneered in the 1860s by Candy Cummings, who claimed he got the idea watching clamshells curve through the air. 'To throw a curveball' now means any surprise."
+    }
+   ],
+   "name_es": "Curveball",
+   "name_fr": "Curveball",
+   "name_it": "Curveball"
+  },
+  {
+   "name": "Perfect Game",
+   "slug": "perfect-game",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A complete game in which a pitcher retires every batter faced, allowing no one to reach base at all — the rarest pitching feat."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Twenty-seven up, twenty-seven down — by the ninth inning the whole stadium was standing for every pitch of the perfect game, afraid to breathe."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Defined as no hits, no walks, no errors — flawless. It's among the rarest accomplishments in all of sports, achieved only a couple dozen times in over a century of play."
+    }
+   ],
+   "name_es": "Perfect Game",
+   "name_fr": "Perfect Game",
+   "name_it": "Perfect Game"
+  },
+  {
+   "name": "Closer",
+   "slug": "closer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A relief pitcher who specializes in finishing games, brought in to protect a narrow lead in the final inning. They earn 'saves.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a one-run lead in the ninth, the closer jogged in from the bullpen to his entrance music, the crowd rising for the man paid to end it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The role and the 'save' statistic that defines it emerged in the 1960s and 70s as bullpens specialized, turning the final inning into a job all its own."
+    }
+   ],
+   "name_es": "Closer",
+   "name_fr": "Closer",
+   "name_it": "Closer"
+  },
+  {
+   "name": "Fastball",
+   "slug": "fastball",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The most basic and common pitch, thrown with maximum velocity and little movement, challenging the hitter to catch up to it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He blew a 99-mph fastball right past the hitter for strike three, pure power against pure timing, the oldest duel in the game."
+    },
+    {
+     "k": "Origin & History",
+     "v": "As old as pitching itself; the 'heater' or 'gas' has many slang names. Modern radar guns turned its velocity into the most-watched number on the scoreboard."
+    }
+   ],
+   "name_es": "Fastball",
+   "name_fr": "Fastball",
+   "name_it": "Fastball"
+  },
+  {
+   "name": "Changeup",
+   "slug": "changeup",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pitch thrown with the same arm motion as a fastball but far slower, disrupting the hitter's timing through deception."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He sold it as a fastball but pulled the string — the changeup floated in 12 mph slower, and the hitter's swing was finished before the ball arrived."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because it 'changes up' the speed off the fastball. Its entire power lies in deception: identical delivery, a fraction of the velocity."
+    }
+   ],
+   "name_es": "Changeup",
+   "name_fr": "Changeup",
+   "name_it": "Changeup"
+  },
+  {
+   "name": "No-Hitter",
+   "slug": "no-hitter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A game in which a pitcher allows no hits, though base runners can still reach via walks or errors — short of a perfect game."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He carried the no-hitter into the ninth, and by superstition not a soul in the dugout would say the words aloud for fear of jinxing it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A celebrated feat just below the perfect game. Tradition holds that no one mentions an in-progress no-hitter, lest they curse it — one of baseball's deepest superstitions."
+    }
+   ],
+   "name_es": "No-Hitter",
+   "name_fr": "No-Hitter",
+   "name_it": "No-Hitter"
+  },
+  {
+   "name": "Strike Zone",
+   "slug": "strike-zone",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The area over home plate, roughly from the batter's knees to mid-chest, through which a pitch must pass to be a called strike."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The umpire was squeezing the strike zone all night, and pitches that should have been strikes kept coming back balls, to the pitcher's visible fury."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Defined in the rulebook but interpreted by each umpire, the zone's exact borders are a perennial source of argument now scrutinized by automated tracking systems."
+    }
+   ],
+   "name_es": "Strike Zone",
+   "name_fr": "Strike Zone",
+   "name_it": "Strike Zone"
+  },
+  {
+   "name": "Balk",
+   "slug": "balk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An illegal motion by the pitcher with runners on base, intended to deceive them — penalized by advancing every runner a base."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The pitcher flinched mid-windup, the umpire called a balk, and the winning run trotted home on a technicality nobody in the stands fully understood."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From an old word meaning to stop short or hesitate. The balk rule exists to stop pitchers from unfairly deceiving base runners, and its fine points baffle even longtime fans."
+    }
+   ],
+   "name_es": "Balk",
+   "name_fr": "Balk",
+   "name_it": "Balk"
+  },
+  {
+   "cat": "FIELDING"
+  },
+  {
+   "name": "Double Play",
+   "slug": "double-play",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A single defensive play that records two outs, most classically a grounder turned from second base to first. The 'twin killing.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The shortstop flipped to second and the relay beat the runner to first — a slick 6-4-3 double play that erased the rally in a heartbeat."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — two outs on one play. The shorthand '6-4-3' names the fielders by number; it's nicknamed the 'twin killing' for snuffing out a rally at a stroke."
+    }
+   ],
+   "name_es": "Double Play",
+   "name_fr": "Double Play",
+   "name_it": "Double Play"
+  },
+  {
+   "name": "Gold Glove",
+   "slug": "gold-glove",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An award given to the best defensive player at each position — and shorthand for elite, highlight-reel fielding."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He ranged deep into the hole, spun, and threw a laser to first; it was a Gold Glove play, the kind that wins games no box score fully captures."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the gilded glove trophy first awarded in 1957. To call a fielder 'Gold Glove' is to rank them among the very best with the leather."
+    }
+   ],
+   "name_es": "Gold Glove",
+   "name_fr": "Gold Glove",
+   "name_it": "Gold Glove"
+  },
+  {
+   "name": "Error",
+   "slug": "error",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A misplay by a fielder — a dropped ball or wild throw — that lets a batter or runner advance when they should have been out."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The routine grounder skipped under his glove for an error, and the unearned run that followed was the kind of mistake that haunts a fielder for weeks."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'error,' a mistake. It's a scorekeeping judgment that a play 'should' have been made, and runs that score because of it are deemed 'unearned' against the pitcher."
+    }
+   ],
+   "name_es": "Error",
+   "name_fr": "Error",
+   "name_it": "Error"
+  },
+  {
+   "name": "Force Out",
+   "slug": "force-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An out made by tagging a base a runner is forced to advance to, rather than tagging the runner — the basis of most routine outs."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The throw beat the runner to second for the force-out, the fielder simply touching the bag because the runner had no choice but to advance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the runner is 'forced' to run when the batter becomes a runner behind them. It's the simple logic underlying the double play and most infield outs."
+    }
+   ],
+   "name_es": "Force Out",
+   "name_fr": "Force Out",
+   "name_it": "Force Out"
+  },
+  {
+   "name": "Cutoff Man",
+   "slug": "cutoff-man",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An infielder who positions himself to catch an outfielder's long throw and relay it, keeping other runners from advancing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The outfielder fired toward the plate, but the cutoff man read the play, intercepted the throw, and gunned down the trailing runner instead."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the fielder 'cuts off' a throw from the outfield. The relay is a quiet, fundamental skill that separates sharp defensive teams from sloppy ones."
+    }
+   ],
+   "name_es": "Cutoff Man",
+   "name_fr": "Cutoff Man",
+   "name_it": "Cutoff Man"
+  },
+  {
+   "name": "Web Gem",
+   "slug": "web-gem",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a spectacular, acrobatic defensive play — a diving catch or impossible grab worthy of a highlight reel."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He laid out fully horizontal and snared the line drive in the webbing — an instant web gem that the whole dugout leapt up to salute."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Coined by a sports network's highlight segment, the 'web' refers to the webbing of the glove where such miraculous catches are made."
+    }
+   ],
+   "name_es": "Web Gem",
+   "name_fr": "Web Gem",
+   "name_it": "Web Gem"
+  },
+  {
+   "cat": "SITUATIONS"
+  },
+  {
+   "name": "Walk-Off",
+   "slug": "walk-off",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A game-ending play by the home team in the final inning, sending the losing pitcher 'walking off' the field in defeat."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He launched a walk-off homer in the bottom of the ninth, flipping his bat and rounding the bases into a mob of teammates at home plate."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Coined by Hall of Fame reliever Dennis Eckersley, originally for the homer that made him, the beaten pitcher, 'walk off' the mound. It now covers any game-ending hit."
+    }
+   ],
+   "name_es": "Walk-Off",
+   "name_fr": "Walk-Off",
+   "name_it": "Walk-Off"
+  },
+  {
+   "name": "Sacrifice Bunt",
+   "slug": "sacrifice-bunt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A bunt made deliberately to advance a runner, accepting one's own out for the good of the team. The 'sac bunt.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a runner on first and nobody out, he laid down a textbook sacrifice bunt, trading his own at-bat to move the runner into scoring position."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the batter 'sacrifices' his at-bat for the team. It's the purest expression of small-ball strategy, valuing a base over a personal stat line."
+    }
+   ],
+   "name_es": "Sacrifice Bunt",
+   "name_fr": "Sacrifice Bunt",
+   "name_it": "Sacrifice Bunt"
+  },
+  {
+   "name": "Full Count",
+   "slug": "full-count",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A count of three balls and two strikes — the next pitch decides the at-bat, ending in a walk, a strikeout, or contact."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Full count, bases loaded, the whole season balanced on one pitch; the runner broke on contact and the entire stadium rose as one."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the count is 'full' — the maximum balls and strikes before resolution. It's baseball's purest moment of tension, an all-or-nothing duel."
+    }
+   ],
+   "name_es": "Full Count",
+   "name_fr": "Full Count",
+   "name_it": "Full Count"
+  },
+  {
+   "name": "Stolen Base",
+   "slug": "stolen-base",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Advancing a base while the pitcher delivers, by sprinting and sliding in safely without the aid of a hit. The 'steal.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He got a huge jump and stole second cleanly, sliding in ahead of the throw and instantly turning a single into a scoring threat."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to steal,' to take by stealth. The art of the steal rewards speed, timing, and nerve, reading the pitcher's motion for the split-second edge."
+    }
+   ],
+   "name_es": "Stolen Base",
+   "name_fr": "Stolen Base",
+   "name_it": "Stolen Base"
+  },
+  {
+   "name": "Bases Loaded",
+   "slug": "rbi-situation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for the highest-pressure scoring chance: the bases loaded, where any hit drives in runs and even a walk forces one home."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Bases loaded, nobody out — the crowd sensed the game tilting, the pitcher in a vise where even a walk would hand over a run."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Bases loaded' (or 'bases juiced') means runners on every base. It's the situation of maximum opportunity and maximum pressure, where a grand slam looms."
+    }
+   ],
+   "name_es": "Bases Loaded",
+   "name_fr": "Bases Loaded",
+   "name_it": "Bases Loaded"
+  },
+  {
+   "name": "Extra Innings",
+   "slug": "extra-innings",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The bonus innings played when a game is tied after the regulation nine, continuing until one team leads after a full inning."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The game stretched into extra innings, both bullpens emptied, the exhausted crowd staying past midnight for a finish that simply wouldn't come."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named simply for the 'extra' innings beyond nine. Because baseball has no clock, a tied game can theoretically continue forever — some have run past eighteen innings."
+    }
+   ],
+   "name_es": "Extra Innings",
+   "name_fr": "Extra Innings",
+   "name_it": "Extra Innings"
+  },
+  {
+   "cat": "SLANG & CULTURE"
+  },
+  {
+   "name": "Southpaw",
+   "slug": "southpaw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A left-handed pitcher (or any lefty). The term spread from baseball into boxing and everyday speech."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The lefty specialist came in to face the dangerous hitter; managers love a southpaw to neutralize a left-handed bat in a tight spot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Said to come from old ballparks oriented so a pitcher faced west, putting a lefty's throwing arm on the south side. The story is charming, if historically shaky."
+    }
+   ],
+   "name_es": "Southpaw",
+   "name_fr": "Southpaw",
+   "name_it": "Southpaw"
+  },
+  {
+   "name": "The Show",
+   "slug": "the-show",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for the major leagues — the highest level of professional baseball, the dream every minor-leaguer chases."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After eight years grinding in the minors, he finally got the call to The Show, and his hands shook as he pulled on the big-league jersey."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Show-business slang adopted by players: the majors are 'the show,' the big stage, as opposed to the obscurity of the minor-league bus rides below."
+    }
+   ],
+   "name_es": "The Show",
+   "name_fr": "The Show",
+   "name_it": "The Show"
+  },
+  {
+   "name": "Chin Music",
+   "slug": "chin-music",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a pitch thrown high and inside, near the batter's chin, to intimidate them and back them off the plate."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The pitcher sent a little chin music up and in, and the hitter hit the dirt, the message about who owned the inside corner delivered loud and clear."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid metaphor — the ball whistling past the chin like unwelcome 'music.' It captures baseball's coded, unwritten war for control of the plate."
+    }
+   ],
+   "name_es": "Chin Music",
+   "name_fr": "Chin Music",
+   "name_it": "Chin Music"
+  },
+  {
+   "name": "Can of Corn",
+   "slug": "can-of-corn",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for an easy, routine fly ball that an outfielder catches without effort."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The batter lifted a lazy can of corn to center, and the fielder drifted under it casually, the out never in doubt for a single second."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Said to come from old grocers who tipped canned goods off high shelves and caught them in their aprons — an easy, practiced catch, like the routine fly."
+    }
+   ],
+   "name_es": "Can of Corn",
+   "name_fr": "Can of Corn",
+   "name_it": "Can of Corn"
+  },
+  {
+   "name": "The Cycle",
+   "slug": "the-cycle",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A rare feat of one player hitting a single, double, triple, and home run all in the same game."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He needed only a triple to complete the cycle, and when he legged out a gapper in the eighth, the scoreboard lit up for a feat seen only a few times a year."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the hitter completes the full 'cycle' of hit types. The triple is usually the hardest piece, making the natural cycle (in order) rarer still."
+    }
+   ],
+   "name_es": "The Cycle",
+   "name_fr": "The Cycle",
+   "name_it": "The Cycle"
+  },
+  {
+   "name": "Dinger",
+   "slug": "dinger",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Affectionate slang for a home run."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He crushed a no-doubt dinger to dead center, admiring it for a beat before starting his trot as the bench spilled out to greet him."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Of uncertain but clearly playful origin, 'dinger' is one of dozens of fond nicknames for the home run — alongside 'bomb,' 'tater,' 'moonshot,' and 'long ball.'"
+    }
+   ],
+   "name_es": "Dinger",
+   "name_fr": "Dinger",
+   "name_it": "Dinger"
+  },
+  {
+   "name": "Rookie",
+   "slug": "rookie",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A player in their first season — untested at the top level, eligible for Rookie of the Year honors."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The rookie looked nervous in his first at-bat, then ripped a double off the wall, announcing that the kid belonged after all."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'rookie,' likely a corruption of 'recruit,' meaning a raw newcomer. The term has spread far beyond baseball to any first-year participant in any field."
+    }
+   ],
+   "name_es": "Rookie",
+   "name_fr": "Rookie",
+   "name_it": "Rookie"
+  }
+ ]
+}

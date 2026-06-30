@@ -1,0 +1,755 @@
+{
+ "title": "Soccer Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "ATTACKING"
+  },
+  {
+   "name": "Hat-Trick",
+   "slug": "hat-trick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scoring three goals in a single match by one player — one of the game's signature individual achievements."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He completed his hat-trick in the 88th minute, and the home crowd roared as the ball boy fished it out for him to keep as a souvenir."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from cricket, where a bowler taking three wickets with consecutive balls earned a new hat. Soccer adopted the term for three goals, though they needn't be consecutive."
+    }
+   ],
+   "name_es": "Hat-Trick",
+   "name_fr": "Hat-Trick",
+   "name_it": "Hat-Trick"
+  },
+  {
+   "name": "Dribble",
+   "slug": "dribble",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Moving the ball past opponents with a series of close touches while keeping it under control at the feet."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He dribbled through three defenders in a phone-booth of space, the ball seemingly glued to his laces as bodies lunged and missed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old English 'drib,' to let fall in drops or small movements — the same root as a basketball dribble, describing the ball moving in short hops."
+    }
+   ],
+   "name_es": "Dribble",
+   "name_fr": "Dribble",
+   "name_it": "Dribble"
+  },
+  {
+   "name": "Through Ball",
+   "slug": "through-ball",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pass played into the open space behind the defense for a teammate to run onto, often springing a scoring chance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She threaded a perfect through-ball between the center-backs, and the striker was suddenly clean through on goal with only the keeper to beat."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the ball is played 'through' the defensive line. The term grew with the tactical vocabulary of the modern passing game."
+    }
+   ],
+   "name_es": "Through Ball",
+   "name_fr": "Through Ball",
+   "name_it": "Through Ball"
+  },
+  {
+   "name": "Bicycle Kick",
+   "slug": "bicycle-kick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An acrobatic shot where a player kicks the ball backward over their own head while airborne, body parallel to the ground."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He met the cross with a bicycle kick, scissoring his legs in mid-air, and the ball flew into the top corner for goal of the season."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the pedaling motion of the legs in the air. Known as 'chilena' in much of South America, where it was popularized in early-20th-century Chile."
+    }
+   ],
+   "name_es": "Bicycle Kick",
+   "name_fr": "Bicycle Kick",
+   "name_it": "Bicycle Kick"
+  },
+  {
+   "name": "Nutmeg",
+   "slug": "nutmeg",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Playing the ball through an opponent's legs and collecting it on the other side — one of the game's most humiliating skills."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The winger nutmegged the defender with a casual flick, and the bench erupted; nothing wounds a defender's pride quite like a meg."
+    },
+    {
+     "k": "Origin & History",
+     "v": "British slang of uncertain origin; one popular story ties it to 19th-century nutmeg traders' trickery, though the link to the football move is unproven."
+    }
+   ],
+   "name_es": "Nutmeg",
+   "name_fr": "Nutmeg",
+   "name_it": "Nutmeg"
+  },
+  {
+   "name": "Volley",
+   "slug": "volley",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Striking the ball cleanly out of the air before it bounces — a difficult, spectacular way to shoot or clear."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The ball dropped over his shoulder and he volleyed it first-time, catching it so sweetly the net barely had time to ripple."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'volley' meaning a simultaneous discharge, via tennis, where it likewise means striking the ball before it bounces. Ultimately from French 'volée,' a flight."
+    }
+   ],
+   "name_es": "Volley",
+   "name_fr": "Volley",
+   "name_it": "Volley"
+  },
+  {
+   "name": "One-Two",
+   "slug": "one-two",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A quick exchange of two passes between teammates to slip past a defender, also called a 'give-and-go' or 'wall pass.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They played a slick one-two on the edge of the box, the defender left flat-footed as the ball came straight back into the gap."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for its two-pass rhythm. The alternative 'wall pass' captures the idea of using a teammate like a wall to bounce the ball off."
+    }
+   ],
+   "name_es": "One-Two",
+   "name_fr": "One-Two",
+   "name_it": "One-Two"
+  },
+  {
+   "name": "Cross",
+   "slug": "cross",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pass played from a wide area into the penalty box, aiming to set up a header or shot on goal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He whipped in a dangerous cross, and three attackers and two defenders all rose together — a moment of pure chaos in front of goal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the ball is played 'across' the field from the flank toward the center, a staple of attacking play since the earliest days of the game."
+    }
+   ],
+   "name_es": "Cross",
+   "name_fr": "Cross",
+   "name_it": "Cross"
+  },
+  {
+   "name": "Brace",
+   "slug": "brace",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scoring two goals in a single match — one short of a hat-trick."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her brace turned the game on its head; two goals in five first-half minutes silenced a hostile away crowd."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the hunting term 'brace,' meaning a pair (of birds or game). Football borrowed it as an elegant word for a player's two goals."
+    }
+   ],
+   "name_es": "Brace",
+   "name_fr": "Brace",
+   "name_it": "Brace"
+  },
+  {
+   "cat": "DEFENDING"
+  },
+  {
+   "name": "Offside Trap",
+   "slug": "offside-trap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A coordinated defensive move where the back line steps forward in unison to leave an attacker offside as the ball is played."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The back four sprang the offside trap perfectly, stepping up as one, and the striker's celebration died as the linesman's flag shot up."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for 'trapping' an attacker in an offside position. It became a defining tactic of organized defenses through the 20th century."
+    }
+   ],
+   "name_es": "Offside Trap",
+   "name_fr": "Offside Trap",
+   "name_it": "Offside Trap"
+  },
+  {
+   "name": "Pressing",
+   "slug": "pressing",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Aggressively closing down opponents to win the ball back high up the pitch rather than dropping deep to defend."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their high pressing suffocated the opposition, swarming every defender who touched the ball until a panicked pass was finally intercepted."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to press,' to apply pressure. 'Gegenpressing' — counter-pressing immediately after losing the ball — entered the global vocabulary via German coaches in the 2010s."
+    }
+   ],
+   "name_es": "Pressing",
+   "name_fr": "Pressing",
+   "name_it": "Pressing"
+  },
+  {
+   "name": "Clean Sheet",
+   "slug": "clean-sheet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A match in which a team concedes no goals — credited especially to the goalkeeper and defense."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The keeper kept his fifth clean sheet in a row, and the defenders mobbed him; in their world, zero on the scoreboard is its own kind of goal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the idea of a scoresheet left 'clean' of any goals conceded — a metaphor for an unblemished defensive record."
+    }
+   ],
+   "name_es": "Clean Sheet",
+   "name_fr": "Clean Sheet",
+   "name_it": "Clean Sheet"
+  },
+  {
+   "name": "Tackle",
+   "slug": "tackle",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive action to dispossess an opponent of the ball using the feet, ranging from a clean poke to a sliding challenge."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She timed the sliding tackle to perfection, taking ball cleanly and turning defense into attack in a single sweep of her leg."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the general sense of 'to tackle,' meaning to take hold of or grapple with — shared with rugby and American football, though the soccer version forbids using the hands or body to bring a player down."
+    }
+   ],
+   "name_es": "Tackle",
+   "name_fr": "Tackle",
+   "name_it": "Tackle"
+  },
+  {
+   "name": "Marking",
+   "slug": "marking",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Closely tracking and guarding an opponent to prevent them from receiving the ball or creating chances."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He was assigned to man-mark the playmaker and followed him everywhere, even to the corner flag, refusing to give him a single yard."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to mark,' to keep watch on or note the position of. 'Zonal marking' versus 'man-marking' is one of defending's oldest tactical debates."
+    }
+   ],
+   "name_es": "Marking",
+   "name_fr": "Marking",
+   "name_it": "Marking"
+  },
+  {
+   "name": "Clearance",
+   "slug": "clearance",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Kicking or heading the ball away from your own goal to safety, prioritizing distance over possession."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Under siege in the box, the defender hooked a desperate clearance into the stands — ugly, but exactly what the moment demanded."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the defender 'clears' the danger from around the goal. A 'clearance off the line' is the dramatic last-ditch version."
+    }
+   ],
+   "name_es": "Clearance",
+   "name_fr": "Clearance",
+   "name_it": "Clearance"
+  },
+  {
+   "name": "Low Block",
+   "slug": "low-block",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive setup where a team sits deep near its own goal in compact lines, inviting pressure to hit on the counter."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Two goals up away from home, they dropped into a low block, ten men behind the ball daring the hosts to break them down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Modern tactical terminology; the 'block' is the compact shape of defenders, and 'low' describes how deep toward their own goal they sit."
+    }
+   ],
+   "name_es": "Low Block",
+   "name_fr": "Low Block",
+   "name_it": "Low Block"
+  },
+  {
+   "cat": "SET PIECES"
+  },
+  {
+   "name": "Corner Kick",
+   "slug": "corner-kick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A kick awarded when the defending team puts the ball over its own goal line, taken from the corner arc — a prime scoring chance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The corner curled in toward the near post, and their towering center-back ghosted in to thump a header past the stranded keeper."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the kick is taken from the corner of the field. It has been part of the game since the laws were codified in the 19th century."
+    }
+   ],
+   "name_es": "Corner Kick",
+   "name_fr": "Corner Kick",
+   "name_it": "Corner Kick"
+  },
+  {
+   "name": "Free Kick",
+   "slug": "free-kick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A kick awarded after a foul, taken from where the offense occurred — either a direct shot on goal or a pass to a teammate."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "From 25 yards he stood over the free-kick, took three steps, and bent it over the wall into the top corner — the keeper never moved."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the kick is taken 'free' of any opponent within the required distance. Direct and indirect free-kicks have been distinguished since the early laws."
+    }
+   ],
+   "name_es": "Free Kick",
+   "name_fr": "Free Kick",
+   "name_it": "Free Kick"
+  },
+  {
+   "name": "Penalty Shootout",
+   "slug": "penalty-shootout",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A tiebreaker of alternating penalty kicks used to decide a drawn knockout match — football's most nerve-shredding finale."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "It came down to the fifth kick of the shootout; he placed the ball, exhaled, and the weight of a nation pressed down on a single swing of his boot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Introduced in the 1970s to replace coin tosses and replays for deciding tied matches, and now the dramatic climax of major tournaments."
+    }
+   ],
+   "name_es": "Penalty Shootout",
+   "name_fr": "Penalty Shootout",
+   "name_it": "Penalty Shootout"
+  },
+  {
+   "name": "Throw-In",
+   "slug": "throw-in",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Returning the ball to play by throwing it with both hands from behind the head, after it crosses the sideline."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His long throw-in was a weapon in itself, hurled into the box like a corner and causing the same panic among defenders."
+    },
+    {
+     "k": "Origin & History",
+     "v": "One of the oldest restart laws, and notable as the only time an outfield player legally uses their hands — a quirk dating to the game's earliest rules."
+    }
+   ],
+   "name_es": "Throw-In",
+   "name_fr": "Throw-In",
+   "name_it": "Throw-In"
+  },
+  {
+   "name": "The Wall",
+   "slug": "wall",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A line of defending players standing shoulder to shoulder to block a free-kick's path to goal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The wall jumped as one, but he'd drilled the free-kick low underneath them, exploiting the gap their own leap had opened."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the literal human 'wall' formed in front of the kicker. Goalkeepers organize its position to cover one side while they guard the other."
+    }
+   ],
+   "name_es": "The Wall",
+   "name_fr": "The Wall",
+   "name_it": "The Wall"
+  },
+  {
+   "name": "Set Piece",
+   "slug": "set-piece",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Any restart of play from a dead-ball situation — corner, free-kick, throw-in, or penalty — that teams rehearse as planned routines."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They'd practiced the set-piece all week, a decoy run dragging a marker away before the real target arrived unmarked at the back post."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the idea of a 'set' or staged, pre-arranged play, as opposed to open, flowing action. A large share of goals come from these rehearsed moments."
+    }
+   ],
+   "name_es": "Set Piece",
+   "name_fr": "Set Piece",
+   "name_it": "Set Piece"
+  },
+  {
+   "cat": "RULES & OFFICIATING"
+  },
+  {
+   "name": "VAR",
+   "slug": "var",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Video Assistant Referee — officials reviewing decisions on goals, penalties, red cards, and mistaken identity via replay."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The goal stood, then didn't; after a long VAR check the offside lines appeared and the celebration curdled into furious disbelief."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Introduced to top-level football in the late 2010s to correct clear and obvious errors, and instantly one of the sport's most divisive innovations."
+    }
+   ],
+   "name_es": "VAR",
+   "name_fr": "VAR",
+   "name_it": "VAR"
+  },
+  {
+   "name": "Red Card",
+   "slug": "red-card",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A card shown for a serious foul or second bookable offense, sending the player off and forcing their team to continue a man down."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The reckless lunge earned a straight red, and his ten teammates traded glances — forty minutes to survive with a man fewer."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Part of the color-coded system introduced at the 1970 World Cup, reportedly inspired by traffic lights so decisions read clearly across language barriers."
+    }
+   ],
+   "name_es": "Red Card",
+   "name_fr": "Red Card",
+   "name_it": "Red Card"
+  },
+  {
+   "name": "Yellow Card",
+   "slug": "yellow-card",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A caution shown for a less serious offense; two in one match equal a red and an ejection."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Already on a yellow, he pulled out of a challenge he'd normally fly into — one rash moment now and he'd leave his team short."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The companion to the red in the 1970 color-coded system; the idea came to referee Ken Aston while sitting at a traffic light."
+    }
+   ],
+   "name_es": "Yellow Card",
+   "name_fr": "Yellow Card",
+   "name_it": "Yellow Card"
+  },
+  {
+   "name": "Offside",
+   "slug": "offside",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A player is offside if they are nearer the opponents' goal line than both the ball and the second-last defender when the ball is played to them."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He timed his run a half-second early and was caught offside by inches — the flag denying what would have been a stunning solo goal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "One of football's oldest and most debated laws, present since the 19th century to stop attackers from simply camping by the goal."
+    }
+   ],
+   "name_es": "Offside",
+   "name_fr": "Offside",
+   "name_it": "Offside"
+  },
+  {
+   "name": "Handball",
+   "slug": "handball",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An offense in which a player other than the goalkeeper deliberately touches the ball with the hand or arm."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The defender's arm was raised and the ball struck it; penalty given, and a long argument began over whether it was truly deliberate."
+    },
+    {
+     "k": "Origin & History",
+     "v": "As old as the game's separation from rugby, when handling the ball became the defining forbidden act for outfield players. Its exact interpretation is endlessly contested."
+    }
+   ],
+   "name_es": "Handball",
+   "name_fr": "Handball",
+   "name_it": "Handball"
+  },
+  {
+   "name": "Stoppage Time",
+   "slug": "stoppage-time",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Extra minutes added at the end of each half to make up for time lost to injuries, substitutions, and delays. Also 'injury time.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Deep into stoppage time, with the board showing six added minutes, he rose to head home the equalizer — the cruelest, sweetest of late goals."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Born from the referee's duty to account for 'time lost,' a power written into the laws so that wasted minutes don't simply vanish from the game."
+    }
+   ],
+   "name_es": "Stoppage Time",
+   "name_fr": "Stoppage Time",
+   "name_it": "Stoppage Time"
+  },
+  {
+   "name": "Advantage",
+   "slug": "advantage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a referee lets play continue after a foul because stopping it would benefit the offending team — 'playing the advantage.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The referee waved play on, advantage, and seconds later the attack he'd allowed to continue ended in the back of the net."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the principle that the fouled team should not be penalized twice; the referee judges whether stopping play would hand the offender an unfair reprieve."
+    }
+   ],
+   "name_es": "Advantage",
+   "name_fr": "Advantage",
+   "name_it": "Advantage"
+  },
+  {
+   "cat": "CULTURE & SLANG"
+  },
+  {
+   "name": "The Beautiful Game",
+   "slug": "beautiful-game",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An affectionate nickname for soccer itself, evoking its flow, artistry, and global appeal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "On nights like this — a flowing team move finished with a flick — you understood exactly why they call it the beautiful game."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularized by Brazilian legend Pelé, who titled his autobiography with the phrase ('o jogo bonito'), though its use predates him in football writing."
+    }
+   ],
+   "name_es": "The Beautiful Game",
+   "name_fr": "The Beautiful Game",
+   "name_it": "The Beautiful Game"
+  },
+  {
+   "name": "Ultras",
+   "slug": "ultras",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Hardcore, organized supporter groups known for choreographed displays, banners, flares, and unwavering, often intense devotion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The ultras unfurled a banner covering the entire stand, a wall of color and smoke, their drums never pausing for ninety minutes straight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Italian 'ultrà,' meaning extreme, the movement took root in 1960s-70s Italy and spread across the football world."
+    }
+   ],
+   "name_es": "Ultras",
+   "name_fr": "Ultras",
+   "name_it": "Ultras"
+  },
+  {
+   "name": "El Clásico",
+   "slug": "el-clasico",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The fixture between Real Madrid and FC Barcelona — one of the fiercest and most-watched club rivalries on earth."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "El Clásico stops the country; for ninety minutes the political and sporting history of two cities is poured into a single football match."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Spanish for 'the classic,' the term marks the meeting of Spain's two giants, charged with regional, historical, and political rivalry far beyond sport."
+    }
+   ],
+   "name_es": "El Clásico",
+   "name_fr": "El Clásico",
+   "name_it": "El Clásico"
+  },
+  {
+   "name": "Derby",
+   "slug": "derby",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A match between two local rival clubs from the same city or region, usually the most heated game on the calendar."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The local derby divided families and workplaces for a week; in this city you were one or the other, and everyone knew which."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Often traced to Derby, England, and possibly the chaotic 'Shrovetide' folk-football games there — though the exact origin of the sporting sense is debated."
+    }
+   ],
+   "name_es": "Derby",
+   "name_fr": "Derby",
+   "name_it": "Derby"
+  },
+  {
+   "name": "The Treble",
+   "slug": "the-treble",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Winning three major trophies in a single season — typically the domestic league, domestic cup, and the top continental competition."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They sealed the treble in June, an exhausted, jubilant squad lifting a third trophy that would etch the season into the club's history forever."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive, from 'treble' meaning threefold. The continental treble is one of the rarest and most celebrated achievements in the club game."
+    }
+   ],
+   "name_es": "The Treble",
+   "name_fr": "The Treble",
+   "name_it": "The Treble"
+  },
+  {
+   "name": "Park the Bus",
+   "slug": "park-the-bus",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Playing ultra-defensively with nearly the whole team behind the ball, leaving almost no attacking intent."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Clinging to a one-goal lead, they parked the bus completely, eleven men camped in their own box daring anyone to find a way through."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid modern idiom — as if a bus were parked across the goal — popularized in English football in the 2000s to describe stifling, defense-only tactics."
+    }
+   ],
+   "name_es": "Park the Bus",
+   "name_fr": "Park the Bus",
+   "name_it": "Park the Bus"
+  }
+ ]
+}

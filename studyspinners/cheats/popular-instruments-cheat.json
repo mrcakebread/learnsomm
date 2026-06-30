@@ -1,0 +1,926 @@
+{
+ "title": "Popular Instruments — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "GUITARS & BASS"
+  },
+  {
+   "name": "Electric Guitar",
+   "slug": "electric-guitar",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The defining instrument of rock and pop — a solid-body guitar whose strings are turned into sound electronically."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Endlessly versatile, from clean and shimmering to screaming distortion, shaped entirely by amps and effects pedals."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Strings are plucked or strummed; magnetic pickups convert their vibration into a signal sent to an amplifier."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every rock riff and solo; the wail of Hendrix, the crunch of any guitar band."
+    }
+   ],
+   "name_es": "Electric Guitar",
+   "name_fr": "Electric Guitar",
+   "name_it": "Electric Guitar"
+  },
+  {
+   "name": "Acoustic Guitar",
+   "slug": "acoustic-guitar",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The hollow-bodied guitar that needs no amplifier — the workhorse of folk, pop, and singer-songwriters."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Warm, woody, and resonant, equally suited to gentle fingerpicking and bright rhythmic strumming."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Strings (steel or nylon) are strummed or picked; the hollow body amplifies the sound acoustically."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The campfire singalong; the intimate backing of any singer-songwriter."
+    }
+   ],
+   "name_es": "Acoustic Guitar",
+   "name_fr": "Acoustic Guitar",
+   "name_it": "Acoustic Guitar"
+  },
+  {
+   "name": "Bass Guitar",
+   "slug": "bass-guitar",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The low-end backbone of nearly every band — it locks together the rhythm and the harmony."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, round, and groovy, felt as much as heard, sitting between the drums and the rest of the band."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Usually four thick strings plucked with fingers or a pick; like an electric guitar but lower and longer."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The groove under any funk, rock, or pop song; the walking line in jazz."
+    }
+   ],
+   "name_es": "Bass Guitar",
+   "name_fr": "Bass Guitar",
+   "name_it": "Bass Guitar"
+  },
+  {
+   "name": "Ukulele",
+   "slug": "ukulele",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small, four-stringed Hawaiian cousin of the guitar with a bright, cheerful voice."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Light, sweet, and jangly, instantly evoking a sunny, breezy, feel-good mood."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Four nylon strings strummed or picked; tiny and easy to learn, which fueled its huge popularity."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Indie-pop singalongs; anything aiming for a warm, carefree, tropical feel."
+    }
+   ],
+   "name_es": "Ukulele",
+   "name_fr": "Ukulele",
+   "name_it": "Ukulele"
+  },
+  {
+   "name": "Pedal Steel",
+   "slug": "pedal-steel",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A horizontal steel guitar played on a stand with foot pedals and knee levers — the crying voice of country music."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Smooth, swooping, and vocal, sliding fluidly between notes with a weeping, shimmering quality."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player slides a steel bar along the strings while pedals and levers bend the pitch of individual strings."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The signature weeping sound of classic country; lush pedal-steel textures in Americana and pop."
+    }
+   ],
+   "name_es": "Pedal Steel",
+   "name_fr": "Pedal Steel",
+   "name_it": "Pedal Steel"
+  },
+  {
+   "cat": "KEYS & SYNTHS"
+  },
+  {
+   "name": "Synthesizer",
+   "slug": "synthesizer",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An electronic keyboard that generates and shapes sound from scratch — the foundation of electronic music."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Almost limitless: warm pads, sharp leads, deep basses, and sounds that resemble no acoustic instrument at all."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Oscillators create raw waveforms that are shaped by filters and envelopes; controlled by a keyboard or knobs."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The pulsing basslines and soaring leads of synth-pop, EDM, and film scores."
+    }
+   ],
+   "name_es": "Synthesizer",
+   "name_fr": "Synthesizer",
+   "name_it": "Synthesizer"
+  },
+  {
+   "name": "Electric Piano",
+   "slug": "electric-piano",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An electromechanical keyboard with a warm, bell-like tone — the soulful sound of 1970s funk and soul."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Mellow, warm, and slightly bell-like, with a characteristic 'bark' when played hard."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Keys strike metal tines or reeds whose vibration is picked up electrically, like a cross between a piano and a guitar."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The lush keys of soul, funk, and jazz fusion; the iconic Rhodes and Wurlitzer sounds."
+    }
+   ],
+   "name_es": "Electric Piano",
+   "name_fr": "Electric Piano",
+   "name_it": "Electric Piano"
+  },
+  {
+   "name": "Hammond Organ",
+   "slug": "hammond-organ",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An electric organ with a swirling, soulful sound, made famous in gospel, jazz, and rock."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Rich, warm, and swirling, especially through a rotating Leslie speaker that gives it its signature throb."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Drawbars blend electronic tones; a foot pedalboard plays bass while both hands work two keyboards."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The soulful swell of gospel and blues; the churning organ of classic rock."
+    }
+   ],
+   "name_es": "Hammond Organ",
+   "name_fr": "Hammond Organ",
+   "name_it": "Hammond Organ"
+  },
+  {
+   "name": "Accordion",
+   "slug": "accordion",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A portable, bellows-driven keyboard with reeds — the heart of folk music across many cultures."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Reedy, rich, and full, capable of both melody and accompaniment at once, with a distinctive breathing quality."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player squeezes the bellows to push air over reeds while pressing keys or buttons on each side."
+    },
+    {
+     "k": "Hear It In",
+     "v": "French café music, polka, tango, Cajun, and folk traditions across the world."
+    }
+   ],
+   "name_es": "Accordion",
+   "name_fr": "Accordion",
+   "name_it": "Accordion"
+  },
+  {
+   "name": "Melodica",
+   "slug": "melodica",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small handheld keyboard you blow into — part wind instrument, part piano."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, reedy, and breathy, like a cross between a harmonica and a toy organ, with a charming, intimate tone."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player blows through a mouthpiece while pressing piano-style keys that open reeds."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Reggae and dub textures; lo-fi and indie tracks reaching for a warm, casual sound."
+    }
+   ],
+   "name_es": "Melodica",
+   "name_fr": "Melodica",
+   "name_it": "Melodica"
+  },
+  {
+   "cat": "DRUMS & RHYTHM"
+  },
+  {
+   "name": "Drum Kit",
+   "slug": "drum-kit",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The assembled set of drums and cymbals played by one person — the engine of rock, pop, and jazz."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Powerful and driving, combining the thump of bass drum, snap of snare, and shimmer of cymbals into one groove."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played seated, using both hands on drums and cymbals and both feet on the bass drum and hi-hat pedals."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The beat behind virtually every rock, pop, and jazz recording."
+    }
+   ],
+   "name_es": "Drum Kit",
+   "name_fr": "Drum Kit",
+   "name_it": "Drum Kit"
+  },
+  {
+   "name": "Cajón",
+   "slug": "cajon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A wooden box drum the player sits on and slaps — a portable rhythm section in a single instrument."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Punchy and warm, with a deep bass tone in the center and a sharp snare-like snap at the edges."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player sits on top and strikes the front face with hands, getting bass and snare sounds from different spots."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Acoustic and unplugged sessions; flamenco, where it became a staple."
+    }
+   ],
+   "name_es": "Cajón",
+   "name_fr": "Cajón",
+   "name_it": "Cajón"
+  },
+  {
+   "name": "Congas",
+   "slug": "congas",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Tall, narrow hand drums from Afro-Cuban music, usually played in pairs or threes."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Warm, resonant, and rhythmic, ranging from deep open tones to sharp slaps."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played standing or seated with the bare hands, using different strokes for distinct pitches and tones."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Latin music, salsa, and Afro-Cuban grooves; percussion layers in funk and pop."
+    }
+   ],
+   "name_es": "Congas",
+   "name_fr": "Congas",
+   "name_it": "Congas"
+  },
+  {
+   "name": "Djembe",
+   "slug": "djembe",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A rope-tuned, goblet-shaped West African hand drum with an enormous range of tones."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Hugely dynamic, from a deep resonant bass to a cracking high slap, all from one drumhead."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played with bare hands between the knees or on a stand; hand position and strike point change the tone."
+    },
+    {
+     "k": "Hear It In",
+     "v": "West African drumming circles; world-music and fusion percussion."
+    }
+   ],
+   "name_es": "Djembe",
+   "name_fr": "Djembe",
+   "name_it": "Djembe"
+  },
+  {
+   "name": "Drum Machine",
+   "slug": "drum-machine",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An electronic device that creates and sequences drum sounds — the heartbeat of hip-hop, techno, and pop."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "From punchy synthetic kicks and snares to crisp electronic hi-hats; defined the sound of entire genres."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The user programs a pattern step by step, or plays pads, and the machine loops the beat back."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The iconic beats of hip-hop and electronic music; classic boxes like the Roland 808 and 909."
+    }
+   ],
+   "name_es": "Drum Machine",
+   "name_fr": "Drum Machine",
+   "name_it": "Drum Machine"
+  },
+  {
+   "name": "Tambourine",
+   "slug": "tambourine",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small hand frame fitted with jingling metal discs — one of the simplest and most universal rhythm instruments."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, jingling, and shimmering, adding sparkle and drive to a backbeat."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Shaken, tapped against the hand or hip, or struck to mark the rhythm."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The shimmer in gospel and pop choruses; a staple of folk and rock percussion."
+    }
+   ],
+   "name_es": "Tambourine",
+   "name_fr": "Tambourine",
+   "name_it": "Tambourine"
+  },
+  {
+   "cat": "FOLK & ACOUSTIC"
+  },
+  {
+   "name": "Banjo",
+   "slug": "banjo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A bright, twangy string instrument with a drum-like body — the signature sound of bluegrass and folk."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, sharp, and percussive, with a distinctive ringing twang that cuts through any acoustic band."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Strings are plucked over a round, drumhead-covered body; bluegrass uses a fast three-finger 'rolling' style."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Bluegrass breakdowns; the rolling twang in folk and Americana."
+    }
+   ],
+   "name_es": "Banjo",
+   "name_fr": "Banjo",
+   "name_it": "Banjo"
+  },
+  {
+   "name": "Mandolin",
+   "slug": "mandolin",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small, round-backed string instrument with eight strings in four pairs, played with a pick."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, crisp, and shimmering, with a fast tremolo that lets it sustain a singing melody."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played with a pick; the doubled strings give it a rich, ringing tone, often rapidly tremolo-picked."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Bluegrass and folk; the lyrical mandolin lines in Italian and Celtic music."
+    }
+   ],
+   "name_es": "Mandolin",
+   "name_fr": "Mandolin",
+   "name_it": "Mandolin"
+  },
+  {
+   "name": "Fiddle",
+   "slug": "fiddle",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The very same instrument as the violin, but played in folk, country, and bluegrass styles."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Lively, raw, and rhythmic, leaning into a driving, danceable energy rather than classical polish."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Held and bowed exactly like a violin, but with folk techniques — drones, slides, and rhythmic 'chops.'"
+    },
+    {
+     "k": "Hear It In",
+     "v": "Country and bluegrass hoedowns; Celtic and Appalachian dance tunes."
+    }
+   ],
+   "name_es": "Fiddle",
+   "name_fr": "Fiddle",
+   "name_it": "Fiddle"
+  },
+  {
+   "name": "Harmonica",
+   "slug": "harmonica",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tiny handheld reed instrument you play with your breath — pocket-sized, expressive, and soulful."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Wailing, breathy, and vocal, from gentle folk melodies to crying, bent blues notes."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player breathes in and out through holes; each draws or blows a reed. 'Bending' breath alters the pitch."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The lonesome wail of the blues; folk and country, from Dylan to Little Walter."
+    }
+   ],
+   "name_es": "Harmonica",
+   "name_fr": "Harmonica",
+   "name_it": "Harmonica"
+  },
+  {
+   "name": "Resonator (Dobro)",
+   "slug": "dobro",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A resonator guitar with a metal cone inside that makes it louder and gives it a distinctive metallic ring."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, metallic, and resonant, with a sustained, slightly nasal twang, often played with a slide."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Strings are plucked over a metal resonator cone; often played flat on the lap with a steel bar (slide)."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Bluegrass and Americana; the slide-guitar growl of country blues."
+    }
+   ],
+   "name_es": "Resonator (Dobro)",
+   "name_fr": "Resonator (Dobro)",
+   "name_it": "Resonator (Dobro)"
+  },
+  {
+   "cat": "WORLD INSTRUMENTS"
+  },
+  {
+   "name": "Sitar",
+   "slug": "sitar",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A long-necked Indian string instrument with sympathetic strings that give it a shimmering, droning resonance."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Rich, buzzing, and hypnotic, with a complex ringing wash from extra strings that vibrate on their own."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Plucked with a wire pick; the player bends the strings sideways across curved frets to slide between notes."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Indian classical music; the psychedelic shimmer it brought to 1960s rock like the Beatles."
+    }
+   ],
+   "name_es": "Sitar",
+   "name_fr": "Sitar",
+   "name_it": "Sitar"
+  },
+  {
+   "name": "Djembe",
+   "slug": "djembe-world",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A goblet-shaped West African hand drum, central to traditional drumming and now used worldwide."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Dynamic and expressive, with deep bass tones and sharp, cracking slaps from a single skin."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played with bare hands; different strokes and hand positions produce its full range of tones."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Traditional West African ensembles; drum circles and world-fusion music everywhere."
+    }
+   ],
+   "name_es": "Djembe",
+   "name_fr": "Djembe",
+   "name_it": "Djembe"
+  },
+  {
+   "name": "Steel Pan",
+   "slug": "steel-pan",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tuned percussion instrument hammered from an oil drum — the national instrument of Trinidad and Tobago."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, shimmering, and bell-like, capable of full melodies and harmonies, with a sunny, tropical character."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player strikes different hammered sections of the concave drum surface, each tuned to a note, with rubber-tipped sticks."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Caribbean calypso and soca; the unmistakable sound of a steel band at Carnival."
+    }
+   ],
+   "name_es": "Steel Pan",
+   "name_fr": "Steel Pan",
+   "name_it": "Steel Pan"
+  },
+  {
+   "name": "Bagpipes",
+   "slug": "bagpipes",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A reed instrument powered by air squeezed from a bag, famous for its continuous droning sound."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Loud, piercing, and stirring, with a constant background drone under the melody and no gaps between notes."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player blows into a bag (or pumps bellows) and squeezes it to push air through the melody pipe and drones."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Scottish and Irish traditional music; the haunting solo pipes of military and ceremonial occasions."
+    }
+   ],
+   "name_es": "Bagpipes",
+   "name_fr": "Bagpipes",
+   "name_it": "Bagpipes"
+  },
+  {
+   "name": "Didgeridoo",
+   "slug": "didgeridoo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A long wooden tube from Aboriginal Australia, one of the world's oldest wind instruments."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, droning, and resonant, with a hypnotic buzzing pulse and rich overtones."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player buzzes their lips into one end and uses 'circular breathing' to sustain the drone without pausing."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Aboriginal Australian ceremony and music; ambient and world-fusion textures."
+    }
+   ],
+   "name_es": "Didgeridoo",
+   "name_fr": "Didgeridoo",
+   "name_it": "Didgeridoo"
+  },
+  {
+   "name": "Kalimba",
+   "slug": "kalimba",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A thumb piano — metal tines mounted on a wooden board, plucked with the thumbs."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Sweet, gentle, and music-box-like, with a soft, soothing, bell-like tone."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player holds it in both hands and plucks the metal tines with their thumbs; tine length sets the pitch."
+    },
+    {
+     "k": "Hear It In",
+     "v": "African mbira traditions; calming, lo-fi, and ambient music."
+    }
+   ],
+   "name_es": "Kalimba",
+   "name_fr": "Kalimba",
+   "name_it": "Kalimba"
+  },
+  {
+   "name": "Erhu",
+   "slug": "erhu",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A two-stringed Chinese bowed instrument with a remarkably expressive, voice-like tone."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Soulful, singing, and melancholy, capable of expressive slides and vibrato close to the human voice."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played upright on the lap; the bow hair is fixed between the two strings, and there's no fingerboard to press against."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Chinese classical and folk music; evocative film scores reaching for an East Asian sound."
+    }
+   ],
+   "name_es": "Erhu",
+   "name_fr": "Erhu",
+   "name_it": "Erhu"
+  },
+  {
+   "cat": "ELECTRONIC & DJ"
+  },
+  {
+   "name": "Turntables",
+   "slug": "turntables",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Record players used as instruments — the foundation of hip-hop DJing and turntablism."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Percussive and rhythmic, turning vinyl into scratches, stabs, and beats manipulated by hand."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The DJ moves the record by hand against the needle to 'scratch,' and blends two turntables through a mixer."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The scratching and cutting at the birth of hip-hop; the art of turntablism."
+    }
+   ],
+   "name_es": "Turntables",
+   "name_fr": "Turntables",
+   "name_it": "Turntables"
+  },
+  {
+   "name": "Sampler",
+   "slug": "sampler",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A device or software that records snippets of sound and lets you replay them as an instrument."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Anything at all — a chopped soul record, a vocal, a single drum hit — replayed, pitched, and looped."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Sounds are recorded ('sampled'), assigned to pads or keys, and triggered and manipulated in performance."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The chopped-up loops at the heart of hip-hop and electronic music."
+    }
+   ],
+   "name_es": "Sampler",
+   "name_fr": "Sampler",
+   "name_it": "Sampler"
+  },
+  {
+   "name": "DAW / Software",
+   "slug": "daw",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Digital Audio Workstation — the software that has become the modern studio and instrument in one."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Everything: it records, sequences, synthesizes, and mixes, often replacing a whole room of equipment."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Producers arrange MIDI and audio on a screen timeline, layering virtual instruments and effects."
+    },
+    {
+     "k": "Hear It In",
+     "v": "How nearly all modern music is made; tools like Ableton Live, Logic, and FL Studio."
+    }
+   ],
+   "name_es": "DAW / Software",
+   "name_fr": "DAW / Software",
+   "name_it": "DAW / Software"
+  },
+  {
+   "name": "MIDI Controller",
+   "slug": "midi-controller",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A keyboard or pad device that sends control signals (not sound) to software instruments."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Itself silent — it triggers whatever virtual instrument it's connected to, from pianos to synths to drums."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player presses keys or pads; MIDI data tells the computer which notes and how hard to play them."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The hands-on control surface behind most modern electronic production."
+    }
+   ],
+   "name_es": "MIDI Controller",
+   "name_fr": "MIDI Controller",
+   "name_it": "MIDI Controller"
+  },
+  {
+   "name": "Vocoder",
+   "slug": "vocoder",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A device that fuses a voice with a synthesizer, producing the classic 'robot voice' sound."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Robotic, harmonic, and otherworldly, turning sung or spoken words into chords of synthetic tone."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player sings into a mic while playing chords; the voice's character is imposed onto the synth sound."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The robotic vocals of electro and funk; acts like Daft Punk and Kraftwerk."
+    }
+   ],
+   "name_es": "Vocoder",
+   "name_fr": "Vocoder",
+   "name_it": "Vocoder"
+  },
+  {
+   "cat": "VOICE & HANDS"
+  },
+  {
+   "name": "The Voice",
+   "slug": "voice",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The original and most universal instrument — the human voice, carried by every culture on Earth."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Infinitely expressive, the model every other instrument is measured against, capable of pitch, rhythm, and pure emotion."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Produced by air from the lungs vibrating the vocal cords, shaped by the throat, mouth, and lips into pitch and words."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every song ever sung; from opera to rock to a cappella harmony."
+    }
+   ],
+   "name_es": "The Voice",
+   "name_fr": "The Voice",
+   "name_it": "The Voice"
+  },
+  {
+   "name": "Beatboxing",
+   "slug": "beatbox",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Vocal percussion — imitating drum machines and instruments using only the mouth, voice, and breath."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Punchy and percussive, mimicking kicks, snares, hi-hats, scratches, and even basslines with startling realism."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The performer uses lips, tongue, and breath to imitate drum and electronic sounds, often into a microphone."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Hip-hop and a cappella; standalone beatbox performance and battles."
+    }
+   ],
+   "name_es": "Beatboxing",
+   "name_fr": "Beatboxing",
+   "name_it": "Beatboxing"
+  },
+  {
+   "name": "Body Percussion",
+   "slug": "body-percussion",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Making rhythm with the body itself — clapping, stomping, snapping, and slapping."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Earthy and immediate, an entire groove built from the sounds the body can make with no instrument at all."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Performers clap hands, stamp feet, slap thighs and chest, and snap fingers in coordinated patterns."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Stomp-style shows; the clap-and-stomp groove of songs like 'We Will Rock You.'"
+    }
+   ],
+   "name_es": "Body Percussion",
+   "name_fr": "Body Percussion",
+   "name_it": "Body Percussion"
+  }
+ ]
+}

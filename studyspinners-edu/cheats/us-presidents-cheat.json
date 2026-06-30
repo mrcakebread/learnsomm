@@ -1,0 +1,677 @@
+{
+ "title": "U.S. Presidents — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "FOUNDING ERA"
+  },
+  {
+   "name": "George Washington",
+   "slug": "founding-washington",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "1st President (1789–1797). Commander of the Continental Army, presided over the Constitutional Convention, and set the precedent of a two-term limit."
+    },
+    {
+     "k": "Significance",
+     "v": "Defined the office of the presidency more than any written rule; his voluntary resignation of power was seen globally as extraordinary."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born in Virginia, 1732. A surveyor and militia officer before the Revolution. His Farewell Address warned against political factions and foreign entanglements."
+    }
+   ],
+   "name_es": "George Washington",
+   "name_fr": "George Washington",
+   "name_it": "George Washington"
+  },
+  {
+   "name": "Thomas Jefferson",
+   "slug": "founding-jefferson",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "3rd President (1801–1809). Author of the Declaration of Independence, and architect who doubled U.S. territory with the 1803 Louisiana Purchase."
+    },
+    {
+     "k": "Significance",
+     "v": "Championed religious freedom and separation of church and state; his Virginia Statute for Religious Freedom became a model for the First Amendment."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1743, Shadwell, Virginia. Founded the University of Virginia; designed Monticello. Despite authoring 'all men are created equal,' he enslaved over 600 people throughout his life."
+    }
+   ],
+   "name_es": "Thomas Jefferson",
+   "name_fr": "Thomas Jefferson",
+   "name_it": "Thomas Jefferson"
+  },
+  {
+   "name": "John Adams",
+   "slug": "founding-adams-j",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "2nd President (1797–1801). First Vice President under Washington, and the first president to occupy the White House (moved in 1800)."
+    },
+    {
+     "k": "Significance",
+     "v": "Kept the U.S. out of a major war with France (the Quasi-War) through diplomacy, at significant political cost to himself."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1735, Braintree, Massachusetts. Lawyer who defended British soldiers after the Boston Massacre. Father of President John Quincy Adams — one of two father-son presidential pairs."
+    }
+   ],
+   "name_es": "John Adams",
+   "name_fr": "John Adams",
+   "name_it": "John Adams"
+  },
+  {
+   "name": "James Madison",
+   "slug": "founding-madison",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "4th President (1809–1817). 'Father of the Constitution' — chief architect of the document and the Bill of Rights; led the U.S. through the War of 1812."
+    },
+    {
+     "k": "Significance",
+     "v": "Co-authored The Federalist Papers with Hamilton and Jay, the definitive explanation of the Constitution still cited by courts today."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1751, Port Conway, Virginia. The shortest president at 5'4\". The White House was burned by British forces during his presidency (1814); he and Dolley Madison fled before its capture."
+    }
+   ],
+   "name_es": "James Madison",
+   "name_fr": "James Madison",
+   "name_it": "James Madison"
+  },
+  {
+   "name": "James Monroe",
+   "slug": "founding-monroe",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "5th President (1817–1825). His presidency was called the 'Era of Good Feelings.' Authored the Monroe Doctrine (1823), warning European powers against colonizing the Americas."
+    },
+    {
+     "k": "Significance",
+     "v": "The Monroe Doctrine became a cornerstone of U.S. foreign policy for over a century, invoked in crises from Venezuela (1895) to Cuba (1962)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1758, Westmoreland County, Virginia. One of only three Founding Fathers to serve as president. The capital of Liberia — Monrovia — is named after him."
+    }
+   ],
+   "name_es": "James Monroe",
+   "name_fr": "James Monroe",
+   "name_it": "James Monroe"
+  },
+  {
+   "cat": "19TH CENTURY"
+  },
+  {
+   "name": "Andrew Jackson",
+   "slug": "antebellum-jackson",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "7th President (1829–1837). First 'people's president' from outside Virginia/Massachusetts elite; expanded voting rights for white men; signed the Indian Removal Act (1830)."
+    },
+    {
+     "k": "Significance",
+     "v": "The Indian Removal Act led directly to the Trail of Tears — the forced relocation of tens of thousands of Native Americans, causing thousands of deaths."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1767, the Waxhaws (border of North and South Carolina). Former military hero of the Battle of New Orleans (1815). First president to have an assassination attempt (1835) — both pistols misfired."
+    }
+   ],
+   "name_es": "Andrew Jackson",
+   "name_fr": "Andrew Jackson",
+   "name_it": "Andrew Jackson"
+  },
+  {
+   "name": "James K. Polk",
+   "slug": "antebellum-polk",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "11th President (1845–1849). Oversaw the largest territorial expansion in U.S. history: annexed Texas, settled Oregon boundary, and acquired California and the Southwest after the Mexican-American War."
+    },
+    {
+     "k": "Significance",
+     "v": "Accomplished all four of his stated presidential goals in one term, then voluntarily chose not to seek re-election — a rare example of disciplined, goal-directed leadership."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1795, Pineville, North Carolina. Called 'Young Hickory' as a protégé of Jackson. Died just 103 days after leaving office — the shortest post-presidential lifespan."
+    }
+   ],
+   "name_es": "James K. Polk",
+   "name_fr": "James K. Polk",
+   "name_it": "James K. Polk"
+  },
+  {
+   "name": "John Quincy Adams",
+   "slug": "antebellum-adams-jq",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "6th President (1825–1829). Won the 'Corrupt Bargain' election of 1824 (no majority in Electoral College; decided by the House). Son of President John Adams."
+    },
+    {
+     "k": "Significance",
+     "v": "After his presidency, served 17 years in the House of Representatives — the only ex-president to do so — where he became a fierce opponent of slavery."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1767, Braintree, Massachusetts. Spoke six languages; served as a diplomat in the Netherlands, Prussia, Russia, and Britain before becoming president."
+    }
+   ],
+   "name_es": "John Quincy Adams",
+   "name_fr": "John Quincy Adams",
+   "name_it": "John Quincy Adams"
+  },
+  {
+   "name": "Martin Van Buren",
+   "slug": "antebellum-van-buren",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "8th President (1837–1841). First president born a U.S. citizen (after independence). His presidency was dominated by the Panic of 1837, a severe economic depression."
+    },
+    {
+     "k": "Significance",
+     "v": "A master political organizer who built the Democratic Party machine in New York (the 'Albany Regency'), becoming a model for modern political party organization."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1782, Kinderhook, New York — Dutch family, first language was Dutch. Nicknamed 'Old Kinderhook'; the slang 'OK' is sometimes (disputedly) traced to his nickname."
+    }
+   ],
+   "name_es": "Martin Van Buren",
+   "name_fr": "Martin Van Buren",
+   "name_it": "Martin Van Buren"
+  },
+  {
+   "name": "Millard Fillmore",
+   "slug": "antebellum-fillmore",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "13th President (1850–1853). Assumed office after Zachary Taylor's death; signed the Compromise of 1850, including the Fugitive Slave Act, which required Northern states to return escaped enslaved people."
+    },
+    {
+     "k": "Significance",
+     "v": "The Fugitive Slave Act inflamed Northern abolitionist sentiment and is considered one of the key steps toward the Civil War."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1800, Summerhill, New York. Last Whig Party president. Consistently ranked among the least effective presidents. Sent Commodore Matthew Perry's expedition to Japan (1853), opening it to Western trade."
+    }
+   ],
+   "name_es": "Millard Fillmore",
+   "name_fr": "Millard Fillmore",
+   "name_it": "Millard Fillmore"
+  },
+  {
+   "cat": "CIVIL WAR ERA"
+  },
+  {
+   "name": "Abraham Lincoln",
+   "slug": "civil-war-lincoln",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "16th President (1861–1865). Led the Union through the Civil War, issued the Emancipation Proclamation (1863), and preserved the United States as one nation. Assassinated April 14, 1865."
+    },
+    {
+     "k": "Significance",
+     "v": "Consistently ranked #1 in presidential historians' surveys. His Gettysburg Address (272 words) redefined the purpose of the nation around equality."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1809, Hardin County, Kentucky. Self-educated; largely taught himself law by reading. At 6'4\", the tallest president. Shot at Ford's Theatre by John Wilkes Booth; died the next morning."
+    }
+   ],
+   "name_es": "Abraham Lincoln",
+   "name_fr": "Abraham Lincoln",
+   "name_it": "Abraham Lincoln"
+  },
+  {
+   "name": "Ulysses S. Grant",
+   "slug": "civil-war-grant",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "18th President (1869–1877). Commanding general who won the Civil War for the Union; as president, aggressively enforced Reconstruction and used federal power against the Ku Klux Klan."
+    },
+    {
+     "k": "Significance",
+     "v": "His two terms were marred by corruption scandals (Crédit Mobilier, Whiskey Ring), though historians have elevated his standing for his civil rights efforts."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1822, Point Pleasant, Ohio. His real name was Hiram Ulysses Grant — a clerical error at West Point changed it. Wrote his memoirs in a race against throat cancer; finished 4 days before his death, they earned his family $450,000."
+    }
+   ],
+   "name_es": "Ulysses S. Grant",
+   "name_fr": "Ulysses S. Grant",
+   "name_it": "Ulysses S. Grant"
+  },
+  {
+   "name": "Andrew Johnson",
+   "slug": "civil-war-johnson-a",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "17th President (1865–1869). Assumed presidency after Lincoln's assassination. His lenient Reconstruction plan led to a bitter feud with Congress; first president to be impeached (1868), acquitted by one Senate vote."
+    },
+    {
+     "k": "Significance",
+     "v": "His resistance to Radical Reconstruction and veto of civil rights legislation allowed Southern states to enact Black Codes, severely limiting the rights of freed people."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1808, Raleigh, North Carolina. Never attended school; taught to read by his wife. The only president never to have had any formal education. A tailor by trade before entering politics."
+    }
+   ],
+   "name_es": "Andrew Johnson",
+   "name_fr": "Andrew Johnson",
+   "name_it": "Andrew Johnson"
+  },
+  {
+   "name": "Rutherford B. Hayes",
+   "slug": "civil-war-hayes",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "19th President (1877–1881). Won the disputed 1876 election via the Compromise of 1877 — a backroom deal that ended Reconstruction and withdrew federal troops from the South."
+    },
+    {
+     "k": "Significance",
+     "v": "The Compromise of 1877 effectively ended Reconstruction and ushered in the Jim Crow era, representing a catastrophic reversal for African American civil rights."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1822, Delaware, Ohio. Pledged to serve only one term and kept the promise. His wife Lucy — 'Lemonade Lucy' — banned alcohol at the White House."
+    }
+   ],
+   "name_es": "Rutherford B. Hayes",
+   "name_fr": "Rutherford B. Hayes",
+   "name_it": "Rutherford B. Hayes"
+  },
+  {
+   "cat": "GILDED & PROGRESSIVE"
+  },
+  {
+   "name": "Theodore Roosevelt",
+   "slug": "gilded-theodore-roosevelt",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "26th President (1901–1909). Became youngest president at 42 after McKinley's assassination. Trust-buster, conservationist, and builder of the Panama Canal; won the Nobel Peace Prize in 1906."
+    },
+    {
+     "k": "Significance",
+     "v": "Created the modern regulatory state: passed the Pure Food and Drug Act, Meat Inspection Act, and protected 230 million acres of public land."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1858, New York City. A sickly asthmatic child who built himself up through vigorous exercise. The teddy bear is named after him. Shot while campaigning in 1912, he delivered a 90-minute speech before seeking medical attention."
+    }
+   ],
+   "name_es": "Theodore Roosevelt",
+   "name_fr": "Theodore Roosevelt",
+   "name_it": "Theodore Roosevelt"
+  },
+  {
+   "name": "Woodrow Wilson",
+   "slug": "gilded-wilson",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "28th President (1913–1921). Led the U.S. through World War I; proposed the Fourteen Points peace plan and the League of Nations (forerunner to the UN), though the Senate rejected U.S. membership."
+    },
+    {
+     "k": "Significance",
+     "v": "Won the Nobel Peace Prize (1919) for the League of Nations concept. His stroke in 1919 left him incapacitated; his wife Edith effectively managed the presidency for 17 months."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1856, Staunton, Virginia. The only president to hold a Ph.D. (political science, Johns Hopkins). Oversaw segregation of federal workplaces — a step backward on civil rights that drew fierce protest from civil rights leaders."
+    }
+   ],
+   "name_es": "Woodrow Wilson",
+   "name_fr": "Woodrow Wilson",
+   "name_it": "Woodrow Wilson"
+  },
+  {
+   "name": "William McKinley",
+   "slug": "gilded-mckinley",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "25th President (1897–1901). Led the U.S. to victory in the Spanish-American War (1898), acquiring Puerto Rico, Guam, and the Philippines. Assassinated September 14, 1901."
+    },
+    {
+     "k": "Significance",
+     "v": "The Spanish-American War made the U.S. a colonial power and a major player in the Pacific; the Philippines occupation sparked a brutal three-year insurgency."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1843, Niles, Ohio. Shot at the Pan-American Exposition in Buffalo by anarchist Leon Czolgosz; died 8 days later. His death elevated Theodore Roosevelt to the presidency at 42."
+    }
+   ],
+   "name_es": "William McKinley",
+   "name_fr": "William McKinley",
+   "name_it": "William McKinley"
+  },
+  {
+   "cat": "WWI–WWII ERA"
+  },
+  {
+   "name": "Franklin D. Roosevelt",
+   "slug": "wwi-wwii-fdr",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "32nd President (1933–1945). Only president elected four times. Led the U.S. through the Great Depression (New Deal) and World War II. Died in office April 12, 1945."
+    },
+    {
+     "k": "Significance",
+     "v": "The New Deal reshaped the relationship between citizens and government, creating Social Security, the SEC, FDIC, and the modern regulatory state; WWII leadership was decisive in the Allied victory."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1882, Hyde Park, New York. Contracted polio in 1921 at age 39, losing use of his legs. Led the nation for 12 years largely from a wheelchair, often concealing the extent of his disability from the public."
+    }
+   ],
+   "name_es": "Franklin D. Roosevelt",
+   "name_fr": "Franklin D. Roosevelt",
+   "name_it": "Franklin D. Roosevelt"
+  },
+  {
+   "name": "Harry S. Truman",
+   "slug": "wwi-wwii-truman",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "33rd President (1945–1953). Authorized atomic bombs on Hiroshima and Nagasaki; established the Truman Doctrine and Marshall Plan; desegregated the U.S. military by executive order (1948)."
+    },
+    {
+     "k": "Significance",
+     "v": "The Truman Doctrine and Marshall Plan ($13 billion in European reconstruction aid) established the framework for Cold War containment policy and European recovery."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1884, Lamar, Missouri. Only 20th-century president without a college degree. Plaque on his desk read 'The Buck Stops Here.' The famous 'Dewey Defeats Truman' newspaper headline appeared after his 1948 upset victory."
+    }
+   ],
+   "name_es": "Harry S. Truman",
+   "name_fr": "Harry S. Truman",
+   "name_it": "Harry S. Truman"
+  },
+  {
+   "name": "Warren G. Harding",
+   "slug": "wwi-wwii-harding",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "29th President (1921–1923). His presidency became synonymous with the Teapot Dome scandal — the leasing of federal oil reserves to private interests in exchange for bribes."
+    },
+    {
+     "k": "Significance",
+     "v": "The Teapot Dome scandal was the largest government corruption scandal in U.S. history until Watergate; it became the defining example of crony capitalism in American politics."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1865, Blooming Grove, Ohio. Died in office in 1923 (cause disputed — heart attack officially). His 'Return to Normalcy' campaign won one of the largest landslides in history after WWI upheaval."
+    }
+   ],
+   "name_es": "Warren G. Harding",
+   "name_fr": "Warren G. Harding",
+   "name_it": "Warren G. Harding"
+  },
+  {
+   "cat": "COLD WAR"
+  },
+  {
+   "name": "Dwight D. Eisenhower",
+   "slug": "cold-war-eisenhower",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "34th President (1953–1961). Supreme Allied Commander in WWII; as president, ended the Korean War, built the Interstate Highway System, and warned in his farewell address of the 'military-industrial complex.'"
+    },
+    {
+     "k": "Significance",
+     "v": "The Interstate Highway System — his most lasting domestic legacy — transformed American commerce, suburbs, and culture, originally justified as a national defense measure."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1890, Denison, Texas. One of only five five-star generals in U.S. history. His farewell address coining 'military-industrial complex' was a warning from a soldier-statesman about the dangers of permanent wartime economy."
+    }
+   ],
+   "name_es": "Dwight D. Eisenhower",
+   "name_fr": "Dwight D. Eisenhower",
+   "name_it": "Dwight D. Eisenhower"
+  },
+  {
+   "name": "John F. Kennedy",
+   "slug": "cold-war-jfk",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "35th President (1961–1963). Youngest elected president at 43; navigated the Cuban Missile Crisis (1962) — the closest the world came to nuclear war. Assassinated November 22, 1963."
+    },
+    {
+     "k": "Significance",
+     "v": "The Cuban Missile Crisis (13 days in October 1962) demonstrated both the extreme danger of nuclear brinkmanship and the value of secret back-channel diplomacy."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1917, Brookline, Massachusetts. Harvard graduate; decorated WWII Navy hero (PT-109). First Catholic president. Established the Peace Corps."
+    }
+   ],
+   "name_es": "John F. Kennedy",
+   "name_fr": "John F. Kennedy",
+   "name_it": "John F. Kennedy"
+  },
+  {
+   "name": "Lyndon B. Johnson",
+   "slug": "cold-war-lbj",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "36th President (1963–1969). Signed the Civil Rights Act (1964) and Voting Rights Act (1965); created Medicare and Medicaid. Escalated U.S. involvement in Vietnam, declining to seek re-election in 1968."
+    },
+    {
+     "k": "Significance",
+     "v": "The Great Society legislation — 200+ laws in two years — was the most sweeping domestic program since the New Deal; Vietnam destroyed his presidency just as it reached its peak."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1908, Stonewall, Texas. Master Senate manipulator — known for 'The Johnson Treatment,' an overwhelming physical and psychological pressure technique. Sworn in on Air Force One next to Jackie Kennedy, still in her bloodstained dress."
+    }
+   ],
+   "name_es": "Lyndon B. Johnson",
+   "name_fr": "Lyndon B. Johnson",
+   "name_it": "Lyndon B. Johnson"
+  },
+  {
+   "name": "Richard Nixon",
+   "slug": "cold-war-nixon",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "37th President (1969–1974). Opened diplomatic relations with China (1972); signed SALT I arms treaty; ended U.S. involvement in Vietnam. Resigned August 9, 1974 amid the Watergate scandal."
+    },
+    {
+     "k": "Significance",
+     "v": "Watergate — a break-in at Democratic headquarters and subsequent cover-up — was the first and only time a U.S. president has resigned from office."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1913, Yorba Linda, California. Quaker background. Created the EPA and signed the Clean Air Act. 'I am not a crook' became one of the most famous presidential denials in history. Pardoned by Gerald Ford one month after resignation."
+    }
+   ],
+   "name_es": "Richard Nixon",
+   "name_fr": "Richard Nixon",
+   "name_it": "Richard Nixon"
+  },
+  {
+   "name": "Ronald Reagan",
+   "slug": "cold-war-reagan",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "40th President (1981–1989). Former actor and California governor; cut taxes dramatically ('Reaganomics'), escalated Cold War pressure on the Soviet Union, and presided over the fall of the Berlin Wall in 1989."
+    },
+    {
+     "k": "Significance",
+     "v": "The Reagan Revolution reoriented American conservatism — deregulation, tax cuts, anti-Soviet stance, and distrust of big government became the template for the Republican Party for decades."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1911, Tampico, Illinois. The oldest person elected president (69 at first inauguration). Survived an assassination attempt in 1981."
+    }
+   ],
+   "name_es": "Ronald Reagan",
+   "name_fr": "Ronald Reagan",
+   "name_it": "Ronald Reagan"
+  },
+  {
+   "name": "Jimmy Carter",
+   "slug": "cold-war-carter",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "39th President (1977–1981). Brokered the Camp David Accords (1978) between Israel and Egypt — still the most successful Middle East peace agreement. The Iran Hostage Crisis (1979–1981) dominated his final year."
+    },
+    {
+     "k": "Significance",
+     "v": "His post-presidency became a model for former presidents: Habitat for Humanity work, election monitoring, and diplomacy earned him the Nobel Peace Prize in 2002."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1924, Plains, Georgia. Naval nuclear submarine officer under Admiral Hyman Rickover. Peanut farmer. Died December 29, 2024 at age 100 — the longest-lived president in U.S. history."
+    }
+   ],
+   "name_es": "Jimmy Carter",
+   "name_fr": "Jimmy Carter",
+   "name_it": "Jimmy Carter"
+  },
+  {
+   "cat": "MODERN ERA"
+  },
+  {
+   "name": "Bill Clinton",
+   "slug": "modern-clinton",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "42nd President (1993–2001). Presided over the longest peacetime economic expansion in U.S. history; signed NAFTA and welfare reform. Impeached by the House in 1998 over the Monica Lewinsky scandal; acquitted by Senate."
+    },
+    {
+     "k": "Significance",
+     "v": "His impeachment was only the second in U.S. history; like Andrew Johnson's, it ended in Senate acquittal and left him able to finish his term with high approval ratings."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1946, Hope, Arkansas. Rhodes Scholar at Oxford; Yale Law graduate. Known for extraordinary political skill and empathy — 'I feel your pain' became his defining phrase. Played saxophone on The Arsenio Hall Show during the 1992 campaign."
+    }
+   ],
+   "name_es": "Bill Clinton",
+   "name_fr": "Bill Clinton",
+   "name_it": "Bill Clinton"
+  },
+  {
+   "name": "Barack Obama",
+   "slug": "modern-obama",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "44th President (2009–2017). First African American president. Signed the Affordable Care Act (2009); oversaw the operation that killed Osama bin Laden (2011); won the Nobel Peace Prize (2009)."
+    },
+    {
+     "k": "Significance",
+     "v": "His election was a historic milestone in a country where, 150 years earlier, African Americans were enslaved; the Affordable Care Act extended health coverage to over 20 million previously uninsured Americans."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1961, Honolulu, Hawaii. Harvard Law Review president; community organizer in Chicago. Only the third sitting senator elected directly to the presidency since JFK. Author of best-selling memoirs before and after the presidency."
+    }
+   ],
+   "name_es": "Barack Obama",
+   "name_fr": "Barack Obama",
+   "name_it": "Barack Obama"
+  },
+  {
+   "name": "Donald Trump",
+   "slug": "modern-trump",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "45th and 47th President (2017–2021, 2025–). First president impeached twice (2019, 2021); first former president convicted of felonies (2024). Real estate mogul and television personality before entering politics."
+    },
+    {
+     "k": "Significance",
+     "v": "His 2016 election upset and 2024 return upended conventional political assumptions; his two impeachments, January 6 Capitol events, and criminal prosecutions made him the most legally embattled president in U.S. history."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1946, Queens, New York. Wharton School of Finance graduate. His 'America First' policy reversed decades of multilateral trade and alliance frameworks."
+    }
+   ],
+   "name_es": "Donald Trump",
+   "name_fr": "Donald Trump",
+   "name_it": "Donald Trump"
+  },
+  {
+   "name": "George W. Bush",
+   "slug": "modern-george-w-bush",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "43rd President (2001–2009). Led U.S. response to September 11, 2001; launched wars in Afghanistan and Iraq; signed the PATRIOT Act and created the Department of Homeland Security."
+    },
+    {
+     "k": "Significance",
+     "v": "The Iraq War — justified by claims of weapons of mass destruction that were never found — became one of the most contested foreign policy decisions in modern American history."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1946, New Haven, Connecticut. Yale and Harvard Business School graduate; Texas Rangers co-owner before politics."
+    }
+   ],
+   "name_es": "George W. Bush",
+   "name_fr": "George W. Bush",
+   "name_it": "George W. Bush"
+  },
+  {
+   "name": "Joe Biden",
+   "slug": "modern-biden",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "46th President (2021–2025). Oldest person elected president at 77; withdrew from 2024 re-election campaign. Oversaw COVID recovery, passage of bipartisan infrastructure law, and major climate legislation (Inflation Reduction Act)."
+    },
+    {
+     "k": "Significance",
+     "v": "His decision to withdraw from the 2024 race in July 2024 — citing age and electability concerns — was historic; no incumbent president had declined to seek re-election since LBJ in 1968."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Born 1942, Scranton, Pennsylvania. Elected to the Senate at 29; served 36 years. Lost his wife and daughter in a 1972 car crash; lost his son Beau to brain cancer in 2015."
+    }
+   ],
+   "name_es": "Joe Biden",
+   "name_fr": "Joe Biden",
+   "name_it": "Joe Biden"
+  }
+ ]
+}

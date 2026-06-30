@@ -1,0 +1,503 @@
+{
+ "title": "Countries & Capitals — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "EUROPE"
+  },
+  {
+   "name": "France — Paris",
+   "slug": "europe-france",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "France is the largest country in the European Union by area and the world's most visited country (90+ million tourists annually). Paris has been the capital since 987 AD and is home to the Louvre — the world's most visited art museum."
+    },
+    {
+     "k": "Significance",
+     "v": "France has won the most Nobel Prizes in Literature of any country and produces more varieties of cheese (over 1,000) than any other nation."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'France' derives from the Franks, a Germanic tribe. Paris was the Roman city of Lutetia, settled by the Celtic Parisii tribe."
+    }
+   ],
+   "name_es": "Francia — París",
+   "name_fr": "France — Paris",
+   "name_it": "Francia — Parigi"
+  },
+  {
+   "name": "Germany — Berlin",
+   "slug": "europe-germany",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Germany is the most populous EU country (84 million) and Europe's largest economy. Berlin became the capital again in 1990 after reunification — West Germany's capital had been Bonn since 1949."
+    },
+    {
+     "k": "Significance",
+     "v": "Germany is the world's 3rd largest exporter and the birthplace of the printing press (Gutenberg, 1440), the automobile (Benz, 1885), and aspirin (Bayer, 1899)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Germany' comes from the Latin 'Germania'; Germans call their country 'Deutschland.' Berlin's name likely derives from a Slavic root meaning 'swamp.' The Berlin Wall (1961–1989) divided the city for 28 years; its fall on November 9, 1989 be…"
+    }
+   ],
+   "name_es": "Alemania — Berlín",
+   "name_fr": "Allemagne — Berlin",
+   "name_it": "Germania — Berlino"
+  },
+  {
+   "name": "United Kingdom — London",
+   "slug": "europe-uk",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The UK comprises England, Scotland, Wales, and Northern Ireland. London, one of the world's great global cities, has been continuously inhabited since Roman times (as Londinium, founded ~43 AD) and is the world's most-visited city by intern…"
+    },
+    {
+     "k": "Significance",
+     "v": "English is the world's most widely spoken language (1.5 billion speakers) and is the official or co-official language in 67 countries — a direct legacy of British colonialism."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'United Kingdom' refers to the union of England and Scotland (1707) later joined by Ireland (1801)."
+    }
+   ],
+   "name_es": "Reino Unido — Londres",
+   "name_fr": "Royaume-Uni — Londres",
+   "name_it": "Regno Unito — Londra"
+  },
+  {
+   "name": "Italy — Rome",
+   "slug": "europe-italy",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Italy is home to more UNESCO World Heritage Sites than any other country (58). Rome, the 'Eternal City,' has been continuously inhabited for over 2,700 years and was the capital of an empire that covered much of Europe, North Africa, and th…"
+    },
+    {
+     "k": "Significance",
+     "v": "Italy is the world's largest wine producer and the birthplace of the Renaissance — Leonardo da Vinci, Michelangelo, Raphael, and Galileo were all Italian."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Italy was not unified as a single nation until 1861 (the Risorgimento). Rome became the capital in 1871."
+    }
+   ],
+   "name_es": "Italia — Roma",
+   "name_fr": "Italie — Rome",
+   "name_it": "Italia — Roma"
+  },
+  {
+   "name": "Russia — Moscow",
+   "slug": "europe-russia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Russia is the world's largest country by area (17.1 million km² — larger than the entire continent of South America). Moscow, the capital, is Europe's largest city with 12+ million people."
+    },
+    {
+     "k": "Significance",
+     "v": "Russia spans 11 time zones — the most of any country — and shares borders with 14 nations, more than any other country except China."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Russia' likely derives from 'Rus,' a medieval state centered in Kiev. Moscow was founded in 1147. The capital moved to St. Petersburg under Peter the Great (1712), then back to Moscow after the 1917 Bolshevik Revolution."
+    }
+   ],
+   "name_es": "Rusia — Moscú",
+   "name_fr": "Russie — Moscou",
+   "name_it": "Russia — Mosca"
+  },
+  {
+   "name": "Spain — Madrid",
+   "slug": "europe-spain",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Spain is the 2nd largest country in the EU by area. Madrid, at 667 m elevation, is the highest capital city in the European Union."
+    },
+    {
+     "k": "Significance",
+     "v": "Spain is the world's 2nd largest olive oil producer and 3rd largest wine producer. The Spanish Empire at its peak (16th–17th century) was the world's first global empire, spanning all inhabited continents."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'España' derives from the Latin 'Hispania.' Madrid's name possibly comes from the Arabic 'Magerit' (place of many streams), reflecting centuries of Moorish rule."
+    }
+   ],
+   "name_es": "España — Madrid",
+   "name_fr": "Espagne — Madrid",
+   "name_it": "Spagna — Madrid"
+  },
+  {
+   "name": "Austria — Vienna",
+   "slug": "europe-austria",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Austria, a small landlocked country of 9 million, punches far above its weight culturally. Vienna was the capital of the Habsburg Empire for centuries — at its peak, the empire ruled over 50 million people across Central Europe."
+    },
+    {
+     "k": "Significance",
+     "v": "Mozart, Beethoven (lived there), Freud, Klimt, Mahler, and Schubert all worked in Vienna — making it the most concentrated source of Western classical music and psychology in history."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Austria' derives from 'Ostarrichi' (eastern realm) in Old High German. Vienna's name comes from the Roman fortress 'Vindobona.' Adolf Hitler was born in Austria (Braunau am Inn, 1889) and moved to Germany in 1913."
+    }
+   ],
+   "name_es": "Austria — Viena",
+   "name_fr": "Autriche — Vienne",
+   "name_it": "Austria — Vienna"
+  },
+  {
+   "cat": "AMERICAS"
+  },
+  {
+   "name": "United States — Washington D.C.",
+   "slug": "americas-usa",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Washington D.C. is not part of any U.S. state — it is a federal district (District of Columbia) established in 1790 on land ceded by Maryland and Virginia. The 'D.C.' distinguishes it from Washington state."
+    },
+    {
+     "k": "Significance",
+     "v": "The U.S. is the world's largest economy (GDP ~$27 trillion), the 3rd most populous country (335 million), and spends more on its military than the next 10 countries combined."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Washington D.C. is named for President George Washington and Christopher Columbus (Columbia). It was designed by French engineer Pierre Charles L'Enfant with wide diagonal avenues. Residents of D.C."
+    }
+   ],
+   "name_es": "Estados Unidos — Washington D.C.",
+   "name_fr": "États-Unis — Washington D.C.",
+   "name_it": "Stati Uniti — Washington D.C."
+  },
+  {
+   "name": "Brazil — Brasília",
+   "slug": "americas-brazil",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Brazil is the world's 5th largest country and largest in South America. Brasília — NOT Rio de Janeiro or São Paulo — has been the capital since 1960."
+    },
+    {
+     "k": "Significance",
+     "v": "Brazil contains 60% of the Amazon Rainforest — the world's largest rainforest, which produces 20% of the world's oxygen and is home to 10% of all species on Earth."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Brasil' comes from the brazilwood tree (Caesalpinia echinata), prized for red dye. Brasília was designed by architect Oscar Niemeyer and urban planner Lúcio Costa; from the air it is shaped like an airplane or bird."
+    }
+   ],
+   "name_es": "Brasil — Brasilia",
+   "name_fr": "Brésil — Brasilia",
+   "name_it": "Brasile — Brasilia"
+  },
+  {
+   "name": "Canada — Ottawa",
+   "slug": "americas-canada",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Canada is the world's 2nd largest country by area. Ottawa — NOT Toronto, Vancouver, or Montreal — has been the capital since 1857. Queen Victoria chose it partly because its inland position made it harder for the U.S. to attack."
+    },
+    {
+     "k": "Significance",
+     "v": "Canada has the longest coastline of any country (202,080 km), the most lakes of any country (over 2 million, containing 20% of the world's fresh surface water), and is the world's largest producer of maple syrup (71% of global supply)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Canada' comes from the Huron-Iroquois word 'kanata' meaning 'village' or 'settlement.' Ottawa derives from an Algonquin word meaning 'to trade.' Canada is officially bilingual (English and French) and has the world's longest undefended bor…"
+    }
+   ],
+   "name_es": "Canadá — Ottawa",
+   "name_fr": "Canada — Ottawa",
+   "name_it": "Canada — Ottawa"
+  },
+  {
+   "name": "Mexico — Mexico City",
+   "slug": "americas-mexico",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Mexico City is one of the world's largest megacities (22 million in metro area) and the highest-altitude capital in North America at 2,240 m. It was built on the ruins of Tenochtitlán, the Aztec capital, which the Spanish destroyed in 1521."
+    },
+    {
+     "k": "Significance",
+     "v": "Mexico is the world's largest Spanish-speaking country by population (130 million) and the birthplace of chocolate, tomatoes, corn, and chili peppers — foods that transformed global cuisine after 1492."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'México' comes from Nahuatl 'Mēxihco,' the Aztec name for their capital. Mexico City is sinking at a rate of up to 50 cm per year because it was built on a drained lake bed and the aquifer beneath it is being depleted."
+    }
+   ],
+   "name_es": "México — Ciudad de México",
+   "name_fr": "Mexique — Mexico",
+   "name_it": "Messico — Città del Messico"
+  },
+  {
+   "name": "Argentina — Buenos Aires",
+   "slug": "americas-argentina",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Argentina is South America's 2nd largest country and has the most UNESCO World Heritage Sites in Latin America. Buenos Aires, the capital, is the largest Spanish-speaking city in the world."
+    },
+    {
+     "k": "Significance",
+     "v": "Argentina has produced 5 Nobel Prize winners — more than any other Latin American country. It is also the birthplace of the tango and Pope Francis (born Jorge Mario Bergoglio in Buenos Aires, 1936)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Argentina' comes from the Latin 'argentum' (silver) — Spanish explorers believed the region held vast silver deposits (it didn't). Buenos Aires means 'fair winds' in Spanish, a name given by Spanish sailors."
+    }
+   ],
+   "name_es": "Argentina — Buenos Aires",
+   "name_fr": "Argentine — Buenos Aires",
+   "name_it": "Argentina — Buenos Aires"
+  },
+  {
+   "cat": "AFRICA"
+  },
+  {
+   "name": "South Africa — Pretoria (exec.) / Cape Town (legis.) / Bloemfontein (judic.)",
+   "slug": "africa-south-africa",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "South Africa is the only country in the world with three capital cities — one for each branch of government: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). This arrangement dates from the 1910 Act of Union."
+    },
+    {
+     "k": "Significance",
+     "v": "South Africa holds 80% of the world's platinum reserves, 40% of its gold, and is the world's largest producer of chromium and manganese."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Nelson Mandela was imprisoned for 27 years before becoming South Africa's first Black president (1994), ending apartheid — a legally enforced system of racial segregation that lasted from 1948 to 1991."
+    }
+   ],
+   "name_es": "Sudáfrica — Pretoria (ejec.) / Ciudad del Cabo (legis.) / Bloemfontein (jud.)",
+   "name_fr": "Afrique du Sud — Pretoria (exéc.) / Le Cap (législ.) / Bloemfontein (jud.)",
+   "name_it": "Sudafrica — Pretoria (esec.) / Città del Capo (legisl.) / Bloemfontein (giud.)"
+  },
+  {
+   "name": "Nigeria — Abuja",
+   "slug": "africa-nigeria",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Nigeria is Africa's most populous country (220+ million) and largest economy. Abuja — NOT Lagos — has been the capital since 1991. Lagos (not the capital) is one of Africa's largest cities and was the former capital."
+    },
+    {
+     "k": "Significance",
+     "v": "Nigeria produces more films than any country except India (Hollywood) — 'Nollywood' releases 2,500+ movies per year and is the world's 2nd most prolific film industry by output."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Nigeria' is named after the Niger River, from the Tuareg 'Egereou n-Igereou' meaning 'river of rivers.' Abuja was purpose-built as a neutral capital to avoid giving advantage to any of Nigeria's major ethnic/regional groups."
+    }
+   ],
+   "name_es": "Nigeria — Abuja",
+   "name_fr": "Nigéria — Abuja",
+   "name_it": "Nigeria — Abuja"
+  },
+  {
+   "name": "Egypt — Cairo",
+   "slug": "africa-egypt",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Egypt straddles Africa and Asia (the Sinai Peninsula is in Asia). Cairo is the largest city in Africa and the Arab world."
+    },
+    {
+     "k": "Significance",
+     "v": "The Suez Canal (opened 1869), which runs through Egypt, connects the Mediterranean Sea to the Red Sea and carries about 12% of global trade — one of the world's most critical waterways."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Egypt' comes from the Greek 'Aigyptos,' derived from the ancient Egyptian name 'Hwt-Ka-Ptah' (temple of the soul of Ptah)."
+    }
+   ],
+   "name_es": "Egipto — El Cairo",
+   "name_fr": "Égypte — Le Caire",
+   "name_it": "Egitto — Il Cairo"
+  },
+  {
+   "name": "Kenya — Nairobi",
+   "slug": "africa-kenya",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Kenya sits on the equator in East Africa. Nairobi, at 1,795 m elevation, is the highest capital in East Africa. The Great Rift Valley runs through Kenya — it is where the earliest evidence of human ancestors (hominids) has been found."
+    },
+    {
+     "k": "Significance",
+     "v": "Kenya is home to the Maasai Mara — one of the world's greatest wildlife reserves — and hosts the Great Migration, in which 1.5 million wildebeest cross the Mara River annually."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Kenya' likely comes from the Kikuyu name for Mount Kenya — 'Kirinyaga' (place of brightness). 'Nairobi' derives from the Maasai 'Enkare Nairobi' meaning 'cool water.' Kenya gained independence from Britain in 1963."
+    }
+   ],
+   "name_es": "Kenia — Nairobi",
+   "name_fr": "Kenya — Nairobi",
+   "name_it": "Kenya — Nairobi"
+  },
+  {
+   "cat": "ASIA"
+  },
+  {
+   "name": "China — Beijing",
+   "slug": "asia-china",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "China is the world's most populous country (1.4 billion) and 2nd largest economy. Beijing has been China's capital (with interruptions) since 1421. Shanghai (not the capital) is China's largest city and financial hub."
+    },
+    {
+     "k": "Significance",
+     "v": "China invented paper, printing, gunpowder, and the compass — four of the most transformative technologies in human history, all before 1000 AD."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'China' is believed to derive from 'Qin,' the first imperial dynasty (221–206 BC). 'Beijing' means 'Northern Capital' in Mandarin. The Great Wall of China — built over many dynasties — stretches over 21,000 km, though most of it is ruins."
+    }
+   ],
+   "name_es": "China — Pekín",
+   "name_fr": "Chine — Pékin",
+   "name_it": "Cina — Pechino"
+  },
+  {
+   "name": "India — New Delhi",
+   "slug": "asia-india",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "India surpassed China in 2023 to become the world's most populous country (1.44 billion). New Delhi — built as a planned capital by the British and inaugurated in 1931 — is distinct from Old Delhi."
+    },
+    {
+     "k": "Significance",
+     "v": "India is the world's largest democracy, the largest producer of films (Bollywood and regional industries), and the birthplace of four world religions: Hinduism, Buddhism, Jainism, and Sikhism."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'India' derives from the Sanskrit 'Sindhu' (river), referring to the Indus River. 'New Delhi' was designed by British architect Edwin Lutyens."
+    }
+   ],
+   "name_es": "India — Nueva Delhi",
+   "name_fr": "Inde — New Delhi",
+   "name_it": "India — Nuova Delhi"
+  },
+  {
+   "name": "Japan — Tokyo",
+   "slug": "asia-japan",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Japan is an archipelago of nearly 7,000 islands. Tokyo is the world's most populous metropolitan area (37+ million in Greater Tokyo)."
+    },
+    {
+     "k": "Significance",
+     "v": "Japan has the world's lowest murder rate among major countries, the highest life expectancy (84 years average), and invented karaoke, instant noodles, the bullet train (Shinkansen), and the QR code."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Japan' in English comes from the Chinese 'Rìběn' (origin of the sun) — Japanese call their country 'Nihon' or 'Nippon.' 'Tokyo' means 'Eastern Capital' — before 1869 it was called 'Edo.' Japan was the first Asian country to industrialize,…"
+    }
+   ],
+   "name_es": "Japón — Tokio",
+   "name_fr": "Japon — Tokyo",
+   "name_it": "Giappone — Tokyo"
+  },
+  {
+   "name": "Saudi Arabia — Riyadh",
+   "slug": "asia-saudi-arabia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Saudi Arabia is the world's largest oil exporter and has the world's 2nd largest proven oil reserves. Riyadh, in the central Najd plateau, has been the capital since Saudi Arabia's founding in 1932."
+    },
+    {
+     "k": "Significance",
+     "v": "Saudi Arabia controls Mecca and Medina — the two holiest cities in Islam — which are visited by over 2 million pilgrims annually during Hajj, the largest annual gathering of people on Earth."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Saudi Arabia' means 'Arab country of the Saud family' — the only country named after a ruling family. 'Riyadh' means 'gardens' in Arabic."
+    }
+   ],
+   "name_es": "Arabia Saudita — Riad",
+   "name_fr": "Arabie Saoudite — Riyad",
+   "name_it": "Arabia Saudita — Riad"
+  },
+  {
+   "name": "Indonesia — Jakarta (moving to Nusantara)",
+   "slug": "asia-indonesia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Indonesia is the world's largest archipelago nation (17,000+ islands), 4th most populous country (277 million), and largest Muslim-majority country."
+    },
+    {
+     "k": "Significance",
+     "v": "Indonesia contains the world's 2nd greatest biodiversity after Brazil, including orangutans, Komodo dragons, and Sumatran tigers. It produces more palm oil than any other country — over half of global supply."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Indonesia' comes from Greek 'Indos' (India) + 'nesos' (islands). Jakarta's name derives from Jayakarta (Sundanese for 'victorious city'). Indonesia gained independence from the Netherlands in 1945 after 350 years of Dutch colonial rule."
+    }
+   ],
+   "name_es": "Indonesia — Yakarta (traslado a Nusantara)",
+   "name_fr": "Indonésie — Jakarta (déménagement à Nusantara)",
+   "name_it": "Indonesia — Giacarta (trasferimento a Nusantara)"
+  },
+  {
+   "cat": "OCEANIA & POLAR"
+  },
+  {
+   "name": "Australia — Canberra",
+   "slug": "oceania-australia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Australia is the world's 6th largest country by area and the largest country in Oceania. Canberra — NOT Sydney or Melbourne — has been the capital since 1927."
+    },
+    {
+     "k": "Significance",
+     "v": "Australia is the only country that occupies an entire continent, has the world's largest coral reef (Great Barrier Reef), and is home to 80% of its flora and fauna found nowhere else on Earth."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Australia' comes from the Latin 'Terra Australis' (southern land). 'Canberra' may derive from the Aboriginal 'Kamberra' meaning 'meeting place.' Australia was colonized as a British penal colony starting in 1788; Aboriginal Australians had…"
+    }
+   ],
+   "name_es": "Australia — Canberra",
+   "name_fr": "Australie — Canberra",
+   "name_it": "Australia — Canberra"
+  },
+  {
+   "name": "New Zealand — Wellington",
+   "slug": "oceania-new-zealand",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "New Zealand's capital is Wellington — NOT Auckland. Auckland (not the capital) is nearly 3× as populous as Wellington."
+    },
+    {
+     "k": "Significance",
+     "v": "New Zealand was the first country to give women the right to vote (1893) and the first to have a female head of government (Prime Minister Jenny Shipley, 1997). The Lord of the Rings and Hobbit trilogies were filmed entirely in New Zealand."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'New Zealand' is named after the Dutch province of Zeeland. Wellington is named for the Duke of Wellington (the general who defeated Napoleon)."
+    }
+   ],
+   "name_es": "Nueva Zelanda — Wellington",
+   "name_fr": "Nouvelle-Zélande — Wellington",
+   "name_it": "Nuova Zelanda — Wellington"
+  }
+ ]
+}

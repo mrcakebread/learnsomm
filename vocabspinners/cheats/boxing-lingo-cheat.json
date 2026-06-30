@@ -1,0 +1,755 @@
+{
+ "title": "Boxing & MMA Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "PUNCHES & STRIKES"
+  },
+  {
+   "name": "Jab",
+   "slug": "jab",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A quick, straight punch thrown with the lead hand. The most fundamental punch — used to measure distance, set up combinations, and keep opponents at bay."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He kept his opponent off balance all night with a stiff, constant jab."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'jab' (a sharp, abrupt poke). The lead-hand jab is boxing's most-thrown and most-important punch, the foundation of nearly every offense."
+    }
+   ],
+   "name_es": "Jab",
+   "name_fr": "Jab",
+   "name_it": "Jab"
+  },
+  {
+   "name": "Cross",
+   "slug": "cross",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A powerful straight punch thrown with the rear hand, crossing the body. Often paired with the jab in the classic 'one-two' combination."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She snapped a jab, then drove the cross straight down the middle for the knockdown."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the rear hand travels 'across' the body to the target. As the 'two' in the one-two, it's a fighter's bread-and-butter power punch."
+    }
+   ],
+   "name_es": "Cross",
+   "name_fr": "Cross",
+   "name_it": "Cross"
+  },
+  {
+   "name": "Hook",
+   "slug": "hook",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A punch thrown in a horizontal arc, bent at the elbow, targeting the side of the head or body. Devastating when it lands clean on the chin."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He ducked the jab and came back with a vicious left hook to the temple."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the 'hook' shape of the bent arm and curving path. The hook's sideways angle slips around an opponent's guard to land on the jaw or ribs."
+    }
+   ],
+   "name_es": "Hook",
+   "name_fr": "Hook",
+   "name_it": "Hook"
+  },
+  {
+   "name": "Uppercut",
+   "slug": "uppercut",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A vertical punch thrown upward, traveling under an opponent's guard to land on the chin. Especially effective at close range."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "As they clinched, she ripped an uppercut up the middle that snapped his head back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the punch cuts 'up' from below. Its rising path slips inside a high guard, making it a brutal weapon in close, infighting exchanges."
+    }
+   ],
+   "name_es": "Uppercut",
+   "name_fr": "Uppercut",
+   "name_it": "Uppercut"
+  },
+  {
+   "name": "Combination",
+   "slug": "combination",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A series of punches thrown in quick succession as a coordinated sequence. Combos overwhelm defenses far better than single shots."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He unloaded a four-punch combination, the flurry too fast for his opponent to block."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'combine' — punches 'combined' into a flowing sequence. Stringing strikes together (the 'combo') is how fighters break through a solid guard."
+    }
+   ],
+   "name_es": "Combination",
+   "name_fr": "Combination",
+   "name_it": "Combination"
+  },
+  {
+   "name": "Body Shot",
+   "slug": "body-shot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A punch aimed at the torso rather than the head. Body shots sap an opponent's stamina and will over time — 'kill the body, the head will die.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Round after round of body shots wore him down until his hands finally dropped."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a shot to the 'body'. A patient body attack is a classic strategy — the damage accumulates, slowly draining an opponent's energy and resolve."
+    }
+   ],
+   "name_es": "Body Shot",
+   "name_fr": "Body Shot",
+   "name_it": "Body Shot"
+  },
+  {
+   "name": "Overhand",
+   "slug": "overhand",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A looping power punch thrown over the top with the rear hand, arcing down onto the target. A favorite of fighters looking for a knockout."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The shorter fighter landed a huge overhand right that dropped his taller opponent."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the punch comes 'over' the top in a downward arc. Its looping path can sail over a jab to land flush, a notorious knockout blow."
+    }
+   ],
+   "name_es": "Overhand",
+   "name_fr": "Overhand",
+   "name_it": "Overhand"
+  },
+  {
+   "name": "Counterpunch",
+   "slug": "counter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'counterpunch' is thrown immediately in response to an opponent's attack, exploiting the opening their punch creates. The art of the counter-puncher."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She slipped his jab and countered instantly with a cross to the exposed chin."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'counter' (to respond or oppose). Great counter-punchers turn an opponent's offense against them, landing in the gap their attack leaves behind."
+    }
+   ],
+   "name_es": "Counterpunch",
+   "name_fr": "Counterpunch",
+   "name_it": "Counterpunch"
+  },
+  {
+   "cat": "DEFENSE & MOVEMENT"
+  },
+  {
+   "name": "Guard",
+   "slug": "guard",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The defensive position of the hands and arms protecting the head and body. A 'high guard' shields the head; styles vary from peek-a-boo to the long guard."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He kept a tight guard, hands high, weathering the storm of punches."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'guard' (to protect). The hand-and-arm position is a fighter's first line of defense; different guard styles reflect different defensive philosophies."
+    }
+   ],
+   "name_es": "Guard",
+   "name_fr": "Guard",
+   "name_it": "Guard"
+  },
+  {
+   "name": "Slip",
+   "slug": "slip",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive move where a fighter shifts their head just outside the line of a punch, making it miss by inches. Pure economy of movement."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She slipped the jab by a hair and was already loading her counter."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'slip' (to slide smoothly aside). The subtle head movement evades a punch without blocking it, leaving both hands free to counter instantly."
+    }
+   ],
+   "name_es": "Slip",
+   "name_fr": "Slip",
+   "name_it": "Slip"
+  },
+  {
+   "name": "Bob and Weave",
+   "slug": "bob-weave",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive technique of bending the knees ('bobbing') and moving the upper body in a rolling motion ('weaving') to duck under and avoid punches."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He bobbed and weaved under the looping hooks, slipping inside to land body shots."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of the two motions: 'bobbing' down and 'weaving' side to side. Together they let a fighter duck beneath punches and work into close range."
+    }
+   ],
+   "name_es": "Bob and Weave",
+   "name_fr": "Bob and Weave",
+   "name_it": "Bob and Weave"
+  },
+  {
+   "name": "Parry",
+   "slug": "parry",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive move that deflects an incoming punch aside with a small, well-timed movement of the hand, rather than absorbing or fully blocking it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She parried his jab with a flick of her glove, redirecting it harmlessly past her face."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Italian 'parare' (to ward off), via fencing. A parry redirects rather than absorbs the blow, conserving energy and opening counter opportunities."
+    }
+   ],
+   "name_es": "Parry",
+   "name_fr": "Parry",
+   "name_it": "Parry"
+  },
+  {
+   "name": "Footwork",
+   "slug": "footwork",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The skill of moving the feet to control distance, angle, and balance. Great footwork lets a fighter attack and escape while staying balanced."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His dazzling footwork let him dart in, land, and slide out before any counter could land."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'work' done by the 'feet'. Often called the foundation of everything — a fighter who can't move well can't attack or defend effectively."
+    }
+   ],
+   "name_es": "Footwork",
+   "name_fr": "Footwork",
+   "name_it": "Footwork"
+  },
+  {
+   "name": "Clinch",
+   "slug": "clinch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A close-quarters hold where fighters grab each other to smother offense, rest, or set up other techniques. In MMA, a key position for strikes and takedowns."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Tired and hurt, he tied his opponent up in a clinch to survive the round."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'clinch' (to grip tightly). In boxing it neutralizes offense and buys recovery time; in MMA the clinch becomes a battleground for knees, elbows, and takedowns."
+    }
+   ],
+   "name_es": "Clinch",
+   "name_fr": "Clinch",
+   "name_it": "Clinch"
+  },
+  {
+   "name": "Feint",
+   "slug": "feint",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fake movement designed to provoke a reaction from an opponent, creating an opening for the real attack. Selling a punch you don't throw."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He feinted the jab, drew the block, then landed the real shot underneath."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'feindre' (to pretend). A feint is a lie told with the body — faking one action to manipulate the opponent into exposing a target."
+    }
+   ],
+   "name_es": "Feint",
+   "name_fr": "Feint",
+   "name_it": "Feint"
+  },
+  {
+   "cat": "GRAPPLING & GROUND"
+  },
+  {
+   "name": "Takedown",
+   "slug": "takedown",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An MMA and wrestling technique to bring a standing opponent down to the mat, shifting the fight from striking to grappling. Controls where the fight happens."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She shot in for a takedown, driving through his hips and slamming him to the canvas."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: 'taking' an opponent 'down' to the ground. A successful takedown lets a grappler impose their game and escape a striker's range."
+    }
+   ],
+   "name_es": "Takedown",
+   "name_fr": "Takedown",
+   "name_it": "Takedown"
+  },
+  {
+   "name": "Guard (Ground)",
+   "slug": "guard-g",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "On the ground, the position of the fighter on their back using their legs to control the opponent between them. A defensive position that can also attack."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Flat on his back, he played an active guard, hunting for a submission from underneath."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from grappling: the bottom fighter 'guards' against the top with their legs. Far from helpless, a skilled guard threatens sweeps and submissions."
+    }
+   ],
+   "name_es": "Guard (Ground)",
+   "name_fr": "Guard (Ground)",
+   "name_it": "Guard (Ground)"
+  },
+  {
+   "name": "Mount",
+   "slug": "mount",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A dominant ground position where a fighter sits atop a prone opponent's torso, freeing their hands to strike or attack with submissions."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Once she took mount, she rained down punches from the top with the fight nearly hers."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'mount' (to climb on top of). One of grappling's most dominant positions — the top fighter controls the action and the bottom struggles to escape."
+    }
+   ],
+   "name_es": "Mount",
+   "name_fr": "Mount",
+   "name_it": "Mount"
+  },
+  {
+   "name": "Submission",
+   "slug": "submission",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A technique — a choke or joint lock — that forces an opponent to surrender ('tap out') or risk injury or unconsciousness. A way to win without striking."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He locked in a tight armbar, and his opponent had no choice but to submit."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'submit' (to yield). A submission ends a fight through technique rather than force, compelling surrender via choke or joint manipulation."
+    }
+   ],
+   "name_es": "Submission",
+   "name_fr": "Submission",
+   "name_it": "Submission"
+  },
+  {
+   "name": "Ground and Pound",
+   "slug": "ground-pound",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Striking a downed opponent from a top grappling position with punches and elbows. A staple offensive tactic of MMA."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "From side control, she opened up with ground and pound until the referee stepped in."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: 'pounding' an opponent on the 'ground'. The phrase captures MMA's blend of grappling control and striking, raining blows from a dominant top position."
+    }
+   ],
+   "name_es": "Ground and Pound",
+   "name_fr": "Ground and Pound",
+   "name_it": "Ground and Pound"
+  },
+  {
+   "name": "Sprawl",
+   "slug": "sprawl",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A defensive reaction to a takedown attempt, where a fighter throws their legs back and drops their hips to avoid being taken down. The striker's best friend."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He read the shot early and sprawled hard, stuffing the takedown and staying on his feet."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'sprawl' (to spread out). By spreading the legs back and dropping weight onto the attacker, a fighter 'stuffs' the takedown and keeps the fight standing."
+    }
+   ],
+   "name_es": "Sprawl",
+   "name_fr": "Sprawl",
+   "name_it": "Sprawl"
+  },
+  {
+   "name": "Rear-Naked Choke",
+   "slug": "rear-naked",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The rear-naked choke — a submission applied from behind, wrapping an arm around the opponent's neck to cut off blood flow. One of the most effective chokes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She took his back, slid her arm under his chin, and the rear-naked choke ended it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The 'naked' refers to using no gi/collar (bare arms), applied from the 'rear'. Among the most reliable and feared submissions in all of grappling."
+    }
+   ],
+   "name_es": "Rear-Naked Choke",
+   "name_fr": "Rear-Naked Choke",
+   "name_it": "Rear-Naked Choke"
+  },
+  {
+   "cat": "RULES & SCORING"
+  },
+  {
+   "name": "Knockout (KO)",
+   "slug": "knockout",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'KO' — when a fighter is knocked unconscious or cannot rise before the referee's ten-count. The most decisive way to win a fight."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "One clean overhand right ended the night with a brutal first-round knockout."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the opponent is 'knocked out' of the fight. The KO is boxing and MMA's definitive, dramatic finish — no judges, no doubt."
+    }
+   ],
+   "name_es": "Knockout (KO)",
+   "name_fr": "Knockout (KO)",
+   "name_it": "Knockout (KO)"
+  },
+  {
+   "name": "TKO",
+   "slug": "tko",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Technical Knockout — when a fight is stopped because a fighter can't safely continue, though they aren't unconscious. The referee, corner, or doctor calls it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The referee waved off the fight for a TKO as the defenseless fighter stopped firing back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Distinguished from a clean KO: 'technically' a stoppage rather than an unconscious knockout. It protects fighters who are hurt and no longer defending themselves."
+    }
+   ],
+   "name_es": "TKO",
+   "name_fr": "TKO",
+   "name_it": "TKO"
+  },
+  {
+   "name": "Decision",
+   "slug": "decision",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a fight goes the full distance, the winner is determined by the judges' scorecards. The outcome rests on rounds won rather than a finish."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With no knockout, the bout went to a decision, and the judges' cards decided the winner."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the judges' 'decision'. When neither fighter finishes the other, scoring each round determines who did enough to earn the nod."
+    }
+   ],
+   "name_es": "Decision",
+   "name_fr": "Decision",
+   "name_it": "Decision"
+  },
+  {
+   "name": "Split / Unanimous",
+   "slug": "split-decision",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'unanimous' decision means all judges agree on the winner; a 'split' decision means they disagree, with the majority deciding. Split decisions signal a close fight."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "It was so close it went to a split decision, two judges for her and one against."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the judges are 'unanimous' (all agree) or 'split' (divided). A split decision marks a razor-thin contest that could have gone either way."
+    }
+   ],
+   "name_es": "Split / Unanimous",
+   "name_fr": "Split / Unanimous",
+   "name_it": "Split / Unanimous"
+  },
+  {
+   "name": "Round",
+   "slug": "round",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A timed segment of a fight (typically 3 minutes), separated by rest. Bouts run a set number of rounds — championship fights often go twelve in boxing, five in MMA."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He saved his energy, knowing he had to pace himself across all twelve rounds."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a 'round' or cycle of action. Dividing fights into rounds with rest between shapes pacing, strategy, and the scoring of the bout."
+    }
+   ],
+   "name_es": "Round",
+   "name_fr": "Round",
+   "name_it": "Round"
+  },
+  {
+   "name": "Weigh-In",
+   "slug": "weigh-in",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The official weighing of fighters before a bout to confirm they meet their weight-class limit. A tense ritual, sometimes more dramatic than the fight."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He barely made the limit at the weigh-in after a grueling final day of cutting weight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the fighters are 'weighed in' to the contest. Making weight is its own brutal discipline, and the weigh-in's face-offs build the fight's drama."
+    }
+   ],
+   "name_es": "Weigh-In",
+   "name_fr": "Weigh-In",
+   "name_it": "Weigh-In"
+  },
+  {
+   "name": "Tap Out",
+   "slug": "tap-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To signal surrender by physically tapping the opponent or mat, conceding a submission. The instant, unambiguous way to quit before injury."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Caught in the armbar, she tapped out before her elbow could give way."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the fighter 'taps' to submit. The tap is grappling's universal surrender signal, ending a fight the moment a submission becomes inescapable."
+    }
+   ],
+   "name_es": "Tap Out",
+   "name_fr": "Tap Out",
+   "name_it": "Tap Out"
+  },
+  {
+   "cat": "FIGHT SLANG"
+  },
+  {
+   "name": "Haymaker",
+   "slug": "haymaker",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A wild, looping, all-or-nothing power punch thrown with maximum force and little technique. Dangerous if it lands, reckless if it misses."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He swung a desperate haymaker that, by luck, caught his opponent flush and ended it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the wide, swinging motion resembling scything hay with a tool. A haymaker trades accuracy for raw power — a knockout if it lands, a gamble always."
+    }
+   ],
+   "name_es": "Haymaker",
+   "name_fr": "Haymaker",
+   "name_it": "Haymaker"
+  },
+  {
+   "name": "Glass Jaw",
+   "slug": "glass-jaw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a fighter who is easily knocked out, unable to absorb punches to the chin. The opposite of a fighter with a 'good chin.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Talented as he was, his glass jaw meant one clean shot could always end his night."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid metaphor: the jaw is as fragile as 'glass', shattering under a blow. A fighter's chin (ability to take a punch) is among their most prized traits."
+    }
+   ],
+   "name_es": "Glass Jaw",
+   "name_fr": "Glass Jaw",
+   "name_it": "Glass Jaw"
+  },
+  {
+   "name": "On the Ropes",
+   "slug": "on-the-ropes",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fighter pinned against the ring ropes and absorbing punishment, in serious trouble. Figuratively, anyone in a desperate, losing situation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She had him on the ropes, teeing off as he covered up and prayed for the bell."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From a fighter literally being trapped against the 'ropes' of the ring, unable to escape. The phrase spread into everyday speech for being in dire straits."
+    }
+   ],
+   "name_es": "On the Ropes",
+   "name_fr": "On the Ropes",
+   "name_it": "On the Ropes"
+  },
+  {
+   "name": "Southpaw",
+   "slug": "southpaw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A left-handed fighter who leads with the right hand and stands in a mirror-image stance. Their unusual angles trouble orthodox opponents."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The orthodox boxer struggled all night against the southpaw's awkward, reversed angles."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Possibly from baseball, where left-handed pitchers faced south in old ballparks, their throwing arm to the 'south'. Southpaws frustrate fighters used to right-handers."
+    }
+   ],
+   "name_es": "Southpaw",
+   "name_fr": "Southpaw",
+   "name_it": "Southpaw"
+  },
+  {
+   "name": "Pound-for-Pound",
+   "slug": "pound-for-pound",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A way of ranking fighters' skill independent of weight class — imagining them all the same size. The mythical answer to 'who's the best, regardless of weight?'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Though a lightweight, she was considered the best pound-for-pound fighter in the world."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A thought experiment: comparing fighters 'pound for pound' as if equal in size. It honors pure skill, letting a small fighter top a list over giants."
+    }
+   ],
+   "name_es": "Pound-for-Pound",
+   "name_fr": "Pound-for-Pound",
+   "name_it": "Pound-for-Pound"
+  },
+  {
+   "name": "Gas Out",
+   "slug": "gas-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'gas out' is to run out of stamina and energy mid-fight, leaving a fighter exhausted and vulnerable. Conditioning's cruelest failure."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He swung for the fences early, gassed out by the third round, and had nothing left."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From running out of 'gas' (fuel). A fighter who empties the tank too soon 'gasses out', their offense and defense crumbling as exhaustion takes over."
+    }
+   ],
+   "name_es": "Gas Out",
+   "name_fr": "Gas Out",
+   "name_it": "Gas Out"
+  }
+ ]
+}

@@ -1,0 +1,776 @@
+{
+ "title": "Poker Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "HANDS"
+  },
+  {
+   "name": "Royal Flush",
+   "slug": "royal-flush",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The best possible hand in standard poker: A-K-Q-J-10 all of the same suit. It cannot be beaten. The odds of being dealt one in five cards are about 1 in 649,740."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After three hours of folding, the river completed his royal flush. The table went silent, then erupted — the dealer admitted she'd never seen one in ten years on the floor."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 20th-century American term highlighting the 'royalty' of the court cards topping the hand. It's technically the highest straight flush, and in video poker it's the jackpot, typically paying 4,000-to-1."
+    }
+   ],
+   "name_es": "Royal Flush",
+   "name_fr": "Royal Flush",
+   "name_it": "Royal Flush"
+  },
+  {
+   "name": "Straight Flush",
+   "slug": "straight-flush",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Five cards in sequence, all the same suit (for example 6-7-8-9-10 of hearts). The second-strongest hand, beaten only by a higher straight flush or a royal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He flopped a straight flush and slow-played it perfectly, letting his opponent bet into a hand that was already unbeatable."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The name simply combines a 'straight' (a run of cards) and a 'flush' (one suit). Both terms predate poker, drawn from older card games and, in 'flush', ultimately from the idea of cards 'flowing' together in one suit."
+    }
+   ],
+   "name_es": "Straight Flush",
+   "name_fr": "Straight Flush",
+   "name_it": "Straight Flush"
+  },
+  {
+   "name": "Four of a Kind",
+   "slug": "four-of-a-kind",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Four cards of the same rank, such as four kings, plus any fifth card. Also called 'quads.' A very strong and rare hand."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'I've got quads,' she said flatly, flipping over four nines. It's one of the few hands you can announce without fear of a bluff."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Of a kind' meaning 'of the same type' dates to the 16th century. The shorthand 'quads' is modern poker-room slang, mirroring 'trips' for three of a kind."
+    }
+   ],
+   "name_es": "Four of a Kind",
+   "name_fr": "Four of a Kind",
+   "name_it": "Four of a Kind"
+  },
+  {
+   "name": "Full House",
+   "slug": "full-house",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Three cards of one rank plus two of another (for example three queens and two sevens). Ranks below four of a kind but above a flush."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He filled up on the turn — pocket pairs becoming a full house — and suddenly his cautious early checks looked like a trap."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Originally called a 'full hand' in 19th-century play; 'full house' became standard by the early 1900s. The image is of a hand that is 'full' — every card contributing to the combination."
+    }
+   ],
+   "name_es": "Full House",
+   "name_fr": "Full House",
+   "name_it": "Full House"
+  },
+  {
+   "name": "The Nuts",
+   "slug": "the-nuts",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The best possible hand given the cards on the table, which by definition cannot be beaten at that moment."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'I have the nuts here,' he announced, knowing no combination of remaining cards could top his straight. The only question was how much he could extract."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The term likely comes from old gambling: a player would place the nuts of his wagon wheels on the table as a bond he literally could not flee, signifying a bet he was certain to win."
+    }
+   ],
+   "name_es": "The Nuts",
+   "name_fr": "The Nuts",
+   "name_it": "The Nuts"
+  },
+  {
+   "name": "Pocket Pairs",
+   "slug": "pocket-pairs",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two cards of the same rank dealt face-down to a single player as their private 'hole' cards, such as two aces ('pocket rockets')."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She'd been dealt pocket kings — the second-best starting hand — and had to decide whether to raise big or disguise their strength."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Pocket' refers to the hidden hole cards held privately, as if in one's pocket, distinct from the shared community cards on the board."
+    }
+   ],
+   "name_es": "Pocket Pairs",
+   "name_fr": "Pocket Pairs",
+   "name_it": "Pocket Pairs"
+  },
+  {
+   "name": "Two Pair",
+   "slug": "two-pair",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hand containing two cards of one rank and two of another, plus a fifth card — for example two jacks and two fives."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Two pair looks strong to a beginner but is a classic trap hand; he overcommitted with jacks and fives and ran straight into a set."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A plainly descriptive term as old as the ranked-hand system of poker itself, which crystallized in mid-19th-century America."
+    }
+   ],
+   "name_es": "Two Pair",
+   "name_fr": "Two Pair",
+   "name_it": "Two Pair"
+  },
+  {
+   "name": "Kicker",
+   "slug": "kicker",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A side card that doesn't form part of a pair or combination but decides the winner when two players hold otherwise equal hands."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They both had a pair of aces, but his king kicker beat her queen — the side card nobody thinks about until it costs them the pot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a card that 'kicks in' to break a tie. The usage is mid-20th-century American poker slang, now universal in the game."
+    }
+   ],
+   "name_es": "Kicker",
+   "name_fr": "Kicker",
+   "name_it": "Kicker"
+  },
+  {
+   "name": "Drawing Hand",
+   "slug": "drawing-hand",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hand that isn't yet winning but could become strong if the right card arrives — for example four cards to a flush, 'drawing' to the fifth."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He was on a flush draw with one card to come, doing the math: nine cards could complete it, giving him roughly a one-in-five shot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Draw' comes from the act of drawing additional cards, central to older draw-poker variants; the 'drawing hand' is one still hoping to improve."
+    }
+   ],
+   "name_es": "Drawing Hand",
+   "name_fr": "Drawing Hand",
+   "name_it": "Drawing Hand"
+  },
+  {
+   "cat": "BETTING ACTIONS"
+  },
+  {
+   "name": "All-In",
+   "slug": "all-in",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Betting every chip you have on the table in a single commitment. You can't be forced out, but you can't win more than your stake either."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With the tournament on the line he pushed all-in, and the whole table leaned forward — one card now decided whether he went home or doubled up."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The phrase is older than poker, meaning fully committed with nothing held back. Its poker use spread through 20th-century cardrooms and became iconic with televised tournaments."
+    }
+   ],
+   "name_es": "All-In",
+   "name_fr": "All-In",
+   "name_it": "All-In"
+  },
+  {
+   "name": "Check-Raise",
+   "slug": "check-raise",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Checking (passing the action) to feign weakness, then raising after an opponent bets — a trap to extract more chips or win the pot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She check-raised the river, and you could see her opponent's confidence drain; the check had invited exactly the bet she wanted to punish."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A descriptive compound of the two actions it chains. Once considered unsporting and even banned in some genteel home games, it's now a fundamental tactic."
+    }
+   ],
+   "name_es": "Check-Raise",
+   "name_fr": "Check-Raise",
+   "name_it": "Check-Raise"
+  },
+  {
+   "name": "Pot Odds",
+   "slug": "pot-odds",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The ratio of the current pot size to the cost of a call, used to decide whether a draw is mathematically worth chasing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The pot offered 4-to-1 and his draw would hit about 1-in-5 of the time — the pot odds said call, even though his gut said fold."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 20th-century formalization as poker strategy grew more mathematical, popularized by theorists like David Sklansky who put numbers to the game's instincts."
+    }
+   ],
+   "name_es": "Pot Odds",
+   "name_fr": "Pot Odds",
+   "name_it": "Pot Odds"
+  },
+  {
+   "name": "Bluff",
+   "slug": "bluff",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Betting or raising with a weak hand to make opponents fold better ones. A pure bluff wins only if everyone folds; a semi-bluff also has cards that can improve."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Daniel Negreanu's real genius isn't bluffing — it's sniffing out others' bluffs, making 'hero calls' that look impossible until the cards turn over."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Dutch 'bluffen' (to boast or deceive), entering English in the early 1800s as poker spread along the Mississippi. Poker is widely credited with the word's modern meaning."
+    }
+   ],
+   "name_es": "Bluff",
+   "name_fr": "Bluff",
+   "name_it": "Bluff"
+  },
+  {
+   "name": "Continuation Bet",
+   "slug": "c-bet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'continuation bet': betting on the next street after you raised before the cards came, continuing the story that you have a strong hand."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He raised before the flop, missed it completely, but fired a c-bet anyway — most of the time, the story alone was enough to take the pot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern term from the online-poker era of the 2000s, when systematic, aggressive post-flop betting was codified and named."
+    }
+   ],
+   "name_es": "Continuation Bet",
+   "name_fr": "Continuation Bet",
+   "name_it": "Continuation Bet"
+  },
+  {
+   "name": "Limp",
+   "slug": "limp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Entering a pot by just calling the minimum rather than raising — often seen as passive or weak play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He limped in with a marginal hand, and the sharks at the table smelled it instantly; limping told them exactly how little he held."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The image is of slipping into the pot 'limply,' without the strength of a raise. It's 20th-century cardroom slang, now slightly pejorative among serious players."
+    }
+   ],
+   "name_es": "Limp",
+   "name_fr": "Limp",
+   "name_it": "Limp"
+  },
+  {
+   "name": "3-Bet",
+   "slug": "3-bet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The third bet in a sequence — a re-raise of an initial raise. A key aggressive move that applies pressure before the flop."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She 3-bet from the blinds, flipping the script; the original raiser now had to defend out of position against a hand he couldn't read."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Bet-counting terminology ('2-bet', '3-bet', '4-bet') emerged from online poker in the 2000s, importing the precise language of limit poker into the no-limit boom."
+    }
+   ],
+   "name_es": "3-Bet",
+   "name_fr": "3-Bet",
+   "name_it": "3-Bet"
+  },
+  {
+   "name": "Slow Play",
+   "slug": "slow-play",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Deliberately playing a strong hand weakly — checking or just calling — to disguise its strength and lure opponents into betting."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He flopped a full house and slow-played it, checking meekly until the river, by which point his opponent had bet himself broke."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A descriptive term for 'playing slowly,' the opposite of fast, aggressive betting. It's the strategic mirror image of the bluff: hiding strength rather than faking it."
+    }
+   ],
+   "name_es": "Slow Play",
+   "name_fr": "Slow Play",
+   "name_it": "Slow Play"
+  },
+  {
+   "name": "Value Bet",
+   "slug": "value-bet",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A bet made with a strong hand to get called by weaker ones — betting 'for value' rather than to bluff opponents out."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He had the best hand and needed to get paid, so he sized his value bet just small enough to look temptingly callable."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern strategic term distinguishing bets made to profit from a winning hand ('value') from bets made to make better hands fold ('bluffs')."
+    }
+   ],
+   "name_es": "Value Bet",
+   "name_fr": "Value Bet",
+   "name_it": "Value Bet"
+  },
+  {
+   "cat": "POSITIONS"
+  },
+  {
+   "name": "The Button",
+   "slug": "the-button",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The marker showing who is the nominal dealer, and the most powerful seat — that player acts last after the flop, with the most information."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "On the button with position locked up, she could watch everyone else act first and pounce, controlling the size of every pot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the literal button (or 'buck') passed around the table to mark the dealer — the origin, too, of 'the buck stops here.'"
+    }
+   ],
+   "name_es": "The Button",
+   "name_fr": "The Button",
+   "name_it": "The Button"
+  },
+  {
+   "name": "Blinds",
+   "slug": "blinds",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Forced bets posted by the two players left of the button before any cards are seen — the small blind and big blind — that seed the pot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He was sick of the blinds eating his stack and decided to defend his big blind aggressively for once, refusing to be bullied."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Called 'blind' because the bets are made before seeing any cards — committing money 'blindly.' Blinds replaced older 'ante' structures to force action."
+    }
+   ],
+   "name_es": "Blinds",
+   "name_fr": "Blinds",
+   "name_it": "Blinds"
+  },
+  {
+   "name": "Cutoff",
+   "slug": "cutoff",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The seat immediately to the right of the button — the second-best position, often used to steal the blinds before the button can act."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "From the cutoff he raised to steal, betting that the button and blinds would all fold and hand him the pot uncontested."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because a raise from this seat can 'cut off' the button player from entering the pot cheaply, seizing late position from them."
+    }
+   ],
+   "name_es": "Cutoff",
+   "name_fr": "Cutoff",
+   "name_it": "Cutoff"
+  },
+  {
+   "name": "Under the Gun",
+   "slug": "under-the-gun",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The seat immediately left of the big blind — the first to act before the flop, and the worst position, requiring the strongest hands."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Under the gun with a marginal hand, he folded without a second thought; acting first against eight players is no place for hope."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 19th-century American idiom meaning 'under pressure,' borrowed into poker for the player forced to act first with no information."
+    }
+   ],
+   "name_es": "Under the Gun",
+   "name_fr": "Under the Gun",
+   "name_it": "Under the Gun"
+  },
+  {
+   "name": "In Position",
+   "slug": "in-position",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Acting after your opponent on every betting round, giving you the advantage of seeing what they do before you decide."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Being in position let her control the hand entirely — every time he checked, she could bet; every time he bet, she already knew."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A straightforward strategic term; 'position' as the key concept of who acts when became central as poker theory matured in the late 20th century."
+    }
+   ],
+   "name_es": "In Position",
+   "name_fr": "In Position",
+   "name_it": "In Position"
+  },
+  {
+   "cat": "TELLS & STRATEGY"
+  },
+  {
+   "name": "Tell",
+   "slug": "tell",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An unconscious physical or behavioral cue that reveals information about a player's hand — a trembling hand, a glance, a change in breathing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The classic tell: weak when strong, strong when weak. He stared down his opponent, who suddenly couldn't stop talking — and folded the winner."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to tell,' meaning to reveal. The poker sense was popularized in the 20th century and cemented by films and Mike Caro's famous 'Book of Tells.'"
+    }
+   ],
+   "name_es": "Tell",
+   "name_fr": "Tell",
+   "name_it": "Tell"
+  },
+  {
+   "name": "Range",
+   "slug": "range",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The full set of hands a player could plausibly hold in a given situation, rather than guessing one specific hand. Thinking in ranges is core to modern strategy."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Instead of asking 'does he have aces?' she thought in ranges — the whole spread of hands he'd play this way — and bet against all of them at once."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern, mathematically-minded concept that reshaped expert play in the 2000s, shifting poker thinking from single-hand reads to probability distributions."
+    }
+   ],
+   "name_es": "Range",
+   "name_fr": "Range",
+   "name_it": "Range"
+  },
+  {
+   "name": "Equity",
+   "slug": "equity",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Your share of the pot based on your hand's statistical chance of winning — if you'd win 60% of the time, you have 60% equity."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He had the worse hand but more equity to improve, so getting his chips in wasn't a mistake — the math was on his side even when he lost."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from finance, where 'equity' means a stake or share. Poker adopted it to express a player's mathematical claim on the pot."
+    }
+   ],
+   "name_es": "Equity",
+   "name_fr": "Equity",
+   "name_it": "Equity"
+  },
+  {
+   "name": "GTO",
+   "slug": "gto",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Game Theory Optimal' play — a mathematically balanced strategy that can't be exploited, even if opponents know exactly what you're doing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The young pros studied GTO solvers for hours, learning to balance their bluffs and value bets so precisely that no opponent could ever read them."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Rooted in the game theory of John von Neumann and John Nash, GTO entered poker vocabulary in the 2010s with computer solvers that approximated unexploitable play."
+    }
+   ],
+   "name_es": "GTO",
+   "name_fr": "GTO",
+   "name_it": "GTO"
+  },
+  {
+   "name": "Bankroll",
+   "slug": "bankroll",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The total money a player has set aside specifically for poker. Sound 'bankroll management' means risking only a small fraction in any one game."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He had the skill but blew through three bankrolls before learning the hardest lesson: you can play perfectly and still go broke if you bet too big."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 19th-century American term for a roll of banknotes; in poker it came to mean the dedicated fund that keeps a player in action through inevitable swings."
+    }
+   ],
+   "name_es": "Bankroll",
+   "name_fr": "Bankroll",
+   "name_it": "Bankroll"
+  },
+  {
+   "name": "Hero Call",
+   "slug": "hero-call",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Calling a big bet with a relatively weak hand because you've read your opponent as bluffing — a risky, glory-or-disaster move."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Everyone at the table would have folded, but she made the hero call with bottom pair, having decided his story simply didn't add up."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Modern poker slang; the 'hero' is the protagonist making a brave, against-the-odds call, a usage popularized by online forums and televised play."
+    }
+   ],
+   "name_es": "Hero Call",
+   "name_fr": "Hero Call",
+   "name_it": "Hero Call"
+  },
+  {
+   "cat": "SLANG & CULTURE"
+  },
+  {
+   "name": "Bad Beat",
+   "slug": "bad-beat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Losing a hand you were heavily favored to win because your opponent hit an unlikely card. The source of poker's greatest agony."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He had aces against tens, all the money in, and watched a third ten land on the river — the textbook bad beat that haunts players for years."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 20th-century gambling term; 'beat' for a defeat is old, and 'bad' captures the unfairness of losing as a big favorite. Endless 'bad beat stories' are a poker cliché."
+    }
+   ],
+   "name_es": "Bad Beat",
+   "name_fr": "Bad Beat",
+   "name_it": "Bad Beat"
+  },
+  {
+   "name": "Fish",
+   "slug": "fish",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A weak, inexperienced, or losing player — the one the stronger players hope to find at the table. 'If you can't spot the fish, you are the fish.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The regulars circled the loud tourist dropping chips on every hand; in poker terms, the fish had just sat down at the wrong table."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Gambling slang likening an easy mark to a fish to be caught. The companion term 'shark' completes the predator-and-prey imagery of the cardroom."
+    }
+   ],
+   "name_es": "Fish",
+   "name_fr": "Fish",
+   "name_it": "Fish"
+  },
+  {
+   "name": "Tilt",
+   "slug": "tilt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An emotional state of frustrated, reckless play, usually after a bad beat — chasing losses and abandoning strategy. 'On tilt.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After three brutal beats he was visibly on tilt, shoving all-in on hopeless hands, donating his stack to the very players who'd cracked him."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from pinball, where nudging the machine too hard triggers 'TILT' and the game locks up — a perfect metaphor for a player whose judgment has gone haywire."
+    }
+   ],
+   "name_es": "Tilt",
+   "name_fr": "Tilt",
+   "name_it": "Tilt"
+  },
+  {
+   "name": "Shark",
+   "slug": "shark",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A skilled, often deceptively unassuming player who preys on weaker opponents. The opposite of a fish."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He played the clueless amateur for an hour, then revealed himself as a shark, having quietly mapped every player's tells while pretending to fumble."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Gambling slang since at least the 1800s, from 'sharper' (a cheat or schemer). The fish-and-shark pairing makes the cardroom food chain vivid."
+    }
+   ],
+   "name_es": "Shark",
+   "name_fr": "Shark",
+   "name_it": "Shark"
+  },
+  {
+   "name": "Donk",
+   "slug": "donk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A derogatory term for a bad player ('donkey'), and 'donk bet' for the unconventional move of betting into the previous round's aggressor."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He made a donk bet into the raiser, and the table couldn't tell if it was a genius trap or, more likely, exactly the donkey play it looked like."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'donkey,' implying a stubborn, foolish player. It rose with online poker in the 2000s, both as an insult and, in 'donk bet,' a named tactic."
+    }
+   ],
+   "name_es": "Donk",
+   "name_fr": "Donk",
+   "name_it": "Donk"
+  },
+  {
+   "name": "The River",
+   "slug": "the-river",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The fifth and final community card. By extension, 'to be rivered' is to lose when that last card gives an opponent the winning hand."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He was ahead the whole way and got rivered — that final card pairing the board and snatching the pot from his hands at the last instant."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Possibly from riverboat poker, where a cheat caught dealing from the bottom could be thrown in the river — or simply the last card 'flowing' out. The origin is debated."
+    }
+   ],
+   "name_es": "The River",
+   "name_fr": "The River",
+   "name_it": "The River"
+  },
+  {
+   "name": "Cooler",
+   "slug": "cooler",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hand where two players both make very strong holdings and one inevitably loses a huge pot — bad luck rather than bad play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Full house against four of a kind: a pure cooler. Nobody could have folded, and he shrugged it off — there's no lesson in a hand you couldn't escape."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Modern poker slang, from the idea of a situation that 'cools off' a hot run of cards. It absolves the loser: a cooler is misfortune, not a mistake."
+    }
+   ],
+   "name_es": "Cooler",
+   "name_fr": "Cooler",
+   "name_it": "Cooler"
+  }
+ ]
+}

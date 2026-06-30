@@ -1,0 +1,402 @@
+{
+ "title": "World Landmarks",
+ "subject": "Reference Wheel",
+ "categories": [
+  {
+   "name": "ANCIENT WONDERS",
+   "color": "#caa53a",
+   "textColor": "#2a2105",
+   "sub": [
+    {
+     "name": "ANCIENT WONDERS",
+     "color": "#caa53a",
+     "descriptors": [
+      {
+       "name": "Great Pyramid of Giza",
+       "slug": "giza",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The oldest and largest of the Egyptian pyramids, built around 2560 BCE, and the only surviving Wonder of the Ancient World.",
+        "mixology": "It is the sole ancient wonder still substantially intact, and was the tallest human-made structure for nearly 4,000 years.",
+        "examples": "Built as a tomb for the pharaoh Khufu, its precise construction from millions of massive stone blocks still inspires awe and debate."
+       }
+      },
+      {
+       "name": "The Colosseum",
+       "slug": "colosseum",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The massive ancient amphitheater in Rome, completed around 80 CE, capable of holding tens of thousands of spectators.",
+        "mixology": "The Colosseum hosted gladiatorial contests and public spectacles, an engineering marvel of the Roman Empire.",
+        "examples": "Its name likely derives from a colossal statue of Nero that once stood nearby; it remains the largest ancient amphitheater ever built."
+       }
+      },
+      {
+       "name": "The Parthenon",
+       "slug": "parthenon",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The temple atop the Acropolis in Athens, dedicated to the goddess Athena and completed in 438 BCE.",
+        "mixology": "The Parthenon is regarded as the supreme expression of classical Greek architecture and the Doric order.",
+        "examples": "Built at the height of Athenian power, its subtle optical refinements, like gently curved columns, reflect extraordinary mathematical sophistication."
+       }
+      },
+      {
+       "name": "Petra",
+       "slug": "petra",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The ancient city carved directly into rose-colored rock cliffs in present-day Jordan, capital of the Nabataean kingdom.",
+        "mixology": "Petra's elaborate facades, hewn from sandstone, made it a wealthy hub of ancient trade routes.",
+        "examples": "Lost to the Western world for centuries, it was revealed to Europe in 1812 and is often called the 'Rose City' for its stone's color."
+       }
+      },
+      {
+       "name": "Great Wall of China",
+       "slug": "wall",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The vast series of fortifications across northern China, built and rebuilt over many centuries to defend against invasions.",
+        "mixology": "The Great Wall stretches thousands of miles, the most extensive defensive structure ever constructed.",
+        "examples": "Contrary to popular myth, it is not visible to the naked eye from space; its construction spanned numerous dynasties over two millennia."
+       }
+      },
+      {
+       "name": "Stonehenge",
+       "slug": "stonehenge",
+       "color": "#caa53a",
+       "panel": {
+        "origin": "The prehistoric monument in England consisting of a ring of massive standing stones, erected thousands of years ago.",
+        "mixology": "Stonehenge's purpose remains debated, but it aligns with the sun at the solstices, suggesting astronomical significance.",
+        "examples": "Some of its enormous bluestones were transported from over 150 miles away, an astonishing feat for its Neolithic builders."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EUROPE",
+   "color": "#3f6f9f",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "EUROPE",
+     "color": "#3f6f9f",
+     "descriptors": [
+      {
+       "name": "Eiffel Tower",
+       "slug": "eiffel",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The iron lattice tower in Paris, built for the 1889 World's Fair and now the city's defining symbol.",
+        "mixology": "Once the world's tallest structure, the Eiffel Tower was initially criticized by many Parisians as an eyesore.",
+        "examples": "Designed by Gustave Eiffel's firm, it was meant to be temporary but was saved by its usefulness as a radio antenna, and became beloved over time."
+       }
+      },
+      {
+       "name": "Big Ben",
+       "slug": "bigben",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The great bell within the clock tower at the north end of London's Palace of Westminster, often used to name the tower itself.",
+        "mixology": "'Big Ben' technically refers to the bell, while the tower is officially named the Elizabeth Tower.",
+        "examples": "Its iconic chimes have marked time over London for over 150 years, becoming a globally recognized symbol of Britain."
+       }
+      },
+      {
+       "name": "Sagrada Familia",
+       "slug": "sagrada",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The colossal, still-unfinished basilica in Barcelona designed by architect Antoni Gaudi, begun in 1882.",
+        "mixology": "The Sagrada Familia has been under construction for well over a century, funded entirely by donations and ticket sales.",
+        "examples": "Gaudi's wildly organic, nature-inspired design is so complex that completion is only now nearing, generations after his death."
+       }
+      },
+      {
+       "name": "Leaning Tower of Pisa",
+       "slug": "pisa",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The freestanding bell tower in Pisa, Italy, famous worldwide for its dramatic, unintended tilt.",
+        "mixology": "The tower began leaning during construction due to soft, unstable ground beneath one side of its foundation.",
+        "examples": "Engineering interventions have since stabilized the lean, ensuring the 12th-century tower will not topple while preserving its famous tilt."
+       }
+      },
+      {
+       "name": "Brandenburg Gate",
+       "slug": "brandenburg",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The 18th-century neoclassical triumphal gate in Berlin, a powerful symbol of German history and reunification.",
+        "mixology": "The Brandenburg Gate stood at the divide of the Cold War and became an emblem of Germany's reunification in 1989.",
+        "examples": "Modeled partly on the Acropolis gateway in Athens, it has witnessed centuries of triumph and turmoil at the heart of Berlin."
+       }
+      },
+      {
+       "name": "Acropolis of Athens",
+       "slug": "acropolis",
+       "color": "#3f6f9f",
+       "panel": {
+        "origin": "The ancient citadel rising above Athens, crowned by the Parthenon and other classical temples.",
+        "mixology": "The Acropolis represents the artistic and architectural pinnacle of ancient Greek civilization.",
+        "examples": "The word means 'high city'; its temples, built in the 5th century BCE, have profoundly shaped Western art and architecture ever since."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ASIA",
+   "color": "#c0504d",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "ASIA",
+     "color": "#c0504d",
+     "descriptors": [
+      {
+       "name": "Taj Mahal",
+       "slug": "tajmahal",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The white marble mausoleum in Agra, India, built by a Mughal emperor in memory of his beloved wife.",
+        "mixology": "The Taj Mahal was commissioned by Shah Jahan as a tomb for his wife Mumtaz Mahal, a monument to love.",
+        "examples": "Completed around 1653, its perfectly symmetrical design and intricate inlaid stonework make it a masterpiece of Mughal architecture."
+       }
+      },
+      {
+       "name": "Angkor Wat",
+       "slug": "angkor",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The vast temple complex in Cambodia, the largest religious monument in the world, built in the 12th century.",
+        "mixology": "Angkor Wat was originally a Hindu temple before gradually becoming a Buddhist site, and appears on Cambodia's flag.",
+        "examples": "Built by the Khmer Empire, this enormous complex was later partly reclaimed by jungle, its rediscovery captivating the wider world."
+       }
+      },
+      {
+       "name": "Mount Fuji",
+       "slug": "fuji",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The iconic, snow-capped active volcano that is the highest mountain in Japan and a sacred national symbol.",
+        "mixology": "Mount Fuji's near-perfect symmetrical cone has inspired Japanese art and pilgrimage for centuries.",
+        "examples": "A UNESCO World Heritage site recognized for its cultural significance, it features famously in classic Japanese woodblock prints."
+       }
+      },
+      {
+       "name": "Forbidden City",
+       "slug": "forbidden",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The immense former imperial palace complex at the heart of Beijing, home to Chinese emperors for nearly 500 years.",
+        "mixology": "The Forbidden City was off-limits to ordinary people for centuries, the exclusive domain of the emperor and his court.",
+        "examples": "With nearly a thousand buildings, it is the largest preserved ancient wooden architecture complex in the world."
+       }
+      },
+      {
+       "name": "Burj Khalifa",
+       "slug": "burj",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The skyscraper in Dubai that is the tallest building in the world, soaring over 828 meters high.",
+        "mixology": "The Burj Khalifa shattered height records on its 2010 completion and remains the tallest structure ever built.",
+        "examples": "Its design draws on Islamic architecture and a desert flower, and it anchors Dubai's transformation into a global city."
+       }
+      },
+      {
+       "name": "Marina Bay Sands",
+       "slug": "marina",
+       "color": "#c0504d",
+       "panel": {
+        "origin": "The striking three-tower hotel in Singapore, topped by a vast boat-shaped 'SkyPark' spanning all three.",
+        "mixology": "Marina Bay Sands features a famous rooftop infinity pool and observation deck bridging its three towers.",
+        "examples": "Opened in 2010, its bold, futuristic silhouette quickly became one of the most recognizable symbols of modern Singapore."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "THE AMERICAS",
+   "color": "#3f8f6a",
+   "textColor": "#06231a",
+   "sub": [
+    {
+     "name": "THE AMERICAS",
+     "color": "#3f8f6a",
+     "descriptors": [
+      {
+       "name": "Statue of Liberty",
+       "slug": "liberty",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The colossal copper statue in New York Harbor, a gift from France and an enduring symbol of freedom and welcome.",
+        "mixology": "The Statue of Liberty greeted millions of immigrants arriving by ship and symbolizes liberty and democracy.",
+        "examples": "A gift from the people of France in 1886, its torch-bearing figure represents Libertas, the Roman goddess of freedom."
+       }
+      },
+      {
+       "name": "Machu Picchu",
+       "slug": "machu",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The remarkably preserved 15th-century Inca city set high on a ridge in the Andes Mountains of Peru.",
+        "mixology": "Machu Picchu was unknown to the outside world until 1911, hidden in the mountains and never found by Spanish conquerors.",
+        "examples": "Its sophisticated dry-stone construction and dramatic setting make it one of the most celebrated archaeological sites on Earth."
+       }
+      },
+      {
+       "name": "Christ the Redeemer",
+       "slug": "christ",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The enormous Art Deco statue of Jesus Christ overlooking Rio de Janeiro from atop Corcovado mountain.",
+        "mixology": "Christ the Redeemer, with arms outstretched over the city, is one of the most recognizable monuments in the world.",
+        "examples": "Completed in 1931, the nearly 30-meter statue has become the defining symbol of Rio de Janeiro and of Brazil itself."
+       }
+      },
+      {
+       "name": "Grand Canyon",
+       "slug": "grandcanyon",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The immense gorge carved by the Colorado River in Arizona, a mile deep and up to 18 miles wide.",
+        "mixology": "The Grand Canyon exposes nearly two billion years of geologic history in its colorful layered rock walls.",
+        "examples": "Carved over millions of years by the river, its staggering scale and beauty draw millions of visitors to its rim each year."
+       }
+      },
+      {
+       "name": "Golden Gate Bridge",
+       "slug": "goldengate",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The iconic suspension bridge spanning the strait between San Francisco Bay and the Pacific Ocean.",
+        "mixology": "The Golden Gate Bridge was the longest suspension bridge in the world when it opened in 1937.",
+        "examples": "Its distinctive 'International Orange' color was chosen to enhance visibility in fog and complement the natural surroundings."
+       }
+      },
+      {
+       "name": "Chichen Itza",
+       "slug": "chichen",
+       "color": "#3f8f6a",
+       "panel": {
+        "origin": "The large pre-Columbian Maya city in Mexico's Yucatan, dominated by the step-pyramid known as El Castillo.",
+        "mixology": "At Chichen Itza, the equinox sun casts a shadow that appears as a serpent slithering down the pyramid's staircase.",
+        "examples": "This astronomical alignment reflects the Maya's profound knowledge of the cosmos, encoded directly into their architecture."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AFRICA & MIDDLE EAST",
+   "color": "#7e57c2",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "AFRICA & MIDDLE EAST",
+     "color": "#7e57c2",
+     "descriptors": [
+      {
+       "name": "Great Sphinx",
+       "slug": "sphinx",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The colossal limestone statue of a reclining creature with a human head and a lion's body, beside the Giza pyramids.",
+        "mixology": "The Great Sphinx is among the world's largest and oldest monumental sculptures, guarding the Giza plateau.",
+        "examples": "Carved from a single mass of bedrock around 2500 BCE, its missing nose and true purpose remain subjects of enduring fascination."
+       }
+      },
+      {
+       "name": "Victoria Falls",
+       "slug": "victoria",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The vast waterfall on the Zambezi River between Zambia and Zimbabwe, one of the largest in the world.",
+        "mixology": "Victoria Falls produces a spray and roar so immense it is known locally as 'the smoke that thunders.'",
+        "examples": "The indigenous name 'Mosi-oa-Tunya' captures the towering mist visible from miles away; it was named for Britain's Queen Victoria in 1855."
+       }
+      },
+      {
+       "name": "Mount Kilimanjaro",
+       "slug": "kilimanjaro",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The highest mountain in Africa and the tallest free-standing mountain in the world, rising from the plains of Tanzania.",
+        "mixology": "Kilimanjaro's snow-capped summit famously sits near the equator, towering over the surrounding savanna.",
+        "examples": "A dormant volcano, it is a popular climbing destination, though its iconic glaciers have been steadily retreating over recent decades."
+       }
+      },
+      {
+       "name": "Table Mountain",
+       "slug": "table",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The flat-topped mountain overlooking Cape Town, South Africa, often draped in a 'tablecloth' of cloud.",
+        "mixology": "Table Mountain's distinctive level summit makes it one of the most recognizable natural landmarks in Africa.",
+        "examples": "Among the oldest mountains on Earth, it is home to an extraordinarily rich and unique array of plant life found nowhere else."
+       }
+      },
+      {
+       "name": "Dome of the Rock",
+       "slug": "dome",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The iconic golden-domed Islamic shrine in Jerusalem, completed in 691 CE, one of the oldest works of Islamic architecture.",
+        "mixology": "The Dome of the Rock is built over a site of profound significance to multiple faiths in the Old City of Jerusalem.",
+        "examples": "Its brilliant golden dome and intricate tilework make it a defining feature of the Jerusalem skyline and a masterpiece of early Islamic art."
+       }
+      },
+      {
+       "name": "Hagia Sophia",
+       "slug": "hagia",
+       "color": "#7e57c2",
+       "panel": {
+        "origin": "The monumental domed building in Istanbul, which has served as a cathedral, a mosque, and a museum across nearly 1,500 years.",
+        "mixology": "Hagia Sophia's vast dome was an engineering wonder of the Byzantine world, unmatched in scale for centuries.",
+        "examples": "Built in 537 CE, it embodies the layered history of Istanbul, blending Christian and Islamic heritage in a single extraordinary structure."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "ANCIENT WONDERS": {
+   "en": "The Great Pyramid of Giza is the only Wonder of the Ancient World still substantially intact, and was the tallest structure on Earth for nearly 4,000 years."
+  },
+  "EUROPE": {
+   "en": "The Eiffel Tower was meant to be temporary and was nearly torn down — it was saved largely by its usefulness as a radio antenna."
+  },
+  "ASIA": {
+   "en": "The Burj Khalifa in Dubai is the tallest structure ever built, soaring over 828 meters into the sky."
+  },
+  "THE AMERICAS": {
+   "en": "Machu Picchu was unknown to the outside world until 1911, hidden so well in the Andes that Spanish conquerors never found it."
+  },
+  "AFRICA & MIDDLE EAST": {
+   "en": "Victoria Falls is known locally as 'Mosi-oa-Tunya' — 'the smoke that thunders' — for the towering mist visible from miles away."
+  }
+ },
+ "ui": {
+  "en": {
+   "title": "World Landmarks",
+   "origin": "Fact",
+   "chemistry": "",
+   "pairing": "",
+   "mixology": "Significance",
+   "examples": "Origin & Context",
+   "byline": "A StudySpinners reference wheel · © 2026 StudySpinners.com",
+   "search": "Search 30…",
+   "wheel": "Wheel",
+   "list": "List"
+  }
+ }
+}

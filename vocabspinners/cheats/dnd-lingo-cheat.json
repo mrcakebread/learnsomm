@@ -1,0 +1,755 @@
+{
+ "title": "D&D & Tabletop Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "CORE MECHANICS"
+  },
+  {
+   "name": "Dungeon Master (DM)",
+   "slug": "dm",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The Dungeon Master — the player who runs the game, narrates the world, controls non-player characters, and adjudicates the rules. Part storyteller, part referee."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The DM described the torchlit dungeon and asked what the party wanted to do next."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'Dungeons & Dragons', the original game. Other systems call this role the Game Master (GM) or Storyteller, but the DM's job — running the world — is the same."
+    }
+   ],
+   "name_es": "Dungeon Master (DM)",
+   "name_fr": "Dungeon Master (DM)",
+   "name_it": "Dungeon Master (DM)"
+  },
+  {
+   "name": "Dice / d20",
+   "slug": "dice",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The polyhedral dice that drive the game's randomness. The twenty-sided 'd20' is iconic, but sets include d4, d6, d8, d10, and d12 too."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She scooped up her dice and rolled the d20, holding her breath as it tumbled."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Dice' is ancient, but the polyhedral set is RPG signature. 'd20' means 'a die with 20 sides' — the 'd' notation (d6, d8) is universal tabletop shorthand."
+    }
+   ],
+   "name_es": "Dice / d20",
+   "name_fr": "Dice / d20",
+   "name_it": "Dice / d20"
+  },
+  {
+   "name": "Roll / Check",
+   "slug": "roll",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Rolling dice to determine an outcome. A 'check' tests a skill against a target number — the core 'roll the dice and add your bonus' resolution of the game."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He had to roll a Stealth check to sneak past the sleeping guard."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'roll' of dice. The 'roll plus modifier versus a target' mechanic is the heartbeat of most tabletop RPGs — chance shaped by character ability."
+    }
+   ],
+   "name_es": "Roll / Check",
+   "name_fr": "Roll / Check",
+   "name_it": "Roll / Check"
+  },
+  {
+   "name": "Difficulty Class (DC)",
+   "slug": "dc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Difficulty Class — the target number a player must meet or beat on a roll to succeed at a task. The DM sets the DC based on how hard the action is."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The DM set a DC of 15 for the tricky lock, and her roll just cleared it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'class' (level) of 'difficulty'. A higher DC means a harder task — the simple dial a DM turns to make challenges easy or daunting."
+    }
+   ],
+   "name_es": "Difficulty Class (DC)",
+   "name_fr": "Difficulty Class (DC)",
+   "name_it": "Difficulty Class (DC)"
+  },
+  {
+   "name": "Advantage / Disadvantage",
+   "slug": "advantage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Advantage' lets you roll two dice and take the higher; 'disadvantage' makes you take the lower. An elegant way to reflect favorable or unfavorable circumstances."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Flanking the enemy, she attacked with advantage, rolling twice and keeping the better result."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A signature mechanic of D&D's fifth edition, replacing fiddly bonuses with a clean roll-twice system that intuitively models good and bad situations."
+    }
+   ],
+   "name_es": "Advantage / Disadvantage",
+   "name_fr": "Advantage / Disadvantage",
+   "name_it": "Advantage / Disadvantage"
+  },
+  {
+   "name": "Modifier",
+   "slug": "modifier",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A number added to or subtracted from a dice roll, based on a character's abilities, skills, or circumstances. Your modifiers turn a raw roll into a result."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a +5 modifier to Athletics, his climbing rolls were reliably strong."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'modify' — the bonus or penalty 'modifies' the raw die. Modifiers are how a character's training and talent tilt the odds in their favor (or against)."
+    }
+   ],
+   "name_es": "Modifier",
+   "name_fr": "Modifier",
+   "name_it": "Modifier"
+  },
+  {
+   "name": "Nat 20 / Nat 1",
+   "slug": "nat-twenty",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'natural 20' is rolling a 20 on the d20 before modifiers — often a critical success. A 'natural 1' is the opposite: an automatic, often comical failure."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She rolled a nat 20 on the impossible leap, and the whole table cheered."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Natural' means the die's raw face value, unmodified. The nat 20 (triumph) and nat 1 (disaster) are tabletop's most dramatic, celebrated, and dreaded rolls."
+    }
+   ],
+   "name_es": "Nat 20 / Nat 1",
+   "name_fr": "Nat 20 / Nat 1",
+   "name_it": "Nat 20 / Nat 1"
+  },
+  {
+   "name": "Campaign",
+   "slug": "campaign",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An ongoing series of connected game sessions forming a continuous story. A campaign can span months or years as characters grow and the plot unfolds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their campaign had run for two years, the characters evolving from nobodies to legendary heroes."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the military sense of a 'campaign' (a connected series of operations). It's the long-form story arc that distinguishes RPGs from one-off board games."
+    }
+   ],
+   "name_es": "Campaign",
+   "name_fr": "Campaign",
+   "name_it": "Campaign"
+  },
+  {
+   "cat": "CHARACTER & STATS"
+  },
+  {
+   "name": "Class",
+   "slug": "class",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A character's profession or archetype — Fighter, Wizard, Rogue, Cleric — defining their abilities, role, and play style. The core of who your character is."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He chose the Wizard class, trading toughness for a spellbook full of devastating magic."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'class' (a category or type). A character's class determines their powers and role in the party — the fundamental build choice in most RPGs."
+    }
+   ],
+   "name_es": "Class",
+   "name_fr": "Class",
+   "name_it": "Class"
+  },
+  {
+   "name": "Race / Species",
+   "slug": "race",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A character's species or ancestry — Human, Elf, Dwarf, Halfling — granting distinct traits and flavor. Many games now use 'species' or 'ancestry' instead."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She played a Dwarf, gaining darkvision and a sturdy resistance to poison."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'race' in the older sense of a kind or lineage. Modern games increasingly prefer 'species' or 'ancestry' to describe a character's heritage and innate traits."
+    }
+   ],
+   "name_es": "Race / Species",
+   "name_fr": "Race / Species",
+   "name_it": "Race / Species"
+  },
+  {
+   "name": "Level",
+   "slug": "level",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A measure of a character's power and experience. Characters 'level up' by earning experience points, gaining new abilities and growing stronger over time."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After defeating the dragon, the party leveled up, unlocking powerful new abilities."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'level' (a rank or stage). Leveling up — the satisfying climb from weak novice to mighty hero — is one of the RPG's most rewarding loops."
+    }
+   ],
+   "name_es": "Level",
+   "name_fr": "Level",
+   "name_it": "Level"
+  },
+  {
+   "name": "Ability Scores",
+   "slug": "ability-scores",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The six core statistics defining a character: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. They underpin nearly every roll."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He dumped his Charisma to boost Strength, building a mighty but socially hopeless warrior."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The numerical foundation of a character. These six scores (often rolled or assigned at creation) feed the modifiers behind almost every action in the game."
+    }
+   ],
+   "name_es": "Ability Scores",
+   "name_fr": "Ability Scores",
+   "name_it": "Ability Scores"
+  },
+  {
+   "name": "Hit Points (HP)",
+   "slug": "hp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Hit Points — a measure of how much damage a character can take before falling unconscious or dying. HP drops as you're hurt and is restored by rest or healing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down to her last few hit points, she desperately quaffed a healing potion."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of how many 'hits' a character can take. HP is the universal health bar of RPGs — reach zero and your hero is in mortal trouble."
+    }
+   ],
+   "name_es": "Hit Points (HP)",
+   "name_fr": "Hit Points (HP)",
+   "name_it": "Hit Points (HP)"
+  },
+  {
+   "name": "Armor Class (AC)",
+   "slug": "armor-class",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Armor Class — a number representing how hard a character is to hit. An attacker must roll equal to or above your AC to land a blow. Higher AC means tougher to strike."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The knight's heavy plate gave him an armor class so high most blows simply glanced off."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'class' (rating) of one's 'armor' and defenses. AC is the target number attackers must beat — the core of whether a hit connects."
+    }
+   ],
+   "name_es": "Armor Class (AC)",
+   "name_fr": "Armor Class (AC)",
+   "name_it": "Armor Class (AC)"
+  },
+  {
+   "name": "Alignment",
+   "slug": "alignment",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A character's moral and ethical outlook, plotted on two axes (good–evil, lawful–chaotic). 'Chaotic Good' or 'Lawful Evil' sketch a character's guiding principles."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her Chaotic Good rogue stole from tyrants but always shared the spoils with the poor."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A nine-box grid from early D&D crossing law-vs-chaos with good-vs-evil. A shorthand (and endless debate topic) for a character's moral compass."
+    }
+   ],
+   "name_es": "Alignment",
+   "name_fr": "Alignment",
+   "name_it": "Alignment"
+  },
+  {
+   "cat": "COMBAT & MAGIC"
+  },
+  {
+   "name": "Initiative",
+   "slug": "initiative",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A roll at the start of combat that determines turn order. Higher initiative acts first — crucial for getting your blows in before the enemy."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She rolled high on initiative and struck first, before the goblins could even react."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'initiative' (the right to begin). The initiative roll sets the sequence of a battle, deciding who seizes the first, often decisive, move."
+    }
+   ],
+   "name_es": "Initiative",
+   "name_fr": "Initiative",
+   "name_it": "Initiative"
+  },
+  {
+   "name": "Action / Bonus Action",
+   "slug": "action",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "On your turn, you typically get one main 'action' (attack, cast a spell) plus possibly a 'bonus action' for quicker moves. Managing your actions is core to combat tactics."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He used his action to attack and his bonus action to dash out of danger."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'action' (a thing done). The action economy — what you can do in a single turn — is the tactical puzzle at the heart of RPG combat."
+    }
+   ],
+   "name_es": "Action / Bonus Action",
+   "name_fr": "Action / Bonus Action",
+   "name_it": "Action / Bonus Action"
+  },
+  {
+   "name": "Spell Slot",
+   "slug": "spell-slot",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A limited resource representing a spellcaster's daily magical energy. Casting a spell expends a slot of the appropriate level, recovered after a rest."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down to her last spell slot, the wizard saved it for an emergency."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: a 'slot' that holds a spell's energy. The system limits how much magic a caster can unleash before resting, forcing careful resource management."
+    }
+   ],
+   "name_es": "Spell Slot",
+   "name_fr": "Spell Slot",
+   "name_it": "Spell Slot"
+  },
+  {
+   "name": "Cantrip",
+   "slug": "cantrip",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A minor spell that can be cast at will, without using a spell slot. Cantrips are a caster's reliable, unlimited basic magic."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Out of spell slots, the wizard fell back on his trusty Fire Bolt cantrip."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An old word for a magic trick or charm (from Scots). In RPGs, cantrips are the simplest spells — weak but endlessly repeatable, a caster's basic attack."
+    }
+   ],
+   "name_es": "Cantrip",
+   "name_fr": "Cantrip",
+   "name_it": "Cantrip"
+  },
+  {
+   "name": "Saving Throw",
+   "slug": "saving-throw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A roll to resist or avoid a harmful effect — dodging a fireball, shrugging off poison, resisting a charm. Your last line of defense against danger."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He made his saving throw against the dragon's breath, taking only half the damage."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'save' (to avoid harm). The saving throw is the defender's roll — a chance to 'save' yourself from spells, traps, and effects that would otherwise hit full force."
+    }
+   ],
+   "name_es": "Saving Throw",
+   "name_fr": "Saving Throw",
+   "name_it": "Saving Throw"
+  },
+  {
+   "name": "Area of Effect",
+   "slug": "aoe-d",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Area of Effect — a spell or attack that strikes everything in a region, like a fireball engulfing a room. AoE rewards catching enemies bunched together."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The wizard dropped a fireball, an area of effect that caught the whole cluster of orcs."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from broader gaming. An 'area of effect' spell hits a zone rather than one target — devastating against grouped foes, risky near allies."
+    }
+   ],
+   "name_es": "Area of Effect",
+   "name_fr": "Area of Effect",
+   "name_it": "Area of Effect"
+  },
+  {
+   "name": "Critical Hit",
+   "slug": "crit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A Critical Hit — rolling a natural 20 on an attack, dealing extra damage (often double dice). The thrilling jackpot of combat rolls."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her natural 20 scored a crit, and the doubled damage felled the boss in one blow."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'critical hit'. Triggered by a natural 20, the crit is combat's big payoff — a moment of doubled damage and table-wide excitement."
+    }
+   ],
+   "name_es": "Critical Hit",
+   "name_fr": "Critical Hit",
+   "name_it": "Critical Hit"
+  },
+  {
+   "cat": "THE TABLE & ROLES"
+  },
+  {
+   "name": "Party",
+   "slug": "party",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The group of player characters adventuring together. The party is the team at the heart of the game, ideally balancing different classes and roles."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The party of four — a fighter, wizard, cleric, and rogue — set out into the dungeon together."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'party' (a group with a shared purpose, as in a 'search party'). The adventuring party is the cooperative core of the tabletop experience."
+    }
+   ],
+   "name_es": "Party",
+   "name_fr": "Party",
+   "name_it": "Party"
+  },
+  {
+   "name": "NPC",
+   "slug": "npc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Non-Player Character — anyone in the game world controlled by the DM rather than a player: shopkeepers, villains, allies, and quest-givers."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The mysterious NPC in the tavern offered them a map in exchange for a dangerous favor."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'non-player character', borrowed across all of gaming. NPCs populate the world the players move through, voiced and run by the DM."
+    }
+   ],
+   "name_es": "NPC",
+   "name_fr": "NPC",
+   "name_it": "NPC"
+  },
+  {
+   "name": "Session Zero",
+   "slug": "session-zero",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A preliminary meeting before a campaign begins, where the group sets expectations, creates characters, and agrees on tone, rules, and boundaries."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "At session zero, they agreed on the campaign's tone and drew up everyone's backstories together."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named as the 'zeroth' session before play begins. A modern best practice for aligning the group's expectations and avoiding conflicts down the road."
+    }
+   ],
+   "name_es": "Session Zero",
+   "name_fr": "Session Zero",
+   "name_it": "Session Zero"
+  },
+  {
+   "name": "Encounter",
+   "slug": "encounter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A discrete challenge the party faces — a fight, a puzzle, a negotiation, a trap. Encounters are the building blocks of an adventure's action."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The next encounter was a tense standoff with bandits that could turn to violence or talk."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'encounter' (a meeting, often hostile). Each distinct challenge — combat or otherwise — is an 'encounter', the unit DMs use to pace an adventure."
+    }
+   ],
+   "name_es": "Encounter",
+   "name_fr": "Encounter",
+   "name_it": "Encounter"
+  },
+  {
+   "name": "Homebrew",
+   "slug": "homebrew",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Custom content created by the DM or players rather than from official rulebooks — homemade monsters, items, rules, or entire worlds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The DM ran a homebrew world of her own design, full of custom monsters and lore."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From home-brewing (making your own beer). It captures the do-it-yourself spirit of crafting your own game material instead of relying on published books."
+    }
+   ],
+   "name_es": "Homebrew",
+   "name_fr": "Homebrew",
+   "name_it": "Homebrew"
+  },
+  {
+   "name": "Railroading",
+   "slug": "railroading",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a DM forces the party down a predetermined path, removing meaningful choice. A common criticism of overly controlling game-running."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The players felt railroaded when every alternative they tried was mysteriously blocked."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From a train 'railroaded' onto fixed tracks. It describes a DM funneling players along a rigid plot, denying them the agency that makes RPGs special."
+    }
+   ],
+   "name_es": "Railroading",
+   "name_fr": "Railroading",
+   "name_it": "Railroading"
+  },
+  {
+   "name": "Loot / Treasure",
+   "slug": "loot-d",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The treasure, gear, gold, and magic items the party earns from adventures. Distributing loot fairly is a perennial source of both joy and table drama."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The dragon's hoard yielded enough loot to outfit the entire party in magic gear."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'loot' (plunder). The reward for victory — gold, weapons, and magic items — and the cause of countless good-natured (and not-so-good-natured) party arguments."
+    }
+   ],
+   "name_es": "Loot / Treasure",
+   "name_fr": "Loot / Treasure",
+   "name_it": "Loot / Treasure"
+  },
+  {
+   "cat": "TABLE SLANG"
+  },
+  {
+   "name": "Min-Maxing",
+   "slug": "min-maxing",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Optimizing a character to maximize strengths and minimize weaknesses, squeezing out peak mechanical power — sometimes at the expense of roleplay or balance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His min-maxed build hit like a truck but couldn't hold a conversation to save his life."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'minimize' and 'maximize'. The min-maxer dumps unimportant stats to push key ones to the limit, chasing raw effectiveness over rounded character."
+    }
+   ],
+   "name_es": "Min-Maxing",
+   "name_fr": "Min-Maxing",
+   "name_it": "Min-Maxing"
+  },
+  {
+   "name": "Murder Hobo",
+   "slug": "murder-hobo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a player whose character solves every problem with violence and has no home, ties, or restraint — wandering the land killing and looting."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The party devolved into murder hobos, attacking every NPC instead of talking to them."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A vivid compound: a homeless ('hobo') wanderer who murders their way through the world. A gently mocking term for a thoughtlessly violent play style."
+    }
+   ],
+   "name_es": "Murder Hobo",
+   "name_fr": "Murder Hobo",
+   "name_it": "Murder Hobo"
+  },
+  {
+   "name": "TPK",
+   "slug": "tpk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Total Party Kill — when every player character dies in a single encounter. The catastrophic, campaign-ending (or restarting) wipeout every party dreads."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A single misjudged fight against the dragon ended in a brutal TPK."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'total party kill'. The ultimate disaster — the whole party wiped out at once — feared, mourned, and sometimes laughed about for years after."
+    }
+   ],
+   "name_es": "TPK",
+   "name_fr": "TPK",
+   "name_it": "TPK"
+  },
+  {
+   "name": "Metagaming",
+   "slug": "metagaming",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Using out-of-character knowledge (player knowledge) to make in-character decisions your character wouldn't actually know. Generally frowned upon as breaking immersion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "It was metagaming for her to avoid the trap her character had no way of knowing about."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'meta' (above/beyond the game). Acting on knowledge from outside the fiction — that a monster is weak to fire, say — when the character couldn't know it."
+    }
+   ],
+   "name_es": "Metagaming",
+   "name_fr": "Metagaming",
+   "name_it": "Metagaming"
+  },
+  {
+   "name": "Rules Lawyer",
+   "slug": "rules-lawyer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A player who frequently invokes and argues the precise rules, often to their advantage. Helpful when the group's stuck, exhausting when it derails play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The rules lawyer paused the game for ten minutes to debate the exact wording of the spell."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound likening the player to a 'lawyer' arguing the letter of the 'rules'. Their precision can clarify or, when overdone, grind the fun to a halt."
+    }
+   ],
+   "name_es": "Rules Lawyer",
+   "name_fr": "Rules Lawyer",
+   "name_it": "Rules Lawyer"
+  },
+  {
+   "name": "Crit Fail",
+   "slug": "crit-fail",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A Critical Failure — rolling a natural 1, often causing an automatic, sometimes catastrophically funny failure. The dreaded flip side of the crit."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His nat 1 crit-fail sent the arrow flying backward into his own ally."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Short for 'critical failure'. The natural 1's comic disaster — many tables add house rules turning it into spectacular, memorable mishaps."
+    }
+   ],
+   "name_es": "Crit Fail",
+   "name_fr": "Crit Fail",
+   "name_it": "Crit Fail"
+  }
+ ]
+}

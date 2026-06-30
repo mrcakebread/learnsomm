@@ -1,0 +1,755 @@
+{
+ "title": "Photography Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "THE EXPOSURE TRIANGLE"
+  },
+  {
+   "name": "Aperture / f-stop",
+   "slug": "aperture",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The opening in a lens that controls how much light enters, measured in f-stops. It also governs depth of field — how much of the image is in focus."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She opened the aperture to f/1.8 to blur the background and let in more light."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'apertura' (an opening). Confusingly, smaller f-numbers mean a wider opening — f/1.8 is wide open, f/16 is a tiny pinhole."
+    }
+   ],
+   "name_es": "Aperture / f-stop",
+   "name_fr": "Aperture / f-stop",
+   "name_it": "Aperture / f-stop"
+  },
+  {
+   "name": "Shutter Speed",
+   "slug": "shutter-speed",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How long the camera's shutter stays open to expose the sensor, measured in fractions of a second. It controls motion — freezing or blurring it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A fast shutter speed of 1/2000 froze the splashing water in midair."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of how quickly the shutter opens and closes. Fast speeds freeze action; slow speeds blur it, capturing motion as streaks of light."
+    }
+   ],
+   "name_es": "Shutter Speed",
+   "name_fr": "Shutter Speed",
+   "name_it": "Shutter Speed"
+  },
+  {
+   "name": "ISO",
+   "slug": "iso",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The sensor's sensitivity to light. Low ISO gives clean images in bright light; high ISO brightens dark scenes but adds graininess ('noise')."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He cranked the ISO to 6400 to shoot the dim concert, accepting some grain for a usable shot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the International Organization for Standardization, which standardized film sensitivity ratings — a system carried over to digital sensors."
+    }
+   ],
+   "name_es": "ISO",
+   "name_fr": "ISO",
+   "name_it": "ISO"
+  },
+  {
+   "name": "Exposure",
+   "slug": "exposure",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The overall brightness of an image, determined by the balance of aperture, shutter speed, and ISO — the 'exposure triangle.' Too much is overexposed; too little, under."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She nailed the exposure, capturing detail in both the bright sky and the shadowed rocks."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'expose' — the sensor or film is 'exposed' to light. The three controls trade off against each other, the fundamental balancing act of photography."
+    }
+   ],
+   "name_es": "Exposure",
+   "name_fr": "Exposure",
+   "name_it": "Exposure"
+  },
+  {
+   "name": "Stop",
+   "slug": "stop",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A unit of light measurement. Each 'stop' doubles or halves the light — a key concept tying together aperture, shutter, and ISO adjustments."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He brightened the shot by one stop, doubling the light hitting the sensor."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the historical lens 'stops' (physical plates with holes). One stop is a doubling or halving of light — the universal currency of exposure adjustments."
+    }
+   ],
+   "name_es": "Stop",
+   "name_fr": "Stop",
+   "name_it": "Stop"
+  },
+  {
+   "name": "Over / Underexposed",
+   "slug": "overexposed",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Overexposed' images are too bright, losing detail in the highlights; 'underexposed' images are too dark, losing detail in the shadows. Both lose information."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The snowy scene came out overexposed, the bright drifts washed to featureless white."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: 'over' or 'under' the ideal amount of exposure. Lost highlight or shadow detail often can't be recovered, making correct exposure critical."
+    }
+   ],
+   "name_es": "Over / Underexposed",
+   "name_fr": "Over / Underexposed",
+   "name_it": "Over / Underexposed"
+  },
+  {
+   "name": "Metering",
+   "slug": "metering",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How the camera measures the light in a scene to suggest an exposure. Different metering modes weigh the frame differently — the whole scene, the center, or a spot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She switched to spot metering to expose correctly for the backlit subject's face."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'meter' (to measure). The light meter reads the scene's brightness; the mode determines which parts of the frame it prioritizes."
+    }
+   ],
+   "name_es": "Metering",
+   "name_fr": "Metering",
+   "name_it": "Metering"
+  },
+  {
+   "name": "Histogram",
+   "slug": "histogram",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A graph showing the distribution of brightness in an image, from dark (left) to light (right). A precise tool for judging exposure beyond the screen."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The histogram bunched against the right edge, warning him the highlights were clipping."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'histos' (mast, web) + 'gramma' (drawing) — a statistical bar chart adapted to show how an image's tones are distributed."
+    }
+   ],
+   "name_es": "Histogram",
+   "name_fr": "Histogram",
+   "name_it": "Histogram"
+  },
+  {
+   "cat": "LENS & FOCUS"
+  },
+  {
+   "name": "Focal Length",
+   "slug": "focal-length",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The lens measurement (in millimeters) that determines magnification and angle of view. Short focal lengths see wide; long ones zoom in tight."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He switched to a 200mm focal length to fill the frame with the distant bird."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Technically the distance from the lens's optical center to the sensor when focused at infinity. In practice, it's the number that tells you how 'zoomed in' a lens is."
+    }
+   ],
+   "name_es": "Focal Length",
+   "name_fr": "Focal Length",
+   "name_it": "Focal Length"
+  },
+  {
+   "name": "Depth of Field",
+   "slug": "depth-of-field",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How much of the image, from front to back, appears in sharp focus. 'Shallow' depth blurs all but the subject; 'deep' depth keeps everything sharp."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A shallow depth of field threw the busy background into a creamy blur, isolating the portrait."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'depth' of the zone that's in 'field' (focus). Controlled mainly by aperture, it's a primary creative tool for directing the viewer's eye."
+    }
+   ],
+   "name_es": "Depth of Field",
+   "name_fr": "Depth of Field",
+   "name_it": "Depth of Field"
+  },
+  {
+   "name": "Bokeh",
+   "slug": "bokeh",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The aesthetic quality of the out-of-focus areas in an image, especially blurred points of light rendered as soft orbs. Prized for its dreamy look."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The fairy lights melted into beautiful round bokeh behind the subject."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Japanese 'boke' (blur, haze). It refers not to the amount of blur but its pleasing quality — the character of how a lens renders what's out of focus."
+    }
+   ],
+   "name_es": "Bokeh",
+   "name_fr": "Bokeh",
+   "name_it": "Bokeh"
+  },
+  {
+   "name": "Prime vs. Zoom",
+   "slug": "prime-zoom",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'prime' lens has one fixed focal length; a 'zoom' lens covers a range. Primes are sharper and faster; zooms are more versatile."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She loved her prime for its razor sharpness but packed a zoom for travel flexibility."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Prime' from the sense of fixed or fundamental; 'zoom' from the variable lens that lets you zoom in and out. A classic tradeoff of quality versus convenience."
+    }
+   ],
+   "name_es": "Prime vs. Zoom",
+   "name_fr": "Prime vs. Zoom",
+   "name_it": "Prime vs. Zoom"
+  },
+  {
+   "name": "Wide / Telephoto",
+   "slug": "wide-telephoto",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'wide-angle' lens captures a broad view, exaggerating space; a 'telephoto' lens magnifies distant subjects, compressing space. Opposite ends of the lens spectrum."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He shot the sweeping landscape wide, then switched to telephoto to isolate a distant peak."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Wide' for the broad angle of view; 'telephoto' from Greek 'tele' (far) + 'photo' (light) — a lens that photographs faraway things up close."
+    }
+   ],
+   "name_es": "Wide / Telephoto",
+   "name_fr": "Wide / Telephoto",
+   "name_it": "Wide / Telephoto"
+  },
+  {
+   "name": "Macro",
+   "slug": "macro",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Extreme close-up photography that captures tiny subjects at life-size or greater magnification, revealing detail invisible to the naked eye."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her macro shot of the dewdrop revealed a tiny world reflected inside it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'makros' (large) — paradoxically, it makes small things appear large, magnifying insects, flowers, and textures to dramatic scale."
+    }
+   ],
+   "name_es": "Macro",
+   "name_fr": "Macro",
+   "name_it": "Macro"
+  },
+  {
+   "name": "Focus",
+   "slug": "focus",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The adjustment that makes the subject appear sharp and clear. A photo can be in focus, out of focus, or selectively focused on one element."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He locked focus on the runner's eyes, letting the rest of the frame fall soft."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'focus' (hearth, fireplace) — later adopted in optics for the point where light rays converge to form a sharp image."
+    }
+   ],
+   "name_es": "Focus",
+   "name_fr": "Focus",
+   "name_it": "Focus"
+  },
+  {
+   "cat": "LIGHT & COLOR"
+  },
+  {
+   "name": "White Balance",
+   "slug": "white-balance",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The setting that keeps colors accurate under different light sources, so white looks white whether under sunlight, shade, or indoor bulbs."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She corrected the white balance to remove the orange cast from the tungsten lamps."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: it 'balances' the image so whites render neutrally. Without it, photos pick up color casts — bluish in shade, orange under household bulbs."
+    }
+   ],
+   "name_es": "White Balance",
+   "name_fr": "White Balance",
+   "name_it": "White Balance"
+  },
+  {
+   "name": "Golden Hour",
+   "slug": "golden-hour",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The period shortly after sunrise and before sunset when light is soft, warm, and golden. Photographers' favorite natural light."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They scheduled the shoot for golden hour, when the low sun bathed everything in warm light."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the warm, golden quality of low-angle sunlight. The sun's low position softens shadows and casts a flattering glow prized for portraits and landscapes."
+    }
+   ],
+   "name_es": "Golden Hour",
+   "name_fr": "Golden Hour",
+   "name_it": "Golden Hour"
+  },
+  {
+   "name": "Hard / Soft Light",
+   "slug": "hard-soft",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Hard light' is direct and creates sharp, dark shadows and high contrast; 'soft light' is diffused, gentle, and creates gradual shadows. Two fundamental light qualities."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He diffused the harsh flash into soft light to flatter the subject's skin."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of how light renders shadows. A small or distant source (like the bare sun) is 'hard'; a large or diffused one (like an overcast sky) is 'soft'."
+    }
+   ],
+   "name_es": "Hard / Soft Light",
+   "name_fr": "Hard / Soft Light",
+   "name_it": "Hard / Soft Light"
+  },
+  {
+   "name": "Backlight",
+   "slug": "backlight",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Light coming from behind the subject, toward the camera. It can create silhouettes, glowing rim-light, or dramatic haze."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The backlight rimmed her hair with a glowing halo against the dark background."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the light is 'behind' the subject. Tricky to expose for, but it produces some of photography's most striking, luminous effects."
+    }
+   ],
+   "name_es": "Backlight",
+   "name_fr": "Backlight",
+   "name_it": "Backlight"
+  },
+  {
+   "name": "Fill Light",
+   "slug": "fill-light",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A secondary light (or reflector) used to brighten shadows created by the main light, reducing harsh contrast. It 'fills in' the dark areas."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A reflector bounced fill light into the shadows, softening the contrast on his face."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: it 'fills' the shadows with light. A core tool of lighting setups, balancing the brightness between the lit and shadowed sides of a subject."
+    }
+   ],
+   "name_es": "Fill Light",
+   "name_fr": "Fill Light",
+   "name_it": "Fill Light"
+  },
+  {
+   "name": "Color Temperature",
+   "slug": "color-temp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Color Temperature — a measure (in Kelvin) of how warm (orange) or cool (blue) a light source is. Candlelight is warm; midday sky is cool."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The warm 3000K bulbs gave the room a cozy glow, far warmer than cool daylight."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from physics, where heating an object shifts its glow from red to blue. Counterintuitively, lower Kelvin numbers look warmer, higher numbers cooler."
+    }
+   ],
+   "name_es": "Color Temperature",
+   "name_fr": "Color Temperature",
+   "name_it": "Color Temperature"
+  },
+  {
+   "name": "Dynamic Range",
+   "slug": "dynamic-range",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The range of brightness a camera can capture, from the darkest shadow to the brightest highlight, with detail retained. Wider range handles high-contrast scenes better."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The camera's wide dynamic range held detail in both the bright window and the dim room."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'dynamic' (range of variation) — the span between the faintest and strongest signal the sensor can record before losing detail to pure black or white."
+    }
+   ],
+   "name_es": "Dynamic Range",
+   "name_fr": "Dynamic Range",
+   "name_it": "Dynamic Range"
+  },
+  {
+   "cat": "COMPOSITION"
+  },
+  {
+   "name": "Rule of Thirds",
+   "slug": "rule-of-thirds",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A guideline that divides the frame into a 3×3 grid; placing key elements along the lines or intersections creates more balanced, dynamic images."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She placed the horizon on the lower third line rather than dead center for a more pleasing balance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A simplification of older artistic ideas about balanced composition. The off-center placement tends to feel more natural and engaging than centering everything."
+    }
+   ],
+   "name_es": "Rule of Thirds",
+   "name_fr": "Rule of Thirds",
+   "name_it": "Rule of Thirds"
+  },
+  {
+   "name": "Leading Lines",
+   "slug": "leading-lines",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Lines within an image (roads, fences, rivers) that guide the viewer's eye toward the subject or through the scene. A powerful compositional tool."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The winding road served as a leading line, drawing the eye toward the mountains beyond."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the lines 'lead' the viewer's gaze. Photographers hunt for natural lines to create depth and direct attention exactly where they want it."
+    }
+   ],
+   "name_es": "Leading Lines",
+   "name_fr": "Leading Lines",
+   "name_it": "Leading Lines"
+  },
+  {
+   "name": "Framing",
+   "slug": "framing",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Using elements in the scene (a doorway, branches, an arch) to surround and draw attention to the subject. A frame within the frame."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He used the stone archway for framing, the subject perfectly enclosed within it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal 'frame' — a foreground element that encloses the subject, adding depth, context, and focus, like a built-in picture frame."
+    }
+   ],
+   "name_es": "Framing",
+   "name_fr": "Framing",
+   "name_it": "Framing"
+  },
+  {
+   "name": "Negative Space",
+   "slug": "negative-space",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The empty or uncluttered area around a subject. Generous negative space can make a subject stand out and give an image room to breathe."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Vast negative space of empty sky left the lone tree small but powerfully isolated."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From art theory, where 'negative space' is the area around and between subjects. Used deliberately, emptiness becomes a powerful compositional element."
+    }
+   ],
+   "name_es": "Negative Space",
+   "name_fr": "Negative Space",
+   "name_it": "Negative Space"
+  },
+  {
+   "name": "Symmetry",
+   "slug": "symmetry",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A balanced composition where elements mirror each other across an axis. Symmetry creates a sense of order, harmony, and sometimes striking formality."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The reflection in the still lake created perfect symmetry, top and bottom mirroring exactly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'symmetria' (agreement in measure). Our eyes are drawn to symmetry; photographers use it for impact, or break it deliberately for tension."
+    }
+   ],
+   "name_es": "Symmetry",
+   "name_fr": "Symmetry",
+   "name_it": "Symmetry"
+  },
+  {
+   "name": "Foreground / Background",
+   "slug": "foreground",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Foreground' is what's nearest the camera; 'background' is what's farthest. Layering them creates depth in a two-dimensional image."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He placed flowers in the foreground and mountains in the background to build a sense of depth."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'fore' (front) and 'back' grounds of the scene. Using both gives a flat photograph the illusion of three-dimensional depth."
+    }
+   ],
+   "name_es": "Foreground / Background",
+   "name_fr": "Foreground / Background",
+   "name_it": "Foreground / Background"
+  },
+  {
+   "name": "Vantage Point",
+   "slug": "vantage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Vantage Point — the position and angle from which a photo is taken. Shooting from high, low, or unexpected angles transforms an ordinary subject."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "By crouching for a low vantage point, she made the small dog look heroic against the sky."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old French 'avantage' (advantage) — a 'vantage' point offers an advantageous view. Changing it is the simplest way to make a tired subject fresh."
+    }
+   ],
+   "name_es": "Vantage Point",
+   "name_fr": "Vantage Point",
+   "name_it": "Vantage Point"
+  },
+  {
+   "cat": "GEAR & SLANG"
+  },
+  {
+   "name": "RAW vs. JPEG",
+   "slug": "raw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'RAW' files capture all the sensor's data for maximum editing flexibility; 'JPEG' files are compressed and processed, smaller but less editable. A core workflow choice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She shot in RAW to have full latitude to recover highlights and adjust color later."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'RAW' (not an acronym, just the word) signals the unprocessed sensor data; JPEG is named for the Joint Photographic Experts Group that created the format."
+    }
+   ],
+   "name_es": "RAW vs. JPEG",
+   "name_fr": "RAW vs. JPEG",
+   "name_it": "RAW vs. JPEG"
+  },
+  {
+   "name": "Pixel Peeping",
+   "slug": "pixel-peeping",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Obsessively examining an image at extreme magnification to scrutinize fine detail and sharpness. Often a sign of fussing over gear instead of making pictures."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He spent the evening pixel-peeping, zooming to 200% to compare lens sharpness corner to corner."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A faintly mocking term for inspecting individual pixels — gear enthusiasts obsessing over technical minutiae that viewers would never notice."
+    }
+   ],
+   "name_es": "Pixel Peeping",
+   "name_fr": "Pixel Peeping",
+   "name_it": "Pixel Peeping"
+  },
+  {
+   "name": "Chimping",
+   "slug": "chimping",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Repeatedly checking the camera's rear screen after each shot, often with delight. The habit of reviewing instead of staying ready for the next moment."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Stop chimping and keep shooting — you'll miss the action staring at your last frame."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Said to come from the 'ooh-ooh' noises photographers make admiring their shots, likened to chimpanzees — a gently teasing bit of photographer slang."
+    }
+   ],
+   "name_es": "Chimping",
+   "name_fr": "Chimping",
+   "name_it": "Chimping"
+  },
+  {
+   "name": "Nifty Fifty",
+   "slug": "nifty-fifty",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Affectionate nickname for a 50mm prime lens, beloved for being cheap, sharp, fast, and versatile. Often a photographer's first 'real' lens upgrade."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Every beginner should grab a nifty fifty — it's the best value lens you can buy."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Rhyming slang celebrating the 50mm lens's 'nifty' combination of low price and high quality, a near-universal recommendation for new photographers."
+    }
+   ],
+   "name_es": "Nifty Fifty",
+   "name_fr": "Nifty Fifty",
+   "name_it": "Nifty Fifty"
+  },
+  {
+   "name": "Blown Out",
+   "slug": "blown-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes highlights so overexposed they've lost all detail, turning pure featureless white. Unrecoverable information, a common exposure error."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The bright sky was completely blown out, just a sheet of white where clouds should be."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of detail being 'blown out' or obliterated by excess light — the brightest areas clip to pure white with nothing left to recover."
+    }
+   ],
+   "name_es": "Blown Out",
+   "name_fr": "Blown Out",
+   "name_it": "Blown Out"
+  },
+  {
+   "name": "Tack Sharp",
+   "slug": "tack-sharp",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes an image in perfect, crisp focus — as sharp as a tack. The highest praise for image sharpness."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Shot on a tripod at the right settings, the landscape came out tack-sharp from edge to edge."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sharpness of a tack's point — vivid slang for an image so crisply focused that fine details are rendered with perfect clarity."
+    }
+   ],
+   "name_es": "Tack Sharp",
+   "name_fr": "Tack Sharp",
+   "name_it": "Tack Sharp"
+  }
+ ]
+}

@@ -1,0 +1,776 @@
+{
+ "title": "Music Theory & Slang — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "NOTES & PITCH"
+  },
+  {
+   "name": "Pitch",
+   "slug": "pitch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How high or low a sound is, determined by the frequency of its vibration. The foundation of melody and harmony."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She tuned each string until its pitch matched the note exactly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Old English roots tied to 'pitching' or throwing — the sense of where a tone is 'placed' on the high-low spectrum. Higher frequency means higher pitch."
+    }
+   ],
+   "name_es": "Pitch",
+   "name_fr": "Pitch",
+   "name_it": "Pitch"
+  },
+  {
+   "name": "Octave",
+   "slug": "octave",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The interval between one note and another with double its frequency — they sound like 'the same note' higher or lower. The basic repeating unit of pitch."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He sang the melody an octave higher, the same notes lifted up to a brighter range."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'octavus' (eighth) — it spans eight notes of the scale (C to C). The doubling of frequency makes the two notes blend almost into one."
+    }
+   ],
+   "name_es": "Octave",
+   "name_fr": "Octave",
+   "name_it": "Octave"
+  },
+  {
+   "name": "Scale",
+   "slug": "scale",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An ordered sequence of notes ascending or descending within an octave, following a specific pattern of steps. The raw material of melody."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The student practiced the C major scale up and down until her fingers knew it cold."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'scala' (ladder, staircase) — the notes climb like rungs of a ladder. Different step patterns create major, minor, and other scales."
+    }
+   ],
+   "name_es": "Scale",
+   "name_fr": "Scale",
+   "name_it": "Scale"
+  },
+  {
+   "name": "Key",
+   "slug": "key",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The group of notes (a scale) a piece is centered on, named for its home note — like 'the key of C.' It defines which notes sound 'at rest.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The song was in the key of G, so every melody gravitated back home to G."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a 'key' that unlocks or organizes — the key establishes the tonal home base around which the whole piece is built."
+    }
+   ],
+   "name_es": "Key",
+   "name_fr": "Key",
+   "name_it": "Key"
+  },
+  {
+   "name": "Interval",
+   "slug": "interval",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The distance in pitch between two notes. Intervals (a third, a fifth, an octave) are the building blocks of melody and harmony."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The leap of a perfect fifth gave the opening its bold, heroic sound."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'intervallum' (space between) — literally the gap between two pitches. Each interval has its own characteristic sound and emotional color."
+    }
+   ],
+   "name_es": "Interval",
+   "name_fr": "Interval",
+   "name_it": "Interval"
+  },
+  {
+   "name": "Sharp / Flat",
+   "slug": "sharp-flat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A 'sharp' (♯) raises a note by a half step; a 'flat' (♭) lowers it by a half step. They're how music reaches the notes between the natural ones."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He played F-sharp instead of F, nudging the note up a half step to fit the key."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Sharp' from the sense of a keener, higher edge; 'flat' from the sense of something lowered or dulled — the directions a note's pitch is bent."
+    }
+   ],
+   "name_es": "Sharp / Flat",
+   "name_fr": "Sharp / Flat",
+   "name_it": "Sharp / Flat"
+  },
+  {
+   "name": "Accidental",
+   "slug": "accidental",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sharp, flat, or natural sign that temporarily changes a note's pitch outside the key signature. Notes that color outside the lines."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The surprising accidental added a touch of tension before resolving back to the key."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of something incidental or out of the ordinary — these notes fall 'accidentally' outside the piece's established key."
+    }
+   ],
+   "name_es": "Accidental",
+   "name_fr": "Accidental",
+   "name_it": "Accidental"
+  },
+  {
+   "name": "Clef",
+   "slug": "clef",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A symbol at the start of the staff that fixes which pitches the lines and spaces represent. The treble and bass clefs are the most common."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She read the high notes in treble clef and the low ones in bass clef."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'clef' (key) — the clef is literally the 'key' that unlocks how to read the notes on the staff. The treble clef descends from a stylized letter G."
+    }
+   ],
+   "name_es": "Clef",
+   "name_fr": "Clef",
+   "name_it": "Clef"
+  },
+  {
+   "cat": "RHYTHM & TIME"
+  },
+  {
+   "name": "Tempo",
+   "slug": "tempo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The speed of the music — how fast or slow the beats go, often marked in beats per minute or with Italian terms like 'allegro' (fast)."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The conductor pushed the tempo, driving the orchestra to a thrilling, breakneck pace."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Italian for 'time'. Tempo markings (largo, andante, allegro, presto) have been written in Italian since the Baroque era, a universal musical language."
+    }
+   ],
+   "name_es": "Tempo",
+   "name_fr": "Tempo",
+   "name_it": "Tempo"
+  },
+  {
+   "name": "Time Signature",
+   "slug": "time-signature",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The two stacked numbers at the start of a piece showing how beats are grouped — the top counts beats per measure, the bottom names the beat's note value."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "In 3/4 time, each measure held three beats, giving the waltz its lilting sway."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: it 'signs' the metrical structure of time. 4/4 is so universal it's simply called 'common time', often marked with a 'C'."
+    }
+   ],
+   "name_es": "Time Signature",
+   "name_fr": "Time Signature",
+   "name_it": "Time Signature"
+  },
+  {
+   "name": "Beat",
+   "slug": "beat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The steady, recurring pulse of music — what you tap your foot or clap along to. The fundamental unit of musical time."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She felt the beat in her chest and clapped along on every downbeat."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a steady striking or pulsing. The beat is music's heartbeat — the regular pulse everything else is measured against."
+    }
+   ],
+   "name_es": "Beat",
+   "name_fr": "Beat",
+   "name_it": "Beat"
+  },
+  {
+   "name": "Measure / Bar",
+   "slug": "measure",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A segment of music containing a set number of beats, marked off by vertical bar lines. Also called a 'bar.' How music is divided for reading."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He counted four measures of rest before his entrance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Measure' from the sense of a measured portion; 'bar' from the vertical bar lines that fence each one off. The two terms are used interchangeably."
+    }
+   ],
+   "name_es": "Measure / Bar",
+   "name_fr": "Measure / Bar",
+   "name_it": "Measure / Bar"
+  },
+  {
+   "name": "Syncopation",
+   "slug": "syncopation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Placing emphasis on the off-beats or weak parts of the rhythm, against the expected pulse. The source of groove in jazz, funk, and much pop."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The syncopation pushed the accent onto the upbeats, giving the tune its irresistible swing."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'synkopē' (a cutting short) — the expected strong beat is 'cut' and the stress shifts off-balance, creating rhythmic surprise and drive."
+    }
+   ],
+   "name_es": "Syncopation",
+   "name_fr": "Syncopation",
+   "name_it": "Syncopation"
+  },
+  {
+   "name": "Rest",
+   "slug": "rest",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A symbol indicating silence — a measured pause where no note is played. Silence is as much a part of music as sound."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The dramatic rest before the final chord let the tension hang in the air."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'rest' (a pause). Each note value has a matching rest of equal duration; composers shape music with silence as deliberately as with sound."
+    }
+   ],
+   "name_es": "Rest",
+   "name_fr": "Rest",
+   "name_it": "Rest"
+  },
+  {
+   "name": "Meter",
+   "slug": "meter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The recurring pattern of strong and weak beats that organizes rhythm — like the ONE-two-three of a waltz or the ONE-two-three-four of a march."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The piece's triple meter gave it a graceful, circling momentum."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'metron' (measure) — the same root as poetic meter. It's the underlying pattern of stressed and unstressed beats that gives music its feel."
+    }
+   ],
+   "name_es": "Meter",
+   "name_fr": "Meter",
+   "name_it": "Meter"
+  },
+  {
+   "cat": "HARMONY & CHORDS"
+  },
+  {
+   "name": "Chord",
+   "slug": "chord",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Three or more notes played together as a unit. Chords provide the harmonic foundation that supports melody."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He strummed a single rich chord that filled the room with warmth."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'accord' (agreement, from Latin 'cor', heart) — the notes are in 'accord', sounding together. The 'a' was dropped over time to give 'chord'."
+    }
+   ],
+   "name_es": "Chord",
+   "name_fr": "Chord",
+   "name_it": "Chord"
+  },
+  {
+   "name": "Triad",
+   "slug": "triad",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The most basic chord, built of three notes stacked in thirds — a root, a third, and a fifth. The foundation of Western harmony."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The simple major triad — root, third, and fifth — gave the hymn its bright, stable sound."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'trias' (a group of three) — three notes forming the simplest complete chord. Major and minor triads are harmony's basic building blocks."
+    }
+   ],
+   "name_es": "Triad",
+   "name_fr": "Triad",
+   "name_it": "Triad"
+  },
+  {
+   "name": "Major / Minor",
+   "slug": "major-minor",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two contrasting tonalities: 'major' tends to sound bright, happy, or resolved; 'minor' tends to sound darker, sadder, or tense. The basic emotional colors of music."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Switching from major to minor turned the cheerful tune suddenly melancholy."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Major' from Latin for 'greater', 'minor' for 'lesser' — referring to the size of the defining third interval. The slight difference carries enormous emotional weight."
+    }
+   ],
+   "name_es": "Major / Minor",
+   "name_fr": "Major / Minor",
+   "name_it": "Major / Minor"
+  },
+  {
+   "name": "Chord Progression",
+   "slug": "progression",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sequence of chords played in succession. Chord progressions create the harmonic journey and emotional arc of a song."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The whole song rode on a four-chord progression that felt instantly familiar."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'progress' — the chords 'progress' from one to the next. Certain progressions are so satisfying they recur across thousands of songs."
+    }
+   ],
+   "name_es": "Chord Progression",
+   "name_fr": "Chord Progression",
+   "name_it": "Chord Progression"
+  },
+  {
+   "name": "Seventh Chord",
+   "slug": "seventh",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A chord with a fourth note added a seventh above the root, giving a richer, more colorful, often jazzy or unresolved sound."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The dominant seventh chord ached to resolve, pulling the ear toward home."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the interval of a seventh added atop the basic triad. The added note creates tension and color, central to jazz and blues harmony."
+    }
+   ],
+   "name_es": "Seventh Chord",
+   "name_fr": "Seventh Chord",
+   "name_it": "Seventh Chord"
+  },
+  {
+   "name": "Dissonance / Consonance",
+   "slug": "dissonance",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Dissonance' is a clashing, unstable sound that wants to resolve; 'consonance' is a stable, restful, pleasant sound. The tension and release that drives music."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The dissonance built unbearable tension until it finally melted into a consonant chord."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Dissonance' from Latin 'dissonare' (to sound apart); 'consonance' from 'consonare' (to sound together). Music breathes through their interplay of tension and rest."
+    }
+   ],
+   "name_es": "Dissonance / Consonance",
+   "name_fr": "Dissonance / Consonance",
+   "name_it": "Dissonance / Consonance"
+  },
+  {
+   "name": "Arpeggio",
+   "slug": "arpeggio",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The notes of a chord played one after another instead of all at once — a 'broken chord.' A staple of melody, accompaniment, and technique."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Instead of strumming, she played the chord as a flowing arpeggio, one note rippling into the next."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Italian 'arpeggiare' (to play the harp) — harpists naturally roll chord notes in sequence, the gesture that gave the technique its name."
+    }
+   ],
+   "name_es": "Arpeggio",
+   "name_fr": "Arpeggio",
+   "name_it": "Arpeggio"
+  },
+  {
+   "name": "Cadence",
+   "slug": "cadence",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sequence of chords that brings a musical phrase to a close, like punctuation. Cadences signal pauses, questions, or full stops in the music."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The piece ended on a strong, final cadence that left no doubt it was over."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'cadere' (to fall) — melodies often 'fall' to rest at a cadence. It's the musical equivalent of a comma, semicolon, or period."
+    }
+   ],
+   "name_es": "Cadence",
+   "name_fr": "Cadence",
+   "name_it": "Cadence"
+  },
+  {
+   "cat": "FORM & EXPRESSION"
+  },
+  {
+   "name": "Melody",
+   "slug": "melody",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A sequence of single notes heard as a coherent, memorable line — the 'tune' you hum. The part of music that usually sticks in your head."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Everyone left the concert humming the unforgettable melody."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'melōidia' (singing, song), from 'melos' (tune) + 'aoidē' (song) — the singable, linear thread that rides atop the harmony."
+    }
+   ],
+   "name_es": "Melody",
+   "name_fr": "Melody",
+   "name_it": "Melody"
+  },
+  {
+   "name": "Harmony",
+   "slug": "harmony-h",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Notes sounding together to support and enrich the melody. Harmony is the vertical dimension of music — what happens when pitches stack."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The backing singers added lush harmony beneath the lead vocal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'harmonia' (joining, agreement) — the art of combining simultaneous pitches into a pleasing whole, the counterpart to horizontal melody."
+    }
+   ],
+   "name_es": "Harmony",
+   "name_fr": "Harmony",
+   "name_it": "Harmony"
+  },
+  {
+   "name": "Dynamics",
+   "slug": "dynamics",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The volume of music and how it changes — from soft ('piano') to loud ('forte'), with swells and fades between. Dynamics shape drama and emotion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The dramatic dynamics swept from a barely-audible whisper to a thunderous climax."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'dynamis' (power, force). Marked with Italian terms (pp, p, mf, f, ff), dynamics give music its ebb and flow of intensity."
+    }
+   ],
+   "name_es": "Dynamics",
+   "name_fr": "Dynamics",
+   "name_it": "Dynamics"
+  },
+  {
+   "name": "Articulation",
+   "slug": "articulation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How individual notes are played and connected — smoothly ('legato'), short and detached ('staccato'), accented, and so on. The phrasing and 'touch' of music."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The crisp staccato articulation gave the passage a light, bouncing character."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'articulare' (to divide into joints) — articulation 'joints' the notes, defining how each is attacked, sustained, and released."
+    }
+   ],
+   "name_es": "Articulation",
+   "name_fr": "Articulation",
+   "name_it": "Articulation"
+  },
+  {
+   "name": "Motif",
+   "slug": "motif",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short, recurring musical idea — a few notes or a rhythm — that recurs and develops throughout a piece. A musical building block and signature."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The famous four-note motif returned again and again, transformed each time."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From French 'motif' (motive, theme), from Latin 'motivus' (moving) — a small idea that 'moves' through a work, unifying it. Beethoven's Fifth is the classic example."
+    }
+   ],
+   "name_es": "Motif",
+   "name_fr": "Motif",
+   "name_it": "Motif"
+  },
+  {
+   "name": "Modulation",
+   "slug": "modulation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Changing from one key to another within a piece. A modulation can lift, darken, or refresh the music as it shifts tonal home."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The final chorus modulated up a step, lifting the song to a triumphant new height."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'modulari' (to measure, regulate) — the music is 're-keyed' to a new tonal center. A well-placed modulation can feel like a sudden surge of energy."
+    }
+   ],
+   "name_es": "Modulation",
+   "name_fr": "Modulation",
+   "name_it": "Modulation"
+  },
+  {
+   "name": "Counterpoint",
+   "slug": "counterpoint",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The art of combining two or more independent melodies that sound good together. Each line stands alone, yet they interweave into harmony."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Bach's counterpoint wove several independent melodies into a single dazzling whole."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'punctus contra punctum' (point against point, i.e. note against note) — the interplay of independent melodic lines, the height of compositional craft."
+    }
+   ],
+   "name_es": "Counterpoint",
+   "name_fr": "Counterpoint",
+   "name_it": "Counterpoint"
+  },
+  {
+   "cat": "MUSICIAN SLANG"
+  },
+  {
+   "name": "Woodshedding",
+   "slug": "woodshed",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To 'woodshed' is to practice intensely and privately, drilling difficult material until you master it. The unglamorous grind behind every great performance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He woodshedded that solo for weeks before he dared play it on stage."
+    },
+    {
+     "k": "Origin & History",
+     "v": "American jazz slang, evoking a musician retreating to a backyard woodshed to practice alone, out of earshot, until the tough passages were conquered."
+    }
+   ],
+   "name_es": "Woodshedding",
+   "name_fr": "Woodshedding",
+   "name_it": "Woodshedding"
+  },
+  {
+   "name": "Chops",
+   "slug": "chops",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A musician's technical skill and ability on their instrument — especially speed, precision, and endurance. 'Great chops' means seriously skilled."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The young guitarist had serious chops, ripping through the fast runs effortlessly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Originally referring to a brass player's lip muscles (their 'chops', as in jaws), it broadened to mean technical command on any instrument."
+    }
+   ],
+   "name_es": "Chops",
+   "name_fr": "Chops",
+   "name_it": "Chops"
+  },
+  {
+   "name": "Axe",
+   "slug": "axe",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a musician's instrument — originally a guitar, but used for saxophones, basses, and others. Your axe is your weapon of choice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He showed up to the jam session with his axe slung over his shoulder."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Jazz slang dating to the mid-1900s, possibly likening the sweeping motion of playing a sax or the shape of a guitar to wielding an axe."
+    }
+   ],
+   "name_es": "Axe",
+   "name_fr": "Axe",
+   "name_it": "Axe"
+  },
+  {
+   "name": "In the Pocket",
+   "slug": "pocket",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "To play 'in the pocket' is to lock perfectly into the groove and timing, especially in a rhythm section. The feel of everything sitting just right."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The drummer and bassist were so in the pocket that the whole band floated on the groove."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of fitting snugly 'in the pocket' — the rhythm sits in exactly the right place, tight and effortless, the holy grail of groove."
+    }
+   ],
+   "name_es": "In the Pocket",
+   "name_fr": "In the Pocket",
+   "name_it": "In the Pocket"
+  },
+  {
+   "name": "Noodling",
+   "slug": "noodling",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Playing aimlessly or improvising casually without a real structure — doodling on an instrument. Fun and exploratory, but not focused practice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He was just noodling on the piano, wandering through ideas without playing any real song."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'noodle' in the sense of fiddling or improvising idly — the musical equivalent of doodling, meandering rather than purposeful playing."
+    }
+   ],
+   "name_es": "Noodling",
+   "name_fr": "Noodling",
+   "name_it": "Noodling"
+  },
+  {
+   "name": "Gig",
+   "slug": "gig",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A live musical engagement or performance job. From a single bar set to a stadium tour, a gig is any paid playing date."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The band landed a weekend gig at the downtown club."
+    },
+    {
+     "k": "Origin & History",
+     "v": "1920s jazz slang of uncertain origin; it spread from music to mean any job or engagement, eventually lending its name to the whole 'gig economy'."
+    }
+   ],
+   "name_es": "Gig",
+   "name_fr": "Gig",
+   "name_it": "Gig"
+  }
+ ]
+}

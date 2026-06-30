@@ -1,0 +1,755 @@
+{
+ "title": "Hockey Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "SCORING & PLAY"
+  },
+  {
+   "name": "Goal",
+   "slug": "goal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scored when the puck fully crosses the goal line into the net. The fundamental unit of scoring — most games are decided by just a few."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He snapped a wrist shot top corner for the game-winning goal with seconds left."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sense of 'goal' as a boundary or finish line. In hockey the puck must wholly cross the line between the posts and under the bar."
+    }
+   ],
+   "name_es": "Goal",
+   "name_fr": "Goal",
+   "name_it": "Goal"
+  },
+  {
+   "name": "Assist",
+   "slug": "assist",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Credit given to the one or two players who passed or set up a goal-scorer. Assists count as points alongside goals in a player's stats."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She threaded a perfect pass for the assist, setting up her linemate's easy tap-in."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'assist' (to help). Hockey uniquely rewards up to two helpers per goal, valuing playmaking nearly as much as finishing."
+    }
+   ],
+   "name_es": "Assist",
+   "name_fr": "Assist",
+   "name_it": "Assist"
+  },
+  {
+   "name": "Hat Trick",
+   "slug": "hat-trick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scoring three goals in a single game by one player. A celebrated feat, traditionally honored by fans throwing hats onto the ice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After his third goal, hats rained down from the stands to salute the hat trick."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Borrowed from cricket, where a bowler taking three wickets earned a new hat. The hat-throwing tradition cemented the term in hockey lore."
+    }
+   ],
+   "name_es": "Hat Trick",
+   "name_fr": "Hat Trick",
+   "name_it": "Hat Trick"
+  },
+  {
+   "name": "Power Play",
+   "slug": "power-play",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a team has more skaters than the opponent because of a penalty, giving them a temporary scoring advantage. A pivotal momentum swing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Up a man on the power play, they cycled the puck until a lane opened for the shot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the team 'plays' with a 'power' advantage in numbers. Converting power plays is often the difference between winning and losing."
+    }
+   ],
+   "name_es": "Power Play",
+   "name_fr": "Power Play",
+   "name_it": "Power Play"
+  },
+  {
+   "name": "Penalty Kill",
+   "slug": "penalty-kill",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When a team is short-handed due to a penalty and must defend without the puck advantage, trying to 'kill' the time until full strength returns."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Their penalty kill held firm, blocking shots and clearing the puck until the penalty expired."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the short-handed team works to 'kill off' the penalty time without conceding. A great PK can swing momentum back to the defending side."
+    }
+   ],
+   "name_es": "Penalty Kill",
+   "name_fr": "Penalty Kill",
+   "name_it": "Penalty Kill"
+  },
+  {
+   "name": "Breakaway",
+   "slug": "breakaway",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When an attacker gets behind the defense with a clear path to the goalie and no defenders to beat. A thrilling one-on-one scoring chance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He sprang a breakaway, racing in alone and deking the goalie for a highlight-reel goal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the player 'breaks away' free of the defense. The pure one-on-one duel with the goalie is one of hockey's most exciting moments."
+    }
+   ],
+   "name_es": "Breakaway",
+   "name_fr": "Breakaway",
+   "name_it": "Breakaway"
+  },
+  {
+   "name": "One-Timer",
+   "slug": "one-timer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Shooting the puck immediately upon receiving a pass, without stopping it first. A quick, powerful play that catches goalies out of position."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She blasted a one-timer off the cross-ice feed before the goalie could slide over."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the puck is struck in 'one' motion the moment it arrives. Timing it perfectly produces one of the hardest, fastest shots in the game."
+    }
+   ],
+   "name_es": "One-Timer",
+   "name_fr": "One-Timer",
+   "name_it": "One-Timer"
+  },
+  {
+   "name": "Empty-Netter",
+   "slug": "empty-netter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A goal scored into an open net after a trailing team has pulled its goalie for an extra attacker. The clinching goal that seals a win."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With the goalie pulled, she fired the puck the length of the ice for an empty-netter."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the net is 'empty' of a goalie. A team losing late pulls its goalie to attack, risking exactly this kind of game-sealing goal."
+    }
+   ],
+   "name_es": "Empty-Netter",
+   "name_fr": "Empty-Netter",
+   "name_it": "Empty-Netter"
+  },
+  {
+   "cat": "POSITIONS & ROLES"
+  },
+  {
+   "name": "Center",
+   "slug": "center",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The central forward who plays the middle of the ice, takes face-offs, and links offense and defense. Often a team's playmaking hub."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "As center, he won the face-off cleanly and immediately set the offense in motion."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: this forward patrols the 'center' of the ice. Centers are typically the most all-around players, strong at both ends and in the dot."
+    }
+   ],
+   "name_es": "Center",
+   "name_fr": "Center",
+   "name_it": "Center"
+  },
+  {
+   "name": "Winger",
+   "slug": "winger",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A forward who plays along the sides ('wings') of the rink, supporting the center. Left and right wingers focus on scoring and forechecking."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The winger hugged the boards, waiting for the breakout pass to spring up the wing."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the 'wings' (sides) of the playing area, like wings of a building or bird. Wingers patrol the outer lanes, finishing plays the center creates."
+    }
+   ],
+   "name_es": "Winger",
+   "name_fr": "Winger",
+   "name_it": "Winger"
+  },
+  {
+   "name": "Defenseman",
+   "slug": "defenseman",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A player whose primary job is stopping the opposing offense and protecting their own goal, while also starting attacks from the back."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The defenseman stepped up at the blue line to break up the rush before it started."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: this player's role is 'defense'. Working in pairs, they're the last line before the goalie and increasingly contribute to offense too."
+    }
+   ],
+   "name_es": "Defenseman",
+   "name_fr": "Defenseman",
+   "name_it": "Defenseman"
+  },
+  {
+   "name": "Goaltender",
+   "slug": "goalie",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Goaltender — the heavily padded player who guards the net and stops shots. The last line of defense and often a game's most important player."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The goalie sprawled across the crease to rob the shooter with a glove save."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'goal' + 'tender' (one who tends or guards). The goaltender's unique equipment and role make them unlike any other player on the ice."
+    }
+   ],
+   "name_es": "Goaltender",
+   "name_fr": "Goaltender",
+   "name_it": "Goaltender"
+  },
+  {
+   "name": "Enforcer",
+   "slug": "enforcer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A tough, physical player whose role is to protect teammates, intimidate opponents, and respond to rough play — sometimes by fighting."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The enforcer answered the cheap shot on the star, dropping the gloves to defend his teammate."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'enforce' — they 'enforce' an unwritten code of respect and retaliation. A traditional, now-fading role unique to hockey's physical culture."
+    }
+   ],
+   "name_es": "Enforcer",
+   "name_fr": "Enforcer",
+   "name_it": "Enforcer"
+  },
+  {
+   "name": "Line",
+   "slug": "line",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A unit of three forwards (and often a defensive pairing) who play together as a coordinated group, rotating on and off the ice in shifts."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The top line clicked all night, the three forwards reading each other perfectly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the forwards line up and play together as a set. Teams roll several lines through short, high-intensity shifts to stay fresh."
+    }
+   ],
+   "name_es": "Line",
+   "name_fr": "Line",
+   "name_it": "Line"
+  },
+  {
+   "name": "Captain",
+   "slug": "captain",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The team leader, identified by a 'C' on the jersey, who represents the players, communicates with officials, and sets the tone on and off the ice."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The captain rallied the bench during the intermission, demanding a stronger third period."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the military/nautical sense of a leader. Hockey formalizes it with the 'C' worn on the jersey; assistant captains wear an 'A'."
+    }
+   ],
+   "name_es": "Captain",
+   "name_fr": "Captain",
+   "name_it": "Captain"
+  },
+  {
+   "cat": "RULES & PENALTIES"
+  },
+  {
+   "name": "Offside",
+   "slug": "offside",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A violation called when an attacking player crosses into the offensive zone ahead of the puck. Stops the rush and forces a face-off."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The linesman waved off the goal because the winger was offside, entering the zone too early."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the broad sports concept of being on the wrong 'side' of the play. In hockey, players can't precede the puck over the blue line into the attacking zone."
+    }
+   ],
+   "name_es": "Offside",
+   "name_fr": "Offside",
+   "name_it": "Offside"
+  },
+  {
+   "name": "Icing",
+   "slug": "icing",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A violation called when a player shoots the puck from behind center ice all the way across the opponent's goal line untouched. Stops play to prevent stalling."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Under pressure, the defender flung the puck down the ice, drawing an icing call."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sense of shooting the puck the length of the 'ice'. The rule prevents teams from endlessly clearing the puck to waste time."
+    }
+   ],
+   "name_es": "Icing",
+   "name_fr": "Icing",
+   "name_it": "Icing"
+  },
+  {
+   "name": "Penalty",
+   "slug": "penalty",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A punishment for breaking the rules, sending the offender to the penalty box and leaving their team short-handed for two or more minutes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His trip drew a two-minute penalty, putting his team down a skater."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'penalty' (a punishment). Hockey's penalties remove the offender from play, directly creating the power-play and penalty-kill situations."
+    }
+   ],
+   "name_es": "Penalty",
+   "name_fr": "Penalty",
+   "name_it": "Penalty"
+  },
+  {
+   "name": "High-Sticking",
+   "slug": "high-sticking",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A penalty for hitting an opponent with the stick carried above shoulder or waist height. A common, dangerous infraction."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She caught an edge of the stick to the face, and the ref signaled high-sticking."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the stick is carried illegally 'high'. The rule protects players from the serious facial and head injuries an errant high stick can cause."
+    }
+   ],
+   "name_es": "High-Sticking",
+   "name_fr": "High-Sticking",
+   "name_it": "High-Sticking"
+  },
+  {
+   "name": "Face-Off",
+   "slug": "face-off",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The method of starting or restarting play, where an official drops the puck between two opposing players who battle to win possession."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He crouched low at the face-off, winning the draw cleanly back to his defenseman."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: two players 'face off' against each other. Every period and stoppage restarts with a face-off, making the skill of winning draws valuable."
+    }
+   ],
+   "name_es": "Face-Off",
+   "name_fr": "Face-Off",
+   "name_it": "Face-Off"
+  },
+  {
+   "name": "Checking",
+   "slug": "checking",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Using the body or stick to legally separate an opponent from the puck. 'Body checking' and 'poke checking' are core defensive skills."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He laid a clean body check along the boards, knocking the puck carrier off the play."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'check' (to stop or restrain). Legal checking is fundamental to hockey's physical defense, though illegal checks (from behind, to the head) draw penalties."
+    }
+   ],
+   "name_es": "Checking",
+   "name_fr": "Checking",
+   "name_it": "Checking"
+  },
+  {
+   "name": "Delayed Penalty",
+   "slug": "delayed-penalty",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "When an official signals a penalty but lets play continue until the offending team touches the puck — letting the other team attack with an extra skater first."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Seeing the delayed penalty signal, they pulled the goalie for a six-on-five attack."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the penalty is 'delayed' so the non-offending team isn't disadvantaged by an immediate whistle, letting them press their momentary advantage."
+    }
+   ],
+   "name_es": "Delayed Penalty",
+   "name_fr": "Delayed Penalty",
+   "name_it": "Delayed Penalty"
+  },
+  {
+   "cat": "RINK & EQUIPMENT"
+  },
+  {
+   "name": "Blue Line",
+   "slug": "blue-line",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Either of the two blue lines dividing the rink into zones. Crossing them governs offside and marks the boundary of the offensive and defensive zones."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He held the puck at the blue line, waiting for his teammates to clear the zone before entering."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named simply for its color on the ice. The blue lines define the three zones and are central to the offside rule that shapes how attacks develop."
+    }
+   ],
+   "name_es": "Blue Line",
+   "name_fr": "Blue Line",
+   "name_it": "Blue Line"
+  },
+  {
+   "name": "Crease",
+   "slug": "crease",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The marked area directly in front of the goal, reserved for the goalie. Attackers interfere with the goalie here at their peril."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The goal was disallowed because an attacker was standing in the crease, interfering with the goalie."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the sense of a marked line or fold (a 'crease'). It's the goaltender's protected zone, and goals can be waved off for crease violations."
+    }
+   ],
+   "name_es": "Crease",
+   "name_fr": "Crease",
+   "name_it": "Crease"
+  },
+  {
+   "name": "Neutral Zone",
+   "slug": "neutral-zone",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The central area of the rink between the two blue lines, belonging to neither team's offense or defense. The transition space between zones."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They clogged the neutral zone with defenders, strangling the opponent's rush before it built speed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'neutral' middle ground between attacking zones. Controlling it ('the neutral-zone trap') is a classic defensive strategy."
+    }
+   ],
+   "name_es": "Neutral Zone",
+   "name_fr": "Neutral Zone",
+   "name_it": "Neutral Zone"
+  },
+  {
+   "name": "Boards",
+   "slug": "boards",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The wooden and glass walls surrounding the rink that keep the puck in play. Much of hockey's physical battle happens along the boards."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The two wingers crashed into the boards, fighting for the loose puck in the corner."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the literal wooden 'boards' (now reinforced with glass) ringing the ice. They keep play continuous and are a constant arena for physical contests."
+    }
+   ],
+   "name_es": "Boards",
+   "name_fr": "Boards",
+   "name_it": "Boards"
+  },
+  {
+   "name": "Stick",
+   "slug": "stick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The long implement each player uses to handle, pass, and shoot the puck. The goalie's stick has a distinct, wider blade."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He flexed his stick into the ice, loading up the slap shot."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'stick'. The modern composite hockey stick, with its curved blade, is the essential tool for every skill in the game."
+    }
+   ],
+   "name_es": "Stick",
+   "name_fr": "Stick",
+   "name_it": "Stick"
+  },
+  {
+   "name": "Puck",
+   "slug": "puck",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The hard, frozen rubber disc that players shoot into the net to score. Small, fast, and frozen before games to reduce bouncing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The puck rocketed off his stick at nearly a hundred miles an hour."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Possibly from the Irish 'poc' (to poke or strike) or the mischievous sprite Puck. The vulcanized rubber disc is frozen before play to keep it from bouncing."
+    }
+   ],
+   "name_es": "Puck",
+   "name_fr": "Puck",
+   "name_it": "Puck"
+  },
+  {
+   "name": "Zamboni",
+   "slug": "zamboni",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The machine that resurfaces the ice between periods, shaving and smoothing it and laying down fresh water. A beloved fixture of the hockey experience."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Fans watched the Zamboni circle the rink, leaving a gleaming sheet of fresh ice behind."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A brand name, from inventor Frank Zamboni, who built the first ice-resurfacing machine in 1949. Like 'Kleenex', the name became the generic term."
+    }
+   ],
+   "name_es": "Zamboni",
+   "name_fr": "Zamboni",
+   "name_it": "Zamboni"
+  },
+  {
+   "cat": "HOCKEY SLANG"
+  },
+  {
+   "name": "Biscuit",
+   "slug": "biscuit",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for the puck. 'Biscuit in the basket' is a colorful way to describe scoring a goal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He put the biscuit in the basket on a beautiful backhand."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Affectionate hockey slang likening the round, flat puck to a biscuit. 'Biscuit in the basket' is among the sport's most cherished bits of color commentary."
+    }
+   ],
+   "name_es": "Biscuit",
+   "name_fr": "Biscuit",
+   "name_it": "Biscuit"
+  },
+  {
+   "name": "Five-Hole",
+   "slug": "five-hole",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The gap between a goalie's legs. Scoring 'through the five-hole' means slipping the puck between the pads."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She read the goalie dropping early and slid it through the five-hole."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the numbering of a goalie's save zones — the four corners are holes one through four, and the gap between the legs is the fifth 'hole'."
+    }
+   ],
+   "name_es": "Five-Hole",
+   "name_fr": "Five-Hole",
+   "name_it": "Five-Hole"
+  },
+  {
+   "name": "Apple",
+   "slug": "apple",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for an assist. A player with lots of 'apples' is a gifted passer and playmaker."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He didn't score but racked up three apples, setting up every goal."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Old hockey slang of uncertain origin for an assist — possibly rhyming or simply a colorful nickname that stuck in the sport's rich vocabulary."
+    }
+   ],
+   "name_es": "Apple",
+   "name_fr": "Apple",
+   "name_it": "Apple"
+  },
+  {
+   "name": "Sin Bin",
+   "slug": "sin-bin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for the penalty box, where penalized players must sit and serve their time. A wry name for the box of shame."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He slammed the door of the sin bin after his careless penalty."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A playful nickname casting the penalty box as a place to atone for one's on-ice 'sins' — a beloved bit of hockey humor."
+    }
+   ],
+   "name_es": "Sin Bin",
+   "name_fr": "Sin Bin",
+   "name_it": "Sin Bin"
+  },
+  {
+   "name": "Deke",
+   "slug": "deke",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fake or feint used to trick a defender or goalie out of position. To 'deke' someone is to outwit them with a deceptive move."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He deked left, then cut right, leaving the goalie sprawling the wrong way."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'decoy'. The art of the deke — selling a fake move to create an opening — is one of hockey's most exciting individual skills."
+    }
+   ],
+   "name_es": "Deke",
+   "name_fr": "Deke",
+   "name_it": "Deke"
+  },
+  {
+   "name": "Celly",
+   "slug": "celly",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for a goal celebration. A big 'celly' is an exuberant, theatrical reaction after scoring."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His over-the-top celly — sliding across the ice on his knees — fired up the whole bench."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A casual shortening of 'celebration'. The creativity and exuberance of cellys have become a celebrated, personality-filled part of modern hockey culture."
+    }
+   ],
+   "name_es": "Celly",
+   "name_fr": "Celly",
+   "name_it": "Celly"
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "title": "Government & Legal Process — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "THREE BRANCHES"
+  },
+  {
+   "name": "Separation of Powers",
+   "slug": "three-branches-separation-of-powers",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The U.S. Constitution divides federal government into three branches: Legislative (Congress — makes laws), Executive (President — enforces laws), and Judicial (Courts — interprets laws). No branch can dominate the others."
+    },
+    {
+     "k": "Significance",
+     "v": "Separation of powers prevents tyranny by ensuring no single person or group controls all government functions — the core structural innovation of American democracy."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Developed by French philosopher Montesquieu in 'The Spirit of the Laws' (1748) and adopted by the Framers. Madison wrote in Federalist No. 51: 'Ambition must be made to counteract ambition.'"
+    }
+   ],
+   "name_es": "Separación de Poderes",
+   "name_fr": "Séparation des Pouvoirs",
+   "name_it": "Separazione dei Poteri"
+  },
+  {
+   "name": "Checks and Balances",
+   "slug": "three-branches-checks-and-balances",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Each branch has specific powers to limit the other two. Congress can override a presidential veto (2/3 vote), the President nominates Supreme Court justices (Senate confirms), and courts can strike down laws as unconstitutional (judicial re…"
+    },
+    {
+     "k": "Significance",
+     "v": "Checks and balances have been tested repeatedly — from FDR's court-packing plan to impeachment proceedings to executive orders — and have generally prevented any one branch from seizing lasting dominance."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The term 'checks and balances' is not in the Constitution — it describes the system Madison, Hamilton, and Jay explained in The Federalist Papers."
+    }
+   ],
+   "name_es": "Controles y Contrapesos",
+   "name_fr": "Freins et Contrepoids",
+   "name_it": "Controlli e Contrappesi"
+  },
+  {
+   "name": "Executive Branch",
+   "slug": "three-branches-executive-branch",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Executive Branch is headed by the President, who serves 4-year terms (maximum 2 terms since the 22nd Amendment, 1951)."
+    },
+    {
+     "k": "Significance",
+     "v": "The Executive Branch is the largest branch by employment — it includes all federal agencies (FBI, CIA, EPA, Pentagon) and employs roughly 4 million people including military personnel."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Article II of the Constitution establishes the Executive Branch. The Electoral College — not the popular vote — elects the President. The Vice President serves as President of the Senate and is first in the presidential line of succession."
+    }
+   ],
+   "name_es": "Poder Ejecutivo",
+   "name_fr": "Pouvoir Exécutif",
+   "name_it": "Potere Esecutivo"
+  },
+  {
+   "name": "Legislative Branch",
+   "slug": "three-branches-legislative-branch",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Congress is bicameral: the Senate (100 senators, 2 per state, 6-year terms) and the House of Representatives (435 members, proportional to population, 2-year terms). Both chambers must pass identical bills for them to become law."
+    },
+    {
+     "k": "Significance",
+     "v": "The Senate has unique powers: confirming presidential appointments, ratifying treaties (2/3 vote), and trying impeachments. The House has unique powers: originating revenue bills and initiating impeachment proceedings."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Article I — the longest article in the Constitution — establishes Congress. The bicameral structure was the 'Great Compromise' of 1787: small states wanted equal representation (Senate) and large states wanted population-based representatio…"
+    }
+   ],
+   "name_es": "Poder Legislativo",
+   "name_fr": "Pouvoir Législatif",
+   "name_it": "Potere Legislativo"
+  },
+  {
+   "name": "Judicial Branch",
+   "slug": "three-branches-judicial-branch",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Supreme Court has 9 justices appointed for life. It is the final interpreter of federal law and the Constitution. Below it are 13 Circuit Courts of Appeals and 94 Federal District Courts."
+    },
+    {
+     "k": "Significance",
+     "v": "The Supreme Court's power of judicial review — the ability to strike down laws as unconstitutional — is not explicitly in the Constitution; it was established by Chief Justice John Marshall in Marbury v. Madison (1803)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Article III establishes the Judicial Branch but gives Congress power to determine the number of justices — it has ranged from 5 to 10. FDR's 1937 'court-packing' plan to add justices failed. Justices cannot be removed except by impeachment."
+    }
+   ],
+   "name_es": "Poder Judicial",
+   "name_fr": "Pouvoir Judiciaire",
+   "name_it": "Potere Giudiziario"
+  },
+  {
+   "cat": "LEGISLATIVE PROCESS"
+  },
+  {
+   "name": "How a Bill Becomes Law",
+   "slug": "legislative-how-a-bill-becomes-law",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A bill is introduced in either chamber, assigned to committee, debated and amended, passed by both the House and Senate in identical form, then sent to the President who signs it (becomes law), vetoes it (returns to Congress), or does nothi…"
+    },
+    {
+     "k": "Significance",
+     "v": "Most bills die in committee — only about 4% of introduced bills ever become law. The committee system is where the real work of legislating happens, largely out of public view."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Schoolhouse Rock's 'I'm Just a Bill' (1975) simplified the process for generations of Americans."
+    }
+   ],
+   "name_es": "Cómo un Proyecto de Ley se Convierte en Ley",
+   "name_fr": "Comment un Projet de Loi Devient Loi",
+   "name_it": "Come un Progetto di Legge Diventa Legge"
+  },
+  {
+   "name": "Veto & Override",
+   "slug": "legislative-veto-override",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The President can veto (reject) any bill passed by Congress. Congress can override a veto with a 2/3 supermajority in both the House (290 of 435) and the Senate (67 of 100). Veto overrides are rare — only about 4% of vetoes are overridden."
+    },
+    {
+     "k": "Significance",
+     "v": "The veto is one of the President's most powerful tools — the mere threat of a veto shapes legislation before it even reaches a vote, as Congress often adjusts bills to avoid a certain veto."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Veto' is Latin for 'I forbid.' The pocket veto — where the President neither signs nor vetoes within 10 days while Congress adjourns — kills the bill without the possibility of an override."
+    }
+   ],
+   "name_es": "Veto y Anulación",
+   "name_fr": "Veto et Annulation",
+   "name_it": "Veto e Annullamento"
+  },
+  {
+   "name": "Filibuster",
+   "slug": "legislative-filibuster",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A Senate tactic where a senator (or group) delays or blocks a vote by speaking indefinitely or by other procedural means."
+    },
+    {
+     "k": "Significance",
+     "v": "The filibuster has been used both to block civil rights legislation (Southern senators used it against the Civil Rights Act for 60 hours) and to protect minority rights from majority overreach."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The word comes from the Dutch 'vrijbuiter' (freebooter/pirate) via Spanish 'filibustero.' The 'nuclear option' — changing Senate rules to eliminate the filibuster for certain votes with a simple majority — has been invoked for judicial nomi…"
+    }
+   ],
+   "name_es": "Filibusterismo",
+   "name_fr": "Obstruction (Filibuster)",
+   "name_it": "Ostruzionismo (Filibuster)"
+  },
+  {
+   "name": "Impeachment",
+   "slug": "legislative-impeachment",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Impeachment is the House's power to formally charge a President (or other official) with 'high crimes and misdemeanors.' A simple majority in the House impeaches; then the Senate holds a trial, requiring a 2/3 vote to convict and remove fro…"
+    },
+    {
+     "k": "Significance",
+     "v": "Three presidents have been impeached by the House: Andrew Johnson (1868), Bill Clinton (1998), and Donald Trump (twice: 2019 and 2021). All were acquitted by the Senate. Nixon resigned before the House could vote."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Impeachment' comes from the Latin 'impedicare' (to catch in a trap). The Constitution's phrase 'high crimes and misdemeanors' is not legally defined — its meaning is determined by Congress."
+    }
+   ],
+   "name_es": "Juicio Político",
+   "name_fr": "Mise en Accusation",
+   "name_it": "Impeachment"
+  },
+  {
+   "cat": "JUDICIAL PROCESS"
+  },
+  {
+   "name": "Due Process",
+   "slug": "judicial-due-process",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Due process means the government must follow fair, established legal procedures before depriving a person of life, liberty, or property."
+    },
+    {
+     "k": "Significance",
+     "v": "Due process is the foundation of American criminal justice — it underlies Miranda rights, the right to counsel, the right to a jury trial, and the protection against self-incrimination."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Due process appears in both the 5th Amendment (federal government) and the 14th Amendment (state governments)."
+    }
+   ],
+   "name_es": "Debido Proceso",
+   "name_fr": "Procédure Régulière",
+   "name_it": "Giusto Processo"
+  },
+  {
+   "name": "Judicial Review",
+   "slug": "judicial-judicial-review",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Judicial review is the power of courts to declare laws or government actions unconstitutional and void. Though not explicitly in the Constitution, it was established by Chief Justice John Marshall in Marbury v."
+    },
+    {
+     "k": "Significance",
+     "v": "Judicial review makes the Supreme Court a coequal branch of government — it has struck down landmark laws including the Missouri Compromise (Dred Scott, 1857), the New Deal programs (1930s), and school segregation (Brown v. Board, 1954)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "In Marbury v. Madison, Marshall declared: 'It is emphatically the province and duty of the judicial department to say what the law is.' The U.S."
+    }
+   ],
+   "name_es": "Revisión Judicial",
+   "name_fr": "Contrôle Judiciaire",
+   "name_it": "Controllo Giudiziario"
+  },
+  {
+   "name": "Burden of Proof",
+   "slug": "judicial-burden-of-proof",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "'Burden of proof' is the obligation to prove one's claims. In criminal cases: 'beyond a reasonable doubt' (highest standard, ~99% certainty). In civil cases: 'preponderance of the evidence' (more likely than not, >50%)."
+    },
+    {
+     "k": "Significance",
+     "v": "The criminal 'beyond reasonable doubt' standard exists because society has decided it is worse to convict an innocent person than to acquit a guilty one — Blackstone's ratio: 'Better that ten guilty persons escape than that one innocent suf…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The principle 'In dubio pro reo' (when in doubt, for the accused) is the Latin root of the reasonable doubt standard. It dates to Roman law and canon law."
+    }
+   ],
+   "name_es": "Carga de la Prueba",
+   "name_fr": "Charge de la Preuve",
+   "name_it": "Onere della Prova"
+  },
+  {
+   "cat": "RIGHTS & AMENDMENTS"
+  },
+  {
+   "name": "First Amendment",
+   "slug": "rights-first-amendment",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The First Amendment protects five fundamental freedoms: religion (free exercise and no establishment), speech, press, assembly, and petition. It applies to government action — private companies can restrict speech on their platforms."
+    },
+    {
+     "k": "Significance",
+     "v": "The First Amendment is the most litigated part of the Constitution. Key cases: New York Times v. Sullivan (1964, press freedom), Brandenburg v."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Establishment Clause ('Congress shall make no law respecting an establishment of religion') and the Free Exercise Clause are the two religion clauses."
+    }
+   ],
+   "name_es": "Primera Enmienda",
+   "name_fr": "Premier Amendement",
+   "name_it": "Primo Emendamento"
+  },
+  {
+   "name": "Fourth Amendment",
+   "slug": "rights-fourth-amendment",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Fourth Amendment protects against unreasonable searches and seizures. Police generally need a warrant (issued by a judge based on probable cause) to search a home."
+    },
+    {
+     "k": "Significance",
+     "v": "The exclusionary rule (Mapp v. Ohio, 1961) holds that evidence obtained through an unconstitutional search cannot be used at trial — the 'fruit of the poisonous tree' doctrine. This is designed to deter police misconduct."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Probable cause' — the standard for a warrant — means a reasonable basis for believing a crime has been committed or that evidence will be found. Digital searches (emails, phones) have been extended Fourth Amendment protection in Riley v."
+    }
+   ],
+   "name_es": "Cuarta Enmienda",
+   "name_fr": "Quatrième Amendement",
+   "name_it": "Quarto Emendamento"
+  },
+  {
+   "name": "Fifth Amendment",
+   "slug": "rights-fifth-amendment",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Fifth Amendment contains five major protections: grand jury indictment for serious federal crimes, prohibition on double jeopardy (being tried twice for the same crime), protection against self-incrimination ('pleading the Fifth'), due…"
+    },
+    {
+     "k": "Significance",
+     "v": "'Pleading the Fifth' (self-incrimination protection) means a defendant cannot be forced to testify against themselves. Miranda warnings (Miranda v."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Double jeopardy' does not prevent federal and state prosecution for the same act (the 'dual sovereignty' doctrine — e.g., the 1992 Rodney King case)."
+    }
+   ],
+   "name_es": "Quinta Enmienda",
+   "name_fr": "Cinquième Amendement",
+   "name_it": "Quinto Emendamento"
+  },
+  {
+   "name": "Fourteenth Amendment",
+   "slug": "rights-fourteenth-amendment",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Ratified in 1868 after the Civil War, the 14th Amendment has three key clauses: Citizenship (all persons born or naturalized in the U.S."
+    },
+    {
+     "k": "Significance",
+     "v": "The 14th Amendment is the most litigated amendment in the Constitution. The Equal Protection Clause was the basis for Brown v. Board of Education (1954), Loving v. Virginia (1967, interracial marriage), and Obergefell v."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The 14th Amendment overturned Dred Scott v. Sandford (1857), which had held that Black Americans could never be citizens."
+    }
+   ],
+   "name_es": "Decimocuarta Enmienda",
+   "name_fr": "Quatorzième Amendement",
+   "name_it": "Quattordicesimo Emendamento"
+  },
+  {
+   "cat": "LATIN LEGAL TERMS"
+  },
+  {
+   "name": "Habeas Corpus",
+   "slug": "latin-legal-habeas-corpus",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'You shall have the body.' A legal order requiring a person under arrest to be brought before a judge. It prevents illegal detention by forcing the government to justify any imprisonment."
+    },
+    {
+     "k": "Significance",
+     "v": "Habeas corpus can be suspended in cases of rebellion or invasion (Article I, Section 9). Lincoln suspended it during the Civil War; Congress formally authorized suspension for the Confederacy."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The writ originated in English common law (Magna Carta, 1215) and was codified in the Habeas Corpus Act of 1679."
+    }
+   ],
+   "name_es": "Hábeas Corpus",
+   "name_fr": "Habeas Corpus",
+   "name_it": "Habeas Corpus"
+  },
+  {
+   "name": "Mens Rea",
+   "slug": "latin-legal-mens-rea",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'Guilty mind.' The mental element required for criminal liability. Most crimes require both a guilty act (actus reus) and a guilty mind."
+    },
+    {
+     "k": "Significance",
+     "v": "Mens rea is why intent matters in criminal law — murder (intentional killing) is punished more severely than manslaughter (reckless or negligent killing)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The principle 'actus non facit reum nisi mens sit rea' (an act does not make a person guilty unless the mind is also guilty) dates to 12th-century English common law, attributed to jurist Henry de Bracton."
+    }
+   ],
+   "name_es": "Mens Rea (Intención Criminal)",
+   "name_fr": "Mens Rea (Intention Coupable)",
+   "name_it": "Mens Rea (Intenzione Criminosa)"
+  },
+  {
+   "name": "Stare Decisis",
+   "slug": "latin-legal-stare-decisis",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'To stand by things decided.' The doctrine that courts should follow precedent — previously decided cases with similar facts — when ruling on new cases. It provides legal stability and predictability."
+    },
+    {
+     "k": "Significance",
+     "v": "Stare decisis makes law predictable — people can order their affairs knowing what the law is. But the Supreme Court can and does overturn precedent: Brown v. Board overturned Plessy v. Ferguson (1896); Dobbs v."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Stare decisis is stronger in common law systems (U.S., UK, Canada, Australia) than in civil law systems (France, Germany, most of Europe and Latin America), where written codes are the primary legal authority and precedent is persuasive but…"
+    }
+   ],
+   "name_es": "Stare Decisis (Acatar los Precedentes)",
+   "name_fr": "Stare Decisis (S'en Tenir aux Précédents)",
+   "name_it": "Stare Decisis (Rispettare i Precedenti)"
+  },
+  {
+   "name": "Pro Bono",
+   "slug": "latin-legal-pro-bono",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'Pro bono publico' — 'for the public good.' Legal work done voluntarily and without payment, typically by lawyers representing clients who cannot afford legal fees."
+    },
+    {
+     "k": "Significance",
+     "v": "Pro bono work has produced landmark civil rights victories: Thurgood Marshall did extensive pro bono work before arguing Brown v. Board of Education."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Pro bono' is also used outside law for any free professional services (consulting, medical care, design). The legal profession in the U.S."
+    }
+   ],
+   "name_es": "Pro Bono (Trabajo Gratuito)",
+   "name_fr": "Pro Bono (Travail Gratuit)",
+   "name_it": "Pro Bono (Lavoro Gratuito)"
+  },
+  {
+   "name": "Ex Post Facto",
+   "slug": "latin-legal-ex-post-facto",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'After the fact.' An ex post facto law criminalizes an act retroactively — making something illegal that was legal when done, or increasing punishment for a past act. The U.S."
+    },
+    {
+     "k": "Significance",
+     "v": "The prohibition on ex post facto laws is a cornerstone of the rule of law — citizens must be able to know in advance what conduct is criminal."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Nuremberg Trials (1945–46) raised the ex post facto question — the Nazis were tried for crimes against humanity that were not codified in international law when committed."
+    }
+   ],
+   "name_es": "Ex Post Facto (Ley Retroactiva)",
+   "name_fr": "Ex Post Facto (Loi Rétroactive)",
+   "name_it": "Ex Post Facto (Legge Retroattiva)"
+  }
+ ]
+}

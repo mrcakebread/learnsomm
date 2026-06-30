@@ -1,0 +1,776 @@
+{
+ "title": "Medical Terminology — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "WORD BUILDING"
+  },
+  {
+   "name": "Hyper- / Hypo-",
+   "slug": "prefix-hyper",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two opposite prefixes: 'hyper-' means excessive or above normal; 'hypo-' means deficient or below normal. They attach to countless terms to flag too much or too little of something."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The patient was hypertensive on arrival (high blood pressure) but became hypotensive after the bleed, her pressure dropping dangerously low."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'hyper' (over, above) and 'hypo' (under, beneath). The same roots give us everyday words like 'hyperactive' and 'hypothermia'."
+    }
+   ],
+   "name_es": "Hyper- / Hypo-",
+   "name_fr": "Hyper- / Hypo-",
+   "name_it": "Hyper- / Hypo-"
+  },
+  {
+   "name": "-itis",
+   "slug": "itis",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A suffix meaning inflammation. Attach it to a body part and you have the condition of that part being inflamed — one of the most common building blocks in all of medicine."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Appendicitis, tonsillitis, arthritis, bronchitis — once you know '-itis' means inflammation, half the chart starts to decode itself."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek, originally an adjective ending meaning 'pertaining to'. It came to specifically denote inflammatory disease in medical Latin."
+    }
+   ],
+   "name_es": "-itis",
+   "name_fr": "-itis",
+   "name_it": "-itis"
+  },
+  {
+   "name": "-ectomy",
+   "slug": "ectomy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A suffix meaning surgical removal of something. Attach it to an organ or structure and it names the operation to take that thing out."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She underwent an appendectomy (removal of the appendix); a hysterectomy removes the uterus, a mastectomy the breast."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'ektomē' (a cutting out), from 'ek' (out) + 'temnein' (to cut). The same 'temnein' root runs through much of surgical vocabulary."
+    }
+   ],
+   "name_es": "-ectomy",
+   "name_fr": "-ectomy",
+   "name_it": "-ectomy"
+  },
+  {
+   "name": "-otomy / -ostomy",
+   "slug": "otomy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'-otomy' means cutting into (an incision); '-ostomy' means creating a permanent opening. One cuts in; the other makes a lasting mouth or passage."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A tracheotomy is an incision into the windpipe; a colostomy creates a permanent opening from the colon to the abdominal wall."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Both from Greek: '-otomy' from 'temnein' (to cut), '-ostomy' from 'stoma' (mouth, opening). 'Stoma' is still used alone for the opening itself."
+    }
+   ],
+   "name_es": "-otomy / -ostomy",
+   "name_fr": "-otomy / -ostomy",
+   "name_it": "-otomy / -ostomy"
+  },
+  {
+   "name": "-ology",
+   "slug": "ology",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A suffix meaning the study or science of something. It names both fields of medicine and the specialists who practice them (via '-ologist')."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Cardiology is the study of the heart, so a cardiologist treats it; neurology, the nervous system; oncology, cancer."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'logos' (word, study, reason). It's one of the most productive suffixes in all of English, far beyond medicine."
+    }
+   ],
+   "name_es": "-ology",
+   "name_fr": "-ology",
+   "name_it": "-ology"
+  },
+  {
+   "name": "-emia",
+   "slug": "emia",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A suffix referring to a condition of the blood. It signals that the root word describes something about the blood's state or contents."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Anemia is a deficiency of healthy red blood cells; hypoglycemia is low blood sugar; leukemia is a cancer of the blood-forming tissues."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'haima' (blood) — the same root behind 'hemoglobin' and 'hemorrhage'. Spelled '-aemia' in British usage."
+    }
+   ],
+   "name_es": "-emia",
+   "name_fr": "-emia",
+   "name_it": "-emia"
+  },
+  {
+   "name": "-algia",
+   "slug": "algia",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A suffix meaning pain. Attach it to a body part and it names pain in that location."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Neuralgia is nerve pain; myalgia, muscle pain; arthralgia, joint pain. Fibromyalgia combines fiber, muscle, and pain."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'algos' (pain). The same root gives 'analgesic' — literally a substance that takes pain away."
+    }
+   ],
+   "name_es": "-algia",
+   "name_fr": "-algia",
+   "name_it": "-algia"
+  },
+  {
+   "name": "Brady- / Tachy-",
+   "slug": "brady-tachy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two opposite prefixes for speed: 'brady-' means slow; 'tachy-' means fast. Most often applied to heart rate and breathing."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Bradycardia is a slow heart rate; tachycardia, a fast one. A monitor alarm for 'tachy' means the heart is racing."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'bradys' (slow) and 'tachys' (swift) — the latter also behind 'tachometer', the gauge measuring engine speed."
+    }
+   ],
+   "name_es": "Brady- / Tachy-",
+   "name_fr": "Brady- / Tachy-",
+   "name_it": "Brady- / Tachy-"
+  },
+  {
+   "cat": "BODY & DIRECTIONS"
+  },
+  {
+   "name": "Anterior / Posterior",
+   "slug": "anterior-posterior",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Directional terms: 'anterior' means toward the front of the body; 'posterior' means toward the back. They orient where a structure or injury is."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The anterior cruciate ligament (ACL) sits at the front of the knee; a posterior approach enters from the back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'ante' (before) and 'post' (after, behind). 'Ventral' (belly) and 'dorsal' (back) are near-synonyms, especially in anatomy."
+    }
+   ],
+   "name_es": "Anterior / Posterior",
+   "name_fr": "Anterior / Posterior",
+   "name_it": "Anterior / Posterior"
+  },
+  {
+   "name": "Proximal / Distal",
+   "slug": "proximal-distal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Directional terms relative to the body's center: 'proximal' means closer to the trunk or point of origin; 'distal' means farther away."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The wrist is distal to the elbow; the shoulder is proximal. A distal fracture of the radius is near the wrist end of the bone."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'proximus' (nearest) and 'distare' (to stand apart) — the same roots behind 'proximity' and 'distant'."
+    }
+   ],
+   "name_es": "Proximal / Distal",
+   "name_fr": "Proximal / Distal",
+   "name_it": "Proximal / Distal"
+  },
+  {
+   "name": "Supine / Prone",
+   "slug": "supine-prone",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Body positions: 'supine' is lying face-up on the back; 'prone' is lying face-down. Critical for exams, surgery, and positioning patients."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Place the patient supine for the abdominal exam; prone positioning is used to improve oxygenation in some respiratory failure."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'supinus' (lying on the back) and 'pronus' (bent forward). A memory aid: 'supine' contains 'up' — face up."
+    }
+   ],
+   "name_es": "Supine / Prone",
+   "name_fr": "Supine / Prone",
+   "name_it": "Supine / Prone"
+  },
+  {
+   "name": "Lateral / Medial",
+   "slug": "lateral-medial",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Directional terms: 'lateral' means toward the side, away from the midline; 'medial' means toward the midline of the body."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The little toe is on the lateral side of the foot; the big toe is medial. A lateral ankle sprain affects the outer ligaments."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'latus' (side) and 'medius' (middle). 'Bilateral' (both sides) and 'median' share these roots."
+    }
+   ],
+   "name_es": "Lateral / Medial",
+   "name_fr": "Lateral / Medial",
+   "name_it": "Lateral / Medial"
+  },
+  {
+   "name": "Cardi/o",
+   "slug": "cardio",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A combining form meaning heart. It opens a huge family of terms about the heart and circulation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Cardiology, cardiac arrest, cardiomyopathy, electrocardiogram (ECG/EKG) — all built on the heart root."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'kardia' (heart). The same root underlies 'cardiac' and, more distantly, the idea of the heart as the body's core."
+    }
+   ],
+   "name_es": "Cardi/o",
+   "name_fr": "Cardi/o",
+   "name_it": "Cardi/o"
+  },
+  {
+   "name": "Dermat/o",
+   "slug": "derm",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A combining form meaning skin. It anchors the vocabulary of skin health and disease."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Dermatology is the study of skin; dermatitis is skin inflammation; the dermis is the layer beneath the surface epidermis."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'derma' (skin). 'Epidermis' literally means 'upon the skin' — the outermost layer."
+    }
+   ],
+   "name_es": "Dermat/o",
+   "name_fr": "Dermat/o",
+   "name_it": "Dermat/o"
+  },
+  {
+   "name": "Gastr/o",
+   "slug": "gastro",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A combining form meaning stomach, and by extension the digestive tract."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Gastritis is stomach inflammation; gastroenteritis adds the intestines; a gastroenterologist treats the whole digestive system."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'gastēr' (stomach, belly). The same root appears in 'gastronomy' — the art and science of good eating."
+    }
+   ],
+   "name_es": "Gastr/o",
+   "name_fr": "Gastr/o",
+   "name_it": "Gastr/o"
+  },
+  {
+   "cat": "SYMPTOMS & SIGNS"
+  },
+  {
+   "name": "Acute / Chronic",
+   "slug": "acute-chronic",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two ways to describe a condition's timeline: 'acute' means sudden onset and short duration; 'chronic' means long-lasting or persistent."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "An acute asthma attack comes on fast and resolves; chronic asthma is an ongoing condition managed for years."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'acutus' (sharp, pointed) and Greek 'chronos' (time). 'Chronic' literally means 'of time' — defined by its duration."
+    }
+   ],
+   "name_es": "Acute / Chronic",
+   "name_fr": "Acute / Chronic",
+   "name_it": "Acute / Chronic"
+  },
+  {
+   "name": "Edema",
+   "slug": "edema",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Swelling caused by excess fluid trapped in the body's tissues. A common, visible sign with many possible causes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The patient had pitting edema in both ankles — pressing a finger left a dent — pointing the team toward a heart or kidney workup."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'oidēma' (a swelling). Spelled 'oedema' in British usage. The related 'edematous' describes the swollen tissue."
+    }
+   ],
+   "name_es": "Edema",
+   "name_fr": "Edema",
+   "name_it": "Edema"
+  },
+  {
+   "name": "Syncope",
+   "slug": "syncope",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The medical term for fainting — a temporary loss of consciousness from a brief drop in blood flow to the brain."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She experienced syncope after standing too quickly; the episode was brief, and she recovered fully within a minute."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'synkopē' (a cutting short) — also, fittingly, a music term for an interrupted rhythm. Pronounced 'SIN-ko-pee'."
+    }
+   ],
+   "name_es": "Syncope",
+   "name_fr": "Syncope",
+   "name_it": "Syncope"
+  },
+  {
+   "name": "Dyspnea",
+   "slug": "dyspnea",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Difficult or labored breathing; the sensation of shortness of breath. One of the most important symptoms to assess."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The patient reported dyspnea on exertion — breathless after climbing one flight of stairs — prompting a cardiac and pulmonary evaluation."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'dys-' (difficult, bad) + 'pnoia' (breathing). The 'dys-' prefix recurs everywhere: dysfunction, dysphagia, dysuria."
+    }
+   ],
+   "name_es": "Dyspnea",
+   "name_fr": "Dyspnea",
+   "name_it": "Dyspnea"
+  },
+  {
+   "name": "Febrile / Afebrile",
+   "slug": "febrile",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Febrile' means having a fever; 'afebrile' means without fever. Basic but constant vocabulary in any clinical setting."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The child arrived febrile at 103°F; by morning she was afebrile and alert, and the team relaxed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'febris' (fever) — the same root behind 'fever' itself. The 'a-' prefix in 'afebrile' means 'without'."
+    }
+   ],
+   "name_es": "Febrile / Afebrile",
+   "name_fr": "Febrile / Afebrile",
+   "name_it": "Febrile / Afebrile"
+  },
+  {
+   "name": "Lethargy",
+   "slug": "lethargy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A state of drowsiness, sluggishness, and reduced alertness. A subjective but clinically meaningful sign of how sick someone is."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The normally energetic toddler was lethargic and hard to rouse, a red flag that escalated the urgency of the visit."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'lēthargia' (drowsiness), linked to 'Lethe', the mythological river of forgetfulness in the underworld."
+    }
+   ],
+   "name_es": "Lethargy",
+   "name_fr": "Lethargy",
+   "name_it": "Lethargy"
+  },
+  {
+   "name": "Idiopathic",
+   "slug": "idiopathic",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Describes a disease or condition with no known cause. A precise, honest label for 'we don't know why this is happening'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After every test came back normal, the diagnosis was idiopathic — the cause of her condition simply couldn't be identified."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'idios' (one's own, peculiar) + 'pathos' (suffering, disease). One wit defined it as 'idiot doctors, pathetic patients' — a joke, not the etymology."
+    }
+   ],
+   "name_es": "Idiopathic",
+   "name_fr": "Idiopathic",
+   "name_it": "Idiopathic"
+  },
+  {
+   "name": "Bilateral",
+   "slug": "bilateral",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Affecting both sides of the body. Its opposite, 'unilateral', means one side only."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Bilateral pneumonia means both lungs are involved; a unilateral weakness raises concern for a stroke on one side of the brain."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'bi-' (two) + 'latus' (side). The same 'latus' root behind 'lateral' and 'medial'."
+    }
+   ],
+   "name_es": "Bilateral",
+   "name_fr": "Bilateral",
+   "name_it": "Bilateral"
+  },
+  {
+   "cat": "TESTS & PROCEDURES"
+  },
+  {
+   "name": "Biopsy",
+   "slug": "biopsy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Removing a small sample of tissue to examine it, usually to diagnose or rule out disease such as cancer."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The suspicious mole was removed and sent for biopsy; the pathology report confirmed it was benign."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'bios' (life) + 'opsis' (sight) — literally 'viewing of living tissue'. A 'necropsy' (autopsy) views the dead instead."
+    }
+   ],
+   "name_es": "Biopsy",
+   "name_fr": "Biopsy",
+   "name_it": "Biopsy"
+  },
+  {
+   "name": "CBC",
+   "slug": "cbc",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Complete Blood Count — one of the most common lab tests, measuring red cells, white cells, and platelets to give a broad snapshot of health."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her CBC showed a high white-cell count, supporting the suspicion of an infection driving the fever."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern clinical abbreviation. Each component (hemoglobin, hematocrit, WBC) carries its own roots, but 'CBC' itself is plain initials."
+    }
+   ],
+   "name_es": "CBC",
+   "name_fr": "CBC",
+   "name_it": "CBC"
+  },
+  {
+   "name": "MRI / CT",
+   "slug": "mri-ct",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two imaging tests: MRI (Magnetic Resonance Imaging) uses magnets and radio waves for detailed soft-tissue pictures; CT (Computed Tomography) uses X-rays for fast cross-sectional views."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The CT scan was ordered first to rule out a bleed quickly; an MRI followed for a finer look at the soft tissue."
+    },
+    {
+     "k": "Origin & History",
+     "v": "MRI is an initialism for its physics; CT comes from Greek 'tomos' (a slice, a cut) + 'graphein' (to write) — imaging by slices."
+    }
+   ],
+   "name_es": "MRI / CT",
+   "name_fr": "MRI / CT",
+   "name_it": "MRI / CT"
+  },
+  {
+   "name": "Intubation",
+   "slug": "intubation",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Inserting a tube into the airway (the trachea) to keep it open and allow mechanical breathing support."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "As the patient's breathing failed, the team moved to intubation, securing the airway before connecting the ventilator."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'in' (into) + 'tuba' (tube). The reverse procedure, removing the tube, is 'extubation'."
+    }
+   ],
+   "name_es": "Intubation",
+   "name_fr": "Intubation",
+   "name_it": "Intubation"
+  },
+  {
+   "name": "Catheter",
+   "slug": "catheter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A thin, flexible tube inserted into the body to drain fluid, deliver medication, or access a vessel. The term covers many types."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A urinary catheter was placed to monitor output; a central catheter gave direct access to a large vein for medications."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Greek 'kathetēr' (something let down or inserted), from 'kathienai' (to send down). One of the oldest words in surgical practice."
+    }
+   ],
+   "name_es": "Catheter",
+   "name_fr": "Catheter",
+   "name_it": "Catheter"
+  },
+  {
+   "name": "NPO",
+   "slug": "npo",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An order meaning 'nothing by mouth' — no food or drink, usually before surgery or certain tests to keep the stomach empty."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The patient was kept NPO after midnight in preparation for the morning operation."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'nil per os' (nothing through the mouth). One of many Latin abbreviations that survive in modern medication and nursing orders."
+    }
+   ],
+   "name_es": "NPO",
+   "name_fr": "NPO",
+   "name_it": "NPO"
+  },
+  {
+   "name": "IV",
+   "slug": "iv",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Intravenous — into or within a vein. Refers to the line, the access, and the route for delivering fluids and medications directly into the bloodstream."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They started an IV to deliver fluids and antibiotics; 'IV push' means giving a medication directly and quickly through that line."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'intra' (within) + 'vena' (vein). The contrast 'IM' is intramuscular — into the muscle instead."
+    }
+   ],
+   "name_es": "IV",
+   "name_fr": "IV",
+   "name_it": "IV"
+  },
+  {
+   "cat": "CLINICAL SHORTHAND"
+  },
+  {
+   "name": "STAT",
+   "slug": "stat",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An order meaning immediately, without delay. One of the most urgent words in a hospital."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Get me a STAT chest X-ray' means now — the order jumps to the front of the line."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'statim' (immediately, at once). One of the most recognizable bits of medical shorthand, even outside the field."
+    }
+   ],
+   "name_es": "STAT",
+   "name_fr": "STAT",
+   "name_it": "STAT"
+  },
+  {
+   "name": "PRN",
+   "slug": "prn",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An instruction meaning 'as needed' — a medication or action to be done when required rather than on a fixed schedule."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Pain medication was ordered PRN, so the patient received it only when the pain returned, not by the clock."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'pro re nata' (literally 'for the thing born', i.e. as the situation arises). A staple of prescription writing."
+    }
+   ],
+   "name_es": "PRN",
+   "name_fr": "PRN",
+   "name_it": "PRN"
+  },
+  {
+   "name": "BID / TID",
+   "slug": "bid-tid",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Dosing frequencies: 'BID' means twice a day; 'TID' means three times a day. 'QID' (four times) and 'QD' (once daily) round out the family."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The antibiotic was prescribed BID — one tablet morning and evening — for ten days."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'bis in die' (twice a day) and 'ter in die' (three times a day). These Latin dosing codes remain standard on prescriptions."
+    }
+   ],
+   "name_es": "BID / TID",
+   "name_fr": "BID / TID",
+   "name_it": "BID / TID"
+  },
+  {
+   "name": "Rx / Dx",
+   "slug": "rx-dx",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Common medical shorthand: 'Rx' means prescription or treatment; 'Dx' means diagnosis. 'Sx' (symptoms) and 'Hx' (history) complete the set."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The chart listed the Dx as pneumonia and the Rx as a course of antibiotics plus rest."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Rx' is often traced to the Latin 'recipe' (take thou), or to the symbol of the Roman god Jupiter; 'Dx', 'Sx', 'Hx' use 'x' as a general abbreviation marker."
+    }
+   ],
+   "name_es": "Rx / Dx",
+   "name_fr": "Rx / Dx",
+   "name_it": "Rx / Dx"
+  },
+  {
+   "name": "Vitals",
+   "slug": "vitals",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Short for vital signs — the core measurements of body function: temperature, pulse, respiratory rate, blood pressure, and often oxygen saturation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Vitals are stable' is shorthand for reassurance; a sudden change in vitals is often the first warning of trouble."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'vitalis' (of life), from 'vita' (life). They're called 'vital' because they signal whether the body's basic life functions are holding."
+    }
+   ],
+   "name_es": "Vitals",
+   "name_fr": "Vitals",
+   "name_it": "Vitals"
+  },
+  {
+   "name": "Hx / PMH",
+   "slug": "hx",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Hx' means history — most often the patient's medical background. 'PMH' is past medical history; 'FHx' is family history."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her Hx included asthma and a prior surgery; the PMH guided which medications were safe to give."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Hx' uses 'H' for history plus 'x' as the standard abbreviation marker, matching Dx, Sx, and Rx in clinical shorthand."
+    }
+   ],
+   "name_es": "Hx / PMH",
+   "name_fr": "Hx / PMH",
+   "name_it": "Hx / PMH"
+  }
+ ]
+}

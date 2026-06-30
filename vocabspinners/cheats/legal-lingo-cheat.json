@@ -1,0 +1,335 @@
+{
+ "title": "Legal Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "COURT PROCESS"
+  },
+  {
+   "name": "Plaintiff",
+   "slug": "court-plaintiff",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The party who initiates a civil lawsuit — the person or entity that files a complaint alleging that the defendant caused them harm."
+    },
+    {
+     "k": "Significance",
+     "v": "'The plaintiff, a small business owner, alleged that the defendant contractor had abandoned the renovation project halfway through, leaving her premises unusable for three months and causing $85,000 in lost revenue.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Latin 'plangere' (to strike, lament) → Old French 'plaintif' (lamenting, complaining)."
+    }
+   ],
+   "name_es": "Demandante",
+   "name_fr": "Demandeur",
+   "name_it": "Attore"
+  },
+  {
+   "name": "Discovery",
+   "slug": "court-discovery",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The pre-trial phase in which both parties are required to share evidence and information relevant to the case with each other."
+    },
+    {
+     "k": "Significance",
+     "v": "'Discovery revealed that the company had known about the defect for three years before the accident — internal emails showing executives discussing the liability risk while deciding not to issue a recall became the most damaging evidence at…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Discovery as a formal legal right emerged in the U.S. Federal Rules of Civil Procedure (1938), which required open exchange of evidence to prevent 'trial by ambush.' Before modern discovery, parties could conceal evidence until trial."
+    }
+   ],
+   "name_es": "Descubrimiento de Pruebas",
+   "name_fr": "Découverte (Discovery)",
+   "name_it": "Discovery (Raccolta Prove)"
+  },
+  {
+   "name": "Injunction",
+   "slug": "court-injunction",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A court order requiring a party to do something (mandatory injunction) or to stop doing something (prohibitory injunction). Temporary restraining orders (TROs) are emergency injunctions granted without the other party present."
+    },
+    {
+     "k": "Significance",
+     "v": "'The record label obtained an emergency injunction blocking the unauthorized release of the leaked album — the order was signed at 11 PM by a judge who found irreparable harm would result if distribution proceeded even one more day.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Latin 'injungere' (to enjoin, impose upon). Injunctions are equitable remedies — they come from courts of equity (historically separate from courts of law in the English system)."
+    }
+   ],
+   "name_es": "Interdicto",
+   "name_fr": "Injonction",
+   "name_it": "Ingiunzione"
+  },
+  {
+   "name": "Subpoena",
+   "slug": "court-subpoena",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A legal order compelling a person to appear in court to testify (subpoena ad testificandum) or to produce documents, records, or other evidence (subpoena duces tecum). Failure to comply can result in contempt of court."
+    },
+    {
+     "k": "Significance",
+     "v": "'When the congressional committee subpoenaed the tech CEO's internal communications, the company's lawyers filed an emergency motion to quash the subpoena — arguing that attorney-client privilege protected the documents from disclosure.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Latin: 'sub poena' means 'under penalty' — the writ warns that failure to comply carries legal punishment. Subpoenas date to the English Court of Chancery in the 14th century."
+    }
+   ],
+   "name_es": "Citación Judicial",
+   "name_fr": "Citation à Comparaître",
+   "name_it": "Citazione (Subpoena)"
+  },
+  {
+   "cat": "CONTRACTS"
+  },
+  {
+   "name": "Consideration",
+   "slug": "contracts-consideration",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The legal requirement that both parties to a contract must exchange something of value — a promise, an act, money, or forbearance. Without consideration, a contract is not legally binding."
+    },
+    {
+     "k": "Significance",
+     "v": "'The contract was challenged on the grounds that the company's promise to \"consider\" the employee's application was not valid consideration — courts have consistently held that a promise to do something you're already legally obligated to d…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Consideration' in the legal sense was formalized by English courts in the 16th century to distinguish binding contracts from gratuitous promises."
+    }
+   ],
+   "name_es": "Contraprestación",
+   "name_fr": "Contrepartie",
+   "name_it": "Corrispettivo"
+  },
+  {
+   "name": "Breach of Contract",
+   "slug": "contracts-breach-of-contract",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A violation of a contract's terms by one party without legal justification — failing to perform an obligation, performing it defectively, or preventing the other party from performing."
+    },
+    {
+     "k": "Significance",
+     "v": "'The contractor's failure to complete the building by the agreed date wasn't just an inconvenience — it constituted a material breach that allowed the developer to terminate the contract, hire a replacement contractor, and sue for the cost…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Breach' derives from Old English 'brǣc' and Old French 'breche' (gap, rupture). Contract law distinguishes a 'material breach' (significant enough to excuse the non-breaching party's obligations) from a 'minor/partial breach' (non-breachin…"
+    }
+   ],
+   "name_es": "Incumplimiento de Contrato",
+   "name_fr": "Rupture de Contrat",
+   "name_it": "Inadempimento Contrattuale"
+  },
+  {
+   "name": "Indemnification",
+   "slug": "contracts-indemnification",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A contractual obligation in which one party agrees to compensate the other for specific losses, damages, or liabilities."
+    },
+    {
+     "k": "Significance",
+     "v": "'The software license agreement contained a broad indemnification clause requiring the vendor to defend and indemnify the client against any third-party intellectual property claims arising from use of the software — exactly the clause that…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Latin 'indemnitas' (freedom from loss/harm) via Old French 'indempnité.' Indemnification clauses are among the most heavily negotiated provisions in commercial contracts — their scope (what's covered), limits (caps on liability), and c…"
+    }
+   ],
+   "name_es": "Indemnización",
+   "name_fr": "Indemnisation",
+   "name_it": "Indennizzo"
+  },
+  {
+   "cat": "TORTS"
+  },
+  {
+   "name": "Negligence",
+   "slug": "torts-negligence",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The failure to exercise the level of care that a reasonably prudent person would in similar circumstances, causing harm to another."
+    },
+    {
+     "k": "Significance",
+     "v": "'The hospital was found negligent when it discharged the patient too early despite warning signs — the duty of care, breach of standard practice, direct causation of the subsequent stroke, and quantifiable damages all combined to establish…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The legal concept of negligence was formalized in the English case Blyth v. Birmingham Waterworks Co. (1856) and the famous 'reasonable person' standard for duty of care emerged in Donoghue v."
+    }
+   ],
+   "name_es": "Negligencia",
+   "name_fr": "Négligence",
+   "name_it": "Negligenza"
+  },
+  {
+   "name": "Defamation",
+   "slug": "torts-defamation",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A false statement of fact presented as true that damages someone's reputation. 'Libel' is written defamation; 'slander' is spoken defamation."
+    },
+    {
+     "k": "Significance",
+     "v": "'The tabloid published a story claiming the celebrity had been arrested for fraud — a claim that was entirely fabricated."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Defamation' comes from Latin 'diffamare' (to spread an ill report). 'Libel' comes from Latin 'libellus' (little book) — written pamphlets were the original medium for damaging reputation."
+    }
+   ],
+   "name_es": "Difamación",
+   "name_fr": "Diffamation",
+   "name_it": "Diffamazione"
+  },
+  {
+   "cat": "CRIMINAL LAW"
+  },
+  {
+   "name": "Plea Bargain",
+   "slug": "criminal-plea-bargain",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "An agreement between a prosecutor and a defendant in which the defendant pleads guilty (usually to a lesser charge or for a lighter sentence) in exchange for the prosecutor dropping more serious charges or recommending a reduced sentence."
+    },
+    {
+     "k": "Significance",
+     "v": "'Facing 20 years on the original charges, the defendant accepted a plea bargain that reduced the felony to a misdemeanor and capped the sentence at 18 months — giving up his right to trial in exchange for certainty and dramatically lower co…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Plea bargaining developed in U.S. courts in the 19th century as a practical solution to overcrowded dockets."
+    }
+   ],
+   "name_es": "Acuerdo de Culpabilidad",
+   "name_fr": "Accord de Plaidoyer",
+   "name_it": "Patteggiamento"
+  },
+  {
+   "name": "Miranda Rights",
+   "slug": "criminal-miranda-rights",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The constitutional rights that U.S. law enforcement must read to criminal suspects before custodial interrogation: the right to remain silent, the warning that anything said can be used against them, the right to an attorney, and the right…"
+    },
+    {
+     "k": "Significance",
+     "v": "'The detectives had forgotten to read Miranda rights before interrogating the suspect for two hours — the defense moved to suppress the entire confession, and the judge agreed: the statements were inadmissible, collapsing the prosecution's…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named for the case Miranda v. Arizona (1966) in which Ernesto Miranda — arrested for kidnapping and rape — confessed without being informed of his rights."
+    }
+   ],
+   "name_es": "Derechos Miranda",
+   "name_fr": "Droits Miranda",
+   "name_it": "Diritti Miranda"
+  },
+  {
+   "name": "Statute of Limitations",
+   "slug": "criminal-statute-of-limitations",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A law that sets the maximum time after an event within which legal proceedings may be initiated."
+    },
+    {
+     "k": "Significance",
+     "v": "'The plaintiff filed her sexual assault claim 12 years after the incident — but the legislature had extended the statute of limitations for sexual crimes to 20 years, and a 2019 \"lookback window\" temporarily suspended the clock, allowing pr…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Latin 'statutum' (decree) + 'limitationis' (of limitation). Statutes of limitations exist to ensure legal certainty (defendants shouldn't face claims forever), preserve evidence quality (memories fade, witnesses die), and encourage pro…"
+    }
+   ],
+   "name_es": "Prescripción",
+   "name_fr": "Délai de Prescription",
+   "name_it": "Statuto delle Limitazioni"
+  },
+  {
+   "cat": "LATIN TERMS"
+  },
+  {
+   "name": "Habeas Corpus",
+   "slug": "latin-habeas-corpus",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'You shall have the body.' A court order requiring the government to bring a detained person before a judge to determine if the detention is lawful. The most fundamental protection against arbitrary imprisonment."
+    },
+    {
+     "k": "Significance",
+     "v": "'After spending 11 years in prison on a conviction later undermined by DNA evidence, his attorneys filed a habeas corpus petition arguing that the state had withheld exculpatory evidence — the court agreed and ordered his immediate release.…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Latin literally 'you shall have the body' — a medieval English writ ordering a jailer to produce a prisoner. Originated in English common law (Magna Carta, 1215); codified in the Habeas Corpus Act of 1679."
+    }
+   ],
+   "name_es": "Hábeas Corpus",
+   "name_fr": "Habeas Corpus",
+   "name_it": "Habeas Corpus"
+  },
+  {
+   "name": "Pro Se",
+   "slug": "latin-pro-se",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Latin: 'For oneself.' Representing yourself in court without an attorney. In the U.S., parties have a constitutional right to represent themselves in criminal and civil matters."
+    },
+    {
+     "k": "Significance",
+     "v": "'Despite facing federal fraud charges that could result in 20 years in prison, he waived his right to counsel and chose to proceed pro se — a decision the judge warned against repeatedly, noting the complexity of federal criminal procedure…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Pro se' is often described as having 'a fool for a client' (attributed to Abraham Lincoln, though disputed) — the danger of self-representation is that the pro se litigant typically doesn't know procedural rules, evidentiary standards, or…"
+    }
+   ],
+   "name_es": "Pro Se (En Nombre Propio)",
+   "name_fr": "Pro Se (En Son Propre Nom)",
+   "name_it": "Pro Se (In Proprio)"
+  },
+  {
+   "name": "Voir Dire",
+   "slug": "latin-voir-dire",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Old French (used as Law Latin): 'to speak the truth.' The process of questioning potential jurors before trial to select an impartial jury."
+    },
+    {
+     "k": "Significance",
+     "v": "'The murder trial's voir dire lasted three weeks — the high-profile case required questioning 300 potential jurors about media exposure, personal opinions on police, and prior jury experience before both sides could agree on twelve people c…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Norman French 'voir' (true) + 'dire' (say) — 'to speak truly.' The phrase entered English legal procedure via the Norman Conquest (1066) and was retained as formal legal terminology. Batson v."
+    }
+   ],
+   "name_es": "Voir Dire (Selección del Jurado)",
+   "name_fr": "Voir Dire (Sélection du Jury)",
+   "name_it": "Voir Dire (Selezione della Giuria)"
+  }
+ ]
+}

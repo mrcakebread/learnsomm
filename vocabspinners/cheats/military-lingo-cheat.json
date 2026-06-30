@@ -1,0 +1,755 @@
+{
+ "title": "Military & Aviation Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "RADIO & COMMS"
+  },
+  {
+   "name": "Roger",
+   "slug": "roger",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Radio shorthand meaning 'message received and understood.' One of the most recognizable bits of military and aviation communication."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Proceed to checkpoint Bravo.' 'Roger,' the pilot replied."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the older phonetic alphabet, where 'Roger' stood for the letter 'R' — for 'received'. The word stuck even after the alphabet changed to 'Romeo'."
+    }
+   ],
+   "name_es": "Roger",
+   "name_fr": "Roger",
+   "name_it": "Roger"
+  },
+  {
+   "name": "Copy / Wilco",
+   "slug": "copy",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Copy' means a message was received; 'Wilco' (will comply) means received and the order will be carried out. A subtle but important distinction."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Copy that,' she said, noting the coordinates. 'Wilco,' he added, already moving to comply."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Copy' from receiving/copying down a transmission; 'Wilco' is a contraction of 'will comply'. 'Roger Wilco' redundantly means 'understood, and I'll do it'."
+    }
+   ],
+   "name_es": "Copy / Wilco",
+   "name_fr": "Copy / Wilco",
+   "name_it": "Copy / Wilco"
+  },
+  {
+   "name": "Over / Out",
+   "slug": "over-out",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Over' means 'I'm done speaking, your turn'; 'Out' means 'this conversation is finished.' Contrary to movies, 'over and out' is a contradiction."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Returning to base, over.' ... 'Understood. Out.'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "Precise radio procedure: 'over' invites a reply, 'out' ends the exchange. Saying 'over and out' — common in film — is technically nonsensical, mixing the two."
+    }
+   ],
+   "name_es": "Over / Out",
+   "name_fr": "Over / Out",
+   "name_it": "Over / Out"
+  },
+  {
+   "name": "Affirmative / Negative",
+   "slug": "affirmative",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Affirmative' means yes; 'negative' means no. Used instead of the easily-misheard 'yeah' or 'nah' over crackly radio."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Do you have visual?' 'Affirmative.' 'Any casualties?' 'Negative.'"
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'affirm' and 'negate'. The full, distinct words resist being garbled or misheard over noisy radio far better than a quick 'yes' or 'no'."
+    }
+   ],
+   "name_es": "Affirmative / Negative",
+   "name_fr": "Affirmative / Negative",
+   "name_it": "Affirmative / Negative"
+  },
+  {
+   "name": "Mayday",
+   "slug": "mayday",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The international distress call signaling a life-threatening emergency, repeated three times. The most serious call a pilot or sailor can make."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Mayday, mayday, mayday,' the pilot transmitted as both engines failed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the French 'm'aidez' / 'venez m'aider' (help me / come help me), chosen in the 1920s because it sounded clear and distinct over radio to English and French ears."
+    }
+   ],
+   "name_es": "Mayday",
+   "name_fr": "Mayday",
+   "name_it": "Mayday"
+  },
+  {
+   "name": "Phonetic Alphabet",
+   "slug": "phonetic",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The phonetic alphabet (Alpha, Bravo, Charlie...) spells out letters with distinct words so they can't be confused over radio. Essential for clear comms."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He spelled the callsign 'Foxtrot Golf November' so there could be no mistaking it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The NATO phonetic alphabet, standardized in the 1950s, assigns an unmistakable word to each letter — vital when a misheard letter could cost lives."
+    }
+   ],
+   "name_es": "Phonetic Alphabet",
+   "name_fr": "Phonetic Alphabet",
+   "name_it": "Phonetic Alphabet"
+  },
+  {
+   "name": "Say Again",
+   "slug": "say-again",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The proper way to ask for a message to be repeated. Pilots and soldiers never say 'repeat' on the radio — that word means something else entirely."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'You're breaking up — say again your last,' she radioed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Repeat' is avoided because, in artillery contexts, it specifically means 'fire again'. 'Say again' safely requests a repeat without risking a deadly misunderstanding."
+    }
+   ],
+   "name_es": "Say Again",
+   "name_fr": "Say Again",
+   "name_it": "Say Again"
+  },
+  {
+   "name": "Squawk",
+   "slug": "squawk",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An instruction to set a transponder code, which identifies an aircraft on radar. 'Squawk 7700' signals an emergency to air traffic control."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Air traffic control instructed the pilot to squawk a specific code for identification."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From a WWII transponder system codenamed 'Parrot' — hence the bird-like 'squawk' for the electronic signal an aircraft emits to identify itself on radar."
+    }
+   ],
+   "name_es": "Squawk",
+   "name_fr": "Squawk",
+   "name_it": "Squawk"
+  },
+  {
+   "cat": "FLIGHT & AVIATION"
+  },
+  {
+   "name": "Altitude",
+   "slug": "altitude",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An aircraft's height above a reference point, usually sea level or the ground. The vertical dimension pilots constantly monitor and manage."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The pilot climbed to a cruising altitude of 35,000 feet."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From Latin 'altitudo' (height), from 'altus' (high). One of the fundamental measurements of flight, distinct from altitude above ground versus above sea level."
+    }
+   ],
+   "name_es": "Altitude",
+   "name_fr": "Altitude",
+   "name_it": "Altitude"
+  },
+  {
+   "name": "Heading",
+   "slug": "heading",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The compass direction an aircraft is pointed, measured in degrees from 0 to 360. 'Heading 270' means flying due west."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Air traffic control instructed her to turn to a heading of 090, due east."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'head' — the direction the nose 'heads' toward. Expressed in degrees so pilots and controllers share a precise, unambiguous sense of direction."
+    }
+   ],
+   "name_es": "Heading",
+   "name_fr": "Heading",
+   "name_it": "Heading"
+  },
+  {
+   "name": "Airspeed",
+   "slug": "airspeed",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The speed of an aircraft relative to the air it moves through — which differs from its speed over the ground, especially in strong winds. Critical for safe flight."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "A strong headwind meant her airspeed was high while her speed over the ground crawled."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound of 'air' + 'speed'. The distinction from ground speed matters enormously — a wing's lift depends on airspeed, not how fast the ground passes below."
+    }
+   ],
+   "name_es": "Airspeed",
+   "name_fr": "Airspeed",
+   "name_it": "Airspeed"
+  },
+  {
+   "name": "Attitude",
+   "slug": "attitude",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An aircraft's orientation relative to the horizon — its pitch (nose up/down) and roll (banking). Not to be confused with altitude (height)."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He corrected the aircraft's attitude, leveling the wings and lowering the nose."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the same root as 'attitude' (a posture or disposition) — here, the plane's physical posture in the air. A classic source of confusion with the similar-sounding 'altitude'."
+    }
+   ],
+   "name_es": "Attitude",
+   "name_fr": "Attitude",
+   "name_it": "Attitude"
+  },
+  {
+   "name": "Stall",
+   "slug": "stall",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A dangerous loss of lift when a wing exceeds its critical angle and airflow separates — not an engine failure, but an aerodynamic one. The plane stops flying."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Pulling the nose up too steeply, the trainee induced a stall and the aircraft began to drop."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'stall' (to stop or stick). Crucially, an aerodynamic stall is about the wing losing lift, not the engine quitting — a frequent public misconception."
+    }
+   ],
+   "name_es": "Stall",
+   "name_fr": "Stall",
+   "name_it": "Stall"
+  },
+  {
+   "name": "ILS / Approach",
+   "slug": "ils",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Instrument Landing System — radio guidance that helps pilots land precisely in poor visibility, providing both horizontal and vertical alignment to the runway."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "In thick fog, she flew the ILS approach, following the beams down to the runway."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for the 'instrument landing system'. By following its radio beams, pilots can align with and descend to a runway they may not even be able to see."
+    }
+   ],
+   "name_es": "ILS / Approach",
+   "name_fr": "ILS / Approach",
+   "name_it": "ILS / Approach"
+  },
+  {
+   "name": "Flight Level",
+   "slug": "squawk-f",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Flight Level — a standardized altitude expressed in hundreds of feet at a common pressure setting, used at higher altitudes. 'Flight Level 350' is roughly 35,000 feet."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The jet leveled off at Flight Level 390 for the long cruise."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Above a transition altitude, planes use 'flight levels' on a standard pressure setting, so all aircraft share the same reference and stay safely separated vertically."
+    }
+   ],
+   "name_es": "Flight Level",
+   "name_fr": "Flight Level",
+   "name_it": "Flight Level"
+  },
+  {
+   "name": "Go-Around",
+   "slug": "go-around",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Aborting a landing attempt to climb back up and try again, when the approach isn't safe. A normal, trained-for maneuver, not a failure."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With another aircraft still on the runway, the pilot executed a go-around and circled back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the aircraft 'goes around' for another attempt. A routine safety maneuver — far better to abort and retry than force an unsafe landing."
+    }
+   ],
+   "name_es": "Go-Around",
+   "name_fr": "Go-Around",
+   "name_it": "Go-Around"
+  },
+  {
+   "cat": "OPERATIONS & TACTICS"
+  },
+  {
+   "name": "Recon",
+   "slug": "recon",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Reconnaissance — gathering information about an area, enemy, or situation, often before an operation. Scouting to reduce the unknowns."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The team ran recon on the compound for two days before the mission."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A clipping of 'reconnaissance', from French 'reconnaître' (to recognize, explore). The vital practice of scouting ahead to learn before acting."
+    }
+   ],
+   "name_es": "Recon",
+   "name_fr": "Recon",
+   "name_it": "Recon"
+  },
+  {
+   "name": "SITREP",
+   "slug": "sitrep",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Situation Report — a concise update on the current state of affairs: position, status, threats, and needs. Keeps everyone informed."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Give me a sitrep,' the commander ordered, wanting the latest on the ground."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A compound abbreviation of 'situation report'. One of many '-rep' military shorthands, it delivers a fast, structured snapshot of current conditions."
+    }
+   ],
+   "name_es": "SITREP",
+   "name_fr": "SITREP",
+   "name_it": "SITREP"
+  },
+  {
+   "name": "Rules of Engagement (ROE)",
+   "slug": "rules-of-engagement",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "ROE — the directives defining when, where, and how force may be used. They govern what soldiers are and aren't permitted to do in a given operation."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Strict rules of engagement meant they couldn't fire unless fired upon first."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'rules' governing 'engagement' (combat). ROE translate law, policy, and strategy into concrete limits on the use of force."
+    }
+   ],
+   "name_es": "Rules of Engagement (ROE)",
+   "name_fr": "Rules of Engagement (ROE)",
+   "name_it": "Rules of Engagement (ROE)"
+  },
+  {
+   "name": "Cover & Concealment",
+   "slug": "cover",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Cover' protects from enemy fire (a solid wall); 'concealment' only hides you from view (a bush). Confusing the two can be fatal."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He ducked behind the concrete barrier for cover, not just the flimsy bushes that offered mere concealment."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A critical distinction: 'cover' physically stops bullets, while 'concealment' only blocks line of sight. A soldier must always know which one they have."
+    }
+   ],
+   "name_es": "Cover & Concealment",
+   "name_fr": "Cover & Concealment",
+   "name_it": "Cover & Concealment"
+  },
+  {
+   "name": "Flank",
+   "slug": "flank",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The side of a military formation, or to attack from the side. 'Flanking' an enemy means hitting them from a vulnerable angle rather than head-on."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "While one squad held the front, the other moved to flank the enemy from the right."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the anatomical 'flank' (the side of the body). Attacking the exposed side of an enemy force is one of the oldest and most effective tactics in warfare."
+    }
+   ],
+   "name_es": "Flank",
+   "name_fr": "Flank",
+   "name_it": "Flank"
+  },
+  {
+   "name": "Exfil / Infil",
+   "slug": "exfil",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Exfil' (exfiltration) is the planned withdrawal from an operational area; 'infil' (infiltration) is moving in. Getting out is often the hardest part."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After securing the intel, they moved to the exfil point for extraction."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Clippings of 'exfiltration' and 'infiltration'. The planned routes and methods for slipping into and back out of an objective area, often the riskiest phases."
+    }
+   ],
+   "name_es": "Exfil / Infil",
+   "name_fr": "Exfil / Infil",
+   "name_it": "Exfil / Infil"
+  },
+  {
+   "name": "Danger Close",
+   "slug": "danger-close",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A warning that friendly forces are dangerously near the target of an air strike or artillery fire, requiring extra caution to avoid hitting one's own troops."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He called in the strike 'danger close,' the enemy nearly on top of his own position."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: friendlies are 'dangerously close' to the impact zone. The call signals that supporting fire risks harming the very troops it's meant to protect."
+    }
+   ],
+   "name_es": "Danger Close",
+   "name_fr": "Danger Close",
+   "name_it": "Danger Close"
+  },
+  {
+   "cat": "STRUCTURE & TIME"
+  },
+  {
+   "name": "NCO",
+   "slug": "nco",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Non-Commissioned Officer — an enlisted leader (like a sergeant) who rose through the ranks, rather than being commissioned as an officer. The 'backbone' of the military."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The young lieutenant leaned heavily on his experienced NCO's hard-won wisdom."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'non-commissioned officer'. NCOs lead from experience rather than commission, and are often called the backbone that holds a unit together."
+    }
+   ],
+   "name_es": "NCO",
+   "name_fr": "NCO",
+   "name_it": "NCO"
+  },
+  {
+   "name": "CO / XO",
+   "slug": "co",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'CO' is the Commanding Officer (in charge); 'XO' is the Executive Officer (second-in-command, handling day-to-day operations). The top of a unit's leadership."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The CO set the mission's intent while the XO handled the detailed planning."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Acronyms for 'commanding officer' and 'executive officer'. The CO holds ultimate authority; the XO is the deputy who runs the organization's daily machinery."
+    }
+   ],
+   "name_es": "CO / XO",
+   "name_fr": "CO / XO",
+   "name_it": "CO / XO"
+  },
+  {
+   "name": "Zulu Time",
+   "slug": "zulu",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Zulu Time — Coordinated Universal Time (UTC), used as a single global time reference so forces in different zones can coordinate without confusion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The operation was set for 0600 Zulu, the same instant everywhere regardless of local time."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Zulu' is the phonetic letter 'Z', the designator for the UTC time zone. Using one universal clock prevents deadly errors when units span the globe."
+    }
+   ],
+   "name_es": "Zulu Time",
+   "name_fr": "Zulu Time",
+   "name_it": "Zulu Time"
+  },
+  {
+   "name": "Military Time",
+   "slug": "hundred-hours",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Military time uses a 24-hour clock spoken in a distinct way — '1300 hours' for 1 p.m., '0600' as 'zero six hundred.' It eliminates a.m./p.m. confusion."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'We move at 2200 hours,' she said — ten o'clock at night, no ambiguity."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The 24-hour clock spoken military-style. Saying 'oh-six-hundred' removes any chance of confusing morning and evening, critical when timing must be exact."
+    }
+   ],
+   "name_es": "Military Time",
+   "name_fr": "Military Time",
+   "name_it": "Military Time"
+  },
+  {
+   "name": "Chain of Command",
+   "slug": "chain-of-command",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The hierarchy of authority through which orders pass, from top to bottom. Respecting the chain of command keeps a large organization coordinated."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He took his concern up the chain of command rather than going straight to the general."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive: the 'chain' of linked authority running through the 'command' structure. Each link reports to the one above, keeping orders and accountability orderly."
+    }
+   ],
+   "name_es": "Chain of Command",
+   "name_fr": "Chain of Command",
+   "name_it": "Chain of Command"
+  },
+  {
+   "name": "AAR",
+   "slug": "aar",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "After-Action Review — a structured debrief held after an operation to analyze what happened, what worked, what didn't, and how to improve. Learning from every mission."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "In the AAR, the team honestly dissected every mistake to do better next time."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An acronym for 'after-action review'. This disciplined, blame-light analysis of an event became so effective it's now widely borrowed by businesses and other fields."
+    }
+   ],
+   "name_es": "AAR",
+   "name_fr": "AAR",
+   "name_it": "AAR"
+  },
+  {
+   "cat": "MILITARY SLANG"
+  },
+  {
+   "name": "Oscar Mike",
+   "slug": "oscar-mike",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Radio slang for 'On the Move' (the phonetic letters O and M). 'We're Oscar Mike' means a unit is underway."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Oscar Mike,' he radioed as the convoy rolled out."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the phonetic alphabet: 'Oscar' (O) and 'Mike' (M) spell 'OM', short for 'on the move'. A crisp way to report that a unit is now underway."
+    }
+   ],
+   "name_es": "Oscar Mike",
+   "name_fr": "Oscar Mike",
+   "name_it": "Oscar Mike"
+  },
+  {
+   "name": "FUBAR / SNAFU",
+   "slug": "fubar",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'FUBAR' and 'SNAFU' are colorful acronyms describing things gone badly wrong — 'SNAFU' meaning a situation that's a mess, 'FUBAR' meaning thoroughly broken."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The plan went completely FUBAR the moment the weather turned."
+    },
+    {
+     "k": "Origin & History",
+     "v": "WWII-era acronyms (politely, 'Fouled Up Beyond All Recognition' and 'Situation Normal: All Fouled Up'). Wry soldier humor for the chaos and mishaps of military life."
+    }
+   ],
+   "name_es": "FUBAR / SNAFU",
+   "name_fr": "FUBAR / SNAFU",
+   "name_it": "FUBAR / SNAFU"
+  },
+  {
+   "name": "Hooah",
+   "slug": "hooah",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An all-purpose Army exclamation expressing enthusiasm, agreement, or motivation — meaning roughly 'yes,' 'understood,' or 'hell yeah.' (The Marines say 'Oorah.')"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Are we ready to move?' 'Hooah!' the squad roared back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Of debated origin, possibly from 'HUA' (Heard, Understood, Acknowledged). This versatile battle cry conveys spirit and assent — the Marine equivalent is 'Oorah'."
+    }
+   ],
+   "name_es": "Hooah",
+   "name_fr": "Hooah",
+   "name_it": "Hooah"
+  },
+  {
+   "name": "Klick",
+   "slug": "klick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Military slang for a kilometer. 'The objective is two klicks north' means two kilometers away. Standard distance shorthand in the field."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Target's about three klicks east,' the scout reported."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Slang for 'kilometer', of uncertain origin — possibly from the clicking adjustment of a rifle sight or map tools. The standard field term for a kilometer of distance."
+    }
+   ],
+   "name_es": "Klick",
+   "name_fr": "Klick",
+   "name_it": "Klick"
+  },
+  {
+   "name": "Got Your Six",
+   "slug": "six",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'Got your six' means 'I've got your back' — your 'six' is the position directly behind you, like six o'clock on a clock face. A pledge of protection."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "'Don't worry, I've got your six,' she said, covering his rear as he advanced."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the clock-position system pilots use, where 12 is ahead and 6 is directly behind. 'Watch your six' warns of a threat to your rear; 'got your six' promises cover."
+    }
+   ],
+   "name_es": "Got Your Six",
+   "name_fr": "Got Your Six",
+   "name_it": "Got Your Six"
+  },
+  {
+   "name": "POG / Grunt",
+   "slug": "pog",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "'POG' (Person Other than Grunt) is slang for non-combat support troops; a 'grunt' is an infantry soldier. The terms mark a good-natured (and sometimes pointed) rivalry."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The grunts ribbed the POGs about their cushy desks far from the front lines."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Grunt' evokes the infantryman's hard, grunting labor; 'POG' (person other than grunt) covers everyone else. The banter reflects an age-old combat-vs-support divide."
+    }
+   ],
+   "name_es": "POG / Grunt",
+   "name_fr": "POG / Grunt",
+   "name_it": "POG / Grunt"
+  }
+ ]
+}

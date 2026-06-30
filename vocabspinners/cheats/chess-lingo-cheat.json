@@ -1,0 +1,335 @@
+{
+ "title": "Chess Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "OPENINGS"
+  },
+  {
+   "name": "Sicilian Defense",
+   "slug": "openings-sicilian-defense",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The most popular chess opening at the highest levels — Black responds to 1.e4 with 1...c5."
+    },
+    {
+     "k": "Significance",
+     "v": "'Fischer, Kasparov, Anand, Carlsen — the greatest players of every era have relied on the Sicilian Defense as Black, prizing its fighting quality and the rich tactical complexity that flows from the asymmetric pawn structure.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named after Italian priest Giulio Polerio who documented it in 1594, though the name 'Sicilian' was coined by Greco in 1620."
+    }
+   ],
+   "name_es": "Defensa Siciliana",
+   "name_fr": "Défense Sicilienne",
+   "name_it": "Difesa Siciliana"
+  },
+  {
+   "name": "King's Gambit",
+   "slug": "openings-kings-gambit",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "One of the oldest and most romantic openings: 1.e4 e5 2.f4 — White offers a pawn to gain rapid development and attacking chances. If Black accepts (2...exf4), White gets an open f-file and fast piece development."
+    },
+    {
+     "k": "Significance",
+     "v": "'Paul Morphy's 1858 Opera Game — played in a Paris opera box against two noblemen who were distracted by a performance — is the most famous King's Gambit game ever played, a masterclass in rapid development and sacrificial attack that chess…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Gambit' comes from Italian 'gambetto' (a leg-tripping maneuver in wrestling) — giving something up for strategic advantage."
+    }
+   ],
+   "name_es": "Gambito de Rey",
+   "name_fr": "Gambit du Roi",
+   "name_it": "Gambetto del Re"
+  },
+  {
+   "name": "Queen's Gambit",
+   "slug": "openings-queens-gambit",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "One of the oldest and most respected openings: 1.d4 d5 2.c4 — White offers a queenside pawn to gain control of the center."
+    },
+    {
+     "k": "Significance",
+     "v": "'The Netflix series \"The Queen's Gambit\" (2020) caused a global chess boom — online chess platforms reported 600% increases in registrations, chess sets sold out worldwide, and the game attracted millions of new players who had never before…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Queen's Gambit dates to at least 1490 (Lucena's manuscript). The name 'gambit' is misleading — it's one of the most positionally solid openings in chess. The 1927 World Championship match (Capablanca vs."
+    }
+   ],
+   "name_es": "Gambito de Dama",
+   "name_fr": "Gambit de la Dame",
+   "name_it": "Gambetto di Donna"
+  },
+  {
+   "cat": "TACTICS"
+  },
+  {
+   "name": "Fork",
+   "slug": "tactics-fork",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A tactic in which one piece simultaneously attacks two or more of the opponent's pieces, forcing the opponent to choose which to save while the other is captured."
+    },
+    {
+     "k": "Significance",
+     "v": "'In Kasparov vs. Topalov (Wijk aan Zee 1999) — the most analyzed game in chess history — Kasparov repeatedly created fork threats with his knight that forced Topalov into a losing position despite appearing to have a safe king.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Fork' in chess dates to 18th-century English chess writing, describing the forked shape of a simultaneous double attack. In other languages: 'fourche' (French), 'horquilla' (Spanish), 'Gabel' (German)."
+    }
+   ],
+   "name_es": "Horquilla",
+   "name_fr": "Fourchette",
+   "name_it": "Forchetta"
+  },
+  {
+   "name": "Pin",
+   "slug": "tactics-pin",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A tactic in which an attacking piece threatens a defending piece that, if it moves, would expose a more valuable piece behind it to capture. An 'absolute pin' immobilizes a piece because moving it would expose the king to check (illegal)."
+    },
+    {
+     "k": "Significance",
+     "v": "'The bishop pins the knight against the queen — the defender cannot move the knight because doing so would hang the queen, so they must either break the pin by interposing another piece or lose material.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From the physical act of pinning something down. Along with the fork and skewer, the pin is one of the three basic 'double attacks' taught in chess education. The term appears in 19th-century English chess literature."
+    }
+   ],
+   "name_es": "Clavada",
+   "name_fr": "Clouage",
+   "name_it": "Inchiodatura"
+  },
+  {
+   "name": "Discovered Check",
+   "slug": "tactics-discovered-check",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A check delivered by a piece that was previously blocked by a friendly piece that moves away — 'discovering' the check."
+    },
+    {
+     "k": "Significance",
+     "v": "'The discovered check is devastating because the opponent must respond to the check — they have no choice — while the moving piece simultaneously attacks the queen or rook, winning material on the next move regardless of how the check is de…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The discovered check concept appears in 16th-century European chess manuals. The double check (both the revealed piece and the moving piece give check simultaneously) is an extreme form — the only legal response is to move the king."
+    }
+   ],
+   "name_es": "Jaque Descubierto",
+   "name_fr": "Échec à la Découverte",
+   "name_it": "Scacco Scoperto"
+  },
+  {
+   "name": "Zugzwang",
+   "slug": "tactics-zugzwang",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A German chess term describing a position in which a player is obligated to make a move but any move they make will worsen their position — they would prefer to pass. Common in endgames where pawn and king positions are critical."
+    },
+    {
+     "k": "Significance",
+     "v": "'In the endgame, White maneuvered his king to the critical square and waited — it was pure zugzwang: whichever pawn Black moved would create a passed pawn for White, and moving the king would allow White's king to penetrate the position.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From German 'Zug' (move) + 'Zwang' (compulsion/force) — 'move compulsion.' The term was adopted into chess literature in the 1850s–60s."
+    }
+   ],
+   "name_es": "Zugzwang",
+   "name_fr": "Zugzwang",
+   "name_it": "Zugzwang"
+  },
+  {
+   "cat": "ENDGAME"
+  },
+  {
+   "name": "Checkmate",
+   "slug": "endgame-checkmate",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The winning condition in chess: a check (direct attack on the king) from which the king cannot escape — cannot move to a safe square, cannot be blocked, and cannot be captured by another piece. The game ends immediately upon checkmate."
+    },
+    {
+     "k": "Significance",
+     "v": "'Fool's Mate — 1.f3 e5 2.g4 Qh4# — is the fastest possible checkmate in chess, delivered in just two moves."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Checkmate' comes from the Persian 'Shah Mat' — 'the king is dead' (or 'the king is helpless'). Chess originated in India (~600 AD) as 'chaturanga,' spread to Persia, then the Arab world (where 'Shah Mat' was coined), then medieval Europe."
+    }
+   ],
+   "name_es": "Jaque Mate",
+   "name_fr": "Échec et Mat",
+   "name_it": "Scacco Matto"
+  },
+  {
+   "name": "Stalemate",
+   "slug": "endgame-stalemate",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A drawn outcome in chess where the player to move has no legal moves but is NOT in check. Though the position looks like a win for the attacking side, it is a draw — giving half a point to each player."
+    },
+    {
+     "k": "Significance",
+     "v": "'Magnus Carlsen, up a queen, misplayed the endgame and allowed stalemate — his opponent had nothing but a bare king, and Carlsen stepped into the exact square that gave the king no legal moves."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Stalemate' comes from Old French 'estal' (position) + 'mat' (dead/helpless) — 'a position of helplessness without check.' Before 1800, stalemate was variously counted as a win for the stalemated player, a loss, or a draw depending on the r…"
+    }
+   ],
+   "name_es": "Ahogado",
+   "name_fr": "Pat",
+   "name_it": "Stallo"
+  },
+  {
+   "name": "En Passant",
+   "slug": "endgame-en-passant",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A special pawn capture in chess: if a pawn advances two squares from its starting position and lands beside an opponent's pawn, the opponent may capture it 'in passing' — as if it had only moved one square."
+    },
+    {
+     "k": "Significance",
+     "v": "'The beginner played 1...c5 expecting to safely advance their pawn, not realizing that White's pawn on d5 could capture en passant — 2.dxc6 e.p. — removing the pawn from c5 and leaving White with a passed d-pawn headed for promotion.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "French for 'in passing.' The rule was introduced when the two-square pawn advance was added to chess rules around 1490."
+    }
+   ],
+   "name_es": "Al Paso",
+   "name_fr": "En Passant",
+   "name_it": "En Passant"
+  },
+  {
+   "cat": "PIECES & NOTATION"
+  },
+  {
+   "name": "Castling",
+   "slug": "pieces-castling",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A special move in which the king moves two squares toward a rook, and the rook jumps to the other side of the king — 'short castling' (kingside) or 'long castling' (queenside)."
+    },
+    {
+     "k": "Significance",
+     "v": "'Carlsen delayed castling for 30 moves, using his king actively in the center while keeping it flexible between kingside and queenside safety — a sign of supreme positional confidence that lesser players would never dare attempt.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Castling was developed in Europe between the 13th and 17th centuries as chess evolved. In early forms, the king could leap to specific squares; the modern castling rule was standardized by the late 17th century."
+    }
+   ],
+   "name_es": "Enroque",
+   "name_fr": "Roque",
+   "name_it": "Arrocco"
+  },
+  {
+   "name": "Pawn Promotion",
+   "slug": "pieces-promotion",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "When a pawn reaches the opponent's back rank (8th rank for White, 1st rank for Black), it must be immediately replaced by a queen, rook, bishop, or knight of the same color. Almost always promoted to a queen (the strongest piece)."
+    },
+    {
+     "k": "Significance",
+     "v": "'The endgame was a race — White's passed pawn on e7 was one move from promotion, and Black had to sacrifice his rook to stop it — but it wasn't enough, and the new queen decided the game on the very next move.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Promotion has been part of chess since at least the 10th century, though the piece choice varied by era — in older forms, only a queen (the weakest piece in early chess!) could be promoted to, making promotion less desirable."
+    }
+   ],
+   "name_es": "Coronación de Peón",
+   "name_fr": "Promotion de Pion",
+   "name_it": "Promozione del Pedone"
+  },
+  {
+   "cat": "STRATEGY & CULTURE"
+  },
+  {
+   "name": "Gambit",
+   "slug": "strategy-gambit",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "An opening move or sequence in which a player sacrifices material — usually a pawn — to gain a strategic advantage such as rapid development, central control, or an attack."
+    },
+    {
+     "k": "Significance",
+     "v": "'The Queen's Gambit declined — Black refusing the pawn — is actually the safer and more popular choice at the grandmaster level, as the gambit pawn is usually easily recovered; the real gambit is the time White spends chasing it.'"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "From Italian 'gambetto' (leg-tripping move in wrestling) via Spanish 'gambito.' First used in chess writing by Ruy López (1561)."
+    }
+   ],
+   "name_es": "Gambito",
+   "name_fr": "Gambit",
+   "name_it": "Gambetto"
+  },
+  {
+   "name": "Elo Rating",
+   "slug": "strategy-elo-rating",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The numerical system used to calculate the relative skill levels of chess players."
+    },
+    {
+     "k": "Significance",
+     "v": "'Magnus Carlsen reached a peak rating of 2882 in 2014 — the highest Elo rating ever recorded — while simultaneously holding the world championship in classical, rapid, and blitz chess, a combination of achievements unprecedented in the game…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Arpad Elo (1903–1992) developed the system in the 1950s–60s; FIDE (chess's international governing body) adopted it in 1970."
+    }
+   ],
+   "name_es": "Puntuación Elo",
+   "name_fr": "Classement Elo",
+   "name_it": "Rating Elo"
+  },
+  {
+   "name": "Blunder",
+   "slug": "strategy-blunder",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A serious chess mistake that drastically changes the evaluation of a position — typically a move that immediately loses material or allows checkmate."
+    },
+    {
+     "k": "Significance",
+     "v": "'Garry Kasparov vs. Deep Blue, Game 2 (1997): Kasparov resigned a drawn position after committing one of the most analyzed blunders in chess history — the psychological pressure of facing the machine had led him to miscalculate in a positio…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Blunder' in English originally meant to move blindly or stumble — appearing in chess writing by the 1800s."
+    }
+   ],
+   "name_es": "Error Grave",
+   "name_fr": "Gaffe",
+   "name_it": "Errore Grave (Blunder)"
+  }
+ ]
+}

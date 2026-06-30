@@ -1,0 +1,359 @@
+{
+ "title": "U.S. History — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "COLONIAL ERA"
+  },
+  {
+   "name": "Mayflower Compact (1620)",
+   "slug": "colonial-mayflower-compact",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Mayflower Compact was signed by 41 Pilgrim men on November 11, 1620, aboard the Mayflower before landing at Plymouth, Massachusetts."
+    },
+    {
+     "k": "Significance",
+     "v": "The Mayflower Compact is a direct ancestor of the U.S. Constitution — its principle that government derives its authority from the consent of the governed became the cornerstone of American democracy, restated in the Declaration of Independ…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Pilgrims were Separatist Puritans fleeing religious persecution in England. They had intended to settle in Virginia but were blown off course. Of 102 passengers, 46 died the first winter."
+    }
+   ],
+   "name_es": "Pacto del Mayflower (1620)",
+   "name_fr": "Pacte du Mayflower (1620)",
+   "name_it": "Patto del Mayflower (1620)"
+  },
+  {
+   "name": "Salem Witch Trials (1692)",
+   "slug": "colonial-salem-witch-trials",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Between February 1692 and May 1693, more than 200 people were accused of witchcraft in Salem, Massachusetts. Nineteen were executed by hanging, one man (Giles Corey) was pressed to death with stones, and five others died in prison."
+    },
+    {
+     "k": "Significance",
+     "v": "The Salem trials became a lasting symbol of how mass hysteria, religious extremism, and flawed justice can destroy innocent lives — cited in Arthur Miller's play 'The Crucible' (1953) as an allegory for McCarthyism, and studied in psycholog…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The accused were largely poor, female, and social outsiders; the accusers were often young girls with personal grudges or family rivalries."
+    }
+   ],
+   "name_es": "Juicios de Brujas de Salem (1692)",
+   "name_fr": "Procès des Sorcières de Salem (1692)",
+   "name_it": "Processi alle Streghe di Salem (1692)"
+  },
+  {
+   "cat": "REVOLUTION"
+  },
+  {
+   "name": "Declaration of Independence (1776)",
+   "slug": "revolution-declaration-of-independence",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776."
+    },
+    {
+     "k": "Significance",
+     "v": "The Declaration created the philosophical foundation for American democracy and became the most influential political document in history — inspiring the French Revolution (1789), Latin American independence movements, and civil rights move…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Jefferson's original draft condemned King George III for the slave trade, but this passage was deleted by delegates from Southern colonies."
+    }
+   ],
+   "name_es": "Declaración de Independencia (1776)",
+   "name_fr": "Déclaration d'Indépendance (1776)",
+   "name_it": "Dichiarazione d'Indipendenza (1776)"
+  },
+  {
+   "name": "Boston Tea Party (1773)",
+   "slug": "revolution-boston-tea-party",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "On December 16, 1773, members of the Sons of Liberty (disguised as Mohawk Indians) boarded three British ships in Boston Harbor and dumped 342 chests of tea (worth ~$1.7 million today) into the water to protest British taxation without colo…"
+    },
+    {
+     "k": "Significance",
+     "v": "The Tea Party radicalized colonial opinion and provoked Britain's Coercive Acts (Intolerable Acts, 1774), which united the colonies against British rule and directly led to the First Continental Congress — making it a direct trigger of the…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The phrase 'no taxation without representation' predates the Tea Party — it was coined by James Otis Jr. around 1761."
+    }
+   ],
+   "name_es": "Motín del Té de Boston (1773)",
+   "name_fr": "Boston Tea Party (1773)",
+   "name_it": "Boston Tea Party (1773)"
+  },
+  {
+   "name": "Constitutional Convention (1787)",
+   "slug": "revolution-constitutional-convention",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Constitutional Convention met in Philadelphia from May to September 1787 to revise the Articles of Confederation. Instead, delegates wrote an entirely new Constitution."
+    },
+    {
+     "k": "Significance",
+     "v": "The Constitution created the most durable written national constitution in history — still in effect 237 years later with only 27 amendments."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Convention was held in secret — windows nailed shut in July heat — to allow frank debate. The Three-Fifths Compromise counted enslaved people as 3/5 of a person for congressional representation, embedding slavery into the document."
+    }
+   ],
+   "name_es": "Convención Constitucional (1787)",
+   "name_fr": "Convention constitutionnelle (1787)",
+   "name_it": "Convenzione Costituzionale (1787)"
+  },
+  {
+   "cat": "EARLY REPUBLIC"
+  },
+  {
+   "name": "Louisiana Purchase (1803)",
+   "slug": "early-republic-louisiana-purchase",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "President Jefferson purchased 828,000 square miles of territory from Napoleon's France for $15 million ($18 per square mile) — doubling the size of the United States overnight. The purchase included all or part of 15 modern U.S. states."
+    },
+    {
+     "k": "Significance",
+     "v": "The Louisiana Purchase was the largest land deal in history and enabled Manifest Destiny — the belief that the U.S. was destined to expand across the continent."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Napoleon sold the territory because the Haitian Revolution (led by Toussaint Louverture) had defeated his army and ended French ambitions in the Americas."
+    }
+   ],
+   "name_es": "Compra de Luisiana (1803)",
+   "name_fr": "Achat de la Louisiane (1803)",
+   "name_it": "Acquisto della Louisiana (1803)"
+  },
+  {
+   "name": "Manifest Destiny",
+   "slug": "early-republic-manifest-destiny",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "'Manifest Destiny' was the 19th-century belief that the U.S. was divinely ordained to expand across the North American continent from the Atlantic to the Pacific. The phrase was coined by journalist John L. O'Sullivan in 1845."
+    },
+    {
+     "k": "Significance",
+     "v": "Manifest Destiny resulted in the U.S. acquiring half of Mexico (Texas, California, New Mexico, Arizona, Nevada, Utah, Colorado) and forced the Trail of Tears displacement of the Five Civilized Tribes."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The term was new but the idea was not — John Quincy Adams had spoken of an 'obligation' to occupy the continent in 1811."
+    }
+   ],
+   "name_es": "Destino Manifiesto",
+   "name_fr": "Destinée Manifeste",
+   "name_it": "Destino Manifesto"
+  },
+  {
+   "cat": "CIVIL WAR ERA"
+  },
+  {
+   "name": "Emancipation Proclamation (1863)",
+   "slug": "civil-war-emancipation-proclamation",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "On January 1, 1863, President Lincoln issued the Emancipation Proclamation, declaring all enslaved people in Confederate states 'forever free.' It did not free enslaved people in border states (Missouri, Kentucky, Maryland, Delaware) that h…"
+    },
+    {
+     "k": "Significance",
+     "v": "The Proclamation transformed the Civil War from a war to preserve the Union into a war for human freedom, making it impossible for Britain and France (who had abolished slavery) to support the Confederacy."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Lincoln issued the Proclamation using his war powers as commander-in-chief, not through Congress. Slavery was not fully abolished until the 13th Amendment (December 1865)."
+    }
+   ],
+   "name_es": "Proclamación de Emancipación (1863)",
+   "name_fr": "Proclamation d'émancipation (1863)",
+   "name_it": "Proclamazione di Emancipazione (1863)"
+  },
+  {
+   "name": "Battle of Gettysburg (1863)",
+   "slug": "civil-war-gettysburg",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Battle of Gettysburg (July 1–3, 1863) was the bloodiest battle of the Civil War: 50,000+ casualties over three days. Union forces under General George Meade repelled Confederate General Robert E. Lee's invasion of Pennsylvania."
+    },
+    {
+     "k": "Significance",
+     "v": "Gettysburg is the turning point of the Civil War — after this defeat, the Confederacy was permanently on the defensive."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Pickett's Charge — the Confederate frontal assault on Cemetery Ridge on July 3 — is considered one of the greatest blunders in military history. Of 12,500 Confederate soldiers who charged, over half were killed or wounded in under an hour."
+    }
+   ],
+   "name_es": "Batalla de Gettysburg (1863)",
+   "name_fr": "Bataille de Gettysburg (1863)",
+   "name_it": "Battaglia di Gettysburg (1863)"
+  },
+  {
+   "name": "Reconstruction (1865–1877)",
+   "slug": "civil-war-reconstruction",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Reconstruction was the period after the Civil War during which the federal government attempted to reintegrate the Confederate states and protect the rights of formerly enslaved people."
+    },
+    {
+     "k": "Significance",
+     "v": "Reconstruction saw the election of Black congressmen and senators, the creation of public schools in the South, and real civil rights progress — then it was dismantled by the Compromise of 1877 and replaced by Jim Crow laws, Black Codes, an…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Reconstruction's failure is one of the great 'what ifs' of American history. Historian Eric Foner called it 'America's unfinished revolution.' Frederick Douglass was the most prominent Black leader of the era."
+    }
+   ],
+   "name_es": "Reconstrucción (1865–1877)",
+   "name_fr": "Reconstruction (1865–1877)",
+   "name_it": "Ricostruzione (1865–1877)"
+  },
+  {
+   "cat": "INDUSTRIAL & PROGRESSIVE"
+  },
+  {
+   "name": "The Gilded Age (1870s–1900)",
+   "slug": "industrial-gilded-age",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Gilded Age (a term coined by Mark Twain) was an era of rapid industrialization, extreme inequality, and political corruption."
+    },
+    {
+     "k": "Significance",
+     "v": "The Gilded Age created the template for American capitalism — trusts, monopolies, and the worship of wealth — and also the backlash: labor unions, the Progressive Era, antitrust laws, and the income tax (16th Amendment, 1913)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Gilded Age' means superficially golden but corrupt underneath — Twain's novel (1873) satirized the era's materialism. John D. Rockefeller's Standard Oil controlled 91% of U.S. oil refining at its peak."
+    }
+   ],
+   "name_es": "La Era Dorada (1870–1900)",
+   "name_fr": "L'Âge Doré (1870–1900)",
+   "name_it": "L'Era Dorata (1870–1900)"
+  },
+  {
+   "name": "Women's Suffrage (19th Amendment, 1920)",
+   "slug": "industrial-womens-suffrage",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The 19th Amendment, ratified on August 18, 1920, prohibited denying the right to vote based on sex, giving women the right to vote nationally."
+    },
+    {
+     "k": "Significance",
+     "v": "Women's suffrage transformed American democracy — women immediately became a major political force and their voting patterns have shaped every election since. Susan B."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Wyoming Territory granted women's suffrage in 1869 — 51 years before the 19th Amendment. New Zealand was the first country to grant women's full suffrage (1893)."
+    }
+   ],
+   "name_es": "Sufragio Femenino (19.ª Enmienda, 1920)",
+   "name_fr": "Suffrage Féminin (19e Amendement, 1920)",
+   "name_it": "Suffragio Femminile (19° Emendamento, 1920)"
+  },
+  {
+   "cat": "20TH CENTURY"
+  },
+  {
+   "name": "The New Deal (1933–1939)",
+   "slug": "modern-new-deal",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The New Deal was President Franklin Roosevelt's response to the Great Depression (unemployment peaked at 25% in 1933)."
+    },
+    {
+     "k": "Significance",
+     "v": "The New Deal permanently expanded the federal government's role in the economy and created institutions — Social Security, the SEC, the FDIC — that still exist."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The New Deal did not end the Depression — unemployment was still 14% in 1940. WWII mobilization, not the New Deal, ended mass unemployment."
+    }
+   ],
+   "name_es": "El New Deal (1933–1939)",
+   "name_fr": "Le New Deal (1933–1939)",
+   "name_it": "Il New Deal (1933–1939)"
+  },
+  {
+   "name": "Civil Rights Movement (1954–1968)",
+   "slug": "modern-civil-rights-movement",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Civil Rights Movement was a decades-long campaign to end racial segregation and discrimination against African Americans. Key events: Brown v."
+    },
+    {
+     "k": "Significance",
+     "v": "The Civil Rights Movement is the most successful social movement in American history — dismantling a legally enforced apartheid system through nonviolent protest, litigation, and political pressure in just 14 years."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Rosa Parks' refusal to give up her bus seat (December 1, 1955) sparked the Montgomery Bus Boycott, but she was not the first — Claudette Colvin had refused 9 months earlier. The movement drew on Gandhian nonviolent resistance."
+    }
+   ],
+   "name_es": "Movimiento por los Derechos Civiles (1954–1968)",
+   "name_fr": "Mouvement des Droits Civiques (1954–1968)",
+   "name_it": "Movimento per i Diritti Civili (1954–1968)"
+  },
+  {
+   "name": "September 11, 2001",
+   "slug": "modern-september-11",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "On September 11, 2001, al-Qaeda terrorists hijacked four commercial airplanes. Two struck the World Trade Center towers in New York (which collapsed), one struck the Pentagon, and one (United Flight 93) crashed in a Pennsylvania field after…"
+    },
+    {
+     "k": "Significance",
+     "v": "9/11 fundamentally reshaped U.S. foreign policy, civil liberties, and national security."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Osama bin Laden, who ordered the attacks, was killed by U.S. Navy SEALs in Abbottabad, Pakistan on May 2, 2011."
+    }
+   ],
+   "name_es": "11 de Septiembre de 2001",
+   "name_fr": "11 Septembre 2001",
+   "name_it": "11 Settembre 2001"
+  },
+  {
+   "name": "The Great Depression (1929–1939)",
+   "slug": "modern-great-depression",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The Great Depression began with the stock market crash of October 29, 1929 ('Black Tuesday'). By 1933, 25% of American workers were unemployed, industrial output fell 47%, 9,000 banks failed, and 2 million people were homeless."
+    },
+    {
+     "k": "Significance",
+     "v": "The Great Depression was global — it devastated economies worldwide, destabilized democracies, and contributed directly to the rise of Fascism in Europe (Hitler came to power in 1933)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The Smoot-Hawley Tariff (1930) — raising import taxes — deepened the Depression by triggering retaliatory tariffs worldwide and collapsing global trade by 65%."
+    }
+   ],
+   "name_es": "La Gran Depresión (1929–1939)",
+   "name_fr": "La Grande Dépression (1929–1939)",
+   "name_it": "La Grande Depressione (1929–1939)"
+  }
+ ]
+}

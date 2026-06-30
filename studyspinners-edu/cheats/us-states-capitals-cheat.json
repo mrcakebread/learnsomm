@@ -1,0 +1,524 @@
+{
+ "title": "U.S. States & Capitals — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "NORTHEAST"
+  },
+  {
+   "name": "New York — Albany",
+   "slug": "northeast-new-york",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "New York is the 4th most populous state (20.2 million). Albany, on the Hudson River, has been the state capital since 1797. New York City is the largest city in the U.S. but is NOT the capital."
+    },
+    {
+     "k": "Significance",
+     "v": "New York has the highest state GDP in the U.S. and is the financial capital of the world — home to the NYSE and NASDAQ."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named after the Duke of York (future King James II of England) when the English seized it from the Dutch in 1664. The Dutch had called it New Amsterdam."
+    }
+   ],
+   "name_es": "Nueva York — Albany",
+   "name_fr": "New York — Albany",
+   "name_it": "New York — Albany"
+  },
+  {
+   "name": "Pennsylvania — Harrisburg",
+   "slug": "northeast-pennsylvania",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Pennsylvania, the 5th most populous state, is called the 'Keystone State.' Harrisburg, on the Susquehanna River, became the capital in 1812. Philadelphia served as capital of the U.S. from 1790 to 1800."
+    },
+    {
+     "k": "Significance",
+     "v": "Birthplace of American democracy: the Declaration of Independence and the Constitution were both drafted in Philadelphia."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named by William Penn for his father Admiral Penn — 'Penn's Woods' (Latin: sylvania = woods). Founded as a Quaker colony in 1681 emphasizing religious tolerance."
+    }
+   ],
+   "name_es": "Pensilvania — Harrisburg",
+   "name_fr": "Pennsylvanie — Harrisburg",
+   "name_it": "Pennsylvania — Harrisburg"
+  },
+  {
+   "name": "Massachusetts — Boston",
+   "slug": "northeast-massachusetts",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Massachusetts is home to Harvard (1636, oldest U.S. university) and MIT. Boston, the capital since 1630, was the epicenter of the American Revolution — the Tea Party, the Midnight Ride, and the Battle of Bunker Hill all happened here."
+    },
+    {
+     "k": "Significance",
+     "v": "Massachusetts has produced more U.S. presidents per capita than any other state, including John Adams, John Quincy Adams, JFK, and George H.W. Bush (born there)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name derives from the Massachusett tribe — meaning 'near the great hill' in the Algonquian language. One of the original 13 colonies, settled by Puritan settlers aboard the Mayflower in 1620."
+    }
+   ],
+   "name_es": "Massachusetts — Boston",
+   "name_fr": "Massachusetts — Boston",
+   "name_it": "Massachusetts — Boston"
+  },
+  {
+   "name": "Connecticut — Hartford",
+   "slug": "northeast-connecticut",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Connecticut, the 3rd smallest state, is nicknamed the 'Constitution State' because its 1639 Fundamental Orders is considered the first written constitution in the Western world. Hartford has been the sole capital since 1875."
+    },
+    {
+     "k": "Significance",
+     "v": "Insurance capital of the U.S. — Hartford has been home to the insurance industry since the 18th century and remains its national center."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from an Algonquian word meaning 'long tidal river.' Mark Twain and Harriet Beecher Stowe (author of Uncle Tom's Cabin) both lived in Hartford."
+    }
+   ],
+   "name_es": "Connecticut — Hartford",
+   "name_fr": "Connecticut — Hartford",
+   "name_it": "Connecticut — Hartford"
+  },
+  {
+   "name": "Maine — Augusta",
+   "slug": "northeast-maine",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Maine is the largest of the six New England states and the easternmost state in the U.S. Augusta, one of the least populous state capitals in the country (around 19,000 people), has been the capital since 1832."
+    },
+    {
+     "k": "Significance",
+     "v": "Maine produces 99% of all blueberries in the U.S. and is the largest lobster-fishing state, accounting for over 80% of the national catch."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Maine is the only U.S. state whose name is one syllable. Origin of name disputed — possibly named after the French province of Maine, or from sailors' use of 'the maine' to distinguish the mainland from offshore islands."
+    }
+   ],
+   "name_es": "Maine — Augusta",
+   "name_fr": "Maine — Augusta",
+   "name_it": "Maine — Augusta"
+  },
+  {
+   "cat": "SOUTH"
+  },
+  {
+   "name": "Texas — Austin",
+   "slug": "south-texas",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Texas is the 2nd largest state by area and population (30 million). Austin, the capital since 1839, is one of the fastest-growing cities in the U.S. Texas was an independent republic (the Republic of Texas) from 1836 to 1845."
+    },
+    {
+     "k": "Significance",
+     "v": "Texas has the most farms of any U.S. state, the most cattle, and is the largest oil-producing state — the Permian Basin alone rivals OPEC nations in output."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from the Caddo word 'taysha' meaning 'friends' or 'allies.' Austin is named for Stephen F. Austin, called the 'Father of Texas,' who led American colonization of the region under Mexican rule."
+    }
+   ],
+   "name_es": "Texas — Austin",
+   "name_fr": "Texas — Austin",
+   "name_it": "Texas — Austin"
+  },
+  {
+   "name": "Florida — Tallahassee",
+   "slug": "south-florida",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Florida is the 3rd most populous state (22 million) and the southernmost contiguous U.S. state. Tallahassee, chosen as capital in 1824 as a midpoint between the then-major cities of Pensacola and St."
+    },
+    {
+     "k": "Significance",
+     "v": "Florida has the most theme parks of any state (Walt Disney World, Universal, SeaWorld), the largest concentration of golf courses, and the most lightning strikes per year."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from Spanish 'Pascua Florida' (Feast of Flowers/Easter), given by explorer Juan Ponce de León in 1513. Tallahassee comes from the Apalachee language meaning 'old fields' or 'old town.'"
+    }
+   ],
+   "name_es": "Florida — Tallahassee",
+   "name_fr": "Floride — Tallahassee",
+   "name_it": "Florida — Tallahassee"
+  },
+  {
+   "name": "Virginia — Richmond",
+   "slug": "south-virginia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Virginia, the 'Mother of Presidents,' was home to 8 U.S. presidents — more than any other state. Richmond became the Confederate capital during the Civil War."
+    },
+    {
+     "k": "Significance",
+     "v": "The Pentagon — headquarters of the U.S. Department of Defense — is located in Arlington, Virginia, and is the largest office building in the world."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named in honor of Elizabeth I of England, the 'Virgin Queen.' Richmond's name comes from Richmond upon Thames in England. Virginia was the first of the original 13 colonies to be settled by the English."
+    }
+   ],
+   "name_es": "Virginia — Richmond",
+   "name_fr": "Virginie — Richmond",
+   "name_it": "Virginia — Richmond"
+  },
+  {
+   "name": "Georgia — Atlanta",
+   "slug": "south-georgia",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Georgia is the largest state east of the Mississippi River by land area. Atlanta, the capital since 1868, is the corporate headquarters of more Fortune 500 companies than any other Southern city, including Coca-Cola, Delta Air Lines, and CN…"
+    },
+    {
+     "k": "Significance",
+     "v": "Georgia is the largest U.S. producer of peanuts, pecans, and peaches — the 'Peach State' nickname, though South Carolina actually grows more peaches today."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named in honor of King George II of Great Britain, who granted the colonial charter in 1732. Atlanta was originally called 'Terminus' (end of the railroad line) and was renamed 'Marthasville' before Atlanta in 1845."
+    }
+   ],
+   "name_es": "Georgia — Atlanta",
+   "name_fr": "Géorgie — Atlanta",
+   "name_it": "Georgia — Atlanta"
+  },
+  {
+   "name": "Louisiana — Baton Rouge",
+   "slug": "south-louisiana",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Louisiana is the only state with parishes instead of counties (a legacy of French Catholic governance). Baton Rouge — French for 'Red Stick' — has been the capital since 1849. New Orleans (not the capital) is far more famous."
+    },
+    {
+     "k": "Significance",
+     "v": "Louisiana has the highest incarceration rate of any state in the U.S. (and one of the highest in the world) and is one of the poorest states by median income."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named for King Louis XIV of France. Was part of France, Spain, and briefly France again before the Louisiana Purchase (1803)."
+    }
+   ],
+   "name_es": "Luisiana — Baton Rouge",
+   "name_fr": "Louisiane — Baton Rouge",
+   "name_it": "Louisiana — Baton Rouge"
+  },
+  {
+   "name": "Tennessee — Nashville",
+   "slug": "south-tennessee",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Tennessee is the only state that borders 8 other states — tied with Missouri. Nashville, 'Music City,' has been the capital since 1843 and is the global center of country music."
+    },
+    {
+     "k": "Significance",
+     "v": "Tennessee is the birthplace of the blues (Memphis) and country music (Nashville) — two of America's most globally influential musical genres."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from a Cherokee village called 'Tanasi.' Tennessee was the first state admitted to the Union after the original 13 (1796). Andrew Jackson and James K. Polk — both from Tennessee — shaped the 'Age of Jackson' era."
+    }
+   ],
+   "name_es": "Tennessee — Nashville",
+   "name_fr": "Tennessee — Nashville",
+   "name_it": "Tennessee — Nashville"
+  },
+  {
+   "cat": "MIDWEST"
+  },
+  {
+   "name": "Illinois — Springfield",
+   "slug": "midwest-illinois",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Illinois is the 6th most populous state. Springfield, Abraham Lincoln's hometown and burial site, has been the capital since 1837. Chicago (not the capital) is the 3rd largest city in the U.S."
+    },
+    {
+     "k": "Significance",
+     "v": "Illinois has had more governors convicted of corruption than any other state — four in the past 50 years, two of whom served prison time simultaneously."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from the Illinois Confederation of tribes, via French 'Illiniwek' meaning 'he speaks in the regular way.' Springfield was chosen as capital partly due to Lincoln's lobbying as a state legislator — a fact celebrated there to this day."
+    }
+   ],
+   "name_es": "Illinois — Springfield",
+   "name_fr": "Illinois — Springfield",
+   "name_it": "Illinois — Springfield"
+  },
+  {
+   "name": "Ohio — Columbus",
+   "slug": "midwest-ohio",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Ohio is the 7th most populous state and a perennial presidential battleground. Columbus, the capital and largest city in Ohio, was purpose-built as the capital in 1812. Ohio has produced 8 U.S. presidents — second only to Virginia."
+    },
+    {
+     "k": "Significance",
+     "v": "No Republican has ever won the presidency without winning Ohio — making it historically the most important swing state, though its reliability has faded slightly in recent elections."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Ohio' comes from the Seneca language meaning 'great river.' Columbus is named for Christopher Columbus."
+    }
+   ],
+   "name_es": "Ohio — Columbus",
+   "name_fr": "Ohio — Columbus",
+   "name_it": "Ohio — Columbus"
+  },
+  {
+   "name": "Michigan — Lansing",
+   "slug": "midwest-michigan",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Michigan is the only U.S. state consisting of two separate peninsulas. Lansing, a small city relative to Detroit, became capital in 1847. Michigan borders 4 of the 5 Great Lakes — more than any other state."
+    },
+    {
+     "k": "Significance",
+     "v": "Detroit is the global capital of the U.S. auto industry — home to General Motors, Ford, and Stellantis (Chrysler). Michigan produces more cars than any other state."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from the Ojibwe 'mishigamaa' meaning 'large water' or 'large lake.' Lansing became capital partly because legislators wanted to move the capital further from the Ohio border (away from Toledo, which was disputed between Ohio and Michig…"
+    }
+   ],
+   "name_es": "Michigan — Lansing",
+   "name_fr": "Michigan — Lansing",
+   "name_it": "Michigan — Lansing"
+  },
+  {
+   "name": "Minnesota — Saint Paul",
+   "slug": "midwest-minnesota",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Minnesota's capital is Saint Paul — NOT Minneapolis. The 'Twin Cities' are the two largest cities, separated by the Mississippi River, and are often confused. Saint Paul has been the capital since Minnesota's statehood in 1858."
+    },
+    {
+     "k": "Significance",
+     "v": "Minnesota has more than 10,000 lakes (actually 11,842 by official count) and the largest population of Somali immigrants in the U.S., centered in Minneapolis."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from the Dakota Sioux words 'mni' (water) and 'sota' (clear/cloudy sky). Minnesota shares the longest straight-line national border in the world with Canada along its northern edge."
+    }
+   ],
+   "name_es": "Minnesota — Saint Paul",
+   "name_fr": "Minnesota — Saint Paul",
+   "name_it": "Minnesota — Saint Paul"
+  },
+  {
+   "cat": "MOUNTAIN WEST"
+  },
+  {
+   "name": "Colorado — Denver",
+   "slug": "mountain-west-colorado",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Colorado's capital Denver is called the 'Mile High City' because its elevation is exactly 5,280 feet (1,609 m) above sea level — a fact marked by a step on the State Capitol building."
+    },
+    {
+     "k": "Significance",
+     "v": "Colorado was the first state to legalize recreational marijuana (2012), launching a wave of similar legislation across the U.S. and generating over $1.6 billion in tax revenue by 2020."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from Spanish 'colorado' meaning 'colored red,' referring to the reddish-brown Colorado River. Denver was named after James W."
+    }
+   ],
+   "name_es": "Colorado — Denver",
+   "name_fr": "Colorado — Denver",
+   "name_it": "Colorado — Denver"
+  },
+  {
+   "name": "Nevada — Carson City",
+   "slug": "mountain-west-nevada",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Nevada's capital is Carson City — NOT Las Vegas. Las Vegas (not the capital) is the 28th largest city in the U.S. and the entertainment capital of the world."
+    },
+    {
+     "k": "Significance",
+     "v": "Nevada is the driest state in the U.S. and has the most active gold mines — producing more gold than any other U.S. state and ranking in the world's top 5 gold-producing regions."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name from Spanish 'nevada' meaning 'snow-capped' or 'snowy,' referring to the Sierra Nevada mountains. Carson City is named after frontier scout Kit Carson."
+    }
+   ],
+   "name_es": "Nevada — Carson City",
+   "name_fr": "Nevada — Carson City",
+   "name_it": "Nevada — Carson City"
+  },
+  {
+   "name": "Arizona — Phoenix",
+   "slug": "mountain-west-arizona",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Arizona has the largest Native American population of any U.S. state and contains more national parks and monuments (22) than any other. Phoenix, the capital, is the only state capital in the U.S. with more than a million residents."
+    },
+    {
+     "k": "Significance",
+     "v": "The Grand Canyon — one of the Seven Natural Wonders of the World — is entirely within Arizona. It is 277 miles long, up to 18 miles wide, and over a mile deep."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name origin uncertain — possibly from the O'odham word 'ali shonak' meaning 'small spring.' Phoenix was named by colonist Darrell Duppa, who predicted the city would rise from the ruins of a former Hohokam civilization — like the mythical p…"
+    }
+   ],
+   "name_es": "Arizona — Phoenix",
+   "name_fr": "Arizona — Phoenix",
+   "name_it": "Arizona — Phoenix"
+  },
+  {
+   "name": "New Mexico — Santa Fe",
+   "slug": "mountain-west-new-mexico",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Santa Fe is the oldest U.S. state capital (founded 1610 by Spanish colonists — 10 years before the Mayflower landed). It is also the highest state capital at 7,199 feet (2,194 m)."
+    },
+    {
+     "k": "Significance",
+     "v": "Los Alamos, New Mexico is where the atomic bomb was developed (Manhattan Project, 1943–1945) in a secret laboratory directed by J. Robert Oppenheimer."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'New Mexico' was named by Spanish explorers hoping to find riches like those found in Mexico. Santa Fe means 'Holy Faith' in Spanish — full name La Villa Real de la Santa Fe de San Francisco de Asís."
+    }
+   ],
+   "name_es": "Nuevo México — Santa Fe",
+   "name_fr": "Nouveau-Mexique — Santa Fe",
+   "name_it": "Nuovo Messico — Santa Fe"
+  },
+  {
+   "cat": "PACIFIC"
+  },
+  {
+   "name": "California — Sacramento",
+   "slug": "pacific-california",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "California is the most populous state (39 million) and has the largest state economy in the U.S. — if it were a country, it would be the 5th largest economy in the world. Sacramento has been the capital since 1854."
+    },
+    {
+     "k": "Significance",
+     "v": "California produces over 1/3 of all vegetables and 2/3 of all fruits and nuts grown in the U.S. Silicon Valley (San Jose area) generates more venture capital investment than any other region on earth."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name possibly from a Spanish novel (Las Sergas de Esplandián, 1510) depicting a fictional island called 'California' ruled by Black Amazons. Sacramento means 'Blessed Sacrament' in Spanish — named by Spanish explorers."
+    }
+   ],
+   "name_es": "California — Sacramento",
+   "name_fr": "Californie — Sacramento",
+   "name_it": "California — Sacramento"
+  },
+  {
+   "name": "Washington — Olympia",
+   "slug": "pacific-washington",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Washington state's capital is Olympia — NOT Seattle. Seattle (not the capital) is the 15th largest U.S. city and home to Amazon, Microsoft, Boeing, and Starbucks. Washington became the 42nd state in 1889."
+    },
+    {
+     "k": "Significance",
+     "v": "Washington state produces more apples than any other state — about 60% of all U.S. apples come from the Yakima Valley region."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Named after President George Washington — the only state named after a president. Olympia is named for the Olympic Mountains visible from the city. Washington has the only state flag depicting a president's face."
+    }
+   ],
+   "name_es": "Washington — Olympia",
+   "name_fr": "Washington — Olympia",
+   "name_it": "Washington — Olympia"
+  },
+  {
+   "name": "Oregon — Salem",
+   "slug": "pacific-oregon",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Oregon's capital is Salem — NOT Portland. Portland (not the capital) is famous for craft beer, food trucks, and tech companies. Salem has been the capital since 1851."
+    },
+    {
+     "k": "Significance",
+     "v": "Oregon has the deepest lake in the U.S. — Crater Lake (1,943 feet/592 m deep), formed by a volcanic eruption 7,700 years ago. Oregon also has the most ghost towns of any state."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Name origin disputed — possibly from the French 'ouragan' (hurricane/windstorm), or from a misprint of 'Ouisiconsink' (Wisconsin) on a map. Salem likely comes from the Hebrew 'shalom' (peace) via the city of Jerusalem."
+    }
+   ],
+   "name_es": "Oregon — Salem",
+   "name_fr": "Oregon — Salem",
+   "name_it": "Oregon — Salem"
+  },
+  {
+   "name": "Hawaii — Honolulu",
+   "slug": "pacific-hawaii",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Hawaii is the only U.S. state that is entirely made up of islands (137 islands total, 8 main), the only state in the tropics, and the most recent state admitted (1959). Honolulu, on the island of Oahu, has been the capital since 1845."
+    },
+    {
+     "k": "Significance",
+     "v": "Hawaii is home to Mauna Kea, the world's tallest mountain measured from its base on the ocean floor (33,500 ft/10,210 m). Pearl Harbor (Oahu) was the site of the 1941 Japanese attack that brought the U.S. into WWII."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Hawaii was an independent kingdom until 1893, when American business interests overthrew Queen Liliuokalani in a coup backed by U.S. Marines. The U.S. formally apologized for the overthrow in 1993."
+    }
+   ],
+   "name_es": "Hawái — Honolulu",
+   "name_fr": "Hawaï — Honolulu",
+   "name_it": "Hawaii — Honolulu"
+  },
+  {
+   "name": "Alaska — Juneau",
+   "slug": "pacific-alaska",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Alaska is the largest state by area — 2.5 times the size of Texas — but one of the least populous. Juneau, the capital since 1906, is accessible only by sea or air (no roads connect it to the rest of Alaska or the lower 48 states)."
+    },
+    {
+     "k": "Significance",
+     "v": "Alaska has more coastline than all other U.S. states combined, more active volcanoes than any other state (130+), and produces nearly a third of all U.S. seafood."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "'Alaska' comes from the Aleut word 'Alyeska' meaning 'great land' or 'the object toward which the action of the sea is directed.' Juneau is named after gold prospector Joe Juneau, who discovered gold there in 1880."
+    }
+   ],
+   "name_es": "Alaska — Juneau",
+   "name_fr": "Alaska — Juneau",
+   "name_it": "Alaska — Juneau"
+  }
+ ]
+}

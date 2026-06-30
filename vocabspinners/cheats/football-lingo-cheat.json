@@ -1,0 +1,755 @@
+{
+ "title": "Football Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "OFFENSE"
+  },
+  {
+   "name": "Touchdown",
+   "slug": "touchdown",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Scoring by carrying or catching the ball across the opponent's goal line, worth six points — the game's primary objective."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He stretched the ball over the pylon for the touchdown as he fell out of bounds, and the replay official spent two minutes confirming what the crowd already knew."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the earlier rugby-style game, where a player had to literally 'touch the ball down' on the ground in the end zone — a requirement American football later dropped."
+    }
+   ],
+   "name_es": "Touchdown",
+   "name_fr": "Touchdown",
+   "name_it": "Touchdown"
+  },
+  {
+   "name": "Snap Count",
+   "slug": "blitz-o",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The signals a quarterback shouts before the snap — the 'snap count' — to start the play and to disguise or adjust it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He barked the snap count, the rhythmic 'hut-hut' freezing the defense for the half-second his line needed to fire off the ball."
+    },
+    {
+     "k": "Origin & History",
+     "v": "The 'count' refers to the cadence quarterbacks use; a hard count tries to bait the defense into jumping offside before the ball is even snapped."
+    }
+   ],
+   "name_es": "Snap Count",
+   "name_fr": "Snap Count",
+   "name_it": "Snap Count"
+  },
+  {
+   "name": "Red Zone",
+   "slug": "red-zone",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The area inside the opponent's 20-yard line, where the field shrinks and scoring chances — and pressure — intensify."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They moved the ball easily until the red zone, where the compressed field strangled their offense and forced a frustrating field goal instead of seven."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the 'red' danger area near the goal line. The term became a broadcasting and analytics staple for measuring a team's scoring efficiency."
+    }
+   ],
+   "name_es": "Red Zone",
+   "name_fr": "Red Zone",
+   "name_it": "Red Zone"
+  },
+  {
+   "name": "Audible",
+   "slug": "audible",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A change of play called by the quarterback at the line of scrimmage after reading the defense, overriding the original call."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He saw the blitz coming, called an audible, and the offense shifted to a quick pass that punished the defense for showing its hand."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'audible,' meaning able to be heard — the quarterback announces the new play aloud. The famous 'Omaha!' calls were modern audibles in action."
+    }
+   ],
+   "name_es": "Audible",
+   "name_fr": "Audible",
+   "name_it": "Audible"
+  },
+  {
+   "name": "Play-Action",
+   "slug": "play-action",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fake handoff designed to freeze the defense and draw it toward the run, opening receivers downfield for a pass."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The play-action fake sucked the linebackers forward, and the tight end slipped behind them wide open for an easy gain."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the quarterback mimics the 'action' of a running play. Its effectiveness depends entirely on a credible running game to sell the fake."
+    }
+   ],
+   "name_es": "Play-Action",
+   "name_fr": "Play-Action",
+   "name_it": "Play-Action"
+  },
+  {
+   "name": "Screen Pass",
+   "slug": "screen-pass",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short pass to a back or receiver behind a wall of blockers, designed to slow an aggressive pass rush."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With the rush bearing down, he dumped a screen pass to the running back, who turned upfield behind three blockers for a surprising chunk of yards."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the blockers form a 'screen' in front of the receiver. It's the classic counter to a defense that rushes the passer too hard."
+    }
+   ],
+   "name_es": "Screen Pass",
+   "name_fr": "Screen Pass",
+   "name_it": "Screen Pass"
+  },
+  {
+   "name": "Hand-Off",
+   "slug": "hand-off",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Physically handing the ball to a running back, the most basic way to start a running play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The quarterback turned and extended the hand-off, the back hitting the hole at full speed before the defense could even diagnose the run."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Plainly descriptive — the ball is 'handed off' from one player to another. It's the foundation of the ground game, as old as the sport itself."
+    }
+   ],
+   "name_es": "Hand-Off",
+   "name_fr": "Hand-Off",
+   "name_it": "Hand-Off"
+  },
+  {
+   "name": "Two-Minute Drill",
+   "slug": "two-minute-drill",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fast, no-huddle offense run late in a half to score quickly against the clock, often managing time-outs and the sideline."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down four with ninety seconds left, he orchestrated the two-minute drill flawlessly, stopping the clock and marching the team the length of the field."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the urgency triggered by the two-minute warning near each half's end. A quarterback's command of it is a measure of true poise."
+    }
+   ],
+   "name_es": "Two-Minute Drill",
+   "name_fr": "Two-Minute Drill",
+   "name_it": "Two-Minute Drill"
+  },
+  {
+   "name": "The Pocket",
+   "slug": "pocket",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The protected area formed by the offensive line behind the line of scrimmage, where the quarterback stands to pass."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He stepped up calmly in the pocket as the walls collapsed around him, buying one more second to find his receiver downfield."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for the 'pocket' of space the blockers form around the passer. A 'pocket passer' is one who thrives there rather than scrambling."
+    }
+   ],
+   "name_es": "The Pocket",
+   "name_fr": "The Pocket",
+   "name_it": "The Pocket"
+  },
+  {
+   "cat": "DEFENSE"
+  },
+  {
+   "name": "Sack",
+   "slug": "sack",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Tackling the quarterback behind the line of scrimmage before they can throw, a major defensive win."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The edge rusher beat his man cleanly and buried the quarterback for a nine-yard sack, the kind of play that flips a drive on its head."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularized by Hall of Fame defender Deacon Jones, who coined the term, comparing the act of dropping a quarterback to sacking and looting a city."
+    }
+   ],
+   "name_es": "Sack",
+   "name_fr": "Sack",
+   "name_it": "Sack"
+  },
+  {
+   "name": "Interception",
+   "slug": "interception",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A pass caught by a defender, immediately turning the ball over to their team — a 'pick.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He read the quarterback's eyes the whole way, broke on the route, and the interception was a gift the offense will regret all week."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to intercept,' to seize something in transit. The defensive equivalent of a quarterback's worst nightmare, instantly reversing possession."
+    }
+   ],
+   "name_es": "Interception",
+   "name_fr": "Interception",
+   "name_it": "Interception"
+  },
+  {
+   "name": "Blitz",
+   "slug": "blitz",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Sending extra defenders — beyond the usual front — to rush the quarterback, gambling pressure against leaving receivers open."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The defense dialed up an all-out blitz, six rushers crashing in, betting they could get home before the quarterback could find the man they'd left uncovered."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the German 'blitzkrieg' ('lightning war'), capturing the sudden, overwhelming nature of the rush. The borrowing entered football in the mid-20th century."
+    }
+   ],
+   "name_es": "Blitz",
+   "name_fr": "Blitz",
+   "name_it": "Blitz"
+  },
+  {
+   "name": "Fourth and Goal",
+   "slug": "fourth-and-goal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fourth-down play near the goal line — the offense's final attempt to score before turning the ball over."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Fourth and goal from the one, season on the line; they went for it, the whole stadium standing, and the play decided everything."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — it's fourth down with the 'goal' line as the target. The decision to 'go for it' here is among the most scrutinized in coaching."
+    }
+   ],
+   "name_es": "Fourth and Goal",
+   "name_fr": "Fourth and Goal",
+   "name_it": "Fourth and Goal"
+  },
+  {
+   "name": "Coverage",
+   "slug": "coverage",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "How defenders guard receivers — man coverage (one-on-one) or zone coverage (guarding areas) — to stop the pass."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The disguised coverage fooled him completely; he expected man, threw into what he thought was open space, and a zone defender was waiting."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to cover,' to guard or defend. The cat-and-mouse of disguising coverage before the snap is one of football's deepest strategic chess matches."
+    }
+   ],
+   "name_es": "Coverage",
+   "name_fr": "Coverage",
+   "name_it": "Coverage"
+  },
+  {
+   "name": "Fumble",
+   "slug": "fumble",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Losing control of the ball while carrying it, making it a live ball that either team can recover. A critical turnover."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The ball popped loose on the hit, a fumble bouncing free in the chaos, and a mad scramble of bodies dove after it as the whole game hung in the balance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to fumble,' to handle clumsily. It's one of two turnover types alongside the interception, and a strip-fumble forced by a defender is a prized play."
+    }
+   ],
+   "name_es": "Fumble",
+   "name_fr": "Fumble",
+   "name_it": "Fumble"
+  },
+  {
+   "name": "Safety (Score)",
+   "slug": "safety",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A rare two-point score for the defense, awarded when the ball-carrier is tackled in their own end zone."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They pinned the offense deep and sacked the quarterback in his own end zone for a safety — two points and the ball, a brutal double blow."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named from the old rules where a team 'downed' the ball in its own end zone for 'safety.' It is the only score worth exactly two points by the defense."
+    }
+   ],
+   "name_es": "Safety (Score)",
+   "name_fr": "Safety (Score)",
+   "name_it": "Safety (Score)"
+  },
+  {
+   "cat": "SPECIAL TEAMS"
+  },
+  {
+   "name": "Field Goal",
+   "slug": "field-goal",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Kicking the ball through the uprights for three points, usually attempted on fourth down within range."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The kicker drilled the 52-yard field goal as time expired, the ball splitting the uprights and the entire bench sprinting onto the field."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — a goal scored from the 'field' of play by kicking, as opposed to a touchdown. Worth three points, it's the consolation prize of a stalled drive."
+    }
+   ],
+   "name_es": "Field Goal",
+   "name_fr": "Field Goal",
+   "name_it": "Field Goal"
+  },
+  {
+   "name": "Onside Kick",
+   "slug": "onside-kick",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short, deliberately bouncy kickoff aimed to travel just past the required distance so the kicking team can recover it."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Trailing late, they gambled on an onside kick, the ball squirting forward off the tee in a desperate scramble of diving bodies."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because the kicking team tries to recover a ball that is 'onside' (legally recoverable) after it travels ten yards. A high-risk comeback tactic."
+    }
+   ],
+   "name_es": "Onside Kick",
+   "name_fr": "Onside Kick",
+   "name_it": "Onside Kick"
+  },
+  {
+   "name": "Punt",
+   "slug": "punt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Kicking the ball away to the opponent on fourth down when scoring is unlikely, to flip field position."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Facing fourth and long, they sent out the punter, who boomed a high spiral that pinned the offense deep and quietly won the field-position battle."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to punt,' to kick a dropped ball before it hits the ground — a term shared with rugby. 'To punt' has even entered everyday English meaning to defer a decision."
+    }
+   ],
+   "name_es": "Punt",
+   "name_fr": "Punt",
+   "name_it": "Punt"
+  },
+  {
+   "name": "Extra Point",
+   "slug": "extra-point",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A kick worth one point attempted after a touchdown, sending the ball through the uprights from short range. The 'PAT.'"
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After the touchdown, the routine extra point made it a two-score game, the kind of automatic kick nobody notices until it's somehow missed."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Officially the 'point after touchdown' (PAT), a near-automatic kick that the league moved farther back to make it less of a formality."
+    }
+   ],
+   "name_es": "Extra Point",
+   "name_fr": "Extra Point",
+   "name_it": "Extra Point"
+  },
+  {
+   "name": "Kick Return",
+   "slug": "kick-return",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Catching a kickoff or punt and running it back upfield, occasionally all the way for a touchdown."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He fielded the kick at the goal line, found a seam in the coverage, and the kick-return became a 100-yard sprint that brought the house down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the receiving team 'returns' the kick. A return for a touchdown is one of the most electrifying and momentum-swinging plays in the sport."
+    }
+   ],
+   "name_es": "Kick Return",
+   "name_fr": "Kick Return",
+   "name_it": "Kick Return"
+  },
+  {
+   "name": "Two-Point Conversion",
+   "slug": "two-point",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Choosing to run or pass into the end zone after a touchdown for two points instead of kicking the one-point extra point."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Down by two late, they spurned the tie and went for the two-point conversion, the whole season riding on one play from the two-yard line."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Adopted by the NFL in 1994 (and earlier in college), the option added a strategic layer, turning the routine point-after into a genuine gamble."
+    }
+   ],
+   "name_es": "Two-Point Conversion",
+   "name_fr": "Two-Point Conversion",
+   "name_it": "Two-Point Conversion"
+  },
+  {
+   "cat": "PENALTIES"
+  },
+  {
+   "name": "Pass Interference",
+   "slug": "pass-interference",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Illegally impeding a receiver's chance to catch the ball before it arrives, often a costly, game-changing penalty."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The flag flew for pass interference deep downfield, gifting the offense forty yards in a single call and instantly putting them in scoring range."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to interfere,' to obstruct. Because the penalty can move the ball to the spot of the foul, it's among the most impactful and debated calls in the game."
+    }
+   ],
+   "name_es": "Pass Interference",
+   "name_fr": "Pass Interference",
+   "name_it": "Pass Interference"
+  },
+  {
+   "name": "Roughing the Passer",
+   "slug": "roughing-passer",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A penalty for hitting the quarterback late, too high, too low, or with excessive force after the ball is thrown."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The defender's hit landed a half-second late, and the roughing-the-passer flag erased the sack and handed the offense a fresh first down."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for treating the passer 'roughly' beyond the rules. The protections have expanded over the years amid growing concern for player safety."
+    }
+   ],
+   "name_es": "Roughing the Passer",
+   "name_fr": "Roughing the Passer",
+   "name_it": "Roughing the Passer"
+  },
+  {
+   "name": "Holding",
+   "slug": "holding",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Illegally grabbing or restraining an opponent who doesn't have the ball, most commonly by a blocker holding a rusher."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The big gain came back on a holding call, the lineman caught with a fistful of jersey, and the groans rolled down from the stands."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to hold,' to grasp or restrain. A running joke says holding could be called on nearly every play; officials flag only the holds that clearly affect it."
+    }
+   ],
+   "name_es": "Holding",
+   "name_fr": "Holding",
+   "name_it": "Holding"
+  },
+  {
+   "name": "False Start",
+   "slug": "false-start",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An offensive penalty when a player moves illegally before the snap, jumping early and stopping the play."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The crowd noise rattled the rookie tackle into a false start, the flat penalty wiping out the snap and pushing the offense five yards backward."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for a 'false' or premature start, borrowed from track and field's term for an early leap off the blocks before the gun."
+    }
+   ],
+   "name_es": "False Start",
+   "name_fr": "False Start",
+   "name_it": "False Start"
+  },
+  {
+   "name": "Offsides",
+   "slug": "offsides",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A penalty when a defender is across the line of scrimmage when the ball is snapped — beaten to the punch by the count."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Lured by a hard count, the lineman jumped offsides, and the free play let the quarterback take a deep shot with nothing to lose."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the player is on the wrong 'side' of the line at the snap. A defender drawn offsides by a clever cadence is a small triumph for the offense."
+    }
+   ],
+   "name_es": "Offsides",
+   "name_fr": "Offsides",
+   "name_it": "Offsides"
+  },
+  {
+   "name": "Targeting",
+   "slug": "targeting",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A serious penalty (especially in college) for hitting a defenseless player in the head or neck, or leading with the crown of the helmet."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The targeting call ejected him for the rest of the game, a strict modern rule that prioritizes the safety of the head above all else."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A 21st-century rule born from the growing understanding of head injuries, designed to remove dangerous head-hunting hits from the sport entirely."
+    }
+   ],
+   "name_es": "Targeting",
+   "name_fr": "Targeting",
+   "name_it": "Targeting"
+  },
+  {
+   "cat": "SLANG & CULTURE"
+  },
+  {
+   "name": "The Gridiron",
+   "slug": "gridiron",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A nickname for the football field, and by extension the sport itself, from the field's old grid of lines."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Friday nights on the gridiron meant the whole town under the lights, the field's painted grid the stage for every local legend."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named because early fields were marked with a checkerboard grid of lines that resembled a 'gridiron,' a metal grate used for cooking over a fire."
+    }
+   ],
+   "name_es": "The Gridiron",
+   "name_fr": "The Gridiron",
+   "name_it": "The Gridiron"
+  },
+  {
+   "name": "Hail Mary",
+   "slug": "hail-mary",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A long, desperate pass thrown toward the end zone as time expires, hoping a receiver comes down with it against the odds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He heaved a Hail Mary into a crowd in the end zone as the clock hit zero, and somehow, impossibly, his receiver came down with it."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Catholic prayer; the term was famously cemented by quarterback Roger Staubach, who said he 'closed his eyes and said a Hail Mary' on a winning 1975 throw."
+    }
+   ],
+   "name_es": "Hail Mary",
+   "name_fr": "Hail Mary",
+   "name_it": "Hail Mary"
+  },
+  {
+   "name": "The Pigskin",
+   "slug": "pigskin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An affectionate slang term for the football itself."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He'd been tossing the pigskin in the backyard since he could walk, dreaming of the day a stadium would roar at his every throw."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A historical misnomer — footballs were made of leather (often cowhide) and inflated pig or animal bladders, never literally pigskin, but the nickname stuck."
+    }
+   ],
+   "name_es": "The Pigskin",
+   "name_fr": "The Pigskin",
+   "name_it": "The Pigskin"
+  },
+  {
+   "name": "Pick-Six",
+   "slug": "pick-six",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An interception returned all the way for a touchdown — a 'pick' (interception) worth six points."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He jumped the route for the pick-six, racing untouched to the end zone, a fourteen-point swing in the blink of an eye."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A modern portmanteau of 'pick' (interception) and 'six' (the points for a touchdown). It captures the single most demoralizing play a quarterback can suffer."
+    }
+   ],
+   "name_es": "Pick-Six",
+   "name_fr": "Pick-Six",
+   "name_it": "Pick-Six"
+  },
+  {
+   "name": "Shotgun",
+   "slug": "shotgun",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An offensive formation where the quarterback lines up several yards behind center to receive a longer snap, gaining time to pass."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "They came out in the shotgun on third and long, the quarterback set deep with extra time and space to survey the field before the rush arrived."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for spraying receivers wide like a shotgun's scatter, the formation was popularized in the 1960s and is now a staple of pass-first offenses."
+    }
+   ],
+   "name_es": "Shotgun",
+   "name_fr": "Shotgun",
+   "name_it": "Shotgun"
+  },
+  {
+   "name": "Hurry-Up",
+   "slug": "hurry-up",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A fast-paced offense that skips the huddle to snap plays quickly, denying the defense time to rest or substitute."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The hurry-up offense had the defense gasping, lining up exhausted play after play with no chance to swap in fresh legs."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive — the offense literally 'hurries up' between plays. Run as a constant scheme, it becomes the 'no-huddle' offense designed to wear defenses down."
+    }
+   ],
+   "name_es": "Hurry-Up",
+   "name_fr": "Hurry-Up",
+   "name_it": "Hurry-Up"
+  },
+  {
+   "name": "The Trenches",
+   "slug": "trenches",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Slang for the area along the line of scrimmage where the offensive and defensive linemen battle — the 'trench warfare' of football."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Games are won in the trenches, the coach always said, where unglamorous giants grind against each other on every single snap."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A wartime metaphor — the linemen's brutal, close-quarters struggle resembles the trench warfare of World War I, hidden in plain sight on every play."
+    }
+   ],
+   "name_es": "The Trenches",
+   "name_fr": "The Trenches",
+   "name_it": "The Trenches"
+  }
+ ]
+}

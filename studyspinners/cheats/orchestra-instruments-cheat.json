@@ -1,0 +1,773 @@
+{
+ "title": "Orchestra Instruments — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "STRINGS"
+  },
+  {
+   "name": "Violin",
+   "slug": "violin",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The smallest and highest-pitched of the standard string family, and the most numerous instrument in the orchestra."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, singing, and agile, with a huge expressive range from delicate whispers to soaring melody. The orchestra's main 'voice.'"
+    },
+    {
+     "k": "How It's Played",
+     "v": "Held under the chin; strings are bowed or plucked (pizzicato), with the left hand stopping notes on the fingerboard."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The soaring main melody in almost any film score; the dazzling solo in Vivaldi's 'Four Seasons.'"
+    }
+   ],
+   "name_es": "Violin",
+   "name_fr": "Violin",
+   "name_it": "Violin"
+  },
+  {
+   "name": "Viola",
+   "slug": "viola",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The alto of the string family — slightly larger than the violin, with a deeper, warmer voice."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Mellow, dark, and slightly nasal, less brilliant than the violin but rich in the middle register. Often the 'inner glue' of string harmony."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played like a violin under the chin but larger; it reads its own clef (the alto clef) that few other instruments use."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The warm inner harmonies in Romantic symphonies; the lyrical solo in Berlioz's 'Harold in Italy.'"
+    }
+   ],
+   "name_es": "Viola",
+   "name_fr": "Viola",
+   "name_it": "Viola"
+  },
+  {
+   "name": "Cello",
+   "slug": "cello",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The tenor-bass of the strings, with one of the richest, most human-sounding voices in all of music."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, warm, and resonant, capable of both a singing tenor melody and a powerful bass foundation. Often called the closest sound to the human voice."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played seated, held between the knees with a spike (endpin) resting on the floor, bowed or plucked."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The aching solo of Elgar's Cello Concerto; the rich bass line under any string section."
+    }
+   ],
+   "name_es": "Cello",
+   "name_fr": "Cello",
+   "name_it": "Cello"
+  },
+  {
+   "name": "Double Bass",
+   "slug": "double-bass",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The largest and lowest string instrument, anchoring the entire orchestra's harmony from the bottom."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, dark, and rumbling, providing the foundation that everything else is built on. Felt as much as heard."
+    },
+    {
+     "k": "How It's Played",
+     "v": "So large the player stands or perches on a tall stool; bowed or plucked, and a staple of jazz too."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The ominous low pulse opening many film scores; the walking bass line in jazz."
+    }
+   ],
+   "name_es": "Double Bass",
+   "name_fr": "Double Bass",
+   "name_it": "Double Bass"
+  },
+  {
+   "name": "Harp",
+   "slug": "harp-strings",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A large, triangular frame of 47 strings plucked by hand — the orchestra's most visually striking instrument."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Shimmering, ethereal, and cascading, capable of rippling glissandos that sweep across all the strings at once."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Plucked with the fingers of both hands; seven foot pedals change the pitch of the strings to play in any key."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The magical, sparkling glissando that signals a dream or flashback; Debussy and Ravel's impressionist colors."
+    }
+   ],
+   "name_es": "Harp",
+   "name_fr": "Harp",
+   "name_it": "Harp"
+  },
+  {
+   "cat": "WOODWINDS"
+  },
+  {
+   "name": "Flute",
+   "slug": "flute",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A silver tube blown across an open hole — the highest common woodwind, and one of the oldest instrument types on Earth."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, pure, and airy, agile and birdlike in its upper range, breathy and gentle lower down."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Held sideways; the player blows across the mouth hole (no reed) while fingers work the keys."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The bird calls and pastoral solos in Debussy's 'Prélude'; sparkling runs throughout the orchestra."
+    }
+   ],
+   "name_es": "Flute",
+   "name_fr": "Flute",
+   "name_it": "Flute"
+  },
+  {
+   "name": "Piccolo",
+   "slug": "piccolo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tiny half-size flute that plays an octave higher — the highest-pitched instrument in the orchestra."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Brilliant, piercing, and shrill, able to cut clean through the loudest full-orchestra climax."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played exactly like the flute but much smaller; usually doubled by a flute player switching instruments."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The whistling, soaring line on top of marches like Sousa's 'Stars and Stripes Forever.'"
+    }
+   ],
+   "name_es": "Piccolo",
+   "name_fr": "Piccolo",
+   "name_it": "Piccolo"
+  },
+  {
+   "name": "Oboe",
+   "slug": "oboe",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A double-reed woodwind with a distinctive, slightly nasal, plaintive voice."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Reedy, penetrating, and expressive, with a poignant, almost vocal quality that carries easily over the orchestra."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Sound is made by blowing through two reeds tied together that vibrate against each other."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The orchestra tunes to its steady 'A'; the haunting solo in the slow movement of many symphonies."
+    }
+   ],
+   "name_es": "Oboe",
+   "name_fr": "Oboe",
+   "name_it": "Oboe"
+  },
+  {
+   "name": "Clarinet",
+   "slug": "clarinet",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A single-reed woodwind with the widest range of any wind instrument and a remarkably smooth, flexible voice."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Warm and woody in its low range, bright and clear up high, capable of both jazz wail and orchestral elegance."
+    },
+    {
+     "k": "How It's Played",
+     "v": "A single reed vibrates against the mouthpiece; fingers and keys cover the holes along the body."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The famous swooping glissando opening Gershwin's 'Rhapsody in Blue'; the heart of any jazz band."
+    }
+   ],
+   "name_es": "Clarinet",
+   "name_fr": "Clarinet",
+   "name_it": "Clarinet"
+  },
+  {
+   "name": "Bassoon",
+   "slug": "bassoon",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The bass of the woodwind family — a tall double-reed instrument with a comic and a melancholy side."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, reedy, and characterful; gruff and almost humorous low down, but plaintive and lyrical in its tenor range."
+    },
+    {
+     "k": "How It's Played",
+     "v": "A long double tube folded back on itself; a curved metal tube (bocal) holds the double reed."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The lumbering grandfather theme in 'Peter and the Wolf'; the strange, high opening of Stravinsky's 'Rite of Spring.'"
+    }
+   ],
+   "name_es": "Bassoon",
+   "name_fr": "Bassoon",
+   "name_it": "Bassoon"
+  },
+  {
+   "name": "Cor Anglais",
+   "slug": "cor-anglais",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The English horn — a larger, lower cousin of the oboe with a deeply soulful tone (and despite the name, it's neither English nor a horn)."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Mellow, melancholy, and warm, even more plaintive than the oboe, with a distinctive pear-shaped bell."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played like the oboe with a double reed, but longer, with a bent metal crook holding the reed."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The heartbreaking 'Going Home' melody in Dvořák's 'New World' Symphony slow movement."
+    }
+   ],
+   "name_es": "Cor Anglais",
+   "name_fr": "Cor Anglais",
+   "name_it": "Cor Anglais"
+  },
+  {
+   "cat": "BRASS"
+  },
+  {
+   "name": "Trumpet",
+   "slug": "trumpet",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The highest and most brilliant of the brass family, used for fanfares, melody, and sheer power."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, bold, and heroic, able to ring out triumphantly or, when muted, sound intimate and jazzy."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player buzzes their lips into a cup mouthpiece; three valves change the length of tubing to change pitch."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Triumphant fanfares; the muted, smoky lead in a jazz combo; Aaron Copland's 'Fanfare for the Common Man.'"
+    }
+   ],
+   "name_es": "Trumpet",
+   "name_fr": "Trumpet",
+   "name_it": "Trumpet"
+  },
+  {
+   "name": "French Horn",
+   "slug": "french-horn",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A coiled brass instrument with a mellow, noble voice that bridges the brass and woodwind sections."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Warm, round, and majestic, capable of soft heroic melody or powerful, ringing climaxes. Notoriously difficult to play cleanly."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player buzzes into a funnel mouthpiece, works rotary valves with the left hand, and shapes the tone with a hand in the bell."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The sweeping, heroic main themes of John Williams scores; the noble calls in Brahms and Strauss."
+    }
+   ],
+   "name_es": "French Horn",
+   "name_fr": "French Horn",
+   "name_it": "French Horn"
+  },
+  {
+   "name": "Trombone",
+   "slug": "trombone",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A brass instrument that changes pitch with a sliding tube instead of valves — the only one to do so."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Powerful, rich, and bold, capable of majestic chorale harmony or a comic, blaring slide."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player buzzes into the mouthpiece and moves a slide in and out to seven positions to change the pitch."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The grand chorale brass of Romantic symphonies; the smear and growl in big-band jazz."
+    }
+   ],
+   "name_es": "Trombone",
+   "name_fr": "Trombone",
+   "name_it": "Trombone"
+  },
+  {
+   "name": "Tuba",
+   "slug": "tuba",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The largest and lowest brass instrument, providing the foundation of the entire brass section."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, round, and powerful, surprisingly agile and even gentle for its enormous size."
+    },
+    {
+     "k": "How It's Played",
+     "v": "The player buzzes into a large mouthpiece; valves control its many meters of coiled tubing. Played seated, resting on the lap."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The lumbering bass under the brass section; the famous solo portraying an elephant in 'Carnival of the Animals.'"
+    }
+   ],
+   "name_es": "Tuba",
+   "name_fr": "Tuba",
+   "name_it": "Tuba"
+  },
+  {
+   "cat": "PERCUSSION"
+  },
+  {
+   "name": "Timpani",
+   "slug": "timpani",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Large tunable kettledrums — the heartbeat of the orchestra and the most important pitched percussion."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, resonant, and dramatic, from a soft ominous rumble to a thunderous climax. Unlike most drums, they play definite pitches."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Struck with felt-covered mallets; a foot pedal changes the tension of the drumhead to retune each drum."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The thunderous rolls and dramatic punctuation in Beethoven and Strauss; building tension in any film score."
+    }
+   ],
+   "name_es": "Timpani",
+   "name_fr": "Timpani",
+   "name_it": "Timpani"
+  },
+  {
+   "name": "Snare Drum",
+   "slug": "snare-drum",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A bright, sharp drum with wire snares stretched across the bottom head for its characteristic crisp rattle."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Crisp, cutting, and rhythmic, with a distinctive buzzing snap that drives a march or builds tension with a long roll."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Struck with two wooden sticks; the snares vibrate against the lower head to create the buzzing tone."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The driving rattle of any military march; the relentless crescendo roll in Ravel's 'Boléro.'"
+    }
+   ],
+   "name_es": "Snare Drum",
+   "name_fr": "Snare Drum",
+   "name_it": "Snare Drum"
+  },
+  {
+   "name": "Bass Drum",
+   "slug": "bass-drum",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The largest drum in the orchestra, producing a deep, booming, pitchless thud."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Deep, booming, and powerful — felt in the chest, used for dramatic impact and thunder."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Struck with a large soft beater on a drum mounted upright; rolls use two beaters for a sustained rumble."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The cannon-like impacts in the '1812 Overture'; the thunder and dramatic accents across the orchestra."
+    }
+   ],
+   "name_es": "Bass Drum",
+   "name_fr": "Bass Drum",
+   "name_it": "Bass Drum"
+  },
+  {
+   "name": "Cymbals",
+   "slug": "cymbals",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Two large metal plates crashed together, or a single suspended cymbal struck with sticks."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Brilliant, crashing, and shimmering, from a delicate shimmer to an explosive climax."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Crash cymbals are clashed together by hand; a suspended cymbal is rolled or struck with mallets or sticks."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The shining crash at a symphony's climax; the shimmering roll building to a peak."
+    }
+   ],
+   "name_es": "Cymbals",
+   "name_fr": "Cymbals",
+   "name_it": "Cymbals"
+  },
+  {
+   "name": "Xylophone",
+   "slug": "xylophone",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A set of tuned wooden bars struck with mallets, producing a bright, woody, percussive melody."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, hard, and bell-like with a short, dry 'click' — distinctly woody compared to its metal cousins."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Wooden bars laid out like a piano keyboard are struck with hard mallets held in each hand."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The clattering, skeletal 'dance of the bones' in Saint-Saëns' 'Danse Macabre.'"
+    }
+   ],
+   "name_es": "Xylophone",
+   "name_fr": "Xylophone",
+   "name_it": "Xylophone"
+  },
+  {
+   "name": "Triangle",
+   "slug": "triangle",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A simple steel bar bent into a triangle — the smallest orchestral instrument with a surprisingly magical sound."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, silvery, and ringing, a tiny shimmer of high sound that sparkles above the whole orchestra."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Struck with a small metal beater; the player can mute it by hand or let it ring, and trill between two sides."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The fairy-tale sparkle in Tchaikovsky's 'Nutcracker'; the famous solo in Liszt's First Piano Concerto."
+    }
+   ],
+   "name_es": "Triangle",
+   "name_fr": "Triangle",
+   "name_it": "Triangle"
+  },
+  {
+   "name": "Celesta",
+   "slug": "celesta",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A small keyboard that strikes metal plates, producing a sweet, bell-like, music-box tone."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Delicate, sparkling, and ethereal — like tiny chiming bells, gentle and otherworldly."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Looks like a small upright piano; pressing the keys makes hammers strike metal bars instead of strings."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The shimmering, magical 'Dance of the Sugar Plum Fairy' in Tchaikovsky's 'Nutcracker'; the Harry Potter theme."
+    }
+   ],
+   "name_es": "Celesta",
+   "name_fr": "Celesta",
+   "name_it": "Celesta"
+  },
+  {
+   "cat": "KEYBOARD & HARP"
+  },
+  {
+   "name": "Piano",
+   "slug": "piano",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A keyboard instrument that strikes strings with hammers — equally a solo star and an orchestral color."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Hugely versatile, from thunderous power to delicate intimacy, covering the full range of the orchestra by itself."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Pressing a key throws a felt hammer at the strings; pedals sustain or soften the sound. 88 keys span over seven octaves."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Every piano concerto; the percussive, driving role in Stravinsky and modern orchestral works."
+    }
+   ],
+   "name_es": "Piano",
+   "name_fr": "Piano",
+   "name_it": "Piano"
+  },
+  {
+   "name": "Harpsichord",
+   "slug": "harpsichord",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A keyboard that plucks its strings rather than striking them — the keyboard of the Baroque era before the piano."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Bright, crisp, and jangly, with a distinctive metallic 'twang.' It can't play loud or soft by touch — every note is the same volume."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Pressing a key makes a small quill (plectrum) pluck the string. It has no dynamic control from finger pressure."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The continuo backbone of Bach and Vivaldi; the harpsichord sparkle throughout Baroque music."
+    }
+   ],
+   "name_es": "Harpsichord",
+   "name_fr": "Harpsichord",
+   "name_it": "Harpsichord"
+  },
+  {
+   "name": "Pipe Organ",
+   "slug": "organ",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A vast keyboard instrument that produces sound by pushing air through ranks of pipes — the largest instrument of all."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Enormous, powerful, and majestic, from a whisper to a wall of sound that can fill a cathedral and shake the floor."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Played with multiple keyboards (manuals) and a pedalboard for the feet; 'stops' select which sets of pipes sound."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The thunderous opening of Bach's 'Toccata and Fugue'; the awe-inspiring climax of Saint-Saëns' 'Organ Symphony.'"
+    }
+   ],
+   "name_es": "Pipe Organ",
+   "name_fr": "Pipe Organ",
+   "name_it": "Pipe Organ"
+  },
+  {
+   "cat": "ROLES & SECTIONS"
+  },
+  {
+   "name": "Conductor",
+   "slug": "conductor",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The leader who unifies the whole orchestra, shaping tempo, dynamics, and interpretation — without making a sound."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Sets the pulse, balance, and emotional shape of the music, drawing a single coherent performance from a hundred players."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Stands on a podium facing the orchestra, beating time with a baton in the right hand and shaping expression with the left."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The visible heartbeat of any live symphony; legendary figures like Bernstein, Karajan, and Dudamel."
+    }
+   ],
+   "name_es": "Conductor",
+   "name_fr": "Conductor",
+   "name_it": "Conductor"
+  },
+  {
+   "name": "Concertmaster",
+   "slug": "concertmaster",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The principal first violinist — the orchestra's second-in-command after the conductor."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Leads the string section, makes bowing decisions, and plays any violin solos. The link between players and conductor."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Enters last before the conductor, signals the oboe to sound the tuning 'A,' and leads by example from the first chair."
+    },
+    {
+     "k": "Hear It In",
+     "v": "Walks out to applause just before the conductor; plays the violin solos within orchestral works."
+    }
+   ],
+   "name_es": "Concertmaster",
+   "name_fr": "Concertmaster",
+   "name_it": "Concertmaster"
+  },
+  {
+   "name": "Principal / First Chair",
+   "slug": "first-chair",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The 'principal' player who leads each section and plays its solos."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Each section (oboes, cellos, trumpets, etc.) has a principal who leads its phrasing and takes the solo passages."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Sits at the front of the section, closest to the conductor, guiding entrances and the section's unified sound."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The clarinet, oboe, or horn player who stands to take a bow after a notable solo."
+    }
+   ],
+   "name_es": "Principal / First Chair",
+   "name_fr": "Principal / First Chair",
+   "name_it": "Principal / First Chair"
+  },
+  {
+   "name": "The String Section",
+   "slug": "string-section",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The largest body of the orchestra — violins, violas, cellos, and basses — forming its rich harmonic core."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "The unified, blended sound of dozens of bowed strings; the warm foundation almost everything else sits on."
+    },
+    {
+     "k": "How It's Played",
+     "v": "Divided into first and second violins, violas, cellos, and basses, often playing in lush, layered harmony."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The wall of warm sound in any film score's emotional peak; the core of the Classical and Romantic orchestra."
+    }
+   ],
+   "name_es": "The String Section",
+   "name_fr": "The String Section",
+   "name_it": "The String Section"
+  },
+  {
+   "name": "Orchestra Seating",
+   "slug": "seating",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The arrangement of players in a fan shape around the conductor, designed for balance and blend."
+    },
+    {
+     "k": "How It Sounds",
+     "v": "Strings sit closest in front, woodwinds in the middle, brass and percussion at the back — louder instruments further away."
+    },
+    {
+     "k": "How It's Played",
+     "v": "A traditional layout: first violins front-left, then around to cellos and basses on the right, winds behind, percussion at the rear."
+    },
+    {
+     "k": "Hear It In",
+     "v": "The familiar curved arrangement you see at any symphony concert."
+    }
+   ],
+   "name_es": "Orchestra Seating",
+   "name_fr": "Orchestra Seating",
+   "name_it": "Orchestra Seating"
+  }
+ ]
+}

@@ -1,0 +1,1460 @@
+{
+ "title": "Periodic Table Groupings — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "ALKALI METALS"
+  },
+  {
+   "name": "Hydrogen (H)",
+   "slug": "hydrogen",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The lightest and most abundant element in the universe, making up roughly three-quarters of all ordinary matter."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 1 · Atomic mass 1.008 · 1 valence electron · Most common oxidation state +1 (also −1 in hydrides)"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Extremely flammable and forms covalent bonds with most nonmetals. It bonds with oxygen to make water and with carbon to build nearly all organic molecules. Readily gives up or shares its single electron."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Fuel for rockets and fuel cells, refining of fossil fuels, ammonia production for fertilizer, and a leading candidate for clean energy storage."
+    }
+   ],
+   "name_es": "Hydrogen (H)",
+   "name_fr": "Hydrogen (H)",
+   "name_it": "Hydrogen (H)"
+  },
+  {
+   "name": "Lithium (Li)",
+   "slug": "lithium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The lightest solid metal, soft enough to cut with a knife and light enough to float on water (briefly, before reacting). Silvery-white when fresh, it tarnishes quickly in air."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 3 · Atomic mass 6.94 · 1 valence electron · Oxidation state +1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts steadily with water to release hydrogen, less violently than its heavier cousins. Stored under oil because it reacts with both moisture and nitrogen in air."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Rechargeable lithium-ion batteries for phones and electric vehicles, mood-stabilizing medication, and heat-resistant ceramics and glass."
+    }
+   ],
+   "name_es": "Lithium (Li)",
+   "name_fr": "Lithium (Li)",
+   "name_it": "Lithium (Li)"
+  },
+  {
+   "name": "Sodium (Na)",
+   "slug": "sodium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, silvery metal that is one of the most familiar elements on Earth, though never found free in nature because it reacts so eagerly. Best known locked inside table salt."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 11 · Atomic mass 22.99 · 1 valence electron · Oxidation state +1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts vigorously with water, skittering across the surface and igniting the hydrogen it releases. A textbook example of Group 1 reactivity increasing down the column."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Table salt (sodium chloride), streetlights with their orange glow, baking soda, and heat-transfer fluid in some nuclear reactors."
+    }
+   ],
+   "name_es": "Sodium (Na)",
+   "name_fr": "Sodium (Na)",
+   "name_it": "Sodium (Na)"
+  },
+  {
+   "name": "Potassium (K)",
+   "slug": "potassium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, lilac-flame-burning metal essential to all living cells. More reactive than sodium, reflecting the trend that alkali metals grow more reactive as they get heavier."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 19 · Atomic mass 39.10 · 1 valence electron · Oxidation state +1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts violently with water, the released hydrogen usually bursting into a lilac flame. Must be stored under oil away from air and moisture."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Fertilizers (the 'K' in N-P-K), the potassium-sodium pump that fires every nerve and muscle, and bananas as a dietary source."
+    }
+   ],
+   "name_es": "Potassium (K)",
+   "name_fr": "Potassium (K)",
+   "name_it": "Potassium (K)"
+  },
+  {
+   "name": "Cesium (Cs)",
+   "slug": "cesium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A gold-tinted alkali metal so soft it is nearly liquid at room temperature, melting at just 28°C. One of the most reactive metals known."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 55 · Atomic mass 132.91 · 1 valence electron · Oxidation state +1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts explosively with water and even ice, near the extreme end of alkali-metal reactivity. Ignites spontaneously in air."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Atomic clocks — the second is officially defined by a cesium transition — plus drilling fluids and some photoelectric cells."
+    }
+   ],
+   "name_es": "Cesium (Cs)",
+   "name_fr": "Cesium (Cs)",
+   "name_it": "Cesium (Cs)"
+  },
+  {
+   "cat": "ALKALINE EARTH"
+  },
+  {
+   "name": "Beryllium (Be)",
+   "slug": "beryllium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A light, steel-gray metal that is surprisingly stiff and stable for its low weight. Rare in the Earth's crust and notable for being transparent to X-rays."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 4 · Atomic mass 9.012 · 2 valence electrons · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms strong, lightweight alloys. Less reactive than the heavier members of its group, with a protective oxide layer that resists corrosion."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "X-ray windows, aerospace components, and copper-beryllium alloys for non-sparking tools."
+    }
+   ],
+   "name_es": "Beryllium (Be)",
+   "name_fr": "Beryllium (Be)",
+   "name_it": "Beryllium (Be)"
+  },
+  {
+   "name": "Magnesium (Mg)",
+   "slug": "magnesium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A light, silvery structural metal and a cornerstone of life — it sits at the center of every chlorophyll molecule. Burns with a brilliant white light."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 12 · Atomic mass 24.31 · 2 valence electrons · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts slowly with water but burns fiercely once lit, producing intense white light that is hard to extinguish with water."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Lightweight alloys for cars and laptops, flares and fireworks, antacids (milk of magnesia), and the green pigment in plants."
+    }
+   ],
+   "name_es": "Magnesium (Mg)",
+   "name_fr": "Magnesium (Mg)",
+   "name_it": "Magnesium (Mg)"
+  },
+  {
+   "name": "Calcium (Ca)",
+   "slug": "calcium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft gray metal far better known through its compounds — the stuff of bones, teeth, shells, limestone, and chalk. The fifth most abundant element in the crust."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 20 · Atomic mass 40.08 · 2 valence electrons · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts moderately with water, more readily than magnesium, in keeping with the group's increasing reactivity going down."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Cement and concrete, bone and teeth structure, dietary supplements, and the lime that farmers spread to sweeten acidic soil."
+    }
+   ],
+   "name_es": "Calcium (Ca)",
+   "name_fr": "Calcium (Ca)",
+   "name_it": "Calcium (Ca)"
+  },
+  {
+   "name": "Strontium (Sr)",
+   "slug": "strontium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, silvery alkaline-earth metal best known for the brilliant red it lends to flames. Chemically a close relative of calcium."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 38 · Atomic mass 87.62 · 2 valence electrons · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts with water and oxygen, somewhat more readily than calcium. Its salts color flames a deep crimson."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Red fireworks and flares, glow-in-the-dark paints (strontium aluminate), and some specialized magnets and ceramics."
+    }
+   ],
+   "name_es": "Strontium (Sr)",
+   "name_fr": "Strontium (Sr)",
+   "name_it": "Strontium (Sr)"
+  },
+  {
+   "name": "Barium (Ba)",
+   "slug": "barium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, heavy, silvery metal whose compounds are dense enough to block X-rays — which is why patients drink it before certain scans."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 56 · Atomic mass 137.33 · 2 valence electrons · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reactive with water and air, near the more-reactive end of its group. Its salts burn green in a flame test."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Barium 'meal' for medical imaging, green fireworks, and drilling muds in the oil industry."
+    }
+   ],
+   "name_es": "Barium (Ba)",
+   "name_fr": "Barium (Ba)",
+   "name_it": "Barium (Ba)"
+  },
+  {
+   "cat": "TRANSITION METALS"
+  },
+  {
+   "name": "Iron (Fe)",
+   "slug": "iron",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The backbone of civilization and the core of our planet — literally, since Earth's center is mostly iron. A strong, magnetic, gray metal that rusts in moist air."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 26 · Atomic mass 55.85 · Common oxidation states +2 and +3 · A transition metal with a partly filled d-shell"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms colored compounds and multiple oxidation states, the hallmark of transition metals. Rusts (oxidizes) readily in the presence of water and oxygen."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Steel for buildings, tools, and vehicles, hemoglobin that carries oxygen in your blood, and the magnetic core of electric motors."
+    }
+   ],
+   "name_es": "Iron (Fe)",
+   "name_fr": "Iron (Fe)",
+   "name_it": "Iron (Fe)"
+  },
+  {
+   "name": "Copper (Cu)",
+   "slug": "copper",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A reddish-orange metal humans have worked for over ten thousand years. An outstanding conductor of heat and electricity, second only to silver."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 29 · Atomic mass 63.55 · Common oxidation states +1 and +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Resists corrosion by forming a green patina. Forms blue and green compounds typical of transition metals; an excellent electron conductor."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Electrical wiring, plumbing pipes, the Statue of Liberty's green skin, and bronze and brass alloys."
+    }
+   ],
+   "name_es": "Copper (Cu)",
+   "name_fr": "Copper (Cu)",
+   "name_it": "Copper (Cu)"
+  },
+  {
+   "name": "Zinc (Zn)",
+   "slug": "zinc",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A bluish-white metal that quietly protects others — it sacrifices itself to keep steel from rusting. Essential to human health in trace amounts."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 30 · Atomic mass 65.38 · Oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Coats steel by galvanizing, corroding in place of the iron beneath. Forms mostly colorless compounds, unusual for a transition metal."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Galvanized roofing and fences, brass (with copper), sunscreen and diaper cream (zinc oxide), and dietary supplements."
+    }
+   ],
+   "name_es": "Zinc (Zn)",
+   "name_fr": "Zinc (Zn)",
+   "name_it": "Zinc (Zn)"
+  },
+  {
+   "name": "Silver (Ag)",
+   "slug": "silver",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A lustrous white precious metal with the highest electrical and thermal conductivity of any element. Prized for coinage, jewelry, and its germ-killing properties."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 47 · Atomic mass 107.87 · Common oxidation state +1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Relatively unreactive but tarnishes black when it meets sulfur compounds in air. Antimicrobial against many bacteria."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Jewelry and silverware, electrical contacts, mirrors, photographic film (historically), and antibacterial wound dressings."
+    }
+   ],
+   "name_es": "Silver (Ag)",
+   "name_fr": "Silver (Ag)",
+   "name_it": "Silver (Ag)"
+  },
+  {
+   "name": "Gold (Au)",
+   "slug": "gold",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The metal of kings — dense, soft, and gloriously unreactive, which is why ancient gold artifacts still gleam. So malleable a single gram can be beaten into a sheet a square meter wide."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 79 · Atomic mass 196.97 · Common oxidation states +1 and +3 · Famously inert ('noble' metal)"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Resists almost all corrosion and acids, dissolving only in aqua regia. This inertness keeps it bright indefinitely."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Jewelry and bullion, corrosion-proof electrical contacts in electronics, dentistry, and spacecraft heat shielding."
+    }
+   ],
+   "name_es": "Gold (Au)",
+   "name_fr": "Gold (Au)",
+   "name_it": "Gold (Au)"
+  },
+  {
+   "name": "Titanium (Ti)",
+   "slug": "titanium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A strong, light, corrosion-proof metal as strong as steel but far lighter. Biocompatible enough to be welded into the human body."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 22 · Atomic mass 47.87 · Common oxidation state +4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms a tough oxide layer that makes it almost immune to corrosion, even in seawater. Bonds well with bone tissue."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Aircraft and spacecraft frames, medical implants and prosthetics, eyeglass frames, and the white pigment (titanium dioxide) in paint and sunscreen."
+    }
+   ],
+   "name_es": "Titanium (Ti)",
+   "name_fr": "Titanium (Ti)",
+   "name_it": "Titanium (Ti)"
+  },
+  {
+   "name": "Chromium (Cr)",
+   "slug": "chromium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A hard, lustrous metal that gives 'chrome' its mirror shine and stainless steel its rust resistance. Its compounds span a rainbow of colors."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 24 · Atomic mass 52.00 · Oxidation states +2, +3, +6"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms a thin, self-healing oxide layer that protects against corrosion. Its varied oxidation states produce vivid green, yellow, and orange compounds."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Stainless steel, decorative chrome plating, green and red pigments, and the color of rubies and emeralds."
+    }
+   ],
+   "name_es": "Chromium (Cr)",
+   "name_fr": "Chromium (Cr)",
+   "name_it": "Chromium (Cr)"
+  },
+  {
+   "name": "Nickel (Ni)",
+   "slug": "nickel",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A silvery, corrosion-resistant metal that is both magnetic and tough. A workhorse of alloys, hiding in coins, batteries, and stainless steel."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 28 · Atomic mass 58.69 · Common oxidation state +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Resists oxidation and corrosion well, and is one of only a few magnetic elements. Alloys readily with iron and copper."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Stainless steel, rechargeable batteries, coins (the U.S. nickel), and electroplating."
+    }
+   ],
+   "name_es": "Nickel (Ni)",
+   "name_fr": "Nickel (Ni)",
+   "name_it": "Nickel (Ni)"
+  },
+  {
+   "name": "Mercury (Hg)",
+   "slug": "mercury",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The only metal that is liquid at room temperature — a heavy, silvery fluid the ancients called quicksilver. Beautiful, useful, and dangerously toxic."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 80 · Atomic mass 200.59 · Common oxidation states +1 and +2"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Liquid and mobile, it dissolves many metals into alloys called amalgams. Forms toxic organic compounds that accumulate in the food chain."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Older thermometers and barometers, fluorescent lamps, and (historically) gold mining and dental fillings."
+    }
+   ],
+   "name_es": "Mercury (Hg)",
+   "name_fr": "Mercury (Hg)",
+   "name_it": "Mercury (Hg)"
+  },
+  {
+   "name": "Platinum (Pt)",
+   "slug": "platinum",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A dense, silvery, supremely unreactive precious metal rarer than gold. A master catalyst that speeds chemical reactions without being consumed."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 78 · Atomic mass 195.08 · Common oxidation states +2 and +4 · Noble metal"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Almost completely resistant to corrosion and acids. Its surface grips and releases gas molecules, making it a superb catalyst."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Catalytic converters that clean car exhaust, fine jewelry, lab crucibles, and cancer-fighting chemotherapy drugs."
+    }
+   ],
+   "name_es": "Platinum (Pt)",
+   "name_fr": "Platinum (Pt)",
+   "name_it": "Platinum (Pt)"
+  },
+  {
+   "name": "Tungsten (W)",
+   "slug": "tungsten",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A dense, gray metal with the highest melting point of any element — it glows white-hot before it dreams of melting. Its name means 'heavy stone.'"
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 74 · Atomic mass 183.84 · Common oxidation state +6 · Melting point 3,422°C"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Extremely heat- and wear-resistant. Holds its strength at temperatures that would soften most metals."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Light-bulb filaments (historically), cutting tools and drill bits (as tungsten carbide), and rocket-engine nozzles."
+    }
+   ],
+   "name_es": "Tungsten (W)",
+   "name_fr": "Tungsten (W)",
+   "name_it": "Tungsten (W)"
+  },
+  {
+   "cat": "POST-TRANSITION"
+  },
+  {
+   "name": "Aluminum (Al)",
+   "slug": "aluminum",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The most abundant metal in the Earth's crust, yet so reactive it was once more precious than gold until cheap refining arrived. Light, silvery, and endlessly recyclable."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 13 · Atomic mass 26.98 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms a thin, tough oxide layer that protects the metal beneath from further corrosion. Lightweight and an excellent conductor."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Drink cans, aircraft bodies, foil, window frames, and power transmission lines."
+    }
+   ],
+   "name_es": "Aluminum (Al)",
+   "name_fr": "Aluminum (Al)",
+   "name_it": "Aluminum (Al)"
+  },
+  {
+   "name": "Tin (Sn)",
+   "slug": "tin",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, silvery metal worked since the Bronze Age, when adding it to copper changed the course of human technology. Bends with a faint 'cry.'"
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 50 · Atomic mass 118.71 · Oxidation states +2 and +4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Resists corrosion, which is why it has long been used to coat other metals. Below 13°C it slowly crumbles into a gray powder ('tin pest')."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Solder for electronics, tin-plated steel cans, bronze and pewter alloys, and window-glass manufacturing."
+    }
+   ],
+   "name_es": "Tin (Sn)",
+   "name_fr": "Tin (Sn)",
+   "name_it": "Tin (Sn)"
+  },
+  {
+   "name": "Lead (Pb)",
+   "slug": "lead",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A heavy, soft, dull-gray metal that humans have used — and been poisoned by — for millennia. Dense and easy to shape, with a dark history."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 82 · Atomic mass 207.2 · Oxidation states +2 and +4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Resists corrosion and blocks radiation well due to its density. Forms many compounds, several of them historically used as pigments."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Car batteries, radiation shielding, fishing weights, and (formerly) paint and gasoline additives."
+    }
+   ],
+   "name_es": "Lead (Pb)",
+   "name_fr": "Lead (Pb)",
+   "name_it": "Lead (Pb)"
+  },
+  {
+   "name": "Gallium (Ga)",
+   "slug": "gallium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft, silvery metal famous for melting in your hand — its melting point is just below body temperature. A quiet hero of modern electronics."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 31 · Atomic mass 69.72 · Oxidation state +3 · Melts at 29.8°C"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Liquid over an enormous temperature range and expands when it freezes, like water. Forms key semiconductor compounds with arsenic and nitrogen."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "LEDs and blue-light electronics (gallium nitride), high-speed computer chips, and solar cells."
+    }
+   ],
+   "name_es": "Gallium (Ga)",
+   "name_fr": "Gallium (Ga)",
+   "name_it": "Gallium (Ga)"
+  },
+  {
+   "name": "Bismuth (Bi)",
+   "slug": "bismuth",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A brittle, pinkish-silver metal that grows the most spectacular rainbow-colored crystals in chemistry. Surprisingly safe for such a heavy element."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 83 · Atomic mass 208.98 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms striking iridescent oxide layers and expands on freezing. Remarkably low in toxicity for a heavy metal."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Stomach remedies (Pepto-Bismol), low-melting-point alloys for fire sprinklers and safety devices, and lead-free shot and solder."
+    }
+   ],
+   "name_es": "Bismuth (Bi)",
+   "name_fr": "Bismuth (Bi)",
+   "name_it": "Bismuth (Bi)"
+  },
+  {
+   "cat": "METALLOIDS"
+  },
+  {
+   "name": "Boron (B)",
+   "slug": "boron",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A hard, dark metalloid that sits on the border between metals and nonmetals. Tiny amounts make glass tough and plants healthy."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 5 · Atomic mass 10.81 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Behaves as a semiconductor and forms covalent network solids. Strengthens glass against thermal shock."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Heat-resistant borosilicate glass (Pyrex), detergents and bleaches (borax), and lightweight composite fibers."
+    }
+   ],
+   "name_es": "Boron (B)",
+   "name_fr": "Boron (B)",
+   "name_it": "Boron (B)"
+  },
+  {
+   "name": "Silicon (Si)",
+   "slug": "silicon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The element that built the digital age, and the second most abundant in the Earth's crust after oxygen. The 'sand' of beaches and the brain of every computer."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 14 · Atomic mass 28.09 · Oxidation state +4 · Classic semiconductor"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "A semiconductor whose conductivity can be precisely tuned by adding trace impurities — the basis of all microchips. Forms the backbone of rocks and glass."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Computer chips and solar panels, glass and ceramics, silicone rubber and sealants, and concrete."
+    }
+   ],
+   "name_es": "Silicon (Si)",
+   "name_fr": "Silicon (Si)",
+   "name_it": "Silicon (Si)"
+  },
+  {
+   "name": "Germanium (Ge)",
+   "slug": "germanium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A gray, brittle metalloid that powered the very first transistors before silicon took over. Transparent to infrared light."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 32 · Atomic mass 72.63 · Oxidation state +4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "A semiconductor like silicon, with similar bonding but a smaller energy gap. Lets infrared light pass through it."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Infrared optics and night-vision lenses, fiber-optic cores, and specialty semiconductors."
+    }
+   ],
+   "name_es": "Germanium (Ge)",
+   "name_fr": "Germanium (Ge)",
+   "name_it": "Germanium (Ge)"
+  },
+  {
+   "name": "Arsenic (As)",
+   "slug": "arsenic",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A metalloid with a notorious reputation as a poison, yet quietly useful in electronics. Exists in gray, yellow, and black forms."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 33 · Atomic mass 74.92 · Oxidation states −3, +3, +5"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Behaves as a semiconductor and forms the important compound gallium arsenide. Its compounds are readily absorbed by the body."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "High-speed and high-frequency chips (gallium arsenide), wood preservatives (now restricted), and some specialty glass."
+    }
+   ],
+   "name_es": "Arsenic (As)",
+   "name_fr": "Arsenic (As)",
+   "name_it": "Arsenic (As)"
+  },
+  {
+   "name": "Antimony (Sb)",
+   "slug": "antimony",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A brittle, silvery metalloid used since antiquity in cosmetics and now in flame retardants. Expands slightly as it solidifies."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 51 · Atomic mass 121.76 · Oxidation states +3 and +5"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "A poor conductor that hardens alloys and resists fire when combined with halogens. Expands on freezing, useful for sharp castings."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Flame retardants, lead-acid battery plates, and hardening agent in pewter and type-metal alloys."
+    }
+   ],
+   "name_es": "Antimony (Sb)",
+   "name_fr": "Antimony (Sb)",
+   "name_it": "Antimony (Sb)"
+  },
+  {
+   "cat": "REACTIVE NONMETALS"
+  },
+  {
+   "name": "Carbon (C)",
+   "slug": "carbon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The element of life itself — every living thing is built on its versatile chemistry. It appears as soft graphite, hard diamond, and countless molecules between."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 6 · Atomic mass 12.01 · 4 valence electrons · Oxidation states +4 to −4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms four strong covalent bonds, allowing it to build endless chains and rings — the foundation of organic chemistry. Same element, wildly different forms (allotropes)."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "All living tissue and fossil fuels, steel (as a key additive), diamonds and pencil 'lead' (graphite), and carbon-fiber composites."
+    }
+   ],
+   "name_es": "Carbon (C)",
+   "name_fr": "Carbon (C)",
+   "name_it": "Carbon (C)"
+  },
+  {
+   "name": "Nitrogen (N)",
+   "slug": "nitrogen",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A colorless, inert gas that makes up most of the air you breathe, yet is locked so tightly it took industry a century to learn to use it. The 'N' in proteins and DNA."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 7 · Atomic mass 14.01 · 5 valence electrons · Oxidation states −3 to +5"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Its molecules are bound by a strong triple bond, making nitrogen gas remarkably unreactive. 'Fixing' it into usable form takes enormous energy."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Fertilizers that feed the world, the inflating gas in tires and food packaging, liquid nitrogen for freezing, and explosives."
+    }
+   ],
+   "name_es": "Nitrogen (N)",
+   "name_fr": "Nitrogen (N)",
+   "name_it": "Nitrogen (N)"
+  },
+  {
+   "name": "Oxygen (O)",
+   "slug": "oxygen",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The breath of life and the spark of fire — the element that makes both respiration and combustion possible. A pale-blue liquid when cold enough."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 8 · Atomic mass 16.00 · 6 valence electrons · Oxidation state −2 (usually)"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Extremely reactive, eagerly pulling electrons from other elements in the reaction we call oxidation — rusting and burning alike. Makes up about a fifth of air."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Breathing and medical oxygen, steelmaking, rocket fuel oxidizer, and water (with hydrogen)."
+    }
+   ],
+   "name_es": "Oxygen (O)",
+   "name_fr": "Oxygen (O)",
+   "name_it": "Oxygen (O)"
+  },
+  {
+   "name": "Phosphorus (P)",
+   "slug": "phosphorus",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A reactive nonmetal essential to every cell's energy and DNA, yet one form bursts into flame in air. Comes in white, red, and black varieties."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 15 · Atomic mass 30.97 · 5 valence electrons · Oxidation states +3 and +5"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "White phosphorus ignites spontaneously in air, while red phosphorus is stable — a dramatic example of allotropes behaving differently."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Fertilizers, matches (red phosphorus), the energy molecule ATP in your cells, and detergents."
+    }
+   ],
+   "name_es": "Phosphorus (P)",
+   "name_fr": "Phosphorus (P)",
+   "name_it": "Phosphorus (P)"
+  },
+  {
+   "name": "Sulfur (S)",
+   "slug": "sulfur",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A bright-yellow nonmetal known since ancient times as 'brimstone.' Smells of rotten eggs in its gaseous compounds and underpins much of the chemical industry."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 16 · Atomic mass 32.06 · 6 valence electrons · Oxidation states −2, +4, +6"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms rings and chains and bonds readily with metals and hydrogen. Vulcanizing rubber with sulfur turns it from sticky to strong."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Sulfuric acid (the most-produced industrial chemical), vulcanized rubber for tires, fertilizers, and gunpowder."
+    }
+   ],
+   "name_es": "Sulfur (S)",
+   "name_fr": "Sulfur (S)",
+   "name_it": "Sulfur (S)"
+  },
+  {
+   "name": "Selenium (Se)",
+   "slug": "selenium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A nonmetal that is poisonous in excess but essential in tiny traces. Its electrical resistance changes with light, a property that built early photocopiers."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 34 · Atomic mass 78.97 · Oxidation states −2, +4, +6"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "A semiconductor whose conductivity rises in light. Chemically similar to sulfur but heavier and more metallic."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Photocopier drums and light meters, red glass and ceramics, and a trace nutrient in the body's antioxidant defenses."
+    }
+   ],
+   "name_es": "Selenium (Se)",
+   "name_fr": "Selenium (Se)",
+   "name_it": "Selenium (Se)"
+  },
+  {
+   "cat": "HALOGENS"
+  },
+  {
+   "name": "Fluorine (F)",
+   "slug": "fluorine",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The most reactive element of all — a pale-yellow gas so aggressive it attacks almost everything, even glass and water. Tamed, it protects your teeth."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 9 · Atomic mass 19.00 · 7 valence electrons · Oxidation state −1"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "The most electronegative element, ripping electrons from nearly any other substance. Reactions are often violent."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Toothpaste and fluoridated water, non-stick coatings (Teflon), refrigerants, and uranium enrichment."
+    }
+   ],
+   "name_es": "Fluorine (F)",
+   "name_fr": "Fluorine (F)",
+   "name_it": "Fluorine (F)"
+  },
+  {
+   "name": "Chlorine (Cl)",
+   "slug": "chlorine",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A yellow-green, choking gas that purifies water and bleaches cloth — a lifesaver and, in war, a weapon. Half of common table salt."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 17 · Atomic mass 35.45 · 7 valence electrons · Oxidation states −1 to +7"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Highly reactive, readily grabbing an electron to form chloride salts. Kills microbes by disrupting their chemistry."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Water and pool disinfection, bleach, PVC plastic, and table salt (with sodium)."
+    }
+   ],
+   "name_es": "Chlorine (Cl)",
+   "name_fr": "Chlorine (Cl)",
+   "name_it": "Chlorine (Cl)"
+  },
+  {
+   "name": "Bromine (Br)",
+   "slug": "bromine",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "One of only two elements that are liquid at room temperature — a dense, red-brown, fuming liquid with a sharp smell. Its name means 'stench.'"
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 35 · Atomic mass 79.90 · 7 valence electrons · Oxidation states −1 to +7"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reactive and corrosive, though less so than chlorine — reactivity decreases down the halogens. Vaporizes easily into an irritating brown gas."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Flame retardants, some pesticides, photographic chemicals (historically), and certain sedative medicines."
+    }
+   ],
+   "name_es": "Bromine (Br)",
+   "name_fr": "Bromine (Br)",
+   "name_it": "Bromine (Br)"
+  },
+  {
+   "name": "Iodine (I)",
+   "slug": "iodine",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A shimmering, purple-black solid that sublimes into a violet vapor. A trace nutrient your thyroid cannot live without."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 53 · Atomic mass 126.90 · 7 valence electrons · Oxidation states −1 to +7"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "The least reactive common halogen, sublimating directly from solid to gas. Turns blue-black in the presence of starch, a classic chemistry test."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Antiseptic tinctures, iodized salt to prevent thyroid disease, and contrast agents for medical imaging."
+    }
+   ],
+   "name_es": "Iodine (I)",
+   "name_fr": "Iodine (I)",
+   "name_it": "Iodine (I)"
+  },
+  {
+   "cat": "NOBLE GASES"
+  },
+  {
+   "name": "Helium (He)",
+   "slug": "helium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The second-lightest and second-most-abundant element in the universe, yet rare and escaping on Earth. Famous for floating balloons and squeaking voices."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 2 · Atomic mass 4.003 · Full outer shell · Essentially zero reactivity"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Completely inert — its outer electron shell is full, so it forms no normal compounds. So light it drifts off into space once released."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Cooling MRI magnets (as a liquid), lifting balloons and airships, leak detection, and protective atmospheres for welding."
+    }
+   ],
+   "name_es": "Helium (He)",
+   "name_fr": "Helium (He)",
+   "name_it": "Helium (He)"
+  },
+  {
+   "name": "Neon (Ne)",
+   "slug": "neon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The element that lights up cities — an inert gas that glows a brilliant red-orange when electrified. Rare in air and entirely unreactive."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 10 · Atomic mass 20.18 · Full outer shell · Inert"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Chemically inert, forming no stable compounds. Glows its signature orange-red when an electric current excites its atoms."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Neon signs and lighting, high-voltage indicators, and certain lasers."
+    }
+   ],
+   "name_es": "Neon (Ne)",
+   "name_fr": "Neon (Ne)",
+   "name_it": "Neon (Ne)"
+  },
+  {
+   "name": "Argon (Ar)",
+   "slug": "argon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The most common noble gas in our atmosphere, making up about one percent of the air. A silent, inert shield used wherever oxygen would spoil things."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 18 · Atomic mass 39.95 · Full outer shell · Inert"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Unreactive enough to make a protective blanket that keeps oxygen away from hot metal or delicate documents."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Shielding gas for welding, the fill gas in older incandescent and fluorescent bulbs, and preservation of historic documents."
+    }
+   ],
+   "name_es": "Argon (Ar)",
+   "name_fr": "Argon (Ar)",
+   "name_it": "Argon (Ar)"
+  },
+  {
+   "name": "Krypton (Kr)",
+   "slug": "krypton",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A rare, inert gas whose name means 'hidden.' Once defined the meter and now brightens specialized lighting."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 36 · Atomic mass 83.80 · Full outer shell · Nearly inert"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Almost completely unreactive, though it can be forced into a few exotic compounds. Emits bright white light in electric discharge."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "High-performance lighting and photographic flashes, energy-efficient windows, and some lasers."
+    }
+   ],
+   "name_es": "Krypton (Kr)",
+   "name_fr": "Krypton (Kr)",
+   "name_it": "Krypton (Kr)"
+  },
+  {
+   "name": "Xenon (Xe)",
+   "slug": "xenon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A heavy, rare noble gas that breaks the 'inert' rule slightly — it can be coaxed into real compounds. Produces a brilliant white light."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 54 · Atomic mass 131.29 · Full outer shell · Least inert noble gas"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Heavy enough that its electrons can be pulled into bonds with fluorine and oxygen, making it the most reactive noble gas."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Bright xenon arc lamps and car headlights, ion engines for spacecraft, and general anesthesia."
+    }
+   ],
+   "name_es": "Xenon (Xe)",
+   "name_fr": "Xenon (Xe)",
+   "name_it": "Xenon (Xe)"
+  },
+  {
+   "name": "Radon (Rn)",
+   "slug": "radon",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A radioactive, invisible noble gas that seeps from the ground and collects in basements. Inert chemically but a serious health hazard."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 86 · Atomic mass 222 · Full outer shell · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Chemically inert like its group, but its atoms are unstable and decay, emitting harmful radiation."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Largely an unwanted byproduct; monitored in homes and once used in some medical treatments."
+    }
+   ],
+   "name_es": "Radon (Rn)",
+   "name_fr": "Radon (Rn)",
+   "name_it": "Radon (Rn)"
+  },
+  {
+   "cat": "LANTHANIDES"
+  },
+  {
+   "name": "Lanthanum (La)",
+   "slug": "lanthanum",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The element that names its whole family — a soft, silvery rare-earth metal. 'Rare earths' are actually not that rare, just hard to separate."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 57 · Atomic mass 138.91 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reactive enough to tarnish quickly in air. Behaves much like its fellow lanthanides, which is exactly why they are so hard to tell apart."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Camera and telescope lenses, hybrid-car batteries, and catalysts in oil refining."
+    }
+   ],
+   "name_es": "Lanthanum (La)",
+   "name_fr": "Lanthanum (La)",
+   "name_it": "Lanthanum (La)"
+  },
+  {
+   "name": "Cerium (Ce)",
+   "slug": "cerium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The most abundant of the rare-earth metals, soft and iron-gray. Sparks when scratched, which is why it lights your lighter."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 58 · Atomic mass 140.12 · Oxidation states +3 and +4"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Unusually willing to shift between two oxidation states, making it a useful catalyst and polish. Sparks readily on friction."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Lighter flints, glass polishing powder, catalytic converters, and self-cleaning oven coatings."
+    }
+   ],
+   "name_es": "Cerium (Ce)",
+   "name_fr": "Cerium (Ce)",
+   "name_it": "Cerium (Ce)"
+  },
+  {
+   "name": "Neodymium (Nd)",
+   "slug": "neodymium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A rare-earth metal behind the strongest permanent magnets ever made — the tiny, powerful magnets in headphones, hard drives, and wind turbines."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 60 · Atomic mass 144.24 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Forms exceptionally strong magnetic alloys with iron and boron. Tarnishes in air and must often be coated."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Powerful neodymium magnets in motors and speakers, wind-turbine generators, and lasers."
+    }
+   ],
+   "name_es": "Neodymium (Nd)",
+   "name_fr": "Neodymium (Nd)",
+   "name_it": "Neodymium (Nd)"
+  },
+  {
+   "name": "Europium (Eu)",
+   "slug": "europium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A soft rare-earth metal that makes color television and banknotes glow. The most reactive of the lanthanides."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 63 · Atomic mass 151.96 · Oxidation states +2 and +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Reacts quickly with air and water, the most reactive rare earth. Its compounds fluoresce vivid red and blue under ultraviolet light."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Red and blue phosphors in screens and LED lighting, and anti-counterfeiting marks in euro banknotes."
+    }
+   ],
+   "name_es": "Europium (Eu)",
+   "name_fr": "Europium (Eu)",
+   "name_it": "Europium (Eu)"
+  },
+  {
+   "name": "Gadolinium (Gd)",
+   "slug": "gadolinium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A silvery rare-earth metal with remarkable magnetic and neutron-absorbing properties. A quiet helper in medical scans."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 64 · Atomic mass 157.25 · Oxidation state +3"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Strongly magnetic near room temperature and an excellent absorber of neutrons. Its compounds brighten MRI images."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "MRI contrast agents, nuclear-reactor control rods, and magnetic refrigeration research."
+    }
+   ],
+   "name_es": "Gadolinium (Gd)",
+   "name_fr": "Gadolinium (Gd)",
+   "name_it": "Gadolinium (Gd)"
+  },
+  {
+   "cat": "ACTINIDES"
+  },
+  {
+   "name": "Actinium (Ac)",
+   "slug": "actinium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The element that names the actinide series — a soft, silvery, intensely radioactive metal that glows pale blue in the dark."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 89 · Atomic mass 227 · Oxidation state +3 · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "So radioactive it glows from the energy it releases. Chemically similar to lanthanum, one row above it."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Mainly a research material; studied as a source of alpha radiation for targeted cancer therapy."
+    }
+   ],
+   "name_es": "Actinium (Ac)",
+   "name_fr": "Actinium (Ac)",
+   "name_it": "Actinium (Ac)"
+  },
+  {
+   "name": "Thorium (Th)",
+   "slug": "thorium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A weakly radioactive metal more abundant than uranium, long eyed as a possible cleaner nuclear fuel. Burns with a brilliant white light."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 90 · Atomic mass 232.04 · Oxidation state +4 · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Mildly radioactive and able to be converted into nuclear fuel inside a reactor. Forms a very high-melting oxide."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Proposed thorium nuclear reactors, older gas-lantern mantles, and high-quality optical glass."
+    }
+   ],
+   "name_es": "Thorium (Th)",
+   "name_fr": "Thorium (Th)",
+   "name_it": "Thorium (Th)"
+  },
+  {
+   "name": "Uranium (U)",
+   "slug": "uranium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "The heaviest naturally abundant element and the fuel of the nuclear age — for power and for weapons. Dense, silvery, and faintly radioactive."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 92 · Atomic mass 238.03 · Oxidation states +4 and +6 · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Its nucleus can be split (fission) to release tremendous energy. Naturally a mix of isotopes that must be enriched for most uses."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Nuclear power plants, naval reactors, and (enriched further) nuclear weapons."
+    }
+   ],
+   "name_es": "Uranium (U)",
+   "name_fr": "Uranium (U)",
+   "name_it": "Uranium (U)"
+  },
+  {
+   "name": "Plutonium (Pu)",
+   "slug": "plutonium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A dense, silvery, almost entirely man-made metal — one of the most carefully guarded substances on Earth. Warm to the touch from its own radioactivity."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 94 · Atomic mass 244 · Oxidation states +3 to +6 · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Readily undergoes fission and generates its own heat through radioactive decay. Chemically complex, with many oxidation states."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Nuclear weapons, compact reactor fuel, and long-lived power sources for deep-space probes."
+    }
+   ],
+   "name_es": "Plutonium (Pu)",
+   "name_fr": "Plutonium (Pu)",
+   "name_it": "Plutonium (Pu)"
+  },
+  {
+   "name": "Americium (Am)",
+   "slug": "americium",
+   "rows": [
+    {
+     "k": "Properties & Character",
+     "v": "A man-made radioactive metal with one surprisingly domestic job — it sits inside most smoke detectors, quietly saving lives."
+    },
+    {
+     "k": "Atomic Data",
+     "v": "Atomic number 95 · Atomic mass 243 · Oxidation states +3 to +6 · Radioactive"
+    },
+    {
+     "k": "Reactivity & Bonding",
+     "v": "Steadily emits alpha particles as it decays. That gentle, predictable radiation is exactly what a smoke detector senses."
+    },
+    {
+     "k": "Everyday Uses",
+     "v": "Ionization smoke detectors and certain industrial gauges that measure thickness or density."
+    }
+   ],
+   "name_es": "Americium (Am)",
+   "name_fr": "Americium (Am)",
+   "name_it": "Americium (Am)"
+  }
+ ]
+}

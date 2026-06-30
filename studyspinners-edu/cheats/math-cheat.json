@@ -1,0 +1,380 @@
+{
+ "title": "Math Concepts — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "ARITHMETIC"
+  },
+  {
+   "name": "Order of Operations",
+   "slug": "arithmetic-order-of-operations",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The rule for which math operations to perform first: Parentheses → Exponents → Multiplication/Division (left to right) → Addition/Subtraction (left to right). In the U.S."
+    },
+    {
+     "k": "Significance",
+     "v": "Without a shared order of operations, the same expression can yield different answers — making scientific communication, computer programming, and engineering impossible without consensus."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The modern convention was standardized in the late 19th century. Viral math problems on social media ('What is 6÷2(1+2)?') exploit ambiguity in the notation to generate debate — the answer depends entirely on which convention you apply."
+    }
+   ],
+   "name_es": "Orden de Operaciones",
+   "name_fr": "Ordre des Opérations",
+   "name_it": "Ordine delle Operazioni"
+  },
+  {
+   "name": "Prime Number",
+   "slug": "arithmetic-prime-number",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself (2, 3, 5, 7, 11, 13…). 2 is the only even prime. 1 is NOT prime. There are infinitely many primes — proved by Euclid around 300 BC."
+    },
+    {
+     "k": "Significance",
+     "v": "Primes are the atoms of arithmetic — every integer greater than 1 is either prime or can be factored into primes uniquely (Fundamental Theorem of Arithmetic)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The largest known prime (as of 2024) has over 41 million digits. The Riemann Hypothesis — predicting the distribution of prime numbers — is one of the Millennium Prize Problems, worth $1 million unsolved for over 160 years."
+    }
+   ],
+   "name_es": "Número Primo",
+   "name_fr": "Nombre Premier",
+   "name_it": "Numero Primo"
+  },
+  {
+   "name": "Percentage",
+   "slug": "arithmetic-percentage",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A percentage is a ratio expressed as a fraction of 100. 'Percent' means 'per hundred' (Latin: per centum). Key calculations: % of a number (multiply by the decimal), % change = (new−old)/old × 100, percentage points ≠ percent change."
+    },
+    {
+     "k": "Significance",
+     "v": "The confusion between 'percentage points' and 'percent change' is one of the most common statistical errors in media — if interest rates go from 4% to 5%, that's 1 percentage point but a 25% increase."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Percentage notation (%) was standardized in the 18th century from the Italian 'per cento.' Compound interest — interest calculated on both principal and accumulated interest — uses percentage and is why Einstein (apocryphally) called compou…"
+    }
+   ],
+   "name_es": "Porcentaje",
+   "name_fr": "Pourcentage",
+   "name_it": "Percentuale"
+  },
+  {
+   "cat": "ALGEBRA"
+  },
+  {
+   "name": "Pythagorean Theorem",
+   "slug": "algebra-pythagorean-theorem",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c². One of the most famous equations in mathematics, with hundreds of distinct proofs."
+    },
+    {
+     "k": "Significance",
+     "v": "The Pythagorean theorem underlies GPS navigation, carpentry (the 3-4-5 rule for right angles), structural engineering, and the distance formula in coordinate geometry."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Known to Babylonian mathematicians 1,000 years before Pythagoras (c. 570–495 BC), who is credited with the first proof. The theorem has over 370 known proofs, including one by U.S."
+    }
+   ],
+   "name_es": "Teorema de Pitágoras",
+   "name_fr": "Théorème de Pythagore",
+   "name_it": "Teorema di Pitagora"
+  },
+  {
+   "name": "Quadratic Formula",
+   "slug": "algebra-quadratic-formula",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The quadratic formula solves any equation of the form ax² + bx + c = 0: x = (−b ± √(b²−4ac)) / 2a. The expression b²−4ac is the discriminant: positive = two real roots, zero = one real root, negative = two complex roots."
+    },
+    {
+     "k": "Significance",
+     "v": "Quadratic equations describe projectile motion, lens optics, satellite orbits, and profit maximization in economics — making this formula one of the most practically applied in science and engineering."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Methods for solving quadratic equations were known to Babylonian and Egyptian mathematicians by 2000 BC. The general algebraic formula was developed by Indian mathematician Brahmagupta (628 AD) and later refined in the Islamic Golden Age."
+    }
+   ],
+   "name_es": "Fórmula Cuadrática",
+   "name_fr": "Formule Quadratique",
+   "name_it": "Formula Quadratica"
+  },
+  {
+   "name": "Function (Mathematics)",
+   "slug": "algebra-function",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A function is a rule that assigns exactly one output to each input. Written f(x), where x is the input and f(x) is the output."
+    },
+    {
+     "k": "Significance",
+     "v": "Functions are the language of modern mathematics and science — every physical law (F=ma, E=mc²) is a function. Machine learning models are essentially very complex functions mapping inputs to outputs."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The modern function concept was formalized by Leibniz (1694) and Euler (1748). Euler introduced the notation f(x). Dirichlet (1837) gave the rigorous modern definition."
+    }
+   ],
+   "name_es": "Función (Matemáticas)",
+   "name_fr": "Fonction (Mathématiques)",
+   "name_it": "Funzione (Matematica)"
+  },
+  {
+   "cat": "GEOMETRY"
+  },
+  {
+   "name": "Pi (π)",
+   "slug": "geometry-pi",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Pi (π) is the ratio of a circle's circumference to its diameter: approximately 3.14159265… It is irrational (cannot be expressed as a fraction) and transcendental (not the root of any polynomial with rational coefficients)."
+    },
+    {
+     "k": "Significance",
+     "v": "Pi appears not just in circles but throughout mathematics and physics — in probability (Buffon's Needle problem), statistics (normal distribution), quantum mechanics, and even in the formula for the area of an ellipse."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Archimedes (~250 BC) calculated π to 3.1416 using 96-sided polygons. The symbol π was popularized by Euler (1737). Pi Day is March 14 (3/14)."
+    }
+   ],
+   "name_es": "Pi (π)",
+   "name_fr": "Pi (π)",
+   "name_it": "Pi (π)"
+  },
+  {
+   "name": "Area & Volume Formulas",
+   "slug": "geometry-area-and-volume",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Key area formulas: circle = πr², rectangle = lw, triangle = ½bh, trapezoid = ½(b₁+b₂)h. Key volume formulas: sphere = (4/3)πr³, cylinder = πr²h, cube = s³, cone = (1/3)πr²h."
+    },
+    {
+     "k": "Significance",
+     "v": "Area and volume formulas underlie all of architecture, packaging design, medicine (dosing by body surface area), and manufacturing — the sphere maximizes volume per unit of surface area, which is why cells, bubbles, and planets are spherica…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Archimedes discovered the volume and surface area of a sphere, which he considered his greatest achievement (he requested a sphere inscribed in a cylinder be carved on his tombstone)."
+    }
+   ],
+   "name_es": "Fórmulas de Área y Volumen",
+   "name_fr": "Formules d'Aire et de Volume",
+   "name_it": "Formule di Area e Volume"
+  },
+  {
+   "name": "Trigonometry",
+   "slug": "geometry-trigonometry",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Trigonometry studies relationships between angles and sides of triangles. The six functions: sin(θ) = opposite/hypotenuse, cos(θ) = adjacent/hypotenuse, tan(θ) = opposite/adjacent (and their reciprocals: csc, sec, cot)."
+    },
+    {
+     "k": "Significance",
+     "v": "Trigonometry is essential to navigation (GPS, ship routing), music (sound waves are sinusoidal), electrical engineering (AC current), and computer graphics (rotating 3D objects requires trigonometric transformations)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Developed by Greek astronomer Hipparchus (~150 BC) for astronomical calculations. The word comes from Greek 'trigonon' (triangle) + 'metron' (measure)."
+    }
+   ],
+   "name_es": "Trigonometría",
+   "name_fr": "Trigonométrie",
+   "name_it": "Trigonometria"
+  },
+  {
+   "cat": "STATISTICS"
+  },
+  {
+   "name": "Mean, Median & Mode",
+   "slug": "statistics-mean-median-mode",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Three measures of central tendency: Mean = sum of values ÷ number of values (sensitive to outliers). Median = the middle value when sorted (robust to outliers). Mode = the most frequent value (can be multiple)."
+    },
+    {
+     "k": "Significance",
+     "v": "'Average' is the most misused word in statistics — politicians and businesses almost always cite mean when median would be more honest. U.S. median household income vs. mean income differs by ~$25,000 because billionaires pull the mean up."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Francis Galton (1885) coined 'median.' The mean has been used since antiquity. The mode is attributed to Pearson (1895)."
+    }
+   ],
+   "name_es": "Media, Mediana y Moda",
+   "name_fr": "Moyenne, Médiane et Mode",
+   "name_it": "Media, Mediana e Moda"
+  },
+  {
+   "name": "Standard Deviation",
+   "slug": "statistics-standard-deviation",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Standard deviation (σ or s) measures how spread out values are around the mean. A low σ means values cluster tightly; a high σ means they are spread widely."
+    },
+    {
+     "k": "Significance",
+     "v": "Standard deviation is the foundation of quality control (Six Sigma means 6σ from the mean — only 3.4 defects per million), financial risk assessment (volatility = std dev of returns), and scientific significance testing."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Developed by Francis Galton and Karl Pearson in the 1890s. The term 'standard deviation' was coined by Pearson (1894). Variance (σ²) is the square of standard deviation — used in ANOVA and other statistical tests."
+    }
+   ],
+   "name_es": "Desviación Estándar",
+   "name_fr": "Écart-Type",
+   "name_it": "Deviazione Standard"
+  },
+  {
+   "name": "Probability",
+   "slug": "statistics-probability",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Probability measures the likelihood of an event, expressed as a number between 0 (impossible) and 1 (certain), or 0%–100%. P(A) = favorable outcomes / total outcomes (for equally likely events)."
+    },
+    {
+     "k": "Significance",
+     "v": "Probability theory is the mathematical foundation of insurance, finance (options pricing), weather forecasting, medicine (clinical trial design), and artificial intelligence (Bayesian reasoning, neural network training)."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Formal probability theory was founded by Pascal and Fermat (1654) while solving a gambling problem. Bayes' Theorem (1763) — P(A|B) = P(B|A)·P(A)/P(B) — is the basis of Bayesian statistics and most modern AI inference."
+    }
+   ],
+   "name_es": "Probabilidad",
+   "name_fr": "Probabilité",
+   "name_it": "Probabilità"
+  },
+  {
+   "cat": "CALCULUS"
+  },
+  {
+   "name": "Derivative",
+   "slug": "calculus-derivative",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "A derivative measures the instantaneous rate of change of a function at a point — the slope of the tangent line to the curve. Notation: f'(x) or dy/dx. Key rules: power rule d/dx(xⁿ) = nxⁿ⁻¹, chain rule, product rule, quotient rule."
+    },
+    {
+     "k": "Significance",
+     "v": "Derivatives describe velocity (derivative of position), acceleration (derivative of velocity), marginal cost in economics, rates of chemical reactions, and the slope of supply/demand curves — they are the mathematical language of change."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Developed independently by Newton (who called it 'fluxion,' 1666) and Leibniz (1675). Their priority dispute is one of history's most bitter mathematical controversies."
+    }
+   ],
+   "name_es": "Derivada",
+   "name_fr": "Dérivée",
+   "name_it": "Derivata"
+  },
+  {
+   "name": "Integral",
+   "slug": "calculus-integral",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "An integral calculates the area under a curve. The definite integral ∫ₐᵇ f(x)dx gives a specific number (area between x=a and x=b). The indefinite integral ∫f(x)dx gives a family of functions (antiderivatives)."
+    },
+    {
+     "k": "Significance",
+     "v": "Integrals calculate displacement from velocity, work done by a force, volume of irregular 3D shapes, electric charge, probability from a probability density function, and population growth models — they sum continuous quantities."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The symbol ∫ is an elongated 'S' for 'summa' (sum), introduced by Leibniz (1675). Archimedes had calculated areas using a method similar to integration (~250 BC)."
+    }
+   ],
+   "name_es": "Integral",
+   "name_fr": "Intégrale",
+   "name_it": "Integrale"
+  },
+  {
+   "cat": "NUMBER THEORY"
+  },
+  {
+   "name": "Euler's Number (e)",
+   "slug": "number-theory-eulers-number",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "e ≈ 2.71828… is the base of natural logarithms, defined as the limit of (1 + 1/n)ⁿ as n → ∞. It is irrational and transcendental."
+    },
+    {
+     "k": "Significance",
+     "v": "e appears in compound interest, population growth, radioactive decay, probability (Poisson distribution), and Euler's Identity: eⁱᵖⁱ + 1 = 0 — called 'the most beautiful equation in mathematics' because it links e, i, π, 1, and 0."
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Jacob Bernoulli discovered e in 1683 studying compound interest. Euler named it 'e' in 1731 (probably for 'exponential' — not after himself, though he popularized it enormously)."
+    }
+   ],
+   "name_es": "Número de Euler (e)",
+   "name_fr": "Nombre d'Euler (e)",
+   "name_it": "Numero di Eulero (e)"
+  },
+  {
+   "name": "Imaginary Numbers",
+   "slug": "number-theory-imaginary-numbers",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "The imaginary unit i is defined as √(−1). No real number squared gives a negative result, so i extends the number system. Complex numbers (a + bi) combine real and imaginary parts. Operations follow normal algebra rules with i² = −1."
+    },
+    {
+     "k": "Significance",
+     "v": "Imaginary numbers are not merely abstract — they are essential to electrical engineering (AC circuit analysis uses complex impedance), quantum mechanics (Schrödinger's equation requires complex numbers), signal processing, and control theor…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "Cardano (1545) first used square roots of negative numbers in solving cubics. Leibniz called them 'amphibians between being and non-being.' Descartes coined the dismissive term 'imaginary' (1637). Euler established the notation i (1777)."
+    }
+   ],
+   "name_es": "Números Imaginarios",
+   "name_fr": "Nombres Imaginaires",
+   "name_it": "Numeri Immaginari"
+  },
+  {
+   "name": "Infinity (∞)",
+   "slug": "number-theory-infinity",
+   "rows": [
+    {
+     "k": "Fact",
+     "v": "Infinity is not a number but a concept representing something without bound. In mathematics there are different sizes of infinity: countable infinity (ℵ₀, the size of the integers) and uncountable infinity (ℵ₁, the size of the real numbers)…"
+    },
+    {
+     "k": "Significance",
+     "v": "Cantor's discovery of multiple infinities (1874) was so counterintuitive that his mentor Kronecker called him a 'corrupter of youth.' The concept of infinity is essential to calculus (limits), series convergence, and the foundations of all…"
+    },
+    {
+     "k": "Origin & Context",
+     "v": "The symbol ∞ was introduced by John Wallis in 1655. Zeno's paradoxes (~450 BC) showed the danger of infinity in reasoning — Achilles and the Tortoise seems to prove motion is impossible."
+    }
+   ],
+   "name_es": "Infinito (∞)",
+   "name_fr": "Infini (∞)",
+   "name_it": "Infinito (∞)"
+  }
+ ]
+}

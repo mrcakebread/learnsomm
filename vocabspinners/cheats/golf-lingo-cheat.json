@@ -1,0 +1,776 @@
+{
+ "title": "Golf Lingo — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "SCORING"
+  },
+  {
+   "name": "Par",
+   "slug": "par",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The number of strokes an expert golfer is expected to need to complete a hole (or the course). The baseline every score is measured against."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She hit the par-4 green in two and two-putted for a routine par — exactly the score the hole was designed to yield."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Latin 'par' (equal), borrowed via the stock-market sense of 'par value' (the standard or face value) into golf around 1900."
+    }
+   ],
+   "name_es": "Par",
+   "name_fr": "Par",
+   "name_it": "Par"
+  },
+  {
+   "name": "Birdie",
+   "slug": "birdie",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A score of one stroke under par on a hole. The bread-and-butter good score for skilled players."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He drained a 15-foot putt for birdie, pumping his fist as the ball dropped one under par."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From early-1900s American slang where 'bird' meant anything excellent. An 'eagle' and 'albatross' later extended the bird theme to bigger feats."
+    }
+   ],
+   "name_es": "Birdie",
+   "name_fr": "Birdie",
+   "name_it": "Birdie"
+  },
+  {
+   "name": "Eagle",
+   "slug": "eagle",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A score of two strokes under par on a hole — a rare and exciting result, usually on a par-5 reached in two."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She reached the par-5 in two and rolled in the putt for eagle, vaulting up the leaderboard."
+    },
+    {
+     "k": "Origin & History",
+     "v": "An extension of the 'birdie' bird theme: if one-under is a birdie, two-under is a bigger bird — an eagle."
+    }
+   ],
+   "name_es": "Eagle",
+   "name_fr": "Eagle",
+   "name_it": "Eagle"
+  },
+  {
+   "name": "Bogey",
+   "slug": "bogey",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A score of one stroke over par on a hole. The most common 'mistake' score for average and good players alike."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He missed the green and couldn't get up and down, settling for a bogey to drop one back."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'the Bogey Man' of a popular 1890s song; originally 'bogey' meant the score a steady, mythical opponent ('Colonel Bogey') would make — close to today's par."
+    }
+   ],
+   "name_es": "Bogey",
+   "name_fr": "Bogey",
+   "name_it": "Bogey"
+  },
+  {
+   "name": "Albatross",
+   "slug": "albatross",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A score of three strokes under par on a hole — also called a 'double eagle.' One of the rarest feats in golf."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His second shot on the par-5 rolled into the cup for an albatross — a once-in-a-lifetime three-under."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Continuing the bird theme to its extreme: an albatross is a far larger, rarer bird than an eagle, fitting golf's rarest common score."
+    }
+   ],
+   "name_es": "Albatross",
+   "name_fr": "Albatross",
+   "name_it": "Albatross"
+  },
+  {
+   "name": "Handicap",
+   "slug": "handicap",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A numerical measure of a golfer's ability that lets players of different skill levels compete fairly by adjusting their scores."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "With a 12 handicap, she gets to subtract strokes, letting her match against a scratch golfer come down to the wire."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old game 'hand-in-cap', a betting practice where stakes were drawn from a cap to even the odds — the root of 'handicap' across all sports."
+    }
+   ],
+   "name_es": "Handicap",
+   "name_fr": "Handicap",
+   "name_it": "Handicap"
+  },
+  {
+   "name": "Ace / Hole-in-One",
+   "slug": "ace",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hole-in-one — sinking the ball with a single stroke from the tee. Golf's most celebrated stroke of luck and skill."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "On the par-3 17th he made an ace, and tradition obliged him to buy drinks for the whole clubhouse afterward."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the playing-card 'ace' (the single, highest card) via its general sense of 'the best' — a one-stroke hole being the ultimate."
+    }
+   ],
+   "name_es": "Ace / Hole-in-One",
+   "name_fr": "Ace / Hole-in-One",
+   "name_it": "Ace / Hole-in-One"
+  },
+  {
+   "name": "Up and Down",
+   "slug": "up-and-down",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Getting the ball into the hole in two strokes from off the green — typically a chip or pitch followed by one putt."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He missed the green but got up and down from the bunker, his sand shot to three feet saving par."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Descriptive of the two-shot sequence: the ball goes 'up' (the approach onto the green) and 'down' (the putt into the hole)."
+    }
+   ],
+   "name_es": "Up and Down",
+   "name_fr": "Up and Down",
+   "name_it": "Up and Down"
+  },
+  {
+   "cat": "SHOTS & SWINGS"
+  },
+  {
+   "name": "Drive",
+   "slug": "drive",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A long shot played from the tee, usually with a driver, to start a hole and cover maximum distance."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His drive split the fairway 300 yards out, leaving just a short iron into the green."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the general sense of 'to drive' (to propel forcefully). The tee shot 'drives' the ball the farthest of any stroke in the bag."
+    }
+   ],
+   "name_es": "Drive",
+   "name_fr": "Drive",
+   "name_it": "Drive"
+  },
+  {
+   "name": "Chip",
+   "slug": "chip",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short, low shot played near the green that spends little time in the air and rolls toward the hole like a putt."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She chipped it cleanly off the tight lie, the ball checking once and trickling to a foot from the cup."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday sense of a small, quick action — a 'chip' is a brief, clipped strike, in contrast to a full swing."
+    }
+   ],
+   "name_es": "Chip",
+   "name_fr": "Chip",
+   "name_it": "Chip"
+  },
+  {
+   "name": "Putt",
+   "slug": "putt",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A stroke played on the green with a putter to roll the ball into (or near) the hole. The game's most precise shot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He left himself a tricky downhill putt and lagged it close, tapping in for his par."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From an old Scottish form of 'put' (to push or place gently). Golf preserves the original Scots spelling and pronunciation ('putt')."
+    }
+   ],
+   "name_es": "Putt",
+   "name_fr": "Putt",
+   "name_it": "Putt"
+  },
+  {
+   "name": "Pitch",
+   "slug": "pitch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short, lofted shot that flies higher than a chip and stops more quickly, used to approach the green from close range."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "From 60 yards she hit a soft pitch that landed by the pin and spun to a stop."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to pitch' (to throw or toss). The shot 'pitches' the ball up into the air on a steep, lofted trajectory."
+    }
+   ],
+   "name_es": "Pitch",
+   "name_fr": "Pitch",
+   "name_it": "Pitch"
+  },
+  {
+   "name": "Fade / Draw",
+   "slug": "fade-draw",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two intentional curves: a 'fade' curves gently left-to-right (for a right-hander); a 'draw' curves right-to-left. Controlled shot shapes, not mistakes."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He played a controlled fade around the trees, the ball drifting gently back toward the fairway."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Fade' from the sense of gradually drifting; 'draw' from the ball being 'drawn' back across its line. Their exaggerated, accidental cousins are the slice and hook."
+    }
+   ],
+   "name_es": "Fade / Draw",
+   "name_fr": "Fade / Draw",
+   "name_it": "Fade / Draw"
+  },
+  {
+   "name": "Slice / Hook",
+   "slug": "slice-hook",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Two unwanted curves: a 'slice' veers sharply away (left-to-right for a right-hander); a 'hook' veers sharply the other way. The amateur's common miss."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His slice sent the ball curving into the trees, the clubface open at impact carving it hard right."
+    },
+    {
+     "k": "Origin & History",
+     "v": "'Slice' from the cutting, glancing contact that imparts the spin; 'hook' from the sharply curving, hook-like flight path."
+    }
+   ],
+   "name_es": "Slice / Hook",
+   "name_fr": "Slice / Hook",
+   "name_it": "Slice / Hook"
+  },
+  {
+   "name": "Flop Shot",
+   "slug": "flop",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A very high, soft shot hit with a wide-open clubface that lands almost vertically and stops fast — used to clear a hazard with little green to work with."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Short-sided with the bunker between him and the pin, he opened the face and hit a delicate flop that landed soft."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the way the ball 'flops' down almost straight onto the green with minimal roll — a dramatic, risky shot popularized by short-game artists."
+    }
+   ],
+   "name_es": "Flop Shot",
+   "name_fr": "Flop Shot",
+   "name_it": "Flop Shot"
+  },
+  {
+   "name": "Punch Shot",
+   "slug": "punch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A low, controlled shot hit with a shortened swing to keep the ball under wind or tree branches."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Stuck under a low limb, she punched a knockdown shot that stayed low and ran up onto the green."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From 'to punch' (a short, sharp strike). The abbreviated, jabbing swing 'punches' the ball out low and controlled."
+    }
+   ],
+   "name_es": "Punch Shot",
+   "name_fr": "Punch Shot",
+   "name_it": "Punch Shot"
+  },
+  {
+   "cat": "THE COURSE"
+  },
+  {
+   "name": "Fairway",
+   "slug": "fairway",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The closely-mown strip of grass between tee and green that offers the ideal lie for the next shot."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Hitting the fairway off the tee is half the battle — from the short grass, every approach is easier."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the nautical 'fairway' (a clear, navigable channel). Golf borrowed it for the clear, well-kept path toward the green."
+    }
+   ],
+   "name_es": "Fairway",
+   "name_fr": "Fairway",
+   "name_it": "Fairway"
+  },
+  {
+   "name": "Rough",
+   "slug": "rough",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The longer, thicker grass bordering the fairway that makes shots harder to control. Punishment for a wayward drive."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His drive drifted into the thick rough, the long grass grabbing the clubhead and killing his distance."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the plain sense of 'rough' (uneven, unkempt ground) — the deliberately untamed grass that contrasts with the manicured fairway."
+    }
+   ],
+   "name_es": "Rough",
+   "name_fr": "Rough",
+   "name_it": "Rough"
+  },
+  {
+   "name": "Green",
+   "slug": "green",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The smooth, very closely-mown area surrounding the hole, designed for putting. Also called the 'putting green'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She hit the green in regulation and two-putted, her ball never leaving the short grass."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the simple description of the well-watered, vivid-green putting surface — the most carefully maintained turf on the course."
+    }
+   ],
+   "name_es": "Green",
+   "name_fr": "Green",
+   "name_it": "Green"
+  },
+  {
+   "name": "Bunker",
+   "slug": "bunker",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hazard consisting of a depression filled with sand, requiring a specialized sand shot to escape. Often called a 'sand trap'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He found the greenside bunker but splashed out beautifully, the ball floating up on a cushion of sand."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Scots 'bunker' (a seat, chest, or earthen bank). On Scotland's links courses, natural sandy hollows became the original golf bunkers."
+    }
+   ],
+   "name_es": "Bunker",
+   "name_fr": "Bunker",
+   "name_it": "Bunker"
+  },
+  {
+   "name": "Tee Box",
+   "slug": "tee-box",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The starting area of each hole, where players hit their first shot, usually from a small peg (the 'tee')."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Standing on the tee box, she teed it up high and ripped her opening drive down the middle."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the Scots 'tee', the original small pile of sand (later a wooden peg) the ball was placed on to start a hole."
+    }
+   ],
+   "name_es": "Tee Box",
+   "name_fr": "Tee Box",
+   "name_it": "Tee Box"
+  },
+  {
+   "name": "Pin / Flagstick",
+   "slug": "pin",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The flagstick marking the hole's location on the green, so players can see the target from a distance. Also called the 'flag'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He fired straight at the pin, the ball settling six feet from the hole for a birdie look."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the simple sense of a slender pin or rod. The flag atop it lets golfers aim at a hole they can't otherwise see from the fairway."
+    }
+   ],
+   "name_es": "Pin / Flagstick",
+   "name_fr": "Pin / Flagstick",
+   "name_it": "Pin / Flagstick"
+  },
+  {
+   "name": "Dogleg",
+   "slug": "dogleg",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A hole that bends left or right partway down its length, like a dog's hind leg, requiring a shaped or strategically placed drive."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The par-4 doglegs sharply right, tempting big hitters to cut the corner over the trees."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the resemblance of the angled fairway to the bent hind leg of a dog — a vivid, century-old golf coinage."
+    }
+   ],
+   "name_es": "Dogleg",
+   "name_fr": "Dogleg",
+   "name_it": "Dogleg"
+  },
+  {
+   "name": "Fringe / Apron",
+   "slug": "fringe",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The slightly longer grass ringing the green, between the putting surface and the rough. Also called the 'apron' or 'collar'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Her ball came to rest on the fringe, and she chose to putt from just off the green's edge."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the everyday 'fringe' (a border or edge). It's the transitional collar of grass framing the smooth green."
+    }
+   ],
+   "name_es": "Fringe / Apron",
+   "name_fr": "Fringe / Apron",
+   "name_it": "Fringe / Apron"
+  },
+  {
+   "cat": "CLUBS & EQUIPMENT"
+  },
+  {
+   "name": "Driver",
+   "slug": "driver",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The longest-hitting club, with the largest head and lowest loft, used mainly off the tee for maximum distance. Also called the '1-wood'."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He pulled the driver on the long par-5, swinging for the fences to reach the green in two."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named for its job: it 'drives' the ball the farthest. Modern oversized titanium drivers are a far cry from the wooden originals."
+    }
+   ],
+   "name_es": "Driver",
+   "name_fr": "Driver",
+   "name_it": "Driver"
+  },
+  {
+   "name": "Wedge",
+   "slug": "wedge",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A high-lofted iron designed for short, high shots and getting out of trouble — pitching, sand, lob, and gap wedges each serve a range."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "From 90 yards she reached for a wedge, lofting the ball high so it landed soft and stopped quickly."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the wedge-like shape and steep loft of the clubface, which lifts the ball sharply upward — the most lofted clubs in the bag."
+    }
+   ],
+   "name_es": "Wedge",
+   "name_fr": "Wedge",
+   "name_it": "Wedge"
+  },
+  {
+   "name": "Iron",
+   "slug": "iron",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A numbered set of clubs (typically 3 through 9) with flatter, angled faces, used for a wide range of approach shots. Lower numbers hit farther."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He flushed a 7-iron to the heart of the green, the crisp contact sending it right at the flag."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the iron (now steel) clubheads that distinguished them from the old wooden-headed 'woods'. The numbering reflects increasing loft."
+    }
+   ],
+   "name_es": "Iron",
+   "name_fr": "Iron",
+   "name_it": "Iron"
+  },
+  {
+   "name": "Putter",
+   "slug": "putter",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A flat-faced club designed solely for rolling the ball along the green into the hole. The most-used club in any round."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "She lined up the putt, brought the putter back smoothly, and rolled it dead center."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named directly for its single job — to 'putt'. It's the one club a golfer might use on every single hole of a round."
+    }
+   ],
+   "name_es": "Putter",
+   "name_fr": "Putter",
+   "name_it": "Putter"
+  },
+  {
+   "name": "Hybrid",
+   "slug": "hybrid",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A club blending the features of an iron and a fairway wood — easier to hit than a long iron, with a rounded head. Also called a 'rescue' club."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "Replacing his hard-to-hit 3-iron with a hybrid, he found long approaches suddenly far more forgiving."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Named literally for being a 'hybrid' of two club types. The popular brand name 'Rescue' captures its job — bailing players out of long shots."
+    }
+   ],
+   "name_es": "Hybrid",
+   "name_fr": "Hybrid",
+   "name_it": "Hybrid"
+  },
+  {
+   "name": "Loft",
+   "slug": "loft",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "The angle of a clubface relative to vertical, which determines how high and far the ball flies. More loft means higher, shorter shots."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "The lob wedge's huge loft sent the ball nearly straight up, dropping it softly over the bunker."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sense of 'loft' (a height or upper space) — the angle that 'lofts' the ball into the air. Each club's loft is carefully calibrated."
+    }
+   ],
+   "name_es": "Loft",
+   "name_fr": "Loft",
+   "name_it": "Loft"
+  },
+  {
+   "cat": "SLANG & CULTURE"
+  },
+  {
+   "name": "Mulligan",
+   "slug": "mulligan",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "An informal 'do-over' — replaying a bad shot with no penalty. Not allowed under the rules, but common in casual rounds."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After a snap-hook off the first tee, his buddies waved him to take a mulligan and try again."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Popularly traced to a 1920s golfer named David Mulligan, who supposedly took an extra shot — though several origin stories compete and none is certain."
+    }
+   ],
+   "name_es": "Mulligan",
+   "name_fr": "Mulligan",
+   "name_it": "Mulligan"
+  },
+  {
+   "name": "Gimme",
+   "slug": "gimme",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A short putt that the other players agree to count as made without actually being struck — conceded as too easy to miss."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His ball stopped six inches away, and his opponent waved it off as a gimme."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the casual contraction of 'give me' (the stroke). Strictly, gimmes aren't allowed in stroke play, but they're a friendly staple of casual golf."
+    }
+   ],
+   "name_es": "Gimme",
+   "name_fr": "Gimme",
+   "name_it": "Gimme"
+  },
+  {
+   "name": "Fore!",
+   "slug": "fore",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A warning shouted to alert other players that a ball is heading their way and they should take cover."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "His drive sailed toward the next fairway and he yelled 'Fore!' as loud as he could."
+    },
+    {
+     "k": "Origin & History",
+     "v": "Likely from the military 'beware before!' or a caddie's old cry of 'forecaddie' — a warning to those ahead. The exact origin is debated."
+    }
+   ],
+   "name_es": "Fore!",
+   "name_fr": "Fore!",
+   "name_it": "Fore!"
+  },
+  {
+   "name": "Scratch Golfer",
+   "slug": "scratch",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A golfer with a handicap of zero, skilled enough to play to par on average. The benchmark of an excellent amateur."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "As a scratch golfer, she gets no handicap strokes — she's expected to shoot around par every time out."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the old sporting sense of 'scratch' as the starting line from which the best competitors begin, receiving no head start or allowance."
+    }
+   ],
+   "name_es": "Scratch Golfer",
+   "name_fr": "Scratch Golfer",
+   "name_it": "Scratch Golfer"
+  },
+  {
+   "name": "Shank",
+   "slug": "shank",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "A horribly mis-hit shot struck off the club's heel (hosel), sending the ball squirting sharply sideways. Golf's most dreaded miss."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "He shanked it dead right off the hosel, the ball rocketing sideways into the trees — every golfer's nightmare."
+    },
+    {
+     "k": "Origin & History",
+     "v": "From the 'shank' (the neck or hosel of the club) that strikes the ball. So feared that some golfers refuse to even say the word aloud."
+    }
+   ],
+   "name_es": "Shank",
+   "name_fr": "Shank",
+   "name_it": "Shank"
+  },
+  {
+   "name": "The 19th Hole",
+   "slug": "nineteenth",
+   "rows": [
+    {
+     "k": "Definition",
+     "v": "Affectionate slang for the clubhouse bar — the 'hole' players head to after finishing the 18 on the course."
+    },
+    {
+     "k": "Usage in Context",
+     "v": "After a rough round, the foursome consoled themselves at the 19th hole, swapping stories over drinks."
+    },
+    {
+     "k": "Origin & History",
+     "v": "A playful coinage: a standard course has 18 holes, so the bar where golfers gather afterward becomes the unofficial '19th'."
+    }
+   ],
+   "name_es": "The 19th Hole",
+   "name_fr": "The 19th Hole",
+   "name_it": "The 19th Hole"
+  }
+ ]
+}

@@ -1,0 +1,979 @@
+{
+ "title": "Cloud & Weather Types — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "HIGH CLOUDS"
+  },
+  {
+   "name": "Cirrus",
+   "slug": "cirrus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Thin, wispy, feathery streaks high in the sky — the highest of the common clouds, made entirely of ice crystals."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Forms above ~6,000 m where the air is freezing cold. Ice crystals fall and get swept sideways by high winds into those delicate 'mare's tails.'"
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Often the first sign that a warm front and rain are approaching within a day or so. On their own, they mean fair but changing weather."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Delicate white filaments or hooks, very high up, that don't block the sun. No shading underneath."
+    }
+   ],
+   "name_es": "Cirrus",
+   "name_fr": "Cirrus",
+   "name_it": "Cirrus"
+  },
+  {
+   "name": "Cirrostratus",
+   "slug": "cirrostratus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A thin, milky veil of high cloud that covers the whole sky and often produces a halo around the sun or moon."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A sheet of ice crystals spreading ahead of an advancing warm front, thin enough that the sun still shines through."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "A reliable sign rain or snow is likely within 12–24 hours as the front approaches."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Whitish sky-wide haze with a ring (halo) around the sun or moon — the giveaway feature."
+    }
+   ],
+   "name_es": "Cirrostratus",
+   "name_fr": "Cirrostratus",
+   "name_it": "Cirrostratus"
+  },
+  {
+   "name": "Cirrocumulus",
+   "slug": "cirrocumulus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Small, white, rippled patches high in the sky — the classic 'mackerel sky' that looks like fish scales."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Ice crystals arranged in tiny regular cells by gentle turbulence at high altitude. Short-lived, often changing into other cloud types."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Folklore says 'mackerel sky, never long dry' — often a sign of changing, unsettled weather ahead."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Rows of tiny white ripples or grains, no shading, very high. Like fish scales across the sky."
+    }
+   ],
+   "name_es": "Cirrocumulus",
+   "name_fr": "Cirrocumulus",
+   "name_it": "Cirrocumulus"
+  },
+  {
+   "name": "Contrails",
+   "slug": "contrails",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The straight white lines aircraft leave behind — artificial clouds made of ice crystals from engine exhaust."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Hot, moist jet exhaust meets very cold high-altitude air and the water vapor freezes instantly into a line of ice crystals."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "How long they last hints at high-altitude humidity: short-lived means dry air, long-lasting and spreading means moist air and possible weather change."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Perfectly straight lines following flight paths, unlike any natural cloud. Spreading ones can blur into cirrus."
+    }
+   ],
+   "name_es": "Contrails",
+   "name_fr": "Contrails",
+   "name_it": "Contrails"
+  },
+  {
+   "cat": "MID CLOUDS"
+  },
+  {
+   "name": "Altostratus",
+   "slug": "altostratus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A gray or blue-gray sheet covering much of the sky, through which the sun appears as a dim, watery disc."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A uniform mid-level layer of water droplets and ice, thickening ahead of a warm front or large weather system."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Steady, widespread rain or snow often follows within hours as it thickens and lowers into nimbostratus."
+    },
+    {
+     "k": "Spot It By",
+     "v": "The 'frosted glass' look — sun visible as a faint glow with no halo and no sharp shadows on the ground."
+    }
+   ],
+   "name_es": "Altostratus",
+   "name_fr": "Altostratus",
+   "name_it": "Altostratus"
+  },
+  {
+   "name": "Altocumulus",
+   "slug": "altocumulus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Mid-level patches or rolls of white and gray cloud, often in groups or waves across part of the sky."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Water droplets organized into cells by convection and wind at medium height, frequently in distinctive rows."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "On a warm, humid morning, altocumulus can warn of afternoon thunderstorms. Otherwise it signals fair but unsettled air."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Mid-sized cloud blobs in groups, each with some shading, often in rippled bands. Bigger than cirrocumulus, higher than stratocumulus."
+    }
+   ],
+   "name_es": "Altocumulus",
+   "name_fr": "Altocumulus",
+   "name_it": "Altocumulus"
+  },
+  {
+   "name": "Lenticular",
+   "slug": "lenticular",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Smooth, lens- or saucer-shaped clouds that hover near mountains — the ones often mistaken for UFOs."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Moist air flowing over a mountain rises and cools in a standing wave, condensing into a stationary lens shape at the wave's crest."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Indicate strong winds and atmospheric waves aloft — a warning sign for pilots of turbulence near mountains."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A stack of smooth, stationary 'flying saucer' discs downwind of a mountain peak, holding still while other clouds move."
+    }
+   ],
+   "name_es": "Lenticular",
+   "name_fr": "Lenticular",
+   "name_it": "Lenticular"
+  },
+  {
+   "cat": "LOW CLOUDS"
+  },
+  {
+   "name": "Stratus",
+   "slug": "stratus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A low, gray, featureless blanket covering the whole sky — essentially fog that didn't touch the ground."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A shallow layer of cloud forms when a large body of cool, moist air is lifted gently or mist rises slightly off the surface."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Means dull, overcast, often drizzly weather. Usually no heavy rain, just gloom and possible mist."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Flat, uniform gray with no distinct shapes and no visible sun. Lowest of the layered clouds."
+    }
+   ],
+   "name_es": "Stratus",
+   "name_fr": "Stratus",
+   "name_it": "Stratus"
+  },
+  {
+   "name": "Stratocumulus",
+   "slug": "stratocumulus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Low, lumpy gray-and-white cloud arranged in patches, rolls, or a broken honeycomb across the sky."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A low layer broken into cells by weak convection — the most common cloud type on Earth, especially over oceans."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Usually means dry, settled weather; rarely produces more than light drizzle. Often clears by afternoon."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Low, clumpy rolls with darker bases and gaps of blue or lighter sky between them."
+    }
+   ],
+   "name_es": "Stratocumulus",
+   "name_fr": "Stratocumulus",
+   "name_it": "Stratocumulus"
+  },
+  {
+   "name": "Cumulus (Fair-Weather)",
+   "slug": "cumulus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The classic puffy 'cotton ball' or 'cauliflower' cloud with a flat base and bright white rounded top."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Rising bubbles of warm air (thermals) cool as they ascend until their moisture condenses, building a fluffy heap."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Small, scattered cumulus on a sunny day means fair weather. If they grow tall through the afternoon, storms may follow."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Detached white puffs with flat gray bottoms and bright bumpy tops, drifting across blue sky."
+    }
+   ],
+   "name_es": "Cumulus (Fair-Weather)",
+   "name_fr": "Cumulus (Fair-Weather)",
+   "name_it": "Cumulus (Fair-Weather)"
+  },
+  {
+   "name": "Fog",
+   "slug": "fog",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Cloud at ground level — a suspension of tiny water droplets that cuts visibility to under a kilometer."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Forms when moist air cools to its dew point near the surface: overnight cooling (radiation fog) or warm air over a cold surface (advection fog)."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Signals very humid, calm conditions. Usually burns off as the sun warms the ground, but can be a serious driving hazard."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A gray veil at eye level reducing visibility, often densest in valleys and near water at dawn."
+    }
+   ],
+   "name_es": "Fog",
+   "name_fr": "Fog",
+   "name_it": "Fog"
+  },
+  {
+   "name": "Nimbostratus",
+   "slug": "nimbostratus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The thick, dark gray rain cloud — a featureless, sky-covering layer that delivers steady, prolonged precipitation."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A deep, moisture-laden layer that thickens and lowers from altostratus as a warm front arrives, raining continuously."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Means hours of steady, soaking rain or snow — not the brief downpour of a thunderstorm, but the all-day kind."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Uniformly dark, low, and wet-looking, with no structure and falling rain or snow blurring its base."
+    }
+   ],
+   "name_es": "Nimbostratus",
+   "name_fr": "Nimbostratus",
+   "name_it": "Nimbostratus"
+  },
+  {
+   "cat": "TOWERING CLOUDS"
+  },
+  {
+   "name": "Cumulonimbus",
+   "slug": "cumulonimbus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The king of clouds — a towering thundercloud that can reach the top of the troposphere, bringing storms."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A cumulus cloud fed by strong updrafts grows explosively upward until it hits the stratosphere and flattens into an anvil."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Means imminent severe weather: heavy rain, lightning, hail, strong winds, and possibly tornadoes."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A huge, dark-based tower with a flat, spreading 'anvil' top. Often the only cloud that matters when you see one."
+    }
+   ],
+   "name_es": "Cumulonimbus",
+   "name_fr": "Cumulonimbus",
+   "name_it": "Cumulonimbus"
+  },
+  {
+   "name": "Towering Cumulus",
+   "slug": "towering-cumulus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A cumulus cloud that has grown tall and cauliflower-like — the stage just before it becomes a thunderstorm."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Vigorous updrafts push a fair-weather cumulus sharply upward, its top hardening into firm, sprouting domes."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "A warning that the atmosphere is unstable and full thunderstorms (cumulonimbus) may develop within the hour."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Cumulus that's clearly taller than it is wide, with crisp, surging tops but not yet an anvil."
+    }
+   ],
+   "name_es": "Towering Cumulus",
+   "name_fr": "Towering Cumulus",
+   "name_it": "Towering Cumulus"
+  },
+  {
+   "name": "Mammatus",
+   "slug": "mammatus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Strange pouches or lobes hanging down from the underside of a cloud, usually a thunderstorm's anvil."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Pockets of cooler, sinking air sag below the cloud base, forming the distinctive drooping bubbles."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Often appear with or after severe thunderstorms — a sign of a turbulent, energetic storm nearby."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Rows of smooth, hanging pouches under a dark cloud, often lit dramatically near sunset."
+    }
+   ],
+   "name_es": "Mammatus",
+   "name_fr": "Mammatus",
+   "name_it": "Mammatus"
+  },
+  {
+   "name": "Shelf Cloud",
+   "slug": "shelf-cloud",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A low, wedge-shaped cloud on the leading edge of a thunderstorm, looking like an advancing shelf or ledge."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Cool air rushing out ahead of a storm (the outflow) lifts warm moist air, condensing it into a long horizontal wedge."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Marks the gust front — strong, sudden winds and heavy rain arrive right behind it."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A long, low, smooth horizontal ledge stretching across the sky ahead of a dark storm, often rising and ragged underneath."
+    }
+   ],
+   "name_es": "Shelf Cloud",
+   "name_fr": "Shelf Cloud",
+   "name_it": "Shelf Cloud"
+  },
+  {
+   "cat": "PRECIPITATION"
+  },
+  {
+   "name": "Rain",
+   "slug": "rain",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Liquid water droplets large enough to fall from cloud to ground — the most common form of precipitation."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Cloud droplets collide and merge (or melt from ice) until they're heavy enough to overcome the updraft and fall."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "The type and intensity reveal the weather system: steady rain from fronts, sudden downpours from convective storms."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Falling drops you can see and feel; steady from layered cloud, bursty from towering cloud."
+    }
+   ],
+   "name_es": "Rain",
+   "name_fr": "Rain",
+   "name_it": "Rain"
+  },
+  {
+   "name": "Snow",
+   "slug": "snow",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Ice crystals that fall as flakes when the whole atmosphere is below freezing."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Water vapor freezes directly onto ice crystals in the cloud, which clump into flakes and fall without melting."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Tells you the air column is at or below freezing top to bottom. Wet snow is near 0°C; powder is much colder."
+    },
+    {
+     "k": "Spot It By",
+     "v": "White flakes; large and sticky when near freezing, small and dry/powdery when very cold."
+    }
+   ],
+   "name_es": "Snow",
+   "name_fr": "Snow",
+   "name_it": "Snow"
+  },
+  {
+   "name": "Hail",
+   "slug": "hail",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Balls or lumps of ice that fall from strong thunderstorms, ranging from pea-sized to grapefruit-sized."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Ice is carried up and down repeatedly by violent updrafts, gaining a new frozen layer each trip until too heavy to hold aloft."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "A marker of a powerful storm with strong updrafts. Large hail signals a severe, possibly tornadic storm."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Solid ice pellets bouncing on the ground, often with visible layers if you cut one open."
+    }
+   ],
+   "name_es": "Hail",
+   "name_fr": "Hail",
+   "name_it": "Hail"
+  },
+  {
+   "name": "Sleet",
+   "slug": "sleet",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Small, translucent ice pellets that bounce when they hit the ground — frozen raindrops."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Snow melts falling through a warm layer, then refreezes into ice pellets passing through cold air near the surface."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Indicates a shallow warm layer aloft over freezing air below — a classic winter-storm temperature profile."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Tiny clear ice balls that bounce and rattle on hard surfaces, unlike soft snow."
+    }
+   ],
+   "name_es": "Sleet",
+   "name_fr": "Sleet",
+   "name_it": "Sleet"
+  },
+  {
+   "name": "Freezing Rain",
+   "slug": "freezing-rain",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Rain that falls as liquid but freezes on contact with cold surfaces, coating everything in clear ice."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Snow melts in a warm layer and the raindrops stay liquid but supercooled, freezing instantly when they touch a sub-freezing surface."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "The most dangerous winter precipitation — it glazes roads, trees, and power lines with ice."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Wet-looking rain that turns into a smooth, clear ice coating on cars, branches, and pavement."
+    }
+   ],
+   "name_es": "Freezing Rain",
+   "name_fr": "Freezing Rain",
+   "name_it": "Freezing Rain"
+  },
+  {
+   "name": "Drizzle",
+   "slug": "drizzle",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Very fine, light rain made of tiny droplets that seem to float down slowly."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Falls from low stratus cloud where droplets are too small to grow into proper raindrops."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Signals a moist, stable, overcast airmass — gentle and persistent rather than heavy."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Mist-like droplets so fine they barely make a sound, often with low gray cloud or fog."
+    }
+   ],
+   "name_es": "Drizzle",
+   "name_fr": "Drizzle",
+   "name_it": "Drizzle"
+  },
+  {
+   "cat": "STORMS & SEVERE"
+  },
+  {
+   "name": "Thunderstorm",
+   "slug": "thunderstorm",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A storm from a cumulonimbus cloud, producing lightning, thunder, heavy rain, and often gusty wind."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Strong updrafts build a tall thundercloud; charge separates within it until it discharges as lightning, heating air into thunder."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Means heavy rain, lightning danger, and possibly hail or damaging wind for a short, intense period."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Dark towering cloud, rumbling thunder, sudden heavy rain and wind; lightning flashes the giveaway."
+    }
+   ],
+   "name_es": "Thunderstorm",
+   "name_fr": "Thunderstorm",
+   "name_it": "Thunderstorm"
+  },
+  {
+   "name": "Supercell",
+   "slug": "supercell",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most dangerous kind of thunderstorm, organized around a deep, rotating updraft called a mesocyclone."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Wind that changes speed and direction with height tilts the updraft into a long-lived rotating column, sustaining the storm for hours."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Produces the most violent weather: giant hail, destructive winds, and the majority of strong tornadoes."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A single dominant storm, often with a rotating wall cloud, a hard 'overshooting' top, and a striated, sculpted look."
+    }
+   ],
+   "name_es": "Supercell",
+   "name_fr": "Supercell",
+   "name_it": "Supercell"
+  },
+  {
+   "name": "Tornado",
+   "slug": "tornado",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A violently rotating column of air reaching from a thunderstorm cloud down to the ground."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A storm's rotating mesocyclone tightens and stretches toward the surface, accelerating the spin into a destructive vortex."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Among the most destructive weather on Earth, with winds that can exceed 300 km/h in the strongest cases."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A funnel or rope of cloud and debris connecting cloud to ground, often with a roaring sound and dark, rotating sky."
+    }
+   ],
+   "name_es": "Tornado",
+   "name_fr": "Tornado",
+   "name_it": "Tornado"
+  },
+  {
+   "name": "Hurricane",
+   "slug": "hurricane",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A massive rotating tropical storm with sustained winds over 119 km/h, also called a typhoon or cyclone."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Warm ocean water (above ~26°C) feeds rising moist air; the Earth's rotation organizes it into a spiraling system with a calm eye."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Brings days of destructive wind, torrential rain, and dangerous storm surge along coasts."
+    },
+    {
+     "k": "Spot It By",
+     "v": "On satellite, a huge spiral with a clear central eye; on the ground, prolonged extreme wind and rain in bands."
+    }
+   ],
+   "name_es": "Hurricane",
+   "name_fr": "Hurricane",
+   "name_it": "Hurricane"
+  },
+  {
+   "name": "Lightning",
+   "slug": "lightning",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A massive electrical discharge between cloud and ground, or within clouds, hotter than the sun's surface."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Charge separates as ice and water collide in a storm cloud until the difference is great enough to leap as a giant spark."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Always means a thunderstorm is present and you are at risk if outdoors — even before the rain arrives."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A brilliant branching flash followed by thunder; count the gap in seconds and divide by three for distance in km."
+    }
+   ],
+   "name_es": "Lightning",
+   "name_fr": "Lightning",
+   "name_it": "Lightning"
+  },
+  {
+   "name": "Derecho",
+   "slug": "derecho",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A widespread, fast-moving windstorm produced by a long line of intense thunderstorms."
+    },
+    {
+     "k": "How It Forms",
+     "v": "A bow-shaped line of storms generates a continuous wall of strong straight-line winds that races across hundreds of kilometers."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Causes tornado-like wind damage over a huge area without any rotation — a long, destructive blast of wind."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A long, advancing shelf cloud and a sudden, sustained roar of damaging straight-line wind across a wide region."
+    }
+   ],
+   "name_es": "Derecho",
+   "name_fr": "Derecho",
+   "name_it": "Derecho"
+  },
+  {
+   "cat": "SKY OPTICS"
+  },
+  {
+   "name": "Rainbow",
+   "slug": "rainbow",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An arc of spectral color formed when sunlight passes through raindrops opposite the sun."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Light enters each raindrop, bends (refracts), reflects off the back, and bends again, splitting into colors at fixed angles."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Tells you there's both rain and sunshine at once — the sun behind you, a shower ahead."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A colored arc opposite the sun, red on the outside, violet inside; a fainter secondary bow may appear above it."
+    }
+   ],
+   "name_es": "Rainbow",
+   "name_fr": "Rainbow",
+   "name_it": "Rainbow"
+  },
+  {
+   "name": "Sun/Moon Halo",
+   "slug": "halo",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A ring of light around the sun or moon, caused by ice crystals high in the atmosphere."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Light refracts through six-sided ice crystals in cirrostratus cloud, bending at a consistent 22° to form a ring."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Often a sign of an approaching warm front and rain within a day — 'ring around the moon, rain soon.'"
+    },
+    {
+     "k": "Spot It By",
+     "v": "A bright circle at a fixed distance from the sun or moon, sometimes faintly rainbow-tinted, with thin high cloud."
+    }
+   ],
+   "name_es": "Sun/Moon Halo",
+   "name_fr": "Sun/Moon Halo",
+   "name_it": "Sun/Moon Halo"
+  },
+  {
+   "name": "Sun Dog",
+   "slug": "sundog",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Bright, often colorful spots that appear to the left and right of the sun, at the same height."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Flat, hexagonal ice crystals drifting horizontally refract sunlight to either side of the sun at 22°."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Like halos, indicates high ice cloud and sometimes approaching weather. Also called mock suns or parhelia."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A pair of luminous, sometimes rainbow-edged patches flanking the sun, brightest when the sun is low."
+    }
+   ],
+   "name_es": "Sun Dog",
+   "name_fr": "Sun Dog",
+   "name_it": "Sun Dog"
+  },
+  {
+   "name": "Aurora",
+   "slug": "aurora",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Shimmering curtains of green, red, or purple light in the night sky near the poles — the Northern/Southern Lights."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Charged particles from the sun funnel along Earth's magnetic field and collide with gases high in the atmosphere, making them glow."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Tells you a burst of solar activity (a geomagnetic storm) is hitting Earth's magnetic field."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Moving, glowing bands or rays of color in a dark polar sky, strongest after intense solar storms."
+    }
+   ],
+   "name_es": "Aurora",
+   "name_fr": "Aurora",
+   "name_it": "Aurora"
+  },
+  {
+   "name": "Crepuscular Rays",
+   "slug": "crepuscular",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Sunbeams that appear to radiate from the sun through gaps in cloud — 'God rays.'"
+    },
+    {
+     "k": "How It Forms",
+     "v": "Sunlight streams through breaks in clouds and is scattered by dust and haze, making the individual beams visible."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Mostly a beautiful optical effect; they mark broken cloud and scattered light rather than a forecast."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Distinct shafts of light fanning out from behind a cloud or below the horizon, especially near sunrise or sunset."
+    }
+   ],
+   "name_es": "Crepuscular Rays",
+   "name_fr": "Crepuscular Rays",
+   "name_it": "Crepuscular Rays"
+  },
+  {
+   "cat": "WEATHER SYSTEMS"
+  },
+  {
+   "name": "Cold Front",
+   "slug": "cold-front",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The leading edge of an advancing mass of cold air, pushing under and lifting the warm air ahead of it."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Dense cold air wedges beneath lighter warm air, forcing it up steeply and rapidly, often triggering towering clouds."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Brings a sharp change: brief heavy showers or thunderstorms, then clearing skies, falling temperatures, and gusty winds."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A line of towering clouds and showers passing through, followed by cooler, drier, clearer air and a wind shift."
+    }
+   ],
+   "name_es": "Cold Front",
+   "name_fr": "Cold Front",
+   "name_it": "Cold Front"
+  },
+  {
+   "name": "Warm Front",
+   "slug": "warm-front",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The leading edge of advancing warm air, gliding up and over the cooler air it's replacing."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Warm air rises gently over a wedge of cooler air, creating a long, sloping ramp of progressively lower cloud."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Brings a slow sequence — high cirrus, then thickening cloud, then prolonged steady rain — followed by milder air."
+    },
+    {
+     "k": "Spot It By",
+     "v": "A gradual lowering and thickening of cloud over a day, then steady rain, ending with warmer, more humid conditions."
+    }
+   ],
+   "name_es": "Warm Front",
+   "name_fr": "Warm Front",
+   "name_it": "Warm Front"
+  },
+  {
+   "name": "High Pressure",
+   "slug": "high-pressure",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A region where air sinks and spreads out at the surface, generally bringing calm, settled weather."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Descending air warms and dries, suppressing cloud formation. Winds circle it clockwise in the Northern Hemisphere."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Usually means fair, dry, stable weather — sunny in summer, but clear cold nights and possible fog in winter."
+    },
+    {
+     "k": "Spot It By",
+     "v": "On a map, an 'H' with widely spaced isobars; in the sky, clear or fair-weather conditions and light winds."
+    }
+   ],
+   "name_es": "High Pressure",
+   "name_fr": "High Pressure",
+   "name_it": "High Pressure"
+  },
+  {
+   "name": "Low Pressure",
+   "slug": "low-pressure",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A region where air rises and converges, generally bringing clouds, wind, and unsettled weather."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Rising air cools and condenses into cloud and precipitation. Winds spiral inward, counterclockwise in the Northern Hemisphere."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Means changeable, often wet and windy weather, and is where fronts and storms organize."
+    },
+    {
+     "k": "Spot It By",
+     "v": "On a map, an 'L' with tightly packed isobars; in the sky, increasing cloud, wind, and rain."
+    }
+   ],
+   "name_es": "Low Pressure",
+   "name_fr": "Low Pressure",
+   "name_it": "Low Pressure"
+  },
+  {
+   "name": "Jet Stream",
+   "slug": "jet-stream",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A fast, narrow ribbon of wind high in the atmosphere that steers weather systems around the globe."
+    },
+    {
+     "k": "How It Forms",
+     "v": "Strong temperature contrasts between air masses create a band of very high-speed winds near the top of the troposphere."
+    },
+    {
+     "k": "What It Tells You",
+     "v": "Its position determines where storms track and whether you get warm or cold spells — the master switch of mid-latitude weather."
+    },
+    {
+     "k": "Spot It By",
+     "v": "Invisible from the ground, but its influence shows as the path storms follow; pilots feel it as high-altitude wind."
+    }
+   ],
+   "name_es": "Jet Stream",
+   "name_fr": "Jet Stream",
+   "name_it": "Jet Stream"
+  }
+ ]
+}
