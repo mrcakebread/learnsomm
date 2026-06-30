@@ -228,7 +228,7 @@
 </div>
 <script id="ss-gate-js">
 (function(){
-  var html=document.documentElement; html.style.overflow='hidden';
+  var html=document.documentElement; html.style.overflow='hidden'; try{document.title='StudySpinners · build r9';}catch(e){}
   function gate(){return document.getElementById('ss-gate');}
   function fail(){var g=gate();if(!g)return;var e=document.getElementById('ss-gate-err');e.textContent='Incorrect username or password.';var c=g.querySelector('.ss-gate-card');c.style.animation='none';void c.offsetWidth;c.style.animation='ssShake .4s';var p=document.getElementById('ss-gate-pass');p.value='';p.focus();}
   function tryUnlock(){
