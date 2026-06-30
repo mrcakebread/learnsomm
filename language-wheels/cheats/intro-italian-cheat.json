@@ -1,0 +1,2088 @@
+{
+ "title": "Intro to Italian — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "UNIT 1 · GREETINGS"
+  },
+  {
+   "name": "Ciao",
+   "slug": "ciao",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Hi / Bye"
+    },
+    {
+     "k": "Say It",
+     "v": "CHAH-oh"
+    },
+    {
+     "k": "In Context",
+     "v": "Ciao, come stai? — Hi, how are you?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Informal, for both hello and goodbye. The 'c' before 'i' is a 'ch' sound."
+    },
+    {
+     "k": "Good to Know",
+     "v": "World-famous and casual. Use only with friends and peers; for formality use 'salve' or 'buongiorno'. Originally from Venetian 'your slave (servant)'."
+    }
+   ],
+   "name_es": "Ciao",
+   "name_fr": "Ciao",
+   "name_it": "Ciao"
+  },
+  {
+   "name": "Buongiorno",
+   "slug": "buongiorno",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good morning / Good day"
+    },
+    {
+     "k": "Say It",
+     "v": "bwohn-JOR-noh"
+    },
+    {
+     "k": "In Context",
+     "v": "Buongiorno, signora. — Good morning, ma'am."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Buon' (good) + 'giorno' (day). The 'gi' is a soft 'j' sound."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The standard polite daytime greeting. Switches to 'buonasera' in the late afternoon."
+    }
+   ],
+   "name_es": "Buongiorno",
+   "name_fr": "Buongiorno",
+   "name_it": "Buongiorno"
+  },
+  {
+   "name": "Buonasera",
+   "slug": "buonasera",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good evening"
+    },
+    {
+     "k": "Say It",
+     "v": "bwoh-nah-SEH-rah"
+    },
+    {
+     "k": "In Context",
+     "v": "Buonasera a tutti. — Good evening, everyone."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Buona' (good, fem.) + 'sera' (evening). Used as both greeting and farewell in the evening."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Begin using it from the late afternoon onward. For bedtime, switch to 'buonanotte'."
+    }
+   ],
+   "name_es": "Buonasera",
+   "name_fr": "Buonasera",
+   "name_it": "Buonasera"
+  },
+  {
+   "name": "Buonanotte",
+   "slug": "buonanotte",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good night"
+    },
+    {
+     "k": "Say It",
+     "v": "bwoh-nah-NOT-teh"
+    },
+    {
+     "k": "In Context",
+     "v": "Buonanotte, a domani. — Good night, see you tomorrow."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Buona' + 'notte' (night). Double 't' is held slightly longer — a feature of Italian."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Only for going to sleep, like English 'good night'. Don't use it as an evening greeting."
+    }
+   ],
+   "name_es": "Buonanotte",
+   "name_fr": "Buonanotte",
+   "name_it": "Buonanotte"
+  },
+  {
+   "name": "Arrivederci",
+   "slug": "arrivederci",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Goodbye"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-ree-veh-DEHR-chee"
+    },
+    {
+     "k": "In Context",
+     "v": "Arrivederci, grazie. — Goodbye, thank you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'to seeing each other again'. The polite, neutral goodbye. Formal version: 'arrivederLa'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "More polite than 'ciao' for goodbye. The rolled 'r' and the 'ci' (chee) sound are good pronunciation practice."
+    }
+   ],
+   "name_es": "Arrivederci",
+   "name_fr": "Arrivederci",
+   "name_it": "Arrivederci"
+  },
+  {
+   "name": "A presto",
+   "slug": "a-presto",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "See you soon"
+    },
+    {
+     "k": "Say It",
+     "v": "ah PREH-stoh"
+    },
+    {
+     "k": "In Context",
+     "v": "A presto! — See you soon!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'A' (to/until) + 'presto' (soon/early). A warm farewell."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Use when you'll see someone again shortly. 'A dopo' (see you later) is another common option."
+    }
+   ],
+   "name_es": "A presto",
+   "name_fr": "A presto",
+   "name_it": "A presto"
+  },
+  {
+   "name": "Come stai?",
+   "slug": "come-stai",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How are you? (informal)"
+    },
+    {
+     "k": "Say It",
+     "v": "KOH-meh STAH-ee"
+    },
+    {
+     "k": "In Context",
+     "v": "Come stai? — Bene! — How are you? — Good!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses 'stare' (to be/stay) for wellbeing, informal 'tu'. Formal version: 'Come sta?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian uses 'stare' (not 'essere') to ask how someone is. The formal 'Come sta?' is for strangers and elders."
+    }
+   ],
+   "name_es": "Come stai?",
+   "name_fr": "Come stai?",
+   "name_it": "Come stai?"
+  },
+  {
+   "name": "Bene, grazie",
+   "slug": "bene",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Well / Good"
+    },
+    {
+     "k": "Say It",
+     "v": "BEH-neh"
+    },
+    {
+     "k": "In Context",
+     "v": "Sto bene, grazie. — I'm well, thanks."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb — invariable. 'Molto bene' = very well; 'benissimo' = great."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The standard reply to 'come stai?'. Stack it up: 'bene' → 'molto bene' → 'benissimo'."
+    }
+   ],
+   "name_es": "Bene, grazie",
+   "name_fr": "Bene, grazie",
+   "name_it": "Bene, grazie"
+  },
+  {
+   "name": "Piacere",
+   "slug": "piacere",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Nice to meet you"
+    },
+    {
+     "k": "Say It",
+     "v": "pyah-CHEH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Piacere, sono Marco. — Nice to meet you, I'm Marco."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'pleasure'. Also the verb 'to please/like'. As a greeting it's a fixed phrase."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Said when meeting someone. A common fuller form is 'piacere di conoscerti' (pleasure to meet you)."
+    }
+   ],
+   "name_es": "Piacere",
+   "name_fr": "Piacere",
+   "name_it": "Piacere"
+  },
+  {
+   "name": "Come ti chiami?",
+   "slug": "come-ti-chiami",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "What's your name? (informal)"
+    },
+    {
+     "k": "Say It",
+     "v": "KOH-meh tee KYAH-mee"
+    },
+    {
+     "k": "In Context",
+     "v": "Come ti chiami? — Mi chiamo Anna. — What's your name? — I'm Anna."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Reflexive 'chiamarsi' (to call oneself), informal. The 'chi' is a hard 'k' sound: 'kyah-mee'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Answer 'Mi chiamo…' (I'm called…). Formal version: 'Come si chiama?'."
+    }
+   ],
+   "name_es": "Come ti chiami?",
+   "name_fr": "Come ti chiami?",
+   "name_it": "Come ti chiami?"
+  },
+  {
+   "cat": "UNIT 2 · ESSENTIALS"
+  },
+  {
+   "name": "Sì",
+   "slug": "si",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Yes"
+    },
+    {
+     "k": "Say It",
+     "v": "SEE"
+    },
+    {
+     "k": "In Context",
+     "v": "Sì, grazie. — Yes, thank you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Accent matters: 'sì' (yes) vs 'si' (the reflexive 'oneself'). Pronounced 'see'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The accent on 'sì' distinguishes 'yes' from the unstressed 'si'. A small mark, a big difference."
+    }
+   ],
+   "name_es": "Sì",
+   "name_fr": "Sì",
+   "name_it": "Sì"
+  },
+  {
+   "name": "No",
+   "slug": "no",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "No"
+    },
+    {
+     "k": "Say It",
+     "v": "NOH"
+    },
+    {
+     "k": "In Context",
+     "v": "No, grazie. — No, thank you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. To negate a verb, place 'non' before it ('non parlo' = I don't speak)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note: 'no' is the answer 'no', but 'non' is the word that negates verbs. Don't mix them up."
+    }
+   ],
+   "name_es": "No",
+   "name_fr": "No",
+   "name_it": "No"
+  },
+  {
+   "name": "Per favore",
+   "slug": "per-favore",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Please"
+    },
+    {
+     "k": "Say It",
+     "v": "pehr fah-VOH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Un caffè, per favore. — A coffee, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'for favor'. A fixed phrase; 'per piacere' and 'per cortesia' are alternatives."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The standard 'please'. Italians have several polite variants; 'per favore' is the most common and safe."
+    }
+   ],
+   "name_es": "Per favore",
+   "name_fr": "Per favore",
+   "name_it": "Per favore"
+  },
+  {
+   "name": "Grazie",
+   "slug": "grazie",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Thank you"
+    },
+    {
+     "k": "Say It",
+     "v": "GRAH-tsyeh"
+    },
+    {
+     "k": "In Context",
+     "v": "Grazie mille. — Thanks a lot."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. The 'z' is a 'ts' sound. 'Grazie mille' (a thousand thanks) intensifies it."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The 'zie' ending sounds like 'tsyeh'. 'Grazie mille' is the everyday way to say 'thanks so much'."
+    }
+   ],
+   "name_es": "Grazie",
+   "name_fr": "Grazie",
+   "name_it": "Grazie"
+  },
+  {
+   "name": "Prego",
+   "slug": "prego",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "You're welcome"
+    },
+    {
+     "k": "Say It",
+     "v": "PREH-goh"
+    },
+    {
+     "k": "In Context",
+     "v": "— Grazie. — Prego. — Thanks. — You're welcome."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'pregare' (to pray/beg). A versatile word: 'you're welcome', 'please go ahead', 'after you'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Wonderfully multipurpose: it answers 'grazie', invites someone to go first, or means 'please, help yourself'."
+    }
+   ],
+   "name_es": "Prego",
+   "name_fr": "Prego",
+   "name_it": "Prego"
+  },
+  {
+   "name": "Scusi",
+   "slug": "scusi",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Excuse me (formal)"
+    },
+    {
+     "k": "Say It",
+     "v": "SKOO-zee"
+    },
+    {
+     "k": "In Context",
+     "v": "Scusi, dov'è la stazione? — Excuse me, where's the station?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Formal command from 'scusare'. Informal is 'scusa'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Use 'scusi' (formal) with strangers, 'scusa' (informal) with friends, to apologize or get attention."
+    }
+   ],
+   "name_es": "Scusi",
+   "name_fr": "Scusi",
+   "name_it": "Scusi"
+  },
+  {
+   "name": "Mi dispiace",
+   "slug": "mi-dispiace",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm sorry"
+    },
+    {
+     "k": "Say It",
+     "v": "mee dee-SPYAH-cheh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mi dispiace molto. — I'm very sorry."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'it displeases me' — the thing is the subject, like 'mi piace'. For genuine regret."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Deeper than 'scusa': use 'mi dispiace' for real apology or sympathy, 'scusa' for minor bumps."
+    }
+   ],
+   "name_es": "Mi dispiace",
+   "name_fr": "Mi dispiace",
+   "name_it": "Mi dispiace"
+  },
+  {
+   "name": "Non capisco",
+   "slug": "non-capisco",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I don't understand"
+    },
+    {
+     "k": "Say It",
+     "v": "nohn kah-PEE-skoh"
+    },
+    {
+     "k": "In Context",
+     "v": "Scusi, non capisco. — Sorry, I don't understand."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'capire' (to understand), an '-isc-' verb. 'Non' negates it."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A survival phrase. Follow with 'può ripetere?' (can you repeat?) to keep things moving."
+    }
+   ],
+   "name_es": "Non capisco",
+   "name_fr": "Non capisco",
+   "name_it": "Non capisco"
+  },
+  {
+   "name": "Parla inglese?",
+   "slug": "parla-inglese",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Do you speak English?"
+    },
+    {
+     "k": "Say It",
+     "v": "PAR-lah een-GLEH-zeh"
+    },
+    {
+     "k": "In Context",
+     "v": "Parla inglese? — Do you speak English?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Formal 'Lei' form of 'parlare'. Informal: 'Parli inglese?'. 'Inglese' is lowercase."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian doesn't capitalize languages. The formal 'parla' vs informal 'parli' is a one-letter politeness shift."
+    }
+   ],
+   "name_es": "Parla inglese?",
+   "name_fr": "Parla inglese?",
+   "name_it": "Parla inglese?"
+  },
+  {
+   "cat": "UNIT 3 · NUMBERS & TIME"
+  },
+  {
+   "name": "Uno",
+   "slug": "uno",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "One"
+    },
+    {
+     "k": "Say It",
+     "v": "OO-noh"
+    },
+    {
+     "k": "In Context",
+     "v": "Uno, due, tre. — One, two, three."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Becomes 'un'/'uno' (masc.) or 'una'/'un'' (fem.) as the article 'a/an', depending on the next sound."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Like 'a/an', 'uno' shifts form to match the noun: 'un caffè', 'una pizza', 'un'amica'."
+    }
+   ],
+   "name_es": "Uno",
+   "name_fr": "Uno",
+   "name_it": "Uno"
+  },
+  {
+   "name": "Due",
+   "slug": "due",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Two"
+    },
+    {
+     "k": "Say It",
+     "v": "DOO-eh"
+    },
+    {
+     "k": "In Context",
+     "v": "Due caffè, per favore. — Two coffees, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. Two clear vowels: 'DOO-eh'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "From two on, Italian numbers don't change for gender. Every vowel is pronounced distinctly."
+    }
+   ],
+   "name_es": "Due",
+   "name_fr": "Due",
+   "name_it": "Due"
+  },
+  {
+   "name": "Tre",
+   "slug": "tre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Three"
+    },
+    {
+     "k": "Say It",
+     "v": "TREH"
+    },
+    {
+     "k": "In Context",
+     "v": "Sono le tre. — It's three o'clock."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. Just one syllable: 'treh'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used for counting and telling time: 'sono le tre' = it's three o'clock."
+    }
+   ],
+   "name_es": "Tre",
+   "name_fr": "Tre",
+   "name_it": "Tre"
+  },
+  {
+   "name": "Dieci",
+   "slug": "dieci",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Ten"
+    },
+    {
+     "k": "Say It",
+     "v": "DYEH-chee"
+    },
+    {
+     "k": "In Context",
+     "v": "Ho dieci euro. — I have ten euros."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. The 'ci' is a 'chee' sound: 'DYEH-chee'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note 'euro' stays singular in Italian even when counting: 'dieci euro', not 'euros'."
+    }
+   ],
+   "name_es": "Dieci",
+   "name_fr": "Dieci",
+   "name_it": "Dieci"
+  },
+  {
+   "name": "Cento",
+   "slug": "cento",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "One hundred"
+    },
+    {
+     "k": "Say It",
+     "v": "CHEHN-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "Cento euro. — A hundred euros."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable, even in multiples ('duecento' = 200, written as one word)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Unlike Spanish or French, 'cento' never changes and joins to its multiplier: 'duecento', 'trecento'."
+    }
+   ],
+   "name_es": "Cento",
+   "name_fr": "Cento",
+   "name_it": "Cento"
+  },
+  {
+   "name": "Che ora è?",
+   "slug": "che-ora",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "What time is it?"
+    },
+    {
+     "k": "Say It",
+     "v": "keh OH-rah EH"
+    },
+    {
+     "k": "In Context",
+     "v": "Che ora è? — Sono le due. — What time is it? — It's two."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'what hour is it?'. Answer 'è l'una' (1:00) or 'sono le…' (other hours)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Singular 'è l'una' for one o'clock, plural 'sono le…' for the rest — the same pattern as Spanish."
+    }
+   ],
+   "name_es": "Che ora è?",
+   "name_fr": "Che ora è?",
+   "name_it": "Che ora è?"
+  },
+  {
+   "name": "Oggi",
+   "slug": "oggi",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Today"
+    },
+    {
+     "k": "Say It",
+     "v": "OH-jee"
+    },
+    {
+     "k": "In Context",
+     "v": "Oggi è lunedì. — Today is Monday."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of time. Double 'g' before 'i' gives a soft 'j': 'OH-jee'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Pairs with 'ieri' (yesterday) and 'domani' (tomorrow) — the essential time trio."
+    }
+   ],
+   "name_es": "Oggi",
+   "name_fr": "Oggi",
+   "name_it": "Oggi"
+  },
+  {
+   "name": "Domani",
+   "slug": "domani",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Tomorrow"
+    },
+    {
+     "k": "Say It",
+     "v": "doh-MAH-nee"
+    },
+    {
+     "k": "In Context",
+     "v": "A domani! — See you tomorrow!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of time. 'A domani' is a common goodbye. 'Dopodomani' = the day after tomorrow."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Unlike Spanish 'mañana', Italian 'domani' means only 'tomorrow'; morning is 'mattina'."
+    }
+   ],
+   "name_es": "Domani",
+   "name_fr": "Domani",
+   "name_it": "Domani"
+  },
+  {
+   "name": "Adesso",
+   "slug": "adesso",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Now"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-DEHS-soh"
+    },
+    {
+     "k": "In Context",
+     "v": "Andiamo adesso. — Let's go now."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb. 'Ora' is a common synonym ('now', also 'hour')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Both 'adesso' and 'ora' mean 'now'. 'Subito' means 'immediately / right away'."
+    }
+   ],
+   "name_es": "Adesso",
+   "name_fr": "Adesso",
+   "name_it": "Adesso"
+  },
+  {
+   "cat": "UNIT 4 · FOOD & DRINK"
+  },
+  {
+   "name": "L'acqua",
+   "slug": "acqua",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Water"
+    },
+    {
+     "k": "Say It",
+     "v": "AH-kwah"
+    },
+    {
+     "k": "In Context",
+     "v": "Un bicchiere d'acqua, per favore. — A glass of water, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'l'acqua'. The 'cqu' is a held 'kw' sound, unique to a few Italian words."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Ask for 'acqua naturale' (still) or 'acqua frizzante' (sparkling) — Italians will often ask which you want."
+    }
+   ],
+   "name_es": "L'acqua",
+   "name_fr": "L'acqua",
+   "name_it": "L'acqua"
+  },
+  {
+   "name": "Il caffè",
+   "slug": "caffe",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Coffee"
+    },
+    {
+     "k": "Say It",
+     "v": "kahf-FEH"
+    },
+    {
+     "k": "In Context",
+     "v": "Un caffè, per favore. — A coffee, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il caffè'. The accent on the final 'è' means the stress lands there: 'kahf-FEH'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Ordering 'un caffè' gets you an espresso. A 'caffè latte' is coffee with milk — but just 'latte' will get you a glass of milk!"
+    }
+   ],
+   "name_es": "Il caffè",
+   "name_fr": "Il caffè",
+   "name_it": "Il caffè"
+  },
+  {
+   "name": "Il pane",
+   "slug": "pane",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Bread"
+    },
+    {
+     "k": "Say It",
+     "v": "PAH-neh"
+    },
+    {
+     "k": "In Context",
+     "v": "Del pane, per favore. — Some bread, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il pane'. Two clear syllables: 'PAH-neh'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A staple at every Italian meal, usually served without butter. A bakery is 'il forno' or 'la panetteria'."
+    }
+   ],
+   "name_es": "Il pane",
+   "name_fr": "Il pane",
+   "name_it": "Il pane"
+  },
+  {
+   "name": "Il conto",
+   "slug": "il-conto",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The bill / check"
+    },
+    {
+     "k": "Say It",
+     "v": "eel KOHN-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "Il conto, per favore. — The check, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il conto'. From 'contare' (to count)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "As elsewhere in Europe, the bill comes only when you ask. Catch the waiter with 'il conto, per favore'."
+    }
+   ],
+   "name_es": "Il conto",
+   "name_fr": "Il conto",
+   "name_it": "Il conto"
+  },
+  {
+   "name": "Il vino",
+   "slug": "vino",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Wine"
+    },
+    {
+     "k": "Say It",
+     "v": "VEE-noh"
+    },
+    {
+     "k": "In Context",
+     "v": "Un bicchiere di vino rosso. — A glass of red wine."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il vino'. 'Vino rosso' (red), 'vino bianco' (white)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Central to Italian dining. 'Un quartino' is a quarter-litre carafe — a handy, common house-wine order."
+    }
+   ],
+   "name_es": "Il vino",
+   "name_fr": "Il vino",
+   "name_it": "Il vino"
+  },
+  {
+   "name": "Il cibo",
+   "slug": "cibo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Food"
+    },
+    {
+     "k": "Say It",
+     "v": "CHEE-boh"
+    },
+    {
+     "k": "In Context",
+     "v": "Il cibo è ottimo. — The food is excellent."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il cibo'. The 'ci' is 'chee': 'CHEE-boh'. A general word for food."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Il cibo' is food in general. For a specific dish you'd say 'il piatto'; a meal is 'il pasto'."
+    }
+   ],
+   "name_es": "Il cibo",
+   "name_fr": "Il cibo",
+   "name_it": "Il cibo"
+  },
+  {
+   "name": "Vorrei…",
+   "slug": "vorrei",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I would like"
+    },
+    {
+     "k": "Say It",
+     "v": "vohr-RAY"
+    },
+    {
+     "k": "In Context",
+     "v": "Vorrei un caffè. — I'd like a coffee."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Polite conditional of 'volere' (to want). Softer than 'voglio' (I want)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The courteous way to order. 'Vorrei…' (I'd like) is gentler than the blunt 'voglio…' (I want)."
+    }
+   ],
+   "name_es": "Vorrei…",
+   "name_fr": "Vorrei…",
+   "name_it": "Vorrei…"
+  },
+  {
+   "name": "Il menù",
+   "slug": "il-menu",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The menu"
+    },
+    {
+     "k": "Say It",
+     "v": "eel meh-NOO"
+    },
+    {
+     "k": "In Context",
+     "v": "Il menù, per favore. — The menu, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il menù', with the stress on the final 'u'. A loanword from French."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Unlike French/Spanish, in Italy 'il menù' simply means the menu of dishes. 'Il menù fisso' is a set meal."
+    }
+   ],
+   "name_es": "Il menù",
+   "name_fr": "Il menù",
+   "name_it": "Il menù"
+  },
+  {
+   "name": "Salute!",
+   "slug": "salute",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Cheers! / Bless you!"
+    },
+    {
+     "k": "Say It",
+     "v": "sah-LOO-teh"
+    },
+    {
+     "k": "In Context",
+     "v": "Salute! — Cheers!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'health'. Used as a toast and after a sneeze. 'Cin cin' is the casual clink-glasses toast."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Toast with 'salute' or the playful 'cin cin'. Like Spanish 'salud', it also means 'bless you' after a sneeze."
+    }
+   ],
+   "name_es": "Salute!",
+   "name_fr": "Salute!",
+   "name_it": "Salute!"
+  },
+  {
+   "cat": "UNIT 5 · GETTING AROUND"
+  },
+  {
+   "name": "Dov'è…?",
+   "slug": "dove",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Where is…?"
+    },
+    {
+     "k": "Say It",
+     "v": "doh-VEH"
+    },
+    {
+     "k": "In Context",
+     "v": "Dov'è la stazione? — Where is the station?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Dove' (where) + 'è' (is) contracts to 'dov'è'. Plural: 'dove sono…?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The essential travel question. 'Dove' elides with 'è' to 'dov'è' — a smooth, common contraction."
+    }
+   ],
+   "name_es": "Dov'è…?",
+   "name_fr": "Dov'è…?",
+   "name_it": "Dov'è…?"
+  },
+  {
+   "name": "Il bagno",
+   "slug": "bagno",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Bathroom"
+    },
+    {
+     "k": "Say It",
+     "v": "BAH-nyoh"
+    },
+    {
+     "k": "In Context",
+     "v": "Dov'è il bagno? — Where's the bathroom?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il bagno'. The 'gn' is a 'ny' sound, like Spanish 'ñ'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Il bagno' covers both bathroom and bath. In a bar or restaurant you can also ask for 'la toilette'."
+    }
+   ],
+   "name_es": "Il bagno",
+   "name_fr": "Il bagno",
+   "name_it": "Il bagno"
+  },
+  {
+   "name": "La sinistra",
+   "slug": "sinistra",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Left"
+    },
+    {
+     "k": "Say It",
+     "v": "see-NEE-strah"
+    },
+    {
+     "k": "In Context",
+     "v": "Giri a sinistra. — Turn left."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine, used in 'a sinistra' (to the left)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Direction basics: 'a sinistra' (left), 'a destra' (right), 'dritto' / 'sempre dritto' (straight ahead)."
+    }
+   ],
+   "name_es": "La sinistra",
+   "name_fr": "La sinistra",
+   "name_it": "La sinistra"
+  },
+  {
+   "name": "La destra",
+   "slug": "destra",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Right"
+    },
+    {
+     "k": "Say It",
+     "v": "DEH-strah"
+    },
+    {
+     "k": "In Context",
+     "v": "È a destra. — It's on the right."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la destra'. Don't confuse with 'dritto' (straight ahead)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Trap to watch: 'a destra' = to the right, but 'dritto' = straight ahead. Listen carefully when getting directions."
+    }
+   ],
+   "name_es": "La destra",
+   "name_fr": "La destra",
+   "name_it": "La destra"
+  },
+  {
+   "name": "Qui",
+   "slug": "qui",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Here"
+    },
+    {
+     "k": "Say It",
+     "v": "KWEE"
+    },
+    {
+     "k": "In Context",
+     "v": "Sono qui. — I'm here."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of place. 'Qui' and 'qua' both mean 'here', used almost interchangeably."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian has two near-identical 'here' words (qui/qua) and two for 'there' (lì/là). All are common."
+    }
+   ],
+   "name_es": "Qui",
+   "name_fr": "Qui",
+   "name_it": "Qui"
+  },
+  {
+   "name": "Là",
+   "slug": "la",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "There"
+    },
+    {
+     "k": "Say It",
+     "v": "LAH"
+    },
+    {
+     "k": "In Context",
+     "v": "È là. — It's over there."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of place, with accent: 'là' (there) vs 'la' (the). 'Lì' is a synonym."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The accent distinguishes 'là' (there) from 'la' (the feminine article). 'Lì' and 'là' both mean 'there'."
+    }
+   ],
+   "name_es": "Là",
+   "name_fr": "Là",
+   "name_it": "Là"
+  },
+  {
+   "name": "La stazione",
+   "slug": "stazione",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Station"
+    },
+    {
+     "k": "Say It",
+     "v": "stah-TSYOH-neh"
+    },
+    {
+     "k": "In Context",
+     "v": "La stazione è vicina. — The station is nearby."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la stazione'. Words ending in '-zione' are feminine (like Spanish '-ción')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A reliable rule: '-zione' nouns are feminine ('la stazione', 'la lezione'). The 'zi' sounds like 'tsy'."
+    }
+   ],
+   "name_es": "La stazione",
+   "name_fr": "La stazione",
+   "name_it": "La stazione"
+  },
+  {
+   "name": "Quanto costa?",
+   "slug": "quanto-costa",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How much does it cost?"
+    },
+    {
+     "k": "Say It",
+     "v": "KWAHN-toh KOH-stah"
+    },
+    {
+     "k": "In Context",
+     "v": "Quanto costa? — How much is it?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'costare' (to cost). For multiple items: 'quanto costano?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The key shopping question. 'Quant'è?' (how much is it?) is a shorter, common alternative."
+    }
+   ],
+   "name_es": "Quanto costa?",
+   "name_fr": "Quanto costa?",
+   "name_it": "Quanto costa?"
+  },
+  {
+   "cat": "UNIT 6 · PEOPLE & FAMILY"
+  },
+  {
+   "name": "Io",
+   "slug": "io",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I"
+    },
+    {
+     "k": "Say It",
+     "v": "EE-oh"
+    },
+    {
+     "k": "In Context",
+     "v": "Io sono italiano. — I am Italian."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Subject pronoun. Often dropped, since the verb ending shows the subject ('sono' = I am)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Like Spanish, Italian usually omits subject pronouns — 'sono' alone means 'I am'. Use 'io' for emphasis."
+    }
+   ],
+   "name_es": "Io",
+   "name_fr": "Io",
+   "name_it": "Io"
+  },
+  {
+   "name": "Tu",
+   "slug": "tu",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "You (informal)"
+    },
+    {
+     "k": "Say It",
+     "v": "TOO"
+    },
+    {
+     "k": "In Context",
+     "v": "Tu parli italiano? — Do you speak Italian?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Informal singular 'you'. The formal equivalent is 'Lei' (capitalized)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Use 'tu' with friends and peers; switch to the formal 'Lei' for strangers, elders, and business."
+    }
+   ],
+   "name_es": "Tu",
+   "name_fr": "Tu",
+   "name_it": "Tu"
+  },
+  {
+   "name": "Lui / Lei",
+   "slug": "lui-lei",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "He / She"
+    },
+    {
+     "k": "Say It",
+     "v": "LOO-ee / LEH-ee"
+    },
+    {
+     "k": "In Context",
+     "v": "Lui è alto. Lei è alta. — He is tall. She is tall."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Lui' (he), 'lei' (she). Capitalized 'Lei' is also the formal 'you'. Adjectives agree: 'alto'/'alta'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Lei' does double duty: lowercase 'lei' = she, capitalized 'Lei' = formal 'you'. Adjective endings shift by gender."
+    }
+   ],
+   "name_es": "Lui / Lei",
+   "name_fr": "Lui / Lei",
+   "name_it": "Lui / Lei"
+  },
+  {
+   "name": "Noi",
+   "slug": "noi",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "We"
+    },
+    {
+     "k": "Say It",
+     "v": "NOH-ee"
+    },
+    {
+     "k": "In Context",
+     "v": "Noi siamo amici. — We are friends."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Subject pronoun 'we'. Two vowels: 'NOH-ee'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The verb ending ('siamo' = we are) already signals 'we', so 'noi' is often dropped except for emphasis."
+    }
+   ],
+   "name_es": "Noi",
+   "name_fr": "Noi",
+   "name_it": "Noi"
+  },
+  {
+   "name": "L'amico / L'amica",
+   "slug": "amico",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Friend"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-MEE-koh"
+    },
+    {
+     "k": "In Context",
+     "v": "È il mio migliore amico. — He's my best friend."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'l'amico' (male), 'l'amica' (female). Plurals: 'amici' (the 'c' softens to 'chee') / 'amiche' (stays hard 'k')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A spelling quirk: masculine plural 'amici' is 'ah-MEE-chee', but feminine 'amiche' keeps the hard 'k' sound."
+    }
+   ],
+   "name_es": "L'amico / L'amica",
+   "name_fr": "L'amico / L'amica",
+   "name_it": "L'amico / L'amica"
+  },
+  {
+   "name": "La famiglia",
+   "slug": "famiglia",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Family"
+    },
+    {
+     "k": "Say It",
+     "v": "fah-MEE-lyah"
+    },
+    {
+     "k": "In Context",
+     "v": "La mia famiglia è grande. — My family is big."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la famiglia'. The 'gli' is a liquid 'ly' sound, distinctive to Italian."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The 'gli' sound (as in 'famiglia', 'figlio') has no English equivalent — somewhere between 'ly' and 'lli'."
+    }
+   ],
+   "name_es": "La famiglia",
+   "name_fr": "La famiglia",
+   "name_it": "La famiglia"
+  },
+  {
+   "name": "La madre",
+   "slug": "madre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Mother"
+    },
+    {
+     "k": "Say It",
+     "v": "MAH-dreh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mia madre si chiama Sofia. — My mother's name is Sofia."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la madre'. Affectionate: 'mamma'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note: with singular family members you drop the article — 'mia madre', not 'la mia madre'. 'Mamma' is the warm term."
+    }
+   ],
+   "name_es": "La madre",
+   "name_fr": "La madre",
+   "name_it": "La madre"
+  },
+  {
+   "name": "Il padre",
+   "slug": "padre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Father"
+    },
+    {
+     "k": "Say It",
+     "v": "PAH-dreh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mio padre lavora molto. — My father works a lot."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'il padre'. 'I genitori' means 'the parents'. Affectionate: 'papà'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian uses a separate word, 'i genitori', for 'parents' (not the plural of padre). Affectionate: 'papà' (stress on the end)."
+    }
+   ],
+   "name_es": "Il padre",
+   "name_fr": "Il padre",
+   "name_it": "Il padre"
+  },
+  {
+   "name": "L'uomo / La donna",
+   "slug": "uomo-donna",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Man / Woman"
+    },
+    {
+     "k": "Say It",
+     "v": "WOH-moh / DOHN-nah"
+    },
+    {
+     "k": "In Context",
+     "v": "L'uomo e la donna. — The man and the woman."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'l'uomo' (man, irregular plural 'uomini'), 'la donna' (woman, plural 'donne')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Uomo' has an irregular plural: one 'uomo', many 'uomini'. 'Donna' is regular: 'donne'."
+    }
+   ],
+   "name_es": "L'uomo / La donna",
+   "name_fr": "L'uomo / La donna",
+   "name_it": "L'uomo / La donna"
+  },
+  {
+   "cat": "UNIT 7 · EVERYDAY VERBS"
+  },
+  {
+   "name": "Essere",
+   "slug": "essere",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To be"
+    },
+    {
+     "k": "Say It",
+     "v": "EHS-seh-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Sono stanco. — I am tired."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Highly irregular: sono, sei, è, siamo, siete, sono. Used for identity, origin, traits."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian, like Spanish, has two 'to be' verbs. 'Essere' is for permanent identity and is the main past-tense helper."
+    }
+   ],
+   "name_es": "Essere",
+   "name_fr": "Essere",
+   "name_it": "Essere"
+  },
+  {
+   "name": "Avere",
+   "slug": "avere",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To have"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-VEH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Ho due fratelli. — I have two brothers."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: ho, hai, ha, abbiamo, avete, hanno. The 'h' is always silent."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used for age and hunger like Spanish: 'ho fame' (I'm hungry), 'ho 20 anni' (I'm 20). The silent 'h' distinguishes 'ho' from 'o' (or)."
+    }
+   ],
+   "name_es": "Avere",
+   "name_fr": "Avere",
+   "name_it": "Avere"
+  },
+  {
+   "name": "Stare",
+   "slug": "stare",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To be / stay"
+    },
+    {
+     "k": "Say It",
+     "v": "STAH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Come stai? — Sto bene. — How are you? — I'm well."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: sto, stai, sta, stiamo, state, stanno. Used for health, location, and ongoing actions."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Italian uses 'stare' (not 'essere') for how you feel and for the '-ing' present: 'sto mangiando' = I'm eating."
+    }
+   ],
+   "name_es": "Stare",
+   "name_fr": "Stare",
+   "name_it": "Stare"
+  },
+  {
+   "name": "Andare",
+   "slug": "andare",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To go"
+    },
+    {
+     "k": "Say It",
+     "v": "ahn-DAH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Vado a casa. — I'm going home."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: vado, vai, va, andiamo, andate, vanno."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Andiamo!' (let's go!) is one of the most useful exclamations you'll hear and use in Italy."
+    }
+   ],
+   "name_es": "Andare",
+   "name_fr": "Andare",
+   "name_it": "Andare"
+  },
+  {
+   "name": "Parlare",
+   "slug": "parlare",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To speak"
+    },
+    {
+     "k": "Say It",
+     "v": "par-LAH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Parlo un po' di italiano. — I speak a little Italian."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Regular '-are' verb — the model for the largest group. parlo, parli, parla, parliamo, parlate, parlano."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Learn 'parlare' and you have the pattern for thousands of '-are' verbs, Italian's biggest verb family."
+    }
+   ],
+   "name_es": "Parlare",
+   "name_fr": "Parlare",
+   "name_it": "Parlare"
+  },
+  {
+   "name": "Mangiare",
+   "slug": "mangiare",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To eat"
+    },
+    {
+     "k": "Say It",
+     "v": "mahn-JAH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Vuoi mangiare qualcosa? — Do you want to eat something?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'-are' verb with a spelling tweak: the 'i' disappears in 'mangi', 'mangiamo' to keep the soft 'g'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A near-regular '-are' verb. The silent 'i' in 'mangiamo' just preserves the soft 'g' (j) sound."
+    }
+   ],
+   "name_es": "Mangiare",
+   "name_fr": "Mangiare",
+   "name_it": "Mangiare"
+  },
+  {
+   "name": "Volere",
+   "slug": "volere",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To want"
+    },
+    {
+     "k": "Say It",
+     "v": "voh-LEH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Voglio un caffè. — I want a coffee."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: voglio, vuoi, vuole, vogliamo, volete, vogliono. The 'gli' is that liquid 'ly' sound."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Voglio' (I want) is direct; 'vorrei' (I'd like) is the polite form for ordering and requests."
+    }
+   ],
+   "name_es": "Volere",
+   "name_fr": "Volere",
+   "name_it": "Volere"
+  },
+  {
+   "name": "Potere",
+   "slug": "potere",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Can / to be able to"
+    },
+    {
+     "k": "Say It",
+     "v": "poh-TEH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Puoi aiutarmi? — Can you help me?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: posso, puoi, può, possiamo, potete, possono. Followed by an infinitive."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Essential for requests: 'può…?' (formal) / 'puoi…?' (informal) = 'can you…?'. 'Posso?' = 'may I?'."
+    }
+   ],
+   "name_es": "Potere",
+   "name_fr": "Potere",
+   "name_it": "Potere"
+  },
+  {
+   "name": "Fare",
+   "slug": "fare",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To do / make"
+    },
+    {
+     "k": "Say It",
+     "v": "FAH-reh"
+    },
+    {
+     "k": "In Context",
+     "v": "Che cosa fai? — What are you doing?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: faccio, fai, fa, facciamo, fate, fanno. Covers both 'do' and 'make'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Also drives weather and many idioms: 'fa caldo' (it's hot), 'fare una foto' (to take a photo). A workhorse verb."
+    }
+   ],
+   "name_es": "Fare",
+   "name_fr": "Fare",
+   "name_it": "Fare"
+  },
+  {
+   "cat": "UNIT 8 · USEFUL PHRASES"
+  },
+  {
+   "name": "Nessun problema",
+   "slug": "nessun-problema",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "No problem"
+    },
+    {
+     "k": "Say It",
+     "v": "nehs-SOON proh-BLEH-mah"
+    },
+    {
+     "k": "In Context",
+     "v": "— Grazie. — Nessun problema. — Thanks. — No problem."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Nessun' (no/none) + 'problema'. Note 'problema' is masculine despite ending in '-a'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A relaxed reply to thanks. Watch out: 'il problema' is masculine — a common exception to the '-a = feminine' rule."
+    }
+   ],
+   "name_es": "Nessun problema",
+   "name_fr": "Nessun problema",
+   "name_it": "Nessun problema"
+  },
+  {
+   "name": "D'accordo",
+   "slug": "daccordo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "OK / Agreed"
+    },
+    {
+     "k": "Say It",
+     "v": "dahk-KOR-doh"
+    },
+    {
+     "k": "In Context",
+     "v": "— Andiamo? — D'accordo. — Shall we go? — OK."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'essere d'accordo' (to agree). 'D'accordo' alone = OK / agreed."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The everyday 'OK'. 'Sono d'accordo' = 'I agree'. Very common in conversation."
+    }
+   ],
+   "name_es": "D'accordo",
+   "name_fr": "D'accordo",
+   "name_it": "D'accordo"
+  },
+  {
+   "name": "Certo",
+   "slug": "certo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Of course / Sure"
+    },
+    {
+     "k": "Say It",
+     "v": "CHEHR-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "— Vieni? — Certo! — Are you coming? — Of course!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb/adjective. 'Certo!' on its own = of course! 'Certamente' is the fuller form."
+    },
+    {
+     "k": "Good to Know",
+     "v": "An enthusiastic 'of course!'. The 'ce' sounds like 'cheh': 'CHEHR-toh'."
+    }
+   ],
+   "name_es": "Certo",
+   "name_fr": "Certo",
+   "name_it": "Certo"
+  },
+  {
+   "name": "Ho fame",
+   "slug": "ho-fame",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm hungry"
+    },
+    {
+     "k": "Say It",
+     "v": "oh FAH-meh"
+    },
+    {
+     "k": "In Context",
+     "v": "Ho fame, mangiamo? — I'm hungry, shall we eat?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses 'avere' (to have) + 'fame' (hunger): literally 'I have hunger'. The 'h' is silent."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Like Spanish and French, Italian 'has' hunger. Similarly 'ho sete' = I'm thirsty."
+    }
+   ],
+   "name_es": "Ho fame",
+   "name_fr": "Ho fame",
+   "name_it": "Ho fame"
+  },
+  {
+   "name": "Mi sono perso/a",
+   "slug": "mi-sono-perso",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm lost"
+    },
+    {
+     "k": "Say It",
+     "v": "mee SOH-noh PEHR-soh"
+    },
+    {
+     "k": "In Context",
+     "v": "Scusi, mi sono perso. — Sorry, I'm lost."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Reflexive past of 'perdersi' (to get lost). A woman says 'persa'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The ending agrees with gender: a man says 'perso', a woman 'persa'. A vital travel phrase."
+    }
+   ],
+   "name_es": "Mi sono perso/a",
+   "name_fr": "Mi sono perso/a",
+   "name_it": "Mi sono perso/a"
+  },
+  {
+   "name": "Mi piace",
+   "slug": "mi-piace",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I like (it)"
+    },
+    {
+     "k": "Say It",
+     "v": "mee PYAH-cheh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mi piace il caffè. — I like coffee."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'piacere' — works backwards: literally 'it is pleasing to me'. Plural things: 'mi piacciono'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Like Spanish 'me gusta', the thing liked is the subject: 'mi piacciono i gatti' = 'cats are pleasing to me' = I like cats."
+    }
+   ],
+   "name_es": "Mi piace",
+   "name_fr": "Mi piace",
+   "name_it": "Mi piace"
+  },
+  {
+   "name": "Buon appetito",
+   "slug": "buon-appetito",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Enjoy your meal"
+    },
+    {
+     "k": "Say It",
+     "v": "bwohn ahp-peh-TEE-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "Buon appetito! — Enjoy your meal!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'good appetite'. A fixed phrase, said before eating."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Always said before a meal in Italy. The polite reply, if someone says it to you, is 'grazie, altrettanto' (thanks, you too)."
+    }
+   ],
+   "name_es": "Buon appetito",
+   "name_fr": "Buon appetito",
+   "name_it": "Buon appetito"
+  },
+  {
+   "name": "Quant'è?",
+   "slug": "quanto-viene",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How much is it?"
+    },
+    {
+     "k": "Say It",
+     "v": "kwahn-TEH"
+    },
+    {
+     "k": "In Context",
+     "v": "Quant'è? — How much is it?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Quanto' (how much) + 'è' (is), contracted to 'quant'è'. The casual price question."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Quant'è?' is the quick spoken form; 'quanto costa?' is slightly more complete. Both are everywhere."
+    }
+   ],
+   "name_es": "Quant'è?",
+   "name_fr": "Quant'è?",
+   "name_it": "Quant'è?"
+  }
+ ]
+}

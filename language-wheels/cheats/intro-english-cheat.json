@@ -1,0 +1,2088 @@
+{
+ "title": "Intro to English (ESL) — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "UNIT 1 · GREETINGS"
+  },
+  {
+   "name": "Hello",
+   "slug": "hello",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A greeting used to say hi"
+    },
+    {
+     "k": "Say It",
+     "v": "heh-LOH"
+    },
+    {
+     "k": "In Context",
+     "v": "Hello! How are you? — A friendly greeting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An interjection — it never changes form. Can start any conversation, formal or casual."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The safest all-purpose greeting at any time of day. 'Hi' is the more casual version; 'hey' is very informal."
+    }
+   ],
+   "name_es": "Hello",
+   "name_fr": "Hello",
+   "name_it": "Hello"
+  },
+  {
+   "name": "Good morning",
+   "slug": "good-morning",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A greeting used before noon"
+    },
+    {
+     "k": "Say It",
+     "v": "good MOR-ning"
+    },
+    {
+     "k": "In Context",
+     "v": "Good morning! Did you sleep well? — A morning greeting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. Note the silent rules: 'good' has a short 'oo' like in 'book'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used until about noon, then switch to 'good afternoon'. It's a greeting only — you don't say it when leaving."
+    }
+   ],
+   "name_es": "Good morning",
+   "name_fr": "Good morning",
+   "name_it": "Good morning"
+  },
+  {
+   "name": "Good afternoon",
+   "slug": "good-afternoon",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A greeting from noon to evening"
+    },
+    {
+     "k": "Say It",
+     "v": "good af-ter-NOON"
+    },
+    {
+     "k": "In Context",
+     "v": "Good afternoon, everyone. — A midday greeting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. The stress falls on the last syllable: 'after-NOON'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "More formal than 'hello'. Common in business and polite settings between roughly noon and 6 p.m."
+    }
+   ],
+   "name_es": "Good afternoon",
+   "name_fr": "Good afternoon",
+   "name_it": "Good afternoon"
+  },
+  {
+   "name": "Good evening",
+   "slug": "good-evening",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A greeting used after about 6 p.m."
+    },
+    {
+     "k": "Say It",
+     "v": "good EEV-ning"
+    },
+    {
+     "k": "In Context",
+     "v": "Good evening, sir. — A polite evening greeting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. 'Evening' is two syllables: 'EEV-ning' (the middle 'e' is silent)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A polite greeting, not a farewell. When leaving at night, say 'good night' instead — they are not the same."
+    }
+   ],
+   "name_es": "Good evening",
+   "name_fr": "Good evening",
+   "name_it": "Good evening"
+  },
+  {
+   "name": "Goodbye",
+   "slug": "goodbye",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A word used when leaving"
+    },
+    {
+     "k": "Say It",
+     "v": "good-BYE"
+    },
+    {
+     "k": "In Context",
+     "v": "Goodbye! Have a nice day. — Said when parting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An interjection. 'Bye' is the short, casual version; 'goodbye' is slightly more formal."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Bye' or 'bye-bye' is far more common in speech. 'Goodbye' can sound a little formal or final."
+    }
+   ],
+   "name_es": "Goodbye",
+   "name_fr": "Goodbye",
+   "name_it": "Goodbye"
+  },
+  {
+   "name": "See you later",
+   "slug": "see-you-later",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A casual way to say goodbye"
+    },
+    {
+     "k": "Say It",
+     "v": "see you LAY-ter"
+    },
+    {
+     "k": "In Context",
+     "v": "See you later! — A relaxed goodbye."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. Often shortened in speech to 'see ya' or 'see you'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Friendly and common among friends. It doesn't literally promise to meet later — it's just a warm 'bye'."
+    }
+   ],
+   "name_es": "See you later",
+   "name_fr": "See you later",
+   "name_it": "See you later"
+  },
+  {
+   "name": "How are you?",
+   "slug": "how-are-you",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question asking about wellbeing"
+    },
+    {
+     "k": "Say It",
+     "v": "how are YOO"
+    },
+    {
+     "k": "In Context",
+     "v": "How are you? — I'm fine, thanks. — A polite question."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. Often a greeting rather than a real question — a simple 'fine, thanks' is expected."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Frequently just a polite greeting, not a deep inquiry. The standard reply is short: 'I'm fine, thanks. And you?'"
+    }
+   ],
+   "name_es": "How are you?",
+   "name_fr": "How are you?",
+   "name_it": "How are you?"
+  },
+  {
+   "name": "I'm fine, thanks",
+   "slug": "im-fine",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A reply meaning you are well"
+    },
+    {
+     "k": "Say It",
+     "v": "ime FINE"
+    },
+    {
+     "k": "In Context",
+     "v": "How are you? — I'm fine, thanks. — A typical reply."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'I'm' is the contraction of 'I am'. Contractions are normal and natural in spoken English."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The expected answer to 'how are you?'. Adding 'thanks' and 'and you?' makes it polite and keeps the chat going."
+    }
+   ],
+   "name_es": "I'm fine, thanks",
+   "name_fr": "I'm fine, thanks",
+   "name_it": "I'm fine, thanks"
+  },
+  {
+   "name": "Nice to meet you",
+   "slug": "nice-to-meet",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Said when meeting someone new"
+    },
+    {
+     "k": "Say It",
+     "v": "nice to MEET you"
+    },
+    {
+     "k": "In Context",
+     "v": "Nice to meet you! — Said at a first introduction."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. The full form is 'It's nice to meet you', often shortened to 'nice to meet you'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Said only the first time you meet someone. A common reply is 'nice to meet you too'."
+    }
+   ],
+   "name_es": "Nice to meet you",
+   "name_fr": "Nice to meet you",
+   "name_it": "Nice to meet you"
+  },
+  {
+   "name": "What's your name?",
+   "slug": "whats-your-name",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question asking someone's name"
+    },
+    {
+     "k": "Say It",
+     "v": "whats your NAME"
+    },
+    {
+     "k": "In Context",
+     "v": "What's your name? — I'm Sara. — Asking a name."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'What's' = 'what is'. Reply with 'I'm…' or 'My name is…'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A friendly, standard question. 'I'm Sara' is the easy, natural answer — no need for the full 'my name is'."
+    }
+   ],
+   "name_es": "What's your name?",
+   "name_fr": "What's your name?",
+   "name_it": "What's your name?"
+  },
+  {
+   "cat": "UNIT 2 · ESSENTIALS"
+  },
+  {
+   "name": "Yes",
+   "slug": "yes",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A word of agreement"
+    },
+    {
+     "k": "Say It",
+     "v": "YESS"
+    },
+    {
+     "k": "In Context",
+     "v": "Yes, please. — Agreeing or accepting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. 'Yeah' and 'yep' are casual spoken versions."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Yes, please' (accepting) and 'no, thank you' (declining) are the polite pairings to memorize."
+    }
+   ],
+   "name_es": "Yes",
+   "name_fr": "Yes",
+   "name_it": "Yes"
+  },
+  {
+   "name": "No",
+   "slug": "no",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A word of refusal or denial"
+    },
+    {
+     "k": "Say It",
+     "v": "NOH"
+    },
+    {
+     "k": "In Context",
+     "v": "No, thank you. — Declining politely."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. To make a verb negative, English uses 'do not / don't' ('I don't speak')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "English negates verbs with a helper: 'I don't know', not 'I know not'. This trips up many learners."
+    }
+   ],
+   "name_es": "No",
+   "name_fr": "No",
+   "name_it": "No"
+  },
+  {
+   "name": "Please",
+   "slug": "please",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A polite word added to requests"
+    },
+    {
+     "k": "Say It",
+     "v": "PLEEZ"
+    },
+    {
+     "k": "In Context",
+     "v": "Coffee, please. — Making a polite request."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. Add it to the start or end of a request to sound polite."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Leaving out 'please' can sound rude in English, even if you don't mean it to. It's used very frequently."
+    }
+   ],
+   "name_es": "Please",
+   "name_fr": "Please",
+   "name_it": "Please"
+  },
+  {
+   "name": "Thank you",
+   "slug": "thank-you",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "An expression of gratitude"
+    },
+    {
+     "k": "Say It",
+     "v": "thank YOO"
+    },
+    {
+     "k": "In Context",
+     "v": "Thank you very much. — Expressing thanks."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. 'Thanks' is the shorter, casual form."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Extremely common — English speakers say it often. 'Thanks a lot' and 'thank you so much' add warmth."
+    }
+   ],
+   "name_es": "Thank you",
+   "name_fr": "Thank you",
+   "name_it": "Thank you"
+  },
+  {
+   "name": "You're welcome",
+   "slug": "youre-welcome",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A reply to thanks"
+    },
+    {
+     "k": "Say It",
+     "v": "yore WEL-come"
+    },
+    {
+     "k": "In Context",
+     "v": "Thank you. — You're welcome. — Replying to thanks."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'You're' = 'you are'. Don't confuse it with 'your' (belonging to you)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A classic spelling trap: 'you're' (you are) vs 'your' (possessive). Casual replies include 'no problem' and 'sure'."
+    }
+   ],
+   "name_es": "You're welcome",
+   "name_fr": "You're welcome",
+   "name_it": "You're welcome"
+  },
+  {
+   "name": "Excuse me",
+   "slug": "excuse-me",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase to get attention or apologize"
+    },
+    {
+     "k": "Say It",
+     "v": "ex-CUSE me"
+    },
+    {
+     "k": "In Context",
+     "v": "Excuse me, where's the exit? — Getting attention politely."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. Used to start a question to a stranger, or to pass by someone."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Versatile: get someone's attention, squeeze past, or politely interrupt. Also said after a small mistake like a cough."
+    }
+   ],
+   "name_es": "Excuse me",
+   "name_fr": "Excuse me",
+   "name_it": "Excuse me"
+  },
+  {
+   "name": "Sorry",
+   "slug": "sorry",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A word used to apologize"
+    },
+    {
+     "k": "Say It",
+     "v": "SOR-ree"
+    },
+    {
+     "k": "In Context",
+     "v": "Sorry, I'm late. — Apologizing."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adjective used as an apology. 'I'm sorry' is the fuller form."
+    },
+    {
+     "k": "Good to Know",
+     "v": "English speakers use 'sorry' a lot — for real apologies and tiny things. 'Excuse me' is for getting past or interrupting."
+    }
+   ],
+   "name_es": "Sorry",
+   "name_fr": "Sorry",
+   "name_it": "Sorry"
+  },
+  {
+   "name": "I don't understand",
+   "slug": "i-dont-understand",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase meaning you didn't follow"
+    },
+    {
+     "k": "Say It",
+     "v": "I dont under-STAND"
+    },
+    {
+     "k": "In Context",
+     "v": "Sorry, I don't understand. — Asking for help."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Don't' = 'do not'. A key survival phrase when learning."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Pair it with 'Could you repeat that, please?' or 'Could you speak slowly?' to keep communicating."
+    }
+   ],
+   "name_es": "I don't understand",
+   "name_fr": "I don't understand",
+   "name_it": "I don't understand"
+  },
+  {
+   "name": "Do you speak…?",
+   "slug": "do-you-speak",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question about a language"
+    },
+    {
+     "k": "Say It",
+     "v": "do you SPEAK"
+    },
+    {
+     "k": "In Context",
+     "v": "Do you speak English? — Asking about language."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses the helper 'do' to form a question. Fill in any language: 'Do you speak Spanish?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "English questions usually need 'do/does': 'Do you speak…?', not 'Speak you…?'. Languages are capitalized in English."
+    }
+   ],
+   "name_es": "Do you speak…?",
+   "name_fr": "Do you speak…?",
+   "name_it": "Do you speak…?"
+  },
+  {
+   "cat": "UNIT 3 · NUMBERS & TIME"
+  },
+  {
+   "name": "One",
+   "slug": "one",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The number 1"
+    },
+    {
+     "k": "Say It",
+     "v": "WUN"
+    },
+    {
+     "k": "In Context",
+     "v": "One coffee, please. — Counting or ordering."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Spelled 'one' but pronounced 'wun' — an irregular spelling. Also means 'a single'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "English spelling and sound often disagree: 'one' sounds like 'wun'. Numbers don't change form for gender."
+    }
+   ],
+   "name_es": "One",
+   "name_fr": "One",
+   "name_it": "One"
+  },
+  {
+   "name": "Two",
+   "slug": "two",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The number 2"
+    },
+    {
+     "k": "Say It",
+     "v": "TOO"
+    },
+    {
+     "k": "In Context",
+     "v": "Two tickets, please. — Counting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "The 'w' is silent: 'two' sounds exactly like 'to' and 'too'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A famous trio of homophones: 'two', 'to', and 'too' all sound the same but mean different things."
+    }
+   ],
+   "name_es": "Two",
+   "name_fr": "Two",
+   "name_it": "Two"
+  },
+  {
+   "name": "Three",
+   "slug": "three",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The number 3"
+    },
+    {
+     "k": "Say It",
+     "v": "THREE"
+    },
+    {
+     "k": "In Context",
+     "v": "It's three o'clock. — Counting or telling time."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Begins with the 'th' sound, which many languages lack — tongue between the teeth."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The 'th' sound is one of English's hardest for learners. Practice 'three', 'think', 'thank'."
+    }
+   ],
+   "name_es": "Three",
+   "name_fr": "Three",
+   "name_it": "Three"
+  },
+  {
+   "name": "Ten",
+   "slug": "ten",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The number 10"
+    },
+    {
+     "k": "Say It",
+     "v": "TEN"
+    },
+    {
+     "k": "In Context",
+     "v": "I have ten dollars. — Counting."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A short, regular word. The building block for 'thirteen', 'twenty', etc."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Watch the tricky teens vs tens: 'thirteen' (13) vs 'thirty' (30) sound similar but differ in stress."
+    }
+   ],
+   "name_es": "Ten",
+   "name_fr": "Ten",
+   "name_it": "Ten"
+  },
+  {
+   "name": "Hundred",
+   "slug": "hundred",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The number 100"
+    },
+    {
+     "k": "Say It",
+     "v": "HUN-dred"
+    },
+    {
+     "k": "In Context",
+     "v": "One hundred people. — A large round number."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Always used with a number before it: 'one hundred', 'two hundred'. Doesn't add 's' ('two hundred', not 'hundreds')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Say 'two hundred', never 'two hundreds', when counting. ('Hundreds of…' is only for a vague large amount.)"
+    }
+   ],
+   "name_es": "Hundred",
+   "name_fr": "Hundred",
+   "name_it": "Hundred"
+  },
+  {
+   "name": "What time is it?",
+   "slug": "what-time",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question asking the time"
+    },
+    {
+     "k": "Say It",
+     "v": "what TIME is it"
+    },
+    {
+     "k": "In Context",
+     "v": "What time is it? — It's three. — Asking the time."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase using question word order. Reply 'It's…' + the time."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Answer with 'It's three o'clock' or just 'It's three'. 'O'clock' is only used for whole hours."
+    }
+   ],
+   "name_es": "What time is it?",
+   "name_fr": "What time is it?",
+   "name_it": "What time is it?"
+  },
+  {
+   "name": "Today",
+   "slug": "today",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "This present day"
+    },
+    {
+     "k": "Say It",
+     "v": "tu-DAY"
+    },
+    {
+     "k": "In Context",
+     "v": "I'm busy today. — Referring to the current day."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb/noun of time. Pairs with 'yesterday' and 'tomorrow'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The core time trio: 'yesterday' (past), 'today' (now), 'tomorrow' (future)."
+    }
+   ],
+   "name_es": "Today",
+   "name_fr": "Today",
+   "name_it": "Today"
+  },
+  {
+   "name": "Tomorrow",
+   "slug": "tomorrow",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The day after today"
+    },
+    {
+     "k": "Say It",
+     "v": "tu-MOR-oh"
+    },
+    {
+     "k": "In Context",
+     "v": "See you tomorrow! — Referring to the next day."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Note the triple-letter spelling: t-o-m-o-r-r-o-w. The stress is on the middle: 'tu-MOR-oh'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A commonly misspelled word — one 'm', two 'r's. 'See you tomorrow' is a natural goodbye."
+    }
+   ],
+   "name_es": "Tomorrow",
+   "name_fr": "Tomorrow",
+   "name_it": "Tomorrow"
+  },
+  {
+   "name": "Now",
+   "slug": "now",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "At the present moment"
+    },
+    {
+     "k": "Say It",
+     "v": "NOW"
+    },
+    {
+     "k": "In Context",
+     "v": "I have to go now. — Referring to this moment."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb of time. 'Right now' adds urgency or emphasis."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Now' = at this moment; 'right now' = immediately. Don't confuse with 'know' (sounds different: 'noh')."
+    }
+   ],
+   "name_es": "Now",
+   "name_fr": "Now",
+   "name_it": "Now"
+  },
+  {
+   "cat": "UNIT 4 · FOOD & DRINK"
+  },
+  {
+   "name": "Water",
+   "slug": "water",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The clear drink (H2O)"
+    },
+    {
+     "k": "Say It",
+     "v": "WAW-ter"
+    },
+    {
+     "k": "In Context",
+     "v": "A glass of water, please. — Ordering a drink."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An uncountable noun: say 'some water' or 'a glass of water', not 'a water' in careful English."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Pronunciation varies a lot by region ('WAW-ter', 'WAH-der'). As an uncountable noun, it has no plural."
+    }
+   ],
+   "name_es": "Water",
+   "name_fr": "Water",
+   "name_it": "Water"
+  },
+  {
+   "name": "Coffee",
+   "slug": "coffee",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A hot caffeinated drink"
+    },
+    {
+     "k": "Say It",
+     "v": "KAW-fee"
+    },
+    {
+     "k": "In Context",
+     "v": "A cup of coffee, please. — Ordering."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Usually uncountable, but in cafés people say 'two coffees' (meaning two cups)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Casually, 'two coffees' is fine (= two cups). 'A coffee' means 'a cup of coffee' in everyday speech."
+    }
+   ],
+   "name_es": "Coffee",
+   "name_fr": "Coffee",
+   "name_it": "Coffee"
+  },
+  {
+   "name": "Bread",
+   "slug": "bread",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A baked food staple"
+    },
+    {
+     "k": "Say It",
+     "v": "BRED"
+    },
+    {
+     "k": "In Context",
+     "v": "I'd like some bread. — Ordering food."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uncountable: 'some bread' or 'a slice/loaf of bread', never 'a bread'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Like 'water', 'bread' is uncountable. Count it with units: 'a slice of bread', 'a loaf of bread'."
+    }
+   ],
+   "name_es": "Bread",
+   "name_fr": "Bread",
+   "name_it": "Bread"
+  },
+  {
+   "name": "The bill / check",
+   "slug": "the-bill",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The statement of what you owe"
+    },
+    {
+     "k": "Say It",
+     "v": "the BILL"
+    },
+    {
+     "k": "In Context",
+     "v": "Can I have the bill, please? — Asking to pay."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. American English often says 'the check'; British English says 'the bill'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Bill' (UK) and 'check' (US) mean the same thing in a restaurant. 'Can I have…?' is a polite way to ask."
+    }
+   ],
+   "name_es": "The bill / check",
+   "name_fr": "The bill / check",
+   "name_it": "The bill / check"
+  },
+  {
+   "name": "A drink",
+   "slug": "a-drink",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Any beverage"
+    },
+    {
+     "k": "Say It",
+     "v": "a DRINK"
+    },
+    {
+     "k": "In Context",
+     "v": "Would you like a drink? — Offering a beverage."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. 'A drink' can mean any beverage, and often specifically an alcoholic one."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Context matters: 'let's get a drink' often implies alcohol, while 'a cold drink' is usually non-alcoholic."
+    }
+   ],
+   "name_es": "A drink",
+   "name_fr": "A drink",
+   "name_it": "A drink"
+  },
+  {
+   "name": "Food",
+   "slug": "food",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Things people eat"
+    },
+    {
+     "k": "Say It",
+     "v": "FOOD"
+    },
+    {
+     "k": "In Context",
+     "v": "The food is delicious. — Talking about a meal."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uncountable: 'some food', not 'a food'. A single item is 'a dish' or 'a meal'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Food' is uncountable, so no plural. Use 'meal' for a full eating occasion and 'dish' for one prepared item."
+    }
+   ],
+   "name_es": "Food",
+   "name_fr": "Food",
+   "name_it": "Food"
+  },
+  {
+   "name": "I'd like…",
+   "slug": "id-like",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A polite way to request"
+    },
+    {
+     "k": "Say It",
+     "v": "I'd LIKE"
+    },
+    {
+     "k": "In Context",
+     "v": "I'd like a coffee, please. — Ordering politely."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'I'd' = 'I would'. 'I'd like…' is softer and more polite than 'I want…'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Say 'I'd like…' to sound polite when ordering. 'I want…' is grammatically fine but can sound blunt or childish."
+    }
+   ],
+   "name_es": "I'd like…",
+   "name_fr": "I'd like…",
+   "name_it": "I'd like…"
+  },
+  {
+   "name": "The menu",
+   "slug": "the-menu",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The list of available dishes"
+    },
+    {
+     "k": "Say It",
+     "v": "the MEN-yoo"
+    },
+    {
+     "k": "In Context",
+     "v": "Can I see the menu? — Asking to order."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. In English, 'the menu' always means the list of food (unlike French/Italian)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "No false-friend trap here: in English 'the menu' is simply the list of dishes you can order."
+    }
+   ],
+   "name_es": "The menu",
+   "name_fr": "The menu",
+   "name_it": "The menu"
+  },
+  {
+   "name": "Cheers!",
+   "slug": "cheers",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A toast, or casual thanks (UK)"
+    },
+    {
+     "k": "Say It",
+     "v": "CHEERZ"
+    },
+    {
+     "k": "In Context",
+     "v": "Cheers, everyone! — A toast before drinking."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An interjection. A toast everywhere; in Britain it also casually means 'thanks' or 'bye'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "In the UK, 'cheers' has three jobs: a toast, an informal 'thank you', and a casual 'goodbye'."
+    }
+   ],
+   "name_es": "Cheers!",
+   "name_fr": "Cheers!",
+   "name_it": "Cheers!"
+  },
+  {
+   "cat": "UNIT 5 · GETTING AROUND"
+  },
+  {
+   "name": "Where is…?",
+   "slug": "where-is",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question asking location"
+    },
+    {
+     "k": "Say It",
+     "v": "where IZ"
+    },
+    {
+     "k": "In Context",
+     "v": "Where is the station? — Asking for a place."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed question phrase. Plural: 'Where are…?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The most useful travel question. 'Where's' is the natural contraction of 'where is'."
+    }
+   ],
+   "name_es": "Where is…?",
+   "name_fr": "Where is…?",
+   "name_it": "Where is…?"
+  },
+  {
+   "name": "Bathroom / Restroom",
+   "slug": "bathroom",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The room with a toilet"
+    },
+    {
+     "k": "Say It",
+     "v": "BATH-room"
+    },
+    {
+     "k": "In Context",
+     "v": "Where's the bathroom? — Asking for the toilet."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. American English; British English often says 'toilet' or 'the loo'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Polite words vary: 'bathroom'/'restroom' (US), 'toilet'/'loo' (UK). 'Where's the bathroom?' is universally understood."
+    }
+   ],
+   "name_es": "Bathroom / Restroom",
+   "name_fr": "Bathroom / Restroom",
+   "name_it": "Bathroom / Restroom"
+  },
+  {
+   "name": "Left",
+   "slug": "left",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The opposite of right"
+    },
+    {
+     "k": "Say It",
+     "v": "LEFT"
+    },
+    {
+     "k": "In Context",
+     "v": "Turn left at the corner. — Giving directions."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Works as a direction and a verb form. 'On the left' / 'turn left'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Direction basics: 'turn left', 'turn right', 'go straight (ahead)'. 'Left' is also the past tense of 'leave'."
+    }
+   ],
+   "name_es": "Left",
+   "name_fr": "Left",
+   "name_it": "Left"
+  },
+  {
+   "name": "Right",
+   "slug": "right",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The opposite of left"
+    },
+    {
+     "k": "Say It",
+     "v": "RITE"
+    },
+    {
+     "k": "In Context",
+     "v": "It's on the right. — Giving directions."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Means the direction, but also 'correct' and 'a right' (entitlement). Context decides."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A busy word: direction ('turn right'), correctness ('that's right'), and entitlement ('a right'). It sounds like 'write'."
+    }
+   ],
+   "name_es": "Right",
+   "name_fr": "Right",
+   "name_it": "Right"
+  },
+  {
+   "name": "Here",
+   "slug": "here",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "In this place"
+    },
+    {
+     "k": "Say It",
+     "v": "HEER"
+    },
+    {
+     "k": "In Context",
+     "v": "I'm here! — Indicating your location."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb of place, opposite of 'there'. Sounds like 'hear'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Here' (this place) vs 'hear' (to listen) are homophones. 'Come here' = come to me; 'over here' points nearby."
+    }
+   ],
+   "name_es": "Here",
+   "name_fr": "Here",
+   "name_it": "Here"
+  },
+  {
+   "name": "There",
+   "slug": "there",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "In that place"
+    },
+    {
+     "k": "Say It",
+     "v": "THAIR"
+    },
+    {
+     "k": "In Context",
+     "v": "It's over there. — Pointing out a location."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of place. Also begins sentences: 'there is / there are' (showing existence)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Three homophones: 'there' (place), 'their' (belonging to them), 'they're' (they are). A top spelling confusion."
+    }
+   ],
+   "name_es": "There",
+   "name_fr": "There",
+   "name_it": "There"
+  },
+  {
+   "name": "Station",
+   "slug": "station",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A stop for trains or buses"
+    },
+    {
+     "k": "Say It",
+     "v": "STAY-shun"
+    },
+    {
+     "k": "In Context",
+     "v": "The train station is nearby. — Finding transport."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. The '-tion' ending sounds like 'shun'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The '-tion' ending always sounds like 'shun' (station, information, nation) — a reliable pronunciation rule."
+    }
+   ],
+   "name_es": "Station",
+   "name_fr": "Station",
+   "name_it": "Station"
+  },
+  {
+   "name": "How much is it?",
+   "slug": "how-much",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question asking the price"
+    },
+    {
+     "k": "Say It",
+     "v": "how MUCH"
+    },
+    {
+     "k": "In Context",
+     "v": "How much is it? — Asking a price."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Use 'how much' for uncountable things and prices; 'how many' for countable things."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Key difference: 'how much' (water, money, time) vs 'how many' (tickets, people, apples). 'How much is it?' asks the price."
+    }
+   ],
+   "name_es": "How much is it?",
+   "name_fr": "How much is it?",
+   "name_it": "How much is it?"
+  },
+  {
+   "cat": "UNIT 6 · PEOPLE & FAMILY"
+  },
+  {
+   "name": "I",
+   "slug": "i",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The speaker (first person)"
+    },
+    {
+     "k": "Say It",
+     "v": "EYE"
+    },
+    {
+     "k": "In Context",
+     "v": "I am a student. — Referring to yourself."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Always capitalized in English, even mid-sentence — a unique rule. Sounds like the letter 'I' / 'eye'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "English is the only major language that always capitalizes 'I'. It can never be dropped, unlike in Spanish or Italian."
+    }
+   ],
+   "name_es": "I",
+   "name_fr": "I",
+   "name_it": "I"
+  },
+  {
+   "name": "You",
+   "slug": "you",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The person spoken to"
+    },
+    {
+     "k": "Say It",
+     "v": "YOO"
+    },
+    {
+     "k": "In Context",
+     "v": "You are very kind. — Addressing someone."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Same word for one person or many, formal or informal — English has no 'tu/vous' distinction."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A relief for learners: English has just one 'you' for everyone — no formal/informal or singular/plural split."
+    }
+   ],
+   "name_es": "You",
+   "name_fr": "You",
+   "name_it": "You"
+  },
+  {
+   "name": "He / She",
+   "slug": "he-she",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Third person singular"
+    },
+    {
+     "k": "Say It",
+     "v": "HEE / SHEE"
+    },
+    {
+     "k": "In Context",
+     "v": "He is tall. She is kind. — Referring to a person."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'He' (male), 'she' (female), 'it' (things). Verbs add '-s' in this form: 'he speaks'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The third-person '-s' is a classic error: 'she walks', not 'she walk'. 'It' is used for objects and animals."
+    }
+   ],
+   "name_es": "He / She",
+   "name_fr": "He / She",
+   "name_it": "He / She"
+  },
+  {
+   "name": "We",
+   "slug": "we",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The speaker plus others"
+    },
+    {
+     "k": "Say It",
+     "v": "WEE"
+    },
+    {
+     "k": "In Context",
+     "v": "We are friends. — Referring to your group."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "First-person plural. The object form is 'us': 'They saw us'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'We' (subject: we go) vs 'us' (object: they helped us). Don't confuse the two roles."
+    }
+   ],
+   "name_es": "We",
+   "name_fr": "We",
+   "name_it": "We"
+  },
+  {
+   "name": "Friend",
+   "slug": "friend",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A person you like and trust"
+    },
+    {
+     "k": "Say It",
+     "v": "FREND"
+    },
+    {
+     "k": "In Context",
+     "v": "She's my best friend. — Talking about people."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun, same word for male or female. The 'i' is silent: 'frend'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "No gender forms in English — 'friend' works for anyone. The silent 'i' in the spelling is a common trap."
+    }
+   ],
+   "name_es": "Friend",
+   "name_fr": "Friend",
+   "name_it": "Friend"
+  },
+  {
+   "name": "Family",
+   "slug": "family",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Parents, children, and relatives"
+    },
+    {
+     "k": "Say It",
+     "v": "FAM-i-lee"
+    },
+    {
+     "k": "In Context",
+     "v": "My family is big. — Talking about relatives."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Can take a singular or plural verb: 'my family is/are…'. Plural noun: 'families'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A collective noun — both 'my family is large' and 'my family are coming' are acceptable, with a subtle difference."
+    }
+   ],
+   "name_es": "Family",
+   "name_fr": "Family",
+   "name_it": "Family"
+  },
+  {
+   "name": "Mother",
+   "slug": "mother",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A female parent"
+    },
+    {
+     "k": "Say It",
+     "v": "MUTH-er"
+    },
+    {
+     "k": "In Context",
+     "v": "My mother's name is Mary. — Talking about family."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. The casual, affectionate words are 'mom' (US) or 'mum' (UK)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Mother' is neutral/formal; 'mom' (US) and 'mum' (UK) are the warm everyday words. The 'th' is soft, as in 'the'."
+    }
+   ],
+   "name_es": "Mother",
+   "name_fr": "Mother",
+   "name_it": "Mother"
+  },
+  {
+   "name": "Father",
+   "slug": "father",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A male parent"
+    },
+    {
+     "k": "Say It",
+     "v": "FAH-ther"
+    },
+    {
+     "k": "In Context",
+     "v": "My father works hard. — Talking about family."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A countable noun. The casual, affectionate word is 'dad'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Father' is neutral/formal; 'dad' is the everyday warm word. 'Parents' covers mother and father together."
+    }
+   ],
+   "name_es": "Father",
+   "name_fr": "Father",
+   "name_it": "Father"
+  },
+  {
+   "name": "Man / Woman",
+   "slug": "man-woman",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "An adult male / female"
+    },
+    {
+     "k": "Say It",
+     "v": "MAN / WUH-man"
+    },
+    {
+     "k": "In Context",
+     "v": "The man and the woman. — Referring to adults."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular plurals: 'man' → 'men', 'woman' → 'women' (pronounced 'WIM-in')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Tricky: 'woman' (one) is 'WUH-man', but 'women' (many) is 'WIM-in'. The plural sound change surprises learners."
+    }
+   ],
+   "name_es": "Man / Woman",
+   "name_fr": "Man / Woman",
+   "name_it": "Man / Woman"
+  },
+  {
+   "cat": "UNIT 7 · EVERYDAY VERBS"
+  },
+  {
+   "name": "To be",
+   "slug": "to-be",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The most basic verb of existence/state"
+    },
+    {
+     "k": "Say It",
+     "v": "to BEE"
+    },
+    {
+     "k": "In Context",
+     "v": "I am, you are, he is. — Describing states."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Highly irregular: am, is, are (present); was, were (past). The most important English verb."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'To be' is the most irregular verb: I am, you/we/they are, he/she/it is. Master these forms first."
+    }
+   ],
+   "name_es": "To be",
+   "name_fr": "To be",
+   "name_it": "To be"
+  },
+  {
+   "name": "To have",
+   "slug": "to-have",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of possession"
+    },
+    {
+     "k": "Say It",
+     "v": "to HAV"
+    },
+    {
+     "k": "In Context",
+     "v": "I have two brothers. — Showing possession."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular in one spot: 'I/you/we/they have', but 'he/she/it has'. Past tense: 'had'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Remember 'he/she has' (not 'have'). 'Have' is also a helper verb: 'I have eaten'."
+    }
+   ],
+   "name_es": "To have",
+   "name_fr": "To have",
+   "name_it": "To have"
+  },
+  {
+   "name": "To go",
+   "slug": "to-go",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of movement"
+    },
+    {
+     "k": "Say It",
+     "v": "to GOH"
+    },
+    {
+     "k": "In Context",
+     "v": "I go to work every day. — Describing movement."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular past tense: 'went'. 'He/she/it goes' adds '-es'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The past tense is the unrelated word 'went', a very common irregular form. 'Going to' also expresses the future."
+    }
+   ],
+   "name_es": "To go",
+   "name_fr": "To go",
+   "name_it": "To go"
+  },
+  {
+   "name": "To do / make",
+   "slug": "to-do",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of action; also a helper"
+    },
+    {
+     "k": "Say It",
+     "v": "to DOO"
+    },
+    {
+     "k": "In Context",
+     "v": "What do you do? — Asking about actions or jobs."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular: 'he/she does', past 'did'. Also forms questions and negatives ('Do you…?', 'I don't…')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Do' has two jobs: a real verb ('do the dishes') and a helper for questions and negatives ('Do you…?', 'I don't…')."
+    }
+   ],
+   "name_es": "To do / make",
+   "name_fr": "To do / make",
+   "name_it": "To do / make"
+  },
+  {
+   "name": "To want",
+   "slug": "to-want",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of desire"
+    },
+    {
+     "k": "Say It",
+     "v": "to WANT"
+    },
+    {
+     "k": "In Context",
+     "v": "I want a coffee. — Expressing a wish."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A regular verb: 'wanted' in the past. 'He/she wants' adds '-s'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Polite tip: 'I'd like…' is softer than 'I want…' when asking for things. 'Want' can sound blunt."
+    }
+   ],
+   "name_es": "To want",
+   "name_fr": "To want",
+   "name_it": "To want"
+  },
+  {
+   "name": "To like",
+   "slug": "to-like",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of enjoyment"
+    },
+    {
+     "k": "Say It",
+     "v": "to LIKE"
+    },
+    {
+     "k": "In Context",
+     "v": "I like this music. — Expressing enjoyment."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Regular: 'liked' in the past. Often followed by '-ing' or 'to': 'I like swimming / to swim'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Unlike Spanish/Italian, English 'like' works normally: 'I like coffee' (I am the subject). Add '-ing' for activities."
+    }
+   ],
+   "name_es": "To like",
+   "name_fr": "To like",
+   "name_it": "To like"
+  },
+  {
+   "name": "To need",
+   "slug": "to-need",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of necessity"
+    },
+    {
+     "k": "Say It",
+     "v": "to NEED"
+    },
+    {
+     "k": "In Context",
+     "v": "I need help. — Expressing necessity."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Regular: 'needed' in the past. Stronger than 'want' — it means something is necessary."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Need' (necessity) is stronger than 'want' (desire). 'I need to go' means it's necessary, not just wanted."
+    }
+   ],
+   "name_es": "To need",
+   "name_fr": "To need",
+   "name_it": "To need"
+  },
+  {
+   "name": "Can",
+   "slug": "can",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb meaning ability or permission"
+    },
+    {
+     "k": "Say It",
+     "v": "KAN"
+    },
+    {
+     "k": "In Context",
+     "v": "Can you help me? — Asking ability or permission."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A modal verb — never adds '-s' and is followed by a base verb: 'she can swim', not 'cans'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Modal verbs like 'can' break the rules: no '-s' ('he can', not 'he cans'), and no 'to' after ('can go', not 'can to go')."
+    }
+   ],
+   "name_es": "Can",
+   "name_fr": "Can",
+   "name_it": "Can"
+  },
+  {
+   "name": "To speak",
+   "slug": "to-speak",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A verb of talking"
+    },
+    {
+     "k": "Say It",
+     "v": "to SPEAK"
+    },
+    {
+     "k": "In Context",
+     "v": "I speak a little English. — Talking about language."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular past: 'spoke'. 'Speak' (a language) vs 'talk' (have a conversation)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Subtle difference: 'speak English' (a skill) vs 'talk to a friend' (converse). The past tense is 'spoke'."
+    }
+   ],
+   "name_es": "To speak",
+   "name_fr": "To speak",
+   "name_it": "To speak"
+  },
+  {
+   "cat": "UNIT 8 · USEFUL PHRASES"
+  },
+  {
+   "name": "No problem",
+   "slug": "no-problem",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A casual reply to thanks or apology"
+    },
+    {
+     "k": "Say It",
+     "v": "no PROB-lem"
+    },
+    {
+     "k": "In Context",
+     "v": "Thanks! — No problem. — A relaxed reply."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. A casual alternative to 'you're welcome'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Friendly and informal. Also reassures after an apology: 'Sorry I'm late.' — 'No problem.'"
+    }
+   ],
+   "name_es": "No problem",
+   "name_fr": "No problem",
+   "name_it": "No problem"
+  },
+  {
+   "name": "Of course",
+   "slug": "of-course",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase meaning 'certainly'"
+    },
+    {
+     "k": "Say It",
+     "v": "of CORSE"
+    },
+    {
+     "k": "In Context",
+     "v": "Can you help? — Of course! — Agreeing readily."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase. The 's' in 'course' sounds like a soft 's'. Means 'certainly' or 'naturally'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "An enthusiastic 'yes, certainly'. Be aware it can sound impatient if overused ('of course I know that')."
+    }
+   ],
+   "name_es": "Of course",
+   "name_fr": "Of course",
+   "name_it": "Of course"
+  },
+  {
+   "name": "OK",
+   "slug": "ok",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A word meaning agreement or 'fine'"
+    },
+    {
+     "k": "Say It",
+     "v": "oh-KAY"
+    },
+    {
+     "k": "In Context",
+     "v": "Let's meet at two. — OK. — Agreeing."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Also spelled 'okay'. Extremely versatile: agreement, 'fine', or a question ('OK?')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Possibly the most international word of all. It signals agreement, checks understanding ('OK?'), or describes so-so quality."
+    }
+   ],
+   "name_es": "OK",
+   "name_fr": "OK",
+   "name_it": "OK"
+  },
+  {
+   "name": "I'm hungry",
+   "slug": "im-hungry",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase meaning you want food"
+    },
+    {
+     "k": "Say It",
+     "v": "I'm HUN-gree"
+    },
+    {
+     "k": "In Context",
+     "v": "I'm hungry. Let's eat. — Expressing hunger."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'I'm' = 'I am'. English uses 'to be' for hunger ('I am hungry'), unlike many languages that use 'to have'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Key difference: English says 'I AM hungry' (be), while Spanish/French/Italian say 'I HAVE hunger'. Same for thirst."
+    }
+   ],
+   "name_es": "I'm hungry",
+   "name_fr": "I'm hungry",
+   "name_it": "I'm hungry"
+  },
+  {
+   "name": "I'm lost",
+   "slug": "im-lost",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase meaning you can't find your way"
+    },
+    {
+     "k": "Say It",
+     "v": "I'm LOST"
+    },
+    {
+     "k": "In Context",
+     "v": "Excuse me, I'm lost. — Asking for help."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Lost' is the past participle of 'lose', used here as an adjective with 'to be'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A vital travel phrase. Follow it with 'Can you help me?' or 'Where is…?' to get directions."
+    }
+   ],
+   "name_es": "I'm lost",
+   "name_fr": "I'm lost",
+   "name_it": "I'm lost"
+  },
+  {
+   "name": "I like it",
+   "slug": "i-like-it",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A phrase expressing approval"
+    },
+    {
+     "k": "Say It",
+     "v": "I LIKE it"
+    },
+    {
+     "k": "In Context",
+     "v": "I like it a lot. — Expressing approval."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'It' refers to a thing already mentioned. 'I like it' approves; 'I'd like it' requests."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Mind the difference: 'I like it' (I enjoy it) vs 'I'd like it' (I want it). One letter, opposite meaning."
+    }
+   ],
+   "name_es": "I like it",
+   "name_fr": "I like it",
+   "name_it": "I like it"
+  },
+  {
+   "name": "Help!",
+   "slug": "help",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A call for assistance"
+    },
+    {
+     "k": "Say It",
+     "v": "HELP"
+    },
+    {
+     "k": "In Context",
+     "v": "Help! / Can you help me? — Asking for aid."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Both a noun and a verb. Shouted alone, 'Help!' is an emergency call."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Help!' alone is an urgent cry. Politely, use 'Can you help me?' or 'Could you help me, please?'."
+    }
+   ],
+   "name_es": "Help!",
+   "name_fr": "Help!",
+   "name_it": "Help!"
+  },
+  {
+   "name": "How do you say…?",
+   "slug": "how-do-you-say",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "A question for learning words"
+    },
+    {
+     "k": "Say It",
+     "v": "how do you SAY"
+    },
+    {
+     "k": "In Context",
+     "v": "How do you say this in English? — Learning vocabulary."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase — the learner's best friend for building vocabulary."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The single most useful phrase for a language learner. Use it constantly: 'How do you say ___ in English?'"
+    }
+   ],
+   "name_es": "How do you say…?",
+   "name_fr": "How do you say…?",
+   "name_it": "How do you say…?"
+  }
+ ]
+}

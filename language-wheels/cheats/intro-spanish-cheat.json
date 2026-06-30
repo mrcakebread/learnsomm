@@ -1,0 +1,2088 @@
+{
+ "title": "Intro to Spanish — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "UNIT 1 · GREETINGS"
+  },
+  {
+   "name": "Hola",
+   "slug": "hola",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Hello / Hi"
+    },
+    {
+     "k": "Say It",
+     "v": "OH-lah"
+    },
+    {
+     "k": "In Context",
+     "v": "Hola, ¿cómo estás? — Hello, how are you?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An interjection — no gender or conjugation. The 'h' is always silent in Spanish."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The all-purpose greeting, fine at any time of day and in any setting, formal or casual."
+    }
+   ],
+   "name_es": "Hola",
+   "name_fr": "Hola",
+   "name_it": "Hola"
+  },
+  {
+   "name": "Buenos días",
+   "slug": "buenos-dias",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good morning"
+    },
+    {
+     "k": "Say It",
+     "v": "BWEH-nohs DEE-ahs"
+    },
+    {
+     "k": "In Context",
+     "v": "Buenos días, señora. — Good morning, ma'am."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'good days' — plural by tradition. Note the masculine plural ending '-os'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used until around noon. Spanish often greets with the plural form ('días', 'tardes'), which surprises beginners."
+    }
+   ],
+   "name_es": "Buenos días",
+   "name_fr": "Buenos días",
+   "name_it": "Buenos días"
+  },
+  {
+   "name": "Buenas tardes",
+   "slug": "buenas-tardes",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good afternoon"
+    },
+    {
+     "k": "Say It",
+     "v": "BWEH-nahs TAR-dehs"
+    },
+    {
+     "k": "In Context",
+     "v": "Buenas tardes a todos. — Good afternoon, everyone."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine plural ('-as') because 'tardes' is feminine — note it differs from 'buenos días'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used from about noon until sunset. The shift from 'días' (masc.) to 'tardes' (fem.) trips up many learners."
+    }
+   ],
+   "name_es": "Buenas tardes",
+   "name_fr": "Buenas tardes",
+   "name_it": "Buenas tardes"
+  },
+  {
+   "name": "Buenas noches",
+   "slug": "buenas-noches",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Good evening / Good night"
+    },
+    {
+     "k": "Say It",
+     "v": "BWEH-nahs NOH-chehs"
+    },
+    {
+     "k": "In Context",
+     "v": "Buenas noches, hasta mañana. — Good night, see you tomorrow."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine plural. Serves as both a greeting (good evening) and a farewell (good night)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Unlike English, this one word covers both arriving in the evening and leaving for bed."
+    }
+   ],
+   "name_es": "Buenas noches",
+   "name_fr": "Buenas noches",
+   "name_it": "Buenas noches"
+  },
+  {
+   "name": "Adiós",
+   "slug": "adios",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Goodbye"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-DYOHS"
+    },
+    {
+     "k": "In Context",
+     "v": "Adiós, nos vemos. — Goodbye, see you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An interjection. Originally 'a Dios' — 'to God' — a blessing for the parting traveler."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Slightly more final than 'hasta luego'; for a quick 'see you soon', Spanish speakers often prefer the latter."
+    }
+   ],
+   "name_es": "Adiós",
+   "name_fr": "Adiós",
+   "name_it": "Adiós"
+  },
+  {
+   "name": "Hasta luego",
+   "slug": "hasta-luego",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "See you later"
+    },
+    {
+     "k": "Say It",
+     "v": "AHS-tah LWEH-goh"
+    },
+    {
+     "k": "In Context",
+     "v": "Hasta luego, amigo. — See you later, friend."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Hasta' = until; 'luego' = later/then. Literally 'until later'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The everyday casual goodbye, far more common than 'adiós' for ordinary partings."
+    }
+   ],
+   "name_es": "Hasta luego",
+   "name_fr": "Hasta luego",
+   "name_it": "Hasta luego"
+  },
+  {
+   "name": "¿Cómo estás?",
+   "slug": "como-estas",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How are you?"
+    },
+    {
+     "k": "Say It",
+     "v": "KOH-moh ehs-TAHS"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Cómo estás hoy? — How are you today?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses 'estar' (temporary states), not 'ser'. Informal 'tú' form; the formal version is '¿Cómo está?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note the opening upside-down question mark '¿' — Spanish brackets every question this way."
+    }
+   ],
+   "name_es": "¿Cómo estás?",
+   "name_fr": "¿Cómo estás?",
+   "name_it": "¿Cómo estás?"
+  },
+  {
+   "name": "Muy bien",
+   "slug": "muy-bien",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Very well / Very good"
+    },
+    {
+     "k": "Say It",
+     "v": "mooy BYEHN"
+    },
+    {
+     "k": "In Context",
+     "v": "Estoy muy bien, gracias. — I'm very well, thanks."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Muy' (very) + 'bien' (well). 'Muy' modifies adjectives and adverbs and never changes form."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The standard upbeat reply to '¿cómo estás?'. 'Bien' alone ('fine') is also perfectly natural."
+    }
+   ],
+   "name_es": "Muy bien",
+   "name_fr": "Muy bien",
+   "name_it": "Muy bien"
+  },
+  {
+   "name": "Mucho gusto",
+   "slug": "mucho-gusto",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Nice to meet you"
+    },
+    {
+     "k": "Say It",
+     "v": "MOO-choh GOOS-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mucho gusto, soy Ana. — Nice to meet you, I'm Ana."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'much pleasure'. A fixed phrase — don't translate it word for word."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Said when meeting someone for the first time. A common reply is 'igualmente' (likewise)."
+    }
+   ],
+   "name_es": "Mucho gusto",
+   "name_fr": "Mucho gusto",
+   "name_it": "Mucho gusto"
+  },
+  {
+   "name": "¿Cómo te llamas?",
+   "slug": "como-te-llamas",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "What's your name?"
+    },
+    {
+     "k": "Say It",
+     "v": "KOH-moh teh YAH-mahs"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Cómo te llamas? — Me llamo Juan. — What's your name? — My name is Juan."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'how do you call yourself?' — uses the reflexive verb 'llamarse'. The double 'll' sounds like English 'y'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Answer with 'Me llamo…' (I call myself…). The formal version is '¿Cómo se llama?'."
+    }
+   ],
+   "name_es": "¿Cómo te llamas?",
+   "name_fr": "¿Cómo te llamas?",
+   "name_it": "¿Cómo te llamas?"
+  },
+  {
+   "cat": "UNIT 2 · ESSENTIALS"
+  },
+  {
+   "name": "Sí",
+   "slug": "si",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Yes"
+    },
+    {
+     "k": "Say It",
+     "v": "SEE"
+    },
+    {
+     "k": "In Context",
+     "v": "Sí, por favor. — Yes, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Note the accent: 'sí' (yes) vs 'si' (if) — the accent mark changes the meaning entirely."
+    },
+    {
+     "k": "Good to Know",
+     "v": "One of the first words to master, and a clear example of how a Spanish accent mark can flip meaning."
+    }
+   ],
+   "name_es": "Sí",
+   "name_fr": "Sí",
+   "name_it": "Sí"
+  },
+  {
+   "name": "No",
+   "slug": "no",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "No"
+    },
+    {
+     "k": "Say It",
+     "v": "NOH"
+    },
+    {
+     "k": "In Context",
+     "v": "No, gracias. — No, thank you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Also the all-purpose negator: place it before a verb to make it negative ('no hablo' = I don't speak)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Spanish doesn't need a helper verb like English 'don't' — just put 'no' in front of the verb."
+    }
+   ],
+   "name_es": "No",
+   "name_fr": "No",
+   "name_it": "No"
+  },
+  {
+   "name": "Por favor",
+   "slug": "por-favor",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Please"
+    },
+    {
+     "k": "Say It",
+     "v": "pohr fah-VOHR"
+    },
+    {
+     "k": "In Context",
+     "v": "Un café, por favor. — A coffee, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'for favor / as a favor'. A fixed phrase, unchanging."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Politeness essential. Comes at the start or end of a request, just like English 'please'."
+    }
+   ],
+   "name_es": "Por favor",
+   "name_fr": "Por favor",
+   "name_it": "Por favor"
+  },
+  {
+   "name": "Gracias",
+   "slug": "gracias",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Thank you"
+    },
+    {
+     "k": "Say It",
+     "v": "GRAH-syahs"
+    },
+    {
+     "k": "In Context",
+     "v": "Muchas gracias. — Thank you very much."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Always plural in form. Strengthen it with 'muchas gracias' (many thanks)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The single most useful courtesy word. 'Muchísimas gracias' is an even warmer 'thanks so much'."
+    }
+   ],
+   "name_es": "Gracias",
+   "name_fr": "Gracias",
+   "name_it": "Gracias"
+  },
+  {
+   "name": "De nada",
+   "slug": "de-nada",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "You're welcome"
+    },
+    {
+     "k": "Say It",
+     "v": "deh NAH-dah"
+    },
+    {
+     "k": "In Context",
+     "v": "— Gracias. — De nada. — Thanks. — You're welcome."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'of nothing' — equivalent to 'it's nothing'. A fixed reply."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The standard response to 'gracias'. In some regions you'll also hear 'con gusto' or 'a ti'."
+    }
+   ],
+   "name_es": "De nada",
+   "name_fr": "De nada",
+   "name_it": "De nada"
+  },
+  {
+   "name": "Perdón",
+   "slug": "perdon",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Excuse me / Sorry"
+    },
+    {
+     "k": "Say It",
+     "v": "pehr-DOHN"
+    },
+    {
+     "k": "In Context",
+     "v": "Perdón, ¿dónde está el baño? — Excuse me, where's the bathroom?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'perdonar' (to pardon). Works both to get attention and to apologize."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Use it to squeeze past someone or to begin a question to a stranger — like English 'excuse me'."
+    }
+   ],
+   "name_es": "Perdón",
+   "name_fr": "Perdón",
+   "name_it": "Perdón"
+  },
+  {
+   "name": "Lo siento",
+   "slug": "lo-siento",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm sorry"
+    },
+    {
+     "k": "Say It",
+     "v": "loh SYEHN-toh"
+    },
+    {
+     "k": "In Context",
+     "v": "Lo siento mucho. — I'm very sorry."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'I feel it' — from 'sentir' (to feel). Reserved for genuine apology or sympathy."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Deeper than 'perdón': use 'lo siento' for real regret or condolences, 'perdón' for minor bumps."
+    }
+   ],
+   "name_es": "Lo siento",
+   "name_fr": "Lo siento",
+   "name_it": "Lo siento"
+  },
+  {
+   "name": "No entiendo",
+   "slug": "no-entiendo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I don't understand"
+    },
+    {
+     "k": "Say It",
+     "v": "noh ehn-TYEHN-doh"
+    },
+    {
+     "k": "In Context",
+     "v": "Perdón, no entiendo. — Sorry, I don't understand."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'entender' (to understand), an irregular stem-changing verb (e→ie)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A survival phrase. Pair it with '¿puede repetir?' (can you repeat?) to keep a conversation going."
+    }
+   ],
+   "name_es": "No entiendo",
+   "name_fr": "No entiendo",
+   "name_it": "No entiendo"
+  },
+  {
+   "name": "¿Habla inglés?",
+   "slug": "habla-ingles",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Do you speak English?"
+    },
+    {
+     "k": "Say It",
+     "v": "AH-blah een-GLEHS"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Habla inglés? — Do you speak English?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Formal 'usted' form of 'hablar'. Informal would be '¿Hablas inglés?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note 'inglés' is lowercase — Spanish doesn't capitalize languages or nationalities."
+    }
+   ],
+   "name_es": "¿Habla inglés?",
+   "name_fr": "¿Habla inglés?",
+   "name_it": "¿Habla inglés?"
+  },
+  {
+   "cat": "UNIT 3 · NUMBERS & TIME"
+  },
+  {
+   "name": "Uno",
+   "slug": "uno",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "One"
+    },
+    {
+     "k": "Say It",
+     "v": "OO-noh"
+    },
+    {
+     "k": "In Context",
+     "v": "Uno, dos, tres. — One, two, three."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Becomes 'un' before a masculine noun and 'una' before a feminine one ('un libro', 'una casa')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The number one agrees with gender, unlike the others. 'Un' also serves as 'a/an'."
+    }
+   ],
+   "name_es": "Uno",
+   "name_fr": "Uno",
+   "name_it": "Uno"
+  },
+  {
+   "name": "Dos",
+   "slug": "dos",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Two"
+    },
+    {
+     "k": "Say It",
+     "v": "DOHS"
+    },
+    {
+     "k": "In Context",
+     "v": "Dos cafés, por favor. — Two coffees, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable — doesn't change for gender. Same form everywhere."
+    },
+    {
+     "k": "Good to Know",
+     "v": "From two onward, Spanish numbers don't change form for gender (except hundreds)."
+    }
+   ],
+   "name_es": "Dos",
+   "name_fr": "Dos",
+   "name_it": "Dos"
+  },
+  {
+   "name": "Tres",
+   "slug": "tres",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Three"
+    },
+    {
+     "k": "Say It",
+     "v": "TREHS"
+    },
+    {
+     "k": "In Context",
+     "v": "Son las tres. — It's three o'clock."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. Note it has no accent, but 'treinta' (thirty) and others do."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Used for counting and telling time. 'Las tres' = three o'clock."
+    }
+   ],
+   "name_es": "Tres",
+   "name_fr": "Tres",
+   "name_it": "Tres"
+  },
+  {
+   "name": "Diez",
+   "slug": "diez",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Ten"
+    },
+    {
+     "k": "Say It",
+     "v": "DYEHS"
+    },
+    {
+     "k": "In Context",
+     "v": "Tengo diez euros. — I have ten euros."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Invariable. The 'z' is pronounced like 's' in Latin America, like 'th' in much of Spain."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A milestone number; from here you build 'once, doce…' up to twenty."
+    }
+   ],
+   "name_es": "Diez",
+   "name_fr": "Diez",
+   "name_it": "Diez"
+  },
+  {
+   "name": "Cien",
+   "slug": "cien",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "One hundred"
+    },
+    {
+     "k": "Say It",
+     "v": "SYEHN"
+    },
+    {
+     "k": "In Context",
+     "v": "Cien personas. — A hundred people."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Cien' before a noun, but 'ciento' in compounds ('ciento uno' = 101)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Exactly 100 is 'cien'; 101 onward switches to 'ciento'. A classic beginner gotcha."
+    }
+   ],
+   "name_es": "Cien",
+   "name_fr": "Cien",
+   "name_it": "Cien"
+  },
+  {
+   "name": "¿Qué hora es?",
+   "slug": "que-hora",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "What time is it?"
+    },
+    {
+     "k": "Say It",
+     "v": "keh OH-rah ehs"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Qué hora es? — Son las dos. — What time is it? — It's two."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'what hour is it?'. Answer with 'Es la una' (1:00) or 'Son las…' (other hours)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Note: 'es la una' is singular for one o'clock, but 'son las' (plural) for every other hour."
+    }
+   ],
+   "name_es": "¿Qué hora es?",
+   "name_fr": "¿Qué hora es?",
+   "name_it": "¿Qué hora es?"
+  },
+  {
+   "name": "Hoy",
+   "slug": "hoy",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Today"
+    },
+    {
+     "k": "Say It",
+     "v": "OY"
+    },
+    {
+     "k": "In Context",
+     "v": "Hoy es lunes. — Today is Monday."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb of time — invariable. Rhymes with English 'boy'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Pairs with 'ayer' (yesterday) and 'mañana' (tomorrow) — the core time-frame trio."
+    }
+   ],
+   "name_es": "Hoy",
+   "name_fr": "Hoy",
+   "name_it": "Hoy"
+  },
+  {
+   "name": "Mañana",
+   "slug": "manana",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Tomorrow / Morning"
+    },
+    {
+     "k": "Say It",
+     "v": "mah-NYAH-nah"
+    },
+    {
+     "k": "In Context",
+     "v": "Hasta mañana. — See you tomorrow."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Mañana' means both 'tomorrow' and 'morning' — context decides. The 'ñ' sounds like 'ny' in canyon."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'la mañana' = the morning; 'mañana' alone = tomorrow. One word, two everyday meanings."
+    }
+   ],
+   "name_es": "Mañana",
+   "name_fr": "Mañana",
+   "name_it": "Mañana"
+  },
+  {
+   "name": "Ahora",
+   "slug": "ahora",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Now"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-OH-rah"
+    },
+    {
+     "k": "In Context",
+     "v": "Ahora no, gracias. — Not now, thanks."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb. 'Ahora mismo' means 'right now', adding urgency."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Don't confuse with 'ahorita' (Latin American 'in a little while'), which can mean anything from now to later."
+    }
+   ],
+   "name_es": "Ahora",
+   "name_fr": "Ahora",
+   "name_it": "Ahora"
+  },
+  {
+   "cat": "UNIT 4 · FOOD & DRINK"
+  },
+  {
+   "name": "El agua",
+   "slug": "agua",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Water"
+    },
+    {
+     "k": "Say It",
+     "v": "AH-gwah"
+    },
+    {
+     "k": "In Context",
+     "v": "Un vaso de agua, por favor. — A glass of water, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine, but takes 'el' in the singular ('el agua') to avoid two a-sounds clashing. Still feminine: 'el agua fría'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A famous quirk: 'el agua' looks masculine but is feminine, so adjectives stay feminine ('fría', not 'frío')."
+    }
+   ],
+   "name_es": "El agua",
+   "name_fr": "El agua",
+   "name_it": "El agua"
+  },
+  {
+   "name": "El café",
+   "slug": "cafe",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Coffee"
+    },
+    {
+     "k": "Say It",
+     "v": "kah-FEH"
+    },
+    {
+     "k": "In Context",
+     "v": "Un café con leche. — A coffee with milk."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'el café'. Also means 'café' (the place) and the color brown."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Café con leche' (with milk) and 'café solo' (espresso) are the two you'll order most."
+    }
+   ],
+   "name_es": "El café",
+   "name_fr": "El café",
+   "name_it": "El café"
+  },
+  {
+   "name": "El pan",
+   "slug": "pan",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Bread"
+    },
+    {
+     "k": "Say It",
+     "v": "PAHN"
+    },
+    {
+     "k": "In Context",
+     "v": "Pan, por favor. — Bread, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'el pan'. A short, high-frequency word."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A staple at every meal. 'Pan tostado' is toast; a 'panadería' is the bakery."
+    }
+   ],
+   "name_es": "El pan",
+   "name_fr": "El pan",
+   "name_it": "El pan"
+  },
+  {
+   "name": "La cuenta",
+   "slug": "la-cuenta",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The bill / check"
+    },
+    {
+     "k": "Say It",
+     "v": "lah KWEHN-tah"
+    },
+    {
+     "k": "In Context",
+     "v": "La cuenta, por favor. — The check, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la cuenta'. From 'contar' (to count)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Essential at restaurants — in Spain and Latin America the bill rarely comes until you ask."
+    }
+   ],
+   "name_es": "La cuenta",
+   "name_fr": "La cuenta",
+   "name_it": "La cuenta"
+  },
+  {
+   "name": "La cerveza",
+   "slug": "cerveza",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Beer"
+    },
+    {
+     "k": "Say It",
+     "v": "sehr-VEH-sah"
+    },
+    {
+     "k": "In Context",
+     "v": "Una cerveza fría. — A cold beer."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la cerveza'. The 'v' is pronounced much like a soft 'b'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Una caña' in Spain is a small draft beer; ordering by size and type varies widely by country."
+    }
+   ],
+   "name_es": "La cerveza",
+   "name_fr": "La cerveza",
+   "name_it": "La cerveza"
+  },
+  {
+   "name": "La comida",
+   "slug": "comida",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Food / Meal"
+    },
+    {
+     "k": "Say It",
+     "v": "koh-MEE-dah"
+    },
+    {
+     "k": "In Context",
+     "v": "La comida está deliciosa. — The food is delicious."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la comida'. From 'comer' (to eat). In Spain it often specifically means lunch."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Context matters: 'la comida' can mean food in general, a meal, or specifically the midday meal."
+    }
+   ],
+   "name_es": "La comida",
+   "name_fr": "La comida",
+   "name_it": "La comida"
+  },
+  {
+   "name": "Quiero…",
+   "slug": "quiero",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I want / I'd like"
+    },
+    {
+     "k": "Say It",
+     "v": "KYEH-roh"
+    },
+    {
+     "k": "In Context",
+     "v": "Quiero un café. — I'd like a coffee."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'querer' (to want), an irregular e→ie verb. 'Quiero' = I want."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Softer and more polite: 'quisiera' ('I would like'). 'Quiero' is direct but perfectly acceptable when ordering."
+    }
+   ],
+   "name_es": "Quiero…",
+   "name_fr": "Quiero…",
+   "name_it": "Quiero…"
+  },
+  {
+   "name": "La carta",
+   "slug": "la-carta",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "The menu"
+    },
+    {
+     "k": "Say It",
+     "v": "lah KAR-tah"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Me trae la carta? — Could you bring me the menu?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la carta'. Note: 'el menú' usually means a fixed-price set meal, not the menu of dishes."
+    },
+    {
+     "k": "Good to Know",
+     "v": "False friend alert: ask for 'la carta' to see all dishes; 'el menú' often gets you the daily set menu."
+    }
+   ],
+   "name_es": "La carta",
+   "name_fr": "La carta",
+   "name_it": "La carta"
+  },
+  {
+   "name": "¡Salud!",
+   "slug": "salud",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Cheers! / Bless you!"
+    },
+    {
+     "k": "Say It",
+     "v": "sah-LOOD"
+    },
+    {
+     "k": "In Context",
+     "v": "¡Salud! — Cheers!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'health'. A noun used as a toast. The 'd' at the end is barely pronounced."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Doubles as 'bless you!' after a sneeze. Toasting, it's the equivalent of 'cheers'."
+    }
+   ],
+   "name_es": "¡Salud!",
+   "name_fr": "¡Salud!",
+   "name_it": "¡Salud!"
+  },
+  {
+   "cat": "UNIT 5 · GETTING AROUND"
+  },
+  {
+   "name": "¿Dónde está…?",
+   "slug": "donde-esta",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Where is…?"
+    },
+    {
+     "k": "Say It",
+     "v": "DOHN-deh ehs-TAH"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Dónde está la estación? — Where is the station?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Dónde' (with accent) for questions; uses 'estar' for location. Plural: '¿Dónde están…?'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The single most useful travel question. 'Está' (location) uses 'estar', never 'ser'."
+    }
+   ],
+   "name_es": "¿Dónde está…?",
+   "name_fr": "¿Dónde está…?",
+   "name_it": "¿Dónde está…?"
+  },
+  {
+   "name": "El baño",
+   "slug": "bano",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Bathroom / Restroom"
+    },
+    {
+     "k": "Say It",
+     "v": "BAH-nyoh"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Dónde está el baño? — Where's the bathroom?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'el baño'. The 'ñ' gives the 'ny' sound. Also means 'bath'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "In Latin America you may also hear 'el servicio' or 'el sanitario'; in public places, 'los aseos' in Spain."
+    }
+   ],
+   "name_es": "El baño",
+   "name_fr": "El baño",
+   "name_it": "El baño"
+  },
+  {
+   "name": "La izquierda",
+   "slug": "izquierda",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Left"
+    },
+    {
+     "k": "Say It",
+     "v": "ees-KYEHR-dah"
+    },
+    {
+     "k": "In Context",
+     "v": "Gire a la izquierda. — Turn left."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine noun used with 'a la izquierda' (to the left). One of Spanish's trickier words to pronounce."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Direction-giving essential. Pairs with 'a la derecha' (to the right) and 'todo recto' (straight ahead)."
+    }
+   ],
+   "name_es": "La izquierda",
+   "name_fr": "La izquierda",
+   "name_it": "La izquierda"
+  },
+  {
+   "name": "La derecha",
+   "slug": "derecha",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Right"
+    },
+    {
+     "k": "Say It",
+     "v": "deh-REH-chah"
+    },
+    {
+     "k": "In Context",
+     "v": "A la derecha, por favor. — To the right, please."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la derecha'. Don't confuse with 'derecho' (straight ahead / law / right as in 'a right')."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Tricky pair: 'la derecha' = the right side; 'derecho' (masc.) = straight ahead. One letter, big difference."
+    }
+   ],
+   "name_es": "La derecha",
+   "name_fr": "La derecha",
+   "name_it": "La derecha"
+  },
+  {
+   "name": "Aquí",
+   "slug": "aqui",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Here"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-KEE"
+    },
+    {
+     "k": "In Context",
+     "v": "Estoy aquí. — I'm here."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of place. 'Aquí' (here) vs 'allí' (there) vs 'ahí' (right there)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Spanish has a three-way here/there system; 'aquí' is closest to the speaker."
+    }
+   ],
+   "name_es": "Aquí",
+   "name_fr": "Aquí",
+   "name_it": "Aquí"
+  },
+  {
+   "name": "Allí",
+   "slug": "alli",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "There"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-YEE"
+    },
+    {
+     "k": "In Context",
+     "v": "Está allí. — It's over there."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Adverb of place — farther than 'ahí'. The 'll' sounds like 'y'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Part of the aquí / ahí / allí trio marking near, mid, and far distance from the speaker."
+    }
+   ],
+   "name_es": "Allí",
+   "name_fr": "Allí",
+   "name_it": "Allí"
+  },
+  {
+   "name": "La estación",
+   "slug": "estacion",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Station"
+    },
+    {
+     "k": "Say It",
+     "v": "ehs-tah-SYOHN"
+    },
+    {
+     "k": "In Context",
+     "v": "La estación de tren. — The train station."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la estación'. Words ending in '-ción' are feminine and become '-ciones' in plural."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Reliable rule: nearly all '-ción' words are feminine (la nación, la información) — and they drop the accent in the plural."
+    }
+   ],
+   "name_es": "La estación",
+   "name_fr": "La estación",
+   "name_it": "La estación"
+  },
+  {
+   "name": "¿Cuánto cuesta?",
+   "slug": "cuanto-cuesta",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How much does it cost?"
+    },
+    {
+     "k": "Say It",
+     "v": "KWAHN-toh KWEHS-tah"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Cuánto cuesta? — How much is it?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'costar' (to cost), an o→ue stem-changing verb. 'Cuánto' takes an accent in questions."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Shopping survival phrase. For multiple items: '¿Cuánto cuestan?' (plural)."
+    }
+   ],
+   "name_es": "¿Cuánto cuesta?",
+   "name_fr": "¿Cuánto cuesta?",
+   "name_it": "¿Cuánto cuesta?"
+  },
+  {
+   "cat": "UNIT 6 · PEOPLE & FAMILY"
+  },
+  {
+   "name": "Yo",
+   "slug": "yo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I"
+    },
+    {
+     "k": "Say It",
+     "v": "YOH"
+    },
+    {
+     "k": "In Context",
+     "v": "Yo soy estudiante. — I am a student."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Subject pronoun. Often dropped, since the verb ending already shows 'I' ('soy' = I am)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Spanish frequently omits subject pronouns — 'soy' alone means 'I am'. Use 'yo' for emphasis or contrast."
+    }
+   ],
+   "name_es": "Yo",
+   "name_fr": "Yo",
+   "name_it": "Yo"
+  },
+  {
+   "name": "Tú",
+   "slug": "tu",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "You (informal)"
+    },
+    {
+     "k": "Say It",
+     "v": "TOO"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Tú hablas español? — Do you speak Spanish?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Informal singular 'you'. Accent matters: 'tú' (you) vs 'tu' (your)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Use 'tú' with friends, family, peers, and children. For respect or distance, use 'usted'."
+    }
+   ],
+   "name_es": "Tú",
+   "name_fr": "Tú",
+   "name_it": "Tú"
+  },
+  {
+   "name": "Él / Ella",
+   "slug": "el-ella",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "He / She"
+    },
+    {
+     "k": "Say It",
+     "v": "EHL / EH-yah"
+    },
+    {
+     "k": "In Context",
+     "v": "Él es alto. Ella es alta. — He is tall. She is tall."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Él' (he, with accent) vs 'el' (the). 'Ella' = she. Adjectives agree: 'alto' / 'alta'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Notice the adjective changes ending to match gender — a core habit to build early."
+    }
+   ],
+   "name_es": "Él / Ella",
+   "name_fr": "Él / Ella",
+   "name_it": "Él / Ella"
+  },
+  {
+   "name": "Nosotros",
+   "slug": "nosotros",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "We"
+    },
+    {
+     "k": "Say It",
+     "v": "noh-SOH-trohs"
+    },
+    {
+     "k": "In Context",
+     "v": "Nosotros somos amigos. — We are friends."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine/mixed group: 'nosotros'; all-female group: 'nosotras'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A mixed-gender group defaults to the masculine form — true of nearly all Spanish plurals."
+    }
+   ],
+   "name_es": "Nosotros",
+   "name_fr": "Nosotros",
+   "name_it": "Nosotros"
+  },
+  {
+   "name": "El amigo / La amiga",
+   "slug": "amigo",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Friend"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-MEE-goh"
+    },
+    {
+     "k": "In Context",
+     "v": "Es mi mejor amigo. — He's my best friend."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'el amigo' (male friend), 'la amiga' (female friend). Gender follows the person."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Many people-nouns swap '-o'/'-a' for male/female. 'Amigos' can mean an all-male or mixed group of friends."
+    }
+   ],
+   "name_es": "El amigo / La amiga",
+   "name_fr": "El amigo / La amiga",
+   "name_it": "El amigo / La amiga"
+  },
+  {
+   "name": "La familia",
+   "slug": "familia",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Family"
+    },
+    {
+     "k": "Say It",
+     "v": "fah-MEE-lyah"
+    },
+    {
+     "k": "In Context",
+     "v": "Mi familia es grande. — My family is big."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la familia'. Singular even though it refers to many people."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A collective noun treated as singular: 'la familia es…', not 'son'."
+    }
+   ],
+   "name_es": "La familia",
+   "name_fr": "La familia",
+   "name_it": "La familia"
+  },
+  {
+   "name": "La madre",
+   "slug": "madre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Mother"
+    },
+    {
+     "k": "Say It",
+     "v": "MAH-dreh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mi madre se llama Rosa. — My mother's name is Rosa."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Feminine: 'la madre'. Affectionate forms: 'mamá', 'mami'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Madre' is the standard word; 'mamá' is the warmer everyday term, like 'mom'."
+    }
+   ],
+   "name_es": "La madre",
+   "name_fr": "La madre",
+   "name_it": "La madre"
+  },
+  {
+   "name": "El padre",
+   "slug": "padre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Father"
+    },
+    {
+     "k": "Say It",
+     "v": "PAH-dreh"
+    },
+    {
+     "k": "In Context",
+     "v": "Mi padre trabaja mucho. — My father works a lot."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Masculine: 'el padre'. Plural 'los padres' means 'parents' (mother and father together)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Useful quirk: 'los padres' = 'the parents', not 'the fathers' — the masculine plural covers both."
+    }
+   ],
+   "name_es": "El padre",
+   "name_fr": "El padre",
+   "name_it": "El padre"
+  },
+  {
+   "name": "El hombre / La mujer",
+   "slug": "hombre-mujer",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Man / Woman"
+    },
+    {
+     "k": "Say It",
+     "v": "OHM-breh / moo-HEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "El hombre y la mujer. — The man and the woman."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'el hombre' (man, masc.), 'la mujer' (woman, fem.). The 'j' in 'mujer' is a throaty 'h' sound."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Two of the most common nouns, and a clean illustration of natural gender matching grammatical gender."
+    }
+   ],
+   "name_es": "El hombre / La mujer",
+   "name_fr": "El hombre / La mujer",
+   "name_it": "El hombre / La mujer"
+  },
+  {
+   "cat": "UNIT 7 · EVERYDAY VERBS"
+  },
+  {
+   "name": "Ser",
+   "slug": "ser",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To be (permanent)"
+    },
+    {
+     "k": "Say It",
+     "v": "SEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "Soy de España. — I'm from Spain."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular. Used for identity, origin, time, and lasting traits. Conjugates: soy, eres, es, somos, son."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Spanish has two verbs for 'to be'. 'Ser' is for who/what something fundamentally is — origin, profession, character."
+    }
+   ],
+   "name_es": "Ser",
+   "name_fr": "Ser",
+   "name_it": "Ser"
+  },
+  {
+   "name": "Estar",
+   "slug": "estar",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To be (temporary)"
+    },
+    {
+     "k": "Say It",
+     "v": "ehs-TAR"
+    },
+    {
+     "k": "In Context",
+     "v": "Estoy cansado. — I'm tired."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular. Used for location, moods, and changing states. Conjugates: estoy, estás, está, estamos, están."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The other 'to be'. 'Estar' covers location and temporary conditions. 'Estoy bien' = I'm (feeling) well."
+    }
+   ],
+   "name_es": "Estar",
+   "name_fr": "Estar",
+   "name_it": "Estar"
+  },
+  {
+   "name": "Tener",
+   "slug": "tener",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To have"
+    },
+    {
+     "k": "Say It",
+     "v": "teh-NEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "Tengo dos hermanos. — I have two siblings."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular (tengo, tienes, tiene…). Also expresses age: 'tengo 20 años' (I'm 20)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Spanish uses 'tener' (to have) for age, hunger, and thirst: 'tengo hambre' literally = 'I have hunger'."
+    }
+   ],
+   "name_es": "Tener",
+   "name_fr": "Tener",
+   "name_it": "Tener"
+  },
+  {
+   "name": "Ir",
+   "slug": "ir",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To go"
+    },
+    {
+     "k": "Say It",
+     "v": "EER"
+    },
+    {
+     "k": "In Context",
+     "v": "Voy a casa. — I'm going home."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Highly irregular (voy, vas, va, vamos, van). 'Ir a' + verb expresses the near future."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Voy a comer' = 'I'm going to eat' — the easiest way to talk about the future before learning the future tense."
+    }
+   ],
+   "name_es": "Ir",
+   "name_fr": "Ir",
+   "name_it": "Ir"
+  },
+  {
+   "name": "Hablar",
+   "slug": "hablar",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To speak / talk"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-BLAR"
+    },
+    {
+     "k": "In Context",
+     "v": "Hablo un poco de español. — I speak a little Spanish."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Regular '-ar' verb — the model for a huge group. Conjugates: hablo, hablas, habla, hablamos, hablan."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Learn 'hablar' and you've learned the pattern for thousands of regular '-ar' verbs."
+    }
+   ],
+   "name_es": "Hablar",
+   "name_fr": "Hablar",
+   "name_it": "Hablar"
+  },
+  {
+   "name": "Comer",
+   "slug": "comer",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To eat"
+    },
+    {
+     "k": "Say It",
+     "v": "koh-MEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Quieres comer algo? — Do you want to eat something?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Regular '-er' verb — the model for that group. Conjugates: como, comes, come, comemos, comen."
+    },
+    {
+     "k": "Good to Know",
+     "v": "The template for regular '-er' verbs. Note 'como' also means 'how/as' — context separates them."
+    }
+   ],
+   "name_es": "Comer",
+   "name_fr": "Comer",
+   "name_it": "Comer"
+  },
+  {
+   "name": "Querer",
+   "slug": "querer",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To want / love"
+    },
+    {
+     "k": "Say It",
+     "v": "keh-REHR"
+    },
+    {
+     "k": "In Context",
+     "v": "Te quiero. — I love you."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular e→ie (quiero, quieres, quiere…). Means both 'to want' and, with people, 'to love'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Te quiero' is the everyday 'I love you' for family and partners; 'te amo' is more intense and romantic."
+    }
+   ],
+   "name_es": "Querer",
+   "name_fr": "Querer",
+   "name_it": "Querer"
+  },
+  {
+   "name": "Poder",
+   "slug": "poder",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Can / to be able to"
+    },
+    {
+     "k": "Say It",
+     "v": "poh-DEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Puedes ayudarme? — Can you help me?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular o→ue (puedo, puedes, puede…). Followed by another verb in the infinitive."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Essential for polite requests: '¿Puede…?' (formal) and '¿Puedes…?' (informal) both mean 'Can you…?'."
+    }
+   ],
+   "name_es": "Poder",
+   "name_fr": "Poder",
+   "name_it": "Poder"
+  },
+  {
+   "name": "Hacer",
+   "slug": "hacer",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "To do / make"
+    },
+    {
+     "k": "Say It",
+     "v": "ah-SEHR"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Qué haces? — What are you doing?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Irregular (hago, haces, hace…). Covers both 'do' and 'make'. Also used for weather: 'hace calor' (it's hot)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "One verb for both 'do' and 'make'. It also drives weather expressions: 'hace frío' = it's cold."
+    }
+   ],
+   "name_es": "Hacer",
+   "name_fr": "Hacer",
+   "name_it": "Hacer"
+  },
+  {
+   "cat": "UNIT 8 · USEFUL PHRASES"
+  },
+  {
+   "name": "No hay problema",
+   "slug": "no-hay-problema",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "No problem"
+    },
+    {
+     "k": "Say It",
+     "v": "noh eye proh-BLEH-mah"
+    },
+    {
+     "k": "In Context",
+     "v": "— Gracias. — No hay problema. — Thanks. — No problem."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "'Hay' = there is/are (from 'haber'). Literally 'there is no problem'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Hay' is one of the handiest words in Spanish: 'there is' and 'there are' in a single form."
+    }
+   ],
+   "name_es": "No hay problema",
+   "name_fr": "No hay problema",
+   "name_it": "No hay problema"
+  },
+  {
+   "name": "Claro",
+   "slug": "claro",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Of course / Sure"
+    },
+    {
+     "k": "Say It",
+     "v": "KLAH-roh"
+    },
+    {
+     "k": "In Context",
+     "v": "— ¿Vienes? — ¡Claro! — Are you coming? — Of course!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "An adverb/interjection here. Also an adjective meaning 'clear' or 'light' (color)."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Claro' or 'claro que sí' is an enthusiastic 'of course!'. Extremely common in conversation."
+    }
+   ],
+   "name_es": "Claro",
+   "name_fr": "Claro",
+   "name_it": "Claro"
+  },
+  {
+   "name": "Vale",
+   "slug": "vale",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "OK / Alright (Spain)"
+    },
+    {
+     "k": "Say It",
+     "v": "VAH-leh"
+    },
+    {
+     "k": "In Context",
+     "v": "— Nos vemos a las dos. — Vale. — See you at two. — OK."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "From 'valer' (to be worth). In Spain it's the all-purpose 'OK'; less common in Latin America."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A regional marker: 'vale' instantly signals Spain. In Latin America you'll hear 'okay', 'bueno', or 'dale'."
+    }
+   ],
+   "name_es": "Vale",
+   "name_fr": "Vale",
+   "name_it": "Vale"
+  },
+  {
+   "name": "¿Qué tal?",
+   "slug": "que-tal",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "How's it going?"
+    },
+    {
+     "k": "Say It",
+     "v": "keh TAHL"
+    },
+    {
+     "k": "In Context",
+     "v": "¿Qué tal? — How's it going?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'what such?'. A fixed, casual greeting — no verb needed."
+    },
+    {
+     "k": "Good to Know",
+     "v": "More casual than '¿cómo estás?'. Can also mean 'how about…?' ('¿Qué tal el hotel?' = How's the hotel?)."
+    }
+   ],
+   "name_es": "¿Qué tal?",
+   "name_fr": "¿Qué tal?",
+   "name_it": "¿Qué tal?"
+  },
+  {
+   "name": "Tengo hambre",
+   "slug": "tengo-hambre",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm hungry"
+    },
+    {
+     "k": "Say It",
+     "v": "TEHN-goh AHM-breh"
+    },
+    {
+     "k": "In Context",
+     "v": "Tengo hambre. ¿Comemos? — I'm hungry. Shall we eat?"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses 'tener' (to have) + 'hambre' (hunger) — literally 'I have hunger', not 'I am hungry'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "A key difference from English: hunger, thirst, and age use 'tener'. The 'h' in 'hambre' is silent."
+    }
+   ],
+   "name_es": "Tengo hambre",
+   "name_fr": "Tengo hambre",
+   "name_it": "Tengo hambre"
+  },
+  {
+   "name": "Estoy perdido/a",
+   "slug": "estoy-perdido",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I'm lost"
+    },
+    {
+     "k": "Say It",
+     "v": "ehs-TOY pehr-DEE-doh"
+    },
+    {
+     "k": "In Context",
+     "v": "Perdón, estoy perdido. — Sorry, I'm lost."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Uses 'estar' (temporary state) + 'perdido/a'. Women say 'perdida'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Adjective agreement in action: a man says 'perdido', a woman 'perdida'. A vital travel phrase."
+    }
+   ],
+   "name_es": "Estoy perdido/a",
+   "name_fr": "Estoy perdido/a",
+   "name_it": "Estoy perdido/a"
+  },
+  {
+   "name": "Me gusta",
+   "slug": "me-gusta",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "I like (it)"
+    },
+    {
+     "k": "Say It",
+     "v": "meh GOOS-tah"
+    },
+    {
+     "k": "In Context",
+     "v": "Me gusta el café. — I like coffee."
+    },
+    {
+     "k": "Grammar Note",
+     "v": "Literally 'it pleases me' — from 'gustar', which works backwards from English. Plural things: 'me gustan'."
+    },
+    {
+     "k": "Good to Know",
+     "v": "'Gustar' flips the logic: the thing liked is the subject. 'Me gustan los gatos' = 'cats please me' = I like cats."
+    }
+   ],
+   "name_es": "Me gusta",
+   "name_fr": "Me gusta",
+   "name_it": "Me gusta"
+  },
+  {
+   "name": "Buen provecho",
+   "slug": "buen-provecho",
+   "rows": [
+    {
+     "k": "Meaning",
+     "v": "Enjoy your meal"
+    },
+    {
+     "k": "Say It",
+     "v": "bwehn proh-VEH-choh"
+    },
+    {
+     "k": "In Context",
+     "v": "¡Buen provecho! — Enjoy your meal!"
+    },
+    {
+     "k": "Grammar Note",
+     "v": "A fixed phrase, the Spanish equivalent of 'bon appétit'. 'Buen' is the shortened form of 'bueno' before a noun."
+    },
+    {
+     "k": "Good to Know",
+     "v": "Said before eating, or politely to others who are eating as you pass. Universally warm and common."
+    }
+   ],
+   "name_es": "Buen provecho",
+   "name_fr": "Buen provecho",
+   "name_it": "Buen provecho"
+  }
+ ]
+}
