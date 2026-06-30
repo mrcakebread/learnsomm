@@ -219,7 +219,7 @@
   <div class="ss-gate-card">
     <div class="ss-gate-title">StudySpinners</div>
     <div class="ss-gate-sub">Please sign in to continue</div>
-    <div style="font-size:11px;color:#7a6a58;margin-bottom:14px">build r8 · 2026-06-30</div>
+    <div style="font-size:11px;color:#7a6a58;margin-bottom:14px">build r9 · 2026-06-30</div>
     <input id="ss-gate-user" type="text" placeholder="Username" autocomplete="off" autocapitalize="none" spellcheck="false">
     <input id="ss-gate-pass" type="password" placeholder="Password" autocomplete="off">
     <button id="ss-gate-go" type="button">Unlock</button>
@@ -7893,11 +7893,11 @@ document.getElementById('langPick').addEventListener('change', e=>{ LANG=e.targe
 document.getElementById('pairToggle').addEventListener('change', e=>{
   if(e.target.checked){
     stage2d.classList.remove('single'); stage2d.classList.add('pair');
-    wheel2.style.display='';
-    if(!slots[1].pending){ const def=WHEELS.beverage[1]; wheel2.value=def.id; loadById(slots[1], def.id); }
+    wheel2.style.setProperty('display','inline-flex','important');
+    if(!slots[1].pending){ var def=(window.JSON_WHEELS&&(JSON_WHEELS[1]||JSON_WHEELS[0]))||null; if(def){ wheel2.value=def.id; loadById(slots[1], def.id); } }
   }else{
     stage2d.classList.add('single'); stage2d.classList.remove('pair');
-    wheel2.style.display='none';
+    wheel2.style.setProperty('display','none','important');
     setTimeout(function(){ broadcast({type:'LS_CMD',cmd:'dock-left'}); }, 120);
   }
   buildRingBtns();
@@ -7981,6 +7981,6 @@ let toastT; function toast(msg){ const el=document.getElementById('toast'); el.t
 /* boot empty: no auto-load — wheels load by entitlement / JSON picker (we don't know what the client purchased) */
 setMode('2d');
 </script>
-<div id="ss-build" style="position:fixed;right:7px;bottom:6px;z-index:99990;font:600 10px system-ui,sans-serif;color:rgba(180,160,120,.55);pointer-events:none;letter-spacing:.4px">build r8 · 2026-06-30</div>
+<div id="ss-build" style="position:fixed;right:7px;bottom:6px;z-index:99990;font:600 10px system-ui,sans-serif;color:rgba(180,160,120,.55);pointer-events:none;letter-spacing:.4px">build r9 · 2026-06-30</div>
 </body>
 </html>
