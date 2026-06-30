@@ -1,0 +1,529 @@
+{
+ "title": "American Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Bbq & Smoke"
+  },
+  {
+   "name": "Texas Brisket",
+   "slug": "us-brisket",
+   "rows": [
+    {
+     "k": "",
+     "v": "Salt-pepper smoked beef brisket, low & slow."
+    }
+   ]
+  },
+  {
+   "name": "Carolina Pulled Pork",
+   "slug": "us-pulledpork",
+   "rows": [
+    {
+     "k": "",
+     "v": "Smoked shoulder, vinegar or mustard sauce."
+    }
+   ]
+  },
+  {
+   "name": "Memphis Ribs",
+   "slug": "us-ribs",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dry-rubbed or wet pork ribs."
+    }
+   ]
+  },
+  {
+   "name": "Kansas City BBQ",
+   "slug": "us-kcbbq",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-thick tomato-molasses sauce, varied meats."
+    }
+   ]
+  },
+  {
+   "name": "Burnt Ends",
+   "slug": "us-burntends",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crispy-tender brisket-point cubes."
+    }
+   ]
+  },
+  {
+   "name": "Smoked Sausage",
+   "slug": "us-sausage",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hot links & smoked links."
+    }
+   ]
+  },
+  {
+   "cat": "Diner & Comfort"
+  },
+  {
+   "name": "Cheeseburger",
+   "slug": "us-cheeseburger",
+   "rows": [
+    {
+     "k": "",
+     "v": "Griddled patty with cheese, the icon."
+    }
+   ]
+  },
+  {
+   "name": "Hot Dog",
+   "slug": "us-hotdog",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled/steamed frank in a bun, regional styles."
+    }
+   ]
+  },
+  {
+   "name": "Mac and Cheese",
+   "slug": "us-macncheese",
+   "rows": [
+    {
+     "k": "",
+     "v": "Baked or stovetop cheesy pasta."
+    }
+   ]
+  },
+  {
+   "name": "Meatloaf",
+   "slug": "us-meatloaf",
+   "rows": [
+    {
+     "k": "",
+     "v": "Baked seasoned ground-meat loaf."
+    }
+   ]
+  },
+  {
+   "name": "Fried Chicken",
+   "slug": "us-friedchicken",
+   "rows": [
+    {
+     "k": "",
+     "v": "Buttermilk-brined, crisp-fried."
+    }
+   ]
+  },
+  {
+   "name": "Buffalo Wings",
+   "slug": "us-wings",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried wings in cayenne-butter sauce."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Fried Steak",
+   "slug": "us-cfs",
+   "rows": [
+    {
+     "k": "",
+     "v": "Battered fried steak with cream gravy."
+    }
+   ]
+  },
+  {
+   "cat": "Regional — South"
+  },
+  {
+   "name": "Gumbo",
+   "slug": "us-gumbo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Louisiana roux-based stew, the Creole-Cajun soul."
+    }
+   ]
+  },
+  {
+   "name": "Jambalaya",
+   "slug": "us-jambalaya",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice cooked with meat, seafood, trinity."
+    }
+   ]
+  },
+  {
+   "name": "Shrimp and Grits",
+   "slug": "us-shrimpgrits",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lowcountry shrimp over creamy grits."
+    }
+   ]
+  },
+  {
+   "name": "Biscuits and Gravy",
+   "slug": "us-biscuits",
+   "rows": [
+    {
+     "k": "",
+     "v": "Buttermilk biscuits, sausage cream gravy."
+    }
+   ]
+  },
+  {
+   "name": "Collard Greens",
+   "slug": "us-collards",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-braised greens with pork."
+    }
+   ]
+  },
+  {
+   "name": "Crawfish Boil",
+   "slug": "us-crawfish",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced boiled crawfish, corn, potato."
+    }
+   ]
+  },
+  {
+   "cat": "Regional — Coasts & Midwest"
+  },
+  {
+   "name": "New England Clam Chowder",
+   "slug": "us-chowder",
+   "rows": [
+    {
+     "k": "",
+     "v": "Creamy potato-clam soup."
+    }
+   ]
+  },
+  {
+   "name": "Lobster Roll",
+   "slug": "us-lobsterroll",
+   "rows": [
+    {
+     "k": "",
+     "v": "Buttered or mayo-dressed lobster in a split bun."
+    }
+   ]
+  },
+  {
+   "name": "Deep-Dish Pizza",
+   "slug": "us-deepdish",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chicago thick-crust, cheese-under-sauce."
+    }
+   ]
+  },
+  {
+   "name": "Cioppino",
+   "slug": "us-cioppino",
+   "rows": [
+    {
+     "k": "",
+     "v": "SF Italian-American seafood tomato stew."
+    }
+   ]
+  },
+  {
+   "name": "Hatch Chile",
+   "slug": "us-hatch",
+   "rows": [
+    {
+     "k": "",
+     "v": "New Mexico green chili, regional obsession."
+    }
+   ]
+  },
+  {
+   "name": "Cheesesteak",
+   "slug": "us-cheesesteak",
+   "rows": [
+    {
+     "k": "",
+     "v": "Philly thin beef & cheese on a roll."
+    }
+   ]
+  },
+  {
+   "cat": "Breakfast & Brunch"
+  },
+  {
+   "name": "Pancakes",
+   "slug": "us-pancakes",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fluffy stacks with maple syrup."
+    }
+   ]
+  },
+  {
+   "name": "Eggs Benedict",
+   "slug": "us-benedict",
+   "rows": [
+    {
+     "k": "",
+     "v": "Poached eggs, ham, hollandaise on muffin."
+    }
+   ]
+  },
+  {
+   "name": "Hash Browns",
+   "slug": "us-hashbrowns",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crispy shredded fried potato."
+    }
+   ]
+  },
+  {
+   "name": "Biscuit",
+   "slug": "us-biscuit",
+   "rows": [
+    {
+     "k": "",
+     "v": "Flaky buttermilk quick-bread."
+    }
+   ]
+  },
+  {
+   "name": "Grits",
+   "slug": "us-grits",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stone-ground corn porridge."
+    }
+   ]
+  },
+  {
+   "name": "Cornbread",
+   "slug": "us-cornbread",
+   "rows": [
+    {
+     "k": "",
+     "v": "Skillet corn quick-bread."
+    }
+   ]
+  },
+  {
+   "cat": "Sauces & Staples"
+  },
+  {
+   "name": "Ranch",
+   "slug": "us-ranch",
+   "rows": [
+    {
+     "k": "",
+     "v": "Buttermilk-herb dressing, national obsession."
+    }
+   ]
+  },
+  {
+   "name": "BBQ Sauce",
+   "slug": "us-bbqsauce",
+   "rows": [
+    {
+     "k": "Regional",
+     "v": "tomato, vinegar, mustard, white."
+    }
+   ]
+  },
+  {
+   "name": "Ketchup",
+   "slug": "us-ketchup",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-tangy tomato condiment."
+    }
+   ]
+  },
+  {
+   "name": "Maple Syrup",
+   "slug": "us-maple",
+   "rows": [
+    {
+     "k": "",
+     "v": "Boiled tree sap, Northeast."
+    }
+   ]
+  },
+  {
+   "name": "Cajun Seasoning",
+   "slug": "us-cajun",
+   "rows": [
+    {
+     "k": "",
+     "v": "Paprika-cayenne-garlic blend."
+    }
+   ]
+  },
+  {
+   "name": "Old Bay",
+   "slug": "us-oldbay",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chesapeake celery-salt-spice blend."
+    }
+   ]
+  },
+  {
+   "cat": "Aromatics & Produce"
+  },
+  {
+   "name": "Holy Trinity",
+   "slug": "us-trinity",
+   "rows": [
+    {
+     "k": "",
+     "v": "Onion, celery, bell pepper — Cajun base."
+    }
+   ]
+  },
+  {
+   "name": "Sweet Corn",
+   "slug": "us-corn",
+   "rows": [
+    {
+     "k": "",
+     "v": "Summer staple, grilled or boiled."
+    }
+   ]
+  },
+  {
+   "name": "Sweet Potato",
+   "slug": "us-sweetpotato",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pies, fries, casseroles."
+    }
+   ]
+  },
+  {
+   "name": "Pecan",
+   "slug": "us-pecan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Southern native nut."
+    }
+   ]
+  },
+  {
+   "name": "Cranberry",
+   "slug": "us-cranberry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tart berry, Thanksgiving fixture."
+    }
+   ]
+  },
+  {
+   "name": "Bourbon",
+   "slug": "us-bourbon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Corn whiskey used in glazes & desserts."
+    }
+   ]
+  },
+  {
+   "cat": "Desserts"
+  },
+  {
+   "name": "Apple Pie",
+   "slug": "us-applepie",
+   "rows": [
+    {
+     "k": "",
+     "v": "The all-American double-crust pie."
+    }
+   ]
+  },
+  {
+   "name": "Pecan Pie",
+   "slug": "us-pecanpie",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gooey nut pie, Southern."
+    }
+   ]
+  },
+  {
+   "name": "Cheesecake",
+   "slug": "us-cheesecake",
+   "rows": [
+    {
+     "k": "",
+     "v": "New York dense baked style."
+    }
+   ]
+  },
+  {
+   "name": "Brownie",
+   "slug": "us-brownie",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fudgy chocolate bar."
+    }
+   ]
+  },
+  {
+   "name": "Key Lime Pie",
+   "slug": "us-keylime",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tart Florida citrus pie."
+    }
+   ]
+  },
+  {
+   "name": "Banana Pudding",
+   "slug": "us-bananapudding",
+   "rows": [
+    {
+     "k": "",
+     "v": "Layered custard, wafers, banana."
+    }
+   ]
+  },
+  {
+   "name": "Cobbler",
+   "slug": "us-cobbler",
+   "rows": [
+    {
+     "k": "",
+     "v": "Baked fruit under biscuit topping."
+    }
+   ]
+  }
+ ]
+}

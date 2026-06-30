@@ -1,0 +1,513 @@
+{
+ "title": "Greek Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Meze & Dips"
+  },
+  {
+   "name": "Tzatziki",
+   "slug": "gr-tzatziki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yogurt-cucumber-garlic dip."
+    }
+   ]
+  },
+  {
+   "name": "Hummus",
+   "slug": "gr-hummus",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chickpea-tahini dip (shared Levantine)."
+    }
+   ]
+  },
+  {
+   "name": "Melitzanosalata",
+   "slug": "gr-melitzano",
+   "rows": [
+    {
+     "k": "",
+     "v": "Smoky eggplant dip."
+    }
+   ]
+  },
+  {
+   "name": "Taramosalata",
+   "slug": "gr-tarama",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cured-roe and bread/potato dip."
+    }
+   ]
+  },
+  {
+   "name": "Tirokafteri",
+   "slug": "gr-tirokafteri",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spicy whipped feta dip."
+    }
+   ]
+  },
+  {
+   "name": "Dolmades",
+   "slug": "gr-dolmades",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stuffed grape leaves."
+    }
+   ]
+  },
+  {
+   "name": "Saganaki",
+   "slug": "gr-saganaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pan-seared/flamed cheese."
+    }
+   ]
+  },
+  {
+   "cat": "Mains"
+  },
+  {
+   "name": "Moussaka",
+   "slug": "gr-moussaka",
+   "rows": [
+    {
+     "k": "",
+     "v": "Layered eggplant, meat, béchamel."
+    }
+   ]
+  },
+  {
+   "name": "Souvlaki",
+   "slug": "gr-souvlaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled marinated meat skewers."
+    }
+   ]
+  },
+  {
+   "name": "Gyro",
+   "slug": "gr-gyro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spit-roasted meat in pita with tzatziki."
+    }
+   ]
+  },
+  {
+   "name": "Pastitsio",
+   "slug": "gr-pastitsio",
+   "rows": [
+    {
+     "k": "",
+     "v": "Baked pasta, meat, béchamel."
+    }
+   ]
+  },
+  {
+   "name": "Kleftiko",
+   "slug": "gr-kleftiko",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-baked parchment-wrapped lamb."
+    }
+   ]
+  },
+  {
+   "name": "Stifado",
+   "slug": "gr-stifado",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-spiced beef-and-onion stew."
+    }
+   ]
+  },
+  {
+   "name": "Souvla",
+   "slug": "gr-souvla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Large spit-roasted meat, Cypriot/festive."
+    }
+   ]
+  },
+  {
+   "cat": "Seafood"
+  },
+  {
+   "name": "Grilled Octopus",
+   "slug": "gr-octopus",
+   "rows": [
+    {
+     "k": "",
+     "v": "Charred tenderized octopus with oil & oregano."
+    }
+   ]
+  },
+  {
+   "name": "Bakaliaros",
+   "slug": "gr-bakaliaros",
+   "rows": [
+    {
+     "k": "",
+     "v": "Battered fried salt cod with skordalia."
+    }
+   ]
+  },
+  {
+   "name": "Gavros",
+   "slug": "gr-gavros",
+   "rows": [
+    {
+     "k": "",
+     "v": "Marinated/fried fresh anchovies."
+    }
+   ]
+  },
+  {
+   "name": "Garides Saganaki",
+   "slug": "gr-garides",
+   "rows": [
+    {
+     "k": "",
+     "v": "Shrimp baked with tomato & feta."
+    }
+   ]
+  },
+  {
+   "name": "Barbouni",
+   "slug": "gr-barbouni",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried red mullet."
+    }
+   ]
+  },
+  {
+   "cat": "Pastries & Savory Pies"
+  },
+  {
+   "name": "Spanakopita",
+   "slug": "gr-spanakopita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spinach-feta phyllo pie."
+    }
+   ]
+  },
+  {
+   "name": "Tiropita",
+   "slug": "gr-tiropita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cheese phyllo pie."
+    }
+   ]
+  },
+  {
+   "name": "Phyllo",
+   "slug": "gr-phyllo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Paper-thin layered pastry dough."
+    }
+   ]
+  },
+  {
+   "name": "Bougatsa",
+   "slug": "gr-bougatsa",
+   "rows": [
+    {
+     "k": "",
+     "v": "Semolina-custard phyllo pastry."
+    }
+   ]
+  },
+  {
+   "name": "Kreatopita",
+   "slug": "gr-kreatopita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Meat phyllo pie."
+    }
+   ]
+  },
+  {
+   "cat": "Cheese & Dairy"
+  },
+  {
+   "name": "Feta",
+   "slug": "gr-feta",
+   "rows": [
+    {
+     "k": "",
+     "v": "Brined sheep/goat cheese, PDO."
+    }
+   ]
+  },
+  {
+   "name": "Halloumi",
+   "slug": "gr-halloumi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grillable semi-hard cheese (Cypriot)."
+    }
+   ]
+  },
+  {
+   "name": "Graviera",
+   "slug": "gr-graviera",
+   "rows": [
+    {
+     "k": "",
+     "v": "Nutty hard sheep's-milk cheese."
+    }
+   ]
+  },
+  {
+   "name": "Kefalotyri",
+   "slug": "gr-kefalotyri",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hard salty grating cheese."
+    }
+   ]
+  },
+  {
+   "name": "Greek Yogurt",
+   "slug": "gr-yogurt",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick strained yogurt."
+    }
+   ],
+   "name_es": "Yogur Griego"
+  },
+  {
+   "name": "Mizithra",
+   "slug": "gr-mizithra",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh or aged whey cheese."
+    }
+   ]
+  },
+  {
+   "cat": "Herbs & Pantry"
+  },
+  {
+   "name": "Olive Oil",
+   "slug": "gr-oliveoil",
+   "rows": [
+    {
+     "k": "",
+     "v": "Foundational; Greece drinks it."
+    }
+   ],
+   "name_es": "Aceite de Oliva"
+  },
+  {
+   "name": "Oregano",
+   "slug": "gr-oregano",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rigani; the defining dried herb."
+    }
+   ]
+  },
+  {
+   "name": "Lemon",
+   "slug": "gr-lemon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bright finishing acid."
+    }
+   ],
+   "name_es": "Limón"
+  },
+  {
+   "name": "Dill",
+   "slug": "gr-dill",
+   "rows": [
+    {
+     "k": "",
+     "v": "Feathery herb for pies & fish."
+    }
+   ]
+  },
+  {
+   "name": "Kalamata Olives",
+   "slug": "gr-kalamata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Purple-black brined olives."
+    }
+   ]
+  },
+  {
+   "name": "Mastic",
+   "slug": "gr-mastic",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aromatic resin from Chios."
+    }
+   ]
+  },
+  {
+   "name": "Mint",
+   "slug": "gr-mint",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cooling herb in meatballs & dips."
+    }
+   ],
+   "name_es": "Menta"
+  },
+  {
+   "cat": "Grains & Veg"
+  },
+  {
+   "name": "Gigantes",
+   "slug": "gr-gigantes",
+   "rows": [
+    {
+     "k": "",
+     "v": "Baked giant beans in tomato."
+    }
+   ]
+  },
+  {
+   "name": "Fava",
+   "slug": "gr-fava",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yellow split-pea purée, Santorini."
+    }
+   ]
+  },
+  {
+   "name": "Horta",
+   "slug": "gr-horta",
+   "rows": [
+    {
+     "k": "",
+     "v": "Boiled wild greens with oil & lemon."
+    }
+   ]
+  },
+  {
+   "name": "Gemista",
+   "slug": "gr-gemista",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice-stuffed tomatoes & peppers."
+    }
+   ]
+  },
+  {
+   "name": "Briam",
+   "slug": "gr-briam",
+   "rows": [
+    {
+     "k": "",
+     "v": "Roasted mixed-vegetable medley."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Drinks"
+  },
+  {
+   "name": "Baklava",
+   "slug": "gr-baklava",
+   "rows": [
+    {
+     "k": "",
+     "v": "Phyllo, nuts, honey syrup."
+    }
+   ]
+  },
+  {
+   "name": "Galaktoboureko",
+   "slug": "gr-galakto",
+   "rows": [
+    {
+     "k": "",
+     "v": "Semolina custard in syrupy phyllo."
+    }
+   ]
+  },
+  {
+   "name": "Loukoumades",
+   "slug": "gr-loukoumades",
+   "rows": [
+    {
+     "k": "",
+     "v": "Honey-drizzled fried dough puffs."
+    }
+   ]
+  },
+  {
+   "name": "Greek Coffee",
+   "slug": "gr-coffee",
+   "rows": [
+    {
+     "k": "",
+     "v": "Finely-ground unfiltered coffee."
+    }
+   ]
+  },
+  {
+   "name": "Ouzo",
+   "slug": "gr-ouzo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Anise spirit that louches with water."
+    }
+   ]
+  },
+  {
+   "name": "Retsina",
+   "slug": "gr-retsina",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pine-resin-flavored wine."
+    }
+   ]
+  }
+ ]
+}

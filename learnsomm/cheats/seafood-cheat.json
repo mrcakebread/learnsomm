@@ -1,0 +1,160 @@
+{
+ "title": "Seafood Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Shrimp & Prawns",
+   "slug": "shrimp-prawns",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Whiteleg (Farmed) Shrimp, Wild Gulf Shrimp, Tiger Prawn, Spot Prawn, Rock Shrimp, Royal Red Shrimp"
+    },
+    {
+     "k": "Best For",
+     "v": "Quick-cooking and versatile — grill, sauté, boil, or use raw in crudo."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Shrimp is the most-eaten seafood in the United States — and the line between 'shrimp' and 'prawn' is mostly about size and biology, not flavor; cooks use the words almost interchangeably."
+    }
+   ],
+   "name_es": "Camarones Y Langostinos"
+  },
+  {
+   "name": "Lobster & Crayfish",
+   "slug": "lobster-crayfish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "American (Maine) Lobster, Spiny (Rock) Lobster, Langoustine, Crawfish, Slipper Lobster"
+    },
+    {
+     "k": "Best For",
+     "v": "Simple preparations — steaming or boiling lets the sweet, delicate meat shine."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Lobster was once so common it was fed to prisoners and servants, who reportedly complained — it only became a luxury in the 20th century as it grew scarce and fashionable."
+    }
+   ],
+   "name_es": "Langosta Y Cangrejo De Río"
+  },
+  {
+   "name": "Crabs",
+   "slug": "crabs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "King Crab, Dungeness Crab, Snow Crab, Blue Crab, Soft-Shell Crab, Stone Crab, Peekytoe Crab"
+    },
+    {
+     "k": "Best For",
+     "v": "Sweet and delicate — best with light seasoning that doesn't mask the natural flavor."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A stone crab is one of the few sustainable seafoods you can harvest without killing the animal — fishermen take a single claw and return the crab, which regrows the missing claw within about 18 months."
+    }
+   ],
+   "name_es": "Cangrejos"
+  },
+  {
+   "name": "Oysters",
+   "slug": "oysters",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Pacific Oyster, Atlantic (Eastern) Oyster, Kumamoto Oyster, Olympia Oyster, European Flat (Belon), Sydney Rock Oyster"
+    },
+    {
+     "k": "Best For",
+     "v": "Served raw on the half shell, or lightly cooked — minimal handling preserves their character."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "An oyster's flavor comes from its 'merroir' — the marine version of terroir — which is why a single species can taste sweet and mild in one bay and intensely briny in another."
+    }
+   ],
+   "name_es": "Ostras"
+  },
+  {
+   "name": "Clams",
+   "slug": "clams",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Littleneck Clam, Cherrystone Clam, Quahog, Manila Clam, Razor Clam, Geoduck"
+    },
+    {
+     "k": "Best For",
+     "v": "Steamed in broth, wine, or sauce — the cooking liquid becomes part of the dish."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The old rule to eat shellfish only in 'R' months (September–April) comes from warm-weather 'red tides,' algal blooms that make wild shellfish unsafe; modern farmed clams in monitored waters are safe year-round."
+    }
+   ],
+   "name_es": "Almejas"
+  },
+  {
+   "name": "Mussels & Scallops",
+   "slug": "mussels-scallops",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Blue Mussel, Green-Lipped Mussel, Mediterranean Mussel, Sea Scallop, Bay Scallop, Cockle"
+    },
+    {
+     "k": "Best For",
+     "v": "Mussels steam quickly in flavorful liquid; scallops sear best in a hot, dry pan."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "With seared scallops, dryness is everything — 'dry' (untreated) scallops brown into a golden crust, while 'wet' ones soaked in preservative just steam and never sear."
+    }
+   ],
+   "name_es": "Mejillones Y Vieiras"
+  },
+  {
+   "name": "Cephalopods",
+   "slug": "cephalopods",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Squid (Calamari), Octopus, Cuttlefish, Baby Octopus"
+    },
+    {
+     "k": "Best For",
+     "v": "Quick high-heat searing or long slow braising — anything in between turns them rubbery."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Squid and octopus have a narrow cooking window — cook them either very fast (seconds) or very slow (a long braise); anything in between turns them to rubber."
+    }
+   ],
+   "name_es": "Cefalópodos"
+  },
+  {
+   "name": "Snails & Specialties",
+   "slug": "snails-specialties",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Abalone, Conch, Whelk, Periwinkle, Sea Urchin (Uni), Sea Cucumber"
+    },
+    {
+     "k": "Best For",
+     "v": "Adventurous textures — often slow-cooked, tenderized, or served in small, intensely flavored bites."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Sea urchin is technically neither a fish nor a shellfish but an echinoderm — a spiny relative of the starfish — and the buttery 'uni' prized on sushi is actually its reproductive organs."
+    }
+   ],
+   "name_es": "Caracoles Y Especialidades"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "title": "Sake Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Grades & Styles"
+  },
+  {
+   "name": "Junmai Daiginjo & Daiginjo",
+   "slug": "daiginjo",
+   "rows": [
+    {
+     "k": "Polishing",
+     "v": "Rice polished to ≤50% (most milled away)"
+    },
+    {
+     "k": "",
+     "v": "Floral, fruity, light, elegant — the most aromatic sake"
+    },
+    {
+     "k": "Best for",
+     "v": "Sipping cold as an aperitif; showcasing the brewer's craft"
+    }
+   ],
+   "name_es": "Junmai Daiginjo y Daiginjo"
+  },
+  {
+   "name": "Junmai Ginjo & Ginjo",
+   "slug": "ginjo",
+   "rows": [
+    {
+     "k": "Polishing",
+     "v": "Rice polished to ≤60%"
+    },
+    {
+     "k": "",
+     "v": "Fruity, fragrant, smooth — the approachable premium tier"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Sushi, sashimi, light seafood, white fish"
+    }
+   ],
+   "name_es": "Junmai Ginjo y Ginjo"
+  },
+  {
+   "name": "Junmai & Honjozo",
+   "slug": "junmai",
+   "rows": [
+    {
+     "k": "Junmai",
+     "v": "rich, full-bodied, savory umami; Honjozo: lighter, slightly drier with added distilled alcohol"
+    },
+    {
+     "k": "Best for",
+     "v": "Food pairing — bold enough for grilled fish, fried dishes, yakitori"
+    },
+    {
+     "k": "Service",
+     "v": "Excellent warm or at room temperature (rare among premium sake)"
+    }
+   ],
+   "name_es": "Junmai y Honjozo"
+  },
+  {
+   "name": "Specialty Styles",
+   "slug": "specialty",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Nigori (unfiltered, cloudy), Namazake (unpasteurized, fresh), Genshu (undiluted, higher ABV), Sparkling Sake"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Nigori: creamy and sweet; Namazake: bright and lively; Genshu: bold and concentrated"
+    },
+    {
+     "k": "Best for",
+     "v": "Exploring beyond standard grades; Nigori is great with spicy food"
+    }
+   ],
+   "name_es": "Estilos Especiales"
+  },
+  {
+   "cat": "Service & Pairing"
+  },
+  {
+   "name": "Serving Temperatures",
+   "slug": "temperatures",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Snow-chilled (Yukibie, 41°F)"
+    },
+    {
+     "k": "",
+     "v": "Cool (Suzubie, 54°F)"
+    },
+    {
+     "k": "",
+     "v": "Room temp (Jōon, 68°F)"
+    },
+    {
+     "k": "",
+     "v": "Warm (Nurukan, 113°F)"
+    },
+    {
+     "k": "",
+     "v": "Hot (Atsukan, 122°F)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Chill premium (Daiginjo/Ginjo) to preserve aromatics; warm everyday Junmai or Honjozo to bring out savory depth"
+    }
+   ],
+   "name_es": "Temperaturas de Servicio"
+  },
+  {
+   "name": "Food Pairings",
+   "slug": "pairings",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Sushi & sashimi"
+    },
+    {
+     "k": "",
+     "v": "White fish & Daiginjo"
+    },
+    {
+     "k": "",
+     "v": "Fatty fish & Junmai"
+    },
+    {
+     "k": "",
+     "v": "Cheese (especially aged)"
+    },
+    {
+     "k": "",
+     "v": "Fried & rich dishes"
+    },
+    {
+     "k": "",
+     "v": "Caviar & roe"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Sake is highly food-friendly — its mild acidity and umami don't clash with seafood the way wine tannins can"
+    }
+   ],
+   "name_es": "Maridajes Gastronómicos"
+  },
+  {
+   "name": "Vessels & Etiquette",
+   "slug": "vessels",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Tokkuri (flask) + Ochoko (cup)"
+    },
+    {
+     "k": "",
+     "v": "Masu (cedar box)"
+    },
+    {
+     "k": "",
+     "v": "Wine glass for premium"
+    },
+    {
+     "k": "",
+     "v": "Sakazuki (flat ceremonial cup)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Pour for others, never yourself — wait to be poured for, then reciprocate. Kanpai means 'dry cup' — bottoms up!"
+    }
+   ],
+   "name_es": "Vasijas y Etiqueta"
+  }
+ ]
+}

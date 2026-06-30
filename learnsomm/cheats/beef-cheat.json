@@ -1,0 +1,179 @@
+{
+ "title": "Beef Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Chuck (Shoulder)",
+   "slug": "chuck-shoulder",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Chuck Roast, Flat Iron Steak, Denver Steak, Blade Steak"
+    },
+    {
+     "k": "Best For",
+     "v": "Low-and-slow braising and pot roasts — collagen melts into rich gelatin over hours."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The chuck primal contains some of the most well-exercised muscles on the cow, which is why cuts like chuck roast are so flavorful — but also why they need long, slow cooking to become tender."
+    }
+   ],
+   "name_es": "Paleta (Hombro)"
+  },
+  {
+   "name": "Rib (Upper Back)",
+   "slug": "rib-upper-back",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Ribeye Steak, Prime Rib (Standing Rib Roast), Back Ribs"
+    },
+    {
+     "k": "Best For",
+     "v": "High-heat grilling or roasting — exceptional marbling bastes the meat as it cooks."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The rib primal supplies only about 10 ribs total per side, and the prized ribeye comes from this small section — explaining why it commands such a premium price."
+    }
+   ],
+   "name_es": "Costilla (Lomo Alto)"
+  },
+  {
+   "name": "Loin (Mid-Back)",
+   "slug": "loin-mid-back",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Tenderloin (Filet Mignon), New York Strip, T-Bone, Porterhouse"
+    },
+    {
+     "k": "Best For",
+     "v": "Quick, high-heat searing to medium-rare — the most tender cuts on the animal."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The tenderloin muscle does so little work in a living cow that it accounts for less than 2% of the animal's total weight, yet it's often the most expensive cut at the butcher counter."
+    }
+   ],
+   "name_es": "Lomo (Lomo Medio)"
+  },
+  {
+   "name": "Sirloin (Rump)",
+   "slug": "sirloin-rump",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Sirloin Steak, Tri-Tip"
+    },
+    {
+     "k": "Best For",
+     "v": "Marinate, then grill or reverse-sear — leaner cuts that reward a flavor boost."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tri-tip was largely unknown outside of California until the 1950s, when a Santa Maria butcher began selling it as a steak instead of grinding it into hamburger."
+    }
+   ],
+   "name_es": "Cadera (Lomo Bajo)"
+  },
+  {
+   "name": "Round (Hind Leg)",
+   "slug": "round-hind-leg",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Top Round, Bottom Round, Eye of Round, Rump Roast"
+    },
+    {
+     "k": "Best For",
+     "v": "Roast to medium-rare and slice thin, or braise for tenderness — the leanest primal."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Because the round primal does so much work supporting the animal's weight, its muscles are some of the leanest on the cow — making them popular for health-conscious cuts like London broil."
+    }
+   ],
+   "name_es": "Pierna (Cuarto Trasero)"
+  },
+  {
+   "name": "Brisket (Chest)",
+   "slug": "brisket-chest",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Whole Brisket, Flat Cut, Point Cut"
+    },
+    {
+     "k": "Best For",
+     "v": "Low-and-slow smoking for 10+ hours — collagen breaks down into tender, sliceable meat."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A whole brisket can take 10-14 hours to smoke properly, and during that time it passes through a tough 'stall' phase before the collagen finally breaks down into tender gelatin."
+    }
+   ],
+   "name_es": "Pecho (Brisket)"
+  },
+  {
+   "name": "Short Plate (Belly)",
+   "slug": "short-plate-belly",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Skirt Steak, Hanger Steak, Short Ribs"
+    },
+    {
+     "k": "Best For",
+     "v": "Marinate and grill hot and fast, or braise low and slow — always slice against the grain."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Hanger steak gets its name because it 'hangs' from the diaphragm, and there's only one per animal — for years, butchers kept it for themselves rather than selling it."
+    }
+   ],
+   "name_es": "Falda Corta (Vientre)"
+  },
+  {
+   "name": "Flank (Lower Belly)",
+   "slug": "flank-lower-belly",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Flank Steak"
+    },
+    {
+     "k": "Best For",
+     "v": "Marinate, grill hot and fast to medium-rare, slice thin against the grain."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Flank steak's muscle fibers run in one direction the entire length of the cut, which is why slicing against the grain makes such a dramatic difference in tenderness."
+    }
+   ],
+   "name_es": "Falda (Vientre Bajo)"
+  },
+  {
+   "name": "Shank (Legs)",
+   "slug": "shank-legs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Soup Bones, Osso Buco, Stew Meat"
+    },
+    {
+     "k": "Best For",
+     "v": "Long, moist cooking — simmering or braising turns collagen into rich gelatin and stock."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The shank is so rich in collagen that simmering it for hours is one of the oldest methods humans have used to make gelatin — the same substance found in gummy candy."
+    }
+   ],
+   "name_es": "Morcillo (Piernas)"
+  }
+ ]
+}

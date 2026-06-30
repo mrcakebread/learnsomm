@@ -1,0 +1,1275 @@
+{
+ "title": "Tequila",
+ "subject": "tequila",
+ "categories": [
+  {
+   "name": "PLANTS",
+   "name_fr": "PLANTES",
+   "name_it": "PIANTE",
+   "name_es": "PLANTAS",
+   "color": "#3f8f5a",
+   "textColor": "#eaf6ec",
+   "sub": [
+    {
+     "name": "Agave",
+     "name_fr": "Agave",
+     "name_it": "Agave",
+     "name_es": "Agave",
+     "color": "#2f9e63",
+     "descriptors": [
+      {
+       "name": "Cooked Agave",
+       "name_fr": "Agave Cuit",
+       "name_it": "Agave Cotto",
+       "slug": "plants-agave-cooked-agave",
+       "name_es": "Agave Cocido",
+       "panel": {
+        "origin": "Maillard reaction and caramelization of agave fructans (agavins) during oven or autoclave roasting of the piña. Brick or adobe oven (horno) cooking produces deeper, more complex cooked notes than autoclave processing.",
+        "mixology": "Core to the identity of high-quality 100% agave tequila. Pairs naturally with citrus, salt, and spice. The foundation of a great Margarita.",
+        "examples": "Traditional producers using stone hornos; 100% blue agave blancos from Jalisco."
+       }
+      },
+      {
+       "name": "Raw Agave",
+       "name_fr": "Agave Cru",
+       "name_it": "Agave Crudo",
+       "slug": "plants-agave-raw-agave",
+       "name_es": "Agave Crudo",
+       "panel": {
+        "origin": "Chlorophylls, saponins, and raw fructan compounds from under-cooked or fresh agave. More prominent in rapidly processed agaves or diffuser-produced tequilas where cooking is incomplete.",
+        "mixology": "Can add a vegetal freshness but at high intensity may indicate diffuser production, which is controversial in quality circles.",
+        "examples": "Some industrial diffuser-produced tequilas; certain blancos rested briefly before bottling."
+       }
+      },
+      {
+       "name": "Agave Sweetness",
+       "name_fr": "Douceur d'Agave",
+       "name_it": "Dolcezza d'Agave",
+       "slug": "plants-agave-agave-sweetness",
+       "name_es": "Dulzor de Agave",
+       "panel": {
+        "origin": "Natural fructose and glucose from properly hydrolyzed agave fructans. Not to be confused with added sweeteners. Detectable as a clean, lingering sweetness on the mid-palate with herbal undertones.",
+        "mixology": "The benchmark of quality. In fine dining, highlight this characteristic by serving blanco neat or with a single ice sphere.",
+        "examples": "High-quality 100% blue agave blancos; estate-grown single-village expressions."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Vegetal",
+     "name_fr": "Végétal",
+     "name_it": "Vegetale",
+     "name_es": "Vegetal",
+     "color": "#63a84a",
+     "descriptors": [
+      {
+       "name": "Green Pepper",
+       "name_fr": "Poivron Vert",
+       "name_it": "Peperone Verde",
+       "slug": "plants-vegetal-green-pepper",
+       "name_es": "Pimiento Morrón",
+       "panel": {
+        "origin": "2-Isobutyl-3-methoxypyrazine (IBMP), an alkyl-methoxypyrazine. More characteristic of Lowland (valley) agaves grown in clay-loam soils at lower elevations. Marker compound for valley-region tequila.",
+        "mixology": "Adds a savory, herbaceous edge. Excellent in savory cocktails — pairs beautifully with Bloody Mary variations or vegetable-forward culinary applications.",
+        "examples": "Valley (Lowland) expressions from Tequila, Jalisco; brands sourcing from the valley floor."
+       }
+      },
+      {
+       "name": "Artichoke",
+       "name_fr": "Artichaut",
+       "name_it": "Carciofo",
+       "slug": "plants-vegetal-artichoke",
+       "name_es": "Alcachofa",
+       "panel": {
+        "origin": "Saponins and sesquiterpene lactones from the agave piña, particularly from the outer 'pencas' (leaves) incorporated during processing. More common in traditional tahona-ground tequilas where full piña contact occurs.",
+        "mixology": "A marker of traditional production. Works well in bitter aperitif contexts, pairing with Campari or Cynar.",
+        "examples": "Tahona-ground tequilas; traditional producers using full piña extraction."
+       }
+      },
+      {
+       "name": "Asparagus",
+       "name_fr": "Asperge",
+       "name_it": "Asparago",
+       "slug": "plants-vegetal-asparagus",
+       "name_es": "Espárrago",
+       "panel": {
+        "origin": "Dimethyl sulfide (DMS) at low levels combined with vegetal methoxypyrazines. Indicates valley terroir or partial fermentation of agave fiber. Not inherently a fault at low intensity.",
+        "mixology": "At low levels, adds savory complexity. At high intensity, can indicate sulfur stress. Use with umami-forward dishes.",
+        "examples": "Some valley-region blancos and silver expressions."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Herbal",
+     "name_fr": "Herbacé",
+     "name_it": "Erbaceo",
+     "color": "#8fba4f",
+     "descriptors": [
+      {
+       "name": "Mint",
+       "name_fr": "Menthe",
+       "name_it": "Menta",
+       "slug": "plants-herbal-mint",
+       "name_es": "Menta",
+       "panel": {
+        "origin": "Menthol-like terpene esters and cineole from agave's natural aromatic compounds. More often from highland blue agave grown in cooler climates, where terpene accumulation is favored.",
+        "mixology": "Natural companion to fresh herbs in cocktails. Excellent in a Tequila Mojito variation or mint-citrus spritz.",
+        "examples": "Some Los Altos single-estate blancos and reposados."
+       }
+      },
+      {
+       "name": "Eucalyptus",
+       "name_fr": "Eucalyptus",
+       "name_it": "Eucalipto",
+       "slug": "plants-herbal-eucalyptus",
+       "name_es": "Eucalipto",
+       "panel": {
+        "origin": "1,8-Cineole (eucalyptol), a monoterpene found in some agave varieties and transferred through careful distillation. A regional terroir marker, more common in highland expressions.",
+        "mixology": "Distinctive and polarizing. Use in cocktails with pine or juniper-forward spirits, or as a counterpoint to sweet fruit elements.",
+        "examples": "Some NOM-certified artisanal highland blancos from mature agave."
+       }
+      },
+      {
+       "name": "Chamomile",
+       "name_fr": "Camomille",
+       "name_it": "Camomilla",
+       "slug": "plants-herbal-chamomile",
+       "name_es": "Manzanilla",
+       "panel": {
+        "origin": "Bisabolol and apigenin-related compounds. Found in tequilas produced from agave harvested in the dry season, when aromatic compound concentration is at its peak.",
+        "mixology": "Pairs beautifully with honey, citrus, or chamomile tea reductions. Elegant in delicate, low-intervention cocktails.",
+        "examples": "Seasonal single-harvest expressions; limited dry-season collections."
+       }
+      },
+      {
+       "name": "Hay / Grass",
+       "name_fr": "Foin / Herbe",
+       "name_it": "Fieno / Erba",
+       "slug": "plants-herbal-hay-grass",
+       "name_es": "Heno / Pasto",
+       "panel": {
+        "origin": "cis-3-Hexen-1-ol and hexanal, characteristic 'green' aldehydes from the agave plant. Particularly found in blancos made from valley agave with minimal cooking time, preserving fresh plant volatiles.",
+        "mixology": "Adds natural freshness. Complements cucumber, celery, or green herb garnishes in farm-to-glass builds.",
+        "examples": "Valley-region blancos; some briefly rested reposados."
+       }
+      }
+     ],
+     "name_es": "Herbal"
+    }
+   ]
+  },
+  {
+   "name": "FRUIT",
+   "name_fr": "FRUITS",
+   "name_it": "FRUTTA",
+   "name_es": "FRUTA",
+   "color": "#ef9f33",
+   "textColor": "#4a2c00",
+   "sub": [
+    {
+     "name": "Tropical",
+     "name_fr": "Tropical",
+     "name_it": "Tropicale",
+     "name_es": "Tropical",
+     "color": "#f4b53c",
+     "descriptors": [
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "slug": "fruit-tropical-pineapple",
+       "name_es": "Piña",
+       "panel": {
+        "origin": "Ethyl butyrate and allyl hexanoate ester cascades. Produced during slow, temperature-controlled agave fermentation with selected Saccharomyces yeast strains. A classic highland blanco characteristic.",
+        "mixology": "Adds deep tropical complexity. The defining element of a Piña-forward Margarita. Connects seamlessly with fresh lime, agave nectars, or Mexican-style carbonated sodas.",
+        "examples": "Highland blancos from long, slow fermentation programs (5–7 days); single-estate Los Altos expressions."
+       }
+      },
+      {
+       "name": "Melon",
+       "name_fr": "Melon",
+       "name_it": "Melone",
+       "slug": "fruit-tropical-melon",
+       "name_es": "Melón",
+       "panel": {
+        "origin": "Light volatile esters (ethyl 2-methylbutanoate, cis-6-nonenal) from cool, temperature-controlled fermentation that keeps yeast unstressed; careful column distillation preserves these delicate compounds. A Lowland valley characteristic.",
+        "mixology": "An elegant, approachable characteristic. Ideal for delicate shaken cocktails where freshness is the central objective.",
+        "examples": "Lowland column-still blancos; modern valley-region silver expressions."
+       }
+      },
+      {
+       "name": "Banana",
+       "name_fr": "Banane",
+       "name_it": "Banana",
+       "slug": "fruit-tropical-banana",
+       "name_es": "Plátano",
+       "panel": {
+        "origin": "Isoamyl acetate at moderate concentrations — a natural fermentation ester from healthy, temperature-controlled Saccharomyces fermentation. In tequila context, this is a positive marker at low-moderate levels.",
+        "mixology": "Provides an appealing tropical top-note. Excellent in classic sours or refreshing long drinks with tropical fruit juices.",
+        "examples": "Highland estate blancos from slow fermentation; some pot-still Lowland expressions."
+       }
+      },
+      {
+       "name": "Coconut",
+       "name_fr": "Noix de Coco",
+       "name_it": "Cocco",
+       "slug": "fruit-tropical-coconut",
+       "name_es": "Coco",
+       "panel": {
+        "origin": "Gamma-octalactone and delta-decalactone extracted from first-fill American white oak (ex-bourbon) barrels during initial aging contact. A primary marker of new or first-fill American oak aging.",
+        "mixology": "Creates a natural creamy palate texture. Elevates classic highball builds or tropical cocktails without requiring artificial coconut products.",
+        "examples": "Reposados aged in first-fill American white oak; some blancos with very brief wood resting."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Stone Fruit",
+     "name_fr": "Fruit à Noyau",
+     "name_it": "Frutta con Nocciolo",
+     "color": "#ef9347",
+     "descriptors": [
+      {
+       "name": "Plum",
+       "name_fr": "Prune",
+       "name_it": "Prugna",
+       "slug": "fruit-stone-fruit-plum",
+       "name_es": "Ciruela",
+       "panel": {
+        "origin": "Ethyl hexanoate and organic acid-derived esters from extended maturation. Port-wine barrel finishing introduces additional phenolic anthocyanin-derived compounds that reinforce dark fruit character.",
+        "mixology": "Rich and luxurious. Ideal in stirred spirit-forward cocktails; pairs beautifully with game dishes, charcuterie, or dark-berry-forward pastry courses.",
+        "examples": "Añejo expressions finished in port or red wine casks."
+       }
+      },
+      {
+       "name": "Peach",
+       "name_fr": "Pêche",
+       "name_it": "Pesca",
+       "slug": "fruit-stone-fruit-peach",
+       "name_es": "Durazno",
+       "panel": {
+        "origin": "Gamma-undecalactone and gamma-decalactone from slow, cool maturation. Lactones are extracted from barrel wood or formed via esterification over extended periods in humidity-stable cellars.",
+        "mixology": "An elegant stone-fruit brightness. Complements vermouth-forward cocktail configurations or as a pairing with stone-fruit dessert courses.",
+        "examples": "Lightly aged reposados from traditional cellar environments; some highland expressions."
+       }
+      },
+      {
+       "name": "Cherry",
+       "name_fr": "Cerise",
+       "name_it": "Ciliegia",
+       "slug": "fruit-stone-fruit-cherry",
+       "name_es": "Cereza",
+       "panel": {
+        "origin": "Benzaldehyde (natural) combined with ethyl lactate from wine cask finishing. Sherry and red wine cask finishing programs concentrate dark fruit phenolics that are distinct from added cherry flavoring.",
+        "mixology": "Adds depth and dark fruit elements to stirred cocktails. Natural companion to a barrel-aged Tequila Manhattan or Negroni variation.",
+        "examples": "Añejo tequilas finished in sherry butts or Bordeaux-style red wine casks."
+       }
+      },
+      {
+       "name": "Apricot",
+       "name_fr": "Abricot",
+       "name_it": "Albicocca",
+       "slug": "fruit-stone-fruit-apricot",
+       "name_es": "Albaricoque",
+       "panel": {
+        "origin": "Gamma-undecalactone and beta-ionone via esterification in second-fill American or French oak. Lighter and more delicate than peach; requires stable, cool aging conditions.",
+        "mixology": "Brings a refined stone-fruit quality. Connects well with peach bitters, dry sherries, or herbal aperitifs in complex builds.",
+        "examples": "Traditional highland reposados in used oak; some short-contact añejo expressions."
+       }
+      },
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "fruit-stone-fruit-apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "Ethyl-2-methylbutanoate and hexyl acetate from early fermentation ester development. Temperature-regulated fermentation preserves these delicate esters through distillation into the spirit.",
+        "mixology": "Adds a bright, accessible top-note. Excellent in a Tequila Collins or refreshing long drink. Pairs with green apple garnishes and citrus.",
+        "examples": "Bright highland blancos from Los Altos; some early-harvest agave expressions."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "slug": "fruit-stone-fruit-pear",
+       "name_es": "Pera",
+       "panel": {
+        "origin": "Isoamyl acetate and ethyl acetate combination at low concentrations (distinct from 'banana' character when in balance). Produced in clean column-still blanco distillations with strict temperature control.",
+        "mixology": "Clean and energetic. Excellent for modifying classic sours or elegant elongated highballs. Pairs with Asian pear or yuzu-based components.",
+        "examples": "Modern continuous-column blancos from industrial highland or valley producers."
+       }
+      },
+      {
+       "name": "Cider",
+       "name_fr": "Cidre",
+       "name_it": "Sidro",
+       "slug": "fruit-stone-fruit-cider",
+       "name_es": "Sidra",
+       "panel": {
+        "origin": "Slightly oxidized apple ester groupings (acetaldehyde + ethyl acetate) from extended primary fermentation before distillation. A positive marker of traditional, unhurried fermentation.",
+        "mixology": "Brings a crisp, refreshing character. Helps soften bitter amari components or works alongside fresh citrus elements.",
+        "examples": "Artisanal pot-still blancos with extended fermentation periods (7+ days)."
+       }
+      }
+     ],
+     "name_es": "Fruta de Hueso"
+    },
+    {
+     "name": "Citrus",
+     "name_fr": "Agrumes",
+     "name_it": "Agrumi",
+     "name_es": "Cítricos",
+     "color": "#f5d04b",
+     "descriptors": [
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "slug": "fruit-citrus-orange",
+       "name_es": "Naranja",
+       "panel": {
+        "origin": "Octyl acetate and limonene esters from Blue Weber agave terpenoids, particularly well-expressed in traditional pot-still blancos. A characteristic agave marker compound.",
+        "mixology": "A natural bridge to Cointreau, Grand Marnier, or fresh orange in classic Margarita builds. Adds structural complexity without overpowering.",
+        "examples": "High-end pot-still blancos from traditional highland makers; some single-village expressions."
+       }
+      },
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "slug": "fruit-citrus-grapefruit",
+       "name_es": "Toronja",
+       "panel": {
+        "origin": "Limonene and nootkatone — the primary aroma compound of grapefruit — found in Blue Weber agave terpene fractions. Highland agaves have higher concentration of these terpenes due to cooler growing conditions.",
+        "mixology": "The definitive base character of the authentic Paloma cocktail. Pairs with grapefruit soda (Jarritos or Topo Chico Toronja), lime, and salt.",
+        "examples": "Highland pot-still blancos; Los Altos single-estate expressions."
+       }
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "slug": "fruit-citrus-lime",
+       "name_es": "Lima",
+       "panel": {
+        "origin": "Terpene compounds (limonene, citral) native to blue agave's volatile fraction, especially expressive in freshly distilled blancos from short, cool fermentations. A primary agave marker.",
+        "mixology": "The foundational pairing for authentic Margaritas and sour-format tequila cocktails. Highlights the natural citric acid structure of the spirit.",
+        "examples": "Standard 100% agave blanco/silver expressions across the category."
+       }
+      },
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "slug": "fruit-citrus-lemon",
+       "name_es": "Limón",
+       "panel": {
+        "origin": "Limonene and citral at slightly different ratios than lime, common in lighter, column-still extracted blancos where distillation temperature isolates lemon-dominant terpenes.",
+        "mixology": "Brings clean, citrus-forward energy. Excellent for modifying classic sours or in gin-adjacent tequila builds.",
+        "examples": "Modern industrial and semi-industrial blanco tequilas from valley column-still producers."
+       }
+      },
+      {
+       "name": "Marmalade",
+       "name_fr": "Marmelade d'Orange",
+       "name_it": "Marmellata d'Arancia",
+       "slug": "fruit-citrus-marmalade",
+       "name_es": "Mermelada de Naranja",
+       "panel": {
+        "origin": "Convergence of agave's own citrus terpenes (limonene, citral) with caramelized barrel sugars over extended cask exposure. The bitter-sweet balance is a natural result of barrel chemistry, not citrus additives.",
+        "mixology": "Imparts brilliant bitter-sweet complexity. Naturally elevates stirred cocktails — an excellent component in an El Presidente or Tequila Negroni variation.",
+        "examples": "Aged reposado expressions from highland producers; some managed in large-format traditional pipón barrels."
+       }
+      },
+      {
+       "name": "Orange Flavoring",
+       "name_fr": "Arôme d'Orange",
+       "name_it": "Aroma d'Arancia",
+       "slug": "fruit-citrus-orange-flavouring",
+       "name_es": "Saborizante de Naranja",
+       "panel": {
+        "origin": "Synthetic citrus additives (d-limonene isolates, citral concentrates) introduced post-distillation to mimic natural highland citrus character. Distinguishable by intensity and lack of accompanying aromatic complexity.",
+        "mixology": "Dominant character typically found in flavored or lower-quality commercial expressions. Balance with high-proof modifiers, cold-brew coffee, or savory food elements if used.",
+        "examples": "Flavored commercial tequilas; some lower-grade 'gold' joven blended expressions."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLOWERS",
+   "name_fr": "FLEURS",
+   "name_it": "FIORI",
+   "name_es": "FLORES",
+   "color": "#a983cc",
+   "textColor": "#2e1648",
+   "sub": [
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#b794d9",
+     "descriptors": [
+      {
+       "name": "Jasmine",
+       "name_fr": "Jasmin",
+       "name_it": "Gelsomino",
+       "slug": "flowers-floral-jasmine",
+       "name_es": "Jazmín",
+       "panel": {
+        "origin": "Linalool and benzyl acetate, volatile monoterpenes released from Blue Weber agave piñas during fermentation and carried through copper pot stills. Highland (Los Altos) agaves grown at higher elevations accumulate more terpenes.",
+        "mixology": "Elevates floral highballs or gin-style tequila serves. Pair with elderflower liqueur, tonic water, or a citrus wheel.",
+        "examples": "Highland/Los Altos pot-still blancos; single-estate expressions from Arandas or Atotonilco."
+       }
+      },
+      {
+       "name": "Orange Blossom",
+       "name_fr": "Fleur d'Oranger",
+       "name_it": "Fiori d'Arancio",
+       "slug": "flowers-floral-orange-blossom",
+       "name_es": "Azahar",
+       "panel": {
+        "origin": "Nerol and geraniol compounds from the agave plant itself, particularly stressed highland agaves grown in volcanic red clay soils. These terpenoids survive careful low-temperature distillation.",
+        "mixology": "Complements orange bitters, Cointreau, or dry sparkling wine. Excellent for a floral Paloma variation.",
+        "examples": "Premium single-origin Highland blancos; limited small-batch productions."
+       }
+      },
+      {
+       "name": "Lavender",
+       "name_fr": "Lavande",
+       "name_it": "Lavanda",
+       "slug": "flowers-floral-lavender",
+       "name_es": "Lavanda",
+       "panel": {
+        "origin": "Linalool at moderate concentrations. Found in some Highland and Valles tequilas. More common in mezcal relatives; in tequila it indicates careful fermentation temperature management and use of native yeast populations.",
+        "mixology": "Pairs well with honey syrups, chamomile teas, or lavender bitters. Suited to low-ABV aperitif-style serves.",
+        "examples": "Artisanal single-origin blancos; some NOM-certified heritage-method expressions."
+       }
+      },
+      {
+       "name": "Lilac",
+       "name_fr": "Lilas",
+       "name_it": "Lillà",
+       "slug": "flowers-floral-lilac",
+       "name_es": "Lila",
+       "panel": {
+        "origin": "A subset of linalool-dominant floral profiles with slight indole influence from agave's amino acid breakdown during fermentation. Delicate and volatile; easily lost with high-temperature distillation.",
+        "mixology": "Best appreciated neat or on the rocks to preserve aromatics. Adds elegance to stirred vermouth-based cocktails.",
+        "examples": "Micro-batch Highland blancos with open-air native yeast fermentation."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Perfumed",
+     "name_fr": "Parfumé",
+     "name_it": "Profumato",
+     "color": "#9f78c4",
+     "descriptors": [
+      {
+       "name": "Rose",
+       "name_fr": "Rose",
+       "name_it": "Rosa",
+       "slug": "flowers-perfumed-rose",
+       "name_es": "Rosa",
+       "panel": {
+        "origin": "Geraniol and citronellol from agave terpenoid profiles, heightened in highland agaves with extended field maturation (10–12 years). These phenolic rose-like notes are marker compounds for slow-grown agave.",
+        "mixology": "Natural companion to lychee, rose water, or dry Champagne. Used in premium presentation builds.",
+        "examples": "Estate blancos and single-village (pueblo) expressions from highland Jalisco."
+       }
+      },
+      {
+       "name": "Violet",
+       "name_fr": "Violette",
+       "name_it": "Viola",
+       "slug": "flowers-perfumed-violet",
+       "name_es": "Violeta",
+       "panel": {
+        "origin": "Beta-ionone (from carotenoid degradation) and certain phenolic compounds developed during agave maturation. Subtle; can emerge post-aeration in freshly poured blanco expressions.",
+        "mixology": "Elevates neat pours. Adds elegance to stirred martini-style cocktails when expressed.",
+        "examples": "Well-made pot-still blancos from mature (10+ year) agave."
+       }
+      },
+      {
+       "name": "Honeysuckle",
+       "name_fr": "Chèvrefeuille",
+       "name_it": "Caprifoglio",
+       "slug": "flowers-perfumed-honeysuckle",
+       "name_es": "Madreselva",
+       "panel": {
+        "origin": "Monoterpene esters (linalyl acetate, geranyl acetate) from highland agave combined with light fermentation esters. The combination creates a soft, sweet floral identity distinct from citrus florals.",
+        "mixology": "Excellent with honey syrup, chamomile, or ginger. Adds an approachable aromatic layer to sparkling builds.",
+        "examples": "Some highland reposados with minimal wood contact (2–3 months)."
+       }
+      }
+     ],
+     "name_es": "Perfumado"
+    }
+   ]
+  },
+  {
+   "name": "SPICE",
+   "name_fr": "ÉPICE",
+   "name_it": "SPEZIE",
+   "name_es": "ESPECIA",
+   "color": "#c2552f",
+   "textColor": "#ffe9d8",
+   "sub": [
+    {
+     "name": "Pungent",
+     "name_fr": "Piquant",
+     "name_it": "Pungente",
+     "name_es": "Picante",
+     "color": "#b54a2c",
+     "descriptors": [
+      {
+       "name": "Black Pepper",
+       "name_fr": "Poivre Noir",
+       "name_it": "Pepe Nero",
+       "slug": "spice-pungent-black-pepper",
+       "name_es": "Pimienta Negra",
+       "panel": {
+        "origin": "Rotundone (a sesquiterpene ketone). Can arise from agave's own sesquiterpene profile in valley-grown plants, or from heavy barrel extraction of spicy wood phenolics.",
+        "mixology": "Adds a warming, structured finish. Naturally complements savory cocktail applications and spice-forward food pairings.",
+        "examples": "Some valley-region blancos; medium-aged reposados with significant wood spice."
+       }
+      },
+      {
+       "name": "Anise",
+       "name_fr": "Anis",
+       "name_it": "Anice",
+       "slug": "spice-pungent-anise",
+       "name_es": "Anís",
+       "panel": {
+        "origin": "Trans-anethole and estragole from agave's own volatile compounds, most detectable in valley-region tequilas. Can also originate from wooden fermentation vat seasoning or herbal wild yeast influences.",
+        "mixology": "A bridge to anise-forward liqueurs (Pernod, Ancho Reyes). Use in herbaceous cocktail builds or alongside Mediterranean cuisine.",
+        "examples": "Some Lowland valley blancos; certain artisanal expressions using wooden fermentation vats."
+       }
+      },
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "spice-pungent-cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "Cinnamaldehyde extracted from oak barrel via long maturation. Levels increase substantially after 18+ months in barrel. Also from agave's phenolic pool in certain highland terroirs.",
+        "mixology": "Dominant in extra añejo and long-aged expressions. Natural affinity with apple, pear, and autumn-spiced cocktail programs.",
+        "examples": "Añejo (12–36 months) and extra añejo tequilas in American oak."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "spice-pungent-nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "Myristicin and elemicin from agave's own sesquiterpene volatiles, augmented by oak barrel compounds in aged expressions.",
+        "mixology": "A classical baking-spice note. Pairs with egg-white cocktails, cream-based ingredients, or mulled cider.",
+        "examples": "Long-aged extra añejo; some premium añejo expressions."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Warm",
+     "name_fr": "Chaud",
+     "name_it": "Caldo",
+     "color": "#d3703a",
+     "descriptors": [
+      {
+       "name": "Ginger",
+       "name_fr": "Gingembre",
+       "name_it": "Zenzero",
+       "slug": "spice-warm-ginger",
+       "name_es": "Jengibre",
+       "panel": {
+        "origin": "Zingiberene and shogaol-related sesquiterpenes. Detectable in highland tequilas from agave grown at high altitude with significant day/night temperature swings, which concentrate aromatic sesquiterpenes.",
+        "mixology": "Natural affinity with ginger beer in a Tequila Mule. Also excellent in spice-forward cocktails with cardamom or citrus.",
+        "examples": "Some high-altitude highland blancos and minimal-wood reposados."
+       }
+      },
+      {
+       "name": "Chili / Heat",
+       "name_fr": "Piment / Chaleur",
+       "name_it": "Peperoncino / Calore",
+       "slug": "spice-warm-chili-heat",
+       "name_es": "Chile / Picor",
+       "panel": {
+        "origin": "Not from capsaicin (which is non-volatile) but from high fusel-alcohol content (propanol, butanol) and ethanol heat perception. Agave's natural saponins can also contribute a warming sensation.",
+        "mixology": "Best integrated with fat (cream, nut milk) or diluted with carbonation. A defining sensory element of the traditional 'Spicy Margarita' category.",
+        "examples": "High-proof blancos; diffuser-produced tequilas with elevated fusel alcohol content."
+       }
+      },
+      {
+       "name": "Cardamom",
+       "name_fr": "Cardamome",
+       "name_it": "Cardamomo",
+       "slug": "spice-warm-cardamom",
+       "name_es": "Cardamomo",
+       "panel": {
+        "origin": "Alpha-terpinyl acetate and 1,8-cineole from both agave's aromatic compound profile and French oak barrel extraction.",
+        "mixology": "A sophisticated, exotic spice note. Bridges tequila into Indian or Middle Eastern spice cocktail applications. Excellent in a complex Sour build.",
+        "examples": "Some French oak-finished añejo expressions; premium estate blancos."
+       }
+      },
+      {
+       "name": "Star Anise",
+       "name_fr": "Anis Étoilé",
+       "name_it": "Anice Stellato",
+       "slug": "spice-warm-star-anise",
+       "name_es": "Anís Estrella",
+       "panel": {
+        "origin": "Trans-anethole at elevated concentration. In tequila, can arise from open fermentation with wild yeasts or from certain valley-grown blue agave terroirs.",
+        "mixology": "Dramatic and distinctive. Use sparingly as an accent in builds alongside orange, chocolate, or mole-spice applications.",
+        "examples": "Some valley-region blancos with wild yeast fermentation."
+       }
+      }
+     ],
+     "name_es": "Cálido"
+    }
+   ]
+  },
+  {
+   "name": "EARTH",
+   "name_fr": "TERRE",
+   "name_it": "TERRA",
+   "name_es": "TIERRA",
+   "color": "#86755a",
+   "textColor": "#f4efe2",
+   "sub": [
+    {
+     "name": "Mineral",
+     "name_fr": "Minéral",
+     "name_it": "Minerale",
+     "name_es": "Mineral",
+     "color": "#94907e",
+     "descriptors": [
+      {
+       "name": "Wet Stone",
+       "name_fr": "Pierre Mouillée",
+       "name_it": "Pietra Bagnata",
+       "slug": "earth-mineral-wet-stone",
+       "name_es": "Piedra Mojada",
+       "panel": {
+        "origin": "Petrichor-adjacent aroma from trace geosmin and reductive sulfur volatiles. Direct soil-to-glass mineral transfer is scientifically debated, but highland volcanic-clay terroir reliably correlates with this profile. Highland red volcanic clay is particularly associated with mineral character.",
+        "mixology": "Prized in fine dining contexts. Serve neat to showcase; pairs with oysters, ceviche, or mineral-driven white wines in pairing menus.",
+        "examples": "Highland estate expressions grown in volcanic clay; Los Altos single-village tequilas."
+       }
+      },
+      {
+       "name": "Flint",
+       "name_fr": "Silex",
+       "name_it": "Selce",
+       "slug": "earth-mineral-flint",
+       "name_es": "Pedernal",
+       "panel": {
+        "origin": "Volatile sulfurous mercaptans (at very low trace levels) combined with mineral silicate perceptions from highland volcanic terroir. Can be heightened by copper pot still contact.",
+        "mixology": "A complexity marker in the professional context. Pairs with charcuterie, aged cheeses, or oyster service.",
+        "examples": "Traditional copper alembic pot-still expressions from highland Jalisco."
+       }
+      },
+      {
+       "name": "Clay",
+       "name_fr": "Argile",
+       "name_it": "Argilla",
+       "slug": "earth-mineral-clay",
+       "name_es": "Arcilla",
+       "panel": {
+        "origin": "Earthy sesquiterpene alcohols absorbed from red clay volcanic soils specific to highland growing regions. A geographic terroir marker for Los Altos agave.",
+        "mixology": "Enhances the authenticity narrative for fine dining tequila programs. Serve neat or with a mineral water back.",
+        "examples": "Single-estate highland blancos; traditional Arandas and Atotonilco producers."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Earthy",
+     "name_fr": "Terreux",
+     "name_it": "Terroso",
+     "name_es": "Terroso",
+     "color": "#7d654a",
+     "descriptors": [
+      {
+       "name": "Mushroom",
+       "name_fr": "Champignon",
+       "name_it": "Fungo",
+       "slug": "earth-earthy-mushroom",
+       "name_es": "Champiñón",
+       "panel": {
+        "origin": "1-Octen-3-ol and related C8-alcohols from microbial activity during extended open-air fermentation in wooden vats (tinas de madera), or from wild yeast interactions.",
+        "mixology": "Uncommon in standard tequila; more characteristic of artisanal expressions. Pairs with umami-rich dishes, truffles, or earthy mushroom courses.",
+        "examples": "Artisanal producers using open-air wooden fermentation vats with wild yeasts."
+       }
+      },
+      {
+       "name": "Forest Floor",
+       "name_fr": "Sous-bois",
+       "name_it": "Sottobosco",
+       "slug": "earth-earthy-forest-floor",
+       "name_es": "Suelo de Bosque",
+       "panel": {
+        "origin": "Geosmin (trans-1,10-dimethyl-trans-9-decalol) at trace levels from microbial soil activity in agave root zones, combined with sesquiterpene compounds. Perception threshold is extremely low.",
+        "mixology": "Adds an intriguing, complex base note. Use in cocktails alongside fernet, aged bitter liqueurs, or in smoky-adjacent builds.",
+        "examples": "Terroir-expressive expressions from agave grown in mature, biodiverse soil ecosystems."
+       }
+      },
+      {
+       "name": "Petrol / Wax",
+       "name_fr": "Pétrole / Cire",
+       "name_it": "Petrolio / Cera",
+       "slug": "earth-earthy-petrol-wax",
+       "name_es": "Petróleo / Cera",
+       "panel": {
+        "origin": "Long-chain fatty acid ethyl esters from agave fiber fermentation. Can also result from fermentation of agave's waxy cuticle compounds. Low intensity is acceptable and adds complexity.",
+        "mixology": "At moderate levels, a complexity note. Pairs with fatty foods — seared meats, rich moles, or butter-based sauces.",
+        "examples": "Traditional pot-still blancos from Lowland producers; some tahona-made expressions."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Smoke",
+     "name_fr": "Fumée",
+     "name_it": "Fumo",
+     "color": "#6b6058",
+     "descriptors": [
+      {
+       "name": "Campfire",
+       "name_fr": "Feu de Camp",
+       "name_it": "Falò",
+       "slug": "earth-smoke-campfire",
+       "name_es": "Fogata",
+       "panel": {
+        "origin": "Phenolic compounds (guaiacol, syringol) from open-fire roasting of agave piñas. Rare in tequila proper (more common in mezcal) but exists in heritage-method tequilas using wood-fired hornos.",
+        "mixology": "A dramatic, statement characteristic. Pair with smoked salts, chipotle, or dark chocolate in cocktails. Exceptional with barbecued meats.",
+        "examples": "Heritage-method tequilas using wood-fired adobe hornos; some Lowland traditional producers."
+       }
+      },
+      {
+       "name": "Tobacco",
+       "name_fr": "Tabac",
+       "name_it": "Tabacco",
+       "slug": "earth-smoke-tobacco",
+       "name_es": "Tabaco",
+       "panel": {
+        "origin": "Furfural and pyrazine compounds from extended high-temperature agave cooking, combined with barrel aging. Can be natural; distinct from cigarette-smoke off-notes.",
+        "mixology": "Adds a sophisticated, aged-spirit character. Excellent with a cigar pairing, dark chocolate, or in an Old Fashioned-style tequila build.",
+        "examples": "Extra añejo expressions; some heavily-cooked traditional reposados."
+       }
+      }
+     ],
+     "name_es": "Humo"
+    }
+   ]
+  },
+  {
+   "name": "WOOD",
+   "name_fr": "BOIS",
+   "name_it": "LEGNO",
+   "name_es": "MADERA",
+   "color": "#a9762f",
+   "textColor": "#fff3da",
+   "sub": [
+    {
+     "name": "Oak",
+     "name_fr": "Chêne",
+     "name_it": "Quercia",
+     "color": "#b07c33",
+     "descriptors": [
+      {
+       "name": "Vanilla Bean",
+       "name_fr": "Gousse de Vanille",
+       "name_it": "Bacca di Vaniglia",
+       "slug": "wood-oak-vanilla-bean",
+       "name_es": "Vaina de Vainilla",
+       "panel": {
+        "origin": "Vanillin extracted from American white oak (Quercus alba) barrel lignin via oxidative esterification during aging. The primary vanilla note in reposado and añejo is natural — distinct from added vanillin. American oak contributes more vanillin than French oak.",
+        "mixology": "The connecting thread between aged tequila and classic cocktails (Old Fashioned, Manhattan). Works beautifully with chocolate, caramel, or stone-fruit pairings.",
+        "examples": "Reposado and añejo tequilas aged in used American white oak ex-bourbon barrels."
+       }
+      },
+      {
+       "name": "Caramel",
+       "name_fr": "Caramel",
+       "name_it": "Caramello",
+       "name_es": "Caramelo",
+       "slug": "wood-oak-caramel",
+       "panel": {
+        "origin": "Hemicellulose degradation during barrel toasting and spirit interaction with toasted oak staves. Natural caramel notes come from xylans breaking into furfural and caramelized sugars. Not to be confused with added caramel color (E150a), which is permitted in some mixto tequilas.",
+        "mixology": "The backbone of dessert cocktail applications. Pairs with brown butter, toffee pudding, or pecan-forward pastry courses.",
+        "examples": "Medium-aged reposados (6–9 months) in medium-toast American oak."
+       }
+      },
+      {
+       "name": "Toasted Oak",
+       "name_fr": "Chêne Grillé",
+       "name_it": "Quercia Tostata",
+       "slug": "wood-oak-toasted-oak",
+       "name_es": "Roble Tostado",
+       "panel": {
+        "origin": "Lactones, eugenol, and cis/trans-oak lactone from barrel char and toast levels. Medium-plus toast levels in used bourbon barrels produce characteristic toasted oak profiles in tequila aged 6+ months.",
+        "mixology": "A mark of genuine barrel integration. Ideal for neat service or in stirred, spirit-forward cocktails.",
+        "examples": "Reposado (2–9 months) and early añejo (12–18 months) expressions in previously used barrels."
+       }
+      },
+      {
+       "name": "Cedar",
+       "name_fr": "Cèdre",
+       "name_it": "Cedro",
+       "slug": "wood-oak-cedar",
+       "name_es": "Cedro",
+       "panel": {
+        "origin": "Thujaplicins and sesquiterpene alcohols from cedar-adjacent wood species occasionally used in Mexican cooperage (pipones). May also represent a subset of oak lactone perception.",
+        "mixology": "Adds a dry, structured quality. Works well with citrus-forward builds or as a modifier in spiced cocktails.",
+        "examples": "Some añejo tequilas aged in large-format traditional Mexican pipón barrels."
+       }
+      },
+      {
+       "name": "Sawdust",
+       "name_fr": "Sciure",
+       "name_it": "Segatura",
+       "slug": "wood-oak-sawdust",
+       "name_es": "Aserrín",
+       "panel": {
+        "origin": "Fresh wood aldehydes (hexanal, pentanal) from new or lightly used oak where extraction is primarily from raw wood rather than toasted barrel. Indicates first-fill or new oak contact.",
+        "mixology": "At low levels, adds a fresh wood character. Dominant sawdust can indicate over-oaking or use of new barrels with insufficient seasoning.",
+        "examples": "Reposados in new American oak; some extra añejo over-extraction scenarios."
+       }
+      }
+     ],
+     "name_es": "Roble"
+    },
+    {
+     "name": "Resinous",
+     "name_fr": "Résineux",
+     "name_it": "Resinoso",
+     "name_es": "Resinoso",
+     "color": "#8d6a2c",
+     "descriptors": [
+      {
+       "name": "Pine",
+       "name_fr": "Pin",
+       "name_it": "Pino",
+       "slug": "wood-resinous-pine",
+       "name_es": "Pino",
+       "panel": {
+        "origin": "Alpha-pinene, a monoterpene documented in agave's own volatile fraction and carried through distillation. Resinous impressions can also arise from heavily toasted oak; NOM rules require oak for aging, so true pine-wood contact would be non-compliant.",
+        "mixology": "An unusual but striking note. Use in cocktails alongside juniper or conifer-forward ingredients.",
+        "examples": "Terpene-rich highland blancos; some heavily toasted barrel programs."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "slug": "wood-resinous-clove",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "Eugenol — a key phenolic compound extracted from barrel oak. Eugenol is naturally occurring in barrel wood and is a primary marker of French oak contact and certain heavily toasted American oak programs.",
+        "mixology": "A natural bridge to holiday-spiced cocktails. Pairs with cinnamon, star anise, and warm spice profiles.",
+        "examples": "Añejo tequilas with French oak contact; heavily toasted barrel programs."
+       }
+      },
+      {
+       "name": "Incense",
+       "name_fr": "Encens",
+       "name_it": "Incenso",
+       "slug": "wood-resinous-incense",
+       "name_es": "Incienso",
+       "panel": {
+        "origin": "Guaiacol and related phenolics from medium-high barrel char. Also can derive from resinous wood compounds surviving distillation, particularly in copper pot-still productions.",
+        "mixology": "An austere, contemplative characteristic. Serve neat with a water drop. Pairs with dark chocolate or intense aged cheeses.",
+        "examples": "Extra añejo expressions from heavily charred or specialty wood barrels."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CONFECTION & NUT",
+   "name_fr": "CONFISERIE & FRUITS SECS",
+   "name_it": "DOLCI & FRUTTA SECCA",
+   "name_es": "DULCES Y FRUTOS SECOS",
+   "color": "#c79046",
+   "textColor": "#3c2406",
+   "sub": [
+    {
+     "name": "Confection",
+     "name_fr": "Confiserie",
+     "name_it": "Dolciumi",
+     "name_es": "Confitería",
+     "color": "#d09a4a",
+     "descriptors": [
+      {
+       "name": "Cocoa",
+       "name_fr": "Cacao",
+       "name_it": "Cacao",
+       "name_es": "Cacao",
+       "slug": "confection-nut-confection-cocoa",
+       "panel": {
+        "origin": "Pyrazines and phenolic compounds from Maillard reactions in heavily cooked agave piñas or long barrel contact with heavily charred oak. Natural development in extra añejo tequilas.",
+        "mixology": "Pairing anchor for chocolate dessert courses. Excellent in a Tequila Espresso Martini or as a complement to mole-based cuisine.",
+        "examples": "Extra añejo; añejo expressions in charred oak or specialty chocolate-wood programs."
+       }
+      },
+      {
+       "name": "Chocolate",
+       "name_fr": "Chocolat",
+       "name_it": "Cioccolato",
+       "name_es": "Chocolate",
+       "slug": "confection-nut-confection-chocolate",
+       "panel": {
+        "origin": "Theobromine-like bitterness perception from furanic compounds (furfural, HMF) produced in heavy agave roasting and long barrel maturation. Reinforced by French oak contact.",
+        "mixology": "Elevates stirred cocktail builds. Excellent with orange bitters, sweet vermouth, or as a pairing alongside dark-chocolate confections.",
+        "examples": "Long-aged añejo and extra añejo from highland producers using French oak."
+       }
+      },
+      {
+       "name": "Coffee Beans",
+       "name_fr": "Grains de Café",
+       "name_it": "Chicchi di Caffè",
+       "slug": "confection-nut-confection-coffee-beans",
+       "name_es": "Granos de Café",
+       "panel": {
+        "origin": "Pyrazine compounds — specifically 2-ethyl-3,5-dimethylpyrazine — developed during extended, high-temperature agave cooking (autoclave or direct-fire horno) and further concentrated through barrel aging.",
+        "mixology": "Perfect for espresso-adjacent cocktail builds. Complements coffee liqueurs, chocolate bitters, or dessert pairings.",
+        "examples": "Extra añejo and heavily-cooked traditional añejo expressions."
+       }
+      },
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "confection-nut-confection-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "Melanoidin compounds from Maillard browning of agave fructans during prolonged cooking, combined with wood-extracted glucose caramelization during aging. Molasses is also associated with used rum barrel finishing.",
+        "mixology": "Rich and complex. Use in tropical-influenced stirred cocktails or as a bridge ingredient to rum-style syrups.",
+        "examples": "Extra añejo; añejo finished in rum casks."
+       }
+      },
+      {
+       "name": "Cola",
+       "name_fr": "Cola",
+       "name_it": "Cola",
+       "name_es": "Cola",
+       "slug": "confection-nut-confection-cola",
+       "panel": {
+        "origin": "A convergence of cinnamon, citrus, and vanilla phenolics from barrel aging that mimics the botanical complexity of cola — natural chemistry, not added flavoring.",
+        "mixology": "A naturally accessible flavor bridge. Paired with actual cola (Tequila & Coke, Batanga cocktail) to create layered complexity.",
+        "examples": "Some añejo and reposado expressions with balanced barrel integration."
+       }
+      },
+      {
+       "name": "Vanilla Bean",
+       "name_fr": "Gousse de Vanille",
+       "name_it": "Bacca di Vaniglia",
+       "slug": "confection-nut-confection-vanilla-bean",
+       "name_es": "Vaina de Vainilla",
+       "panel": {
+        "origin": "Vanillin from American oak barrel lignin degradation during oxidative aging — the authentic version of vanilla in tequila. Distinct from added synthetic vanillin. Concentration increases with time in barrel.",
+        "mixology": "A fundamental pairing with rich, cream-based desserts, stone fruits, or in a classic Tequila Old Fashioned.",
+        "examples": "Reposado and añejo aged in ex-bourbon American oak barrels."
+       }
+      },
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "confection-nut-confection-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "Furfuryl alcohol and ethyl phenylacetate developed during yeast fermentation of agave fructans. Honey perception is a natural agave character — not from added honey — most pronounced in high-quality 100% agave expressions.",
+        "mixology": "Naturally pairs with honey-based syrups, bee-pollen garnishes, or in a honey-citrus sour. A signature characteristic for fine dining tequila programming.",
+        "examples": "High-quality highland blancos; some reposados with minimal barrel influence."
+       }
+      },
+      {
+       "name": "Caramel",
+       "name_fr": "Caramel",
+       "name_it": "Caramello",
+       "name_es": "Caramelo",
+       "slug": "confection-nut-confection-caramel",
+       "panel": {
+        "origin": "Caramelization of agave fructans during cooking combined with barrel-derived hemicellulose degradation products. Natural caramel in aged tequila is a product of chemistry — not of added caramel color.",
+        "mixology": "A crowd-pleasing characteristic that bridges casual and connoisseur palates. Pairs with salted caramel, pecan, or butterscotch dessert courses.",
+        "examples": "Reposado (6–9 months) and younger añejo expressions in used American oak."
+       }
+      },
+      {
+       "name": "Dulce de Leche",
+       "name_fr": "Dulce de Leche",
+       "name_it": "Dulce de Leche",
+       "name_es": "Dulce de Leche",
+       "slug": "confection-nut-confection-dulce-de-leche",
+       "panel": {
+        "origin": "A convergence of Maillard-produced lactones and caramelized fructan compounds concentrated by multi-year barrel aging. A hallmark of long-aged extra añejo expressions.",
+        "mixology": "A dessert spirit in itself. Serve neat or over a single large ice cube as a digestif. Pairs with flan, churros, or light cheesecake courses.",
+        "examples": "Premium extra añejo expressions aged 3+ years in American or French oak."
+       }
+      },
+      {
+       "name": "Toffee",
+       "name_fr": "Caramel au Beurre",
+       "name_it": "Toffee",
+       "slug": "confection-nut-confection-toffee",
+       "name_es": "Toffee",
+       "panel": {
+        "origin": "Buttery diacetyl combined with caramelized sugar-derived furans from barrel aging. Diacetyl, produced during malolactic-adjacent reactions, is a natural aging byproduct.",
+        "mixology": "A rich, dessert-forward profile. Use in cream-forward cocktails or pair with buttery pastry courses.",
+        "examples": "Older añejo expressions; extra añejo finished in previously used bourbon barrels."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "Frutos Secos",
+     "color": "#b1804b",
+     "descriptors": [
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "confection-nut-nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Benzaldehyde and benzyl alcohol formed during barrel oxidation of agave's aromatic aldehydes. In aged tequila, natural almond character develops from micro-oxygenation through the barrel stave over 12+ months.",
+        "mixology": "The natural companion to orgeat (almond syrup) in a Tommy's Margarita variation or in a refined sour build.",
+        "examples": "Añejo tequilas in medium-used American oak (second or third-fill barrels)."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "confection-nut-nutty-hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "Strecker aldehydes from amino acid degradation during multi-year oxidative aging. Specifically phenylacetaldehyde and related carbonyl compounds formed in the headspace of long-aged barrels.",
+        "mixology": "A sophisticated note most appropriate in neat service or paired with praline, dark chocolate, or rich cheese courses.",
+        "examples": "Extra añejo expressions aged in French oak, or aged 3+ years in American oak."
+       }
+      },
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "confection-nut-nutty-walnut",
+       "name_es": "Nuez",
+       "panel": {
+        "origin": "Oxidized lipid compounds (long-chain fatty acid ketones) from extended head-space air contact in partially-filled aging casks over multiple years. A marker of long, slow oxidative maturation.",
+        "mixology": "Adds a dry, tannic quality. Useful for counterbalancing sweet vermouths or rich liqueurs in complex stirred builds.",
+        "examples": "Ultra-aged (5+ year) extra añejo tequilas with significant evaporative loss (the 'angel's share')."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CHEMICAL",
+   "name_fr": "CHIMIQUE",
+   "name_it": "CHIMICO",
+   "name_es": "QUÍMICO",
+   "color": "#5e8fa3",
+   "textColor": "#e9f4f9",
+   "sub": [
+    {
+     "name": "Solventy",
+     "name_fr": "Solvant",
+     "name_it": "Solvente",
+     "name_es": "Solvente",
+     "color": "#5d8da0",
+     "descriptors": [
+      {
+       "name": "Acetone",
+       "name_fr": "Acétone",
+       "name_it": "Acetone",
+       "slug": "chemical-solventy-acetone",
+       "name_es": "Acetona",
+       "panel": {
+        "origin": "Produced by incomplete fermentation or stressed yeast during high-temperature ferments. Acetone (propanone) is a ketone associated with poor distillation cuts where heads fractions are not cleanly separated.",
+        "mixology": "A fault descriptor — not desirable in quality tequila. If detected, indicates improper cuts or contamination. Should not be served or used in any craft application.",
+        "examples": "Poorly produced mixto tequilas or spirits with inadequate heads separation."
+       }
+      },
+      {
+       "name": "Alcohol",
+       "name_fr": "Alcool",
+       "name_it": "Alcol",
+       "name_es": "Alcohol",
+       "slug": "chemical-solventy-alcohol",
+       "panel": {
+        "origin": "Ethanol is the primary alcohol produced during agave sugar fermentation by Saccharomyces cerevisiae yeasts. Hot alcohol burn indicates high-proof distillation or under-rested spirit.",
+        "mixology": "Highly perceptible in blancos served at high proof (>42% ABV). Dilution, ice, or carbonated mixers integrate it. Crucial to disclose proof level to guests.",
+        "examples": "High-proof limited-edition blancos; overproof expressions (>46% ABV)."
+       }
+      },
+      {
+       "name": "Plastic",
+       "name_fr": "Plastique",
+       "name_it": "Plastica",
+       "slug": "chemical-solventy-plastic",
+       "name_es": "Plástico",
+       "panel": {
+        "origin": "Associated with styrene or chlorophenol contamination from poorly maintained plastic fermentation vats or process water. A fault indicator.",
+        "mixology": "A clear quality defect. Should not be served. Indicates production hygiene issues.",
+        "examples": "Low-grade mixto tequilas from industrial producers with older equipment."
+       }
+      },
+      {
+       "name": "Rubber",
+       "name_fr": "Caoutchouc",
+       "name_it": "Gomma",
+       "slug": "chemical-solventy-rubber",
+       "name_es": "Hule",
+       "panel": {
+        "origin": "Sulfurous compounds (dimethyl sulfide, DMS) combined with mercaptans produced by sulfur-stressed yeast or contaminated water sources. A recognized fault descriptor.",
+        "mixology": "Fault note. Not recommended for service. If mild, carbonated citrus mixers can mask it, but this is not a solution for professional service.",
+        "examples": "Mass-produced mixto or column-distilled tequilas from stressed fermentations."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Artificial",
+     "name_fr": "Artificiel",
+     "name_it": "Artificiale",
+     "name_es": "Artificial",
+     "color": "#7aa3b4",
+     "descriptors": [
+      {
+       "name": "Vanilla Flavoring",
+       "name_fr": "Arôme de Vanille",
+       "name_it": "Aroma di Vaniglia",
+       "slug": "chemical-artificial-vanilla-flavoring",
+       "name_es": "Saborizante de Vainilla",
+       "panel": {
+        "origin": "Synthetic vanillin (as distinct from natural vanilla) added post-distillation. Under CRT regulations, 100% agave tequila cannot legally contain additives exceeding approved thresholds — this flavor signals either additive use under the 1% rule or illicit flavoring.",
+        "mixology": "If artificial vanilla is detectable, the product may not be 100% pure agave. Check NOM number and producer transparency.",
+        "examples": "Flavored tequila expressions; some 'gold' or 'joven' mixto products."
+       }
+      },
+      {
+       "name": "Cherry Flavoring",
+       "name_fr": "Arôme de Cerise",
+       "name_it": "Aroma di Ciliegia",
+       "slug": "chemical-artificial-cherry-flavoring",
+       "name_es": "Saborizante de Cereza",
+       "panel": {
+        "origin": "Benzaldehyde added artificially, distinct from naturally occurring benzaldehyde from agave esters or barrel contact. A fault or additive marker in the CRT sensory framework.",
+        "mixology": "More common in flavored tequilas marketed to casual consumers. Not a mark of quality in the professional context.",
+        "examples": "Flavored line extensions; mass-market 'gold' tequilas."
+       }
+      },
+      {
+       "name": "Almond Flavoring",
+       "name_fr": "Arôme d'Amande",
+       "name_it": "Aroma di Mandorla",
+       "slug": "chemical-artificial-almond-flavoring",
+       "name_es": "Saborizante de Almendra",
+       "panel": {
+        "origin": "Synthetic benzaldehyde added as a flavoring, as opposed to natural aldehydic development through barrel aging. Distinguishable by its intensity and lack of accompanying wood complexity.",
+        "mixology": "May complement dessert cocktails but is a negative quality indicator in premium tequila evaluation.",
+        "examples": "Inexpensive mixto or flavored tequila products."
+       }
+      },
+      {
+       "name": "Bubble Gum",
+       "name_fr": "Chewing-gum",
+       "name_it": "Gomma da Masticare",
+       "slug": "chemical-artificial-bubble-gum",
+       "name_es": "Chicle",
+       "panel": {
+        "origin": "Isoamyl acetate at elevated concentrations — often from over-stressed yeast or artificially induced ester profiles. In low amounts, isoamyl acetate is normal; at bubble-gum intensity it suggests fermentation problems or additive use.",
+        "mixology": "Acceptable in tiny amounts in fresh blancos. At strong intensity, signals a production issue.",
+        "examples": "Some industrial blancos; poorly temperature-controlled fermentations."
+       }
+      },
+      {
+       "name": "Sweetener",
+       "name_fr": "Édulcorant",
+       "name_it": "Dolcificante",
+       "slug": "chemical-artificial-sweetener",
+       "name_es": "Edulcorante",
+       "panel": {
+        "origin": "Perception of added sugar, glycerin, or other approved softening additives under the NOM 'abocado' rule, which permits up to 1% by volume of sweeteners, glycerin, caramel color, and oak extract. Detectable as a slick, syrupy mouthfeel beyond agave's natural sweetness.",
+        "mixology": "If present artificially, it can mask lower quality. Disclosure matters in Michelin-level service. Pair with bitter or acidic elements to counterbalance.",
+        "examples": "Some reposado and añejo expressions using CRT-permitted additives; many widely-distributed brands."
+       }
+      },
+      {
+       "name": "Cream Soda",
+       "name_fr": "Soda à la Crème",
+       "name_it": "Cream Soda",
+       "slug": "chemical-artificial-cream-soda",
+       "name_es": "Refresco de Vainilla",
+       "panel": {
+        "origin": "A combination of artificial vanilla, caramel color, and glycerin-like mouthfeel — typically from additive stacking rather than single-source. Common in ultra-aged or 'extra añejo' products that use multiple permitted additives.",
+        "mixology": "Can be pleasant to casual consumers. In fine dining, it signals inauthenticity. Use as a food-friendly, dessert-pairing spirit rather than a cocktail base.",
+        "examples": "Heavily marketed extra añejo expressions; some cristalino (filtered) tequilas."
+       }
+      },
+      {
+       "name": "Banana Flavoring",
+       "name_fr": "Arôme de Banane",
+       "name_it": "Aroma di Banana",
+       "slug": "chemical-artificial-banana-flavoring",
+       "name_es": "Saborizante de Plátano",
+       "panel": {
+        "origin": "Synthetic isoamyl acetate added at commercially perceptible levels, distinct from naturally fermented banana esters. Often used in flavored tequila line extensions.",
+        "mixology": "Common in flavored expressions. Not appropriate for serious tasting evaluations.",
+        "examples": "Flavored tequila products; some budget mixto blends."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "PLANTS": {
+   "en": "Agave, vegetal and herbal notes are tequila's signature — they tell you this is an agave spirit through and through. Cooked or roasted agave flavors usually mean traditional production.",
+   "es": "Las notas de agave, vegetales y herbales son la firma del tequila — te dicen que estás ante un destilado de agave de cabo a rabo. Los sabores de agave cocido o asado suelen indicar una producción tradicional."
+  },
+  "FRUIT": {
+   "en": "Tropical, stone fruit and citrus notes come from fermentation esters and the agave itself — bright fruit usually signals a well-made blanco or reposado.",
+   "es": "Las notas tropicales, de fruta de hueso y cítricas provienen de los ésteres de la fermentación y del propio agave — la fruta brillante suele indicar un blanco o reposado bien elaborado."
+  },
+  "FLOWERS": {
+   "en": "Floral and perfumed notes — violet, rose, orange blossom — are markers of careful, slow fermentation and quality distillation, often found in premium blancos.",
+   "es": "Las notas florales y perfumadas — violeta, rosa, azahar — son señales de una fermentación cuidadosa y lenta y una destilación de calidad, frecuentes en blancos premium."
+  },
+  "SPICE": {
+   "en": "Pungent and warm spice notes — black pepper, clove, cinnamon — develop with light oak aging (reposado) or come from the agave's own natural compounds.",
+   "es": "Las notas picantes y cálidas de especia — pimienta negra, clavo, canela — se desarrollan con un ligero añejamiento en roble (reposado) o provienen de los compuestos naturales del propio agave."
+  },
+  "EARTH": {
+   "en": "Mineral, earthy and smoky notes connect tequila to its terroir — the volcanic soils of Jalisco and the traditional stone or underground ovens used to cook agave.",
+   "es": "Las notas minerales, terrosas y ahumadas conectan al tequila con su terruño — los suelos volcánicos de Jalisco y los hornos de piedra o subterráneos tradicionales usados para cocer el agave."
+  },
+  "WOOD": {
+   "en": "Oak and resinous notes come from barrel aging — the longer a tequila rests in wood (reposado, añejo, extra añejo), the more these notes develop.",
+   "es": "Las notas de roble y resinosas provienen del añejamiento en barrica — cuanto más tiempo descansa un tequila en madera (reposado, añejo, extra añejo), más se desarrollan estas notas."
+  },
+  "CONFECTION & NUT": {
+   "en": "Caramel, vanilla, chocolate and nutty notes are signs of extended barrel aging — common in añejo and extra añejo tequilas.",
+   "es": "Las notas a caramelo, vainilla, chocolate y frutos secos son señales de un añejamiento prolongado en barrica — comunes en los tequilas añejo y extra añejo."
+  },
+  "CHEMICAL": {
+   "en": "Solventy or artificial notes — nail polish, rubber, plastic — are usually FAULTS from fermentation or distillation issues, though a touch of 'alcohol heat' is normal in unaged blancos.",
+   "es": "Las notas solventes o artificiales — quitaesmalte, hule, plástico — suelen ser DEFECTOS de la fermentación o la destilación, aunque un toque de 'calor alcohólico' es normal en los blancos sin añejar."
+  }
+ }
+}

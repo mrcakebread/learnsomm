@@ -1,0 +1,498 @@
+{
+ "title": "Vodka",
+ "subject": "vodka",
+ "categories": [
+  {
+   "name": "FEEL",
+   "name_fr": "SENSATION",
+   "name_it": "SENSAZIONE",
+   "name_es": "SENSACIÓN",
+   "color": "#3a5c8a",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Irritation",
+     "name_fr": "Irritation",
+     "name_it": "Irritazione",
+     "color": "#4a72a8",
+     "descriptors": [
+      {
+       "name": "Spritz",
+       "name_fr": "Effervescence",
+       "name_it": "Effervescenza",
+       "slug": "spritz",
+       "name_es": "Efervescencia"
+      },
+      {
+       "name": "Tingle",
+       "name_fr": "Picotement",
+       "name_it": "Formicolio",
+       "slug": "tingle",
+       "name_es": "Hormigueo"
+      },
+      {
+       "name": "Pepper",
+       "name_fr": "Poivre",
+       "name_it": "Pepe",
+       "slug": "pepper",
+       "name_es": "Pimienta"
+      },
+      {
+       "name": "Chilli",
+       "name_fr": "Piment",
+       "name_it": "Peperoncino",
+       "slug": "chilli",
+       "name_es": "Picante"
+      }
+     ],
+     "name_es": "Irritación"
+    },
+    {
+     "name": "Heat",
+     "name_fr": "Chaleur",
+     "name_it": "Calore",
+     "color": "#5585be",
+     "descriptors": [
+      {
+       "name": "Hot",
+       "name_fr": "Ardent",
+       "name_it": "Caldo",
+       "slug": "hot",
+       "name_es": "Caliente"
+      },
+      {
+       "name": "Warm",
+       "name_fr": "Chaud",
+       "name_it": "Caldo",
+       "slug": "warm",
+       "name_es": "Tibio"
+      }
+     ],
+     "name_es": "Calor"
+    },
+    {
+     "name": "Texture",
+     "name_fr": "Texture",
+     "name_it": "Consistenza",
+     "color": "#3f6898",
+     "descriptors": [
+      {
+       "name": "Creamy",
+       "name_fr": "Crémeux",
+       "name_it": "Cremoso",
+       "name_es": "Cremoso",
+       "slug": "creamy"
+      },
+      {
+       "name": "Syrup",
+       "name_fr": "Sirop",
+       "name_it": "Sciroppo",
+       "slug": "syrup",
+       "name_es": "Almibarado"
+      }
+     ],
+     "name_es": "Textura"
+    },
+    {
+     "name": "Weight",
+     "name_fr": "Poids",
+     "name_it": "Peso",
+     "color": "#345a88",
+     "descriptors": [
+      {
+       "name": "Viscous",
+       "name_fr": "Visqueux",
+       "name_it": "Viscoso",
+       "slug": "viscous",
+       "name_es": "Viscoso"
+      },
+      {
+       "name": "Full",
+       "name_fr": "Plein",
+       "name_it": "Pieno",
+       "slug": "full",
+       "name_es": "Pleno"
+      },
+      {
+       "name": "Thin",
+       "name_fr": "Mince",
+       "name_it": "Sottile",
+       "slug": "thin",
+       "name_es": "Ligero"
+      },
+      {
+       "name": "Watery",
+       "name_fr": "Aqueux",
+       "name_it": "Acquoso",
+       "slug": "watery",
+       "name_es": "Acuoso"
+      }
+     ],
+     "name_es": "Peso"
+    }
+   ]
+  },
+  {
+   "name": "ASTRINGENCY",
+   "name_fr": "ASTRINGENCE",
+   "name_it": "ASTRINGENZA",
+   "name_es": "ASTRINGENCIA",
+   "color": "#2e7a5e",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Particulate",
+     "name_fr": "Particules",
+     "name_it": "Particolato",
+     "color": "#3a9470",
+     "descriptors": [
+      {
+       "name": "Powder",
+       "name_fr": "Poudre",
+       "name_it": "Polvere",
+       "slug": "powder",
+       "name_es": "Polvo"
+      },
+      {
+       "name": "Plaster",
+       "name_fr": "Plâtre",
+       "name_it": "Gesso",
+       "slug": "plaster",
+       "name_es": "Yeso"
+      },
+      {
+       "name": "Dusty",
+       "name_fr": "Poussiéreux",
+       "name_it": "Polveroso",
+       "slug": "dusty",
+       "name_es": "Polvoriento"
+      },
+      {
+       "name": "Grainy",
+       "name_fr": "Granuleux",
+       "name_it": "Granuloso",
+       "slug": "grainy",
+       "name_es": "Granuloso"
+      },
+      {
+       "name": "Chalky",
+       "name_fr": "Crayeux",
+       "name_it": "Gessoso",
+       "slug": "chalky",
+       "name_es": "Gredoso"
+      },
+      {
+       "name": "Sawdust",
+       "name_fr": "Sciure",
+       "name_it": "Segatura",
+       "slug": "sawdust",
+       "name_es": "Aserrín"
+      }
+     ],
+     "name_es": "Partículas"
+    },
+    {
+     "name": "Surface Smoothness",
+     "name_fr": "Onctuosité",
+     "name_it": "Levigatezza",
+     "color": "#339468",
+     "descriptors": [
+      {
+       "name": "Furry",
+       "name_fr": "Pelucheux",
+       "name_it": "Vellutato",
+       "slug": "furry",
+       "name_es": "Afelpado"
+      },
+      {
+       "name": "Fine Emery",
+       "name_fr": "Émeri Fin",
+       "name_it": "Smeriglio Fine",
+       "slug": "fine-emery",
+       "name_es": "Esmeril Fino"
+      },
+      {
+       "name": "Velvet",
+       "name_fr": "Velours",
+       "name_it": "Velluto",
+       "slug": "velvet",
+       "name_es": "Terciopelo"
+      },
+      {
+       "name": "Suede",
+       "name_fr": "Daim",
+       "name_it": "Camoscio",
+       "slug": "suede",
+       "name_es": "Ante"
+      },
+      {
+       "name": "Silk",
+       "name_fr": "Soie",
+       "name_it": "Seta",
+       "slug": "silk",
+       "name_es": "Seda"
+      },
+      {
+       "name": "Chamois",
+       "name_fr": "Chamois",
+       "name_it": "Camoscio",
+       "slug": "chamois",
+       "name_es": "Gamuza"
+      },
+      {
+       "name": "Satin",
+       "name_fr": "Satin",
+       "name_it": "Raso",
+       "slug": "satin",
+       "name_es": "Satín"
+      }
+     ],
+     "name_es": "Suavidad Superficial"
+    },
+    {
+     "name": "Complex",
+     "name_fr": "Complexe",
+     "name_it": "Complesso",
+     "color": "#2d8862",
+     "descriptors": [
+      {
+       "name": "Soft",
+       "name_fr": "Doux",
+       "name_it": "Morbido",
+       "slug": "soft",
+       "name_es": "Suave"
+      },
+      {
+       "name": "Supple",
+       "name_fr": "Souple",
+       "name_it": "Morbido",
+       "slug": "supple",
+       "name_es": "Flexible"
+      },
+      {
+       "name": "Fleshy",
+       "name_fr": "Charnu",
+       "name_it": "Polposo",
+       "slug": "fleshy",
+       "name_es": "Carnoso"
+      },
+      {
+       "name": "Mouthcoat",
+       "name_fr": "Enrobant",
+       "name_it": "Avvolgente",
+       "slug": "mouthcoat",
+       "name_es": "Recubrimiento Bucal"
+      },
+      {
+       "name": "Rich",
+       "name_fr": "Riche",
+       "name_it": "Ricco",
+       "slug": "rich",
+       "name_es": "Untuoso"
+      }
+     ],
+     "name_es": "Complejidad"
+    },
+    {
+     "name": "Drying",
+     "name_fr": "Asséchant",
+     "name_it": "Astringente",
+     "color": "#277a57",
+     "descriptors": [
+      {
+       "name": "Numbing",
+       "name_fr": "Anesthésiant",
+       "name_it": "Anestetizzante",
+       "slug": "numbing",
+       "name_es": "Adormecedor"
+      },
+      {
+       "name": "Parching",
+       "name_fr": "Asséchant",
+       "name_it": "Disseccante",
+       "slug": "parching",
+       "name_es": "Resecante"
+      },
+      {
+       "name": "Dry",
+       "name_fr": "Sec",
+       "name_it": "Secco",
+       "slug": "dry",
+       "name_es": "Seco"
+      },
+      {
+       "name": "Packer",
+       "name_fr": "Compactant",
+       "name_it": "Compattante",
+       "slug": "packer",
+       "name_es": "Compactante"
+      }
+     ],
+     "name_es": "Secante"
+    },
+    {
+     "name": "Dynamic",
+     "name_fr": "Dynamique",
+     "name_it": "Dinamico",
+     "color": "#226c4e",
+     "descriptors": [
+      {
+       "name": "Grippy",
+       "name_fr": "Accrocheur",
+       "name_it": "Tannico",
+       "slug": "grippy",
+       "name_es": "Adherente"
+      },
+      {
+       "name": "Chewy",
+       "name_fr": "Mâcheux",
+       "name_it": "Masticabile",
+       "slug": "chewy",
+       "name_es": "Masticable"
+      },
+      {
+       "name": "Adhesive",
+       "name_fr": "Adhésif",
+       "name_it": "Adesivo",
+       "slug": "adhesive",
+       "name_es": "Adhesivo"
+      }
+     ],
+     "name_es": "Dinámica"
+    },
+    {
+     "name": "Harsh",
+     "name_fr": "Âpre",
+     "name_it": "Aspro",
+     "color": "#1e6045",
+     "descriptors": [
+      {
+       "name": "Hard",
+       "name_fr": "Dur",
+       "name_it": "Duro",
+       "slug": "hard",
+       "name_es": "Duro"
+      },
+      {
+       "name": "Aggressive",
+       "name_fr": "Agressif",
+       "name_it": "Aggressivo",
+       "slug": "aggressive",
+       "name_es": "Agresivo"
+      },
+      {
+       "name": "Abrasive",
+       "name_fr": "Abrasif",
+       "name_it": "Abrasivo",
+       "slug": "abrasive",
+       "name_es": "Abrasivo"
+      }
+     ],
+     "name_es": "Aspereza"
+    },
+    {
+     "name": "Flavour",
+     "name_fr": "Saveur",
+     "name_it": "Sapore",
+     "color": "#195440",
+     "descriptors": [
+      {
+       "name": "Metallic",
+       "name_fr": "Métallique",
+       "name_it": "Metallico",
+       "slug": "metallic",
+       "name_es": "Metálico"
+      },
+      {
+       "name": "Steely",
+       "name_fr": "Acéré",
+       "name_it": "Acciaioso",
+       "slug": "steely",
+       "name_es": "Aceroso"
+      },
+      {
+       "name": "Soapy",
+       "name_fr": "Savonneux",
+       "name_it": "Saponoso",
+       "slug": "soapy",
+       "name_es": "Jabonoso"
+      }
+     ],
+     "name_es": "Sabor"
+    },
+    {
+     "name": "Concentration",
+     "name_fr": "Concentration",
+     "name_it": "Concentrazione",
+     "color": "#144838",
+     "descriptors": [
+      {
+       "name": "Acidity",
+       "name_fr": "Acidité",
+       "name_it": "Acidità",
+       "slug": "acidity",
+       "name_es": "Acidez"
+      }
+     ],
+     "name_es": "Concentración"
+    },
+    {
+     "name": "Activity",
+     "name_fr": "Activité",
+     "name_it": "Attività",
+     "color": "#103c30",
+     "descriptors": [
+      {
+       "name": "Lift",
+       "name_fr": "Élévation",
+       "name_it": "Slancio",
+       "slug": "lift",
+       "name_es": "Elevación"
+      }
+     ],
+     "name_es": "Actividad"
+    },
+    {
+     "name": "Unripe",
+     "name_fr": "Vert",
+     "name_it": "Acerbo",
+     "color": "#0d3028",
+     "descriptors": [
+      {
+       "name": "Green",
+       "name_fr": "Vert",
+       "name_it": "Verde",
+       "slug": "green",
+       "name_es": "Verde"
+      },
+      {
+       "name": "Sappy",
+       "name_fr": "Séveux",
+       "name_it": "Linfatico",
+       "slug": "sappy",
+       "name_es": "Herbáceo"
+      },
+      {
+       "name": "Resinous",
+       "name_fr": "Résineux",
+       "name_it": "Resinoso",
+       "name_es": "Resinoso",
+       "slug": "resinous"
+      }
+     ],
+     "name_es": "Verde / Inmaduro"
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FEEL": {
+   "en": "FEEL covers everything your mouth senses through touch and temperature rather than taste — the prickle of CO₂, the burn of alcohol, the weight and texture on your tongue. These cues tell you about a vodka's production quality and style before you even get to flavor.",
+   "es": "SENSACIÓN abarca todo lo que tu boca percibe por tacto y temperatura, no por sabor — el hormigueo del CO₂, el ardor del alcohol, el peso y la textura en la lengua. Estas pistas te dicen mucho sobre la calidad de producción y el estilo de un vodka antes de llegar al sabor."
+  },
+  "ASTRINGENCY": {
+   "en": "ASTRINGENCY describes the drying, gripping, or textural sensations vodka leaves behind — from silky and smooth to chalky, grippy, or downright abrasive. In a spirit that's supposed to be 'clean,' these textures are often the clearest signal of how well it was distilled and filtered.",
+   "es": "ASTRINGENCIA describe las sensaciones secantes, adherentes o texturales que deja el vodka — desde sedosas y suaves hasta gredosas, adherentes o francamente abrasivas. En un destilado que debería ser 'limpio', estas texturas suelen ser la señal más clara de qué tan bien se destiló y filtró."
+  }
+ }
+}

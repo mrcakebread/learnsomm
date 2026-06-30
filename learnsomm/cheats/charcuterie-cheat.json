@@ -1,0 +1,141 @@
+{
+ "title": "Charcuterie Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Dry-Cured Hams",
+   "slug": "dry-cured-hams",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Prosciutto di Parma, Prosciutto di San Daniele, Jamón Serrano, Jamón Ibérico, Speck, Jambon de Bayonne, Culatello, Country Ham"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Sliced paper-thin and served simply — let the cure's flavor speak for itself."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The finest Jamón Ibérico comes from black-hoofed pigs fattened on acorns — 'pata negra' — and a single leg can age for years before it's ready to slice."
+    }
+   ],
+   "name_es": "Jamones Curados"
+  },
+  {
+   "name": "Cured Whole-Muscle Cuts",
+   "slug": "cured-whole-muscle-cuts",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Coppa, Lomo, Pancetta, Guanciale, Bresaola, Cecina, Lardo"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Sliced thin as a starter — pairs beautifully with crusty bread and pickles."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Guanciale — not bacon or pancetta — is the traditional cut for a real carbonara or amatriciana: cured pork jowl, richer and more delicate than belly."
+    }
+   ],
+   "name_es": "Cortes Enteros Curados"
+  },
+  {
+   "name": "Italian Salami",
+   "slug": "italian-salami",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Milano Salami, Napoli Salami, Genoa Salami, Soppressata, Finocchiona, Ventricina"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "A board staple — their fat content means they pair well with acidic pickles and wine."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Finocchiona was born of thrift — when black pepper was rare and costly in Tuscany, makers reached for cheap, local fennel, and the fennel salami became a classic."
+    }
+   ],
+   "name_es": "Salamis Italianos"
+  },
+  {
+   "name": "Spanish Sausages",
+   "slug": "spanish-sausages",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Chorizo, Fuet, Salchichón, Sobrasada"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Often grilled or pan-fried (fresh varieties) or sliced thin (cured) — bold, paprika-forward flavors."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "What makes chorizo red isn't chili but pimentón — Spanish smoked paprika — which arrived from the New World in the 16th century and reinvented Spanish curing."
+    }
+   ],
+   "name_es": "Embutidos Españoles"
+  },
+  {
+   "name": "French Sausages",
+   "slug": "french-sausages",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Saucisson Sec, Rosette de Lyon, Saucisse de Morteau, Saucisse de Montbéliard"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Air-dried and ready to slice — a classic apéritif companion with cornichons and mustard."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Morteau sausage is smoked in a 'tuyé,' a tall pyramid farmhouse chimney, over conifer wood — and sealed at one end with a little wooden peg that proves it's the real thing."
+    }
+   ],
+   "name_es": "Embutidos Franceses"
+  },
+  {
+   "name": "Pâtés, Terrines & Spreads",
+   "slug": "p-t-s-terrines-spreads",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Pâté de Campagne, Rillettes, Nduja, Pâté en Croûte, Terrine, Fromage de Tête"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Spread on toasted bread or crackers — pair with something acidic to cut the richness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "'Fromage de tête' — head cheese — contains no cheese at all; it's meat from a whole simmered pig's head set in its own savory jelly."
+    }
+   ],
+   "name_es": "Patés, Terrinas Y Untables"
+  },
+  {
+   "name": "Cooked & Smoked",
+   "slug": "cooked-smoked",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mortadella, Bacon, Galantine, Boudin Noir, Kielbasa, Frankfurter"
+    },
+    {
+     "k": "Best Paired With",
+     "v": "Ready to eat as-is or with minimal cooking — the most approachable entry point on the board."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The word 'charcuterie' comes from the French for 'cooked flesh,' and the humble hot dog is a direct descendant — a finely emulsified, smoked sausage in the grand charcutier tradition."
+    }
+   ],
+   "name_es": "Cocidos Y Ahumados"
+  }
+ ]
+}

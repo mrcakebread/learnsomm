@@ -1,0 +1,873 @@
+{
+ "title": "Living With & Supporting Neurodivergence — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "EXECUTIVE FUNCTION"
+  },
+  {
+   "name": "Executive Function",
+   "slug": "executive-function",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The brain's 'management system' — the mental skills for planning, organizing, starting and finishing tasks, managing time, holding information in mind, and regulating yourself."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "When it's struggling: knowing what to do but not doing it, missing deadlines despite caring, messy systems, forgotten steps, and a frustrating gap between intention and action."
+    },
+    {
+     "k": "Strengths",
+     "v": "When supported, the same brain often brings creative, non-linear thinking and the ability to improvise brilliantly outside rigid procedures. Strong crisis performance is common."
+    },
+    {
+     "k": "Supports",
+     "v": "Don't rely on the internal manager — build an external one. Visible lists, calendars, alarms, and checklists. Reduce the number of steps and decisions. Self-blame makes it worse; systems make it better."
+    }
+   ],
+   "name_es": "Executive Function",
+   "name_fr": "Executive Function",
+   "name_it": "Executive Function"
+  },
+  {
+   "name": "Working Memory",
+   "slug": "working-memory",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The mental 'sticky note' that holds information in mind while you use it — remembering a phone number while dialing, or the start of a sentence while finishing it."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Walking into a room and forgetting why, losing track mid-task, forgetting the second half of instructions, or losing a thought the moment you're interrupted. Things genuinely vanish from mind."
+    },
+    {
+     "k": "Strengths",
+     "v": "People with limited working memory often develop creative workarounds and strong systems, and many are excellent at big-picture or intuitive leaps that don't depend on holding many details."
+    },
+    {
+     "k": "Supports",
+     "v": "Write everything down immediately. Capture thoughts the instant they appear. One instruction at a time, in writing. Voice memos, sticky notes, and 'second brain' apps externalize what working memory can't hold."
+    }
+   ],
+   "name_es": "Working Memory",
+   "name_fr": "Working Memory",
+   "name_it": "Working Memory"
+  },
+  {
+   "name": "Task Initiation",
+   "slug": "task-initiation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The ability to *start* a task — one of the executive functions most affected in ADHD. The gap isn't motivation or caring; the brain struggles to shift from 'not doing' to 'doing,' even for tasks you want to do."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Sitting down to start and… not starting. Scrolling instead of beginning. Knowing exactly what to do and feeling stuck behind invisible glass. Often worst for boring, ambiguous, or large tasks."
+    },
+    {
+     "k": "Strengths",
+     "v": "Once started, many people with initiation difficulty hit flow and produce excellent, fast work — the barrier is the doorway, not the room."
+    },
+    {
+     "k": "Supports",
+     "v": "Shrink the first step until it's almost too small to refuse ('open the document'). Use timers, body doubling, and 'just five minutes.' Lower the activation energy: reduce friction, prep the environment, and ride momentum once it starts."
+    }
+   ],
+   "name_es": "Task Initiation",
+   "name_fr": "Task Initiation",
+   "name_it": "Task Initiation"
+  },
+  {
+   "name": "Task Paralysis",
+   "slug": "task-paralysis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A state of being frozen and unable to act, often when facing too many options, an overwhelming task, or competing priorities. Common in ADHD and autism — the brain stalls rather than choosing a path."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Staring at a to-do list and doing none of it, feeling overwhelmed into stillness, or shutting down when everything feels equally urgent. The more important the task, sometimes the stronger the freeze."
+    },
+    {
+     "k": "Strengths",
+     "v": "It often reflects a mind that sees many possibilities and consequences at once — a depth of processing that, channeled well, supports thorough thinking."
+    },
+    {
+     "k": "Supports",
+     "v": "Reduce choices: pick one tiny thing and do only that. Externalize the list so it's not all in your head. Brain-dump everything, then choose a single next action. Self-kindness unfreezes faster than self-criticism."
+    }
+   ],
+   "name_es": "Task Paralysis",
+   "name_fr": "Task Paralysis",
+   "name_it": "Task Paralysis"
+  },
+  {
+   "name": "Time Blindness",
+   "slug": "time-blindness",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Difficulty sensing the passage of time and estimating how long things take — a hallmark of ADHD. Time tends to feel like only 'now' and 'not now,' making planning, punctuality, and deadlines genuinely hard rather than careless."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Losing hours to an absorbing task, chronically underestimating how long things take, being late despite trying, or not feeling a deadline as real until it's imminent. The future stays abstract until it's suddenly the present."
+    },
+    {
+     "k": "Strengths",
+     "v": "An intense relationship with the present moment can fuel deep immersion, flow, and living fully in the now — valuable in creative and hands-on work."
+    },
+    {
+     "k": "Supports",
+     "v": "Make time visible: analog clocks, visual timers, alarms for everything, and calendar alerts with buffers. Time tasks to learn your real estimates. Treat 'when' as something to externalize, not feel."
+    }
+   ],
+   "name_es": "Time Blindness",
+   "name_fr": "Time Blindness",
+   "name_it": "Time Blindness"
+  },
+  {
+   "name": "Task/Object 'Out of Sight'",
+   "slug": "object-permanence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A common ADHD experience (loosely named) where things out of sight fall out of mind — tasks, objects, even people. If you can't see it, your brain acts as if it doesn't exist, which affects memory, follow-through, and staying in touch."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Forgetting produce rotting in a drawer, a friend you haven't texted in months (not from not caring), or a task the moment it leaves the screen. 'Out of sight, out of mind' taken literally."
+    },
+    {
+     "k": "Strengths",
+     "v": "When things *are* visible, this same brain can be intensely engaged and attentive. It rewards good visual systems."
+    },
+    {
+     "k": "Supports",
+     "v": "Keep things visible: clear containers, open shelving, things left out on purpose, and visual reminders. Recurring alarms for people and tasks. Design your environment so important things stay in sight."
+    }
+   ],
+   "name_es": "Task/Object 'Out of Sight'",
+   "name_fr": "Task/Object 'Out of Sight'",
+   "name_it": "Task/Object 'Out of Sight'"
+  },
+  {
+   "cat": "ATTENTION & FOCUS"
+  },
+  {
+   "name": "Hyperfocus",
+   "slug": "hyperfocus",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A state of intense, absorbed concentration on something engaging — common in ADHD and autism. The flip side of attention difficulty: when interest is high, focus can become so deep that time, hunger, and the outside world disappear."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Losing hours on a fascinating project, forgetting to eat or sleep, not hearing someone calling your name, and producing huge amounts of work in a burst — but struggling to switch out of it."
+    },
+    {
+     "k": "Strengths",
+     "v": "A genuine superpower when aimed well: deep work, mastery, creative breakthroughs, and productivity others can't match. Much great work comes from hyperfocus."
+    },
+    {
+     "k": "Supports",
+     "v": "Channel it toward what matters with timers and reminders to eat, move, and stop. Set alarms to break out of it. Protect it for important work, and build in transitions so it doesn't derail the rest of life."
+    }
+   ],
+   "name_es": "Hyperfocus",
+   "name_fr": "Hyperfocus",
+   "name_it": "Hyperfocus"
+  },
+  {
+   "name": "Attention Regulation",
+   "slug": "attention-regulation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The more accurate way to understand ADHD attention: not a *lack* of attention, but difficulty *regulating* it — directing it on demand, sustaining it on dull tasks, and shifting it when needed."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Unable to focus on a boring report, yet absorbed for hours in a hobby. Drifting in meetings but locked onto a crisis. The control dial, not the attention itself, is what works differently."
+    },
+    {
+     "k": "Strengths",
+     "v": "When interest aligns with the task, focus can be exceptional. Understanding this lets people design lives that point their attention at the right things."
+    },
+    {
+     "k": "Supports",
+     "v": "Make important tasks more engaging (novelty, challenge, urgency, play), pair boring tasks with interest, and build in stakes and structure. Work *with* the interest-driven brain rather than fighting it."
+    }
+   ],
+   "name_es": "Attention Regulation",
+   "name_fr": "Attention Regulation",
+   "name_it": "Attention Regulation"
+  },
+  {
+   "name": "Interest-Based Nervous System",
+   "slug": "interest-based",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A way of describing the ADHD (and often autistic) nervous system: it's powered by interest, novelty, challenge, urgency, and passion — not by importance or rewards alone."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Effortless energy for fascinating things, a wall of resistance for boring-but-important ones, and last-minute bursts of productivity when urgency finally makes a task 'real.'"
+    },
+    {
+     "k": "Strengths",
+     "v": "Tremendous drive, creativity, and output when genuinely engaged. People in interest-aligned work or study often dramatically outperform."
+    },
+    {
+     "k": "Supports",
+     "v": "Engineer interest and urgency into necessary tasks: gamify, add novelty, create deadlines and accountability, and connect dull tasks to something you care about. Design life around what naturally engages you."
+    }
+   ],
+   "name_es": "Interest-Based Nervous System",
+   "name_fr": "Interest-Based Nervous System",
+   "name_it": "Interest-Based Nervous System"
+  },
+  {
+   "name": "Distractibility",
+   "slug": "distractibility",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A tendency for attention to be pulled away by external stimuli (sounds, movement, notifications) or internal ones (thoughts, ideas). Part of how the ADHD brain scans broadly rather than filtering tightly."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Losing your train of thought, jumping between tasks, following tangents, or noticing everything in a busy room. Internal distractions (a sudden idea) can be as pulling as external ones."
+    },
+    {
+     "k": "Strengths",
+     "v": "Broad attention means noticing things others miss, making unexpected connections, and a constant flow of ideas. Many creative leaps come from a mind that wanders."
+    },
+    {
+     "k": "Supports",
+     "v": "Reduce friction and noise: quiet or controlled environments, noise-cancelling headphones, notifications off, single-tasking, and a capture system for stray ideas so they don't derail you. Work with your attention's natural rhythm."
+    }
+   ],
+   "name_es": "Distractibility",
+   "name_fr": "Distractibility",
+   "name_it": "Distractibility"
+  },
+  {
+   "name": "Context Switching",
+   "slug": "context-switching",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The mental effort of shifting from one task or mode to another. Often harder and more costly for neurodivergent people — leaving an absorbing task or changing plans can be genuinely jarring rather than trivial."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Difficulty stopping one thing to start another, irritation at interruptions, needing 'wind-up' and 'wind-down' time, and feeling thrown by unexpected changes to plans."
+    },
+    {
+     "k": "Strengths",
+     "v": "The flip side is the capacity for deep, sustained immersion — minds that don't switch easily often go further into one thing."
+    },
+    {
+     "k": "Supports",
+     "v": "Batch similar tasks together, build transition time between activities, give yourself (and others) advance warning of changes, and use rituals to move between modes. Protect deep work from constant switching."
+    }
+   ],
+   "name_es": "Context Switching",
+   "name_fr": "Context Switching",
+   "name_it": "Context Switching"
+  },
+  {
+   "cat": "EMOTION & SOCIAL"
+  },
+  {
+   "name": "Rejection Sensitivity (RSD)",
+   "slug": "rejection-sensitivity",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Rejection Sensitive Dysphoria (RSD) is an intense, painful emotional reaction to perceived rejection, criticism, or failure — strongly associated with ADHD."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A small criticism landing like a crushing blow, replaying perceived slights, avoiding risks for fear of failure, people-pleasing to prevent rejection, and sudden emotional swings after social interactions."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often paired with deep empathy, attunement to others, conscientiousness, and care about relationships. The sensitivity that hurts also reflects how much a person feels and cares."
+    },
+    {
+     "k": "Supports",
+     "v": "Naming it helps ('this is RSD, not reality'). Self-compassion, reframing, reality-checking with trusted people, and pacing reactions before acting. For some, professional support and treatment help significantly."
+    }
+   ],
+   "name_es": "Rejection Sensitivity (RSD)",
+   "name_fr": "Rejection Sensitivity (RSD)",
+   "name_it": "Rejection Sensitivity (RSD)"
+  },
+  {
+   "name": "Emotional Regulation",
+   "slug": "emotional-regulation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The ability to manage the intensity and expression of emotions. Often harder in ADHD and autism — emotions can arrive fast, strong, and hard to modulate. It's a skill difference, not immaturity or drama."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Big feelings that hit quickly, difficulty calming down once activated, intense reactions, and emotions that can hijack focus and decisions. The volume knob works differently."
+    },
+    {
+     "k": "Strengths",
+     "v": "Emotional intensity can mean passion, empathy, enthusiasm, and deep, authentic feeling. Channeled well, it fuels creativity and connection."
+    },
+    {
+     "k": "Supports",
+     "v": "Notice and name feelings early, build in pause-before-acting, use movement and sensory tools to discharge intensity, and develop a personal toolkit (breathing, breaks, co-regulation). Therapy can help build regulation skills."
+    }
+   ],
+   "name_es": "Emotional Regulation",
+   "name_fr": "Emotional Regulation",
+   "name_it": "Emotional Regulation"
+  },
+  {
+   "name": "Masking",
+   "slug": "masking",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Consciously or unconsciously hiding neurodivergent traits to appear 'normal' — suppressing stims, forcing eye contact, scripting conversations, mimicking others."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Performing a 'normal' version of yourself in public, then crashing in private; not knowing who you are under the mask; intense fatigue after socializing; and anxiety about being 'found out.'"
+    },
+    {
+     "k": "Strengths",
+     "v": "Masking often reflects real social insight, adaptability, and effort. The skills underneath (observation, learning social patterns) are genuine — the goal is to need them less, not to erase them."
+    },
+    {
+     "k": "Supports",
+     "v": "Safe spaces to unmask, relationships where you don't have to perform, recovery time after masking, and gradually letting authentic traits show where it's safe. Self-acceptance reduces the need to mask; community helps enormously."
+    }
+   ],
+   "name_es": "Masking",
+   "name_fr": "Masking",
+   "name_it": "Masking"
+  },
+  {
+   "name": "Autistic/ADHD Burnout",
+   "slug": "burnout",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Autistic or ADHD burnout is a state of deep exhaustion from prolonged masking, overstimulation, and operating in a world not built for your brain."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Profound fatigue, reduced ability to do things that were once manageable, increased sensory sensitivity, more shutdowns or meltdowns, brain fog, and loss of skills. Often follows long periods of pushing through."
+    },
+    {
+     "k": "Strengths",
+     "v": "Recovering from burnout often teaches people their real limits and needs, leading to more sustainable, authentic lives afterward."
+    },
+    {
+     "k": "Supports",
+     "v": "Rest — real, unmasked rest. Reduce demands and sensory load, drop non-essentials, lower expectations temporarily, and rebuild slowly. Prevention is key: pace yourself, unmask where safe, and honor your capacity before you hit the wall."
+    }
+   ],
+   "name_es": "Autistic/ADHD Burnout",
+   "name_fr": "Autistic/ADHD Burnout",
+   "name_it": "Autistic/ADHD Burnout"
+  },
+  {
+   "name": "Overwhelm & Shutdown",
+   "slug": "overwhelm",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "When demands (sensory, emotional, cognitive, or social) exceed capacity, the nervous system can tip into overwhelm — leading to shutdown (going quiet, withdrawn, unable to respond) or meltdown (an involuntary overflow of distress)."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Shutting down and going nonverbal, needing to escape, crying or anger that feels uncontrollable, or freezing. It often comes after a buildup, not from a single cause, and isn't a choice."
+    },
+    {
+     "k": "Strengths",
+     "v": "People who experience overwhelm often develop strong self-awareness over time and powerful insight into their own needs and limits."
+    },
+    {
+     "k": "Supports",
+     "v": "Prevent buildup: reduce sensory and demand load, take breaks before reaching the edge, and learn your early warning signs. In the moment: safety, quiet, sensory relief, and no pressure to explain or perform."
+    }
+   ],
+   "name_es": "Overwhelm & Shutdown",
+   "name_fr": "Overwhelm & Shutdown",
+   "name_it": "Overwhelm & Shutdown"
+  },
+  {
+   "name": "Social Battery",
+   "slug": "social-energy",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The 'social battery' — the finite energy available for social interaction, which often drains faster for neurodivergent people, especially when masking."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Enjoying time with people but needing to recharge alone afterward, hitting a wall partway through events, and needing more recovery time than others seem to. Group settings and small talk can be especially draining."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often means deep one-on-one connection, meaningful conversation over small talk, and rich relationships once energy is spent wisely."
+    },
+    {
+     "k": "Supports",
+     "v": "Budget social energy like a real resource: plan recovery time, give yourself permission to leave, choose depth over breadth, and build in quiet. Knowing your limits prevents the crash."
+    }
+   ],
+   "name_es": "Social Battery",
+   "name_fr": "Social Battery",
+   "name_it": "Social Battery"
+  },
+  {
+   "cat": "SENSORY & REGULATION"
+  },
+  {
+   "name": "Stimming",
+   "slug": "stimming",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Self-stimulatory behavior — repetitive movements or sounds (hand-flapping, rocking, fidgeting, humming, repeating words) that help regulate emotion, focus, and sensory input."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Fidgeting, bouncing, tapping, flapping, rocking, twirling hair, repeating sounds or phrases — often during excitement, stress, concentration, or joy. It usually feels good and calming."
+    },
+    {
+     "k": "Strengths",
+     "v": "Stimming is a healthy self-regulation tool. It helps manage overwhelm, sharpen focus, and express joy. Honoring it supports wellbeing rather than something to suppress."
+    },
+    {
+     "k": "Supports",
+     "v": "Acceptance first — stimming is helpful, not a problem to fix. Provide stim-friendly tools (fidgets, movement, textures) and stim-friendly spaces."
+    }
+   ],
+   "name_es": "Stimming",
+   "name_fr": "Stimming",
+   "name_it": "Stimming"
+  },
+  {
+   "name": "Sensory Overload",
+   "slug": "sensory-overload",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "When one or more senses receive more input than the brain can process — too much noise, light, touch, smell, or activity at once. The result is distress, difficulty thinking, and sometimes shutdown or meltdown."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Feeling assaulted by a noisy, bright, crowded place; covering ears or eyes; needing to escape; irritability and inability to think; and exhaustion afterward. The 'volume' of the world becomes painful."
+    },
+    {
+     "k": "Strengths",
+     "v": "Heightened senses also mean rich appreciation of music, art, taste, and detail, and noticing subtle things others miss."
+    },
+    {
+     "k": "Supports",
+     "v": "Reduce input proactively: noise-cancelling headphones, sunglasses, quiet spaces, and exits from overwhelming environments. Know your triggers, plan around them, and build in sensory breaks before reaching overload."
+    }
+   ],
+   "name_es": "Sensory Overload",
+   "name_fr": "Sensory Overload",
+   "name_it": "Sensory Overload"
+  },
+  {
+   "name": "Sensory Seeking",
+   "slug": "sensory-seeking",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The flip side of overload — a drive for *more* sensory input. Some neurodivergent people (often in ADHD) crave movement, deep pressure, intense flavors, loud music, or strong sensations to feel regulated and alert."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Constant movement, fidgeting, crashing or seeking deep pressure, loving spicy or sour foods, turning music up, and feeling understimulated or restless without enough input."
+    },
+    {
+     "k": "Strengths",
+     "v": "Sensory seekers often bring energy, enthusiasm, and a love of movement, sport, music, and hands-on experience. The drive for input fuels real engagement."
+    },
+    {
+     "k": "Supports",
+     "v": "Provide healthy input: exercise, movement breaks, weighted blankets, fidget tools, deep pressure, and stimulating environments when appropriate. Meeting the need on purpose prevents restlessness and improves focus."
+    }
+   ],
+   "name_es": "Sensory Seeking",
+   "name_fr": "Sensory Seeking",
+   "name_it": "Sensory Seeking"
+  },
+  {
+   "name": "Co-Regulation",
+   "slug": "co-regulation",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Regulating your emotional or nervous-system state with the help of another calm person — borrowing their steadiness."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Calming down when a steady person is near, feeling grounded by someone's calm presence, or escalating when those around you are stressed. We catch each other's states."
+    },
+    {
+     "k": "Strengths",
+     "v": "Recognizing co-regulation builds stronger relationships and teaches that needing others isn't weakness — it's how nervous systems are designed to work."
+    },
+    {
+     "k": "Supports",
+     "v": "Build relationships with calm, safe people; ask for grounding presence during hard moments; and offer the same to others. A steady voice, quiet company, or a calm presence can regulate better than any solo technique."
+    }
+   ],
+   "name_es": "Co-Regulation",
+   "name_fr": "Co-Regulation",
+   "name_it": "Co-Regulation"
+  },
+  {
+   "name": "Interoception",
+   "slug": "interoception",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The 'internal sense' — awareness of signals from inside the body: hunger, thirst, fatigue, temperature, needing the bathroom, and the physical side of emotions."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Not noticing hunger until ravenous, missing thirst or tiredness, struggling to tell what an emotion is from its body signals, or being surprised by sudden needs. The body's messages come through faintly or late."
+    },
+    {
+     "k": "Strengths",
+     "v": "Working on interoception builds powerful self-knowledge — learning to read your own body and emotions is foundational to regulation and self-care."
+    },
+    {
+     "k": "Supports",
+     "v": "Externalize body cues: scheduled meals, water reminders, and regular check-ins ('am I hungry, tired, needing a break?'). Practices like mindful body scans build the skill over time. Don't wait for the signal to be loud."
+    }
+   ],
+   "name_es": "Interoception",
+   "name_fr": "Interoception",
+   "name_it": "Interoception"
+  },
+  {
+   "cat": "TOOLS & STRATEGIES"
+  },
+  {
+   "name": "Body Doubling",
+   "slug": "body-doubling",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Working on a task in the presence of another person — in the same room, on a video call, or even a recording — to make it easier to start and stay on task. A simple, powerful ADHD strategy."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Suddenly able to do dishes, admin, or work when someone's there, even silently; struggling alone with the exact same task. The presence provides gentle accountability and focus."
+    },
+    {
+     "k": "Strengths",
+     "v": "It turns an executive-function challenge into a social one, which many neurodivergent brains handle better. It's collaborative and reduces the isolation of hard tasks."
+    },
+    {
+     "k": "Supports",
+     "v": "Use it deliberately: work alongside a friend, join a virtual co-working session, or use body-doubling apps and videos. Even a pet or a video of someone working can help. Make hard tasks social."
+    }
+   ],
+   "name_es": "Body Doubling",
+   "name_fr": "Body Doubling",
+   "name_it": "Body Doubling"
+  },
+  {
+   "name": "Externalizing",
+   "slug": "externalizing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Getting information *out* of your head and into the world — lists, notes, calendars, alarms, visible objects. The core neurodivergent strategy, because it stops relying on working memory and internal time-sense that may not be reliable."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Forgetting what's only in your head; remembering what's written down or visible. The difference between 'I'll remember' (you won't) and 'it's on the list' (it's handled)."
+    },
+    {
+     "k": "Strengths",
+     "v": "Externalizing frees mental energy for thinking and creating rather than remembering, and plays to the strength of a brain that works well with visible structure."
+    },
+    {
+     "k": "Supports",
+     "v": "Capture everything immediately, keep one trusted system, make important things visible, and set alarms liberally. A 'second brain' (notes app, planner, whiteboard) does the remembering so you don't have to."
+    }
+   ],
+   "name_es": "Externalizing",
+   "name_fr": "Externalizing",
+   "name_it": "Externalizing"
+  },
+  {
+   "name": "Accommodations",
+   "slug": "accommodations",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Adjustments to an environment, task, or expectation that remove barriers and let a neurodivergent person work to their potential."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Extra time on tests, quiet workspaces, written instructions, flexible deadlines, noise-cancelling headphones, permission to move or fidget — changes that level the playing field rather than giving an unfair edge."
+    },
+    {
+     "k": "Strengths",
+     "v": "Good accommodations let real abilities show. They're not about lowering the bar; they're about removing irrelevant barriers so talent and effort can count."
+    },
+    {
+     "k": "Supports",
+     "v": "Know your rights (workplaces and schools often must provide reasonable accommodations), identify what actually helps you, and ask clearly. Self-knowledge plus self-advocacy unlocks the right support."
+    }
+   ],
+   "name_es": "Accommodations",
+   "name_fr": "Accommodations",
+   "name_it": "Accommodations"
+  },
+  {
+   "name": "Scaffolding & Routines",
+   "slug": "scaffolding",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "External structures and routines that support functioning — like scaffolding around a building."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Thriving with a solid routine and struggling when it breaks; doing better with a checklist or template than a blank slate. Structure that frees, rather than confines."
+    },
+    {
+     "k": "Strengths",
+     "v": "Good scaffolding lets people direct energy to the meaningful parts of life instead of the logistics, and builds reliability and calm."
+    },
+    {
+     "k": "Supports",
+     "v": "Build routines for recurring things (mornings, work startup, bedtime), use checklists and templates, and automate decisions. Make the structure visible and low-effort. The goal is supportive, not rigid."
+    }
+   ],
+   "name_es": "Scaffolding & Routines",
+   "name_fr": "Scaffolding & Routines",
+   "name_it": "Scaffolding & Routines"
+  },
+  {
+   "name": "The 'Dopamine Menu'",
+   "slug": "dopamine-menu",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A personal, pre-made list of activities that give your brain healthy stimulation and motivation — a 'menu' to choose from when you need a boost, a break, or a reward."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Reaching for the phone or junk by default when understimulated; doing better with a ready list of nourishing alternatives (a walk, music, a quick creative task, a chat)."
+    },
+    {
+     "k": "Strengths",
+     "v": "It works *with* the brain's reward system instead of against it, turning the craving for stimulation into a tool rather than a trap."
+    },
+    {
+     "k": "Supports",
+     "v": "Build your menu in advance: 'starters' (quick boosts), 'mains' (longer satisfying activities), and things to avoid. Keep it visible. When you need dopamine, choose from the menu instead of defaulting to the scroll."
+    }
+   ],
+   "name_es": "The 'Dopamine Menu'",
+   "name_fr": "The 'Dopamine Menu'",
+   "name_it": "The 'Dopamine Menu'"
+  },
+  {
+   "name": "Self-Advocacy",
+   "slug": "self-advocacy",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Understanding your own needs and communicating them to get appropriate support — at work, school, in healthcare, and in relationships. A crucial skill, since neurodivergent needs are often invisible and must be voiced to be met."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Asking for accommodations, explaining what helps, setting boundaries, and correcting misunderstandings about your needs — rather than silently struggling or masking."
+    },
+    {
+     "k": "Strengths",
+     "v": "Self-advocacy builds confidence, self-knowledge, and better environments. People who advocate well often help others by normalizing these conversations."
+    },
+    {
+     "k": "Supports",
+     "v": "Start with self-knowledge (what do I actually need?), then practice clear, specific requests. Know your rights, find allies, and use scripts if speaking up is hard. You're allowed to need what you need."
+    }
+   ],
+   "name_es": "Self-Advocacy",
+   "name_fr": "Self-Advocacy",
+   "name_it": "Self-Advocacy"
+  },
+  {
+   "cat": "IDENTITY & EVERYDAY LIFE"
+  },
+  {
+   "name": "Strengths-Based Thinking",
+   "slug": "strengths-based",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "An approach that builds life, learning, and work around what a neurodivergent person is good at and interested in — rather than focusing only on fixing deficits. It doesn't ignore challenges; it balances them with genuine strengths."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Flourishing when playing to strengths and interests; withering when forced to grind against the hardest areas. The same person can look 'disabled' or 'gifted' depending on the fit."
+    },
+    {
+     "k": "Strengths",
+     "v": "This reframe restores confidence and motivation, reveals real talents, and leads to better outcomes than a deficit-only lens. It's how many neurodivergent people find their path."
+    },
+    {
+     "k": "Supports",
+     "v": "Identify your strengths and interests honestly, design life and work around them, and scaffold the weak spots with tools rather than willpower. Seek environments that value what you naturally bring."
+    }
+   ],
+   "name_es": "Strengths-Based Thinking",
+   "name_fr": "Strengths-Based Thinking",
+   "name_it": "Strengths-Based Thinking"
+  },
+  {
+   "name": "Self-Identification",
+   "slug": "self-diagnosis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Self-identification as neurodivergent, often after deep research and reflection, sometimes before (or instead of) a formal diagnosis."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Recognizing yourself in others' experiences, intense research, a feeling of finally understanding your life, and a self-knowledge that explains years of struggle — with or without a formal label."
+    },
+    {
+     "k": "Strengths",
+     "v": "Self-identification can bring enormous relief, self-compassion, community, and access to strategies, regardless of diagnostic status. It validates real lived experience."
+    },
+    {
+     "k": "Supports",
+     "v": "Self-identification is a valid starting point. Formal diagnosis can help with accommodations, treatment, and clarity, but isn't always accessible or necessary for self-understanding and support."
+    }
+   ],
+   "name_es": "Self-Identification",
+   "name_fr": "Self-Identification",
+   "name_it": "Self-Identification"
+  },
+  {
+   "name": "Disclosure",
+   "slug": "disclosure",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Deciding whether, when, and how to tell others (employers, friends, family) that you're neurodivergent."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Weighing whether to disclose at work for accommodations, to friends for understanding, or to keep it private; relief at being open, or caution about how it'll be received."
+    },
+    {
+     "k": "Strengths",
+     "v": "Choosing disclosure on your own terms is itself empowering, and openness (where safe) helps reduce stigma for everyone."
+    },
+    {
+     "k": "Supports",
+     "v": "There's no obligation to disclose. Consider the context, the potential benefits (accommodations, understanding) and risks, and your own comfort. Partial or selective disclosure is fine. It's your information to share or keep."
+    }
+   ],
+   "name_es": "Disclosure",
+   "name_fr": "Disclosure",
+   "name_it": "Disclosure"
+  },
+  {
+   "name": "Late Diagnosis",
+   "slug": "late-diagnosis",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Being identified as neurodivergent in adulthood — increasingly common, especially for women, people of color, and those whose presentations didn't match old stereotypes."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A wave of 'this explains everything,' grief for the years of struggling without knowing, anger at being missed, and the work of re-understanding your past through a new lens. Identity shifts."
+    },
+    {
+     "k": "Strengths",
+     "v": "Late diagnosis brings powerful self-understanding, self-compassion, access to support, and connection to community. Many describe it as life-changing and clarifying."
+    },
+    {
+     "k": "Supports",
+     "v": "Allow the full range of feelings — relief and grief both belong. Connect with others who were diagnosed late, learn your profile, build supportive strategies, and reframe past struggles with compassion rather than blame."
+    }
+   ],
+   "name_es": "Late Diagnosis",
+   "name_fr": "Late Diagnosis",
+   "name_it": "Late Diagnosis"
+  },
+  {
+   "name": "Spoon Theory",
+   "slug": "spoon-theory",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A metaphor (originally from the chronic-illness community, widely adopted by neurodivergent people) for limited daily energy."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Having to choose between tasks because energy is finite, 'paying' more spoons for things others do freely, and crashing when overdrawn. It explains why capacity varies day to day."
+    },
+    {
+     "k": "Strengths",
+     "v": "The metaphor gives language to invisible limits, helping people communicate needs and plan realistically. It validates that energy is real and finite."
+    },
+    {
+     "k": "Supports",
+     "v": "Budget your spoons: prioritize what matters, build in rest, avoid overcommitting, and recognize high-cost activities (masking, sensory load, socializing). Plan recovery, and don't spend tomorrow's spoons today."
+    }
+   ],
+   "name_es": "Spoon Theory",
+   "name_fr": "Spoon Theory",
+   "name_it": "Spoon Theory"
+  },
+  {
+   "name": "Self-Compassion",
+   "slug": "self-compassion",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Treating yourself with the same kindness you'd offer a friend — especially important for neurodivergent people, who often absorb years of criticism and internalize shame for struggling with things that are genuinely harder for their brains."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Replacing the harsh inner voice ('lazy, broken, not trying') with understanding ('my brain works differently, and I'm doing my best'). Recognizing struggle without self-blame."
+    },
+    {
+     "k": "Strengths",
+     "v": "Self-compassion improves motivation, resilience, and mental health far more than self-criticism does. It's the foundation that makes every other strategy work better."
+    },
+    {
+     "k": "Supports",
+     "v": "Notice and challenge the harsh inner critic, reframe struggles as wiring differences rather than failures, celebrate small wins, and connect with others who understand."
+    }
+   ],
+   "name_es": "Self-Compassion",
+   "name_fr": "Self-Compassion",
+   "name_it": "Self-Compassion"
+  }
+ ]
+}

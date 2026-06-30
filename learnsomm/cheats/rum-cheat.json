@@ -1,0 +1,233 @@
+{
+ "title": "Rum Cheat Sheet",
+ "groups": [
+  {
+   "cat": "The Styles"
+  },
+  {
+   "name": "White / Silver Rum",
+   "slug": "white-silver-rum",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Unaged, or aged then charcoal-filtered for clarity"
+    },
+    {
+     "k": "",
+     "v": "Sugarcane, light citrus, coconut, subtle vanilla"
+    },
+    {
+     "k": "Pairing",
+     "v": "Ceviche, grilled shrimp, tropical fruit"
+    },
+    {
+     "k": "Best for",
+     "v": "Mixing — the cleanest canvas for citrus-forward cocktails"
+    }
+   ],
+   "name_es": "Ron Blanco / Plata"
+  },
+  {
+   "name": "Gold / Amber Rum",
+   "slug": "gold-amber-rum",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Lightly aged in oak, typically 1–4 years"
+    },
+    {
+     "k": "",
+     "v": "Vanilla, caramel, toasted almond, light oak"
+    },
+    {
+     "k": "Pairing",
+     "v": "Grilled pork, baked plantain, pecan desserts"
+    },
+    {
+     "k": "Best for",
+     "v": "A step up from white rum — sippable on its own or in slightly richer cocktails"
+    }
+   ],
+   "name_es": "Ron Dorado / Ámbar"
+  },
+  {
+   "name": "Dark Rum",
+   "slug": "dark-rum",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Longer aging, often 5+ years, sometimes blended with rich molasses-based rums"
+    },
+    {
+     "k": "",
+     "v": "Molasses, baking spice, dark chocolate, dried fruit"
+    },
+    {
+     "k": "Pairing",
+     "v": "BBQ, gingerbread, dark chocolate desserts"
+    },
+    {
+     "k": "Heads up",
+     "v": "Often the most intensely flavored category — a little goes a long way in cocktails, which is why it's usually \"floated\" rather than fully mixed."
+    }
+   ],
+   "name_es": "Ron Oscuro"
+  },
+  {
+   "name": "Spiced Rum",
+   "slug": "spiced-rum",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Varies — base rum infused with spices after aging"
+    },
+    {
+     "k": "",
+     "v": "Cinnamon, nutmeg, vanilla, clove, sometimes vanilla bean"
+    },
+    {
+     "k": "Pairing",
+     "v": "Spiced cake, apple desserts, holiday cooking"
+    },
+    {
+     "k": "Heads up",
+     "v": "Closer to a flavored liqueur than a \"pure\" rum category — great with cola, less great in classic rum cocktails that expect a clean base."
+    }
+   ],
+   "name_es": "Ron Especiado"
+  },
+  {
+   "cat": "Cocktails"
+  },
+  {
+   "name": "Daiquiri",
+   "slug": "daiquiri",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "White rum, fresh lime juice, simple syrup"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "The \"real\" Daiquiri is just these three ingredients, shaken — not the frozen, fruity slushy version. Ask for it \"classic\" if you want the original."
+    }
+   ]
+  },
+  {
+   "name": "Mojito",
+   "slug": "mojito",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "White rum, mint, lime, sugar, soda water"
+    },
+    {
+     "k": "",
+     "v": "Herby"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "",
+     "v": "Lively"
+    },
+    {
+     "k": "Order tip",
+     "v": "The mint should be gently pressed, not pulverized — over-muddled mint turns bitter and grassy."
+    }
+   ]
+  },
+  {
+   "name": "Dark 'n' Stormy",
+   "slug": "dark-n-stormy",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Dark rum (floated), ginger beer, lime juice"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Deep"
+    },
+    {
+     "k": "",
+     "v": "Robust"
+    },
+    {
+     "k": "Order tip",
+     "v": "The dark rum should sit on top, not be stirred in — that visual \"storm cloud\" layering is part of the drink."
+    }
+   ]
+  },
+  {
+   "name": "Mai Tai",
+   "slug": "mai-tai",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Rum blend (white + dark), orgeat, lime juice, orange liqueur"
+    },
+    {
+     "k": "",
+     "v": "Tropical"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "",
+     "v": "Nutty"
+    },
+    {
+     "k": "Order tip",
+     "v": "Orgeat (almond syrup) is the key ingredient that separates a real Mai Tai from a sugary imitation — a good bar will have it on hand."
+    }
+   ]
+  },
+  {
+   "name": "Piña Colada",
+   "slug": "pi-a-colada",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "White or gold rum, pineapple juice, cream of coconut"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Indulgent"
+    },
+    {
+     "k": "Order tip",
+     "v": "A gold rum float on top adds depth without changing the creamy base — ask for it if you want a slightly more grown-up version."
+    }
+   ]
+  }
+ ]
+}

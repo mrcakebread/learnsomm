@@ -1,0 +1,160 @@
+{
+ "title": "Cordials Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Orange & Citrus Liqueurs",
+   "slug": "orange-citrus-liqueurs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cointreau, Grand Marnier, Triple Sec, Blue Curaçao, Limoncello, Grapefruit Liqueur"
+    },
+    {
+     "k": "Use It In",
+     "v": "The backbone of countless classic cocktails — Margaritas, Sidecars, and more."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Curaçao began on a dry Caribbean island where transplanted Spanish orange trees turned bitter and inedible — but the fragrant peel became the base of the world's orange liqueurs."
+    }
+   ],
+   "name_es": "Licores De Naranja Y Cítricos"
+  },
+  {
+   "name": "Berry & Red-Fruit Liqueurs",
+   "slug": "berry-red-fruit-liqueurs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Chambord, Crème de Cassis, Crème de Framboise, Maraschino, Sloe Gin"
+    },
+    {
+     "k": "Use It In",
+     "v": "Add color and fruity depth to cocktails, or drizzle over desserts."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Maraschino is made from sour Marasca cherries crushed whole — pits and all — which is exactly where its faintly bitter, almond-like edge comes from."
+    }
+   ],
+   "name_es": "Licores De Bayas Y Fruta Roja"
+  },
+  {
+   "name": "Orchard & Tropical Liqueurs",
+   "slug": "orchard-tropical-liqueurs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Apricot Liqueur, Peach Schnapps, Crème de Banane, Midori (Melon), Pomegranate Liqueur"
+    },
+    {
+     "k": "Use It In",
+     "v": "Bring fruit-forward sweetness to tiki drinks, sours, and simple highballs."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Midori means 'green' in Japanese, and the electric color is the whole point — it launched at a Studio 54 party in 1978 to fuel disco-era cocktails."
+    }
+   ],
+   "name_es": "Licores De Huerto Y Tropicales"
+  },
+  {
+   "name": "Bitter Aperitifs & Amari",
+   "slug": "bitter-aperitifs-amari",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Aperol, Campari, Cynar, Fernet-Branca, Amaro Montenegro, Suze"
+    },
+    {
+     "k": "Use It In",
+     "v": "Sip on their own before dinner, or use to add bitter complexity to cocktails."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Campari got its signature red from carmine dye made of crushed cochineal insects for over a century, until the brand finally switched to an artificial colorant."
+    }
+   ],
+   "name_es": "Aperitivos Amargos Y Amari"
+  },
+  {
+   "name": "Herbal, Monastic & Anise",
+   "slug": "herbal-monastic-anise",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Chartreuse, Bénédictine, Jägermeister, Drambuie, Sambuca, Pastis"
+    },
+    {
+     "k": "Use It In",
+     "v": "Complex, herb-driven liqueurs — sip neat, use as a modifier, or finish a cocktail with a float."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Only two Carthusian monks at a time know the full recipe for Chartreuse — a blend of 130 herbs — and they're famously not allowed to travel together."
+    }
+   ],
+   "name_es": "Herbales, Monásticos Y De Anís"
+  },
+  {
+   "name": "Floral & Mint Liqueurs",
+   "slug": "floral-mint-liqueurs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "St-Germain (Elderflower), Crème de Violette, Crème de Menthe, Crème de Rose"
+    },
+    {
+     "k": "Use It In",
+     "v": "Small amounts add aromatic lift to cocktails without overwhelming the base spirit."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "St-Germain is pressed from elderflowers picked by hand in the French Alps each spring — and in the early days the blossoms were carried down the mountain on bicycles."
+    }
+   ],
+   "name_es": "Licores Florales Y De Menta"
+  },
+  {
+   "name": "Nutty & Spice Liqueurs",
+   "slug": "nutty-spice-liqueurs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Amaretto, Frangelico, Nocino, Crème de Noyaux, Fireball, Allspice Dram"
+    },
+    {
+     "k": "Use It In",
+     "v": "Add warmth and richness to dessert cocktails, coffee drinks, and baking."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Amaretto often tastes of almond without containing a single nut — the flavor comes from apricot kernels, whose pits share the same aromatic compound as almonds."
+    }
+   ],
+   "name_es": "Licores De Frutos Secos Y Especias"
+  },
+  {
+   "name": "Coffee, Chocolate & Cream",
+   "slug": "coffee-chocolate-cream",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Kahlúa, Tia Maria, Espresso Liqueur, Crème de Cacao, Baileys Irish Cream, Advocaat"
+    },
+    {
+     "k": "Use It In",
+     "v": "Dessert in a glass — shake into cream-based cocktails or pour over ice cream."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Baileys had to invent a way to stop cream and whiskey from separating — once they cracked that emulsion in 1974, the entire cream-liqueur category was born."
+    }
+   ],
+   "name_es": "Café, Chocolate Y Crema"
+  }
+ ]
+}

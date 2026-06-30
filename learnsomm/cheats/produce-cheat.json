@@ -1,0 +1,160 @@
+{
+ "title": "Produce Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Orchard & Stone Fruits",
+   "slug": "orchard-stone-fruits",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Apple, Pear, Peach, Plum, Cherry, Fig"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Late summer through fall — best eaten ripe, raw, or baked into desserts."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Apples and pears are 'pomes' — the part you eat is the swollen base of the flower, while the true fruit is the papery core around the seeds."
+    }
+   ],
+   "name_es": "Frutas De Huerto Y Hueso"
+  },
+  {
+   "name": "Citrus Fruits",
+   "slug": "citrus-fruits",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Orange, Lemon, Lime, Grapefruit, Mandarin"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Winter — brighten up the darkest months with fresh juice, zest, and salads."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Almost every citrus you buy is a hybrid of just a few wild ancestors — citron, pomelo, and mandarin — endlessly crossed into oranges, lemons, limes, and grapefruit."
+    }
+   ],
+   "name_es": "Cítricos"
+  },
+  {
+   "name": "Tropical & Exotic Fruits",
+   "slug": "tropical-exotic-fruits",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Banana, Mango, Pineapple, Papaya, Kiwi, Pomegranate"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Available year-round from warm climates — best ripened at room temperature before eating."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Botanically the banana is a berry, and the plant is a giant herb, not a tree — its 'trunk' is just tightly packed leaf bases."
+    }
+   ],
+   "name_es": "Frutas Tropicales Y Exóticas"
+  },
+  {
+   "name": "Melons & Rich Fruits",
+   "slug": "melons-rich-fruits",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Watermelon, Cantaloupe, Grape, Avocado"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Summer for melons and grapes — avocado is available year-round and ripens off the tree."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Avocados refuse to ripen on the tree — they only soften after picking, so growers use the tree as natural storage and harvest on demand."
+    }
+   ],
+   "name_es": "Melones Y Frutas Ricas"
+  },
+  {
+   "name": "Leafy Greens",
+   "slug": "leafy-greens",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Spinach, Kale, Swiss Chard, Arugula, Romaine Lettuce, Bok Choy"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Cool-season crops — best raw in salads or quickly wilted to preserve nutrients."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A whole pan of raw spinach cooks down to almost nothing — the leaves are mostly water held in a thin structure that collapses the moment it hits heat."
+    }
+   ],
+   "name_es": "Hojas Verdes"
+  },
+  {
+   "name": "Cruciferous Vegetables",
+   "slug": "cruciferous-vegetables",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Broccoli, Cauliflower, Brussels Sprouts, Cabbage"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Fall and winter — roasting at high heat brings out natural sweetness and reduces bitterness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Broccoli, cauliflower, cabbage, kale, and Brussels sprouts are all one species — centuries of breeding one wild mustard for different parts: flower, leaf, and bud."
+    }
+   ],
+   "name_es": "Verduras Crucíferas"
+  },
+  {
+   "name": "Roots, Bulbs & Tubers",
+   "slug": "roots-bulbs-tubers",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Carrot, Beet, Sweet Potato, Potato, Radish, Onion, Garlic"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Fall harvest, but store well year-round — the backbone of soups, roasts, and sofrito."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The potato is a tuber — a swollen underground stem, not a root — which is why its 'eyes' can sprout whole new plants; keep it out of light, since green patches mean bitter solanine."
+    }
+   ],
+   "name_es": "Raíces, Bulbos Y Tubérculos"
+  },
+  {
+   "name": "Peppers, Pods & Squash",
+   "slug": "peppers-pods-squash",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Bell Pepper, Tomato, Cucumber, Zucchini, Green Peas, Asparagus"
+    },
+    {
+     "k": "Peak Season",
+     "v": "Summer — at their peak raw or lightly cooked to preserve their fresh, crisp character."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tomatoes, cucumbers, peppers, and zucchini are all botanically fruits — they hold the seeds — even though the kitchen treats every one of them as a vegetable."
+    }
+   ],
+   "name_es": "Pimientos, Vainas Y Calabazas"
+  }
+ ]
+}

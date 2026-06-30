@@ -1,0 +1,579 @@
+{
+ "title": "Othermeats Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Pork — Cuts"
+  },
+  {
+   "name": "Pork Loin",
+   "slug": "pork-loin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean cut from the back; chops and roasts. Easy to overcook."
+    }
+   ]
+  },
+  {
+   "name": "Pork Belly",
+   "slug": "pork-belly",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fatty underside; bacon, braises, and crisp-skin roasts."
+    }
+   ]
+  },
+  {
+   "name": "Pork Shoulder",
+   "slug": "pork-shoulder",
+   "rows": [
+    {
+     "k": "",
+     "v": "Butt/Boston butt; collagen-rich, ideal for slow pulled pork."
+    }
+   ]
+  },
+  {
+   "name": "Pork Tenderloin",
+   "slug": "pork-tenderloin",
+   "rows": [
+    {
+     "k": "",
+     "v": "The leanest, most tender muscle; quick-cooking."
+    }
+   ]
+  },
+  {
+   "name": "Spare Ribs",
+   "slug": "spare-ribs",
+   "rows": [
+    {
+     "k": "",
+     "v": "From the belly side of the ribs; meatier, fattier than baby back."
+    }
+   ]
+  },
+  {
+   "name": "Baby Back Ribs",
+   "slug": "baby-back-ribs",
+   "rows": [
+    {
+     "k": "",
+     "v": "From the loin near the spine; leaner, more curved, tender."
+    }
+   ]
+  },
+  {
+   "name": "Ham (Fresh)",
+   "slug": "ham-fresh",
+   "rows": [
+    {
+     "k": "",
+     "v": "The hind leg, uncured; roasted as fresh ham."
+    }
+   ]
+  },
+  {
+   "name": "Pork Hock",
+   "slug": "pork-hock",
+   "rows": [
+    {
+     "k": "",
+     "v": "Joint above the trotter; gelatinous, for braises and stock."
+    }
+   ]
+  },
+  {
+   "cat": "Lamb & Mutton"
+  },
+  {
+   "name": "Rack of Lamb",
+   "slug": "rack-of-lamb",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rib section; the elegant Frenched roast, quick to cook."
+    }
+   ]
+  },
+  {
+   "name": "Leg of Lamb",
+   "slug": "leg-of-lamb",
+   "rows": [
+    {
+     "k": "",
+     "v": "Large hind cut; roasted bone-in or butterflied."
+    }
+   ]
+  },
+  {
+   "name": "Lamb Loin Chop",
+   "slug": "lamb-loin-chop",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tender mini T-bones from the loin."
+    }
+   ]
+  },
+  {
+   "name": "Lamb Shoulder",
+   "slug": "lamb-shoulder",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fattier, flavorful; braises and slow roasts."
+    }
+   ]
+  },
+  {
+   "name": "Lamb Shank",
+   "slug": "lamb-shank",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lower leg; collagen-rich, braised until falling off the bone."
+    }
+   ]
+  },
+  {
+   "name": "Mutton",
+   "slug": "mutton",
+   "rows": [
+    {
+     "k": "",
+     "v": "Meat from sheep over two years; stronger, gamier flavor."
+    }
+   ]
+  },
+  {
+   "name": "Lamb Neck",
+   "slug": "lamb-neck",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hard-working, tough cut prized for stews and ragù."
+    }
+   ]
+  },
+  {
+   "cat": "Poultry — Chicken"
+  },
+  {
+   "name": "Chicken Breast",
+   "slug": "chicken-breast",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean white meat; dries out fast, cook to 74°C/165°F."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Thigh",
+   "slug": "chicken-thigh",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dark, forgiving, flavorful; the cook's favorite."
+    }
+   ]
+  },
+  {
+   "name": "Whole Chicken",
+   "slug": "whole-chicken",
+   "rows": [
+    {
+     "k": "",
+     "v": "Roasted or spatchcocked; the Sunday centerpiece."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Wing",
+   "slug": "chicken-wing",
+   "rows": [
+    {
+     "k": "",
+     "v": "Drumette + flat; fried, roasted, or braised."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Drumstick",
+   "slug": "chicken-drumstick",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lower leg, dark meat; cheap and juicy."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Liver",
+   "slug": "chicken-liver",
+   "rows": [
+    {
+     "k": "",
+     "v": "Offal; pâté, parfait, and seared dishes."
+    }
+   ]
+  },
+  {
+   "cat": "Poultry — Other Birds"
+  },
+  {
+   "name": "Turkey",
+   "slug": "turkey",
+   "rows": [
+    {
+     "k": "",
+     "v": "Large bird; lean breast vs richer leg, the holiday roast."
+    }
+   ]
+  },
+  {
+   "name": "Duck Breast",
+   "slug": "duck-breast",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rich, fatty-skinned; seared rare to medium (magret)."
+    }
+   ]
+  },
+  {
+   "name": "Duck Leg",
+   "slug": "duck-leg",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tougher dark meat; the classic confit cut."
+    }
+   ]
+  },
+  {
+   "name": "Goose",
+   "slug": "goose",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dark, very fatty bird; festive roast, rendered fat prized."
+    }
+   ]
+  },
+  {
+   "name": "Quail",
+   "slug": "quail",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tiny, delicate bird; quick-roasted or grilled."
+    }
+   ]
+  },
+  {
+   "name": "Squab",
+   "slug": "squab",
+   "rows": [
+    {
+     "k": "",
+     "v": "Young domestic pigeon; tender, dark, served pink."
+    }
+   ]
+  },
+  {
+   "name": "Guinea Fowl",
+   "slug": "guinea-fowl",
+   "rows": [
+    {
+     "k": "",
+     "v": "Leaner, gamier than chicken; roasted whole."
+    }
+   ]
+  },
+  {
+   "cat": "Game — Furred"
+  },
+  {
+   "name": "Venison",
+   "slug": "venison",
+   "rows": [
+    {
+     "k": "",
+     "v": "Deer; very lean, dark, mineral; cook rare to avoid drying."
+    }
+   ]
+  },
+  {
+   "name": "Rabbit",
+   "slug": "rabbit",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean white meat; braised or roasted, mild."
+    }
+   ]
+  },
+  {
+   "name": "Wild Boar",
+   "slug": "wild-boar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Leaner, gamier pork relative; braises well."
+    }
+   ]
+  },
+  {
+   "name": "Hare",
+   "slug": "hare",
+   "rows": [
+    {
+     "k": "",
+     "v": "Darker, richer than rabbit; classic in jugged stews."
+    }
+   ]
+  },
+  {
+   "name": "Bison",
+   "slug": "bison",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean, sweet, beef-like; cook gently, low fat."
+    }
+   ]
+  },
+  {
+   "name": "Elk",
+   "slug": "elk",
+   "rows": [
+    {
+     "k": "",
+     "v": "Very lean large game; mild, tender when not overcooked."
+    }
+   ]
+  },
+  {
+   "cat": "Game — Feathered"
+  },
+  {
+   "name": "Pheasant",
+   "slug": "pheasant",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean game bird; prone to drying, often barded or braised."
+    }
+   ]
+  },
+  {
+   "name": "Partridge",
+   "slug": "partridge",
+   "rows": [
+    {
+     "k": "",
+     "v": "Small game bird; delicate, roasted quickly."
+    }
+   ]
+  },
+  {
+   "name": "Grouse",
+   "slug": "grouse",
+   "rows": [
+    {
+     "k": "",
+     "v": "Strong, heathery wild flavor; the prized British game bird."
+    }
+   ]
+  },
+  {
+   "name": "Wild Duck",
+   "slug": "wild-duck",
+   "rows": [
+    {
+     "k": "",
+     "v": "Leaner, gamier than farmed; mallard, teal, widgeon."
+    }
+   ]
+  },
+  {
+   "name": "Woodcock",
+   "slug": "woodcock",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tiny, intensely flavored wader; traditional roasted whole."
+    }
+   ]
+  },
+  {
+   "cat": "Veal & Offal"
+  },
+  {
+   "name": "Veal Chop",
+   "slug": "veal-chop",
+   "rows": [
+    {
+     "k": "",
+     "v": "Young calf; pale, tender, mild; loin or rib chop."
+    }
+   ]
+  },
+  {
+   "name": "Veal Shank",
+   "slug": "veal-shank",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cross-cut shank for osso buco; marrow and gelatin."
+    }
+   ]
+  },
+  {
+   "name": "Sweetbreads",
+   "slug": "sweetbreads",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thymus/pancreas offal; creamy, delicate, prized."
+    }
+   ]
+  },
+  {
+   "name": "Liver",
+   "slug": "liver",
+   "rows": [
+    {
+     "k": "",
+     "v": "Calf or pork liver; iron-rich, seared or for pâté."
+    }
+   ]
+  },
+  {
+   "name": "Kidney",
+   "slug": "kidney",
+   "rows": [
+    {
+     "k": "",
+     "v": "Offal with mineral tang; steak-and-kidney, devilled."
+    }
+   ]
+  },
+  {
+   "name": "Tripe",
+   "slug": "tripe",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stomach lining; long-cooked in menudo, trippa, pho."
+    }
+   ]
+  },
+  {
+   "name": "Tongue",
+   "slug": "tongue",
+   "rows": [
+    {
+     "k": "",
+     "v": "Braised then peeled; tender, rich; tacos de lengua."
+    }
+   ]
+  },
+  {
+   "name": "Oxtail",
+   "slug": "oxtail",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gelatin-rich tail (often beef but classic cross-cut); deep braises."
+    }
+   ]
+  },
+  {
+   "cat": "Processed & Technique"
+  },
+  {
+   "name": "Sausage",
+   "slug": "sausage",
+   "rows": [
+    {
+     "k": "",
+     "v": "Ground seasoned meat in casing; fresh, smoked, or cured."
+    }
+   ]
+  },
+  {
+   "name": "Bacon",
+   "slug": "bacon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cured, often smoked pork belly or back."
+    }
+   ]
+  },
+  {
+   "name": "Prosciutto",
+   "slug": "prosciutto",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dry-cured ham, sliced paper-thin; Parma, San Daniele."
+    }
+   ]
+  },
+  {
+   "name": "Pancetta",
+   "slug": "pancetta",
+   "rows": [
+    {
+     "k": "",
+     "v": "Salt-cured pork belly; Italian, unsmoked, for cooking."
+    }
+   ]
+  },
+  {
+   "name": "Confit",
+   "slug": "confit",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-cooked and preserved in fat; classic for duck."
+    }
+   ]
+  },
+  {
+   "name": "Brining",
+   "slug": "brining",
+   "rows": [
+    {
+     "k": "",
+     "v": "Salt-water soak for moisture and seasoning, esp. poultry/pork."
+    }
+   ]
+  },
+  {
+   "name": "Curing",
+   "slug": "curing",
+   "rows": [
+    {
+     "k": "",
+     "v": "Preserving with salt/nitrite; the basis of charcuterie."
+    }
+   ]
+  },
+  {
+   "name": "Rillettes",
+   "slug": "rillettes-om",
+   "rows": [
+    {
+     "k": "",
+     "v": "Meat slow-cooked and shredded into a spreadable potted form."
+    }
+   ]
+  }
+ ]
+}

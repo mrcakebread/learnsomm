@@ -1,0 +1,1314 @@
+{
+ "title": "Gin",
+ "subject": "gin",
+ "categories": [
+  {
+   "name": "CITRUS",
+   "name_fr": "AGRUMES",
+   "name_it": "AGRUMI",
+   "name_es": "CÍTRICOS",
+   "color": "#e2a84b",
+   "textColor": "#3d2400",
+   "sub": [
+    {
+     "name": "Acidic",
+     "name_fr": "Acide",
+     "name_it": "Acido",
+     "color": "#f2be6b",
+     "descriptors": [
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "slug": "lemon",
+       "name_es": "Limón",
+       "panel": {
+        "origin": "Derived from fresh or dried lemon peel (Citrus limon). Limonene is the dominant volatile terpene — typically 60–70% of the essential oil. Vapor infusion retains bright, high-toned volatile top notes; prolonged maceration risks extracting heavier bitter lipids from the pith (the albedo layer). Premium distillers cold-press peel before inclusion.",
+        "origin_es": "Procede de la cáscara de limón fresca o seca (Citrus limon). El limoneno es el terpeno volátil dominante —típicamente entre el 60 y 70 % del aceite esencial—. La infusión por vapor conserva las notas altas y brillantes; la maceración prolongada arriesga extraer los lípidos amargos del albedo. Los destiladores premium prensan la cáscara en frío antes de incorporarla.",
+        "pairing": "The essential backbone for London Dry style profiles. Bright limonene bridges cleanly with juniper's alpha-pinene compounds, creating a cohesive citrus-pine aromatic arc.",
+        "pairing_es": "La columna vertebral esencial del estilo London Dry. El limoneno brillante enlaza limpiamente con los compuestos de alfa-pineno del enebro, creando un arco aromático cítrico-pino cohesivo.",
+        "mixology": "Amplifies the architecture of a Tom Collins or Gin Sour. When selecting tonics, standard Indian quinine tonics (lower free citric acid) help avoid astringent citrus-on-citrus overlap. Expressed peel garnish over the drink reinforces the nose.",
+        "mixology_es": "Amplifica la arquitectura de un Tom Collins o un Gin Sour. Al elegir tónicas, las tónicas de quinina estándar (menor acidez cítrica libre) evitan el solapamiento astringente de cítrico sobre cítrico. La cáscara exprimida sobre la copa refuerza la nariz."
+       }
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "slug": "lime",
+       "name_es": "Lima",
+       "panel": {
+        "origin": "Sourced via dried lime peel or whole dehydrated Persian lime (Citrus latifolia) or Key lime (Citrus aurantiifolia). Contains higher ratios of alpha-pinene and beta-pinene alongside limonene vs. lemon, lending a sharper, more piercing, slightly tropical citrus tone. The difference is pronounced in vapor infusion.",
+        "origin_es": "Se obtiene de cáscara de lima seca o de lima persa deshidratada entera (Citrus latifolia) o lima criolla (Citrus aurantiifolia). Contiene mayores proporciones de alfa-pineno y beta-pineno junto al limoneno frente al limón, aportando un tono cítrico más afilado, penetrante y ligeramente tropical. La diferencia se acentúa en la infusión por vapor.",
+        "pairing": "Frequently used in Contemporary and New Western style gins to accentuate crisp, exotic flavor lines. Complements cucumber, mint, and fresh ginger naturally.",
+        "pairing_es": "Muy usada en ginebras de estilo Contemporáneo y New Western para acentuar líneas de sabor nítidas y exóticas. Complementa de forma natural el pepino, la menta y el jengibre fresco.",
+        "mixology": "Foundational to a Gimlet or a Gin & Tonic on ice. High natural acid cuts through resinous, high-proof navy strength gins as an effective counterweight.",
+        "mixology_es": "Fundamental en un Gimlet o un Gin Tonic con hielo. Su alta acidez natural corta las ginebras resinosas de alta graduación (navy strength) como contrapeso eficaz."
+       }
+      }
+     ],
+     "name_es": "Ácido"
+    },
+    {
+     "name": "Zesty",
+     "name_fr": "Zesté",
+     "name_it": "Agrumato",
+     "color": "#e6b053",
+     "descriptors": [
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "slug": "grapefruit",
+       "name_es": "Toronja",
+       "panel": {
+        "origin": "Utilizes pink or white grapefruit peel (Citrus × paradisi). Two compounds matter: nootkatone (a sesquiterpene ketone) drives the bitterness, while the trace thiol 1-p-menthene-8-thiol drives the characteristic fresh-grapefruit aroma at sub-threshold levels. Also contains limonene, myrcene, and the sulfur compound 1-p-menthene-8-thiol at sub-threshold levels.",
+        "origin_es": "Emplea cáscara de toronja rosa o blanca (Citrus × paradisi). Dos compuestos importan: la nootkatona (una cetona sesquiterpénica) impulsa el amargor, mientras que el tiol traza 1-p-menteno-8-tiol impulsa el aroma característico a toronja fresca a niveles subumbral. También contiene limoneno y mirceno.",
+        "pairing": "Bridges the gap between sharp citrus and deep root spices such as angelica and orris, due to its bitter and mildly sulfurous undertones. Excellent foil for cardamom.",
+        "pairing_es": "Tiende un puente entre el cítrico afilado y las raíces profundas como la angélica y el lirio, por sus matices amargos y ligeramente sulfurosos. Excelente contrapunto al cardamomo.",
+        "mixology": "Outstanding in a Negroni or Paloma variation. Provides structural complexity and a bitter lift to lower-ABV aperitivo builds. Grapefruit tonic is a natural pairing for gin-forward pours.",
+        "mixology_es": "Sobresaliente en un Negroni o una variación de Paloma. Aporta complejidad estructural y un realce amargo a los combinados aperitivos de baja graduación. La tónica de toronja marida de forma natural."
+       }
+      },
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "slug": "orange",
+       "name_es": "Naranja",
+       "panel": {
+        "origin": "Sweet orange (Citrus sinensis) yields warm, fleshy citrus notes; Seville bitter orange (Citrus aurantium) provides a sharper, more aromatic character valued in traditional London Dry recipes. Vapor infusion isolates ethereal top-note aromatics; maceration gives richer, oilier mid-palate depth.",
+        "origin_es": "La naranja dulce (Citrus sinensis) da notas cítricas cálidas y carnosas; la naranja amarga de Sevilla (Citrus aurantium) aporta un carácter más afilado y aromático, valorado en las recetas tradicionales London Dry. La infusión por vapor aísla los aromas etéreos de cabeza; la maceración da profundidad más rica y aceitosa en boca.",
+        "pairing": "Crucial for softening aggressive spice botanicals — ginger, clove, cassia. Warm orange oil creates a bridging effect with both sweet (vanilla, liquorice) and resinous (juniper, pine) profiles.",
+        "pairing_es": "Crucial para suavizar especias agresivas —jengibre, clavo, casia—. El aceite cálido de naranja crea un efecto puente tanto con perfiles dulces (vainilla, regaliz) como resinosos (enebro, pino).",
+        "mixology": "A primary aromatic driver in a Martinez or Hanky Panky. Magnificent with sweet vermouth. Expressed twist over the finished drink is always preferable to a slice for releasing volatile oils.",
+        "mixology_es": "Un motor aromático primario en un Martinez o un Hanky Panky. Magnífica con vermut dulce. La piel exprimida sobre la copa terminada siempre es preferible a la rodaja para liberar los aceites volátiles."
+       }
+      }
+     ],
+     "name_es": "Cáscara"
+    }
+   ]
+  },
+  {
+   "name": "FLESHY FRUIT",
+   "name_fr": "FRUIT CHARNU",
+   "name_it": "FRUTTA POLPOSA",
+   "name_es": "FRUTA CARNOSA",
+   "color": "#d48a55",
+   "textColor": "#3d1600",
+   "sub": [
+    {
+     "name": "Mellow",
+     "name_fr": "Moelleux",
+     "name_it": "Morbido",
+     "color": "#e09e70",
+     "descriptors": [
+      {
+       "name": "Mango",
+       "name_fr": "Mangue",
+       "name_it": "Mango",
+       "slug": "mango",
+       "name_es": "Mango",
+       "panel": {
+        "origin": "Extracted via fresh fruit maceration or vacuum (cold) distillation to protect heat-sensitive esters. Rich in myrcene — a monoterpene terpene that acts as an effective aromatic fixative for lighter botanicals — alongside delta-3-carene and various fruity esters (ethyl butanoate, ethyl hexanoate).",
+        "origin_es": "Se extrae por maceración de fruta fresca o destilación al vacío (en frío) para proteger los ésteres sensibles al calor. Rico en mirceno —un monoterpeno que actúa como fijador aromático eficaz para botánicos más ligeros— junto a delta-3-careno y diversos ésteres frutales (butanoato de etilo, hexanoato de etilo).",
+        "pairing": "Natural partner for spice-forward gins containing cubeb berry, grains of paradise, or fresh ginger. The tropical ester profile harmonizes with cardamom's citrus-spice arc.",
+        "pairing_es": "Pareja natural de ginebras con especias como pimienta de cubeba, granos del paraíso o jengibre fresco. El perfil de ésteres tropicales armoniza con el arco cítrico-especiado del cardamomo.",
+        "mixology": "Adds luscious tropical texture to contemporary punch builds, Clover Club variations, or modern highballs. A mango-forward gin pairs exceptionally well with a dry ginger beer long drink.",
+        "mixology_es": "Añade una textura tropical lujosa a ponches contemporáneos, variaciones de Clover Club o highballs modernos. Una ginebra con mango marida excepcionalmente bien con un long drink de ginger beer seca."
+       }
+      },
+      {
+       "name": "Apricot",
+       "name_fr": "Abricot",
+       "name_it": "Albicocca",
+       "slug": "apricot",
+       "name_es": "Albaricoque",
+       "panel": {
+        "origin": "Fresh or dried stone fruit (Prunus armeniaca) infusion. Driven by benzaldehyde (almond-like stone character from the kernel) and gamma-decalactone — a prominent peach/apricot lactone — giving an intense velvety fruit sweetness. Drying concentrates flavors without requiring proof adjustment.",
+        "origin_es": "Infusión de fruta de hueso fresca o seca (Prunus armeniaca). Impulsada por el benzaldehído (carácter almendrado del hueso) y la gamma-decalactona —una lactona prominente de durazno/albaricoque— que da una dulzura frutal aterciopelada e intensa. El secado concentra los sabores sin requerir ajuste de graduación.",
+        "pairing": "Bridges floral profiles (elderflower, jasmine, rose) with soft woody notes beautifully. The stone-fruit lactones share chemical territory with vanillin, aiding cohesion with vanilla or barrel-aged expressions.",
+        "pairing_es": "Tiende un puente precioso entre perfiles florales (saúco, jazmín, rosa) y notas amaderadas suaves. Las lactonas de fruta de hueso comparten territorio químico con la vainillina, ayudando a la cohesión con la vainilla o las expresiones criadas en barrica.",
+        "mixology": "Excellent for balancing dry, tannic modifiers — dry vermouth, Lillet Blanc, or bitter amaro. A Corpse Reviver variation benefits from apricot-forward gin.",
+        "mixology_es": "Excelente para equilibrar modificadores secos y tánicos —vermut seco, Lillet Blanc o amaro amargo—. Una variación de Corpse Reviver se beneficia de una ginebra con albaricoque."
+       }
+      },
+      {
+       "name": "Peach",
+       "name_fr": "Pêche",
+       "name_it": "Pesca",
+       "slug": "peach",
+       "name_es": "Durazno",
+       "panel": {
+        "origin": "Infused via fresh flesh maceration (Prunus persica). Dominated by gamma-undecalactone and delta-decalactone — the classical stone fruit lactones — providing a soft, summer-forward sweetness. These lactones can soften the aggressive dry bite of high-alpha-pinene juniper expressions.",
+        "origin_es": "Se infusiona por maceración de pulpa fresca (Prunus persica). Dominada por gamma-undecalactona y delta-decalactona —las lactonas clásicas de fruta de hueso— que aportan una dulzura suave y veraniega. Estas lactonas suavizan el mordiente seco y agresivo de las expresiones de enebro con alto alfa-pineno.",
+        "pairing": "Pairs seamlessly with soft herbal gins — mint, parsley, lemongrass. Also works with elderflower and chamomile profiles.",
+        "pairing_es": "Combina a la perfección con ginebras herbales suaves —menta, perejil, hierba limón—. También funciona con perfiles de saúco y manzanilla.",
+        "mixology": "A natural choice for elegant spritzes, refined summer Collins builds, or a Bellini-adjacent cocktail. Peach-forward gin in a Sour with egg white creates an exceptionally silky texture.",
+        "mixology_es": "Una elección natural para spritzes elegantes, Collins veraniegos refinados o un cóctel cercano al Bellini. Una ginebra con durazno en un Sour con clara de huevo crea una textura excepcionalmente sedosa."
+       }
+      },
+      {
+       "name": "Melon",
+       "name_fr": "Melon",
+       "name_it": "Melone",
+       "slug": "melon",
+       "name_es": "Melón",
+       "panel": {
+        "origin": "Vacuum or cold-distilled melon flesh. Highly unstable under heat — relies on sub-atmospheric distillation to capture volatile aldehydes such as cis-6-nonenal and (Z)-3-nonen-1-ol, which provide crisp, watery, green-flesh sweetness. Found in Japanese-influenced contemporary gins.",
+        "origin_es": "Pulpa de melón destilada al vacío o en frío. Muy inestable al calor —depende de la destilación subatmosférica para capturar aldehídos volátiles como el cis-6-nonenal y el (Z)-3-nonen-1-ol, que aportan una dulzura nítida, acuosa y de pulpa verde—. Presente en ginebras contemporáneas de influencia japonesa.",
+        "pairing": "Creates elegant presentation alongside fresh fruit or grassy gin profiles. The watery green character amplifies cucumber and lemongrass notes.",
+        "pairing_es": "Crea una presentación elegante junto a perfiles de fruta fresca o herbáceos. El carácter verde y acuoso amplifica las notas de pepino y hierba limón.",
+        "mixology": "Outstanding in an exceptionally dry, chilled Martini. A Japanese highball format (gin, soda, ice, minimal garnish) is the ideal service for melon-dominant expressions.",
+        "mixology_es": "Sobresaliente en un Martini excepcionalmente seco y frío. El formato highball japonés (ginebra, soda, hielo, guarnición mínima) es el servicio ideal para expresiones dominadas por el melón."
+       }
+      }
+     ],
+     "name_es": "Suave"
+    }
+   ]
+  },
+  {
+   "name": "FRESH FRUIT",
+   "name_fr": "FRUIT FRAIS",
+   "name_it": "FRUTTA FRESCA",
+   "name_es": "FRUTA FRESCA",
+   "color": "#c97365",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Juicy",
+     "name_fr": "Juteux",
+     "name_it": "Succoso",
+     "color": "#d68678",
+     "descriptors": [
+      {
+       "name": "Cucumber",
+       "name_fr": "Concombre",
+       "name_it": "Cetriolo",
+       "slug": "cucumber",
+       "name_es": "Pepino",
+       "panel": {
+        "origin": "Captured via post-distillation cold-maceration or gentle vacuum distillation. Driven by (E,Z)-2,6-nonadienal — the characteristic cucumber aldehyde — and (E)-2-nonenal, providing a uniquely cooling, refreshing, crisp character. Botanically a fruit (Cucumis sativus); the 'fresh fruit' classification here is flavor-profile based.",
+        "origin_es": "Se captura por maceración en frío posdestilación o destilación suave al vacío. Impulsada por el (E,Z)-2,6-nonadienal —el aldehído característico del pepino— y el (E)-2-nonenal, que aportan un carácter singularmente refrescante, frío y nítido. Botánicamente una fruta (Cucumis sativus); la clasificación de 'fruta fresca' aquí es por perfil de sabor.",
+        "pairing": "The signature aromatic of New Western and Contemporary gins. Pairs naturally with rose, mint, elderflower, and soft citrus. Extremely popular in the UK gin revival of the 2010s.",
+        "pairing_es": "El aroma distintivo de las ginebras New Western y Contemporáneas. Marida de forma natural con rosa, menta, saúco y cítrico suave. Muy popular en el renacimiento de la ginebra en el Reino Unido durante la década de 2010.",
+        "mixology": "The gold standard in a premium afternoon Gin & Tonic garnished with fresh cucumber ribbons or thin slices. Fever-Tree or Fentimans Elderflower tonics amplify the freshness. A staple of hotel bar service.",
+        "mixology_es": "El estándar de oro en un Gin Tonic premium de tarde, guarnecido con cintas o láminas finas de pepino fresco. Las tónicas de saúco (Fever-Tree o Fentimans) amplifican la frescura. Un pilar del servicio de bar de hotel."
+       }
+      },
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "Fresh apple pomace or reduced cider added to the pot still base. Rich in hexyl acetate and 2-methylbutyl acetate (crisp, orchard ester notes) alongside malic acid, yielding an elegant fresh-apple profile. The acidity contribution is real but subtle after distillation.",
+        "origin_es": "Orujo de manzana fresca o sidra reducida añadida a la base del alambique. Rica en acetato de hexilo y acetato de 2-metilbutilo (notas de éster frescas de huerto) junto al ácido málico, dando un perfil elegante de manzana fresca. El aporte de acidez es real pero sutil tras la destilación.",
+        "pairing": "Pairs with sweet baking spices — cinnamon, clove, nutmeg — invoking a comforting autumn depth. Also works with dry vermouth's natural apple/pear character.",
+        "pairing_es": "Marida con especias dulces de repostería —canela, clavo, nuez moscada— evocando una profundidad otoñal reconfortante. También funciona con el carácter natural de manzana/pera del vermut seco.",
+        "mixology": "Adds fruit depth to a Gin Sour or White Negroni. Works in highball formats with pressed apple juice and a light aromatic bitters float. Superb in hot toddies during cold-weather service.",
+        "mixology_es": "Añade profundidad frutal a un Gin Sour o un White Negroni. Funciona en formatos highball con zumo de manzana prensado y un toque de bíter aromático. Magnífica en ponches calientes durante el servicio de invierno."
+       }
+      },
+      {
+       "name": "Grape",
+       "name_fr": "Raisin",
+       "name_it": "Uva",
+       "slug": "grape",
+       "name_es": "Uva",
+       "panel": {
+        "origin": "Achieved by using neutral grape spirit (Vitis vinifera) as the base — common in French and Mediterranean gins — or by distilling fresh grape must directly. Features ethyl caproate (wine-like ester) and linalool, contributing a refined, vinous elegance distinct from grain-neutral spirit bases.",
+        "origin_es": "Se logra usando alcohol neutro de uva (Vitis vinifera) como base —común en ginebras francesas y mediterráneas— o destilando mosto de uva fresco directamente. Presenta caproato de etilo (éster vinoso) y linalool, aportando una elegancia vinosa y refinada distinta de las bases de alcohol neutro de grano.",
+        "pairing": "Creates a rounder, silkier mouthfeel that rounds off sharp London Dry botanicals. The vinous base aligns naturally with vermouth and wine-based modifiers.",
+        "pairing_es": "Crea una textura en boca más redonda y sedosa que suaviza los botánicos afilados del London Dry. La base vinosa se alinea de forma natural con el vermut y los modificadores a base de vino.",
+        "mixology": "A natural pairing for a classic French 75 or spirit-forward Martini with expressed lemon twist. Grape-base gins also respond well to champagne toppers in long serves.",
+        "mixology_es": "Pareja natural de un French 75 clásico o un Martini potente con piel de limón exprimida. Las ginebras de base de uva también responden bien a los toppers de champán en tragos largos."
+       }
+      }
+     ],
+     "name_es": "Jugoso"
+    }
+   ]
+  },
+  {
+   "name": "RED FRUITS",
+   "name_fr": "FRUITS ROUGES",
+   "name_it": "FRUTTI ROSSI",
+   "name_es": "FRUTOS ROJOS",
+   "color": "#ab4e68",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Delicate",
+     "name_fr": "Délicat",
+     "name_it": "Delicato",
+     "name_es": "Delicado",
+     "color": "#bd647c",
+     "descriptors": [
+      {
+       "name": "Gooseberry",
+       "name_fr": "Groseille à Maquereau",
+       "name_it": "Uva Spina",
+       "name_es": "Grosella Espinosa",
+       "slug": "gooseberry",
+       "panel": {
+        "origin": "Fresh gooseberry (Ribes uva-crispa) maceration. Contains methoxypyrazines — specifically isobutyl methoxypyrazine — which impart a Sauvignon Blanc-like aromatic character: grassy, green, slightly vegetal alongside the bright tartness. One of the more aromatic-crossover fruits in gin botanicals.",
+        "origin_es": "Maceración de grosella espinosa fresca (Ribes uva-crispa). Contiene metoxipirazinas —en concreto la isobutil-metoxipirazina— que imparten un carácter aromático tipo Sauvignon Blanc: herbáceo, verde y ligeramente vegetal junto a la acidez brillante. Una de las frutas de mayor cruce aromático entre los botánicos de ginebra.",
+        "pairing": "Combines naturally with elderflower, lemongrass, and sharp citrus. The methoxypyrazine link makes it particularly compatible with white-wine-based cocktail structures.",
+        "pairing_es": "Se combina de forma natural con saúco, hierba limón y cítrico afilado. El vínculo de la metoxipirazina la hace especialmente compatible con estructuras de cóctel a base de vino blanco.",
+        "mixology": "Brings crisp, vinous quality to a highball. Works wonderfully as a partial substitute for dry white wine in long cocktail builds. A Gooseberry Collins is a Michelin-level accessible serve.",
+        "mixology_es": "Aporta una cualidad nítida y vinosa a un highball. Funciona de maravilla como sustituto parcial del vino blanco seco en tragos largos. Un Gooseberry Collins es un servicio accesible de nivel Michelin."
+       }
+      },
+      {
+       "name": "Redcurrant",
+       "name_fr": "Groseille",
+       "name_it": "Ribes Rosso",
+       "name_es": "Grosella Roja",
+       "slug": "redcurrant",
+       "panel": {
+        "origin": "Maceration of whole fresh redcurrant berries (Ribes rubrum). Delivers a delicate, tart red berry acidity with a brilliant translucent color. High in organic acids (citric, malic) and anthocyanins, which color the spirit but largely do not survive distillation — requiring post-distillation maceration for color.",
+        "origin_es": "Maceración de bayas enteras de grosella roja fresca (Ribes rubrum). Aporta una acidez delicada y ácida de fruto rojo con un color translúcido brillante. Alta en ácidos orgánicos (cítrico, málico) y antocianinas, que tiñen el destilado pero en su mayoría no sobreviven a la destilación —requiriendo maceración posdestilación para el color—.",
+        "pairing": "Complements bright citrus notes and provides a tartness that grounds dry, root-spiced botanical configurations. Pairs with rose and violet floral profiles.",
+        "pairing_es": "Complementa las notas cítricas brillantes y aporta una acidez que ancla las configuraciones secas y especiadas de raíz. Marida con perfiles florales de rosa y violeta.",
+        "mixology": "Ideal for bright summer punches, Bramble adaptations, or adding crisp red-fruit lines to a dry spritz. Garnish with a small cluster of fresh redcurrants for visual impact.",
+        "mixology_es": "Ideal para ponches veraniegos brillantes, adaptaciones de Bramble o para añadir líneas nítidas de fruto rojo a un spritz seco. Guarnecer con un pequeño racimo de grosellas frescas para impacto visual."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Bright",
+     "name_fr": "Éclatant",
+     "name_it": "Brillante",
+     "name_es": "Vivo",
+     "color": "#b35670",
+     "descriptors": [
+      {
+       "name": "Sloe",
+       "name_fr": "Prunelle",
+       "name_it": "Prugnola",
+       "name_es": "Endrina",
+       "slug": "sloe",
+       "panel": {
+        "origin": "The foundation of Sloe Gin, classed as a liqueur under EU Regulation 2019/787 rather than as a gin, though it is made by steeping fruit in gin. Blackthorn drupes (Prunus spinosa) are steeped in gin with sugar for a minimum of 3 months — traditionally after the first frost to soften the skin. Rich in anthocyanins, organic acids, and a benzaldehyde note from the pit.",
+        "origin_es": "La base del Sloe Gin, clasificado como licor bajo el Reglamento UE 2019/787 en lugar de como ginebra, aunque se elabora macerando fruta en ginebra. Las drupas de endrino (Prunus spinosa) se maceran en ginebra con azúcar durante un mínimo de 3 meses —tradicionalmente tras la primera helada para ablandar la piel—. Rica en antocianinas, ácidos orgánicos y una nota de benzaldehído del hueso.",
+        "pairing": "The inherent stone-fruit bitterness and almond-like pit notes create natural harmony with dark spice and walnut profiles. Pairs with cherry and port-adjacent modifiers.",
+        "pairing_es": "El amargor inherente de fruta de hueso y las notas almendradas del hueso crean armonía natural con perfiles de especia oscura y nuez. Marida con cereza y modificadores cercanos al oporto.",
+        "mixology": "Star of the Sloe Gin Fizz. Can substitute as a sweet modifier or amaro analogue in complex builds. Excellent in winter aperitivo formats. The deep ruby color is a powerful visual tool.",
+        "mixology_es": "Estrella del Sloe Gin Fizz. Puede sustituir a un modificador dulce o hacer de análogo de amaro en construcciones complejas. Excelente en formatos aperitivos de invierno. Su profundo color rubí es una poderosa herramienta visual."
+       }
+      },
+      {
+       "name": "Cherry",
+       "name_fr": "Cerise",
+       "name_it": "Ciliegia",
+       "slug": "cherry",
+       "name_es": "Cereza",
+       "panel": {
+        "origin": "Infused using sweet (Prunus avium) or sour/Morello (Prunus cerasus) cherry skins and flesh. Benzaldehyde — from the pits — is the dominant aromatic, introducing marzipan-like dark stone-fruit character. Morello cherries add pronounced tartness; sweet varieties deliver richer, jammy depth.",
+        "origin_es": "Se infusiona con piel y pulpa de cereza dulce (Prunus avium) o ácida/Morello (Prunus cerasus). El benzaldehído —de los huesos— es el aroma dominante, introduciendo un carácter de fruta de hueso oscura tipo mazapán. Las cerezas Morello añaden acidez pronunciada; las variedades dulces aportan profundidad más rica y mermelada.",
+        "pairing": "Aligns with dark baking spices, cacao, walnut, and robust oak-aged modifiers. Cherry benzaldehyde shares aromatic territory with almond, creating a cohesive dessert-adjacent profile.",
+        "pairing_es": "Se alinea con especias oscuras de repostería, cacao, nuez y modificadores robustos criados en roble. El benzaldehído de la cereza comparte territorio aromático con la almendra, creando un perfil cohesivo cercano al postre.",
+        "mixology": "A natural choice for a Martinez variation, complex winter Flips, or adding rich berry depth to spirit-forward cocktails. Morello-forward gins work beautifully in Negroni builds.",
+        "mixology_es": "Una elección natural para una variación de Martinez, Flips complejos de invierno o para añadir profundidad rica de baya a cócteles potentes. Las ginebras con predominio de Morello funcionan de maravilla en construcciones de Negroni."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLORAL",
+   "name_fr": "FLORAL",
+   "name_it": "FLOREALE",
+   "name_es": "FLORAL",
+   "color": "#674d93",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Perfumed",
+     "name_fr": "Parfumé",
+     "name_it": "Profumato",
+     "color": "#7c64a6",
+     "descriptors": [
+      {
+       "name": "Rose",
+       "name_fr": "Rose",
+       "name_it": "Rosa",
+       "slug": "rose",
+       "name_es": "Rosa",
+       "panel": {
+        "origin": "Fresh rose petals (Rosa damascena or Rosa centifolia) via steam or vapor infusion — direct maceration risks extracting bitter green tannins from the base of petals. Primary active compounds are geraniol, nerol, and 2-phenylethanol (phenylethyl alcohol). Produces an intensely perfumed, Turkish-delight floral sweetness.",
+        "origin_es": "Pétalos de rosa frescos (Rosa damascena o Rosa centifolia) por infusión de vapor —la maceración directa arriesga extraer taninos verdes amargos de la base del pétalo—. Los compuestos activos principales son geraniol, nerol y 2-feniletanol. Produce una dulzura floral intensamente perfumada, tipo delicia turca.",
+        "pairing": "Core component in premium contemporary gins. Aligns with cucumber, elderflower, lychee, and soft tea profiles. The 2-phenylethanol provides a natural bridge to grape-spirit bases.",
+        "pairing_es": "Componente central de las ginebras contemporáneas premium. Se alinea con pepino, saúco, lichi y perfiles suaves de té. El 2-feniletanol tiende un puente natural a las bases de alcohol de uva.",
+        "mixology": "Elevates delicate Martinis, the classic Aviation, and floral-forward highball serves. Pair with light floral tonics (Fever-Tree Aromatic or similar) — heavy quinine tonics will mask the rose top notes.",
+        "mixology_es": "Eleva Martinis delicados, el clásico Aviation y highballs florales. Maridar con tónicas florales ligeras (Fever-Tree Aromatic o similar) —las tónicas pesadas de quinina enmascaran las notas altas de la rosa—."
+       }
+      },
+      {
+       "name": "Violet",
+       "name_fr": "Violette",
+       "name_it": "Viola",
+       "slug": "violet",
+       "name_es": "Violeta",
+       "panel": {
+        "origin": "Derived from violet flowers (Viola odorata) or violet leaves. Rich in ionone compounds — alpha-ionone and beta-ionone — providing an elusive, powdery floral character. Ionones are also present in raspberries and aged wines, explaining violet's fruity-floral crossover. Easily over-extracted; precision is critical.",
+        "origin_es": "Procede de flores de violeta (Viola odorata) u hojas de violeta. Rica en iononas —alfa-ionona y beta-ionona— que aportan un carácter floral pulverulento y esquivo. Las iononas también están presentes en frambuesas y vinos envejecidos, lo que explica el cruce frutal-floral de la violeta. Se sobreextrae con facilidad; la precisión es crítica.",
+        "pairing": "Historically linked to traditional European botanical profiles. Bridges the gap between floral and red-fruit categories. Common in classic Martinez-era gins.",
+        "pairing_es": "Históricamente ligada a los perfiles botánicos europeos tradicionales. Tiende un puente entre las categorías floral y de fruto rojo. Común en las ginebras clásicas de la era Martinez.",
+        "mixology": "The ideal base for an authentic Aviation cocktail. Eliminates reliance on synthetic crème de violette for bars aiming at botanical integrity. A violet-forward gin Martini with a light lemon twist is elegant and distinctive.",
+        "mixology_es": "La base ideal para un Aviation auténtico. Elimina la dependencia de la crème de violette sintética para barras que buscan integridad botánica. Un Martini de ginebra con violeta y un toque ligero de limón es elegante y distintivo."
+       }
+      }
+     ],
+     "name_es": "Perfumado"
+    },
+    {
+     "name": "Fresh",
+     "name_fr": "Frais",
+     "name_it": "Fresco",
+     "color": "#72589c",
+     "descriptors": [
+      {
+       "name": "Lavender",
+       "name_fr": "Lavande",
+       "name_it": "Lavanda",
+       "slug": "lavender",
+       "name_es": "Lavanda",
+       "panel": {
+        "origin": "Dried lavender buds (Lavandula angustifolia — true lavender, not Lavandin, which has a harsher camphor note). Primary active compounds: linalool (floral, relaxing) and linalyl acetate (light, bergamot-citrus). Provides intensely floral-herbaceous aroma with a subtle pine-camphorous finish. Requires careful dosing — lavender dominates at only slightly elevated concentrations.",
+        "origin_es": "Capullos de lavanda secos (Lavandula angustifolia —lavanda verdadera, no lavandín, que tiene una nota de alcanfor más áspera—). Compuestos activos principales: linalool (floral) y acetato de linalilo (ligero, cítrico-bergamota). Aporta un aroma intensamente floral-herbáceo con un final sutil a pino-alcanfor. Requiere dosificación cuidadosa —la lavanda domina con concentraciones solo ligeramente elevadas—.",
+        "pairing": "Integrates best with bright lemon citrus and sweet honey profiles. Used sparingly, it can make juniper-forward gins feel softer and more approachable.",
+        "pairing_es": "Se integra mejor con cítrico de limón brillante y perfiles dulces de miel. Usada con moderación, hace que las ginebras con predominio de enebro se perciban más suaves y accesibles.",
+        "mixology": "Adds aromatic dimension to Gin Sours, honey-sweetened Bee's Knees, or lavender syrup fizzes. A house-made lavender simple syrup as a modifier allows control over intensity. Always garnish: a single dried sprig on the rim is classic.",
+        "mixology_es": "Añade dimensión aromática a Gin Sours, a un Bee's Knees endulzado con miel o a fizzes de jarabe de lavanda. Un jarabe casero de lavanda como modificador permite controlar la intensidad. Guarnecer siempre: una ramita seca en el borde es clásico."
+       }
+      },
+      {
+       "name": "Meadowsweet",
+       "name_fr": "Reine-des-prés",
+       "name_it": "Olmaria",
+       "name_es": "Reina de los Prados",
+       "slug": "meadowsweet",
+       "panel": {
+        "origin": "Wild meadowsweet flowers (Filipendula ulmaria). Contains methyl salicylate (wintergreen character), spiraeosides, and quercetin. Notably, meadowsweet (old genus name Spiraea) gave aspirin its name and was a historical source of salicylates related to it. Provides a sweet floral aroma with faint warm undertones of wintergreen, soft vanilla, and a distinctive dried-hay quality.",
+        "origin_es": "Flores silvestres de reina de los prados (Filipendula ulmaria). Contiene salicilato de metilo (carácter de gaulteria), espireósidos y quercetina. Notablemente, la reina de los prados (antiguo nombre de género Spiraea) dio su nombre a la aspirina y fue fuente histórica de salicilatos emparentados con ella. Aporta un aroma floral dulce con matices cálidos de gaulteria, vainilla suave y heno seco.",
+        "pairing": "Excellent for establishing a wild, rustic meadow terroir in contemporary artisanal gins. Synergistic with chamomile, elderflower, and dry vermouth.",
+        "pairing_es": "Excelente para establecer un terroir de pradera silvestre y rústica en ginebras artesanales contemporáneas. Sinérgica con manzanilla, saúco y vermut seco.",
+        "mixology": "Pairs with dry, herbal vermouths inside an ultra-clean Martini garnished with a fresh herb sprig. A Meadowsweet Highball with pressed apple and soda showcases the meadow-terroir character well.",
+        "mixology_es": "Marida con vermuts secos y herbales dentro de un Martini ultralimpio guarnecido con una ramita de hierba fresca. Un highball de reina de los prados con manzana prensada y soda muestra bien el carácter de terroir de pradera."
+       }
+      }
+     ],
+     "name_es": "Fresco"
+    },
+    {
+     "name": "Aromatic",
+     "name_fr": "Aromatique",
+     "name_it": "Aromatico",
+     "color": "#674d93",
+     "descriptors": [
+      {
+       "name": "Chamomile",
+       "name_fr": "Camomille",
+       "name_it": "Camomilla",
+       "slug": "chamomile",
+       "name_es": "Manzanilla",
+       "panel": {
+        "origin": "Dried chamomile flowers — German (Matricaria chamomilla) is most common for distillation. Rich in bisabolol (soothing, gentle floral), chamazulene (anti-inflammatory compound that contributes blue color to steam distillate), and apigenin. Provides a soothing, gentle, apple-honey floral aroma with a remarkably smooth mouthfeel perception.",
+        "origin_es": "Flores de manzanilla secas —la alemana (Matricaria chamomilla) es la más común para destilar—. Rica en bisabolol (floral suave), camazuleno (compuesto que aporta color azul al destilado de vapor) y apigenina. Aporta un aroma floral suave y reconfortante de manzana y miel, con una percepción de textura notablemente sedosa.",
+        "pairing": "Acts as a textural and aromatic softening agent for aggressive juniper or sharp citrus-forward gins. The apple-like secondary note resonates with orchard fruit profiles.",
+        "pairing_es": "Actúa como agente suavizante textural y aromático para ginebras de enebro agresivo o muy cítricas. La nota secundaria tipo manzana resuena con perfiles de fruta de huerto.",
+        "mixology": "Excellent in honey-based cocktails, a warm hot toddy, or an afternoon tea highball at low ABV with chamomile-infused simple syrup and tonic. Roman chamomile (Chamaemelum nobile) is sometimes substituted and carries a more apple-like top note.",
+        "mixology_es": "Excelente en cócteles a base de miel, un hot toddy cálido o un highball de té de tarde a baja graduación con jarabe de manzanilla y tónica. La manzanilla romana (Chamaemelum nobile) a veces se sustituye y aporta una nota alta más amanzanada."
+       }
+      },
+      {
+       "name": "Elderflower",
+       "name_fr": "Fleur de Sureau",
+       "name_it": "Fiore di Sambuco",
+       "slug": "elderflower",
+       "name_es": "Flor de Saúco",
+       "panel": {
+        "origin": "Fresh elderflower blossoms (Sambucus nigra). Complex aromatic profile driven by linalool, hotrienol (a monoterpene giving tropical/floral lift), alpha-terpineol, and various monoterpene oxides. The heady, tropical-tinged floral note with hints of white grape and lychee is extremely volatile — fresh flowers must be distilled immediately or cold-macerated rapidly.",
+        "origin_es": "Flores frescas de saúco (Sambucus nigra). Perfil aromático complejo impulsado por linalool, hotrienol (un monoterpeno que da realce tropical/floral), alfa-terpineol y diversos óxidos de monoterpeno. La nota floral con tinte tropical y matices de uva blanca y lichi es extremadamente volátil —las flores frescas deben destilarse de inmediato o macerarse en frío con rapidez—.",
+        "pairing": "Harmonizes naturally with Sauvignon Blanc-style finishes, gooseberry, and pear modifiers. One of the most popular contemporary gin botanicals in the UK since 2010.",
+        "pairing_es": "Armoniza de forma natural con finales tipo Sauvignon Blanc, grosella espinosa y modificadores de pera. Uno de los botánicos contemporáneos más populares en el Reino Unido desde 2010.",
+        "mixology": "The definitive modifier for a French 75, floral spritzes, or upgrading a standard G&T. Elderflower tonic (Fever-Tree or Fentimans) creates a self-reinforcing floral experience. Used as a cordial modifier (St-Germain or house-made) in Martini and Spritz formats.",
+        "mixology_es": "El modificador definitivo de un French 75, spritzes florales o la mejora de un Gin Tonic estándar. La tónica de saúco (Fever-Tree o Fentimans) crea una experiencia floral que se refuerza a sí misma. Usado como cordial modificador (St-Germain o casero) en formatos Martini y Spritz."
+       }
+      }
+     ],
+     "name_es": "Aromático"
+    }
+   ]
+  },
+  {
+   "name": "GRASSY",
+   "name_fr": "HERBEUX",
+   "name_it": "ERBOSO",
+   "name_es": "HERBÁCEO",
+   "color": "#7ca655",
+   "textColor": "#122b00",
+   "sub": [
+    {
+     "name": "Fragrant",
+     "name_fr": "Parfumé",
+     "name_it": "Profumato",
+     "name_es": "Fragante",
+     "color": "#8fb66a",
+     "descriptors": [
+      {
+       "name": "Marigold",
+       "name_fr": "Souci",
+       "name_it": "Calendula",
+       "name_es": "Caléndula",
+       "slug": "marigold",
+       "panel": {
+        "origin": "Dried petals from Tagetes minuta (Mexican/South American marigold, anise-like, citrus-herbal) or Calendula officinalis (pot marigold, more musky-hay, warm). These are botanically distinct plants with different aromatic profiles — Tagetes is more citrus-sharp; Calendula is more grassy and earthy. Gin producers typically specify Calendula. Contains sesquiterpenes, carotenoids, and flavonoids.",
+        "origin_es": "Pétalos secos de Tagetes minuta (caléndula mexicana/sudamericana, anisada, cítrico-herbal) o Calendula officinalis (caléndula, más almizclada-heno, cálida). Son plantas botánicamente distintas con perfiles aromáticos diferentes —Tagetes es más cítrico-afilada; Calendula es más herbácea y terrosa—. Los productores suelen especificar Calendula. Contiene sesquiterpenos, carotenoides y flavonoides.",
+        "pairing": "Adds rustic, artisanal, farm-fresh earthiness to warm, spice-driven gins. The Calendula profile resonates with chamomile and dry herbal notes.",
+        "pairing_es": "Añade una terrosidad rústica, artesanal y de granja a ginebras cálidas y especiadas. El perfil de Calendula resuena con la manzanilla y las notas herbales secas.",
+        "mixology": "A savory-floral element in dry Martinis or herbal aperitivo drinks. Best served simply — a G&T with a marigold petal garnish in a Copa glass is visually striking and aromatically honest.",
+        "mixology_es": "Un elemento salado-floral en Martinis secos o aperitivos herbales. Mejor servido con sencillez —un Gin Tonic con un pétalo de caléndula en copa balón es visualmente llamativo y aromáticamente honesto—."
+       }
+      },
+      {
+       "name": "Earl Grey",
+       "name_fr": "Earl Grey",
+       "name_it": "Earl Grey",
+       "name_es": "Earl Grey",
+       "slug": "earl-grey",
+       "panel": {
+        "origin": "Black tea leaves (typically Assam or Ceylon) scented with bergamot oil from Citrus bergamia — a citrus fruit grown primarily in Calabria, Italy. Combines deep, drying tea tannins with the volatile, high-toned citrus-floral shine of bergamot linalool and limonene. The tannic structure from tea polyphenols does not survive distillation directly — the aromatic compounds do.",
+        "origin_es": "Hojas de té negro (típicamente Assam o Ceilán) perfumadas con aceite de bergamota de Citrus bergamia —un cítrico cultivado principalmente en Calabria, Italia—. Combina taninos de té profundos y secantes con el brillo cítrico-floral alto y volátil del linalool y limoneno de la bergamota. La estructura tánica de los polifenoles del té no sobrevive directamente a la destilación —los compuestos aromáticos sí—.",
+        "pairing": "Provides a dry, intellectual baseline for citrus and heavy spice profiles. The bergamot note shares linalool with lavender and coriander seed, creating internal harmony.",
+        "pairing_es": "Aporta una base seca e intelectual a perfiles cítricos y de especia pesada. La nota de bergamota comparte linalool con la lavanda y el cilantro, creando armonía interna.",
+        "mixology": "The backbone of a Chelsea Sidecar or cold-brew tea punch formats. Natural tea tannins in macerated gin (vs. distilled) yield a bone-dry finish that cuts through sweet liqueurs. Tea-washed gin is a related technique used in upscale bar programs.",
+        "mixology_es": "La columna vertebral de un Chelsea Sidecar o formatos de ponche de té frío. Los taninos naturales del té en ginebra macerada (frente a destilada) dan un final muy seco que corta los licores dulces. La ginebra lavada con té es una técnica afín en programas de barra de alto nivel."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Leafy",
+     "name_fr": "Feuillu",
+     "name_it": "Fogliaceo",
+     "name_es": "Foliáceo",
+     "color": "#7ca655",
+     "descriptors": [
+      {
+       "name": "Lemongrass",
+       "name_fr": "Citronnelle",
+       "name_it": "Citronella",
+       "name_es": "Hierba Limón",
+       "slug": "lemongrass",
+       "panel": {
+        "origin": "Fresh or dried stalks of Cymbopogon citratus (West Indian) or Cymbopogon flexuosus (East Indian). Citral — a mixture of the isomers geranial and neral — is the dominant compound (70–85% of essential oil), delivering an intensely clean, grassy-citrus punch free from the bitter lipids present in citrus peels. Highly popular in Southeast Asian-inspired gins.",
+        "origin_es": "Tallos frescos o secos de Cymbopogon citratus (de las Indias Occidentales) o Cymbopogon flexuosus (de las Indias Orientales). El citral —una mezcla de los isómeros geranial y neral— es el compuesto dominante (70–85 % del aceite esencial), aportando un golpe cítrico-herbáceo intensamente limpio, libre de los lípidos amargos de las cáscaras cítricas. Muy popular en ginebras de inspiración del Sudeste Asiático.",
+        "pairing": "Foundational in Asian-inspired contemporary gins. Complements fresh ginger, kaffir lime leaf, Thai basil, and mint in a clean, culinary flavor arc.",
+        "pairing_es": "Fundamental en ginebras contemporáneas de inspiración asiática. Complementa el jengibre fresco, la hoja de lima kafir, la albahaca tailandesa y la menta en un arco de sabor culinario y limpio.",
+        "mixology": "Superb in a Southside, Eastside, or any highball using fresh mint or spicy premium ginger beer. In a Michelin context, a lemongrass-infused gin with hand-pressed coconut water and a lime oleo saccharum is a refined contemporary serve.",
+        "mixology_es": "Magnífica en un Southside, un Eastside o cualquier highball con menta fresca o ginger beer premium picante. En contexto Michelin, una ginebra infusionada con hierba limón, agua de coco prensada a mano y un oleo saccharum de lima es un servicio contemporáneo refinado."
+       }
+      },
+      {
+       "name": "Hibiscus",
+       "name_fr": "Hibiscus",
+       "name_it": "Ibisco",
+       "name_es": "Hibisco",
+       "slug": "hibiscus",
+       "panel": {
+        "origin": "Dried calyces (not petals, technically) of Hibiscus sabdariffa — the Roselle plant. Rich in organic acids (hibiscus acid, citric, malic, tartaric) and anthocyanin pigments (primarily delphinidin-3-sambubioside). When used as a post-distillation macerate, produces a vibrant, deep ruby red color. Flavor is sharply tart, cranberry-adjacent. Note: botanically a calyx/fruit, not a grass; grouped here by flavor profile.",
+        "origin_es": "Cálices secos (no pétalos, técnicamente) de Hibiscus sabdariffa —la planta de la rosela—. Rica en ácidos orgánicos (ácido de hibisco, cítrico, málico, tartárico) y pigmentos de antocianina (principalmente delfinidina-3-sambubiósido). Usada como macerado posdestilación, produce un color rojo rubí vibrante y profundo. El sabor es marcadamente ácido, cercano al arándano rojo. Nota: botánicamente un cáliz/fruta, no una hierba; agrupado aquí por perfil de sabor.",
+        "pairing": "Blends well with red fruit profiles; a crisp counter to sweet citrus. The anthocyanin color is a powerful bar tool — hibiscus-macerated gin creates natural color-changing effects with tonic (the pH shift turns it pink-to-purple).",
+        "pairing_es": "Se combina bien con perfiles de fruto rojo; un contrapunto nítido al cítrico dulce. El color de la antocianina es una poderosa herramienta de barra —la ginebra macerada con hibisco crea efectos de cambio de color con la tónica (el cambio de pH la vira de rosa a púrpura)—.",
+        "mixology": "A visual and structural showstopper in premium spritzes, winter Bramble adaptations, or unique Clover Club riffs. The pH-reactive color change with tonic is a memorable table-side experience.",
+        "mixology_es": "Un espectáculo visual y estructural en spritzes premium, adaptaciones invernales de Bramble o riffs únicos de Clover Club. El cambio de color reactivo al pH con la tónica es una experiencia memorable en mesa."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HERBAL",
+   "name_fr": "HERBACÉ",
+   "name_it": "ERBACEO",
+   "name_es": "HIERBAS",
+   "color": "#4e9652",
+   "textColor": "#002402",
+   "sub": [
+    {
+     "name": "Herbaceous",
+     "name_fr": "Herbacé",
+     "name_it": "Erbaceo",
+     "name_es": "Herbáceo",
+     "color": "#64a868",
+     "descriptors": [
+      {
+       "name": "Caraway",
+       "name_fr": "Carvi",
+       "name_it": "Carvi",
+       "name_es": "Alcaravea",
+       "slug": "caraway",
+       "panel": {
+        "origin": "Seeds of Carum carvi. Carvone (specifically R-(-)-carvone) is the primary active compound at 50–65% of the essential oil, delivering a warm, highly aromatic, distinctively herbal profile with a savory sweet-rye bread character. Limonene is the secondary compound. Caraway is the defining botanical of Scandinavian Aquavit — its presence in gin signals a deliberate savory-herbal direction.",
+        "origin_es": "Semillas de Carum carvi. La carvona (en concreto la R-(-)-carvona) es el compuesto activo principal, al 50–65 % del aceite esencial, aportando un perfil cálido, muy aromático y distintivamente herbal con carácter de pan de centeno dulce y salado. El limoneno es el compuesto secundario. La alcaravea es el botánico definitorio del Aquavit escandinavo —su presencia en la ginebra señala una dirección salada-herbal deliberada—.",
+        "pairing": "Establishes a bridge into intensely savory, culinary-forward gin styles. Pairs naturally with dill, fennel, and anise-adjacent botanicals.",
+        "pairing_es": "Establece un puente hacia estilos de ginebra intensamente salados y culinarios. Marida de forma natural con eneldo, hinojo y botánicos cercanos al anís.",
+        "mixology": "Magnificent in a Red Snapper (Gin Bloody Mary) or an ultra-savory Gibson garnished with cocktail onions. In Nordic-inspired bar programs, caraway gin pairs with aquavit modifiers for a layered Scandinavian Sour.",
+        "mixology_es": "Magnífica en un Red Snapper (Bloody Mary de ginebra) o un Gibson ultrasalado guarnecido con cebollitas. En programas de barra de inspiración nórdica, la ginebra de alcaravea marida con modificadores de aquavit para un Sour escandinavo en capas."
+       }
+      },
+      {
+       "name": "Mint",
+       "name_fr": "Menthe",
+       "name_it": "Menta",
+       "slug": "mint",
+       "name_es": "Menta",
+       "panel": {
+        "origin": "Fresh peppermint (Mentha × piperita) or spearmint (Mentha spicata) leaves. Peppermint is dominated by menthol (35–45%) and menthone; spearmint by R-(-)-carvone (shared with caraway) and less menthol. Menthol triggers TRPM8 cold-receptor activation — the cooling sensation is a physiological effect, not a temperature change. Dried mint loses volatile top notes rapidly; fresh is strongly preferred.",
+        "origin_es": "Hojas frescas de hierbabuena (Mentha × piperita) o menta verde (Mentha spicata). La hierbabuena está dominada por mentol (35–45 %) y mentona; la menta verde por R-(-)-carvona (compartida con la alcaravea) y menos mentol. El mentol activa el receptor de frío TRPM8 —la sensación de frescor es un efecto fisiológico, no un cambio de temperatura—. La menta seca pierde las notas altas con rapidez; la fresca es muy preferible.",
+        "pairing": "Provides exceptional lifting action for heavy pine juniper and sweet citrus lines. The menthol cooling opens olfactory receptors, making aromas more perceptible.",
+        "pairing_es": "Aporta una acción elevadora excepcional a las líneas pesadas de enebro y al cítrico dulce. El frescor del mentol abre los receptores olfativos, haciendo los aromas más perceptibles.",
+        "mixology": "The engine behind the Southside and Eastside cocktails. Always express fresh mint over the glass before serving — this activates volatile oils separate from the gin's internal botanical. Never muddle harshly; a gentle smack releases oils without extracting bitter chlorophyll.",
+        "mixology_es": "El motor del Southside y el Eastside. Exprime siempre menta fresca sobre la copa antes de servir —esto activa los aceites volátiles—. Nunca macerar con fuerza; un golpe suave libera los aceites sin extraer la clorofila amarga."
+       }
+      },
+      {
+       "name": "Parsley",
+       "name_fr": "Persil",
+       "name_it": "Prezzemolo",
+       "name_es": "Perejil",
+       "slug": "parsley",
+       "panel": {
+        "origin": "Fresh flat-leaf (Petroselinum crispum var. neapolitanum) or curly parsley (Petroselinum crispum). Contains apiol — a phenylpropanoid — along with myristicin and terpinolene, offering a clean, mineral-toned, crisp, slightly peppery green vegetable note. Evokes a fresh garden character. Note: apiol has historic medical uses (an emmenagogue) — relevant only as context, not a safety concern at culinary concentrations.",
+        "origin_es": "Perejil fresco de hoja plana (Petroselinum crispum var. neapolitanum) o rizado (Petroselinum crispum). Contiene apiol —un fenilpropanoide— junto a miristicina y terpinoleno, ofreciendo una nota verde y vegetal limpia, mineral, nítida y ligeramente picante. Evoca un carácter de jardín fresco.",
+        "pairing": "Integrates well with sage, thyme, and celery seed for a full garden herb profile.",
+        "pairing_es": "Se integra bien con salvia, tomillo y semilla de apio para un perfil completo de hierba de jardín.",
+        "mixology": "Ideal in a green garden highball, Botanical Snapper, or crisp dry Gibson. A parsley oil garnish or a small parsley-stalk bouquet as a garnish communicates the ingredient visually to the guest.",
+        "mixology_es": "Ideal en un highball de jardín verde, un Botanical Snapper o un Gibson seco y nítido. Una guarnición de aceite de perejil o un pequeño ramillete de tallos comunica el ingrediente visualmente al comensal."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Vegetal",
+     "name_fr": "Végétal",
+     "name_it": "Vegetale",
+     "name_es": "Vegetal",
+     "color": "#559e59",
+     "descriptors": [
+      {
+       "name": "Thyme",
+       "name_fr": "Thym",
+       "name_it": "Timo",
+       "slug": "thyme",
+       "name_es": "Tomillo",
+       "panel": {
+        "origin": "Fresh or dried common thyme (Thymus vulgaris). Thymol is the primary active phenol (20–50% of essential oil), supplying a pungent, warm, medicinal-herbal aroma with sweet earth undertones. Garden thyme (high thymol) differs from lemon thyme (higher geraniol, more citrus-floral) — gin producers sometimes specify for precise character.",
+        "origin_es": "Tomillo común fresco o seco (Thymus vulgaris). El timol es el fenol activo principal (20–50 % del aceite esencial), aportando un aroma punzante, cálido y medicinal-herbal con matices de tierra dulce. El tomillo de jardín (alto en timol) difiere del tomillo limón (más geraniol, más cítrico-floral) —los productores a veces especifican para un carácter preciso—.",
+        "pairing": "Classic Mediterranean botanical pairing tier. Pairs with citrus oils, green olives, and rosemary for a Provençal profile.",
+        "pairing_es": "Nivel clásico de maridaje botánico mediterráneo. Marida con aceites cítricos, aceitunas verdes y romero para un perfil provenzal.",
+        "mixology": "Sensational in a G&T served with a bruised fresh thyme sprig and a Chartreuse rinse on the glass. A house-made thyme-infused vermouth or thyme simple syrup gives bar teams creative control over intensity.",
+        "mixology_es": "Sensacional en un Gin Tonic servido con una ramita de tomillo fresco machacada y un enjuague de Chartreuse en la copa. Un vermut casero infusionado con tomillo o un jarabe de tomillo da al equipo de barra control creativo sobre la intensidad."
+       }
+      },
+      {
+       "name": "Rosemary",
+       "name_fr": "Romarin",
+       "name_it": "Rosmarino",
+       "slug": "rosemary",
+       "name_es": "Romero",
+       "panel": {
+        "origin": "Fresh rosemary needles (Salvia rosmarinus — reclassified from Rosmarinus officinalis in the late 2010s). Brimming with 1,8-cineole (eucalyptol), camphor, and alpha-pinene. Creates a high-impact, resinous, powerfully aromatic wood-herbal profile. The shared alpha-pinene with juniper creates a natural internal harmony.",
+        "origin_es": "Agujas frescas de romero (Salvia rosmarinus —reclasificado desde Rosmarinus officinalis a finales de la década de 2010—). Repleto de 1,8-cineol (eucaliptol), alcanfor y alfa-pineno. Crea un perfil amaderado-herbal de alto impacto, resinoso y potentemente aromático. El alfa-pineno compartido con el enebro crea armonía interna natural.",
+        "pairing": "Amplifies classic gin structure via the shared pinene backbone. Works with charred/smoked modifiers and bitter aperitivo profiles.",
+        "pairing_es": "Amplifica la estructura clásica de la ginebra mediante la columna de pineno compartida. Funciona con modificadores ahumados/carbonizados y perfiles aperitivos amargos.",
+        "mixology": "Outstanding in savory Negronis or charred-rosemary smoked highballs. Flame-activated rosemary sprig garnish is a Michelin-level service technique: torch the sprig briefly, cap the glass momentarily to capture the smoke, then serve.",
+        "mixology_es": "Sobresaliente en Negronis salados o highballs ahumados con romero quemado. La guarnición de ramita de romero activada con llama es una técnica de servicio de nivel Michelin: flamea la ramita brevemente, tapa la copa un instante para capturar el humo y sirve."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Savoury",
+     "name_fr": "Salé",
+     "name_it": "Saporito",
+     "color": "#4e9652",
+     "descriptors": [
+      {
+       "name": "Sage",
+       "name_fr": "Sauge",
+       "name_it": "Salvia",
+       "slug": "sage",
+       "name_es": "Salvia",
+       "panel": {
+        "origin": "Dried common sage (Salvia officinalis). Contains thujone (alpha and beta isomers) — a GABA-A receptor antagonist at high doses; at culinary gin concentrations this is not a concern but explains sage's distinctively 'buzzy,' warming character. Also rich in camphor, 1,8-cineole, and borneol. Texture is velvet-heavy, savory-herbaceous.",
+        "origin_es": "Salvia común seca (Salvia officinalis). Contiene tujona (isómeros alfa y beta) —un antagonista del receptor GABA-A en dosis altas; en concentraciones culinarias no es preocupante, pero explica el carácter distintivamente 'vibrante' y cálido de la salvia—. También rica en alcanfor, 1,8-cineol y borneol. Textura aterciopelada, salada-herbácea.",
+        "pairing": "Harmonizes with robust woody nuts, rich roots, and sweet citrus peels. The thujone note is softened by sweet botanicals and amplified by dry, tannic modifiers.",
+        "pairing_es": "Armoniza con nueces amaderadas robustas, raíces ricas y cáscaras cítricas dulces. La nota de tujona se suaviza con botánicos dulces y se amplifica con modificadores secos y tánicos.",
+        "mixology": "Ideal for spirit-forward winter cocktails, savory autumn Flips, or dirty Martinis with a sage leaf garnish floating on the surface. Clary sage (Salvia sclarea) is sometimes used instead — more floral, less camphorous.",
+        "mixology_es": "Ideal para cócteles potentes de invierno, Flips otoñales salados o Martinis sucios con una hoja de salvia flotando en la superficie. A veces se usa salvia romana (Salvia sclarea) —más floral, menos alcanforada—."
+       }
+      },
+      {
+       "name": "Bay Laurel",
+       "name_fr": "Laurier",
+       "name_it": "Alloro",
+       "name_es": "Laurel",
+       "slug": "bay-laurel",
+       "panel": {
+        "origin": "Dried leaves of Laurus nobilis (Bay Laurel — not to be confused with California Bay, Umbellularia californica, which is far more pungent). Rich in 1,8-cineole (eucalyptol, up to 50%), eugenol, and alpha-terpinyl acetate. Contributes a sophisticated, warm, woody-herbal aroma with exotic undertones of sweet nutmeg and clove spice.",
+        "origin_es": "Hojas secas de Laurus nobilis (laurel —no confundir con el laurel de California, Umbellularia californica, mucho más punzante—). Rica en 1,8-cineol (eucaliptol, hasta el 50 %), eugenol y acetato de alfa-terpinilo. Aporta un aroma sofisticado, cálido y amaderado-herbal con matices exóticos de nuez moscada dulce y clavo.",
+        "pairing": "A binding agent that seamlessly unites bright volatile citrus top notes with heavy, oily root fixatives. A classic component in traditional European gin formulations.",
+        "pairing_es": "Un agente aglutinante que une sin costuras las notas altas cítricas y volátiles con los fijadores de raíz pesados y aceitosos. Un componente clásico en las formulaciones de ginebra europeas tradicionales.",
+        "mixology": "Brings culinary complexity to high-end Martinis, savory punches, or herbal highballs. A bay-laurel-sprig garnish on a Dirty Martini communicates flavor expectation visually and aromatically.",
+        "mixology_es": "Aporta complejidad culinaria a Martinis de alto nivel, ponches salados o highballs herbales. Una guarnición de ramita de laurel en un Martini sucio comunica la expectativa de sabor visual y aromáticamente."
+       }
+      },
+      {
+       "name": "Fennel",
+       "name_fr": "Fenouil",
+       "name_it": "Finocchio",
+       "slug": "fennel",
+       "name_es": "Hinojo",
+       "panel": {
+        "origin": "Fennel seeds (Foeniculum vulgare) or wild fennel fronds. Dominated by trans-anethole (50–80% of essential oil) — the same compound responsible for the louche effect in absinthe and the anise character of Sambuca. Also contains fenchone (bitter, earthy). The sweet anise perception comes entirely from anethole.",
+        "origin_es": "Semillas de hinojo (Foeniculum vulgare) o frondas de hinojo silvestre. Dominado por trans-anetol (50–80 % del aceite esencial) —el mismo compuesto responsable del efecto louche en la absenta y del carácter anisado de la sambuca—. También contiene fenchona (amarga, terrosa). La percepción de anís dulce proviene íntegramente del anetol.",
+        "pairing": "Expands perceived sweetness without sugar additions. Natural pairing with anise and caraway in the anise-botanical family. Works with citrus oils to brighten the profile.",
+        "pairing_es": "Expande la dulzura percibida sin añadir azúcar. Maridaje natural con anís y alcaravea en la familia botánica del anís. Funciona con aceites cítricos para iluminar el perfil.",
+        "mixology": "A natural companion in a white Negroni, Martinez variation, or highball with a fresh star anise garnish. Fennel-forward gins pair with Pastis-family modifiers for anise-amplified builds.",
+        "mixology_es": "Acompañante natural en un White Negroni, una variación de Martinez o un highball con una guarnición de anís estrellado fresco. Las ginebras con hinojo maridan con modificadores de la familia del Pastis para construcciones amplificadas en anís."
+       }
+      }
+     ],
+     "name_es": "Sabroso"
+    }
+   ]
+  },
+  {
+   "name": "PINEY",
+   "name_fr": "DE PIN",
+   "name_it": "DI PINO",
+   "name_es": "PINO",
+   "color": "#2d633b",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Medicinal",
+     "name_fr": "Médicinal",
+     "name_it": "Medicinale",
+     "name_es": "Medicinal",
+     "color": "#40784f",
+     "descriptors": [
+      {
+       "name": "Pine Needle",
+       "name_fr": "Aiguille de Pin",
+       "name_it": "Ago di Pino",
+       "name_es": "Aguja de Pino",
+       "slug": "pine-needle",
+       "panel": {
+        "origin": "Freshly foraged pine or fir needles — Scots Pine (Pinus sylvestris) is most commonly used in gin production. Loaded with high concentrations of alpha-pinene and beta-pinene, delivering an ultra-crisp, refreshing alpine pine character. The specific species matters: Scots Pine is resinous and clean; Douglas Fir needles add a more citrus-like note.",
+        "origin_es": "Agujas de pino o abeto recién recolectadas —el pino silvestre (Pinus sylvestris) es el más usado en producción de ginebra—. Cargadas de altas concentraciones de alfa-pineno y beta-pineno, aportando un carácter de pino alpino ultranítido y refrescante. La especie importa: el pino silvestre es resinoso y limpio; las agujas de abeto de Douglas añaden una nota más cítrica.",
+        "pairing": "Amplifies and elongates the natural core identity of juniper, establishing an intense alpine forest aesthetic. Resonates with spruce tip and frankincense in the resinous family.",
+        "pairing_es": "Amplifica y alarga la identidad central natural del enebro, estableciendo una estética intensa de bosque alpino. Resuena con la yema de abeto y el incienso en la familia resinosa.",
+        "mixology": "Excellent in an ice-cold, bone-dry Martini. Use a premium dry vermouth (Dolin Dry or Noilly Prat) to allow intense pine notes center stage. A pine-needle-infused house vermouth is a compelling premium bar offering.",
+        "mixology_es": "Excelente en un Martini muy seco y helado. Usa un vermut seco premium (Dolin Dry o Noilly Prat) para dejar las intensas notas de pino en el centro. Un vermut casero infusionado con agujas de pino es una oferta de barra premium convincente."
+       }
+      },
+      {
+       "name": "Juniper",
+       "name_fr": "Genièvre",
+       "name_it": "Ginepro",
+       "slug": "juniper",
+       "name_es": "Enebro",
+       "panel": {
+        "origin": "Juniperus communis berries — the legal, mandatory defining botanical of gin (EU Regulation 2019/787, which replaced 110/2008; US TTB standards). A ripe juniper berry is not a berry but a modified seed cone (galbulus). Primary active compounds: alpha-pinene, beta-pinene, sabinene, myrcene, and terpinen-4-ol. Macedonian and Tuscan juniper are considered premium; Balkan-sourced is most common. Provides the foundational piney, resinous, waxy, wood-spiced and mildly camphorous structure.",
+        "origin_es": "Bayas de Juniperus communis —el botánico legal y obligatorio que define la ginebra (Reglamento UE 2019/787, que sustituyó al 110/2008; normas TTB de EE. UU.)—. Una baya de enebro madura no es una baya sino un cono de semilla modificado (gálbulo). Compuestos activos principales: alfa-pineno, beta-pineno, sabineno, mirceno y terpinen-4-ol. El enebro macedonio y toscano se consideran premium; el de los Balcanes es el más común. Aporta la estructura fundamental de pino, resina, cera, especia amaderada y ligero alcanfor.",
+        "pairing": "The mandatory centerpiece. All other botanicals are structurally balanced around the juniper baseline. Juniper must be the predominant flavor in any legally defined gin.",
+        "pairing_es": "El centro obligatorio. Todos los demás botánicos se equilibran estructuralmente en torno a la base de enebro. El enebro debe ser el sabor predominante en cualquier ginebra legalmente definida.",
+        "mixology": "The baseline for everything. In London Dry, aggressive juniper expression demands premium high-bitter quinine tonics or dry French vermouths. Hendrick's-style (restrained juniper) opens to elderflower tonics and lighter modifiers.",
+        "mixology_es": "La base de todo. En London Dry, la expresión agresiva del enebro exige tónicas de quinina muy amargas o vermuts secos franceses. El estilo Hendrick's (enebro contenido) se abre a tónicas de saúco y modificadores más ligeros."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Resinous",
+     "name_fr": "Résineux",
+     "name_it": "Resinoso",
+     "name_es": "Resinoso",
+     "color": "#2d633b",
+     "descriptors": [
+      {
+       "name": "Spruce Tip",
+       "name_fr": "Pousse d'Épicéa",
+       "name_it": "Germoglio di Abete",
+       "name_es": "Brote de Abeto",
+       "slug": "spruce-tip",
+       "panel": {
+        "origin": "Fresh spring spruce tips — young growth of Norway Spruce (Picea abies) or Sitka Spruce (Picea sitchensis). The bright citrus-pine character comes from bornyl acetate, camphene, and notably ascorbic acid (vitamin C) in the green tips. Adds a fresh resinous pine character with an unexpected citrus acidity note. Highly seasonal — spring harvesting only.",
+        "origin_es": "Yemas de abeto de primavera frescas —brotes jóvenes de abeto rojo (Picea abies) o de Sitka (Picea sitchensis)—. El carácter brillante de pino cítrico proviene del acetato de bornilo, el canfeno y, notablemente, el ácido ascórbico (vitamina C) de las yemas verdes. Añade un carácter de pino resinoso fresco con una inesperada nota de acidez cítrica. Muy estacional —solo cosecha de primavera—.",
+        "pairing": "A compelling contemporary addition for hyper-regional, terroir-driven nordic or alpine style gins. Shares aromatic territory with juniper while adding citrus lift.",
+        "pairing_es": "Una adición contemporánea convincente para ginebras hiperregionales de terroir, de estilo nórdico o alpino. Comparte territorio aromático con el enebro a la vez que añade realce cítrico.",
+        "mixology": "Brings crisp outdoor brightness to a Tom Collins or a complex alpine-style Gimlet. Spruce tip gin pairs superbly with cucumber water and a dill garnish in a Scandinavian-inspired bar program.",
+        "mixology_es": "Aporta una brillantez nítida de exterior a un Tom Collins o un Gimlet alpino complejo. La ginebra de yema de abeto marida de maravilla con agua de pepino y una guarnición de eneldo en un programa de barra de inspiración escandinava."
+       }
+      },
+      {
+       "name": "Frankincense",
+       "name_fr": "Encens",
+       "name_it": "Incenso",
+       "name_es": "Incienso",
+       "slug": "frankincense",
+       "panel": {
+        "origin": "The aromatic oleoresin of Boswellia trees (multiple species: B. sacra, B. carterii, B. serrata). Contains boswellic acids (non-volatile), plus highly volatile terpenes including alpha-pinene, limonene, and p-cymene in steam distillation. Yields a deeply complex, ancient, resinous, balsamic wood aroma with undertones of dark citrus oil and cool incense smoke.",
+        "origin_es": "La oleorresina aromática de los árboles de Boswellia (varias especies: B. sacra, B. carterii, B. serrata). Contiene ácidos boswélicos (no volátiles), más terpenos muy volátiles como alfa-pineno, limoneno y p-cimeno en la destilación de vapor. Da un aroma profundamente complejo, antiguo, resinoso y balsámico, con matices de aceite cítrico oscuro y humo de incienso frío.",
+        "pairing": "Functions as a high-end fixative that grounds lighter floral and citrus elements for an extended finish. The incense-smoke character adds a meditative, contemplative dimension to spirit-forward profiles.",
+        "pairing_es": "Funciona como fijador de alta gama que ancla los elementos florales y cítricos más ligeros para un final prolongado. El carácter de humo de incienso añade una dimensión meditativa a los perfiles potentes.",
+        "mixology": "Stunning inside elite, slow-sipping, spirit-forward nightcaps, vintage Martinez builds, or wood-smoked Negroni presentations. Best in minimal garnish presentations — let the aroma carry.",
+        "mixology_es": "Impresionante en nightcaps potentes de sorbo lento, construcciones vintage de Martinez o presentaciones de Negroni ahumado en madera. Mejor en presentaciones de guarnición mínima —deja que el aroma lleve la voz cantante—."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SWEET",
+   "name_fr": "SUCRÉ",
+   "name_it": "DOLCE",
+   "name_es": "DULCE",
+   "color": "#9e7652",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Creamy",
+     "name_fr": "Crémeux",
+     "name_it": "Cremoso",
+     "name_es": "Cremoso",
+     "color": "#b08b68",
+     "descriptors": [
+      {
+       "name": "Birch Sap",
+       "name_fr": "Sève de Bouleau",
+       "name_it": "Linfa di Betulla",
+       "name_es": "Savia de Abedul",
+       "slug": "birch-sap",
+       "panel": {
+        "origin": "Collected fresh from Silver Birch (Betula pendula) in early spring. Contains xylitol, fructose, glucose, malic acid, and trace minerals. Reduced into the still or cold-macerated. Introduces a delicate, mineral-rich wood sweetness and a naturally rounded, silky mouthfeel — the viscosity comes from naturally occurring polyols and trace proteins.",
+        "origin_es": "Recolectada fresca del abedul plateado (Betula pendula) a principios de primavera. Contiene xilitol, fructosa, glucosa, ácido málico y minerales traza. Reducida en el alambique o macerada en frío. Introduce una dulzura amaderada delicada y rica en minerales y una textura en boca naturalmente redonda y sedosa —la viscosidad proviene de polioles naturales y proteínas traza—.",
+        "pairing": "Softens the aggressive prickle of high-proof or heavily root-spiced gins. The mineral quality provides a clean, cool water-like finish.",
+        "pairing_es": "Suaviza el cosquilleo agresivo de ginebras de alta graduación o muy especiadas de raíz. La cualidad mineral aporta un final limpio, fresco y acuoso.",
+        "mixology": "The foundation for a velvety smooth Martini or exceptionally silky Gin Sour. Birch sap-forward gins are particularly popular in Nordic and Scottish artisanal expressions — a natural partner for spruce tip and meadowsweet.",
+        "mixology_es": "La base de un Martini aterciopelado o un Gin Sour excepcionalmente sedoso. Las ginebras con savia de abedul son especialmente populares en expresiones artesanales nórdicas y escocesas —pareja natural de la yema de abeto y la reina de los prados—."
+       }
+      },
+      {
+       "name": "Liquorice Root",
+       "name_fr": "Racine de Réglisse",
+       "name_it": "Radice di Liquirizia",
+       "name_es": "Raíz de Regaliz",
+       "slug": "liquorice-root",
+       "panel": {
+        "origin": "Root of Glycyrrhiza glabra. Contains glycyrrhizin — a triterpenoid saponin roughly 30–50 times sweeter than sucrose by weight. Critically: glycyrrhizin itself is non-volatile and does not transfer into the distillate. What carries over is the complex of volatile aromatic esters and anethole-family compounds that co-occur with glycyrrhizin, creating a perception of deep sweetness and rich, viscous texture.",
+        "origin_es": "Raíz de Glycyrrhiza glabra. Contiene glicirricina —una saponina triterpénica unas 30 a 50 veces más dulce que la sacarosa por peso—. Crucialmente: la glicirricina en sí es no volátil y no pasa al destilado. Lo que sí pasa es el complejo de ésteres aromáticos volátiles y compuestos de la familia del anetol que coexisten con la glicirricina, creando una percepción de dulzura profunda y una textura rica y viscosa.",
+        "pairing": "A cornerstone structural fixative in London Dry and Old Tom styles. Binds volatile citrus top notes and provides the characteristic lingering sweetness of classic gin profiles.",
+        "pairing_es": "Un fijador estructural fundamental en los estilos London Dry y Old Tom. Liga las notas altas cítricas volátiles y aporta la dulzura persistente característica de los perfiles de ginebra clásicos.",
+        "mixology": "Essential for rounding out dry, bitter elements in a Negroni. The perceived sweetness in the finish means less sugar modifier is needed. In Old Tom-style cocktails (Martinez, Tom Collins), liquorice root provides historical authenticity.",
+        "mixology_es": "Esencial para redondear los elementos secos y amargos de un Negroni. La dulzura percibida en el final significa que se necesita menos modificador azucarado. En cócteles de estilo Old Tom (Martinez, Tom Collins), la raíz de regaliz aporta autenticidad histórica."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Buttery",
+     "name_fr": "Beurré",
+     "name_it": "Burroso",
+     "name_es": "Mantecoso",
+     "color": "#9e7652",
+     "descriptors": [
+      {
+       "name": "Honeysuckle",
+       "name_fr": "Chèvrefeuille",
+       "name_it": "Caprifoglio",
+       "name_es": "Madreselva",
+       "slug": "honeysuckle",
+       "panel": {
+        "origin": "Fresh blossoms of common honeysuckle (Lonicera periclymenum). Delivers a decadent, honey-floral sweetness driven by linalool, geraniol, and various fatty acid esters that contribute a buttery, nectar-like quality. The 'buttery' classification comes from trace amounts of diacetyl and lactone compounds detected in honeysuckle distillates.",
+        "origin_es": "Flores frescas de madreselva común (Lonicera periclymenum). Aporta una dulzura decadente de miel y flor impulsada por linalool, geraniol y diversos ésteres de ácidos grasos que contribuyen una cualidad mantecosa, de néctar. La clasificación 'mantecosa' proviene de trazas de diacetilo y lactonas detectadas en los destilados de madreselva.",
+        "pairing": "Pairs naturally with sweet citrus profiles and rich, buttery woody nuts. The linalool bridge connects honeysuckle to lavender, coriander seed, and rose.",
+        "pairing_es": "Marida de forma natural con perfiles cítricos dulces y nueces ricas y mantecosas. El puente del linalool conecta la madreselva con la lavanda, el cilantro y la rosa.",
+        "mixology": "Exceptional in a Bee's Knees, delicate summer spritzes, or an elegant Collins with elderflower tonic. The honeysuckle note intensifies when paired with a light honey syrup garnished with a dried honeysuckle flower.",
+        "mixology_es": "Excepcional en un Bee's Knees, spritzes veraniegos delicados o un Collins elegante con tónica de saúco. La nota de madreselva se intensifica al maridar con un jarabe ligero de miel y guarnecer con una flor de madreselva seca."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "Vanilla planifolia pods — typically introduced via post-distillation finishing or barrel/cask aging rather than in the still, as vanillin largely survives infusion but not always steam distillation at high temperatures. Driven by vanillin plus 4-hydroxybenzaldehyde, p-cresol, and various phenolics. Creates warm, comforting, creamy-buttery wood sweetness.",
+        "origin_es": "Vainas de Vanilla planifolia —típicamente introducidas por acabado posdestilación o crianza en barrica/tonel, ya que la vainillina suele sobrevivir la infusión pero no siempre la destilación de vapor a altas temperaturas—. Impulsada por vainillina más 4-hidroxibenzaldehído, p-cresol y diversos fenólicos. Crea una dulzura amaderada cálida, reconfortante y cremosa-mantecosa.",
+        "pairing": "The hallmark indicator of barrel-aged or cask-finished gins. Harmonizes with oak tannins, orange peel, and dark spices (clove, cinnamon). Common in Old Tom and aged gin expressions.",
+        "pairing_es": "El indicador distintivo de las ginebras criadas en barrica o con acabado en tonel. Armoniza con taninos de roble, piel de naranja y especias oscuras (clavo, canela). Común en las expresiones Old Tom y de ginebra añejada.",
+        "mixology": "A natural for complex winter cocktails, cold-brew coffee gin serves, or custom Old Fashioned-style gin variations. In upscale bar contexts, a vanilla-bean-garnished Flip or Sour communicates the flavor before the first sip.",
+        "mixology_es": "Natural para cócteles complejos de invierno, ginebras con café frío o variaciones personalizadas de estilo Old Fashioned. En contextos de barra de alto nivel, un Flip o Sour guarnecido con vaina de vainilla comunica el sabor antes del primer sorbo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NUTTY",
+   "name_fr": "NOISETÉ",
+   "name_it": "DI FRUTTA SECCA",
+   "name_es": "FRUTOS SECOS",
+   "color": "#594230",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Rich",
+     "name_fr": "Riche",
+     "name_it": "Ricco",
+     "color": "#6e5643",
+     "descriptors": [
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Bitter almond (Prunus amygdalus var. amara) meal or sweet almond is added to the pot still — bitter almonds contain amygdalin, which breaks down to benzaldehyde and hydrogen cyanide; reputable producers use HCN-free FCC-grade benzaldehyde or natural sweet-almond/apricot-kernel sources processed to remove cyanide, never raw bitter almond at scale. Benzaldehyde — the principal character compound — provides deep, luxurious marzipan and amaretto-like character. Also contributes essential oils that enhance viscosity.",
+        "origin_es": "Harina de almendra amarga (Prunus amygdalus var. amara) o almendra dulce añadida al alambique —las almendras amargas contienen amigdalina traza (se metaboliza a benzaldehído y HCN), pero en concentraciones de destilación el HCN no pasa de forma significativa—. El benzaldehído —el compuesto de carácter principal— aporta un carácter profundo y lujoso de mazapán y amaretto. También contribuye aceites esenciales que realzan la viscosidad.",
+        "pairing": "A historic component in classic London Dry recipes, working to anchor volatile juniper top notes and provide mid-palate structure.",
+        "pairing_es": "Un componente histórico en las recetas clásicas London Dry, que ancla las notas altas volátiles del enebro y aporta estructura en el centro del paladar.",
+        "mixology": "Adds velvety marzipan depth to a Martinez, or beautiful texture to egg-white Gin Sours. In high-end bar programs, almond-forward gin is a natural base for a Japanese-style Highball with a spritz of aromatic bitters.",
+        "mixology_es": "Añade una profundidad aterciopelada de mazapán a un Martinez, o una textura preciosa a los Gin Sours con clara de huevo. En programas de alto nivel, la ginebra con almendra es una base natural para un highball de estilo japonés con un toque de bíter aromático."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "Toasted hazelnut (Corylus avellana) infusion. Roasting develops rich, warm pyrazine compounds — particularly 2,3-diethylpyrazine and 2-acetylpyrazine — which deliver intensely comforting, roasted, buttery nut depth. Pyrazines have extremely low odor thresholds, meaning small quantities have large aromatic impact.",
+        "origin_es": "Infusión de avellana tostada (Corylus avellana). El tostado desarrolla compuestos ricos de pirazina —en particular 2,3-dietilpirazina y 2-acetilpirazina— que aportan una profundidad de nuez tostada, reconfortante y mantecosa. Las pirazinas tienen umbrales de olor extremadamente bajos, lo que significa que pequeñas cantidades tienen gran impacto aromático.",
+        "pairing": "Pairs with deep, earthy spices (cassia, nutmeg) and barrel-aged gin expressions. The roasted pyrazines link naturally to coffee and chocolate modifiers.",
+        "pairing_es": "Marida con especias profundas y terrosas (casia, nuez moscada) y expresiones de ginebra criadas en barrica. Las pirazinas tostadas enlazan de forma natural con modificadores de café y chocolate.",
+        "mixology": "Exceptional in winter cocktails, Alexander variations, or as a rich nutty modifier layer in a bold Negroni. A Hazelnut Sour with egg white and a bitter chocolate dust garnish is a premium dessert cocktail concept.",
+        "mixology_es": "Excepcional en cócteles de invierno, variaciones de Alexander o como capa modificadora de nuez en un Negroni potente. Un Hazelnut Sour con clara de huevo y un polvo de chocolate amargo es un concepto de cóctel de postre premium."
+       }
+      }
+     ],
+     "name_es": "Rico"
+    },
+    {
+     "name": "Woody",
+     "name_fr": "Boisé",
+     "name_it": "Legnoso",
+     "name_es": "Amaderado",
+     "color": "#614a38",
+     "descriptors": [
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "walnut",
+       "name_es": "Nuez",
+       "panel": {
+        "origin": "Black walnut (Juglans nigra) or English walnut (Juglans regia) shells or husks — hulls contain juglone, a naphthoquinone that provides a dark, slightly dry, tannic quality. Produces a deep, woody nuttiness with complex, darker, somewhat bitter oily layers. The tannic contribution survives distillation partially through the polyphenol-volatile aromatic interaction.",
+        "origin_es": "Cáscaras o cortezas de nuez negra (Juglans nigra) o nuez común (Juglans regia) —las cáscaras contienen juglona, una naftoquinona que aporta una cualidad oscura, ligeramente seca y tánica—. Produce una nuez amaderada profunda con capas complejas, oscuras y aceitosas algo amargas. El aporte tánico sobrevive parcialmente a la destilación mediante la interacción polifenol-volátil.",
+        "pairing": "Integrates with heavy root botanicals (angelica, orris) and robust warming baking spices. The dry, tannic edge complements vermouth and bittersweet modifiers.",
+        "pairing_es": "Se integra con botánicos de raíz pesados (angélica, lirio) y especias robustas de repostería. El borde seco y tánico complementa el vermut y los modificadores agridulces.",
+        "mixology": "A natural choice for a spirit-forward complex nightcap, custom Black Negroni, or an artisanal walnut-and-bitter-orange highball. Also excellent in Old Fashioned-style gin builds.",
+        "mixology_es": "Una elección natural para un nightcap potente y complejo, un Black Negroni personalizado o un highball artesanal de nuez y naranja amarga. También excelente en construcciones de ginebra de estilo Old Fashioned."
+       }
+      },
+      {
+       "name": "Chestnut",
+       "name_fr": "Châtaigne",
+       "name_it": "Castagna",
+       "slug": "chestnut",
+       "name_es": "Castaña",
+       "panel": {
+        "origin": "Roasted sweet chestnuts (Castanea sativa). Yields a soft, rich, uniquely starchy-sweet woody nut flavor driven by furfuryl compounds (developed during roasting) alongside phenolic acids. The starchy quality creates a remarkable structural warmth and thickness in the mid-palate without the dryness of walnut.",
+        "origin_es": "Castañas dulces tostadas (Castanea sativa). Da un sabor de nuez amaderada suave, rico y singularmente almidonado-dulce, impulsado por compuestos furfurílicos (desarrollados durante el tostado) junto a ácidos fenólicos. La cualidad almidonada crea una calidez y un grosor notables en el centro del paladar sin la sequedad de la nuez.",
+        "pairing": "Works alongside creamy, buttery sweet profiles — vanilla and liquorice root. Resonates with autumnal fruit profiles such as apple and pear.",
+        "pairing_es": "Funciona junto a perfiles dulces, cremosos y mantecosos —vainilla y raíz de regaliz—. Resuena con perfiles de fruta otoñal como la manzana y la pera.",
+        "mixology": "Exceptional for cold-weather cocktail menus, hot toddies, or rich, complex Flip-style cocktails. A Chestnut Old Tom and Velvet Falernum combination creates a compelling winter aperitivo serve.",
+        "mixology_es": "Excepcional para cartas de cóctel de invierno, ponches calientes o Flips ricos y complejos. Una combinación de Old Tom de castaña y Velvet Falernum crea un aperitivo de invierno convincente."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Robust",
+     "name_fr": "Robuste",
+     "name_it": "Robusto",
+     "color": "#594230",
+     "descriptors": [
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "The seed of Myristica fragrans (the mace is the seed's aril — a distinct flavoring). Rich in myristicin (psychoactive at very high doses; not a concern at culinary concentrations), elemicin, sabinene, and terpinen-4-ol. Delivers an intensely warm, highly robust, woody-aromatic spice punch with sweet-exotic undertones. Also contributes macelignan compounds that provide a slight numbing mouthfeel.",
+        "origin_es": "La semilla de Myristica fragrans (el macis es el arilo de la semilla —un saborizante distinto—). Rica en miristicina (psicoactiva en dosis muy altas; no preocupante en concentraciones culinarias), elemicina, sabineno y terpinen-4-ol. Aporta un golpe de especia amaderada-aromática intensamente cálido y robusto con matices dulces y exóticos. También aporta compuestos macelignanos que dan un ligero adormecimiento en boca.",
+        "pairing": "A classic baking spice element that adds immense depth to high-proof navy strength or cask-matured gins. Shares aromatic territory with mace (lighter, more floral), allowing creative substitution.",
+        "pairing_es": "Un elemento clásico de especia de repostería que añade enorme profundidad a las ginebras navy strength de alta graduación o criadas en barrica. Comparte territorio aromático con el macis (más ligero, más floral), permitiendo sustitución creativa.",
+        "mixology": "The definitive aromatic dusting requirement for a classic Gin Alexander or hot mulled gin punches. Freshly grated nutmeg over the surface of a finished drink is a standard Michelin-level service detail.",
+        "mixology_es": "El espolvoreado aromático definitivo de un Gin Alexander clásico o ponches calientes de ginebra especiada. La nuez moscada recién rallada sobre la superficie de un trago terminado es un detalle de servicio estándar de nivel Michelin."
+       }
+      }
+     ],
+     "name_es": "Robusto"
+    }
+   ]
+  },
+  {
+   "name": "ROOTY / SPICY",
+   "name_fr": "RACINES / ÉPICÉ",
+   "name_it": "RADICI / SPEZIATO",
+   "name_es": "RAÍZ / ESPECIA",
+   "color": "#a63f30",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Dusty",
+     "name_fr": "Poussiéreux",
+     "name_it": "Polveroso",
+     "color": "#ad4b3b",
+     "descriptors": [
+      {
+       "name": "Angelica",
+       "name_fr": "Angélique",
+       "name_it": "Angelica",
+       "slug": "angelica",
+       "name_es": "Angélica",
+       "panel": {
+        "origin": "Angelica archangelica root — the cornerstone fixative of gin distillation. Contains phthalides, terpenes, and angelic acid, creating an earthy, musky, dry-woody profile. Acts as a molecular fixative: angelica's heavy phthalide fraction is substantive enough to form loose aromatic bonds with the lighter volatile juniper and citrus molecules, retaining them in the liquid longer and extending the finish.",
+        "origin_es": "Raíz de Angelica archangelica —el fijador fundamental de la destilación de ginebra—. Contiene ftálidos, terpenos y ácido angélico, creando un perfil terroso, almizclado y seco-amaderado. Actúa como fijador molecular: la fracción pesada de ftálidos de la angélica es lo bastante sustancial para formar enlaces aromáticos laxos con las moléculas más ligeras de enebro y cítrico, reteniéndolas más tiempo en el líquido y alargando el final.",
+        "pairing": "The primary structural anchor alongside juniper and coriander seed. Its dry, musky character is essential to the classic London Dry profile. Without adequate angelica, a gin finishes short.",
+        "pairing_es": "El ancla estructural principal junto al enebro y la semilla de cilantro. Su carácter seco y almizclado es esencial para el perfil London Dry clásico. Sin suficiente angélica, una ginebra termina corta.",
+        "mixology": "Provides the intense, lingering dry finish that defines a proper bone-dry Martini. Holds its structure against heavy vermouth additions. In high-volume Martini programs, angelica-forward gins allow a slightly wetter pour ratio.",
+        "mixology_es": "Aporta el final seco, intenso y persistente que define a un Martini muy seco. Mantiene su estructura frente a adiciones generosas de vermut. En programas de Martini de alto volumen, las ginebras con angélica permiten una proporción de vermut algo más generosa."
+       }
+      },
+      {
+       "name": "Orris Root",
+       "name_fr": "Racine d'Iris",
+       "name_it": "Radice di Giaggiolo",
+       "name_es": "Raíz de Lirio",
+       "slug": "orris-root",
+       "panel": {
+        "origin": "Dried, aged rhizome of Iris germanica (Florentine iris) or Iris pallida. Requires 3–5 years of storage post-harvest to convert iridals into irones — the active aroma compounds responsible for the dusty, elegant violet-powder scent. Irones (alpha, beta, gamma isomers) are among the most expensive natural aroma compounds used in perfumery. Like angelica, orris functions as a fixative that binds lighter oils into the liquid matrix.",
+        "origin_es": "Rizoma seco y envejecido de Iris germanica (lirio florentino) o Iris pallida. Requiere de 3 a 5 años de almacenamiento tras la cosecha para convertir los iridales en irones —los compuestos aromáticos activos responsables del aroma polvoriento y elegante de polvo de violeta—. Las irones (isómeros alfa, beta, gamma) están entre los compuestos aromáticos naturales más caros de la perfumería. Como la angélica, el lirio funciona como fijador que liga los aceites más ligeros a la matriz líquida.",
+        "pairing": "The second great anchor fixative of classic gin. Softens harsh alcohol burn by introducing a perceived powdery floral texture on the finish.",
+        "pairing_es": "El segundo gran fijador ancla de la ginebra clásica. Suaviza el ardor áspero del alcohol introduciendo una textura floral pulverulenta percibida en el final.",
+        "mixology": "Crucial for high-end aromatic Martinis. Ensures delicate floral or citrus notes linger rather than flash off. A well-aged orris-rich gin will hold its aromatic integrity in a cocktail far longer than a low-fixative expression.",
+        "mixology_es": "Crucial para Martinis aromáticos de alto nivel. Asegura que las notas florales o cítricas delicadas persistan en lugar de evaporarse. Una ginebra rica en lirio bien envejecida mantiene su integridad aromática en un cóctel mucho más que una expresión baja en fijadores."
+       }
+      },
+      {
+       "name": "Cassia Bark",
+       "name_fr": "Écorce de Cassia",
+       "name_it": "Corteccia di Cassia",
+       "name_es": "Corteza de Casia",
+       "slug": "cassia-bark",
+       "panel": {
+        "origin": "Bark of Cinnamomum cassia (Chinese cinnamon) — distinct from true cinnamon (C. verum): cassia is thicker, more pungent, higher in cinnamaldehyde (80–95% of essential oil vs. ~65% in Ceylon cinnamon), and contains higher levels of coumarin. The pungent, sweet-hot, rustic character comes from this elevated cinnamaldehyde concentration. Cassia is far more commonly used in gin than true cinnamon.",
+        "origin_es": "Corteza de Cinnamomum cassia (canela china) —distinta de la canela verdadera (C. verum): la casia es más gruesa, más punzante, más alta en cinamaldehído (80–95 % del aceite esencial frente al ~65 % de la canela de Ceilán) y contiene niveles más altos de cumarina—. El carácter punzante, dulce-cálido y rústico proviene de esta concentración elevada de cinamaldehído. La casia se usa en ginebra mucho más que la canela verdadera.",
+        "pairing": "Generates base-note warmth in traditional winter profiles or robust spiced gins. Interacts synergistically with clove's eugenol for a baking-spice platform.",
+        "pairing_es": "Genera calidez de fondo en perfiles invernales tradicionales o ginebras robustas especiadas. Interactúa sinérgicamente con el eugenol del clavo para una plataforma de especia de repostería.",
+        "mixology": "Cuts aggressively through heavy citrus and sugar modifiers. Excellent in warm punch variations or a bold, fiery Martinez. In cold service, cassia-forward gins pair well with ginger beer — the shared spice heat creates a coherent flavor arc.",
+        "mixology_es": "Corta de forma agresiva los modificadores cargados de cítrico y azúcar. Excelente en variaciones de ponche caliente o un Martinez audaz y ardiente. En servicio frío, las ginebras con casia maridan bien con ginger beer —el calor de especia compartido crea un arco de sabor coherente—."
+       }
+      }
+     ],
+     "name_es": "Polvoriento"
+    },
+    {
+     "name": "Warming",
+     "name_fr": "Réchauffant",
+     "name_it": "Riscaldante",
+     "color": "#b85242",
+     "descriptors": [
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "True Ceylon cinnamon (Cinnamomum verum) — the quilled inner bark of a Sri Lankan laurel. Sweeter, more delicate, and significantly lower in coumarin than cassia. Cinnamaldehyde (~65%) is the primary active compound, alongside eugenol (2-4%), linalool, and various light aldehydes. The layered, elegant spice character comes from this compound complexity.",
+        "origin_es": "Canela de Ceilán verdadera (Cinnamomum verum) —la corteza interna en rama de un laurel de Sri Lanka—. Más dulce, más delicada y mucho más baja en cumarina que la casia. El cinamaldehído (~65 %) es el compuesto activo principal, junto a eugenol (2–4 %), linalool y diversos aldehídos ligeros. El carácter de especia elegante y en capas proviene de esta complejidad de compuestos.",
+        "pairing": "Brings a sophisticated aromatic tier to contemporary spiced or festive gin releases. Pairs naturally with orange peel, vanilla, and clove in a complete baking-spice arc.",
+        "pairing_es": "Aporta un nivel aromático sofisticado a lanzamientos contemporáneos especiados o festivos. Marida de forma natural con piel de naranja, vainilla y clavo en un arco completo de especia de repostería.",
+        "mixology": "Magnificent in apple or pear juice-based hot serves, complex toddies, or a spiced Negroni build. A cinnamon-dusted or cinnamon-stick garnish signals the flavor direction clearly to the guest.",
+        "mixology_es": "Magnífica en tragos calientes a base de zumo de manzana o pera, toddies complejos o un Negroni especiado. Una guarnición de canela espolvoreada o en rama señala la dirección del sabor con claridad al comensal."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "slug": "clove",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "Dried flower buds of Syzygium aromaticum. Dominated by eugenol (70–90% of essential oil) — a phenylpropanoid that provides the characteristic sharp, numbing, warming heat. Eugenol has a known topical anesthetic effect (historically used in dentistry). In distillation, clove must be used with precision: excess eugenol can inhibit yeast and strip other volatile compounds from the still.",
+        "origin_es": "Capullos florales secos de Syzygium aromaticum. Dominado por eugenol (70–90 % del aceite esencial) —un fenilpropanoide que aporta el calor punzante, adormecedor y cálido característico—. El eugenol tiene un conocido efecto anestésico tópico (usado históricamente en odontología). En la destilación, el clavo debe usarse con precisión: el exceso de eugenol puede inhibir la levadura y arrancar otros compuestos volátiles del alambique.",
+        "pairing": "Pairs naturally with sweet orange peel, vanilla, and oak-aged modifiers. The eugenol bridge connects it to bay laurel and allspice in a botanical pairing arc.",
+        "pairing_es": "Marida de forma natural con piel de naranja dulce, vainilla y modificadores criados en roble. El puente del eugenol lo conecta con el laurel y la pimienta de Jamaica en un arco de maridaje botánico.",
+        "mixology": "The aromatic engine for winter Flips, mulled wines, or hot gin toddies. A clove-studded orange peel garnish is a classic and communicative visual pairing.",
+        "mixology_es": "El motor aromático de los Flips de invierno, vinos calientes o toddies calientes de ginebra. Una guarnición de piel de naranja claveteada de clavo es un maridaje visual clásico y comunicativo."
+       }
+      },
+      {
+       "name": "Cardamom",
+       "name_fr": "Cardamome",
+       "name_it": "Cardamomo",
+       "slug": "cardamom",
+       "name_es": "Cardamomo",
+       "panel": {
+        "origin": "Green cardamom pods (Elettaria cardamomum). Primary active compounds: 1,8-cineole (eucalyptol, 20–40%), alpha-terpinyl acetate (20–35%), and limonene (2–4%). This unique trio delivers a complex, bright, volatile aromatic blast of cooling eucalyptus, citrus, and warm green spice simultaneously. One of the most aromatic and volatile of gin botanicals — minimal quantity achieves significant impact.",
+        "origin_es": "Vainas de cardamomo verde (Elettaria cardamomum). Compuestos activos principales: 1,8-cineol (eucaliptol, 20–40 %), acetato de alfa-terpinilo (20–35 %) y limoneno (2–4 %). Este trío único aporta un estallido aromático complejo, brillante y volátil de eucalipto refrescante, cítrico y especia verde cálida a la vez. Uno de los botánicos más aromáticos y volátiles —una cantidad mínima logra un impacto significativo—.",
+        "pairing": "A superstar in Contemporary/Western gins. Bridges the gap between piney, citrus, and sweet-spice categories. One of few botanicals that works coherently across all flavor families.",
+        "pairing_es": "Una superestrella en las ginebras Contemporáneas/Western. Tiende un puente entre las categorías de pino, cítrico y especia dulce. Uno de los pocos botánicos que funciona con coherencia en todas las familias de sabor.",
+        "mixology": "Sensational in a G&T with expressed grapefruit twist or a cardamom-spiced espresso martini. In fine dining bar programs, cardamom-forward gin is an ideal base for a digestif cocktail or a spiced milk punch.",
+        "mixology_es": "Sensacional en un Gin Tonic con piel de toronja exprimida o un espresso martini especiado con cardamomo. En programas de barra de alta gastronomía, la ginebra con cardamomo es una base ideal para un cóctel digestivo o un milk punch especiado."
+       }
+      }
+     ],
+     "name_es": "Cálido"
+    },
+    {
+     "name": "Pungent",
+     "name_fr": "Piquant",
+     "name_it": "Pungente",
+     "name_es": "Punzante",
+     "color": "#c25c4c",
+     "descriptors": [
+      {
+       "name": "Saffron",
+       "name_fr": "Safran",
+       "name_it": "Zafferano",
+       "slug": "saffron",
+       "name_es": "Azafrán",
+       "panel": {
+        "origin": "Dried stigmas of Crocus sativus — the world's most expensive spice by weight. Safranal (the volatile aromatic compound, derived from picrocrocin during drying) is responsible for the distinctive floral-honey-hay aroma. Crocin (responsible for the golden color) is non-volatile and requires post-distillation maceration for color transfer. Both functions are used in gin — distillation for aroma, maceration for color.",
+        "origin_es": "Estigmas secos de Crocus sativus —la especia más cara del mundo por peso—. El safranal (el compuesto aromático volátil, derivado de la picrocrocina durante el secado) es responsable del aroma distintivo de flor, miel y heno. La crocina (responsable del color dorado) es no volátil y requiere maceración posdestilación para transferir el color. Ambas funciones se usan en ginebra —destilación para el aroma, maceración para el color—.",
+        "pairing": "Establishes an elite, luxurious contemporary flavor line. Pairs naturally with honey, floral profiles, and savory spice elements. The metallic undertone connects to orris root and iris profiles.",
+        "pairing_es": "Establece una línea de sabor contemporánea de élite y lujosa. Marida de forma natural con miel, perfiles florales y elementos de especia salada. El matiz metálico conecta con perfiles de lirio.",
+        "mixology": "Provides striking visual presentation (golden hue) and an earthy, exotic, honey-metallic undertone to ultra-premium custom Negronis or a gold-leaf Martini presentation.",
+        "mixology_es": "Aporta una presentación visual llamativa (tono dorado) y un matiz terroso, exótico y de miel-metal a Negronis personalizados ultrapremium o una presentación de Martini con pan de oro."
+       }
+      },
+      {
+       "name": "Cumin",
+       "name_fr": "Cumin",
+       "name_it": "Cumino",
+       "slug": "cumin",
+       "name_es": "Comino",
+       "panel": {
+        "origin": "Seeds of Cuminum cyminum. Cuminaldehyde (p-isopropylbenzaldehyde) is the principal compound at 25–35% of the essential oil, alongside gamma-terpinene and p-cymene. Cuminaldehyde is one of the most recognizably pungent aromatic compounds in botanical distillation — present in very small quantities in coriander seed as well, creating a chemical connection between the two.",
+        "origin_es": "Semillas de Cuminum cyminum. El cuminaldehído (p-isopropilbenzaldehído) es el compuesto principal, al 25–35 % del aceite esencial, junto a gamma-terpineno y p-cimeno. El cuminaldehído es uno de los compuestos aromáticos más reconociblemente punzantes de la destilación botánica —presente en pequeñas cantidades también en la semilla de cilantro, creando una conexión química entre ambos—.",
+        "pairing": "A daring botanical choice for culinary-forward gins. The cuminaldehyde connection pairs naturally with coriander seed, creating a depth-on-depth effect.",
+        "pairing_es": "Una elección botánica atrevida para ginebras culinarias. La conexión del cuminaldehído marida de forma natural con la semilla de cilantro, creando un efecto de profundidad sobre profundidad.",
+        "mixology": "The avant-garde weapon for a savory Gibson or a high-intensity Botanical Red Snapper. In a Michelin context, a cumin-forward gin with a celery brine wash and herb oil float is a technique-driven contemporary serve.",
+        "mixology_es": "El arma vanguardista para un Gibson salado o un Botanical Red Snapper de alta intensidad. En contexto Michelin, una ginebra con comino, un lavado de salmuera de apio y un toque de aceite de hierbas es un servicio contemporáneo guiado por la técnica."
+       }
+      },
+      {
+       "name": "Anise",
+       "name_fr": "Anis",
+       "name_it": "Anice",
+       "slug": "anise",
+       "name_es": "Anís",
+       "panel": {
+        "origin": "Aniseed (Pimpinella anisum) or star anise (Illicium verum) — both dominated by trans-anethole (80–90% of essential oil in aniseed; similar in star anise). Anethole is responsible for the louche (Ouzo effect) — the milky, opalescent cloudification when water is added — due to anethole's water insolubility at lower dilutions. Star anise has a slightly more complex profile with foeniculin and terpene contributors.",
+        "origin_es": "Anís (Pimpinella anisum) o anís estrellado (Illicium verum) —ambos dominados por trans-anetol (80–90 % del aceite esencial en el anís; similar en el anís estrellado)—. El anetol es responsable del louche (efecto Ouzo) —la opalescencia lechosa al añadir agua— debido a la insolubilidad del anetol en agua a diluciones más bajas. El anís estrellado tiene un perfil algo más complejo con foeniculina y contribuyentes terpénicos.",
+        "pairing": "Works to elongate perceived sweetness and mouth-coating richness. Connects to fennel, liquorice root, and caraway in the anise-botanical family.",
+        "pairing_es": "Funciona para alargar la dulzura percibida y la riqueza que recubre la boca. Conecta con hinojo, raíz de regaliz y alcaravea en la familia botánica del anís.",
+        "mixology": "Excellent in Martinez builds or cocktails incorporating absinthe rinses, mint modifiers, or fresh lime (acid drives the louche). The louche effect, when triggered in a highball, is a compelling visual element.",
+        "mixology_es": "Excelente en construcciones de Martinez o cócteles que incorporan enjuagues de absenta, modificadores de menta o lima fresca (el ácido impulsa el louche). El efecto louche, al activarse en un highball, es un elemento visual convincente."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Curried",
+     "name_fr": "au Curry",
+     "name_it": "al Curry",
+     "name_es": "Curry",
+     "color": "#cc6758",
+     "descriptors": [
+      {
+       "name": "Grains of Paradise",
+       "name_fr": "Graines de Paradis",
+       "name_it": "Grani del Paradiso",
+       "name_es": "Granos del Paraíso",
+       "slug": "grains-of-paradise",
+       "panel": {
+        "origin": "Aframomum melegueta — seeds from West Africa, a botanical relative of ginger and cardamom in the Zingiberaceae family. Key active compounds: paradol (a related structure to gingerol and capsaicin), 6-shogaol, and various aromatic ketones. Paradol activates TRPV1 heat receptors similarly to capsaicin, but with a more complex, multi-dimensional heat including black pepper, lavender, and fresh cardamom citrus facets. Historically important in Medieval European cooking.",
+        "origin_es": "Aframomum melegueta —semillas de África Occidental, pariente botánico del jengibre y el cardamomo en la familia Zingiberaceae—. Compuestos activos clave: paradol (estructura emparentada con el gingerol y la capsaicina), 6-shogaol y diversas cetonas aromáticas. El paradol activa los receptores de calor TRPV1 de forma similar a la capsaicina, pero con un calor más complejo y multidimensional que incluye facetas de pimienta negra, lavanda y cítrico de cardamomo fresco. Históricamente importante en la cocina europea medieval.",
+        "pairing": "A foundational element in high-end contemporary gins. Expands mid-palate complexity and bridges spice and floral categories in a way no other botanical does alone.",
+        "pairing_es": "Un elemento fundamental en las ginebras contemporáneas de alta gama. Expande la complejidad en el centro del paladar y tiende un puente entre las categorías de especia y floral como ningún otro botánico lo hace por sí solo.",
+        "mixology": "Exceptional in a classic G&T — its complexity elevates the botanical without needing heavy garnishes. In fine-dining contexts, a Grains of Paradise-forward gin with a house-made spiced tonic syrup and soda creates a bespoke tableside serve.",
+        "mixology_es": "Excepcional en un Gin Tonic clásico —su complejidad eleva el botánico sin necesidad de guarniciones pesadas—. En contextos de alta gastronomía, una ginebra con granos del paraíso, un jarabe de tónica especiado casero y soda crea un servicio en mesa a medida."
+       }
+      },
+      {
+       "name": "Pepper",
+       "name_fr": "Poivre",
+       "name_it": "Pepe",
+       "slug": "pepper",
+       "name_es": "Pimienta",
+       "panel": {
+        "origin": "Black (Piper nigrum, most common), white (same fruit, processed differently), or green peppercorns. Piperine is the primary heat compound and alkaloid. However, the aromatic character comes primarily from monoterpenes — beta-caryophyllene, limonene, sabinene — not from piperine, which is largely non-volatile. This means distilled pepper gin carries the aromatic complexity without the sharp piperine bite of fresh cracked pepper.",
+        "origin_es": "Granos de pimienta negra (Piper nigrum, la más común), blanca (mismo fruto, procesado distinto) o verde. La piperina es el compuesto de calor y alcaloide principal. Sin embargo, el carácter aromático proviene sobre todo de monoterpenos —beta-cariofileno, limoneno, sabineno— no de la piperina, que es en gran parte no volátil. Esto significa que la ginebra de pimienta destilada porta la complejidad aromática sin el mordiente afilado de la piperina de la pimienta recién molida.",
+        "pairing": "Cuts through heavy unctuous sweet profiles or oily botanical builds. The dry, wood-spiced heat works at both the top note (terpenes) and finish (residual piperine).",
+        "pairing_es": "Corta los perfiles dulces, untuosos y pesados o las construcciones botánicas aceitosas. El calor seco y amaderado funciona tanto en la nota alta (terpenos) como en el final (piperina residual).",
+        "mixology": "The definitive choice for a Red Snapper, or adding a dry peppery snap to a Dirty Martini. A cracked pepper rim on a savory gin cocktail is a standard presentation technique.",
+        "mixology_es": "La elección definitiva para un Red Snapper, o para añadir un chasquido seco y picante a un Martini sucio. Un borde de pimienta molida en un cóctel de ginebra salado es una técnica de presentación estándar."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Earthy",
+     "name_fr": "Terreux",
+     "name_it": "Terroso",
+     "name_es": "Terroso",
+     "color": "#d67263",
+     "descriptors": [
+      {
+       "name": "Cubeb Berry",
+       "name_fr": "Poivre Cubèbe",
+       "name_it": "Pepe di Cubebe",
+       "name_es": "Pimienta de Cubeba",
+       "slug": "cubeb-berry",
+       "panel": {
+        "origin": "Piper cubeba — tail-bearing peppercorns from Java, Indonesia. Related to black pepper but with a distinctly different aromatic profile dominated by cubebene, cubebol (a sesquiterpene alcohol), and copaene. Provides a complex earthy pepper spice with cooling undertones of pine, allspice, and eucalyptus. The cooling effect is partly attributable to cubebol's mild menthol-receptor activity.",
+        "origin_es": "Piper cubeba —granos de pimienta con rabillo de Java, Indonesia—. Emparentada con la pimienta negra pero con un perfil aromático distinto dominado por cubebeno, cubebol (un alcohol sesquiterpénico) y copaeno. Aporta una especia de pimienta terrosa y compleja con matices refrescantes de pino, pimienta de Jamaica y eucalipto. El efecto refrescante se atribuye en parte a la leve actividad del cubebol sobre los receptores del mentol.",
+        "pairing": "Often paired with bold gins to generate a long, multidimensional peppery finish. The cooling pine note creates an internal harmony with juniper, making cubeb a natural enhancer.",
+        "pairing_es": "A menudo se combina con ginebras potentes para generar un final picante largo y multidimensional. La nota refrescante de pino crea armonía interna con el enebro, haciendo de la cubeba un potenciador natural.",
+        "mixology": "Magnificent in a Negroni or spirit-forward old-school cocktails where its cooling spice notes complement sweet vermouth. A cubeb-forward London Dry is a classic pairing for bone-dry Martinis with maximum aroma retention.",
+        "mixology_es": "Magnífica en un Negroni o cócteles potentes de la vieja escuela donde sus notas refrescantes de especia complementan el vermut dulce. Una London Dry con predominio de cubeba es un maridaje clásico para Martinis muy secos con máxima retención de aroma."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Fiery",
+     "name_fr": "Ardent",
+     "name_it": "Focoso",
+     "color": "#e07e6f",
+     "descriptors": [
+      {
+       "name": "Ginger",
+       "name_fr": "Gingembre",
+       "name_it": "Zenzero",
+       "slug": "ginger",
+       "name_es": "Jengibre",
+       "panel": {
+        "origin": "Fresh or dried rhizome of Zingiber officinale. Fresh ginger: dominated by gingerols (6-gingerol most abundant), providing a hot, sharp, bright fiery note. Dried ginger: gingerols dehydrate to shogaols, which are approximately twice as pungent as gingerols — so dried ginger provides a deeper, more persistent heat. Both activate TRPV1 heat receptors. Gin producers often specify fresh vs. dried for distinct effects.",
+        "origin_es": "Rizoma fresco o seco de Zingiber officinale. Jengibre fresco: dominado por gingeroles (el 6-gingerol es el más abundante), que aportan una nota caliente, afilada, brillante y ardiente. Jengibre seco: los gingeroles se deshidratan en shogaoles, aproximadamente el doble de punzantes —así que el jengibre seco aporta un calor más profundo y persistente—. Ambos activan los receptores de calor TRPV1. Los productores suelen especificar fresco o seco para efectos distintos.",
+        "pairing": "Works synergistically with bright citrus profiles — lemon, lemongrass — to drive high-intensity freshness. Also connects with cardamom (shared Zingiberaceae family) and saffron.",
+        "pairing_es": "Funciona sinérgicamente con perfiles cítricos brillantes —limón, hierba limón— para impulsar una frescura de alta intensidad. También conecta con el cardamomo (familia Zingiberaceae compartida) y el azafrán.",
+        "mixology": "The essential partner for highballs using premium ginger beer (Fever-Tree, Bundaberg, or house-made). In a Michelin context, a clarified ginger and lemon juice 'water' as a tonic substitute creates a contemporary non-carbonated long gin serve.",
+        "mixology_es": "El acompañante esencial de highballs con ginger beer premium (Fever-Tree, Bundaberg o casera). En contexto Michelin, un 'agua' clarificada de jengibre y limón como sustituto de la tónica crea un trago largo de ginebra sin carbonatar contemporáneo."
+       }
+      }
+     ],
+     "name_es": "Ardiente"
+    },
+    {
+     "name": "Piquant",
+     "name_fr": "Piquant",
+     "name_it": "Piccante",
+     "color": "#eb8b7b",
+     "descriptors": [
+      {
+       "name": "Coriander Seed",
+       "name_fr": "Graine de Coriandre",
+       "name_it": "Seme di Coriandolo",
+       "name_es": "Semilla de Cilantro",
+       "slug": "coriander-seed",
+       "panel": {
+        "origin": "The most widely used secondary botanical in gin production globally — present in virtually all recognized gin styles. Dried coriander fruit (Coriandrum sativum). Dominated by linalool (60–70% of essential oil) — the same compound dominant in lavender, rose, and basil. Also contains geraniol, camphor, and cymene. This linalool content is what makes coriander seed the 'chemical bridge' of gin: it fuses deep pine notes (from juniper) with volatile citrus top notes into a cohesive aromatic arc.",
+        "origin_es": "El botánico secundario más usado en la producción de ginebra a nivel mundial —presente en prácticamente todos los estilos reconocidos—. Fruto seco de cilantro (Coriandrum sativum). Dominado por linalool (60–70 % del aceite esencial) —el mismo compuesto dominante en lavanda, rosa y albahaca—. También contiene geraniol, alcanfor y cimeno. Este contenido de linalool es lo que hace de la semilla de cilantro el 'puente químico' de la ginebra: fusiona las notas profundas de pino (del enebro) con las notas altas cítricas en un arco aromático cohesivo.",
+        "pairing": "Acts as the literal chemical bridge in the still. Without sufficient coriander seed, London Dry gins often present as disjointed — juniper on the nose, citrus in the mid-palate with no connecting thread.",
+        "pairing_es": "Actúa como el puente químico literal en el alambique. Sin suficiente semilla de cilantro, las ginebras London Dry suelen presentarse inconexas —enebro en nariz, cítrico en el centro del paladar sin hilo conector—.",
+        "mixology": "Omnipresent across all gin cocktail formats. Essential for holding together the citrus-pine balance in a G&T. When tasting for education, a low-coriander gin vs. a high-coriander gin in the same cocktail is one of the most instructive comparative exercises available.",
+        "mixology_es": "Omnipresente en todos los formatos de cóctel de ginebra. Esencial para mantener unido el equilibrio cítrico-pino en un Gin Tonic. Al catar con fines didácticos, comparar una ginebra baja en cilantro con una alta en cilantro en el mismo cóctel es uno de los ejercicios comparativos más instructivos."
+       }
+      }
+     ],
+     "name_es": "Picante"
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CITRUS": {
+   "en": "Citrus peel — lemon, orange, grapefruit — is the backbone of classic London Dry gin. Bright citrus notes mean a gin built for a crisp G&T or a classic Martini.",
+   "es": "La cáscara de cítricos — limón, naranja, toronja — es la columna vertebral del gin London Dry clásico. Las notas cítricas brillantes indican un gin pensado para un G&T nítido o un Martini clásico."
+  },
+  "FLESHY FRUIT": {
+   "en": "Stone-fruit notes like apricot, peach and fig add a soft, rounded sweetness — common in modern or 'New Western' style gins that lean less on juniper.",
+   "es": "Las notas de fruta de hueso como chabacano, durazno e higo aportan un dulzor suave y redondeado — comunes en los gins de estilo moderno o 'Nuevo Occidental' que dependen menos del enebro."
+  },
+  "FRESH FRUIT": {
+   "en": "Crisp, juicy fruit — apple, pear, grape — gives a gin a fresh, almost orchard-like lift, often paired with floral or herbal botanicals.",
+   "es": "La fruta nítida y jugosa — manzana, pera, uva — le da al gin un toque fresco, casi de huerto, a menudo combinado con botánicos florales o herbales."
+  },
+  "RED FRUITS": {
+   "en": "Berries — raspberry, strawberry, redcurrant — bring a delicate, slightly tart sweetness, often found in gins designed for fruity cocktails or gin-and-tonics with a twist.",
+   "es": "Las bayas — frambuesa, fresa, grosella roja — aportan un dulzor delicado y ligeramente ácido, frecuente en gins pensados para cócteles afrutados o gin-tonics con un giro."
+  },
+  "FLORAL": {
+   "en": "Floral botanicals — rose, violet, elderflower — give gin its perfumed, aromatic lift. Heavy floral character usually signals a softer, more contemporary style.",
+   "es": "Los botánicos florales — rosa, violeta, flor de saúco — le dan al gin su elevación perfumada y aromática. Un carácter floral intenso suele indicar un estilo más suave y contemporáneo."
+  },
+  "GRASSY": {
+   "en": "Grassy and leafy notes — fresh-cut grass, bay leaf, lemongrass — add a green, herbaceous freshness that bridges fruit and herbs.",
+   "es": "Las notas herbáceas y de hoja — pasto recién cortado, laurel, citronela — añaden una frescura verde y herbal que tiende un puente entre la fruta y las hierbas."
+  },
+  "HERBAL": {
+   "en": "Herbs like rosemary, thyme, sage and coriander seed bring savoury, sometimes peppery complexity — a hallmark of contemporary craft gins.",
+   "es": "Hierbas como romero, tomillo, salvia y semilla de cilantro aportan complejidad sabrosa, a veces picante — un sello de los gins artesanales contemporáneos."
+  },
+  "PINEY": {
+   "en": "Juniper itself, along with pine and resinous notes, is gin's legal and stylistic anchor — without juniper, it isn't gin. A piney profile signals a classic, juniper-forward style.",
+   "es": "El enebro mismo, junto a notas de pino y resina, es el ancla legal y estilística del gin — sin enebro, no es gin. Un perfil de pino indica un estilo clásico, centrado en el enebro."
+  },
+  "SWEET": {
+   "en": "Creamy, buttery notes — vanilla, coconut, toffee — are unusual in gin and often point to barrel-aging or unconventional botanicals like cacao or oats.",
+   "es": "Las notas cremosas y mantecosas — vainilla, coco, toffee — son inusuales en el gin y a menudo indican añejamiento en barrica o botánicos poco convencionales como cacao o avena."
+  },
+  "NUTTY": {
+   "en": "Nutty, woody, robust notes — almond, oak, tobacco — usually come from cask aging or roasted botanicals, giving a gin more weight and depth.",
+   "es": "Las notas a frutos secos, madera y robustas — almendra, roble, tabaco — suelen venir del añejamiento en barrica o de botánicos tostados, dando al gin más peso y profundidad."
+  },
+  "ROOTY / SPICY": {
+   "en": "Root and spice botanicals — angelica, orris, cardamom, pepper, ginger — build gin's warming, structural backbone, the savory counterpart to its citrus top notes.",
+   "es": "Los botánicos de raíz y especia — angélica, orris, cardamomo, pimienta, jengibre — construyen la columna estructural y cálida del gin, la contraparte sabrosa de sus notas cítricas superiores."
+  }
+ }
+}

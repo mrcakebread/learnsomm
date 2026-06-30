@@ -1,0 +1,481 @@
+{
+ "title": "Spanish Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Tapas"
+  },
+  {
+   "name": "Patatas Bravas",
+   "slug": "es-bravas",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried potatoes with spicy tomato & aioli."
+    }
+   ]
+  },
+  {
+   "name": "Gambas al Ajillo",
+   "slug": "es-gambas",
+   "rows": [
+    {
+     "k": "",
+     "v": "Shrimp sizzled in garlic olive oil."
+    }
+   ]
+  },
+  {
+   "name": "Croquetas",
+   "slug": "es-croquetas",
+   "rows": [
+    {
+     "k": "",
+     "v": "Creamy béchamel fritters, ham or cod."
+    }
+   ]
+  },
+  {
+   "name": "Pan con Tomate",
+   "slug": "es-pantomate",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bread rubbed with tomato, oil, garlic."
+    }
+   ]
+  },
+  {
+   "name": "Boquerones",
+   "slug": "es-boquerones",
+   "rows": [
+    {
+     "k": "",
+     "v": "Vinegar-cured fresh anchovies."
+    }
+   ]
+  },
+  {
+   "name": "Pimientos de Padrón",
+   "slug": "es-padron",
+   "rows": [
+    {
+     "k": "",
+     "v": "Blistered small green peppers."
+    }
+   ]
+  },
+  {
+   "name": "Albóndigas",
+   "slug": "es-albondigas",
+   "rows": [
+    {
+     "k": "",
+     "v": "Meatballs in tomato or almond sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Rice & Paella"
+  },
+  {
+   "name": "Paella Valenciana",
+   "slug": "es-paellaval",
+   "rows": [
+    {
+     "k": "Original",
+     "v": "rabbit, chicken, beans, saffron rice."
+    }
+   ]
+  },
+  {
+   "name": "Seafood Paella",
+   "slug": "es-paellamar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Paella de marisco with shellfish."
+    }
+   ]
+  },
+  {
+   "name": "Arroz Negro",
+   "slug": "es-arroznegro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Black rice cooked in squid ink."
+    }
+   ]
+  },
+  {
+   "name": "Fideuà",
+   "slug": "es-fideua",
+   "rows": [
+    {
+     "k": "",
+     "v": "Paella made with short noodles instead of rice."
+    }
+   ]
+  },
+  {
+   "name": "Arroz a Banda",
+   "slug": "es-arrozbanda",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice cooked in fish stock, served apart."
+    }
+   ]
+  },
+  {
+   "cat": "Jamón & Embutidos"
+  },
+  {
+   "name": "Jamón Ibérico",
+   "slug": "es-iberico",
+   "rows": [
+    {
+     "k": "",
+     "v": "Acorn-fed black-pig cured ham, the pinnacle."
+    }
+   ]
+  },
+  {
+   "name": "Jamón Serrano",
+   "slug": "es-serrano",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mountain-cured white-pig ham."
+    }
+   ]
+  },
+  {
+   "name": "Chorizo",
+   "slug": "es-chorizo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Paprika-cured pork sausage."
+    }
+   ]
+  },
+  {
+   "name": "Lomo",
+   "slug": "es-lomo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cured pork loin."
+    }
+   ]
+  },
+  {
+   "name": "Salchichón",
+   "slug": "es-salchichon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Peppered cured sausage."
+    }
+   ]
+  },
+  {
+   "name": "Morcilla",
+   "slug": "es-morcilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Blood sausage, often with rice."
+    }
+   ]
+  },
+  {
+   "cat": "Mains"
+  },
+  {
+   "name": "Tortilla Española",
+   "slug": "es-tortilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Potato-and-egg omelette."
+    }
+   ]
+  },
+  {
+   "name": "Cocido Madrileño",
+   "slug": "es-cocido",
+   "rows": [
+    {
+     "k": "",
+     "v": "Madrid chickpea-and-meat stew."
+    }
+   ]
+  },
+  {
+   "name": "Fabada Asturiana",
+   "slug": "es-fabada",
+   "rows": [
+    {
+     "k": "",
+     "v": "Asturian white-bean & pork stew."
+    }
+   ]
+  },
+  {
+   "name": "Pulpo a la Gallega",
+   "slug": "es-pulpo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Galician octopus with paprika & oil."
+    }
+   ]
+  },
+  {
+   "name": "Cochinillo",
+   "slug": "es-cochinillo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Segovian roast suckling pig."
+    }
+   ]
+  },
+  {
+   "name": "Bacalao",
+   "slug": "es-bacalao",
+   "rows": [
+    {
+     "k": "",
+     "v": "Salt cod, many preparations (pil-pil, vizcaína)."
+    }
+   ]
+  },
+  {
+   "name": "Rabo de Toro",
+   "slug": "es-rabotoro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Braised oxtail, Andalusian."
+    }
+   ]
+  },
+  {
+   "cat": "Soups & Cold"
+  },
+  {
+   "name": "Gazpacho",
+   "slug": "es-gazpacho",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cold tomato-vegetable soup, Andalusia."
+    }
+   ]
+  },
+  {
+   "name": "Salmorejo",
+   "slug": "es-salmorejo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thicker cold tomato-bread purée from Córdoba."
+    }
+   ]
+  },
+  {
+   "name": "Ajoblanco",
+   "slug": "es-ajoblanco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cold almond-garlic soup."
+    }
+   ]
+  },
+  {
+   "name": "Caldo Gallego",
+   "slug": "es-caldogallego",
+   "rows": [
+    {
+     "k": "",
+     "v": "Galician greens-and-bean broth."
+    }
+   ]
+  },
+  {
+   "cat": "Seasonings"
+  },
+  {
+   "name": "Pimentón",
+   "slug": "es-pimenton",
+   "rows": [
+    {
+     "k": "",
+     "v": "Smoked Spanish paprika, dulce or picante."
+    }
+   ]
+  },
+  {
+   "name": "Saffron",
+   "slug": "es-saffron",
+   "rows": [
+    {
+     "k": "",
+     "v": "Azafrán; the gold of paella."
+    }
+   ],
+   "name_es": "Azafrán"
+  },
+  {
+   "name": "Olive Oil",
+   "slug": "es-oliveoil",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aceite de oliva, foundational."
+    }
+   ],
+   "name_es": "Aceite de Oliva"
+  },
+  {
+   "name": "Sherry Vinegar",
+   "slug": "es-sherryvinegar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aged vinagre de Jerez."
+    }
+   ]
+  },
+  {
+   "name": "Alioli",
+   "slug": "es-alioli",
+   "rows": [
+    {
+     "k": "",
+     "v": "Garlic-oil emulsion."
+    }
+   ]
+  },
+  {
+   "name": "Romesco",
+   "slug": "es-romesco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Catalan nut-and-pepper sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Cheese & Region"
+  },
+  {
+   "name": "Manchego",
+   "slug": "es-manchego",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sheep's-milk cheese from La Mancha."
+    }
+   ]
+  },
+  {
+   "name": "Cabrales",
+   "slug": "es-cabrales",
+   "rows": [
+    {
+     "k": "",
+     "v": "Asturian blue cheese aged in caves."
+    }
+   ]
+  },
+  {
+   "name": "Idiazábal",
+   "slug": "es-idiazabal",
+   "rows": [
+    {
+     "k": "",
+     "v": "Smoked Basque sheep's-milk cheese."
+    }
+   ]
+  },
+  {
+   "name": "Tetilla",
+   "slug": "es-tetilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Soft Galician cow's-milk cheese."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Drinks"
+  },
+  {
+   "name": "Churros",
+   "slug": "es-churros",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried dough sticks with chocolate."
+    }
+   ]
+  },
+  {
+   "name": "Crema Catalana",
+   "slug": "es-cremacatalana",
+   "rows": [
+    {
+     "k": "",
+     "v": "Citrus-cinnamon custard with brûléed top."
+    }
+   ]
+  },
+  {
+   "name": "Flan",
+   "slug": "es-flan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel-topped custard."
+    }
+   ]
+  },
+  {
+   "name": "Turrón",
+   "slug": "es-turron",
+   "rows": [
+    {
+     "k": "",
+     "v": "Almond nougat, Christmas sweet."
+    }
+   ]
+  },
+  {
+   "name": "Sangria",
+   "slug": "es-sangria",
+   "rows": [
+    {
+     "k": "",
+     "v": "Wine punch with fruit."
+    }
+   ]
+  },
+  {
+   "name": "Horchata",
+   "slug": "es-horchata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tigernut milk drink, Valencia."
+    }
+   ]
+  }
+ ]
+}

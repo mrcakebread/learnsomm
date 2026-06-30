@@ -1,0 +1,509 @@
+{
+ "title": "Japanese Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Sushi & Sashimi"
+  },
+  {
+   "name": "Nigiri",
+   "slug": "jp-nigiri",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hand-pressed rice topped with fish."
+    }
+   ]
+  },
+  {
+   "name": "Maki",
+   "slug": "jp-maki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rolled sushi in nori."
+    }
+   ]
+  },
+  {
+   "name": "Sashimi",
+   "slug": "jp-sashimi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sliced raw fish, no rice."
+    }
+   ]
+  },
+  {
+   "name": "Temaki",
+   "slug": "jp-temaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hand-rolled cone of nori, rice, fillings."
+    }
+   ]
+  },
+  {
+   "name": "Chirashi",
+   "slug": "jp-chirashi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Scattered sashimi over a bowl of sushi rice."
+    }
+   ]
+  },
+  {
+   "name": "Gunkan",
+   "slug": "jp-gunkan",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Battleship' nigiri wrapped to hold roe/uni."
+    }
+   ]
+  },
+  {
+   "cat": "Noodles"
+  },
+  {
+   "name": "Ramen",
+   "slug": "jp-ramen",
+   "rows": [
+    {
+     "k": "",
+     "v": "Wheat noodles in rich broth (shoyu/miso/tonkotsu/shio)."
+    }
+   ]
+  },
+  {
+   "name": "Udon",
+   "slug": "jp-udon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick chewy wheat noodles in dashi broth."
+    }
+   ]
+  },
+  {
+   "name": "Soba",
+   "slug": "jp-soba",
+   "rows": [
+    {
+     "k": "",
+     "v": "Buckwheat noodles, hot or cold (zaru)."
+    }
+   ]
+  },
+  {
+   "name": "Yakisoba",
+   "slug": "jp-yakisoba",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stir-fried wheat noodles with sauce."
+    }
+   ]
+  },
+  {
+   "name": "Somen",
+   "slug": "jp-somen",
+   "rows": [
+    {
+     "k": "",
+     "v": "Very thin wheat noodles, often chilled."
+    }
+   ]
+  },
+  {
+   "cat": "Dashi & Soups"
+  },
+  {
+   "name": "Dashi",
+   "slug": "jp-dashi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kombu-and-katsuobushi stock; the umami base."
+    }
+   ]
+  },
+  {
+   "name": "Miso Soup",
+   "slug": "jp-miso",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dashi with fermented soybean miso."
+    }
+   ]
+  },
+  {
+   "name": "Kombu",
+   "slug": "jp-kombu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dried kelp; glutamate-rich umami."
+    }
+   ]
+  },
+  {
+   "name": "Katsuobushi",
+   "slug": "jp-katsuobushi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Shaved dried bonito; inosinate umami."
+    }
+   ]
+  },
+  {
+   "name": "Suimono",
+   "slug": "jp-suimono",
+   "rows": [
+    {
+     "k": "",
+     "v": "Clear delicate seasoned broth."
+    }
+   ]
+  },
+  {
+   "cat": "Grilled & Fried"
+  },
+  {
+   "name": "Tempura",
+   "slug": "jp-tempura",
+   "rows": [
+    {
+     "k": "",
+     "v": "Light battered, deep-fried seafood & veg."
+    }
+   ]
+  },
+  {
+   "name": "Yakitori",
+   "slug": "jp-yakitori",
+   "rows": [
+    {
+     "k": "",
+     "v": "Skewered grilled chicken with tare or salt."
+    }
+   ]
+  },
+  {
+   "name": "Tonkatsu",
+   "slug": "jp-tonkatsu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Panko-breaded fried pork cutlet."
+    }
+   ]
+  },
+  {
+   "name": "Teriyaki",
+   "slug": "jp-teriyaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled/glazed with sweet soy-mirin sauce."
+    }
+   ]
+  },
+  {
+   "name": "Unagi",
+   "slug": "jp-unagi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled freshwater eel glazed with kabayaki sauce."
+    }
+   ]
+  },
+  {
+   "name": "Karaage",
+   "slug": "jp-karaage",
+   "rows": [
+    {
+     "k": "",
+     "v": "Japanese fried chicken, marinated & dredged."
+    }
+   ]
+  },
+  {
+   "name": "Robatayaki",
+   "slug": "jp-robata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow charcoal-grilling over an open hearth."
+    }
+   ]
+  },
+  {
+   "cat": "Rice & Donburi"
+  },
+  {
+   "name": "Gyudon",
+   "slug": "jp-gyudon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Beef-and-onion simmered over rice."
+    }
+   ]
+  },
+  {
+   "name": "Katsudon",
+   "slug": "jp-katsudon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tonkatsu with egg over rice."
+    }
+   ]
+  },
+  {
+   "name": "Oyakodon",
+   "slug": "jp-oyakodon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chicken & egg over rice ('parent and child')."
+    }
+   ]
+  },
+  {
+   "name": "Onigiri",
+   "slug": "jp-onigiri",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice ball with filling, wrapped in nori."
+    }
+   ]
+  },
+  {
+   "name": "Donburi",
+   "slug": "jp-donburi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice-bowl dish, the donburi format itself."
+    }
+   ]
+  },
+  {
+   "cat": "Fermented & Seasoning"
+  },
+  {
+   "name": "Soy Sauce",
+   "slug": "jp-shoyu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Shoyu; brewed soybean-wheat sauce."
+    }
+   ]
+  },
+  {
+   "name": "Miso",
+   "slug": "jp-misopaste",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fermented soybean paste; white to red."
+    }
+   ]
+  },
+  {
+   "name": "Mirin",
+   "slug": "jp-mirin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet rice cooking wine."
+    }
+   ]
+  },
+  {
+   "name": "Sake",
+   "slug": "jp-sake",
+   "rows": [
+    {
+     "k": "",
+     "v": "Brewed rice wine, also for cooking."
+    }
+   ]
+  },
+  {
+   "name": "Rice Vinegar",
+   "slug": "jp-ricevinegar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mild vinegar for sushi rice."
+    }
+   ]
+  },
+  {
+   "name": "Wasabi",
+   "slug": "jp-wasabi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pungent grated rhizome."
+    }
+   ]
+  },
+  {
+   "name": "Ponzu",
+   "slug": "jp-ponzu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Citrus-soy sauce."
+    }
+   ]
+  },
+  {
+   "name": "Yuzu",
+   "slug": "jp-yuzu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aromatic Japanese citrus."
+    }
+   ]
+  },
+  {
+   "cat": "Other Dishes"
+  },
+  {
+   "name": "Okonomiyaki",
+   "slug": "jp-okonomiyaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Savory cabbage pancake, Osaka/Hiroshima styles."
+    }
+   ]
+  },
+  {
+   "name": "Takoyaki",
+   "slug": "jp-takoyaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Octopus-filled batter balls."
+    }
+   ]
+  },
+  {
+   "name": "Sukiyaki",
+   "slug": "jp-sukiyaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hot-pot of beef & veg in sweet soy."
+    }
+   ]
+  },
+  {
+   "name": "Shabu-Shabu",
+   "slug": "jp-shabu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hot-pot of thin meat swished in dashi."
+    }
+   ]
+  },
+  {
+   "name": "Bento",
+   "slug": "jp-bento",
+   "rows": [
+    {
+     "k": "",
+     "v": "Compartmentalized boxed meal."
+    }
+   ]
+  },
+  {
+   "name": "Tsukemono",
+   "slug": "jp-tsukemono",
+   "rows": [
+    {
+     "k": "",
+     "v": "Japanese pickles."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Tea"
+  },
+  {
+   "name": "Matcha",
+   "slug": "jp-matcha",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stone-ground green tea powder."
+    }
+   ]
+  },
+  {
+   "name": "Mochi",
+   "slug": "jp-mochi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pounded glutinous rice cake."
+    }
+   ]
+  },
+  {
+   "name": "Dorayaki",
+   "slug": "jp-dorayaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Red-bean pancake sandwich."
+    }
+   ]
+  },
+  {
+   "name": "Wagashi",
+   "slug": "jp-wagashi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Traditional confections for tea."
+    }
+   ]
+  },
+  {
+   "name": "Taiyaki",
+   "slug": "jp-taiyaki",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fish-shaped cake with sweet filling."
+    }
+   ]
+  },
+  {
+   "name": "Sencha",
+   "slug": "jp-sencha",
+   "rows": [
+    {
+     "k": "",
+     "v": "Everyday steamed green tea."
+    }
+   ]
+  }
+ ]
+}

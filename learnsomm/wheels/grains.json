@@ -1,0 +1,604 @@
+{
+ "title": "Grains",
+ "subject": "grains",
+ "categories": [
+  {
+   "name": "GLOBAL GRAIN STAPLES",
+   "name_fr": "Céréales de Base du Monde",
+   "name_it": "Cereali Base Globali",
+   "name_es": "GRANOS BÁSICOS GLOBALES",
+   "sub": [
+    {
+     "name": "GLOBAL GRAIN STAPLES",
+     "name_fr": "Céréales de Base du Monde",
+     "name_it": "Cereali Base Globali",
+     "name_es": "GRANOS BÁSICOS GLOBALES",
+     "descriptors": [
+      {
+       "name": "Rice",
+       "name_fr": "Riz",
+       "name_it": "Riso",
+       "name_es": "Arroz",
+       "slug": "rice",
+       "panel": {
+        "origin": "The primary staple food for more than half the world's population, grown in flooded paddies across Asia and beyond.",
+        "origin_es": "El alimento básico principal para más de la mitad de la población mundial, cultivado en arrozales inundados en Asia y otras regiones.",
+        "chemistry": "Brown rice retains the bran and germ for extra fiber and nutrients, while white rice is polished and more refined.",
+        "chemistry_es": "El arroz integral conserva el salvado y el germen, aportando más fibra y nutrientes, mientras que el arroz blanco está pulido y refinado.",
+        "mixology": "Rinse before cooking, then simmer covered in roughly twice its volume of water until tender and the liquid is absorbed.",
+        "mixology_es": "Enjuagar antes de cocinar, luego cocer tapado en aproximadamente el doble de su volumen de agua hasta que esté tierno y se absorba el líquido.",
+        "examples": "A versatile base for everything from simple side dishes to pilafs, sushi, and grain bowls.",
+        "examples_es": "Una base versátil para todo, desde guarniciones simples hasta pilafs, sushi y bowls de granos."
+       }
+      },
+      {
+       "name": "Wheat",
+       "name_fr": "Blé",
+       "name_it": "Frumento",
+       "name_es": "Trigo",
+       "slug": "wheat",
+       "panel": {
+        "origin": "The backbone of global baking, ground into flour for bread, pasta, and noodles for thousands of years.",
+        "origin_es": "La base de la panadería mundial, molido en harina para pan, pasta y fideos durante miles de años.",
+        "chemistry": "Whole wheat keeps the fiber-rich bran and germ, giving it a denser texture and nuttier flavor than refined white flour.",
+        "chemistry_es": "El trigo integral conserva el salvado y el germen ricos en fibra, dándole una textura más densa y un sabor más a frutos secos que la harina blanca refinada.",
+        "mixology": "Whole wheat flour can often replace some or all white flour in baking, though it may need a bit more liquid.",
+        "mixology_es": "La harina de trigo integral a menudo puede sustituir parte o toda la harina blanca al hornear, aunque puede necesitar algo más de líquido.",
+        "examples": "The foundation of breads, pastas, and countless baked goods around the world.",
+        "examples_es": "La base de panes, pastas e innumerables productos horneados en todo el mundo."
+       }
+      },
+      {
+       "name": "Corn (Maize)",
+       "name_fr": "Maïs",
+       "name_it": "Mais",
+       "name_es": "Maíz",
+       "slug": "corn",
+       "panel": {
+        "origin": "A New World staple eaten fresh, dried, or ground, and a foundation of cuisines across the Americas.",
+        "origin_es": "Un alimento básico del Nuevo Mundo que se come fresco, seco o molido, y una base de las cocinas de toda América.",
+        "chemistry": "Rich in protective antioxidants like lutein, with a naturally sweet flavor when fresh and a heartier, earthy flavor when dried and ground.",
+        "chemistry_es": "Rico en antioxidantes protectores como la luteína, con un sabor naturalmente dulce cuando está fresco y un sabor más terroso y contundente cuando está seco y molido.",
+        "mixology": "Enjoy fresh on the cob, or grind into masa for tortillas or cook into creamy polenta.",
+        "mixology_es": "Disfrutarlo fresco en mazorca, o molerlo para masa de tortillas o cocinarlo en una polenta cremosa.",
+        "examples": "The base for tortillas, polenta, cornbread, and grilled or boiled corn on the cob.",
+        "examples_es": "La base de tortillas, polenta, pan de maíz y elote asado o hervido."
+       }
+      }
+     ],
+     "color": "#c9a13a"
+    }
+   ],
+   "color": "#c9a13a"
+  },
+  {
+   "name": "ANCIENT GRAINS",
+   "name_fr": "CÉRÉALES ANCIENNES",
+   "name_it": "CEREALI ANTICHI",
+   "name_es": "GRANOS ANCESTRALES",
+   "sub": [
+    {
+     "name": "ANCIENT GRAINS",
+     "name_fr": "CÉRÉALES ANCIENNES",
+     "name_it": "CEREALI ANTICHI",
+     "name_es": "GRANOS ANCESTRALES",
+     "descriptors": [
+      {
+       "name": "Quinoa",
+       "name_fr": "Quinoa",
+       "name_it": "Quinoa",
+       "name_es": "Quinua",
+       "slug": "quinoa",
+       "panel": {
+        "origin": "Technically an edible seed rather than a true grain, quinoa has been cultivated in the Andes for thousands of years.",
+        "origin_es": "Técnicamente una semilla comestible y no un grano verdadero, la quinua se cultiva en los Andes desde hace miles de años.",
+        "chemistry": "A rare complete plant protein containing all nine essential amino acids, and naturally gluten-free.",
+        "chemistry_es": "Una rara proteína vegetal completa que contiene los nueve aminoácidos esenciales, y naturalmente libre de gluten.",
+        "mixology": "Rinse thoroughly before cooking; it's done when the pale outer hull separates from the germ inside.",
+        "mixology_es": "Enjuagar bien antes de cocinar; está lista cuando la cubierta exterior pálida se separa del germen interior.",
+        "examples": "Works as a hot breakfast, a salad base, or an addition to soups in place of rice.",
+        "examples_es": "Funciona como desayuno caliente, base de ensaladas o como sustituto del arroz en sopas."
+       }
+      },
+      {
+       "name": "Farro",
+       "name_fr": "Farro",
+       "name_it": "Farro",
+       "name_es": "Farro",
+       "slug": "farro",
+       "panel": {
+        "origin": "An heirloom wheat grain from the Triticum family, cultivated and eaten for over 2,000 years and still popular in Tuscan cooking.",
+        "origin_es": "Un grano de trigo ancestral de la familia Triticum, cultivado y consumido durante más de 2,000 años y todavía popular en la cocina toscana.",
+        "chemistry": "A good source of fiber and protein with a pleasantly chewy texture; the whole grain version is more nutritious than the pearled form.",
+        "chemistry_es": "Una buena fuente de fibra y proteína con una textura agradablemente masticable; la versión integral es más nutritiva que la perlada.",
+        "mixology": "Soak overnight before cooking to improve texture and reduce cooking time.",
+        "mixology_es": "Remojar durante la noche antes de cocinar para mejorar la textura y reducir el tiempo de cocción.",
+        "examples": "Excellent tossed into grain bowls and salads, or added to soups and stews.",
+        "examples_es": "Excelente en bowls de granos y ensaladas, o añadido a sopas y guisos."
+       }
+      },
+      {
+       "name": "Freekeh",
+       "name_fr": "Freekeh",
+       "name_it": "Freekeh",
+       "name_es": "Freekeh",
+       "slug": "freekeh",
+       "panel": {
+        "origin": "Another form of wheat, harvested while still young and green, then roasted to develop its flavor.",
+        "origin_es": "Otra forma de trigo, cosechado mientras aún está joven y verde, y luego tostado para desarrollar su sabor.",
+        "chemistry": "Its roasting gives it a distinctive smoky character along with a hearty, chewy texture.",
+        "chemistry_es": "Su tostado le da un característico sabor ahumado junto con una textura contundente y masticable.",
+        "mixology": "Cook much like farro or wheat berries — simmer in water or broth until tender.",
+        "mixology_es": "Cocinar de forma similar al farro o al trigo en grano — hervir a fuego lento en agua o caldo hasta que esté tierno.",
+        "examples": "A great substitute in any recipe calling for quinoa, wheat berries, or farro.",
+        "examples_es": "Un gran sustituto en cualquier receta que requiera quinua, trigo en grano o farro."
+       }
+      },
+      {
+       "name": "Amaranth",
+       "name_fr": "Amarante",
+       "name_it": "Amaranto",
+       "name_es": "Amaranto",
+       "slug": "amaranth",
+       "panel": {
+        "origin": "A high-protein seed enjoyed in South America for thousands of years, sometimes called by the Aztecs the 'food of immortality.'",
+        "origin_es": "Una semilla rica en proteína consumida en Sudamérica durante miles de años, a la que los aztecas llamaban a veces el 'alimento de la inmortalidad.'",
+        "chemistry": "Highly nutritious and naturally gluten-free, with a distinctive, slightly spicy flavor.",
+        "chemistry_es": "Muy nutritivo y naturalmente libre de gluten, con un sabor distintivo y ligeramente picante.",
+        "mixology": "Can be popped like popcorn for a crunchy snack, or substituted one-to-one for flour in many baking recipes.",
+        "mixology_es": "Se puede inflar como palomitas para un snack crujiente, o sustituir uno a uno por harina en muchas recetas horneadas.",
+        "examples": "Pairs especially well with corn and squash dishes, and complements cinnamon in desserts.",
+        "examples_es": "Combina especialmente bien con platos de maíz y calabaza, y complementa la canela en postres."
+       }
+      }
+     ],
+     "color": "#a8653a"
+    }
+   ],
+   "color": "#a8653a"
+  },
+  {
+   "name": "WHOLE GRAINS",
+   "name_fr": "Céréales Complètes",
+   "name_it": "Cereali Integrali",
+   "name_es": "GRANOS INTEGRALES",
+   "sub": [
+    {
+     "name": "WHOLE GRAINS",
+     "name_fr": "Céréales Complètes",
+     "name_it": "Cereali Integrali",
+     "name_es": "GRANOS INTEGRALES",
+     "descriptors": [
+      {
+       "name": "Oats",
+       "name_fr": "Avoine",
+       "name_it": "Avena",
+       "name_es": "Avena",
+       "slug": "oats",
+       "panel": {
+        "origin": "A breakfast staple grown widely in temperate climates, available whole, steel-cut, or rolled.",
+        "origin_es": "Un alimento básico del desayuno cultivado ampliamente en climas templados, disponible entera, cortada o en hojuelas.",
+        "chemistry": "Packed with fiber, especially beta-glucan, along with antioxidants that help manage cholesterol and reduce inflammation.",
+        "chemistry_es": "Rica en fibra, especialmente beta-glucano, además de antioxidantes que ayudan a controlar el colesterol y reducir la inflamación.",
+        "mixology": "Cook whole or steel-cut oats slowly in water or milk for a heartier texture than instant oatmeal.",
+        "mixology_es": "Cocinar la avena entera o cortada despacio en agua o leche para una textura más contundente que la avena instantánea.",
+        "examples": "Classic in hot cereal and muesli, or used as a healthy substitute for breadcrumbs in burgers and meatloaf.",
+        "examples_es": "Clásica en cereal caliente y muesli, o usada como sustituto saludable del pan rallado en hamburguesas y pastel de carne."
+       }
+      },
+      {
+       "name": "Barley",
+       "name_fr": "Orge",
+       "name_it": "Orzo",
+       "name_es": "Cebada",
+       "slug": "barley",
+       "panel": {
+        "origin": "One of the oldest cultivated grains, from the same grass family as wheat.",
+        "origin_es": "Uno de los granos cultivados más antiguos, de la misma familia de gramíneas que el trigo.",
+        "chemistry": "High in fiber with a pleasant, nutty, chewy texture; whole grain barley contains gluten, unlike pearled barley which has less fiber.",
+        "chemistry_es": "Alta en fibra, con una textura agradable, a frutos secos y masticable; la cebada integral contiene gluten, a diferencia de la perlada que tiene menos fibra.",
+        "mixology": "Soaking or sprouting barley can make its nutrients easier for the body to absorb.",
+        "mixology_es": "Remojar o germinar la cebada puede facilitar que el cuerpo absorba sus nutrientes.",
+        "examples": "Excellent for soups and stews, where its chewy texture holds up well during long cooking.",
+        "examples_es": "Excelente para sopas y guisos, donde su textura masticable resiste bien la cocción larga."
+       }
+      },
+      {
+       "name": "Bulgur",
+       "name_fr": "Boulgour",
+       "name_it": "Bulgur",
+       "name_es": "Bulgur",
+       "slug": "bulgur",
+       "panel": {
+        "origin": "Cracked wheat that has been partially cooked and then dried, central to many Middle Eastern dishes.",
+        "origin_es": "Trigo partido que se cuece parcialmente y luego se seca, central en muchos platos de Oriente Medio.",
+        "chemistry": "Its quick cooking time (around 10 minutes) makes it one of the fastest whole grains to prepare.",
+        "chemistry_es": "Su rápido tiempo de cocción (alrededor de 10 minutos) lo convierte en uno de los granos integrales más rápidos de preparar.",
+        "mixology": "Simply rehydrate by simmering briefly or soaking in hot water until tender.",
+        "mixology_es": "Simplemente rehidratar hirviendo brevemente o remojando en agua caliente hasta que esté tierno.",
+        "examples": "The main ingredient in tabbouleh, and a great addition to veggie burgers, chili, or meatballs.",
+        "examples_es": "El ingrediente principal del tabulé, y una gran adición a hamburguesas vegetales, chili o albóndigas."
+       }
+      },
+      {
+       "name": "Sorghum",
+       "name_fr": "Sorgho",
+       "name_it": "Sorgo",
+       "name_es": "Sorgo",
+       "slug": "sorghum",
+       "panel": {
+        "origin": "An ancient grain originating in Africa, requiring much less water to grow than corn and maturing quickly.",
+        "origin_es": "Un grano ancestral originario de África, que requiere mucha menos agua para crecer que el maíz y madura rápidamente.",
+        "chemistry": "Rich in antioxidants, vitamins, and minerals, naturally gluten-free, with about 10 grams of protein per half-cup serving.",
+        "chemistry_es": "Rico en antioxidantes, vitaminas y minerales, naturalmente libre de gluten, con unos 10 gramos de proteína por media taza.",
+        "mixology": "Cook similarly to rice — simmer in water until tender and chewy.",
+        "mixology_es": "Cocinar de forma similar al arroz — hervir en agua hasta que esté tierno y masticable.",
+        "examples": "Pairs well with Creole and Cajun flavors, and can be used in flatbreads or Spanish-style rice dishes.",
+        "examples_es": "Combina bien con sabores criollos y cajún, y puede usarse en panes planos o platos de arroz al estilo español."
+       }
+      }
+     ],
+     "color": "#8a6a3a"
+    }
+   ],
+   "color": "#8a6a3a"
+  },
+  {
+   "name": "SMALL GLUTEN-FREE GRAINS",
+   "name_fr": "Petites Céréales Sans Gluten",
+   "name_it": "Piccoli Cereali Senza Glutine",
+   "name_es": "GRANOS PEQUEÑOS SIN GLUTEN",
+   "sub": [
+    {
+     "name": "SMALL GLUTEN-FREE GRAINS",
+     "name_fr": "Petites Céréales Sans Gluten",
+     "name_it": "Piccoli Cereali Senza Glutine",
+     "name_es": "GRANOS PEQUEÑOS SIN GLUTEN",
+     "descriptors": [
+      {
+       "name": "Millet",
+       "name_fr": "Millet",
+       "name_it": "Miglio",
+       "name_es": "Mijo",
+       "slug": "millet",
+       "panel": {
+        "origin": "A small, resilient, easy-to-cultivate grain enjoyed as a breakfast staple across Africa, Asia, and the Middle East.",
+        "origin_es": "Un grano pequeño, resistente y fácil de cultivar, consumido como desayuno básico en África, Asia y Oriente Medio.",
+        "chemistry": "A protein-rich, naturally gluten-free grain that fluffs up much like rice when cooked.",
+        "chemistry_es": "Un grano rico en proteína y naturalmente libre de gluten que queda esponjoso como el arroz al cocinarse.",
+        "mixology": "Cook in water, broth, or milk into a porridge or pilaf, seasoned with herbs, spices, or vegetables.",
+        "mixology_es": "Cocinar en agua, caldo o leche para hacer una papilla o pilaf, sazonado con hierbas, especias o verduras.",
+        "examples": "Can replace rice in stir-fries, be served warm as a breakfast cereal, or formed into veggie burger patties.",
+        "examples_es": "Puede sustituir al arroz en salteados, servirse caliente como cereal de desayuno, o formar hamburguesas vegetales."
+       }
+      },
+      {
+       "name": "Teff",
+       "name_fr": "Teff",
+       "name_it": "Teff",
+       "name_es": "Tef",
+       "slug": "teff",
+       "panel": {
+        "origin": "A tiny, nutrient-dense grain that is a staple of Ethiopian and Eritrean cuisine.",
+        "origin_es": "Un grano diminuto y muy nutritivo que es un alimento básico de la cocina etíope y eritrea.",
+        "chemistry": "Because the grains are so small, they contain a higher proportion of nutrient-rich germ and bran than larger grains.",
+        "chemistry_es": "Debido a que los granos son tan pequeños, contienen una mayor proporción de germen y salvado ricos en nutrientes que los granos más grandes.",
+        "mixology": "Cooks quickly, ready in about 15-20 minutes when prepared like rice, or as an overnight refrigerator porridge.",
+        "mixology_es": "Se cocina rápido, listo en unos 15-20 minutos preparado como el arroz, o como papilla de refrigerador durante la noche.",
+        "examples": "The base for injera, the traditional flatbread used to scoop up stews, and also makes an excellent hot cereal or polenta-style side.",
+        "examples_es": "La base de la injera, el pan plano tradicional usado para recoger guisos, y también es excelente como cereal caliente o guarnición tipo polenta."
+       }
+      }
+     ],
+     "color": "#b3954a"
+    }
+   ],
+   "color": "#b3954a"
+  },
+  {
+   "name": "CRUCIFEROUS GREENS",
+   "name_fr": "Légumes Crucifères",
+   "name_it": "Verdure Crucifere",
+   "name_es": "VERDURAS CRUCÍFERAS",
+   "sub": [
+    {
+     "name": "CRUCIFEROUS GREENS",
+     "name_fr": "Légumes Crucifères",
+     "name_it": "Verdure Crucifere",
+     "name_es": "VERDURAS CRUCÍFERAS",
+     "descriptors": [
+      {
+       "name": "Kale",
+       "name_fr": "Chou Frisé",
+       "name_it": "Cavolo Riccio",
+       "name_es": "Col Rizada (Kale)",
+       "slug": "kale",
+       "panel": {
+        "origin": "One of the most nutrient-dense vegetables on the planet, a hardy member of the cabbage family.",
+        "origin_es": "Una de las verduras más nutritivas del planeta, un miembro resistente de la familia de la col.",
+        "chemistry": "Exceptionally rich in vitamins A, C, and K, plus antioxidants like lutein and beta-carotene.",
+        "chemistry_es": "Excepcionalmente rica en vitaminas A, C y K, además de antioxidantes como la luteína y el betacaroteno.",
+        "mixology": "Steaming preserves more of its nutrients than boiling, pressure cooking, or microwaving.",
+        "mixology_es": "Cocer al vapor conserva más nutrientes que hervir, cocinar a presión o usar el microondas.",
+        "examples": "Great roasted into crispy chips, massaged raw for salads, or added to soups.",
+        "examples_es": "Excelente horneada en chips crujientes, masajeada cruda para ensaladas, o añadida a sopas."
+       }
+      },
+      {
+       "name": "Collard Greens",
+       "name_fr": "Chou Cavalier",
+       "name_it": "Cavolo Verde",
+       "name_es": "Berza",
+       "slug": "collard-greens",
+       "panel": {
+        "origin": "Loose, leafy greens related to kale and cabbage, with thick leaves and a slightly bitter taste.",
+        "origin_es": "Hojas verdes sueltas emparentadas con la col rizada y el repollo, de hojas gruesas y sabor ligeramente amargo.",
+        "chemistry": "One of the best plant-based sources of calcium and vitamin K, important for blood clotting and bone health.",
+        "chemistry_es": "Una de las mejores fuentes vegetales de calcio y vitamina K, importantes para la coagulación de la sangre y la salud ósea.",
+        "mixology": "Their sturdy leaves hold up well to long, slow cooking.",
+        "mixology_es": "Sus hojas resistentes soportan bien la cocción larga y lenta.",
+        "examples": "Best slow-cooked in soups or stews, often with aromatic seasonings.",
+        "examples_es": "Mejor cocidas a fuego lento en sopas o guisos, a menudo con condimentos aromáticos."
+       }
+      },
+      {
+       "name": "Bok Choy",
+       "name_fr": "Bok Choy",
+       "name_it": "Bok Choy",
+       "name_es": "Bok Choy",
+       "slug": "bok-choy",
+       "panel": {
+        "origin": "A type of Chinese cabbage widely used across Asian cuisine.",
+        "origin_es": "Un tipo de col china muy utilizada en la cocina asiática.",
+        "chemistry": "Packed with vitamins C, E, and K along with calcium, iron, folate, and other minerals.",
+        "chemistry_es": "Rica en vitaminas C, E y K, además de calcio, hierro, folato y otros minerales.",
+        "mixology": "Cooks quickly — a brief stir-fry or simmer in broth is all it needs.",
+        "mixology_es": "Se cocina rápido — un breve salteado o hervor en caldo es todo lo que necesita.",
+        "examples": "A staple in stir-fries and soups, adding thick, dark green leaves and crunchy stems.",
+        "examples_es": "Un básico en salteados y sopas, aportando hojas verdes oscuras gruesas y tallos crujientes."
+       }
+      },
+      {
+       "name": "Cabbage",
+       "name_fr": "Chou",
+       "name_it": "Cavolo",
+       "name_es": "Repollo",
+       "slug": "cabbage",
+       "panel": {
+        "origin": "Formed of tightly packed leaf clusters in green, white, or purple varieties, part of the same family as kale and broccoli.",
+        "origin_es": "Formado por racimos de hojas compactas en variedades verdes, blancas o moradas, parte de la misma familia que la col rizada y el brócoli.",
+        "chemistry": "Contains glucosinolates, plant compounds that give it a bitter edge and may have protective health properties.",
+        "chemistry_es": "Contiene glucosinolatos, compuestos vegetales que le dan un toque amargo y podrían tener propiedades protectoras para la salud.",
+        "mixology": "Can be eaten raw, braised, stir-fried, or fermented.",
+        "mixology_es": "Puede comerse crudo, estofado, salteado o fermentado.",
+        "examples": "The base for sauerkraut, a fermented preparation that supports digestion and gut health.",
+        "examples_es": "La base del chucrut, una preparación fermentada que favorece la digestión y la salud intestinal."
+       }
+      }
+     ],
+     "color": "#3f6b3a"
+    }
+   ],
+   "color": "#3f6b3a"
+  },
+  {
+   "name": "SALAD GREENS",
+   "name_fr": "Verdures de Salade",
+   "name_it": "Verdure da Insalata",
+   "name_es": "VERDURAS DE ENSALADA",
+   "sub": [
+    {
+     "name": "SALAD GREENS",
+     "name_fr": "Verdures de Salade",
+     "name_it": "Verdure da Insalata",
+     "name_es": "VERDURAS DE ENSALADA",
+     "descriptors": [
+      {
+       "name": "Romaine Lettuce",
+       "name_fr": "Laitue Romaine",
+       "name_it": "Lattuga Romana",
+       "name_es": "Lechuga Romana",
+       "slug": "romaine-lettuce",
+       "panel": {
+        "origin": "A popular, crisp lettuce with sturdy, dark leaves and a firm center rib.",
+        "origin_es": "Una lechuga popular y crujiente, de hojas oscuras resistentes y un nervio central firme.",
+        "chemistry": "High in fiber relative to its calorie count, with good amounts of vitamins A and K.",
+        "chemistry_es": "Alta en fibra en relación con sus calorías, con buenas cantidades de vitaminas A y K.",
+        "mixology": "Best enjoyed raw and crisp — wash and dry thoroughly before serving.",
+        "mixology_es": "Mejor disfrutada cruda y crujiente — lavar y secar bien antes de servir.",
+        "examples": "The classic base of a Caesar salad.",
+        "examples_es": "La base clásica de la ensalada César."
+       }
+      },
+      {
+       "name": "Arugula",
+       "name_fr": "Roquette",
+       "name_it": "Rucola",
+       "name_es": "Rúcula",
+       "slug": "arugula",
+       "panel": {
+        "origin": "A peppery green also known as rocket or rucola, from the same family as broccoli and mustard greens.",
+        "origin_es": "Una verdura picante también conocida como rúcula, de la misma familia que el brócoli y la mostaza.",
+        "chemistry": "Packed with vitamins A, B9 (folate), and K, and a good source of dietary nitrates.",
+        "chemistry_es": "Rica en vitaminas A, B9 (folato) y K, y buena fuente de nitratos dietéticos.",
+        "mixology": "Its delicate leaves are best added raw, just before serving, to preserve their peppery bite.",
+        "mixology_es": "Sus hojas delicadas se aprovechan mejor crudas, justo antes de servir, para conservar su toque picante.",
+        "examples": "Excellent in raw salads or as a fresh, sharp topping on pizza.",
+        "examples_es": "Excelente en ensaladas crudas o como un toque fresco y picante sobre la pizza."
+       }
+      },
+      {
+       "name": "Watercress",
+       "name_fr": "Cresson",
+       "name_it": "Crescione",
+       "name_es": "Berro",
+       "slug": "watercress",
+       "panel": {
+        "origin": "An aquatic plant related to arugula and mustard greens, used in herbal traditions for centuries.",
+        "origin_es": "Una planta acuática emparentada con la rúcula y la mostaza, usada en tradiciones herbales durante siglos.",
+        "chemistry": "An excellent source of vitamin K, with a bitter, slightly spicy flavor.",
+        "chemistry_es": "Una excelente fuente de vitamina K, con un sabor amargo y ligeramente picante.",
+        "mixology": "Its peppery bite works best added raw to milder dishes that benefit from a flavor boost.",
+        "mixology_es": "Su toque picante funciona mejor añadido crudo a platos más suaves que se benefician de un impulso de sabor.",
+        "examples": "A great addition to sandwiches, salads, or alongside milder greens like lettuce.",
+        "examples_es": "Una gran adición a sándwiches, ensaladas, o junto a verduras más suaves como la lechuga."
+       }
+      },
+      {
+       "name": "Endive",
+       "name_fr": "Endive",
+       "name_it": "Indivia",
+       "name_es": "Endivia",
+       "slug": "endive",
+       "panel": {
+        "origin": "A curly, crisp leafy green from the same family as chicory, less common than other salad greens because it's tricky to grow.",
+        "origin_es": "Una verdura de hoja rizada y crujiente de la misma familia que la achicoria, menos común que otras verduras de ensalada porque es difícil de cultivar.",
+        "chemistry": "A good source of vitamin K and folate, with a nutty, mildly bitter flavor.",
+        "chemistry_es": "Una buena fuente de vitamina K y folato, con un sabor a frutos secos y ligeramente amargo.",
+        "mixology": "Can be eaten raw in salads or briefly cooked, which mellows its bitterness.",
+        "mixology_es": "Puede comerse cruda en ensaladas o cocinarse brevemente, lo que suaviza su amargor.",
+        "examples": "Often used as individual leaves for appetizers, or sliced into salads for a bitter contrast.",
+        "examples_es": "A menudo se usa en hojas individuales para entrantes, o cortada en ensaladas para un contraste amargo."
+       }
+      },
+      {
+       "name": "Microgreens",
+       "name_fr": "Micro-pousses",
+       "name_it": "Micro-ortaggi",
+       "name_es": "Microvegetales",
+       "slug": "microgreens",
+       "panel": {
+        "origin": "Immature greens harvested from the seeds of vegetables and herbs, typically just 1-3 inches tall.",
+        "origin_es": "Verduras inmaduras cosechadas de semillas de hortalizas y hierbas, normalmente de solo 2 a 7 cm de altura.",
+        "chemistry": "Concentrated sources of vitamins C, E, and K, along with beneficial plant compounds.",
+        "chemistry_es": "Fuentes concentradas de vitaminas C, E y K, además de compuestos vegetales beneficiosos.",
+        "mixology": "Require no cooking — simply snip and add fresh just before serving.",
+        "mixology_es": "No requieren cocción — simplemente cortar y añadir frescos justo antes de servir.",
+        "examples": "Traditionally used as a garnish, but substantial enough to use as a salad base or sandwich topping.",
+        "examples_es": "Tradicionalmente usados como guarnición, pero suficientes para usarse como base de ensalada o cubierta de sándwich."
+       }
+      }
+     ],
+     "color": "#5a8a4a"
+    }
+   ],
+   "color": "#5a8a4a"
+  },
+  {
+   "name": "COOKING & ROOT-TOP GREENS",
+   "name_fr": "Légumes à Cuire & Fanes",
+   "name_it": "Verdure da Cuocere & Cime",
+   "name_es": "VERDURAS DE COCCIÓN Y HOJAS DE RAÍZ",
+   "sub": [
+    {
+     "name": "COOKING & ROOT-TOP GREENS",
+     "name_fr": "Légumes à Cuire & Fanes",
+     "name_it": "Verdure da Cuocere & Cime",
+     "name_es": "VERDURAS DE COCCIÓN Y HOJAS DE RAÍZ",
+     "descriptors": [
+      {
+       "name": "Spinach",
+       "name_fr": "Épinards",
+       "name_it": "Spinaci",
+       "name_es": "Espinaca",
+       "slug": "spinach",
+       "panel": {
+        "origin": "A nutritional superstar that can be incorporated into a huge range of dishes, from soups to smoothies.",
+        "origin_es": "Una superestrella nutricional que se puede incorporar en una enorme variedad de platos, desde sopas hasta batidos.",
+        "chemistry": "Loaded with vitamins A, C, and K, as well as iron, potassium, and folate.",
+        "chemistry_es": "Cargada de vitaminas A, C y K, además de hierro, potasio y folato.",
+        "mixology": "Wilts down dramatically when cooked, so a large raw volume reduces to a small cooked portion.",
+        "mixology_es": "Se reduce drásticamente al cocinarse, así que un gran volumen crudo se convierte en una porción pequeña cocida.",
+        "examples": "Ideal raw in salads and smoothies, or wilted into pasta, omelets, and sauces.",
+        "examples_es": "Ideal cruda en ensaladas y batidos, o salteada en pasta, omelets y salsas."
+       }
+      },
+      {
+       "name": "Swiss Chard",
+       "name_fr": "Bette",
+       "name_it": "Bietola",
+       "name_es": "Acelga",
+       "slug": "swiss-chard",
+       "panel": {
+        "origin": "A leafy green with colorful, rainbow-hued stalks, related to both beets and spinach.",
+        "origin_es": "Una verdura de hoja con tallos de colores vivos, emparentada con la remolacha y la espinaca.",
+        "chemistry": "Rich in minerals and vitamins A, C, and K, with an earthy flavor and a flavonoid that may help lower blood sugar.",
+        "chemistry_es": "Rica en minerales y vitaminas A, C y K, con un sabor terroso y un flavonoide que podría ayudar a reducir el azúcar en sangre.",
+        "mixology": "The stems are crunchy and nutritious — don't discard them, just chop and cook them slightly longer than the leaves.",
+        "mixology_es": "Los tallos son crujientes y nutritivos — no los descartes, solo pícalos y cocínalos un poco más que las hojas.",
+        "examples": "Sautéed with garlic and olive oil, or added whole (stems and leaves) to soups, tacos, and casseroles.",
+        "examples_es": "Salteada con ajo y aceite de oliva, o añadida entera (tallos y hojas) a sopas, tacos y guisos."
+       }
+      },
+      {
+       "name": "Beet Greens",
+       "name_fr": "Fanes de Betterave",
+       "name_it": "Foglie di Barbabietola",
+       "name_es": "Hojas de Remolacha",
+       "slug": "beet-greens",
+       "panel": {
+        "origin": "The leafy tops of the beet plant, often discarded but fully edible and nutritious.",
+        "origin_es": "Las hojas de la planta de remolacha, a menudo descartadas pero completamente comestibles y nutritivas.",
+        "chemistry": "Rich in vitamin K along with vitamins A and C, plus the antioxidants zeaxanthin and lutein.",
+        "chemistry_es": "Ricas en vitamina K además de vitaminas A y C, más los antioxidantes zeaxantina y luteína.",
+        "mixology": "Treat like a hearty green — sauté quickly or add raw to salads and soups.",
+        "mixology_es": "Tratarlas como una verdura contundente — saltear rápido o añadir crudas a ensaladas y sopas.",
+        "examples": "Sautéed as a side dish, or added raw to salads and soups.",
+        "examples_es": "Salteadas como guarnición, o añadidas crudas a ensaladas y sopas."
+       }
+      },
+      {
+       "name": "Turnip Greens",
+       "name_fr": "Fanes de Navet",
+       "name_it": "Cime di Rapa",
+       "name_es": "Hojas de Nabo",
+       "slug": "turnip-greens",
+       "panel": {
+        "origin": "The leafy tops of the turnip plant, often more nutritious than the root vegetable itself.",
+        "origin_es": "Las hojas de la planta del nabo, a menudo más nutritivas que la propia raíz.",
+        "chemistry": "Exceptionally high in vitamin K, plus generous amounts of vitamin C, folate, and vitamin A.",
+        "chemistry_es": "Excepcionalmente altas en vitamina K, además de generosas cantidades de vitamina C, folato y vitamina A.",
+        "mixology": "Their sturdy texture holds up well to braising or slow simmering.",
+        "mixology_es": "Su textura resistente soporta bien el estofado o la cocción lenta.",
+        "examples": "Traditionally braised or simmered, often alongside other hearty greens.",
+        "examples_es": "Tradicionalmente estofadas o cocidas a fuego lento, a menudo junto con otras verduras contundentes."
+       }
+      }
+     ],
+     "color": "#6b7a3a"
+    }
+   ],
+   "color": "#6b7a3a"
+  }
+ ],
+ "funFacts": {
+  "GLOBAL GRAIN STAPLES": {
+   "en": "Rice, wheat, and corn together supply more than half of all the calories consumed by humans worldwide — making them, by a wide margin, the most important plants in the human diet.",
+   "es": "El arroz, el trigo y el maíz juntos aportan más de la mitad de todas las calorías que consume la humanidad — lo que los convierte, por un amplio margen, en las plantas más importantes de la dieta humana."
+  },
+  "ANCIENT GRAINS": {
+   "en": "Quinoa isn't technically a grain at all — it's an edible seed that's prepared and eaten just like one, and it's one of the few plant foods that contains all nine essential amino acids.",
+   "es": "La quinua técnicamente no es un grano — es una semilla comestible que se prepara y consume como tal, y es uno de los pocos alimentos vegetales que contiene los nueve aminoácidos esenciales."
+  },
+  "WHOLE GRAINS": {
+   "en": "The Dietary Guidelines for Americans recommend that at least half of all grains eaten daily be whole grains — roughly 2 to 4 servings a day.",
+   "es": "Las Guías Alimentarias para Estadounidenses recomiendan que al menos la mitad de los granos que se consumen al día sean integrales — aproximadamente 2 a 4 porciones diarias."
+  },
+  "SMALL GLUTEN-FREE GRAINS": {
+   "en": "Because teff grains are so tiny, a much larger share of each grain is nutrient-rich bran and germ compared to larger grains — making it one of the most nutrient-dense grains by weight.",
+   "es": "Como los granos de tef son tan pequeños, una proporción mucho mayor de cada grano es salvado y germen ricos en nutrientes en comparación con granos más grandes — lo que lo convierte en uno de los granos más nutritivos por peso."
+  },
+  "CRUCIFEROUS GREENS": {
+   "en": "One cup of raw collard greens contains over 1000% of the daily value for vitamin K — more than almost any other common leafy green.",
+   "es": "Una taza de berza cruda contiene más del 1000% del valor diario de vitamina K — más que casi cualquier otra verdura de hoja común."
+  },
+  "SALAD GREENS": {
+   "en": "Despite looking like a delicate garnish, microgreens can pack a higher concentration of vitamins and phytochemicals per gram than the full-grown vegetable they come from.",
+   "es": "A pesar de parecer una guarnición delicada, los microvegetales pueden contener una concentración de vitaminas y fitoquímicos por gramo mayor que la de la verdura adulta de la que provienen."
+  },
+  "COOKING & ROOT-TOP GREENS": {
+   "en": "Beet greens, Swiss chard stems, and turnip greens are often thrown away — but all three are edible, nutrient-dense parts of vegetables most people only eat half of.",
+   "es": "Las hojas de remolacha, los tallos de la acelga y las hojas de nabo a menudo se desechan — pero las tres son partes comestibles y nutritivas de verduras de las que la mayoría de la gente solo come la mitad."
+  }
+ }
+}

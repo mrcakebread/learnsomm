@@ -1,0 +1,1077 @@
+{
+ "title": "Cocktail",
+ "subject": "cocktail",
+ "categories": [
+  {
+   "name": "OLD FASHIONED FAMILY",
+   "name_fr": "FAMILLE OLD FASHIONED",
+   "name_it": "FAMIGLIA OLD FASHIONED",
+   "name_es": "FAMILIA OLD FASHIONED",
+   "color": "#8a5a2a",
+   "sub": [
+    {
+     "name": "OLD FASHIONED FAMILY",
+     "name_fr": "FAMILLE OLD FASHIONED",
+     "name_it": "FAMIGLIA OLD FASHIONED",
+     "name_es": "FAMILIA OLD FASHIONED",
+     "color": "#8a5a2a",
+     "descriptors": [
+      {
+       "name": "Old Fashioned",
+       "name_fr": "Old Fashioned",
+       "name_it": "Old Fashioned",
+       "name_es": "Old Fashioned",
+       "slug": "old-fashioned",
+       "panel": {
+        "origin": "The original cocktail — spirit-forward, lightly sweetened, and aromatic; rich and contemplative.",
+        "origin_es": "El cóctel original — protagonismo del destilado, poco dulce y aromático; rico y para meditar.",
+        "chemistry": "2 oz bourbon or rye · 1 sugar cube · 2–3 dashes Angostura · splash of water.",
+        "chemistry_es": "2 oz de bourbon o rye · 1 terrón de azúcar · 2–3 golpes de Angostura · un chorrito de agua.",
+        "pairing": "Muddle sugar with bitters and water, add whiskey and ice, stir. Rocks glass; orange peel and a cherry.",
+        "pairing_es": "Macera el azúcar con los amargos y el agua, añade whiskey y hielo, remueve. Vaso bajo; piel de naranja y una cereza.",
+        "mixology": "The Old Fashioned template — spirit + sugar + bitters + water; the blueprint every cocktail descends from.",
+        "mixology_es": "La plantilla Old Fashioned — destilado + azúcar + amargos + agua; el plano del que desciende todo cóctel.",
+        "examples": "Named in the late 1800s when drinkers asked for an 'old-fashioned' cocktail; the original cocktail itself.",
+        "examples_es": "Bautizado a finales del s. XIX cuando se pedía un cóctel 'a la antigua'; el cóctel original en sí."
+       }
+      },
+      {
+       "name": "Sazerac",
+       "name_fr": "Sazerac",
+       "name_it": "Sazerac",
+       "name_es": "Sazerac",
+       "slug": "sazerac",
+       "panel": {
+        "origin": "Bold, boozy, and aromatic with anise and a New Orleans soul.",
+        "origin_es": "Intenso, fuerte y aromático, con anís y alma de Nueva Orleans.",
+        "chemistry": "2 oz rye (or Cognac) · 1 sugar cube · 3 dashes Peychaud's bitters · absinthe rinse.",
+        "chemistry_es": "2 oz de rye (o coñac) · 1 terrón de azúcar · 3 golpes de amargo Peychaud's · enjuague de absenta.",
+        "pairing": "Rinse a chilled rocks glass with absinthe; stir the rest with ice; strain. Express a lemon peel (don't drop it).",
+        "pairing_es": "Enjuaga un vaso bajo frío con absenta; remueve el resto con hielo; cuela. Exprime una piel de limón (no la eches dentro).",
+        "mixology": "An Old Fashioned variant — spirit + sugar + bitters, defined by its absinthe rinse and Peychaud's.",
+        "mixology_es": "Una variante del Old Fashioned — destilado + azúcar + amargos, definida por su enjuague de absenta y el Peychaud's.",
+        "examples": "New Orleans' signature drink; originally Cognac, switched to rye after phylloxera struck French vines.",
+        "examples_es": "El trago insignia de Nueva Orleans; al principio de coñac, pasó al rye tras la filoxera en las viñas francesas."
+       }
+      },
+      {
+       "name": "Mint Julep",
+       "name_fr": "Mint Julep",
+       "name_it": "Mint Julep",
+       "name_es": "Mint Julep",
+       "slug": "mint-julep",
+       "panel": {
+        "origin": "Cool, minty, and bracing; spirit-forward over a mountain of crushed ice.",
+        "origin_es": "Fresco, mentolado y vigorizante; con el destilado al frente sobre una montaña de hielo picado.",
+        "chemistry": "2.5 oz bourbon · ~0.5 oz simple syrup (or sugar) · 8–10 mint leaves.",
+        "chemistry_es": "2.5 oz de bourbon · ~0.5 oz de jarabe simple (o azúcar) · 8–10 hojas de menta.",
+        "pairing": "Gently muddle mint with syrup, add bourbon and crushed ice, swizzle. Metal julep cup; a mint bouquet.",
+        "pairing_es": "Macera suave la menta con el jarabe, añade bourbon y hielo picado, mezcla. Copa de metal; un ramo de menta.",
+        "mixology": "A julep — spirit + sugar + mint over crushed ice; essentially an Old Fashioned cooled with mint.",
+        "mixology_es": "Un julep — destilado + azúcar + menta sobre hielo picado; en esencia un Old Fashioned refrescado con menta.",
+        "examples": "An American South classic since the late 1700s; bound to the Kentucky Derby.",
+        "examples_es": "Un clásico del sur de EE. UU. desde finales del s. XVIII; ligado al Derby de Kentucky."
+       }
+      },
+      {
+       "name": "Champagne Cocktail",
+       "name_fr": "Champagne Cocktail",
+       "name_it": "Champagne Cocktail",
+       "name_es": "Champagne Cocktail",
+       "slug": "champagne-cocktail",
+       "panel": {
+        "origin": "Festive and elegant — dry sparkling wine with a whisper of sweetness and bitters.",
+        "origin_es": "Festivo y elegante — espumoso seco con un susurro de dulzor y amargos.",
+        "chemistry": "1 sugar cube · 2 dashes Angostura · ~4 oz Champagne (a splash of Cognac, optional).",
+        "chemistry_es": "1 terrón de azúcar · 2 golpes de Angostura · ~4 oz de champagne (un chorrito de coñac, opcional).",
+        "pairing": "Soak the sugar cube with bitters in a flute, top with Champagne. Lemon twist.",
+        "pairing_es": "Empapa el terrón con los amargos en una copa flauta, completa con champagne. Twist de limón.",
+        "mixology": "An Old Fashioned built on Champagne instead of a spirit — sugar + bitters + bubbles.",
+        "mixology_es": "Un Old Fashioned montado sobre champagne en vez de un destilado — azúcar + amargos + burbujas.",
+        "examples": "A 19th-century classic; it appears in Jerry Thomas's 1862 guide.",
+        "examples_es": "Un clásico del s. XIX; aparece en la guía de Jerry Thomas de 1862."
+       }
+      },
+      {
+       "name": "Rum Old Fashioned",
+       "name_fr": "Rum Old Fashioned",
+       "name_it": "Rum Old Fashioned",
+       "name_es": "Rum Old Fashioned",
+       "slug": "rum-old-fashioned",
+       "panel": {
+        "origin": "Warm, molasses-rich, and spiced; the aged-rum drinker's Old Fashioned.",
+        "origin_es": "Cálido, rico en melaza y especiado; el Old Fashioned del bebedor de ron añejo.",
+        "chemistry": "2 oz aged rum · ~1 tsp demerara syrup (or sugar) · 2 dashes Angostura · splash of water.",
+        "chemistry_es": "2 oz de ron añejo · ~1 cdta de jarabe demerara (o azúcar) · 2 golpes de Angostura · un chorrito de agua.",
+        "pairing": "Stir with ice. Rocks glass; orange peel.",
+        "pairing_es": "Remueve con hielo. Vaso bajo; piel de naranja.",
+        "mixology": "The Old Fashioned template with aged rum standing in for whiskey.",
+        "mixology_es": "La plantilla Old Fashioned con ron añejo en lugar del whiskey.",
+        "examples": "A modern staple for rum lovers; it shows off demerara and aged-rum character.",
+        "examples_es": "Un básico moderno para amantes del ron; luce el carácter del demerara y del ron añejo."
+       }
+      },
+      {
+       "name": "Oaxaca Old Fashioned",
+       "name_fr": "Oaxaca Old Fashioned",
+       "name_it": "Oaxaca Old Fashioned",
+       "name_es": "Oaxaca Old Fashioned",
+       "slug": "oaxaca-old-fashioned",
+       "panel": {
+        "origin": "Smoky and agave-rich with a savory, contemplative depth.",
+        "origin_es": "Ahumado y rico en agave, con una profundidad sabrosa y reflexiva.",
+        "chemistry": "1.5 oz reposado tequila · 0.5 oz mezcal · 1 tsp agave syrup · 2 dashes mole or Angostura bitters.",
+        "chemistry_es": "1.5 oz de tequila reposado · 0.5 oz de mezcal · 1 cdta de jarabe de agave · 2 golpes de amargo de mole o Angostura.",
+        "pairing": "Stir with ice. Rocks glass; flamed orange peel.",
+        "pairing_es": "Remueve con hielo. Vaso bajo; piel de naranja flameada.",
+        "mixology": "An Old Fashioned built on agave spirits, with mezcal supplying the smoke.",
+        "mixology_es": "Un Old Fashioned montado sobre destilados de agave, con el mezcal aportando el humo.",
+        "examples": "A modern classic created by Phil Ward at New York's Death & Co (2007).",
+        "examples_es": "Un clásico moderno creado por Phil Ward en el Death & Co de Nueva York (2007)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOUR FAMILY",
+   "name_fr": "FAMILLE SOUR",
+   "name_it": "FAMIGLIA SOUR",
+   "name_es": "FAMILIA SOUR",
+   "color": "#d6b53c",
+   "sub": [
+    {
+     "name": "SOUR FAMILY",
+     "name_fr": "FAMILLE SOUR",
+     "name_it": "FAMIGLIA SOUR",
+     "name_es": "FAMILIA SOUR",
+     "color": "#d6b53c",
+     "descriptors": [
+      {
+       "name": "Whiskey Sour",
+       "name_fr": "Whiskey Sour",
+       "name_it": "Whiskey Sour",
+       "name_es": "Whiskey Sour",
+       "slug": "whiskey-sour",
+       "panel": {
+        "origin": "Bright, balanced, and tart, with a silky body when egg white is used.",
+        "origin_es": "Brillante, equilibrado y ácido, con cuerpo sedoso cuando se usa clara de huevo.",
+        "chemistry": "2 oz bourbon · 0.75 oz lemon juice · 0.75 oz simple syrup · egg white (optional).",
+        "chemistry_es": "2 oz de bourbon · 0.75 oz de zumo de limón · 0.75 oz de jarabe simple · clara de huevo (opcional).",
+        "pairing": "Shake (dry-shake first if using egg white), strain. Rocks or coupe; cherry and orange.",
+        "pairing_es": "Agita (primero en seco si usas clara), cuela. Vaso bajo o coupe; cereza y naranja.",
+        "mixology": "The classic Sour — spirit + citrus + sugar; the template for the entire sour family.",
+        "mixology_es": "El Sour clásico — destilado + cítrico + azúcar; la plantilla de toda la familia sour.",
+        "examples": "Printed in Jerry Thomas's 1862 guide; a favorite of the 19th-century sporting set.",
+        "examples_es": "Impreso en la guía de Jerry Thomas de 1862; favorito del ambiente deportivo del s. XIX."
+       }
+      },
+      {
+       "name": "Daiquiri",
+       "name_fr": "Daiquiri",
+       "name_it": "Daiquiri",
+       "name_es": "Daiquiri",
+       "slug": "daiquiri",
+       "panel": {
+        "origin": "Crisp, tart, and clean — the litmus test of cocktail balance.",
+        "origin_es": "Nítido, ácido y limpio — la prueba de fuego del equilibrio en coctelería.",
+        "chemistry": "2 oz white rum · 1 oz lime juice · 0.75 oz simple syrup.",
+        "chemistry_es": "2 oz de ron blanco · 1 oz de zumo de lima · 0.75 oz de jarabe simple.",
+        "pairing": "Shake hard, fine-strain. Coupe; no garnish (or a lime wheel).",
+        "pairing_es": "Agita fuerte, doble cuela. Coupe; sin adorno (o una rodaja de lima).",
+        "mixology": "A rum Sour; the purest expression of the three-part sour.",
+        "mixology_es": "Un Sour de ron; la expresión más pura del sour de tres partes.",
+        "examples": "Cuban-born, named for a mining town near Santiago; famously a Hemingway favorite.",
+        "examples_es": "Nacido en Cuba, llamado así por un pueblo minero cerca de Santiago; célebre favorito de Hemingway."
+       }
+      },
+      {
+       "name": "Pisco Sour",
+       "name_fr": "Pisco Sour",
+       "name_it": "Pisco Sour",
+       "name_es": "Pisco Sour",
+       "slug": "pisco-sour",
+       "panel": {
+        "origin": "Frothy, floral, and luscious with a fresh grape-brandy character.",
+        "origin_es": "Espumoso, floral y untuoso, con el carácter fresco del aguardiente de uva.",
+        "chemistry": "2 oz pisco · 1 oz lime juice · 0.75 oz simple syrup · 1 egg white · Angostura on top.",
+        "chemistry_es": "2 oz de pisco · 1 oz de zumo de lima · 0.75 oz de jarabe simple · 1 clara de huevo · Angostura por encima.",
+        "pairing": "Dry-shake, then shake with ice. Coupe; bitters dashed on the foam.",
+        "pairing_es": "Agita en seco, luego con hielo. Coupe; gotas de amargo sobre la espuma.",
+        "mixology": "A Sour built on pisco and enriched with egg white.",
+        "mixology_es": "Un Sour montado sobre pisco y enriquecido con clara de huevo.",
+        "examples": "A Peruvian (and Chilean) classic from the 1920s, born in Lima.",
+        "examples_es": "Un clásico peruano (y chileno) de los años 1920, nacido en Lima."
+       }
+      },
+      {
+       "name": "Gimlet",
+       "name_fr": "Gimlet",
+       "name_it": "Gimlet",
+       "name_es": "Gimlet",
+       "slug": "gimlet",
+       "panel": {
+        "origin": "Crisp, tart-sweet, and refreshing; gin sharpened with lime.",
+        "origin_es": "Nítido, agridulce y refrescante; ginebra afilada con lima.",
+        "chemistry": "2 oz gin · 0.75 oz lime juice · 0.75 oz simple syrup (classically lime cordial).",
+        "chemistry_es": "2 oz de ginebra · 0.75 oz de zumo de lima · 0.75 oz de jarabe simple (clásicamente cordial de lima).",
+        "pairing": "Shake, strain. Coupe; lime wheel.",
+        "pairing_es": "Agita, cuela. Coupe; rodaja de lima.",
+        "mixology": "A Sour — gin + lime + sweet; historically made with preserved lime cordial.",
+        "mixology_es": "Un Sour — ginebra + lima + dulce; históricamente con cordial de lima en conserva.",
+        "examples": "A British naval drink, from the days when lime warded off scurvy at sea.",
+        "examples_es": "Un trago de la marina británica, de cuando la lima prevenía el escorbuto en el mar."
+       }
+      },
+      {
+       "name": "Bee's Knees",
+       "name_fr": "Bee's Knees",
+       "name_it": "Bee's Knees",
+       "name_es": "Bee's Knees",
+       "slug": "bees-knees",
+       "panel": {
+        "origin": "Bright and floral, with honey rounding out the lemon.",
+        "origin_es": "Brillante y floral, con la miel redondeando el limón.",
+        "chemistry": "2 oz gin · 0.75 oz lemon juice · 0.75 oz honey syrup.",
+        "chemistry_es": "2 oz de ginebra · 0.75 oz de zumo de limón · 0.75 oz de jarabe de miel.",
+        "pairing": "Shake, strain. Coupe; lemon twist.",
+        "pairing_es": "Agita, cuela. Coupe; twist de limón.",
+        "mixology": "A Sour sweetened with honey instead of sugar.",
+        "mixology_es": "Un Sour endulzado con miel en lugar de azúcar.",
+        "examples": "A Prohibition-era drink; honey helped mask the rough edges of bathtub gin.",
+        "examples_es": "Un trago de la Ley Seca; la miel ayudaba a disimular las asperezas de la ginebra casera."
+       }
+      },
+      {
+       "name": "Clover Club",
+       "name_fr": "Clover Club",
+       "name_it": "Clover Club",
+       "name_es": "Clover Club",
+       "slug": "clover-club",
+       "panel": {
+        "origin": "Blush-pink, silky, and fruity with a tart raspberry edge.",
+        "origin_es": "Rosado, sedoso y afrutado, con un borde ácido de frambuesa.",
+        "chemistry": "2 oz gin · 0.5 oz lemon juice · 0.5 oz raspberry syrup · egg white (dry vermouth optional).",
+        "chemistry_es": "2 oz de ginebra · 0.5 oz de zumo de limón · 0.5 oz de jarabe de frambuesa · clara de huevo (vermut seco opcional).",
+        "pairing": "Dry-shake, then shake with ice. Coupe; raspberries.",
+        "pairing_es": "Agita en seco, luego con hielo. Coupe; frambuesas.",
+        "mixology": "A Sour enriched with egg white and raspberry; a pre-Prohibition gem.",
+        "mixology_es": "Un Sour enriquecido con clara y frambuesa; una joya anterior a la Ley Seca.",
+        "examples": "Named for a men's club in Philadelphia, hugely popular before Prohibition.",
+        "examples_es": "Llamado así por un club de caballeros de Filadelfia, muy popular antes de la Ley Seca."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DAISY FAMILY",
+   "name_fr": "FAMILLE DAISY",
+   "name_it": "FAMIGLIA DAISY",
+   "name_es": "FAMILIA DAISY",
+   "color": "#d97a3a",
+   "sub": [
+    {
+     "name": "DAISY FAMILY",
+     "name_fr": "FAMILLE DAISY",
+     "name_it": "FAMIGLIA DAISY",
+     "name_es": "FAMILIA DAISY",
+     "color": "#d97a3a",
+     "descriptors": [
+      {
+       "name": "Margarita",
+       "name_fr": "Margarita",
+       "name_it": "Margarita",
+       "name_es": "Margarita",
+       "slug": "margarita",
+       "panel": {
+        "origin": "Bright, tart, and balanced with agave and orange; salt optional.",
+        "origin_es": "Brillante, ácida y equilibrada, con agave y naranja; sal opcional.",
+        "chemistry": "2 oz blanco tequila · 1 oz orange liqueur (Cointreau) · 0.75 oz lime juice.",
+        "chemistry_es": "2 oz de tequila blanco · 1 oz de licor de naranja (Cointreau) · 0.75 oz de zumo de lima.",
+        "pairing": "Shake, strain. Rocks or coupe; salt rim and a lime wheel.",
+        "pairing_es": "Agita, cuela. Vaso bajo o coupe; borde de sal y una rodaja de lima.",
+        "mixology": "A Daisy — a sour where orange liqueur supplies the sweetness; tequila's flagbearer.",
+        "mixology_es": "Una Daisy — un sour donde el licor de naranja aporta el dulzor; la abanderada del tequila.",
+        "examples": "Murky origins in 1930s–40s Mexico; the most riffed-upon daisy of them all.",
+        "examples_es": "Orígenes confusos en el México de los años 1930–40; la daisy con más variantes de todas."
+       }
+      },
+      {
+       "name": "Sidecar",
+       "name_fr": "Sidecar",
+       "name_it": "Sidecar",
+       "name_es": "Sidecar",
+       "slug": "sidecar",
+       "panel": {
+        "origin": "Warm, round, and bracing — brandy with orange and lemon.",
+        "origin_es": "Cálido, redondo y vigorizante — brandy con naranja y limón.",
+        "chemistry": "2 oz Cognac · 0.75 oz orange liqueur · 0.75 oz lemon juice.",
+        "chemistry_es": "2 oz de coñac · 0.75 oz de licor de naranja · 0.75 oz de zumo de limón.",
+        "pairing": "Shake, strain. Coupe (optional sugar rim); lemon twist.",
+        "pairing_es": "Agita, cuela. Coupe (borde de azúcar opcional); twist de limón.",
+        "mixology": "A Daisy on Cognac — the same template as the Margarita, swapping spirit and citrus.",
+        "mixology_es": "Una Daisy sobre coñac — la misma plantilla que la Margarita, cambiando destilado y cítrico.",
+        "examples": "A 1920s Paris/London classic; recorded in the 1930 Savoy Cocktail Book.",
+        "examples_es": "Un clásico de los años 1920 entre París y Londres; registrado en el Savoy Cocktail Book de 1930."
+       }
+      },
+      {
+       "name": "Cosmopolitan",
+       "name_fr": "Cosmopolitan",
+       "name_it": "Cosmopolitan",
+       "name_es": "Cosmopolitan",
+       "slug": "cosmopolitan",
+       "panel": {
+        "origin": "Tart, bright, and pleasantly dry — better than its reputation.",
+        "origin_es": "Ácido, brillante y agradablemente seco — mejor de lo que dice su fama.",
+        "chemistry": "1.5 oz citron vodka · 0.5 oz orange liqueur · 0.75 oz lime juice · 0.5 oz cranberry.",
+        "chemistry_es": "1.5 oz de vodka cítrico · 0.5 oz de licor de naranja · 0.75 oz de zumo de lima · 0.5 oz de arándano.",
+        "pairing": "Shake, strain. Coupe; lemon twist or a flamed orange peel.",
+        "pairing_es": "Agita, cuela. Coupe; twist de limón o piel de naranja flameada.",
+        "mixology": "A Daisy — a vodka sour sweetened with orange liqueur and tinted with cranberry.",
+        "mixology_es": "Una Daisy — un sour de vodka endulzado con licor de naranja y teñido con arándano.",
+        "examples": "Popularized in the 1990s by Dale DeGroff and the show Sex and the City.",
+        "examples_es": "Popularizado en los años 1990 por Dale DeGroff y la serie Sex and the City."
+       }
+      },
+      {
+       "name": "Aviation",
+       "name_fr": "Aviation",
+       "name_it": "Aviation",
+       "name_es": "Aviation",
+       "slug": "aviation",
+       "panel": {
+        "origin": "Floral, tart, and faintly nutty with a pale sky-blue tint.",
+        "origin_es": "Floral, ácida y levemente a nuez, con un pálido tono azul cielo.",
+        "chemistry": "2 oz gin · 0.5 oz maraschino · 0.25 oz crème de violette · 0.75 oz lemon juice.",
+        "chemistry_es": "2 oz de ginebra · 0.5 oz de maraschino · 0.25 oz de crème de violette · 0.75 oz de zumo de limón.",
+        "pairing": "Shake, strain. Coupe; cherry.",
+        "pairing_es": "Agita, cuela. Coupe; cereza.",
+        "mixology": "A Daisy sweetened with maraschino and violette; the violette gives its color.",
+        "mixology_es": "Una Daisy endulzada con maraschino y violette; la violette le da el color.",
+        "examples": "From Hugo Ensslin's 1916 book; revived when crème de violette returned to the US in 2007.",
+        "examples_es": "Del libro de Hugo Ensslin de 1916; revivida cuando la crème de violette regresó a EE. UU. en 2007."
+       }
+      },
+      {
+       "name": "Last Word",
+       "name_fr": "Last Word",
+       "name_it": "Last Word",
+       "name_es": "Last Word",
+       "slug": "last-word",
+       "panel": {
+        "origin": "Herbal, complex, and tart — bold and perfectly balanced.",
+        "origin_es": "Herbal, complejo y ácido — intenso y perfectamente equilibrado.",
+        "chemistry": "Equal parts (0.75 oz each): gin · green Chartreuse · maraschino · lime juice.",
+        "chemistry_es": "Partes iguales (0.75 oz cada una): ginebra · Chartreuse verde · maraschino · zumo de lima.",
+        "pairing": "Shake, strain. Coupe; cherry.",
+        "pairing_es": "Agita, cuela. Coupe; cereza.",
+        "mixology": "An equal-parts Daisy where the liqueurs do all the sweetening.",
+        "mixology_es": "Una Daisy a partes iguales donde los licores aportan todo el dulzor.",
+        "examples": "From the Detroit Athletic Club (Prohibition era); revived in 2000s Seattle.",
+        "examples_es": "Del Detroit Athletic Club (época de la Ley Seca); revivido en el Seattle de los años 2000."
+       }
+      },
+      {
+       "name": "Corpse Reviver No. 2",
+       "name_fr": "Corpse Reviver No. 2",
+       "name_it": "Corpse Reviver No. 2",
+       "name_es": "Corpse Reviver No. 2",
+       "slug": "corpse-reviver",
+       "panel": {
+        "origin": "Bright, citrusy, and dangerously easy, with an absinthe whisper.",
+        "origin_es": "Brillante, cítrico y peligrosamente fácil, con un susurro de absenta.",
+        "chemistry": "Equal parts (0.75 oz each): gin · orange liqueur · Lillet/Cocchi · lemon juice; absinthe rinse.",
+        "chemistry_es": "Partes iguales (0.75 oz cada una): ginebra · licor de naranja · Lillet/Cocchi · zumo de limón; enjuague de absenta.",
+        "pairing": "Shake, strain into an absinthe-rinsed coupe. Cherry or lemon.",
+        "pairing_es": "Agita, cuela en una coupe enjuagada con absenta. Cereza o limón.",
+        "mixology": "An equal-parts Daisy; the lone survivor of the 'corpse reviver' hangover-cure family.",
+        "mixology_es": "Una Daisy a partes iguales; el único superviviente de la familia 'corpse reviver' contra la resaca.",
+        "examples": "From the 1930 Savoy Cocktail Book; 'drink before 11am,' joked Harry Craddock.",
+        "examples_es": "Del Savoy Cocktail Book de 1930; 'bébelo antes de las 11', bromeaba Harry Craddock."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MARTINI & STIRRED",
+   "name_fr": "MARTINI & REMUÉS",
+   "name_it": "MARTINI & MISCELATI",
+   "name_es": "MARTINI Y REMOVIDOS",
+   "color": "#5a7a8a",
+   "sub": [
+    {
+     "name": "MARTINI & STIRRED",
+     "name_fr": "MARTINI & REMUÉS",
+     "name_it": "MARTINI & MISCELATI",
+     "name_es": "MARTINI Y REMOVIDOS",
+     "color": "#5a7a8a",
+     "descriptors": [
+      {
+       "name": "Dry Martini",
+       "name_fr": "Dry Martini",
+       "name_it": "Dry Martini",
+       "name_es": "Dry Martini",
+       "slug": "dry-martini",
+       "panel": {
+        "origin": "Crisp, cold, and bracing — clarity in a glass.",
+        "origin_es": "Nítido, frío y vigorizante — claridad en una copa.",
+        "chemistry": "2.5 oz gin · 0.5 oz dry vermouth (ratio to taste).",
+        "chemistry_es": "2.5 oz de ginebra · 0.5 oz de vermut seco (proporción al gusto).",
+        "pairing": "Stir with ice, strain. Martini or coupe; olive or lemon twist.",
+        "pairing_es": "Remueve con hielo, cuela. Copa martini o coupe; aceituna o twist de limón.",
+        "mixology": "The dry stirred template — spirit + dry vermouth; gin's purist icon.",
+        "mixology_es": "La plantilla seca y removida — destilado + vermut seco; el icono purista de la ginebra.",
+        "examples": "Evolved from the sweeter Martinez in the late 1800s; endlessly debated ever since.",
+        "examples_es": "Evolucionó del más dulce Martinez a finales del s. XIX; debatido sin fin desde entonces."
+       }
+      },
+      {
+       "name": "Manhattan",
+       "name_fr": "Manhattan",
+       "name_it": "Manhattan",
+       "name_es": "Manhattan",
+       "slug": "manhattan",
+       "panel": {
+        "origin": "Velvety, warming, and elegant — a liquid layer cake.",
+        "origin_es": "Aterciopelado, cálido y elegante — un pastel de capas líquido.",
+        "chemistry": "2 oz rye · 1 oz sweet vermouth · 2 dashes Angostura.",
+        "chemistry_es": "2 oz de rye · 1 oz de vermut dulce · 2 golpes de Angostura.",
+        "pairing": "Stir with ice, strain. Coupe; cherry.",
+        "pairing_es": "Remueve con hielo, cuela. Coupe; cereza.",
+        "mixology": "The stirred-and-fortified template — whiskey + sweet vermouth + bitters.",
+        "mixology_es": "La plantilla removida y fortificada — whiskey + vermut dulce + amargos.",
+        "examples": "A New York classic from the 1870s Manhattan Club era.",
+        "examples_es": "Un clásico neoyorquino de la era del Manhattan Club, en los años 1870."
+       }
+      },
+      {
+       "name": "Martinez",
+       "name_fr": "Martinez",
+       "name_it": "Martinez",
+       "name_es": "Martinez",
+       "slug": "martinez",
+       "panel": {
+        "origin": "Rich, sweet, and complex — the grandfather of the Martini.",
+        "origin_es": "Rico, dulce y complejo — el abuelo del Martini.",
+        "chemistry": "1.5 oz Old Tom gin · 1.5 oz sweet vermouth · 0.25 oz maraschino · 2 dashes bitters.",
+        "chemistry_es": "1.5 oz de ginebra Old Tom · 1.5 oz de vermut dulce · 0.25 oz de maraschino · 2 golpes de amargo.",
+        "pairing": "Stir with ice, strain. Coupe; lemon twist.",
+        "pairing_es": "Remueve con hielo, cuela. Coupe; twist de limón.",
+        "mixology": "A stirred, fortified drink; the sweeter ancestor of the Martini.",
+        "mixology_es": "Un trago removido y fortificado; el ancestro más dulce del Martini.",
+        "examples": "A 19th-century bridge between the Manhattan and the Martini.",
+        "examples_es": "Un puente del s. XIX entre el Manhattan y el Martini."
+       }
+      },
+      {
+       "name": "Negroni",
+       "name_fr": "Negroni",
+       "name_it": "Negroni",
+       "name_es": "Negroni",
+       "slug": "negroni",
+       "panel": {
+        "origin": "Bitter, herbal, and balanced — bracing and refreshing at once.",
+        "origin_es": "Amargo, herbal y equilibrado — vigorizante y refrescante a la vez.",
+        "chemistry": "Equal parts (1 oz each): gin · Campari · sweet vermouth.",
+        "chemistry_es": "Partes iguales (1 oz cada una): ginebra · Campari · vermut dulce.",
+        "pairing": "Stir with ice. Rocks glass; orange peel.",
+        "pairing_es": "Remueve con hielo. Vaso bajo; piel de naranja.",
+        "mixology": "The bitter stirred template — equal parts spirit, bitter, and vermouth.",
+        "mixology_es": "La plantilla amarga removida — partes iguales de destilado, amargo y vermut.",
+        "examples": "Florence, ~1919; a Count's request to make his Americano stronger with gin.",
+        "examples_es": "Florencia, ~1919; el pedido de un conde para reforzar su Americano con ginebra."
+       }
+      },
+      {
+       "name": "Boulevardier",
+       "name_fr": "Boulevardier",
+       "name_it": "Boulevardier",
+       "name_es": "Boulevardier",
+       "slug": "boulevardier",
+       "panel": {
+        "origin": "Richer and warmer than a Negroni — whiskey tames the bitterness.",
+        "origin_es": "Más rico y cálido que un Negroni — el whiskey doma el amargor.",
+        "chemistry": "1.5 oz bourbon/rye · 1 oz Campari · 1 oz sweet vermouth.",
+        "chemistry_es": "1.5 oz de bourbon/rye · 1 oz de Campari · 1 oz de vermut dulce.",
+        "pairing": "Stir with ice. Rocks or coupe; orange peel.",
+        "pairing_es": "Remueve con hielo. Vaso bajo o coupe; piel de naranja.",
+        "mixology": "A Negroni built on whiskey, with more base spirit than bitter.",
+        "mixology_es": "Un Negroni montado sobre whiskey, con más destilado base que amargo.",
+        "examples": "1920s Paris; named for Erskine Gwynne's magazine, the Boulevardier.",
+        "examples_es": "París de los años 1920; llamado así por la revista de Erskine Gwynne, Boulevardier."
+       }
+      },
+      {
+       "name": "Vieux Carré",
+       "name_fr": "Vieux Carré",
+       "name_it": "Vieux Carré",
+       "name_es": "Vieux Carré",
+       "slug": "vieux-carre",
+       "panel": {
+        "origin": "Rich, spiced, and chocolatey — New Orleans royalty.",
+        "origin_es": "Rico, especiado y achocolatado — realeza de Nueva Orleans.",
+        "chemistry": "0.75 oz rye · 0.75 oz Cognac · 0.75 oz sweet vermouth · 0.25 oz Bénédictine · dash each Peychaud's & Angostura.",
+        "chemistry_es": "0.75 oz de rye · 0.75 oz de coñac · 0.75 oz de vermut dulce · 0.25 oz de Bénédictine · un golpe de Peychaud's y otro de Angostura.",
+        "pairing": "Stir with ice. Rocks glass; lemon twist or cherry.",
+        "pairing_es": "Remueve con hielo. Vaso bajo; twist de limón o cereza.",
+        "mixology": "A complex stirred drink layering two spirits, vermouth, and Bénédictine.",
+        "mixology_es": "Un trago removido y complejo que superpone dos destilados, vermut y Bénédictine.",
+        "examples": "Created at the Hotel Monteleone's Carousel Bar in New Orleans (1938).",
+        "examples_es": "Creado en el Carousel Bar del Hotel Monteleone, en Nueva Orleans (1938)."
+       }
+      },
+      {
+       "name": "Vesper",
+       "name_fr": "Vesper",
+       "name_it": "Vesper",
+       "name_es": "Vesper",
+       "slug": "vesper",
+       "panel": {
+        "origin": "Crisp, potent, and aromatic — a fortified Martini with a twist.",
+        "origin_es": "Nítido, potente y aromático — un Martini fortificado con un giro.",
+        "chemistry": "3 oz gin · 1 oz vodka · 0.5 oz Lillet Blanc.",
+        "chemistry_es": "3 oz de ginebra · 1 oz de vodka · 0.5 oz de Lillet Blanc.",
+        "pairing": "Shake (as Bond ordered) or stir, strain. Coupe; lemon twist.",
+        "pairing_es": "Agita (como pedía Bond) o remueve, cuela. Coupe; twist de limón.",
+        "mixology": "A Martini variant fortified with Lillet and split between gin and vodka.",
+        "mixology_es": "Una variante del Martini fortificada con Lillet y repartida entre ginebra y vodka.",
+        "examples": "Invented by Ian Fleming's James Bond in Casino Royale (1953).",
+        "examples_es": "Inventado por el James Bond de Ian Fleming en Casino Royale (1953)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HIGHBALL FAMILY",
+   "name_fr": "FAMILLE HIGHBALL",
+   "name_it": "FAMIGLIA HIGHBALL",
+   "name_es": "FAMILIA HIGHBALL",
+   "color": "#3a9aa4",
+   "sub": [
+    {
+     "name": "HIGHBALL FAMILY",
+     "name_fr": "FAMILLE HIGHBALL",
+     "name_it": "FAMIGLIA HIGHBALL",
+     "name_es": "FAMILIA HIGHBALL",
+     "color": "#3a9aa4",
+     "descriptors": [
+      {
+       "name": "Gin & Tonic",
+       "name_fr": "Gin & Tonic",
+       "name_it": "Gin & Tonic",
+       "name_es": "Gin & Tonic",
+       "slug": "gin-tonic",
+       "panel": {
+        "origin": "Crisp, bitter-fresh, and effervescent; the essential highball.",
+        "origin_es": "Nítido, fresco-amargo y efervescente; el highball esencial.",
+        "chemistry": "2 oz gin · 4–6 oz tonic water.",
+        "chemistry_es": "2 oz de ginebra · 4–6 oz de agua tónica.",
+        "pairing": "Build over ice. Highball glass; lime wedge.",
+        "pairing_es": "Construye sobre hielo. Vaso highball; gajo de lima.",
+        "mixology": "The Highball template — spirit + carbonated mixer over ice.",
+        "mixology_es": "La plantilla Highball — destilado + refresco carbonatado sobre hielo.",
+        "examples": "Born of British colonial quinine tonic taken against malaria.",
+        "examples_es": "Nacido de la tónica de quinina que los colonos británicos tomaban contra la malaria."
+       }
+      },
+      {
+       "name": "Tom Collins",
+       "name_fr": "Tom Collins",
+       "name_it": "Tom Collins",
+       "name_es": "Tom Collins",
+       "slug": "tom-collins",
+       "panel": {
+        "origin": "Long, bright, and sparkling — a fizzy gin lemonade.",
+        "origin_es": "Largo, brillante y burbujeante — una limonada de ginebra con gas.",
+        "chemistry": "2 oz gin · 1 oz lemon juice · 0.5 oz simple syrup · top with soda water.",
+        "chemistry_es": "2 oz de ginebra · 1 oz de zumo de limón · 0.5 oz de jarabe simple · completa con soda.",
+        "pairing": "Build (or shake then top). Collins glass; lemon and cherry.",
+        "pairing_es": "Construye (o agita y completa). Vaso Collins; limón y cereza.",
+        "mixology": "A Collins — a sour lengthened with soda; close cousin of the Gin Fizz.",
+        "mixology_es": "Un Collins — un sour alargado con soda; primo cercano del Gin Fizz.",
+        "examples": "First recorded by Jerry Thomas (1876); named for a famous practical-joke hoax.",
+        "examples_es": "Registrado por primera vez por Jerry Thomas (1876); llamado así por una famosa broma."
+       }
+      },
+      {
+       "name": "Moscow Mule",
+       "name_fr": "Moscow Mule",
+       "name_it": "Moscow Mule",
+       "name_es": "Moscow Mule",
+       "slug": "moscow-mule",
+       "panel": {
+        "origin": "Spicy-fresh and easy-drinking; vodka, lime, and ginger.",
+        "origin_es": "Fresco-picante y fácil de beber; vodka, lima y jengibre.",
+        "chemistry": "2 oz vodka · 0.5 oz lime juice · top with ginger beer.",
+        "chemistry_es": "2 oz de vodka · 0.5 oz de zumo de lima · completa con ginger beer.",
+        "pairing": "Build over ice. Copper mug; lime wedge.",
+        "pairing_es": "Construye sobre hielo. Jarra de cobre; gajo de lima.",
+        "mixology": "A Highball ('mule') — spirit + ginger beer + lime.",
+        "mixology_es": "Un Highball ('mule') — destilado + ginger beer + lima.",
+        "examples": "A 1940s American marketing triumph that launched vodka in the States.",
+        "examples_es": "Un triunfo de marketing estadounidense de los años 1940 que lanzó el vodka en EE. UU."
+       }
+      },
+      {
+       "name": "Dark 'n' Stormy",
+       "name_fr": "Dark 'n' Stormy",
+       "name_it": "Dark 'n' Stormy",
+       "name_es": "Dark 'n' Stormy",
+       "slug": "dark-n-stormy",
+       "panel": {
+        "origin": "Spicy and bold — dark rum floating over fiery ginger.",
+        "origin_es": "Picante e intenso — ron oscuro flotando sobre jengibre ardiente.",
+        "chemistry": "0.5 oz lime · top with ginger beer · float 2 oz dark rum (Gosling's).",
+        "chemistry_es": "0.5 oz de lima · completa con ginger beer · flota 2 oz de ron oscuro (Gosling's).",
+        "pairing": "Build over ice, float the rum on top. Highball; lime.",
+        "pairing_es": "Construye sobre hielo, flota el ron por encima. Highball; lima.",
+        "mixology": "A mule-style Highball; rum's answer to the Moscow Mule.",
+        "mixology_es": "Un Highball estilo mule; la respuesta del ron al Moscow Mule.",
+        "examples": "A Bermuda original; the name is trademarked to the Gosling's brand.",
+        "examples_es": "Un original de Bermudas; el nombre es marca registrada de Gosling's."
+       }
+      },
+      {
+       "name": "Paloma",
+       "name_fr": "Paloma",
+       "name_it": "Paloma",
+       "name_es": "Paloma",
+       "slug": "paloma",
+       "panel": {
+        "origin": "Tart, bubbly, and refreshing — tequila's everyday favorite in Mexico.",
+        "origin_es": "Ácida, burbujeante y refrescante — la favorita diaria del tequila en México.",
+        "chemistry": "2 oz blanco tequila · 0.5 oz lime · pinch of salt · top with grapefruit soda.",
+        "chemistry_es": "2 oz de tequila blanco · 0.5 oz de lima · una pizca de sal · completa con refresco de toronja.",
+        "pairing": "Build over ice. Highball; lime and a salt rim.",
+        "pairing_es": "Construye sobre hielo. Highball; lima y borde de sal.",
+        "mixology": "A Highball on tequila and grapefruit soda; lighter than a Margarita.",
+        "mixology_es": "Un Highball de tequila y refresco de toronja; más ligera que una Margarita.",
+        "examples": "Mexico's most popular tequila drink; 'paloma' means dove.",
+        "examples_es": "El trago de tequila más popular de México; 'paloma' significa paloma."
+       }
+      },
+      {
+       "name": "Mojito",
+       "name_fr": "Mojito",
+       "name_it": "Mojito",
+       "name_es": "Mojito",
+       "slug": "mojito",
+       "panel": {
+        "origin": "Fresh, minty, and lively — sweet, sour, and herbaceous over rum.",
+        "origin_es": "Fresco, mentolado y vivo — dulce, ácido y herbáceo sobre ron.",
+        "chemistry": "2 oz white rum · 0.75 oz lime · 2 tsp sugar · mint · top with soda.",
+        "chemistry_es": "2 oz de ron blanco · 0.75 oz de lima · 2 cdtas de azúcar · menta · completa con soda.",
+        "pairing": "Muddle mint with sugar and lime, add rum and ice, top with soda. Highball; mint.",
+        "pairing_es": "Macera la menta con azúcar y lima, añade ron y hielo, completa con soda. Highball; menta.",
+        "mixology": "A built rum Highball with muddled mint; a Cuban classic.",
+        "mixology_es": "Un Highball de ron construido con menta macerada; un clásico cubano.",
+        "examples": "Havana-born; famously enjoyed by Hemingway at La Bodeguita del Medio.",
+        "examples_es": "Nacido en La Habana; célebremente disfrutado por Hemingway en La Bodeguita del Medio."
+       }
+      },
+      {
+       "name": "Bloody Mary",
+       "name_fr": "Bloody Mary",
+       "name_it": "Bloody Mary",
+       "name_es": "Bloody Mary",
+       "slug": "bloody-mary",
+       "panel": {
+        "origin": "Savory, spicy, and tangy — the respectable morning cocktail.",
+        "origin_es": "Sabrosa, picante y con un punto ácido — el cóctel respetable de la mañana.",
+        "chemistry": "2 oz vodka · 4 oz tomato juice · lemon · Worcestershire · Tabasco · salt & pepper.",
+        "chemistry_es": "2 oz de vodka · 4 oz de zumo de tomate · limón · Worcestershire · Tabasco · sal y pimienta.",
+        "pairing": "Roll or stir gently with ice. Highball; celery and lemon (endless garnishes).",
+        "pairing_es": "Rueda o remueve suave con hielo. Highball; apio y limón (adornos infinitos).",
+        "mixology": "A savory built Highball; the ultimate brunch drink.",
+        "mixology_es": "Un Highball salado y construido; el trago de brunch por excelencia.",
+        "examples": "1920s–30s Paris/New York; the gin version is the Red Snapper.",
+        "examples_es": "París/Nueva York de los años 1920–30; la versión con ginebra es el Red Snapper."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPARKLING & FIZZ",
+   "name_fr": "EFFERVESCENTS & PÉTILLANTS",
+   "name_it": "SPUMANTI & FRIZZANTI",
+   "name_es": "ESPUMOSOS Y FIZZ",
+   "color": "#c9a0c0",
+   "sub": [
+    {
+     "name": "SPARKLING & FIZZ",
+     "name_fr": "EFFERVESCENTS & PÉTILLANTS",
+     "name_it": "SPUMANTI & FRIZZANTI",
+     "name_es": "ESPUMOSOS Y FIZZ",
+     "color": "#c9a0c0",
+     "descriptors": [
+      {
+       "name": "French 75",
+       "name_fr": "French 75",
+       "name_it": "French 75",
+       "name_es": "French 75",
+       "slug": "french-75",
+       "panel": {
+        "origin": "Bright, celebratory, and crisp — a gin sour with a Champagne lift.",
+        "origin_es": "Brillante, festivo y nítido — un sour de ginebra con el impulso del champagne.",
+        "chemistry": "1 oz gin · 0.5 oz lemon juice · 0.5 oz simple syrup · top with Champagne.",
+        "chemistry_es": "1 oz de ginebra · 0.5 oz de zumo de limón · 0.5 oz de jarabe simple · completa con champagne.",
+        "pairing": "Shake the first three, strain into a flute, top with Champagne. Lemon twist.",
+        "pairing_es": "Agita los tres primeros, cuela en una flauta, completa con champagne. Twist de limón.",
+        "mixology": "A sour lengthened with sparkling wine instead of soda.",
+        "mixology_es": "Un sour alargado con vino espumoso en lugar de soda.",
+        "examples": "Harry's New York Bar, Paris; named for a WWI field gun.",
+        "examples_es": "Harry's New York Bar, París; llamado así por un cañón de campaña de la Primera Guerra Mundial."
+       }
+      },
+      {
+       "name": "Aperol Spritz",
+       "name_fr": "Aperol Spritz",
+       "name_it": "Aperol Spritz",
+       "name_es": "Aperol Spritz",
+       "slug": "aperol-spritz",
+       "panel": {
+        "origin": "Light, bittersweet, and fizzy — the easygoing aperitivo.",
+        "origin_es": "Ligero, agridulce y burbujeante — el aperitivo desenfadado.",
+        "chemistry": "3 parts Prosecco · 2 parts Aperol · 1 splash of soda.",
+        "chemistry_es": "3 partes de Prosecco · 2 partes de Aperol · 1 chorrito de soda.",
+        "pairing": "Build over ice. Wine glass; orange slice.",
+        "pairing_es": "Construye sobre hielo. Copa de vino; rodaja de naranja.",
+        "mixology": "A Spritz — bitter aperitivo + sparkling wine + soda.",
+        "mixology_es": "Un Spritz — aperitivo amargo + vino espumoso + soda.",
+        "examples": "The Veneto, early 1900s; now a global daytime-drinking phenomenon.",
+        "examples_es": "El Véneto, principios del s. XX; hoy un fenómeno mundial del beber diurno."
+       }
+      },
+      {
+       "name": "Gin Fizz",
+       "name_fr": "Gin Fizz",
+       "name_it": "Gin Fizz",
+       "name_es": "Gin Fizz",
+       "slug": "gin-fizz",
+       "panel": {
+        "origin": "Frothy, citrusy, and effervescent; a shaken, soda-topped sour.",
+        "origin_es": "Espumoso, cítrico y efervescente; un sour agitado y rematado con soda.",
+        "chemistry": "2 oz gin · 0.75 oz lemon · 0.75 oz simple syrup · egg white (optional) · top with soda.",
+        "chemistry_es": "2 oz de ginebra · 0.75 oz de limón · 0.75 oz de jarabe simple · clara (opcional) · completa con soda.",
+        "pairing": "Shake (dry-shake if using egg white), strain, top with soda. Small highball; no ice (traditional).",
+        "pairing_es": "Agita (en seco si usas clara), cuela, completa con soda. Highball pequeño; sin hielo (tradicional).",
+        "mixology": "A Fizz — a shaken sour topped with soda and served without ice.",
+        "mixology_es": "Un Fizz — un sour agitado, rematado con soda y servido sin hielo.",
+        "examples": "First in Jerry Thomas's 1887 guide; the most famous of his six fizzes.",
+        "examples_es": "En la guía de Jerry Thomas de 1887; el más famoso de sus seis fizzes."
+       }
+      },
+      {
+       "name": "Ramos Gin Fizz",
+       "name_fr": "Ramos Gin Fizz",
+       "name_it": "Ramos Gin Fizz",
+       "name_es": "Ramos Gin Fizz",
+       "slug": "ramos-gin-fizz",
+       "panel": {
+        "origin": "Cloud-like and creamy with orange-blossom perfume; a marathon to shake.",
+        "origin_es": "Como una nube y cremoso, con perfume de azahar; un maratón de agitado.",
+        "chemistry": "2 oz gin · lemon & lime juice · simple syrup · cream · egg white · orange-flower water.",
+        "chemistry_es": "2 oz de ginebra · zumo de limón y lima · jarabe simple · nata · clara · agua de azahar.",
+        "pairing": "Long dry-shake, then with ice (5+ min traditionally), top with soda. Highball; tall foam cap.",
+        "pairing_es": "Agitado largo en seco, luego con hielo (5+ min tradicionalmente), completa con soda. Highball; alta corona de espuma.",
+        "mixology": "A cream Fizz enriched with egg white and orange-flower water.",
+        "mixology_es": "Un Fizz cremoso enriquecido con clara y agua de azahar.",
+        "examples": "Invented by Henry Ramos in 1880s New Orleans; it famously needed 'shaker boys.'",
+        "examples_es": "Inventado por Henry Ramos en la Nueva Orleans de 1880; célebre por necesitar 'chicos del agitador'."
+       }
+      },
+      {
+       "name": "Mimosa",
+       "name_fr": "Mimosa",
+       "name_it": "Mimosa",
+       "name_es": "Mimosa",
+       "slug": "mimosa",
+       "panel": {
+        "origin": "Light, bright, and brunch-perfect — orange and bubbles.",
+        "origin_es": "Ligera, brillante y perfecta para el brunch — naranja y burbujas.",
+        "chemistry": "Equal parts Champagne and fresh orange juice.",
+        "chemistry_es": "Partes iguales de champagne y zumo de naranja fresco.",
+        "pairing": "Build in a flute. Orange twist optional.",
+        "pairing_es": "Construye en una flauta. Twist de naranja opcional.",
+        "mixology": "A sparkling-wine Highball with juice; brunch's simplest classic.",
+        "mixology_es": "Un Highball de vino espumoso con zumo; el clásico más sencillo del brunch.",
+        "examples": "A 1920s Paris creation (the Ritz), kin to the British Buck's Fizz.",
+        "examples_es": "Una creación parisina de los años 1920 (el Ritz), pariente del Buck's Fizz británico."
+       }
+      },
+      {
+       "name": "Bellini",
+       "name_fr": "Bellini",
+       "name_it": "Bellini",
+       "name_es": "Bellini",
+       "slug": "bellini",
+       "panel": {
+        "origin": "Delicate, peachy, and elegant — a soft sparkling aperitivo.",
+        "origin_es": "Delicado, a durazno y elegante — un suave aperitivo espumoso.",
+        "chemistry": "~2 oz white-peach purée · top with Prosecco.",
+        "chemistry_es": "~2 oz de puré de durazno blanco · completa con Prosecco.",
+        "pairing": "Build gently in a flute. No garnish.",
+        "pairing_es": "Construye con cuidado en una flauta. Sin adorno.",
+        "mixology": "A sparkling-wine drink with fruit purée; a seasonal Venetian classic.",
+        "mixology_es": "Un trago de vino espumoso con puré de fruta; un clásico veneciano de temporada.",
+        "examples": "Invented by Giuseppe Cipriani at Harry's Bar, Venice (1948).",
+        "examples_es": "Inventado por Giuseppe Cipriani en el Harry's Bar de Venecia (1948)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TIKI & TROPICAL",
+   "name_fr": "TIKI & TROPICAL",
+   "name_it": "TIKI & TROPICALE",
+   "name_es": "TIKI Y TROPICALES",
+   "color": "#e05a3a",
+   "sub": [
+    {
+     "name": "TIKI & TROPICAL",
+     "name_fr": "TIKI & TROPICAL",
+     "name_it": "TIKI & TROPICALE",
+     "name_es": "TIKI Y TROPICALES",
+     "color": "#e05a3a",
+     "descriptors": [
+      {
+       "name": "Mai Tai",
+       "name_fr": "Mai Tai",
+       "name_it": "Mai Tai",
+       "name_es": "Mai Tai",
+       "slug": "mai-tai",
+       "panel": {
+        "origin": "Rummy, nutty, and citrus-bright — the king of tiki when done right.",
+        "origin_es": "A ron, a nuez y de cítrico brillante — el rey del tiki bien hecho.",
+        "chemistry": "2 oz aged rum (blend) · 0.75 oz lime · 0.5 oz orange curaçao · 0.25 oz orgeat · 0.25 oz simple.",
+        "chemistry_es": "2 oz de ron añejo (mezcla) · 0.75 oz de lima · 0.5 oz de curaçao de naranja · 0.25 oz de orgeat · 0.25 oz de jarabe simple.",
+        "pairing": "Shake with crushed ice, dump. Rocks or tiki mug; mint and a spent lime shell.",
+        "pairing_es": "Agita con hielo picado, vuelca todo. Vaso bajo o jarra tiki; menta y la cáscara de lima exprimida.",
+        "mixology": "A rum sour dressed up with curaçao and almond orgeat; tiki's benchmark.",
+        "mixology_es": "Un sour de ron vestido con curaçao y orgeat de almendra; el referente del tiki.",
+        "examples": "Disputed between Trader Vic and Don the Beachcomber, ~1930s–40s California.",
+        "examples_es": "Disputado entre Trader Vic y Don the Beachcomber, en la California de los años 1930–40."
+       }
+      },
+      {
+       "name": "Piña Colada",
+       "name_fr": "Piña Colada",
+       "name_it": "Piña Colada",
+       "name_es": "Piña Colada",
+       "slug": "pina-colada",
+       "panel": {
+        "origin": "Creamy, tropical, and sweet — coconut and pineapple over rum.",
+        "origin_es": "Cremosa, tropical y dulce — coco y piña sobre ron.",
+        "chemistry": "2 oz white rum · 1 oz coconut cream · 1.5 oz pineapple juice.",
+        "chemistry_es": "2 oz de ron blanco · 1 oz de crema de coco · 1.5 oz de zumo de piña.",
+        "pairing": "Blend (or shake) with ice. Hurricane glass; pineapple wedge and cherry.",
+        "pairing_es": "Licúa (o agita) con hielo. Vaso huracán; gajo de piña y cereza.",
+        "mixology": "A creamy blended tropical drink; Puerto Rico's national cocktail.",
+        "mixology_es": "Un trago tropical cremoso y licuado; el cóctel nacional de Puerto Rico.",
+        "examples": "From San Juan, Puerto Rico, around the 1950s–70s.",
+        "examples_es": "De San Juan, Puerto Rico, hacia los años 1950–70."
+       }
+      },
+      {
+       "name": "Zombie",
+       "name_fr": "Zombie",
+       "name_it": "Zombie",
+       "name_es": "Zombie",
+       "slug": "zombie",
+       "panel": {
+        "origin": "Potent, fruity, and spiced — a tiki powerhouse of layered rums.",
+        "origin_es": "Potente, afrutado y especiado — una bestia tiki de rones superpuestos.",
+        "chemistry": "Three rums (light, gold, dark/demerara) · lime · falernum · grenadine · absinthe · bitters.",
+        "chemistry_es": "Tres rones (claro, dorado, oscuro/demerara) · lima · falernum · granadina · absenta · amargos.",
+        "pairing": "Flash-blend or shake with crushed ice. Tall tiki glass; mint.",
+        "pairing_es": "Licuado rápido o agitado con hielo picado. Vaso tiki alto; menta.",
+        "mixology": "A multi-rum tiki epic; famously limited to 'two per customer.'",
+        "mixology_es": "Una epopeya tiki de varios rones; célebre por su límite de 'dos por cliente'.",
+        "examples": "Created by Don the Beachcomber in 1930s Hollywood.",
+        "examples_es": "Creado por Don the Beachcomber en el Hollywood de los años 1930."
+       }
+      },
+      {
+       "name": "Jungle Bird",
+       "name_fr": "Jungle Bird",
+       "name_it": "Jungle Bird",
+       "name_es": "Jungle Bird",
+       "slug": "jungle-bird",
+       "panel": {
+        "origin": "Tropical with a bitter twist — Campari meets pineapple and rum.",
+        "origin_es": "Tropical con un giro amargo — el Campari se encuentra con la piña y el ron.",
+        "chemistry": "1.5 oz dark rum · 0.75 oz Campari · 1.5 oz pineapple · 0.5 oz lime · 0.5 oz simple.",
+        "chemistry_es": "1.5 oz de ron oscuro · 0.75 oz de Campari · 1.5 oz de piña · 0.5 oz de lima · 0.5 oz de jarabe simple.",
+        "pairing": "Shake, strain over ice. Rocks or tiki; pineapple.",
+        "pairing_es": "Agita, cuela sobre hielo. Vaso bajo o tiki; piña.",
+        "mixology": "A tiki drink that smuggles a bitter Italian aperitif into the tropics.",
+        "mixology_es": "Un trago tiki que cuela un aperitivo amargo italiano en el trópico.",
+        "examples": "Created at the Aviary bar, Kuala Lumpur, in the 1970s.",
+        "examples_es": "Creado en el bar Aviary de Kuala Lumpur, en los años 1970."
+       }
+      },
+      {
+       "name": "Hurricane",
+       "name_fr": "Hurricane",
+       "name_it": "Hurricane",
+       "name_es": "Hurricane",
+       "slug": "hurricane",
+       "panel": {
+        "origin": "Fruity, potent, and bright red — New Orleans tiki excess.",
+        "origin_es": "Afrutado, potente y de un rojo vivo — el exceso tiki de Nueva Orleans.",
+        "chemistry": "Light & dark rum · lime · orange juice · passion-fruit syrup · simple · grenadine.",
+        "chemistry_es": "Ron claro y oscuro · lima · zumo de naranja · jarabe de maracuyá · jarabe simple · granadina.",
+        "pairing": "Shake, strain over ice. Hurricane glass; orange and cherry.",
+        "pairing_es": "Agita, cuela sobre hielo. Vaso huracán; naranja y cereza.",
+        "mixology": "A fruity multi-rum punch served in a curvy glass.",
+        "mixology_es": "Un ponche afrutado de varios rones servido en una copa curvada.",
+        "examples": "From Pat O'Brien's, 1940s New Orleans, born of a wartime rum surplus.",
+        "examples_es": "Del Pat O'Brien's, en la Nueva Orleans de los años 1940, nacido de un excedente de ron."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "COFFEE & DESSERT",
+   "name_fr": "CAFÉ & DESSERT",
+   "name_it": "CAFFÈ & DESSERT",
+   "name_es": "CAFÉ Y POSTRE",
+   "color": "#5a3a2a",
+   "sub": [
+    {
+     "name": "COFFEE & DESSERT",
+     "name_fr": "CAFÉ & DESSERT",
+     "name_it": "CAFFÈ & DESSERT",
+     "name_es": "CAFÉ Y POSTRE",
+     "color": "#5a3a2a",
+     "descriptors": [
+      {
+       "name": "Espresso Martini",
+       "name_fr": "Espresso Martini",
+       "name_it": "Espresso Martini",
+       "name_es": "Espresso Martini",
+       "slug": "espresso-martini",
+       "panel": {
+        "origin": "Rich, roasty, and lightly sweet with a frothy crema cap.",
+        "origin_es": "Rico, tostado y levemente dulce, con una corona espumosa de crema.",
+        "chemistry": "1.5 oz vodka · 1 oz coffee liqueur · 1 oz fresh espresso · 0.25 oz simple syrup.",
+        "chemistry_es": "1.5 oz de vodka · 1 oz de licor de café · 1 oz de espresso recién hecho · 0.25 oz de jarabe simple.",
+        "pairing": "Shake hard, fine-strain. Coupe; three coffee beans.",
+        "pairing_es": "Agita fuerte, doble cuela. Coupe; tres granos de café.",
+        "mixology": "A shaken coffee drink; a dessert-hour modern classic.",
+        "mixology_es": "Un trago de café agitado; un clásico moderno de la hora del postre.",
+        "examples": "Created by Dick Bradsell in late-1980s London as a pick-me-up.",
+        "examples_es": "Creado por Dick Bradsell en el Londres de finales de los 80 como un estimulante."
+       }
+      },
+      {
+       "name": "Irish Coffee",
+       "name_fr": "Irish Coffee",
+       "name_it": "Irish Coffee",
+       "name_es": "Irish Coffee",
+       "slug": "irish-coffee",
+       "panel": {
+        "origin": "Warm, gently sweet, and comforting — coffee under a cream cap.",
+        "origin_es": "Cálido, ligeramente dulce y reconfortante — café bajo una capa de nata.",
+        "chemistry": "1.5 oz Irish whiskey · hot coffee · 1 tsp sugar · lightly whipped cream float.",
+        "chemistry_es": "1.5 oz de whiskey irlandés · café caliente · 1 cdta de azúcar · nata semimontada flotando.",
+        "pairing": "Stir sugar into coffee and whiskey, float cream over a spoon. Warmed glass.",
+        "pairing_es": "Disuelve el azúcar en el café con el whiskey, flota la nata sobre una cuchara. Vaso templado.",
+        "mixology": "A hot spirit-and-coffee drink; the template for boozy coffees.",
+        "mixology_es": "Un trago caliente de destilado y café; la plantilla de los cafés con alcohol.",
+        "examples": "1940s Ireland; popularized in the U.S. at San Francisco's Buena Vista.",
+        "examples_es": "Irlanda de los años 1940; popularizado en EE. UU. en el Buena Vista de San Francisco."
+       }
+      },
+      {
+       "name": "White Russian",
+       "name_fr": "White Russian",
+       "name_it": "White Russian",
+       "name_es": "White Russian",
+       "slug": "white-russian",
+       "panel": {
+        "origin": "Smooth, sweet, and creamy — coffee liqueur softened with cream.",
+        "origin_es": "Suave, dulce y cremoso — licor de café suavizado con nata.",
+        "chemistry": "2 oz vodka · 1 oz coffee liqueur · 1 oz cream.",
+        "chemistry_es": "2 oz de vodka · 1 oz de licor de café · 1 oz de nata.",
+        "pairing": "Build over ice, float the cream. Rocks glass.",
+        "pairing_es": "Construye sobre hielo, flota la nata. Vaso bajo.",
+        "mixology": "A creamy built drink; a Black Russian plus cream.",
+        "mixology_es": "Un trago cremoso y construido; un Black Russian con nata.",
+        "examples": "A 1960s creation, cemented in culture by The Big Lebowski.",
+        "examples_es": "Una creación de los años 1960, fijada en la cultura por The Big Lebowski."
+       }
+      },
+      {
+       "name": "Brandy Alexander",
+       "name_fr": "Brandy Alexander",
+       "name_it": "Brandy Alexander",
+       "name_es": "Brandy Alexander",
+       "slug": "brandy-alexander",
+       "panel": {
+        "origin": "Decadent and dessert-like — chocolate and cream over brandy.",
+        "origin_es": "Decadente y de postre — chocolate y nata sobre brandy.",
+        "chemistry": "1 oz Cognac · 1 oz dark crème de cacao · 1 oz cream.",
+        "chemistry_es": "1 oz de coñac · 1 oz de crème de cacao oscura · 1 oz de nata.",
+        "pairing": "Shake, strain. Coupe; grated nutmeg.",
+        "pairing_es": "Agita, cuela. Coupe; nuez moscada rallada.",
+        "mixology": "A creamy dessert cocktail (the 'Alexander' family) built on brandy.",
+        "mixology_es": "Un cóctel cremoso de postre (la familia 'Alexander') montado sobre brandy.",
+        "examples": "Early 1900s; the gin 'Alexander' came first, but the brandy version outlived it.",
+        "examples_es": "Principios del s. XX; el 'Alexander' de ginebra fue primero, pero la versión de brandy lo sobrevivió."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "OLD FASHIONED FAMILY": {
+   "en": "The word 'cocktail' first appeared in print in an 1806 New York newspaper, defined as spirits, sugar, water, and bitters — which is to say the Old Fashioned is the original cocktail, and every other drink is a variation on it.",
+   "es": "La palabra 'cocktail' apareció impresa por primera vez en un periódico de Nueva York de 1806, definida como destilado, azúcar, agua y amargos — es decir, el Old Fashioned es el cóctel original, y todo otro trago es una variación de él."
+  },
+  "SOUR FAMILY": {
+   "en": "Bartenders treat the Daiquiri as a litmus test — order one at a new bar, and how well they balance three simple ingredients (rum, lime, sugar) tells you whether to trust the rest of the menu.",
+   "es": "Los bartenders usan el Daiquiri como prueba de fuego — pide uno en un bar nuevo, y lo bien que equilibren tres ingredientes simples (ron, lima, azúcar) te dice si confiar en el resto de la carta."
+  },
+  "DAISY FAMILY": {
+   "en": "A Margarita and a Sidecar are the same drink in different clothes — both are 'daisies,' a sour where orange liqueur replaces the sugar; swap tequila-and-lime for brandy-and-lemon and you've crossed from one to the other.",
+   "es": "Una Margarita y un Sidecar son el mismo trago con distinta ropa — ambos son 'daisies', un sour donde el licor de naranja sustituye al azúcar; cambia tequila-y-lima por brandy-y-limón y has pasado de uno al otro."
+  },
+  "MARTINI & STIRRED": {
+   "en": "The Negroni was reputedly born when Count Camillo Negroni asked a Florence bartender to stiffen his Americano with gin in place of the soda — one swap, and a bitter icon was made.",
+   "es": "Se dice que el Negroni nació cuando el conde Camillo Negroni pidió a un bartender de Florencia reforzar su Americano con ginebra en lugar de la soda — un solo cambio, y nació un icono amargo."
+  },
+  "HIGHBALL FAMILY": {
+   "en": "The gin and tonic exists because of malaria — British colonials took bitter quinine tonic as medicine and softened it with gin, lime, and sugar until the cure became the cocktail.",
+   "es": "El gin-tonic existe gracias a la malaria — los colonos británicos tomaban tónica amarga de quinina como medicina y la suavizaban con ginebra, lima y azúcar hasta que la cura se convirtió en el cóctel."
+  },
+  "SPARKLING & FIZZ": {
+   "en": "The Ramos Gin Fizz is shaken so long — five minutes or more — that its New Orleans creator hired a relay line of 'shaker boys' to pass the tin down the bar.",
+   "es": "El Ramos Gin Fizz se agita tanto tiempo — cinco minutos o más — que su creador de Nueva Orleans contrataba una hilera de 'chicos del agitador' para pasarse la coctelera por la barra."
+  },
+  "TIKI & TROPICAL": {
+   "en": "Tiki's two founding fathers, Don the Beachcomber and Trader Vic, both claimed to have invented the Mai Tai — and the recipe was guarded so jealously that the true spec was argued over for decades.",
+   "es": "Los dos padres fundadores del tiki, Don the Beachcomber y Trader Vic, afirmaron ambos haber inventado el Mai Tai — y la receta se guardó con tanto celo que la fórmula verdadera se discutió durante décadas."
+  },
+  "COFFEE & DESSERT": {
+   "en": "The Espresso Martini was invented in 1980s London when a customer asked Dick Bradsell for something to wake her up — and the coffee-and-vodka pick-me-up went on to define the after-dinner drink.",
+   "es": "El Espresso Martini se inventó en el Londres de los años 80 cuando una clienta pidió a Dick Bradsell algo para despertarse — y el estimulante de café y vodka acabó definiendo el trago de sobremesa."
+  }
+ }
+}

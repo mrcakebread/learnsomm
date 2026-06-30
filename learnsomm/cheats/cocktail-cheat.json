@@ -1,0 +1,160 @@
+{
+ "title": "Cocktail Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Old Fashioned Family",
+   "slug": "old-fashioned-family",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Old Fashioned, Sazerac, Mint Julep, Champagne Cocktail, Rum Old Fashioned, Oaxaca Old Fashioned"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "Spirit-forward and stirred — built around a base spirit, sugar, and bitters."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The word 'cocktail' first appeared in print in an 1806 New York newspaper, defined as spirits, sugar, water, and bitters — which is to say the Old Fashioned is the original cocktail, and every other drink is a variation on it."
+    }
+   ],
+   "name_es": "Familia Old Fashioned"
+  },
+  {
+   "name": "Sour Family",
+   "slug": "sour-family",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Whiskey Sour, Daiquiri, Pisco Sour, Gimlet, Bee's Knees, Clover Club"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "The classic balance of spirit, citrus, and sweetener, shaken with ice."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Bartenders treat the Daiquiri as a litmus test — order one at a new bar, and how well they balance three simple ingredients (rum, lime, sugar) tells you whether to trust the rest of the menu."
+    }
+   ],
+   "name_es": "Familia Sour"
+  },
+  {
+   "name": "Daisy Family",
+   "slug": "daisy-family",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Margarita, Sidecar, Cosmopolitan, Aviation, Last Word, Corpse Reviver No. 2"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "A sour built with a liqueur instead of plain sugar — often served over ice or up."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A Margarita and a Sidecar are the same drink in different clothes — both are 'daisies,' a sour where orange liqueur replaces the sugar; swap tequila-and-lime for brandy-and-lemon and you've crossed from one to the other."
+    }
+   ],
+   "name_es": "Familia Daisy"
+  },
+  {
+   "name": "Martini & Stirred",
+   "slug": "martini-stirred",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Dry Martini, Manhattan, Martinez, Negroni, Boulevardier, Vieux Carré, Vesper"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "Spirit-forward and stirred, never shaken — clarity and chill are the point."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The Negroni was reputedly born when Count Camillo Negroni asked a Florence bartender to stiffen his Americano with gin in place of the soda — one swap, and a bitter icon was made."
+    }
+   ],
+   "name_es": "Martini Y Removidos"
+  },
+  {
+   "name": "Highball Family",
+   "slug": "highball-family",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Gin & Tonic, Tom Collins, Moscow Mule, Dark 'n' Stormy, Paloma, Mojito, Bloody Mary"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "Spirit plus a larger volume of mixer, served long over ice — easy-drinking and refreshing."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The gin and tonic exists because of malaria — British colonials took bitter quinine tonic as medicine and softened it with gin, lime, and sugar until the cure became the cocktail."
+    }
+   ],
+   "name_es": "Familia Highball"
+  },
+  {
+   "name": "Sparkling & Fizz",
+   "slug": "sparkling-fizz",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "French 75, Aperol Spritz, Gin Fizz, Ramos Gin Fizz, Mimosa, Bellini"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "Topped with sparkling wine or soda for lift — best made just before serving."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The Ramos Gin Fizz is shaken so long — five minutes or more — that its New Orleans creator hired a relay line of 'shaker boys' to pass the tin down the bar."
+    }
+   ],
+   "name_es": "Espumosos Y Fizz"
+  },
+  {
+   "name": "Tiki & Tropical",
+   "slug": "tiki-tropical",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mai Tai, Piña Colada, Zombie, Jungle Bird, Hurricane"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "Multiple rums, fresh juices, and bold garnishes — built for warm weather and big flavor."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tiki's two founding fathers, Don the Beachcomber and Trader Vic, both claimed to have invented the Mai Tai — and the recipe was guarded so jealously that the true spec was argued over for decades."
+    }
+   ],
+   "name_es": "Tiki Y Tropicales"
+  },
+  {
+   "name": "Coffee & Dessert",
+   "slug": "coffee-dessert",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Espresso Martini, Irish Coffee, White Russian, Brandy Alexander"
+    },
+    {
+     "k": "Defining Trait",
+     "v": "After-dinner sippers that double as dessert — rich, sweet, and often layered."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The Espresso Martini was invented in 1980s London when a customer asked Dick Bradsell for something to wake her up — and the coffee-and-vodka pick-me-up went on to define the after-dinner drink."
+    }
+   ],
+   "name_es": "Café Y Postre"
+  }
+ ]
+}

@@ -1,0 +1,1170 @@
+{
+ "title": "Bread",
+ "subject": "bread",
+ "categories": [
+  {
+   "name": "FRENCH YEAST",
+   "name_fr": "Pâte Française",
+   "name_it": "Lievitati Francesi",
+   "name_es": "MASA FRANCESA",
+   "color": "#e8c870",
+   "textColor": "#2a1800",
+   "sub": [
+    {
+     "name": "French Yeast",
+     "name_fr": "Pâte Française",
+     "name_it": "Lievitati Francesi",
+     "name_es": "Masa Francesa",
+     "color": "#e8c870",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Baguette",
+       "name_fr": "Baguette",
+       "name_it": "Baguette",
+       "slug": "baguette",
+       "color": "#f0d880",
+       "name_es": "Baguette",
+       "panel": {
+        "origin": "The baguette emerged in Paris in the 19th century as a lighter, easier-to-carry loaf. French law protects the baguette de tradition française: it may contain only flour, water, yeast, and salt, and must be made on premises where it's sold. UNESCO granted it World Heritage Status in 2022.",
+        "origin_es": "La baguette surgió en París en el siglo XIX. La ley francesa protege la baguette de tradition française: solo puede contener harina, agua, levadura y sal, y debe elaborarse en el lugar de venta. La UNESCO le otorgó el estatus de Patrimonio de la Humanidad en 2022.",
+        "chemistry": "Steam injected into the oven during the first minutes of baking gelatinizes the crust's starch and then dehydrates it to crispness. Long fermentation (several hours) develops complex flavor through organic acids. Scoring (grigne) controls oven spring.",
+        "chemistry_es": "El vapor inyectado en el horno gelatiniza el almidón de la corteza y luego la deshidrata hasta volverla crujiente. La larga fermentación desarrolla sabores complejos mediante ácidos orgánicos.",
+        "pairing": "Sliced for a cheese board or charcuterie, spread with cultured butter, or torn alongside soups. Classic jambon-beurre (ham and butter) is the definitive French sandwich. Crostini and bruschetta both rely on day-old baguette.",
+        "pairing_es": "Rebanada para tabla de quesos o charcutería, untada con mantequilla cultivada, o troceada junto a sopas. El jambon-beurre es el sándwich francés definitivo.",
+        "examples": "Baguette de tradition française, ficelle (thinner), flûte (intermediate), épis (wheat-stalk shape).",
+        "examples_es": "Baguette de tradition française, ficelle (más delgada), flûte (intermedia), épis (forma de espiga)."
+       }
+      },
+      {
+       "name": "Brioche",
+       "name_fr": "Brioche",
+       "name_it": "Brioche",
+       "slug": "brioche",
+       "color": "#e8b840",
+       "name_es": "Brioche",
+       "panel": {
+        "origin": "Brioche originated in Normandy and has been associated with French enriched bread-baking since at least the 17th century. It blurs the boundary between bread and pastry — the French classify it as a viennoiserie. The famous misquote attributed to Marie Antoinette — 'Let them eat cake' — was originally 'qu'ils mangent de la brioche.'",
+        "origin_es": "La brioche se originó en Normandía. La famosa cita mal atribuida a María Antonieta — 'Qu'ils mangent de la brioche' — hacía referencia a este pan, no a un pastel.",
+        "chemistry": "High butter content (up to 50% of flour weight) inhibits gluten development, producing a tender, flaky crumb. Eggs provide emulsification and color. The Maillard reaction between proteins and sugars gives brioche its deep golden crust.",
+        "chemistry_es": "El alto contenido de mantequilla (hasta el 50% del peso de harina) inhibe el desarrollo del gluten, produciendo una miga tierna. Los huevos aportan emulsificación y color.",
+        "pairing": "Brioche à tête for breakfast with jam; brioche buns for gourmet burgers; pain perdu (French toast) with day-old brioche; bread pudding; foie gras sandwiches. Pairs with Sauternes.",
+        "pairing_es": "Brioche à tête para desayuno con mermelada; bollos de brioche para hamburguesas gourmet; pain perdu (torrija francesa); budín de pan.",
+        "examples": "Brioche à tête (Parisian), brioche Nanterre (loaf), brioche mousseline (tall cylinder), brioche vendéenne (braided).",
+        "examples_es": "Brioche à tête (parisina), brioche Nanterre (molde), brioche mousseline (cilindro alto), brioche vendéenne (trenzada)."
+       }
+      },
+      {
+       "name": "Croissant",
+       "name_fr": "Croissant",
+       "name_it": "Croissant",
+       "slug": "croissant",
+       "color": "#f0c830",
+       "name_es": "Croissant",
+       "panel": {
+        "origin": "The croissant descended from the Austrian kipferl, brought to Paris in the 1830s. French bakers transformed it using laminated dough — a process of folding cold butter into yeast dough repeatedly to create hundreds of alternating layers. In French bakeries, straight croissants signal premium butter; curved indicate margarine.",
+        "origin_es": "El croissant desciende del kipferl austriaco, traído a París en la década de 1830. Los panaderos franceses lo transformaron usando masa hojaldrada con levadura. En las panaderías francesas, los croissants rectos señalan mantequilla premium.",
+        "chemistry": "Lamination creates 16 to 144 alternating layers of dough and butter through a series of folds. During baking, the butter melts and steam puffs each layer apart, creating the honeycomb interior. Precision temperature control is essential — butter must stay cold but pliable.",
+        "chemistry_es": "La laminación crea de 16 a 144 capas alternas de masa y mantequilla. Durante el horneado, la mantequilla se derrite y el vapor separa cada capa, creando el interior en forma de panal.",
+        "pairing": "Plain with café au lait at breakfast; filled with ham and cheese (jambon-fromage); filled with almond cream (croissant aux amandes). Pairs well with sparkling wines and champagne at brunch.",
+        "pairing_es": "Solo con café au lait en el desayuno; relleno de jamón y queso; relleno de crema de almendras (croissant aux amandes). Marida con vinos espumosos en el brunch.",
+        "examples": "Croissant ordinaire (straight, uses margarine), croissant au beurre (curved, pure butter), croissant aux amandes, pain au chocolat (rectangular, chocolate-filled).",
+        "examples_es": "Croissant ordinaire (recto, con margarina), croissant au beurre (curvo, mantequilla pura), croissant aux amandes, pain au chocolat."
+       }
+      },
+      {
+       "name": "Focaccia",
+       "name_fr": "Focaccia",
+       "name_it": "Focaccia",
+       "slug": "focaccia",
+       "color": "#d8b830",
+       "name_es": "Focaccia",
+       "panel": {
+        "origin": "Focaccia is an ancient Italian flatbread with roots in Ligurian and Roman cuisine. The name derives from the Latin panis focacius, meaning 'hearth bread.' Genoa's focaccia (fugassa) is the classic reference: olive oil-rich, dimpled, and topped with coarse salt. It is a direct ancestor of pizza.",
+        "origin_es": "La focaccia tiene raíces en la cocina ligur y romana. El nombre deriva del latín panis focacius, 'pan de hogar'. La focaccia de Génova (fugassa) se considera la referencia clásica y es antepasada directa de la pizza.",
+        "chemistry": "High hydration dough (75–80%) produces an open, airy crumb. Generous olive oil in the dough and pan creates a crisp, almost fried bottom crust. Dimpling prevents large irregular bubbles and helps olive oil pool, basting the surface during baking.",
+        "chemistry_es": "La masa de alta hidratación (75–80%) produce una miga abierta. El aceite de oliva generoso en la masa y en el molde crea una corteza inferior crujiente, casi frita. Los hoyuelos evitan burbujas grandes.",
+        "pairing": "Served warm with olive oil and balsamic as a starter; cut horizontally for sandwiches (particularly with cured meats and burrata); paired with antipasto; alongside soups and salads.",
+        "pairing_es": "Servida caliente con aceite de oliva y balsámico como entrante; cortada horizontalmente para sándwiches; acompañando tablas de antipasto.",
+        "examples": "Focaccia genovese (classic), focaccia di Recco (cheese-filled, paper-thin), focaccia barese (with tomatoes and olives), focaccia al rosmarino.",
+        "examples_es": "Focaccia genovese (clásica), focaccia di Recco (rellena de queso, finísima), focaccia barese (con tomates y aceitunas), focaccia al romero."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ITALIAN YEAST",
+   "name_fr": "Pâte Italienne",
+   "name_it": "Lievitati Italiani",
+   "name_es": "MASA ITALIANA",
+   "color": "#d0a060",
+   "textColor": "#2a1200",
+   "sub": [
+    {
+     "name": "Italian Yeast",
+     "name_fr": "Pâte Italienne",
+     "name_it": "Lievitati Italiani",
+     "name_es": "Masa Italiana",
+     "color": "#d0a060",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Ciabatta",
+       "name_fr": "Ciabatta",
+       "name_it": "Ciabatta",
+       "slug": "ciabatta",
+       "color": "#d8b070",
+       "name_es": "Ciabatta",
+       "panel": {
+        "origin": "Ciabatta was created in 1982 by baker Arnaldo Cavallari in Adria, Veneto, as a response to the dominance of the French baguette in Italian sandwich shops. The name means 'slipper' in Italian. Despite being less than 50 years old, it has become one of the most recognized Italian breads worldwide.",
+        "origin_es": "La ciabatta fue creada en 1982 por el panadero Arnaldo Cavallari en Adria, Véneto, como respuesta a la baguette francesa. El nombre significa 'zapatilla' en italiano.",
+        "chemistry": "Extremely high hydration dough (80–100%) creates an irregular, open crumb with large holes. The wet, sticky dough is handled with stretch-and-fold rather than kneading. Long fermentation with poolish (pre-ferment) develops complex flavor.",
+        "chemistry_es": "La masa de altísima hidratación (80–100%) crea una miga irregular y abierta con grandes huecos. La masa húmeda y pegajosa se trabaja con pliegues en lugar de amasado tradicional.",
+        "pairing": "Ideal for pressed sandwiches (panini); torn and dipped in olive oil with Parmesan; paired with mussels or brothy dishes; bruschetta base; charcuterie boards.",
+        "pairing_es": "Ideal para sándwiches prensados (panini); troceada y mojada en aceite de oliva; acompañando mejillones o platos caldosos; base de bruschetta.",
+        "examples": "Classic ciabatta (Veneto), ciabatta integrale (whole wheat), ciabatta al latte (with milk, softer crumb), ciabatta piccola (mini rolls).",
+        "examples_es": "Ciabatta clásica (Véneto), ciabatta integrale (trigo integral), ciabatta al latte (con leche, miga más suave), ciabatta piccola (bollos mini)."
+       }
+      },
+      {
+       "name": "Italian Loaf",
+       "name_fr": "Pain Italien",
+       "name_it": "Pane Italiano",
+       "slug": "italian-loaf",
+       "color": "#c89050",
+       "name_es": "Pan Italiano",
+       "panel": {
+        "origin": "Italian bread encompasses a broad family of regional loaves — from the chewy pane di Altamura (DOP-protected semolina bread from Puglia) to the airy pane toscano (unsalted since the Middle Ages due to a historic salt tax). Italian bread traditions emphasize long fermentation, high-quality flour, and regional character.",
+        "origin_es": "El pan italiano abarca una amplia familia de panes regionales, desde el masticable pane di Altamura (DOP de Puglia) hasta el pane toscano sin sal (elaborado desde la Edad Media por un impuesto histórico sobre la sal).",
+        "chemistry": "Long fermentation (up to 24 hours) allows proteolytic enzymes to partially break down gluten networks, creating extensible, flavorful dough. Semolina flour (durum wheat) used in southern Italian breads produces a golden crumb with higher protein content.",
+        "chemistry_es": "La larga fermentación (hasta 24 horas) permite que las enzimas proteolíticas rompan parcialmente las redes de gluten. La harina de sémola (trigo duro) del sur de Italia produce una miga dorada.",
+        "pairing": "Alongside pasta, soups, and salads; torn for dipping in olive oil and balsamic; as the base for Italian sub sandwiches and panini; in panzanella (bread salad).",
+        "pairing_es": "Junto a pastas, sopas y ensaladas; troceado para mojar en aceite; como base para sándwiches italianos y panini; en panzanella (ensalada de pan).",
+        "examples": "Pane di Altamura (Puglia, DOP semolina), pane toscano (unsalted), pane carasau (Sardinian flatbread cracker), pane di casa (everyday loaf).",
+        "examples_es": "Pane di Altamura (Puglia, DOP sémola), pane toscano (sin sal), pane carasau (galleta plana sarda), pane di casa (pan cotidiano)."
+       }
+      },
+      {
+       "name": "Panettone",
+       "name_fr": "Panettone",
+       "name_it": "Panettone",
+       "slug": "panettone",
+       "color": "#e0b060",
+       "name_es": "Panettone",
+       "panel": {
+        "origin": "Panettone originated in Milan and has been documented since the 15th century. It is the definitive Italian Christmas bread. Artisan panettone made with natural lievito madre (mother yeast) starter, undergoing 36–48 hours of fermentation, is the gold standard. Pandoro from Verona is the close, fruit-free cousin.",
+        "origin_es": "El panettone se originó en Milán y ha sido documentado desde el siglo XV. Es el pan de Navidad italiano definitivo. La versión artesanal con lievito madre natural y 36–48 horas de fermentación se considera el estándar de oro.",
+        "chemistry": "Multiple refreshment cycles of the lievito madre starter build exceptional flavor. Very high butter and egg content requires careful staged incorporation. Hanging inverted after baking prevents collapse while the exceptionally open, cotton-wool crumb sets.",
+        "chemistry_es": "Múltiples ciclos de refresco del lievito madre construyen sabor excepcional. El muy alto contenido de mantequilla y huevo requiere incorporación cuidadosa. Colgar invertido después de hornear evita el colapso mientras la miga se asienta.",
+        "pairing": "Served at room temperature sliced; toasted with mascarpone; as the base for bread pudding or French toast. Pairs with Moscato d'Asti, Franciacorta, Prosecco, or Vin Santo for dipping.",
+        "pairing_es": "Servido a temperatura ambiente en rebanadas; tostado con mascarpone; como base para budín de pan. Marida con Moscato d'Asti, Franciacorta o Vin Santo.",
+        "examples": "Panettone milanese (classic: candied orange, citron, raisins), panettone al cioccolato, colomba pasquale (Easter dove version), pandoro (Veronese, no fruit).",
+        "examples_es": "Panettone milanés (clásico: naranja confitada, cidra, pasas), panettone al cioccolato, colomba pasquale (versión pascual), pandoro (veronés, sin fruta)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ENRICHED YEAST",
+   "name_fr": "Pâte Levée Enrichie",
+   "name_it": "Lievitati Arricchiti",
+   "name_es": "MASA ENRIQUECIDA",
+   "color": "#e0a850",
+   "textColor": "#2a1400",
+   "sub": [
+    {
+     "name": "Enriched Yeast",
+     "name_fr": "Pâte Levée Enrichie",
+     "name_it": "Lievitati Arricchiti",
+     "name_es": "Masa Enriquecida",
+     "color": "#e0a850",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Challah",
+       "name_fr": "Challah",
+       "name_it": "Challah",
+       "slug": "challah",
+       "color": "#e8b858",
+       "name_es": "Jalá",
+       "panel": {
+        "origin": "Challah is the traditional Jewish bread consumed on Shabbat and major holidays. The braided form — three strands for regular observance, six for high holidays — carries symbolic meaning. Made by Ashkenazi Jews in Central and Eastern Europe, challah contains no dairy, making it kosher to serve alongside meat meals.",
+        "origin_es": "La jalá es el pan judío tradicional consumido en Shabat y las principales festividades. La forma trenzada tiene significado simbólico. No contiene lácteos, lo que la hace kosher para servir junto a comidas de carne.",
+        "chemistry": "Eggs provide richness (yolks) and structure (whites), while oil keeps the crumb tender and moist. An egg wash before baking promotes the Maillard reaction, creating the characteristic deep golden, shiny crust. The braided structure creates differential oven spring.",
+        "chemistry_es": "Los huevos aportan riqueza (yemas) y estructura (claras), mientras que el aceite mantiene la miga tierna. El baño de huevo promueve la reacción de Maillard, creando la característica corteza dorada y brillante.",
+        "pairing": "With honey on Rosh Hashanah; as French toast (its most celebrated second-day use); for bread pudding; with butter and jam at breakfast. Day-old challah absorbs custard beautifully.",
+        "pairing_es": "Con miel en Rosh Hashaná; como torrija francesa (su uso más célebre al día siguiente); para budín de pan; con mantequilla y mermelada en el desayuno.",
+        "examples": "Classic three-strand braid, six-strand holiday braid, round challah for Rosh Hashanah, chocolate chip challah.",
+        "examples_es": "Trenza clásica de tres hebras, trenza de seis hebras para festividades, jalá redonda para Rosh Hashaná, jalá con chips de chocolate."
+       }
+      },
+      {
+       "name": "Hokkaido Milk Bread",
+       "name_fr": "Pain au Lait Hokkaido",
+       "name_it": "Pane al Latte Hokkaido",
+       "slug": "hokkaido",
+       "color": "#f0c860",
+       "name_es": "Pan de Leche Hokkaido",
+       "panel": {
+        "origin": "Hokkaido milk bread (shokupan) developed in Japan after WWII when wheat imports from the U.S. addressed rice shortages. The tangzhong technique — cooking a portion of flour with milk into a thick paste before incorporating into the dough — produces the bread's signature pillowy, cotton-soft texture. Hokkaido specifically refers to premium dairy from Japan's northern island.",
+        "origin_es": "El pan de leche Hokkaido (shokupan) se desarrolló en Japón después de la Segunda Guerra Mundial. La técnica tangzhong — cocinar una porción de harina con leche hasta formar una pasta — produce la textura almohadillada característica.",
+        "chemistry": "The tangzhong paste pre-gelatinizes starch granules at 65°C, binding water that would otherwise evaporate during baking. This produces a loaf with ~40% more moisture retention than conventional bread, remaining soft for days longer than standard white bread.",
+        "chemistry_es": "La pasta tangzhong pre-gelatiniza los gránulos de almidón a 65°C, reteniendo agua que de otro modo se evaporaría. Esto produce un pan con ~40% más retención de humedad que el pan convencional.",
+        "pairing": "As pull-apart dinner rolls with butter; for katsu sandwiches (breaded pork or chicken); as a base for Japanese egg salad sandwiches; for French toast; as mini slider buns.",
+        "pairing_es": "Como bollos de mesa con mantequilla; para sándwiches katsu (cerdo o pollo empanado); para sándwiches de ensalada de huevo japonesa; para torrija francesa.",
+        "examples": "Shokupan (classic square Pullman loaf), Hokkaido milk bread (enriched with Hokkaido dairy), Chinese pai bao (pulled-apart buns), Korean cream cheese bun.",
+        "examples_es": "Shokupan (molde cuadrado Pullman clásico), pan de leche Hokkaido, pai bao chino (bollos desgajables), bollo coreano de queso crema."
+       }
+      },
+      {
+       "name": "Hawaiian Bread",
+       "name_fr": "Pain Hawaïen",
+       "name_it": "Pane Hawaiano",
+       "slug": "hawaiian",
+       "color": "#f0d070",
+       "name_es": "Pan Hawaiano",
+       "panel": {
+        "origin": "Hawaiian rolls descend from Portuguese pão doce (sweet bread), brought to Hawaii by Portuguese plantation workers in the 19th century. Robert R. Taira, founder of King's Hawaiian, began baking a version in Hilo in the 1950s that became the dominant commercial brand. The bread has no direct connection to traditional Hawaiian indigenous food culture.",
+        "origin_es": "Los bollos hawaianos descienden del pão doce (pan dulce) portugués, traído a Hawái por trabajadores de plantaciones en el siglo XIX. Robert R. Taira, fundador de King's Hawaiian, comenzó a hornear una versión en los años 50.",
+        "chemistry": "High sugar and milk solids create significant Maillard browning and a soft, pillowy crumb. Pineapple juice (in some formulations) adds mild acidity and bromelain, a protease enzyme that tenderizes gluten and contributes a subtle tropical sweetness.",
+        "chemistry_es": "El alto contenido de azúcar y sólidos lácteos crea un pardeamiento significativo de Maillard. El jugo de piña aporta acidez suave y bromelina, una enzima proteasa que ablanda el gluten.",
+        "pairing": "As slider buns for pulled pork, ham, or turkey; for breakfast sandwiches; as French toast; for holiday ham sandwiches. Sweetness complements salty, smoky proteins particularly well.",
+        "pairing_es": "Como bollos para sliders de cerdo, jamón o pavo; para sándwiches de desayuno; como base de torrija. Su dulzura complementa especialmente las proteínas saladas y ahumadas.",
+        "examples": "King's Hawaiian original rolls, Hawaiian sweet bread loaf, Portuguese pão doce (ancestor), Japanese melon pan (related sweet bun tradition).",
+        "examples_es": "Bollos originales King's Hawaiian, pan dulce hawaiano en molde, pão doce portugués (ancestro), melonpan japonés."
+       }
+      },
+      {
+       "name": "Babka",
+       "name_fr": "Babka",
+       "name_it": "Babka",
+       "slug": "babka",
+       "color": "#d89040",
+       "name_es": "Babka",
+       "panel": {
+        "origin": "Babka originated in Jewish communities of Poland and Ukraine, made since at least the 19th century. The name derives from the Polish 'baba' (grandmother). Originally a celebratory Easter bread in Eastern Europe, babka became associated with chocolate and cinnamon versions in North American Jewish bakeries.",
+        "origin_es": "La babka se originó en las comunidades judías de Polonia y Ucrania. El nombre deriva del polaco 'baba' (abuela). Originalmente era un pan festivo de Pascua en Europa del Este.",
+        "chemistry": "The swirl filling is incorporated by rolling out the enriched dough, spreading filling, rolling into a log, then twisting or braiding before placing in the loaf pan. This creates the distinctive marbled cross-section that exposes the filling as a visual signature.",
+        "chemistry_es": "El relleno se incorpora extendiendo la masa, esparciendo el relleno, enrollándola en un tronco, luego retorciéndolo antes de colocarlo en el molde. Esto crea el característico corte marmolado.",
+        "pairing": "Sliced thick for breakfast or brunch with coffee or tea; as a dessert with vanilla ice cream; chocolate babka pairs well with espresso, coffee stout, or sweet Riesling.",
+        "pairing_es": "Rebanada gruesa para desayuno o brunch con café o té; como postre con helado de vainilla; la babka de chocolate marida bien con espresso o Riesling dulce.",
+        "examples": "Chocolate babka (most popular in North America), cinnamon babka, poppy seed babka (traditional Eastern European), walnut and honey babka.",
+        "examples_es": "Babka de chocolate (más popular en Norteamérica), babka de canela, babka de semillas de amapola (tradicional europeo oriental), babka de nuez y miel."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WHITE & SANDWICH",
+   "name_fr": "Blanc & Sandwich",
+   "name_it": "Bianco & Tramezzino",
+   "name_es": "BLANCO Y SÁNDWICH",
+   "color": "#f0e0b0",
+   "textColor": "#3a2a00",
+   "sub": [
+    {
+     "name": "White & Sandwich",
+     "name_fr": "Blanc & Sandwich",
+     "name_it": "Bianco & Tramezzino",
+     "name_es": "Blanco y de Molde",
+     "color": "#f0e0b0",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "White Bread",
+       "name_fr": "Pain Blanc",
+       "name_it": "Pane Bianco",
+       "slug": "white-bread",
+       "color": "#f8f0d0",
+       "name_es": "Pan Blanco",
+       "panel": {
+        "origin": "White bread has been prized since antiquity — ancient Egyptians prized finely sifted flour as a luxury. Modern commercial white bread became ubiquitous after Otto Rohwedder's bread-slicing machine in 1928. White flour is produced by milling wheat and removing the bran and germ, leaving primarily the starchy endosperm.",
+        "origin_es": "El pan blanco ha sido apreciado desde la antigüedad. El pan blanco moderno se volvió ubicuo tras la máquina de rebanar de Rohwedder en 1928. La harina blanca se produce moliendo el trigo y eliminando el salvado y el germen.",
+        "chemistry": "Removing bran and germ eliminates natural oils that cause rancidity, extending shelf life. Commercial white bread typically includes dough conditioners (ascorbic acid), emulsifiers (DATEM, SSL), and added vitamins to replace those lost in milling.",
+        "chemistry_es": "La eliminación del salvado y el germen elimina los aceites naturales que causan rancidez. El pan blanco comercial incluye acondicionadores de masa, emulsificantes y vitaminas añadidas para reemplazar las perdidas en la molienda.",
+        "pairing": "The definitive base for grilled cheese, PB&J, and deli sandwiches. Ideal for French toast (Texas toast style), bread pudding, croutons, and stuffing.",
+        "pairing_es": "La base definitiva para sándwiches de queso a la plancha, mantequilla de cacahuete con mermelada y fiambres. Ideal para torrija francesa, budín de pan, crutones y relleno.",
+        "examples": "Pullman loaf (pain de mie, square-sided), Texas toast (extra-thick sliced), enriched white sandwich bread, Japanese shokupan.",
+        "examples_es": "Molde Pullman (pain de mie, lados cuadrados), Texas toast (extra grueso), pan de sándwich blanco enriquecido, shokupan japonés."
+       }
+      },
+      {
+       "name": "Potato Bread",
+       "name_fr": "Pain de Pomme de Terre",
+       "name_it": "Pane di Patate",
+       "slug": "potato-bread",
+       "color": "#f0dca0",
+       "name_es": "Pan de Papa",
+       "panel": {
+        "origin": "Potato bread developed as a practical way to extend flour when wheat was scarce. After potatoes arrived in Europe from South America in the late 15th century, they became a dietary staple. Ireland developed a particularly strong potato bread tradition including a distinct griddle-cooked version (fadge).",
+        "origin_es": "El pan de papa se desarrolló como una forma práctica de extender la harina cuando el trigo escaseaba. Irlanda desarrolló una fuerte tradición de pan de papa, incluyendo una versión cocida en plancha (fadge).",
+        "chemistry": "Mashed or dried potato flakes add moisture and starch. Potato starch gelatinizes at a lower temperature than wheat starch during baking, contributing to a finer, more tender crumb and increased water retention that extends freshness.",
+        "chemistry_es": "El puré o las papas deshidratadas aportan humedad y almidón. El almidón de papa se gelatiniza a menor temperatura que el de trigo, contribuyendo a una miga más tierna y mayor retención de humedad.",
+        "pairing": "Superior for sandwich bread; excellent as burger buns and dinner rolls; for toast with butter and jam; Irish breakfast alongside eggs and bacon.",
+        "pairing_es": "Superior para pan de sándwich por su textura suave; excelente como bollos de hamburguesa y panecillos de mesa; para tostadas con mantequilla y mermelada.",
+        "examples": "American potato bread (loaf or buns), Irish potato farls / fadge (griddle-cooked), German Kartoffelbrot (with sourdough), Swedish potatisbröd.",
+        "examples_es": "Pan de papa americano (molde o bollos), farls / fadge irlandeses (cocidos en plancha), Kartoffelbrot alemán (con masa madre), potatisbröd sueco."
+       }
+      },
+      {
+       "name": "Sliced Bread",
+       "name_fr": "Pain de Mie",
+       "name_it": "Pane a Cassetta",
+       "slug": "sliced-bread",
+       "color": "#e8d888",
+       "name_es": "Pan de Molde",
+       "panel": {
+        "origin": "Pre-sliced bread was invented by Otto Frederick Rohwedder, with the first sliced loaves sold on July 7, 1928, from the Chillicothe Baking Company in Missouri. Rohwedder's invention was called 'the greatest forward step in the baking industry since bread was wrapped.' The phrase 'the best thing since sliced bread' entered the language within a decade.",
+        "origin_es": "El pan pre-rebanado fue inventado por Otto Frederick Rohwedder. Las primeras rebanadas se vendieron el 7 de julio de 1928. La frase 'lo mejor desde el pan rebanado' entró al idioma en una década.",
+        "chemistry": "Commercial sliced bread uses highly automated production with continuous mixing and tunnel ovens. Dough conditioners and emulsifiers allow rapid processing. Modified atmosphere packaging (CO₂ or nitrogen) extends shelf life by inhibiting mold growth.",
+        "chemistry_es": "El pan rebanado comercial usa producción altamente automatizada. El envasado en atmósfera modificada (CO₂ o nitrógeno) extiende la vida útil inhibiendo el crecimiento de moho.",
+        "pairing": "The universal sandwich base. Ideal for quick breakfast toast, school lunch sandwiches, French toast casseroles, bread crumbs, croutons, and stuffing.",
+        "pairing_es": "La base universal del sándwich. Ideal para tostadas de desayuno rápido, sándwiches escolares, cazuelas de torrija, migas de pan, crutones y relleno.",
+        "examples": "Wonder Bread (original mass-market sliced white), Pepperidge Farm (premium enriched), Arnold's Bread, sandwich bread in various grain formulations.",
+        "examples_es": "Wonder Bread (pan blanco rebanado original), Pepperidge Farm (enriquecido premium), Arnold's Bread, pan de sándwich en varias formulaciones de granos."
+       }
+      },
+      {
+       "name": "Milk Bread",
+       "name_fr": "Pain au Lait",
+       "name_it": "Pane al Latte",
+       "slug": "milk-bread",
+       "color": "#f4e8b8",
+       "name_es": "Pan de Leche",
+       "panel": {
+        "origin": "Milk bread (shokupan in Japan, pai bao in China) represents a family of enriched white breads popular across East and Southeast Asia. Japanese shokupan (literally 'eating bread') became the domestic standard loaf after WWII. Its distinctive square form comes from the Pullman-style lidded pan.",
+        "origin_es": "El pan de leche (shokupan en Japón, pai bao en China) representa una familia de panes blancos enriquecidos populares en Asia. El shokupan japonés (literalmente 'pan para comer') se convirtió en el pan doméstico estándar tras la Segunda Guerra Mundial.",
+        "chemistry": "The tangzhong pre-cooked paste (5% of flour, cooked with 5x its weight in water to 65°C) pre-gelatinizes starch to bind water. This produces a loaf with approximately 40% more moisture retention than conventional milk bread, remaining soft for days.",
+        "chemistry_es": "La pasta tangzhong pre-cocinada (5% de la harina, a 65°C) pre-gelatiniza el almidón para retener agua. Esto produce un pan con aproximadamente 40% más retención de humedad.",
+        "pairing": "For Japanese egg salad or tuna sandwiches; as pull-apart dinner rolls; for katsu sandwiches; toasted with cultured butter; in milk bread French toast.",
+        "pairing_es": "Para sándwiches japoneses de ensalada de huevo o atún; como bollos desgajables de mesa; para sándwiches katsu; tostado con mantequilla cultivada.",
+        "examples": "Japanese shokupan (Pullman square), Taiwanese milk bread (softer), Hong Kong pai bao, Korean cream-filled bread, Chinese cocktail buns.",
+        "examples_es": "Shokupan japonés (molde cuadrado Pullman), pan de leche taiwanés, pai bao de Hong Kong, pan relleno de crema coreano, bollos cóctel chinos."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WHOLE GRAIN",
+   "name_fr": "Grain Entier",
+   "name_it": "Integrale",
+   "name_es": "GRANO ENTERO",
+   "color": "#a88840",
+   "textColor": "#fff8e0",
+   "sub": [
+    {
+     "name": "Whole Grain",
+     "name_fr": "Grain Entier",
+     "name_it": "Integrale",
+     "name_es": "Grano Entero",
+     "color": "#a88840",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Whole Wheat",
+       "name_fr": "Blé Complet",
+       "name_it": "Frumento Integrale",
+       "slug": "whole-wheat",
+       "color": "#b89850",
+       "name_es": "Trigo Integral",
+       "panel": {
+        "origin": "Whole wheat bread has been produced since ancient civilizations cultivated wheat in the Fertile Crescent around 10,000 BCE. Modern whole wheat bread uses flour retaining all three kernel parts — bran, germ, and endosperm — which white bread processing removes, preserving fiber, B vitamins, and healthy fats.",
+        "origin_es": "El pan de trigo integral ha sido producido desde que las civilizaciones antiguas cultivaron el trigo en el Creciente Fértil alrededor del 10,000 a.C. Retiene las tres partes del grano: salvado, germen y endospermo.",
+        "chemistry": "Bran particles physically cut gluten strands during mixing, limiting gluten network development and producing a denser crumb than white bread. The germ contains natural oils that can turn rancid, limiting shelf life. Whole wheat flour absorbs more water, requiring higher hydration in formulations.",
+        "chemistry_es": "Las partículas de salvado cortan físicamente las hebras de gluten durante el mezclado, limitando el desarrollo de la red de gluten y produciendo una miga más densa. El germen contiene aceites naturales que pueden enranciarse.",
+        "pairing": "For hearty sandwiches with strong fillings (turkey, avocado, aged cheese); as toast for avocado toast and bruschetta; as croutons for Caesar salad; for open-faced sandwiches with smoked salmon.",
+        "pairing_es": "Para sándwiches contundentes con rellenos fuertes (pavo, aguacate, queso curado); como tostadas para aguacate y bruschetta; como crutones para ensalada César.",
+        "examples": "100% whole wheat sandwich loaf, Dave's Killer Bread (seeded whole wheat), whole wheat sourdough, Graham bread.",
+        "examples_es": "Pan de molde 100% trigo integral, Dave's Killer Bread (con semillas), masa madre de trigo integral, pan Graham."
+       }
+      },
+      {
+       "name": "Multigrain",
+       "name_fr": "Multicéréales",
+       "name_it": "Multicereali",
+       "slug": "multigrain",
+       "color": "#a07830",
+       "name_es": "Multigrano",
+       "panel": {
+        "origin": "Multigrain bread gained mainstream popularity in the late 20th century as consumer interest in health and diverse nutrition grew. 'Multigrain' does not automatically mean 'whole grain' — some commercial versions use refined flour with grain additions. Always check ingredient lists.",
+        "origin_es": "El pan multigrano ganó popularidad a finales del siglo XX. 'Multigrano' no significa automáticamente 'grano entero': algunas versiones comerciales usan harina refinada con adiciones de granos. Siempre verificar los ingredientes.",
+        "chemistry": "Different grains contribute different proteins, starches, and flavors. Oats contribute soluble beta-glucan fiber. Flax and sunflower seeds add oils and crunch. Quinoa provides complete protein. The combination creates a nutritionally dense loaf with complex flavor.",
+        "chemistry_es": "Diferentes granos aportan proteínas, almidones y sabores distintos. La avena contribuye con fibra beta-glucano soluble. El lino y las semillas de girasol añaden aceites y textura crujiente.",
+        "pairing": "For robust sandwiches; as a base for bruschetta with ricotta and honey; with nut butters; toasted alongside hearty soups.",
+        "pairing_es": "Para sándwiches robustos; como base para bruschetta con ricotta y miel; con mantequillas de frutos secos; tostado junto a sopas contundentes.",
+        "examples": "Dave's Killer Bread 21 Whole Grains, Pepperidge Farm Whole Grain, Norwegian knekkebrød (crispbread), German Siebenkornbrot (seven-grain bread).",
+        "examples_es": "Dave's Killer Bread 21 Granos, Pepperidge Farm Whole Grain, knekkebrød noruego, Siebenkornbrot alemán (pan de siete granos)."
+       }
+      },
+      {
+       "name": "Sprouted Grain",
+       "name_fr": "Grains Germés",
+       "name_it": "Cereali Germogliati",
+       "slug": "sprouted-grain",
+       "color": "#98a040",
+       "name_es": "Grano Germinado",
+       "panel": {
+        "origin": "Sprouted grain bread uses whole grains allowed to germinate before milling or incorporating into dough. The practice has ancient roots but gained mainstream popularity in health food markets in the late 20th century. Ezekiel bread, based on a recipe from the biblical Book of Ezekiel, is the most recognized commercial version.",
+        "origin_es": "El pan de grano germinado usa granos integrales que se han dejado germinar. La práctica tiene raíces antiguas pero ganó popularidad en los mercados de alimentos saludables. El pan Ezekiel es la versión comercial más reconocida.",
+        "chemistry": "Germination activates enzymes (amylases, proteases) that begin breaking down starches and proteins, potentially increasing bioavailability of minerals like zinc and iron by reducing phytic acid. Sprouted bread contains no preservatives and molds quickly — refrigerate or freeze.",
+        "chemistry_es": "La germinación activa enzimas que comienzan a descomponer almidones y proteínas, aumentando potencialmente la biodisponibilidad de minerales. El pan germinado no contiene conservantes y debe refrigerarse o congelarse.",
+        "pairing": "For nutritious avocado toast; as a base for smoked salmon and cream cheese; with nut butters; for deli sandwiches seeking a heartier, nuttier base.",
+        "pairing_es": "Para tostadas de aguacate nutritivas; como base para salmón ahumado y queso crema; con mantequillas de frutos secos.",
+        "examples": "Food For Life Ezekiel 4:9 (sprouted wheat, barley, beans, lentils, millet, spelt), Alvarado Street Bakery sprouted bread, Manna Organics.",
+        "examples_es": "Food For Life Ezekiel 4:9 (trigo, cebada, frijoles, lentejas, mijo y espelta germinados), Alvarado Street Bakery, Manna Organics."
+       }
+      },
+      {
+       "name": "Pumpernickel",
+       "name_fr": "Pumpernickel",
+       "name_it": "Pumpernickel",
+       "slug": "pumpernickel",
+       "color": "#705030",
+       "name_es": "Pumpernickel",
+       "panel": {
+        "origin": "Pumpernickel originated in Westphalia, Germany, during the Middle Ages. The name's etymology is debated; one popular explanation derives from Old German words meaning 'to break wind' and 'goblin,' referencing the bread's reputedly gassy digestive effect. Traditional Westphalian pumpernickel is steam-baked at very low temperature for 16–24 hours.",
+        "origin_es": "El pumpernickel se originó en Westfalia, Alemania, durante la Edad Media. El pan de centeno integral de Westfalia se somete a un extraordinariamente largo proceso de cocción al vapor a baja temperatura.",
+        "chemistry": "Authentic pumpernickel bakes at very low temperatures (120–130°C) for 16–24 hours. This extended low-temperature baking triggers the Maillard reaction slowly, producing the characteristic dark brown color without burning. No caramel or food coloring is needed in traditional versions.",
+        "chemistry_es": "El pumpernickel auténtico se hornea a temperaturas muy bajas (120–130°C) durante 16–24 horas. Este horneado prolongado desencadena la reacción de Maillard lentamente, produciendo el color oscuro sin necesidad de colorante.",
+        "pairing": "Classically with smoked salmon and cream cheese; with pastrami or corned beef; with strong cheeses (Gouda, Stilton); as canapé bases with cured meats and pickled vegetables.",
+        "pairing_es": "Clásicamente con salmón ahumado y queso crema; con pastrami o carne en conserva; con quesos fuertes; como base de canapés con embutidos y verduras encurtidas.",
+        "examples": "Westphalian pumpernickel (DOP-protected), New York deli pumpernickel (often colored with molasses/cocoa), marbled rye (pumpernickel swirled with light rye).",
+        "examples_es": "Pumpernickel de Westfalia (protegido DOP), pumpernickel de deli de Nueva York (frecuentemente coloreado con melaza), centeno marmolado."
+       }
+      },
+      {
+       "name": "Rye Bread",
+       "name_fr": "Pain de Seigle",
+       "name_it": "Pane di Segale",
+       "slug": "rye-bread",
+       "color": "#806040",
+       "name_es": "Pan de Centeno",
+       "panel": {
+        "origin": "Rye bread has been a staple in Northern and Eastern Europe for centuries — Germany, Scandinavia, Russia, and Poland — where rye grows reliably in climates too cold and wet for wheat. Germany produces more rye bread varieties than any other country. In the U.S., rye bread is best known as the bread for Reuben sandwiches.",
+        "origin_es": "El pan de centeno ha sido un alimento básico en el norte y este de Europa por siglos. En EE.UU., el pan de centeno es más conocido como el pan tradicional para el sándwich Reuben.",
+        "chemistry": "Rye flour lacks gluten-forming protein; instead it relies on arabinoxylans (pentosan gums) that absorb large amounts of water and form a viscous dough without a traditional gluten network. Sourdough fermentation is commonly used with rye, as acidification deactivates amylase enzymes that would otherwise over-break down rye starches.",
+        "chemistry_es": "La harina de centeno carece de proteína formadora de gluten; depende de arabinoxilanos que absorben grandes cantidades de agua. La fermentación de masa madre es esencial para desactivar las amilasas del centeno.",
+        "pairing": "Reuben sandwich (corned beef, Swiss cheese, sauerkraut, Thousand Island); with smoked fish and pickled onions; with strong cheeses and mustard; open-faced sandwiches (smørrebrød).",
+        "pairing_es": "Sándwich Reuben (carne en conserva, queso suizo, chucrut); con pescado ahumado y cebollas encurtidas; con quesos fuertes y mostaza; smørrebrød (sándwiches abiertos).",
+        "examples": "Light rye (mild, less rye flour), dark rye (full rye), caraway rye (classic American deli), Danish rugbrød (dense sourdough rye), Swedish knäckebröd (crispbread).",
+        "examples_es": "Centeno claro (suave), centeno oscuro (harina de centeno completa), centeno con alcaravea (estilo deli americano), rugbrød danés, knäckebröd sueco."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOURDOUGH",
+   "name_fr": "Levain",
+   "name_it": "Lievito Madre",
+   "name_es": "MASA MADRE",
+   "color": "#c07840",
+   "textColor": "#fff0e0",
+   "sub": [
+    {
+     "name": "Sourdough",
+     "name_fr": "Levain",
+     "name_it": "Lievito Madre",
+     "name_es": "Masa Madre",
+     "color": "#c07840",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Classic Sourdough",
+       "name_fr": "Levain Classique",
+       "name_it": "Lievito Madre Classico",
+       "slug": "sourdough",
+       "color": "#d08850",
+       "name_es": "Masa Madre Clásica",
+       "panel": {
+        "origin": "Sourdough is among the oldest leavened breads, with evidence from ancient Egypt dating to around 1500 BCE. Before commercial yeast was developed in the 19th century, all leavened bread was made with natural starters. Sourdough relies on a starter culture of wild yeast and lactic acid bacteria (Lactobacillus species) to ferment flour and water.",
+        "origin_es": "La masa madre es uno de los panes con levadura más antiguos, con evidencia del antiguo Egipto que data de alrededor del 1500 a.C. Antes de que se desarrollara la levadura comercial en el siglo XIX, todo el pan con levadura se elaboraba con fermentos naturales.",
+        "chemistry": "Wild yeast produces CO₂ for leavening. Lactic acid bacteria produce lactic acid (mild, yogurt-like) and acetic acid (sharp, vinegar-like). Cooler, stiffer, longer fermentations favor acetic acid (more sour); warmer, wetter fermentations favor lactic acid (milder). Organic acids also inhibit mold, extending shelf life.",
+        "chemistry_es": "La levadura silvestre produce CO₂. Las bacterias lácticas producen ácido láctico (suave) y ácido acético (agudo). Fermentaciones más frías y largas favorecen el ácido acético (más ácido); más cálidas favorecen el ácido láctico (más suave).",
+        "pairing": "Avocado and poached eggs; grilled cheese; smoked salmon and crème fraîche; charcuterie; soups. Exceptional for artisan grilled cheese. Tangy flavor pairs with both sweet and savory.",
+        "pairing_es": "Aguacate y huevos pochados; queso a la plancha; salmón ahumado y crème fraîche; charcutería; sopas. Excepcional para sándwiches de queso a la plancha.",
+        "examples": "Tartine-style (open crumb, mild tang), San Francisco sourdough (pronounced sourness), pain au levain (French style), whole wheat sourdough, rye sourdough.",
+        "examples_es": "Estilo Tartine (miga abierta, acidez suave), masa madre San Francisco (acidez pronunciada), pain au levain (estilo francés), masa madre integral."
+       }
+      },
+      {
+       "name": "San Francisco Sourdough",
+       "name_fr": "Levain de San Francisco",
+       "name_it": "Lievito Madre di San Francisco",
+       "slug": "sf-sourdough",
+       "color": "#c07038",
+       "name_es": "Masa Madre San Francisco",
+       "panel": {
+        "origin": "San Francisco sourdough developed during the California Gold Rush when miners carried sourdough starters west. The pronounced tanginess is attributed to the local microflora — specifically Fructilactobacillus sanfranciscensis, a LAB strain that thrives in the Bay Area's cool, foggy climate. Boudin Bakery, founded in 1849, is the original San Francisco sourdough institution.",
+        "origin_es": "El masa madre de San Francisco se desarrolló durante la Fiebre del Oro. La pronunciada acidez se atribuye al Fructilactobacillus sanfranciscensis, una cepa de BAL que prospera en el clima fresco y neblinoso de la Bahía. Boudin Bakery, fundada en 1849, es la institución original.",
+        "chemistry": "Fructilactobacillus sanfranciscensis co-exists with Kazachstania humilis yeast in a symbiotic partnership. The bacterium produces acetic and lactic acid that inhibit competing microorganisms but not the K. humilis yeast, which produces CO₂ for leavening.",
+        "chemistry_es": "Fructilactobacillus sanfranciscensis coexiste con la levadura Kazachstania humilis en una asociación simbiótica. La bacteria produce ácidos que inhiben microorganismos competidores pero no la levadura, que produce CO₂.",
+        "pairing": "Classic with clam chowder in sourdough bread bowls; with Dungeness crab; as the base for avocado toast; with strong cheeses; for artisan grilled cheese sandwiches.",
+        "pairing_es": "Clásico con sopa de almejas servida en bol de masa madre; con cangrejo Dungeness; como base para tostadas de aguacate; con quesos fuertes.",
+        "examples": "Boudin Bakery (original San Francisco sourdough since 1849), Acme Bread Company, Tartine Bakery, The Mill — Bay Area institutions.",
+        "examples_es": "Boudin Bakery (masa madre original de San Francisco desde 1849), Acme Bread Company, Tartine Bakery, The Mill — instituciones del Área de la Bahía."
+       }
+      },
+      {
+       "name": "Sourdough Rye",
+       "name_fr": "Seigle au Levain",
+       "name_it": "Segale a Lievito Madre",
+       "slug": "sourdough-rye",
+       "color": "#a06030",
+       "name_es": "Centeno de Masa Madre",
+       "panel": {
+        "origin": "Rye sourdough is the dominant bread tradition across Scandinavia and the Baltic states. Danish rugbrød is perhaps the most iconic form — a dense, moist, dark loaf that serves as the foundation for smørrebrød (open-faced sandwiches), Denmark's national culinary identity. Acidification through sourdough is essential for rye bread structure.",
+        "origin_es": "El centeno con masa madre es la tradición panera dominante en Escandinavia y los estados bálticos. El rugbrød danés sirve como fundamento para el smørrebrød (sándwiches abiertos daneses).",
+        "chemistry": "Rye amylases remain active at higher temperatures than wheat amylases. Without acidification, they continue breaking down starch during baking, producing a gummy, collapsed loaf. The low pH of sourdough fermentation (pH 4.0–4.5) deactivates rye amylases, allowing proper starch gelatinization.",
+        "chemistry_es": "Las amilasas del centeno permanecen activas a temperaturas más altas que las del trigo. Sin acidificación, continúan degradando el almidón durante el horneado. El bajo pH de la masa madre (pH 4.0–4.5) desactiva las amilasas del centeno.",
+        "pairing": "Danish smørrebrød with herring, smoked salmon, liver pâté; German rye bread with pickles and strong cheese; with cured meats and mustard.",
+        "pairing_es": "Smørrebrød danés con arenque, salmón ahumado, paté de hígado; pan de centeno alemán con encurtidos y queso fuerte.",
+        "examples": "Danish rugbrød, Finnish ruisleipä, Estonian rukkileib, Latvian rupjmaize, German Roggenbrot.",
+        "examples_es": "Rugbrød danés, ruisleipä finlandés, rukkileib estonio, rupjmaize letón, Roggenbrot alemán."
+       }
+      },
+      {
+       "name": "Vollkornbrot",
+       "name_fr": "Vollkornbrot",
+       "name_it": "Vollkornbrot",
+       "slug": "vollkornbrot",
+       "color": "#805030",
+       "name_es": "Vollkornbrot",
+       "panel": {
+        "origin": "Vollkornbrot (literally 'whole grain bread') represents the pinnacle of German bread culture. Germany has the world's most diverse bread tradition — over 300 officially recognized varieties. Vollkornbrot must contain at least 90% whole grain by German law and is typically made with whole rye, often incorporating seeds and cracked grain.",
+        "origin_es": "Vollkornbrot (literalmente 'pan de grano entero') representa la cumbre de la cultura panadera alemana. Alemania tiene la tradición panadera más diversa del mundo — más de 300 variedades reconocidas oficialmente.",
+        "chemistry": "The dense crumb structure comes from cracked or whole rye kernels that do not fully gelatinize during baking, producing a chewy, moist texture with visible grain pieces. Long sourdough fermentation (often 18+ hours) is essential for both leavening and flavor.",
+        "chemistry_es": "La densa estructura de miga proviene de centeno partido o entero que no gelatiniza completamente durante el horneado, produciendo una textura masticable con piezas de grano visibles.",
+        "pairing": "With Quark and fresh herbs; with smoked meats and pickled vegetables; with aged cheeses; as the base for open-faced sandwiches; a traditional breakfast bread with butter and honey.",
+        "pairing_es": "Con Quark y hierbas frescas; con carnes ahumadas y verduras encurtidas; con quesos curados; como base para sándwiches abiertos.",
+        "examples": "Mestemacher Vollkornbrot (commercial benchmark), Landbrot, Dreikornbrot (three-grain: wheat, rye, oats), Roggenvollkornbrot (pure rye).",
+        "examples_es": "Mestemacher Vollkornbrot (referencia comercial), Landbrot, Dreikornbrot (tres granos: trigo, centeno, avena), Roggenvollkornbrot (centeno puro)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "QUICK BREADS",
+   "name_fr": "Pains Rapides",
+   "name_it": "Pani Veloci",
+   "name_es": "PANES RÁPIDOS",
+   "color": "#d08060",
+   "textColor": "#fff0e8",
+   "sub": [
+    {
+     "name": "Quick Breads",
+     "name_fr": "Pains Rapides",
+     "name_it": "Pani Veloci",
+     "name_es": "Panes Rápidos",
+     "color": "#d08060",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Banana Bread",
+       "name_fr": "Pain à la Banane",
+       "name_it": "Pane alla Banana",
+       "slug": "banana-bread",
+       "color": "#e09060",
+       "name_es": "Pan de Plátano",
+       "panel": {
+        "origin": "Banana bread emerged in the United States during the Great Depression as a practical solution for overripe bananas that would otherwise go to waste. The first banana bread recipes appeared in print in the 1930s alongside widespread adoption of baking soda and baking powder as home leavening agents. It remains one of the most-made home baking recipes globally.",
+        "origin_es": "El pan de plátano surgió en Estados Unidos durante la Gran Depresión como una solución práctica para los plátanos demasiado maduros. Las primeras recetas aparecieron en la década de 1930 con la adopción del bicarbonato de sodio.",
+        "chemistry": "Overripe bananas are essential: amylase enzymes convert starches to simple sugars (glucose, fructose), dramatically increasing sweetness and moisture. The mashed bananas also provide structure and emulsification. Baking soda reacts with natural banana acids for leavening without yeast.",
+        "chemistry_es": "Los plátanos demasiado maduros son esenciales: las enzimas amilasa convierten los almidones en azúcares simples, aumentando la dulzura. El bicarbonato reacciona con los ácidos naturales del plátano para proporcionar leudado.",
+        "pairing": "Plain as a snack or breakfast; toasted and spread with salted butter or cream cheese; with chocolate chips or walnuts added to the batter; served warm with vanilla ice cream as dessert.",
+        "pairing_es": "Solo como merienda o desayuno; tostado con mantequilla salada o queso crema; con chips de chocolate o nueces; servido caliente con helado de vainilla.",
+        "examples": "Classic banana bread, chocolate chip banana bread, banana nut bread (with walnuts or pecans), banana foster bread (with rum), vegan banana bread.",
+        "examples_es": "Pan de plátano clásico, pan de plátano con chips de chocolate, pan de plátano con nueces, pan de plátano foster (con ron), pan de plátano vegano."
+       }
+      },
+      {
+       "name": "Irish Soda Bread",
+       "name_fr": "Pain Irlandais au Bicarbonate",
+       "name_it": "Pane Irlandese",
+       "slug": "irish-soda",
+       "color": "#c87050",
+       "name_es": "Pan de Soda Irlandés",
+       "panel": {
+        "origin": "Irish soda bread developed in Ireland in the early 19th century when bicarbonate of soda became widely available. Ireland's soft winter wheat had lower protein content than hard wheat, making it poorly suited to yeast-leavened bread but well-suited to chemical leavening. The traditional recipe uses only flour, baking soda, salt, and buttermilk.",
+        "origin_es": "El pan de soda irlandés se desarrolló en Irlanda a principios del siglo XIX cuando el bicarbonato de sodio se volvió disponible. El trigo blando irlandés tenía menor contenido de proteínas, siendo ideal para el leudado químico.",
+        "chemistry": "Buttermilk's lactic acid reacts with baking soda to produce CO₂ gas, leavening the bread without yeast or proofing time. The cross scored on top of a traditional round loaf prevents cracking during oven spring and helps heat penetrate to the center.",
+        "chemistry_es": "El ácido láctico del suero de leche reacciona con el bicarbonato de sodio para producir CO₂, leudando el pan sin levadura ni tiempo de fermentación. La cruz marcada en la parte superior ayuda a que el calor penetre al centro.",
+        "pairing": "Sliced thick with salted butter and jam; alongside Irish stew (perfect for soaking up broth); with smoked salmon and cream cheese; as part of a Full Irish Breakfast.",
+        "pairing_es": "Rebanado grueso con mantequilla salada y mermelada; junto al guiso irlandés (perfecto para absorber el caldo); con salmón ahumado y queso crema; como parte del desayuno irlandés completo.",
+        "examples": "Classic Irish soda bread, spotted dog / railway cake (with raisins and caraway seeds), brown soda bread (whole wheat), soda farls (flat, griddle-cooked quarters).",
+        "examples_es": "Pan de soda irlandés clásico, spotted dog (con pasas y alcaravea), pan de soda integral, soda farls (cuartos planos cocidos en plancha)."
+       }
+      },
+      {
+       "name": "Cornbread",
+       "name_fr": "Pain de Maïs",
+       "name_it": "Pane di Mais",
+       "slug": "cornbread",
+       "color": "#e0a050",
+       "name_es": "Pan de Maíz",
+       "panel": {
+        "origin": "Cornbread has roots in Native American cuisine, where ground corn was a staple long before European contact. Indigenous peoples of the American Southeast developed multiple forms of corn-based breads. European colonists adapted these techniques, and cornbread became fundamental to Southern American cuisine, particularly during the Civil War when wheat was scarce.",
+        "origin_es": "El pan de maíz tiene raíces en la cocina nativa americana, donde el maíz molido era un alimento básico antes del contacto europeo. Los colonos europeos adaptaron estas técnicas, y el cornbread se convirtió en fundamental para la cocina del sur americano.",
+        "chemistry": "Cornmeal lacks gluten-forming proteins, so cornbread relies on eggs and buttermilk for structure. The ratio of cornmeal to flour determines texture. Southern-style cornbread uses little to no sugar; Northern versions are sweeter. Cast iron skillets produce the characteristic crispy, almost fried bottom crust.",
+        "chemistry_es": "La harina de maíz carece de proteínas formadoras de gluten, por lo que el cornbread depende de los huevos y el suero de leche. Las sartenes de hierro fundido producen la característica corteza inferior crujiente.",
+        "pairing": "Classic with chili, BBQ, and fried chicken; crumbled into cold buttermilk (a traditional Southern combination); with honey and butter; as stuffing base for Thanksgiving.",
+        "pairing_es": "Clásico con chili, barbacoa y pollo frito; desmenuzado en suero de leche frío (combinación tradicional sureña); con miel y mantequilla; como base de relleno para Thanksgiving.",
+        "examples": "Southern-style skillet cornbread (savory, little sugar), Northern cornbread (sweeter, cake-like), corn muffins, hush puppies (fried cornmeal balls), jalapeño cheddar cornbread.",
+        "examples_es": "Pan de maíz al estilo sureño (salado, poco azúcar), pan de maíz norteño (más dulce), muffins de maíz, hush puppies (bolas de harina de maíz fritas), pan de maíz con jalapeño y cheddar."
+       }
+      },
+      {
+       "name": "Beer Bread",
+       "name_fr": "Pain à la Bière",
+       "name_it": "Pane alla Birra",
+       "slug": "beer-bread",
+       "color": "#b87040",
+       "name_es": "Pan de Cerveza",
+       "panel": {
+        "origin": "Beer bread is a quick bread using beer as the primary leavening agent — the carbonation provides lift while yeast residue contributes flavor. As a quick bread requiring no proofing, it is primarily an American tradition. Its appeal is simplicity: mix flour, sugar, salt, and beer, pour into a pan, and bake.",
+        "origin_es": "El pan de cerveza es un pan rápido que usa la cerveza como agente leudante principal: la carbonatación proporciona volumen mientras que el residuo de levadura contribuye con sabor.",
+        "chemistry": "CO₂ dissolved in beer provides quick leavening without yeast activation or proofing. The beer's malt sugars, bitter compounds, and yeast residue contribute depth of flavor. Darker beers (stout, porter, amber) produce stronger, more complex-flavored bread.",
+        "chemistry_es": "El CO₂ disuelto en la cerveza proporciona leudado rápido sin necesidad de activación de levadura ni fermentación. Los azúcares de malta de la cerveza, los compuestos amargos y el residuo de levadura contribuyen con sabor.",
+        "pairing": "As a side to soups, stews, and chili; with strong cheeses and pub-style spreads; as a base for beer bread grilled cheese; sliced with charcuterie and mustard.",
+        "pairing_es": "Como acompañamiento de sopas, guisos y chili; con quesos fuertes y untables estilo pub; como base para sándwich de queso a la plancha de pan de cerveza.",
+        "examples": "Classic beer bread (all-purpose flour, pale ale), Guinness bread (stout, molasses), jalapeño cheddar beer bread, herb and garlic beer bread.",
+        "examples_es": "Pan de cerveza clásico (harina, pale ale), pan de Guinness (stout, melaza), pan de cerveza con jalapeño y cheddar, pan de cerveza con hierbas y ajo."
+       }
+      },
+      {
+       "name": "Scone",
+       "name_fr": "Scone",
+       "name_it": "Scone",
+       "slug": "scone",
+       "color": "#d89060",
+       "name_es": "Scone",
+       "panel": {
+        "origin": "Scones are believed to have originated in Scotland in the early 16th century, initially baked as a large round on a griddle and cut into triangles. British afternoon tea culture, popularized in the 19th century, cemented the scone as an essential element alongside clotted cream and jam.",
+        "origin_es": "Se cree que los scones se originaron en Escocia a principios del siglo XVI. La cultura del té de la tarde británica del siglo XIX consolidó el scone como elemento esencial junto a la nata coagulada y la mermelada.",
+        "chemistry": "Cold fat (butter) cut into flour creates small pockets that steam during baking, producing a flaky, layered texture. Minimal mixing prevents extensive gluten development, keeping scones tender and crumbly. Buttermilk or cream provides moisture and acidity for baking soda activation.",
+        "chemistry_es": "La mantequilla fría incorporada en la harina crea pequeñas bolsas que se vaporizan durante el horneado, produciendo una textura escamosa. El mezclado mínimo evita el desarrollo excesivo de gluten.",
+        "pairing": "Classic English cream tea: scone with clotted cream and strawberry jam; with butter and lemon curd; savory scones with cheese and herbs alongside soups.",
+        "pairing_es": "Clásico té de crema inglés: scone con nata coagulada y mermelada de fresa; con mantequilla y crema de limón; scones salados con queso y hierbas junto a sopas.",
+        "examples": "Plain scone (British classic), cranberry orange scone, cheddar chive scone (savory), blueberry scone, Devonshire cream scone.",
+        "examples_es": "Scone liso (clásico británico), scone de arándano rojo y naranja, scone de cheddar y cebollino (salado), scone de arándano, scone de crema de Devon."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MIDDLE EAST FLAT",
+   "name_fr": "MIDDLE EAST FLAT",
+   "name_it": "MIDDLE EAST FLAT",
+   "name_es": "PLANO ORIENTE MEDIO",
+   "color": "#c09868",
+   "textColor": "#2a1800",
+   "sub": [
+    {
+     "name": "Middle East Flat",
+     "name_fr": "Middle East Flat",
+     "name_it": "Middle East Flat",
+     "name_es": "Medio Oriente (plano)",
+     "color": "#c09868",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Pita",
+       "name_fr": "Pita",
+       "name_it": "Pita",
+       "slug": "pita",
+       "color": "#d0a878",
+       "name_es": "Pita",
+       "panel": {
+        "origin": "Pita is one of the oldest breads still in common use, with origins in the ancient Middle East approximately 4,000 years ago. The word 'pita' comes from Greek, meaning simply 'bread.' Greek pita is flat without a pocket; Middle Eastern pita forms the characteristic hollow pocket during baking from rapid steam generation.",
+        "origin_es": "La pita es uno de los panes más antiguos aún en uso, con orígenes en el antiguo Oriente Medio hace aproximadamente 4,000 años. La pita griega es plana sin bolsillo; la pita de Oriente Medio forma el bolsillo hueco característico.",
+        "chemistry": "When baked in a very hot oven (230–260°C), the outer surface sets quickly while interior steam pressure builds, forcing the two dough layers apart to create the hollow pocket. Whole wheat pita or thicker pita results when the oven is not hot enough or the dough is too thick.",
+        "chemistry_es": "Cuando se hornea en un horno muy caliente (230–260°C), la superficie exterior se endurece rápidamente mientras la presión del vapor interior separa las dos capas de masa, creando el bolsillo hueco.",
+        "pairing": "Stuffed with falafel, hummus, and vegetables; with shawarma or kebabs; torn and dipped in hummus, baba ganoush, or tzatziki; as a pizza base; with Greek salad and gyro meat.",
+        "pairing_es": "Rellena de falafel, hummus y verduras; con shawarma o kebabs; troceada y mojada en hummus, baba ganoush o tzatziki; como base de pizza; con ensalada griega y gyros.",
+        "examples": "Lebanese pita (thin, soft, pocket), Greek pita (thicker, flat, no pocket for souvlaki wrapping), whole wheat pita, Israeli pita (larger, thicker).",
+        "examples_es": "Pita libanesa (delgada, suave, con bolsillo), pita griega (más gruesa, plana, sin bolsillo para souvlaki), pita integral, pita israelí (más grande, más gruesa)."
+       }
+      },
+      {
+       "name": "Lavash",
+       "name_fr": "Lavash",
+       "name_it": "Lavash",
+       "slug": "lavash",
+       "color": "#b88858",
+       "name_es": "Lavash",
+       "panel": {
+        "origin": "Lavash is a thin, soft flatbread with ancient origins in Armenia, Iran, Azerbaijan, and Turkey. In 2014, UNESCO inscribed the traditional process of making lavash in Armenia on its Representative List of the Intangible Cultural Heritage of Humanity. Traditionally baked in a tonir (underground clay oven), the thin dough cooks in seconds.",
+        "origin_es": "El lavash es un pan plano delgado y suave con orígenes ancestrales en Armenia, Irán, Azerbaiyán y Turquía. En 2014, la UNESCO inscribió el proceso de elaboración del lavash armenio en su Lista del Patrimonio Cultural Inmaterial.",
+        "chemistry": "The extremely thin dough bakes in seconds on a superhot surface (400°C+). Rapid high-heat baking produces characteristic blistered bubbles. Fresh lavash is soft and pliable; as it cools it becomes crisp and cracker-like. It can be rehydrated by light sprinkling with water.",
+        "chemistry_es": "La masa extremadamente delgada se hornea en segundos sobre una superficie supercaliente (400°C+). El lavash fresco es suave y flexible; al enfriarse se vuelve crujiente y puede rehidratarse.",
+        "pairing": "Wrapped around kebabs, khorovats (Armenian BBQ), or roasted meats; as a wrap for cheese, herbs, and vegetables; as a dipper for hummus; broken as crackers for cheese boards.",
+        "pairing_es": "Envolviendo kebabs, khorovats (barbacoa armenia) o carnes asadas; como wrap para queso, hierbas y verduras; como cucharilla para hummus; roto como galletas para tablas de quesos.",
+        "examples": "Armenian lavash (classic), Iranian nan-e lavash, Turkish lavaş, Azerbaijani lavaş.",
+        "examples_es": "Lavash armenio (clásico), nan-e lavash iraní, lavaş turco, lavaş azerbaiyano."
+       }
+      },
+      {
+       "name": "Matzo",
+       "name_fr": "Matzo",
+       "name_it": "Matzo",
+       "slug": "matzo",
+       "color": "#c8a070",
+       "name_es": "Matzá",
+       "panel": {
+        "origin": "Matzo (matzah) is the unleavened bread central to the Jewish Passover holiday. Its unleavened nature commemorates the Exodus — the Jewish people fled Egypt too quickly for their bread to rise. Jewish law dictates matzo must be mixed and baked within 18 minutes to prevent accidental fermentation. Made only from flour and water.",
+        "origin_es": "La matzá es el pan sin levadura central en la festividad judía de Pésaj. Su naturaleza sin levadura conmemora el Éxodo — el pueblo judío huyó de Egipto tan rápidamente que no tuvieron tiempo de que su pan leudara.",
+        "chemistry": "The 18-minute rule exists because flour contains naturally occurring amylase enzymes and wild yeast spores that can begin a very slow fermentation once water is added. Machine-made matzo is perforated with holes to prevent large bubbles from forming during baking.",
+        "chemistry_es": "La regla de 18 minutos existe porque la harina contiene enzimas amilasa y esporas de levadura silvestre que pueden comenzar una fermentación lenta. La matzá industrial se perfora para evitar burbujas grandes.",
+        "pairing": "As the base for matzo toffee bark; for matzo brei (fried with eggs); as the building block of matzo ball soup; spread with butter and salt; with cream cheese and smoked salmon.",
+        "pairing_es": "Como base para la corteza de toffee de matzá; para matzo brei (frito con huevos); como componente esencial de la sopa de albóndigas de matzá; untado con mantequilla y sal.",
+        "examples": "Plain matzo, egg matzo (enriched, for children and elderly), whole wheat matzo, spelt matzo, matzo meal (ground for cooking and coatings).",
+        "examples_es": "Matzá lisa, matzá de huevo (enriquecida, para niños y ancianos), matzá integral, matzá de espelta, harina de matzá (molida para cocinar)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOUTH ASIAN FLAT",
+   "name_fr": "SOUTH ASIAN FLAT",
+   "name_it": "SOUTH ASIAN FLAT",
+   "name_es": "PLANO ASIÁTICO SUR",
+   "color": "#d4a060",
+   "textColor": "#2a1000",
+   "sub": [
+    {
+     "name": "South Asian Flat",
+     "name_fr": "South Asian Flat",
+     "name_it": "South Asian Flat",
+     "name_es": "Sur de Asia (plano)",
+     "color": "#d4a060",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Naan",
+       "name_fr": "Naan",
+       "name_it": "Naan",
+       "slug": "naan",
+       "color": "#e0b070",
+       "name_es": "Naan",
+       "panel": {
+        "origin": "Naan is a leavened flatbread from South Asia, with documented references in Persian and Mughal court records dating to the 16th century. The word 'naan' derives from the Persian word for bread. Traditional naan is cooked in a tandoor (cylindrical clay oven reaching 480°C), where the dough sticks to the oven wall and cooks in 60–90 seconds.",
+        "origin_es": "El naan es un pan plano con levadura del sur de Asia, con referencias documentadas en registros de las cortes persa y mogola del siglo XVI. El naan tradicional se cocina en un tandoor (horno de arcilla cilíndrico que alcanza 480°C).",
+        "chemistry": "Yogurt provides lactic acid (tenderizing gluten) and live cultures (contributing mild fermentation flavor). The extremely high tandoor temperature causes rapid steam generation, creating the puffy, blistered texture. The portion touching the tandoor wall chars slightly, adding color and smoky flavor.",
+        "chemistry_es": "El yogur proporciona ácido láctico que ablanda el gluten y cultivos vivos que contribuyen con sabor de fermentación suave. La temperatura extremadamente alta del tandoor causa una rápida generación de vapor, creando la textura ampollada.",
+        "pairing": "With butter chicken, tikka masala, dal makhani, or any curry; for scooping up sauces; as a wrap filled with kebab and raita; as flatbread pizza base; with garlic butter as an appetizer.",
+        "pairing_es": "Con butter chicken, tikka masala, dal makhani o cualquier curry; para absorber salsas; como wrap relleno de kebab y raita; como base de pizza de pan plano.",
+        "examples": "Plain naan, garlic naan (most popular globally), butter naan, peshwari naan (filled with coconut and almonds), cheese naan, keema naan (filled with spiced minced meat).",
+        "examples_es": "Naan liso, naan de ajo (más popular globalmente), naan de mantequilla, naan peshwari (relleno de coco y almendras), naan de queso, naan keema (relleno de carne picada especiada)."
+       }
+      },
+      {
+       "name": "Paratha",
+       "name_fr": "Paratha",
+       "name_it": "Paratha",
+       "slug": "paratha",
+       "color": "#c89050",
+       "name_es": "Paratha",
+       "panel": {
+        "origin": "Paratha is an unleavened flatbread from the Indian subcontinent, made with whole wheat atta flour and cooked on a tawa (flat griddle). The name derives from Sanskrit words meaning 'layers of cooked dough.' The defining characteristic is folding ghee or oil into the dough multiple times before cooking, creating a flaky, layered structure.",
+        "origin_es": "La paratha es un pan plano sin levadura del subcontinente indio. El nombre deriva de palabras en sánscrito que significan 'capas de masa cocinada'. El carácter definitorio es plegar ghee en la masa múltiples veces antes de cocinar.",
+        "chemistry": "Repeated folding of fat into the dough creates laminated layers similar to puff pastry, but without the precision of classic French lamination. Each fold separates the dough into distinct layers separated by thin films of fat. On the hot tawa, the fat melts and produces steam, separating and crisping each layer.",
+        "chemistry_es": "El plegado repetido de grasa en la masa crea capas laminadas similares a la masa hojaldrada. Sobre el tawa caliente, la grasa se derrite y produce vapor, separando y tostando las capas.",
+        "pairing": "With yogurt, pickle (achaar), and chutneys for a traditional breakfast; alongside curry and dal; stuffed versions (aloo paratha, gobi paratha) eaten with butter; as a street food wrap (kati roll).",
+        "pairing_es": "Con yogur, encurtidos (achaar) y chutneys para un desayuno tradicional; junto a curry y dal; versiones rellenas (aloo paratha, gobi paratha) con mantequilla; como wrap callejero (kati roll).",
+        "examples": "Plain paratha, aloo paratha (potato-stuffed), gobi paratha (cauliflower-stuffed), paneer paratha (cheese-stuffed), lachha paratha (spiral-layered), malabar parotta (Kerala).",
+        "examples_es": "Paratha liso, aloo paratha (rellena de papa), gobi paratha (rellena de coliflor), paneer paratha (rellena de queso), lachha paratha (capas en espiral), parotta de Malabar."
+       }
+      },
+      {
+       "name": "Roti / Chapati",
+       "name_fr": "Roti / Chapati",
+       "name_it": "Roti / Chapati",
+       "slug": "roti",
+       "color": "#b88040",
+       "name_es": "Roti / Chapati",
+       "panel": {
+        "origin": "Roti (also chapati) is the most consumed bread in the Indian subcontinent — a thin, unleavened flatbread made from whole wheat atta flour. It is a daily staple for hundreds of millions across India, Pakistan, Bangladesh, Nepal, and Sri Lanka. The word roti comes from Sanskrit rotika. Each region has slight variations in thickness and preparation.",
+        "origin_es": "El roti (también chapati) es el pan más consumido del subcontinente indio, un pan plano delgado sin levadura de harina integral atta. Es un alimento básico diario para cientos de millones de personas en el subcontinente.",
+        "chemistry": "Atta flour is finely milled with gluten characteristics that produce an extensible dough rolling very thin without tearing. On a hot tawa, dough moisture converts to steam, and roti puffs (phulka effect) when held directly over a flame, indicating proper full cooking.",
+        "chemistry_es": "La harina atta produce una masa extensible que se puede extender muy delgada sin desgarrarse. Sobre un tawa caliente, la humedad se convierte en vapor, y el roti se infla cuando se sostiene directamente sobre una llama (efecto phulka).",
+        "pairing": "With dal, sabzi (vegetable preparations), curry, and chutneys; used to scoop food from the plate; rolled with leftover curry for a quick meal; with butter (makhan roti) as a snack.",
+        "pairing_es": "Con dal, sabzi (preparaciones de verduras), curry y chutneys; usado para recoger comida del plato; enrollado con curry sobrante; con mantequilla (makhan roti) como merienda.",
+        "examples": "Plain roti/chapati, tandoori roti (oven-baked), missi roti (with chickpea flour and spices), bajra roti (millet), jowar roti (sorghum), makki ki roti (corn).",
+        "examples_es": "Roti/chapati liso, roti tandoori (horneado), missi roti (con harina de garbanzo y especias), roti de mijo, roti de sorgo, roti de maíz."
+       }
+      },
+      {
+       "name": "Dosa",
+       "name_fr": "Dosa",
+       "name_it": "Dosa",
+       "slug": "dosa",
+       "color": "#d0a860",
+       "name_es": "Dosa",
+       "panel": {
+        "origin": "Dosa is a thin, crispy crepe from South India (Tamil Nadu, Karnataka, Kerala, Andhra Pradesh) made from a fermented batter of rice and urad dal (black gram lentils). References appear in Tamil literature as early as the 1st century CE. Dosa is naturally gluten-free and one of India's most internationally recognized breakfast foods.",
+        "origin_es": "El dosa es una crepa delgada y crujiente del sur de India, elaborada con masa fermentada de arroz y dal urad (lentejas negras). Referencias aparecen en la literatura tamil ya en el siglo I d.C. Es naturalmente libre de gluten.",
+        "chemistry": "The batter is soaked separately (4–6 hours), ground, mixed, and left to ferment 8–14 hours at room temperature. Lactic acid bacteria produce acids and CO₂, making the batter slightly sour and airy. The fermented batter spreads ultra-thin on a hot griddle and cooks to crispness in minutes.",
+        "chemistry_es": "La masa se remoja por separado, se muele y mezcla, y se deja fermentar 8–14 horas. Las bacterias del ácido láctico producen ácidos y CO₂, haciendo la masa ligeramente ácida y aireada.",
+        "pairing": "Classically served with sambar and coconut chutneys; masala dosa (filled with spiced potato) is the most famous variety; with filter coffee (South Indian tradition).",
+        "pairing_es": "Servido clásicamente con sambar y chutneys de coco; el masala dosa (relleno de papa especiada) es la variedad más famosa; con café filtrado del sur de India.",
+        "examples": "Plain dosa (paper thin), masala dosa (potato filled), rava dosa (semolina, lacy texture), set dosa (thicker, spongy), uttapam (thick, topped with vegetables).",
+        "examples_es": "Dosa liso (fino como papel), masala dosa (relleno de papa), rava dosa (sémola, textura encaje), set dosa (más grueso, esponjoso), uttapam (grueso, con coberturas de verduras)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AMERICAS FLAT",
+   "name_fr": "AMERICAS FLAT",
+   "name_it": "AMERICAS FLAT",
+   "name_es": "PLANO AMÉRICAS",
+   "color": "#e8a848",
+   "textColor": "#2a1000",
+   "sub": [
+    {
+     "name": "Americas Flat",
+     "name_fr": "Americas Flat",
+     "name_it": "Americas Flat",
+     "name_es": "Américas (plano)",
+     "color": "#e8a848",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Arepa",
+       "name_fr": "Arepa",
+       "name_it": "Arepa",
+       "slug": "arepa",
+       "color": "#f0b858",
+       "name_es": "Arepa",
+       "panel": {
+        "origin": "Arepas are one of the oldest breads of the Americas, consumed by indigenous peoples of Venezuela and Colombia long before European contact — archaeological evidence suggests arepa-making dates back over 3,000 years. Made from pre-cooked ground maize (masa harina), arepas are griddled, baked, or fried. Venezuela and Colombia both claim the arepa as a national food, with distinct regional variations.",
+        "origin_es": "Las arepas son uno de los panes más antiguos de las Américas, consumidas por los pueblos indígenas del actual Venezuela y Colombia hace más de 3,000 años. La evidencia arqueológica confirma esta larga historia.",
+        "chemistry": "Pre-cooked maize masa (masa harina) is made from nixtamalized corn kernels — soaked in alkaline lime water, which increases protein bioavailability, raises calcium content, and produces a workable dough. The arepa forms a hard crust during cooking while the interior steams and softens.",
+        "chemistry_es": "La masa harina precocida se elabora a partir de granos de maíz nixtamalizados (remojados en agua alcalina de cal). La nixtamalización aumenta la biodisponibilidad de proteínas y el contenido de calcio.",
+        "pairing": "Venezuelan: reina pepiada (chicken and avocado), pabellón (shredded beef, black beans, plantains), domino (black beans and white cheese). Colombian: with hogao sauce, eggs, and chorizo.",
+        "pairing_es": "Venezolanas: reina pepiada (pollo y aguacate), pabellón (carne, caraotas negras, plátanos), dominó (caraotas y queso blanco). Colombianas: con hogao, huevos y chorizo.",
+        "examples": "Venezuelan arepa (round, thick, always split and filled), Colombian arepa (flatter, often eaten plain or with cheese), arepa de chócolo (sweet corn), arepa de pabellón.",
+        "examples_es": "Arepa venezolana (redonda, gruesa, siempre partida y rellena), arepa colombiana (más plana, frecuentemente con queso), arepa de chócolo (maíz dulce)."
+       }
+      },
+      {
+       "name": "Tortilla",
+       "name_fr": "Tortilla",
+       "name_it": "Tortilla",
+       "slug": "tortilla",
+       "color": "#e8a040",
+       "name_es": "Tortilla",
+       "panel": {
+        "origin": "Corn tortillas are among the oldest foods in the Americas, with maize cultivation in Mesoamerica dating to at least 9,000 years ago. The tortilla was the primary flatbread of Aztec and Mayan civilizations. Wheat flour tortillas, developed after Spanish colonization introduced wheat, are a later innovation from northern Mexico (particularly Sonora) and the American Southwest.",
+        "origin_es": "Las tortillas de maíz son uno de los alimentos más antiguos de las Américas, con el cultivo del maíz en Mesoamérica que data de al menos 9,000 años. La tortilla fue el pan plano principal de las civilizaciones azteca y maya.",
+        "chemistry": "Corn tortillas use nixtamalized masa — alkaline treatment makes corn more nutritious and produces a workable dough. Wheat flour tortillas use fat (lard or shortening) cut into flour to create tenderness, similar to pie crust technique. Some flour tortilla traditions include baking powder for puffing.",
+        "chemistry_es": "Las tortillas de maíz usan masa nixtamalizada — el tratamiento alcalino hace el maíz más nutritivo. Las tortillas de harina de trigo usan grasa (manteca) incorporada en la harina, similar a la técnica de masa para pay.",
+        "pairing": "For tacos, burritos, enchiladas, quesadillas, and fajitas; as a scoop for guacamole, salsa, and beans; as a base for huevos rancheros; fried as tostadas; tortilla chips when cut and fried.",
+        "pairing_es": "Para tacos, burritos, enchiladas, quesadillas y fajitas; como cucharilla para guacamole, salsa y frijoles; como base para huevos rancheros.",
+        "examples": "Corn tortilla (masa harina), flour tortilla (Sonoran style), whole wheat tortilla, blue corn tortilla, handmade tlayuda (Oaxacan large corn tortilla).",
+        "examples_es": "Tortilla de maíz (masa harina), tortilla de harina (estilo sonorense), tortilla integral, tortilla de maíz azul, tlayuda oaxaqueña (tortilla grande artesanal)."
+       }
+      },
+      {
+       "name": "Johnnycake",
+       "name_fr": "Johnnycake",
+       "name_it": "Johnnycake",
+       "slug": "johnnycake",
+       "color": "#f0c060",
+       "name_es": "Johnnycake",
+       "panel": {
+        "origin": "Johnnycakes (also journey cakes or hoe cakes) are cornmeal flatbreads with roots in Native American cooking, adopted by European colonists throughout North America. The name may derive from 'Shawnee cake' or 'journey cake' (portable food for travel). Rhode Island has a particular tradition using a specific variety of flint corn for a coarser, nuttier product.",
+        "origin_es": "Los johnnycakes son panes planos de harina de maíz con raíces en la cocina nativa americana, adoptados por los colonos europeos. El nombre puede derivar de 'torta Shawnee' o 'torta de viaje'. Rhode Island tiene una tradición particular usando una variedad específica de maíz silex.",
+        "chemistry": "Unlike arepa or tortilla dough, johnnycake batter is more liquid — closer to pancake batter. It is poured onto a hot, greased griddle. The high surface temperature creates a crispy exterior while the interior remains slightly creamy. Rhode Island johnnycakes use stone-ground flint corn, producing a coarser, nuttier texture.",
+        "chemistry_es": "A diferencia de la masa de arepa o tortilla, la masa de johnnycake es más líquida. Se vierte sobre una plancha caliente. Los johnnycakes de Rhode Island usan maíz silex molido a la piedra, produciendo una textura más gruesa y con sabor a nuez.",
+        "pairing": "With butter, maple syrup, or honey at breakfast; alongside chowder and seafood stews; with molasses; as a simple side bread for hearty meals.",
+        "pairing_es": "Con mantequilla, jarabe de arce o miel como desayuno; junto a chowder y guisos de mariscos; con melaza; como pan de acompañamiento sencillo.",
+        "examples": "Rhode Island johnnycake (flint corn, thin, lacey), Southern hoe cake (thicker, skillet-cooked), Jamaican festival (sweet, fried, elongated).",
+        "examples_es": "Johnnycake de Rhode Island (maíz silex, delgado), hoe cake sureño (más grueso, en sartén), festival jamaicano (dulce, frito, alargado)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "STEAMED & GRIDDLE",
+   "name_fr": "Vapeur & Plaque",
+   "name_it": "Vapore & Piastra",
+   "name_es": "VAPOR Y PLANCHA",
+   "color": "#a0c0d0",
+   "textColor": "#0a2030",
+   "sub": [
+    {
+     "name": "Steamed & Griddle",
+     "name_fr": "Vapeur & Plaque",
+     "name_it": "Vapore & Piastra",
+     "name_es": "Al Vapor y Plancha",
+     "color": "#a0c0d0",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "English Muffin",
+       "name_fr": "Muffin Anglais",
+       "name_it": "Muffin Inglese",
+       "slug": "english-muffin",
+       "color": "#b0ccd8",
+       "name_es": "Muffin Inglés",
+       "panel": {
+        "origin": "English muffins were developed by Samuel Bath Thomas, an English immigrant who opened a bakery in New York City in 1874. Despite the name, they are primarily an American innovation. Thomas's English Muffins became a commercial success and the brand still dominates the American market. English muffins are cooked on a griddle rather than baked in an oven.",
+        "origin_es": "Los muffins ingleses fueron desarrollados por Samuel Bath Thomas, un inmigrante inglés que abrió una panadería en Nueva York en 1874. A pesar del nombre, son principalmente una innovación americana. Se cocinan en una plancha en lugar de un horno.",
+        "chemistry": "English muffins are cooked on a griddle at moderate temperature, creating flat top and bottom surfaces with a soft, porous center. The interior air pockets (nooks and crannies) develop during fermentation and are preserved by griddle cooking. These pockets hold butter and toppings magnificently after toasting.",
+        "chemistry_es": "Los muffins ingleses se cocinan en una plancha a temperatura moderada, creando superficies planas y un centro suave y poroso. Los bolsillos de aire (grietas y huecos) se desarrollan durante la fermentación y son fundamentales para retener mantequilla.",
+        "pairing": "Toasted with butter and jam; as the base for Eggs Benedict; for breakfast sandwiches (the McDonald's Egg McMuffin template); as mini pizza bases; with nut butter and banana.",
+        "pairing_es": "Tostados con mantequilla y mermelada; como base para Huevos Benedictinos; para sándwiches de desayuno (la plantilla del Egg McMuffin de McDonald's); como bases de mini pizza.",
+        "examples": "Classic Thomas' English Muffin, whole wheat English muffin, sourdough English muffin, cinnamon raisin muffin, multigrain English muffin.",
+        "examples_es": "Thomas' English Muffin clásico, muffin inglés integral, muffin inglés de masa madre, muffin de canela y pasas, muffin inglés multigrano."
+       }
+      },
+      {
+       "name": "Crumpet",
+       "name_fr": "Crumpet",
+       "name_it": "Crumpet",
+       "slug": "crumpet",
+       "color": "#90b0c0",
+       "name_es": "Crumpet",
+       "panel": {
+        "origin": "Crumpets are a British griddle bread with documented history dating to the 17th century, closely associated with British afternoon tea culture. Unlike English muffins (cooked on both sides), crumpets are cooked only from the bottom, leaving the top surface covered with characteristic holes from CO₂ bubbles that rise through the batter.",
+        "origin_es": "Los crumpets son un pan de plancha británico con historia documentada que data del siglo XVII, estrechamente asociados con la cultura del té de la tarde. A diferencia de los muffins ingleses (cocinados por ambos lados), los crumpets se cocinan solo por la parte inferior.",
+        "chemistry": "The batter starts with yeast leavening; baking powder is added later, creating a delayed burst of CO₂ bubbles that produce the distinctive holes. Bubbles travel from the bottom (where they form) up through the batter, bursting at the surface. These holes are what makes crumpets ideal for holding melted butter.",
+        "chemistry_es": "La masa comienza con levadura; el polvo para hornear se añade después, creando la ráfaga tardía de burbujas de CO₂ que produce los agujeros característicos que viajan desde el fondo hasta la superficie.",
+        "pairing": "Toasted and spread with generous butter; with Marmite (the classic British combination); with jam and clotted cream; with smoked salmon and cream cheese; with cheddar and Worcestershire sauce.",
+        "pairing_es": "Tostados y untados generosamente con mantequilla; con Marmite (la combinación británica clásica); con mermelada y nata coagulada; con salmón ahumado y queso crema.",
+        "examples": "Classic crumpet (round, porous), crumpet bread (loaf form), pikelet (thinner, lacier cousin).",
+        "examples_es": "Crumpet clásico (redondo, poroso), pan crumpet (forma de molde), pikelet (primo más delgado y encaje del crumpet)."
+       }
+      },
+      {
+       "name": "Bao Bun",
+       "name_fr": "Bao Bun",
+       "name_it": "Bao Bun",
+       "slug": "bao",
+       "color": "#c0d8e8",
+       "name_es": "Bollo Bao",
+       "panel": {
+        "origin": "Bao buns (baozi) are steamed filled buns from China with a history dating back to the Three Kingdoms period (3rd century CE). Char siu bao (barbecue pork buns) are the most recognized variety globally. The 'bao burger' became a global street food trend in the 2010s. In Japan, nikuman (steamed meat buns) are beloved convenience foods.",
+        "origin_es": "Los bollos bao (baozi) son bollos rellenos al vapor de China con historia desde el período de los Tres Reinos (siglo III d.C.). El char siu bao (bollos de cerdo a la barbacoa) es la variedad más reconocida globalmente.",
+        "chemistry": "The characteristic pure-white color and cotton-soft texture comes from bleached wheat flour, higher sugar content, and baking powder combined with yeast. Steam cooking (rather than baking) produces the smooth, matte exterior without crust formation. Proper steaming at 100°C for 8–12 minutes gelatinizes the starch exterior evenly.",
+        "chemistry_es": "El color blanco puro y la textura suave provienen de harina blanqueada, mayor azúcar y polvo para hornear. La cocción al vapor (en lugar de hornear) produce el exterior liso y mate sin formación de corteza.",
+        "pairing": "Char siu bao with jasmine tea (classic dim sum pairing); gua bao (Taiwanese braised pork belly bao) with pickled mustard greens; soup dumplings (xiao long bao) with black vinegar and ginger.",
+        "pairing_es": "Char siu bao con té de jazmín (maridaje clásico de dim sum); gua bao (bao de panceta de cerdo estofada taiwanesa) con encurtidos; xiao long bao con vinagre negro y jengibre.",
+        "examples": "Char siu bao (BBQ pork, steamed or baked), xiao long bao (soup dumplings, Shanghai), gua bao (Taiwanese open-faced), banh bao (Vietnamese steamed bun), nikuman (Japanese).",
+        "examples_es": "Char siu bao (cerdo BBQ, al vapor o horneado), xiao long bao (dim sum de sopa, Shanghái), gua bao (bao abierto taiwanés), banh bao (bollo vietnamita al vapor), nikuman (japonés)."
+       }
+      },
+      {
+       "name": "Bagel",
+       "name_fr": "Bagel",
+       "name_it": "Bagel",
+       "slug": "bagel",
+       "color": "#80a8c0",
+       "name_es": "Bagel",
+       "panel": {
+        "origin": "The bagel originated in Jewish communities in Kraków, Poland, in the 17th century, with the first written reference appearing in 1610. Polish Jewish immigrants brought bagels to the United States, where New York City became the bagel capital. The Montreal bagel is a distinct alternative: sweeter, smaller, denser, wood-fired — a genuine rival tradition.",
+        "origin_es": "El bagel se originó en las comunidades judías de Cracovia, Polonia, en el siglo XVII. Los inmigrantes judíos polacos trajeron los bagels a Estados Unidos, donde Nueva York se convirtió en la capital del bagel. El bagel de Montreal es una alternativa distinta: más dulce, pequeño, denso y horneado en leña.",
+        "chemistry": "Bagels are boiled before baking — a two-stage process unique among yeast breads. Boiling (30 seconds to 3 minutes) gelatinizes the outer starch layer, creating a semi-impermeable shell before baking. This shell traps moisture inside, producing the characteristically dense, chewy interior. Malt syrup in the boiling water adds sweetness and promotes browning.",
+        "chemistry_es": "Los bagels se hierven antes de hornear, un proceso de cocción en dos etapas único entre los panes de levadura. La ebullición gelatiniza la capa de almidón exterior, creando una capa semi-impermeable que atrapa la humedad interior.",
+        "pairing": "New York classic: toasted, spread with cream cheese, topped with smoked salmon, capers, red onion, and cucumber (bagel with lox). Also: egg and cheese breakfast sandwich; everything bagel with avocado.",
+        "pairing_es": "Clásico de Nueva York: tostado, untado con queso crema y cubierto con salmón ahumado, alcaparras, cebolla roja y pepino (bagel con lox). También: sándwich de desayuno con huevo y queso.",
+        "examples": "New York-style bagel (boiled, thin crust, chewy), Montreal bagel (sweeter, denser, wood-fired), everything bagel, sesame bagel, pumpernickel bagel, asiago bagel.",
+        "examples_es": "Bagel estilo Nueva York (hervido, corteza delgada, masticable), bagel de Montreal (más dulce, más denso, horneado en leña), bagel everything, bagel de sésamo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRIED BREADS",
+   "name_fr": "Pains Frits",
+   "name_it": "Pani Fritti",
+   "name_es": "PANES FRITOS",
+   "color": "#e09050",
+   "textColor": "#2a1200",
+   "sub": [
+    {
+     "name": "Fried Breads",
+     "name_fr": "Pains Frits",
+     "name_it": "Pani Fritti",
+     "name_es": "Panes Fritos",
+     "color": "#e09050",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Beignet",
+       "name_fr": "Beignet",
+       "name_it": "Beignet",
+       "slug": "beignet",
+       "color": "#f0a860",
+       "name_es": "Beignet",
+       "panel": {
+        "origin": "Beignets are deep-fried fritters brought to New Orleans by French colonists in the 18th century. New Orleans-style beignets use a yeast-leavened dough (not choux pastry), fried and covered in powdered sugar. Café du Monde in the French Quarter, open since 1862, is the definitive beignet destination — served alongside café au lait with chicory coffee.",
+        "origin_es": "Los beignets son buñuelos fritos traídos a Nueva Orleans por colonos franceses en el siglo XVIII. El Café du Monde en el Barrio Francés, abierto desde 1862, es el destino definitivo para beignets, servidos junto a café au lait con achicoria.",
+        "chemistry": "New Orleans beignets use a yeast-leavened dough dropped into hot oil (175°C). Steam generated from the dough's moisture causes the beignet to puff rapidly, creating a hollow interior. The powdered sugar coating absorbs any surface oil and provides the characteristic sweetness.",
+        "chemistry_es": "Los beignets de Nueva Orleans usan masa con levadura que se sumerge en aceite caliente (175°C). El vapor generado hace que el beignet se infle rápidamente, creando un interior hueco.",
+        "pairing": "Classically with café au lait (New Orleans style: chicory-enriched coffee with hot milk); with vanilla ice cream; with warm chocolate dipping sauce. The powdered sugar cloud is non-negotiable.",
+        "pairing_es": "Clásicamente con café au lait (estilo Nueva Orleans: café con achicoria y leche caliente); con helado de vainilla; con salsa caliente de chocolate. La nube de azúcar glas es innegociable.",
+        "examples": "New Orleans beignet (square, powdered sugar), French chouquettes (choux puffs with pearl sugar), Spanish churro (piped, elongated cousin), Italian zeppole.",
+        "examples_es": "Beignet de Nueva Orleans (cuadrado, azúcar glas), chouquettes francesas (buñuelos de choux con azúcar perlado), churro español (primo elongado), zeppole italiano."
+       }
+      },
+      {
+       "name": "Fry Bread",
+       "name_fr": "Pain Frit",
+       "name_it": "Pane Fritto",
+       "slug": "fry-bread",
+       "color": "#d88040",
+       "name_es": "Pan Frito",
+       "panel": {
+        "origin": "Native American fry bread emerged as a direct consequence of the U.S. government's forced relocation of Indigenous peoples — particularly the Navajo Nation's Long Walk (1864–1868). Removed from their homelands and given only flour, salt, lard, and baking powder, Navajo people created fry bread as a way to make food from inadequate rations. It has since become both a symbol of resilience and a source of complex cultural debate within Indigenous communities.",
+        "origin_es": "El pan frito nativo americano surgió como consecuencia de la reubicación forzada de los pueblos indígenas. La Caminata Larga de la Nación Navajo (1864–1868) dejó a las personas con solo harina, sal, manteca y polvo de hornear. Es símbolo de resiliencia y objeto de debate cultural complejo.",
+        "chemistry": "Fry bread is a simple quick bread dough (flour, salt, baking powder, water) patted thin and fried in hot lard or oil (175–190°C). Baking powder reacts with dough moisture to create CO₂ bubbles that expand rapidly in hot oil, creating a puffy, irregular texture with characteristic air pockets.",
+        "chemistry_es": "La masa del pan frito es un pan rápido simple que se adelgaza y se fríe en aceite caliente (175–190°C). El polvo para hornear reacciona con la humedad para crear burbujas de CO₂ que se expanden rápidamente.",
+        "pairing": "As a taco base (Indian taco): topped with ground beef, beans, cheese, lettuce, tomato, and sour cream; with honey and powdered sugar as a sweet version; with stew poured over it.",
+        "pairing_es": "Como base de taco (taco indio): cubierto con carne molida, frijoles, queso, lechuga, tomate y crema; con miel y azúcar glas como versión dulce; con guiso vertido encima.",
+        "examples": "Navajo fry bread, Sioux fry bread, Indian taco (topped fry bread), Bannock (Canadian First Nations version), sopapilla (New Mexican lighter version).",
+        "examples_es": "Pan frito navajo, pan frito sioux, taco indio (pan frito con cobertura), bannock (versión de las Primeras Naciones canadienses), sopaipilla (versión del suroeste americano)."
+       }
+      },
+      {
+       "name": "Youtiao",
+       "name_fr": "Youtiao",
+       "name_it": "Youtiao",
+       "slug": "youtiao",
+       "color": "#e09858",
+       "name_es": "Youtiao",
+       "panel": {
+        "origin": "Youtiao (油條, 'oil stick') is a long, golden-fried Chinese cruller eaten across China and throughout East and Southeast Asian communities worldwide. It has been consumed for centuries, with some food historians tracing it to the Song Dynasty (10th–13th centuries). Youtiao is a quintessential Chinese breakfast food, typically eaten alongside congee (rice porridge) or soy milk.",
+        "origin_es": "El youtiao (油條, 'bastón de aceite') es un buñuelo chino dorado y frito consumido en toda China. Algunos historiadores lo rastrean a la Dinastía Song (siglos X–XIII). Es un alimento de desayuno quintaesencial chino, comido junto a congee o leche de soja.",
+        "chemistry": "Youtiao is made from a soft, relaxed dough leavened with yeast and baking powder. Two strips of dough are pressed together before frying — this creates the double-strand shape and allows the interior to remain light and chewy while the exterior crisps. Oil temperature (180–190°C) must be precise for even expansion.",
+        "chemistry_es": "El youtiao se elabora con masa suave con levadura y polvo para hornear. Dos tiras de masa se presionan juntas antes de freír, creando la forma de doble hebra. La temperatura del aceite (180–190°C) debe ser precisa.",
+        "pairing": "Dunked in soy milk or congee for breakfast; wrapped in sticky rice with pickled vegetables (fan tuan); sliced into cheung fun (steamed rice noodle rolls); as a side to wonton soup.",
+        "pairing_es": "Mojado en leche de soja o congee para el desayuno; envuelto en arroz pegajoso con verduras encurtidas (fan tuan); rebanado en cheung fun (rollos de fideos de arroz al vapor).",
+        "examples": "Chinese youtiao (classic), Vietnamese quẩy (slightly shorter, served with phở), Thai pà-thawng-kô (with condensed milk), Taiwanese shaobing youtiao (in a sesame flatbread).",
+        "examples_es": "Youtiao chino (clásico), quẩy vietnamita (ligeramente más corto, servido con phở), pà-thawng-kô tailandés (con leche condensada), shaobing youtiao taiwanés."
+       }
+      },
+      {
+       "name": "Curry Bread",
+       "name_fr": "Pain au Curry",
+       "name_it": "Pane al Curry",
+       "slug": "curry-bread",
+       "color": "#c87030",
+       "name_es": "Pan de Curry",
+       "panel": {
+        "origin": "Kare pan (カレーパン, curry bread) is a Japanese creation from the early 20th century — the first recorded recipe appears in 1927. It consists of Japanese curry wrapped in bread dough, coated in panko breadcrumbs, and deep-fried. Kare pan is one of Japan's most beloved convenience and bakery foods, sold in every konbini (convenience store) and specialty bread shop (pan-ya).",
+        "origin_es": "El kare pan (カレーパン, pan de curry) es una creación japonesa de principios del siglo XX — la primera receta registrada aparece en 1927. Consiste en curry japonés envuelto en masa de pan, cubierto con panko y frito en aceite.",
+        "chemistry": "The panko breadcrumb coating creates a protective layer during deep frying that crisps without absorbing excessive oil. Japanese curry filling is thick enough to hold its shape during frying. The double leavening (yeast + steam from filling) creates a puffy interior surrounding the curry pocket.",
+        "chemistry_es": "La cobertura de panko crea una capa protectora durante la fritura que tuesta sin absorber aceite excesivo. El relleno de curry japonés es lo suficientemente espeso para mantener su forma. El doble leudado crea un interior esponjoso.",
+        "pairing": "Eaten warm as standalone street food or convenience snack; with hot tea or cold canned coffee in the konbini tradition; paired with Japanese-style coleslaw (cabbage salad).",
+        "pairing_es": "Consumido caliente como comida callejera o merienda conveniente; con té caliente o café enlatado frío en la tradición del konbini japonés.",
+        "examples": "Classic kare pan (Japanese curry, panko-fried), baked kare pan (lighter, less oily), melon-pan (sweet cousin with cookie crust), cream pan (custard-filled cousin).",
+        "examples_es": "Kare pan clásico (curry japonés, frito con panko), kare pan horneado (más ligero), melon-pan (primo dulce con costra de galleta), cream pan (primo relleno de crema)."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CITRUS": {
+   "en": "Citrus notes scream cool-climate and high acidity — if a white smells of lime or grapefruit, it's probably built to be crisp and refreshing, not rich.",
+   "es": "Las notas cítricas gritan clima fresco y alta acidez — si un blanco huele a lima o toronja, suele estar hecho para ser nítido y refrescante, no rico."
+  },
+  "TREE FRUIT": {
+   "en": "Apple, pear and peach are the 'middle of the road' fruits — they show up in tons of whites and tell you the wine is balanced and food-friendly.",
+   "es": "Manzana, pera y durazno son las frutas 'punto medio' — aparecen en muchísimos blancos y te dicen que el vino es equilibrado y amigable con la comida."
+  },
+  "TROPICAL": {
+   "en": "Pineapple and mango usually mean warm sunshine and riper grapes. Big tropical fruit often signals a fuller-bodied, higher-alcohol white.",
+   "es": "Piña y mango suelen significar sol cálido y uvas más maduras. La fruta tropical intensa a menudo indica un blanco más corpulento y de mayor alcohol."
+  },
+  "RED FRUIT": {
+   "en": "Strawberry, cherry and cranberry are the calling card of lighter reds like Pinot Noir — think bright, fresh, and easy to drink.",
+   "es": "Fresa, cereza y arándano son la carta de presentación de los tintos más ligeros como el Pinot Noir — piensa en algo brillante, fresco y fácil de beber."
+  },
+  "BLACK FRUIT": {
+   "en": "Blackberry and black cherry mean a bigger, bolder red — Cabernet, Syrah, Malbec. Dark fruit usually rides with firmer tannin and more body.",
+   "es": "Zarzamora y cereza negra significan un tinto más grande y audaz — Cabernet, Syrah, Malbec. La fruta oscura suele venir con taninos más firmes y más cuerpo."
+  },
+  "DRIED FRUIT": {
+   "en": "Raisin, fig and prune mean the grapes got super ripe or the wine has some age — a sign of richness, warmth, or a dessert style.",
+   "es": "Pasa, higo y ciruela pasa significan que las uvas se pusieron muy maduras o que el vino tiene añejamiento — señal de riqueza, calidez o un estilo de postre."
+  },
+  "FLOWER": {
+   "en": "Floral notes — rose, violet, jasmine — are a gift: they make a wine smell pretty and are a big clue to grapes like Gewürztraminer, Muscat and Viognier.",
+   "es": "Las notas florales — rosa, violeta, jazmín — son un regalo: hacen que un vino huela hermoso y son una gran pista de uvas como Gewürztraminer, Moscatel y Viognier."
+  },
+  "HERBAL & VEGETAL": {
+   "en": "Grass, bell pepper and herbs often mean cooler climate or earlier-picked grapes — classic in Sauvignon Blanc and Cabernet Franc. A little is lovely; a lot can mean under-ripe.",
+   "es": "Pasto, pimiento y hierbas suelen significar clima más fresco o uvas cosechadas temprano — clásico en Sauvignon Blanc y Cabernet Franc. Un poco es encantador; mucho puede indicar falta de madurez."
+  },
+  "SPICE": {
+   "en": "Pepper, cinnamon and clove come from two places: the grape itself (black pepper = Syrah) or the oak barrel (baking spices). Both add complexity.",
+   "es": "Pimienta, canela y clavo vienen de dos lugares: la uva misma (pimienta negra = Syrah) o la barrica de roble (especias de repostería). Ambos añaden complejidad."
+  },
+  "EARTH": {
+   "en": "Mushroom, soil and wet stone are 'earthy' notes prized in Old World wines — they're the smell of place, not fruit, and a hallmark of fine Burgundy and Barolo.",
+   "es": "Hongo, tierra y piedra mojada son notas 'terrosas' apreciadas en los vinos del Viejo Mundo — son el olor del lugar, no de la fruta, y un sello de los grandes Borgoña y Barolo."
+  },
+  "NOBLE ROT": {
+   "en": "Honey, saffron and marmalade come from 'noble rot' — a friendly mold (Botrytis) that shrivels grapes and concentrates them into legendary sweet wines like Sauternes.",
+   "es": "Miel, azafrán y mermelada vienen de la 'podredumbre noble' — un moho amistoso (Botrytis) que arruga las uvas y las concentra en vinos dulces legendarios como el Sauternes."
+  },
+  "FERMENTATION": {
+   "en": "Bread, butter and cream aren't from grapes — they're made during winemaking (yeast and a step called malolactic). They tell you about craft, not the vineyard.",
+   "es": "Pan, mantequilla y crema no vienen de la uva — se crean durante la vinificación (la levadura y un paso llamado maloláctica). Te hablan del oficio, no del viñedo."
+  },
+  "OAK AGING": {
+   "en": "Vanilla, coconut and baking spice almost always come from the oak barrel, not the grape. They're a clue the winemaker wanted richness and structure.",
+   "es": "Vainilla, coco y especia de repostería casi siempre vienen de la barrica de roble, no de la uva. Son una pista de que el enólogo buscaba riqueza y estructura."
+  },
+  "BOTTLE AGE": {
+   "en": "Nutty, leather and tobacco notes appear after years in the bottle as fresh fruit fades into something savory and complex — the reward of patience.",
+   "es": "Las notas a nuez, cuero y tabaco aparecen tras años en botella, cuando la fruta fresca se desvanece en algo sabroso y complejo — la recompensa de la paciencia."
+  },
+  "TCA · CORK": {
+   "en": "This whole group is a FAULT. 'Corked' wine smells like wet cardboard or a damp basement — it's harmless but ruins the wine. If you smell it, send the bottle back.",
+   "es": "Todo este grupo es un DEFECTO. El vino 'corchado' huele a cartón mojado o a sótano húmedo — es inofensivo pero arruina el vino. Si lo hueles, devuelve la botella."
+  },
+  "REDUCTION": {
+   "en": "A FAULT (sometimes fixable): struck-match, rotten-egg or rubber smells from a lack of oxygen. A good swirl in the glass often blows it off.",
+   "es": "Un DEFECTO (a veces corregible): olores a cerillo, huevo podrido o hule por falta de oxígeno. Un buen giro en la copa a menudo lo disipa."
+  },
+  "BRETT": {
+   "en": "A FAULT in big amounts: 'Brett' (a yeast) smells like a barnyard, band-aid or sweaty saddle. A tiny bit adds funk some people love; a lot covers the fruit.",
+   "es": "Un DEFECTO en gran cantidad: el 'Brett' (una levadura) huele a corral, curita o silla de montar sudada. Un poquito añade un toque que a algunos encanta; mucho tapa la fruta."
+  },
+  "V.A.": {
+   "en": "A FAULT: 'volatile acidity' smells like vinegar or nail polish. A trace can add lift, but a lot means the wine is turning to vinegar.",
+   "es": "Un DEFECTO: la 'acidez volátil' huele a vinagre o quitaesmalte. Un rastro puede dar elevación, pero mucho significa que el vino se está volviendo vinagre."
+  },
+  "OXIDATION": {
+   "en": "A FAULT (unless intended): too much air makes wine taste of bruised apple, stewed fruit or sherry, and dulls the color. Great for Sherry — bad for your fresh white.",
+   "es": "Un DEFECTO (salvo cuando es intencional): demasiado aire hace que el vino sepa a manzana magullada, fruta cocida o jerez, y apaga el color. Genial para el Jerez — malo para tu blanco fresco."
+  }
+ }
+}

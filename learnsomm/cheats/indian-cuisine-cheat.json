@@ -1,0 +1,563 @@
+{
+ "title": "Indian Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Curries & Gravies"
+  },
+  {
+   "name": "Butter Chicken",
+   "slug": "in-butterchicken",
+   "rows": [
+    {
+     "k": "",
+     "v": "Murgh makhani; tomato-cream tandoori chicken."
+    }
+   ]
+  },
+  {
+   "name": "Tikka Masala",
+   "slug": "in-tikkamasala",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled chunks in spiced tomato-cream sauce."
+    }
+   ]
+  },
+  {
+   "name": "Rogan Josh",
+   "slug": "in-roganjosh",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kashmiri aromatic lamb curry."
+    }
+   ]
+  },
+  {
+   "name": "Korma",
+   "slug": "in-korma",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mild nut-and-yogurt braise."
+    }
+   ]
+  },
+  {
+   "name": "Vindaloo",
+   "slug": "in-vindaloo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Goan fiery vinegar-chili pork curry."
+    }
+   ]
+  },
+  {
+   "name": "Chana Masala",
+   "slug": "in-chana",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced chickpea curry."
+    }
+   ]
+  },
+  {
+   "name": "Dal",
+   "slug": "in-dal",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced lentil stew, the everyday staple."
+    }
+   ]
+  },
+  {
+   "name": "Saag",
+   "slug": "in-saag",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced leafy-greens (often with paneer)."
+    }
+   ]
+  },
+  {
+   "cat": "Tandoor & Grill"
+  },
+  {
+   "name": "Tandoori Chicken",
+   "slug": "in-tandoori",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yogurt-spice marinated, clay-oven roasted."
+    }
+   ]
+  },
+  {
+   "name": "Chicken Tikka",
+   "slug": "in-tikka",
+   "rows": [
+    {
+     "k": "",
+     "v": "Boneless marinated grilled chunks."
+    }
+   ]
+  },
+  {
+   "name": "Seekh Kebab",
+   "slug": "in-seekh",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced minced-meat skewer."
+    }
+   ]
+  },
+  {
+   "name": "Naan",
+   "slug": "in-naan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Leavened tandoor flatbread."
+    }
+   ],
+   "name_es": "Sur de Asia (plano)"
+  },
+  {
+   "name": "Tandoor",
+   "slug": "in-tandoor",
+   "rows": [
+    {
+     "k": "",
+     "v": "Clay oven; the technique & vessel."
+    }
+   ]
+  },
+  {
+   "cat": "Breads & Rice"
+  },
+  {
+   "name": "Roti",
+   "slug": "in-roti",
+   "rows": [
+    {
+     "k": "",
+     "v": "Whole-wheat griddle flatbread."
+    }
+   ]
+  },
+  {
+   "name": "Paratha",
+   "slug": "in-paratha",
+   "rows": [
+    {
+     "k": "",
+     "v": "Layered/flaky pan-fried flatbread."
+    }
+   ]
+  },
+  {
+   "name": "Biryani",
+   "slug": "in-biryani",
+   "rows": [
+    {
+     "k": "",
+     "v": "Layered spiced rice with meat/veg."
+    }
+   ]
+  },
+  {
+   "name": "Pulao",
+   "slug": "in-pulao",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lighter spiced rice pilaf."
+    }
+   ]
+  },
+  {
+   "name": "Dosa",
+   "slug": "in-dosa",
+   "rows": [
+    {
+     "k": "",
+     "v": "South Indian fermented rice-lentil crepe."
+    }
+   ]
+  },
+  {
+   "name": "Idli",
+   "slug": "in-idli",
+   "rows": [
+    {
+     "k": "",
+     "v": "Steamed fermented rice-lentil cake."
+    }
+   ]
+  },
+  {
+   "name": "Papadum",
+   "slug": "in-papadum",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp lentil wafer."
+    }
+   ]
+  },
+  {
+   "cat": "Spices"
+  },
+  {
+   "name": "Garam Masala",
+   "slug": "in-garammasala",
+   "rows": [
+    {
+     "k": "",
+     "v": "Warm finishing spice blend."
+    }
+   ]
+  },
+  {
+   "name": "Cumin",
+   "slug": "in-cumin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Jeera; earthy backbone."
+    }
+   ],
+   "name_es": "Comino"
+  },
+  {
+   "name": "Coriander",
+   "slug": "in-coriander",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dhania; citrusy seed."
+    }
+   ]
+  },
+  {
+   "name": "Turmeric",
+   "slug": "in-turmeric",
+   "rows": [
+    {
+     "k": "",
+     "v": "Haldi; earthy, golden."
+    }
+   ]
+  },
+  {
+   "name": "Cardamom",
+   "slug": "in-cardamom",
+   "rows": [
+    {
+     "k": "",
+     "v": "Elaichi; floral, green or black."
+    }
+   ],
+   "name_es": "Cardamomo"
+  },
+  {
+   "name": "Fenugreek",
+   "slug": "in-fenugreek",
+   "rows": [
+    {
+     "k": "",
+     "v": "Methi; maple-bitter leaf & seed."
+    }
+   ]
+  },
+  {
+   "name": "Asafoetida",
+   "slug": "in-asafoetida",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hing; pungent resin, umami when cooked."
+    }
+   ]
+  },
+  {
+   "name": "Mustard Seed",
+   "slug": "in-mustardseed",
+   "rows": [
+    {
+     "k": "",
+     "v": "Popped in oil to start tempering."
+    }
+   ]
+  },
+  {
+   "cat": "Technique & Dairy"
+  },
+  {
+   "name": "Tadka",
+   "slug": "in-tadka",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tempering whole spices in hot fat."
+    }
+   ]
+  },
+  {
+   "name": "Bhuna",
+   "slug": "in-bhuna",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-frying to deepen masala."
+    }
+   ]
+  },
+  {
+   "name": "Ghee",
+   "slug": "in-ghee",
+   "rows": [
+    {
+     "k": "",
+     "v": "Clarified butter, nutty."
+    }
+   ]
+  },
+  {
+   "name": "Paneer",
+   "slug": "in-paneer",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh non-melting cheese."
+    }
+   ]
+  },
+  {
+   "name": "Yogurt",
+   "slug": "in-yogurt",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dahi; marinade, base, cooling."
+    }
+   ],
+   "name_es": "Yogur"
+  },
+  {
+   "name": "Dum",
+   "slug": "in-dum",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow steam-cooking sealed pot."
+    }
+   ]
+  },
+  {
+   "cat": "Regional"
+  },
+  {
+   "name": "North Indian",
+   "slug": "in-north",
+   "rows": [
+    {
+     "k": "",
+     "v": "Wheat, dairy, tandoor, rich gravies."
+    }
+   ]
+  },
+  {
+   "name": "South Indian",
+   "slug": "in-south",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice, coconut, tamarind, fermentation."
+    }
+   ]
+  },
+  {
+   "name": "Bengali",
+   "slug": "in-bengali",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fish, mustard oil, panch phoron, sweets."
+    }
+   ]
+  },
+  {
+   "name": "Punjabi",
+   "slug": "in-punjabi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hearty, buttery, tandoori heartland."
+    }
+   ]
+  },
+  {
+   "name": "Goan",
+   "slug": "in-goan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Portuguese-influenced, vinegar, coconut, seafood."
+    }
+   ]
+  },
+  {
+   "name": "Hyderabadi",
+   "slug": "in-hyderabadi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Biryani capital, Mughlai-Andhra blend."
+    }
+   ]
+  },
+  {
+   "cat": "Chutneys & Sides"
+  },
+  {
+   "name": "Mango Chutney",
+   "slug": "in-mangochutney",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-spicy preserve."
+    }
+   ]
+  },
+  {
+   "name": "Mint Chutney",
+   "slug": "in-mintchutney",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh herb-chili relish."
+    }
+   ]
+  },
+  {
+   "name": "Raita",
+   "slug": "in-raita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yogurt cooler with cucumber/spice."
+    }
+   ]
+  },
+  {
+   "name": "Tamarind Chutney",
+   "slug": "in-tamarindchutney",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-sour date-tamarind."
+    }
+   ]
+  },
+  {
+   "name": "Achaar",
+   "slug": "in-achaar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Oil-cured spicy pickle."
+    }
+   ]
+  },
+  {
+   "name": "Pickle",
+   "slug": "in-pickle",
+   "rows": [
+    {
+     "k": "",
+     "v": "Preserved spiced vegetables/fruit."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Drinks"
+  },
+  {
+   "name": "Gulab Jamun",
+   "slug": "in-gulab",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried milk-dough balls in syrup."
+    }
+   ]
+  },
+  {
+   "name": "Rasgulla",
+   "slug": "in-rasgulla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spongy cheese balls in syrup."
+    }
+   ]
+  },
+  {
+   "name": "Kheer",
+   "slug": "in-kheer",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice pudding with cardamom."
+    }
+   ]
+  },
+  {
+   "name": "Jalebi",
+   "slug": "in-jalebi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried spirals soaked in syrup."
+    }
+   ]
+  },
+  {
+   "name": "Lassi",
+   "slug": "in-lassi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yogurt drink, sweet or salty."
+    }
+   ]
+  },
+  {
+   "name": "Chai",
+   "slug": "in-chai",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spiced milk tea."
+    }
+   ]
+  },
+  {
+   "name": "Kulfi",
+   "slug": "in-kulfi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dense reduced-milk ice cream."
+    }
+   ]
+  }
+ ]
+}

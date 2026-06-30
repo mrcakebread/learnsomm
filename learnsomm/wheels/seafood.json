@@ -1,0 +1,1058 @@
+{
+ "title": "Seafood",
+ "subject": "seafood",
+ "categories": [
+  {
+   "name": "SHRIMP & PRAWNS",
+   "name_fr": "Crevettes & Gambas",
+   "name_it": "Gamberi & Gamberoni",
+   "name_es": "CAMARONES Y LANGOSTINOS",
+   "color": "#e08a6a",
+   "sub": [
+    {
+     "name": "SHRIMP & PRAWNS",
+     "name_fr": "Crevettes & Gambas",
+     "name_it": "Gamberi & Gamberoni",
+     "name_es": "CAMARONES Y LANGOSTINOS",
+     "color": "#e08a6a",
+     "descriptors": [
+      {
+       "name": "Whiteleg (Farmed) Shrimp",
+       "name_fr": "Crevette Pattes Blanches (Élevage)",
+       "name_it": "Gambero Bianco (Allevamento)",
+       "name_es": "Camarón Patiblanco (de Cultivo)",
+       "slug": "whiteleg",
+       "panel": {
+        "origin": "Mild, slightly sweet, with a firm, bouncy bite; the everyday shrimp.",
+        "origin_es": "Suave, ligeramente dulce, con una mordida firme y elástica; el camarón de cada día.",
+        "chemistry": "A warm-water crustacean; the most widely farmed shrimp in the world (Pacific white shrimp).",
+        "chemistry_es": "Un crustáceo de agua cálida; el camarón más cultivado del mundo (camarón blanco del Pacífico).",
+        "pairing": "Crisp whites — Sauvignon Blanc, Albariño, dry rosé; garlic, lemon, chili.",
+        "pairing_es": "Blancos nítidos — Sauvignon Blanc, Albariño, rosado seco; ajo, limón, chile.",
+        "mixology": "Sautéed, grilled, fried, or poached; cooks in minutes — don't overcook.",
+        "mixology_es": "Salteado, a la parrilla, frito o escalfado; se hace en minutos — no lo pases.",
+        "examples": "The most-eaten seafood in the U.S.; affordable and endlessly versatile.",
+        "examples_es": "El marisco más consumido en EE. UU.; económico e infinitamente versátil."
+       }
+      },
+      {
+       "name": "Wild Gulf Shrimp",
+       "name_fr": "Crevette Sauvage du Golfe",
+       "name_it": "Gambero Selvatico del Golfo",
+       "name_es": "Camarón Salvaje del Golfo",
+       "slug": "gulf-shrimp",
+       "panel": {
+        "origin": "Sweeter and brinier than farmed, with a clean, firm texture.",
+        "origin_es": "Más dulce y salino que el de cultivo, con una textura limpia y firme.",
+        "chemistry": "Wild-caught from the Gulf of Mexico (brown, white, and pink shrimp).",
+        "chemistry_es": "Pescado salvaje en el Golfo de México (camarón café, blanco y rosado).",
+        "pairing": "Dry rosé, Chenin Blanc, light lager; Cajun spice, butter, lemon.",
+        "pairing_es": "Rosado seco, Chenin Blanc, lager ligera; especia cajún, mantequilla, limón.",
+        "mixology": "The classic boil, grill, or blacken; ideal for shrimp and grits.",
+        "mixology_es": "El clásico hervido, a la parrilla o ennegrecido; ideal para shrimp and grits.",
+        "examples": "Prized over farmed for fuller flavor; look for U.S. wild-caught.",
+        "examples_es": "Más valorado que el de cultivo por su sabor pleno; busca el salvaje de EE. UU."
+       }
+      },
+      {
+       "name": "Tiger Prawn",
+       "name_fr": "Crevette Tigrée",
+       "name_it": "Gambero Tigre",
+       "name_es": "Langostino Tigre",
+       "slug": "tiger-prawn",
+       "panel": {
+        "origin": "Meaty and firm with a sweet, robust flavor; large and impressive.",
+        "origin_es": "Carnoso y firme, de sabor dulce y robusto; grande y vistoso.",
+        "chemistry": "A large warm-water prawn (black tiger), striped when raw.",
+        "chemistry_es": "Un langostino grande de agua cálida (tigre negro), rayado en crudo.",
+        "pairing": "Off-dry Riesling, Grüner Veltliner, wheat beer; coconut, lime, curry.",
+        "pairing_es": "Riesling semiseco, Grüner Veltliner, cerveza de trigo; coco, lima, curry.",
+        "mixology": "Grilled in the shell, skewered, or in curries; holds up to bold sauces.",
+        "mixology_es": "A la parrilla con cáscara, en brocheta o en curry; aguanta salsas potentes.",
+        "examples": "Among the largest farmed prawns; striking on the plate.",
+        "examples_es": "De los langostinos de cultivo más grandes; impactante en el plato."
+       }
+      },
+      {
+       "name": "Spot Prawn",
+       "name_fr": "Crevette Tachetée",
+       "name_it": "Gambero Macchiato",
+       "name_es": "Camarón Manchado",
+       "slug": "spot-prawn",
+       "panel": {
+        "origin": "Exceptionally sweet and delicate; close to lobster in flavor.",
+        "origin_es": "Excepcionalmente dulce y delicado; cercano a la langosta en sabor.",
+        "chemistry": "A cold-water prawn from the Pacific Northwest, named for its white spots.",
+        "chemistry_es": "Un camarón de agua fría del noroeste del Pacífico, llamado así por sus manchas blancas.",
+        "pairing": "Champagne, Chablis, dry Riesling; minimal seasoning lets it shine.",
+        "pairing_es": "Champagne, Chablis, Riesling seco; condimentar poco para que luzca.",
+        "mixology": "Best barely cooked or raw (crudo); a short, prized season.",
+        "mixology_es": "Mejor apenas cocido o crudo (crudo); de temporada corta y valorada.",
+        "examples": "A West Coast delicacy; eat the same day for peak sweetness.",
+        "examples_es": "Una delicia de la Costa Oeste; cómelo el mismo día para máximo dulzor."
+       }
+      },
+      {
+       "name": "Rock Shrimp",
+       "name_fr": "Crevette des Roches",
+       "name_it": "Gambero di Scoglio",
+       "name_es": "Camarón de Roca",
+       "slug": "rock-shrimp",
+       "panel": {
+        "origin": "Sweet and firm with a lobster-like texture under a hard shell.",
+        "origin_es": "Dulce y firme, con una textura tipo langosta bajo una cáscara dura.",
+        "chemistry": "A small, hard-shelled warm-water shrimp from the southeastern U.S.",
+        "chemistry_es": "Un camarón pequeño de cáscara dura y agua cálida del sureste de EE. UU.",
+        "pairing": "Crisp white, sparkling; butter, garlic, fried with rémoulade.",
+        "pairing_es": "Blanco nítido, espumoso; mantequilla, ajo, frito con rémoulade.",
+        "mixology": "Usually split, cleaned, and fried or sautéed.",
+        "mixology_es": "Suele abrirse, limpiarse y freírse o saltearse.",
+        "examples": "The hard shell earns the name; tastes richer than its size suggests.",
+        "examples_es": "La cáscara dura le da el nombre; sabe más rico de lo que su tamaño sugiere."
+       }
+      },
+      {
+       "name": "Royal Red Shrimp",
+       "name_fr": "Crevette Rouge Royale",
+       "name_it": "Gambero Rosso Reale",
+       "name_es": "Camarón Rojo Real",
+       "slug": "royal-red",
+       "panel": {
+        "origin": "Rich, sweet, and almost lobster-like; soft, luscious texture.",
+        "origin_es": "Rico, dulce y casi como langosta; textura suave y untuosa.",
+        "chemistry": "A deep-water shrimp from the Gulf and Atlantic, naturally red when raw.",
+        "chemistry_es": "Un camarón de aguas profundas del Golfo y el Atlántico, rojo de forma natural en crudo.",
+        "pairing": "Richer whites — oaked Chardonnay, white Rioja; butter, simple sauté.",
+        "pairing_es": "Blancos más amplios — Chardonnay con barrica, Rioja blanco; mantequilla, salteado simple.",
+        "mixology": "Cook gently and briefly; they're delicate and quick.",
+        "mixology_es": "Cocina suave y poco tiempo; son delicados y rápidos.",
+        "examples": "A deep-water prize; salty-sweet from the cold depths.",
+        "examples_es": "Un tesoro de aguas profundas; dulce-salado por las frías profundidades."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LOBSTER & CRAYFISH",
+   "name_fr": "Homard & Écrevisse",
+   "name_it": "Astice & Gambero di Fiume",
+   "name_es": "LANGOSTA Y CANGREJO DE RÍO",
+   "color": "#c8503a",
+   "sub": [
+    {
+     "name": "LOBSTER & CRAYFISH",
+     "name_fr": "Homard & Écrevisse",
+     "name_it": "Astice & Gambero di Fiume",
+     "name_es": "LANGOSTA Y CANGREJO DE RÍO",
+     "color": "#c8503a",
+     "descriptors": [
+      {
+       "name": "American (Maine) Lobster",
+       "name_fr": "Homard Américain (du Maine)",
+       "name_it": "Astice Americano (del Maine)",
+       "name_es": "Langosta Americana (de Maine)",
+       "slug": "american-lobster",
+       "panel": {
+        "origin": "Sweet, rich, and firm; the classic cold-water lobster.",
+        "origin_es": "Dulce, rica y firme; la clásica langosta de agua fría.",
+        "chemistry": "A cold-water clawed lobster from the North Atlantic (Maine, Canada).",
+        "chemistry_es": "Una langosta con pinzas de agua fría del Atlántico Norte (Maine, Canadá).",
+        "pairing": "Champagne, white Burgundy, oaked Chardonnay; drawn butter, lemon.",
+        "pairing_es": "Champagne, Borgoña blanco, Chardonnay con barrica; mantequilla clarificada, limón.",
+        "mixology": "Steamed or boiled; the claws and tail hold the prized meat.",
+        "mixology_es": "Al vapor o hervida; las pinzas y la cola guardan la carne preciada.",
+        "examples": "Once prison food, now a delicacy; the meat is in the tail and claws.",
+        "examples_es": "Antaño comida de prisión, hoy una delicia; la carne está en la cola y las pinzas."
+       }
+      },
+      {
+       "name": "Spiny (Rock) Lobster",
+       "name_fr": "Langouste",
+       "name_it": "Aragosta",
+       "name_es": "Langosta Espinosa",
+       "slug": "spiny-lobster",
+       "panel": {
+        "origin": "Sweeter and firmer than clawed lobster, all in the tail.",
+        "origin_es": "Más dulce y firme que la langosta con pinzas, todo en la cola.",
+        "chemistry": "A warm-water clawless lobster (Caribbean, Pacific); long spiny antennae.",
+        "chemistry_es": "Una langosta sin pinzas de agua cálida (Caribe, Pacífico); largas antenas espinosas.",
+        "pairing": "Dry rosé, Viognier, sparkling; grilled with butter and herbs.",
+        "pairing_es": "Rosado seco, Viognier, espumoso; a la parrilla con mantequilla y hierbas.",
+        "mixology": "Grilled or split-and-broiled; the tail is the only major meat.",
+        "mixology_es": "A la parrilla o abierta y gratinada; la cola es la única carne importante.",
+        "examples": "No big claws — the meat is all in the tail; common in warm seas.",
+        "examples_es": "Sin pinzas grandes — la carne está toda en la cola; común en mares cálidos."
+       }
+      },
+      {
+       "name": "Langoustine",
+       "name_fr": "Langoustine",
+       "name_it": "Scampo",
+       "name_es": "Cigala",
+       "slug": "langoustine",
+       "panel": {
+        "origin": "Delicate, sweet, and refined; like a tiny, elegant lobster.",
+        "origin_es": "Delicada, dulce y refinada; como una langosta diminuta y elegante.",
+        "chemistry": "A small clawed crustacean (Norway lobster / scampi) from the North Atlantic.",
+        "chemistry_es": "Un crustáceo pequeño con pinzas (cigala / scampi) del Atlántico Norte.",
+        "pairing": "Chablis, Champagne, dry Riesling; light butter, lemon, herbs.",
+        "pairing_es": "Chablis, Champagne, Riesling seco; mantequilla ligera, limón, hierbas.",
+        "mixology": "Briefly poached or grilled; the tail meat is the prize.",
+        "mixology_es": "Escalfada brevemente o a la parrilla; la carne de la cola es el premio.",
+        "examples": "The 'scampi' of Italian menus; prized in fine European kitchens.",
+        "examples_es": "El 'scampi' de los menús italianos; muy valorada en la alta cocina europea."
+       }
+      },
+      {
+       "name": "Crawfish",
+       "name_fr": "Écrevisse",
+       "name_it": "Gambero di Fiume",
+       "name_es": "Cangrejo de Río",
+       "slug": "crawfish",
+       "panel": {
+        "origin": "Sweet, mild, and a touch earthy; small but flavorful.",
+        "origin_es": "Dulce, suave y algo terroso; pequeño pero sabroso.",
+        "chemistry": "A freshwater crustacean (crayfish), central to Louisiana cooking.",
+        "chemistry_es": "Un crustáceo de agua dulce (cangrejo de río), eje de la cocina de Luisiana.",
+        "pairing": "Light lager, dry rosé, off-dry Riesling; Cajun boil spice, corn, sausage.",
+        "pairing_es": "Lager ligera, rosado seco, Riesling semiseco; especia cajún de hervido, maíz, salchicha.",
+        "mixology": "The classic boil with spice, corn, and potatoes; suck the heads.",
+        "mixology_es": "El clásico hervido con especia, maíz y papas; chupa las cabezas.",
+        "examples": "The star of the Louisiana crawfish boil; also 'crawdads' or 'mudbugs.'",
+        "examples_es": "La estrella del hervido de cangrejo de Luisiana; también 'crawdads' o 'mudbugs'."
+       }
+      },
+      {
+       "name": "Slipper Lobster",
+       "name_fr": "Cigale de Mer",
+       "name_it": "Magnosa",
+       "name_es": "Langosta Zapatilla",
+       "slug": "slipper-lobster",
+       "panel": {
+        "origin": "Sweet and firm, between lobster and shrimp.",
+        "origin_es": "Dulce y firme, entre langosta y camarón.",
+        "chemistry": "A flat, clawless crustacean with shovel-like front plates; warm seas.",
+        "chemistry_es": "Un crustáceo plano y sin pinzas con placas frontales en forma de pala; mares cálidos.",
+        "pairing": "Dry white, sparkling; butter, garlic, simple grilling.",
+        "pairing_es": "Blanco seco, espumoso; mantequilla, ajo, parrilla sencilla.",
+        "mixology": "Grilled or steamed; the tail holds the meat.",
+        "mixology_es": "A la parrilla o al vapor; la cola guarda la carne.",
+        "examples": "Odd-looking but delicious; a hidden gem in many warm-water cuisines.",
+        "examples_es": "De aspecto curioso pero deliciosa; una joya oculta en muchas cocinas de agua cálida."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CRABS",
+   "name_fr": "Crabes",
+   "name_it": "Granchi",
+   "name_es": "CANGREJOS",
+   "color": "#d97a4a",
+   "sub": [
+    {
+     "name": "CRABS",
+     "name_fr": "Crabes",
+     "name_it": "Granchi",
+     "name_es": "CANGREJOS",
+     "color": "#d97a4a",
+     "descriptors": [
+      {
+       "name": "King Crab",
+       "name_fr": "Crabe Royal",
+       "name_it": "Granchio Reale",
+       "name_es": "Cangrejo Real",
+       "slug": "king-crab",
+       "panel": {
+        "origin": "Sweet and delicate, like lobster; firm chunks of white leg meat.",
+        "origin_es": "Dulce y delicado, como langosta; trozos firmes de carne blanca de pata.",
+        "chemistry": "A huge cold-water crab from the North Pacific (Alaska, Russia); 6–25 lb.",
+        "chemistry_es": "Un cangrejo enorme de agua fría del Pacífico Norte (Alaska, Rusia); 3–11 kg.",
+        "pairing": "Champagne, white Burgundy, oaked Chardonnay; drawn butter, lemon.",
+        "pairing_es": "Champagne, Borgoña blanco, Chardonnay con barrica; mantequilla clarificada, limón.",
+        "mixology": "Steamed, boiled, or baked; the meat is almost all in the legs.",
+        "mixology_es": "Al vapor, hervido o al horno; la carne está casi toda en las patas.",
+        "examples": "The largest crab on most menus; legs can span up to five feet.",
+        "examples_es": "El cangrejo más grande de la mayoría de los menús; las patas abarcan hasta metro y medio."
+       }
+      },
+      {
+       "name": "Dungeness Crab",
+       "name_fr": "Crabe Dormeur (Dungeness)",
+       "name_it": "Granchio Dungeness",
+       "name_es": "Cangrejo Dungeness",
+       "slug": "dungeness",
+       "panel": {
+        "origin": "Sweet and nutty; tender, abundant meat.",
+        "origin_es": "Dulce y a nuez; carne tierna y abundante.",
+        "chemistry": "A Pacific Coast crab (California to Alaska); 1.75–4 lb.",
+        "chemistry_es": "Un cangrejo de la Costa del Pacífico (de California a Alaska); 0,8–1,8 kg.",
+        "pairing": "Off-dry Riesling, Grüner, sparkling; butter, lemon, simple cracked.",
+        "pairing_es": "Riesling semiseco, Grüner, espumoso; mantequilla, limón, partido y simple.",
+        "mixology": "Steamed, boiled, or grilled; legs, claws, and body all give meat.",
+        "mixology_es": "Al vapor, hervido o a la parrilla; patas, pinzas y cuerpo dan carne.",
+        "examples": "A West Coast favorite; the shells make a superb stock.",
+        "examples_es": "Un favorito de la Costa Oeste; los caparazones dan un caldo soberbio."
+       }
+      },
+      {
+       "name": "Snow Crab",
+       "name_fr": "Crabe des Neiges",
+       "name_it": "Granchio delle Nevi",
+       "name_es": "Cangrejo de las Nieves",
+       "slug": "snow-crab",
+       "panel": {
+        "origin": "Subtly sweet and slightly briny; snow-white meat.",
+        "origin_es": "Sutilmente dulce y algo salino; carne blanca como la nieve.",
+        "chemistry": "A cold-water crab of the North Pacific and Atlantic; long, spindly legs.",
+        "chemistry_es": "Un cangrejo de agua fría del Pacífico y el Atlántico norte; patas largas y finas.",
+        "pairing": "Crisp white, sparkling, light lager; butter and lemon.",
+        "pairing_es": "Blanco nítido, espumoso, lager ligera; mantequilla y limón.",
+        "mixology": "Gently steamed; the thin shell cracks by hand — easy to overcook.",
+        "mixology_es": "Al vapor suave; la cáscara fina se rompe a mano — fácil de pasarse.",
+        "examples": "Easier to crack than king crab; smaller and slightly brinier.",
+        "examples_es": "Más fácil de partir que el cangrejo real; más pequeño y un poco más salino."
+       }
+      },
+      {
+       "name": "Blue Crab",
+       "name_fr": "Crabe Bleu",
+       "name_it": "Granchio Blu",
+       "name_es": "Cangrejo Azul",
+       "slug": "blue-crab",
+       "panel": {
+        "origin": "Rich, succulent, mildly nutty; the Chesapeake icon.",
+        "origin_es": "Rico, suculento y con leve sabor a nuez; el icono de Chesapeake.",
+        "chemistry": "A blue-shelled crab of the U.S. East Coast, especially Maryland.",
+        "chemistry_es": "Un cangrejo de caparazón azul de la Costa Este de EE. UU., sobre todo Maryland.",
+        "pairing": "Lager, dry rosé, Old Bay everything; corn, vinegar, beer.",
+        "pairing_es": "Lager, rosado seco, Old Bay en todo; maíz, vinagre, cerveza.",
+        "mixology": "Steamed with Old Bay and picked by hand; the classic crab feast.",
+        "mixology_es": "Al vapor con Old Bay y desmenuzado a mano; el clásico festín de cangrejo.",
+        "examples": "Turns bright red when cooked; the heart of a Maryland crab boil.",
+        "examples_es": "Se pone rojo brillante al cocinarse; el corazón de un hervido de cangrejo de Maryland."
+       }
+      },
+      {
+       "name": "Soft-Shell Crab",
+       "name_fr": "Crabe à Carapace Molle",
+       "name_it": "Granchio a Guscio Molle",
+       "name_es": "Cangrejo de Caparazón Blando",
+       "slug": "soft-shell",
+       "panel": {
+        "origin": "Rich and nutty with a satisfying crunch; eaten whole.",
+        "origin_es": "Rico y a nuez con un crujido satisfactorio; se come entero.",
+        "chemistry": "A blue crab caught just after molting, while its shell is still soft.",
+        "chemistry_es": "Un cangrejo azul capturado justo tras mudar, con el caparazón aún blando.",
+        "pairing": "Sparkling, crisp white, lager; lemon, rémoulade, brown butter.",
+        "pairing_es": "Espumoso, blanco nítido, lager; limón, rémoulade, mantequilla tostada.",
+        "mixology": "Lightly battered and fried, or sautéed — shell and all.",
+        "mixology_es": "Rebozado ligero y frito, o salteado — con caparazón y todo.",
+        "examples": "Edible whole for only ~12 hours after molting; a spring delicacy.",
+        "examples_es": "Comestible entero solo ~12 horas tras la muda; una delicia de primavera."
+       }
+      },
+      {
+       "name": "Stone Crab",
+       "name_fr": "Crabe de Pierre",
+       "name_it": "Granchio di Pietra",
+       "name_es": "Cangrejo de Piedra",
+       "slug": "stone-crab",
+       "panel": {
+        "origin": "Sweet and firm, like shrimp or lobster; claws only.",
+        "origin_es": "Dulce y firme, como camarón o langosta; solo las pinzas.",
+        "chemistry": "A Florida/Gulf crab prized for its claws, which regenerate when harvested.",
+        "chemistry_es": "Un cangrejo de Florida/el Golfo apreciado por sus pinzas, que se regeneran tras la captura.",
+        "pairing": "Champagne, dry rosé, crisp white; the classic mustard sauce.",
+        "pairing_es": "Champagne, rosado seco, blanco nítido; la clásica salsa de mostaza.",
+        "mixology": "Claws are boiled or steamed and served chilled on ice.",
+        "mixology_es": "Las pinzas se hierven o cuecen al vapor y se sirven frías sobre hielo.",
+        "examples": "Sustainable — one claw is taken and the crab released to regrow it.",
+        "examples_es": "Sostenible — se toma una pinza y se libera al cangrejo para que la regenere."
+       }
+      },
+      {
+       "name": "Peekytoe Crab",
+       "name_fr": "Crabe Peekytoe",
+       "name_it": "Granchio Peekytoe",
+       "name_es": "Cangrejo Peekytoe",
+       "slug": "peekytoe",
+       "panel": {
+        "origin": "Subtly sweet and briny; delicate white-and-pink meat.",
+        "origin_es": "Sutilmente dulce y salino; carne delicada blanca y rosada.",
+        "chemistry": "An Atlantic rock crab from the Northeast (Nova Scotia to Rhode Island).",
+        "chemistry_es": "Un cangrejo de roca del Atlántico del noreste (de Nueva Escocia a Rhode Island).",
+        "pairing": "Crisp white, sparkling; lemon, light aioli, over salad.",
+        "pairing_es": "Blanco nítido, espumoso; limón, alioli ligero, sobre ensalada.",
+        "mixology": "Picked fresh; shredded over salads or formed into crab cakes.",
+        "mixology_es": "Desmenuzado fresco; sobre ensaladas o en pasteles de cangrejo.",
+        "examples": "Once a throw-away 'pest'; renamed and now a chef's favorite.",
+        "examples_es": "Antaño una 'plaga' desechable; renombrado y hoy un favorito de los chefs."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OYSTERS",
+   "name_fr": "Huîtres",
+   "name_it": "Ostriche",
+   "name_es": "OSTRAS",
+   "color": "#8a9a7a",
+   "sub": [
+    {
+     "name": "OYSTERS",
+     "name_fr": "Huîtres",
+     "name_it": "Ostriche",
+     "name_es": "OSTRAS",
+     "color": "#8a9a7a",
+     "descriptors": [
+      {
+       "name": "Pacific Oyster",
+       "name_fr": "Huître du Pacifique",
+       "name_it": "Ostrica del Pacifico",
+       "name_es": "Ostra del Pacífico",
+       "slug": "pacific-oyster",
+       "panel": {
+        "origin": "Sweet, creamy, and buttery; mild and crowd-pleasing.",
+        "origin_es": "Dulce, cremosa y mantecosa; suave y del gusto de todos.",
+        "chemistry": "The world's most cultivated oyster; deep-cupped, fluted shell.",
+        "chemistry_es": "La ostra más cultivada del mundo; concha de copa profunda y bordes ondulados.",
+        "pairing": "Champagne, Muscadet, Chablis, Sancerre; mignonette, lemon.",
+        "pairing_es": "Champagne, Muscadet, Chablis, Sancerre; mignonette, limón.",
+        "mixology": "Raw on the half shell, or grilled, baked, or fried.",
+        "mixology_es": "Cruda en media concha, o a la parrilla, al horno o frita.",
+        "examples": "Native to Asia, now grown worldwide; reaches market size fast.",
+        "examples_es": "Originaria de Asia, hoy cultivada en todo el mundo; alcanza rápido el tamaño de mercado."
+       }
+      },
+      {
+       "name": "Atlantic (Eastern) Oyster",
+       "name_fr": "Huître Atlantique (Orientale)",
+       "name_it": "Ostrica Atlantica (Orientale)",
+       "name_es": "Ostra del Atlántico (Oriental)",
+       "slug": "eastern-oyster",
+       "panel": {
+        "origin": "Salty and briny with chewy meat; bold and clean.",
+        "origin_es": "Salada y salina con carne masticable; intensa y limpia.",
+        "chemistry": "The 'American oyster' of the U.S. East Coast and Gulf; one species, many appellations.",
+        "chemistry_es": "La 'ostra americana' de la Costa Este de EE. UU. y el Golfo; una especie, muchas denominaciones.",
+        "pairing": "Muscadet, Champagne, dry Riesling; lemon, cocktail sauce.",
+        "pairing_es": "Muscadet, Champagne, Riesling seco; limón, salsa cóctel.",
+        "mixology": "Raw on the half shell, or in Rockefeller and po'boys.",
+        "mixology_es": "Cruda en media concha, o en Rockefeller y po'boys.",
+        "examples": "Bluepoint, Wellfleet, and Malpeque are all Eastern oysters by region (merroir).",
+        "examples_es": "Bluepoint, Wellfleet y Malpeque son todas ostras orientales según la región (merroir)."
+       }
+      },
+      {
+       "name": "Kumamoto Oyster",
+       "name_fr": "Huître Kumamoto",
+       "name_it": "Ostrica Kumamoto",
+       "name_es": "Ostra Kumamoto",
+       "slug": "kumamoto",
+       "panel": {
+        "origin": "Sweet, melon-like, and creamy; small and beginner-friendly.",
+        "origin_es": "Dulce, con notas a melón y cremosa; pequeña y fácil para principiantes.",
+        "chemistry": "A small, deep-cupped Pacific-type oyster, originally from Japan.",
+        "chemistry_es": "Una ostra pequeña de copa profunda tipo Pacífico, originaria de Japón.",
+        "pairing": "Champagne, Chablis, dry Riesling; just a squeeze of lemon.",
+        "pairing_es": "Champagne, Chablis, Riesling seco; solo un chorrito de limón.",
+        "mixology": "Best raw on the half shell to show its sweetness.",
+        "mixology_es": "Mejor cruda en media concha para mostrar su dulzor.",
+        "examples": "A gateway oyster — mild, sweet, and never aggressive.",
+        "examples_es": "Una ostra de iniciación — suave, dulce y nunca agresiva."
+       }
+      },
+      {
+       "name": "Olympia Oyster",
+       "name_fr": "Huître Olympia",
+       "name_it": "Ostrica Olympia",
+       "name_es": "Ostra Olympia",
+       "slug": "olympia",
+       "panel": {
+        "origin": "Mildly sweet with coppery, metallic notes and a crisp finish.",
+        "origin_es": "Levemente dulce con notas cobrizas y metálicas y un final nítido.",
+        "chemistry": "A tiny native oyster of the Pacific Northwest; coin-sized.",
+        "chemistry_es": "Una ostra nativa diminuta del noroeste del Pacífico; del tamaño de una moneda.",
+        "pairing": "Brut sparkling, Muscadet, crisp white; lemon only.",
+        "pairing_es": "Espumoso brut, Muscadet, blanco nítido; solo limón.",
+        "mixology": "Raw on the half shell; too small and prized to cook.",
+        "mixology_es": "Cruda en media concha; demasiado pequeña y valiosa para cocinarla.",
+        "examples": "America's only native West Coast oyster; fragile and cultivated for protection.",
+        "examples_es": "La única ostra nativa de la Costa Oeste de EE. UU.; frágil y cultivada para protegerla."
+       }
+      },
+      {
+       "name": "European Flat (Belon)",
+       "name_fr": "Plate Européenne (Belon)",
+       "name_it": "Piatta Europea (Belon)",
+       "name_es": "Ostra Plana Europea (Belon)",
+       "slug": "belon",
+       "panel": {
+        "origin": "Bold, briny, and minerally with a distinct crunch.",
+        "origin_es": "Intensa, salina y mineral, con un crujido distintivo.",
+        "chemistry": "A flat, saucer-shaped European oyster; true Belon is from Brittany.",
+        "chemistry_es": "Una ostra europea plana en forma de platillo; la Belon auténtica es de Bretaña.",
+        "pairing": "Champagne, Chablis, Muscadet; nothing but the oyster.",
+        "pairing_es": "Champagne, Chablis, Muscadet; nada más que la ostra.",
+        "mixology": "Raw on the half shell; the connoisseur's oyster.",
+        "mixology_es": "Cruda en media concha; la ostra del conocedor.",
+        "examples": "'Belon' is a protected flat from Brittany; intensely mineral.",
+        "examples_es": "'Belon' es una plana protegida de Bretaña; intensamente mineral."
+       }
+      },
+      {
+       "name": "Sydney Rock Oyster",
+       "name_fr": "Huître de Roche de Sydney",
+       "name_it": "Ostrica di Roccia di Sydney",
+       "name_es": "Ostra de Roca de Sídney",
+       "slug": "sydney-rock",
+       "panel": {
+        "origin": "Mildly sweet with metallic undertones; rich and long-finishing.",
+        "origin_es": "Levemente dulce con fondo metálico; rica y de final largo.",
+        "chemistry": "An oyster of Australia and New Zealand; long-lived (up to 10 years).",
+        "chemistry_es": "Una ostra de Australia y Nueva Zelanda; longeva (hasta 10 años).",
+        "pairing": "Australian sparkling, Riesling, Sémillon; lemon, mignonette.",
+        "pairing_es": "Espumoso australiano, Riesling, Sémillon; limón, mignonette.",
+        "mixology": "Raw on the half shell, or lightly grilled.",
+        "mixology_es": "Cruda en media concha, o ligeramente a la parrilla.",
+        "examples": "Despite the name, it doesn't grow in Sydney Harbour itself.",
+        "examples_es": "A pesar del nombre, no crece en el propio puerto de Sídney."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CLAMS",
+   "name_fr": "Palourdes",
+   "name_it": "Vongole",
+   "name_es": "ALMEJAS",
+   "color": "#b0a080",
+   "sub": [
+    {
+     "name": "CLAMS",
+     "name_fr": "Palourdes",
+     "name_it": "Vongole",
+     "name_es": "ALMEJAS",
+     "color": "#b0a080",
+     "descriptors": [
+      {
+       "name": "Littleneck Clam",
+       "name_fr": "Praire Littleneck",
+       "name_it": "Vongola Littleneck",
+       "name_es": "Almeja Littleneck",
+       "slug": "littleneck",
+       "panel": {
+        "origin": "Mildly briny and pleasantly sweet; plump and tender.",
+        "origin_es": "Levemente salina y agradablemente dulce; carnosa y tierna.",
+        "chemistry": "The smallest, most tender hard clam (~1\"); named for Little Neck Bay.",
+        "chemistry_es": "La almeja dura más pequeña y tierna (~2,5 cm); llamada así por Little Neck Bay.",
+        "pairing": "Muscadet, Vermentino, crisp white; lemon, garlic, white wine.",
+        "pairing_es": "Muscadet, Vermentino, blanco nítido; limón, ajo, vino blanco.",
+        "mixology": "Raw on the half shell, or steamed; the most versatile small clam.",
+        "mixology_es": "Cruda en media concha, o al vapor; la almeja pequeña más versátil.",
+        "examples": "The go-to raw clam; the youngest, smallest hard-shell.",
+        "examples_es": "La almeja cruda por excelencia; la de caparazón duro más joven y pequeña."
+       }
+      },
+      {
+       "name": "Cherrystone Clam",
+       "name_fr": "Praire Cherrystone",
+       "name_it": "Vongola Cherrystone",
+       "name_es": "Almeja Cherrystone",
+       "slug": "cherrystone",
+       "panel": {
+        "origin": "Lingering salt with a smooth, clean finish; firm, chewy meat.",
+        "origin_es": "Sal persistente con un final suave y limpio; carne firme y masticable.",
+        "chemistry": "A larger hard clam (2–3\"); bigger than a littleneck.",
+        "chemistry_es": "Una almeja dura más grande (5–7,5 cm); mayor que la littleneck.",
+        "pairing": "Crisp white, sparkling, lager; lemon, drawn butter.",
+        "pairing_es": "Blanco nítido, espumoso, lager; limón, mantequilla clarificada.",
+        "mixology": "Raw on the half shell, or stuffed and broiled (Clams Casino).",
+        "mixology_es": "Cruda en media concha, o rellena y gratinada (Clams Casino).",
+        "examples": "The classic stuffed-clam size; meaty enough to cook.",
+        "examples_es": "El tamaño clásico para almeja rellena; con carne suficiente para cocinar."
+       }
+      },
+      {
+       "name": "Quahog",
+       "name_fr": "Praire (Quahog)",
+       "name_it": "Vongola Quahog",
+       "name_es": "Quahog (Almeja de Chowder)",
+       "slug": "quahog",
+       "panel": {
+        "origin": "Briny and salty with tough, chewy meat; best chopped.",
+        "origin_es": "Salina y salada con carne dura y masticable; mejor picada.",
+        "chemistry": "The biggest hard clam (4\"+), also called a 'chowder clam.'",
+        "chemistry_es": "La almeja dura más grande (10+ cm), también llamada 'almeja de chowder'.",
+        "pairing": "Lager, dry white; chowder, not raw.",
+        "pairing_es": "Lager, blanco seco; para chowder, no cruda.",
+        "mixology": "Chopped and cooked low and slow — chowder or stuffies.",
+        "mixology_es": "Picada y cocida a fuego lento — chowder o 'stuffies'.",
+        "examples": "Too tough to serve raw; the workhorse of New England chowder.",
+        "examples_es": "Demasiado dura para servir cruda; el caballo de batalla del chowder de Nueva Inglaterra."
+       }
+      },
+      {
+       "name": "Manila Clam",
+       "name_fr": "Palourde Japonaise (Manila)",
+       "name_it": "Vongola Verace (Manila)",
+       "name_es": "Almeja Manila",
+       "slug": "manila-clam",
+       "panel": {
+        "origin": "Sweet, briny, and tender; small and quick-cooking.",
+        "origin_es": "Dulce, salina y tierna; pequeña y de cocción rápida.",
+        "chemistry": "A small, striped hard clam farmed worldwide (Pacific Northwest, Asia).",
+        "chemistry_es": "Una almeja dura pequeña y rayada cultivada en todo el mundo (noroeste del Pacífico, Asia).",
+        "pairing": "Albariño, Vermentino, dry white; garlic, wine, chorizo.",
+        "pairing_es": "Albariño, Vermentino, blanco seco; ajo, vino, chorizo.",
+        "mixology": "Steamed fast; the go-to for vongole and quick clam dishes.",
+        "mixology_es": "Al vapor rápido; la elegida para las vongole y los platos rápidos de almeja.",
+        "examples": "The most-farmed clam; sustainable and reliably sweet.",
+        "examples_es": "La almeja más cultivada; sostenible y fiablemente dulce."
+       }
+      },
+      {
+       "name": "Razor Clam",
+       "name_fr": "Couteau",
+       "name_it": "Cannolicchio",
+       "name_es": "Navaja",
+       "slug": "razor-clam",
+       "panel": {
+        "origin": "Sweet and rich with a firm, almost crunchy bite.",
+        "origin_es": "Dulce y rica con una mordida firme, casi crujiente.",
+        "chemistry": "A long, narrow clam in a straight-razor-shaped shell.",
+        "chemistry_es": "Una almeja larga y estrecha en una concha con forma de navaja.",
+        "pairing": "Manzanilla sherry, Albariño, cava; griddled with garlic.",
+        "pairing_es": "Jerez manzanilla, Albariño, cava; a la plancha con ajo.",
+        "mixology": "Quickly griddled, grilled, or fried; cooks in moments.",
+        "mixology_es": "A la plancha, a la parrilla o frita, rápido; se hace en segundos.",
+        "examples": "A tapas-bar favorite in Spain ('navajas'); cook fast or it toughens.",
+        "examples_es": "Una favorita de las barras de tapas en España ('navajas'); cocínala rápido o se endurece."
+       }
+      },
+      {
+       "name": "Geoduck",
+       "name_fr": "Panope (Geoduck)",
+       "name_it": "Geoduck",
+       "name_es": "Geoduck (Almeja Gigante)",
+       "slug": "geoduck",
+       "panel": {
+        "origin": "Sweet, briny, and crisp; remarkably clean and crunchy.",
+        "origin_es": "Dulce, salina y crujiente; notablemente limpia y crocante.",
+        "chemistry": "A giant Pacific Northwest burrowing clam with a long siphon.",
+        "chemistry_es": "Una almeja excavadora gigante del noroeste del Pacífico con un sifón largo.",
+        "pairing": "Dry Riesling, sake, crisp sparkling; thin-sliced raw.",
+        "pairing_es": "Riesling seco, sake, espumoso nítido; en lonchas finas crudas.",
+        "mixology": "Sliced thin for crudo/sashimi, or flash-cooked in stir-fry.",
+        "mixology_es": "En lonchas finas para crudo/sashimi, o salteada al wok muy rápido.",
+        "examples": "Pronounced 'gooey-duck'; the siphon is the prized, crunchy part.",
+        "examples_es": "Se pronuncia 'gui-dak'; el sifón es la parte preciada y crujiente."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MUSSELS & SCALLOPS",
+   "name_fr": "Moules & Coquilles",
+   "name_it": "Cozze & Capesante",
+   "name_es": "MEJILLONES Y VIEIRAS",
+   "color": "#5a7a8a",
+   "sub": [
+    {
+     "name": "MUSSELS & SCALLOPS",
+     "name_fr": "Moules & Coquilles",
+     "name_it": "Cozze & Capesante",
+     "name_es": "MEJILLONES Y VIEIRAS",
+     "color": "#5a7a8a",
+     "descriptors": [
+      {
+       "name": "Blue Mussel",
+       "name_fr": "Moule Bleue",
+       "name_it": "Cozza Blu",
+       "name_es": "Mejillón Azul",
+       "slug": "blue-mussel",
+       "panel": {
+        "origin": "Briny and savory; takes on the flavor of its broth.",
+        "origin_es": "Salino y sabroso; toma el sabor de su caldo.",
+        "chemistry": "The common North Atlantic mussel; blue-black shell.",
+        "chemistry_es": "El mejillón común del Atlántico Norte; concha azul-negra.",
+        "pairing": "Muscadet, dry Riesling, Belgian witbier; the classic moules-frites.",
+        "pairing_es": "Muscadet, Riesling seco, witbier belga; el clásico moules-frites.",
+        "mixology": "Steamed in wine or beer with aromatics; eat the broth too.",
+        "mixology_es": "Al vapor en vino o cerveza con aromáticos; aprovecha también el caldo.",
+        "examples": "The mussel of moules-frites; the broth may beat the mussels.",
+        "examples_es": "El mejillón del moules-frites; el caldo puede superar a los mejillones."
+       }
+      },
+      {
+       "name": "Green-Lipped Mussel",
+       "name_fr": "Moule aux Lèvres Vertes",
+       "name_it": "Cozza Verde",
+       "name_es": "Mejillón de Labio Verde",
+       "slug": "green-lipped",
+       "panel": {
+        "origin": "Sweet, plump, and meaty; larger than blue mussels.",
+        "origin_es": "Dulce, carnoso y rollizo; más grande que el mejillón azul.",
+        "chemistry": "A large mussel native to New Zealand, with a green-edged shell.",
+        "chemistry_es": "Un mejillón grande originario de Nueva Zelanda, con el borde de la concha verde.",
+        "pairing": "Sauvignon Blanc (Marlborough), dry rosé; garlic, chili, coconut.",
+        "pairing_es": "Sauvignon Blanc (Marlborough), rosado seco; ajo, chile, coco.",
+        "mixology": "Steamed, baked on the half shell, or grilled.",
+        "mixology_es": "Al vapor, gratinado en media concha o a la parrilla.",
+        "examples": "New Zealand's signature mussel; big and showy on the plate.",
+        "examples_es": "El mejillón emblemático de Nueva Zelanda; grande y vistoso en el plato."
+       }
+      },
+      {
+       "name": "Mediterranean Mussel",
+       "name_fr": "Moule Méditerranéenne",
+       "name_it": "Cozza Mediterranea",
+       "name_es": "Mejillón Mediterráneo",
+       "slug": "med-mussel",
+       "panel": {
+        "origin": "Rich, full, and briny; plump orange meat.",
+        "origin_es": "Rico, lleno y salino; carne naranja y carnosa.",
+        "chemistry": "A warm-water mussel farmed across the Mediterranean and beyond.",
+        "chemistry_es": "Un mejillón de agua cálida cultivado por el Mediterráneo y más allá.",
+        "pairing": "Vermentino, Albariño, dry rosé; tomato, garlic, white wine.",
+        "pairing_es": "Vermentino, Albariño, rosado seco; tomate, ajo, vino blanco.",
+        "mixology": "Steamed or in tomato-garlic broth; hearty and flavorful.",
+        "mixology_es": "Al vapor o en caldo de tomate y ajo; sustancioso y sabroso.",
+        "examples": "Fuller-bodied than the blue mussel; thrives in warmer waters.",
+        "examples_es": "De cuerpo más pleno que el mejillón azul; prospera en aguas más cálidas."
+       }
+      },
+      {
+       "name": "Sea Scallop",
+       "name_fr": "Coquille Saint-Jacques",
+       "name_it": "Capasanta",
+       "name_es": "Vieira (Grande)",
+       "slug": "sea-scallop",
+       "panel": {
+        "origin": "Sweet, rich, and buttery; firm with a tender bite.",
+        "origin_es": "Dulce, rica y mantecosa; firme con una mordida tierna.",
+        "chemistry": "A large cold-water scallop (the big disc on a seared-scallop plate).",
+        "chemistry_es": "Una vieira grande de agua fría (el disco grande del plato de vieira a la plancha).",
+        "pairing": "White Burgundy, Champagne, oaked Chardonnay; brown butter, citrus.",
+        "pairing_es": "Borgoña blanco, Champagne, Chardonnay con barrica; mantequilla tostada, cítricos.",
+        "mixology": "Pat dry and sear hard for a golden crust; don't overcrowd.",
+        "mixology_es": "Sécala y séllala fuerte para una costra dorada; no satures la sartén.",
+        "examples": "'Dry' (untreated) scallops sear best; 'diver' means hand-harvested.",
+        "examples_es": "Las vieiras 'secas' (sin tratar) se sellan mejor; 'diver' significa recogidas a mano."
+       }
+      },
+      {
+       "name": "Bay Scallop",
+       "name_fr": "Pétoncle de Baie",
+       "name_it": "Cappasanta di Baia",
+       "name_es": "Vieira de Bahía",
+       "slug": "bay-scallop",
+       "panel": {
+        "origin": "Delicate and very sweet; small and tender.",
+        "origin_es": "Delicada y muy dulce; pequeña y tierna.",
+        "chemistry": "A tiny scallop from East Coast bays and estuaries.",
+        "chemistry_es": "Una vieira diminuta de las bahías y estuarios de la Costa Este.",
+        "pairing": "Champagne, Chablis, dry Riesling; light butter, citrus, raw.",
+        "pairing_es": "Champagne, Chablis, Riesling seco; mantequilla ligera, cítricos, cruda.",
+        "mixology": "Cook briefly — sauté in seconds — or eat raw as crudo.",
+        "mixology_es": "Cocina poco — saltea en segundos — o cómela cruda como crudo.",
+        "examples": "Far smaller and sweeter than sea scallops; cooks in a flash.",
+        "examples_es": "Mucho más pequeña y dulce que la vieira grande; se hace en un instante."
+       }
+      },
+      {
+       "name": "Cockle",
+       "name_fr": "Coque",
+       "name_it": "Cardio",
+       "name_es": "Berberecho",
+       "slug": "cockle",
+       "panel": {
+        "origin": "Sweet, briny, and tender; small and clam-like.",
+        "origin_es": "Dulce, salino y tierno; pequeño y parecido a la almeja.",
+        "chemistry": "A small heart-shaped bivalve dug from sandy shores.",
+        "chemistry_es": "Un bivalvo pequeño en forma de corazón excavado en orillas arenosas.",
+        "pairing": "Manzanilla sherry, Albariño, cava; garlic, white wine, pasta.",
+        "pairing_es": "Jerez manzanilla, Albariño, cava; ajo, vino blanco, pasta.",
+        "mixology": "Steamed quickly; tossed through pasta or eaten as tapas.",
+        "mixology_es": "Al vapor rápido; salteado en pasta o como tapa.",
+        "examples": "A beloved European shore snack and pasta clam.",
+        "examples_es": "Un querido aperitivo de costa europeo y almeja para pasta."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CEPHALOPODS",
+   "name_fr": "Céphalopodes",
+   "name_it": "Cefalopodi",
+   "name_es": "CEFALÓPODOS",
+   "color": "#9a6a8a",
+   "sub": [
+    {
+     "name": "CEPHALOPODS",
+     "name_fr": "Céphalopodes",
+     "name_it": "Cefalopodi",
+     "name_es": "CEFALÓPODOS",
+     "color": "#9a6a8a",
+     "descriptors": [
+      {
+       "name": "Squid (Calamari)",
+       "name_fr": "Calmar (Calamari)",
+       "name_it": "Calamaro",
+       "name_es": "Calamar",
+       "slug": "squid",
+       "panel": {
+        "origin": "Mild and slightly sweet; prized for its tender-chewy texture.",
+        "origin_es": "Suave y ligeramente dulce; valorado por su textura tierna y elástica.",
+        "chemistry": "A fast cephalopod; 'calamari' is its culinary name.",
+        "chemistry_es": "Un cefalópodo veloz; 'calamari' es su nombre culinario.",
+        "pairing": "Vermentino, Albariño, crisp white, sparkling; lemon, marinara, aioli.",
+        "pairing_es": "Vermentino, Albariño, blanco nítido, espumoso; limón, marinara, alioli.",
+        "mixology": "Flash-fried as calamari, or grilled/sautéed; cook fast or low-and-slow.",
+        "mixology_es": "Frito rápido como calamari, o a la parrilla/salteado; cocínalo rápido o lento.",
+        "examples": "The texture is the point — cook it briefly or braise it; never in between.",
+        "examples_es": "La textura es la clave — cocínalo brevemente o guísalo; nunca a medias."
+       }
+      },
+      {
+       "name": "Octopus",
+       "name_fr": "Poulpe",
+       "name_it": "Polpo",
+       "name_es": "Pulpo",
+       "slug": "octopus",
+       "panel": {
+        "origin": "Mild, sweet, and meaty when done right; deeply savory.",
+        "origin_es": "Suave, dulce y carnoso cuando se hace bien; muy sabroso.",
+        "chemistry": "An eight-armed cephalopod; tough until properly tenderized and cooked.",
+        "chemistry_es": "Un cefalópodo de ocho brazos; duro hasta que se ablanda y cocina bien.",
+        "pairing": "Albariño, dry rosé, Verdejo; olive oil, paprika, lemon, charred.",
+        "pairing_es": "Albariño, rosado seco, Verdejo; aceite de oliva, pimentón, limón, a la brasa.",
+        "mixology": "Braised tender, then charred or grilled; crispy outside, moist within.",
+        "mixology_es": "Guisado hasta ablandar, luego a la brasa o parrilla; crujiente por fuera, jugoso por dentro.",
+        "examples": "Greek and Spanish kitchens master it; bad octopus is rubbery, good is sublime.",
+        "examples_es": "Las cocinas griega y española lo dominan; el pulpo malo es gomoso, el bueno es sublime."
+       }
+      },
+      {
+       "name": "Cuttlefish",
+       "name_fr": "Seiche",
+       "name_it": "Seppia",
+       "name_es": "Sepia (Choco)",
+       "slug": "cuttlefish",
+       "panel": {
+        "origin": "Sweet and tender, richer than squid; a meatier bite.",
+        "origin_es": "Dulce y tierna, más rica que el calamar; con más mordida.",
+        "chemistry": "A broad-bodied cephalopod with an internal 'cuttlebone' and prized ink.",
+        "chemistry_es": "Un cefalópodo de cuerpo ancho con una 'jibia' interna y tinta apreciada.",
+        "pairing": "Cava, Albariño, dry white; its own ink (sepia), garlic, rice.",
+        "pairing_es": "Cava, Albariño, blanco seco; su propia tinta, ajo, arroz.",
+        "mixology": "Quick-seared or braised; the ink colors and flavors rice and pasta.",
+        "mixology_es": "Sellada rápido o guisada; la tinta da color y sabor al arroz y la pasta.",
+        "examples": "The source of squid ink (sepia); central to black paella and risotto nero.",
+        "examples_es": "La fuente de la tinta (sepia); clave en el arroz negro y el risotto nero."
+       }
+      },
+      {
+       "name": "Baby Octopus",
+       "name_fr": "Petit Poulpe",
+       "name_it": "Polpetto",
+       "name_es": "Pulpito",
+       "slug": "baby-octopus",
+       "panel": {
+        "origin": "Tender and sweet; easier to cook than full-size octopus.",
+        "origin_es": "Tierno y dulce; más fácil de cocinar que el pulpo grande.",
+        "chemistry": "Small, whole octopus, cooked intact.",
+        "chemistry_es": "Pulpo pequeño y entero, cocinado intacto.",
+        "pairing": "Dry rosé, Albariño, sparkling; garlic, chili, lemon, grilled.",
+        "pairing_es": "Rosado seco, Albariño, espumoso; ajo, chile, limón, a la parrilla.",
+        "mixology": "Marinated and grilled or braised whole; quick and forgiving.",
+        "mixology_es": "Marinado y a la parrilla o guisado entero; rápido e indulgente.",
+        "examples": "'Pulpitos' in Spain; tender enough to skip the long tenderizing.",
+        "examples_es": "'Pulpitos' en España; lo bastante tiernos para saltarse el largo ablandado."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SNAILS & SPECIALTIES",
+   "name_fr": "Escargots & Spécialités",
+   "name_it": "Lumache & Specialità",
+   "name_es": "CARACOLES Y ESPECIALIDADES",
+   "color": "#4a8a8a",
+   "sub": [
+    {
+     "name": "SNAILS & SPECIALTIES",
+     "name_fr": "Escargots & Spécialités",
+     "name_it": "Lumache & Specialità",
+     "name_es": "CARACOLES Y ESPECIALIDADES",
+     "color": "#4a8a8a",
+     "descriptors": [
+      {
+       "name": "Abalone",
+       "name_fr": "Ormeau",
+       "name_it": "Abalone",
+       "name_es": "Abulón (Oreja de Mar)",
+       "slug": "abalone",
+       "panel": {
+        "origin": "Mild, slightly buttery and salty; dense, calamari-like texture.",
+        "origin_es": "Suave, algo mantecoso y salado; textura densa parecida al calamar.",
+        "chemistry": "A large single-shelled sea snail (gastropod); prized and pricey.",
+        "chemistry_es": "Un caracol marino grande de una sola concha (gasterópodo); apreciado y caro.",
+        "pairing": "Dry Riesling, Chablis, sake; butter, sliced thin, lightly seared.",
+        "pairing_es": "Riesling seco, Chablis, sake; mantequilla, en lonchas finas, ligeramente sellado.",
+        "mixology": "Pounded tender and quickly seared, or sliced raw.",
+        "mixology_es": "Golpeado para ablandar y sellado rápido, o en lonchas crudas.",
+        "examples": "Expensive and slow-growing; leans on butter and seasoning for flavor.",
+        "examples_es": "Caro y de crecimiento lento; depende de la mantequilla y el condimento para el sabor."
+       }
+      },
+      {
+       "name": "Conch",
+       "name_fr": "Conque",
+       "name_it": "Strombo",
+       "name_es": "Caracol Marino (Cobo)",
+       "slug": "conch",
+       "panel": {
+        "origin": "Salty with a touch of sweetness; firm, meaty, and chewy.",
+        "origin_es": "Salado con un toque dulce; firme, carnoso y masticable.",
+        "chemistry": "A large tropical sea snail of the Caribbean.",
+        "chemistry_es": "Un caracol marino tropical grande del Caribe.",
+        "pairing": "Crisp white, light lager, daiquiri; lime, chili, fresh salad.",
+        "pairing_es": "Blanco nítido, lager ligera, daiquiri; lima, chile, ensalada fresca.",
+        "mixology": "Chopped raw for ceviche-style salad, or fried as fritters.",
+        "mixology_es": "Picado crudo para ensalada tipo ceviche, o frito en buñuelos.",
+        "examples": "A Bahamian and Caribbean staple; conch salad is iconic.",
+        "examples_es": "Un básico de las Bahamas y el Caribe; la ensalada de cobo es icónica."
+       }
+      },
+      {
+       "name": "Whelk",
+       "name_fr": "Bulot",
+       "name_it": "Buccino",
+       "name_es": "Buccino",
+       "slug": "whelk",
+       "panel": {
+        "origin": "Briny and savory with a firm, chewy bite.",
+        "origin_es": "Salino y sabroso con una mordida firme y masticable.",
+        "chemistry": "A sea snail (also 'scungilli') of the North Atlantic.",
+        "chemistry_es": "Un caracol marino (también 'scungilli') del Atlántico Norte.",
+        "pairing": "Muscadet, dry white, sherry; garlic butter, vinaigrette, salad.",
+        "pairing_es": "Muscadet, blanco seco, jerez; mantequilla de ajo, vinagreta, ensalada.",
+        "mixology": "Boiled and sliced; tossed in salad or scungilli dishes.",
+        "mixology_es": "Hervido y en rodajas; en ensalada o en platos de scungilli.",
+        "examples": "Common in Italian-American 'scungilli' and European seafood platters.",
+        "examples_es": "Común en el 'scungilli' italoamericano y en las mariscadas europeas."
+       }
+      },
+      {
+       "name": "Periwinkle",
+       "name_fr": "Bigorneau",
+       "name_it": "Lumachina di Mare",
+       "name_es": "Bígaro",
+       "slug": "periwinkle",
+       "panel": {
+        "origin": "Mild, briny, and nutty; tiny and tender.",
+        "origin_es": "Suave, salino y a nuez; diminuto y tierno.",
+        "chemistry": "A small shore sea snail of the North Atlantic.",
+        "chemistry_es": "Un pequeño caracol marino de orilla del Atlántico Norte.",
+        "pairing": "Muscadet, dry cider, crisp white; garlic butter, vinegar.",
+        "pairing_es": "Muscadet, sidra seca, blanco nítido; mantequilla de ajo, vinagre.",
+        "mixology": "Boiled and picked from the shell with a pin.",
+        "mixology_es": "Hervido y extraído de la concha con un alfiler.",
+        "examples": "A traditional British and Irish seaside snack ('winkles').",
+        "examples_es": "Un aperitivo tradicional de costa británico e irlandés ('winkles')."
+       }
+      },
+      {
+       "name": "Sea Urchin (Uni)",
+       "name_fr": "Oursin (Uni)",
+       "name_it": "Riccio di Mare (Uni)",
+       "name_es": "Erizo de Mar (Uni)",
+       "slug": "sea-urchin",
+       "panel": {
+        "origin": "Briny, sweet, and intensely oceanic; rich, custardy roe.",
+        "origin_es": "Salino, dulce e intensamente oceánico; hueva rica y cremosa.",
+        "chemistry": "A spiny echinoderm; the edible part is the gonad/roe ('uni').",
+        "chemistry_es": "Un equinodermo espinoso; la parte comestible es la gónada/hueva ('uni').",
+        "pairing": "Champagne, dry sake, Chablis; raw, on rice or on its own.",
+        "pairing_es": "Champagne, sake seco, Chablis; crudo, sobre arroz o solo.",
+        "mixology": "Served raw — on sushi, pasta, or by the spoonful.",
+        "mixology_es": "Se sirve crudo — en sushi, pasta o a cucharadas.",
+        "examples": "'Uni' is the prized roe; a love-it-or-hate-it luxury.",
+        "examples_es": "'Uni' es la hueva preciada; un lujo de amar u odiar."
+       }
+      },
+      {
+       "name": "Sea Cucumber",
+       "name_fr": "Concombre de Mer",
+       "name_it": "Cetriolo di Mare",
+       "name_es": "Pepino de Mar",
+       "slug": "sea-cucumber",
+       "panel": {
+        "origin": "Mild and nearly neutral; valued for its gelatinous texture.",
+        "origin_es": "Suave y casi neutro; valorado por su textura gelatinosa.",
+        "chemistry": "A soft-bodied echinoderm, usually sold dried.",
+        "chemistry_es": "Un equinodermo de cuerpo blando, normalmente vendido seco.",
+        "pairing": "As the braise dictates; tea, light beer.",
+        "pairing_es": "Según lo marque el guiso; té, cerveza ligera.",
+        "mixology": "Rehydrated and braised in rich Chinese banquet dishes.",
+        "mixology_es": "Rehidratado y guisado en ricos platos de banquete chino.",
+        "examples": "A prized delicacy in Chinese cuisine for texture, not flavor.",
+        "examples_es": "Una delicia apreciada en la cocina china por su textura, no su sabor."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "SHRIMP & PRAWNS": {
+   "en": "Shrimp is the most-eaten seafood in the United States — and the line between 'shrimp' and 'prawn' is mostly about size and biology, not flavor; cooks use the words almost interchangeably.",
+   "es": "El camarón es el marisco más consumido en EE. UU. — y la diferencia entre 'camarón' y 'langostino' es sobre todo de tamaño y biología, no de sabor; en la cocina las palabras se usan casi indistintamente."
+  },
+  "LOBSTER & CRAYFISH": {
+   "en": "Lobster was once so common it was fed to prisoners and servants, who reportedly complained — it only became a luxury in the 20th century as it grew scarce and fashionable.",
+   "es": "La langosta fue tan común que se daba a presos y sirvientes, que según los relatos se quejaban — solo se volvió un lujo en el siglo XX, al escasear y ponerse de moda."
+  },
+  "CRABS": {
+   "en": "A stone crab is one of the few sustainable seafoods you can harvest without killing the animal — fishermen take a single claw and return the crab, which regrows the missing claw within about 18 months.",
+   "es": "El cangrejo de piedra es uno de los pocos mariscos sostenibles que puedes capturar sin matar al animal — los pescadores toman una sola pinza y devuelven el cangrejo, que regenera la pinza en unos 18 meses."
+  },
+  "OYSTERS": {
+   "en": "An oyster's flavor comes from its 'merroir' — the marine version of terroir — which is why a single species can taste sweet and mild in one bay and intensely briny in another.",
+   "es": "El sabor de una ostra viene de su 'merroir' — la versión marina del terruño — por eso una misma especie puede saber dulce y suave en una bahía e intensamente salina en otra."
+  },
+  "CLAMS": {
+   "en": "The old rule to eat shellfish only in 'R' months (September–April) comes from warm-weather 'red tides,' algal blooms that make wild shellfish unsafe; modern farmed clams in monitored waters are safe year-round.",
+   "es": "La vieja regla de comer marisco solo en los meses con 'R' (septiembre–abril) viene de las 'mareas rojas' del calor, floraciones de algas que vuelven inseguro el marisco salvaje; las almejas de cultivo en aguas vigiladas son seguras todo el año."
+  },
+  "MUSSELS & SCALLOPS": {
+   "en": "With seared scallops, dryness is everything — 'dry' (untreated) scallops brown into a golden crust, while 'wet' ones soaked in preservative just steam and never sear.",
+   "es": "Con las vieiras a la plancha, la sequedad lo es todo — las 'secas' (sin tratar) doran en una costra dorada, mientras que las 'húmedas' remojadas en conservante solo se cuecen al vapor y nunca se sellan."
+  },
+  "CEPHALOPODS": {
+   "en": "Squid and octopus have a narrow cooking window — cook them either very fast (seconds) or very slow (a long braise); anything in between turns them to rubber.",
+   "es": "El calamar y el pulpo tienen una ventana de cocción estrecha — cocínalos muy rápido (segundos) o muy lento (un guiso largo); cualquier punto intermedio los vuelve goma."
+  },
+  "SNAILS & SPECIALTIES": {
+   "en": "Sea urchin is technically neither a fish nor a shellfish but an echinoderm — a spiny relative of the starfish — and the buttery 'uni' prized on sushi is actually its reproductive organs.",
+   "es": "El erizo de mar técnicamente no es ni pez ni marisco, sino un equinodermo — un pariente espinoso de la estrella de mar — y el mantecoso 'uni' apreciado en el sushi son en realidad sus órganos reproductores."
+  }
+ }
+}

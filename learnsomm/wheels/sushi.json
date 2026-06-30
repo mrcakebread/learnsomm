@@ -1,0 +1,1058 @@
+{
+ "title": "Sushi",
+ "subject": "sushi",
+ "categories": [
+  {
+   "name": "CORE SUSHI FORMS",
+   "name_fr": "Formes de Base du Sushi",
+   "name_it": "Forme Base del Sushi",
+   "name_es": "FORMAS BÁSICAS DE SUSHI",
+   "color": "#d8cfa8",
+   "sub": [
+    {
+     "name": "CORE SUSHI FORMS",
+     "name_fr": "Formes de Base du Sushi",
+     "name_it": "Forme Base del Sushi",
+     "name_es": "FORMAS BÁSICAS DE SUSHI",
+     "color": "#d8cfa8",
+     "descriptors": [
+      {
+       "name": "Nigiri",
+       "name_fr": "Nigiri",
+       "name_it": "Nigiri",
+       "name_es": "Nigiri",
+       "slug": "nigiri",
+       "panel": {
+        "origin": "A hand-pressed mound of vinegared rice topped with a slice of fish or seafood (neta).",
+        "origin_es": "Un montículo de arroz avinagrado prensado a mano y coronado con una loncha de pescado o marisco (neta).",
+        "chemistry": "The chef hand-forms the rice and presses on the topping, often with a dab of wasabi between.",
+        "chemistry_es": "El chef forma el arroz a mano y presiona el topping encima, a menudo con un poco de wasabi en medio.",
+        "pairing": "Showcases one topping cleanly; pairs with green tea, light sake, or crisp white.",
+        "pairing_es": "Luce un solo topping con limpieza; marida con té verde, sake ligero o blanco nítido.",
+        "mixology": "Traditionally eaten with the fingers; flip and dip the fish side (not the rice) in soy; one bite.",
+        "mixology_es": "Tradicionalmente se come con los dedos; voltéalo y moja el lado del pescado (no el arroz) en soja; de un bocado.",
+        "examples": "The most esteemed sushi form; 'nigiri' means 'hand-pressed,' perfected in Edo (old Tokyo).",
+        "examples_es": "La forma de sushi más estimada; 'nigiri' significa 'prensado a mano', perfeccionado en Edo (la antigua Tokio)."
+       }
+      },
+      {
+       "name": "Sashimi",
+       "name_fr": "Sashimi",
+       "name_it": "Sashimi",
+       "name_es": "Sashimi",
+       "slug": "sashimi",
+       "panel": {
+        "origin": "Thin slices of raw fish or seafood served without rice.",
+        "origin_es": "Finas lonchas de pescado o marisco crudo servidas sin arroz.",
+        "chemistry": "Expert knife work on pristine fish; often presented on shredded daikon.",
+        "chemistry_es": "Trabajo experto de cuchillo sobre pescado impecable; a menudo sobre daikon rallado.",
+        "pairing": "The pure, unmasked flavor of the fish; pairs with sake, green tea, or crisp white.",
+        "pairing_es": "El sabor puro y sin disimular del pescado; marida con sake, té verde o blanco nítido.",
+        "mixology": "Eaten with chopsticks; dip lightly in soy; eat before sushi, as it's subtler.",
+        "mixology_es": "Se come con palillos; moja ligero en soja; cómelo antes del sushi, por ser más sutil.",
+        "examples": "Technically not sushi (no rice), but served alongside it; all about fish quality and the knife.",
+        "examples_es": "Técnicamente no es sushi (sin arroz), pero se sirve con él; todo gira en torno a la calidad del pescado y el cuchillo."
+       }
+      },
+      {
+       "name": "Temaki",
+       "name_fr": "Temaki",
+       "name_it": "Temaki",
+       "name_es": "Temaki",
+       "slug": "temaki",
+       "panel": {
+        "origin": "A cone-shaped hand roll of nori wrapped around rice and fillings.",
+        "origin_es": "Un rollo de mano en forma de cono, de nori envuelto alrededor de arroz y rellenos.",
+        "chemistry": "A crisp nori sheet rolled by hand into a cone around rice, fish, and vegetables.",
+        "chemistry_es": "Una hoja de nori crujiente enrollada a mano en cono alrededor de arroz, pescado y verduras.",
+        "pairing": "Crunchy nori against soft rice and fresh fillings; casual, great with beer or tea.",
+        "pairing_es": "Nori crujiente contra arroz suave y rellenos frescos; informal, va bien con cerveza o té.",
+        "mixology": "Always eaten with the hands, like an ice-cream cone; eat immediately before the nori softens.",
+        "mixology_es": "Siempre se come con las manos, como un cono de helado; cómelo enseguida antes de que el nori se ablande.",
+        "examples": "A casual, social style popular at home gatherings and izakaya.",
+        "examples_es": "Un estilo informal y social, popular en reuniones caseras e izakaya."
+       }
+      },
+      {
+       "name": "Gunkanmaki",
+       "name_fr": "Gunkanmaki",
+       "name_it": "Gunkanmaki",
+       "name_es": "Gunkanmaki",
+       "slug": "gunkanmaki",
+       "panel": {
+        "origin": "'Battleship' sushi — an oval of rice wrapped in a nori band, topped with loose ingredients.",
+        "origin_es": "Sushi 'acorazado' — un óvalo de arroz rodeado de una banda de nori y coronado con ingredientes sueltos.",
+        "chemistry": "A nori strip wraps the rice to form a wall that holds soft toppings like roe or uni.",
+        "chemistry_es": "Una tira de nori rodea el arroz formando una pared que sujeta toppings blandos como huevas o uni.",
+        "pairing": "Lets delicate, loose toppings shine; pairs with sake or green tea.",
+        "pairing_es": "Deja lucir los toppings delicados y sueltos; marida con sake o té verde.",
+        "mixology": "Eaten in one bite, by hand or chopsticks; don't dip — the topping is already seasoned.",
+        "mixology_es": "Se come de un bocado, con la mano o palillos; no lo mojes — el topping ya va sazonado.",
+        "examples": "Invented in 1941 at Ginza's Kyubey to serve loose toppings like ikura and uni.",
+        "examples_es": "Inventado en 1941 en el Kyubey de Ginza para servir toppings sueltos como ikura y uni."
+       }
+      },
+      {
+       "name": "Chirashi",
+       "name_fr": "Chirashi",
+       "name_it": "Chirashi",
+       "name_es": "Chirashi",
+       "slug": "chirashi",
+       "panel": {
+        "origin": "'Scattered sushi' — a bowl of vinegared rice topped with assorted sashimi and garnishes.",
+        "origin_es": "'Sushi disperso' — un bol de arroz avinagrado cubierto de sashimi variado y guarniciones.",
+        "chemistry": "Sushi rice in a bowl, scattered with fish, omelet, vegetables, and roe.",
+        "chemistry_es": "Arroz de sushi en un bol, salpicado de pescado, tortilla, verduras y huevas.",
+        "pairing": "A varied bite of many toppings at once; pairs with green tea or light sake.",
+        "pairing_es": "Un bocado variado de muchos toppings a la vez; marida con té verde o sake ligero.",
+        "mixology": "Eaten with chopsticks from the bowl; put soy in a side dish, not on the rice.",
+        "mixology_es": "Se come con palillos del bol; pon la soja en un platito aparte, no sobre el arroz.",
+        "examples": "A homestyle, free-form sushi; originally a way to use up odds and ends.",
+        "examples_es": "Un sushi casero y libre; en origen, una forma de aprovechar restos."
+       }
+      },
+      {
+       "name": "Inari",
+       "name_fr": "Inari",
+       "name_it": "Inari",
+       "name_es": "Inari",
+       "slug": "inari",
+       "panel": {
+        "origin": "Sweet, deep-fried tofu pouches (inari-age) filled with sushi rice.",
+        "origin_es": "Bolsitas dulces de tofu frito (inari-age) rellenas de arroz de sushi.",
+        "chemistry": "Seasoned fried tofu pockets simmered in sweet dashi, stuffed with vinegared rice.",
+        "chemistry_es": "Bolsillos de tofu frito sazonado, cocidos en dashi dulce y rellenos de arroz avinagrado.",
+        "pairing": "Sweet-savory and satisfying; pairs with green tea.",
+        "pairing_es": "Dulce-salado y reconfortante; marida con té verde.",
+        "mixology": "Eaten by hand or chopsticks; no soy needed — it's already seasoned.",
+        "mixology_es": "Se come con la mano o palillos; no necesita soja — ya va sazonado.",
+        "examples": "Vegetarian and portable; a bento and picnic favorite, named for the fox deity Inari.",
+        "examples_es": "Vegetariano y portátil; un favorito de bento y picnic, llamado así por la deidad zorro Inari."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MAKI ROLLS",
+   "name_fr": "Rouleaux Maki",
+   "name_it": "Rotoli Maki",
+   "name_es": "ROLLOS MAKI",
+   "color": "#3a6a4a",
+   "sub": [
+    {
+     "name": "MAKI ROLLS",
+     "name_fr": "Rouleaux Maki",
+     "name_it": "Rotoli Maki",
+     "name_es": "ROLLOS MAKI",
+     "color": "#3a6a4a",
+     "descriptors": [
+      {
+       "name": "Hosomaki",
+       "name_fr": "Hosomaki",
+       "name_it": "Hosomaki",
+       "name_es": "Hosomaki",
+       "slug": "hosomaki",
+       "panel": {
+        "origin": "A thin maki roll (about 1\") with nori outside and usually a single filling.",
+        "origin_es": "Un rollo maki fino (unos 2,5 cm), con nori por fuera y normalmente un solo relleno.",
+        "chemistry": "Rice and one filling rolled in nori on a bamboo mat, cut into six pieces.",
+        "chemistry_es": "Arroz y un relleno enrollados en nori sobre una esterilla de bambú, cortados en seis piezas.",
+        "pairing": "Highlights one clean ingredient; pairs with green tea or light sake.",
+        "pairing_es": "Resalta un ingrediente limpio; marida con té verde o sake ligero.",
+        "mixology": "Eaten in one bite; dip lightly in soy if desired.",
+        "mixology_es": "Se come de un bocado; moja ligero en soja si quieres.",
+        "examples": "The minimalist roll; tekka maki (tuna) and kappa maki (cucumber) are classics.",
+        "examples_es": "El rollo minimalista; el tekka maki (atún) y el kappa maki (pepino) son clásicos."
+       }
+      },
+      {
+       "name": "Futomaki",
+       "name_fr": "Futomaki",
+       "name_it": "Futomaki",
+       "name_es": "Futomaki",
+       "slug": "futomaki",
+       "panel": {
+        "origin": "A thick maki roll (about 2\") with nori outside and several fillings.",
+        "origin_es": "Un rollo maki grueso (unos 5 cm), con nori por fuera y varios rellenos.",
+        "chemistry": "Rice and multiple fillings rolled in nori; often vegetarian and colorful.",
+        "chemistry_es": "Arroz y varios rellenos enrollados en nori; a menudo vegetariano y colorido.",
+        "pairing": "A complex, layered bite; pairs with green tea or beer.",
+        "pairing_es": "Un bocado complejo y en capas; marida con té verde o cerveza.",
+        "mixology": "Eaten in one or two bites; light soy.",
+        "mixology_es": "Se come en uno o dos bocados; poca soja.",
+        "examples": "At Setsubun, an uncut futomaki (ehō-maki) is eaten whole for good fortune.",
+        "examples_es": "En Setsubun se come un futomaki sin cortar (ehō-maki) entero para la buena fortuna."
+       }
+      },
+      {
+       "name": "Uramaki",
+       "name_fr": "Uramaki",
+       "name_it": "Uramaki",
+       "name_es": "Uramaki",
+       "slug": "uramaki",
+       "panel": {
+        "origin": "An 'inside-out' roll with rice on the outside and nori within.",
+        "origin_es": "Un rollo 'al revés', con el arroz por fuera y el nori por dentro.",
+        "chemistry": "Rice coats the outside (often with sesame or roe), nori wraps the filling inside.",
+        "chemistry_es": "El arroz recubre el exterior (a menudo con sésamo o huevas), el nori envuelve el relleno dentro.",
+        "pairing": "Built for bolder, fusion combinations; pairs with beer or crisp white.",
+        "pairing_es": "Pensado para combinaciones más atrevidas y de fusión; marida con cerveza o blanco nítido.",
+        "mixology": "Eaten by chopsticks or hand, one or two bites.",
+        "mixology_es": "Se come con palillos o la mano, en uno o dos bocados.",
+        "examples": "A Western invention (created in the U.S.) to hide the nori; now global.",
+        "examples_es": "Un invento occidental (creado en EE. UU.) para ocultar el nori; hoy global."
+       }
+      },
+      {
+       "name": "California Roll",
+       "name_fr": "California Roll",
+       "name_it": "California Roll",
+       "name_es": "Rollo California",
+       "slug": "california-roll",
+       "panel": {
+        "origin": "An uramaki of imitation (or real) crab, avocado, and cucumber.",
+        "origin_es": "Un uramaki de cangrejo de imitación (o real), aguacate y pepino.",
+        "chemistry": "Inside-out roll, often coated in sesame or tobiko; usually fully cooked.",
+        "chemistry_es": "Rollo al revés, a menudo cubierto de sésamo o tobiko; normalmente todo cocido.",
+        "pairing": "Mild, creamy, and approachable; pairs with beer, green tea, or crisp white.",
+        "pairing_es": "Suave, cremoso y accesible; marida con cerveza, té verde o blanco nítido.",
+        "mixology": "One or two bites; light soy.",
+        "mixology_es": "Uno o dos bocados; poca soja.",
+        "examples": "The classic gateway roll for beginners; a defining Western-style sushi.",
+        "examples_es": "El rollo de iniciación clásico para principiantes; un sushi de estilo occidental por excelencia."
+       }
+      },
+      {
+       "name": "Spicy Tuna Roll",
+       "name_fr": "Rouleau de Thon Épicé",
+       "name_it": "Roll di Tonno Piccante",
+       "name_es": "Rollo de Atún Picante",
+       "slug": "spicy-tuna",
+       "panel": {
+        "origin": "A roll of chopped raw tuna mixed with spicy mayo or chili.",
+        "origin_es": "Un rollo de atún crudo picado mezclado con mayonesa picante o chile.",
+        "chemistry": "Minced tuna bound with spicy sauce, rolled hosomaki- or uramaki-style.",
+        "chemistry_es": "Atún picado ligado con salsa picante, enrollado al estilo hosomaki o uramaki.",
+        "pairing": "Creamy heat over clean tuna; pairs with cold beer, dry sake, or off-dry Riesling.",
+        "pairing_es": "Picante cremoso sobre atún limpio; marida con cerveza fría, sake seco o Riesling semiseco.",
+        "mixology": "One or two bites; usually no extra soy needed.",
+        "mixology_es": "Uno o dos bocados; normalmente no hace falta más soja.",
+        "examples": "A hugely popular Western roll; a step up for beginners trying raw fish.",
+        "examples_es": "Un rollo occidental muy popular; un paso adelante para principiantes con el pescado crudo."
+       }
+      },
+      {
+       "name": "Dragon Roll",
+       "name_fr": "Dragon Roll",
+       "name_it": "Dragon Roll",
+       "name_es": "Rollo Dragón",
+       "slug": "dragon-roll",
+       "panel": {
+        "origin": "A showy uramaki topped with avocado slices arranged like dragon scales.",
+        "origin_es": "Un uramaki vistoso coronado con láminas de aguacate dispuestas como escamas de dragón.",
+        "chemistry": "An eel-and-cucumber roll draped with avocado and eel sauce.",
+        "chemistry_es": "Un rollo de anguila y pepino cubierto de aguacate y salsa de anguila.",
+        "pairing": "Sweet, rich, and dramatic; pairs with beer or off-dry sake.",
+        "pairing_es": "Dulce, rico y dramático; marida con cerveza o sake semiseco.",
+        "mixology": "One or two bites; the sauce is already on — go easy on soy.",
+        "mixology_es": "Uno o dos bocados; ya lleva salsa — modera la soja.",
+        "examples": "A signature 'specialty roll'; presentation is half the appeal.",
+        "examples_es": "Un 'rollo especial' emblemático; la presentación es la mitad del atractivo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PRESSED & SPECIALTY",
+   "name_fr": "Pressés & Spéciaux",
+   "name_it": "Pressati & Speciali",
+   "name_es": "PRENSADOS Y ESPECIALES",
+   "color": "#c89a5a",
+   "sub": [
+    {
+     "name": "PRESSED & SPECIALTY",
+     "name_fr": "Pressés & Spéciaux",
+     "name_it": "Pressati & Speciali",
+     "name_es": "PRENSADOS Y ESPECIALES",
+     "color": "#c89a5a",
+     "descriptors": [
+      {
+       "name": "Oshizushi",
+       "name_fr": "Oshizushi",
+       "name_it": "Oshizushi",
+       "name_es": "Oshizushi (Prensado)",
+       "slug": "oshizushi",
+       "panel": {
+        "origin": "'Pressed sushi' — rice and toppings pressed into a block in a wooden mold, then cut.",
+        "origin_es": "'Sushi prensado' — arroz y toppings prensados en un bloque dentro de un molde de madera, y luego cortados.",
+        "chemistry": "Layered in an oshibako mold and compressed, then sliced into neat rectangles.",
+        "chemistry_es": "En capas dentro de un molde oshibako y comprimido, luego cortado en rectángulos pulcros.",
+        "pairing": "Dense, clean, and uniform; pairs with sake or green tea.",
+        "pairing_es": "Denso, limpio y uniforme; marida con sake o té verde.",
+        "mixology": "Eaten by hand or chopsticks; light soy.",
+        "mixology_es": "Se come con la mano o palillos; poca soja.",
+        "examples": "An Osaka style; saba (mackerel) oshizushi is the classic, popular as ekiben.",
+        "examples_es": "Un estilo de Osaka; el oshizushi de saba (caballa) es el clásico, popular como ekiben."
+       }
+      },
+      {
+       "name": "Temari Sushi",
+       "name_fr": "Temari Sushi",
+       "name_it": "Temari Sushi",
+       "name_es": "Temari Sushi",
+       "slug": "temari",
+       "panel": {
+        "origin": "Small, ball-shaped sushi formed with plastic wrap, topped with colorful neta.",
+        "origin_es": "Sushi pequeño en forma de bola, formado con film, coronado con neta colorido.",
+        "chemistry": "A bite of rice shaped into a sphere and capped with a slice of fish or vegetable.",
+        "chemistry_es": "Un bocado de arroz formado en esfera y rematado con una loncha de pescado o verdura.",
+        "pairing": "Dainty and pretty; pairs with green tea or sparkling.",
+        "pairing_es": "Delicado y bonito; marida con té verde o espumoso.",
+        "mixology": "Eaten in one or two bites; light soy on the topping.",
+        "mixology_es": "Se come en uno o dos bocados; poca soja sobre el topping.",
+        "examples": "Named for embroidered temari balls; served at celebrations like Hinamatsuri.",
+        "examples_es": "Llamado así por las bolas bordadas temari; se sirve en celebraciones como Hinamatsuri."
+       }
+      },
+      {
+       "name": "Chakinzushi",
+       "name_fr": "Chakinzushi",
+       "name_it": "Chakinzushi",
+       "name_es": "Chakinzushi",
+       "slug": "chakinzushi",
+       "panel": {
+        "origin": "Sushi rice wrapped in a thin egg crepe like a little pouch.",
+        "origin_es": "Arroz de sushi envuelto en una fina crepe de huevo, como una bolsita.",
+        "chemistry": "A thin tamago crepe folded around seasoned sushi rice, sometimes tied.",
+        "chemistry_es": "Una crepe fina de tamago doblada alrededor del arroz sazonado, a veces atada.",
+        "pairing": "Soft, mildly sweet, and elegant; pairs with green tea.",
+        "pairing_es": "Suave, ligeramente dulce y elegante; marida con té verde.",
+        "mixology": "Eaten by hand or chopsticks; no soy needed.",
+        "mixology_es": "Se come con la mano o palillos; no necesita soja.",
+        "examples": "A delicate, decorative form; the egg replaces nori as the wrapper.",
+        "examples_es": "Una forma delicada y decorativa; el huevo sustituye al nori como envoltorio."
+       }
+      },
+      {
+       "name": "Aburi Nigiri",
+       "name_fr": "Nigiri Aburi (Flambé)",
+       "name_it": "Nigiri Aburi (Fiammato)",
+       "name_es": "Nigiri Aburi (Flameado)",
+       "slug": "aburi",
+       "panel": {
+        "origin": "Nigiri whose topping is lightly seared, usually with a blowtorch.",
+        "origin_es": "Nigiri cuyo topping se sella ligeramente, normalmente con soplete.",
+        "chemistry": "The neta is flame-kissed on top to render fat and add a smoky edge.",
+        "chemistry_es": "El neta se flamea por encima para fundir la grasa y dar un borde ahumado.",
+        "pairing": "Warm, rich, and smoky over cool rice; pairs with sake or a fuller white.",
+        "pairing_es": "Cálido, rico y ahumado sobre arroz frío; marida con sake o un blanco más amplio.",
+        "mixology": "Eaten in one bite by hand; often pre-sauced, so go easy on soy.",
+        "mixology_es": "Se come de un bocado con la mano; suele llevar salsa, así que modera la soja.",
+        "examples": "'Aburi' means 'seared'; salmon and toro aburi are modern favorites.",
+        "examples_es": "'Aburi' significa 'flameado'; el aburi de salmón y toro son favoritos modernos."
+       }
+      },
+      {
+       "name": "Narezushi",
+       "name_fr": "Narezushi",
+       "name_it": "Narezushi",
+       "name_es": "Narezushi (Origen Antiguo)",
+       "slug": "narezushi",
+       "panel": {
+        "origin": "The ancient ancestor of sushi — fish preserved in fermented rice.",
+        "origin_es": "El antepasado antiguo del sushi — pescado conservado en arroz fermentado.",
+        "chemistry": "Salted fish packed in rice and fermented for months; the rice was once discarded.",
+        "chemistry_es": "Pescado salado prensado en arroz y fermentado meses; antiguamente el arroz se desechaba.",
+        "pairing": "Pungent, sour, and intensely funky; an acquired, traditional taste.",
+        "pairing_es": "Penetrante, ácido e intensamente silvestre; un sabor tradicional adquirido.",
+        "mixology": "Eaten in small portions; a regional specialty, not everyday fare.",
+        "mixology_es": "Se come en porciones pequeñas; una especialidad regional, no de diario.",
+        "examples": "Sushi's origin, from Southeast Asia; funazushi of Lake Biwa is a famous survivor.",
+        "examples_es": "El origen del sushi, del Sudeste Asiático; el funazushi del lago Biwa es un superviviente famoso."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NETA — FISH",
+   "name_fr": "Neta — Poissons",
+   "name_it": "Neta — Pesci",
+   "name_es": "NETA — PESCADOS",
+   "color": "#b0485a",
+   "sub": [
+    {
+     "name": "NETA — FISH",
+     "name_fr": "Neta — Poissons",
+     "name_it": "Neta — Pesci",
+     "name_es": "NETA — PESCADOS",
+     "color": "#b0485a",
+     "descriptors": [
+      {
+       "name": "Maguro (Tuna)",
+       "name_fr": "Maguro (Thon)",
+       "name_it": "Maguro (Tonno)",
+       "name_es": "Maguro (Atún)",
+       "slug": "maguro",
+       "panel": {
+        "origin": "Lean tuna — the most iconic red sushi fish.",
+        "origin_es": "Atún magro — el pescado rojo más icónico del sushi.",
+        "chemistry": "Sliced from the leaner loin; served as nigiri, sashimi, or in rolls.",
+        "chemistry_es": "Cortado del lomo más magro; servido como nigiri, sashimi o en rollos.",
+        "pairing": "Clean, mild, and meaty; pairs with sake, green tea, or dry rosé.",
+        "pairing_es": "Limpio, suave y carnoso; marida con sake, té verde o rosado seco.",
+        "mixology": "As nigiri, dip the fish side lightly; one bite.",
+        "mixology_es": "Como nigiri, moja ligero el lado del pescado; de un bocado.",
+        "examples": "'Maguro' covers several tuna; bluefin is the most prized.",
+        "examples_es": "'Maguro' abarca varios atunes; el rojo (bluefin) es el más apreciado."
+       }
+      },
+      {
+       "name": "Otoro (Fatty Tuna)",
+       "name_fr": "Otoro (Thon Gras)",
+       "name_it": "Otoro (Tonno Grasso)",
+       "name_es": "Otoro (Ventresca)",
+       "slug": "otoro",
+       "panel": {
+        "origin": "The fattiest belly cut of bluefin tuna — the luxury of the tuna.",
+        "origin_es": "El corte de ventresca más graso del atún rojo — el lujo del atún.",
+        "chemistry": "Richly marbled belly, sliced thin; melts on the tongue.",
+        "chemistry_es": "Ventresca muy vetada, cortada fina; se deshace en la lengua.",
+        "pairing": "Buttery, rich, and indulgent; pairs with Champagne, dry sake, or even Pinot Noir.",
+        "pairing_es": "Mantecoso, rico y goloso; marida con Champagne, sake seco o incluso Pinot Noir.",
+        "mixology": "One bite; little or no soy — let the fat speak; eat near the end of a progression.",
+        "mixology_es": "De un bocado; poca o ninguna soja — deja hablar a la grasa; cómelo hacia el final.",
+        "examples": "'Toro' is the belly; otoro is the fattiest grade, chutoro the medium.",
+        "examples_es": "'Toro' es la ventresca; el otoro es el grado más graso, el chutoro el medio."
+       }
+      },
+      {
+       "name": "Sake (Salmon)",
+       "name_fr": "Sake (Saumon)",
+       "name_it": "Sake (Salmone)",
+       "name_es": "Sake (Salmón)",
+       "slug": "sake-salmon",
+       "panel": {
+        "origin": "Salmon — a buttery, crowd-pleasing orange neta.",
+        "origin_es": "Salmón — un neta naranja, mantecoso y del gusto de todos.",
+        "chemistry": "Sliced from the fillet; served as nigiri, sashimi, or in rolls.",
+        "chemistry_es": "Cortado del filete; servido como nigiri, sashimi o en rollos.",
+        "pairing": "Rich, mild, and slightly sweet; pairs with sake, dry rosé, or Pinot Noir.",
+        "pairing_es": "Rico, suave y ligeramente dulce; marida con sake, rosado seco o Pinot Noir.",
+        "mixology": "As nigiri, dip the fish side; one bite.",
+        "mixology_es": "Como nigiri, moja el lado del pescado; de un bocado.",
+        "examples": "'Sake' (sha-keh) means salmon — not the rice wine; a Western sushi favorite.",
+        "examples_es": "'Sake' (sha-ke) significa salmón — no el vino de arroz; un favorito del sushi occidental."
+       }
+      },
+      {
+       "name": "Hamachi (Yellowtail)",
+       "name_fr": "Sériole (Yellowtail)",
+       "name_it": "Ricciola (Yellowtail)",
+       "name_es": "Hamachi (Pez Limón)",
+       "slug": "hamachi",
+       "panel": {
+        "origin": "Yellowtail amberjack — a buttery, sushi-bar staple.",
+        "origin_es": "Medregal japonés — un fijo mantecoso de la barra de sushi.",
+        "chemistry": "Sliced clean; served as nigiri or sashimi, often with scallion or yuzu.",
+        "chemistry_es": "Cortado limpio; servido como nigiri o sashimi, a menudo con cebollín o yuzu.",
+        "pairing": "Velvety, rich, and clean; pairs with dry sake, Champagne, or Grüner.",
+        "pairing_es": "Aterciopelado, rico y limpio; marida con sake seco, Champagne o Grüner.",
+        "mixology": "One bite; light soy on the fish side.",
+        "mixology_es": "De un bocado; poca soja en el lado del pescado.",
+        "examples": "A premium neta; the hamachi-jalapeño dish made it famous in the West.",
+        "examples_es": "Un neta premium; el plato de hamachi con jalapeño lo hizo famoso en Occidente."
+       }
+      },
+      {
+       "name": "Saba (Mackerel)",
+       "name_fr": "Saba (Maquereau)",
+       "name_it": "Saba (Sgombro)",
+       "name_es": "Saba (Caballa)",
+       "slug": "saba",
+       "panel": {
+        "origin": "Mackerel — a bold, oily, blue-skinned neta.",
+        "origin_es": "Caballa — un neta intenso, graso y de piel azulada.",
+        "chemistry": "Usually salt- and vinegar-cured (shime-saba); served skin-on.",
+        "chemistry_es": "Normalmente curada en sal y vinagre (shime-saba); servida con piel.",
+        "pairing": "Rich, tangy, and pronounced; pairs with dry sake or fino sherry.",
+        "pairing_es": "Rica, ácida y pronunciada; marida con sake seco o jerez fino.",
+        "mixology": "One bite; it's already seasoned by curing — go light on soy.",
+        "mixology_es": "De un bocado; ya va sazonada por el curado — poca soja.",
+        "examples": "An acquired-taste classic; curing tames its oiliness and intensity.",
+        "examples_es": "Un clásico de sabor adquirido; el curado domestica su grasa e intensidad."
+       }
+      },
+      {
+       "name": "Tai (Sea Bream)",
+       "name_fr": "Tai (Daurade)",
+       "name_it": "Tai (Orata)",
+       "name_es": "Tai (Besugo)",
+       "slug": "tai",
+       "panel": {
+        "origin": "Sea bream — a delicate, prized white neta.",
+        "origin_es": "Besugo — un neta blanco delicado y apreciado.",
+        "chemistry": "Thinly sliced firm white flesh; served as nigiri or sashimi.",
+        "chemistry_es": "Carne blanca y firme cortada fina; servida como nigiri o sashimi.",
+        "pairing": "Subtle, clean, and lightly sweet; pairs with crisp sake or white wine.",
+        "pairing_es": "Sutil, limpio y ligeramente dulce; marida con sake nítido o vino blanco.",
+        "mixology": "Eat early in a meal (mild before bold); dip the fish side lightly.",
+        "mixology_es": "Cómelo al principio de la comida (suave antes que intenso); moja ligero el lado del pescado.",
+        "examples": "A celebratory fish in Japan, linked to the word 'medetai' (auspicious).",
+        "examples_es": "Un pescado de celebración en Japón, ligado a la palabra 'medetai' (auspicioso)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NETA — SEAFOOD & EGG",
+   "name_fr": "Neta — Fruits de Mer & Œuf",
+   "name_it": "Neta — Frutti di Mare & Uovo",
+   "name_es": "NETA — MARISCOS Y HUEVO",
+   "color": "#e0936a",
+   "sub": [
+    {
+     "name": "NETA — SEAFOOD & EGG",
+     "name_fr": "Neta — Fruits de Mer & Œuf",
+     "name_it": "Neta — Frutti di Mare & Uovo",
+     "name_es": "NETA — MARISCOS Y HUEVO",
+     "color": "#e0936a",
+     "descriptors": [
+      {
+       "name": "Ebi (Shrimp)",
+       "name_fr": "Ebi (Crevette)",
+       "name_it": "Ebi (Gambero)",
+       "name_es": "Ebi (Camarón)",
+       "slug": "ebi",
+       "panel": {
+        "origin": "Shrimp — usually butterflied over rice as nigiri.",
+        "origin_es": "Camarón — normalmente abierto en mariposa sobre el arroz como nigiri.",
+        "chemistry": "Cooked shrimp, splayed and pressed on rice; 'ama-ebi' is sweet raw shrimp.",
+        "chemistry_es": "Camarón cocido, extendido y prensado sobre el arroz; el 'ama-ebi' es camarón dulce crudo.",
+        "pairing": "Sweet and mild; pairs with green tea, sake, or crisp white.",
+        "pairing_es": "Dulce y suave; marida con té verde, sake o blanco nítido.",
+        "mixology": "One bite by hand; light soy.",
+        "mixology_es": "De un bocado con la mano; poca soja.",
+        "examples": "Cooked ebi is beginner-friendly; raw sweet shrimp (ama-ebi) is a delicacy.",
+        "examples_es": "El ebi cocido es ideal para principiantes; el camarón dulce crudo (ama-ebi) es un manjar."
+       }
+      },
+      {
+       "name": "Unagi (Eel)",
+       "name_fr": "Unagi (Anguille)",
+       "name_it": "Unagi (Anguilla)",
+       "name_es": "Unagi (Anguila)",
+       "slug": "unagi",
+       "panel": {
+        "origin": "Freshwater eel — grilled and glazed, never raw.",
+        "origin_es": "Anguila de agua dulce — a la parrilla y glaseada, nunca cruda.",
+        "chemistry": "Filleted, steamed, grilled, and brushed with a sweet soy (kabayaki) glaze.",
+        "chemistry_es": "Fileteada, al vapor, a la parrilla y pincelada con un glaseado dulce de soja (kabayaki).",
+        "pairing": "Rich, sweet, and savory; pairs with sake or off-dry Riesling.",
+        "pairing_es": "Rica, dulce y sabrosa; marida con sake o Riesling semiseco.",
+        "mixology": "One bite; the glaze is on it — don't dip in soy.",
+        "mixology_es": "De un bocado; ya lleva el glaseado — no la mojes en soja.",
+        "examples": "'Anago' is the milder saltwater eel; unagi is richer and pre-sauced.",
+        "examples_es": "El 'anago' es la anguila de mar más suave; la unagi es más rica y ya va salseada."
+       }
+      },
+      {
+       "name": "Tako (Octopus)",
+       "name_fr": "Tako (Poulpe)",
+       "name_it": "Tako (Polpo)",
+       "name_es": "Tako (Pulpo)",
+       "slug": "tako",
+       "panel": {
+        "origin": "Octopus — a firm, chewy, mild white neta.",
+        "origin_es": "Pulpo — un neta blanco firme, masticable y suave.",
+        "chemistry": "Boiled until tender, then thinly sliced over rice.",
+        "chemistry_es": "Hervido hasta ablandarse, luego cortado fino sobre el arroz.",
+        "pairing": "Clean, subtly sweet, with a signature chew; pairs with sake or crisp white.",
+        "pairing_es": "Limpio, sutilmente dulce, con su característica mordida; marida con sake o blanco nítido.",
+        "mixology": "One bite; light soy on the fish side.",
+        "mixology_es": "De un bocado; poca soja en el lado del pescado.",
+        "examples": "Always served cooked on sushi; the chew is the point.",
+        "examples_es": "En el sushi siempre se sirve cocido; la mordida es lo suyo."
+       }
+      },
+      {
+       "name": "Uni (Sea Urchin)",
+       "name_fr": "Uni (Oursin)",
+       "name_it": "Uni (Riccio di Mare)",
+       "name_es": "Uni (Erizo de Mar)",
+       "slug": "uni",
+       "panel": {
+        "origin": "Sea urchin roe — a custardy, briny luxury, usually served gunkan-style.",
+        "origin_es": "Hueva de erizo de mar — un lujo cremoso y salino, normalmente servido al estilo gunkan.",
+        "chemistry": "The soft gonads laid on a rice-and-nori 'battleship' so they don't fall off.",
+        "chemistry_es": "Las gónadas blandas colocadas sobre un 'acorazado' de arroz y nori para que no se caigan.",
+        "pairing": "Rich, briny, and oceanic; pairs with dry sake or Champagne.",
+        "pairing_es": "Rico, salino y oceánico; marida con sake seco o Champagne.",
+        "mixology": "One bite; don't dip — it's delicate and already perfect.",
+        "mixology_es": "De un bocado; no lo mojes — es delicado y ya está perfecto.",
+        "examples": "A love-it-or-hate-it delicacy; the urchin is an echinoderm, not a fish.",
+        "examples_es": "Un manjar que se ama o se odia; el erizo es un equinodermo, no un pez."
+       }
+      },
+      {
+       "name": "Ikura (Salmon Roe)",
+       "name_fr": "Ikura (Œufs de Saumon)",
+       "name_it": "Ikura (Uova di Salmone)",
+       "name_es": "Ikura (Hueva de Salmón)",
+       "slug": "ikura",
+       "panel": {
+        "origin": "Salmon roe — glistening orange pearls, served gunkan-style.",
+        "origin_es": "Hueva de salmón — perlas naranjas brillantes, servidas al estilo gunkan.",
+        "chemistry": "Brine- or soy-cured eggs heaped on a nori-wrapped rice base.",
+        "chemistry_es": "Huevas curadas en salmuera o soja, amontonadas sobre una base de arroz envuelta en nori.",
+        "pairing": "Briny, rich, with a sweet burst; pairs with dry sake or Champagne.",
+        "pairing_es": "Salina, rica, con un estallido dulce; marida con sake seco o Champagne.",
+        "mixology": "One bite; no dipping needed.",
+        "mixology_es": "De un bocado; no hace falta mojar.",
+        "examples": "'Ikura' (from the Russian for 'fish roe'); gunkan was invented to serve it.",
+        "examples_es": "'Ikura' (del ruso para 'hueva de pez'); el gunkan se inventó para servirla."
+       }
+      },
+      {
+       "name": "Tamago (Egg)",
+       "name_fr": "Tamago (Œuf)",
+       "name_it": "Tamago (Uovo)",
+       "name_es": "Tamago (Tortilla)",
+       "slug": "tamago",
+       "panel": {
+        "origin": "A slightly sweet layered Japanese omelet, served over rice as nigiri.",
+        "origin_es": "Una tortilla japonesa en capas, ligeramente dulce, servida sobre el arroz como nigiri.",
+        "chemistry": "Tamagoyaki — egg cooked in thin layers and rolled, sliced, and set on rice (often tied with nori).",
+        "chemistry_es": "Tamagoyaki — huevo cocido en capas finas y enrollado, cortado y puesto sobre el arroz (a menudo atado con nori).",
+        "pairing": "Sweet, soft, and gentle; pairs with green tea.",
+        "pairing_es": "Dulce, suave y delicado; marida con té verde.",
+        "mixology": "One bite; no soy needed.",
+        "mixology_es": "De un bocado; no necesita soja.",
+        "examples": "Once used to judge a chef's skill; a beginner-friendly, fish-free neta.",
+        "examples_es": "Antiguamente servía para juzgar la destreza del chef; un neta sin pescado, apto para principiantes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "COMPONENTS & CONDIMENTS",
+   "name_fr": "Composants & Condiments",
+   "name_it": "Componenti & Condimenti",
+   "name_es": "COMPONENTES Y CONDIMENTOS",
+   "color": "#7a9a4a",
+   "sub": [
+    {
+     "name": "COMPONENTS & CONDIMENTS",
+     "name_fr": "Composants & Condiments",
+     "name_it": "Componenti & Condimenti",
+     "name_es": "COMPONENTES Y CONDIMENTOS",
+     "color": "#7a9a4a",
+     "descriptors": [
+      {
+       "name": "Shari (Sushi Rice)",
+       "name_fr": "Shari (Riz à Sushi)",
+       "name_it": "Shari (Riso per Sushi)",
+       "name_es": "Shari (Arroz de Sushi)",
+       "slug": "shari",
+       "panel": {
+        "origin": "The seasoned vinegared rice that is the true foundation of all sushi.",
+        "origin_es": "El arroz avinagrado y sazonado que es la verdadera base de todo el sushi.",
+        "chemistry": "Short-grain rice mixed with vinegar, sugar, and salt; served slightly warm and glossy.",
+        "chemistry_es": "Arroz de grano corto mezclado con vinagre, azúcar y sal; servido algo tibio y brillante.",
+        "pairing": "Mildly sweet-tart; the canvas that balances every topping.",
+        "pairing_es": "Ligeramente dulce-ácido; el lienzo que equilibra cada topping.",
+        "mixology": "Never over-dip it in soy — the rice soaks it up and falls apart.",
+        "mixology_es": "Nunca lo mojes de más en soja — el arroz la absorbe y se deshace.",
+        "examples": "'Sushi' actually refers to the rice, not the fish; chefs spend years perfecting it.",
+        "examples_es": "'Sushi' se refiere en realidad al arroz, no al pescado; los chefs pasan años perfeccionándolo."
+       }
+      },
+      {
+       "name": "Nori (Seaweed)",
+       "name_fr": "Nori (Algue)",
+       "name_it": "Nori (Alga)",
+       "name_es": "Nori (Alga)",
+       "slug": "nori",
+       "panel": {
+        "origin": "Dried, roasted seaweed sheets used to wrap maki, temaki, and gunkan.",
+        "origin_es": "Hojas de alga secas y tostadas usadas para envolver maki, temaki y gunkan.",
+        "chemistry": "Sheets of pressed, toasted seaweed; quality nori is crisp and fragrant.",
+        "chemistry_es": "Hojas de alga prensada y tostada; el nori de calidad es crujiente y aromático.",
+        "pairing": "Toasty and savory (umami); rich in iodine and minerals.",
+        "pairing_es": "Tostado y sabroso (umami); rico en yodo y minerales.",
+        "mixology": "Eat rolls soon after they're made so the nori stays crisp, not soggy.",
+        "mixology_es": "Come los rollos poco después de hechos para que el nori siga crujiente, no blando.",
+        "examples": "Nori turns chewy when it absorbs moisture; freshness is everything.",
+        "examples_es": "El nori se vuelve correoso al absorber humedad; la frescura lo es todo."
+       }
+      },
+      {
+       "name": "Wasabi",
+       "name_fr": "Wasabi",
+       "name_it": "Wasabi",
+       "name_es": "Wasabi",
+       "slug": "wasabi",
+       "panel": {
+        "origin": "A pungent green Japanese horseradish paste.",
+        "origin_es": "Una pasta verde y penetrante de rábano picante japonés.",
+        "chemistry": "Grated from the wasabi rhizome; most restaurant 'wasabi' is dyed horseradish.",
+        "chemistry_es": "Rallado del rizoma de wasabi; la mayoría del 'wasabi' de restaurante es rábano picante teñido.",
+        "pairing": "Sharp, nasal heat that fades fast; complements raw fish.",
+        "pairing_es": "Picor agudo y nasal que se desvanece rápido; complementa el pescado crudo.",
+        "mixology": "Don't mix it into soy sauce; for nigiri, the chef has already added the right amount.",
+        "mixology_es": "No lo mezcles con la soja; en el nigiri, el chef ya añadió la cantidad justa.",
+        "examples": "Real wasabi is expensive and hard to find; it's milder and more aromatic than the imitation.",
+        "examples_es": "El wasabi real es caro y difícil de hallar; es más suave y aromático que la imitación."
+       }
+      },
+      {
+       "name": "Gari (Pickled Ginger)",
+       "name_fr": "Gari (Gingembre Mariné)",
+       "name_it": "Gari (Zenzero Marinato)",
+       "name_es": "Gari (Jengibre Encurtido)",
+       "slug": "gari",
+       "panel": {
+        "origin": "Thin slices of sweet-tart pickled ginger served beside sushi.",
+        "origin_es": "Finas láminas de jengibre encurtido dulce-ácido servidas junto al sushi.",
+        "chemistry": "Young ginger pickled in sweet vinegar; the pink tint is often added.",
+        "chemistry_es": "Jengibre joven encurtido en vinagre dulce; el tono rosado a menudo se añade.",
+        "pairing": "Sweet, sharp, and cleansing; resets the palate.",
+        "pairing_es": "Dulce, agudo y limpiador; reinicia el paladar.",
+        "mixology": "Eat it between pieces as a palate cleanser — never as a topping on the sushi.",
+        "mixology_es": "Cómelo entre piezas como limpiador de paladar — nunca como topping sobre el sushi.",
+        "examples": "'Gari' is a functional part of the meal, not a garnish or condiment.",
+        "examples_es": "El 'gari' es una parte funcional de la comida, no un adorno ni un condimento."
+       }
+      },
+      {
+       "name": "Shoyu (Soy Sauce)",
+       "name_fr": "Shoyu (Sauce Soja)",
+       "name_it": "Shoyu (Salsa di Soia)",
+       "name_es": "Shoyu (Salsa de Soja)",
+       "slug": "shoyu",
+       "panel": {
+        "origin": "The salty, savory soy sauce served for dipping.",
+        "origin_es": "La salsa de soja salada y sabrosa servida para mojar.",
+        "chemistry": "Brewed from fermented soybeans and wheat; a small dish is poured for dipping.",
+        "chemistry_es": "Elaborada con soja y trigo fermentados; se sirve un platito para mojar.",
+        "pairing": "Salty and umami; meant to enhance, not overpower, the fish.",
+        "pairing_es": "Salada y umami; pensada para realzar, no dominar, el pescado.",
+        "mixology": "Pour only a little; dip the fish side, not the rice; don't drench.",
+        "mixology_es": "Sirve solo un poco; moja el lado del pescado, no el arroz; no lo empapes.",
+        "examples": "Over-saucing masks the chef's work; refill the dish rather than overfilling.",
+        "examples_es": "Excederse con la salsa tapa el trabajo del chef; rellena el platito en vez de llenarlo de más."
+       }
+      },
+      {
+       "name": "Nikiri (Glaze)",
+       "name_fr": "Nikiri (Glaçage)",
+       "name_it": "Nikiri (Glassa)",
+       "name_es": "Nikiri (Glaseado)",
+       "slug": "nikiri",
+       "panel": {
+        "origin": "A sweet, reduced soy glaze brushed onto neta by the chef.",
+        "origin_es": "Un glaseado de soja dulce y reducido que el chef pincela sobre el neta.",
+        "chemistry": "Soy simmered with mirin, sake, and dashi, then painted on the fish.",
+        "chemistry_es": "Soja cocida con mirin, sake y dashi, luego pintada sobre el pescado.",
+        "pairing": "Sweet-savory and glossy; pre-seasons the piece.",
+        "pairing_es": "Dulce-salado y brillante; sazona la pieza de antemano.",
+        "mixology": "When a piece is brushed with nikiri, don't dip it in soy at all.",
+        "mixology_es": "Cuando una pieza lleva nikiri, no la mojes en soja en absoluto.",
+        "examples": "Common at omakase counters; it means the chef has already seasoned the bite.",
+        "examples_es": "Común en las barras de omakase; significa que el chef ya sazonó el bocado."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SIDES & BEVERAGES",
+   "name_fr": "Accompagnements & Boissons",
+   "name_it": "Contorni & Bevande",
+   "name_es": "ACOMPAÑAMIENTOS Y BEBIDAS",
+   "color": "#9a7050",
+   "sub": [
+    {
+     "name": "SIDES & BEVERAGES",
+     "name_fr": "Accompagnements & Boissons",
+     "name_it": "Contorni & Bevande",
+     "name_es": "ACOMPAÑAMIENTOS Y BEBIDAS",
+     "color": "#9a7050",
+     "descriptors": [
+      {
+       "name": "Miso Soup",
+       "name_fr": "Miso Soup",
+       "name_it": "Miso Soup",
+       "name_es": "Sopa de Miso",
+       "slug": "miso-soup",
+       "panel": {
+        "origin": "A warm soup of dashi and miso, a traditional sushi-meal companion.",
+        "origin_es": "Una sopa caliente de dashi y miso, acompañante tradicional de la comida de sushi.",
+        "chemistry": "Dashi stock whisked with miso paste, with tofu, wakame, and scallion.",
+        "chemistry_es": "Caldo dashi batido con pasta de miso, con tofu, wakame y cebollín.",
+        "pairing": "Savory and umami-rich; warms and cleanses the palate.",
+        "pairing_es": "Sabrosa y rica en umami; calienta y limpia el paladar.",
+        "mixology": "Sip directly from the bowl; use chopsticks for the solids.",
+        "mixology_es": "Bébela directamente del bol; usa los palillos para los sólidos.",
+        "examples": "In Japan, miso soup often comes at the end of a sushi meal, not the start.",
+        "examples_es": "En Japón, la sopa de miso suele llegar al final de la comida de sushi, no al principio."
+       }
+      },
+      {
+       "name": "Edamame",
+       "name_fr": "Edamame",
+       "name_it": "Edamame",
+       "name_es": "Edamame",
+       "slug": "edamame",
+       "panel": {
+        "origin": "Steamed young soybeans in the pod, a light starter.",
+        "origin_es": "Vainas de soja joven al vapor, un entrante ligero.",
+        "chemistry": "Boiled or steamed soybean pods, simply seasoned with salt.",
+        "chemistry_es": "Vainas de soja hervidas o al vapor, sazonadas solo con sal.",
+        "pairing": "Fresh, nutty, and protein-rich; a perfect pre-sushi nibble.",
+        "pairing_es": "Fresco, a nuez y rico en proteína; un picoteo perfecto antes del sushi.",
+        "mixology": "Squeeze the beans straight from the pod; discard the shell.",
+        "mixology_es": "Exprime los granos directo de la vaina; desecha la cáscara.",
+        "examples": "A standard izakaya and sushi-bar appetizer.",
+        "examples_es": "Un aperitivo estándar de izakaya y barra de sushi."
+       }
+      },
+      {
+       "name": "Agari (Green Tea)",
+       "name_fr": "Agari (Thé Vert)",
+       "name_it": "Agari (Tè Verde)",
+       "name_es": "Agari (Té Verde)",
+       "slug": "agari",
+       "panel": {
+        "origin": "The hot green tea served with sushi — the classic pairing.",
+        "origin_es": "El té verde caliente servido con sushi — el maridaje clásico.",
+        "chemistry": "Brewed green tea (often a strong 'agari' blend); served piping hot.",
+        "chemistry_es": "Té verde infusionado (a menudo una mezcla fuerte 'agari'); servido bien caliente.",
+        "pairing": "Slightly bitter and cleansing; refreshes the palate between pieces.",
+        "pairing_es": "Ligeramente amargo y limpiador; refresca el paladar entre piezas.",
+        "mixology": "Hold the cup with both hands; 'agari' is the tea served at meal's end.",
+        "mixology_es": "Sostén la taza con ambas manos; 'agari' es el té que se sirve al final de la comida.",
+        "examples": "Green tea cuts richness and aids digestion; the traditional sushi drink.",
+        "examples_es": "El té verde corta la untuosidad y ayuda a digerir; la bebida tradicional del sushi."
+       }
+      },
+      {
+       "name": "Sake",
+       "name_fr": "Sake",
+       "name_it": "Sake",
+       "name_es": "Sake",
+       "slug": "sake",
+       "panel": {
+        "origin": "Japanese rice wine, served warm or chilled.",
+        "origin_es": "Vino de arroz japonés, servido caliente o frío.",
+        "chemistry": "Brewed from polished, fermented rice; light, crisp styles suit sushi best.",
+        "chemistry_es": "Elaborado con arroz pulido y fermentado; los estilos ligeros y nítidos van mejor con sushi.",
+        "pairing": "Clean and umami; a light, dry sake complements without overpowering.",
+        "pairing_es": "Limpio y umami; un sake ligero y seco complementa sin dominar.",
+        "mixology": "Pour for others and let them pour for you; never fill your own cup first.",
+        "mixology_es": "Sirve a los demás y deja que te sirvan; nunca llenes tu propia copa primero.",
+        "examples": "Purists note sake and sushi are both rice-based, so some prefer tea or wine instead.",
+        "examples_es": "Los puristas señalan que sake y sushi son ambos a base de arroz, así que algunos prefieren té o vino."
+       }
+      },
+      {
+       "name": "Japanese Beer",
+       "name_fr": "Bière Japonaise",
+       "name_it": "Birra Giapponese",
+       "name_es": "Cerveza Japonesa",
+       "slug": "beer",
+       "panel": {
+        "origin": "A crisp lager, a popular everyday sushi pairing.",
+        "origin_es": "Una lager nítida, un maridaje popular y cotidiano del sushi.",
+        "chemistry": "Light, clean Japanese lagers like Sapporo, Kirin, or Asahi.",
+        "chemistry_es": "Lagers japonesas ligeras y limpias como Sapporo, Kirin o Asahi.",
+        "pairing": "Refreshing and neutral; cuts richness without masking the fish.",
+        "pairing_es": "Refrescante y neutra; corta la untuosidad sin enmascarar el pescado.",
+        "mixology": "Served cold; pour for your companions as a courtesy.",
+        "mixology_es": "Servida fría; sirve a tus acompañantes por cortesía.",
+        "examples": "A relaxed, reliable match — especially with rolls and fried items.",
+        "examples_es": "Una combinación relajada y fiable — sobre todo con rollos y frituras."
+       }
+      },
+      {
+       "name": "Wine & Sushi",
+       "name_fr": "Vin & Sushi",
+       "name_it": "Vino & Sushi",
+       "name_es": "Vino y Sushi",
+       "slug": "wine",
+       "panel": {
+        "origin": "A modern pairing — the right wine flatters sushi beautifully.",
+        "origin_es": "Un maridaje moderno — el vino adecuado realza el sushi de maravilla.",
+        "chemistry": "Stick to light, crisp, high-acid styles, not heavy reds.",
+        "chemistry_es": "Quédate con estilos ligeros, nítidos y de alta acidez, no tintos pesados.",
+        "pairing": "Champagne and brut sparkling are superb; Sauvignon Blanc, Albariño, dry Riesling, or Grüner work well; for tuna/toro, a light chilled Pinot Noir.",
+        "pairing_es": "El Champagne y los espumosos brut son magníficos; van bien Sauvignon Blanc, Albariño, Riesling seco o Grüner; para atún/toro, un Pinot Noir ligero y fresco.",
+        "mixology": "Serve whites and sparkling well-chilled; let acidity cleanse between bites.",
+        "mixology_es": "Sirve los blancos y espumosos bien fríos; deja que la acidez limpie entre bocados.",
+        "examples": "A sommelier's angle: sparkling's acidity and bubbles cut through rich, oily fish like salmon and toro.",
+        "examples_es": "El enfoque del sommelier: la acidez y las burbujas del espumoso cortan el pescado rico y graso como el salmón y el toro."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ETIQUETTE & TERMS",
+   "name_fr": "Étiquette & Termes",
+   "name_it": "Galateo & Termini",
+   "name_es": "ETIQUETA Y TÉRMINOS",
+   "color": "#5a7a9a",
+   "sub": [
+    {
+     "name": "ETIQUETTE & TERMS",
+     "name_fr": "Étiquette & Termes",
+     "name_it": "Galateo & Termini",
+     "name_es": "ETIQUETA Y TÉRMINOS",
+     "color": "#5a7a9a",
+     "descriptors": [
+      {
+       "name": "Omakase",
+       "name_fr": "Omakase",
+       "name_it": "Omakase",
+       "name_es": "Omakase",
+       "slug": "omakase",
+       "panel": {
+        "origin": "'I'll leave it up to you' — a chef's-choice tasting served piece by piece.",
+        "origin_es": "'Lo dejo en tus manos' — una degustación a elección del chef, servida pieza por pieza.",
+        "chemistry": "The chef builds each piece in sequence, calibrated for the moment it's served.",
+        "chemistry_es": "El chef construye cada pieza en secuencia, calibrada para el momento en que se sirve.",
+        "pairing": "A guided journey through seasonal seafood; pair with sake, tea, or sparkling.",
+        "pairing_es": "Un viaje guiado por el marisco de temporada; marida con sake, té o espumoso.",
+        "mixology": "Eat each piece immediately, in the order served; tell the chef allergies up front, not mid-meal.",
+        "mixology_es": "Come cada pieza enseguida, en el orden servido; avisa de alergias al chef al inicio, no a mitad.",
+        "examples": "The intimate, trusting heart of high-end sushi; don't request modifications.",
+        "examples_es": "El corazón íntimo y de confianza del sushi de alta gama; no pidas modificaciones."
+       }
+      },
+      {
+       "name": "Eating Order",
+       "name_fr": "Ordre de Dégustation",
+       "name_it": "Ordine di Degustazione",
+       "name_es": "Orden al Comer",
+       "slug": "eating-order",
+       "panel": {
+        "origin": "The principle of progressing from mild to bold across a sushi meal.",
+        "origin_es": "El principio de avanzar de lo suave a lo intenso a lo largo de la comida de sushi.",
+        "chemistry": "Start with light white fish, move to richer red fish, finish with strong items like unagi or uni.",
+        "chemistry_es": "Empieza con pescado blanco ligero, pasa al pescado rojo más rico, termina con piezas fuertes como unagi o uni.",
+        "pairing": "Lets each flavor register cleanly before the next.",
+        "pairing_es": "Deja que cada sabor se registre con limpieza antes del siguiente.",
+        "mixology": "Eat sashimi before sushi (it's subtler); use gari to reset between types.",
+        "mixology_es": "Come el sashimi antes del sushi (es más sutil); usa el gari para reiniciar entre tipos.",
+        "examples": "A guideline, not a rule — but it genuinely improves the experience.",
+        "examples_es": "Una pauta, no una regla — pero mejora de verdad la experiencia."
+       }
+      },
+      {
+       "name": "Soy & Wasabi Etiquette",
+       "name_fr": "Étiquette Soja & Wasabi",
+       "name_it": "Galateo Soia & Wasabi",
+       "name_es": "Etiqueta de Soja y Wasabi",
+       "slug": "soy-wasabi",
+       "panel": {
+        "origin": "The right way to use the two key condiments.",
+        "origin_es": "La forma correcta de usar los dos condimentos clave.",
+        "chemistry": "A small dish of soy; wasabi already placed inside nigiri by the chef.",
+        "chemistry_es": "Un platito de soja; el wasabi ya colocado dentro del nigiri por el chef.",
+        "pairing": "Both are meant to enhance, not overpower, the fish.",
+        "pairing_es": "Ambos buscan realzar, no dominar, el pescado.",
+        "mixology": "Don't mix wasabi into soy; dip the fish side, not the rice; never drench.",
+        "mixology_es": "No mezcles el wasabi en la soja; moja el lado del pescado, no el arroz; nunca lo empapes.",
+        "examples": "Mixing wasabi into soy is the mistake guides flag most; it muddies the chef's balance.",
+        "examples_es": "Mezclar wasabi en la soja es el error que más señalan las guías; enturbia el equilibrio del chef."
+       }
+      },
+      {
+       "name": "Chopstick Rules",
+       "name_fr": "Règles des Baguettes",
+       "name_it": "Regole delle Bacchette",
+       "name_es": "Reglas de los Palillos",
+       "slug": "chopsticks",
+       "panel": {
+        "origin": "The do's and don'ts of using chopsticks at the table.",
+        "origin_es": "Lo que se debe y no se debe hacer con los palillos en la mesa.",
+        "chemistry": "Hold them in the upper third; rest them on the hashioki when not in use.",
+        "chemistry_es": "Sujétalos en el tercio superior; apóyalos en el hashioki cuando no los uses.",
+        "pairing": "Nigiri and temaki are fine to eat by hand; chopsticks suit sashimi and rolls.",
+        "pairing_es": "El nigiri y el temaki pueden comerse con la mano; los palillos van bien con sashimi y rollos.",
+        "mixology": "Never stand chopsticks upright in rice or pass food chopstick-to-chopstick — both echo funeral rites.",
+        "mixology_es": "Nunca claves los palillos de pie en el arroz ni pases comida de palillo a palillo — ambos evocan ritos funerarios.",
+        "examples": "Don't rub disposable chopsticks together; it implies they're cheap.",
+        "examples_es": "No frotes los palillos desechables entre sí; insinúa que son baratos."
+       }
+      },
+      {
+       "name": "Itadakimasu & Gochisousama",
+       "name_fr": "Itadakimasu & Gochisousama",
+       "name_it": "Itadakimasu & Gochisousama",
+       "name_es": "Itadakimasu y Gochisousama",
+       "slug": "itadakimasu",
+       "panel": {
+        "origin": "The customary phrases said before and after a Japanese meal.",
+        "origin_es": "Las frases de costumbre que se dicen antes y después de una comida japonesa.",
+        "chemistry": "'Itadakimasu' opens the meal; 'gochisousama (deshita)' closes it with thanks.",
+        "chemistry_es": "'Itadakimasu' abre la comida; 'gochisousama (deshita)' la cierra con agradecimiento.",
+        "pairing": "A gesture of gratitude for the food and those who prepared it.",
+        "pairing_es": "Un gesto de gratitud por la comida y por quienes la prepararon.",
+        "mixology": "Say 'itadakimasu' before the first bite; 'oishii' (delicious) compliments the chef.",
+        "mixology_es": "Di 'itadakimasu' antes del primer bocado; 'oishii' (delicioso) felicita al chef.",
+        "examples": "Like 'bon appétit' and 'thank you for the meal'; small words that show respect.",
+        "examples_es": "Como 'bon appétit' y 'gracias por la comida'; palabras pequeñas que muestran respeto."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CORE SUSHI FORMS": {
+   "en": "The word 'sushi' doesn't mean raw fish — it refers to the vinegared rice; the raw-fish part is optional, which is why plenty of sushi is cooked or vegetarian.",
+   "es": "La palabra 'sushi' no significa pescado crudo — se refiere al arroz avinagrado; la parte de pescado crudo es opcional, por eso mucho sushi es cocido o vegetariano."
+  },
+  "MAKI ROLLS": {
+   "en": "The inside-out roll was invented in the United States, not Japan — chefs flipped the rice to the outside to hide the dark seaweed that put off Western diners, and the style only later spread back to Japan.",
+   "es": "El rollo al revés se inventó en Estados Unidos, no en Japón — los chefs pasaron el arroz al exterior para ocultar el alga oscura que disuadía a los comensales occidentales, y el estilo solo después volvió a Japón."
+  },
+  "PRESSED & SPECIALTY": {
+   "en": "Sushi was originally a preservation method, not a fresh food — fish was packed in fermented rice for months, and the sour rice was thrown away; only the pickled fish was eaten.",
+   "es": "El sushi fue en origen un método de conservación, no un alimento fresco — el pescado se prensaba en arroz fermentado durante meses, y el arroz ácido se desechaba; solo se comía el pescado en conserva."
+  },
+  "NETA — FISH": {
+   "en": "At a real omakase, much of the nigiri is pre-seasoned with a soy glaze or wasabi, so dipping it in soy sauce isn't refinement — it overrides the balance the chef built into each piece.",
+   "es": "En un omakase de verdad, gran parte del nigiri ya va sazonado con un glaseado de soja o wasabi, así que mojarlo en soja no es refinamiento — anula el equilibrio que el chef puso en cada pieza."
+  },
+  "NETA — SEAFOOD & EGG": {
+   "en": "The 'battleship' roll (gunkan-maki) was invented in 1941 specifically so chefs could serve soft, loose toppings like sea urchin and salmon roe that would slide right off a normal piece of nigiri.",
+   "es": "El rollo 'acorazado' (gunkan-maki) se inventó en 1941 precisamente para que los chefs pudieran servir toppings blandos y sueltos como erizo de mar y hueva de salmón, que se resbalarían de un nigiri normal."
+  },
+  "COMPONENTS & CONDIMENTS": {
+   "en": "Most of the bright green 'wasabi' served outside Japan isn't wasabi at all — it's dyed horseradish and mustard, because real wasabi is expensive, perishable, and must be grated fresh.",
+   "es": "La mayor parte del 'wasabi' verde brillante que se sirve fuera de Japón no es wasabi en absoluto — es rábano picante y mostaza teñidos, porque el wasabi real es caro, perecedero y debe rallarse al momento."
+  },
+  "SIDES & BEVERAGES": {
+   "en": "Sake is often NOT paired with sushi in Japan — since both are rice-based, many purists prefer green tea or a crisp wine, saving sake for dishes that aren't already built on rice.",
+   "es": "En Japón, el sake a menudo NO se marida con sushi — como ambos son a base de arroz, muchos puristas prefieren té verde o un vino nítido, reservando el sake para platos que no estén ya hechos de arroz."
+  },
+  "ETIQUETTE & TERMS": {
+   "en": "Two everyday chopstick habits are taboo at a Japanese table — standing them upright in a bowl of rice and passing food chopstick-to-chopstick — because both mirror rituals performed at funerals.",
+   "es": "Dos hábitos cotidianos con los palillos son tabú en la mesa japonesa — clavarlos de pie en un bol de arroz y pasar comida de palillo a palillo — porque ambos imitan rituales que se realizan en los funerales."
+  }
+ }
+}

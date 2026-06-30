@@ -1,0 +1,629 @@
+{
+ "title": "Italian Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Pasta & Primi"
+  },
+  {
+   "name": "Spaghetti",
+   "slug": "spaghetti",
+   "rows": [
+    {
+     "k": "",
+     "v": "The most recognized Italian pasta — long, round strands of durum-wheat semolina. The everyday backbone of Italian home cooking."
+    }
+   ]
+  },
+  {
+   "name": "Lasagna",
+   "slug": "lasagna",
+   "rows": [
+    {
+     "k": "",
+     "v": "Layered baked pasta — flat sheets stacked with sauce, cheese, and often ragù or béchamel. A festive, Sunday-table classic."
+    }
+   ]
+  },
+  {
+   "name": "Fettuccine",
+   "slug": "fettuccine",
+   "rows": [
+    {
+     "k": "",
+     "v": "Flat ribbon egg pasta, wider than tagliatelle; Roman, classic with butter and Parmigiano."
+    }
+   ]
+  },
+  {
+   "name": "Penne",
+   "slug": "penne",
+   "rows": [
+    {
+     "k": "",
+     "v": "Quill-shaped tubes with ridges that grab sauce; the workhorse of baked and tossed dishes."
+    }
+   ]
+  },
+  {
+   "name": "Ravioli",
+   "slug": "ravioli",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stuffed pasta pillows — fillings range from ricotta-spinach to meat or squash."
+    }
+   ]
+  },
+  {
+   "name": "Gnocchi",
+   "slug": "gnocchi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Soft potato-and-flour dumplings; pillowy, served with butter-sage or tomato."
+    }
+   ]
+  },
+  {
+   "name": "Tortellini",
+   "slug": "tortellini",
+   "rows": [
+    {
+     "k": "",
+     "v": "Small ring-shaped stuffed pasta from Emilia, traditionally in capon broth (in brodo)."
+    }
+   ]
+  },
+  {
+   "name": "Orecchiette",
+   "slug": "orecchiette",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Little ears' from Puglia; ideal with broccoli rabe and anchovy."
+    }
+   ]
+  },
+  {
+   "name": "Bucatini",
+   "slug": "bucatini",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick hollow spaghetti; the canonical shape for amatriciana."
+    }
+   ]
+  },
+  {
+   "name": "Pici",
+   "slug": "pici",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hand-rolled thick Tuscan noodles, like fat ungainly spaghetti; classic with cacio e pepe."
+    }
+   ]
+  },
+  {
+   "cat": "Pizza & Bread"
+  },
+  {
+   "name": "Pizza Margherita",
+   "slug": "pizza-margherita",
+   "rows": [
+    {
+     "k": "",
+     "v": "The defining Neapolitan pizza — tomato, mozzarella, basil. Said to honor Queen Margherita with the colors of the Italian flag."
+    }
+   ]
+  },
+  {
+   "name": "Pizza Marinara",
+   "slug": "pizza-marinara",
+   "rows": [
+    {
+     "k": "",
+     "v": "Naples' purist pie — tomato, garlic, oregano, oil; no cheese."
+    }
+   ]
+  },
+  {
+   "name": "Calzone",
+   "slug": "calzone",
+   "rows": [
+    {
+     "k": "",
+     "v": "Folded, sealed pizza turnover, typically stuffed with ricotta and salumi."
+    }
+   ]
+  },
+  {
+   "name": "Focaccia",
+   "slug": "focaccia",
+   "rows": [
+    {
+     "k": "",
+     "v": "Olive-oil-rich flatbread, dimpled and salted; Ligurian staple."
+    }
+   ]
+  },
+  {
+   "name": "Piadina",
+   "slug": "piadina",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thin Romagnol griddle flatbread, folded around cured meats and squacquerone."
+    }
+   ]
+  },
+  {
+   "name": "Grissini",
+   "slug": "grissini",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp Turinese breadsticks, snapped at the table."
+    }
+   ]
+  },
+  {
+   "cat": "Sauces"
+  },
+  {
+   "name": "Marinara",
+   "slug": "marinara",
+   "rows": [
+    {
+     "k": "",
+     "v": "The foundational tomato sauce — tomatoes, garlic, olive oil, basil or oregano. Simple, bright, and the base for countless dishes."
+    }
+   ]
+  },
+  {
+   "name": "Pesto",
+   "slug": "pesto",
+   "rows": [
+    {
+     "k": "",
+     "v": "The famous green sauce — basil, pine nuts, garlic, Parmigiano/Pecorino, and olive oil, pounded together raw."
+    }
+   ]
+  },
+  {
+   "name": "Bolognese (Ragù)",
+   "slug": "bolognese-rag",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-cooked meat ragù from Bologna; traditionally with tagliatelle, never spaghetti."
+    }
+   ]
+  },
+  {
+   "name": "Pomodoro",
+   "slug": "pomodoro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Simple bright tomato sauce with basil and oil — the foundation sauce."
+    }
+   ]
+  },
+  {
+   "name": "Arrabbiata",
+   "slug": "arrabbiata",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Angry' tomato sauce spiked with peperoncino; Roman, with penne."
+    }
+   ]
+  },
+  {
+   "name": "Aglio e Olio",
+   "slug": "aglio-e-olio",
+   "rows": [
+    {
+     "k": "",
+     "v": "Garlic gently fried in olive oil with chili — minimalist, fast, spaghetti."
+    }
+   ]
+  },
+  {
+   "name": "Amatriciana",
+   "slug": "amatriciana",
+   "rows": [
+    {
+     "k": "",
+     "v": "Guanciale, tomato, Pecorino; from Amatrice, classic on bucatini."
+    }
+   ]
+  },
+  {
+   "name": "Carbonara (sauce)",
+   "slug": "carbonara-sauce",
+   "rows": [
+    {
+     "k": "",
+     "v": "Egg, Pecorino, guanciale, black pepper — no cream; emulsified by pasta water."
+    }
+   ]
+  },
+  {
+   "name": "Puttanesca",
+   "slug": "puttanesca",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tomato, olives, capers, anchovy, garlic — pungent and Neapolitan."
+    }
+   ]
+  },
+  {
+   "name": "Cacio e Pepe (sauce)",
+   "slug": "cacio-e-pepe-sauce",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pecorino Romano and black pepper emulsified with starchy water — three ingredients."
+    }
+   ]
+  },
+  {
+   "cat": "Risotto & Rice"
+  },
+  {
+   "name": "Risotto",
+   "slug": "risotto",
+   "rows": [
+    {
+     "k": "",
+     "v": "Creamy simmered rice — short-grain rice cooked slowly with broth until it releases its starch into a silky body."
+    }
+   ]
+  },
+  {
+   "name": "Risotto alla Milanese",
+   "slug": "risotto-alla-milanese",
+   "rows": [
+    {
+     "k": "",
+     "v": "Saffron-gold risotto finished with butter and Parmigiano; the Osso Buco partner."
+    }
+   ]
+  },
+  {
+   "name": "Risotto ai Funghi",
+   "slug": "risotto-ai-funghi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mushroom risotto, often porcini, earthy and creamy."
+    }
+   ]
+  },
+  {
+   "name": "Arancini",
+   "slug": "arancini",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried stuffed rice balls from Sicily — saffron rice around ragù or mozzarella."
+    }
+   ]
+  },
+  {
+   "name": "Risi e Bisi",
+   "slug": "risi-e-bisi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Venetian rice-and-peas, looser than risotto, a spring dish."
+    }
+   ]
+  },
+  {
+   "cat": "Secondi (Mains)"
+  },
+  {
+   "name": "Chicken Parmigiana",
+   "slug": "chicken-parmigiana",
+   "rows": [
+    {
+     "k": "",
+     "v": "Breaded cutlet baked with tomato sauce and melted cheese. Hugely popular abroad; rooted in the Italian *parmigiana* tradition."
+    }
+   ]
+  },
+  {
+   "name": "Osso Buco",
+   "slug": "osso-buco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Braised veal shank in white wine and broth; served with gremolata and Milanese risotto."
+    }
+   ]
+  },
+  {
+   "name": "Saltimbocca",
+   "slug": "saltimbocca",
+   "rows": [
+    {
+     "k": "",
+     "v": "Veal scaloppine with prosciutto and sage, pan-fried — 'jumps in the mouth.'"
+    }
+   ]
+  },
+  {
+   "name": "Chicken Piccata",
+   "slug": "chicken-piccata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pan-seared cutlets in lemon-butter-caper sauce."
+    }
+   ]
+  },
+  {
+   "name": "Bistecca alla Fiorentina",
+   "slug": "bistecca-alla-fiorentina",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick T-bone of Chianina beef, grilled rare over wood."
+    }
+   ]
+  },
+  {
+   "name": "Cotoletta alla Milanese",
+   "slug": "cotoletta-alla-milanese",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bone-in veal cutlet, breaded and fried in butter."
+    }
+   ]
+  },
+  {
+   "name": "Vitello Tonnato",
+   "slug": "vitello-tonnato",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cold sliced veal under a creamy tuna-caper sauce; Piedmontese."
+    }
+   ]
+  },
+  {
+   "name": "Brasato",
+   "slug": "brasato",
+   "rows": [
+    {
+     "k": "",
+     "v": "Beef braised long in red wine (often Barolo) until spoon-tender."
+    }
+   ]
+  },
+  {
+   "cat": "Antipasti & Salumi"
+  },
+  {
+   "name": "Bruschetta",
+   "slug": "bruschetta",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled bread rubbed with garlic and olive oil — the simplest antipasto, often topped with tomato and basil."
+    }
+   ]
+  },
+  {
+   "name": "Prosciutto",
+   "slug": "prosciutto",
+   "rows": [
+    {
+     "k": "",
+     "v": "Italy's iconic dry-cured ham — salted and air-dried for months to a silky, sweet-savory slice."
+    }
+   ]
+  },
+  {
+   "name": "Caprese",
+   "slug": "caprese",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mozzarella, tomato, basil, oil — the colors of the flag; from Capri."
+    }
+   ]
+  },
+  {
+   "name": "Carpaccio",
+   "slug": "carpaccio",
+   "rows": [
+    {
+     "k": "",
+     "v": "Raw beef sliced paper-thin with oil, lemon, Parmigiano; invented at Harry's Bar."
+    }
+   ]
+  },
+  {
+   "name": "Burrata",
+   "slug": "burrata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh mozzarella pouch filled with stracciatella and cream; oozes when cut."
+    }
+   ]
+  },
+  {
+   "name": "'Nduja",
+   "slug": "nduja",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spreadable spicy fermented pork sausage from Calabria."
+    }
+   ]
+  },
+  {
+   "name": "Giardiniera",
+   "slug": "giardiniera",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crunchy pickled vegetables; antipasto and condiment."
+    }
+   ]
+  },
+  {
+   "cat": "Dolci (Sweets)"
+  },
+  {
+   "name": "Tiramisu",
+   "slug": "tiramisu",
+   "rows": [
+    {
+     "k": "",
+     "v": "The famous coffee-and-mascarpone dessert — espresso-soaked ladyfingers layered with sweet mascarpone cream and cocoa."
+    }
+   ]
+  },
+  {
+   "name": "Gelato",
+   "slug": "gelato",
+   "rows": [
+    {
+     "k": "",
+     "v": "Italian frozen custard/sorbet — denser and lower in fat than ice cream, served warmer so flavors read intensely."
+    }
+   ]
+  },
+  {
+   "name": "Panna Cotta",
+   "slug": "panna-cotta",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Cooked cream' set with gelatin; silky, with berry or caramel."
+    }
+   ]
+  },
+  {
+   "name": "Cannoli",
+   "slug": "cannoli",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp fried Sicilian shells filled with sweet ricotta."
+    }
+   ]
+  },
+  {
+   "name": "Affogato",
+   "slug": "affogato",
+   "rows": [
+    {
+     "k": "",
+     "v": "Vanilla gelato 'drowned' in a shot of hot espresso."
+    }
+   ]
+  },
+  {
+   "name": "Zabaglione",
+   "slug": "zabaglione",
+   "rows": [
+    {
+     "k": "",
+     "v": "Warm whipped custard of egg yolks, sugar, and Marsala."
+    }
+   ]
+  },
+  {
+   "name": "Sfogliatella",
+   "slug": "sfogliatella",
+   "rows": [
+    {
+     "k": "",
+     "v": "Neapolitan shell pastry of crisp layered dough with citrus-ricotta."
+    }
+   ]
+  },
+  {
+   "name": "Panettone",
+   "slug": "panettone",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tall airy Milanese Christmas bread with candied fruit, long-leavened."
+    }
+   ]
+  },
+  {
+   "cat": "Techniques & Traditions"
+  },
+  {
+   "name": "Al Dente",
+   "slug": "al-dente",
+   "rows": [
+    {
+     "k": "",
+     "v": "'To the tooth' — pasta (or rice) cooked until just firm at the center, never mushy. The single most important Italian cooking rule."
+    }
+   ]
+  },
+  {
+   "name": "Soffritto",
+   "slug": "soffritto",
+   "rows": [
+    {
+     "k": "",
+     "v": "The aromatic base — onion, carrot, celery slowly sweated in oil; start of countless dishes."
+    }
+   ]
+  },
+  {
+   "name": "Mantecatura",
+   "slug": "mantecatura",
+   "rows": [
+    {
+     "k": "",
+     "v": "Finishing risotto off-heat with cold butter and cheese for creaminess."
+    }
+   ]
+  },
+  {
+   "name": "Braising",
+   "slug": "braising",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow moist cooking in liquid that turns tough cuts tender (brasato, osso buco)."
+    }
+   ]
+  },
+  {
+   "name": "Pasta all'uovo",
+   "slug": "pasta-all-uovo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh egg pasta of soft flour and eggs; the northern tradition (tagliatelle, ravioli)."
+    }
+   ]
+  },
+  {
+   "name": "La Scarpetta",
+   "slug": "la-scarpetta",
+   "rows": [
+    {
+     "k": "",
+     "v": "'The little shoe' — mopping the last sauce with bread; affectionate, not rude."
+    }
+   ]
+  }
+ ]
+}

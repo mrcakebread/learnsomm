@@ -1,0 +1,560 @@
+{
+ "title": "Mexican Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Antojitos"
+  },
+  {
+   "name": "Taco",
+   "slug": "mx-taco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Folded tortilla with filling; the cornerstone."
+    }
+   ]
+  },
+  {
+   "name": "Quesadilla",
+   "slug": "mx-quesadilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Folded tortilla with melted cheese."
+    }
+   ]
+  },
+  {
+   "name": "Tamale",
+   "slug": "mx-tamale",
+   "rows": [
+    {
+     "k": "",
+     "v": "Masa steamed in corn husk or banana leaf."
+    }
+   ]
+  },
+  {
+   "name": "Sope",
+   "slug": "mx-sope",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick masa base with raised edge, topped."
+    }
+   ]
+  },
+  {
+   "name": "Tlacoyo",
+   "slug": "mx-tlacoyo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stuffed masa oval, often with beans."
+    }
+   ]
+  },
+  {
+   "name": "Gordita",
+   "slug": "mx-gordita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick stuffed masa pocket."
+    }
+   ]
+  },
+  {
+   "name": "Tostada",
+   "slug": "mx-tostada",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp flat tortilla, layered toppings."
+    }
+   ]
+  },
+  {
+   "cat": "Salsas & Moles"
+  },
+  {
+   "name": "Salsa Roja",
+   "slug": "mx-salsaroja",
+   "rows": [
+    {
+     "k": "",
+     "v": "Red sauce from ripe tomato & dried chili."
+    }
+   ]
+  },
+  {
+   "name": "Salsa Verde",
+   "slug": "mx-salsaverde",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tomatillo-green chili sauce."
+    }
+   ]
+  },
+  {
+   "name": "Guacamole",
+   "slug": "mx-guacamole",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mashed avocado with lime, onion, chili."
+    }
+   ]
+  },
+  {
+   "name": "Mole Poblano",
+   "slug": "mx-molepoblano",
+   "rows": [
+    {
+     "k": "",
+     "v": "Complex chili-chocolate-spice sauce, Puebla."
+    }
+   ]
+  },
+  {
+   "name": "Mole Negro",
+   "slug": "mx-molenegro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Oaxacan dark mole, deeply layered."
+    }
+   ]
+  },
+  {
+   "name": "Pico de Gallo",
+   "slug": "mx-pico",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh chopped tomato-onion-chili-lime."
+    }
+   ]
+  },
+  {
+   "name": "Adobo",
+   "slug": "mx-adobo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chili-vinegar marinade paste."
+    }
+   ]
+  },
+  {
+   "name": "Pipián",
+   "slug": "mx-pipian",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pumpkin-seed based sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Chiles"
+  },
+  {
+   "name": "Jalapeño",
+   "slug": "mx-jalapeno",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh medium-heat green chili."
+    }
+   ]
+  },
+  {
+   "name": "Chipotle",
+   "slug": "mx-chipotle",
+   "rows": [
+    {
+     "k": "",
+     "v": "Smoked, dried jalapeño."
+    }
+   ]
+  },
+  {
+   "name": "Ancho",
+   "slug": "mx-ancho",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dried poblano; sweet, mild, raisiny."
+    }
+   ]
+  },
+  {
+   "name": "Guajillo",
+   "slug": "mx-guajillo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dried, bright, tangy workhorse chili."
+    }
+   ]
+  },
+  {
+   "name": "Habanero",
+   "slug": "mx-habanero",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fiery fruity chili, Yucatán."
+    }
+   ]
+  },
+  {
+   "name": "Pasilla",
+   "slug": "mx-pasilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dried chilaca; dark, rich."
+    }
+   ]
+  },
+  {
+   "name": "Serrano",
+   "slug": "mx-serrano",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hotter, smaller than jalapeño."
+    }
+   ]
+  },
+  {
+   "cat": "Mains"
+  },
+  {
+   "name": "Carnitas",
+   "slug": "mx-carnitas",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pork confited then crisped, Michoacán."
+    }
+   ]
+  },
+  {
+   "name": "Al Pastor",
+   "slug": "mx-pastor",
+   "rows": [
+    {
+     "k": "",
+     "v": "Marinated pork on vertical spit with pineapple."
+    }
+   ]
+  },
+  {
+   "name": "Barbacoa",
+   "slug": "mx-barbacoa",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow-cooked (traditionally pit) seasoned meat."
+    }
+   ]
+  },
+  {
+   "name": "Cochinita Pibil",
+   "slug": "mx-cochinita",
+   "rows": [
+    {
+     "k": "",
+     "v": "Achiote-marinated pork, Yucatán."
+    }
+   ]
+  },
+  {
+   "name": "Chiles en Nogada",
+   "slug": "mx-nogada",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stuffed poblano with walnut sauce, patriotic."
+    }
+   ]
+  },
+  {
+   "name": "Birria",
+   "slug": "mx-birria",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chili-braised goat/beef stew, now taco-famous."
+    }
+   ]
+  },
+  {
+   "name": "Pozole",
+   "slug": "mx-pozole",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hominy soup with pork, red/green/white."
+    }
+   ]
+  },
+  {
+   "cat": "Masa & Staples"
+  },
+  {
+   "name": "Masa",
+   "slug": "mx-masa",
+   "rows": [
+    {
+     "k": "",
+     "v": "Nixtamalized corn dough, the foundation."
+    }
+   ]
+  },
+  {
+   "name": "Nixtamal",
+   "slug": "mx-nixtamal",
+   "rows": [
+    {
+     "k": "",
+     "v": "Corn treated with lime (cal) for masa."
+    }
+   ]
+  },
+  {
+   "name": "Corn Tortilla",
+   "slug": "mx-corntortilla",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pressed masa flatbread."
+    }
+   ]
+  },
+  {
+   "name": "Frijoles",
+   "slug": "mx-frijoles",
+   "rows": [
+    {
+     "k": "",
+     "v": "Beans, often refried."
+    }
+   ]
+  },
+  {
+   "name": "Queso Fresco",
+   "slug": "mx-quesofresco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh crumbly cheese."
+    }
+   ]
+  },
+  {
+   "name": "Crema",
+   "slug": "mx-crema",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mexican soured cream."
+    }
+   ]
+  },
+  {
+   "name": "Epazote",
+   "slug": "mx-epazote",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pungent herb for beans."
+    }
+   ]
+  },
+  {
+   "cat": "Aromatics"
+  },
+  {
+   "name": "Cilantro",
+   "slug": "mx-cilantro",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bright herb, ubiquitous garnish."
+    }
+   ]
+  },
+  {
+   "name": "Lime",
+   "slug": "mx-lime",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sour citrus finishing everything."
+    }
+   ],
+   "name_es": "Lima"
+  },
+  {
+   "name": "White Onion",
+   "slug": "mx-onion",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sharp raw topping."
+    }
+   ]
+  },
+  {
+   "name": "Tomatillo",
+   "slug": "mx-tomatillo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tart husked green fruit."
+    }
+   ]
+  },
+  {
+   "name": "Achiote",
+   "slug": "mx-achiote",
+   "rows": [
+    {
+     "k": "",
+     "v": "Annatto seed; earthy, red."
+    }
+   ]
+  },
+  {
+   "name": "Mexican Oregano",
+   "slug": "mx-oregano",
+   "rows": [
+    {
+     "k": "",
+     "v": "More citrusy than Mediterranean."
+    }
+   ]
+  },
+  {
+   "cat": "Regional"
+  },
+  {
+   "name": "Oaxacan",
+   "slug": "mx-oaxacan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Land of seven moles & string cheese."
+    }
+   ]
+  },
+  {
+   "name": "Yucatecan",
+   "slug": "mx-yucatecan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mayan-influenced, achiote & citrus."
+    }
+   ]
+  },
+  {
+   "name": "Pueblan",
+   "slug": "mx-pueblan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Home of mole poblano & chiles en nogada."
+    }
+   ]
+  },
+  {
+   "name": "Norteño",
+   "slug": "mx-norteno",
+   "rows": [
+    {
+     "k": "",
+     "v": "Northern; beef, flour tortillas, grilling."
+    }
+   ]
+  },
+  {
+   "name": "Veracruz",
+   "slug": "mx-veracruz",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gulf coast; seafood, olives, capers (a la veracruzana)."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Drinks"
+  },
+  {
+   "name": "Churros",
+   "slug": "mx-churros",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fried dough with cinnamon sugar."
+    }
+   ]
+  },
+  {
+   "name": "Flan",
+   "slug": "mx-flan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel custard."
+    }
+   ]
+  },
+  {
+   "name": "Tres Leches",
+   "slug": "mx-tresleches",
+   "rows": [
+    {
+     "k": "",
+     "v": "Three-milk soaked cake."
+    }
+   ]
+  },
+  {
+   "name": "Horchata",
+   "slug": "mx-horchata",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rice-cinnamon sweet drink."
+    }
+   ]
+  },
+  {
+   "name": "Agua Fresca",
+   "slug": "mx-aguafresca",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fruit-water cooler."
+    }
+   ]
+  },
+  {
+   "name": "Champurrado",
+   "slug": "mx-champurrado",
+   "rows": [
+    {
+     "k": "",
+     "v": "Masa-thickened hot chocolate."
+    }
+   ]
+  }
+ ]
+}

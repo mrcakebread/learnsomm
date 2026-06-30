@@ -1,0 +1,269 @@
+{
+ "title": "Vodka Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Mouthfeel & Texture"
+  },
+  {
+   "name": "Weight & Body",
+   "slug": "weight",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Watery"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Medium-bodied"
+    },
+    {
+     "k": "",
+     "v": "Full-bodied"
+    },
+    {
+     "k": "",
+     "v": "Oily"
+    },
+    {
+     "k": "",
+     "v": "Glycerous"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Coat your mouth — does it feel thin like water or viscous like oil? Premium vodkas lean oily-glycerous"
+    },
+    {
+     "k": "Best for",
+     "v": "The primary dimension for blind vodka evaluation — weight before anything else"
+    }
+   ],
+   "name_es": "Peso y Cuerpo"
+  },
+  {
+   "name": "Tingle & Warmth",
+   "slug": "tingle",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Spritz"
+    },
+    {
+     "k": "",
+     "v": "Tingle"
+    },
+    {
+     "k": "",
+     "v": "Pepper"
+    },
+    {
+     "k": "",
+     "v": "Chilli warmth"
+    },
+    {
+     "k": "",
+     "v": "Hot burn"
+    },
+    {
+     "k": "",
+     "v": "Clean fade"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Where does the heat land? Front of mouth = grain-forward; back of throat = higher proof or fusel notes"
+    },
+    {
+     "k": "Best for",
+     "v": "Distinguishing vodka styles — rye vodkas typically show more pepper; wheat vodkas stay softer"
+    }
+   ],
+   "name_es": "Hormigueo y Calor"
+  },
+  {
+   "name": "Astringency & Finish",
+   "slug": "astringency",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Powder"
+    },
+    {
+     "k": "",
+     "v": "Chalk"
+    },
+    {
+     "k": "",
+     "v": "Dusty"
+    },
+    {
+     "k": "",
+     "v": "Grainy"
+    },
+    {
+     "k": "",
+     "v": "Clean"
+    },
+    {
+     "k": "",
+     "v": "Dry cotton"
+    },
+    {
+     "k": "",
+     "v": "Metallic"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Astringency is the drying, gripping sensation on gums and cheeks — distinct from bitterness or heat"
+    },
+    {
+     "k": "Best for",
+     "v": "Evaluating finish quality — premium vodkas show minimal astringency and a clean, lingering fade"
+    }
+   ],
+   "name_es": "Astringencia y Final"
+  },
+  {
+   "name": "Grain & Source Character",
+   "slug": "grain",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Wheat: soft, creamy"
+    },
+    {
+     "k": "Rye",
+     "v": "spicy, full"
+    },
+    {
+     "k": "Corn",
+     "v": "sweet, round"
+    },
+    {
+     "k": "Potato",
+     "v": "earthy, velvety"
+    },
+    {
+     "k": "Grape",
+     "v": "light, floral"
+    },
+    {
+     "k": "Best for",
+     "v": "Advanced deductive evaluation — matching mouthfeel profile to probable base ingredient"
+    }
+   ],
+   "name_es": "Carácter del Grano y Fuente"
+  },
+  {
+   "cat": "Essential Vodka Cocktails"
+  },
+  {
+   "name": "Moscow Mule",
+   "slug": "moscow-mule",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Vodka, ginger beer, lime juice, copper mug"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "Best for",
+     "v": "The entry cocktail — showcases ginger's ability to amplify vodka's clean base"
+    }
+   ]
+  },
+  {
+   "name": "Espresso Martini",
+   "slug": "espresso-martini",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Vodka, espresso, coffee liqueur (Kahlúa), simple syrup"
+    },
+    {
+     "k": "",
+     "v": "Rich"
+    },
+    {
+     "k": "",
+     "v": "Bitter-sweet"
+    },
+    {
+     "k": "",
+     "v": "Caffeinated"
+    },
+    {
+     "k": "Best for",
+     "v": "After-dinner or late-night — the drink that revived vodka's cocktail prestige"
+    }
+   ],
+   "name_es": "Martini de Espresso"
+  },
+  {
+   "name": "Vodka Martini",
+   "slug": "vodka-martini",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Vodka, dry vermouth, lemon twist or olive"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Dry"
+    },
+    {
+     "k": "",
+     "v": "Elegant"
+    },
+    {
+     "k": "Best for",
+     "v": "The purist's test — strip away garnish and the vodka's character has nowhere to hide"
+    }
+   ],
+   "name_es": "Martini de Vodka"
+  },
+  {
+   "name": "Bloody Mary",
+   "slug": "bloody-mary",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Vodka, tomato juice, lemon, Worcestershire, hot sauce, celery salt, horseradish"
+    },
+    {
+     "k": "",
+     "v": "Savory"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Brunch classic"
+    },
+    {
+     "k": "Best for",
+     "v": "Brunch — the world's most customizable cocktail; adjust heat and garnish to your crowd"
+    }
+   ]
+  }
+ ]
+}

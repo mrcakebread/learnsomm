@@ -1,0 +1,296 @@
+{
+ "title": "Tequila Cheat Sheet",
+ "groups": [
+  {
+   "cat": "The Four Categories"
+  },
+  {
+   "name": "Blanco also called Silver",
+   "slug": "blanco-also-called-silver",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Unaged or under 2 months"
+    },
+    {
+     "k": "",
+     "v": "Agave, citrus, pepper, fresh herbs"
+    },
+    {
+     "k": "Pairing",
+     "v": "Ceviche, tacos, guacamole, light seafood"
+    },
+    {
+     "k": "Best for",
+     "v": "Cocktails — its brightness shines in a margarita"
+    }
+   ],
+   "name_es": "Blanco (también Silver)"
+  },
+  {
+   "name": "Reposado",
+   "slug": "reposado",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "2 to 12 months in oak"
+    },
+    {
+     "k": "",
+     "v": "Vanilla, caramel, cooked agave, light oak"
+    },
+    {
+     "k": "Pairing",
+     "v": "Grilled meats, enchiladas, mole, hard cheese"
+    },
+    {
+     "k": "Best for",
+     "v": "Sipping neat or on the rocks — the beginner's sweet spot"
+    }
+   ]
+  },
+  {
+   "name": "Añejo",
+   "slug": "a-ejo",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "1 to 3 years in oak"
+    },
+    {
+     "k": "",
+     "v": "Butterscotch, toasted nuts, baking spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "Dark chocolate, braised meats, aged cheese"
+    },
+    {
+     "k": "Best for",
+     "v": "Sipping slowly, like a good bourbon"
+    }
+   ]
+  },
+  {
+   "name": "Cristalino",
+   "slug": "cristalino",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "Añejo that's been filtered clear"
+    },
+    {
+     "k": "",
+     "v": "Smooth vanilla, light oak, clean agave"
+    },
+    {
+     "k": "Why it matters",
+     "v": "You'll see it on menus looking like Blanco — it's actually aged. Drinks smoother than it looks."
+    }
+   ]
+  },
+  {
+   "name": "Extra Añejo",
+   "slug": "extra-a-ejo",
+   "rows": [
+    {
+     "k": "Age",
+     "v": "3+ years in oak"
+    },
+    {
+     "k": "",
+     "v": "Dark chocolate, tobacco, dried fruit, leather"
+    },
+    {
+     "k": "Pairing",
+     "v": "Cigars, dessert, dark chocolate, charcuterie"
+    },
+    {
+     "k": "Best for",
+     "v": "A special occasion sip — not for cocktails"
+    }
+   ]
+  },
+  {
+   "name": "Joven / Gold",
+   "slug": "joven-gold",
+   "rows": [
+    {
+     "k": "",
+     "v": "Usually a mixto with caramel coloring added"
+    },
+    {
+     "k": "",
+     "v": "Often harsh, artificially sweet"
+    },
+    {
+     "k": "At the store",
+     "v": "If it's gold-colored but doesn't say \"100% agave,\" it's likely a mixto — a different category from the 100% agave tequilas above, with added coloring, flavoring, and sugars. True Joven (100% agave, a blend of unaged and aged) does exist, but it's uncommon."
+    }
+   ]
+  },
+  {
+   "cat": "Cocktails"
+  },
+  {
+   "name": "Classic Margarita",
+   "slug": "classic-margarita",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blanco tequila, lime juice, orange liqueur (Cointreau)"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "",
+     "v": "Citrusy"
+    },
+    {
+     "k": "",
+     "v": "Iconic"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for it on the rocks, not frozen — you'll taste the tequila better"
+    }
+   ],
+   "name_es": "Margarita Clásica"
+  },
+  {
+   "name": "Tommy's Margarita",
+   "slug": "tommy-s-margarita",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blanco tequila, lime juice, agave nectar (no orange liqueur)"
+    },
+    {
+     "k": "",
+     "v": "Cleaner"
+    },
+    {
+     "k": "",
+     "v": "Agave-forward"
+    },
+    {
+     "k": "",
+     "v": "More sophisticated"
+    },
+    {
+     "k": "Why try it",
+     "v": "Drops the sweetness of triple sec — the tequila is the star. Most good bars know this one."
+    }
+   ],
+   "name_es": "Margarita Tommy's"
+  },
+  {
+   "name": "Paloma",
+   "slug": "paloma",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blanco tequila, grapefruit soda (Jarritos or Squirt), lime"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "",
+     "v": "Easy-drinking"
+    },
+    {
+     "k": "Order tip",
+     "v": "Mexico's most popular tequila drink — more common there than a margarita"
+    }
+   ]
+  },
+  {
+   "name": "Mexican Mule",
+   "slug": "mexican-mule",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blanco tequila, ginger beer, lime juice"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "Order tip",
+     "v": "Good gateway if you already like a Moscow Mule — same build, different spirit"
+    }
+   ]
+  },
+  {
+   "name": "Tequila Sunrise Sweeter",
+   "slug": "tequila-sunrise-sweeter",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blanco tequila, orange juice, grenadine"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "",
+     "v": "Visually striking"
+    },
+    {
+     "k": "Heads up",
+     "v": "The grenadine makes this one of the sweeter options — great if you like fruity drinks, but the tequila is in the background"
+    }
+   ],
+   "name_es": "Tequila Sunrise (Más Dulce)"
+  },
+  {
+   "name": "Oaxaca Old Fashioned Uses Mezcal",
+   "slug": "oaxaca-old-fashioned-uses-mezcal",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Reposado tequila, mezcal, agave nectar, bitters"
+    },
+    {
+     "k": "",
+     "v": "Smoky"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "",
+     "v": "Spirit-forward"
+    },
+    {
+     "k": "Heads up",
+     "v": "Mezcal is a close relative of tequila (also from agave) but distinctly smoky — this is a step up in complexity, for when you're ready to explore"
+    }
+   ],
+   "name_es": "Oaxaca Old Fashioned (con Mezcal)"
+  }
+ ]
+}

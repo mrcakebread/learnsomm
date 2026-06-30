@@ -1,0 +1,160 @@
+{
+ "title": "Sushi Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Core Sushi Forms",
+   "slug": "core-sushi-forms",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Nigiri, Sashimi, Temaki, Gunkanmaki, Chirashi, Inari"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "The foundational presentations — everything else on the menu builds from these forms."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The word 'sushi' doesn't mean raw fish — it refers to the vinegared rice; the raw-fish part is optional, which is why plenty of sushi is cooked or vegetarian."
+    }
+   ],
+   "name_es": "Formas Básicas De Sushi"
+  },
+  {
+   "name": "Maki Rolls",
+   "slug": "maki-rolls",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Hosomaki, Futomaki, Uramaki, California Roll, Spicy Tuna Roll, Dragon Roll"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Rice-outside vs. rice-inside rolls range from traditional to Western-style creations."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The inside-out roll was invented in the United States, not Japan — chefs flipped the rice to the outside to hide the dark seaweed that put off Western diners, and the style only later spread back to Japan."
+    }
+   ],
+   "name_es": "Rollos Maki"
+  },
+  {
+   "name": "Pressed & Specialty",
+   "slug": "pressed-specialty",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Oshizushi, Temari Sushi, Chakinzushi, Aburi Nigiri, Narezushi"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Less common shapes that showcase regional techniques beyond hand-formed nigiri."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Sushi was originally a preservation method, not a fresh food — fish was packed in fermented rice for months, and the sour rice was thrown away; only the pickled fish was eaten."
+    }
+   ],
+   "name_es": "Prensados Y Especiales"
+  },
+  {
+   "name": "Neta — Fish",
+   "slug": "neta-fish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Maguro (Tuna), Otoro (Fatty Tuna), Sake (Salmon), Hamachi (Yellowtail), Saba (Mackerel), Tai (Sea Bream)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "The fish toppings that define a sushi counter's quality — ask what's freshest that day."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "At a real omakase, much of the nigiri is pre-seasoned with a soy glaze or wasabi, so dipping it in soy sauce isn't refinement — it overrides the balance the chef built into each piece."
+    }
+   ],
+   "name_es": "Neta — Pescados"
+  },
+  {
+   "name": "Neta — Seafood & Egg",
+   "slug": "neta-seafood-egg",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Ebi (Shrimp), Unagi (Eel), Tako (Octopus), Uni (Sea Urchin), Ikura (Salmon Roe), Tamago (Egg)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Beyond fish — these toppings round out a balanced omakase progression."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The 'battleship' roll (gunkan-maki) was invented in 1941 specifically so chefs could serve soft, loose toppings like sea urchin and salmon roe that would slide right off a normal piece of nigiri."
+    }
+   ],
+   "name_es": "Neta — Mariscos Y Huevo"
+  },
+  {
+   "name": "Components & Condiments",
+   "slug": "components-condiments",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Shari (Sushi Rice), Nori (Seaweed), Wasabi, Gari (Pickled Ginger), Shoyu (Soy Sauce), Nikiri (Glaze)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "The supporting cast — rice seasoning, seaweed, and condiments that shape every bite."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Most of the bright green 'wasabi' served outside Japan isn't wasabi at all — it's dyed horseradish and mustard, because real wasabi is expensive, perishable, and must be grated fresh."
+    }
+   ],
+   "name_es": "Componentes Y Condimentos"
+  },
+  {
+   "name": "Sides & Beverages",
+   "slug": "sides-beverages",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Miso Soup, Edamame, Agari (Green Tea), Sake, Japanese Beer, Wine & Sushi"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Round out the meal — pair lighter dishes with sake or beer, richer ones with wine."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Sake is often NOT paired with sushi in Japan — since both are rice-based, many purists prefer green tea or a crisp wine, saving sake for dishes that aren't already built on rice."
+    }
+   ],
+   "name_es": "Acompañamientos Y Bebidas"
+  },
+  {
+   "name": "Etiquette & Terms",
+   "slug": "etiquette-terms",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Omakase, Eating Order, Soy & Wasabi Etiquette, Chopstick Rules, Itadakimasu & Gochisousama"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Knowing these basics turns an intimidating sushi counter into a comfortable one."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Two everyday chopstick habits are taboo at a Japanese table — standing them upright in a bowl of rice and passing food chopstick-to-chopstick — because both mirror rituals performed at funerals."
+    }
+   ],
+   "name_es": "Etiqueta Y Términos"
+  }
+ ]
+}

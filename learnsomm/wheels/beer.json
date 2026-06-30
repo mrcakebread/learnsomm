@@ -1,0 +1,1683 @@
+{
+ "title": "Beer",
+ "subject": "beer",
+ "categories": [
+  {
+   "name": "AROMATIC, FRUITY, FLORAL",
+   "name_fr": "AROMATIQUE, FRUITÉ, FLORAL",
+   "name_it": "AROMATICO, FRUTTATO, FLOREALE",
+   "name_es": "AROMÁTICO, AFRUTADO, FLORAL",
+   "color": "#feca40",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Alcoholic",
+     "name_fr": "Alcoolique",
+     "name_it": "Alcolico",
+     "name_es": "Alcohólico",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Spicy",
+       "name_fr": "Épicé",
+       "name_it": "Speziato",
+       "name_es": "Especiado",
+       "slug": "aromatic-fruity-floral-alcoholic-spicy",
+       "panel": {
+        "origin": "Derived from higher (fusel) alcohols like isoamyl alcohol or propanol. Formed during fermentation at higher temps or under yeast stress.",
+        "origin_es": "Derivado de alcoholes superiores (de fusel) como el alcohol isoamílico o el propanol. Formado durante la fermentación a temperaturas altas o bajo estrés de la levadura.",
+        "mixology": "A sharp, peppery alcohol bite that warms the throat, typical in strong ales.",
+        "mixology_es": "Un mordiente alcohólico agudo y a pimienta que calienta la garganta, típico de las ales fuertes."
+       }
+      },
+      {
+       "name": "Vinous",
+       "name_fr": "Vineux",
+       "name_it": "Vinoso",
+       "slug": "aromatic-fruity-floral-alcoholic-vinous",
+       "name_es": "Vinoso",
+       "panel": {
+        "origin": "Complex ester and higher alcohol interactions reminiscent of wine. Often a feature of barleywines or barrel-aged beers undergoing micro-oxidation.",
+        "origin_es": "Interacciones complejas de ésteres y alcoholes superiores reminiscentes del vino. A menudo una característica de los barley wines o las cervezas añejadas en barrica que pasan por microoxidación.",
+        "mixology": "Rich, wine-like flavors that remind you of sherry, port, or dark fermented fruits.",
+        "mixology_es": "Sabores ricos, tipo vino, que recuerdan al jerez, el oporto o las frutas oscuras fermentadas."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Solvent-like",
+     "name_fr": "Type Solvant",
+     "name_it": "Tipo Solvente",
+     "name_es": "Tipo solvente",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Plastics",
+       "name_fr": "Plastiques",
+       "name_it": "Plastiche",
+       "slug": "aromatic-fruity-floral-solvent-like-plastics",
+       "name_es": "Plásticos",
+       "panel": {
+        "origin": "Often indicates contamination or packaging issues (leaching). Chemically linked to styrene or specific rogue phenolic compounds.",
+        "origin_es": "A menudo indica contaminación o problemas de empaque (lixiviación). Químicamente vinculado al estireno o a compuestos fenólicos descontrolados específicos.",
+        "mixology": "An unpleasant chemical taste similar to chewing on a plastic bottle cap.",
+        "mixology_es": "Un sabor químico desagradable, similar a masticar una tapa de botella de plástico."
+       }
+      },
+      {
+       "name": "Can-liner",
+       "name_fr": "Revêtement de Canette",
+       "name_it": "Rivestimento Lattina",
+       "slug": "aromatic-fruity-floral-solvent-like-can-liner",
+       "name_es": "Recubrimiento de Lata",
+       "panel": {
+        "origin": "Associated with BPA-epoxy or acrylic liners in aluminum cans breaking down or reacting with the beer due to high heat or improper pH.",
+        "origin_es": "Asociado a recubrimientos de epoxi-BPA o acrílicos en las latas de aluminio que se degradan o reaccionan con la cerveza por el calor alto o un pH inadecuado.",
+        "mixology": "A metallic, synthetic flavor suggesting the beer absorbed notes from its packaging.",
+        "mixology_es": "Un sabor metálico y sintético que sugiere que la cerveza absorbió notas de su empaque."
+       }
+      },
+      {
+       "name": "Laquer-like",
+       "name_fr": "Type Laque",
+       "name_it": "Tipo Lacca",
+       "slug": "aromatic-fruity-floral-solvent-like-laquer-like",
+       "name_es": "A Laca",
+       "panel": {
+        "origin": "Extreme manifestation of ethyl acetate at high concentrations (>30 ppm). Indicates severe yeast stress, wild yeast, or high-temp fermentation.",
+        "origin_es": "Manifestación extrema de acetato de etilo a altas concentraciones (>30 ppm). Indica estrés severo de la levadura, levadura silvestre o fermentación a alta temperatura.",
+        "mixology": "A harsh, chemical smell reminiscent of nail polish remover or paint thinner.",
+        "mixology_es": "Un olor químico áspero reminiscente del quitaesmalte o el aguarrás."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Estery",
+     "name_fr": "Estéré",
+     "name_it": "Estereo",
+     "name_es": "Éster",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Isoamyl acetate",
+       "name_fr": "Acétate d'Isoamyle",
+       "name_it": "Acetato di Isoamile",
+       "slug": "aromatic-fruity-floral-estery-isoamyl-acetate",
+       "name_es": "Acetato de Isoamilo",
+       "panel": {
+        "origin": "The signature ester of German Weissbiers. Produced by yeast esterification of isoamyl alcohol with acetyl-CoA. Prominent in POF+ strains.",
+        "origin_es": "El éster distintivo de las Weissbier alemanas. Producido por la esterificación del alcohol isoamílico con acetil-CoA por la levadura. Prominente en las cepas POF+.",
+        "mixology": "A distinct, sweet candy-banana flavor.",
+        "mixology_es": "Un sabor distintivo, dulce, de dulce de plátano."
+       }
+      },
+      {
+       "name": "Ethyl hexanoate",
+       "name_fr": "Hexanoate d'Éthyle",
+       "name_it": "Esanoato di Etile",
+       "slug": "aromatic-fruity-floral-estery-ethyl-hexanoate",
+       "name_es": "Hexanoato de Etilo",
+       "panel": {
+        "origin": "An ester produced during fermentation contributing to red apple, anise, and subtle pineapple notes.",
+        "origin_es": "Un éster producido durante la fermentación que aporta notas de manzana roja, anís y un sutil dejo de piña.",
+        "mixology": "A soft, fruity sweetness that tastes a bit like tropical fruit or sweet red apples.",
+        "mixology_es": "Un dulzor afrutado y suave que sabe un poco a fruta tropical o manzana roja dulce."
+       }
+      },
+      {
+       "name": "Ethyl acetate",
+       "name_fr": "Acétate d'Éthyle",
+       "name_it": "Acetato di Etile",
+       "slug": "aromatic-fruity-floral-estery-ethyl-acetate",
+       "name_es": "Acetato de Etilo",
+       "panel": {
+        "origin": "The most common ester in beer. At threshold (10-20 ppm) it imparts pear/peach notes. At high levels, it becomes solvent-like (nail polish).",
+        "origin_es": "El éster más común en la cerveza. En el umbral (10-20 ppm) imparte notas de pera/durazno. A niveles altos, se vuelve tipo solvente (quitaesmalte).",
+        "mixology": "A bright, fruity aroma that smells like fresh pears.",
+        "mixology_es": "Un aroma brillante y afrutado que huele a peras frescas."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Fruity",
+     "name_fr": "Fruité",
+     "name_it": "Fruttato",
+     "name_es": "Frutal",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Citrus",
+       "name_fr": "Agrumes",
+       "name_it": "Agrumi",
+       "name_es": "Cítricos",
+       "slug": "aromatic-fruity-floral-fruity-citrus",
+       "panel": {
+        "origin": "Driven by hop terpenes like linalool, geraniol, and citronellol. Also created via biotransformation by active yeast during dry-hopping.",
+        "origin_es": "Impulsado por terpenos del lúpulo como el linalol, el geraniol y el citronelol. También creado por biotransformación por la levadura activa durante el dry-hopping.",
+        "mixology": "Zesty, refreshing notes of grapefruit, lemon, or orange peel, very common in IPAs.",
+        "mixology_es": "Notas vivaces y refrescantes de toronja, limón o cáscara de naranja, muy comunes en las IPA."
+       }
+      },
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "aromatic-fruity-floral-fruity-apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "Often acetaldehyde (green apple), an intermediate in ethanol production. Indicates young beer. Can also be pleasant red apple esters in certain English ales.",
+        "origin_es": "A menudo acetaldehído (manzana verde), un intermediario en la producción de etanol. Indica cerveza joven. También pueden ser agradables ésteres de manzana roja en ciertas ales inglesas.",
+        "mixology": "A crisp fruitiness. If it tastes like green apple, the beer might be quite young.",
+        "mixology_es": "Una frutalidad nítida. Si sabe a manzana verde, la cerveza podría ser bastante joven."
+       }
+      },
+      {
+       "name": "Banana",
+       "name_fr": "Banane",
+       "name_it": "Banana",
+       "slug": "aromatic-fruity-floral-fruity-banana",
+       "name_es": "Plátano",
+       "panel": {
+        "origin": "See Isoamyl acetate. Modulated by pitching rate, oxygenation, and fermenter geometry.",
+        "origin_es": "Véase Acetato de isoamilo. Modulado por la tasa de inoculación, la oxigenación y la geometría del fermentador.",
+        "mixology": "Sweet, ripe banana flavor, typical of wheat beers.",
+        "mixology_es": "Sabor dulce de plátano maduro, típico de las cervezas de trigo."
+       }
+      },
+      {
+       "name": "Black currant",
+       "name_fr": "Cassis",
+       "name_it": "Ribes Nero",
+       "slug": "aromatic-fruity-floral-fruity-black-currant",
+       "name_es": "Grosella Negra",
+       "panel": {
+        "origin": "Associated with certain hops (Bramling Cross). Can border on 'catty' (p-mentha-8-thiol-3-one) if heavily oxidized.",
+        "origin_es": "Asociado a ciertos lúpulos (Bramling Cross). Puede rozar lo 'a gato' (p-menta-8-tiol-3-ona) si se oxida intensamente.",
+        "mixology": "A dark, tart berry flavor similar to blackberry.",
+        "mixology_es": "Un sabor de baya oscura y ácido, similar a la zarzamora."
+       }
+      },
+      {
+       "name": "Melony",
+       "name_fr": "de Melon",
+       "name_it": "di Melone",
+       "slug": "aromatic-fruity-floral-fruity-melony",
+       "name_es": "A Melón",
+       "panel": {
+        "origin": "Derived from hop compounds and specific yeast esters. Commonly found in hops like Huell Melon or El Dorado.",
+        "origin_es": "Derivado de compuestos del lúpulo y ésteres específicos de la levadura. Comúnmente presente en lúpulos como Huell Melon o El Dorado.",
+        "mixology": "A sweet, refreshing flavor reminiscent of honeydew or cantaloupe.",
+        "mixology_es": "Un sabor dulce y refrescante reminiscente del melón verde o el melón cantalupo."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "slug": "aromatic-fruity-floral-fruity-pear",
+       "name_es": "Pera",
+       "panel": {
+        "origin": "Low-level expression of ethyl acetate. Common in English and Belgian pale ales.",
+        "origin_es": "Expresión de bajo nivel del acetato de etilo. Común en las pale ales inglesas y belgas.",
+        "mixology": "A mild, sweet orchard fruit flavor.",
+        "mixology_es": "Un sabor de fruta de huerto suave y dulce."
+       }
+      },
+      {
+       "name": "Raspberry",
+       "name_fr": "Framboise",
+       "name_it": "Lampone",
+       "slug": "aromatic-fruity-floral-fruity-raspberry",
+       "name_es": "Frambuesa",
+       "panel": {
+        "origin": "Can be an actual fruit addition, or an ester/ketone profile (like raspberry ketone/frambinone) produced by specific yeasts and wild fermentations.",
+        "origin_es": "Puede ser una adición real de fruta, o un perfil de éster/cetona (como la cetona de frambuesa/frambinona) producido por levaduras específicas y fermentaciones silvestres.",
+        "mixology": "A tart, vibrant red berry flavor.",
+        "mixology_es": "Un sabor de baya roja ácido y vibrante."
+       }
+      },
+      {
+       "name": "Strawberry",
+       "name_fr": "Fraise",
+       "name_it": "Fragola",
+       "slug": "aromatic-fruity-floral-fruity-strawberry",
+       "name_es": "Fresa",
+       "panel": {
+        "origin": "Often derived from ethyl butanoate or naturally present in certain hops (like Strata or Belma).",
+        "origin_es": "A menudo derivado del butanoato de etilo o presente de forma natural en ciertos lúpulos (como Strata o Belma).",
+        "mixology": "A sweet, jammy red fruit flavor.",
+        "mixology_es": "Un sabor de fruta roja dulce y a mermelada."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Acetaldehyde",
+       "name_fr": "Acétaldéhyde",
+       "name_it": "Acetaldeide",
+       "slug": "aromatic-fruity-floral-floral-acetaldehyde",
+       "name_es": "Acetaldehído",
+       "panel": {
+        "origin": "Strictly speaking, it is the direct precursor to ethanol. Displays as green apple, emulsion paint, or cut grass. Categorized curiously under floral in older ASBC wheels.",
+        "origin_es": "En estricto sentido, es el precursor directo del etanol. Se manifiesta como manzana verde, pintura de emulsión o pasto cortado. Categorizado curiosamente bajo lo floral en las ruedas ASBC más viejas.",
+        "mixology": "A sharp, slightly tart flavor like bruised green apples.",
+        "mixology_es": "Un sabor agudo y ligeramente ácido, como manzanas verdes magulladas."
+       }
+      },
+      {
+       "name": "2-Phenylethanol",
+       "name_fr": "2-Phényléthanol",
+       "name_it": "2-Feniletanolo",
+       "slug": "aromatic-fruity-floral-floral-2-phenylethanol",
+       "name_es": "2-Feniletanol",
+       "panel": {
+        "origin": "A higher alcohol that imparts a distinct rose-like aroma. Common in some lagers and Belgian ales.",
+        "origin_es": "Un alcohol superior que imparte un aroma distintivo tipo rosa. Común en algunas lagers y ales belgas.",
+        "mixology": "A delicate, perfumey aroma that smells remarkably like fresh roses.",
+        "mixology_es": "Un aroma delicado y perfumado que huele notablemente a rosas frescas."
+       }
+      },
+      {
+       "name": "Geraniol",
+       "name_fr": "Géraniol",
+       "name_it": "Geraniolo",
+       "slug": "aromatic-fruity-floral-floral-geraniol",
+       "name_es": "Geraniol",
+       "panel": {
+        "origin": "A monoterpenoid alcohol found in hop essential oils (Centennial, Chinook, Citra). Biotransforms into citronellol.",
+        "origin_es": "Un alcohol monoterpenoide presente en los aceites esenciales del lúpulo (Centennial, Chinook, Citra). Se biotransforma en citronelol.",
+        "mixology": "A bright, floral aroma similar to geranium flowers.",
+        "mixology_es": "Un aroma floral brillante, similar a las flores de geranio."
+       }
+      },
+      {
+       "name": "Perfumy",
+       "name_fr": "Parfumé",
+       "name_it": "Profumato",
+       "slug": "aromatic-fruity-floral-floral-perfumy",
+       "name_es": "Perfumado",
+       "panel": {
+        "origin": "A general descriptor for a blend of high-end floral terpenes and esters (linalool, geraniol).",
+        "origin_es": "Un descriptor general para una mezcla de terpenos florales y ésteres de gama alta (linalol, geraniol).",
+        "mixology": "An aromatic, heavily floral scent, almost like a botanical soap or perfume.",
+        "mixology_es": "Un aroma aromático y muy floral, casi como un jabón botánico o un perfume."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Hoppy",
+     "name_fr": "Houblonné",
+     "name_it": "Luppolato",
+     "name_es": "Lupulado",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Kettle-hop",
+       "name_fr": "Houblon de Cuve",
+       "name_it": "Luppolo in Pentola",
+       "slug": "aromatic-fruity-floral-hoppy-kettle-hop",
+       "name_es": "Lúpulo de Cocción",
+       "panel": {
+        "origin": "Aromas resulting from hops boiled in the wort. Often more muted, woody, or spicy due to the volatilization of delicate essential oils.",
+        "origin_es": "Aromas resultantes de los lúpulos hervidos en el mosto. A menudo más apagados, amaderados o especiados por la volatilización de los delicados aceites esenciales.",
+        "mixology": "A traditional, earthy bitterness and aroma from hops cooked into the beer.",
+        "mixology_es": "Un amargor y aroma tradicional y terroso de los lúpulos cocidos en la cerveza."
+       }
+      },
+      {
+       "name": "Dry-hop",
+       "name_fr": "Houblonnage à Cru",
+       "name_it": "Dry Hopping",
+       "slug": "aromatic-fruity-floral-hoppy-dry-hop",
+       "name_es": "Lúpulo en Frío",
+       "panel": {
+        "origin": "Aromas from hops added post-boil/during fermentation. Retains highly volatile myrcene, linalool, and terpenes for bright, pungent aromatics.",
+        "origin_es": "Aromas de los lúpulos añadidos después del hervor/durante la fermentación. Retiene mirceno, linalol y terpenos muy volátiles para aromáticos brillantes y punzantes.",
+        "mixology": "A massive, fresh, and raw hop aroma without added bitterness.",
+        "mixology_es": "Un aroma de lúpulo masivo, fresco y crudo, sin amargor añadido."
+       }
+      },
+      {
+       "name": "Hop oil",
+       "name_fr": "Huile de Houblon",
+       "name_it": "Olio di Luppolo",
+       "slug": "aromatic-fruity-floral-hoppy-hop-oil",
+       "name_es": "Aceite de Lúpulo",
+       "panel": {
+        "origin": "The concentrated essential oils of the hop cone (lupulin glands). Imparts intense resinous, floral, or citrus notes depending on varietal.",
+        "origin_es": "Los aceites esenciales concentrados del cono del lúpulo (glándulas de lupulina). Imparte notas resinosas, florales o cítricas intensas según la variedad.",
+        "mixology": "A potent, slick, and heavy hop character.",
+        "mixology_es": "Un carácter de lúpulo potente, resbaladizo y pesado."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Resinous",
+     "name_fr": "Résineux",
+     "name_it": "Resinoso",
+     "name_es": "Resinoso",
+     "color": "#ffda66",
+     "descriptors": [
+      {
+       "name": "Piney",
+       "name_fr": "de Pin",
+       "name_it": "di Pino",
+       "slug": "aromatic-fruity-floral-resinous-piney",
+       "name_es": "A Pino",
+       "panel": {
+        "origin": "Driven by the terpene pinene. A hallmark of classic American 'C-hops' (Cascade, Centennial, Chinook).",
+        "origin_es": "Impulsado por el terpeno pineno. Un sello de los clásicos 'lúpulos C' americanos (Cascade, Centennial, Chinook).",
+        "mixology": "A sharp, evergreen flavor that tastes like walking through a pine forest.",
+        "mixology_es": "Un sabor agudo, a perenne, que sabe a caminar por un bosque de pinos."
+       }
+      },
+      {
+       "name": "Woody",
+       "name_fr": "Boisé",
+       "name_it": "Legnoso",
+       "name_es": "Amaderado",
+       "slug": "aromatic-fruity-floral-resinous-woody",
+       "panel": {
+        "origin": "Can derive from traditional English hops (Fuggles), barrel-aging (oak lactones), or humulene oxidation.",
+        "origin_es": "Puede derivar de los lúpulos ingleses tradicionales (Fuggles), del añejamiento en barrica (lactonas del roble) o de la oxidación del humuleno.",
+        "mixology": "An earthy, rustic flavor reminiscent of cedar or oak bark.",
+        "mixology_es": "Un sabor terroso y rústico reminiscente del cedro o la corteza de roble."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "VEGETAL",
+   "name_fr": "VÉGÉTAL",
+   "name_it": "VEGETALE",
+   "name_es": "VEGETAL",
+   "color": "#85e085",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "A Frutos Secos",
+     "color": "#a3f0a3",
+     "descriptors": [
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "vegetal-nutty-walnut",
+       "name_es": "Nuez de Castilla",
+       "panel": {
+        "origin": "Often derived from certain specialty malts (Brown malt, Victory) or yeast autolysis in older ales.",
+        "origin_es": "A menudo derivado de ciertas maltas especiales (malta Brown, Victory) o de la autólisis de la levadura en ales más viejas.",
+        "mixology": "A slightly bitter, earthy nuttiness similar to walnut skins.",
+        "mixology_es": "Una nuez ligeramente amarga y terrosa, similar a la piel de la nuez de Castilla."
+       }
+      },
+      {
+       "name": "Coconut",
+       "name_fr": "Noix de Coco",
+       "name_it": "Cocco",
+       "slug": "vegetal-nutty-coconut",
+       "name_es": "Coco",
+       "panel": {
+        "origin": "Driven by oak lactones (specifically in American Oak) or specialty hops like Sabro. Can also come from actual adjunct additions.",
+        "origin_es": "Impulsado por las lactonas del roble (específicamente en el roble americano) o por lúpulos especiales como el Sabro. También puede provenir de adiciones reales de adjuntos.",
+        "mixology": "A sweet, creamy tropical nuttiness.",
+        "mixology_es": "Una nuez tropical dulce y cremosa."
+       }
+      },
+      {
+       "name": "Beany",
+       "name_fr": "de Haricot",
+       "name_it": "di Fagiolo",
+       "slug": "vegetal-nutty-beany",
+       "name_es": "A Frijol",
+       "panel": {
+        "origin": "An off-flavor associated with poor wort boiling or raw adjuncts. Linked to certain aldehydes.",
+        "origin_es": "Un sabor defectuoso asociado a un mal hervor del mosto o a adjuntos crudos. Vinculado a ciertos aldehídos.",
+        "mixology": "A raw, starchy flavor like raw green beans or unroasted soy.",
+        "mixology_es": "Un sabor crudo y almidonado, como ejotes crudos o soya sin tostar."
+       }
+      },
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "vegetal-nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Often benzaldehyde. Can be derived from cherry pits in fruit beers, oxidation, or specific specialty malts.",
+        "origin_es": "A menudo benzaldehído. Puede derivar de los huesos de cereza en las cervezas de fruta, de la oxidación o de maltas especiales específicas.",
+        "mixology": "A sweet, marzipan-like nuttiness.",
+        "mixology_es": "Una nuez dulce, tipo mazapán."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Grassy",
+     "name_fr": "Herbeux",
+     "name_it": "Erboso",
+     "name_es": "Herbáceo",
+     "color": "#a3f0a3",
+     "descriptors": [
+      {
+       "name": "Freshly cut grass",
+       "name_fr": "Herbe Fraîchement Coupée",
+       "name_it": "Erba Appena Tagliata",
+       "slug": "vegetal-grassy-freshly-cut-grass",
+       "name_es": "Pasto Recién Cortado",
+       "panel": {
+        "origin": "Derived from hexanal and other aldehydes. Often results from poorly stored hops or heavily dry-hopped beers with excessive vegetative matter.",
+        "origin_es": "Derivado del hexanal y otros aldehídos. A menudo resulta de lúpulos mal almacenados o de cervezas con dry-hopping intenso con materia vegetal excesiva.",
+        "mixology": "A raw, green flavor exactly like a freshly mowed lawn.",
+        "mixology_es": "Un sabor verde y crudo, exactamente como un césped recién podado."
+       }
+      },
+      {
+       "name": "Straw-like",
+       "name_fr": "Type Paille",
+       "name_it": "Tipo Paglia",
+       "slug": "vegetal-grassy-straw-like",
+       "name_es": "A Paja",
+       "panel": {
+        "origin": "Mild oxidation of malt compounds or derived from very pale pilsner malts.",
+        "origin_es": "Oxidación leve de los compuestos de la malta o derivado de maltas pilsner muy pálidas.",
+        "mixology": "A dry, rustic flavor reminiscent of a barn or dried hay.",
+        "mixology_es": "Un sabor seco y rústico reminiscente de un granero o el heno seco."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CEREAL",
+   "name_fr": "CÉRÉALE",
+   "name_it": "CEREALE",
+   "name_es": "CEREAL",
+   "color": "#5cd65c",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Grainy",
+     "name_fr": "Granuleux",
+     "name_it": "Granuloso",
+     "name_es": "A Grano",
+     "color": "#85e085",
+     "descriptors": [
+      {
+       "name": "Husky",
+       "name_fr": "de Balle",
+       "name_it": "di Pula",
+       "slug": "cereal-grainy-husky",
+       "name_es": "A Cascarilla",
+       "panel": {
+        "origin": "Astringent note extracted from malt husks due to over-sparging, sparging with water too hot (>170°F), or high pH.",
+        "origin_es": "Nota astringente extraída de las cascarillas de la malta por sobrelavado, lavado con agua demasiado caliente (>77 °C) o un pH alto.",
+        "mixology": "A dry, slightly harsh grain flavor, like chewing on raw grain shells.",
+        "mixology_es": "Un sabor de grano seco y ligeramente áspero, como masticar cascarillas de grano crudo."
+       }
+      },
+      {
+       "name": "Corn grits",
+       "name_fr": "Semoule de Maïs",
+       "name_it": "Semola di Mais",
+       "slug": "cereal-grainy-corn-grits",
+       "name_es": "Sémola de Maíz",
+       "panel": {
+        "origin": "Often DMS (Dimethyl Sulfide) at low levels, or directly from the use of flaked maize adjuncts in American lagers.",
+        "origin_es": "A menudo DMS (sulfuro de dimetilo) a niveles bajos, o directamente del uso de adjuntos de maíz en hojuelas en las lagers americanas.",
+        "mixology": "A sweet, starchy flavor similar to corn flakes or polenta.",
+        "mixology_es": "Un sabor dulce y almidonado, similar a las hojuelas de maíz o la polenta."
+       }
+      },
+      {
+       "name": "Mealy",
+       "name_fr": "Farineux",
+       "name_it": "Farinoso",
+       "slug": "cereal-grainy-mealy",
+       "name_es": "Harinoso",
+       "panel": {
+        "origin": "Associated with under-modified malt or unconverted starches left in the beer.",
+        "origin_es": "Asociado a malta poco modificada o a almidones sin convertir que quedan en la cerveza.",
+        "mixology": "A heavy, flour-like taste.",
+        "mixology_es": "Un sabor pesado, tipo harina."
+       }
+      },
+      {
+       "name": "Malty",
+       "name_fr": "Malté",
+       "name_it": "Maltato",
+       "slug": "cereal-grainy-malty",
+       "name_es": "A Malta",
+       "panel": {
+        "origin": "The foundational flavor of base malts (Pilsner, Pale, Munich). Offers fermentable sugars and backbone.",
+        "origin_es": "El sabor fundamental de las maltas base (Pilsner, Pale, Munich). Ofrece azúcares fermentables y columna vertebral.",
+        "mixology": "A pleasant, sweet backbone that tastes like fresh baked crackers or biscuits.",
+        "mixology_es": "Una columna agradable y dulce que sabe a galletas saladas o bisquets recién horneados."
+       }
+      },
+      {
+       "name": "Worty",
+       "name_fr": "de Moût",
+       "name_it": "di Mosto",
+       "slug": "cereal-grainy-worty",
+       "name_es": "A Mosto",
+       "panel": {
+        "origin": "Tastes of unfermented wort. Indicates poor attenuation, yeast stalling, or an intentional low-alcohol brewing process.",
+        "origin_es": "Sabe a mosto sin fermentar. Indica una mala atenuación, un estancamiento de la levadura o un proceso intencional de elaboración baja en alcohol.",
+        "mixology": "A very sweet, syrupy, raw-grain flavor like sugary cereal milk.",
+        "mixology_es": "Un sabor muy dulce, almibarado y a grano crudo, como leche azucarada de cereal."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MAILLARD",
+   "name_fr": "MAILLARD",
+   "name_it": "MAILLARD",
+   "name_es": "MAILLARD",
+   "color": "#2eb82e",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Caramel",
+     "name_fr": "Caramel",
+     "name_it": "Caramello",
+     "name_es": "Caramelo",
+     "color": "#47d147",
+     "descriptors": [
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "maillard-caramel-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "Created by high-temperature caramelization. Common in dark candi syrups used in Belgian dark strong ales.",
+        "origin_es": "Creado por caramelización a alta temperatura. Común en los jarabes candi oscuros usados en las dark strong ales belgas.",
+        "mixology": "A dark, rich, and slightly bitter sweetness like dark brown sugar or treacle.",
+        "mixology_es": "Un dulzor oscuro, rico y ligeramente amargo, como el azúcar moreno oscuro o la melaza oscura."
+       }
+      },
+      {
+       "name": "Licorice",
+       "name_fr": "Réglisse",
+       "name_it": "Liquirizia",
+       "slug": "maillard-caramel-licorice",
+       "name_es": "Regaliz",
+       "panel": {
+        "origin": "Can come from specific roasted malts, star anise additions, or advanced Maillard reactions in high-gravity boiling.",
+        "origin_es": "Puede provenir de maltas tostadas específicas, adiciones de anís estrella o reacciones de Maillard avanzadas en el hervor de alta densidad.",
+        "mixology": "A sharp, sweet, earthy flavor reminiscent of black licorice candy.",
+        "mixology_es": "Un sabor agudo, dulce y terroso reminiscente del dulce de regaliz negro."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Burnt",
+     "name_fr": "Brûlé",
+     "name_it": "Bruciato",
+     "name_es": "Quemado",
+     "color": "#47d147",
+     "descriptors": [
+      {
+       "name": "Bread crust",
+       "name_fr": "Croûte de Pain",
+       "name_it": "Crosta di Pane",
+       "slug": "maillard-burnt-bread-crust",
+       "name_es": "Corteza de Pan",
+       "panel": {
+        "origin": "Classic Maillard product, highly associated with Munich and Vienna malts kilned at moderate temperatures.",
+        "origin_es": "Producto clásico de Maillard, muy asociado a las maltas Munich y Vienna malteadas a temperaturas moderadas.",
+        "mixology": "A warm, toasted flavor exactly like the crust of a hearty loaf of bread.",
+        "mixology_es": "Un sabor cálido y tostado, exactamente como la corteza de una hogaza de pan sustanciosa."
+       }
+      },
+      {
+       "name": "Roast barley",
+       "name_fr": "Orge Torréfié",
+       "name_it": "Orzo Tostato",
+       "slug": "maillard-burnt-roast-barley",
+       "name_es": "Cebada Tostada",
+       "panel": {
+        "origin": "Unmalted, highly roasted barley. Imparts deep color and sharp, coffee-like bitterness without sweetness. Essential for Dry Irish Stout.",
+        "origin_es": "Cebada sin maltear, muy tostada. Imparte un color profundo y un amargor agudo tipo café sin dulzor. Esencial para la Dry Irish Stout.",
+        "mixology": "A sharp, dry, dark coffee flavor.",
+        "mixology_es": "Un sabor agudo, seco y de café oscuro."
+       }
+      },
+      {
+       "name": "Smoky",
+       "name_fr": "Fumé",
+       "name_it": "Affumicato",
+       "slug": "maillard-burnt-smoky",
+       "name_es": "Ahumado",
+       "panel": {
+        "origin": "Phenolic. Derived from malts smoked over wood (beechwood for Rauchbier, peat for some Scotch ales).",
+        "origin_es": "Fenólico. Derivado de maltas ahumadas sobre madera (haya para la Rauchbier, turba para algunas Scotch ales).",
+        "mixology": "A distinct campfire or smoked-meat flavor.",
+        "mixology_es": "Un sabor distintivo de fogata o carne ahumada."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PHENOLIC",
+   "name_fr": "PHÉNOLIQUE",
+   "name_it": "FENOLICO",
+   "name_es": "FENÓLICO",
+   "color": "#00cccc",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Phenolic",
+     "name_fr": "Phénolique",
+     "name_it": "Fenolico",
+     "name_es": "Fenólico",
+     "color": "#33d6d6",
+     "descriptors": [
+      {
+       "name": "Tarry",
+       "name_fr": "Goudronné",
+       "name_it": "Catramoso",
+       "slug": "phenolic-phenolic-tarry",
+       "name_es": "A Brea",
+       "panel": {
+        "origin": "Extreme manifestation of phenols, often from heavy peat-smoked malt or severe infections.",
+        "origin_es": "Manifestación extrema de fenoles, a menudo de malta muy ahumada con turba o de infecciones severas.",
+        "mixology": "An acrid, heavy flavor similar to fresh asphalt or pitch.",
+        "mixology_es": "Un sabor acre y pesado, similar al asfalto fresco o la brea."
+       }
+      },
+      {
+       "name": "Bakelite",
+       "name_fr": "Bakélite",
+       "name_it": "Bachelite",
+       "slug": "phenolic-phenolic-bakelite",
+       "name_es": "Baquelita",
+       "panel": {
+        "origin": "An industrial phenolic off-flavor. Suggests a combination of wild yeast infection and oxidation.",
+        "origin_es": "Un sabor defectuoso fenólico industrial. Sugiere una combinación de infección por levadura silvestre y oxidación.",
+        "mixology": "A synthetic, retro-plastic flavor.",
+        "mixology_es": "Un sabor sintético, de plástico retro."
+       }
+      },
+      {
+       "name": "Carbolic",
+       "name_fr": "Phéniqué",
+       "name_it": "Fenico",
+       "slug": "phenolic-phenolic-carbolic",
+       "name_es": "Carbólico",
+       "panel": {
+        "origin": "Phenol itself. An off-flavor usually derived from wild yeast (Brettanomyces/Saccharomyces diastaticus) or poor sanitization.",
+        "origin_es": "El fenol mismo. Un sabor defectuoso usualmente derivado de levadura silvestre (Brettanomyces/Saccharomyces diastaticus) o de una mala sanitización.",
+        "mixology": "A harsh, medicinal flavor reminiscent of throat lozenges.",
+        "mixology_es": "Un sabor áspero y medicinal reminiscente de las pastillas para la garganta."
+       }
+      },
+      {
+       "name": "Chlorophenol",
+       "name_fr": "Chlorophénol",
+       "name_it": "Clorofenolo",
+       "slug": "phenolic-phenolic-chlorophenol",
+       "name_es": "Clorofenol",
+       "panel": {
+        "origin": "Formed when chlorine/chloramine in brewing water reacts with naturally occurring phenols. Uncorrectable off-flavor.",
+        "origin_es": "Se forma cuando el cloro/cloramina del agua de elaboración reacciona con los fenoles presentes de forma natural. Sabor defectuoso incorregible.",
+        "mixology": "A strong, unpleasant taste exactly like mouthwash or hospital band-aids.",
+        "mixology_es": "Un sabor fuerte y desagradable, exactamente como el enjuague bucal o las curitas de hospital."
+       }
+      },
+      {
+       "name": "Isodoform",
+       "name_fr": "Iodoforme",
+       "name_it": "Iodoformio",
+       "slug": "phenolic-phenolic-isodoform",
+       "name_es": "Yodoformo",
+       "panel": {
+        "origin": "Derived from iodine-based sanitizers (iodophor) left in high concentrations in equipment.",
+        "origin_es": "Derivado de los sanitizantes a base de yodo (yodóforo) dejados en altas concentraciones en el equipo.",
+        "mixology": "A medicinal, iodine-like metallic taste.",
+        "mixology_es": "Un sabor metálico, medicinal, tipo yodo."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "FATTY",
+   "name_fr": "GRAS",
+   "name_it": "GRASSO",
+   "name_es": "GRASO",
+   "color": "#33adff",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Fatty Acid",
+     "name_fr": "Acide Gras",
+     "name_it": "Acido Grasso",
+     "name_es": "Ácido Graso",
+     "color": "#66c2ff",
+     "descriptors": [
+      {
+       "name": "Caprylic",
+       "name_fr": "Caprylique",
+       "name_it": "Caprilico",
+       "slug": "fatty-fatty-acid-caprylic",
+       "name_es": "Caprílico",
+       "panel": {
+        "origin": "Octanoic acid. Excreted by yeast during fermentation. Can be pleasant at low levels, but goaty/soapy at high levels.",
+        "origin_es": "Ácido octanoico. Excretado por la levadura durante la fermentación. Puede ser agradable a niveles bajos, pero a cabra/jabonoso a niveles altos.",
+        "mixology": "A waxy, slightly goaty or soapy flavor.",
+        "mixology_es": "Un sabor ceroso, ligeramente a cabra o jabonoso."
+       }
+      },
+      {
+       "name": "Cheesy",
+       "name_fr": "Fromagé",
+       "name_it": "Caseoso",
+       "slug": "fatty-fatty-acid-cheesy",
+       "name_es": "A Queso",
+       "panel": {
+        "origin": "Usually Isovaleric acid. Associated with the use of highly oxidized, old hops (often used intentionally in lambics where the aroma ferments out).",
+        "origin_es": "Usualmente ácido isovalérico. Asociado al uso de lúpulos viejos muy oxidados (a menudo usados intencionalmente en las lambics, donde el aroma se fermenta hasta desaparecer).",
+        "mixology": "A pungent aroma of old, hard cheese.",
+        "mixology_es": "Un aroma punzante de queso viejo y duro."
+       }
+      },
+      {
+       "name": "Isovaleric",
+       "name_fr": "Isovalérique",
+       "name_it": "Isovalerico",
+       "slug": "fatty-fatty-acid-isovaleric",
+       "name_es": "Isovalérico",
+       "panel": {
+        "origin": "Oxidation product of hop alpha acids. A major off-flavor in standard beer styles, indicating degraded hops.",
+        "origin_es": "Producto de oxidación de los ácidos alfa del lúpulo. Un sabor defectuoso mayor en los estilos de cerveza estándar, que indica lúpulos degradados.",
+        "mixology": "Smells like sweaty socks or aged cheese.",
+        "mixology_es": "Huele a calcetines sudados o queso añejo."
+       }
+      },
+      {
+       "name": "Butyric",
+       "name_fr": "Butyrique",
+       "name_it": "Butirrico",
+       "slug": "fatty-fatty-acid-butyric",
+       "name_es": "Butírico",
+       "panel": {
+        "origin": "Butyric acid. Created by bacterial infection (Clostridium or Pediococcus) during wort chilling or sour mashing.",
+        "origin_es": "Ácido butírico. Creado por infección bacteriana (Clostridium o Pediococcus) durante el enfriamiento del mosto o la maceración ácida.",
+        "mixology": "A sharply unpleasant aroma of rancid butter or baby vomit.",
+        "mixology_es": "Un aroma marcadamente desagradable de mantequilla rancia o vómito de bebé."
+       }
+      },
+      {
+       "name": "Diacetyl",
+       "name_fr": "Diacétyle",
+       "name_it": "Diacetile",
+       "slug": "fatty-fatty-acid-diacetyl",
+       "name_es": "Diacetilo",
+       "panel": {
+        "origin": "2,3-butanedione. A vicinal diketone (VDK) formed outside the yeast cell and reabsorbed. If present, indicates yeast stress, mutation, or rushed fermentation (lack of diacetyl rest).",
+        "origin_es": "2,3-butanodiona. Una dicetona vecinal (VDK) formada fuera de la célula de levadura y reabsorbida. Si está presente, indica estrés de la levadura, mutación o una fermentación apresurada (falta de reposo de diacetilo).",
+        "mixology": "A slick, artificial butter flavor, like movie theater popcorn.",
+        "mixology_es": "Un sabor de mantequilla resbaladizo y artificial, como las palomitas de cine."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Oily",
+     "name_fr": "Huileux",
+     "name_it": "Oleoso",
+     "name_es": "Aceitoso",
+     "color": "#66c2ff",
+     "descriptors": [
+      {
+       "name": "Rancid",
+       "name_fr": "Rance",
+       "name_it": "Rancido",
+       "slug": "fatty-oily-rancid",
+       "name_es": "Rancio",
+       "panel": {
+        "origin": "Oxidation of lipids (fats) from malt or adjuncts (like oats/nuts).",
+        "origin_es": "Oxidación de los lípidos (grasas) de la malta o los adjuntos (como avena/nueces).",
+        "mixology": "A stale, foul oil flavor, like old forgotten nuts in a pantry.",
+        "mixology_es": "Un sabor de aceite rancio y fétido, como nueces viejas olvidadas en una alacena."
+       }
+      },
+      {
+       "name": "Vegetable oil",
+       "name_fr": "Huile Végétale",
+       "name_it": "Olio Vegetale",
+       "slug": "fatty-oily-vegetable-oil",
+       "name_es": "Aceite Vegetal",
+       "panel": {
+        "origin": "Lipid carryover into the beer. Kills head retention immediately.",
+        "origin_es": "Transferencia de lípidos a la cerveza. Mata la retención de espuma de inmediato.",
+        "mixology": "A slick, greasy mouthfeel without much flavor.",
+        "mixology_es": "Una sensación en boca resbaladiza y grasosa sin mucho sabor."
+       }
+      },
+      {
+       "name": "Mineral oil",
+       "name_fr": "Huile Minérale",
+       "name_it": "Olio Minerale",
+       "slug": "fatty-oily-mineral-oil",
+       "name_es": "Aceite Mineral",
+       "panel": {
+        "origin": "Machinery lubricant contamination during the brewing or canning process.",
+        "origin_es": "Contaminación por lubricante de maquinaria durante el proceso de elaboración o enlatado.",
+        "mixology": "A petroleum-like, highly synthetic grease flavor.",
+        "mixology_es": "Un sabor de grasa muy sintético, tipo petróleo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SULFURY",
+   "name_fr": "SOUFRÉ",
+   "name_it": "SOLFOREO",
+   "name_es": "SULFUROSO",
+   "color": "#3366ff",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Sulfitic",
+     "name_fr": "Sulfiteux",
+     "name_it": "Solfitico",
+     "name_es": "Sulfítico",
+     "color": "#668cff",
+     "descriptors": [
+      {
+       "name": "Striking match",
+       "name_fr": "Allumette Frottée",
+       "name_it": "Fiammifero Acceso",
+       "slug": "sulfury-sulfitic-striking-match",
+       "name_es": "Cerillo Encendido",
+       "panel": {
+        "origin": "Sulfur dioxide (SO2). Produced by yeast or added as a preservative (rare in modern beer, common in wine).",
+        "origin_es": "Dióxido de azufre (SO₂). Producido por la levadura o añadido como conservador (raro en la cerveza moderna, común en el vino).",
+        "mixology": "A sharp, burning aroma just like a newly lit match.",
+        "mixology_es": "Un aroma agudo y ardiente, justo como un cerillo recién encendido."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sulfidic",
+     "name_fr": "Sulfidique",
+     "name_it": "Solfidrico",
+     "name_es": "Sulfídico",
+     "color": "#668cff",
+     "descriptors": [
+      {
+       "name": "Meaty",
+       "name_fr": "Carné",
+       "name_it": "Carnoso",
+       "slug": "sulfury-sulfidic-meaty",
+       "name_es": "Cárnico",
+       "panel": {
+        "origin": "Can occur from autolysis (yeast death/decay) yielding complex sulfuric amino acids.",
+        "origin_es": "Puede ocurrir por autólisis (muerte/descomposición de la levadura) que rinde aminoácidos sulfúricos complejos.",
+        "mixology": "A heavy, savory broth or soy-sauce flavor.",
+        "mixology_es": "Un sabor pesado, sabroso, de caldo o salsa de soya."
+       }
+      },
+      {
+       "name": "Hydrogen sulfide",
+       "name_fr": "Sulfure d'Hydrogène",
+       "name_it": "Acido Solfidrico",
+       "slug": "sulfury-sulfidic-hydrogen-sulfide",
+       "name_es": "Ácido Sulfhídrico",
+       "panel": {
+        "origin": "H2S. A byproduct of all yeast fermentation, usually scrubbed out by CO2 during a vigorous boil/fermentation. Common in young lagers.",
+        "origin_es": "H₂S. Un subproducto de toda fermentación de levadura, usualmente eliminado por el CO₂ durante un hervor/fermentación vigorosa. Común en las lagers jóvenes.",
+        "mixology": "A distinct aroma of rotten eggs.",
+        "mixology_es": "Un aroma distintivo de huevo podrido."
+       }
+      },
+      {
+       "name": "Mercaptan",
+       "name_fr": "Mercaptan",
+       "name_it": "Mercaptano",
+       "slug": "sulfury-sulfidic-mercaptan",
+       "name_es": "Mercaptano",
+       "panel": {
+        "origin": "Ethanethiol. Caused by yeast autolysis or severe bacterial infections.",
+        "origin_es": "Etanotiol. Causado por la autólisis de la levadura o por infecciones bacterianas severas.",
+        "mixology": "Smells like natural gas or raw sewage.",
+        "mixology_es": "Huele a gas natural o aguas residuales crudas."
+       }
+      },
+      {
+       "name": "Garlic",
+       "name_fr": "Ail",
+       "name_it": "Aglio",
+       "slug": "sulfury-sulfidic-garlic",
+       "name_es": "Ajo",
+       "panel": {
+        "origin": "Often from specific hop varieties (Summit, Mosaic) high in certain sulfur compounds, especially if harvested late.",
+        "origin_es": "A menudo de variedades de lúpulo específicas (Summit, Mosaic) altas en ciertos compuestos de azufre, especialmente si se cosechan tarde.",
+        "mixology": "A pungent, savory garlic or onion aroma.",
+        "mixology_es": "Un aroma punzante y sabroso de ajo o cebolla."
+       }
+      },
+      {
+       "name": "Lightstruck",
+       "name_fr": "Goût de Lumière",
+       "name_it": "Colpito dalla Luce",
+       "slug": "sulfury-sulfidic-lightstruck",
+       "name_es": "Asoleado",
+       "panel": {
+        "origin": "3-methyl-2-butene-1-thiol (MBT). Formed when UV/blue light cleaves iso-alpha acids, which then bind with sulfur proteins. Happens in minutes in clear/green glass.",
+        "origin_es": "3-metil-2-buteno-1-tiol (MBT). Se forma cuando la luz UV/azul rompe los ácidos iso-alfa, que luego se unen con proteínas de azufre. Sucede en minutos en vidrio claro/verde.",
+        "mixology": "A classic 'skunky' aroma. Common in imported beers in green bottles.",
+        "mixology_es": "Un aroma clásico 'asoleado'. Común en las cervezas importadas en botellas verdes."
+       }
+      },
+      {
+       "name": "Autolysed",
+       "name_fr": "Autolysé",
+       "name_it": "Autolizzato",
+       "slug": "sulfury-sulfidic-autolysed",
+       "name_es": "Autolizado",
+       "panel": {
+        "origin": "Result of yeast cell death and rupturing, spilling internal enzymes and amino acids into the beer. Often happens when left on the yeast cake too long.",
+        "origin_es": "Resultado de la muerte y ruptura de las células de levadura, que derraman enzimas y aminoácidos internos en la cerveza. A menudo sucede al dejarla sobre la cama de levadura demasiado tiempo.",
+        "mixology": "A sharp, muddy, Vegemite or soy sauce-like flavor.",
+        "mixology_es": "Un sabor agudo, turbio, tipo Vegemite o salsa de soya."
+       }
+      },
+      {
+       "name": "Burnt rubber",
+       "name_fr": "Caoutchouc Brûlé",
+       "name_it": "Gomma Bruciata",
+       "slug": "sulfury-sulfidic-burnt-rubber",
+       "name_es": "Hule Quemado",
+       "panel": {
+        "origin": "A severe mercaptan/sulfur off-flavor, often from highly stressed yeast or specific infections.",
+        "origin_es": "Un sabor defectuoso severo de mercaptano/azufre, a menudo de levadura muy estresada o de infecciones específicas.",
+        "mixology": "A harsh, acrid smell of burning tires.",
+        "mixology_es": "Un olor áspero y acre de llantas quemándose."
+       }
+      },
+      {
+       "name": "Shrimp-like",
+       "name_fr": "de Crevette",
+       "name_it": "di Gambero",
+       "slug": "sulfury-sulfidic-shrimp-like",
+       "name_es": "A Camarón",
+       "panel": {
+        "origin": "Extreme manifestation of sulfur compounds, occasionally linked to specific marine-like bacterial contamination.",
+        "origin_es": "Manifestación extrema de compuestos de azufre, ocasionalmente vinculada a una contaminación bacteriana específica de tipo marino.",
+        "mixology": "An unsettling, fishy or briny sulfur smell.",
+        "mixology_es": "Un olor de azufre inquietante, a pescado o salobre."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cooked Vegetable",
+     "name_fr": "Légume Cuit",
+     "name_it": "Verdura Cotta",
+     "name_es": "Verdura Cocida",
+     "color": "#668cff",
+     "descriptors": [
+      {
+       "name": "Parsnip/celery",
+       "name_fr": "Panais / Céleri",
+       "name_it": "Pastinaca / Sedano",
+       "slug": "sulfury-cooked-vegetable-parsnip-celery",
+       "name_es": "Chirivía / Apio",
+       "panel": {
+        "origin": "Aldehydic or sulfuric compounds from aged hops or malt oxidation.",
+        "origin_es": "Compuestos aldehídicos o sulfúricos de lúpulos viejos o de la oxidación de la malta.",
+        "mixology": "An earthy, root-vegetable flavor.",
+        "mixology_es": "Un sabor terroso, de verdura de raíz."
+       }
+      },
+      {
+       "name": "Dimethyl sulfide",
+       "name_fr": "Sulfure de Diméthyle",
+       "name_it": "Dimetilsolfuro",
+       "slug": "sulfury-cooked-vegetable-dimethyl-sulfide",
+       "name_es": "Sulfuro de Dimetilo",
+       "panel": {
+        "origin": "DMS. Originates from SMM in pale malts. Usually driven off by a vigorous 60+ minute boil. A known, acceptable background note in some German Lagers.",
+        "origin_es": "DMS. Se origina del SMM en las maltas pálidas. Usualmente se elimina con un hervor vigoroso de 60+ minutos. Una nota de fondo conocida y aceptable en algunas lagers alemanas.",
+        "mixology": "Tastes like creamed corn or canned cooked vegetables.",
+        "mixology_es": "Sabe a elote con crema o verduras cocidas enlatadas."
+       }
+      },
+      {
+       "name": "Cooked cabbage",
+       "name_fr": "Chou Cuit",
+       "name_it": "Cavolo Cotto",
+       "slug": "sulfury-cooked-vegetable-cooked-cabbage",
+       "name_es": "Col Cocida",
+       "panel": {
+        "origin": "A variation of DMS or other sulfur compounds, indicating a poor boil or slow wort chilling.",
+        "origin_es": "Una variación del DMS u otros compuestos de azufre, que indica un mal hervor o un enfriamiento lento del mosto.",
+        "mixology": "A heavy, sulfurous boiled vegetable aroma.",
+        "mixology_es": "Un aroma pesado y sulfuroso de verdura hervida."
+       }
+      },
+      {
+       "name": "Cooked sweet corn",
+       "name_fr": "Maïs Doux Cuit",
+       "name_it": "Mais Dolce Cotto",
+       "slug": "sulfury-cooked-vegetable-cooked-sweet-corn",
+       "name_es": "Elote Cocido",
+       "panel": {
+        "origin": "The textbook descriptor for classic Dimethyl Sulfide (DMS).",
+        "origin_es": "El descriptor de manual del clásico sulfuro de dimetilo (DMS).",
+        "mixology": "Tastes exactly like the water from a can of sweet corn.",
+        "mixology_es": "Sabe exactamente al agua de una lata de elote dulce."
+       }
+      },
+      {
+       "name": "Cooked tomato",
+       "name_fr": "Tomate Cuite",
+       "name_it": "Pomodoro Cotto",
+       "slug": "sulfury-cooked-vegetable-cooked-tomato",
+       "name_es": "Tomate Cocido",
+       "panel": {
+        "origin": "Another DMS/sulfur variant, sometimes interacting with oxidation.",
+        "origin_es": "Otra variante de DMS/azufre, que a veces interactúa con la oxidación.",
+        "mixology": "A savory, slightly acidic cooked vegetable note.",
+        "mixology_es": "Una nota de verdura cocida sabrosa y ligeramente ácida."
+       }
+      },
+      {
+       "name": "Cooked onion",
+       "name_fr": "Oignon Cuit",
+       "name_it": "Cipolla Cotta",
+       "slug": "sulfury-cooked-vegetable-cooked-onion",
+       "name_es": "Cebolla Cocida",
+       "panel": {
+        "origin": "Dimethyl trisulfide (DMTS) or derived from specific hop varieties (like Summit).",
+        "origin_es": "Trisulfuro de dimetilo (DMTS) o derivado de variedades de lúpulo específicas (como Summit).",
+        "mixology": "A savory, cooked onion or shallot flavor.",
+        "mixology_es": "Un sabor sabroso de cebolla cocida o chalota."
+       }
+      },
+      {
+       "name": "Yeasty",
+       "name_fr": "Levuré",
+       "name_it": "Lievitoso",
+       "slug": "sulfury-cooked-vegetable-yeasty",
+       "name_es": "A Levadura",
+       "panel": {
+        "origin": "Suspended yeast in the beer. Intentional in Hefeweizens and hazy IPAs; a flaw in filtered lagers. Contributes b-vitamins and a doughy profile.",
+        "origin_es": "Levadura en suspensión en la cerveza. Intencional en las Hefeweizen y las IPA turbias; un defecto en las lagers filtradas. Aporta vitaminas B y un perfil a masa.",
+        "mixology": "A bready, doughy flavor, like raw bread dough or yeast nutrient.",
+        "mixology_es": "Un sabor a pan y a masa, como masa de pan cruda o nutriente de levadura."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "STALE",
+   "name_fr": "ÉVENTÉ",
+   "name_it": "STANTIO",
+   "name_es": "RANCIO",
+   "color": "#9966cc",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Stale",
+     "name_fr": "Éventé",
+     "name_it": "Stantio",
+     "name_es": "Rancio",
+     "color": "#b280cc",
+     "descriptors": [
+      {
+       "name": "Catty",
+       "name_fr": "de Chat",
+       "name_it": "di Gatto",
+       "slug": "stale-stale-catty",
+       "name_es": "A Gato",
+       "panel": {
+        "origin": "p-mentha-8-thiol-3-one. Found in certain hops (Simcoe, Citra) but can become pronounced and off-putting as the beer ages and oxidizes.",
+        "origin_es": "p-menta-8-tiol-3-ona. Presente en ciertos lúpulos (Simcoe, Citra) pero puede volverse pronunciada y desagradable a medida que la cerveza envejece y se oxida.",
+        "mixology": "A sharp aroma that strongly resembles cat urine or a blackcurrant bush.",
+        "mixology_es": "Un aroma agudo que recuerda fuertemente a la orina de gato o a un arbusto de grosella negra."
+       }
+      },
+      {
+       "name": "Papery",
+       "name_fr": "Papier",
+       "name_it": "Cartaceo",
+       "slug": "stale-stale-papery",
+       "name_es": "A Papel",
+       "panel": {
+        "origin": "Trans-2-nonenal. The classic hallmark of beer oxidation. Formed by the oxidation of malt lipids.",
+        "origin_es": "Trans-2-nonenal. El sello clásico de la oxidación de la cerveza. Formado por la oxidación de los lípidos de la malta.",
+        "mixology": "Tastes like chewing on wet cardboard or old newspaper.",
+        "mixology_es": "Sabe a masticar cartón mojado o periódico viejo."
+       }
+      },
+      {
+       "name": "Leathery",
+       "name_fr": "Cuiré",
+       "name_it": "Coriaceo",
+       "slug": "stale-stale-leathery",
+       "name_es": "A Cuero",
+       "panel": {
+        "origin": "Oxidation in dark beers. Often a combination of oxidized melanoidins and esters.",
+        "origin_es": "Oxidación en las cervezas oscuras. A menudo una combinación de melanoidinas y ésteres oxidados.",
+        "mixology": "A dry, earthy flavor reminiscent of an old leather armchair. Can be pleasant in aged stouts.",
+        "mixology_es": "Un sabor seco y terroso reminiscente de un viejo sillón de cuero. Puede ser agradable en las stouts añejadas."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Moldy",
+     "name_fr": "Moisi",
+     "name_it": "Ammuffito",
+     "name_es": "Mohoso",
+     "color": "#b280cc",
+     "descriptors": [
+      {
+       "name": "Earthy",
+       "name_fr": "Terreux",
+       "name_it": "Terroso",
+       "name_es": "Terroso",
+       "slug": "stale-moldy-earthy",
+       "panel": {
+        "origin": "Geosmin. Can come from damp storage conditions, contaminated brewing water, or specific traditional English hops (Fuggles).",
+        "origin_es": "Geosmina. Puede provenir de condiciones de almacenamiento húmedas, agua de elaboración contaminada o lúpulos ingleses tradicionales específicos (Fuggles).",
+        "mixology": "Tastes like damp soil or a freshly dug garden.",
+        "mixology_es": "Sabe a tierra húmeda o a un jardín recién excavado."
+       }
+      },
+      {
+       "name": "Musty",
+       "name_fr": "Moisi",
+       "name_it": "Ammuffito",
+       "slug": "stale-moldy-musty",
+       "name_es": "A Humedad",
+       "panel": {
+        "origin": "TCA (Trichloroanisole) or mold in the brewery environment (e.g., damp malt storage or old barrels).",
+        "origin_es": "TCA (tricloroanisol) o moho en el ambiente de la cervecería (p. ej., almacenamiento húmedo de malta o barricas viejas).",
+        "mixology": "A dank, old basement or wet dog smell.",
+        "mixology_es": "Un olor a sótano viejo y húmedo o perro mojado."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ACIDIC",
+   "name_fr": "ACIDE",
+   "name_it": "ACIDO",
+   "name_es": "ÁCIDO",
+   "color": "#cc33ff",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Acidic",
+     "name_fr": "Acide",
+     "name_it": "Acido",
+     "name_es": "Ácido",
+     "color": "#d966ff",
+     "descriptors": [
+      {
+       "name": "Acetic",
+       "name_fr": "Acétique",
+       "name_it": "Acetico",
+       "slug": "acidic-acidic-acetic",
+       "name_es": "Acético",
+       "panel": {
+        "origin": "Acetic acid. Produced by Acetobacter in the presence of oxygen. A severe fault in most beers, but essential in Flanders Red Ales.",
+        "origin_es": "Ácido acético. Producido por Acetobacter en presencia de oxígeno. Un defecto severo en la mayoría de las cervezas, pero esencial en las Flanders Red Ale.",
+        "mixology": "A sharp, harsh sourness exactly like white vinegar.",
+        "mixology_es": "Una acidez aguda y áspera, exactamente como el vinagre blanco."
+       }
+      },
+      {
+       "name": "Sour",
+       "name_fr": "Aigre",
+       "name_it": "Aspro",
+       "name_es": "Agrio",
+       "slug": "acidic-acidic-sour",
+       "panel": {
+        "origin": "Lactic acid. Produced by Lactobacillus or Pediococcus. Provides clean sourness in Berliner Weisse, Gose, and Lambics.",
+        "origin_es": "Ácido láctico. Producido por Lactobacillus o Pediococcus. Aporta una acidez limpia en la Berliner Weisse, la Gose y las Lambic.",
+        "mixology": "A clean, tangy tartness similar to plain yogurt or lemon juice.",
+        "mixology_es": "Una acidez limpia y tangosa, similar al yogur natural o el jugo de limón."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "SWEET",
+   "name_fr": "SUCRÉ",
+   "name_it": "DOLCE",
+   "name_es": "DULCE",
+   "color": "#ff00ff",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Sweet",
+     "name_fr": "Sucré",
+     "name_it": "Dolce",
+     "name_es": "Dulce",
+     "color": "#ff4dff",
+     "descriptors": [
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "sweet-sweet-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "Can be an adjunct, or a sign of oxidation (specifically in lighter beers like Pilsners) where aldehydes mimic honey notes.",
+        "origin_es": "Puede ser un adjunto, o un signo de oxidación (específicamente en cervezas más ligeras como las Pilsner) donde los aldehídos imitan notas de miel.",
+        "mixology": "A floral, rich sweetness like raw honey.",
+        "mixology_es": "Un dulzor floral y rico, como la miel cruda."
+       }
+      },
+      {
+       "name": "Jam-like",
+       "name_fr": "Type Confiture",
+       "name_it": "Tipo Marmellata",
+       "slug": "sweet-sweet-jam-like",
+       "name_es": "A Mermelada",
+       "panel": {
+        "origin": "Complex, concentrated fruit esters interacting with sweet malts or actual fruit purees in modern sours.",
+        "origin_es": "Ésteres de fruta complejos y concentrados interactuando con maltas dulces o con purés de fruta reales en las sours modernas.",
+        "mixology": "A thick, cooked-fruit sweetness like strawberry or raspberry preserves.",
+        "mixology_es": "Un dulzor espeso de fruta cocida, como la mermelada de fresa o frambuesa."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "sweet-sweet-vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "Vanillin. Derived from oak barrel aging (especially American Oak) or specific wild yeast phenolic reactions.",
+        "origin_es": "Vainillina. Derivada del añejamiento en barrica de roble (especialmente roble americano) o de reacciones fenólicas específicas de la levadura silvestre.",
+        "mixology": "A smooth, creamy dessert-like sweetness.",
+        "mixology_es": "Un dulzor suave, cremoso, tipo postre."
+       }
+      },
+      {
+       "name": "Primings",
+       "name_fr": "Sucre de Resucrage",
+       "name_it": "Zucchero di Rifermentazione",
+       "slug": "sweet-sweet-primings",
+       "name_es": "Azúcar de Cebado",
+       "panel": {
+        "origin": "The taste of unfermented bottling sugar (dextrose/sucrose) if a bottle-conditioned beer hasn't carbonated properly.",
+        "origin_es": "El sabor del azúcar de embotellado sin fermentar (dextrosa/sacarosa) si una cerveza acondicionada en botella no se ha carbonatado adecuadamente.",
+        "mixology": "A simple, flat sugar-water taste.",
+        "mixology_es": "Un sabor simple y plano de agua azucarada."
+       }
+      },
+      {
+       "name": "Syrupy",
+       "name_fr": "Sirupeux",
+       "name_it": "Sciropposo",
+       "slug": "sweet-sweet-syrupy",
+       "name_es": "Almibarado",
+       "panel": {
+        "origin": "High residual sugar (high terminal gravity) often from unfermentable dextrins or stalled fermentation.",
+        "origin_es": "Alto azúcar residual (alta densidad final), a menudo de dextrinas no fermentables o de una fermentación estancada.",
+        "mixology": "A heavy, cloying sweetness that coats the mouth like pancake syrup.",
+        "mixology_es": "Un dulzor pesado y empalagoso que recubre la boca como la miel para hotcakes."
+       }
+      },
+      {
+       "name": "Oversweet",
+       "name_fr": "Trop Sucré",
+       "name_it": "Troppo Dolce",
+       "slug": "sweet-sweet-oversweet",
+       "name_es": "Empalagoso",
+       "panel": {
+        "origin": "A lack of balancing hop bitterness (IBUs) relative to the malt backbone (Original Gravity).",
+        "origin_es": "Una falta de amargor de lúpulo (IBU) que equilibre, en relación con la columna de malta (densidad original).",
+        "mixology": "A saccharine, unbalanced sweetness that becomes tiring to drink.",
+        "mixology_es": "Un dulzor sacarino y desequilibrado que se vuelve cansado de beber."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "MOUTHFEEL",
+   "name_fr": "SENSATION EN BOUCHE",
+   "name_it": "SENSAZIONE AL PALATO",
+   "name_es": "SENSACIÓN EN BOCA",
+   "color": "#ff66b2",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Mouthfeel",
+     "name_fr": "Sensation en Bouche",
+     "name_it": "Sensazione al Palato",
+     "name_es": "Sensación en Boca",
+     "color": "#ff66b2",
+     "descriptors": [
+      {
+       "name": "Bitter",
+       "name_fr": "Amer",
+       "name_it": "Amaro",
+       "slug": "mouthfeel-mouthfeel-bitter",
+       "name_es": "Amargo",
+       "panel": {
+        "origin": "Iso-alpha acids isomerized during the boil. Measured in IBUs. Provides critical balance to malt sweetness.",
+        "origin_es": "Ácidos iso-alfa isomerizados durante el hervor. Medidos en IBU. Aportan un equilibrio crítico al dulzor de la malta.",
+        "mixology": "The sharp, dry sensation on the back of the tongue, similar to black coffee or bitter greens.",
+        "mixology_es": "La sensación aguda y seca en el fondo de la lengua, similar al café negro o las verduras amargas."
+       }
+      },
+      {
+       "name": "Salty",
+       "name_fr": "Salé",
+       "name_it": "Salato",
+       "slug": "mouthfeel-mouthfeel-salty",
+       "name_es": "Salado",
+       "panel": {
+        "origin": "Sodium chloride. Rare in most beer styles. A stylistic requirement for the historical Gose style from Leipzig.",
+        "origin_es": "Cloruro de sodio. Raro en la mayoría de los estilos de cerveza. Un requisito estilístico del histórico estilo Gose de Leipzig.",
+        "mixology": "A slight saline, briny quality that makes the beer very thirst-quenching.",
+        "mixology_es": "Una ligera cualidad salina y salobre que vuelve la cerveza muy quitased."
+       }
+      },
+      {
+       "name": "Alkaline",
+       "name_fr": "Alcalin",
+       "name_it": "Alcalino",
+       "slug": "mouthfeel-mouthfeel-alkaline",
+       "name_es": "Alcalino",
+       "panel": {
+        "origin": "High pH in brewing water or excessive extraction of silicates from grain husks.",
+        "origin_es": "pH alto en el agua de elaboración o extracción excesiva de silicatos de las cascarillas del grano.",
+        "mixology": "A soapy, slippery, or chalky mouthfeel.",
+        "mixology_es": "Una sensación en boca jabonosa, resbaladiza o de gis."
+       }
+      },
+      {
+       "name": "Mouthcoating",
+       "name_fr": "Enrobant",
+       "name_it": "Avvolgente",
+       "slug": "mouthfeel-mouthfeel-mouthcoating",
+       "name_es": "Recubre el Paladar",
+       "panel": {
+        "origin": "High levels of beta-glucans, proteins, or dextrins. Often desired in Oatmeal Stouts or Hazy IPAs.",
+        "origin_es": "Altos niveles de beta-glucanos, proteínas o dextrinas. A menudo deseado en las Oatmeal Stout o las Hazy IPA.",
+        "mixology": "A dense, creamy texture that leaves a lingering film in the mouth.",
+        "mixology_es": "Una textura densa y cremosa que deja una película persistente en la boca."
+       }
+      },
+      {
+       "name": "Metallic",
+       "name_fr": "Métallique",
+       "name_it": "Metallico",
+       "slug": "mouthfeel-mouthfeel-metallic",
+       "name_es": "Metálico",
+       "panel": {
+        "origin": "Ferrous sulfate. Leaching from poor-quality equipment, bad water, or malt issues. Noticeable on the skin (rub some on your hand and smell).",
+        "origin_es": "Sulfato ferroso. Lixiviación de equipo de mala calidad, agua deficiente o problemas de malta. Perceptible en la piel (frote un poco en la mano y huela).",
+        "mixology": "Tastes exactly like licking a copper penny or biting your lip.",
+        "mixology_es": "Sabe exactamente a lamer una moneda de cobre o morderse el labio."
+       }
+      },
+      {
+       "name": "Drying",
+       "name_fr": "Asséchant",
+       "name_it": "Astringente",
+       "slug": "mouthfeel-mouthfeel-drying",
+       "name_es": "Secante",
+       "panel": {
+        "origin": "High attenuation (low final gravity), high carbonation, or high sulfate-to-chloride water ratios (Burtonization).",
+        "origin_es": "Alta atenuación (baja densidad final), alta carbonatación o altas proporciones de sulfato a cloruro en el agua (burtonización).",
+        "mixology": "A crisp finish that actively makes your mouth feel dry and ready for the next sip.",
+        "mixology_es": "Un final nítido que activamente hace sentir la boca seca y lista para el siguiente sorbo."
+       }
+      },
+      {
+       "name": "Tart",
+       "name_fr": "Acidulé",
+       "name_it": "Aspro",
+       "slug": "mouthfeel-mouthfeel-tart",
+       "name_es": "Ácido",
+       "panel": {
+        "origin": "Mild lactic or malic acid presence. Lowers the pH of the beer creating a bright finish.",
+        "origin_es": "Presencia leve de ácido láctico o málico. Baja el pH de la cerveza creando un final brillante.",
+        "mixology": "A gentle, fruity acidity, like a slightly underripe green grape.",
+        "mixology_es": "Una acidez suave y afrutada, como una uva verde ligeramente inmadura."
+       }
+      },
+      {
+       "name": "Puckering",
+       "name_fr": "Astringent",
+       "name_it": "Allappante",
+       "slug": "mouthfeel-mouthfeel-puckering",
+       "name_es": "Astringente",
+       "panel": {
+        "origin": "High Titratable Acidity (TA) combined with extremely low pH (under 3.2), common in intense mixed-fermentation sours.",
+        "origin_es": "Alta acidez titulable (TA) combinada con un pH extremadamente bajo (menos de 3.2), común en las sours intensas de fermentación mixta.",
+        "mixology": "An intense, face-scrunching sourness.",
+        "mixology_es": "Una acidez intensa que frunce el rostro."
+       }
+      },
+      {
+       "name": "Powdery",
+       "name_fr": "Poudreux",
+       "name_it": "Polveroso",
+       "slug": "mouthfeel-mouthfeel-powdery",
+       "name_es": "Polvoso",
+       "panel": {
+        "origin": "Suspended particles (yeast, hop matter, or proteins) creating a physical, particulate sensation.",
+        "origin_es": "Partículas en suspensión (levadura, materia de lúpulo o proteínas) que crean una sensación física y particulada.",
+        "mixology": "A dusty or chalky feeling on the tongue, like crushed aspirin.",
+        "mixology_es": "Una sensación polvosa o de gis en la lengua, como aspirina triturada."
+       }
+      },
+      {
+       "name": "Flat",
+       "name_fr": "Plat",
+       "name_it": "Piatto",
+       "slug": "mouthfeel-mouthfeel-flat",
+       "name_es": "Sin Gas",
+       "panel": {
+        "origin": "Lack of dissolved CO2. Indicates poor packaging, failed bottle-conditioning, or simply an authentic British Cask Ale.",
+        "origin_es": "Falta de CO₂ disuelto. Indica un mal empaque, un acondicionamiento en botella fallido o, simplemente, una auténtica Cask Ale británica.",
+        "mixology": "Little to no bubbles. Can feel lifeless, but is traditional for some English pub ales.",
+        "mixology_es": "Pocas o ninguna burbuja. Puede sentirse sin vida, pero es tradicional en algunas ales de pub inglesas."
+       }
+      },
+      {
+       "name": "Gassy",
+       "name_fr": "Gazeux",
+       "name_it": "Gassoso",
+       "slug": "mouthfeel-mouthfeel-gassy",
+       "name_es": "Gaseoso",
+       "panel": {
+        "origin": "Over-carbonation. Can be a packaging flaw, an infection (diastaticus), or a stylistic trait (Belgian Tripels).",
+        "origin_es": "Sobrecarbonatación. Puede ser un defecto de empaque, una infección (diastaticus) o un rasgo estilístico (las Tripel belgas).",
+        "mixology": "Aggressively bubbly, almost prickly, filling the stomach quickly.",
+        "mixology_es": "Agresivamente burbujeante, casi punzante, que llena el estómago rápidamente."
+       }
+      },
+      {
+       "name": "Piquant",
+       "name_fr": "Piquant",
+       "name_it": "Piccante",
+       "slug": "mouthfeel-mouthfeel-piquant",
+       "name_es": "Picante",
+       "panel": {
+        "origin": "A spicy/prickly physical sensation. Can derive from high carbonation interacting with alcohol and phenols.",
+        "origin_es": "Una sensación física especiada/punzante. Puede derivar de una alta carbonatación interactuando con el alcohol y los fenoles.",
+        "mixology": "A sharp, lively, and slightly spicy tingle on the tongue.",
+        "mixology_es": "Un cosquilleo agudo, vivaz y ligeramente especiado en la lengua."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "FULLNESS",
+   "name_fr": "CORPS",
+   "name_it": "CORPOSITÀ",
+   "name_es": "CUERPO",
+   "color": "#ff4d4d",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Body",
+     "name_fr": "Corps",
+     "name_it": "Corpo",
+     "name_es": "Cuerpo",
+     "color": "#ff6666",
+     "descriptors": [
+      {
+       "name": "Watery",
+       "name_fr": "Aqueux",
+       "name_it": "Acquoso",
+       "slug": "fullness-body-watery",
+       "name_es": "Aguado",
+       "panel": {
+        "origin": "Extremely low terminal gravity and lack of proteins/dextrins. A flaw in robust styles, intentional in light lagers.",
+        "origin_es": "Densidad final extremadamente baja y falta de proteínas/dextrinas. Un defecto en los estilos robustos, intencional en las lagers ligeras.",
+        "mixology": "Thin and flavorless, lacking any weight on the palate.",
+        "mixology_es": "Delgada y sin sabor, sin peso alguno en el paladar."
+       }
+      },
+      {
+       "name": "Characterless",
+       "name_fr": "Sans Caractère",
+       "name_it": "Senza Carattere",
+       "slug": "fullness-body-characterless",
+       "name_es": "Sin Carácter",
+       "panel": {
+        "origin": "A total lack of malt complexity, ester profile, or hop presence. Blandness.",
+        "origin_es": "Una falta total de complejidad de malta, perfil de ésteres o presencia de lúpulo. Sosería.",
+        "mixology": "Completely neutral, tasting more like water than beer.",
+        "mixology_es": "Completamente neutra, sabe más a agua que a cerveza."
+       }
+      },
+      {
+       "name": "Satiating",
+       "name_fr": "Rassasiant",
+       "name_it": "Saziante",
+       "slug": "fullness-body-satiating",
+       "name_es": "Saciante",
+       "panel": {
+        "origin": "A balanced, full mouthfeel providing caloric and sensory satisfaction without being overly cloying.",
+        "origin_es": "Una sensación en boca equilibrada y plena que proporciona satisfacción calórica y sensorial sin ser demasiado empalagosa.",
+        "mixology": "A deeply satisfying, bready fullness that feels like a 'meal in a glass'.",
+        "mixology_es": "Una plenitud a pan profundamente satisfactoria que se siente como una 'comida en una copa'."
+       }
+      },
+      {
+       "name": "Thick",
+       "name_fr": "Épais",
+       "name_it": "Denso",
+       "slug": "fullness-body-thick",
+       "name_es": "Denso",
+       "panel": {
+        "origin": "Massive malt bill, high unfermentable sugars, and elevated protein content (oats, wheat). Common in Imperial Stouts.",
+        "origin_es": "Receta de malta masiva, altos azúcares no fermentables y contenido elevado de proteína (avena, trigo). Común en las Imperial Stout.",
+        "mixology": "Extremely heavy and viscous, drinking almost like motor oil or syrup.",
+        "mixology_es": "Extremadamente pesada y viscosa, se bebe casi como aceite de motor o jarabe."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "AROMATIC, FRUITY, FLORAL": {
+   "en": "These are the <b>good smells</b> beer is supposed to have — esters from yeast (banana, pear), hops (citrus, pine, floral), and gentle alcohols. In small doses they're the soul of the beer; in big doses they can mean a stressed, too-warm fermentation.",
+   "es": "Estos son los <b>buenos aromas</b> que la cerveza debe tener — ésteres de la levadura (plátano, pera), lúpulo (cítrico, pino, floral) y alcoholes suaves. En dosis pequeñas son el alma de la cerveza; en exceso pueden indicar una fermentación estresada o demasiado cálida."
+  },
+  "VEGETAL": {
+   "en": "Grassy, hay-like, or cooked-veg notes. A little fresh-cut grass from hops is fine; <b>cooked corn or cabbage usually points to a process fault</b> (DMS from a weak boil, or oxidation).",
+   "es": "Notas a pasto, heno o verdura cocida. Un poco de pasto recién cortado del lúpulo está bien; <b>el elote o la col cocida suele señalar un defecto de proceso</b> (DMS por un hervor débil, u oxidación)."
+  },
+  "CEREAL": {
+   "en": "The bready, grainy, malty backbone — raw grain, malt, wort, even cooked-corn adjunct. This is the <b>foundation flavor</b> every beer is built on before hops and yeast add their layers.",
+   "es": "La columna a pan, grano y malta — grano crudo, malta, mosto, incluso elote de adjuntos. Es el <b>sabor base</b> sobre el que se construye toda cerveza antes de que el lúpulo y la levadura añadan sus capas."
+  },
+  "MAILLARD": {
+   "en": "Toast, caramel, toffee, coffee, chocolate, roast — all from the <b>Maillard browning</b> of malt in the kiln and kettle. The darker the malt, the deeper these go; they define amber ales, stouts, and porters.",
+   "es": "Tostado, caramelo, toffee, café, chocolate, torrefacto — todo del <b>dorado de Maillard</b> de la malta en el horno y la olla. Cuanto más oscura la malta, más profundo; definen las ales ámbar, las stouts y las porters."
+  },
+  "PHENOLIC": {
+   "en": "Clove, smoke, spice, medicinal, or band-aid. <b>Clove and pepper are prized in Belgians and Hefeweizens</b> (the yeast makes them on purpose); plastic or medicinal phenols are a fault from wild yeast or chlorinated water.",
+   "es": "Clavo, humo, especia, medicinal o curita. <b>El clavo y la pimienta se aprecian en belgas y Hefeweizens</b> (la levadura los crea a propósito); los fenoles a plástico o medicinales son un defecto de levadura silvestre o agua clorada."
+  },
+  "FATTY": {
+   "en": "Buttery, cheesy, soapy, or oily textures. <b>Diacetyl (movie-theater butter) is the classic one</b> — a normal fermentation byproduct that good yeast cleans up; if it lingers, the beer was rushed off the yeast.",
+   "es": "Texturas mantecosas, a queso, jabonosas o aceitosas. <b>El diacetilo (mantequilla de cine) es el clásico</b> — un subproducto normal de la fermentación que la buena levadura limpia; si persiste, la cerveza se separó de la levadura demasiado pronto."
+  },
+  "SULFURY": {
+   "en": "Rotten egg, struck match, cooked veg, or canned corn. Trace sulfur is normal in fresh lager and blows off; <b>strong or lasting sulfur is usually a fermentation or DMS fault</b>.",
+   "es": "Huevo podrido, cerillo encendido, verdura cocida o elote enlatado. El azufre traza es normal en la lager fresca y se disipa; <b>el azufre fuerte o persistente suele ser un defecto de fermentación o DMS</b>."
+  },
+  "STALE": {
+   "en": "Cardboard, papery, sherry-like, leathery. This is <b>oxidation — the #1 sign of an old or badly stored beer</b>. Trans-2-nonenal gives the wet-cardboard note; light + heat + air speed it up.",
+   "es": "Cartón, papel, tipo jerez, cuero. Esto es <b>oxidación — la señal #1 de una cerveza vieja o mal almacenada</b>. El trans-2-nonenal da la nota a cartón mojado; luz, calor y aire la aceleran."
+  },
+  "ACIDIC": {
+   "en": "Sour, tart, vinegary, or acetic. <b>Deliberate and delicious in sours, lambics, and goses</b> (lactic & acetic bacteria); an unwelcome vinegar tang in any other style means contamination.",
+   "es": "Ácido, agrio, avinagrado o acético. <b>Deliberado y delicioso en sours, lambics y goses</b> (bacterias lácticas y acéticas); un toque a vinagre en cualquier otro estilo significa contaminación."
+  },
+  "SWEET": {
+   "en": "Honey, candy, syrupy, or just plain sugary. Comes from <b>unfermented residual malt sugar</b>. Balanced by hop bitterness and carbonation; too much with no balance reads as cloying or under-attenuated.",
+   "es": "Miel, dulce, jarabe o simplemente azucarado. Viene del <b>azúcar de malta residual sin fermentar</b>. Se equilibra con el amargor del lúpulo y la carbonatación; demasiado sin equilibrio resulta empalagoso o poco atenuado."
+  },
+  "MOUTHFEEL": {
+   "en": "Not a taste at all — what the beer <b>physically feels like</b>: carbonation prickle, warming alcohol, astringency (that tea-like grip), body, and creaminess. Often what separates a great beer from a good one.",
+   "es": "No es un sabor — es lo que la cerveza <b>se siente físicamente</b>: el cosquilleo de la carbonatación, el calor del alcohol, la astringencia (ese agarre tipo té), el cuerpo y la cremosidad. A menudo es lo que separa una gran cerveza de una buena."
+  },
+  "FULLNESS": {
+   "en": "How <b>big or thin the beer feels</b> on the palate — from watery to full and chewy. Driven by unfermented dextrins, proteins, and glycerol. A light lager and an imperial stout sit at opposite ends.",
+   "es": "Qué tan <b>grande o ligera se siente la cerveza</b> en el paladar — de aguada a llena y masticable. Impulsada por dextrinas sin fermentar, proteínas y glicerol. Una lager ligera y una imperial stout están en extremos opuestos."
+  }
+ }
+}

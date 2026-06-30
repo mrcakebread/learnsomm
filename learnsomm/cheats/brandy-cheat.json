@@ -1,0 +1,246 @@
+{
+ "title": "Brandy Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Brandy Styles"
+  },
+  {
+   "name": "Cognac",
+   "slug": "cognac",
+   "rows": [
+    {
+     "k": "Source",
+     "v": "Cognac region, France — double-distilled, oak aged"
+    },
+    {
+     "k": "",
+     "v": "Dried fruit, spice, floral, honey, oak"
+    },
+    {
+     "k": "Examples",
+     "v": "Hennessy VS, Rémy Martin VSOP, Courvoisier"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Dark chocolate, dried figs, aged cheeses"
+    },
+    {
+     "k": "Best for",
+     "v": "The most recognizable and widely available brandy — a great starting point"
+    }
+   ]
+  },
+  {
+   "name": "Armagnac",
+   "slug": "armagnac",
+   "rows": [
+    {
+     "k": "Source",
+     "v": "Gascony, France — single-distilled, more rustic than Cognac"
+    },
+    {
+     "k": "",
+     "v": "Prune, dark chocolate, rustic spice, dried fruit"
+    },
+    {
+     "k": "Examples",
+     "v": "Darroze, Delord, Château de Laubade"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Roasted duck, prune desserts, strong cheeses"
+    },
+    {
+     "k": "Heads up",
+     "v": "Often considered the \"farmhouse\" cousin of Cognac — bolder, more textured, and frequently better value for the age statement."
+    }
+   ]
+  },
+  {
+   "name": "Pisco",
+   "slug": "pisco",
+   "rows": [
+    {
+     "k": "Source",
+     "v": "Peru or Chile — unaged grape brandy"
+    },
+    {
+     "k": "",
+     "v": "Fresh grape, lime, floral, herbal"
+    },
+    {
+     "k": "Examples",
+     "v": "BarSol, Macchu Pisco, Capel"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Ceviche, fresh seafood, citrus-driven dishes"
+    },
+    {
+     "k": "Best for",
+     "v": "Cocktails — its bright, clean profile is built for the Pisco Sour"
+    }
+   ]
+  },
+  {
+   "name": "Grappa",
+   "slug": "grappa",
+   "rows": [
+    {
+     "k": "Source",
+     "v": "Italy — distilled from grape pomace (skins, seeds, stems)"
+    },
+    {
+     "k": "",
+     "v": "Earthy, herbal, raw fruit, sometimes floral"
+    },
+    {
+     "k": "Examples",
+     "v": "Nonino, Jacopo Poli, Marolo"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Espresso, biscotti, after a rich Italian meal"
+    },
+    {
+     "k": "Heads up",
+     "v": "Traditionally a digestif — sharp and intense, often served in small pours after dinner rather than as a mixer."
+    }
+   ]
+  },
+  {
+   "cat": "Essential Brandy Cocktails"
+  },
+  {
+   "name": "Sidecar",
+   "slug": "sidecar",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Brandy (Cognac), orange liqueur, lemon juice"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "",
+     "v": "Citrusy"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "Often served with a sugared rim — a great gateway into brandy cocktails for those used to sours."
+    }
+   ]
+  },
+  {
+   "name": "Brandy Alexander",
+   "slug": "brandy-alexander",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Brandy, crème de cacao, cream"
+    },
+    {
+     "k": "",
+     "v": "Dessert"
+    },
+    {
+     "k": "",
+     "v": "Indulgent"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "Order tip",
+     "v": "Tastes like a boozy chocolate milkshake — order this as an after-dinner treat instead of dessert."
+    }
+   ]
+  },
+  {
+   "name": "Pisco Sour",
+   "slug": "pisco-sour",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Pisco, lime juice, simple syrup, egg white"
+    },
+    {
+     "k": "",
+     "v": "Frothy"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "Order tip",
+     "v": "The egg white isn't optional here — it's essential to the signature frothy texture and a few drops of bitters on top."
+    }
+   ]
+  },
+  {
+   "name": "Vieux Carré Strong",
+   "slug": "vieux-carr-strong",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Brandy, rye whiskey, sweet vermouth, Bénédictine, bitters"
+    },
+    {
+     "k": "",
+     "v": "Strong"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "",
+     "v": "Spirit-forward"
+    },
+    {
+     "k": "Order tip",
+     "v": "A New Orleans classic with five ingredients — order this if you want something layered and boozy, not a \"first drink of the night.\""
+    }
+   ],
+   "name_es": "Vieux Carré (Fuerte)"
+  },
+  {
+   "name": "French Connection",
+   "slug": "french-connection",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Cognac, amaretto"
+    },
+    {
+     "k": "",
+     "v": "Simple"
+    },
+    {
+     "k": "",
+     "v": "Nutty"
+    },
+    {
+     "k": "",
+     "v": "Warming"
+    },
+    {
+     "k": "Order tip",
+     "v": "Two ingredients, built over ice — one of the simplest \"real\" cocktails to order or make at home."
+    }
+   ]
+  }
+ ]
+}

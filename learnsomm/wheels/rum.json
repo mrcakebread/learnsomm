@@ -1,0 +1,2024 @@
+{
+ "title": "Rum",
+ "subject": "rum",
+ "categories": [
+  {
+   "name": "ROASTED",
+   "name_fr": "TORRÉFIÉ",
+   "name_it": "TOSTATO",
+   "name_es": "TOSTADO",
+   "color": "#5c4033",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Roasted",
+     "name_fr": "Torréfié",
+     "name_it": "Tostato",
+     "name_es": "Tostado",
+     "color": "#5c4033",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Burnt",
+       "name_fr": "Brûlé",
+       "name_it": "Bruciato",
+       "name_es": "Quemado",
+       "slug": "roasted-burnt",
+       "panel": {
+        "origin": "High concentration of furfural and pyrazines. Caused by accidental scorched sugarcane solids in direct-fired pot stills or aggressive high-temperature retort management.",
+        "mixology": "Brings structural bitterness. Complements dark amari and rich espresso modifiers. Use to add gravitas to an avant-garde variant of a Corn 'n' Oil.",
+        "examples": "Caroni Heavy Caroni Rums, Hampden Estate HLCF marques."
+       }
+      },
+      {
+       "name": "Charred",
+       "name_fr": "Carbonisé",
+       "name_it": "Carbonizzato",
+       "slug": "roasted-charred",
+       "name_es": "Carbonizado",
+       "panel": {
+        "origin": "Direct extraction of the inner layer of highly-fired white oak barrels (Heavy Level 3/4 char). Releases carbon microparticles which filter and impart smoke elements simultaneously.",
+        "mixology": "Excellent structural spine for stirred, spirit-forward classic rum variations. Replaces rye or bourbon seamlessly in a Rum Old Fashioned.",
+        "examples": "Foursquare Exception Cask Series, Mount Gay XO."
+       }
+      },
+      {
+       "name": "Smoky",
+       "name_fr": "Fumé",
+       "name_it": "Affumicato",
+       "slug": "roasted-smoky",
+       "name_es": "Ahumado",
+       "panel": {
+        "origin": "Guaiacol and 4-methylguaiacol absorption. Not typically from peated grain, but from active fires inside artisan cooperages during wood bendings or cask re-toasting loops.",
+        "mixology": "Provides ambient background depth. Outstanding split-base option with high-ester Jamaican rums to emulate pre-prohibition profiles.",
+        "examples": "Worthy Park Single Estate, Black Tot Master Blender's Reserve."
+       }
+      },
+      {
+       "name": "Toasted",
+       "name_fr": "Grillé",
+       "name_it": "Tostato",
+       "name_es": "Tostado",
+       "slug": "roasted-toasted",
+       "panel": {
+        "origin": "Thermal degradation of wood hemicellulose into volatile furanones. This profile stems from a long, low-temperature cook of the barrel wood rather than quick charring.",
+        "mixology": "Imparts structural elegance. Complements delicate vermouths and shifts rum service comfortably into high-end wine pairings.",
+        "examples": "Appleton Estate 12 Year Rare Casks, Chairmans Reserve Forgotten Casks."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WOODY",
+   "name_fr": "BOISÉ",
+   "name_it": "LEGNOSO",
+   "name_es": "AMADERADO",
+   "color": "#a0522d",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Woody",
+     "name_fr": "Boisé",
+     "name_it": "Legnoso",
+     "name_es": "Amaderado",
+     "color": "#a0522d",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Barrel",
+       "name_fr": "Fût",
+       "name_it": "Botte",
+       "slug": "woody-barrel",
+       "name_es": "Barrica",
+       "panel": {
+        "origin": "Long-term contact with exhausted or refill cooperage, focusing on baseline structural oak macro-elements without heavy sweet toast inputs.",
+        "mixology": "Establishes a completely neutral dry oak framework. Pairs cleanly with orchard fruits and high-acid citrus.",
+        "examples": "El Dorado 12 Year (Old Diamond/Port Mourant components), Saint James Vieux."
+       }
+      },
+      {
+       "name": "Cedar",
+       "name_fr": "Cèdre",
+       "name_it": "Cedro",
+       "slug": "woody-cedar",
+       "name_es": "Cedro",
+       "panel": {
+        "origin": "Exotic terpene extractions occurring when rums are finishes in native South American woods (like Amburana) or kept inside highly humid dunnage warehouses.",
+        "mixology": "Intensely perfumed. Needs cautious dosing in cocktail execution; use mist bottles or small accents to avoid overwhelming fresh juices.",
+        "examples": "Avuá Cachaça Amburana, Barbancourt 15 Year."
+       }
+      },
+      {
+       "name": "Oak",
+       "name_fr": "Chêne",
+       "name_it": "Quercia",
+       "slug": "woody-oak",
+       "name_es": "Roble",
+       "panel": {
+        "origin": "High levels of ellagitannins and oak lactones. Classic byproduct of active tropical aging cycles where evaporation forces rapid extraction rates.",
+        "mixology": "Creates a dry, highly structured finish. Balance this heavy wood framework with natural modifiers like rich demerara syrup or curaçao.",
+        "examples": "Foursquare Detente, Real McCoy 12 Year."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NUTTY",
+   "name_fr": "NOISETÉ",
+   "name_it": "DI FRUTTA SECCA",
+   "name_es": "NUECES",
+   "color": "#e4a834",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "Nueces",
+     "color": "#e4a834",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Sandalwood",
+       "name_fr": "Santal",
+       "name_it": "Sandalo",
+       "slug": "nutty-sandalwood",
+       "name_es": "Sándalo",
+       "panel": {
+        "origin": "Alpha-santalol mimicking molecules formed through long, slow oxidation cycles in French oak (Quercus robur), breaking down natural resin compounds.",
+        "mixology": "Provides top-tier aromatic complexity. Perfect for misting glassware or elevating minimalist highballs using premium mineral water.",
+        "examples": "Rhum J.M Vieux Agricole, Clément Cuvée Homère."
+       }
+      },
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Benzaldehyde formations occurring during extended wood micro-oxygenation, heavily augmented by column-still distillates stored in humid environments.",
+        "mixology": "The baseline natural companion to real orgeat. Boosts the mid-palate profile of traditional beachside Mai Tais.",
+        "examples": "Havana Club 7 Year, Santa Teresa 1796 Solera."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "nutty-hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "Generated via complex amino-carbonyl interactions during multi-decade solera aging processes where old and young distillates co-mingle.",
+        "mixology": "Brings a smooth, rich character to neat serves. Pairs magnificently with high-fat dark chocolates or rich cheese courses.",
+        "examples": "Zacapa XO Solera, Dictador 20 Year."
+       }
+      },
+      {
+       "name": "Pecan",
+       "name_fr": "Noix de Pécan",
+       "name_it": "Noce Pecan",
+       "slug": "nutty-pecan",
+       "name_es": "Nuez Pecana",
+       "panel": {
+        "origin": "Interaction of lipid residues with wood tannins over medium maturation runs in ex-bourbon white oak.",
+        "mixology": "Adds a delightful savory-sweet nut finish. Pairs beautifully with walnut or aromatic bitters in Manhattan variations.",
+        "examples": "Don Q Gran Reserva XO, Angostura 1824."
+       }
+      },
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "nutty-walnut",
+       "name_es": "Nuez de Castilla",
+       "panel": {
+        "origin": "Slightly oxidized oil profile caused by long head-space air-contact inside aging casks, converting fatty acids into nut-like ketones.",
+        "mixology": "Brings a elegant dry quality that helps tame sweet vermouth or rich liqueurs in complex stir builds.",
+        "examples": "Abuelo Centuria, Appleton Estate 21 Year."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LEATHER",
+   "name_fr": "CUIR",
+   "name_it": "CUOIO",
+   "name_es": "CUERO",
+   "color": "#8b2500",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Leather",
+     "name_fr": "Cuir",
+     "name_it": "Cuoio",
+     "name_es": "Cuero",
+     "color": "#8b2500",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Saddle",
+       "name_fr": "Selle",
+       "name_it": "Sella",
+       "slug": "leather-saddle",
+       "name_es": "Silla de Montar",
+       "panel": {
+        "origin": "Isovaleric acid and unique phenolic interactions linked to slow dunnage house maturation loops and minimal filtration passes.",
+        "mixology": "Highly sophisticated, deeply dry character. Reserve for premium, slow-sipping cocktails or serve neat alongside Maduro cigars.",
+        "examples": "English Harbour 5 Year, Doorly's 14 Year."
+       }
+      },
+      {
+       "name": "Cigar",
+       "name_fr": "Cigare",
+       "name_it": "Sigaro",
+       "slug": "leather-cigar",
+       "name_es": "Puro",
+       "panel": {
+        "origin": "Deep structural pyrazines and nitrogen compounds gathered from very old, dry casks exposed to long-term micro-aeration.",
+        "mixology": "The gold standard for spirit-forward nightcaps. Do not dilute heavily; match with premium dark chocolate or espresso notes.",
+        "examples": "Kirk and Sweeney Gran Reserva, Foursquare Icarus."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EARTHY",
+   "name_fr": "TERREUX",
+   "name_it": "TERROSO",
+   "name_es": "TERROSO",
+   "color": "#7bb384",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Earthy",
+     "name_fr": "Terreux",
+     "name_it": "Terroso",
+     "name_es": "Terroso",
+     "color": "#7bb384",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Musty",
+       "name_fr": "Moisi",
+       "name_it": "Ammuffito",
+       "slug": "earthy-musty",
+       "name_es": "A Humedad",
+       "panel": {
+        "origin": "Trichloroanisole precursors or damp dunnage flooring micro-climates where earthen floors exchange moisture directly with wood cask bottoms.",
+        "mixology": "Adds an old-world, historical complexity. Works well when layered against bright citrus components to provide an industrial counterweight.",
+        "examples": "River Antoine Rivers Royale Grenada Rum, Clairin Sajous."
+       }
+      },
+      {
+       "name": "Peat",
+       "name_fr": "Tourbe",
+       "name_it": "Torba",
+       "slug": "earthy-peat",
+       "name_es": "Turba",
+       "panel": {
+        "origin": "Rare cross-contamination or deliberate finishing steps using active ex-peated Scotch single malt casks for final aging sweeps.",
+        "mixology": "Introduces a thrilling phenolic twist. Use as a split-base option to completely redefine tiki archetypes.",
+        "examples": "Planation Traditional Isle of Fiji Peated Finish, Foursquare LFT."
+       }
+      },
+      {
+       "name": "Root",
+       "name_fr": "Racine",
+       "name_it": "Radice",
+       "slug": "earthy-root",
+       "name_es": "Raíz",
+       "panel": {
+        "origin": "Geosmin extraction from wild soil microbiomes tracking through the root system of unwashed estate-crushed sugarcane stalks.",
+        "mixology": "Brings an earthy quality akin to premium mezcal. Outstanding in refreshing highball applications or simple Ti' Punch adjustments.",
+        "examples": "Clairin Vaval, Neisson Blanc Agricole."
+       }
+      },
+      {
+       "name": "Sap",
+       "name_fr": "Sève",
+       "name_it": "Linfa",
+       "slug": "earthy-sap",
+       "name_es": "Savia",
+       "panel": {
+        "origin": "Low-boiling point green terpenes drawn into the raw cane juice when processing includes leaves or unripened stalk tips.",
+        "mixology": "Provides a crisp, botanical finish. Excellent alternative to artisanal gin in classic cocktail modifications.",
+        "examples": "Rhum J.M Blanc (50% ABV), Pere Labat 59."
+       }
+      },
+      {
+       "name": "Tobacco",
+       "name_fr": "Tabac",
+       "name_it": "Tabacco",
+       "slug": "earthy-tobacco",
+       "name_es": "Tabaco",
+       "panel": {
+        "origin": "Oxidative compound transformations occurring during extensive cask aging, mimicking the degradation of carotenoids.",
+        "mixology": "Brings a wonderful savory dimension. Ideal for sophisticated stirred drinks that feature high-end dry vermouths.",
+        "examples": "Mount Gay 1703 Master Select, Foursquare Shibboleth."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "VEGETAL",
+   "name_fr": "VÉGÉTAL",
+   "name_it": "VEGETALE",
+   "name_es": "VEGETAL",
+   "color": "#228b22",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Vegetal",
+     "name_fr": "Végétal",
+     "name_it": "Vegetale",
+     "name_es": "Vegetal",
+     "color": "#228b22",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Floral",
+       "name_fr": "Floral",
+       "name_it": "Floreale",
+       "name_es": "Floral",
+       "slug": "vegetal-floral",
+       "panel": {
+        "origin": "High concentration of volatile monoterpenes (linalool, geraniol). Very prominent in column-distilled fresh sugarcane juice rums.",
+        "mixology": "Ethereal and delicate. Best preserved in cold, crisp drinks; avoid masking with heavy baking spices or heavy syrups.",
+        "examples": "Damoiseau Blanc, Barbancourt White."
+       }
+      },
+      {
+       "name": "Fresh",
+       "name_fr": "Frais",
+       "name_it": "Fresco",
+       "slug": "vegetal-fresh",
+       "name_es": "Fresco",
+       "panel": {
+        "origin": "Short-chain aldehydes captured via express processing of fresh cane fields directly from harvest into crushing mills within hours.",
+        "mixology": "Provides great energy and snap. The ultimate engine for authentic muddled Daiquiris and crisp Mojitos.",
+        "examples": "Rhum Clément Premier Canne, Neisson Élevé Sous Bois."
+       }
+      },
+      {
+       "name": "Grass",
+       "name_fr": "Herbe",
+       "name_it": "Erba",
+       "slug": "vegetal-grass",
+       "name_es": "Pasto",
+       "panel": {
+        "origin": "Hexanal and cis-3-hexenol. The signature organoleptic footprint of fresh sugarcane juice fermentation (Rhum Agricole and Cachaça).",
+        "mixology": "The baseline flavor identity for classic Ti' Punch builds (agricole, lime disc, raw cane syrup).",
+        "examples": "Rhum J.M Blanc, Novo Fogo Silver Cachaça."
+       }
+      },
+      {
+       "name": "Green",
+       "name_fr": "Vert",
+       "name_it": "Verde",
+       "slug": "vegetal-green",
+       "name_es": "Verde",
+       "panel": {
+        "origin": "Immature plant aldehydes tracking through light copper setups with fast vapor speeds and high water-reflux levels.",
+        "mixology": "Provides a sharp, clean element that cuts through high-fat food pairings or heavy cream-based cocktail components.",
+        "examples": "Clairin Casimir, Saint James Blanc."
+       }
+      },
+      {
+       "name": "Herbal",
+       "name_fr": "Herbacé",
+       "name_it": "Erbaceo",
+       "name_es": "Herbal",
+       "slug": "vegetal-herbal",
+       "panel": {
+        "origin": "Complex essential oils surviving distillation. Enhanced by using wild yeasts during long, open-air vat fermentations.",
+        "mixology": "Pairs perfectly with chartreuse, sweet vermouths, and complex amaros in modern bitter-sweet cocktail architectures.",
+        "examples": "Providence Dunder Rum, Clairin Le Rocher."
+       }
+      },
+      {
+       "name": "Minty",
+       "name_fr": "Mentholé",
+       "name_it": "Mentolato",
+       "slug": "vegetal-minty",
+       "name_es": "Mentolado",
+       "panel": {
+        "origin": "Volatile oil extractions mimicking menthol pathways, often accented by aging in high-elevation warehouses with sharp day-night temperature swings.",
+        "mixology": "Provides a natural lifting mechanism. Enhances structural freshness in juleps or low-sugar smash variations.",
+        "examples": "Diplomático Reserva Exclusiva (underneath the honey base), Zacapa 23."
+       }
+      },
+      {
+       "name": "Tea",
+       "name_fr": "Thé",
+       "name_it": "Tè",
+       "slug": "vegetal-tea",
+       "name_es": "Té",
+       "panel": {
+        "origin": "Polyphenolic extractions and mild wood drying agents mimicking ethyl gallate, developed inside neutral or large oak vats.",
+        "mixology": "Brings an elegant dryness to the back of the palate. Excellent for lengthening drinks with sparkling waters or dry tonics.",
+        "examples": "Brugal 1888, Angostura 1919."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRUITY",
+   "name_fr": "FRUITÉ",
+   "name_it": "FRUTTATO",
+   "name_es": "AFRUTADO",
+   "color": "#dc143c",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Fruity",
+     "name_fr": "Fruité",
+     "name_it": "Fruttato",
+     "name_es": "Afrutado",
+     "color": "#dc143c",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "fruity-apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "Ethyl butyrate esters. Produced during early fermentation cycles when temperature regulation keeps yeast working at an even, unstressed pace.",
+        "mixology": "Adds a bright, approachable top-note. Perfect for adapting classic Collins or refreshing long drinks.",
+        "examples": "Doorly's 3 Year, Flor de Caña 4 Year Extra Seco."
+       }
+      },
+      {
+       "name": "Apricot",
+       "name_fr": "Abricot",
+       "name_it": "Albicocca",
+       "slug": "fruity-apricot",
+       "name_es": "Chabacano",
+       "panel": {
+        "origin": "Gamma-undecalactone pathways created through esterification inside second-fill ex-bourbon white oak barrels.",
+        "mixology": "Brings a wonderful stone-fruit quality. Connects seamlessly with peach bitters, dry sherries, or herbal aperitifs.",
+        "examples": "Mount Gay Eclipse, Foursquare Veritas."
+       }
+      },
+      {
+       "name": "Cherry",
+       "name_fr": "Cerise",
+       "name_it": "Ciliegia",
+       "slug": "fruity-cherry",
+       "name_es": "Cereza",
+       "panel": {
+        "origin": "Benzaldehyde and ethyl lactate combos, often heightened by final finishing loops in seasoned ex-Sherry or ex-Port wine casks.",
+        "mixology": "Adds deep ruby tones and dark fruit elements. Brilliant when used in premium Manhattan variations.",
+        "examples": "Foursquare Premise, Dos Maderas 5+3."
+       }
+      },
+      {
+       "name": "Currants",
+       "name_fr": "Groseilles",
+       "name_it": "Ribes",
+       "slug": "fruity-currants",
+       "name_es": "Grosellas",
+       "panel": {
+        "origin": "Heavy organic acid extractions interacting over extended maturations with deeply caramelized oak barrel linings.",
+        "mixology": "Rich and luxurious. Elevates stirred drinks; pairs wonderfully with rich game dishes or computational pastry menus.",
+        "examples": "El Dorado 15 Year, Pusser's Gunpowder Proof."
+       }
+      },
+      {
+       "name": "Dates",
+       "name_fr": "Dattes",
+       "name_it": "Datteri",
+       "slug": "fruity-dates",
+       "name_es": "Dátiles",
+       "panel": {
+        "origin": "Oxidative ester clusters standard in long-term solera aging setups or rums aged in European oak seasoned with sweet fortified wines.",
+        "mixology": "Imparts a rich impression of sweetness. Use to replace rich syrups in classic cocktail variations.",
+        "examples": "Zacapa 23 Solera, Ron Matusalem 15."
+       }
+      },
+      {
+       "name": "Figs",
+       "name_fr": "Figues",
+       "name_it": "Fichi",
+       "slug": "fruity-figs",
+       "name_es": "Higos",
+       "panel": {
+        "origin": "Concentrated fruit sugars and complex heavy wood compounds reacting during high-heat tropical aging environments.",
+        "mixology": "Brings deep mid-palate complexity. Outstanding when paired with rich walnut or cocoa garnishes.",
+        "examples": "Foursquare Nobiliary, Kirk and Sweeney 23 Year."
+       }
+      },
+      {
+       "name": "Grapes",
+       "name_fr": "Raisins",
+       "name_it": "Uva",
+       "slug": "fruity-grapes",
+       "name_es": "Uvas",
+       "panel": {
+        "origin": "Tartaric acid markers and volatile ester profiles inherited directly from maturation finishes inside recently emptied wine casks.",
+        "mixology": "Provides a vinous, sophisticated lift. Beautiful in elegant stemware or used in split-base formats with premium cognac.",
+        "examples": "Planation XO 20th Anniversary, Dictador Insolent."
+       }
+      },
+      {
+       "name": "Peaches",
+       "name_fr": "Pêches",
+       "name_it": "Pesche",
+       "slug": "fruity-peaches",
+       "name_es": "Duraznos",
+       "panel": {
+        "origin": "Lactone developments common to slow, cool maturation cycles in damp, coastal warehouses with stable microclimates.",
+        "mixology": "Adds an elegant, summery stone-fruit brightness. Complements vermouth-forward configurations perfectly.",
+        "examples": "Angostura 7 Year, Real McCoy 5 Year."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "slug": "fruity-pear",
+       "name_es": "Pera",
+       "panel": {
+        "origin": "Isoamyl acetate compounds. Frequently found in clean, column-distilled rums utilizing molasses bases with modern centrifugal clarification.",
+        "mixology": "Provides an elegant, crisp entry point. Ideal for delicate, shaken drinks where freshness is the core objective.",
+        "examples": "Brugal Extra Viejo, Don Q Cristal."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DRIED FRUIT",
+   "name_fr": "FRUITS SECS",
+   "name_it": "FRUTTA SECCA",
+   "name_es": "FRUTA SECA",
+   "color": "#ff4500",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Dried Fruit",
+     "name_fr": "Fruits Secs",
+     "name_it": "Frutta Secca",
+     "name_es": "Fruta Seca",
+     "color": "#ff4500",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Dried Apricot",
+       "name_fr": "Abricot Sec",
+       "name_it": "Albicocca Secca",
+       "slug": "dried-fruit-dried-apricot",
+       "name_es": "Chabacano Seco",
+       "panel": {
+        "origin": "Concentrated lactone and ester groupings produced by steady, controlled oxidation over decades in old American white oak.",
+        "mixology": "Brings a refined fruit dry quality. Pairs exquisitely with single-varietal dark chocolates or nutty elements.",
+        "examples": "Appleton 15 Year Black River Casks, Mount Gay Black Barrel."
+       }
+      },
+      {
+       "name": "Dried Currants",
+       "name_fr": "Raisins de Corinthe",
+       "name_it": "Uva di Corinto",
+       "slug": "dried-fruit-dried-currants",
+       "name_es": "Grosellas Secas",
+       "panel": {
+        "origin": "Heavy wine-stave absorption vectors. Imparts a luxurious rancio character that grounds high-proof distillates beautifully.",
+        "mixology": "Brings an old-school weight. Fantastic in historic punch formats or hot toddy modifications.",
+        "examples": "Pusser's 15 Year, Woods Old Navy Rum."
+       }
+      },
+      {
+       "name": "Dried Dates",
+       "name_fr": "Dattes Séchées",
+       "name_it": "Datteri Secchi",
+       "slug": "dried-fruit-dried-dates",
+       "name_es": "Dátiles Secos",
+       "panel": {
+        "origin": "Degradation of heavy organic fatty acids over multiple decades in active, wine-seasoned European oak cooperage.",
+        "mixology": "Rich, dense, and deeply textured. Excellent option for winter beverage pairings or neat digestif menus.",
+        "examples": "El Dorado 21 Year, Foursquare Sovereignty."
+       }
+      },
+      {
+       "name": "Dried Figs",
+       "name_fr": "Figues Séchées",
+       "name_it": "Fichi Secchi",
+       "slug": "dried-fruit-dried-figs",
+       "name_es": "Higos Secos",
+       "panel": {
+        "origin": "Highly complex compound synthesis involving caramel sugars and long-chain wood esters inside heavily active charred barrels.",
+        "mixology": "Deeply decadent. Anchors robust, high-proof tropical drinks without requiring heavy syrup support.",
+        "examples": "Foursquare Nobiliary, Ron Centenario 30."
+       }
+      },
+      {
+       "name": "Prunes",
+       "name_fr": "Pruneaux",
+       "name_it": "Prugne Secche",
+       "slug": "dried-fruit-prunes",
+       "name_es": "Ciruelas Pasas",
+       "panel": {
+        "origin": "Classic indication of extensive maturation in ex-Pedro Ximénez sherry casks or highly-active dark wine wood systems.",
+        "mixology": "Deeply syrupy. Outstanding as a dessert pour or as a substitute for vermouth in a Black Manhattan build.",
+        "examples": "Dos Maderas 5+5, Diplomatico Single Vintage."
+       }
+      },
+      {
+       "name": "Raisin",
+       "name_fr": "Raisin Sec",
+       "name_it": "Uvetta",
+       "slug": "dried-fruit-raisin",
+       "name_es": "Pasa",
+       "panel": {
+        "origin": "Direct extraction of dried grape solids trapped in the porous wood structures of seasoned Oloroso sherry cask staves.",
+        "mixology": "The gold standard for rich, festive menu development. Connects naturally with orange peel oils and aromatic bitters.",
+        "examples": "Foursquare Redoutable, Juan Santos 21 Year."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TROPICAL FRUIT",
+   "name_fr": "FRUITS TROPICAUX",
+   "name_it": "FRUTTA TROPICALE",
+   "name_es": "FRUTA TROPICAL",
+   "color": "#ffa500",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Tropical Fruit",
+     "name_fr": "Fruits Tropicaux",
+     "name_it": "Frutta Tropicale",
+     "name_es": "Fruta Tropical",
+     "color": "#ffa500",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Banana",
+       "name_fr": "Banane",
+       "name_it": "Banana",
+       "slug": "tropical-fruit-banana",
+       "name_es": "Plátano",
+       "panel": {
+        "origin": "Isoamyl acetate. Highly emphasized by using specialized yeast cultures and managing slow, low-temperature fermentations.",
+        "mixology": "The iconic ester marker. Amplifies classic tiki profiles; coordinates beautifully with fresh lime juice and sweet almond syrup.",
+        "examples": "Hampden Estate 8 Year, Worthy Park Rum-Bar Overproof."
+       }
+      },
+      {
+       "name": "Coconut",
+       "name_fr": "Noix de Coco",
+       "name_it": "Cocco",
+       "slug": "tropical-fruit-coconut",
+       "name_es": "Coco",
+       "panel": {
+        "origin": "Gamma-octalactone extraction from heavily active, first-fill American white oak ex-bourbon barrels.",
+        "mixology": "Provides a natural creaminess on the palate. Elevates classic highballs or tropical builds without needing artificial syrups.",
+        "examples": "Foursquare Probitas, Chairman's Reserve Original."
+       }
+      },
+      {
+       "name": "Mango",
+       "name_fr": "Mangue",
+       "name_it": "Mango",
+       "name_es": "Mango",
+       "slug": "tropical-fruit-mango",
+       "panel": {
+        "origin": "Ethyl hexanoate and volatile monoterpenes produced during extended fermentations using wild yeasts.",
+        "mixology": "Adds a luxurious tropical brightness. Works excellently in highball styles combined with premium tonic water.",
+        "examples": "Hampden Estate 46, Long Pond independent bottlings."
+       }
+      },
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "slug": "tropical-fruit-pineapple",
+       "name_es": "Piña",
+       "panel": {
+        "origin": "Ethyl butyrate ester cascades. Often naturally enhanced by adding real pineapple rinds during targeted maceration steps.",
+        "mixology": "The ultimate modifier for complex tropical platforms. Brings high-acid vibrancy that balances heavy oak tannins.",
+        "examples": "Plantation Stiggins' Fancy Pineapple, Rum Fire (un-aged overproof)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CITRUS",
+   "name_fr": "AGRUMES",
+   "name_it": "AGRUMI",
+   "name_es": "CÍTRICOS",
+   "color": "#ffd700",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Citrus",
+     "name_fr": "Agrumes",
+     "name_it": "Agrumi",
+     "name_es": "Cítricos",
+     "color": "#ffd700",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "slug": "citrus-lemon",
+       "name_es": "Limón",
+       "panel": {
+        "origin": "Limonene pathways surviving distillation, common in light column-still extractions with strict temperature controls.",
+        "mixology": "Brings clean, energetic focus. Excellent for modifying classic sours or elegant, elongated highballs.",
+        "examples": "Flor de Caña 7 Year, Havana Club 3 Year."
+       }
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "slug": "citrus-lime",
+       "name_es": "Lima",
+       "panel": {
+        "origin": "Terpene architectures common in fresh cane distillates or rums produced with minimal copper contact during short fermentation loops.",
+        "mixology": "The foundational baseline for authentic Daiquiris. Accents natural sugarcane notes perfectly.",
+        "examples": "Wray & Nephew White Overproof, J. Wray Silver."
+       }
+      },
+      {
+       "name": "Marmalade",
+       "name_fr": "Marmelade d'Orange",
+       "name_it": "Marmellata d'Arancia",
+       "slug": "citrus-marmalade",
+       "name_es": "Mermelada de Naranja",
+       "panel": {
+        "origin": "Esterification of concentrated orange-peel oils reacting with caramelized wood sugars over extended cask exposures.",
+        "mixology": "Imparts a brilliant bitter-sweet complexity. Elevates classic stirred profiles like the El Presidente.",
+        "examples": "Appleton Estate 12 Year, Mount Gay XO."
+       }
+      },
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "slug": "citrus-orange",
+       "name_es": "Naranja",
+       "panel": {
+        "origin": "Octyl acetate developments common to traditional molasses fermentations processed in classic pot stills.",
+        "mixology": "Adds a beautiful structural link to premium orange liqueurs, sweet vermouths, and fresh citrus garnishes.",
+        "examples": "Foursquare 2008, El Dorado 15 Year."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ALCOHOLIC",
+   "name_fr": "ALCOOLIQUE",
+   "name_it": "ALCOLICO",
+   "name_es": "ALCOHÓLICO",
+   "color": "#f0e68c",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Alcoholic",
+     "name_fr": "Alcoolique",
+     "name_it": "Alcolico",
+     "name_es": "Alcohólico",
+     "color": "#f0e68c",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Arrack",
+       "name_fr": "Arak",
+       "name_it": "Arak",
+       "name_es": "Arrak",
+       "slug": "alcoholic-arrack",
+       "panel": {
+        "origin": "High concentration of volatile ethyl esters and organic acids mimicking the profile of classic Batavia Arrack.",
+        "mixology": "Brings an intense, rustic edge. Perfect for historical punch recreations or high-complexity tropical builds.",
+        "examples": "Batavia Arrack van Oosten, Smith & Cross."
+       }
+      },
+      {
+       "name": "Bourbon",
+       "name_fr": "Bourbon",
+       "name_it": "Bourbon",
+       "name_es": "Bourbon",
+       "slug": "alcoholic-bourbon",
+       "panel": {
+        "origin": "Direct extraction of residual corn-mash whiskeys locked deep inside imported charred American white oak casks.",
+        "mixology": "A familiar, customer-friendly bridge profile. Ideal for converting traditional bourbon drinkers to premium aged rums.",
+        "examples": "Foursquare 2009, Real McCoy 12 Year."
+       }
+      },
+      {
+       "name": "Brandy",
+       "name_fr": "Brandy",
+       "name_it": "Brandy",
+       "name_es": "Brandy",
+       "slug": "alcoholic-brandy",
+       "panel": {
+        "origin": "Vinous, grape-forward ester clusters inherited from final finish steps inside old French cognac cooperage.",
+        "mixology": "Brings sophisticated smoothness. Outstanding as a standalone neat pour or in minimalist, spirit-forward stirred drinks.",
+        "examples": "Plantation XO, Clément Cuvée Homère."
+       }
+      },
+      {
+       "name": "Cognac",
+       "name_fr": "Cognac",
+       "name_it": "Cognac",
+       "slug": "alcoholic-cognac",
+       "name_es": "Coñac",
+       "panel": {
+        "origin": "Elegant wood tannin extractions and gentle fruit notes derived from aging inside fine-grain Limousin oak casks.",
+        "mixology": "Shifts the profile toward dry refinement. Superb for classic cocktail adaptations like the Sidecar or French 75.",
+        "examples": "Rhum J.M Vieux, Foursquare Touchstone."
+       }
+      },
+      {
+       "name": "Sherry",
+       "name_fr": "Xérès",
+       "name_it": "Sherry",
+       "slug": "alcoholic-sherry",
+       "name_es": "Jerez",
+       "panel": {
+        "origin": "Rich, nutty, and oxidative character extracted from European oak staves seasoned with old Oloroso or PX sherry.",
+        "mixology": "Brings deep structural complexity. Outstanding companion to dark chocolates, rich nuts, or premium cigar pairings.",
+        "examples": "Dos Maderas 5+5, Foursquare Redoutable."
+       }
+      },
+      {
+       "name": "Whiskey",
+       "name_fr": "Whisky",
+       "name_it": "Whisky",
+       "name_es": "Whisky",
+       "slug": "alcoholic-whiskey",
+       "panel": {
+        "origin": "Malty, grain-like flavor profiles resulting from low-reflux distillation passes or aging in neutral refill spirits cooperage.",
+        "mixology": "Maintains a clean, structured baseline. Works perfectly in classic Old Fashioneds or minimalist highball presentations.",
+        "examples": "Mount Gay Black Barrel, Doorly's XO."
+       }
+      },
+      {
+       "name": "Wine",
+       "name_fr": "Vin",
+       "name_it": "Vino",
+       "slug": "alcoholic-wine",
+       "name_es": "Vino",
+       "panel": {
+        "origin": "Tart, vinous fruit characteristics and structural acidity drawn from aging in casks previously holding premium table wines.",
+        "mixology": "Brings an elegant, modern dimension. Beautiful when served in large stemware to maximize volatile aromas.",
+        "examples": "Foursquare Premise, Plantation Single Cask finishes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MEDICINAL",
+   "name_fr": "MÉDICINAL",
+   "name_it": "MEDICINALE",
+   "name_es": "MEDICINAL",
+   "color": "#b0c4de",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Medicinal",
+     "name_fr": "Médicinal",
+     "name_it": "Medicinale",
+     "name_es": "Medicinal",
+     "color": "#b0c4de",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Alkali",
+       "name_fr": "Alcali",
+       "name_it": "Alcali",
+       "slug": "medicinal-alkali",
+       "name_es": "Alcalino",
+       "panel": {
+        "origin": "High mineral counts in processing water or specific chemical interactions from high-strength continuous column distillation configurations.",
+        "mixology": "Brings a clean, clinical texture. Helps balance out overly sweet or heavy elements in dense cocktail builds.",
+        "examples": "Brugal Blanco, Don Q Cristal."
+       }
+      },
+      {
+       "name": "Copper",
+       "name_fr": "Cuivre",
+       "name_it": "Rame",
+       "slug": "medicinal-copper",
+       "name_es": "Cobre",
+       "panel": {
+        "origin": "Sacrificial sulfur reactions on internal copper still walls. Low copper contact can leave a metallic note, while high contact cleanses the spirit completely.",
+        "mixology": "Adds an interesting industrial edge. Best balanced with bright, high-acid citrus components to create structure.",
+        "examples": "Hampden Estate rums, Caroni historic stocks."
+       }
+      },
+      {
+       "name": "Metallic",
+       "name_fr": "Métallique",
+       "name_it": "Metallico",
+       "slug": "medicinal-metallic",
+       "name_es": "Metálico",
+       "panel": {
+        "origin": "Trace mineral carryover from old pot stills or direct water filtration choices in traditional island production sites.",
+        "mixology": "An esoteric, technical trait. Appeals heavily to spirits enthusiasts; best highlighted in minimalist, spirit-forward builds.",
+        "examples": "Clairin Le Rocher, various Jamaican overproofs."
+       }
+      },
+      {
+       "name": "Mineral",
+       "name_fr": "Minéral",
+       "name_it": "Minerale",
+       "name_es": "Mineral",
+       "slug": "medicinal-mineral",
+       "panel": {
+        "origin": "Direct usage of hard, unfiltered volcanic or limestone spring water during the final proofing stages of production.",
+        "mixology": "Provides a crisp, refreshing mineral spine. Excellent in simple highballs or classic Ti' Punch executions.",
+        "examples": "Rhum J.M. Blanc, Neisson Blanc."
+       }
+      },
+      {
+       "name": "Rubber",
+       "name_fr": "Caoutchouc",
+       "name_it": "Gomma",
+       "slug": "medicinal-rubber",
+       "name_es": "Hule",
+       "panel": {
+        "origin": "Heavy sulfur compounds and complex nitrogen extractions common in high-ester distillates managed with traditional retorts.",
+        "mixology": "A highly prized, complex industrial note. Defines authentic high-ester rum styles; balance with rich fruit elements.",
+        "examples": "Hampden Estate 8 Year, Smith & Cross."
+       }
+      },
+      {
+       "name": "Tar",
+       "name_fr": "Goudron",
+       "name_it": "Catrame",
+       "slug": "medicinal-tar",
+       "name_es": "Brea",
+       "panel": {
+        "origin": "Heavy, high-boiling point phenolic compounds collected at the lowest cut points of traditional double-retort pot stills.",
+        "mixology": "Highly dominant, powerful profile. Requires robust pairing components like rich amari or dark demerara syrups.",
+        "examples": "Caroni 12 Year, Hampden Great House."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TASTES",
+   "name_fr": "SAVEURS",
+   "name_it": "SAPORI",
+   "name_es": "SABORES",
+   "color": "#4682b4",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Tastes",
+     "name_fr": "Saveurs",
+     "name_it": "Sapori",
+     "name_es": "Sabores",
+     "color": "#4682b4",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Bitter",
+       "name_fr": "Amer",
+       "name_it": "Amaro",
+       "slug": "tastes-bitter",
+       "name_es": "Amargo",
+       "panel": {
+        "origin": "High tannin extraction from wood staves, especially prevalent when aged in fresh virgin oak or over-active European wood systems.",
+        "mixology": "Creates a dry, highly structured finish. Balance this extraction with natural sweeteners or rich liqueurs.",
+        "examples": "Foursquare Elysium, various ultra-aged rums."
+       }
+      },
+      {
+       "name": "Salty",
+       "name_fr": "Salé",
+       "name_it": "Salato",
+       "slug": "tastes-salty",
+       "name_es": "Salado",
+       "panel": {
+        "origin": "Coastal dunnage maturation where seaside warehouse walls breathe in saline marine air, directly altering barrel pressure systems.",
+        "mixology": "An incredible natural flavor enhancer. Amplifies sweet fruit elements and provides beautiful structural lift in sours.",
+        "examples": "Mount Gay Black Barrel, Islay-finished rums."
+       }
+      },
+      {
+       "name": "Sweet",
+       "name_fr": "Sucré",
+       "name_it": "Dolce",
+       "slug": "tastes-sweet",
+       "name_es": "Dulce",
+       "panel": {
+        "origin": "Perception driven by high ester content and wood sugars (hemicellulose), even when the final distillate has zero actual sugar content.",
+        "mixology": "Provides a rich illusion of sweetness without adding sugar. Ideal for making high-proof options smooth and approachable.",
+        "examples": "Diplomático Mantuano, El Dorado 12."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MOUTHFEEL",
+   "name_fr": "SENSATION EN BOUCHE",
+   "name_it": "SENSAZIONE AL PALATO",
+   "name_es": "SENSACIÓN EN BOCA",
+   "color": "#00bfff",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Mouthfeel",
+     "name_fr": "Sensation en Bouche",
+     "name_it": "Sensazione al Palato",
+     "name_es": "Sensación en Boca",
+     "color": "#00bfff",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Astringent",
+       "name_fr": "Astringent",
+       "name_it": "Astringente",
+       "slug": "mouthfeel-astringent",
+       "name_es": "Astringente",
+       "panel": {
+        "origin": "Heavy wood tannins pulling moisture from the palate, standard in rums aged for long periods in hot tropical zones.",
+        "mixology": "Provides a dry, clean finish. Excellent for balancing out rich, high-fat food pairings or sweet modifiers.",
+        "examples": "Appleton 21 Year, Foursquare Icarus."
+       }
+      },
+      {
+       "name": "Buttery",
+       "name_fr": "Beurré",
+       "name_it": "Burroso",
+       "name_es": "Mantequilloso",
+       "slug": "mouthfeel-buttery",
+       "panel": {
+        "origin": "Diacetyl formations common when fermentations include a secondary bacterial phase after yeast levels drop.",
+        "mixology": "Adds exceptional velvety texture. Softens sharp acids and brings incredible mouthfeel to shaken drinks.",
+        "examples": "Probitas, Worthy Park Estate."
+       }
+      },
+      {
+       "name": "Creamy",
+       "name_fr": "Crémeux",
+       "name_it": "Cremoso",
+       "name_es": "Cremoso",
+       "slug": "mouthfeel-creamy",
+       "panel": {
+        "origin": "High lipid retention and slow distillation speeds that allow heavy, texturing compounds to cross the neck into the condenser.",
+        "mixology": "Creates a beautiful, velvety mouthfeel. Outstanding in simple, elegant serves with minimal dilution.",
+        "examples": "El Dorado 15 Year, Santa Teresa 1796."
+       }
+      },
+      {
+       "name": "Crisp",
+       "name_fr": "Vif",
+       "name_it": "Croccante",
+       "slug": "mouthfeel-crisp",
+       "name_es": "Nítido",
+       "panel": {
+        "origin": "High-reflux column distillation that strips out heavy oils, leaving only clean, fast-moving, high-volatile elements.",
+        "mixology": "Provides great energy and snap. The perfect engine for clean, refreshing highballs and light summer serves.",
+        "examples": "Don Q Cristal, Brugal Blanco."
+       }
+      },
+      {
+       "name": "Dry",
+       "name_fr": "Sec",
+       "name_it": "Secco",
+       "slug": "mouthfeel-dry",
+       "name_es": "Seco",
+       "panel": {
+        "origin": "Complete consumption of all sugars during fermentation, followed by maturation in older, exhausted cooperage systems.",
+        "mixology": "A brilliant clean canvas for cocktail creation. Allows modifiers to shine without making the drink heavy.",
+        "examples": "Brugal 1888, Flor de Caña 12 Year."
+       }
+      },
+      {
+       "name": "Heavy",
+       "name_fr": "Lourd",
+       "name_it": "Pesante",
+       "slug": "mouthfeel-heavy",
+       "name_es": "Pesado",
+       "panel": {
+        "origin": "High congener counts and long fermentations, traditionally distilled in copper pot stills with short necks and low reflux.",
+        "mixology": "The ultimate split-base modifier. A small amount completely transforms light column rums or simple highball builds.",
+        "examples": "Hampden Estate, multi-pot still navy blends."
+       }
+      },
+      {
+       "name": "Oily",
+       "name_fr": "Huileux",
+       "name_it": "Oleoso",
+       "slug": "mouthfeel-oily",
+       "name_es": "Aceitoso",
+       "panel": {
+        "origin": "High levels of higher alcohols (fusel oils) retained via precise control of distillation cut points in traditional pot stills.",
+        "mixology": "Coats the palate beautifully, extending the finish. Perfect for slow-sipping cocktails or neat service.",
+        "examples": "Worthy Park Single Estate, Smith & Cross."
+       }
+      },
+      {
+       "name": "Rough",
+       "name_fr": "Rêche",
+       "name_it": "Ruvido",
+       "slug": "mouthfeel-rough",
+       "name_es": "Rasposo",
+       "panel": {
+        "origin": "Young distillates with minimal wood contact or rapid production runs with high vapor speeds through the still.",
+        "mixology": "Brings a rustic, energetic character. Best tamed with fresh citrus juices and robust demerara sweet syrups.",
+        "examples": "Wray & Nephew Overproof, unaged clairins."
+       }
+      },
+      {
+       "name": "Sharpness",
+       "name_fr": "Acuité",
+       "name_it": "Acutezza",
+       "slug": "mouthfeel-sharpness",
+       "name_es": "Agudeza",
+       "panel": {
+        "origin": "High alcohol by volume or volatile acid levels common in uncut, barrel-proof expressions straight from the cask.",
+        "mixology": "Provides incredible structure in cocktails. Stands up perfectly to heavy dilution, ice melts, and rich modifiers.",
+        "examples": "Hampden Great House, Foursquare Cask Strength."
+       }
+      },
+      {
+       "name": "Silky",
+       "name_fr": "Soyeux",
+       "name_it": "Setoso",
+       "slug": "mouthfeel-silky",
+       "name_es": "Sedoso",
+       "panel": {
+        "origin": "Perfect balance of light filtration and smooth wood aging, creating a polished, seamless transition across the palate.",
+        "mixology": "Sophisticated and refined. Serve neat in premium crystal stemware; avoid heavy mixing or over-dilution.",
+        "examples": "Angostura 1919, Ron del Barrilito 3 Star."
+       }
+      },
+      {
+       "name": "Smooth",
+       "name_fr": "Lisse",
+       "name_it": "Morbido",
+       "slug": "mouthfeel-smooth",
+       "name_es": "Suave",
+       "panel": {
+        "origin": "Extended micro-oxygenation and slow maturation that softens volatile compounds, creating an approachable profile.",
+        "mixology": "Extremely versatile. An excellent crowd-pleasing option for premium event menus or classic cocktail execution.",
+        "examples": "Santa Teresa 1796, Zacapa 23."
+       }
+      },
+      {
+       "name": "Supple",
+       "name_fr": "Souple",
+       "name_it": "Morbido",
+       "slug": "mouthfeel-supple",
+       "name_es": "Flexible",
+       "panel": {
+        "origin": "Complex interplay of light wood sweetness and balanced acidity, providing a flexible, adaptive texture on the tongue.",
+        "mixology": "Blends seamlessly into any classic cocktail framework, adding body without overtaking other ingredients.",
+        "examples": "Real McCoy 5 Year, Doorly's 5 Year."
+       }
+      },
+      {
+       "name": "Syrupy",
+       "name_fr": "Sirupeux",
+       "name_it": "Sciropposo",
+       "slug": "mouthfeel-syrupy",
+       "name_es": "Almibarado",
+       "panel": {
+        "origin": "Heavy body from high sugar extraction or deliberate dosage steps added to the rum post-distillation in certain styles.",
+        "mixology": "Brings rich texture and body. Adjust your cocktail specs downward on sugar to keep the final drink properly balanced.",
+        "examples": "Zacapa XO, El Dorado 12 (historic batches)."
+       }
+      },
+      {
+       "name": "Thick",
+       "name_fr": "Épais",
+       "name_it": "Denso",
+       "slug": "mouthfeel-thick",
+       "name_es": "Denso",
+       "panel": {
+        "origin": "Concentrated long-chain polymers from double-pot distillation runs utilizing old-school wooden vat stills.",
+        "mixology": "Provides fantastic mid-palate weight. Anchors complex cocktail builds and lingers long into the finish.",
+        "examples": "El Dorado 15 (Port Mourant component), Pusser's."
+       }
+      },
+      {
+       "name": "Velvety",
+       "name_fr": "Velouté",
+       "name_it": "Vellutato",
+       "slug": "mouthfeel-velvety",
+       "name_es": "Aterciopelado",
+       "panel": {
+        "origin": "Beautiful integration of wood lipids and ester clusters, developed over decades of undisturbed tropical aging.",
+        "mixology": "The pinnacle of luxury texture. Serve neat or with a single clear ice sphere; do not hide in complex mixes.",
+        "examples": "Appleton 21 Year, Foursquare Exception Cask."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TRIGEMINAL",
+   "name_fr": "TRIGÉMINÉ",
+   "name_it": "TRIGEMINALE",
+   "name_es": "TRIGEMINAL",
+   "color": "#00a896",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Trigeminal",
+     "name_fr": "Trigéminé",
+     "name_it": "Trigeminale",
+     "name_es": "Trigeminal",
+     "color": "#00a896",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Bite",
+       "name_fr": "Mordant",
+       "name_it": "Mordente",
+       "slug": "trigeminal-bite",
+       "name_es": "Mordiente",
+       "panel": {
+        "origin": "High concentration of formic and acetic acids interacting with pain receptors on the tongue, common in uncut overproofs.",
+        "mixology": "Provides intense structural kick. Needs strong balance from fresh citrus or rich oleo-saccaharum elements.",
+        "examples": "Rum Fire, Wray & Nephew White Overproof."
+       }
+      },
+      {
+       "name": "Burn",
+       "name_fr": "Brûlure",
+       "name_it": "Bruciore",
+       "slug": "trigeminal-burn",
+       "name_es": "Ardor",
+       "panel": {
+        "origin": "Ethanol activation of VR1 thermal receptors, heightened by high bottling proofs and minimal chemical aging filtration.",
+        "mixology": "Brings powerful presence. Best balanced with continuous ice dilution or long-form punch extensions.",
+        "examples": "Pusser's Gunpowder Proof, Sunset Very Strong Rum."
+       }
+      },
+      {
+       "name": "Harsh",
+       "name_fr": "Âpre",
+       "name_it": "Aspro",
+       "slug": "trigeminal-harsh",
+       "name_es": "Áspero",
+       "panel": {
+        "origin": "High levels of heads (acetaldehydes) surviving a fast, unmonitored distillation cut loop with low copper interaction.",
+        "mixology": "Rustic and intense. Tame this character using rich, high-fat modifiers like coconut cream or real orgeat.",
+        "examples": "Various rustic local moonshine rums, raw cane spirits."
+       }
+      },
+      {
+       "name": "Hot",
+       "name_fr": "Ardent",
+       "name_it": "Caldo",
+       "slug": "trigeminal-hot",
+       "name_es": "Ardiente",
+       "panel": {
+        "origin": "Elevated temperature sensation driven by high alcohol volume, common in young barrel-proof selections.",
+        "mixology": "Stands up flawlessly to heavy dilution. Ideal for frozen drinks or cocktails served over crushed pebble ice.",
+        "examples": "Worthy Park 109, Hampden 8 Year Cask Strength."
+       }
+      },
+      {
+       "name": "Pungent",
+       "name_fr": "Piquant",
+       "name_it": "Pungente",
+       "name_es": "Punzante",
+       "slug": "trigeminal-pungent",
+       "panel": {
+        "origin": "High volatile ester counts escaping the glass rapidly, common in high-ester Jamaican marks (high hogo).",
+        "mixology": "The ultimate aromatic booster. A small float completely redefines the nose of any classic tropical drink.",
+        "examples": "Hampden DOK marques, Smith & Cross."
+       }
+      },
+      {
+       "name": "Sharp",
+       "name_fr": "Vif",
+       "name_it": "Acuto",
+       "slug": "trigeminal-sharp",
+       "name_es": "Agudo",
+       "panel": {
+        "origin": "Elevated levels of volatile organic acids that have not yet softened through long-term wood esterification.",
+        "mixology": "Provides clean, bright definition. Cuts through rich, heavy ingredients like egg whites or dairy cream components.",
+        "examples": "Clairin Sajous, Rivers Royale."
+       }
+      },
+      {
+       "name": "Tannins",
+       "name_fr": "Tanins",
+       "name_it": "Tannini",
+       "slug": "trigeminal-tannins",
+       "name_es": "Taninos",
+       "panel": {
+        "origin": "Polyphenols drawn directly from active wood staves, binding to salivary proteins to cause a drying sensation.",
+        "mixology": "Brings a wonderful dry framework. Complements sweet vermouths and rich liqueurs beautifully in stirred styles.",
+        "examples": "Foursquare Sovereignty, ultra-aged rums."
+       }
+      },
+      {
+       "name": "Warm",
+       "name_fr": "Chaud",
+       "name_it": "Caldo",
+       "slug": "trigeminal-warm",
+       "name_es": "Cálido",
+       "panel": {
+        "origin": "Gentle, comforting ethanol interaction standard in well-aged, beautifully integrated premium spirits.",
+        "mixology": "Elegant and sophisticated. Serve neat or in a classic stirred format; avoid over-chilling or excessive dilution.",
+        "examples": "Appleton 12 Year, Real McCoy 12 Year."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SUGAR",
+   "name_fr": "SUCRE",
+   "name_it": "ZUCCHERO",
+   "name_es": "AZÚCAR",
+   "color": "#fffacd",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Sugar",
+     "name_fr": "Sucre",
+     "name_it": "Zucchero",
+     "name_es": "Azúcar",
+     "color": "#fffacd",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Candied",
+       "name_fr": "Confit",
+       "name_it": "Candito",
+       "slug": "sugar-candied",
+       "name_es": "Confitado",
+       "panel": {
+        "origin": "Esterification loops mimicking confectionery notes, often developed during medium aging in sweet wine casks.",
+        "mixology": "Brings an inviting sweet impression. Perfect for approachable menu styles or modern sour variations.",
+        "examples": "Plantation Gran Añejo, Dictador 12 Year."
+       }
+      },
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "sugar-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "Phenethyl alcohol esters interacting with toasted oak components during extended maturation periods.",
+        "mixology": "Adds gorgeous mid-palate roundness. Pairs beautifully with chamomile, ginger, or fresh orchard fruits.",
+        "examples": "Diplomático Reserva Exclusiva, Ron Zacapa 23."
+       }
+      },
+      {
+       "name": "Honeycomb",
+       "name_fr": "Rayon de Miel",
+       "name_it": "Favo",
+       "slug": "sugar-honeycomb",
+       "name_es": "Panal",
+       "panel": {
+        "origin": "Thermal degradation of wood sugars combined with trace oxidation pathways over long aging cycles.",
+        "mixology": "Brings a rich, texturing complexity. Outstanding in spirit-forward, classic cocktail updates.",
+        "examples": "Foursquare Exception Cask, Doorly's XO."
+       }
+      },
+      {
+       "name": "Maple",
+       "name_fr": "Érable",
+       "name_it": "Acero",
+       "name_es": "Arce",
+       "slug": "sugar-maple",
+       "panel": {
+        "origin": "Cyclotene developments created when spirits undergo charcoal filtration steps or age in heavily toasted oak barrels.",
+        "mixology": "Imparts a rich, deep sweet character. Outstanding alongside coffee, walnut, or aromatic baking bitters.",
+        "examples": "El Dorado 12 Year, Ron Cartavio XO."
+       }
+      },
+      {
+       "name": "Marshmallow",
+       "name_fr": "Guimauve",
+       "name_it": "Marshmallow",
+       "slug": "sugar-marshmallow",
+       "name_es": "Malvavisco",
+       "panel": {
+        "origin": "Ethyl maltol extraction from lightly charred barrels, providing a soft, pillowy sweetness on the nose.",
+        "mixology": "Extremely approachable aroma profile. Great for converting vodka or light spirit drinkers to aged styles.",
+        "examples": "Don Q Gran Reserva, Brugal Extra Viejo."
+       }
+      },
+      {
+       "name": "Marzipan",
+       "name_fr": "Massepain",
+       "name_it": "Marzapane",
+       "slug": "sugar-marzipan",
+       "name_es": "Mazapán",
+       "panel": {
+        "origin": "Benzaldehyde tracks combined with warm wood sugars extracted from aging inside old bourbon cooperage.",
+        "mixology": "The natural partner to real almond orgeat or cherry modifiers. Enhances classic tiki platforms beautifully.",
+        "examples": "Havana Club 7 Year, Santa Teresa 1796."
+       }
+      },
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "sugar-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "Residual unfermented sugar aromatic pathways surviving distillation, typical in traditional heavy pot-still molasses rums.",
+        "mixology": "The classic rich rum identifier. Anchors historic punches and stands up perfectly to heavy lime juice sours.",
+        "examples": "Pusser's Blue Label, Goslings Black Seal."
+       }
+      },
+      {
+       "name": "Nougat",
+       "name_fr": "Nougat",
+       "name_it": "Torrone",
+       "slug": "sugar-nougat",
+       "name_es": "Turrón",
+       "panel": {
+        "origin": "Complex interaction of amino acids and wood sugars during extended aging inside fine-grain white oak barrels.",
+        "mixology": "Brings a rich, comforting character. Ideal for upscale nightcaps or neat service alongside dark chocolate.",
+        "examples": "Doorly's 12 Year, Angostura 1824."
+       }
+      },
+      {
+       "name": "Sugarcane",
+       "name_fr": "Canne à Sucre",
+       "name_it": "Canna da Zucchero",
+       "slug": "sugar-sugarcane",
+       "name_es": "Caña de Azúcar",
+       "panel": {
+        "origin": "Saccharose and organic plant compounds common in fresh juice distillates that have undergone minimal wood contact.",
+        "mixology": "Clean, vibrant, and highly energetic. The foundational heart of a traditional fresh muddled Daiquiri.",
+        "examples": "Rhum J.M Blanc, Clairin Blanc."
+       }
+      },
+      {
+       "name": "Syrupy",
+       "name_fr": "Sirupeux",
+       "name_it": "Sciropposo",
+       "slug": "sugar-syrupy",
+       "name_es": "Almibarado",
+       "panel": {
+        "origin": "Heavy body from high natural sugar retention or deliberate addition of post-distillation sweeteners in specific styles.",
+        "mixology": "Adds significant weight and body. Reduce your cocktail's sugar specs to keep the final drink properly balanced.",
+        "examples": "Zacapa XO, El Dorado 12 (historic batches)."
+       }
+      },
+      {
+       "name": "Treacle",
+       "name_fr": "Mélasse Noire",
+       "name_it": "Melassa Scura",
+       "slug": "sugar-treacle",
+       "name_es": "Melaza Oscura",
+       "panel": {
+        "origin": "Deep caramelization markers formed during heavy distillation cycles or prolonged aging in highly active wood systems.",
+        "mixology": "Rich, dark, and powerful. Combines beautifully with ginger beer or heavy aromatic bitter profiles.",
+        "examples": "El Dorado 8 Year, Myers's Original Dark."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CARAMEL",
+   "name_fr": "CARAMEL",
+   "name_it": "CARAMELLO",
+   "name_es": "CARAMELO",
+   "color": "#ffaa00",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Caramel",
+     "name_fr": "Caramel",
+     "name_it": "Caramello",
+     "name_es": "Caramelo",
+     "color": "#ffaa00",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Brown",
+       "name_fr": "Brun",
+       "name_it": "Bruno",
+       "slug": "caramel-brown",
+       "name_es": "Moreno",
+       "panel": {
+        "origin": "Hemicellulose thermal breakdown inside barrel staves, creating rich caramel markers that bleed into the spirit.",
+        "mixology": "Provides a classic aged spine. Highly versatile across all cocktail families, adding color and body.",
+        "examples": "Real McCoy 5 Year, Mount Gay Black Barrel."
+       }
+      },
+      {
+       "name": "Butterscotch",
+       "name_fr": "Caramel au Beurre",
+       "name_it": "Caramello",
+       "slug": "caramel-butterscotch",
+       "name_es": "Caramelo de Mantequilla",
+       "panel": {
+        "origin": "Diacetyl and volatile lactone combinations generated during extended, temperature-controlled fermentations.",
+        "mixology": "Brings an inviting, rich entry. Pairs beautifully with orchard fruits, apple ciders, or rich dairy elements.",
+        "examples": "El Dorado 15 Year, Ron Centenario 20."
+       }
+      },
+      {
+       "name": "Caramelized",
+       "name_fr": "Caramélisé",
+       "name_it": "Caramellato",
+       "slug": "caramel-caramelized",
+       "name_es": "Caramelizado",
+       "panel": {
+        "origin": "Deep wood-sugar caramelization occurring under high heat during tropical maturation inside active oak barrels.",
+        "mixology": "Brings rich texture and color. Excellent for balancing out dry modifiers or high-bitter amari.",
+        "examples": "Foursquare 2007, Appleton 12 Year."
+       }
+      },
+      {
+       "name": "Cola",
+       "name_fr": "Cola",
+       "name_it": "Cola",
+       "name_es": "Cola",
+       "slug": "caramel-cola",
+       "panel": {
+        "origin": "Complex ester clusters and spicy wood extractions that mimic the aromatic profile of traditional botanicals.",
+        "mixology": "A natural companion for premium highballs or modern twists on classic carbonated serves.",
+        "examples": "Havana Club 7 Year, Chairmans Reserve."
+       }
+      },
+      {
+       "name": "Creme Brulee",
+       "name_fr": "Crème Brûlée",
+       "name_it": "Crème Brûlée",
+       "name_es": "Crema Catalana",
+       "slug": "caramel-creme-brulee",
+       "panel": {
+        "origin": "High levels of vanillin combined with scorched wood sugars from heavily toasted inner cask surfaces.",
+        "mixology": "Highly luxurious aroma profile. Outstanding as a standalone neat pour or in premium dessert programs.",
+        "examples": "Zacapa Centenario XO, Dictador XO Perpetual."
+       }
+      },
+      {
+       "name": "Praline",
+       "name_fr": "Praliné",
+       "name_it": "Pralina",
+       "slug": "caramel-praline",
+       "name_es": "Praliné",
+       "panel": {
+        "origin": "Nutty oak lactones blending with caramelized wood sugars during long solera micro-oxygenation cycles.",
+        "mixology": "Adds sophisticated sweet-nut depth. Complements coffee liqueurs and walnut bitters flawlessly.",
+        "examples": "Santa Teresa 1796, Ron Matusalem 23."
+       }
+      },
+      {
+       "name": "Toffee",
+       "name_fr": "Caramel au Beurre",
+       "name_it": "Toffee",
+       "name_es": "Tofe",
+       "slug": "caramel-toffee",
+       "panel": {
+        "origin": "Advanced degradation of wood structural elements over extensive maturation runs in hot tropical zones.",
+        "mixology": "Rich, deep, and highly integrated. Best appreciated with minimal manipulation or over a single clear ice sphere.",
+        "examples": "Appleton 21 Year, Foursquare Exception Cask."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DAIRY",
+   "name_fr": "LAITIER",
+   "name_it": "LATTICINI",
+   "name_es": "LÁCTEO",
+   "color": "#f5f5dc",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Dairy",
+     "name_fr": "Laitier",
+     "name_it": "Latticini",
+     "name_es": "Lácteo",
+     "color": "#f5f5dc",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Buttery",
+       "name_fr": "Beurré",
+       "name_it": "Burroso",
+       "name_es": "Mantequilloso",
+       "slug": "dairy-buttery",
+       "panel": {
+        "origin": "Diacetyl formations common when fermentations include a secondary bacterial phase after yeast levels drop.",
+        "mixology": "Adds exceptional velvety texture. Softens sharp acids and brings incredible mouthfeel to shaken drinks.",
+        "examples": "Probitas, Worthy Park Estate."
+       }
+      },
+      {
+       "name": "Cream",
+       "name_fr": "Crème",
+       "name_it": "Panna",
+       "slug": "dairy-cream",
+       "name_es": "Crema",
+       "panel": {
+        "origin": "Lipids and higher fatty acids passing cleanly through pot still necks with minimal reflux management.",
+        "mixology": "Brings luxurious texture and weight. Ideal for premium egg white sours or sophisticated milk punch builds.",
+        "examples": "El Dorado 12 Year, Mezan Jamaican Rums."
+       }
+      },
+      {
+       "name": "Custard",
+       "name_fr": "Crème Anglaise",
+       "name_it": "Crema",
+       "slug": "dairy-custard",
+       "name_es": "Natilla",
+       "panel": {
+        "origin": "Vanillin combining with ethyl lactate esters to create a rich, creamy pastry-like aromatic profile.",
+        "mixology": "Highly inviting and smooth. Perfect for designing approachable, high-end dessert cocktail pairings.",
+        "examples": "Don Q Gran Reserva XO, Brugal Extra Viejo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CHOCOLATE",
+   "name_fr": "CHOCOLAT",
+   "name_it": "CIOCCOLATO",
+   "name_es": "CHOCOLATE",
+   "color": "#4a2f13",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Chocolate",
+     "name_fr": "Chocolat",
+     "name_it": "Cioccolato",
+     "name_es": "Chocolate",
+     "color": "#4a2f13",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Cocoa",
+       "name_fr": "Cacao",
+       "name_it": "Cacao",
+       "name_es": "Cacao",
+       "slug": "chocolate-cocoa",
+       "panel": {
+        "origin": "Strecker aldehydes formed during the thermal toasting of wood proteins inside cooperage barrel staves.",
+        "mixology": "Pairs flawlessly with real chocolate bitters, espresso modifiers, or rich mint garnishes.",
+        "examples": "Appleton 12 Year, Brugal 1888."
+       }
+      },
+      {
+       "name": "Coffee",
+       "name_fr": "Café",
+       "name_it": "Caffè",
+       "slug": "chocolate-coffee",
+       "name_es": "Café",
+       "panel": {
+        "origin": "Pyrazine compound groups created via high-temperature charring lines inside imported bourbon oak casks.",
+        "mixology": "The ultimate baseline for espresso martinis or coffee-infused cocktail variations. Adds deep savory lines.",
+        "examples": "Dictador 20 Year, Cafe-infused rums."
+       }
+      },
+      {
+       "name": "Fudge",
+       "name_fr": "Caramel Fudge",
+       "name_it": "Fudge",
+       "name_es": "Dulce de Chocolate",
+       "slug": "chocolate-fudge",
+       "panel": {
+        "origin": "Advanced amino-carbonyl interactions blending with heavy vanillin extractions in ultra-aged expressions.",
+        "mixology": "Deeply rich and indulgent. Reserve for neat service alongside premium single-origin chocolate flights.",
+        "examples": "El Dorado 21 Year, Zacapa XO."
+       }
+      },
+      {
+       "name": "Mocha",
+       "name_fr": "Moka",
+       "name_it": "Moka",
+       "slug": "chocolate-mocha",
+       "name_es": "Moca",
+       "panel": {
+        "origin": "Combination of scorched wood proteins and pyrazines, creating a seamless blend of coffee and cocoa markers.",
+        "mixology": "Brings spectacular dessert versatility. Elevates rich, stirred nightcaps or complex modern flips.",
+        "examples": "Ron Cartavio XO, Abuelo Centuria."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CONFECTIONS",
+   "name_fr": "CONFISERIES",
+   "name_it": "DOLCIUMI",
+   "name_es": "DULCES",
+   "color": "#ba55d3",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Confections",
+     "name_fr": "Confiseries",
+     "name_it": "Dolciumi",
+     "name_es": "Dulces",
+     "color": "#ba55d3",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Fruitcake",
+       "name_fr": "Cake aux Fruits",
+       "name_it": "Plum Cake",
+       "slug": "confections-fruitcake",
+       "name_es": "Pastel de Frutas",
+       "panel": {
+        "origin": "Advanced rancio development combining dark dried fruit esters with dry wood tannins over decades of aging.",
+        "mixology": "The benchmark character for festive menu design. Connects beautifully with fresh orange peel oils.",
+        "examples": "El Dorado 15 Year, Appleton 21 Year."
+       }
+      },
+      {
+       "name": "Gingerbread",
+       "name_fr": "Pain d'Épices",
+       "name_it": "Pan di Zenzero",
+       "slug": "confections-gingerbread",
+       "name_es": "Pan de Jengibre",
+       "panel": {
+        "origin": "Spicy eugenol compounds from oak wood blending with warm baking esters from long fermentations.",
+        "mixology": "Brings lovely winter spice warmth. Outstanding in hot toddies, flips, or milk punch builds.",
+        "examples": "Chairmans Reserve Forgotten Casks, Mount Gay XO."
+       }
+      },
+      {
+       "name": "Meringue",
+       "name_fr": "Meringue",
+       "name_it": "Meringa",
+       "slug": "confections-meringue",
+       "name_es": "Merengue",
+       "panel": {
+        "origin": "Light ethyl esters combining with airy vanillin top-notes, common in filtered, multi-aged white rums.",
+        "mixology": "Adds an elegant pastry lightness. Keeps shaken, fruit-forward drinks tasting crisp and clean.",
+        "examples": "Foursquare Veritas, Probitas."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BAKING SPICES",
+   "name_fr": "ÉPICES À PÂTISSERIE",
+   "name_it": "SPEZIE DA FORNO",
+   "name_es": "ESPECIAS DULCES",
+   "color": "#cd853f",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Baking Spices",
+     "name_fr": "Épices à Pâtisserie",
+     "name_it": "Spezie da Forno",
+     "name_es": "Especias Dulces",
+     "color": "#cd853f",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Allspice",
+       "name_fr": "Piment de la Jamaïque",
+       "name_it": "Pimento",
+       "slug": "baking-spices-allspice",
+       "name_es": "Pimienta Gorda",
+       "panel": {
+        "origin": "Eugenol modifications reacting with secondary wood components during long storage in humid warehouse tracks.",
+        "mixology": "The natural partner to real pimento dram. Enhances the structural mid-palate of classic tiki drinks.",
+        "examples": "Worthy Park Single Estate, Smith & Cross."
+       }
+      },
+      {
+       "name": "Cardamom",
+       "name_fr": "Cardamome",
+       "name_it": "Cardamomo",
+       "slug": "baking-spices-cardamom",
+       "name_es": "Cardamomo",
+       "panel": {
+        "origin": "Terpene alterations occurring when rums undergo long, low-temperature fermentations with wild yeast strains.",
+        "mixology": "Brings an exotic, bright botanical line. Complements herbal liqueurs and fresh citrus beautifully.",
+        "examples": "Clairin Casimir, Hampden Estate."
+       }
+      },
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "baking-spices-cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "Cinnamaldehyde-mimicking structures generated during wood lignin breakdown under specific toast profiles.",
+        "mixology": "Adds exceptional spice pop. Highly versatile across autumn/winter menus; pairs with apple or pear.",
+        "examples": "Foursquare 2009, Mount Gay Black Barrel."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "slug": "baking-spices-clove",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "4-vinyl guaiacol compounds generated by wild yeast strains during long, open-air vat fermentations.",
+        "mixology": "Provides a powerful structural spice spine. Essential for authentic, complex tropical punch architectures.",
+        "examples": "Smith & Cross, Hampden 8 Year."
+       }
+      },
+      {
+       "name": "Ginger",
+       "name_fr": "Gingembre",
+       "name_it": "Zenzero",
+       "slug": "baking-spices-ginger",
+       "name_es": "Jengibre",
+       "panel": {
+        "origin": "Eugenol structures interacting with high-proof alcohol architectures, creating a warm spice pop on the finish.",
+        "mixology": "Amplifies ginger beer or ginger syrups perfectly in highball adaptations like the Dark 'n Stormy.",
+        "examples": "Talisker-finished rums, Chairmans Reserve."
+       }
+      },
+      {
+       "name": "Licorice",
+       "name_fr": "Réglisse",
+       "name_it": "Liquirizia",
+       "slug": "baking-spices-licorice",
+       "name_es": "Regaliz",
+       "panel": {
+        "origin": "Anethole-like compound groupings developing during extensive maturation runs inside old European oak casks.",
+        "mixology": "Brings an elegant bittersweet depth. Pairs beautifully with complex amaros or real absinthe mists.",
+        "examples": "El Dorado 15 Year, Caroni historic stocks."
+       }
+      },
+      {
+       "name": "Mace",
+       "name_fr": "Macis",
+       "name_it": "Macis",
+       "slug": "baking-spices-mace",
+       "name_es": "Macis",
+       "panel": {
+        "origin": "Delicate spice extractions occurring during medium aging cycles in seasoned ex-Sherry wine cooperage.",
+        "mixology": "Brings a subtle, complex warm spice note. Complements dry vermouths elegantly in stirred drinks.",
+        "examples": "Foursquare Premise, Doorly's XO."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "baking-spices-nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "Myristicin-mimicking formations tracking from oak wood degradation over extensive tropical aging environments.",
+        "mixology": "The classic tropical punch finisher. Grate fresh over the top of the drink to maximize these volatile top-notes.",
+        "examples": "Appleton 12 Year, Mount Gay XO."
+       }
+      },
+      {
+       "name": "Peppery",
+       "name_fr": "Poivré",
+       "name_it": "Pepato",
+       "slug": "baking-spices-peppery",
+       "name_es": "A Pimienta",
+       "panel": {
+        "origin": "Minimal copper contact during distillation leaving volatile compounds that register as spice heat on the palate.",
+        "mixology": "Brings sharp focus and structural pop. Cuts through heavy syrups and fresh citrus components effortlessly.",
+        "examples": "Wray & Nephew Overproof, Rum Fire."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "baking-spices-vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "Breakdown of wood lignin into pure vanillin, standard in first-fill charred American white oak barrels.",
+        "mixology": "Highly friendly and universally appealing. Combines effortlessly with ginger, citrus, or orchard fruits.",
+        "examples": "Don Q Gran Reserva, Real McCoy 12 Year."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "ROASTED": {
+   "en": "Roasted notes — charred, smoky, toasted — come from caramelizing sugarcane and from charred oak barrels, both central to rum production.",
+   "es": "Las notas tostadas — quemado, ahumado, tostado — provienen de la caramelización de la caña de azúcar y de las barricas de roble quemadas, ambas centrales en la producción del ron."
+  },
+  "WOODY": {
+   "en": "Woody notes — barrel, cedar, oak — develop with barrel aging; the longer a rum rests in wood, the more pronounced these notes become.",
+   "es": "Las notas amaderadas — barril, cedro, roble — se desarrollan con el añejamiento en barrica; cuanto más tiempo descansa un ron en madera, más pronunciadas se vuelven estas notas."
+  },
+  "NUTTY": {
+   "en": "Nutty notes — almond, hazelnut, pecan — usually come from extended oak aging, where wood tannins and oxidation create nut-like aromas.",
+   "es": "Las notas a frutos secos — almendra, avellana, nuez pecana — suelen venir de un añejamiento prolongado en roble, donde los taninos de la madera y la oxidación crean aromas a frutos secos."
+  },
+  "LEATHER": {
+   "en": "Leather notes — saddle, cigar — are tertiary aromas from extended barrel aging, often found alongside tobacco and dried fruit in older, darker rums.",
+   "es": "Las notas a cuero — silla de montar, puro — son aromas terciarios del añejamiento prolongado en barrica, frecuentes junto al tabaco y la fruta seca en rones más viejos y oscuros."
+  },
+  "EARTHY": {
+   "en": "Earthy notes — peat, root, tobacco, must — can come from terroir, fermentation, or barrel character, and add savory complexity to darker rums.",
+   "es": "Las notas terrosas — turba, raíz, tabaco, humedad — pueden venir del terruño, la fermentación o el carácter de la barrica, y añaden complejidad sabrosa a los rones más oscuros."
+  },
+  "VEGETAL": {
+   "en": "Vegetal notes — grass, herbs, mint, tea — often come from fresh sugarcane juice (used in agricole-style rums) rather than molasses.",
+   "es": "Las notas vegetales — pasto, hierbas, menta, té — a menudo provienen del jugo fresco de caña de azúcar (usado en los rones estilo agrícola) en lugar de melaza."
+  },
+  "FRUITY": {
+   "en": "Fruity notes — apple, cherry, grape — come from fermentation esters, and are most vivid in younger, lighter rums.",
+   "es": "Las notas afrutadas — manzana, cereza, uva — provienen de los ésteres de la fermentación, y son más vívidas en los rones más jóvenes y ligeros."
+  },
+  "DRIED FRUIT": {
+   "en": "Dried fruit notes — raisin, prune, dried fig — develop with oxidative barrel aging, as fresh fruit esters concentrate and deepen over time.",
+   "es": "Las notas de fruta seca — pasa, ciruela pasa, higo seco — se desarrollan con el añejamiento oxidativo en barrica, conforme los ésteres de fruta fresca se concentran y profundizan con el tiempo."
+  },
+  "TROPICAL FRUIT": {
+   "en": "Tropical fruit notes — banana, coconut, pineapple — reflect rum's sugarcane origins and tropical fermentation, especially in unaged or lightly aged rums.",
+   "es": "Las notas de fruta tropical — plátano, coco, piña — reflejan los orígenes de caña de azúcar del ron y su fermentación tropical, especialmente en rones sin añejar o con poco añejamiento."
+  },
+  "CITRUS": {
+   "en": "Citrus notes — lime, orange, marmalade — add brightness and lift, common in lighter rum styles and a classic match for rum cocktails.",
+   "es": "Las notas cítricas — lima, naranja, mermelada — aportan brillo y frescura, comunes en los estilos de ron más ligeros y un acompañamiento clásico para los cócteles de ron."
+  },
+  "ALCOHOLIC": {
+   "en": "These notes — bourbon, brandy, sherry, wine — come from the previous contents of the barrel a rum was aged in, a major source of flavor in cask-finished rums.",
+   "es": "Estas notas — bourbon, brandy, jerez, vino — provienen del contenido anterior de la barrica en la que se añejó el ron, una fuente importante de sabor en los rones con acabado en barrica especial."
+  },
+  "MEDICINAL": {
+   "en": "Medicinal notes — rubber, mineral, metallic — are usually FAULTS from fermentation or distillation issues, though a touch of minerality can be part of some funky, high-ester rum styles.",
+   "es": "Las notas medicinales — hule, mineral, metálico — suelen ser DEFECTOS de la fermentación o la destilación, aunque un toque de mineralidad puede ser parte de algunos estilos de ron 'funky' de alto contenido en ésteres."
+  },
+  "TASTES": {
+   "en": "These are the basic tastes — bitter, salty, sweet — detected on the palate rather than the nose, and form the backbone of how a rum feels in the mouth.",
+   "es": "Estos son los sabores básicos — amargo, salado, dulce — que se perciben en el paladar más que en la nariz, y forman la base de cómo se siente un ron en la boca."
+  },
+  "MOUTHFEEL": {
+   "en": "Mouthfeel descriptors — silky, oily, syrupy, dry — describe texture rather than flavor, and are strongly influenced by sugar content, distillation method, and aging.",
+   "es": "Los descriptores de sensación en boca — sedoso, aceitoso, almibarado, seco — describen la textura más que el sabor, y están fuertemente influenciados por el contenido de azúcar, el método de destilación y el añejamiento."
+  },
+  "TRIGEMINAL": {
+   "en": "Trigeminal sensations — heat, burn, bite, tannins — come from alcohol and wood tannins activating nerve receptors rather than taste or smell receptors; they're key to how 'strong' a rum feels.",
+   "es": "Las sensaciones trigeminales — calor, ardor, mordida, taninos — provienen del alcohol y los taninos de la madera que activan receptores nerviosos en lugar de receptores de sabor u olfato; son clave en qué tan 'fuerte' se siente un ron."
+  },
+  "SUGAR": {
+   "en": "Sugar notes — molasses, honey, sugarcane, treacle — connect directly to rum's raw material and are most prominent in molasses-based and added-sugar rum styles.",
+   "es": "Las notas de azúcar — melaza, miel, caña de azúcar, melaza negra — conectan directamente con la materia prima del ron y son más prominentes en los estilos a base de melaza o con azúcar añadida."
+  },
+  "CARAMEL": {
+   "en": "Caramel notes — butterscotch, toffee, crème brûlée — come from caramelized sugars during fermentation, distillation, and especially barrel charring.",
+   "es": "Las notas de caramelo — butterscotch, toffee, crème brûlée — provienen de los azúcares caramelizados durante la fermentación, la destilación y especialmente el quemado de la barrica."
+  },
+  "DAIRY": {
+   "en": "Dairy notes — buttery, cream, custard — are less common in rum but can appear from certain yeast strains or extended aging, adding a rich, rounded quality.",
+   "es": "Las notas lácteas — mantequilla, crema, natilla — son menos comunes en el ron pero pueden aparecer por ciertas cepas de levadura o un añejamiento prolongado, aportando una cualidad rica y redondeada."
+  },
+  "CHOCOLATE": {
+   "en": "Chocolate notes — cocoa, mocha, fudge — are signs of deep barrel aging and oxidation, common in dark and añejo-style rums.",
+   "es": "Las notas de chocolate — cacao, moca, fudge — son señales de un añejamiento profundo en barrica y oxidación, comunes en los rones oscuros y de estilo añejo."
+  },
+  "CONFECTIONS": {
+   "en": "Confection notes — fruitcake, gingerbread, meringue — are complex, baked-good aromas that emerge from the interplay of sugar, spice, and oak in well-aged rums.",
+   "es": "Las notas de dulces — pastel de frutas, pan de jengibre, merengue — son aromas complejos de repostería que surgen de la interacción entre el azúcar, la especia y el roble en los rones bien añejados."
+  },
+  "BAKING SPICES": {
+   "en": "Baking spice notes — cinnamon, clove, nutmeg, vanilla — are extracted from oak during aging and are a hallmark of rich, spiced, or long-aged rum styles.",
+   "es": "Las notas de especias de repostería — canela, clavo, nuez moscada, vainilla — se extraen del roble durante el añejamiento y son un sello de los estilos de ron ricos, especiados o de larga crianza."
+  }
+ }
+}

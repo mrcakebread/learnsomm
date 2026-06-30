@@ -1,0 +1,540 @@
+{
+ "title": "Chinese Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Regional Cuisines"
+  },
+  {
+   "name": "Cantonese",
+   "slug": "cn-cantonese",
+   "rows": [
+    {
+     "k": "",
+     "v": "Guangdong; fresh, light, steaming & stir-fry, dim sum heartland."
+    }
+   ]
+  },
+  {
+   "name": "Sichuan",
+   "slug": "cn-sichuan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bold, numbing-spicy (málà) from Sichuan peppercorn & chili."
+    }
+   ]
+  },
+  {
+   "name": "Hunan",
+   "slug": "cn-hunan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Xiang cuisine; purely hot, sour, smoky — drier heat than Sichuan."
+    }
+   ]
+  },
+  {
+   "name": "Shandong",
+   "slug": "cn-shandong",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lu cuisine; northern, savory, seafood & wheat, braises."
+    }
+   ]
+  },
+  {
+   "name": "Jiangsu",
+   "slug": "cn-jiangsu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Huaiyang; refined knife work, sweet-savory, delicate braises."
+    }
+   ]
+  },
+  {
+   "name": "Fujian",
+   "slug": "cn-fujian",
+   "rows": [
+    {
+     "k": "",
+     "v": "Min cuisine; umami broths, seafood, 'Buddha Jumps Over the Wall'."
+    }
+   ]
+  },
+  {
+   "cat": "Dim Sum"
+  },
+  {
+   "name": "Har Gow",
+   "slug": "cn-hargow",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crystal shrimp dumpling with pleated translucent wrapper."
+    }
+   ]
+  },
+  {
+   "name": "Siu Mai",
+   "slug": "cn-siumai",
+   "rows": [
+    {
+     "k": "",
+     "v": "Open-topped pork-and-shrimp dumpling."
+    }
+   ]
+  },
+  {
+   "name": "Char Siu Bao",
+   "slug": "cn-chasiubao",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fluffy steamed bun filled with sweet barbecue pork."
+    }
+   ]
+  },
+  {
+   "name": "Cheung Fun",
+   "slug": "cn-cheungfun",
+   "rows": [
+    {
+     "k": "",
+     "v": "Silky steamed rice-noodle rolls with soy."
+    }
+   ]
+  },
+  {
+   "name": "Lo Mai Gai",
+   "slug": "cn-lomaigai",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sticky rice with chicken steamed in lotus leaf."
+    }
+   ]
+  },
+  {
+   "name": "Egg Tart",
+   "slug": "cn-eggtart",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dan tat; flaky or cookie crust with custard center."
+    }
+   ]
+  },
+  {
+   "cat": "Noodles & Rice"
+  },
+  {
+   "name": "Chow Mein",
+   "slug": "cn-chowmein",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stir-fried noodles, crisp or soft."
+    }
+   ]
+  },
+  {
+   "name": "Lo Mein",
+   "slug": "cn-lomein",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tossed soft wheat noodles in sauce."
+    }
+   ]
+  },
+  {
+   "name": "Dan Dan Noodles",
+   "slug": "cn-dandan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sichuan noodles in spicy sesame-chili sauce."
+    }
+   ]
+  },
+  {
+   "name": "Beef Chow Fun",
+   "slug": "cn-chowfun",
+   "rows": [
+    {
+     "k": "",
+     "v": "Wide rice noodles with beef, 'wok hei' char."
+    }
+   ]
+  },
+  {
+   "name": "Yangzhou Fried Rice",
+   "slug": "cn-friedrice",
+   "rows": [
+    {
+     "k": "",
+     "v": "Classic fried rice with egg, shrimp, char siu, peas."
+    }
+   ]
+  },
+  {
+   "name": "Congee",
+   "slug": "cn-congee",
+   "rows": [
+    {
+     "k": "",
+     "v": "Savory rice porridge, comfort breakfast."
+    }
+   ]
+  },
+  {
+   "name": "Zhajiangmian",
+   "slug": "cn-zhajiang",
+   "rows": [
+    {
+     "k": "",
+     "v": "Noodles in fermented soybean-pork sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Iconic Dishes"
+  },
+  {
+   "name": "Peking Duck",
+   "slug": "cn-peking",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lacquered roast duck, crisp skin, pancakes & hoisin."
+    }
+   ]
+  },
+  {
+   "name": "Kung Pao Chicken",
+   "slug": "cn-kungpao",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sichuan chicken with peanuts, chili, numbing pepper."
+    }
+   ]
+  },
+  {
+   "name": "Mapo Tofu",
+   "slug": "cn-mapo",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tofu in spicy doubanjiang-and-pork sauce, numbing."
+    }
+   ]
+  },
+  {
+   "name": "Sweet & Sour Pork",
+   "slug": "cn-sweetsour",
+   "rows": [
+    {
+     "k": "",
+     "v": "Battered pork with tangy red sauce."
+    }
+   ]
+  },
+  {
+   "name": "Twice-Cooked Pork",
+   "slug": "cn-twicecooked",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pork belly boiled then stir-fried with leeks & bean paste."
+    }
+   ]
+  },
+  {
+   "name": "Hot Pot",
+   "slug": "cn-hotpot",
+   "rows": [
+    {
+     "k": "",
+     "v": "Simmering communal broth for cooking at the table."
+    }
+   ]
+  },
+  {
+   "name": "Xiaolongbao",
+   "slug": "cn-xlb",
+   "rows": [
+    {
+     "k": "",
+     "v": "Shanghai soup dumplings with gelatin-rich filling."
+    }
+   ]
+  },
+  {
+   "cat": "Seasonings & Sauces"
+  },
+  {
+   "name": "Soy Sauce",
+   "slug": "cn-soy",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fermented soybean sauce; light (salty) vs dark (color)."
+    }
+   ]
+  },
+  {
+   "name": "Oyster Sauce",
+   "slug": "cn-oyster",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick savory-sweet sauce from oyster extract."
+    }
+   ]
+  },
+  {
+   "name": "Doubanjiang",
+   "slug": "cn-doubanjiang",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fermented broad-bean chili paste, soul of Sichuan."
+    }
+   ]
+  },
+  {
+   "name": "Hoisin",
+   "slug": "cn-hoisin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet-savory soybean glaze."
+    }
+   ]
+  },
+  {
+   "name": "Shaoxing Wine",
+   "slug": "cn-shaoxing",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aged rice wine for cooking depth."
+    }
+   ]
+  },
+  {
+   "name": "Five-Spice",
+   "slug": "cn-fivespice",
+   "rows": [
+    {
+     "k": "",
+     "v": "Star anise, fennel, clove, cinnamon, Sichuan pepper."
+    }
+   ]
+  },
+  {
+   "name": "Black Vinegar",
+   "slug": "cn-blackvinegar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chinkiang; malty aged rice vinegar."
+    }
+   ]
+  },
+  {
+   "cat": "Aromatics & Produce"
+  },
+  {
+   "name": "Ginger",
+   "slug": "cn-ginger",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pungent rhizome, base aromatic."
+    }
+   ]
+  },
+  {
+   "name": "Scallion",
+   "slug": "cn-scallion",
+   "rows": [
+    {
+     "k": "",
+     "v": "Green onion, finishing & aromatic."
+    }
+   ]
+  },
+  {
+   "name": "Garlic",
+   "slug": "cn-garlic",
+   "rows": [
+    {
+     "k": "",
+     "v": "Foundational aromatic."
+    }
+   ],
+   "name_es": "Ajo"
+  },
+  {
+   "name": "Bok Choy",
+   "slug": "cn-bokchoy",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp mild brassica."
+    }
+   ]
+  },
+  {
+   "name": "Gai Lan",
+   "slug": "cn-gailan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chinese broccoli, slightly bitter."
+    }
+   ]
+  },
+  {
+   "name": "Wood Ear",
+   "slug": "cn-woodear",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crunchy gelatinous fungus."
+    }
+   ]
+  },
+  {
+   "name": "Lotus Root",
+   "slug": "cn-lotus",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp, lacy-holed rhizome."
+    }
+   ]
+  },
+  {
+   "cat": "Techniques"
+  },
+  {
+   "name": "Stir-Fry",
+   "slug": "cn-stirfry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Quick high-heat tossing in a wok."
+    }
+   ]
+  },
+  {
+   "name": "Wok Hei",
+   "slug": "cn-wokhei",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Breath of the wok' — the smoky char of high-heat stir-fry."
+    }
+   ]
+  },
+  {
+   "name": "Velveting",
+   "slug": "cn-velveting",
+   "rows": [
+    {
+     "k": "",
+     "v": "Marinating meat in starch/egg white for silkiness."
+    }
+   ]
+  },
+  {
+   "name": "Red Cooking",
+   "slug": "cn-redcooking",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow braise in soy, sugar, wine (hong shao)."
+    }
+   ]
+  },
+  {
+   "name": "Double Steaming",
+   "slug": "cn-doublesteam",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gentle steaming of a sealed vessel for soups."
+    }
+   ]
+  },
+  {
+   "cat": "Tea & Sweets"
+  },
+  {
+   "name": "Oolong",
+   "slug": "cn-oolong",
+   "rows": [
+    {
+     "k": "",
+     "v": "Partially oxidized tea, floral to roasted."
+    }
+   ]
+  },
+  {
+   "name": "Pu-erh",
+   "slug": "cn-puerh",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fermented, aged dark tea, earthy."
+    }
+   ]
+  },
+  {
+   "name": "Jasmine Tea",
+   "slug": "cn-jasmine",
+   "rows": [
+    {
+     "k": "",
+     "v": "Green tea scented with jasmine."
+    }
+   ]
+  },
+  {
+   "name": "Mooncake",
+   "slug": "cn-mooncake",
+   "rows": [
+    {
+     "k": "",
+     "v": "Dense pastry with lotus/red-bean for Mid-Autumn."
+    }
+   ]
+  },
+  {
+   "name": "Tangyuan",
+   "slug": "cn-tangyuan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Glutinous rice balls in sweet broth."
+    }
+   ]
+  },
+  {
+   "name": "Mango Pudding",
+   "slug": "cn-mango",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chilled creamy mango dessert."
+    }
+   ]
+  }
+ ]
+}

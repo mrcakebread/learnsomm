@@ -1,0 +1,1020 @@
+{
+ "title": "Fruitandveg",
+ "subject": "fruitandveg",
+ "categories": [
+  {
+   "name": "ORCHARD & STONE FRUITS",
+   "name_fr": "Fruits de Verger & à Noyau",
+   "name_it": "Frutta da Frutteto & Drupacee",
+   "name_es": "FRUTAS DE HUERTO Y HUESO",
+   "color": "#b5384a",
+   "sub": [
+    {
+     "name": "ORCHARD & STONE FRUITS",
+     "name_fr": "Fruits de Verger & à Noyau",
+     "name_it": "Frutta da Frutteto & Drupacee",
+     "name_es": "FRUTAS DE HUERTO Y HUESO",
+     "color": "#b5384a",
+     "descriptors": [
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "name_es": "Manzana",
+       "slug": "apple",
+       "panel": {
+        "origin": "Crisp and sweet-tart; ranges from honeyed (Fuji, Gala) to sharp and bracing (Granny Smith).",
+        "origin_es": "Crujiente y dulce-ácida; va de la melosa (Fuji, Gala) a la ácida e intensa (Granny Smith).",
+        "chemistry": "Firm, juicy, snapping flesh under a thin skin; softens when cooked.",
+        "chemistry_es": "Pulpa firme, jugosa y crujiente bajo una piel fina; se ablanda al cocinarse.",
+        "pairing": "Cinnamon, caramel, cheddar, pork, nut butter. A classic with aged cheese.",
+        "pairing_es": "Canela, caramelo, cheddar, cerdo, mantequilla de frutos secos. Clásica con queso curado.",
+        "mixology": "Eaten raw, baked in pies and tarts, sauced, in salads and slaws; leave skin on for fiber.",
+        "mixology_es": "Cruda, horneada en tartas, en compota, en ensaladas; deja la piel para más fibra.",
+        "examples": "A pome in the rose family; the flesh is the swollen flower base, the true fruit is the core.",
+        "examples_es": "Un pomo de la familia de las rosas; la pulpa es la base floral hinchada, el fruto real es el corazón."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "name_es": "Pera",
+       "slug": "pear",
+       "panel": {
+        "origin": "Sweet, floral, and honeyed; subtler than apple, with a delicate perfume when ripe.",
+        "origin_es": "Dulce, floral y melosa; más sutil que la manzana, con un perfume delicado al madurar.",
+        "chemistry": "Buttery, melting flesh with a faint graininess; ripens from the inside out.",
+        "chemistry_es": "Pulpa mantecosa y fundente, algo granulosa; madura de dentro hacia afuera.",
+        "pairing": "Blue cheese, walnut, honey, prosciutto, chocolate. Poached in wine, served with cheese.",
+        "pairing_es": "Queso azul, nuez, miel, jamón, chocolate. Escalfada en vino, servida con queso.",
+        "mixology": "Eaten ripe and raw, poached, roasted, in tarts; ripen at room temperature.",
+        "mixology_es": "Madura y cruda, escalfada, asada, en tartas; madúrala a temperatura ambiente.",
+        "examples": "A pome like the apple; check ripeness by gently pressing near the stem.",
+        "examples_es": "Un pomo como la manzana; comprueba el punto presionando con suavidad junto al tallo."
+       }
+      },
+      {
+       "name": "Peach",
+       "name_fr": "Pêche",
+       "name_it": "Pesca",
+       "name_es": "Durazno",
+       "slug": "peach",
+       "panel": {
+        "origin": "Sweet, fragrant, and floral with a honeyed juiciness at peak ripeness.",
+        "origin_es": "Dulce, fragante y floral, con una jugosidad melosa en su punto.",
+        "chemistry": "Soft, juicy flesh with a fuzzy skin; freestone types pull cleanly from the pit.",
+        "chemistry_es": "Pulpa blanda y jugosa con piel aterciopelada; los de hueso libre se separan limpios.",
+        "pairing": "Basil, prosciutto, cream, almond, bourbon. Grilled with burrata is a summer classic.",
+        "pairing_es": "Albahaca, jamón, nata, almendra, bourbon. A la parrilla con burrata, un clásico de verano.",
+        "mixology": "Eaten ripe, grilled, in cobblers and pies, jam, sliced over salads.",
+        "mixology_es": "Maduro, a la parrilla, en cobblers y tartas, mermelada, en ensaladas.",
+        "examples": "A stone fruit (drupe) in the rose family; the seed inside the pit is kin to the almond.",
+        "examples_es": "Una fruta de hueso (drupa) de la familia de las rosas; la semilla del hueso es pariente de la almendra."
+       }
+      },
+      {
+       "name": "Plum",
+       "name_fr": "Prune",
+       "name_it": "Prugna",
+       "name_es": "Ciruela",
+       "slug": "plum",
+       "panel": {
+        "origin": "Sweet-tart with a winey depth; skins carry a bright, sometimes tangy edge.",
+        "origin_es": "Dulce-ácida con profundidad vinosa; la piel aporta un filo brillante y a veces ácido.",
+        "chemistry": "Juicy and tender; firm when slightly underripe.",
+        "chemistry_es": "Jugosa y tierna; firme cuando está algo verde.",
+        "pairing": "Cinnamon, ginger, duck, almond, red wine. Lovely roasted with pork.",
+        "pairing_es": "Canela, jengibre, pato, almendra, vino tinto. Deliciosa asada con cerdo.",
+        "mixology": "Eaten fresh, baked into tarts and cakes, jam, dried (prunes), sauces for meat.",
+        "mixology_es": "Fresca, en tartas y pasteles, mermelada, seca (ciruela pasa), salsas para carne.",
+        "examples": "A drupe; dried plums are prunes, and the family spans countless colors and sizes.",
+        "examples_es": "Una drupa; la ciruela seca es la pasa, y la familia abarca innumerables colores y tamaños."
+       }
+      },
+      {
+       "name": "Cherry",
+       "name_fr": "Cerise",
+       "name_it": "Ciliegia",
+       "name_es": "Cereza",
+       "slug": "cherry",
+       "panel": {
+        "origin": "Sweet and rich (Bing) or bright and tart (Montmorency); deep and almost almond-like.",
+        "origin_es": "Dulce y rica (Bing) o brillante y ácida (Montmorency); profunda y casi con dejo de almendra.",
+        "chemistry": "Firm, glossy, and juicy with a small pit.",
+        "chemistry_es": "Firme, brillante y jugosa, con un hueso pequeño.",
+        "pairing": "Chocolate, almond, vanilla, game, kirsch. Tart cherries shine in pies.",
+        "pairing_es": "Chocolate, almendra, vainilla, caza, kirsch. Las ácidas brillan en las tartas.",
+        "mixology": "Eaten fresh, baked in pies and clafoutis, preserved, in sauces for duck and pork.",
+        "mixology_es": "Fresca, en tartas y clafoutis, en conserva, en salsas para pato y cerdo.",
+        "examples": "A small stone fruit in the rose family; sweet and sour types serve different roles.",
+        "examples_es": "Una pequeña fruta de hueso de la familia de las rosas; las dulces y las ácidas cumplen papeles distintos."
+       }
+      },
+      {
+       "name": "Fig",
+       "name_fr": "Figue",
+       "name_it": "Fico",
+       "name_es": "Higo",
+       "slug": "fig",
+       "panel": {
+        "origin": "Honey-sweet and jammy with a delicate, floral richness and a hint of berry.",
+        "origin_es": "Dulce como la miel y meloso, con una riqueza floral delicada y un toque de baya.",
+        "chemistry": "Soft, tender skin and a jammy, seedy interior with a gentle crunch.",
+        "chemistry_es": "Piel blanda y tierna con un interior meloso y granado, de crujido suave.",
+        "pairing": "Prosciutto, goat cheese, honey, balsamic, walnut. A cheese-board essential.",
+        "pairing_es": "Jamón, queso de cabra, miel, balsámico, nuez. Imprescindible en la tabla de quesos.",
+        "mixology": "Eaten fresh, roasted, in jam, with cheese and cured meats; dried for year-round use.",
+        "mixology_es": "Fresco, asado, en mermelada, con queso y embutidos; seco para todo el año.",
+        "examples": "Botanically an inverted flower (a syconium) — the soft interior is a cluster of tiny blooms.",
+        "examples_es": "Botánicamente una flor invertida (un sicono) — el interior blando es un racimo de diminutas flores."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CITRUS FRUITS",
+   "name_fr": "Agrumes",
+   "name_it": "Agrumi",
+   "name_es": "CÍTRICOS",
+   "color": "#e08a1e",
+   "sub": [
+    {
+     "name": "CITRUS FRUITS",
+     "name_fr": "Agrumes",
+     "name_it": "Agrumi",
+     "name_es": "CÍTRICOS",
+     "color": "#e08a1e",
+     "descriptors": [
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "name_es": "Naranja",
+       "slug": "orange",
+       "panel": {
+        "origin": "Sweet, bright, and juicy with a fragrant, slightly floral acidity.",
+        "origin_es": "Dulce, brillante y jugosa, con una acidez fragante y algo floral.",
+        "chemistry": "Juicy segments in a pithy rind; easy to peel or section.",
+        "chemistry_es": "Gajos jugosos en una corteza con albedo; fácil de pelar o seccionar.",
+        "pairing": "Chocolate, fennel, olive, duck, cinnamon. Classic in a winter citrus salad.",
+        "pairing_es": "Chocolate, hinojo, aceituna, pato, canela. Clásica en la ensalada de cítricos de invierno.",
+        "mixology": "Eaten fresh, juiced, zested for baking, in salads and sauces (à l'orange).",
+        "mixology_es": "Fresca, en zumo, su ralladura en repostería, en ensaladas y salsas (à l'orange).",
+        "examples": "A hesperidium and an ancient hybrid; blood, navel, and Valencia each have their place.",
+        "examples_es": "Un hesperidio y un híbrido antiguo; la sanguina, la navel y la Valencia tienen cada una su lugar."
+       }
+      },
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "name_es": "Limón",
+       "slug": "lemon",
+       "panel": {
+        "origin": "Sharp, bright, and tart with a fragrant, almost floral zest.",
+        "origin_es": "Agudo, brillante y ácido, con una ralladura fragante y casi floral.",
+        "chemistry": "Very juicy, acidic flesh under a fragrant oily rind.",
+        "chemistry_es": "Pulpa muy jugosa y ácida bajo una corteza fragante y aceitosa.",
+        "pairing": "Nearly everything — fish, chicken, herbs, butter, desserts. The kitchen's universal brightener.",
+        "pairing_es": "Casi todo — pescado, pollo, hierbas, mantequilla, postres. El realzador universal de la cocina.",
+        "mixology": "Juice to balance and brighten, zest for aroma, preserved (salted), in curd and dressings.",
+        "mixology_es": "Zumo para equilibrar, ralladura por su aroma, en conserva (salado), en curd y aliños.",
+        "examples": "A citrus hybrid; the oils in the peel carry as much flavor as the juice.",
+        "examples_es": "Un híbrido cítrico; los aceites de la cáscara llevan tanto sabor como el zumo."
+       }
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "name_es": "Lima",
+       "slug": "lime",
+       "panel": {
+        "origin": "Sharp, tart, and aromatic with a green, slightly bitter edge brighter than lemon.",
+        "origin_es": "Aguda, ácida y aromática, con un filo verde y algo amargo, más vivo que el limón.",
+        "chemistry": "Small, very juicy, thin-skinned.",
+        "chemistry_es": "Pequeña, muy jugosa, de piel fina.",
+        "pairing": "Cilantro, chili, coconut, tequila, fish. The soul of ceviche and guacamole.",
+        "pairing_es": "Cilantro, chile, coco, tequila, pescado. El alma del ceviche y el guacamole.",
+        "mixology": "Juice and zest in Latin and Southeast Asian cooking, cocktails, marinades.",
+        "mixology_es": "Zumo y ralladura en la cocina latina y del sudeste asiático, cócteles, marinadas.",
+        "examples": "A citrus hybrid; Key and Persian limes differ in size, tartness, and aroma.",
+        "examples_es": "Un híbrido cítrico; las limas Key y Persa difieren en tamaño, acidez y aroma."
+       }
+      },
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "name_es": "Toronja",
+       "slug": "grapefruit",
+       "panel": {
+        "origin": "Tart, slightly bitter, and refreshing with a sweet-sour balance; pink is sweeter.",
+        "origin_es": "Ácida, algo amarga y refrescante, con equilibrio dulce-ácido; la rosada es más dulce.",
+        "chemistry": "Large, juicy segments with a bitter pith and membrane.",
+        "chemistry_es": "Gajos grandes y jugosos con albedo y membrana amargos.",
+        "pairing": "Avocado, shrimp, mint, honey, fennel. Bright in a citrus and avocado salad.",
+        "pairing_es": "Aguacate, camarón, menta, miel, hinojo. Brillante en una ensalada de cítricos y aguacate.",
+        "mixology": "Eaten by the half, segmented into salads, juiced; broiled with sugar.",
+        "mixology_es": "En mitades, en gajos para ensaladas, en zumo; gratinada con azúcar.",
+        "examples": "A hybrid of pomelo and orange; it can interact with some medications, so check with a pharmacist.",
+        "examples_es": "Un híbrido de pomelo y naranja; puede interactuar con algunos medicamentos, consulta al farmacéutico."
+       }
+      },
+      {
+       "name": "Mandarin",
+       "name_fr": "Mandarine",
+       "name_it": "Mandarino",
+       "name_es": "Mandarina",
+       "slug": "mandarin",
+       "panel": {
+        "origin": "Sweet, mild, and floral with low acidity; the most snackable citrus.",
+        "origin_es": "Dulce, suave y floral, de baja acidez; el cítrico más fácil de comer.",
+        "chemistry": "Loose, easy-peel skin and tender, nearly seedless segments.",
+        "chemistry_es": "Piel suelta y fácil de pelar, con gajos tiernos y casi sin semillas.",
+        "pairing": "Chocolate, ginger, almond, salad greens.",
+        "pairing_es": "Chocolate, jengibre, almendra, hojas de ensalada.",
+        "mixology": "Eaten out of hand, segmented into salads, in sauces; canned and fresh.",
+        "mixology_es": "De la mano, en gajos para ensaladas, en salsas; en conserva y fresca.",
+        "examples": "A core ancestor of most cultivated citrus; clementines and tangerines are types.",
+        "examples_es": "Un ancestro clave de casi todos los cítricos cultivados; la clementina y la tangerina son tipos."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TROPICAL & EXOTIC FRUITS",
+   "name_fr": "Fruits Tropicaux & Exotiques",
+   "name_it": "Frutta Tropicale & Esotica",
+   "name_es": "FRUTAS TROPICALES Y EXÓTICAS",
+   "color": "#e0b020",
+   "sub": [
+    {
+     "name": "TROPICAL & EXOTIC FRUITS",
+     "name_fr": "Fruits Tropicaux & Exotiques",
+     "name_it": "Frutta Tropicale & Esotica",
+     "name_es": "FRUTAS TROPICALES Y EXÓTICAS",
+     "color": "#e0b020",
+     "descriptors": [
+      {
+       "name": "Banana",
+       "name_fr": "Banane",
+       "name_it": "Banana",
+       "name_es": "Plátano",
+       "slug": "banana",
+       "panel": {
+        "origin": "Sweet, creamy, and mellow; deeper and more caramel-like as it ripens and spots.",
+        "origin_es": "Dulce, cremoso y suave; más profundo y acaramelado a medida que madura y se motea.",
+        "chemistry": "Soft, dense, and smooth; firmer and starchier when underripe.",
+        "chemistry_es": "Blando, denso y liso; más firme y almidonado cuando está verde.",
+        "pairing": "Peanut butter, chocolate, caramel, oats, rum. The classic with peanut butter.",
+        "pairing_es": "Mantequilla de cacahuete, chocolate, caramelo, avena, ron. El clásico con cacahuete.",
+        "mixology": "Eaten raw, baked (banana bread), smoothies, fried (plantain when green), frozen.",
+        "mixology_es": "Crudo, horneado (pan de plátano), batidos, frito (plátano macho en verde), congelado.",
+        "examples": "Botanically a berry; the plant is a giant herb, not a tree, and the fruit grows seedless.",
+        "examples_es": "Botánicamente una baya; la planta es una hierba gigante, no un árbol, y el fruto crece sin semillas."
+       }
+      },
+      {
+       "name": "Mango",
+       "name_fr": "Mangue",
+       "name_it": "Mango",
+       "name_es": "Mango",
+       "slug": "mango",
+       "panel": {
+        "origin": "Lush, sweet, and floral with a honeyed tropical perfume and gentle tang.",
+        "origin_es": "Exuberante, dulce y floral, con un perfume tropical meloso y un toque ácido.",
+        "chemistry": "Soft, fibrous, juicy flesh clinging to a large flat pit.",
+        "chemistry_es": "Pulpa blanda, fibrosa y jugosa, pegada a un hueso grande y plano.",
+        "pairing": "Lime, chili, coconut, sticky rice, shrimp. Iconic in mango sticky rice.",
+        "pairing_es": "Lima, chile, coco, arroz glutinoso, camarón. Icónico en el arroz dulce con mango.",
+        "mixology": "Eaten ripe, in salsas and chutneys, smoothies, green (unripe) in salads.",
+        "mixology_es": "Maduro, en salsas y chutneys, batidos, verde en ensaladas.",
+        "examples": "A tropical drupe in the cashew family; hundreds of varieties across South Asia and beyond.",
+        "examples_es": "Una drupa tropical de la familia del anacardo; cientos de variedades en el sur de Asia y más allá."
+       }
+      },
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "name_es": "Piña",
+       "slug": "pineapple",
+       "panel": {
+        "origin": "Sweet-tart and bright with a juicy, almost effervescent tropical tang.",
+        "origin_es": "Dulce-ácida y brillante, con un dejo tropical jugoso y casi efervescente.",
+        "chemistry": "Firm, fibrous, and very juicy; the core is tougher.",
+        "chemistry_es": "Firme, fibrosa y muy jugosa; el corazón es más duro.",
+        "pairing": "Ham, coconut, rum, chili, mint. Grilled, it caramelizes beautifully.",
+        "pairing_es": "Jamón, coco, ron, chile, menta. A la parrilla se carameliza de maravilla.",
+        "mixology": "Eaten fresh, grilled, juiced, in salsas; its bromelain enzyme tenderizes meat (and curdles dairy).",
+        "mixology_es": "Fresca, a la parrilla, en zumo, en salsas; su enzima bromelina ablanda la carne (y corta los lácteos).",
+        "examples": "A 'multiple fruit' — dozens of berries fused around a core; it does not ripen further once picked.",
+        "examples_es": "Un 'fruto múltiple' — decenas de bayas fusionadas en torno a un corazón; no madura más una vez cortada."
+       }
+      },
+      {
+       "name": "Papaya",
+       "name_fr": "Papaya",
+       "name_it": "Papaya",
+       "name_es": "Papaya",
+       "slug": "papaya",
+       "panel": {
+        "origin": "Mild, sweet, and musky with a melon-like softness; green papaya is neutral and crunchy.",
+        "origin_es": "Suave, dulce y almizclada, con una textura tipo melón; la verde es neutra y crujiente.",
+        "chemistry": "Soft, buttery orange flesh around a cavity of black seeds.",
+        "chemistry_es": "Pulpa naranja, blanda y mantecosa, en torno a una cavidad de semillas negras.",
+        "pairing": "Lime, chili, coconut, shrimp. Green papaya stars in Thai som tam.",
+        "pairing_es": "Lima, chile, coco, camarón. La papaya verde es la estrella del som tam tailandés.",
+        "mixology": "Ripe in fruit salads and smoothies; green shredded into salads; lime tames its musk.",
+        "mixology_es": "Madura en ensaladas de fruta y batidos; verde rallada en ensaladas; la lima domina su almizcle.",
+        "examples": "A tropical fruit whose enzyme papain tenderizes meat; the peppery seeds are edible.",
+        "examples_es": "Una fruta tropical cuya enzima papaína ablanda la carne; sus semillas picantes son comestibles."
+       }
+      },
+      {
+       "name": "Kiwi",
+       "name_fr": "Kiwi",
+       "name_it": "Kiwi",
+       "name_es": "Kiwi",
+       "slug": "kiwi",
+       "panel": {
+        "origin": "Bright, sweet-tart, and refreshing with a green, almost strawberry-and-citrus note.",
+        "origin_es": "Brillante, dulce-ácido y refrescante, con una nota verde, casi de fresa y cítrico.",
+        "chemistry": "Soft, juicy emerald flesh dotted with tiny edible black seeds.",
+        "chemistry_es": "Pulpa esmeralda, blanda y jugosa, salpicada de diminutas semillas negras comestibles.",
+        "pairing": "Cream, berries, citrus, pavlova.",
+        "pairing_es": "Nata, bayas, cítricos, pavlova.",
+        "mixology": "Eaten scooped or sliced, on pavlova and tarts, blended; the fuzzy skin is edible.",
+        "mixology_es": "A cucharadas o en rodajas, sobre pavlova y tartas, en batido; la piel aterciopelada es comestible.",
+        "examples": "A berry from a climbing vine; its enzyme actinidin can keep gelatin from setting.",
+        "examples_es": "Una baya de una liana trepadora; su enzima actinidina puede impedir que cuaje la gelatina."
+       }
+      },
+      {
+       "name": "Pomegranate",
+       "name_fr": "Grenade",
+       "name_it": "Melograno",
+       "name_es": "Granada",
+       "slug": "pomegranate",
+       "panel": {
+        "origin": "Sweet-tart and bright with a winey, almost tannic snap.",
+        "origin_es": "Dulce-ácida y brillante, con un golpe vinoso y casi tánico.",
+        "chemistry": "Hundreds of juicy seed-sacs (arils) packed around bitter white pith.",
+        "chemistry_es": "Cientos de sacos jugosos (arilos) apretados en torno a un albedo blanco y amargo.",
+        "pairing": "Walnut, lamb, feta, citrus, mint. The jewel of Middle Eastern dishes.",
+        "pairing_es": "Nuez, cordero, feta, cítricos, menta. La joya de los platos de Oriente Medio.",
+        "mixology": "Arils scattered over salads and yogurt, juiced, reduced to molasses for sauces.",
+        "mixology_es": "Los arilos sobre ensaladas y yogur, en zumo, reducidos a melaza para salsas.",
+        "examples": "A leathery-skinned fruit packed with edible arils; seed it underwater to avoid stains.",
+        "examples_es": "Una fruta de piel coriácea llena de arilos comestibles; desgránala bajo el agua para evitar manchas."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MELONS & RICH FRUITS",
+   "name_fr": "Melons & Fruits Riches",
+   "name_it": "Meloni & Frutti Ricchi",
+   "name_es": "MELONES Y FRUTAS RICAS",
+   "color": "#d9536b",
+   "sub": [
+    {
+     "name": "MELONS & RICH FRUITS",
+     "name_fr": "Melons & Fruits Riches",
+     "name_it": "Meloni & Frutti Ricchi",
+     "name_es": "MELONES Y FRUTAS RICAS",
+     "color": "#d9536b",
+     "descriptors": [
+      {
+       "name": "Watermelon",
+       "name_fr": "Pastèque",
+       "name_it": "Anguria",
+       "name_es": "Sandía",
+       "slug": "watermelon",
+       "panel": {
+        "origin": "Sweet, clean, and intensely refreshing with a high water content.",
+        "origin_es": "Dulce, limpia e intensamente refrescante, con mucha agua.",
+        "chemistry": "Crisp, juicy, and granular; firm flesh that crushes easily.",
+        "chemistry_es": "Crujiente, jugosa y granulosa; pulpa firme que se deshace con facilidad.",
+        "pairing": "Feta, mint, lime, chili, basil. A summer salad with feta and mint.",
+        "pairing_es": "Feta, menta, lima, chile, albahaca. Una ensalada de verano con feta y menta.",
+        "mixology": "Eaten chilled, in salads, blended, grilled, the rind pickled.",
+        "mixology_es": "Fría, en ensaladas, licuada, a la parrilla, la corteza en encurtido.",
+        "examples": "A vine fruit related to cucumber and squash; lycopene gives the red flesh its color.",
+        "examples_es": "Una fruta de enredadera, pariente del pepino y la calabaza; el licopeno da color a la pulpa roja."
+       }
+      },
+      {
+       "name": "Cantaloupe",
+       "name_fr": "Cantaloup",
+       "name_it": "Melone Cantalupo",
+       "name_es": "Melón Cantalupo",
+       "slug": "cantaloupe",
+       "panel": {
+        "origin": "Sweet, musky, and floral with a soft honeyed perfume when ripe.",
+        "origin_es": "Dulce, almizclado y floral, con un perfume meloso al madurar.",
+        "chemistry": "Soft, juicy orange flesh; ripe melons smell fragrant at the stem end.",
+        "chemistry_es": "Pulpa naranja, blanda y jugosa; el melón maduro huele fragante por el tallo.",
+        "pairing": "Prosciutto, lime, mint, ginger. The classic melon-and-prosciutto antipasto.",
+        "pairing_es": "Jamón, lima, menta, jengibre. El clásico antipasto de melón con jamón.",
+        "mixology": "Eaten chilled, wrapped in cured ham, blended, in fruit salads.",
+        "mixology_es": "Frío, envuelto en jamón, licuado, en ensaladas de fruta.",
+        "examples": "A muskmelon; the netted rind and a sweet aroma at the blossom end signal ripeness.",
+        "examples_es": "Un melón almizclero; la corteza reticulada y el aroma dulce en la base indican madurez."
+       }
+      },
+      {
+       "name": "Grape",
+       "name_fr": "Raisin",
+       "name_it": "Uva",
+       "name_es": "Uva",
+       "slug": "grape",
+       "panel": {
+        "origin": "Sweet and juicy with a bright snap; from candy-like to winey (Concord).",
+        "origin_es": "Dulce y jugosa, con un estallido brillante; de las tipo caramelo a las vinosas (Concord).",
+        "chemistry": "Firm, juicy spheres with a snapping skin.",
+        "chemistry_es": "Esferas firmes y jugosas, de piel crujiente.",
+        "pairing": "Cheese, walnut, rosemary, pork. Roasted grapes are lovely with cheese.",
+        "pairing_es": "Queso, nuez, romero, cerdo. Las uvas asadas son deliciosas con queso.",
+        "mixology": "Eaten fresh, roasted, frozen, dried (raisins), pressed for juice and wine.",
+        "mixology_es": "Fresca, asada, congelada, seca (pasas), prensada para zumo y vino.",
+        "examples": "A berry that grows in clusters on vines; table and wine grapes are bred for different ends.",
+        "examples_es": "Una baya que crece en racimos en la vid; las de mesa y las de vino se crían con fines distintos."
+       }
+      },
+      {
+       "name": "Avocado",
+       "name_fr": "Avocat",
+       "name_it": "Avocado",
+       "name_es": "Aguacate",
+       "slug": "avocado",
+       "panel": {
+        "origin": "Rich, buttery, and mild with a faintly grassy, nutty depth.",
+        "origin_es": "Rico, mantecoso y suave, con una profundidad levemente herbácea y a nuez.",
+        "chemistry": "Creamy, dense, and smooth when ripe; mashes to silk.",
+        "chemistry_es": "Cremoso, denso y liso al madurar; se machaca hasta quedar sedoso.",
+        "pairing": "Lime, cilantro, tomato, chili, egg. The base of guacamole and avocado toast.",
+        "pairing_es": "Lima, cilantro, tomate, chile, huevo. La base del guacamole y la tostada de aguacate.",
+        "mixology": "Mashed, sliced, blended into smoothies and dressings; lime juice slows browning.",
+        "mixology_es": "Machacado, en rodajas, en batidos y aliños; el zumo de lima retrasa que se oscurezca.",
+        "examples": "A single-seeded berry that ripens only after picking — the tree acts as natural storage.",
+        "examples_es": "Una baya de una sola semilla que solo madura tras cortarse — el árbol hace de almacén natural."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LEAFY GREENS",
+   "name_fr": "Légumes-Feuilles",
+   "name_it": "Verdure a Foglia",
+   "name_es": "HOJAS VERDES",
+   "color": "#3a7d44",
+   "sub": [
+    {
+     "name": "LEAFY GREENS",
+     "name_fr": "Légumes-Feuilles",
+     "name_it": "Verdure a Foglia",
+     "name_es": "HOJAS VERDES",
+     "color": "#3a7d44",
+     "descriptors": [
+      {
+       "name": "Spinach",
+       "name_fr": "Épinards",
+       "name_it": "Spinaci",
+       "name_es": "Espinaca",
+       "slug": "spinach",
+       "panel": {
+        "origin": "Mild, earthy, and faintly mineral; sweeter cooked, slightly tannic raw.",
+        "origin_es": "Suave, terrosa y levemente mineral; más dulce cocida, algo tánica en crudo.",
+        "chemistry": "Tender leaves that wilt dramatically; baby spinach is the most delicate.",
+        "chemistry_es": "Hojas tiernas que se reducen muchísimo al cocinarse; la baby es la más delicada.",
+        "pairing": "Garlic, lemon, nutmeg, feta, egg. A pillar of saag and Florentine dishes.",
+        "pairing_es": "Ajo, limón, nuez moscada, feta, huevo. Un pilar del saag y los platos a la florentina.",
+        "mixology": "Raw in salads and smoothies; sautéed, in pasta, soups; cooks down to a fraction.",
+        "mixology_es": "Cruda en ensaladas y batidos; salteada, en pasta, sopas; se reduce a una fracción.",
+        "examples": "A leafy green high in iron and vitamin K; consistent intake matters on blood thinners.",
+        "examples_es": "Una hoja verde rica en hierro y vitamina K; conviene un consumo constante si se toman anticoagulantes."
+       }
+      },
+      {
+       "name": "Kale",
+       "name_fr": "Chou Frisé",
+       "name_it": "Cavolo Riccio",
+       "name_es": "Col Rizada",
+       "slug": "kale",
+       "panel": {
+        "origin": "Robust, earthy, and slightly bitter; sweetens after frost or a quick massage.",
+        "origin_es": "Robusta, terrosa y algo amarga; se endulza tras una helada o un breve masaje.",
+        "chemistry": "Sturdy, chewy leaves; baby kale is tender, lacinato (dino) is the silkiest.",
+        "chemistry_es": "Hojas firmes y fibrosas; la baby es tierna, la lacinato (dino) la más sedosa.",
+        "pairing": "Lemon, garlic, parmesan, white beans, chili.",
+        "pairing_es": "Limón, ajo, parmesano, alubias blancas, chile.",
+        "mixology": "Massaged raw in salads, sautéed, in soups, baked into chips; strip the tough stem.",
+        "mixology_es": "Masajeada cruda en ensaladas, salteada, en sopas, horneada en chips; retira el tallo duro.",
+        "examples": "A cruciferous leaf, one of many forms bred from a single wild cabbage species.",
+        "examples_es": "Una hoja crucífera, una de las muchas formas criadas de una sola especie de col silvestre."
+       }
+      },
+      {
+       "name": "Swiss Chard",
+       "name_fr": "Bette",
+       "name_it": "Bietola",
+       "name_es": "Acelga",
+       "slug": "swiss-chard",
+       "panel": {
+        "origin": "Earthy and mildly bitter like a milder beet green; the stems are sweeter.",
+        "origin_es": "Terrosa y algo amarga, como una hoja de remolacha más suave; los tallos son más dulces.",
+        "chemistry": "Glossy, ruffled leaves with crisp, colorful stalks.",
+        "chemistry_es": "Hojas brillantes y onduladas, con tallos crujientes y coloridos.",
+        "pairing": "Garlic, lemon, raisins, pine nut, ricotta.",
+        "pairing_es": "Ajo, limón, pasas, piñón, ricotta.",
+        "mixology": "Leaves wilted into pasta and soups; stalks cooked a little longer or braised.",
+        "mixology_es": "Las hojas pochadas en pasta y sopas; los tallos cocidos algo más o braseados.",
+        "examples": "A leafy beet grown for its leaves and stems rather than its root; rainbow stems add color.",
+        "examples_es": "Una remolacha de hoja cultivada por sus hojas y tallos, no por la raíz; los tallos arcoíris dan color."
+       }
+      },
+      {
+       "name": "Arugula",
+       "name_fr": "Roquette",
+       "name_it": "Rucola",
+       "name_es": "Rúcula",
+       "slug": "arugula",
+       "panel": {
+        "origin": "Peppery, sharp, and nutty with a mustardy bite that intensifies in mature leaves.",
+        "origin_es": "Picante, intensa y a nuez, con un mordiente a mostaza que se acentúa en las hojas maduras.",
+        "chemistry": "Tender, delicate leaves.",
+        "chemistry_es": "Hojas tiernas y delicadas.",
+        "pairing": "Parmesan, lemon, olive oil, prosciutto, fig. A peppery base for salads and pizza.",
+        "pairing_es": "Parmesano, limón, aceite de oliva, jamón, higo. Una base picante para ensaladas y pizza.",
+        "mixology": "Raw in salads, piled on pizza and pasta off the heat, blended into a sharp pesto.",
+        "mixology_es": "Cruda en ensaladas, sobre pizza y pasta fuera del fuego, en un pesto intenso.",
+        "examples": "A cruciferous salad green (rocket); its bite comes from the same compounds as mustard.",
+        "examples_es": "Una hoja crucífera de ensalada; su mordiente viene de los mismos compuestos que la mostaza."
+       }
+      },
+      {
+       "name": "Romaine Lettuce",
+       "name_fr": "Laitue Romaine",
+       "name_it": "Lattuga Romana",
+       "name_es": "Lechuga Romana",
+       "slug": "romaine",
+       "panel": {
+        "origin": "Mild, sweet, and faintly grassy with a clean crispness.",
+        "origin_es": "Suave, dulce y levemente herbácea, con una frescura limpia.",
+        "chemistry": "Crunchy ribs and crisp leaves that hold up to dressing.",
+        "chemistry_es": "Nervaduras crujientes y hojas firmes que aguantan el aliño.",
+        "pairing": "Caesar dressing, parmesan, anchovy, lemon. The backbone of a Caesar salad.",
+        "pairing_es": "Aliño César, parmesano, anchoa, limón. La columna de la ensalada César.",
+        "mixology": "Raw in salads and wraps; sturdy enough to grill into charred wedges.",
+        "mixology_es": "Cruda en ensaladas y wraps; lo bastante firme para asarla en cuñas a la parrilla.",
+        "examples": "A crisp lettuce that, unlike soft types, holds its crunch even when dressed or warmed.",
+        "examples_es": "Una lechuga crujiente que, a diferencia de las blandas, conserva su textura aliñada o templada."
+       }
+      },
+      {
+       "name": "Bok Choy",
+       "name_fr": "Bok Choy",
+       "name_it": "Bok Choy",
+       "name_es": "Bok Choy",
+       "slug": "bok-choy",
+       "panel": {
+        "origin": "Mild, fresh, and faintly sweet with a clean cabbage note; stalks are juicy.",
+        "origin_es": "Suave, fresco y levemente dulce, con una nota limpia de col; los tallos son jugosos.",
+        "chemistry": "Crisp white stalks and tender green leaves.",
+        "chemistry_es": "Tallos blancos crujientes y hojas verdes tiernas.",
+        "pairing": "Ginger, garlic, soy, sesame, chili. A stir-fry and noodle-soup staple.",
+        "pairing_es": "Jengibre, ajo, soja, sésamo, chile. Un básico del salteado y la sopa de fideos.",
+        "mixology": "Halved and seared, stir-fried, dropped into broths; baby bok choy cooks in minutes.",
+        "mixology_es": "Por mitades y sellado, salteado, en caldos; el baby se cocina en minutos.",
+        "examples": "A Chinese cabbage with a crunchy stalk and tender leaf, used across East Asia.",
+        "examples_es": "Una col china de tallo crujiente y hoja tierna, usada en toda Asia Oriental."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CRUCIFEROUS VEGETABLES",
+   "name_fr": "Légumes Crucifères",
+   "name_it": "Verdure Crucifere",
+   "name_es": "VERDURAS CRUCÍFERAS",
+   "color": "#5a8a3a",
+   "sub": [
+    {
+     "name": "CRUCIFEROUS VEGETABLES",
+     "name_fr": "Légumes Crucifères",
+     "name_it": "Verdure Crucifere",
+     "name_es": "VERDURAS CRUCÍFERAS",
+     "color": "#5a8a3a",
+     "descriptors": [
+      {
+       "name": "Broccoli",
+       "name_fr": "Brocoli",
+       "name_it": "Broccoli",
+       "name_es": "Brócoli",
+       "slug": "broccoli",
+       "panel": {
+        "origin": "Grassy, mildly sweet, and earthy; develops a nutty edge when roasted.",
+        "origin_es": "Herbáceo, algo dulce y terroso; gana un filo a nuez al asarse.",
+        "chemistry": "Crisp stalks and tender florets; turns soft and bright green when cooked.",
+        "chemistry_es": "Tallos crujientes y floretes tiernos; se vuelve blando y verde brillante al cocinarse.",
+        "pairing": "Garlic, lemon, chili, parmesan, sesame.",
+        "pairing_es": "Ajo, limón, chile, parmesano, sésamo.",
+        "mixology": "Roasted, steamed, stir-fried, raw in slaws; the peeled stalk is as good as the florets.",
+        "mixology_es": "Asado, al vapor, salteado, crudo en ensaladas; el tallo pelado es tan bueno como los floretes.",
+        "examples": "A cruciferous flower head bred from wild cabbage; harvested before the buds open.",
+        "examples_es": "Una cabeza floral crucífera criada de la col silvestre; se cosecha antes de que se abran los brotes."
+       }
+      },
+      {
+       "name": "Cauliflower",
+       "name_fr": "Chou-fleur",
+       "name_it": "Cavolfiore",
+       "name_es": "Coliflor",
+       "slug": "cauliflower",
+       "panel": {
+        "origin": "Mild, nutty, and faintly sweet; deepens and caramelizes when roasted.",
+        "origin_es": "Suave, a nuez y levemente dulce; se profundiza y carameliza al asarse.",
+        "chemistry": "Dense, firm florets that soften to creamy when cooked.",
+        "chemistry_es": "Floretes densos y firmes que se ablandan hasta quedar cremosos al cocinarse.",
+        "pairing": "Cumin, turmeric, cheese, capers, brown butter.",
+        "pairing_es": "Comino, cúrcuma, queso, alcaparras, mantequilla tostada.",
+        "mixology": "Roasted whole or in steaks, riced, puréed, in curries; a versatile starch substitute.",
+        "mixology_es": "Asada entera o en filetes, en 'arroz', en puré, en curris; un sustituto versátil del almidón.",
+        "examples": "A cruciferous flower head; the white curd is shielded from sun by its own leaves.",
+        "examples_es": "Una cabeza floral crucífera; la cuajada blanca queda protegida del sol por sus propias hojas."
+       }
+      },
+      {
+       "name": "Brussels Sprouts",
+       "name_fr": "Choux de Bruxelles",
+       "name_it": "Cavoletti di Bruxelles",
+       "name_es": "Coles de Bruselas",
+       "slug": "brussels-sprouts",
+       "panel": {
+        "origin": "Nutty and earthy with a gentle cabbage bitterness; sweet and crisp when roasted.",
+        "origin_es": "A nuez y terrosas, con un amargor suave de col; dulces y crujientes al asarse.",
+        "chemistry": "Tight, dense little heads; crisp outside, tender within when seared.",
+        "chemistry_es": "Cabezuelas pequeñas, apretadas y densas; crujientes por fuera y tiernas por dentro al sellarse.",
+        "pairing": "Bacon, balsamic, parmesan, chili, maple.",
+        "pairing_es": "Tocino, balsámico, parmesano, chile, arce.",
+        "mixology": "Roasted or seared cut-side down, shredded raw into slaws, never boiled to mush.",
+        "mixology_es": "Asadas o selladas por el corte, ralladas crudas en ensaladas, nunca hervidas hasta deshacerse.",
+        "examples": "A cruciferous bud that grows in rows up a tall stalk; modern breeding tamed the bitterness.",
+        "examples_es": "Un brote crucífero que crece en hileras por un tallo alto; el cultivo moderno suavizó su amargor."
+       }
+      },
+      {
+       "name": "Cabbage",
+       "name_fr": "Chou",
+       "name_it": "Cavolo",
+       "name_es": "Repollo",
+       "slug": "cabbage",
+       "panel": {
+        "origin": "Mild, sweet, and faintly peppery raw; mellow and sweet when cooked.",
+        "origin_es": "Suave, dulce y levemente picante en crudo; tierno y dulce al cocinarse.",
+        "chemistry": "Crisp, dense leaves that soften and turn silky when braised.",
+        "chemistry_es": "Hojas crujientes y densas que se ablandan y vuelven sedosas al brasearse.",
+        "pairing": "Caraway, vinegar, pork, apple, butter. The base of slaw, kraut, and kimchi.",
+        "pairing_es": "Alcaravea, vinagre, cerdo, manzana, mantequilla. La base del slaw, el chucrut y el kimchi.",
+        "mixology": "Shredded raw for slaw, braised, fermented (sauerkraut, kimchi), in soups and rolls.",
+        "mixology_es": "Rallado para slaw, braseado, fermentado (chucrut, kimchi), en sopas y rollitos.",
+        "examples": "A cruciferous head of tightly wrapped leaves; red, green, and Savoy are common types.",
+        "examples_es": "Una cabeza crucífera de hojas muy apretadas; el rojo, el verde y el de Saboya son tipos comunes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ROOTS, BULBS & TUBERS",
+   "name_fr": "Racines, Bulbes & Tubercules",
+   "name_it": "Radici, Bulbi & Tuberi",
+   "name_es": "RAÍCES, BULBOS Y TUBÉRCULOS",
+   "color": "#a8652a",
+   "sub": [
+    {
+     "name": "ROOTS, BULBS & TUBERS",
+     "name_fr": "Racines, Bulbes & Tubercules",
+     "name_it": "Radici, Bulbi & Tuberi",
+     "name_es": "RAÍCES, BULBOS Y TUBÉRCULOS",
+     "color": "#a8652a",
+     "descriptors": [
+      {
+       "name": "Carrot",
+       "name_fr": "Carotte",
+       "name_it": "Carota",
+       "name_es": "Zanahoria",
+       "slug": "carrot",
+       "panel": {
+        "origin": "Sweet and earthy with a fresh, faintly grassy note; sweeter when roasted.",
+        "origin_es": "Dulce y terrosa, con una nota fresca y levemente herbácea; más dulce al asarse.",
+        "chemistry": "Crisp and snappy raw; tender and soft when cooked.",
+        "chemistry_es": "Crujiente y firme en crudo; tierna y blanda al cocinarse.",
+        "pairing": "Cumin, ginger, honey, parsley, brown butter.",
+        "pairing_es": "Comino, jengibre, miel, perejil, mantequilla tostada.",
+        "mixology": "Raw in sticks and slaws, roasted, in stocks and soups (a mirepoix base), grated into cakes.",
+        "mixology_es": "Cruda en bastones y ensaladas, asada, en caldos y sopas (base de mirepoix), rallada en pasteles.",
+        "examples": "A taproot colored by beta-carotene; once mostly purple before orange types were bred.",
+        "examples_es": "Una raíz pivotante coloreada por el betacaroteno; antaño casi siempre morada antes de criarse las naranjas."
+       }
+      },
+      {
+       "name": "Beet",
+       "name_fr": "Betterave",
+       "name_it": "Barbabietola",
+       "name_es": "Remolacha",
+       "slug": "beet",
+       "panel": {
+        "origin": "Earthy and sweet with a deep, almost mineral richness; sweeter roasted.",
+        "origin_es": "Terrosa y dulce, con una riqueza profunda y casi mineral; más dulce asada.",
+        "chemistry": "Firm and dense; tender after roasting or boiling.",
+        "chemistry_es": "Firme y densa; tierna tras asarse o hervirse.",
+        "pairing": "Goat cheese, citrus, walnut, dill, horseradish.",
+        "pairing_es": "Queso de cabra, cítricos, nuez, eneldo, rábano picante.",
+        "mixology": "Roasted, boiled, pickled, grated raw into salads; the greens are edible too.",
+        "mixology_es": "Asada, hervida, en encurtido, rallada cruda en ensaladas; sus hojas también se comen.",
+        "examples": "A sweet taproot; its pigment (betalain) can tint dishes — and turn things deep magenta.",
+        "examples_es": "Una raíz dulce; su pigmento (betalaína) tiñe los platos — y deja todo de un magenta intenso."
+       }
+      },
+      {
+       "name": "Sweet Potato",
+       "name_fr": "Patate Douce",
+       "name_it": "Patata Dolce",
+       "name_es": "Batata",
+       "slug": "sweet-potato",
+       "panel": {
+        "origin": "Sweet, earthy, and rich; caramelizes deeply when roasted.",
+        "origin_es": "Dulce, terrosa y rica; se caramela profundamente al asarse.",
+        "chemistry": "Firm raw; soft, moist, and creamy when cooked.",
+        "chemistry_es": "Firme en crudo; blanda, húmeda y cremosa al cocinarse.",
+        "pairing": "Cinnamon, chili, lime, brown butter, pecan.",
+        "pairing_es": "Canela, chile, lima, mantequilla tostada, pacana.",
+        "mixology": "Roasted, mashed, in fries, soups, and pies; the skin is edible and nutritious.",
+        "mixology_es": "Asada, en puré, en papas fritas, sopas y tartas; la piel es comestible y nutritiva.",
+        "examples": "A root rich in beta-carotene (orange types); unrelated to the true potato despite the name.",
+        "examples_es": "Una raíz rica en betacaroteno (las naranjas); no emparentada con la papa pese al nombre."
+       }
+      },
+      {
+       "name": "Potato",
+       "name_fr": "Pomme de Terre",
+       "name_it": "Patata",
+       "name_es": "Papa",
+       "slug": "potato",
+       "panel": {
+        "origin": "Earthy, mild, and savory; a neutral canvas that carries fat and salt.",
+        "origin_es": "Terrosa, suave y sabrosa; un lienzo neutro que lleva grasa y sal.",
+        "chemistry": "Starchy and fluffy (russet) or waxy and firm (red, fingerling) depending on type.",
+        "chemistry_es": "Almidonada y esponjosa (russet) o cerosa y firme (roja, fingerling) según el tipo.",
+        "pairing": "Butter, cream, rosemary, garlic, cheese. Endlessly adaptable.",
+        "pairing_es": "Mantequilla, nata, romero, ajo, queso. Infinitamente adaptable.",
+        "mixology": "Roasted, mashed, fried, boiled; match starchy types to bakes, waxy to salads.",
+        "mixology_es": "Asada, en puré, frita, hervida; las almidonadas para horno, las cerosas para ensalada.",
+        "examples": "A tuber — a swollen underground stem; keep out of light, as green patches signal bitter solanine.",
+        "examples_es": "Un tubérculo — un tallo subterráneo hinchado; guárdala sin luz, pues las manchas verdes indican solanina amarga."
+       }
+      },
+      {
+       "name": "Radish",
+       "name_fr": "Radis",
+       "name_it": "Ravanello",
+       "name_es": "Rábano",
+       "slug": "radish",
+       "panel": {
+        "origin": "Crisp, peppery, and sharp; mellows and sweetens when cooked.",
+        "origin_es": "Crujiente, picante e intenso; se suaviza y endulza al cocinarse.",
+        "chemistry": "Crunchy and watery raw; tender when roasted.",
+        "chemistry_es": "Crujiente y acuoso en crudo; tierno al asarse.",
+        "pairing": "Butter, sea salt, citrus, herbs. The French radish-with-butter snack.",
+        "pairing_es": "Mantequilla, sal marina, cítricos, hierbas. El aperitivo francés de rábano con mantequilla.",
+        "mixology": "Raw in salads and on buttered bread, quick-pickled, roasted to mellow the bite.",
+        "mixology_es": "Crudo en ensaladas y sobre pan con mantequilla, encurtido rápido, asado para suavizar el picor.",
+        "examples": "A fast-growing root in the mustard family; daikon is the large, mild East Asian type.",
+        "examples_es": "Una raíz de crecimiento rápido de la familia de la mostaza; el daikon es el tipo grande y suave de Asia Oriental."
+       }
+      },
+      {
+       "name": "Onion",
+       "name_fr": "Oignon",
+       "name_it": "Cipolla",
+       "name_es": "Cebolla",
+       "slug": "onion",
+       "panel": {
+        "origin": "Sharp and pungent raw; deeply sweet and savory when slowly cooked.",
+        "origin_es": "Aguda y punzante en crudo; profundamente dulce y sabrosa cocida despacio.",
+        "chemistry": "Crisp and layered raw; meltingly soft when caramelized.",
+        "chemistry_es": "Crujiente y en capas en crudo; fundente cuando se carameliza.",
+        "pairing": "Nearly every savory dish; the foundation of soups, stocks, and sauces.",
+        "pairing_es": "Casi todo plato salado; la base de sopas, caldos y salsas.",
+        "mixology": "Raw in salads and salsas, sautéed as a base, caramelized, roasted; tears come from sulfur compounds.",
+        "mixology_es": "Cruda en ensaladas y salsas, salteada de base, caramelizada, asada; las lágrimas vienen de sus compuestos de azufre.",
+        "examples": "An allium bulb; slow cooking converts its sharp sulfur bite into deep sweetness.",
+        "examples_es": "Un bulbo de allium; la cocción lenta convierte su mordiente azufrado en dulzor profundo."
+       }
+      },
+      {
+       "name": "Garlic",
+       "name_fr": "Ail",
+       "name_it": "Aglio",
+       "name_es": "Ajo",
+       "slug": "garlic",
+       "panel": {
+        "origin": "Pungent and sharp raw; sweet, mellow, and nutty when roasted.",
+        "origin_es": "Punzante e intenso en crudo; dulce, suave y a nuez al asarse.",
+        "chemistry": "Firm cloves that turn soft and spreadable when roasted.",
+        "chemistry_es": "Dientes firmes que se vuelven blandos y untables al asarse.",
+        "pairing": "Olive oil, herbs, tomato, butter — almost everything savory.",
+        "pairing_es": "Aceite de oliva, hierbas, tomate, mantequilla — casi todo lo salado.",
+        "mixology": "Minced raw for punch, sautéed gently (never browned hard, it turns bitter), roasted whole.",
+        "mixology_es": "Picado crudo para fuerza, salteado suave (sin dorarlo en exceso, amarga), asado entero.",
+        "examples": "An allium bulb; crushing it triggers allicin, the compound behind its aroma and bite.",
+        "examples_es": "Un bulbo de allium; al machacarlo se libera la alicina, el compuesto tras su aroma y mordiente."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PEPPERS, PODS & SQUASH",
+   "name_fr": "Poivrons, Gousses & Courges",
+   "name_it": "Peperoni, Baccelli & Zucche",
+   "name_es": "PIMIENTOS, VAINAS Y CALABAZAS",
+   "color": "#7aa030",
+   "sub": [
+    {
+     "name": "PEPPERS, PODS & SQUASH",
+     "name_fr": "Poivrons, Gousses & Courges",
+     "name_it": "Peperoni, Baccelli & Zucche",
+     "name_es": "PIMIENTOS, VAINAS Y CALABAZAS",
+     "color": "#7aa030",
+     "descriptors": [
+      {
+       "name": "Bell Pepper",
+       "name_fr": "Poivron",
+       "name_it": "Peperone",
+       "name_es": "Pimiento",
+       "slug": "bell-pepper",
+       "panel": {
+        "origin": "Sweet, grassy, and bright; green is more bitter, red and yellow fully sweet.",
+        "origin_es": "Dulce, herbáceo y brillante; el verde es más amargo, el rojo y el amarillo bien dulces.",
+        "chemistry": "Crisp and juicy raw; soft and sweet when roasted.",
+        "chemistry_es": "Crujiente y jugoso en crudo; blando y dulce al asarse.",
+        "pairing": "Olive oil, garlic, tomato, basil, eggs.",
+        "pairing_es": "Aceite de oliva, ajo, tomate, albahaca, huevos.",
+        "mixology": "Raw in salads, roasted and peeled, stuffed, sautéed in soffritto and fajitas.",
+        "mixology_es": "Crudo en ensaladas, asado y pelado, relleno, salteado en soffritto y fajitas.",
+        "examples": "A sweet (non-spicy) Capsicum; botanically a fruit, fully ripe ones are the sweetest.",
+        "examples_es": "Un Capsicum dulce (no picante); botánicamente un fruto, los bien maduros son los más dulces."
+       }
+      },
+      {
+       "name": "Tomato",
+       "name_fr": "Tomate",
+       "name_it": "Pomodoro",
+       "name_es": "Tomate",
+       "slug": "tomato",
+       "panel": {
+        "origin": "Sweet-tart and savory with deep umami when ripe; bland and mealy if refrigerated.",
+        "origin_es": "Dulce-ácido y sabroso, con umami profundo al madurar; soso y harinoso si se refrigera.",
+        "chemistry": "Juicy, seedy flesh; meaty in paste types, watery in slicers.",
+        "chemistry_es": "Pulpa jugosa y con semillas; carnosa en los de pasta, acuosa en los de rodaja.",
+        "pairing": "Basil, olive oil, mozzarella, garlic. The heart of so much Italian cooking.",
+        "pairing_es": "Albahaca, aceite de oliva, mozzarella, ajo. El corazón de gran parte de la cocina italiana.",
+        "mixology": "Raw in salads, roasted, simmered into sauce, sun-dried; never store ripe ones in the fridge.",
+        "mixology_es": "Crudo en ensaladas, asado, cocido en salsa, secado al sol; nunca guardes los maduros en la nevera.",
+        "examples": "Botanically a fruit (a berry) treated as a vegetable; lycopene becomes more available cooked.",
+        "examples_es": "Botánicamente un fruto (una baya) tratado como verdura; el licopeno se aprovecha mejor cocido."
+       }
+      },
+      {
+       "name": "Cucumber",
+       "name_fr": "Concombre",
+       "name_it": "Cetriolo",
+       "name_es": "Pepino",
+       "slug": "cucumber",
+       "panel": {
+        "origin": "Cool, clean, and mild with a fresh, watery crispness.",
+        "origin_es": "Fresco, limpio y suave, con una frescura acuosa y crujiente.",
+        "chemistry": "Crisp, watery flesh and a thin skin; seeds are soft.",
+        "chemistry_es": "Pulpa crujiente y acuosa con piel fina; las semillas son blandas.",
+        "pairing": "Yogurt, dill, mint, vinegar, chili. The base of tzatziki and quick pickles.",
+        "pairing_es": "Yogur, eneldo, menta, vinagre, chile. La base del tzatziki y los encurtidos rápidos.",
+        "mixology": "Raw in salads, pickled, in cold soups (gazpacho), infused into water.",
+        "mixology_es": "Crudo en ensaladas, encurtido, en sopas frías (gazpacho), infusionado en agua.",
+        "examples": "Botanically a fruit in the gourd family, kin to melon and squash; salting draws out water.",
+        "examples_es": "Botánicamente un fruto de la familia de las cucurbitáceas, pariente del melón y la calabaza; la sal le saca agua."
+       }
+      },
+      {
+       "name": "Zucchini",
+       "name_fr": "Courgette",
+       "name_it": "Zucchina",
+       "name_es": "Calabacín",
+       "slug": "zucchini",
+       "panel": {
+        "origin": "Mild, fresh, and faintly sweet; a neutral carrier for other flavors.",
+        "origin_es": "Suave, fresco y levemente dulce; un vehículo neutro para otros sabores.",
+        "chemistry": "Tender, watery flesh; softens fast and can go mushy if overcooked.",
+        "chemistry_es": "Pulpa tierna y acuosa; se ablanda rápido y puede aguarse si se cocina de más.",
+        "pairing": "Garlic, lemon, mint, parmesan, tomato.",
+        "pairing_es": "Ajo, limón, menta, parmesano, tomate.",
+        "mixology": "Grilled, sautéed, spiralized into noodles, grated into bread, stuffed; salt to shed water.",
+        "mixology_es": "A la parrilla, salteado, en espirales como fideos, rallado en pan, relleno; sálalo para que suelte agua.",
+        "examples": "A summer squash (botanically a fruit) picked young and tender, flowers and all edible.",
+        "examples_es": "Una calabaza de verano (botánicamente un fruto) recogida joven y tierna, con flores comestibles."
+       }
+      },
+      {
+       "name": "Green Peas",
+       "name_fr": "Petits Pois",
+       "name_it": "Piselli",
+       "name_es": "Guisantes",
+       "slug": "green-peas",
+       "panel": {
+        "origin": "Sweet, fresh, and grassy at their peak; starchier as they age.",
+        "origin_es": "Dulces, frescos y herbáceos en su punto; más almidonados al envejecer.",
+        "chemistry": "Tender pop of the pod; frozen peas keep their sweetness well.",
+        "chemistry_es": "Un estallido tierno de la vaina; los congelados conservan bien el dulzor.",
+        "pairing": "Mint, butter, lemon, ham, parmesan.",
+        "pairing_es": "Menta, mantequilla, limón, jamón, parmesano.",
+        "mixology": "Steamed, in risotto and pasta, puréed into soups, raw when very fresh.",
+        "mixology_es": "Al vapor, en risotto y pasta, en puré para sopas, crudos cuando están muy frescos.",
+        "examples": "A legume eaten as the immature seed; the natural sugars turn to starch quickly after picking.",
+        "examples_es": "Una legumbre comida como semilla inmadura; sus azúcares se vuelven almidón pronto tras recogerse."
+       }
+      },
+      {
+       "name": "Asparagus",
+       "name_fr": "Asperge",
+       "name_it": "Asparago",
+       "name_es": "Espárrago",
+       "slug": "asparagus",
+       "panel": {
+        "origin": "Grassy, mineral, and faintly sweet with a distinctive green depth.",
+        "origin_es": "Herbáceo, mineral y levemente dulce, con una profundidad verde distintiva.",
+        "chemistry": "Crisp-tender spears; woody at the base, where they naturally snap off.",
+        "chemistry_es": "Tallos tiernos pero firmes; leñosos en la base, donde se parten solos.",
+        "pairing": "Lemon, butter, egg, parmesan, prosciutto.",
+        "pairing_es": "Limón, mantequilla, huevo, parmesano, jamón.",
+        "mixology": "Roasted, grilled, blanched, shaved raw; snap off the woody ends before cooking.",
+        "mixology_es": "Asado, a la parrilla, escaldado, en láminas crudas; rompe los extremos leñosos antes de cocinar.",
+        "examples": "The young shoot of a perennial; thick and thin spears differ in age, not tenderness.",
+        "examples_es": "El brote joven de una planta perenne; los tallos gruesos y finos difieren en edad, no en ternura."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "ORCHARD & STONE FRUITS": {
+   "en": "Apples and pears are 'pomes' — the part you eat is the swollen base of the flower, while the true fruit is the papery core around the seeds.",
+   "es": "La manzana y la pera son 'pomos' — lo que comes es la base hinchada de la flor, mientras que el fruto real es el corazón apergaminado que rodea las semillas."
+  },
+  "CITRUS FRUITS": {
+   "en": "Almost every citrus you buy is a hybrid of just a few wild ancestors — citron, pomelo, and mandarin — endlessly crossed into oranges, lemons, limes, and grapefruit.",
+   "es": "Casi todo cítrico que compras es un híbrido de unos pocos ancestros silvestres — cidra, pomelo y mandarina — cruzados sin fin en naranjas, limones, limas y toronjas."
+  },
+  "TROPICAL & EXOTIC FRUITS": {
+   "en": "Botanically the banana is a berry, and the plant is a giant herb, not a tree — its 'trunk' is just tightly packed leaf bases.",
+   "es": "Botánicamente el plátano es una baya, y la planta es una hierba gigante, no un árbol — su 'tronco' son solo bases de hoja muy apretadas."
+  },
+  "MELONS & RICH FRUITS": {
+   "en": "Avocados refuse to ripen on the tree — they only soften after picking, so growers use the tree as natural storage and harvest on demand.",
+   "es": "El aguacate se niega a madurar en el árbol — solo se ablanda tras cortarse, así que los cultivadores usan el árbol como almacén natural y cosechan a demanda."
+  },
+  "LEAFY GREENS": {
+   "en": "A whole pan of raw spinach cooks down to almost nothing — the leaves are mostly water held in a thin structure that collapses the moment it hits heat.",
+   "es": "Una sartén entera de espinaca cruda se reduce a casi nada — las hojas son casi todo agua en una estructura fina que se colapsa apenas toca el calor."
+  },
+  "CRUCIFEROUS VEGETABLES": {
+   "en": "Broccoli, cauliflower, cabbage, kale, and Brussels sprouts are all one species — centuries of breeding one wild mustard for different parts: flower, leaf, and bud.",
+   "es": "El brócoli, la coliflor, el repollo, la col rizada y las coles de Bruselas son una sola especie — siglos criando una mostaza silvestre por partes distintas: flor, hoja y brote."
+  },
+  "ROOTS, BULBS & TUBERS": {
+   "en": "The potato is a tuber — a swollen underground stem, not a root — which is why its 'eyes' can sprout whole new plants; keep it out of light, since green patches mean bitter solanine.",
+   "es": "La papa es un tubérculo — un tallo subterráneo hinchado, no una raíz — por eso sus 'ojos' brotan plantas enteras; guárdala sin luz, pues las manchas verdes significan solanina amarga."
+  },
+  "PEPPERS, PODS & SQUASH": {
+   "en": "Tomatoes, cucumbers, peppers, and zucchini are all botanically fruits — they hold the seeds — even though the kitchen treats every one of them as a vegetable.",
+   "es": "El tomate, el pepino, el pimiento y el calabacín son todos botánicamente frutos — guardan las semillas — aunque la cocina los trate a todos como verduras."
+  }
+ }
+}

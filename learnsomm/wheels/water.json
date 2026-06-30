@@ -1,0 +1,692 @@
+{
+ "title": "Water",
+ "subject": "water",
+ "categories": [
+  {
+   "name": "SURFACE & MUNICIPAL",
+   "name_fr": "SURFACE & MUNICIPALE",
+   "name_it": "SUPERFICIALE & MUNICIPALE",
+   "name_es": "SUPERFICIAL Y MUNICIPAL",
+   "color": "#5b9bd5",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Surface & Municipal",
+     "name_fr": "Surface & Municipale",
+     "name_it": "Superficiale & Municipale",
+     "name_es": "Superficial y Municipal",
+     "color": "#5b9bd5",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Tap Water",
+       "name_fr": "Eau du Robinet",
+       "name_it": "Acqua di Rubinetto",
+       "slug": "tap-water",
+       "color": "#7ab3e0",
+       "name_es": "Agua de Grifo",
+       "panel": {
+        "origin": "Tap water is sourced from rivers, lakes, reservoirs, or underground aquifers and delivered through municipal distribution systems. In the United States, about 150,000 public water systems serve the population, regulated under the Safe Drinking Water Act. The EPA sets maximum contaminant levels for 91 specific substances. Municipalities treat water with processes like coagulation, sedimentation, filtration, and disinfection before delivery.",
+        "origin_es": "El agua de grifo proviene de ríos, lagos, embalses o acuíferos subterráneos y se distribuye a través de sistemas municipales. En EE.UU., alrededor de 150,000 sistemas públicos de agua sirven a la población, regulados bajo la Ley de Agua Potable Segura.",
+        "chemistry": "Chlorine or chloramines are added as disinfectants to kill bacteria and viruses. Fluoride is added in most U.S. systems to prevent tooth decay (typically at 0.7 mg/L). pH is adjusted to prevent pipe corrosion. Coagulants like alum cause suspended particles to clump and settle. Despite regulation, trace amounts of pesticides, pharmaceuticals, heavy metals (from old pipes), and microplastics may still be present.",
+        "chemistry_es": "Se añaden cloro o cloraminas como desinfectantes. El fluoruro se añade en la mayoría de los sistemas de EE.UU. para prevenir la caries (típicamente a 0.7 mg/L). El pH se ajusta para prevenir la corrosión de las tuberías.",
+        "pairing": "Tap water is ideal for cooking, boiling pasta, making coffee and tea, and general hydration. Its mineral content varies by region. Using a carbon filter pitcher improves taste by removing chlorine taste and odor without removing beneficial fluoride.",
+        "pairing_es": "El agua de grifo es ideal para cocinar, hervir pasta, preparar café y té, e hidratación general. Su contenido mineral varía según la región.",
+        "examples": "U.S. municipal water (EPA-regulated), NYC tap water (from Catskill/Delaware reservoirs), Chicago tap water (Lake Michigan), Los Angeles (DWP blend of multiple sources).",
+        "examples_es": "Agua municipal de EE.UU. (regulada por la EPA), agua de grifo de Nueva York (embalses Catskill/Delaware), Chicago (Lago Michigan), Los Ángeles (mezcla de múltiples fuentes)."
+       }
+      },
+      {
+       "name": "Filtered Water",
+       "name_fr": "Eau Filtrée",
+       "name_it": "Acqua Filtrata",
+       "slug": "filtered-water",
+       "color": "#4a8bc4",
+       "name_es": "Agua Filtrada",
+       "panel": {
+        "origin": "Filtered water is tap or well water run through a filtration device to improve taste, odor, or remove specific contaminants. Home filtration systems range from simple activated carbon pitcher filters (Brita, PUR) to under-sink systems to whole-house filtration. Four states — California, Iowa, Massachusetts, and Wisconsin — have specific regulations for water filters; there are no federal standards for filter design or effectiveness claims.",
+        "origin_es": "El agua filtrada es agua de grifo o de pozo que pasa por un dispositivo de filtración para mejorar el sabor, el olor o eliminar contaminantes específicos. Los filtros van desde simples jarras con carbón activado hasta sistemas bajo el fregadero o de toda la casa.",
+        "chemistry": "Activated carbon (charcoal) is the most common filter medium, physically adsorbing chlorine, chloramines, volatile organic compounds (VOCs), and some heavy metals. It does not remove dissolved minerals, fluoride, or most bacteria. Carbon filters must be replaced regularly — a clogged, expired filter can harbor bacterial and fungal growth, potentially worsening water quality.",
+        "chemistry_es": "El carbón activado (carboncillo) es el medio de filtración más común, adsorbiendo físicamente el cloro, las cloraminas, los compuestos orgánicos volátiles (COV) y algunos metales pesados. No elimina los minerales disueltos, el fluoruro ni la mayoría de las bacterias.",
+        "pairing": "Best used for drinking and cooking where tap water has chlorine taste or odor. Carbon-filtered tap water retains beneficial fluoride while removing disinfection byproducts. Not appropriate for treating water from unsafe or contaminated well sources without more advanced treatment.",
+        "pairing_es": "Mejor para beber y cocinar cuando el agua de grifo tiene sabor u olor a cloro. El agua de grifo filtrada con carbón retiene el fluoruro beneficioso mientras elimina los subproductos de la desinfección.",
+        "examples": "Brita pitcher filter (activated carbon), PUR faucet filter, Aquasana countertop (Claryum® selective filtration), Berkey gravity filter, refrigerator built-in filters.",
+        "examples_es": "Filtro jarra Brita (carbón activado), filtro de grifo PUR, Aquasana de encimera (filtración selectiva Claryum®), filtro por gravedad Berkey."
+       }
+      },
+      {
+       "name": "Fluoridated Water",
+       "name_fr": "Eau Fluorée",
+       "name_it": "Acqua Fluorata",
+       "slug": "fluoridated-water",
+       "color": "#3a7ab3",
+       "name_es": "Agua Fluorada",
+       "panel": {
+        "origin": "Community water fluoridation began in the United States in 1945 in Grand Rapids, Michigan, making it one of the great public health achievements of the 20th century. The CDC recognizes water fluoridation as one of the ten great public health achievements of the 20th century. Currently, about 73% of the U.S. population on public water systems receives fluoridated water. The current recommended level is 0.7 mg/L (adjusted downward from 1.0 mg/L in 2015).",
+        "origin_es": "La fluoración comunitaria del agua comenzó en EE.UU. en 1945 en Grand Rapids, Michigan, siendo uno de los grandes logros de salud pública del siglo XX. Actualmente, alrededor del 73% de la población de EE.UU. en sistemas públicos de agua recibe agua fluorada.",
+        "chemistry": "Fluoride (F⁻) ions are added as sodium fluoride, sodium fluorosilicate, or hydrofluorosilicic acid. In saliva, fluoride creates a low-level reservoir that slows demineralization of tooth enamel and promotes remineralization in early-stage cavities. The optimal range (0.7–1.0 mg/L) prevents dental caries without causing dental fluorosis at normal consumption levels.",
+        "chemistry_es": "Se añaden iones de fluoruro (F⁻) como fluoruro de sodio, fluorosilicato de sodio o ácido hidrofluorosilícico. En la saliva, el fluoruro crea un reservorio de bajo nivel que reduce la desmineralización del esmalte dental y promueve la remineralización.",
+        "pairing": "Benefits are systemic when swallowed (children) and topical when in contact with teeth. Effective for cavity prevention across all ages. Most carbon filters preserve fluoride; reverse osmosis and distillation remove it.",
+        "pairing_es": "Los beneficios son sistémicos cuando se traga (niños) y tópicos cuando está en contacto con los dientes. Efectivo para la prevención de caries en todas las edades.",
+        "examples": "Most U.S. municipal water supplies (check local Consumer Confidence Report), fluoridated bottled water (labeled), some European systems (Ireland fluoridates; most of Europe does not).",
+        "examples_es": "La mayoría de los suministros de agua municipales de EE.UU. (consultar el Informe de Confianza del Consumidor local), agua embotellada fluorada (etiquetada), algunos sistemas europeos (Irlanda fluoridates)."
+       }
+      },
+      {
+       "name": "Rainwater",
+       "name_fr": "Eau de Pluie",
+       "name_it": "Acqua Piovana",
+       "slug": "rainwater",
+       "color": "#6aaad8",
+       "name_es": "Agua de Lluvia",
+       "panel": {
+        "origin": "Rainwater collection (rainwater harvesting) is gaining popularity as a sustainable water source for households, agriculture, and landscaping. Rain begins as distilled water vapor that condenses around atmospheric particulates (dust, pollen, microbes). By the time it reaches the ground, it has absorbed CO₂ (making it slightly acidic at pH 5.6), atmospheric pollutants, heavy metals, and biological contaminants. Legality of collection varies by state.",
+        "origin_es": "La recolección de agua de lluvia está ganando popularidad como fuente de agua sostenible. La lluvia comienza como vapor de agua destilada que se condensa alrededor de partículas atmosféricas. Para cuando llega al suelo, ha absorbido CO₂ (volviéndola ligeramente ácida), contaminantes atmosféricos y contaminantes biológicos.",
+        "chemistry": "Fresh rainwater has pH ~5.6 due to dissolved CO₂ forming carbonic acid. In areas with air pollution, it can absorb sulfur dioxide and nitrogen oxides, producing acid rain (pH as low as 4.2). First-flush diverters discard the most contaminated initial collection. For potable use, treatment with UV filtration and carbon filtration is recommended.",
+        "chemistry_es": "El agua de lluvia fresca tiene pH ~5.6 debido al CO₂ disuelto formando ácido carbónico. En áreas con contaminación del aire, puede absorber dióxido de azufre y óxidos de nitrógeno, produciendo lluvia ácida (pH tan bajo como 4.2).",
+        "pairing": "Best suited for irrigation, toilet flushing, and laundry without treatment. For potable use, requires first-flush diversion, sediment filtration, UV treatment, and carbon filtration. Can be integrated with whole-house UV and carbon filtration systems.",
+        "pairing_es": "Mejor para riego, descarga de inodoros y lavandería sin tratamiento. Para uso potable, requiere desviación de primera descarga, filtración de sedimentos, tratamiento UV y filtración de carbón.",
+        "examples": "Residential rain barrel systems (landscape irrigation), whole-cistern collection systems (homes in water-scarce areas), Texas (one of the most permissive rainwater collection states), Hawaii (widespread use).",
+        "examples_es": "Sistemas domésticos de barril de lluvia (riego paisajístico), sistemas de cisterna completa (hogares en áreas con escasez de agua), Texas (uno de los estados más permisivos para la recolección de agua de lluvia)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GROUNDWATER",
+   "name_fr": "EAU SOUTERRAINE",
+   "name_it": "ACQUA SOTTERRANEA",
+   "name_es": "AGUA SUBTERRÁNEA",
+   "color": "#2e8b57",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Groundwater",
+     "name_fr": "Eau Souterraine",
+     "name_it": "Acqua Sotterranea",
+     "name_es": "Agua Subterránea",
+     "color": "#2e8b57",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Spring Water",
+       "name_fr": "Eau de Source",
+       "name_it": "Acqua di Sorgente",
+       "slug": "spring-water",
+       "color": "#3aa870",
+       "name_es": "Agua de Manantial",
+       "panel": {
+        "origin": "Spring water originates from underground aquifers that flow naturally to the earth's surface at a specific location. The FDA defines spring water for bottled products: it must be collected at the spring or from a borehole hydraulically connected to it, with the same composition as water flowing naturally to the surface. Well-known brands include Evian (French Alps), Arrowhead (San Bernardino Mountains), and Poland Spring (Maine).",
+        "origin_es": "El agua de manantial se origina en acuíferos subterráneos que fluyen naturalmente a la superficie terrestre en un lugar específico. La FDA define el agua de manantial para productos embotellados: debe recolectarse en el manantial o desde un pozo hidráulicamente conectado a él.",
+        "chemistry": "As groundwater flows through geological formations (limestone, granite, sandstone), it dissolves minerals including calcium, magnesium, bicarbonate, potassium, and sodium. The specific mineral profile reflects the local geology. Spring water typically has a natural pH slightly above 7 due to calcium bicarbonate content. It is naturally filtered by the geological layers it passes through.",
+        "chemistry_es": "A medida que el agua subterránea fluye a través de formaciones geológicas, disuelve minerales incluyendo calcio, magnesio, bicarbonato, potasio y sodio. El perfil mineral específico refleja la geología local. El agua de manantial generalmente tiene un pH natural ligeramente superior a 7.",
+        "pairing": "The mineral content and pH of spring water pair well with food — used in cooking, coffee (mineral balance affects extraction), and tea. High-mineral spring waters complement aged cheeses and charcuterie. The naturally occurring bicarbonate aids digestion.",
+        "pairing_es": "El contenido mineral y el pH del agua de manantial combinan bien con los alimentos: se usa en cocina, café (el balance mineral afecta la extracción) y té. Las aguas de manantial con alto contenido mineral complementan los quesos curados y la charcutería.",
+        "examples": "Evian (French Alps, hard water with calcium and magnesium), Poland Spring (Maine), Arrowhead (San Bernardino Mountains), FIJI (Viti Levu aquifer, naturally filtered through volcanic rock), Volvic (French volcanic region).",
+        "examples_es": "Evian (Alpes franceses, agua dura con calcio y magnesio), Poland Spring (Maine), Arrowhead (Montañas San Bernardino), FIJI (acuífero de Viti Levu, filtrada naturalmente a través de roca volcánica), Volvic (región volcánica francesa)."
+       }
+      },
+      {
+       "name": "Artesian Water",
+       "name_fr": "Eau Artésienne",
+       "name_it": "Acqua Artesiana",
+       "slug": "artesian-water",
+       "color": "#28a060",
+       "name_es": "Agua Artesiana",
+       "panel": {
+        "origin": "Artesian water comes from a confined aquifer — an underground layer of water-bearing rock bounded above and below by impermeable layers (aquicludes). The pressure within the confined aquifer (artesian pressure) forces the water upward without pumping when a well is drilled. The name derives from the Artois region of France, where such wells were first drilled in the 12th century. FIJI Water and Voss are prominent artesian water brands.",
+        "origin_es": "El agua artesiana proviene de un acuífero confinado — una capa subterránea de roca que contiene agua delimitada por capas impermeables. La presión dentro del acuífero confinado fuerza el agua hacia arriba sin bombeo cuando se perfora un pozo. El nombre deriva de la región de Artois, Francia.",
+        "chemistry": "Because the aquifer is confined and protected by impermeable rock layers, artesian water is naturally isolated from surface contamination. It may have been underground for decades to thousands of years, absorbing minerals along the way. The trace mineral profile of artesian water is determined by the specific geology of the confining aquifer.",
+        "chemistry_es": "Debido a que el acuífero está confinado y protegido por capas de roca impermeables, el agua artesiana está naturalmente aislada de la contaminación superficial. Puede haber estado bajo tierra durante décadas o miles de años, absorbiendo minerales.",
+        "pairing": "Often marketed as premium drinking water. The natural mineral balance and purity make it well-suited for drinking straight, for premium coffee and tea, and as a table water. The geological protection provides a reliable mineral profile consistent over time.",
+        "pairing_es": "A menudo comercializada como agua premium para beber. El equilibrio mineral natural y la pureza la hacen adecuada para beber directamente, para café y té premium, y como agua de mesa.",
+        "examples": "FIJI Water (Viti Levu artesian aquifer, Fiji), Voss (artesian source in Iveland, Norway), Ice Mountain (Michigan artesian wells), Gerolsteiner (Germany, naturally carbonated artesian spring).",
+        "examples_es": "FIJI Water (acuífero artesiano de Viti Levu, Fiyi), Voss (fuente artesiana en Iveland, Noruega), Ice Mountain (pozos artesianos de Michigan), Gerolsteiner (Alemania, manantial artesiano naturalmente carbonatado)."
+       }
+      },
+      {
+       "name": "Mineral Water",
+       "name_fr": "Eau Minérale",
+       "name_it": "Acqua Minerale",
+       "slug": "mineral-water",
+       "color": "#209050",
+       "name_es": "Agua Mineral",
+       "panel": {
+        "origin": "The FDA defines mineral water as water from an underground source containing at least 250 parts per million (ppm) total dissolved solids (TDS), with minerals and trace elements originating from the geological source — they cannot be added later. Spa towns across Europe built their reputations on therapeutic mineral waters: Baden-Baden (Germany), Bath (England), and Contrexéville (France) have centuries-long histories as mineral water destinations.",
+        "origin_es": "La FDA define el agua mineral como agua de una fuente subterránea que contiene al menos 250 ppm de sólidos disueltos totales (SDT), con minerales y oligoelementos que se originan en la fuente geológica — no se pueden añadir posteriormente.",
+        "chemistry": "Mineral water typically contains elevated levels of calcium (Ca²⁺), magnesium (Mg²⁺), bicarbonate (HCO₃⁻), sodium (Na⁺), potassium (K⁺), and sulfate (SO₄²⁻). A 2023 review found calcium-rich mineral water particularly beneficial for people with lactose intolerance. A 2024 review found it may support bone, teeth, and immune system health. High-sodium mineral waters may be problematic for those with hypertension.",
+        "chemistry_es": "El agua mineral típicamente contiene niveles elevados de calcio, magnesio, bicarbonato, sodio, potasio y sulfato. Un estudio de 2023 encontró que el agua mineral rica en calcio es particularmente beneficiosa para personas con intolerancia a la lactosa.",
+        "pairing": "High-mineral waters (Contrex, San Pellegrino, Gerolsteiner) complement rich, fatty foods and cleanse the palate between courses. Low-mineral waters are preferred for coffee and tea (high mineral content interferes with flavor extraction). Used extensively in European restaurant water service.",
+        "pairing_es": "Las aguas de alto contenido mineral complementan los alimentos ricos y grasos y limpian el paladar entre platos. Las aguas de bajo contenido mineral son preferidas para café y té (el alto contenido mineral interfiere con la extracción de sabor).",
+        "examples": "San Pellegrino (Italy, 1,109 mg/L TDS, naturally sparkling), Evian (304 mg/L TDS, still), Contrex (France, 2,078 mg/L TDS, high calcium for bone health), Gerolsteiner (2,527 mg/L TDS, naturally carbonated), Perrier (France, naturally sparkling).",
+        "examples_es": "San Pellegrino (Italia, 1,109 mg/L SDT, naturalmente con gas), Evian (304 mg/L SDT, sin gas), Contrex (Francia, 2,078 mg/L SDT, alto calcio para la salud ósea), Gerolsteiner (2,527 mg/L SDT, naturalmente carbonatada)."
+       }
+      },
+      {
+       "name": "Well Water",
+       "name_fr": "Eau de Puits",
+       "name_it": "Acqua di Pozzo",
+       "slug": "well-water",
+       "color": "#187840",
+       "name_es": "Agua de Pozo",
+       "panel": {
+        "origin": "Well water comes directly from underground aquifers accessed by drilling or digging. About 10% of Americans (approximately 43 million people) rely on private wells for drinking water. Private wells are NOT regulated under the Safe Drinking Water Act — homeowners bear full responsibility for testing and treatment. A CDC study of 2,100 private wells found approximately one in five had at least one contaminant exceeding health benchmarks, including metals, radionuclides, and nitrate.",
+        "origin_es": "El agua de pozo proviene directamente de acuíferos subterráneos a los que se accede perforando o excavando. Aproximadamente el 10% de los estadounidenses dependen de pozos privados para el agua potable. Los pozos privados NO están regulados bajo la Ley de Agua Potable Segura.",
+        "chemistry": "Well water quality depends entirely on local geology and land use. Common contaminants include nitrates (from agricultural runoff — dangerous for infants), arsenic (naturally occurring in some geological formations), iron, manganese, radon, coliform bacteria, and E. coli. Hard minerals (calcium, magnesium) are typical in well water. Annual testing for bacteria, nitrates, and pH is strongly recommended; testing for other parameters depends on local geology and nearby land use.",
+        "chemistry_es": "La calidad del agua de pozo depende completamente de la geología local y el uso del suelo. Los contaminantes comunes incluyen nitratos (de la escorrentía agrícola), arsénico (de origen natural en algunas formaciones geológicas), hierro, manganeso, radón y bacterias coliformes.",
+        "pairing": "Fresh, properly tested well water can be excellent drinking water with distinctive local mineral character. May require treatment for hardness, iron, manganese, or bacteria. Can be tied into whole-house carbon filtration and UV treatment for potable safety.",
+        "pairing_es": "El agua de pozo fresca y debidamente probada puede ser excelente agua potable con un carácter mineral local distintivo. Puede requerir tratamiento para dureza, hierro, manganeso o bacterias.",
+        "examples": "Private residential wells (rural U.S.), farm wells (require regular agricultural runoff testing), deep drilled wells (thousands of feet, accessing ancient aquifers), shallow dug wells (10–30 feet, most susceptible to surface contamination).",
+        "examples_es": "Pozos residenciales privados (zonas rurales de EE.UU.), pozos de granjas (requieren pruebas regulares de escorrentía agrícola), pozos profundos perforados (miles de pies, accediendo a acuíferos antiguos), pozos excavados superficiales (10–30 pies, más susceptibles a contaminación superficial)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PURIFIED",
+   "name_fr": "PURIFIÉE",
+   "name_it": "PURIFICATA",
+   "name_es": "PURIFICADA",
+   "color": "#a0c4e8",
+   "textColor": "#1a2a3a",
+   "sub": [
+    {
+     "name": "Purified",
+     "name_fr": "Purifiée",
+     "name_it": "Purificata",
+     "name_es": "Purificada",
+     "color": "#a0c4e8",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Purified Water",
+       "name_fr": "Eau Purifiée",
+       "name_it": "Acqua Purificata",
+       "slug": "purified-water",
+       "color": "#b8d8f0",
+       "name_es": "Agua Purificada",
+       "panel": {
+        "origin": "Purified water can originate from any source — tap, well, spring, or surface water — but has been processed to meet the purified water standards of the U.S. Pharmacopeia: no more than 10 parts per million total dissolved solids, free of microbes if treated by distillation or reverse osmosis. Multiple treatment technologies can be used including distillation, deionization, reverse osmosis, ozonation, and absolute 1-micron filtration.",
+        "origin_es": "El agua purificada puede originarse de cualquier fuente — grifo, pozo, manantial o agua superficial — pero ha sido procesada para cumplir los estándares de agua purificada de la Farmacopea de EE.UU.: no más de 10 ppm de sólidos disueltos totales.",
+        "chemistry": "The purification process removes essentially all dissolved solids, bacteria, viruses, and chemical contaminants. The resulting water is nearly pure H₂O with conductivity approaching that of theoretical pure water. This also removes naturally beneficial minerals (calcium, magnesium, fluoride). Some commercial brands remineralize after purification. Long-term consumption of fully demineralized water may increase risk of nutrient deficiencies and may increase urination frequency.",
+        "chemistry_es": "El proceso de purificación elimina esencialmente todos los sólidos disueltos, bacterias, virus y contaminantes químicos. El agua resultante es casi H₂O puro. Esto también elimina minerales naturalmente beneficiosos (calcio, magnesio, fluoruro).",
+        "pairing": "Ideal as a safety-first drinking option in areas with contaminated or unknown water sources. Used in pharmaceutical manufacturing, laboratory work, medical devices, and food production. Not ideal as the sole long-term drinking source without mineral supplementation through food.",
+        "pairing_es": "Ideal como opción de beber prioritariamente en áreas con fuentes de agua contaminadas o desconocidas. Se usa en fabricación farmacéutica, trabajo de laboratorio, dispositivos médicos y producción de alimentos.",
+        "examples": "Dasani (Coca-Cola, purified tap water with minerals added back), Aquafina (PepsiCo, purified tap water), Smartwater (purified, vapor-distilled with electrolytes added), Nestlé Pure Life (purified with minerals).",
+        "examples_es": "Dasani (Coca-Cola, agua de grifo purificada con minerales añadidos), Aquafina (PepsiCo, agua de grifo purificada), Smartwater (purificada, destilada por vapor con electrolitos añadidos), Nestlé Pure Life (purificada con minerales)."
+       }
+      },
+      {
+       "name": "Distilled Water",
+       "name_fr": "Eau Distillée",
+       "name_it": "Acqua Distillata",
+       "slug": "distilled-water",
+       "color": "#90b8e0",
+       "name_es": "Agua Destilada",
+       "panel": {
+        "origin": "Distilled water is produced by boiling water into steam and condensing that steam back into liquid form. The distillation process was used in ancient Alexandria (4th century BCE) and is one of the oldest purification methods. Today it is widely used in medical settings, laboratory work, humidifiers, CPAP machines, steam irons, and car batteries — applications where mineral buildup or microbial contamination would be damaging.",
+        "origin_es": "El agua destilada se produce hirviendo agua en vapor y condensando ese vapor de vuelta en forma líquida. El proceso de destilación se usaba en la antigua Alejandría (siglo IV a.C.) y es uno de los métodos de purificación más antiguos.",
+        "chemistry": "Distillation removes minerals, bacteria, viruses, heavy metals, and most chemical contaminants. However, volatile organic compounds (VOCs) with boiling points below water's (100°C) may concentrate in the distillate rather than being removed — making additional carbon filtration important for truly pure distilled water. The resulting water is so pure it absorbs CO₂ from air, making it slightly acidic (pH 5.5–6.5). Its flat taste comes from the absence of dissolved minerals.",
+        "chemistry_es": "La destilación elimina minerales, bacterias, virus, metales pesados y la mayoría de los contaminantes químicos. Sin embargo, los COV con puntos de ebullición por debajo del agua pueden concentrarse en el destilado. El agua pura resultante absorbe CO₂ del aire, haciéndola ligeramente ácida (pH 5.5–6.5).",
+        "pairing": "Recommended for humidifiers (prevents mineral scale buildup), CPAP machines (manufacturer requirement in most cases), steam irons, nasal irrigation (neti pots), car batteries, and aquariums. Generally not recommended as a primary drinking water — the flat taste and absence of minerals make it less suitable for daily hydration.",
+        "pairing_es": "Recomendada para humidificadores (previene la acumulación de incrustaciones minerales), máquinas CPAP (requisito del fabricante en la mayoría de los casos), planchas de vapor, irrigación nasal, baterías de automóviles y acuarios.",
+        "examples": "Sparkletts Distilled Water, Kroger distilled water, store-brand distilled water in gallon jugs (sold universally in grocery and hardware stores for appliance use).",
+        "examples_es": "Agua destilada Sparkletts, agua destilada Kroger, agua destilada de marca propia en garrafas de galón (vendida universalmente en supermercados y ferreterías para uso en electrodomésticos)."
+       }
+      },
+      {
+       "name": "Reverse Osmosis Water",
+       "name_fr": "Eau par Osmose Inverse",
+       "name_it": "Acqua a Osmosi Inversa",
+       "slug": "reverse-osmosis",
+       "color": "#80a8d0",
+       "name_es": "Agua de Ósmosis Inversa",
+       "panel": {
+        "origin": "Reverse osmosis (RO) was developed for water purification in the 1950s and '60s, originally for desalinating seawater. The technology uses a semipermeable membrane with pores small enough to block dissolved salts and molecules while allowing water molecules to pass. RO systems are now among the most common home water treatment systems and are heavily used in commercial food and beverage production.",
+        "origin_es": "La ósmosis inversa (OI) se desarrolló para la purificación del agua en los años 50 y 60, originalmente para desalinizar el agua de mar. Utiliza una membrana semipermeable con poros lo suficientemente pequeños para bloquear las sales disueltas mientras permite que pasen las moléculas de agua.",
+        "chemistry": "The RO membrane (typically 0.0001 micron pore size) removes 95–99% of dissolved salts, lead, arsenic, fluoride, nitrates, and most organic compounds. It also removes beneficial minerals (calcium, magnesium, potassium). Modern systems often include a remineralization stage and carbon pre/post-filter. One significant drawback: RO systems waste 2–4 gallons of water for every gallon produced (reject water).",
+        "chemistry_es": "La membrana de OI (típicamente tamaño de poro de 0.0001 micrones) elimina el 95–99% de las sales disueltas, plomo, arsénico, fluoruro, nitratos y la mayoría de los compuestos orgánicos. También elimina minerales beneficiosos.",
+        "pairing": "RO water is ideal for drinking in areas with contaminated tap or well water (arsenic, lead, nitrates). Preferred in aquariums (precise mineral control), hydroponics, and food-grade applications. Remineralized RO water is widely used for coffee brewing (specialty coffee professionals favor specific mineral profiles).",
+        "pairing_es": "El agua de OI es ideal para beber en áreas con agua de grifo o de pozo contaminada. Es preferida en acuarios (control preciso de minerales), hidroponía y aplicaciones de grado alimentario. El agua de OI remineralizada se usa ampliamente para preparar café.",
+        "examples": "Aquasana SmartFlow RO (with remineralization), APEC ROES-50 (under-sink), iSpring RCC7 (6-stage), Whole Foods 365 purified water (RO filtered), many commercial bottled water brands.",
+        "examples_es": "Aquasana SmartFlow OI (con remineralización), APEC ROES-50 (bajo fregadero), iSpring RCC7 (6 etapas), agua purificada Whole Foods 365 (filtrada por OI)."
+       }
+      },
+      {
+       "name": "Deionized Water",
+       "name_fr": "Eau Désionisée",
+       "name_it": "Acqua Deionizzata",
+       "slug": "deionized-water",
+       "color": "#7098c0",
+       "name_es": "Agua Desionizada",
+       "panel": {
+        "origin": "Deionized (DI) water, also called demineralized water, has had virtually all of its mineral ions removed through an ion-exchange process. Positively charged ions (calcium, magnesium, sodium) are exchanged for hydrogen ions (H⁺), and negatively charged ions (chloride, sulfate) are exchanged for hydroxide ions (OH⁻). H⁺ and OH⁻ combine to form additional water molecules, leaving extremely pure H₂O.",
+        "origin_es": "El agua desionizada (DI), también llamada agua desmineralizada, ha tenido prácticamente todos sus iones minerales eliminados a través de un proceso de intercambio iónico. Los iones cargados positivamente se intercambian por iones de hidrógeno, y los cargados negativamente por iones de hidróxido.",
+        "chemistry": "DI water can achieve resistivity >18 MΩ·cm (ultrapure grade), approaching theoretical maximum purity. Unlike distillation, ion exchange does not remove uncharged organic molecules or bacteria — making DI water not necessarily sterile. In laboratory settings, DI water is often further processed through microfiltration or UV treatment for biological work.",
+        "chemistry_es": "El agua DI puede alcanzar una resistividad >18 MΩ·cm (grado ultrapuro), acercándose a la pureza máxima teórica. A diferencia de la destilación, el intercambio iónico no elimina moléculas orgánicas sin carga ni bacterias.",
+        "pairing": "Used in pharmaceutical manufacturing, electronics manufacturing (rinsing semiconductors), laboratory reagent preparation, histology, aquarium water preparation (precise mineral control), and battery manufacturing. Not appropriate for drinking as a primary water source.",
+        "pairing_es": "Utilizado en la fabricación farmacéutica, fabricación de electrónica, preparación de reactivos de laboratorio, histología, preparación de agua para acuarios y fabricación de baterías.",
+        "examples": "Laboratory-grade DI water (Type I, II, III classifications), Pacific Coast Water Systems Pure Plus RO (includes DI stage), dental office DI water systems, electronics manufacturing rinse water.",
+        "examples_es": "Agua DI de grado laboratorio (clasificaciones Tipo I, II, III), sistemas de agua para consultas dentales, agua de enjuague para fabricación de electrónica."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ENHANCED & TREATED",
+   "name_fr": "AMÉLIORÉE & TRAITÉE",
+   "name_it": "MIGLIORATA & TRATTATA",
+   "name_es": "MEJORADA Y TRATADA",
+   "color": "#9b59b6",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Enhanced & Treated",
+     "name_fr": "Améliorée & Traitée",
+     "name_it": "Migliorata & Trattata",
+     "name_es": "Mejorada y Tratada",
+     "color": "#9b59b6",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Alkaline Water",
+       "name_fr": "Eau Alcaline",
+       "name_it": "Acqua Alcalina",
+       "slug": "alkaline-water",
+       "color": "#b07ccc",
+       "name_es": "Agua Alcalina",
+       "panel": {
+        "origin": "Alkaline water has a pH above 7 (typically 8–9.5), achieved either naturally (water passing over alkaline minerals like limestone) or artificially (electrolysis, addition of food-grade alkalizing minerals). The market has grown substantially in the 2010s–2020s based on health claims. Notably, one small study found that following a plant-based diet with alkaline water was as effective as medication for laryngopharyngeal reflux (LPR).",
+        "origin_es": "El agua alcalina tiene un pH superior a 7 (típicamente 8–9.5), logrado de forma natural (agua que pasa sobre minerales alcalinos) o artificial (electrólisis, adición de minerales alcalinizantes de grado alimentario). El mercado ha crecido sustancialmente en los años 2010–2020.",
+        "chemistry": "The body's blood pH is tightly regulated at 7.35–7.45 regardless of what you drink — the kidneys and respiratory system maintain this precisely. Alkaline water (pH 8–9.5) is neutralized by stomach acid (pH 1.5–3.5) almost immediately upon ingestion. However, some benefit from alkaline water's minerals (calcium, magnesium, bicarbonate) rather than the pH itself. Excess alkaline water consumption can cause metabolic alkalosis (nausea, vomiting, muscle cramps) and reduces stomach acid's ability to kill pathogens.",
+        "chemistry_es": "El pH sanguíneo del cuerpo está regulado con precisión a 7.35–7.45 independientemente de lo que se beba. El agua alcalina (pH 8–9.5) se neutraliza por el ácido estomacal casi inmediatamente. Algunos beneficios pueden provenir de los minerales (calcio, magnesio, bicarbonato) en lugar del pH en sí.",
+        "pairing": "Marketed for general hydration, acid reflux relief, and athletic performance. Some evidence for benefit in laryngopharyngeal reflux. Consult a healthcare provider before switching to alkaline water as a primary source, particularly for individuals with kidney disease.",
+        "pairing_es": "Comercializada para hidratación general, alivio del reflujo ácido y rendimiento atlético. Consultar a un médico antes de cambiar al agua alcalina como fuente principal, particularmente para personas con enfermedad renal.",
+        "examples": "Essentia (pH 9.5, ionized alkaline water), CORE Hydration (pH 7.4), Primo Plus (pH 9.5 at bottling), Kangen Water (ionized via Enagic water ionizer machines), Evamor Natural Artesian Water (naturally alkaline, pH 8.8).",
+        "examples_es": "Essentia (pH 9.5, agua alcalina ionizada), CORE Hydration (pH 7.4), Primo Plus (pH 9.5 al embotellar), Kangen Water (ionizada vía máquinas ionizadoras Enagic), Evamor (artesiana naturalmente alcalina, pH 8.8)."
+       }
+      },
+      {
+       "name": "Electrolyte Water",
+       "name_fr": "Eau Électrolytique",
+       "name_it": "Acqua agli Elettroliti",
+       "slug": "electrolyte-water",
+       "color": "#9050aa",
+       "name_es": "Agua con Electrolitos",
+       "panel": {
+        "origin": "Electrolyte water is purified water with added charged minerals — typically sodium, potassium, calcium, and magnesium. It was developed to address the mineral loss through sweat during athletic performance, and has since expanded to general hydration use. The concept builds on the science of oral rehydration therapy (ORT), developed in the 1960s for treating dehydration from diarrheal disease.",
+        "origin_es": "El agua con electrolitos es agua purificada con minerales cargados añadidos — típicamente sodio, potasio, calcio y magnesio. Fue desarrollada para abordar la pérdida mineral a través del sudor durante el rendimiento atlético.",
+        "chemistry": "Electrolytes are minerals that carry an electric charge when dissolved in water. Sodium (Na⁺) is the primary electrolyte lost in sweat and is critical for fluid balance and nerve function. Potassium (K⁺) regulates muscle contraction, including the heart. Magnesium (Mg²⁺) is essential for energy production and nerve signal transmission. The sodium-glucose co-transport mechanism in the intestine enhances water absorption — which is why sports drinks contain both.",
+        "chemistry_es": "Los electrolitos son minerales que llevan una carga eléctrica cuando se disuelven en agua. El sodio es el electrolito principal perdido en el sudor y es crítico para el equilibrio de fluidos. El potasio regula la contracción muscular. El magnesio es esencial para la producción de energía.",
+        "pairing": "Optimal for athletes who sweat heavily (exercise >60 minutes), people recovering from illness (vomiting/diarrhea), those working in hot environments, and anyone experiencing significant fluid loss. Not necessary for sedentary daily hydration — plain water is sufficient for most people.",
+        "pairing_es": "Óptima para atletas que sudan mucho (ejercicio >60 minutos), personas que se recuperan de enfermedades (vómitos/diarrea), quienes trabajan en ambientes calurosos. No es necesaria para la hidratación diaria sedentaria.",
+        "examples": "Smartwater (vapor distilled with electrolytes), Propel (no-calorie electrolyte water), Liquid I.V. (concentrated electrolyte powder), LMNT (high-sodium electrolyte packets), Pedialyte Sport, Nature's Crystal Electrolyte Water.",
+        "examples_es": "Smartwater (destilada al vapor con electrolitos), Propel (agua con electrolitos sin calorías), Liquid I.V. (polvo concentrado de electrolitos), LMNT (sobres de electrolitos con alto sodio), Pedialyte Sport."
+       }
+      },
+      {
+       "name": "Structured Water",
+       "name_fr": "Eau Structurée",
+       "name_it": "Acqua Strutturata",
+       "slug": "structured-water",
+       "color": "#803099",
+       "name_es": "Agua Estructurada",
+       "panel": {
+        "origin": "Structured water (also called hexagonal water or EZ water — Exclusion Zone water) is a concept from alternative health communities proposing that water near hydrophilic surfaces forms a fourth phase beyond solid, liquid, and gas, with altered molecular arrangement. The concept was popularized by Dr. Gerald Pollack at the University of Washington. Commercial structured water devices use vortexing, magnets, or UV light to claim structural alteration.",
+        "origin_es": "El agua estructurada (también llamada agua hexagonal o agua EZ — Zona de Exclusión) es un concepto de comunidades de salud alternativa que propone que el agua cerca de superficies hidrófilas forma una cuarta fase con disposición molecular alterada.",
+        "chemistry": "Dr. Pollack's EZ (Exclusion Zone) water research describes a gel-like phase of water near hydrophilic surfaces that excludes solutes and has different properties from bulk water. This is a real, peer-reviewed scientific observation in specific experimental conditions. However, the commercial claim that drinking 'structured water' products provides health benefits beyond ordinary water lacks robust clinical evidence. The body's temperature rapidly equilibrates any externally structured water.",
+        "chemistry_es": "El agua EZ de Pollack es una fase gel-like del agua cerca de superficies hidrófilas que excluye solutos. Esta es una observación científica real revisada por pares en condiciones experimentales específicas. Sin embargo, la afirmación comercial de que los productos de 'agua estructurada' proporcionen beneficios para la salud carece de evidencia clínica robusta.",
+        "pairing": "Limited scientific consensus on drinking benefits. The EZ water phenomenon is scientifically observed but its relevance to drinking water is disputed. Those interested in this concept often pursue it alongside plant-based diets, alkaline diets, and other wellness practices. No known safety concerns.",
+        "pairing_es": "Consenso científico limitado sobre los beneficios de beber. El fenómeno del agua EZ se observa científicamente pero su relevancia para el agua potable está en disputa.",
+        "examples": "Commercial structured water devices (vortex funnel devices, magnetic field attachers), The Wellness Enterprise products, Natural Action Technologies structured water units, Grander water technology (Austria).",
+        "examples_es": "Dispositivos comerciales de agua estructurada (dispositivos de embudo vórtice, accesorios de campo magnético), productos The Wellness Enterprise, unidades de agua estructurada Natural Action Technologies."
+       }
+      },
+      {
+       "name": "Soft Water",
+       "name_fr": "Eau Douce",
+       "name_it": "Acqua Dolce",
+       "slug": "soft-water",
+       "color": "#c090dd",
+       "name_es": "Agua Blanda",
+       "panel": {
+        "origin": "Soft water is water that is naturally low in calcium and magnesium ions, or water that has been treated through a water softening process (ion exchange) to remove these minerals. Natural soft water occurs where bedrock is hard and impervious (granite, quartzite) — areas like Scotland, parts of Scandinavia, and the Pacific Northwest. Most water softeners use sodium or potassium chloride salt to regenerate the ion-exchange resin.",
+        "origin_es": "El agua blanda es agua naturalmente baja en iones de calcio y magnesio, o agua que ha sido tratada mediante un proceso de ablandamiento (intercambio iónico) para eliminar estos minerales. El agua blanda natural ocurre donde la roca madre es dura e impermeable.",
+        "chemistry": "Ion-exchange water softeners replace calcium (Ca²⁺) and magnesium (Mg²⁺) ions with sodium (Na⁺) ions (or potassium in salt-free systems). The result: no mineral scale on appliances, plumbing, and fixtures; soap lathers more easily (no calcium soap scum); laundry comes out softer. Softened water has higher sodium content — those on sodium-restricted diets should consult a physician. Salt-free conditioners (template-assisted crystallization, TAC) alter mineral form without adding sodium.",
+        "chemistry_es": "Los ablandadores de agua de intercambio iónico reemplazan los iones de calcio y magnesio con iones de sodio. El resultado: sin incrustaciones minerales en electrodomésticos ni tuberías; el jabón hace espuma más fácilmente; la ropa queda más suave. El agua ablandada tiene mayor contenido de sodio.",
+        "pairing": "Soft water is better for laundry (requires less detergent, no mineral staining), bathing (hair and skin feel softer), and appliance longevity (no scale buildup in heaters, dishwashers). Not recommended as the sole drinking water if sodium-restricted. Many households use a bypass for a dedicated drinking water line that maintains minerals.",
+        "pairing_es": "El agua blanda es mejor para la ropa (requiere menos detergente), el baño (el cabello y la piel se sienten más suaves) y la longevidad de los electrodomésticos (sin acumulación de incrustaciones). No se recomienda como única agua potable si hay restricción de sodio.",
+        "examples": "Aquasana Whole House Salt-Free Water Conditioner, Kinetico water softeners, Culligan softener systems, naturally soft water regions (Pacific Northwest, parts of New England), Swedish and Scottish tap water (naturally very soft).",
+        "examples_es": "Acondicionador de agua Aquasana sin sal, ablandadores Kinetico, sistemas ablandadores Culligan, regiones de agua naturalmente blanda (Noroeste del Pacífico, partes de Nueva Inglaterra)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CARBONATED",
+   "name_fr": "GAZÉIFIÉE",
+   "name_it": "GASSATA",
+   "name_es": "CARBONATADA",
+   "color": "#e8a830",
+   "textColor": "#1a1a00",
+   "sub": [
+    {
+     "name": "Carbonated",
+     "name_fr": "Gazéifiée",
+     "name_it": "Gassata",
+     "name_es": "Carbonatada",
+     "color": "#e8a830",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Sparkling Water",
+       "name_fr": "Eau Gazeuse",
+       "name_it": "Acqua Frizzante",
+       "slug": "sparkling-water",
+       "color": "#f0c050",
+       "name_es": "Agua con Gas",
+       "panel": {
+        "origin": "Sparkling water has been enjoyed since the 18th century, when Joseph Priestley discovered in 1767 that carbon dioxide could be dissolved in water to create a pleasant fizzy drink. He described pouring water back and forth over a vat of fermenting beer. By 1783, Johann Jacob Schweppe commercialized the process in Geneva, founding the Schweppes company. Naturally carbonated mineral springs (like Perrier and San Pellegrino) have been prized for centuries before this.",
+        "origin_es": "El agua con gas ha sido disfrutada desde el siglo XVIII, cuando Joseph Priestley descubrió en 1767 que el dióxido de carbono podía disolverse en agua para crear una bebida gaseosa. En 1783, Johann Jacob Schweppe comercializó el proceso en Ginebra, fundando la empresa Schweppes.",
+        "chemistry": "Carbon dioxide (CO₂) dissolves in water under pressure to form carbonic acid (H₂CO₃), lowering the pH to approximately 3–4. This creates the characteristic tingle on the tongue and the acidity. Carbonation may slightly erode tooth enamel with heavy, sustained consumption (particularly sparkling water with added citric acid). A 2024 study found carbonated water within 20 minutes of exercise helped decrease blood pressure and increase cerebral blood flow.",
+        "chemistry_es": "El dióxido de carbono (CO₂) se disuelve en agua bajo presión para formar ácido carbónico, bajando el pH a aproximadamente 3–4. La carbonatación puede erosionar ligeramente el esmalte dental con un consumo intenso y sostenido.",
+        "pairing": "An excellent sugar-free alternative to soda. Pairs beautifully with citrus, berries, and fresh herbs for infused sparkling water. Used as a cocktail mixer. A great aid for feeling of fullness between meals. Pairs well as a palate cleanser at the table.",
+        "pairing_es": "Una excelente alternativa sin azúcar a los refrescos. Combina bien con cítricos, bayas y hierbas frescas para agua con gas infusionada. Se usa como mezclador de cócteles. Ayuda a sentirse lleno entre comidas.",
+        "examples": "LaCroix (natural carbonated water, no additives), Topo Chico (Monterrey, Mexico spring water, naturally carbonated), Perrier (Vergèze, France, naturally sparkling), San Pellegrino (northern Italy, enhanced carbonation), Bubly, Waterloo.",
+        "examples_es": "LaCroix (agua carbonatada natural, sin aditivos), Topo Chico (manantial de Monterrey, México, naturalmente carbonatada), Perrier (Vergèze, Francia, naturalmente espumante), San Pellegrino (norte de Italia, carbonatación mejorada)."
+       }
+      },
+      {
+       "name": "Sparkling Mineral Water",
+       "name_fr": "Eau Minérale Gazeuse",
+       "name_it": "Acqua Minerale Frizzante",
+       "slug": "sparkling-mineral",
+       "color": "#d89020",
+       "name_es": "Agua Mineral Carbonatada",
+       "panel": {
+        "origin": "Sparkling mineral water combines the mineral content of natural mineral water with natural or added carbonation. Some sources (Perrier, San Pellegrino, Gerolsteiner) are naturally carbonated at the spring. Others (like many bottled varieties) have their natural CO₂ removed and re-injected at consistent levels for bottling. European restaurant culture has long paired specific sparkling mineral waters with food courses, treating water service as seriously as wine pairing.",
+        "origin_es": "El agua mineral carbonatada combina el contenido mineral del agua mineral natural con la carbonatación natural o añadida. Algunas fuentes (Perrier, San Pellegrino, Gerolsteiner) son naturalmente carbonatadas en el manantial. La cultura restaurantera europea ha emparejado durante mucho tiempo aguas minerales específicas con los platos.",
+        "chemistry": "The mineral content (calcium, magnesium, bicarbonate, sulfate) of sparkling mineral water interacts with the CO₂ to create complex flavor profiles. High sulfate content (Gerolsteiner, Apollinaris) produces a drier, more mineral taste. High bicarbonate creates a rounder, more digestive quality. The carbonation enhances the perception of minerality and produces the characteristic strong bubbles of European mineral waters.",
+        "chemistry_es": "El contenido mineral del agua mineral carbonatada interactúa con el CO₂ para crear perfiles de sabor complejos. El alto contenido de sulfato produce un sabor más seco y mineral. El alto bicarbonato crea una calidad más redonda y digestiva.",
+        "pairing": "Ideal with rich meals, fatty dishes, and charcuterie (the carbonation and minerals cut through fat). Used in European water menus as a table accompaniment. High-bicarbonate sparkling mineral waters aid digestion. Pairs with whisky and spirits as a lengthener in the manner of classic European spa water service.",
+        "pairing_es": "Ideal con comidas ricas, platos grasos y charcutería (la carbonatación y los minerales cortan la grasa). Se usa en menús de agua europeos como acompañante de mesa. Las aguas minerales carbonatadas ricas en bicarbonato ayudan a la digestión.",
+        "examples": "Perrier (France, 475 mg/L TDS, strong carbonation), San Pellegrino (Italy, 1,109 mg/L TDS), Gerolsteiner (Germany, 2,527 mg/L TDS, very high mineral), Apollinaris (Germany), Hildon (England, gently carbonated).",
+        "examples_es": "Perrier (Francia, 475 mg/L SDT, carbonatación fuerte), San Pellegrino (Italia, 1,109 mg/L SDT), Gerolsteiner (Alemania, 2,527 mg/L SDT, muy alto contenido mineral), Apollinaris (Alemania), Hildon (Inglaterra, suavemente carbonatada)."
+       }
+      },
+      {
+       "name": "Seltzer Water",
+       "name_fr": "Eau de Seltz",
+       "name_it": "Acqua di Seltz",
+       "slug": "seltzer-water",
+       "color": "#e0b840",
+       "name_es": "Agua Seltz",
+       "panel": {
+        "origin": "Seltzer water is plain water that has been artificially carbonated — it contains no added minerals, flavors, or sodium. The name derives from Selters, a German town known for its naturally sparkling mineral water, though commercial seltzer contains no minerals. It was popularized in the United States in the late 19th and early 20th centuries, particularly in New York Jewish deli culture where 'a glass of seltzer' became iconic. Seltzer delivery trucks once served New York neighborhoods regularly.",
+        "origin_es": "El agua seltz es agua simple que ha sido carbonatada artificialmente — no contiene minerales añadidos, sabores ni sodio. El nombre deriva de Selters, un pueblo alemán conocido por su agua mineral naturalmente espumante.",
+        "chemistry": "Pure seltzer contains only H₂O and CO₂ — no sodium, no minerals, no flavorings. The pH of seltzer (carbonic acid from CO₂) is approximately 3–4, making it slightly acidic, but far less acidic than sodas or citric acid-containing sparkling waters. Because it contains no sodium (unlike club soda) and no minerals (unlike sparkling mineral water), seltzer is the purest form of artificially carbonated water.",
+        "chemistry_es": "El agua seltz pura contiene solo H₂O y CO₂ — sin sodio, sin minerales, sin saborizantes. El pH del agua seltz es aproximadamente 3–4, haciéndola ligeramente ácida, pero mucho menos que los refrescos.",
+        "pairing": "The most neutral carbonated water option — appropriate for those watching sodium intake. Used as a cocktail mixer, a wine spritzer base, or a plain hydration option. Home seltzer makers (SodaStream) allow carbonation of tap or filtered water on demand.",
+        "pairing_es": "La opción de agua carbonatada más neutral — apropiada para quienes controlan la ingesta de sodio. Se usa como mezclador de cócteles, base de vino con gas o como opción de hidratación simple.",
+        "examples": "SodaStream home carbonation (any water source), Vintage Seltzer, Boylan Bottling Co. seltzer, Canada Dry Seltzer (plain), store-brand seltzer water.",
+        "examples_es": "SodaStream (carbonatación casera con cualquier fuente de agua), Vintage Seltzer, Boylan Bottling Co. seltzer, Canada Dry Seltzer (simple)."
+       }
+      },
+      {
+       "name": "Tonic Water",
+       "name_fr": "Eau Tonique",
+       "name_it": "Acqua Tonica",
+       "slug": "tonic-water",
+       "color": "#c87810",
+       "name_es": "Agua Tónica",
+       "panel": {
+        "origin": "Tonic water was developed by British colonists in India in the 19th century. Quinine, a bitter compound derived from the bark of the cinchona tree, was used medicinally to prevent and treat malaria. British officers mixed it with soda water, sugar, and gin to make the bitter medicine more palatable — creating the iconic gin and tonic. Modern tonic water contains far less quinine (65 mg/L) than the original therapeutic doses but retains the characteristic bitterness.",
+        "origin_es": "El agua tónica fue desarrollada por los colonos británicos en India en el siglo XIX. La quinina, un compuesto amargo derivado de la corteza del árbol de cinchona, se usaba medicinalmente para prevenir y tratar la malaria. Los oficiales británicos la mezclaban con agua carbonatada, azúcar y ginebra para hacer la amarga medicina más agradable.",
+        "chemistry": "Quinine (C₂₀H₂₄N₂O₂) is an alkaloid that produces tonic water's characteristic bitter flavor and its fluorescence under UV light. Modern tonic contains quinine sulfate at regulated levels (~83 mg/L maximum in the U.S.). Tonic water also contains significant added sugar (unless diet/light versions) — approximately 8g of sugar per 100ml. It is distinctly different nutritionally from plain sparkling water.",
+        "chemistry_es": "La quinina (C₂₀H₂₄N₂O₂) es un alcaloide que produce el sabor amargo característico del agua tónica y su fluorescencia bajo la luz UV. El agua tónica moderna contiene quinina sulfato a niveles regulados (~83 mg/L máximo en EE.UU.).",
+        "pairing": "The definitive mixer for gin and tonic — the bitterness complements gin's botanical complexity. Also used with vodka, mezcal, and vermouth-based cocktails. Premium tonic brands (Fever-Tree, Q Tonic) emphasize natural quinine and lower sugar content for a more refined bar experience.",
+        "pairing_es": "El mezclador definitivo para el gin tonic — el amargor complementa la complejidad botánica de la ginebra. También se usa con vodka, mezcal y cócteles a base de vermut. Las marcas de tónica premium enfatizan quinina natural y menor contenido de azúcar.",
+        "examples": "Fever-Tree Indian Tonic Water (premium, cane sugar, natural quinine from DRC), Q Tonic (real quinine, less sugar), Schweppes Tonic Water (classic commercial), Fentimans Tonic Water (botanical), 1724 Tonic Water (from Incan quinine plants at 1,724m elevation).",
+        "examples_es": "Fever-Tree Indian Tonic Water (premium, azúcar de caña, quinina natural), Q Tonic (quinina real, menos azúcar), Schweppes Tonic Water (clásico comercial), Fentimans Tonic Water (botánico)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLAVORED & INFUSED",
+   "name_fr": "AROMATISÉE & INFUSÉE",
+   "name_it": "AROMATIZZATA & INFUSA",
+   "name_es": "CON SABOR E INFUSIONADA",
+   "color": "#e07070",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Flavored & Infused",
+     "name_fr": "Aromatisée & Infusée",
+     "name_it": "Aromatizzata & Infusa",
+     "name_es": "Saborizada e Infusionada",
+     "color": "#e07070",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Flavored Water",
+       "name_fr": "Eau Aromatisée",
+       "name_it": "Acqua Aromatizzata",
+       "slug": "flavored-water",
+       "color": "#f08080",
+       "name_es": "Agua con Sabor",
+       "panel": {
+        "origin": "Flavored water as a commercial category emerged in the 1990s and grew dramatically in the 2000s as consumers sought alternatives to sodas with less sugar. The category spans a wide spectrum: from plain sparkling water with natural essences (LaCroix) to highly sweetened, artificially colored products that are closer nutritionally to soft drinks. The FDA distinguishes between naturally and artificially flavored water on labeling.",
+        "origin_es": "El agua con sabor como categoría comercial surgió en los años 90 y creció dramáticamente en los 2000 a medida que los consumidores buscaban alternativas a los refrescos con menos azúcar. La categoría abarca un amplio espectro, desde agua con esencias naturales hasta productos altamente azucarados.",
+        "chemistry": "Natural flavored waters use compounds extracted from real fruits, herbs, or botanicals — typically citrus oils, fruit essences, or cold-pressed juices. Artificially flavored waters use synthetic aroma compounds (esters, aldehydes) that mimic fruit flavors. Many store-bought flavored waters contain citric acid (lowers pH, increases erosion risk), sodium, and either natural or artificial sweeteners. Added sugars and artificial sweeteners are associated with dental caries, metabolic effects, and gut microbiome changes.",
+        "chemistry_es": "Las aguas naturalmente saborizadas usan compuestos extraídos de frutas, hierbas o botánicos reales. Las artificialmente saborizadas usan compuestos de aroma sintéticos. Muchas aguas saborizadas comerciales contienen ácido cítrico, sodio y edulcorantes naturales o artificiales.",
+        "pairing": "A useful tool for increasing daily fluid intake for those who dislike plain water. Choose products with no added sugar or artificial sweeteners and low citric acid content for the healthiest option. Best consumed with meals (where food buffers acidity) rather than sipped continuously throughout the day.",
+        "pairing_es": "Una herramienta útil para aumentar la ingesta diaria de fluidos para quienes no les gusta el agua simple. Elegir productos sin azúcar añadida ni edulcorantes artificiales para la opción más saludable.",
+        "examples": "Hint Water (unsweetened, fruit-infused), Propel (sweetened, electrolytes added), Vitaminwater (sweetened, vitamins added), Waterloo (no sweeteners, natural essences), MiO liquid water enhancer (concentrated drops).",
+        "examples_es": "Hint Water (sin azúcar, infusionada con fruta), Propel (endulzada, con electrolitos), Vitaminwater (endulzada, con vitaminas añadidas), Waterloo (sin edulcorantes, esencias naturales)."
+       }
+      },
+      {
+       "name": "Infused Water",
+       "name_fr": "Eau Infusée",
+       "name_it": "Acqua Infusa",
+       "slug": "infused-water",
+       "color": "#d05858",
+       "name_es": "Agua Infusionada",
+       "panel": {
+        "origin": "Infused water (also called spa water or detox water) is water in which fresh fruits, vegetables, or herbs have been steeped to impart flavor and trace compounds. The practice is ancient — herbal infusions in water have been used medicinally and culinarily across cultures for millennia. The modern 'spa water' revival gained popularity through wellness culture in the 2010s, with combinations like cucumber-mint and lemon-ginger becoming fixtures at spas, gyms, and health-conscious restaurants.",
+        "origin_es": "El agua infusionada (también llamada agua de spa o agua detox) es agua en la que se han remojado frutas frescas, verduras o hierbas para impartir sabor y compuestos traza. La práctica es antigua — las infusiones herbales en agua se han utilizado medicinalmente y culinariamente en todas las culturas durante milenios.",
+        "chemistry": "Cold infusion over 2–4 hours in the refrigerator extracts water-soluble flavor compounds (anthocyanins, citric acid, essential oils, volatile aromatics) from the ingredients. The process does not significantly extract fat-soluble vitamins or minerals at cold temperatures — the nutritional contribution of infused water ingredients is minimal. The benefit is primarily in flavor enhancement encouraging greater water consumption.",
+        "chemistry_es": "La infusión en frío durante 2–4 horas extrae compuestos de sabor solubles en agua (antocianinas, ácido cítrico, aceites esenciales) de los ingredientes. El proceso no extrae significativamente vitaminas liposolubles ni minerales — la contribución nutricional es mínima. El beneficio es principalmente mejorar el sabor.",
+        "pairing": "Best made at home with tap, filtered, or spring water. Classic combinations: cucumber-mint (cooling, spa classic), lemon-ginger (digestive, warming), strawberry-basil (summer refreshment), watermelon-lime (hydrating, fruity), citrus and rosemary (aromatic).",
+        "pairing_es": "Mejor preparada en casa con agua de grifo, filtrada o de manantial. Combinaciones clásicas: pepino-menta (refrescante, clásico de spa), limón-jengibre (digestivo), fresa-albahaca (refrescante de verano), sandía-lima (hidratante).",
+        "examples": "Cucumber and mint spa water, lemon and ginger detox water, strawberry and basil infusion, citrus herb water, watermelon and lime water — all made by steeping in any quality base water for 2–4 hours refrigerated.",
+        "examples_es": "Agua de pepino y menta, agua de limón y jengibre, infusión de fresa y albahaca, agua de cítricos y hierbas, agua de sandía y lima — todas preparadas remojando en cualquier agua base de calidad durante 2–4 horas en refrigeración."
+       }
+      },
+      {
+       "name": "Electrolyte Drink",
+       "name_fr": "Boisson Électrolytique",
+       "name_it": "Bevanda agli Elettroliti",
+       "slug": "electrolyte-drink",
+       "color": "#c04848",
+       "name_es": "Bebida con Electrolitos",
+       "panel": {
+        "origin": "Commercial electrolyte drinks were pioneered by Gatorade, developed in 1965 by Dr. Robert Cade and researchers at the University of Florida to help the Gators football team maintain performance in the Florida heat. The formula was based on oral rehydration therapy science: replacing water, sodium, potassium, and carbohydrates lost during intense exercise. Today the sports drink market includes everything from traditional sugary sports drinks to zero-calorie electrolyte waters.",
+        "origin_es": "Las bebidas comerciales con electrolitos fueron pioneras con Gatorade, desarrollado en 1965 por el Dr. Robert Cade en la Universidad de Florida para ayudar al equipo de fútbol Gators a mantener el rendimiento en el calor de Florida.",
+        "chemistry": "The classic sports drink formula combines water, sodium (to replace sweat losses and stimulate thirst), potassium, carbohydrates (glucose, sucrose, or fructose) at 6–8% concentration (optimal for gastric emptying and intestinal absorption), and often magnesium. The sodium-glucose co-transport (SGLT1) mechanism in the small intestine allows faster water absorption than water alone. Zero-sugar versions use artificial sweeteners and may sacrifice some absorption efficiency.",
+        "chemistry_es": "La fórmula clásica de bebida deportiva combina agua, sodio (para reemplazar las pérdidas de sudor y estimular la sed), potasio, carbohidratos al 6–8% de concentración (óptimo para el vaciado gástrico y la absorción intestinal) y a menudo magnesio.",
+        "pairing": "Appropriate for exercise lasting >60–90 minutes, especially in hot/humid conditions. For shorter or less intense exercise, plain water is generally sufficient. High-sugar sports drinks are not appropriate for sedentary hydration — the caloric load is significant without the caloric burn of exercise.",
+        "pairing_es": "Apropiada para ejercicio que dura >60–90 minutos, especialmente en condiciones calurosas/húmedas. Para ejercicio más corto o menos intenso, el agua simple es generalmente suficiente.",
+        "examples": "Gatorade Thirst Quencher (classic, sugar-based), Powerade (with B vitamins), Liquid I.V. (2x electrolyte concentration), LMNT (no sugar, very high sodium), Nuun tablets (tablet added to water), Pedialyte Sport (medical-grade electrolyte).",
+        "examples_es": "Gatorade Thirst Quencher (clásico, a base de azúcar), Powerade (con vitaminas B), Liquid I.V. (concentración de electrolitos 2x), LMNT (sin azúcar, muy alto sodio), pastillas Nuun (pastilla añadida al agua), Pedialyte Sport (electrolito de grado médico)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HARD WATER",
+   "name_fr": "EAU DURE",
+   "name_it": "ACQUA DURA",
+   "name_es": "AGUA DURA",
+   "color": "#8b7355",
+   "textColor": "#ffffff",
+   "sub": [
+    {
+     "name": "Hard Water",
+     "name_fr": "Eau Dure",
+     "name_it": "Acqua Dura",
+     "name_es": "Agua Dura",
+     "color": "#8b7355",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Hard Water",
+       "name_fr": "Eau Dure",
+       "name_it": "Acqua Dura",
+       "name_es": "Agua Dura",
+       "slug": "hard-water",
+       "color": "#a08868",
+       "panel": {
+        "origin": "Hard water contains high concentrations of dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions, formed as water flows over limestone, chalk, and dolomite bedrock. Water hardness is measured in grains per gallon (GPG) or mg/L as CaCO₃: soft (0–60 mg/L), moderately hard (61–120), hard (121–180), very hard (>180). About 85% of U.S. homes receive hard water. The mineral-rich Midwest and Southwest tend to have the hardest water.",
+        "origin_es": "El agua dura contiene altas concentraciones de iones de calcio y magnesio disueltos, formados cuando el agua fluye sobre caliza, creta y dolomita. Aproximadamente el 85% de los hogares de EE.UU. reciben agua dura.",
+        "chemistry": "Calcium and magnesium carbonate precipitate as scale when hard water is heated (>60°C), depositing on pipes, water heaters, dishwashers, and coffee machines — reducing efficiency and lifespan. Hard water reacts with soap to form calcium stearate (soap scum), requiring more soap for equivalent cleaning. Paradoxically, the calcium and magnesium in hard water may offer cardiovascular protection — epidemiological studies suggest lower rates of cardiovascular disease in areas with hard water.",
+        "chemistry_es": "El carbonato de calcio y magnesio precipita como incrustaciones cuando el agua dura se calienta (>60°C), depositándose en tuberías y electrodomésticos. El agua dura reacciona con el jabón para formar espuma de jabón. Paradójicamente, el calcio y el magnesio en el agua dura pueden ofrecer protección cardiovascular.",
+        "pairing": "Hard water actually makes slightly better-tasting tea and coffee in many opinions (minerals enhance extraction) but can clog espresso machine boilers. Mineral content from hard water contributes meaningfully to daily calcium and magnesium intake. Culinary use is generally fine; appliance protection often motivates softening.",
+        "pairing_es": "El agua dura hace té y café ligeramente mejor en muchas opiniones (los minerales mejoran la extracción) pero puede obstruir las calderas de las máquinas de espresso. El contenido mineral del agua dura contribuye significativamente a la ingesta diaria de calcio y magnesio.",
+        "examples": "Chicago tap water (very hard, Lake Michigan source with limestone bedrock), Phoenix/Scottsdale water (very hard, Colorado River source), Indianapolis water (hard), most Midwestern and Southwestern U.S. cities.",
+        "examples_es": "Agua de grifo de Chicago (muy dura, fuente del Lago Michigan con lecho rocoso de caliza), agua de Phoenix/Scottsdale (muy dura, fuente del Río Colorado), agua de Indianapolis (dura)."
+       }
+      },
+      {
+       "name": "Calcium-Rich Water",
+       "name_fr": "Eau Riche en Calcium",
+       "name_it": "Acqua Ricca di Calcio",
+       "slug": "calcium-rich",
+       "color": "#907060",
+       "name_es": "Agua Rica en Calcio",
+       "panel": {
+        "origin": "Calcium-rich water sources are particularly valued in regions or populations where dietary calcium intake is insufficient. Calcium is the most abundant mineral in the body — 99% stored in bones and teeth. The World Health Organization recommends a minimum calcium level of 20 mg/L in drinking water, though some natural sources far exceed this. Springs with high limestone bedrock content are naturally calcium-rich.",
+        "origin_es": "Las fuentes de agua ricas en calcio son particularmente valoradas en regiones o poblaciones donde la ingesta dietética de calcio es insuficiente. El calcio es el mineral más abundante en el cuerpo — el 99% se almacena en huesos y dientes.",
+        "chemistry": "Calcium in water exists primarily as calcium bicarbonate (Ca(HCO₃)₂) or calcium sulfate (CaSO₄). The bioavailability of calcium from water is equal to or greater than calcium from food sources. A 2023 review found calcium-rich mineral water particularly beneficial for people with lactose intolerance (who cannot obtain calcium from dairy) and those following plant-based diets. The EU defines calcium-rich water as containing >150 mg/L Ca²⁺.",
+        "chemistry_es": "El calcio en el agua existe principalmente como bicarbonato de calcio o sulfato de calcio. La biodisponibilidad del calcio del agua es igual o mayor que la del calcio de los alimentos. Una revisión de 2023 encontró que el agua mineral rica en calcio es particularmente beneficiosa para personas con intolerancia a la lactosa.",
+        "pairing": "For bone health, particularly for postmenopausal women, people with lactose intolerance, and those on plant-based diets. High-calcium mineral waters (Contrex at 486 mg/L Ca²⁺) are marketed specifically for bone health in Europe. Excellent for cooking where calcium enrichment of food is desired.",
+        "pairing_es": "Para la salud ósea, particularmente para mujeres posmenopáusicas, personas con intolerancia a la lactosa y quienes siguen dietas basadas en plantas. Las aguas minerales ricas en calcio (Contrex con 486 mg/L Ca²⁺) se comercializan específicamente para la salud ósea en Europa.",
+        "examples": "Contrex (France, 486 mg/L Ca²⁺, highest commercial calcium content), San Pellegrino (203 mg/L Ca²⁺), Gerolsteiner (348 mg/L Ca²⁺), Evian (78 mg/L Ca²⁺), many well waters in limestone regions.",
+        "examples_es": "Contrex (Francia, 486 mg/L Ca²⁺, mayor contenido comercial de calcio), San Pellegrino (203 mg/L Ca²⁺), Gerolsteiner (348 mg/L Ca²⁺), Evian (78 mg/L Ca²⁺)."
+       }
+      },
+      {
+       "name": "Magnesium-Rich Water",
+       "name_fr": "Eau Riche en Magnésium",
+       "name_it": "Acqua Ricca di Magnesio",
+       "slug": "magnesium-rich",
+       "color": "#806050",
+       "name_es": "Agua Rica en Magnesio",
+       "panel": {
+        "origin": "Magnesium-rich water comes from geological formations containing dolomite (calcium magnesium carbonate) or magnesite (magnesium carbonate). Magnesium is the fourth most abundant mineral in the body and is involved in over 300 enzymatic reactions. Studies suggest that up to 48% of Americans may be magnesium deficient — making magnesium-rich water a meaningful supplemental source. The WHO recommends drinking water contain at least 10 mg/L of magnesium.",
+        "origin_es": "El agua rica en magnesio proviene de formaciones geológicas que contienen dolomita o magnesita. El magnesio está involucrado en más de 300 reacciones enzimáticas. Estudios sugieren que hasta el 48% de los estadounidenses puede ser deficiente en magnesio.",
+        "chemistry": "Magnesium in water exists primarily as Mg²⁺ ions, typically paired with bicarbonate (HCO₃⁻), sulfate (SO₄²⁻), or chloride (Cl⁻). Bioavailability from water is high — studies suggest absorption from water is equivalent to or better than from food. The EU defines magnesium-rich water as containing >50 mg/L Mg²⁺. Magnesium bicarbonate water has an alkalizing effect and may aid in reducing dietary acid load.",
+        "chemistry_es": "El magnesio en el agua existe principalmente como iones Mg²⁺, típicamente emparejados con bicarbonato, sulfato o cloruro. La biodisponibilidad del agua es alta. El agua de bicarbonato de magnesio tiene un efecto alcalinizante.",
+        "pairing": "Beneficial for muscle function and recovery (athletes), sleep quality (magnesium supports relaxation), and cardiovascular health. Magnesium-rich hard water is associated in epidemiological studies with lower rates of cardiovascular mortality. Useful cooking water for legumes and grains, where the magnesium contributes to structure.",
+        "pairing_es": "Beneficiosa para la función muscular y la recuperación (atletas), la calidad del sueño (el magnesio apoya la relajación) y la salud cardiovascular. El agua dura rica en magnesio se asocia en estudios epidemiológicos con menores tasas de mortalidad cardiovascular.",
+        "examples": "Gerolsteiner (108 mg/L Mg²⁺, sparkling), Donat Mg (Slovenia, 1,000+ mg/L Mg²⁺, medicinal mineral water), Apollinaris (130 mg/L Mg²⁺), Adelheidquelle (Germany, 100 mg/L Mg²⁺).",
+        "examples_es": "Gerolsteiner (108 mg/L Mg²⁺, con gas), Donat Mg (Eslovenia, 1,000+ mg/L Mg²⁺, agua mineral medicinal), Apollinaris (130 mg/L Mg²⁺), Adelheidquelle (Alemania, 100 mg/L Mg²⁺)."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CITRUS": {
+   "en": "Citrus notes scream cool-climate and high acidity — if a white smells of lime or grapefruit, it's probably built to be crisp and refreshing, not rich.",
+   "es": "Las notas cítricas gritan clima fresco y alta acidez — si un blanco huele a lima o toronja, suele estar hecho para ser nítido y refrescante, no rico."
+  },
+  "TREE FRUIT": {
+   "en": "Apple, pear and peach are the 'middle of the road' fruits — they show up in tons of whites and tell you the wine is balanced and food-friendly.",
+   "es": "Manzana, pera y durazno son las frutas 'punto medio' — aparecen en muchísimos blancos y te dicen que el vino es equilibrado y amigable con la comida."
+  },
+  "TROPICAL": {
+   "en": "Pineapple and mango usually mean warm sunshine and riper grapes. Big tropical fruit often signals a fuller-bodied, higher-alcohol white.",
+   "es": "Piña y mango suelen significar sol cálido y uvas más maduras. La fruta tropical intensa a menudo indica un blanco más corpulento y de mayor alcohol."
+  },
+  "RED FRUIT": {
+   "en": "Strawberry, cherry and cranberry are the calling card of lighter reds like Pinot Noir — think bright, fresh, and easy to drink.",
+   "es": "Fresa, cereza y arándano son la carta de presentación de los tintos más ligeros como el Pinot Noir — piensa en algo brillante, fresco y fácil de beber."
+  },
+  "BLACK FRUIT": {
+   "en": "Blackberry and black cherry mean a bigger, bolder red — Cabernet, Syrah, Malbec. Dark fruit usually rides with firmer tannin and more body.",
+   "es": "Zarzamora y cereza negra significan un tinto más grande y audaz — Cabernet, Syrah, Malbec. La fruta oscura suele venir con taninos más firmes y más cuerpo."
+  },
+  "DRIED FRUIT": {
+   "en": "Raisin, fig and prune mean the grapes got super ripe or the wine has some age — a sign of richness, warmth, or a dessert style.",
+   "es": "Pasa, higo y ciruela pasa significan que las uvas se pusieron muy maduras o que el vino tiene añejamiento — señal de riqueza, calidez o un estilo de postre."
+  },
+  "FLOWER": {
+   "en": "Floral notes — rose, violet, jasmine — are a gift: they make a wine smell pretty and are a big clue to grapes like Gewürztraminer, Muscat and Viognier.",
+   "es": "Las notas florales — rosa, violeta, jazmín — son un regalo: hacen que un vino huela hermoso y son una gran pista de uvas como Gewürztraminer, Moscatel y Viognier."
+  },
+  "HERBAL & VEGETAL": {
+   "en": "Grass, bell pepper and herbs often mean cooler climate or earlier-picked grapes — classic in Sauvignon Blanc and Cabernet Franc. A little is lovely; a lot can mean under-ripe.",
+   "es": "Pasto, pimiento y hierbas suelen significar clima más fresco o uvas cosechadas temprano — clásico en Sauvignon Blanc y Cabernet Franc. Un poco es encantador; mucho puede indicar falta de madurez."
+  },
+  "SPICE": {
+   "en": "Pepper, cinnamon and clove come from two places: the grape itself (black pepper = Syrah) or the oak barrel (baking spices). Both add complexity.",
+   "es": "Pimienta, canela y clavo vienen de dos lugares: la uva misma (pimienta negra = Syrah) o la barrica de roble (especias de repostería). Ambos añaden complejidad."
+  },
+  "EARTH": {
+   "en": "Mushroom, soil and wet stone are 'earthy' notes prized in Old World wines — they're the smell of place, not fruit, and a hallmark of fine Burgundy and Barolo.",
+   "es": "Hongo, tierra y piedra mojada son notas 'terrosas' apreciadas en los vinos del Viejo Mundo — son el olor del lugar, no de la fruta, y un sello de los grandes Borgoña y Barolo."
+  },
+  "NOBLE ROT": {
+   "en": "Honey, saffron and marmalade come from 'noble rot' — a friendly mold (Botrytis) that shrivels grapes and concentrates them into legendary sweet wines like Sauternes.",
+   "es": "Miel, azafrán y mermelada vienen de la 'podredumbre noble' — un moho amistoso (Botrytis) que arruga las uvas y las concentra en vinos dulces legendarios como el Sauternes."
+  },
+  "FERMENTATION": {
+   "en": "Bread, butter and cream aren't from grapes — they're made during winemaking (yeast and a step called malolactic). They tell you about craft, not the vineyard.",
+   "es": "Pan, mantequilla y crema no vienen de la uva — se crean durante la vinificación (la levadura y un paso llamado maloláctica). Te hablan del oficio, no del viñedo."
+  },
+  "OAK AGING": {
+   "en": "Vanilla, coconut and baking spice almost always come from the oak barrel, not the grape. They're a clue the winemaker wanted richness and structure.",
+   "es": "Vainilla, coco y especia de repostería casi siempre vienen de la barrica de roble, no de la uva. Son una pista de que el enólogo buscaba riqueza y estructura."
+  },
+  "BOTTLE AGE": {
+   "en": "Nutty, leather and tobacco notes appear after years in the bottle as fresh fruit fades into something savory and complex — the reward of patience.",
+   "es": "Las notas a nuez, cuero y tabaco aparecen tras años en botella, cuando la fruta fresca se desvanece en algo sabroso y complejo — la recompensa de la paciencia."
+  },
+  "TCA · CORK": {
+   "en": "This whole group is a FAULT. 'Corked' wine smells like wet cardboard or a damp basement — it's harmless but ruins the wine. If you smell it, send the bottle back.",
+   "es": "Todo este grupo es un DEFECTO. El vino 'corchado' huele a cartón mojado o a sótano húmedo — es inofensivo pero arruina el vino. Si lo hueles, devuelve la botella."
+  },
+  "REDUCTION": {
+   "en": "A FAULT (sometimes fixable): struck-match, rotten-egg or rubber smells from a lack of oxygen. A good swirl in the glass often blows it off.",
+   "es": "Un DEFECTO (a veces corregible): olores a cerillo, huevo podrido o hule por falta de oxígeno. Un buen giro en la copa a menudo lo disipa."
+  },
+  "BRETT": {
+   "en": "A FAULT in big amounts: 'Brett' (a yeast) smells like a barnyard, band-aid or sweaty saddle. A tiny bit adds funk some people love; a lot covers the fruit.",
+   "es": "Un DEFECTO en gran cantidad: el 'Brett' (una levadura) huele a corral, curita o silla de montar sudada. Un poquito añade un toque que a algunos encanta; mucho tapa la fruta."
+  },
+  "V.A.": {
+   "en": "A FAULT: 'volatile acidity' smells like vinegar or nail polish. A trace can add lift, but a lot means the wine is turning to vinegar.",
+   "es": "Un DEFECTO: la 'acidez volátil' huele a vinagre o quitaesmalte. Un rastro puede dar elevación, pero mucho significa que el vino se está volviendo vinagre."
+  },
+  "OXIDATION": {
+   "en": "A FAULT (unless intended): too much air makes wine taste of bruised apple, stewed fruit or sherry, and dulls the color. Great for Sherry — bad for your fresh white.",
+   "es": "Un DEFECTO (salvo cuando es intencional): demasiado aire hace que el vino sepa a manzana magullada, fruta cocida o jerez, y apaga el color. Genial para el Jerez — malo para tu blanco fresco."
+  }
+ }
+}

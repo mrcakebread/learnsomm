@@ -1,0 +1,887 @@
+{
+ "title": "Dairy",
+ "subject": "dairy",
+ "categories": [
+  {
+   "name": "FLUID MILK",
+   "name_fr": "Lait Liquide",
+   "name_it": "Latte Liquido",
+   "name_es": "LECHE LÍQUIDA",
+   "color": "#d4eaf7",
+   "sub": [
+    {
+     "name": "FLUID MILK",
+     "name_fr": "Lait Liquide",
+     "name_it": "Latte Liquido",
+     "name_es": "LECHE LÍQUIDA",
+     "color": "#d4eaf7",
+     "descriptors": [
+      {
+       "name": "Whole Milk",
+       "name_fr": "Lait Entier",
+       "name_it": "Latte Intero",
+       "name_es": "Leche Entera",
+       "slug": "whole-milk",
+       "panel": {
+        "origin": "Rich, full, slightly sweet with a creamy finish. Most complete milk flavor.",
+        "origin_es": "Rica, plena y ligeramente dulce con un final cremoso. El sabor de leche más completo.",
+        "chemistry": "Smooth, coating, full-bodied.",
+        "chemistry_es": "Suave, envolvente, con cuerpo pleno.",
+        "pairing": "Cookies, chocolate cake, espresso. Classic with oatmeal cookies.",
+        "pairing_es": "Galletas, pastel de chocolate, espresso. Clásica con galletas de avena.",
+        "mixology": "Drinking, baking, cooking, coffee. Essential base for most dairy products.",
+        "mixology_es": "Para beber, hornear, cocinar y café. Base esencial de la mayoría de los lácteos.",
+        "examples": "Pasteurized cow's milk standardized to 3.25% milkfat. Homogenized to prevent cream separation. Key tags: 3.25% milkfat, cow's milk, homogenized.",
+        "examples_es": "Leche de vaca pasteurizada estandarizada al 3,25 % de materia grasa. Homogeneizada para evitar que la nata se separe. Características: 3.25% milkfat, leche de vaca, homogeneizada."
+       }
+      },
+      {
+       "name": "Reduced-Fat Milk",
+       "name_fr": "Lait Demi-Écrémé",
+       "name_it": "Latte Parz. Scremato",
+       "name_es": "Leche Semidescremada (2%)",
+       "slug": "reduced-fat-milk",
+       "panel": {
+        "origin": "Lighter than whole, still creamy. Mild and clean.",
+        "origin_es": "Más ligera que la entera, aún cremosa. Suave y limpia.",
+        "chemistry": "Medium-bodied, slightly less coating than whole.",
+        "chemistry_es": "Cuerpo medio, algo menos envolvente que la entera.",
+        "pairing": "Cereal, mild coffee, light baked goods.",
+        "pairing_es": "Cereal, café suave, repostería ligera.",
+        "mixology": "Drinking, cereal, coffee. Most common household milk in the U.S.",
+        "mixology_es": "Para beber, cereal y café. La leche doméstica más común en EE. UU.",
+        "examples": "Fat skimmed to 2% milkfat. Vitamins A and D often added back. Also known as: 2% Milk. Key tags: 2% milkfat, lower saturated fat, cow's milk.",
+        "examples_es": "Grasa reducida al 2 %. A menudo se le reañaden vitaminas A y D. También conocido como: 2% Milk. Características: 2% milkfat, lower saturated fat, leche de vaca."
+       }
+      },
+      {
+       "name": "Skim Milk",
+       "name_fr": "Lait Écrémé",
+       "name_it": "Latte Scremato",
+       "name_es": "Leche Descremada",
+       "slug": "skim-milk",
+       "panel": {
+        "origin": "Clean, watery, mild. Little to no fat-carried flavor.",
+        "origin_es": "Limpia, aguada y suave. Poco o ningún sabor aportado por la grasa.",
+        "chemistry": "Thin, watery.",
+        "chemistry_es": "Ligera y aguada.",
+        "pairing": "Fruit smoothies, oatmeal, high-fiber cereals.",
+        "pairing_es": "Batidos de fruta, avena, cereales altos en fibra.",
+        "mixology": "Calorie-conscious diets, smoothies, some baking.",
+        "mixology_es": "Dietas con control de calorías, batidos y algo de repostería.",
+        "examples": "Nearly all fat removed. Often vitamin-fortified. Sometimes has nonfat dry milk added for body. Also known as: Fat-Free Milk · Nonfat Milk. Key tags: <0.5% milkfat, lightest texture, cow's milk.",
+        "examples_es": "Se retira casi toda la grasa. Suele fortificarse con vitaminas; a veces se le añade leche en polvo desnatada para dar cuerpo. También conocido como: Fat-Free Milk · Nonfat Milk. Características: <0.5% milkfat, lightest texture, leche de vaca."
+       }
+      },
+      {
+       "name": "Lactose-Free Milk",
+       "name_fr": "Lait Sans Lactose",
+       "name_it": "Latte Senza Lattosio",
+       "name_es": "Leche Sin Lactosa",
+       "slug": "lactose-free",
+       "panel": {
+        "origin": "Noticeably sweeter than regular milk — lactase splits lactose into simpler sugars.",
+        "origin_es": "Notablemente más dulce que la leche normal — la lactasa descompone la lactosa en azúcares más simples.",
+        "chemistry": "Same body as whole or 2% depending on fat level.",
+        "chemistry_es": "Mismo cuerpo que la entera o la del 2 % según el nivel de grasa.",
+        "pairing": "Use anywhere regular milk is called for. The added sweetness is an asset in desserts.",
+        "pairing_es": "Úsala donde uses leche normal. El dulzor extra es una ventaja en postres.",
+        "mixology": "Drop-in substitute for any recipe calling for milk. Essential for lactose-sensitive consumers.",
+        "mixology_es": "Sustituto directo en cualquier receta con leche. Esencial para consumidores sensibles a la lactosa.",
+        "examples": "Regular cow's milk treated with the enzyme lactase, which pre-digests the lactose sugar. Key tags: enzyme-treated, lactose intolerance, cow's milk.",
+        "examples_es": "Leche de vaca normal tratada con la enzima lactasa, que predigiere el azúcar de la lactosa. Características: enzyme-treated, lactose intolerance, leche de vaca."
+       }
+      },
+      {
+       "name": "Buttermilk",
+       "name_fr": "Babeurre",
+       "name_it": "Latticello",
+       "name_es": "Suero de Mantequilla",
+       "slug": "buttermilk",
+       "panel": {
+        "origin": "Tart, tangy, and slightly thick. Acidic and refreshing.",
+        "origin_es": "Ácido, fresco y algo espeso. Acídulo y refrescante.",
+        "chemistry": "Slightly viscous and creamy despite low fat.",
+        "chemistry_es": "Ligeramente viscoso y cremoso a pesar de su baja grasa.",
+        "pairing": "Fried chicken, biscuits, ranch dressing base. Pairs with chives and dill.",
+        "pairing_es": "Pollo frito, bizcochos, base de aderezo ranch. Combina con cebollino y eneldo.",
+        "mixology": "Baking (activates baking soda), marinades, fried chicken batters, pancakes, salad dressings.",
+        "mixology_es": "Repostería (activa el bicarbonato), marinados, rebozados de pollo frito, panqueques, aderezos.",
+        "examples": "Modern buttermilk is cultured — low-fat milk inoculated with lactic acid bacteria. True churn-off buttermilk is rare commercially. Also known as: Cultured Buttermilk. Key tags: fermented, acidic, tangy.",
+        "examples_es": "El suero de mantequilla moderno es cultivado — leche baja en grasa inoculada con bacterias del ácido láctico. El verdadero, residuo del batido, es raro a nivel comercial. También conocido como: Cultured Buttermilk. Características: fermentado, ácido, ácido y fresco."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CULTURED & FERMENTED",
+   "name_fr": "Cultivés & Fermentés",
+   "name_it": "Coltivati & Fermentati",
+   "name_es": "CULTIVADOS Y FERMENTADOS",
+   "color": "#b8d4e8",
+   "sub": [
+    {
+     "name": "CULTURED & FERMENTED",
+     "name_fr": "Cultivés & Fermentés",
+     "name_it": "Coltivati & Fermentati",
+     "name_es": "CULTIVADOS Y FERMENTADOS",
+     "color": "#b8d4e8",
+     "descriptors": [
+      {
+       "name": "Yogurt",
+       "name_fr": "Yaourt",
+       "name_it": "Yogurt",
+       "name_es": "Yogur",
+       "slug": "yogurt",
+       "panel": {
+        "origin": "Tangy and bright, ranging from mild (whole milk) to sharp (low-fat). Slightly acidic.",
+        "origin_es": "Ácido y vivo, de suave (leche entera) a intenso (bajo en grasa). Ligeramente ácido.",
+        "chemistry": "Thick and creamy to spoonable. Greek-style is much denser due to whey removal.",
+        "chemistry_es": "De espeso y cremoso a apto para cuchara. El estilo griego es mucho más denso por la extracción del suero.",
+        "pairing": "Honey, granola, fresh berries. Middle Eastern: cucumber, garlic, mint (tzatziki).",
+        "pairing_es": "Miel, granola, frutos rojos frescos. En Oriente Medio: pepino, ajo, menta (tzatziki).",
+        "mixology": "Breakfast, dips, marinades, baking substitute for sour cream. Greek yogurt as protein food.",
+        "mixology_es": "Desayuno, dips, marinados, sustituto de la crema agria en repostería. El yogur griego como alimento proteico.",
+        "examples": "Milk heated, cooled, then inoculated with Lactobacillus bulgaricus and Streptococcus thermophilus cultures. Key tags: fermented, live cultures, Lactobacillus.",
+        "examples_es": "Leche calentada, enfriada e inoculada con cultivos de Lactobacillus bulgaricus y Streptococcus thermophilus. Características: fermentado, cultivos vivos, Lactobacillus."
+       }
+      },
+      {
+       "name": "Greek Yogurt",
+       "name_fr": "Yaourt Grec",
+       "name_it": "Yogurt Greco",
+       "name_es": "Yogur Griego",
+       "slug": "greek-yogurt",
+       "panel": {
+        "origin": "Tangier and richer than regular yogurt. Concentrated lactic acid flavor.",
+        "origin_es": "Más ácido y rico que el yogur normal. Sabor láctico concentrado.",
+        "chemistry": "Very thick, dense, spreadable. Almost cream-cheese-like when fully strained.",
+        "chemistry_es": "Muy espeso, denso y untable. Casi como queso crema cuando está bien colado.",
+        "pairing": "Cucumber and dill, fresh herbs, olive oil drizzle. Excellent with za'atar.",
+        "pairing_es": "Pepino y eneldo, hierbas frescas, chorrito de aceite de oliva. Excelente con za'atar.",
+        "mixology": "Protein-forward breakfast, dips, sauce base, sub for sour cream or mayo in recipes.",
+        "mixology_es": "Desayuno proteico, dips, base de salsas, sustituto de crema agria o mayonesa.",
+        "examples": "Regular yogurt with the whey strained out through cheesecloth. Results in roughly 2–3× the protein per serving. Also known as: Strained Yogurt · Labneh (when pressed firm). Key tags: strained, high protein, thick.",
+        "examples_es": "Yogur normal con el suero colado a través de una estameña. Resulta en aproximadamente 2–3× la proteína por ración. También conocido como: Strained Yogurt · Labneh (when pressed firm). Características: colado, alto en proteína, espeso."
+       }
+      },
+      {
+       "name": "Kefir",
+       "name_fr": "Kefir",
+       "name_it": "Kefir",
+       "name_es": "Kéfir",
+       "slug": "kefir",
+       "panel": {
+        "origin": "Tangy, slightly yeasty, slightly effervescent. More complex than yogurt due to yeast co-fermentation.",
+        "origin_es": "Ácido, ligeramente alevadurado y algo efervescente. Más complejo que el yogur por la co-fermentación con levadura.",
+        "chemistry": "Pourable, thinner than yogurt. Slightly fizzy when fresh.",
+        "chemistry_es": "Vertible, más fino que el yogur. Algo burbujeante cuando está fresco.",
+        "pairing": "Berries, honey, granola. Works in any smoothie application.",
+        "pairing_es": "Frutos rojos, miel, granola. Funciona en cualquier batido.",
+        "mixology": "Drinking, smoothies, salad dressings. High probiotic content, digestive benefits.",
+        "mixology_es": "Para beber, batidos, aderezos. Alto contenido probiótico y beneficios digestivos.",
+        "examples": "Milk fermented with kefir grains — a symbiotic colony of bacteria and yeasts. Originated in the Caucasus region. Key tags: fermented, probiotic, drinkable.",
+        "examples_es": "Leche fermentada con gránulos de kéfir — una colonia simbiótica de bacterias y levaduras. Originario de la región del Cáucaso. Características: fermentado, probiótico, bebible."
+       }
+      },
+      {
+       "name": "Sour Cream",
+       "name_fr": "Crème Aigre",
+       "name_it": "Panna Acida",
+       "name_es": "Crema Agria",
+       "slug": "sour-cream",
+       "panel": {
+        "origin": "Tangy, creamy, mildly acidic. Less sharp than yogurt.",
+        "origin_es": "Ácida, cremosa y suavemente acídula. Menos intensa que el yogur.",
+        "chemistry": "Thick and rich, spoonable. Crème fraîche is even richer and more stable under heat.",
+        "chemistry_es": "Espesa y rica, apta para cuchara. La crème fraîche es aún más rica y estable al calor.",
+        "pairing": "Chives, smoked salmon, caviar, beets. Classic atop latkes or pierogies.",
+        "pairing_es": "Cebollino, salmón ahumado, caviar, remolacha. Clásica sobre latkes o pierogi.",
+        "mixology": "Dips, baked potatoes, tacos, borscht, stroganoff. Crème fraîche sauces (doesn't break under heat).",
+        "mixology_es": "Dips, papas asadas, tacos, borscht, stroganoff. Salsas de crème fraîche (no se corta con el calor).",
+        "examples": "Regular cream fermented with lactic acid bacteria. U.S. sour cream: ≥18% fat. Crème fraîche: 30–45% fat, less tangy. Also known as: Crème Fraîche (French variant, higher fat). Key tags: cultured cream, lactic acid, tangy.",
+        "examples_es": "Nata fermentada con bacterias del ácido láctico. Crema agria de EE. UU.: ≥18 % de grasa. Crème fraîche: 30–45 % de grasa, menos ácida. También conocido como: Crème Fraîche (French variant, higher fat). Características: nata cultivada, ácido láctico, ácido y fresco."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FATS & CREAMS",
+   "name_fr": "Graisses & Crèmes",
+   "name_it": "Grassi & Creme",
+   "name_es": "GRASAS Y CREMAS",
+   "color": "#f0e0b0",
+   "sub": [
+    {
+     "name": "FATS & CREAMS",
+     "name_fr": "Graisses & Crèmes",
+     "name_it": "Grassi & Creme",
+     "name_es": "GRASAS Y CREMAS",
+     "color": "#f0e0b0",
+     "descriptors": [
+      {
+       "name": "Heavy Cream",
+       "name_fr": "Crème Épaisse",
+       "name_it": "Panna Densa",
+       "name_es": "Nata para Montar",
+       "slug": "heavy-cream",
+       "panel": {
+        "origin": "Rich, sweet, and full. Neutral dairy sweetness. Takes on flavors it's cooked with.",
+        "origin_es": "Rica, dulce y plena. Dulzor lácteo neutro. Adopta los sabores con los que se cocina.",
+        "chemistry": "Pourable when cold, whips to stiff peaks due to high fat content.",
+        "chemistry_es": "Vertible en frío; monta a picos firmes por su alto contenido graso.",
+        "pairing": "Berries, vanilla, chocolate. Reduces beautifully into pasta sauces.",
+        "pairing_es": "Frutos rojos, vainilla, chocolate. Reduce de maravilla en salsas para pasta.",
+        "mixology": "Whipped cream, ganache, sauces (beurre blanc), soups, ice cream bases.",
+        "mixology_es": "Nata montada, ganache, salsas (beurre blanc), sopas, bases de helado.",
+        "examples": "Skimmed from the top of unhomogenized milk. Must be ≥36% milkfat to be labeled heavy cream in the U.S. Also known as: Heavy Whipping Cream. Key tags: ≥36% milkfat, whippable, rich.",
+        "examples_es": "Se separa de la parte superior de la leche sin homogeneizar. Debe tener ≥36 % de grasa para etiquetarse como heavy cream en EE. UU. También conocido como: Heavy Whipping Cream. Características: ≥36% milkfat, montable, untuoso."
+       }
+      },
+      {
+       "name": "Butter",
+       "name_fr": "Beurre",
+       "name_it": "Burro",
+       "name_es": "Mantequilla",
+       "slug": "butter",
+       "panel": {
+        "origin": "Rich, creamy, slightly sweet. Cultured butter adds tangy complexity. Browned butter = nutty and caramel.",
+        "origin_es": "Rica, cremosa y ligeramente dulce. La cultivada aporta complejidad ácida. La tostada resulta a nuez y caramelo.",
+        "chemistry": "Solid at room temp, pliable when warm, liquid when melted.",
+        "chemistry_es": "Sólida a temperatura ambiente, maleable templada, líquida al fundirse.",
+        "pairing": "Classic on bread, vegetables, pasta. Brown butter pairs with sage, hazelnuts, and fish.",
+        "pairing_es": "Clásica en pan, verduras y pasta. La tostada combina con salvia, avellanas y pescado.",
+        "mixology": "Cooking, baking, finishing sauces, spreading. Brown butter (beurre noisette) for nutty depth.",
+        "mixology_es": "Cocinar, hornear, terminar salsas, untar. Mantequilla tostada (beurre noisette) para profundidad a nuez.",
+        "examples": "Cream churned until fat globules clump together. Rinsed and worked until smooth. European butter: ≥82% fat. American: ≥80%. Also known as: European-Style Butter (higher fat) · Cultured Butter. Key tags: ≥80% milkfat, churned cream, emulsion.",
+        "examples_es": "Nata batida hasta que los glóbulos de grasa se agrupan. Se enjuaga y amasa hasta quedar lisa. Europea: ≥82 % de grasa. Estadounidense: ≥80 %. También conocido como: European-Style Butter (higher fat) · Cultured Butter. Características: ≥80% milkfat, nata batida, emulsión."
+       }
+      },
+      {
+       "name": "Ghee",
+       "name_fr": "Ghee",
+       "name_it": "Ghee",
+       "name_es": "Ghee",
+       "slug": "ghee",
+       "panel": {
+        "origin": "Deeply nutty and rich. Concentrated butter flavor without the dairy solids. Slightly caramel-like.",
+        "origin_es": "Profundamente a nuez y rico. Sabor a mantequilla concentrado sin los sólidos lácteos. Levemente acaramelado.",
+        "chemistry": "Liquid gold when melted, semi-solid at room temp. Smooth, no milk solids.",
+        "chemistry_es": "Oro líquido al fundirse, semisólido a temperatura ambiente. Suave, sin sólidos lácteos.",
+        "pairing": "Basmati rice, lentils, flatbreads. Excellent finishing fat for grilled proteins.",
+        "pairing_es": "Arroz basmati, lentejas, panes planos. Excelente grasa de acabado para proteínas a la parrilla.",
+        "mixology": "High-heat sautéing and frying, Indian cuisine (dal, biryani, rotis), finishing drizzle.",
+        "mixology_es": "Saltear y freír a fuego alto, cocina india (dal, biryani, rotis), chorrito de acabado.",
+        "examples": "Butter simmered slowly until water evaporates and milk solids separate and are removed. Higher smoke point than butter (~485°F vs ~350°F). Also known as: Clarified Butter · Drawn Butter. Key tags: clarified, high smoke point, lactose-free.",
+        "examples_es": "Mantequilla cocida a fuego lento hasta que el agua se evapora y los sólidos lácteos se separan y se retiran. Punto de humo más alto que la mantequilla (~250 °C vs ~175 °C). También conocido como: Clarified Butter · Drawn Butter. Características: clarificada, alto punto de humo, sin lactosa."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRESH & UNRIPENED CHEESE",
+   "name_fr": "Fromages Frais",
+   "name_it": "Formaggi Freschi",
+   "name_es": "QUESOS FRESCOS Y SIN MADURAR",
+   "color": "#f8f0d8",
+   "sub": [
+    {
+     "name": "FRESH & UNRIPENED CHEESE",
+     "name_fr": "Fromages Frais",
+     "name_it": "Formaggi Freschi",
+     "name_es": "QUESOS FRESCOS Y SIN MADURAR",
+     "color": "#f8f0d8",
+     "descriptors": [
+      {
+       "name": "Mozzarella",
+       "name_fr": "Mozzarella",
+       "name_it": "Mozzarella",
+       "name_es": "Mozzarella",
+       "slug": "mozzarella",
+       "panel": {
+        "origin": "Mild, clean, milky. Fresh variants have a delicate lactic sweetness. Buffalo mozzarella has more tang.",
+        "origin_es": "Suave, limpia y láctea. Las versiones frescas tienen un delicado dulzor láctico. La de búfala es más ácida.",
+        "chemistry": "Elastic and springy when fresh. Melts into satisfying stretch. Bocconcini are egg-sized fresh balls.",
+        "chemistry_es": "Elástica y mullida cuando es fresca. Funde con una hebra satisfactoria. Los bocconcini son bolas frescas del tamaño de un huevo.",
+        "pairing": "Ripe tomato, basil, olive oil, prosciutto. Red: light Chianti, Pinot Noir.",
+        "pairing_es": "Tomate maduro, albahaca, aceite de oliva, prosciutto. Tinto: Chianti ligero, Pinot Noir.",
+        "mixology": "Pizza, Caprese salad, sandwiches, baked pasta. Low-moisture mozzarella best for pizza (less water release).",
+        "mixology_es": "Pizza, ensalada Caprese, sándwiches, pasta al horno. La de baja humedad es la mejor para pizza (suelta menos agua).",
+        "examples": "Pasta filata method — curds are kneaded and stretched in hot water. Traditionally buffalo milk (Italy); U.S. mostly cow's milk. Also known as: Fresh Mozzarella · Fior di Latte · Buffalo Mozzarella. Key tags: pasta filata, mild, stretchy, cow or buffalo.",
+        "examples_es": "Método pasta filata — la cuajada se amasa y estira en agua caliente. Tradicionalmente de leche de búfala (Italia); en EE. UU., casi siempre de vaca. También conocido como: Fresh Mozzarella · Fior di Latte · Buffalo Mozzarella. Características: pasta filata, suave, elástico, vaca o búfala."
+       }
+      },
+      {
+       "name": "Ricotta",
+       "name_fr": "Ricotta",
+       "name_it": "Ricotta",
+       "name_es": "Ricotta",
+       "slug": "ricotta",
+       "panel": {
+        "origin": "Mild, slightly sweet, delicate lactic flavor. Gentle and neutral.",
+        "origin_es": "Suave, ligeramente dulce, de delicado sabor láctico. Gentil y neutra.",
+        "chemistry": "Creamy yet grainy. Firm enough to hold shape in pasta but smooth enough to spread.",
+        "chemistry_es": "Cremosa pero granulosa. Firme para mantener forma en pastas, pero suave para untar.",
+        "pairing": "Honey, lemon zest, pistachios, fresh herbs. Whites: Pinot Grigio, Soave.",
+        "pairing_es": "Miel, ralladura de limón, pistachos, hierbas frescas. Blancos: Pinot Grigio, Soave.",
+        "mixology": "Lasagna, stuffed shells, cannoli, cheesecake, gnocchi. Excellent on toast with honey.",
+        "mixology_es": "Lasaña, conchas rellenas, cannoli, tarta de queso, ñoquis. Excelente en tostada con miel.",
+        "examples": "Made by re-cooking whey leftover from cheesemaking (ricotta = 'recooked'). Acid added to precipitate remaining proteins. Key tags: whey cheese, mild, slightly sweet, cow or sheep.",
+        "examples_es": "Se hace recociendo el suero sobrante de la quesería (ricotta = 'recocida'). Se añade ácido para precipitar las proteínas restantes. Características: queso de suero, suave, ligeramente dulce, vaca u oveja."
+       }
+      },
+      {
+       "name": "Cottage Cheese",
+       "name_fr": "Fromage Cottage",
+       "name_it": "Fiocchi di Latte",
+       "name_es": "Queso Cottage (Requesón)",
+       "slug": "cottage-cheese",
+       "panel": {
+        "origin": "Mild, slightly salty, subtly acidic. Almost neutral.",
+        "origin_es": "Suave, algo salado y sutilmente ácido. Casi neutro.",
+        "chemistry": "Lumpy, creamy. Large-curd vs small-curd varieties. Not pressed, so remains moist.",
+        "chemistry_es": "Grumoso y cremoso. Variedades de cuajada grande o pequeña. No prensado, así que se mantiene húmedo.",
+        "pairing": "Fresh fruit (peaches, berries), cracked pepper, chives. Pairs well with everything mild.",
+        "pairing_es": "Fruta fresca (melocotón, frutos rojos), pimienta recién molida, cebollino. Combina con todo lo suave.",
+        "mixology": "On its own, with fruit, baking (pancakes, cheesecakes), casseroles, protein-dense eating.",
+        "mixology_es": "Solo, con fruta, repostería (panqueques, tartas), guisos, alimentación rica en proteína.",
+        "examples": "Curds cut and drained but not pressed or aged. Cream dressing added back for texture. Also known as: Curd Cheese. Key tags: high protein, mild, lumpy, low-fat option.",
+        "examples_es": "Cuajada cortada y escurrida pero no prensada ni madurada. Se le reañade un aderezo de nata para dar textura. También conocido como: Curd Cheese. Características: alto en proteína, suave, grumoso, opción baja en grasa."
+       }
+      },
+      {
+       "name": "Mascarpone",
+       "name_fr": "Mascarpone",
+       "name_it": "Mascarpone",
+       "name_es": "Mascarpone",
+       "slug": "mascarpone",
+       "panel": {
+        "origin": "Buttery, sweet, creamy. Richer than crème fraîche. Pure dairy luxury.",
+        "origin_es": "Mantecoso, dulce y cremoso. Más rico que la crème fraîche. Puro lujo lácteo.",
+        "chemistry": "Thick and spreadable. Luxurious and smooth — close to a solid cream.",
+        "chemistry_es": "Espeso y untable. Lujoso y liso — cercano a una nata sólida.",
+        "pairing": "Espresso, cocoa, amaretto, ripe figs, berries. Moscato d'Asti, dessert wines.",
+        "pairing_es": "Espresso, cacao, amaretto, higos maduros, frutos rojos. Moscato d'Asti, vinos de postre.",
+        "mixology": "Tiramisu, cheesecakes, pasta sauces, risotto finish, fruit dips.",
+        "mixology_es": "Tiramisú, tartas de queso, salsas para pasta, acabado de risotto, dips de fruta.",
+        "examples": "Heavy cream acidified with citric or tartaric acid, then drained. Very high fat content (70–75%). Key tags: high fat, Italian, spreadable, very rich.",
+        "examples_es": "Nata espesa acidificada con ácido cítrico o tartárico y luego escurrida. Contenido graso muy alto (70–75 %). Características: alto en grasa, italiano, untable, muy untuoso."
+       }
+      },
+      {
+       "name": "Cream Cheese",
+       "name_fr": "Fromage à la Crème",
+       "name_it": "Formaggio Cremoso",
+       "name_es": "Queso Crema",
+       "slug": "cream-cheese",
+       "panel": {
+        "origin": "Mild and slightly tangy. Creamy and neutral — absorbs surrounding flavors well.",
+        "origin_es": "Suave y ligeramente ácido. Cremoso y neutro — absorbe bien los sabores que lo rodean.",
+        "chemistry": "Soft, smooth, spreadable block. Melts into sauces.",
+        "chemistry_es": "Bloque blando, liso y untable. Se funde en salsas.",
+        "pairing": "Smoked salmon and capers, lox, everything bagels, jalapeño jelly.",
+        "pairing_es": "Salmón ahumado y alcaparras, lox, bagels 'everything', jalea de jalapeño.",
+        "mixology": "Bagels, frosting (carrot cake), cheesecake base, dips, stuffed proteins.",
+        "mixology_es": "Bagels, glaseado (pastel de zanahoria), base de tarta de queso, dips, proteínas rellenas.",
+        "examples": "Milk and cream standardized, then acidified and thickened. Must be ≥33% fat, ≤55% moisture. Key tags: spreadable, mild tang, cow's milk, American staple.",
+        "examples_es": "Leche y nata estandarizadas, luego acidificadas y espesadas. Debe tener ≥33 % de grasa y ≤55 % de humedad. Características: untable, ligeramente ácido, leche de vaca, básico estadounidense."
+       }
+      },
+      {
+       "name": "Burrata",
+       "name_fr": "Burrata",
+       "name_it": "Burrata",
+       "name_es": "Burrata",
+       "slug": "burrata",
+       "panel": {
+        "origin": "Mild, milky outer shell (mozzarella); creamy, rich, buttery center (stracciatella).",
+        "origin_es": "Cáscara exterior suave y láctea (mozzarella); centro cremoso, rico y mantecoso (stracciatella).",
+        "chemistry": "Firm outer shell gives way to flowing cream and shredded curd. Dramatic when cut.",
+        "chemistry_es": "La cáscara firme da paso a una crema fluida y cuajada deshilachada. Espectacular al cortarla.",
+        "pairing": "Heirloom tomatoes, basil, sea salt, good olive oil. Rosé, Vermentino.",
+        "pairing_es": "Tomates heirloom, albahaca, sal marina, buen aceite de oliva. Rosado, Vermentino.",
+        "mixology": "Served fresh, barely touched. With tomatoes, on pizza, flatbreads, antipasti.",
+        "mixology_es": "Se sirve fresca, apenas manipulada. Con tomates, en pizza, panes planos, antipasti.",
+        "examples": "Outer shell made from fresh mozzarella; filled with stracciatella (cream + mozzarella shreds) and sealed. Key tags: Italian, fresh, stracciatella center, ultra-rich.",
+        "examples_es": "Cáscara exterior de mozzarella fresca; rellena de stracciatella (nata + hebras de mozzarella) y sellada. Características: italiano, fresco, stracciatella center, ultra untuoso."
+       }
+      },
+      {
+       "name": "Feta",
+       "name_fr": "Feta",
+       "name_it": "Feta",
+       "name_es": "Feta",
+       "slug": "feta",
+       "panel": {
+        "origin": "Tangy, salty, and crumbly. Sharp lactic bite. PDO feta (sheep's milk) richer than cow's milk versions.",
+        "origin_es": "Ácida, salada y desmenuzable. Mordida láctica intensa. La feta DOP (leche de oveja) es más rica que las de leche de vaca.",
+        "chemistry": "Crumbly and slightly grainy. Doesn't melt — holds shape even under heat.",
+        "chemistry_es": "Desmenuzable y algo granulosa. No se funde — mantiene su forma incluso con calor.",
+        "pairing": "Olives, cucumber, red onion, oregano, watermelon. Assyrtiko (Santorini), dry rosé.",
+        "pairing_es": "Aceitunas, pepino, cebolla roja, orégano, sandía. Assyrtiko (Santorini), rosado seco.",
+        "mixology": "Greek salad, spanakopita, roasted vegetables, watermelon salad, stuffed peppers.",
+        "mixology_es": "Ensalada griega, spanakopita, verduras asadas, ensalada de sandía, pimientos rellenos.",
+        "examples": "PDO: ≥70% sheep's milk + up to 30% goat's milk. Brined and aged in brine. Protected geographical designation from Greece. Also known as: Feta PDO (Greece). Key tags: PDO, brine-cured, sheep or goat, Greek.",
+        "examples_es": "DOP: ≥70 % leche de oveja + hasta 30 % de cabra. Curada y madurada en salmuera. Denominación geográfica protegida de Grecia. También conocido como: Feta PDO (Greece). Características: PDO, curado en salmuera, oveja o cabra, griego."
+       }
+      },
+      {
+       "name": "Chèvre",
+       "name_fr": "Chèvre",
+       "name_it": "Caprino",
+       "name_es": "Chèvre (Queso de Cabra)",
+       "slug": "chevre",
+       "panel": {
+        "origin": "Earthy, tangy, and bright. Distinctive 'goaty' character from capric acid. More acidic than cow's milk cheese.",
+        "origin_es": "Terroso, ácido y vivo. Carácter 'caprino' distintivo por el ácido cáprico. Más ácido que el queso de vaca.",
+        "chemistry": "Soft and spreadable when fresh. Becomes drier and more crumbly with age.",
+        "chemistry_es": "Blando y untable cuando es fresco. Más seco y desmenuzable con la edad.",
+        "pairing": "Beets, walnuts, arugula, honey, dried figs. Sancerre (Loire Sauvignon Blanc) — classic pairing.",
+        "pairing_es": "Remolacha, nueces, rúcula, miel, higos secos. Sancerre (Sauvignon Blanc del Loira) — maridaje clásico.",
+        "mixology": "Salads, crostini, flatbreads, stuffed chicken, beet salads, quiche.",
+        "mixology_es": "Ensaladas, crostini, panes planos, pollo relleno, ensaladas de remolacha, quiche.",
+        "examples": "Goat's milk inoculated with starter culture and rennet. Drained in cheesecloth. Often rolled in herbs or ash. Also known as: Fresh Goat Cheese. Key tags: goat's milk, tangy, earthy, spreadable.",
+        "examples_es": "Leche de cabra inoculada con cultivo iniciador y cuajo. Escurrida en estameña. A menudo se rueda en hierbas o ceniza. También conocido como: Fresh Goat Cheese. Características: leche de cabra, ácido y fresco, terroso, untable."
+       }
+      },
+      {
+       "name": "Halloumi",
+       "name_fr": "Halloumi",
+       "name_it": "Halloumi",
+       "name_es": "Halloumi",
+       "slug": "halloumi",
+       "panel": {
+        "origin": "Salty, mild, and slightly squeaky when fresh. Develops a golden, savory crust when cooked.",
+        "origin_es": "Salado, suave y algo chirriante cuando es fresco. Desarrolla una corteza dorada y sabrosa al cocinarse.",
+        "chemistry": "Semi-firm, rubbery raw. Transforms when grilled — crispy outside, soft and yielding inside.",
+        "chemistry_es": "Semifirme y gomoso en crudo. Se transforma a la parrilla — crujiente por fuera, blando por dentro.",
+        "pairing": "Watermelon, mint, honey drizzle, grilled pita. Crisp whites: Vermentino, Grüner Veltliner.",
+        "pairing_es": "Sandía, menta, chorrito de miel, pita a la parrilla. Blancos frescos: Vermentino, Grüner Veltliner.",
+        "mixology": "Grilled, pan-fried, or baked. Middle Eastern and Mediterranean mezes. On salads while hot.",
+        "mixology_es": "A la parrilla, a la sartén o al horno. Mezzes de Oriente Medio y el Mediterráneo. Sobre ensaladas mientras está caliente.",
+        "examples": "Traditional Cyprus cheese: sheep's and goat's milk, sometimes cow's. Boiled in whey, then salted and brined. Very high melting point. Key tags: Cypriot, grill cheese, high melting point, sheep or goat.",
+        "examples_es": "Queso tradicional de Chipre: leche de oveja y cabra, a veces de vaca. Hervido en suero, luego salado y puesto en salmuera. Punto de fusión muy alto. Características: chipriota, queso para asar, alto punto de fusión, oveja o cabra."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOFT / WHITE-MOLD CHEESE",
+   "name_fr": "Fromages à Pâte Molle",
+   "name_it": "Formaggi a Pasta Molle",
+   "name_es": "QUESOS BLANDOS / DE MOHO BLANCO",
+   "color": "#f0d8a0",
+   "sub": [
+    {
+     "name": "SOFT / WHITE-MOLD CHEESE",
+     "name_fr": "Fromages à Pâte Molle",
+     "name_it": "Formaggi a Pasta Molle",
+     "name_es": "QUESOS BLANDOS / DE MOHO BLANCO",
+     "color": "#f0d8a0",
+     "descriptors": [
+      {
+       "name": "Brie",
+       "name_fr": "Brie",
+       "name_it": "Brie",
+       "name_es": "Brie",
+       "slug": "brie",
+       "panel": {
+        "origin": "Mild, buttery, mushroomy. Fruity and earthy. Becomes runnier and more pungent with age.",
+        "origin_es": "Suave, mantecoso, a champiñón. Afrutado y terroso. Más fluido y penetrante con la edad.",
+        "chemistry": "Soft paste inside, edible white rind outside. Flows at room temperature when ripe.",
+        "chemistry_es": "Pasta blanda por dentro, corteza blanca comestible por fuera. Fluye a temperatura ambiente cuando está maduro.",
+        "pairing": "Green apple, raspberry jam, honey, walnuts, baguette. Champagne, Chardonnay, light Pinot Noir.",
+        "pairing_es": "Manzana verde, mermelada de frambuesa, miel, nueces, baguette. Champán, Chardonnay, Pinot Noir ligero.",
+        "mixology": "Cheese boards, baked brie (with jam/honey), sandwiches, melted into sauces.",
+        "mixology_es": "Tablas de queso, brie al horno (con mermelada/miel), sándwiches, fundido en salsas.",
+        "examples": "Cow's milk inoculated with Penicillium camemberti on surface. Ripens from outside in. Rind is edible. Also known as: Brie de Meaux PDO · Brie de Melun PDO. Key tags: bloomy rind, French, cow's milk, soft-ripened.",
+        "examples_es": "Leche de vaca inoculada en superficie con Penicillium camemberti. Madura de afuera hacia adentro. La corteza es comestible. También conocido como: Brie de Meaux PDO · Brie de Melun PDO. Características: corteza enmohecida, francés, leche de vaca, de maduración blanda."
+       }
+      },
+      {
+       "name": "Camembert",
+       "name_fr": "Camembert",
+       "name_it": "Camembert",
+       "name_es": "Camembert",
+       "slug": "camembert",
+       "panel": {
+        "origin": "Earthier and more pungent than Brie. Notes of mushroom, garlic, and barnyard. Stronger aroma.",
+        "origin_es": "Más terroso y penetrante que el Brie. Notas de champiñón, ajo y establo. Aroma más fuerte.",
+        "chemistry": "Runny and oozy when ripe. Firm when young, transforms with age.",
+        "chemistry_es": "Fluido y goteante cuando está maduro. Firme de joven, se transforma con la edad.",
+        "pairing": "Calvados (apple brandy), Cidre Normand, Champagne. Fresh figs, strawberries.",
+        "pairing_es": "Calvados (aguardiente de manzana), sidra normanda, champán. Higos frescos, fresas.",
+        "mixology": "Baked in its own box, cheese boards, with crusty bread.",
+        "mixology_es": "Horneado en su propia caja, tablas de queso, con pan crujiente.",
+        "examples": "Similar to Brie but traditionally ladled (not poured) into molds — creates a coarser paste. PDO version: raw Normandy milk. Also known as: Camembert de Normandie PDO. Key tags: bloomy rind, French, Normandy, more pungent than Brie.",
+        "examples_es": "Similar al Brie pero tradicionalmente vertido a cucharón (no colado) en moldes — crea una pasta más gruesa. Versión DOP: leche cruda de Normandía. También conocido como: Camembert de Normandie PDO. Características: corteza enmohecida, francés, Normandía, more pungent than Brie."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SEMI-SOFT CHEESE",
+   "name_fr": "Fromages Mi-Mous",
+   "name_it": "Formaggi Semimolli",
+   "name_es": "QUESOS SEMIBLANDOS",
+   "color": "#d4a840",
+   "sub": [
+    {
+     "name": "SEMI-SOFT CHEESE",
+     "name_fr": "Fromages Mi-Mous",
+     "name_it": "Formaggi Semimolli",
+     "name_es": "QUESOS SEMIBLANDOS",
+     "color": "#d4a840",
+     "descriptors": [
+      {
+       "name": "Havarti",
+       "name_fr": "Havarti",
+       "name_it": "Havarti",
+       "name_es": "Havarti",
+       "slug": "havarti",
+       "panel": {
+        "origin": "Buttery, slightly sweet, mildly tangy. Becomes sharper with age. Mild enough for wide appeal.",
+        "origin_es": "Mantecoso, ligeramente dulce y suavemente ácido. Más intenso con la edad. Lo bastante suave para gustar a todos.",
+        "chemistry": "Smooth, creamy, pliable. Small irregular holes throughout. Melts well.",
+        "chemistry_es": "Liso, cremoso y maleable. Pequeños ojos irregulares por toda la pasta. Funde bien.",
+        "pairing": "Sliced meats, pickled vegetables, light pilsner, Riesling.",
+        "pairing_es": "Fiambres, verduras encurtidas, pilsner ligera, Riesling.",
+        "mixology": "Sandwiches, burgers, melting applications, snacking, cheese boards.",
+        "mixology_es": "Sándwiches, hamburguesas, fundidos, picoteo, tablas de queso.",
+        "examples": "Danish washed-curd cheese. Curds washed with water to reduce acidity, creating milder flavor. Also known as: Havarti PGI (Denmark). Key tags: Danish, semi-soft, buttery, cow's milk.",
+        "examples_es": "Queso danés de cuajada lavada. La cuajada se lava con agua para reducir la acidez y crear un sabor más suave. También conocido como: Havarti PGI (Denmark). Características: danés, semiblando, mantecoso, leche de vaca."
+       }
+      },
+      {
+       "name": "Muenster",
+       "name_fr": "Muenster",
+       "name_it": "Muenster",
+       "name_es": "Muenster",
+       "slug": "muenster",
+       "panel": {
+        "origin": "American: mild, bland, creamy. French Munster: pungent, bold, washed-rind funk. Very different cheeses sharing a name.",
+        "origin_es": "Estadounidense: suave, neutro y cremoso. Munster francés: penetrante, audaz, con el carácter de corteza lavada. Quesos muy distintos que comparten nombre.",
+        "chemistry": "Soft, creamy, smooth. Melts exceptionally well.",
+        "chemistry_es": "Blando, cremoso y liso. Funde excepcionalmente bien.",
+        "pairing": "Riesling (both versions), dark bread, onion. American: beer and pub food.",
+        "pairing_es": "Riesling (ambas versiones), pan oscuro, cebolla. El estadounidense: cerveza y comida de pub.",
+        "mixology": "Grilled cheese, quesadillas, burgers, sandwiches. American muenster is the melt-friendly option.",
+        "mixology_es": "Sándwich de queso a la plancha, quesadillas, hamburguesas, sándwiches. El muenster estadounidense es la opción fundente.",
+        "examples": "American muenster: washed and colored exterior, mild interior. French Munster: true washed-rind, brined periodically. Also known as: American Muenster · Munster-Géromé (French original). Key tags: semi-soft, orange rind, washed rind (French), melting cheese.",
+        "examples_es": "Muenster estadounidense: exterior lavado y coloreado, interior suave. Munster francés: corteza lavada de verdad, salada periódicamente. También conocido como: American Muenster · Munster-Géromé (French original). Características: semiblando, corteza naranja, corteza lavada (francés), queso fundente."
+       }
+      },
+      {
+       "name": "Taleggio",
+       "name_fr": "Taleggio",
+       "name_it": "Taleggio",
+       "name_es": "Taleggio",
+       "slug": "taleggio",
+       "panel": {
+        "origin": "Strong aroma but surprisingly mild, fruity, and tangy flavor. Don't judge by the smell.",
+        "origin_es": "Aroma fuerte pero sabor sorprendentemente suave, afrutado y ácido. No lo juzgues por el olor.",
+        "chemistry": "Soft and creamy paste. Almost spreadable near the rind.",
+        "chemistry_es": "Pasta blanda y cremosa. Casi untable cerca de la corteza.",
+        "pairing": "Prosciutto, figs, walnuts, honey. Pinot Grigio, Barbera d'Asti.",
+        "pairing_es": "Prosciutto, higos, nueces, miel. Pinot Grigio, Barbera d'Asti.",
+        "mixology": "Risotto, polenta, melted on pizza, fondue, cheese boards.",
+        "mixology_es": "Risotto, polenta, fundido en pizza, fondue, tablas de queso.",
+        "examples": "Lombardy cheese washed in seawater during aging, creating its characteristic sticky orange rind and strong aroma. Also known as: Taleggio PDO (Italy). Key tags: Italian, washed rind, smelly, PDO.",
+        "examples_es": "Queso de Lombardía lavado en agua de mar durante la maduración, lo que crea su característica corteza naranja pegajosa y su aroma fuerte. También conocido como: Taleggio PDO (Italy). Características: italiano, corteza lavada, de aroma fuerte, PDO."
+       }
+      },
+      {
+       "name": "Provolone",
+       "name_fr": "Provolone",
+       "name_it": "Provolone",
+       "name_es": "Provolone",
+       "slug": "provolone",
+       "panel": {
+        "origin": "Young: mild, buttery, slightly sweet. Aged (piccante): sharp, tangy, piquant.",
+        "origin_es": "Joven: suave, mantecoso, ligeramente dulce. Añejo (piccante): fuerte, ácido y picante.",
+        "chemistry": "Smooth, firm, slightly elastic. Slices cleanly.",
+        "chemistry_es": "Liso, firme y algo elástico. Se corta limpiamente.",
+        "pairing": "Salami, roasted peppers, olives. Medium-bodied reds: Chianti, Montepulciano.",
+        "pairing_es": "Salami, pimientos asados, aceitunas. Tintos de cuerpo medio: Chianti, Montepulciano.",
+        "mixology": "Italian sandwiches (classic on a Philly), charcuterie boards, pizza, baked dishes.",
+        "mixology_es": "Sándwiches italianos (clásico en el Philly), tablas de charcutería, pizza, platos al horno.",
+        "examples": "Pasta filata (stretched-curd) technique. Aged from a few months to over a year. Often hung and aged in pear shape. Also known as: Provolone Valpadana PDO · Provolone del Monaco PDO. Key tags: Italian, pasta filata, semi-hard, smoked option.",
+        "examples_es": "Técnica pasta filata (cuajada estirada). Madurado de unos meses a más de un año. A menudo colgado y madurado en forma de pera. También conocido como: Provolone Valpadana PDO · Provolone del Monaco PDO. Características: italiano, pasta filata, semiduro, versión ahumada."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SEMI-HARD CHEESE",
+   "name_fr": "Fromages Mi-Durs",
+   "name_it": "Formaggi Semiduri",
+   "name_es": "QUESOS SEMIDUROS",
+   "color": "#a06820",
+   "sub": [
+    {
+     "name": "SEMI-HARD CHEESE",
+     "name_fr": "Fromages Mi-Durs",
+     "name_it": "Formaggi Semiduri",
+     "name_es": "QUESOS SEMIDUROS",
+     "color": "#a06820",
+     "descriptors": [
+      {
+       "name": "Cheddar",
+       "name_fr": "Cheddar",
+       "name_it": "Cheddar",
+       "name_es": "Cheddar",
+       "slug": "cheddar",
+       "panel": {
+        "origin": "Mild: creamy, buttery, smooth. Sharp: tangy, pungent, complex. Extra sharp: intense, dry, crystalline.",
+        "origin_es": "Suave: cremoso, mantecoso, liso. Fuerte: ácido, penetrante, complejo. Extrafuerte: intenso, seco, cristalino.",
+        "chemistry": "Young: smooth and moist. Aged: dry, crumbly, may have tyrosine crystals.",
+        "chemistry_es": "Joven: liso y húmedo. Añejo: seco, desmenuzable, con posibles cristales de tirosina.",
+        "pairing": "Apple, chutney, pickles, dark bread. Cabernet Sauvignon, IPA, aged red ales.",
+        "pairing_es": "Manzana, chutney, encurtidos, pan oscuro. Cabernet Sauvignon, IPA, ales rojas añejas.",
+        "mixology": "Mac and cheese, grilled cheese, cheeseburgers, cheese boards, fondue.",
+        "mixology_es": "Macarrones con queso, sándwich a la plancha, hamburguesas, tablas de queso, fondue.",
+        "examples": "Unique 'cheddaring' process: cut curds stacked and flipped to expel whey, creating the dense texture. Aged 2 months–10+ years. Also known as: Cheddar (PDO Somerset/West Country). Key tags: English origin, most-consumed US cheese, sharp or mild, aging-driven flavor.",
+        "examples_es": "Proceso único de 'cheddaring': la cuajada cortada se apila y voltea para expulsar el suero, creando su textura densa. Madurado de 2 meses a más de 10 años. También conocido como: Cheddar (PDO Somerset/West Country). Características: origen inglés, most-consumed US cheese, fuerte o suave, aging-driven flavor."
+       }
+      },
+      {
+       "name": "Gouda",
+       "name_fr": "Gouda",
+       "name_it": "Gouda",
+       "name_es": "Gouda",
+       "slug": "gouda",
+       "panel": {
+        "origin": "Young: mild, sweet, slightly nutty. Aged (2+ years): intensely caramel, butterscotch, crunchy crystals. Smoked: adds wood-smoke complexity.",
+        "origin_es": "Joven: suave, dulce, algo a nuez. Añejo (2+ años): intensamente a caramelo y toffee, con cristales crujientes. Ahumado: suma complejidad de humo de leña.",
+        "chemistry": "Young: smooth and semi-firm. Aged: hard and crystalline.",
+        "chemistry_es": "Joven: liso y semifirme. Añejo: duro y cristalino.",
+        "pairing": "Young: lager, Riesling. Aged: Bourbon, Port, dark chocolate. Smoked: BBQ and cured meats.",
+        "pairing_es": "Joven: lager, Riesling. Añejo: bourbon, Oporto, chocolate negro. Ahumado: barbacoa y carnes curadas.",
+        "mixology": "Snacking, cheese boards, sandwiches, fondue, grilled. Aged gouda: dessert cheese with fruit.",
+        "mixology_es": "Picoteo, tablas de queso, sándwiches, fondue, a la plancha. Gouda añejo: queso de postre con fruta.",
+        "examples": "Washed-curd process (like Havarti) reduces acidity. Coated in wax. Named for the city of Gouda, Netherlands. Also known as: Young Gouda · Aged Gouda (Gouda-belegen) · Smoked Gouda. Key tags: Dutch, wax-coated, caramel notes when aged, versatile.",
+        "examples_es": "Proceso de cuajada lavada (como el Havarti) que reduce la acidez. Recubierto de cera. Lleva el nombre de la ciudad de Gouda, Países Bajos. También conocido como: Young Gouda · Aged Gouda (Gouda-belegen) · Smoked Gouda. Características: holandés, recubierto de cera, caramel notes when aged, versátil."
+       }
+      },
+      {
+       "name": "Emmental",
+       "name_fr": "Emmental",
+       "name_it": "Emmental",
+       "name_es": "Emmental",
+       "slug": "emmental",
+       "panel": {
+        "origin": "Mild, sweet, nutty, buttery. Slightly fruity. Less assertive than Gruyère.",
+        "origin_es": "Suave, dulce, a nuez y mantecoso. Ligeramente afrutado. Menos contundente que el Gruyère.",
+        "chemistry": "Firm, pliable, smooth. The iconic large holes (eyes) from CO₂ produced by Propionibacterium bacteria.",
+        "chemistry_es": "Firme, maleable y liso. Los icónicos ojos grandes provienen del CO₂ producido por la bacteria Propionibacterium.",
+        "pairing": "Ham, dijon mustard, pickled vegetables. Riesling, Swiss Chasselas, Pilsner.",
+        "pairing_es": "Jamón, mostaza de Dijon, verduras encurtidas. Riesling, Chasselas suizo, pilsner.",
+        "mixology": "Fondue (often with Gruyère), Reubens, croque monsieur, sandwiches.",
+        "mixology_es": "Fondue (a menudo con Gruyère), Reuben, croque monsieur, sándwiches.",
+        "examples": "Three-culture process including Propionibacterium which produces CO₂ as a byproduct, forming the holes. Swiss Emmentaler: AOC protected. Also known as: Emmentaler (Switzerland) · 'Swiss Cheese'. Key tags: Swiss, holes (eyes), CO₂ bubbles, nutty.",
+        "examples_es": "Proceso de tres cultivos que incluye Propionibacterium, que produce CO₂ como subproducto y forma los ojos. Emmentaler suizo: protegido por AOC. También conocido como: Emmentaler (Switzerland) · 'Swiss Cheese'. Características: suizo, holes (eyes), burbujas de CO₂, a nuez."
+       }
+      },
+      {
+       "name": "Gruyère",
+       "name_fr": "Gruyère",
+       "name_it": "Gruyère",
+       "name_es": "Gruyère",
+       "slug": "gruyere",
+       "panel": {
+        "origin": "Nutty, savory, earthy, slightly salty. Fruity when young, more complex and assertive when aged.",
+        "origin_es": "A nuez, sabroso, terroso y algo salado. Afrutado de joven; más complejo y contundente con la edad.",
+        "chemistry": "Firm and dense. Small eyes (holes). Melts beautifully — superior melting cheese.",
+        "chemistry_es": "Firme y denso. Ojos pequeños. Funde de maravilla — queso fundente superior.",
+        "pairing": "Charcuterie, pickles, Dijon. Chardonnay, Côtes du Rhône, Swiss wines.",
+        "pairing_es": "Charcutería, encurtidos, Dijon. Chardonnay, Côtes du Rhône, vinos suizos.",
+        "mixology": "French onion soup (essential), fondue (the gold standard), quiche Lorraine, croque monsieur.",
+        "mixology_es": "Sopa de cebolla francesa (esencial), fondue (el estándar de oro), quiche Lorraine, croque monsieur.",
+        "examples": "Aged minimum 5 months (standard) to 18+ months (reserve). Rubbed with brine. Originates in Gruyères, Switzerland. Also known as: Gruyère PDO (Switzerland) · Le Gruyère. Key tags: Swiss/French border, PDO, nutty, cooking cheese.",
+        "examples_es": "Madurado mínimo 5 meses (estándar) hasta 18+ meses (reserva). Frotado con salmuera. Originario de Gruyères, Suiza. También conocido como: Gruyère PDO (Switzerland) · Le Gruyère. Características: Swiss/French border, PDO, a nuez, cooking cheese."
+       }
+      },
+      {
+       "name": "Manchego",
+       "name_fr": "Manchego",
+       "name_it": "Manchego",
+       "name_es": "Manchego",
+       "slug": "manchego",
+       "panel": {
+        "origin": "Buttery, nutty, tangy. Slight grassy quality from Manchega sheep diet. More intense with age.",
+        "origin_es": "Mantecoso, a nuez y ácido. Ligero matiz herbáceo por la dieta de la oveja manchega. Más intenso con la edad.",
+        "chemistry": "Firm and smooth when young. Crumbly and crystalline when fully aged. Distinctive herringbone rind pattern.",
+        "chemistry_es": "Firme y liso de joven. Desmenuzable y cristalino bien añejo. Patrón de corteza en espiga distintivo.",
+        "pairing": "Quince paste (membrillo), Marcona almonds, cured meats. Tempranillo, Garnacha, Manzanilla sherry.",
+        "pairing_es": "Dulce de membrillo, almendras Marcona, carnes curadas. Tempranillo, Garnacha, manzanilla.",
+        "mixology": "Cheese boards, tapas, grated over salads, with jamón ibérico.",
+        "mixology_es": "Tablas de queso, tapas, rallado sobre ensaladas, con jamón ibérico.",
+        "examples": "Must come from La Mancha region, Spain. Made exclusively from Manchega breed sheep's milk. Aged 2 months (fresco) to 2+ years (curado/viejo). Also known as: Queso Manchego PDO. Key tags: PDO, Spanish, sheep's milk, La Mancha.",
+        "examples_es": "Debe proceder de la región de La Mancha, España. Hecho exclusivamente con leche de oveja manchega. Madurado de 2 meses (fresco) a 2+ años (curado/viejo). También conocido como: Queso Manchego PDO. Características: PDO, español, leche de oveja, La Mancha."
+       }
+      },
+      {
+       "name": "Parmigiano-Reggiano",
+       "name_fr": "Parmigiano-Reggiano",
+       "name_it": "Parmigiano-Reggiano",
+       "name_es": "Parmigiano-Reggiano",
+       "slug": "parmigiano-reggiano",
+       "panel": {
+        "origin": "Complex, nutty, savory, deeply umami. Fruity and salty. Intensifies with age (24, 36 months).",
+        "origin_es": "Complejo, a nuez, sabroso y profundamente umami. Afrutado y salado. Se intensifica con la edad (24, 36 meses).",
+        "chemistry": "Hard, granular, crumbly. Crunchy tyrosine amino acid crystals in aged versions.",
+        "chemistry_es": "Duro, granular y desmenuzable. Cristales crujientes de tirosina en las versiones añejas.",
+        "pairing": "Aceto Balsamico Tradizionale, honey, walnuts, pears. Barbera d'Alba, Lambrusco, Barolo.",
+        "pairing_es": "Aceto Balsamico Tradizionale, miel, nueces, peras. Barbera d'Alba, Lambrusco, Barolo.",
+        "mixology": "Grated over pasta (essential), risotto, soups, salads. Young versions on boards. Rind in minestrone.",
+        "mixology_es": "Rallado sobre pasta (esencial), risotto, sopas, ensaladas. Versiones jóvenes en tabla. La corteza en el minestrone.",
+        "examples": "PDO: provinces of Parma, Reggio Emilia, Modena, Bologna, Mantua. Made from partially skimmed raw cow's milk. Aged minimum 12 months. Each wheel stamped with the Consorzio mark. Also known as: Parmesan · 'The King of Cheeses'. Key tags: PDO, Italian, hard, cow's milk, minimum 12 months.",
+        "examples_es": "DOP: provincias de Parma, Reggio Emilia, Módena, Bolonia y Mantua. Leche de vaca parcialmente desnatada y cruda. Madurado mínimo 12 meses. Cada pieza lleva el sello del Consorzio. También conocido como: Parmesan · 'The King of Cheeses'. Características: PDO, italiano, duro, leche de vaca, mínimo 12 meses."
+       }
+      },
+      {
+       "name": "Cotija",
+       "name_fr": "Cotija",
+       "name_it": "Cotija",
+       "name_es": "Cotija",
+       "slug": "cotija",
+       "panel": {
+        "origin": "Salty and tangy, somewhat sharp. Mild and milky when fresh (fresco). More pungent when aged (añejado).",
+        "origin_es": "Salado y ácido, algo fuerte. Suave y lácteo cuando es fresco; más penetrante cuando es añejo (añejado).",
+        "chemistry": "Firm and crumbly. Does not melt — retains structure under heat.",
+        "chemistry_es": "Firme y desmenuzable. No se funde — conserva su estructura con el calor.",
+        "pairing": "Lime, chili, cilantro. Mexican lager, fresh salsa verde, guacamole.",
+        "pairing_es": "Lima, chile, cilantro. Lager mexicana, salsa verde fresca, guacamole.",
+        "mixology": "Elotes (street corn), tacos, enchiladas, black beans, soups. Crumbled over anything that needs a salty finish.",
+        "mixology_es": "Elotes, tacos, enchiladas, frijoles negros, sopas. Desmenuzado sobre cualquier cosa que pida un toque salado.",
+        "examples": "Mexican cheese from Michoacán and Jalisco states. Cow's milk, heavy salting. Named for town of Cotija. Also known as: Cotija de la Sierra. Key tags: Mexican, crumbling cheese, salty, aged.",
+        "examples_es": "Queso mexicano de Michoacán y Jalisco. Leche de vaca, salado intenso. Lleva el nombre del pueblo de Cotija. También conocido como: Cotija de la Sierra. Características: mexicano, queso desmenuzable, salado, añejo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BLUE CHEESE",
+   "name_fr": "FROMAGES BLEUS",
+   "name_it": "FORMAGGI ERBORINATI",
+   "name_es": "QUESOS AZULES",
+   "color": "#4a6878",
+   "sub": [
+    {
+     "name": "BLUE CHEESE",
+     "name_fr": "FROMAGES BLEUS",
+     "name_it": "FORMAGGI ERBORINATI",
+     "name_es": "QUESOS AZULES",
+     "color": "#4a6878",
+     "descriptors": [
+      {
+       "name": "Roquefort",
+       "name_fr": "Roquefort",
+       "name_it": "Roquefort",
+       "name_es": "Roquefort",
+       "slug": "roquefort",
+       "panel": {
+        "origin": "Sharp, tangy, salty, complex. Moist and crumbly with concentrated blue flavor. The archetypal blue.",
+        "origin_es": "Fuerte, ácido, salado y complejo. Húmedo y desmenuzable con sabor azul concentrado. El azul arquetípico.",
+        "chemistry": "Moist, crumbly, slightly sticky. Blue-green veins throughout ivory paste.",
+        "chemistry_es": "Húmedo, desmenuzable y algo pegajoso. Vetas azul-verdosas por toda la pasta marfil.",
+        "pairing": "Sauternes (the classic), Port, walnuts, honey, pear. Rich dessert wines complement the salt.",
+        "pairing_es": "Sauternes (el clásico), Oporto, nueces, miel, pera. Los vinos dulces complementan la sal.",
+        "mixology": "Salad dressings (Roquefort dressing), cheese boards, with steak, crumbled over salads.",
+        "mixology_es": "Aderezos de ensalada (aderezo Roquefort), tablas de queso, con bistec, desmenuzado sobre ensaladas.",
+        "examples": "Sheep's milk (Lacaune breed). Aged in Combalou caves of Roquefort-sur-Soulzon with natural Penicillium roqueforti mold. PDO protected. Also known as: Roquefort PDO · 'King of Cheeses' (French claim). Key tags: PDO, French, sheep's milk, cave-aged.",
+        "examples_es": "Leche de oveja (raza Lacaune). Madurado en las cuevas de Combalou de Roquefort-sur-Soulzon con moho natural Penicillium roqueforti. Protegido por DOP. También conocido como: Roquefort PDO · 'King of Cheeses' (French claim). Características: PDO, francés, leche de oveja, madurado en cueva."
+       }
+      },
+      {
+       "name": "Gorgonzola",
+       "name_fr": "Gorgonzola",
+       "name_it": "Gorgonzola",
+       "name_es": "Gorgonzola",
+       "slug": "gorgonzola",
+       "panel": {
+        "origin": "Dolce: mild, creamy, buttery, gentle blue. Piccante: intense, sharp, crumbly, pungent.",
+        "origin_es": "Dolce: suave, cremoso, mantecoso, azul gentil. Piccante: intenso, fuerte, desmenuzable, penetrante.",
+        "chemistry": "Dolce: very creamy and spreadable. Piccante: firm, crumbly, dense.",
+        "chemistry_es": "Dolce: muy cremoso y untable. Piccante: firme, desmenuzable, denso.",
+        "pairing": "Honey, walnuts, pear, figs, radicchio. Amarone, Barolo, dessert wines, Port.",
+        "pairing_es": "Miel, nueces, pera, higos, radicchio. Amarone, Barolo, vinos de postre, Oporto.",
+        "mixology": "Risotto, pasta sauces, pizza, polenta, cheese boards. Dolce in dressings.",
+        "mixology_es": "Risotto, salsas para pasta, pizza, polenta, tablas de queso. El dolce en aderezos.",
+        "examples": "Lombardy and Piedmont, Italy. Cow's milk. Needled to create air channels for mold. PDO since 1996. One of the world's oldest blues. Also known as: Gorgonzola PDO · Dolce (young) · Piccante (aged). Key tags: PDO, Italian, cow's milk, Lombardy.",
+        "examples_es": "Lombardía y Piamonte, Italia. Leche de vaca. Se perfora con agujas para crear canales de aire para el moho. DOP desde 1996. Uno de los azules más antiguos del mundo. También conocido como: Gorgonzola PDO · Dolce (young) · Piccante (aged). Características: PDO, italiano, leche de vaca, Lombardía."
+       }
+      },
+      {
+       "name": "Stilton",
+       "name_fr": "Stilton",
+       "name_it": "Stilton",
+       "name_es": "Stilton",
+       "slug": "stilton",
+       "panel": {
+        "origin": "Crumbly, complex, nutty, slightly sweet, tangy. Less aggressive than Roquefort. Earthy and rich.",
+        "origin_es": "Desmenuzable, complejo, a nuez, ligeramente dulce y ácido. Menos agresivo que el Roquefort. Terroso y rico.",
+        "chemistry": "Firm and crumbly. Dry compared to Gorgonzola. Fine blue veins.",
+        "chemistry_es": "Firme y desmenuzable. Seco comparado con el Gorgonzola. Vetas azules finas.",
+        "pairing": "Vintage Port (quintessential), pears, walnuts, crackers, celery. Oatmeal stout.",
+        "pairing_es": "Oporto añejo (por excelencia), peras, nueces, galletas saladas, apio. Stout de avena.",
+        "mixology": "Classic with Port at English Christmas. Cheese boards, crumbled over salads, in soups, on crackers.",
+        "mixology_es": "Clásico con Oporto en la Navidad inglesa. Tablas de queso, desmenuzado sobre ensaladas, en sopas, sobre galletas.",
+        "examples": "PDO: counties of Derbyshire, Leicestershire, Nottinghamshire. Must be made in a cylinder, not pressed, and have natural rind. Aged minimum 9 weeks. Also known as: Stilton PDO · 'King of English Cheeses'. Key tags: PDO, English, cow's milk, crumbly.",
+        "examples_es": "DOP: condados de Derbyshire, Leicestershire y Nottinghamshire. Debe hacerse en cilindro, sin prensar, y tener corteza natural. Madurado mínimo 9 semanas. También conocido como: Stilton PDO · 'King of English Cheeses'. Características: PDO, inglés, leche de vaca, desmenuzable."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FLUID MILK": {
+   "en": "Milk delivers hydration, protein, fat, and carbohydrate all at once — which is why it is the sole food of mammals in their first weeks of life.",
+   "es": "La leche aporta hidratación, proteína, grasa y carbohidrato a la vez — por eso es el único alimento de los mamíferos en sus primeras semanas de vida."
+  },
+  "CULTURED & FERMENTED": {
+   "en": "The live bacteria that sour milk into yogurt and kefir pre-digest much of the lactose, which is why many lactose-sensitive people tolerate cultured dairy far better than fresh milk.",
+   "es": "Las bacterias vivas que fermentan la leche en yogur y kéfir predigieren gran parte de la lactosa, por eso muchas personas sensibles a la lactosa toleran los lácteos cultivados mucho mejor que la leche fresca."
+  },
+  "FATS & CREAMS": {
+   "en": "It takes roughly 21 pounds of whole milk to make a single pound of butter — cream is the richest, most concentrated fraction of the milk.",
+   "es": "Se necesitan unos 9,5 kilos de leche entera para hacer medio kilo de mantequilla — la nata es la fracción más rica y concentrada de la leche."
+  },
+  "FRESH & UNRIPENED CHEESE": {
+   "en": "Fresh cheeses are made in hours, not months — with no aging they taste of pure milk and are meant to be eaten within days.",
+   "es": "Los quesos frescos se hacen en horas, no en meses — sin maduración saben a leche pura y deben comerse en pocos días."
+  },
+  "SOFT / WHITE-MOLD CHEESE": {
+   "en": "The fuzzy white rind on Brie and Camembert is an edible mold (Penicillium camemberti) that ripens the cheese from the outside in — which is why a ripe wheel runs softest near the rind.",
+   "es": "La corteza blanca y aterciopelada del Brie y el Camembert es un moho comestible (Penicillium camemberti) que madura el queso de afuera hacia adentro — por eso una pieza madura fluye más cerca de la corteza."
+  },
+  "SEMI-SOFT CHEESE": {
+   "en": "Many semi-soft cheeses are 'washed-curd' — the curds are rinsed with water to wash away lactose, giving them their mild, springy, melt-friendly character.",
+   "es": "Muchos quesos semiblandos son de 'cuajada lavada' — la cuajada se enjuaga con agua para eliminar lactosa, lo que les da su carácter suave, elástico y fácil de fundir."
+  },
+  "SEMI-HARD CHEESE": {
+   "en": "The pleasant crunch in aged cheddar, gouda, and parmesan is tyrosine — an amino acid that crystallizes as proteins slowly break down over months of aging.",
+   "es": "El agradable crujido del cheddar, el gouda y el parmesano añejos es tirosina — un aminoácido que cristaliza a medida que las proteínas se descomponen lentamente durante meses de maduración."
+  },
+  "BLUE CHEESE": {
+   "en": "The blue veins are Penicillium roqueforti mold; cheesemakers pierce the wheels with needles so air can reach the interior and let the mold bloom along the channels.",
+   "es": "Las vetas azules son moho Penicillium roqueforti; los queseros perforan las piezas con agujas para que el aire llegue al interior y el moho florezca a lo largo de los canales."
+  }
+ }
+}

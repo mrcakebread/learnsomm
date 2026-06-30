@@ -1,0 +1,861 @@
+{
+ "title": "Coffee Styles",
+ "subject": "coffee-styles",
+ "categories": [
+  {
+   "name": "ORIGINS",
+   "name_fr": "ORIGINES",
+   "name_it": "ORIGINI",
+   "name_es": "ORÍGENES",
+   "color": "#c8a040",
+   "textColor": "#2a1800",
+   "sub": [
+    {
+     "name": "Origins",
+     "name_fr": "Origines",
+     "name_it": "Origini",
+     "name_es": "Orígenes",
+     "color": "#c8a040",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Ethiopian Heirloom",
+       "name_fr": "Variété Ancestrale Éthiopienne",
+       "name_it": "Varietà Antica Etiope",
+       "slug": "ethiopian",
+       "color": "#d4b050",
+       "name_es": "Etiopía",
+       "panel": {
+        "origin": "Ethiopia is coffee's birthplace — Coffea arabica originated in the forest highlands of Kaffa region in southwestern Ethiopia, where wild coffee trees still grow today. The legend of Kaldi the goat herder (9th century) is origin mythology, but Ethiopia's coffee culture is genuinely ancient, with qahwa (coffee ceremony) documented to the 15th century. Ethiopia produces predominantly heirloom varieties — hundreds of unnamed, unselected genetic variants from wild coffee trees rather than the commercial cultivars used elsewhere. Key regions: Yirgacheffe (most celebrated, floral and bright), Sidama, Guji, Harrar (dry-process, berries), Jimma, Limu.",
+        "mixology": "Flavor profile: extraordinarily diverse — Yirgacheffe washed: jasmine, bergamot, lemon curd, blueberry, black tea-like delicacy. Harrar natural: wild blueberry, dark chocolate, wine-like. Sidama: peach, apricot, complex florals. No other origin produces this range of floral-fruit complexity. Excellent as pour-over or Chemex at light-medium roast. Ethiopian coffees at dark roast lose their defining character.",
+        "examples": "Benchmark: Yirgacheffe natural (Konga cooperative), Sidamo G1. Roasters: Stumptown Ethiopia Yirgacheffe, Blue Bottle Bella Donovan (blend), Counter Culture Hologram, Intelligentsia Black Cat espresso (blend often includes Ethiopia)."
+       }
+      },
+      {
+       "name": "Colombian",
+       "name_fr": "Colombien",
+       "name_it": "Colombiano",
+       "slug": "colombian",
+       "color": "#c09030",
+       "name_es": "Colombia",
+       "panel": {
+        "origin": "Colombia is the world's third-largest coffee producer and the most recognized single-origin in consumer markets, largely due to the enormously successful 'Juan Valdez' marketing campaign (begun 1959) by the Federación Nacional de Cafeteros de Colombia. Colombia grows primarily Coffea arabica (mostly Caturra, Castillo, and Colombia cultivars) across three mountain ranges (Cordilleras Occidental, Central, Oriental) between 1,000–2,000+ meters. Famous regions: Huila, Nariño, Antioquia, Sierra Nevada de Santa Marta. Colombia's permanent harvest seasons (due to diverse elevations) allow year-round fresh crop.",
+        "mixology": "Flavor profile: reliable, balanced, medium body; caramel sweetness, mild acidity, chocolate, red fruits (in premium cups), nuts; clean finish. Commercial Colombia: approachable, consistent. Specialty: Huila — stone fruit, brown sugar, bright; Nariño (highest altitude, some of world's highest-grown coffee) — exceptional brightness, complex fruit. Excellent as drip or espresso blend component.",
+        "examples": "Commercial: Folgers Colombian, Juan Valdez. Specialty: Intelligentsia Colombian, Stumptown Colombia El Injerto, Blue Bottle Colombia Huila, Onyx Coffee Lab Colombia."
+       }
+      },
+      {
+       "name": "Guatemalan / Central American",
+       "name_fr": "Guatémaltèque / Amérique Centrale",
+       "name_it": "Guatemalteco / Centroamericano",
+       "slug": "guatemalan",
+       "color": "#b08028",
+       "name_es": "Guatemala / Centroamérica",
+       "panel": {
+        "origin": "Guatemala is Central America's most respected coffee origin, producing some of the region's highest-regarded specialty coffees from volcanic highlands. The Anacafé (National Coffee Association) classifies Guatemala by region — the most famous are Huehuetenango (high altitude, dry climate, exceptional brightness and complexity), Antigua (historic walled city, volcanic soil, full-bodied), and San Marcos (wettest region, most floral). Guatemalan coffee largely uses traditional Bourbon and Typica arabica varieties grown by smallholder farmers (caficultores). Central American coffees (Costa Rica, Honduras, Panama Geisha) share the bright, clean, fruit-forward character of this regional family.",
+        "mixology": "Flavor profile: complex and varied by region. Antigua: dark chocolate, caramel, smoky, full body. Huehuetenango: bright citrus, stone fruit, floral, complex. San Marcos: most aromatic, floral, jasmine-adjacent. Generally medium-bright acidity, excellent sweetness, medium body. Outstanding as pour-over for Huehuetenango; espresso blend for Antigua.",
+        "examples": "Benchmark: Huehuetenango (various farms), Antigua La Hermosa. Roasters: Intelligentsia Guatemala, Stumptown Guatemala, Counter Culture Guatemala. Regional peer: Panama Geisha (Hacienda La Esmeralda) — world's most expensive auction lot coffees."
+       }
+      },
+      {
+       "name": "Kenyan",
+       "name_fr": "Kényan",
+       "name_it": "Keniota",
+       "slug": "kenyan",
+       "color": "#a87020",
+       "name_es": "Kenia",
+       "panel": {
+        "origin": "Kenyan coffee is among the world's most distinctive — SL28 and SL34 (Scott Laboratories selections from the 1930s) are the primary cultivars, producing an intense, bright, complex cup unlike any other origin. Kenya's auction system (the Nairobi Coffee Exchange) grades coffee AA, AB, PB (Peaberry), C by bean size; AA is the largest and most prized. Kenyan coffees are known for what cuppers call 'black currant' or 'tomato' — an unusual fruity-savory quality from high phosphorus content in the red volcanic soil. Produced in the highlands of Central Province and Nyeri County.",
+        "mixology": "Flavor profile: intense, distinctive; black currant, tomato (savory-fruit bridge), grapefruit, blackberry, red wine; very bright acidity; full, complex body; long finish. Bold, assertive — not subtle. Excellent as black pour-over or Chemex where the unique characteristics shine. At dark roast, the defining brightness and fruit disappear. Kenya AA: the benchmark grade.",
+        "examples": "Kenya AA from Nyeri, Kirinyaga, or Murang'a counties. Roasters: Blue Bottle Kenya, Stumptown Kenya Kii, Verve Kenya Gatomboya, Onyx Coffee Lab Kenya. Commercial: Starbucks Kenya (highly roasted, flattened character)."
+       }
+      },
+      {
+       "name": "Brazilian",
+       "name_fr": "Brésilien",
+       "name_it": "Brasiliano",
+       "slug": "brazilian",
+       "color": "#9a6018",
+       "name_es": "Brasil",
+       "panel": {
+        "origin": "Brazil is the world's largest coffee producer by a massive margin — responsible for approximately 35–40% of global supply. Brazilian coffee is produced at lower altitudes than most specialty origins (below 1,200m), creating a lower-acidity, heavier-body profile. Minas Gerais, São Paulo (Sul de Minas, Mogiana), Espírito Santo, and Bahia are major regions. Brazil pioneered natural (dry) processing at scale. Specialty Brazilian coffees have improved dramatically — Cerrado Mineiro and Chapada Diamantina produce award-winning lots. Brazil is the essential base component of Italian espresso blends, providing body and reducing acidity.",
+        "mixology": "Flavor profile: low acid, heavy body; chocolate, caramel, brown sugar, nuts (peanut, almond, hazelnut); smooth, round; natural process Brazils: dried fruit, chocolate wine undertones. The benchmark blendable coffee — makes everything rounder and heavier. Excellent as French press or cold brew for its low acid, full body. Usually included in espresso blends at 40–70%.",
+        "examples": "Commercial: Santos (Brazil standard grade), Lavazza (Italian blends are heavily Brazil-based). Specialty: Brazil Mogiana, Brazil Yellow Bourbon (Fazenda Rainha), Brazil Cerrado Mineiro. Roasters: Blue Bottle (blend base), Intelligentsia."
+       }
+      },
+      {
+       "name": "Sumatra / Indonesian",
+       "name_fr": "Sumatra / Indonésien",
+       "name_it": "Sumatra / Indonesiano",
+       "slug": "sumatran",
+       "color": "#806010",
+       "name_es": "Sumatra / Indonesia",
+       "panel": {
+        "origin": "Sumatran coffee (and its Indonesian siblings — Java, Sulawesi/Celebes, Flores) is defined by a unique processing method called wet-hulling (Giling Basah) where the parchment is removed from green (undried) coffee beans and dried in this exposed state. This produces the characteristic earthy, low-acid, full-body profile and the distinctive blue-green appearance of Sumatra green beans. Mandheling (from Lintong and Dolok Sanggul regions of North Sumatra) and Gayo/Aceh (from Aceh Province) are the most famous grades. Indonesian coffees are the backbone of classic American 'dark roast' diner coffee.",
+        "mixology": "Flavor profile: earthy (forest floor, cedar, composted wood, dark chocolate), full body, very low acid, complex; sometimes funky/fermented notes; dark fruit, tobacco, leather with age. Distinctive and polarizing — instantly recognizable to trained palates. Excellent as French press or espresso blend for body. Terrible for pour-over at light roast (funky instead of clean).",
+        "examples": "Sumatra Mandheling (various), Sumatra Gayo Aceh, Sulawesi Toraja. Roasters: Starbucks Sumatra (one of their oldest offerings), Peet's Sumatra, Intelligentsia Sumatra. Java: Café Java (historic origin of 'a cup of java' expression)."
+       }
+      },
+      {
+       "name": "Yemen / Mocha",
+       "name_fr": "Yémen / Moka",
+       "name_it": "Yemen / Moka",
+       "slug": "yemeni",
+       "color": "#c09840",
+       "name_es": "Yemen / Mocha",
+       "panel": {
+        "origin": "Yemen is where coffee cultivation began — the port of Mocha (Al-Makha) exported the world's first traded coffee in the 15th–16th centuries, and the 'mocha' flavor descriptor originates here (a natural chocolate note, not added flavor). Yemeni coffee is grown at extreme altitudes (1,500–2,500m) in terraced mountain gardens using pre-industrial methods unchanged for centuries — no irrigation, no pesticides, stone mill processing. The Khulani, Tuffahi, Dawairi, and Jaadi varieties are centuries-old heirlooms. Yemen's coffee industry has been severely disrupted by civil war; the surviving crop is extraordinary.",
+        "mixology": "Flavor profile: ancient, complex, wild; dark chocolate (the original 'mocha'), dried fruit (tamarind, raisin, fig), wine, spice, tobacco; natural processing adds fermented berries; full body, moderate acidity; wild and rustic compared to clean modern processed coffees. Brew as Turkish coffee (ibrik) for the most traditional experience. Outstanding as drip or pour-over when very fresh.",
+        "examples": "Yemen Mocca Mattari (Bani Mattar), Yemen Haraazi. Importers: Haraz Coffee (Yemeni diaspora), Port of Mokha (Blue Bottle partnership, documentary The Human Bean). Very limited availability due to conflict."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ROAST PROFILES",
+   "name_fr": "PROFILS DE TORRÉFACTION",
+   "name_it": "PROFILI DI TOSTATURA",
+   "name_es": "PERFILES DE TUESTE",
+   "color": "#804020",
+   "textColor": "#ffe0c0",
+   "sub": [
+    {
+     "name": "Roast Profiles",
+     "name_fr": "Profils de Torréfaction",
+     "name_it": "Profili di Tostatura",
+     "name_es": "Perfiles de Tueste",
+     "color": "#804020",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Light Roast",
+       "name_fr": "Torréfaction Claire",
+       "name_it": "Tostatura Chiara",
+       "slug": "light-roast",
+       "color": "#c09060",
+       "name_es": "Tueste Claro",
+       "panel": {
+        "origin": "Light roast is the specialty coffee industry's dominant choice for single-origin coffees intended to showcase the unique terroir, variety, and processing of a specific farm or region. Light roasting (196–205°C bean exit temperature, before first crack end) preserves the maximum origin character and the acids that express as fruit, florals, and brightness. The 'third wave' coffee movement (from mid-1990s) championed light roasting as the authentic expression of specialty coffee. Light roasts contain slightly MORE caffeine by weight than dark roasts (heat destroys some caffeine).",
+        "mixology": "Flavor profile: bright, fruity, floral; high acidity; complex; lighter body; can seem 'sour' to palates accustomed to dark roasts; grain/cereal notes before development. Internal temps: 196–205°C. Names: Cinnamon Roast, New England Roast, White Coffee (extremely light, technically underdeveloped). Best brewing methods: Chemex, V60, Aeropress (hot). Grind slightly finer than medium for pour-over.",
+        "examples": "Who does it best: Counter Culture (perfectly balanced light), Intelligentsia, Onyx Coffee Lab (fruit-forward Ethiopia/Colombia). Most light roast bags from specialty roasters: Stumptown Hair Bender (medium-light). Not recommended: light roasting commodity-grade coffee (amplifies defects)."
+       }
+      },
+      {
+       "name": "Medium Roast",
+       "name_fr": "Torréfaction Moyenne",
+       "name_it": "Tostatura Media",
+       "slug": "medium-roast",
+       "color": "#906030",
+       "name_es": "Tueste Medio",
+       "panel": {
+        "origin": "Medium roast is the sweet spot for many specialty and commercial coffees — developed enough to reduce raw acidity and create caramel sweetness (Maillard reactions + caramelization complete), while retaining significant origin character. Bean temperature: 210–220°C, just after first crack completes. The sugars in the bean have partially caramelized; the cellular structure breaks down enough to create the oil migration of darker roasts. Most 'breakfast blends' and everyday commercial coffees target medium roast.",
+        "mixology": "Flavor profile: balanced acidity and sweetness; caramel, chocolate, medium body; some origin fruit retained; clean finish; versatile across brew methods. Best for: drip coffee, Americano, pour-over, French press, espresso blends. The most universally accessible roast level — familiar to most coffee drinkers without the edge of light roast or the bitterness of dark. Internal temps: 210–220°C.",
+        "examples": "Most mainstream coffee: Peet's Major Dickason's Blend (medium-dark borderline), Starbucks Pike Place Roast (medium), Caribou Coffee medium. Specialty: Blue Bottle Hayes Valley Espresso (medium), Stumptown Holler Mountain, Intelligentsia (many medium offerings)."
+       }
+      },
+      {
+       "name": "Medium-Dark Roast",
+       "name_fr": "Torréfaction Moyenne-Foncée",
+       "name_it": "Tostatura Medio-Scura",
+       "slug": "medium-dark-roast",
+       "color": "#704020",
+       "name_es": "Tueste Medio-Oscuro",
+       "panel": {
+        "origin": "Medium-dark roast (also called Full City+ or Viennese Roast) represents the transition zone between the caramel-fruit-driven medium range and the true dark roast zone. Bean oils begin appearing on the surface; smoke compounds (guaiacol, pyrazines) build; natural fruit acids largely disappear in favor of roast-driven flavors. This is the traditional espresso roast level for much of Italy — particularly northern Italian style (lighter than southern Italian/Neapolitan dark). Many of the world's most popular commercial coffees target this range.",
+        "mixology": "Flavor profile: dark chocolate, smoky caramel, roasted grain, dried fruit; low acidity; some origin character remains (more in washed coffees); medium-full body. Internal temps: 220–230°C. Names: Full City+, Viennese, Continental. Best for: espresso (medium-dark), drip, French press. At this roast level, espresso develops cream (the brown 'crema' oils) most beautifully. Many espresso blends peak here.",
+        "examples": "Peet's Coffee (most offerings), Starbucks Espresso Roast, Lavazza Gran Espresso, Illy Classico (medium roast by their description — actually medium-dark by specialty standard). Most 'espresso blend' coffees target this range."
+       }
+      },
+      {
+       "name": "Dark Roast (French / Italian)",
+       "name_fr": "Torréfaction Foncée",
+       "name_it": "Tostatura Scura",
+       "slug": "dark-roast",
+       "color": "#402010",
+       "name_es": "Tueste Oscuro",
+       "panel": {
+        "origin": "Dark roast (French Roast, Italian Roast, Espresso Roast at its darkest) takes beans to the second crack range where significant pyrolysis has occurred — the bean structure has broken down, oils cover the surface, and the predominant flavors are smoky, bitter, and tarry rather than origin-driven. 'French Roast' and 'Italian Roast' are misnomers historically — the French preferred light roast (café filtre), and modern Italian espresso varies widely from north (medium-dark) to south (very dark / Neapolitan style). American dark roast tradition owes more to Peet's Coffee (Alfred Peet, Berkeley, 1966) than to European tradition.",
+        "mixology": "Flavor profile: smoky, bitter (carbonized), dark chocolate (turning toward ash), low acidity, heavy body; little origin character; can seem burnt; high bitterness. Bean surface: oily. Internal temps: 230–245°C+. Best for: French press (hides bitter edges), cold brew (bitterness becomes smooth), espresso (muted but familiar). Poorly suited to pour-over (amplifies bitter).",
+        "examples": "Starbucks French Roast (very dark), Starbucks Sumatra, Starbucks Komodo Dragon Blend. Peet's French Roast (lighter than Starbucks but dark). Death Wish Coffee (very dark, very high caffeine). Lavazza Super Crema (medium-dark by contrast)."
+       }
+      },
+      {
+       "name": "Blonde / Nordic Roast",
+       "name_fr": "Torréfaction Blonde",
+       "name_it": "Tostatura Bionda",
+       "slug": "blonde-roast",
+       "color": "#d4a860",
+       "name_es": "Tueste Rubio / Nórdico",
+       "panel": {
+        "origin": "Blonde Roast / Nordic Roast is the lightest commercially recognized roast level, championed by Starbucks's 'Blonde' designation (launched 2012 to compete with the growing specialty market's light roast offerings) and by the Scandinavian/Nordic roasting tradition. Nordic countries (Denmark, Sweden, Finland, Norway) have embraced light roasting since the early 2000s specialty movement, with Danish roasters (Tim Wendelboe, The Coffee Collective, La Cabra) producing some of the world's most celebrated light-roasted coffees that showcase origin transparency.",
+        "mixology": "Flavor profile: very light, bright, high acidity; most origin character retained; grain, cereal, delicate fruits; can taste 'sour' or underroasted to dark roast palates; lowest bitterness. Internal temp: 190–196°C (right at or before first crack). Starbucks Blonde: significantly lighter than their other offerings but not true specialty-light. Nordic light: extremely transparent, fruity, wine-like. Best methods: pour-over, Chemex, Aeropress.",
+        "examples": "Starbucks Veranda Blend (Blonde), Starbucks Blonde Espresso. Nordic: Tim Wendelboe (Oslo), The Coffee Collective (Copenhagen), La Cabra (Aarhus). US equivalent: Counter Culture's lighter roast single origins."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ESPRESSO DRINKS",
+   "name_fr": "BOISSONS ESPRESSO",
+   "name_it": "BEVANDE ESPRESSO",
+   "name_es": "BEBIDAS DE ESPRESSO",
+   "color": "#3a1a08",
+   "textColor": "#f8e8d0",
+   "sub": [
+    {
+     "name": "Espresso Drinks",
+     "name_fr": "Boissons Espresso",
+     "name_it": "Bevande Espresso",
+     "name_es": "Bebidas de Espresso",
+     "color": "#3a1a08",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Espresso",
+       "name_fr": "Espresso",
+       "name_it": "Espresso",
+       "slug": "espresso",
+       "color": "#2a1008",
+       "name_es": "Espresso",
+       "panel": {
+        "origin": "Espresso was invented in Italy in the early 20th century — Angelo Moriondo patented a steam-based machine in Turin in 1884; Luigi Bezzera and Desiderio Pavoni refined and commercialized it around 1906. The name comes from 'esprimere' (to express/press out) — referring to forcing hot water through compacted grounds under pressure. The modern 9-bar pump espresso machine was developed by Achille Gaggia in 1948, creating the thick cream (crema) that defines modern espresso. Italy remains the spiritual home — an estimated 14 billion espressos are consumed per year in Italy, at the bar, standing up.",
+        "mixology": "Definition: 1:2 brew ratio (7–9g ground coffee : 14–18g liquid espresso); extracted at 9 bar / 94°C in 25–30 seconds. Pull variables: grind size, dose, tamp pressure, temperature, water quality all critically affect flavor. A well-pulled espresso shows: caramel-brown crema (3–5mm); rich aroma; balanced sweet-bitter-sour; round mouthfeel; long finish. Shot types: single (7g / 1oz), double (14–18g / 2oz standard), triple (21g / 3oz). Espresso serves as the foundation for all milk-based coffee drinks.",
+        "examples": "Best espresso machines: La Marzocca (benchmark commercial), Rancilio, Rocket Espresso (home). Home: Breville Barista Express, De'Longhi. Best espresso bars: Sant'Eustachio il Caffè (Rome), Caffè Florian (Venice, oldest), Intelligentsia Coffee (Chicago), Blue Bottle (Oakland). Grinders: Mahlkönig EK43 (commercial), Baratza Encore (entry home)."
+       }
+      },
+      {
+       "name": "Ristretto",
+       "name_fr": "Ristretto",
+       "name_it": "Ristretto",
+       "slug": "ristretto",
+       "color": "#1a0808",
+       "name_es": "Ristretto",
+       "panel": {
+        "origin": "Ristretto ('restricted' in Italian) is a shorter, more concentrated version of espresso — typically 15–20ml output from the same 7–9g dose as a standard espresso, extracted in 15–20 seconds (stopping the extraction early). The shorter extraction pulls primarily the sweetest, most aromatic compounds from the coffee while leaving behind much of the bitter, astringent compounds that extract later. Ristretto is preferred by many barista champions and espresso purists as the foundation for milk drinks. Starbucks offers 'extra ristretto shots' as a customization.",
+        "mixology": "Flavor profile: intensely concentrated; sweeter than espresso; more chocolatey, less bitter; thick, syrupy mouthfeel; reduced volume means a ratio of approximately 1:1 (7g coffee : 7ml water). Less caffeine per shot than standard espresso (shorter extraction). Many specialty cafés use ristretto as their standard shot for milk drinks, arguing the sweetness integrates better with milk than the bitterness of a longer pull. Pairs naturally with all milk-based drinks.",
+        "examples": "Specialty practice: Intelligentsia, Counter Culture use ristretto shots in flat whites. Competition espresso often uses ristretto ratio. Home practice: set your machine timer to 15–20 seconds for a ristretto pull rather than 25–30 seconds for standard espresso."
+       }
+      },
+      {
+       "name": "Lungo",
+       "name_fr": "Lungo",
+       "name_it": "Lungo",
+       "slug": "lungo",
+       "color": "#3a2010",
+       "name_es": "Lungo",
+       "panel": {
+        "origin": "Lungo ('long' in Italian) is the opposite of ristretto — allowing the same dose (7–9g) to run longer, producing approximately 50–60ml of liquid vs. the standard 25–30ml of espresso. The extended extraction pulls more bitter, harsh compounds from the grounds. Less common in specialty coffee; more prevalent in Northern European countries (particularly in Nespresso capsule form — their 'Lungo' pods are specifically designed for longer extraction). Not to be confused with Americano (espresso + added hot water, which maintains the espresso's extraction integrity).",
+        "mixology": "Flavor profile: more bitter than espresso; thinner body; watery compared to ristretto; more caffeine per drink (longer extraction). Nespresso Lungo: a specific product optimized for this format. Quality lungo requires a specifically designed espresso blend to avoid harsh over-extraction. 1:4–1:5 ratio (7g coffee : 50–60ml water). Lungo is used in some European countries as the standard café order.",
+        "examples": "Nespresso Lungo capsules (commercial format). European café standard in some countries. Coffee pod machines (Keurig strong brew setting approximates lungo). Generally not a specialty coffee format — specialty bars prefer Americano for longer coffee."
+       }
+      },
+      {
+       "name": "Americano",
+       "name_fr": "Americano",
+       "name_it": "Americano",
+       "slug": "americano",
+       "color": "#4a2818",
+       "name_es": "Americano",
+       "panel": {
+        "origin": "Americano (Caffè Americano) was reportedly invented during World War II when American GI soldiers stationed in Italy found espresso too intense and diluted it with hot water to approximate the drip coffee they were accustomed to. The Italian café owners began offering this diluted version as 'Americano.' The drink is made by adding hot water to espresso (not by running more water through the grounds like lungo), preserving the espresso's extraction integrity while reducing concentration. In the UK, 'white Americano' (with milk) is a common order.",
+        "mixology": "Recipe: pull standard double espresso (14–18g coffee, ~36ml) then add 120–180ml hot water to achieve desired strength. The hot water goes in the cup first, then espresso is pulled on top to preserve crema. Result: coffee with espresso's complexity but drip-coffee's volume and strength level. Approximately 1:4–1:6 ratio total. Served black or with milk separately. Caffeine: approximately same as a standard drip coffee cup.",
+        "examples": "Most common black coffee order at espresso-based cafés globally. Starbucks Caffè Americano is their standard black coffee. UK: standard café black coffee. Recipe at home: Aeropress + hot water also approximates Americano character."
+       }
+      },
+      {
+       "name": "Macchiato",
+       "name_fr": "Macchiato",
+       "name_it": "Macchiato",
+       "slug": "macchiato",
+       "color": "#3a1a10",
+       "name_es": "Macchiato",
+       "panel": {
+        "origin": "Macchiato ('stained' or 'marked' in Italian) refers to two very different drinks depending on whether you're in Italy or at Starbucks. Traditional Italian caffè macchiato: a single espresso with a small amount (15–20ml) of foamed milk 'staining' the top — allowing the customer to see which glass contains milk vs. black espresso on a crowded bar. Latte macchiato (traditional): steamed milk 'stained' with a shot of espresso poured through it — the reverse of caffè macchiato. Starbucks 'Macchiato' is an entirely different (and much larger) drink: layered espresso poured over sweetened milk.",
+        "mixology": "Traditional caffè macchiato: 1 espresso shot + small dollop of foam; 2–3oz total. Latte macchiato: 10oz steamed milk + 1 shot poured through (creates layers). Starbucks macchiato: 16oz+ of milk + caramel sauce + 2 shots espresso on top. The name is consistent; the drinks diverged internationally. Traditional macchiato: extremely concentrated, best for understanding espresso quality without milk dilution but with slight cream from the foam.",
+        "examples": "Traditional: Italian espresso bars worldwide. Latte macchiato: popularized by Starbucks as standard menu item. Starbucks Caramel Macchiato (their bestselling macchiato): sweetened milk + vanilla syrup + espresso + caramel drizzle — very far from Italian original."
+       }
+      },
+      {
+       "name": "Cortado",
+       "name_fr": "Cortado",
+       "name_it": "Cortado",
+       "slug": "cortado",
+       "color": "#604030",
+       "name_es": "Cortado",
+       "panel": {
+        "origin": "Cortado ('cut' in Spanish) originated in Spain — specifically associated with Madrid and Basque Country café culture. A cortado is espresso 'cut' by an equal or near-equal amount of warm, lightly textured milk — approximately 1:1 or 1:1.5 espresso to milk ratio. The minimal milk amount tempers the espresso's harshness without masking its flavor. The cortado has become one of the most adopted specialty coffee drinks globally, sitting between macchiato and flat white in the milk-to-espresso spectrum. Gibraltar glass (small square glass) is the standard vessel at many California specialty cafés.",
+        "mixology": "Recipe: 2oz double espresso + 2–3oz warm (not frothy) milk, 1:1 to 1:1.5 ratio. Milk texture: minimal microfoam — silky, not thick froth. Served in small glass (4–5oz Gibraltar glass is iconic). Temperature: slightly lower than a cappuccino (milk not stretched as hot). Flavor: coffee-forward with milk providing sweetness and softness. The cortado's small size makes espresso quality most apparent.",
+        "examples": "Standard offering at most specialty cafés. Gibraltar glass associated with: Blue Bottle Coffee (Oakland, pioneers of the US cortado/Gibraltar), Sightglass Coffee (San Francisco). Spanish original: Bar Nestor (San Sebastián), any Madrid café. Growing standard at Four Barrel, Stumptown, Counter Culture."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MILK-BASED ESPRESSO",
+   "name_fr": "ESPRESSO AU LAIT",
+   "name_it": "ESPRESSO AL LATTE",
+   "name_es": "ESPRESSO CON LECHE",
+   "color": "#a07850",
+   "textColor": "#fff0e0",
+   "sub": [
+    {
+     "name": "Milk-Based Espresso",
+     "name_fr": "Espresso au Lait",
+     "name_it": "Espresso al Latte",
+     "name_es": "Espresso con Leche",
+     "color": "#a07850",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Cappuccino",
+       "name_fr": "Cappuccino",
+       "name_it": "Cappuccino",
+       "slug": "cappuccino",
+       "color": "#b08860",
+       "name_es": "Cappuccino",
+       "panel": {
+        "origin": "Cappuccino is named for the brown habit of the Capuchin friars — Kapuziner was documented in Vienna as a coffee with cream in the 1700s; the Italian espresso version using steamed milk foam was codified in the early 20th century. Italy's cappuccino culture is strict: 6oz maximum, served only in the morning (never after 11am — the milk is too heavy for after meals), equal parts espresso, steamed milk, and dense microfoam. The barista competition circuit (World Barista Championship) defines cappuccino as: double espresso, 5–6oz total, milk textured to specific microfoam standard, served in a 5–6oz ceramic cup.",
+        "mixology": "Traditional Italian cappuccino: 1 double espresso (2oz) + 2oz steamed milk + 2oz dense foam = 6oz total. 'Dry cappuccino': more foam, less milk. 'Wet cappuccino': more milk, less foam (approaching latte). Milk temperature: 60–65°C (140–150°F) — not scalding. Foam: glossy, creamy microfoam (no big bubbles), poured with a light pattern. The cappuccino's balance of strong espresso, warm milk, and foam makes it the definitive milk-espresso drink.",
+        "examples": "Benchmark Italian: Sant'Eustachio il Caffè (Rome), Caffè Florian (Venice). Global: Blue Bottle, Intelligentsia, Verve Coffee Roasters. Commercial: Starbucks Cappuccino (approx 12oz — very different from Italian standard). Competition: WBC cappuccino format (5–6oz)."
+       }
+      },
+      {
+       "name": "Latte",
+       "name_fr": "Latte",
+       "name_it": "Latte",
+       "slug": "latte",
+       "color": "#c09870",
+       "name_es": "Latte",
+       "panel": {
+        "origin": "Caffè Latte ('coffee with milk' in Italian) as a specific espresso-milk drink was popularized outside Italy in the US by Lino Meiorin of Caffe Mediterraneum in Berkeley (1950s) and later made ubiquitous by Starbucks (founded 1971, expanded 1980s–1990s). The Italian original is simply caffè e latte (coffee with milk) — meaning any coffee with milk, not a specific drink preparation. The American latte is defined by its large size (12–20oz), high milk-to-espresso ratio, and the expectation of latte art. Seattle's coffee culture (Starbucks, Espresso Vivace's David Schomer who pioneered latte art) cemented the modern latte globally.",
+        "mixology": "Recipe: double espresso (2oz) + 8–12oz steamed milk + thin layer of microfoam. Milk ratio: approximately 1:4 to 1:6 espresso to milk. Milk temp: 60–65°C. The latte is the most milk-forward espresso drink outside cafe au lait — the espresso becomes background flavor. Flavor: creamy, mild coffee, sweet milk. Latte art is applied by pouring textured milk into espresso with controlled hand movement (rosettas, tulips, hearts). Iced latte: espresso + cold milk over ice.",
+        "examples": "Starbucks Caffe Latte (most ordered coffee globally). Specialty: Blue Bottle Latte, Intelligentsia Latte. Best latte art: Onyx Coffee Lab, G&B Coffee (Los Angeles), any WBC competition footage. Flavored lattes: vanilla, hazelnut, caramel are the most popular syrup additions."
+       }
+      },
+      {
+       "name": "Flat White",
+       "name_fr": "Flat White",
+       "name_it": "Flat White",
+       "slug": "flat-white",
+       "color": "#906848",
+       "name_es": "Flat White",
+       "panel": {
+        "origin": "Flat White has a disputed origin between New Zealand (Wellington café DKD or Caffe L'Affare, early 1980s) and Australia (Sydney's Moors Espresso Bar or Melbourne, mid-1980s). Both countries claim the invention. The flat white found its defining modern form in the Melbourne café culture of the 1990s–2000s, where double-ristretto shots in a small ceramic cup (5–6oz) with velvety microfoam became the local standard, differentiating Australia/New Zealand from the American latte. Starbucks added Flat White to their global menu in 2015, bringing it to international awareness.",
+        "mixology": "Recipe: double ristretto (1.5oz concentrated) + 4–5oz steamed milk with very thin microfoam layer; 5–6oz total in a tulip ceramic cup. Key distinctions from latte: smaller (5–6oz vs 12+oz); ristretto base (sweeter, more concentrated espresso); thinner microfoam (no thick foam layer); served in ceramic only (not paper). Result: coffee-forward, intense, velvety; the espresso speaks more clearly through the less milk. Temperature: 60°C — noticeably cooler than Starbucks milk drinks.",
+        "examples": "Melbourne benchmark: St Ali Coffee, Market Lane Coffee, Seven Seeds. New Zealand: Customs Brew Bar (Wellington). UK adoption: Flat White London (Soho), Monmouth Coffee. Starbucks Flat White: reasonable approximation but uses 3 ristretto shots vs traditional 2."
+       }
+      },
+      {
+       "name": "Latte Art",
+       "name_fr": "Art du Latte",
+       "name_it": "Latte Art",
+       "slug": "latte-art",
+       "color": "#a07858",
+       "name_es": "Arte en el Café",
+       "panel": {
+        "origin": "Latte art — the practice of pouring steamed milk into espresso to create patterns on the surface — was pioneered by David Schomer of Espresso Vivace in Seattle in the early 1990s, who developed the free-pour rosettas and tulips that became standard. Before this, poured art was mostly ad hoc. The World Barista Championship (first held 2000) codified latte art competition, leading to extraordinary skill development. Japan's café culture elevated latte art into extremely detailed portraits, animals, and 3D foam sculptures. The World Latte Art Championship (WLAC) now features patterns of breathtaking complexity.",
+        "mixology": "Essential technique: perfectly textured microfoam (silky, no bubbles, 60–65°C milk), correct espresso crema, controlled pour. Basic patterns in order of difficulty: heart (push through) → tulip (multiple pours) → rosetta (side-to-side wave) → phoenix (advanced) → portraits (3D etching or free pour). Milk must be textured to 'glossy velvet' consistency — stretching air in during the first 3 seconds at low pitcher position, then lowering wand to spin. Foam consistency is the foundation of all art.",
+        "examples": "Instagram: @jibbi_little (3D art pioneer), @caffeineconnor, @barista_hustle. Competitions: WLAC (World Latte Art Championship). Schools: Barista Hustle (online, by Matt Perger). Tool: JoeFrex latte art pen for etching details. Best free-pour practitioners: Hiroshi Sawada (Japan), Kyohei Aoyagi (Japan, multiple world champion)."
+       }
+      },
+      {
+       "name": "Café au Lait / Café con Leche",
+       "name_fr": "Café au Lait / Café con Leche",
+       "name_it": "Café au Lait / Café con Leche",
+       "slug": "cafe-au-lait",
+       "color": "#c0a880",
+       "name_es": "Café con Leche",
+       "panel": {
+        "origin": "Café au Lait ('coffee with milk' in French) is one of Europe's oldest coffee-with-milk traditions, dating to the 17th century when milk was first regularly combined with coffee in France and the Netherlands. Traditional Café au Lait uses brewed coffee (not espresso) combined in approximately equal parts with hot scalded milk (not steamed/foamed). The New Orleans version — Café du Monde's Café au Lait with chicory coffee and scalded milk — is possibly the most famous American regional coffee drink. Café con Leche (Spanish version) typically uses strong espresso with hot scalded milk.",
+        "mixology": "Traditional French: drip or press coffee + hot milk, 1:1 ratio, in a large bowl (bol) for dipping bread. New Orleans: Community Coffee or French Market coffee with chicory + scalded whole milk, 1:1. Café con Leche (Spanish): short espresso + hot scalded milk. Technically not a latte (no microfoam). Simple and comforting. Temperature: scalded milk (just below boiling) rather than steamed-foamed milk.",
+        "examples": "New Orleans benchmark: Café du Monde (open 24/7 at French Quarter, since 1862). French tradition: any traditional boulangerie, served in a ceramic bowl. Spanish café con leche: widely served throughout Spain and Latin America as standard morning coffee."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPECIALTY ESPRESSO",
+   "name_fr": "ESPRESSO SPÉCIAL",
+   "name_it": "ESPRESSO SPECIALE",
+   "name_es": "ESPRESSO ESPECIAL",
+   "color": "#c05830",
+   "textColor": "#fff0e0",
+   "sub": [
+    {
+     "name": "Specialty Espresso",
+     "name_fr": "Espresso Spécial",
+     "name_it": "Espresso Speciale",
+     "name_es": "Espresso Especial",
+     "color": "#c05830",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Mocha",
+       "name_fr": "Moka",
+       "name_it": "Moka",
+       "slug": "mocha",
+       "color": "#602820",
+       "name_es": "Moca",
+       "panel": {
+        "origin": "The café mocha takes its name from the Yemeni port of Mocha (Al-Makha), where coffee's natural chocolate notes were first documented and where the trade association between coffee and chocolate was established. The modern café mocha (espresso + chocolate + steamed milk + whipped cream) is entirely an American café invention — not Italian. Italian caffe mocha uses a different meaning (the moka pot that brews coffee). American mocha was popularized by Starbucks as a gateway from hot chocolate to espresso-based drinks in the 1980s–1990s, and it remains one of the best-selling flavored coffee drinks globally.",
+        "mixology": "Recipe: 2 tablespoons chocolate sauce/powder + double espresso + 8–10oz steamed milk + whipped cream. Chocolate types: dark chocolate syrup (premium), milk chocolate syrup (sweet), cocoa powder dissolved in espresso (simplest). White mocha uses white chocolate sauce. Peppermint mocha: add peppermint syrup + chocolate. Temperature: same as latte. Sweetness: the most sweet of standard espresso menu drinks.",
+        "examples": "Starbucks Caffè Mocha (world's most ordered mocha). Premium: Intelligentsia dark chocolate mocha, Verve Coffee Roasters mocha (single origin chocolate). DIY: Ghirardelli chocolate sauce + espresso + milk. Seasonal: Starbucks Peppermint Mocha (holiday bestseller)."
+       }
+      },
+      {
+       "name": "Affogato",
+       "name_fr": "Affogato",
+       "name_it": "Affogato",
+       "slug": "affogato",
+       "color": "#804028",
+       "name_es": "Affogato",
+       "panel": {
+        "origin": "Affogato ('drowned' in Italian) is the simplest and most elegant of Italian coffee desserts: a scoop of vanilla gelato or ice cream 'drowned' in a just-pulled shot of hot espresso. Despite being extraordinarily simple, its Italian origin places it firmly in café culture — typically served after dinner as a dessert. The contrast of hot, bitter, intense espresso and cold, sweet, creamy gelato is one of the most satisfying combinations in food. It exists at the intersection of dessert and coffee culture.",
+        "mixology": "Recipe: 1 large scoop (60–80g) premium vanilla gelato or ice cream in a short glass; pull double espresso and pour immediately over the gelato. The heat of the espresso partially melts the gelato, creating a warm-cold, bitter-sweet emulsion. Optional additions: biscotti for dipping, hazelnut liqueur (Frangelico), amaretto, chocolate shavings. Consume immediately — the contrast between hot espresso and cold gelato degrades within 2 minutes.",
+        "examples": "Italian benchmarks: any gelateria or espresso bar offering affogato. Premium gelato: Bi-Rite Creamery (San Francisco), il laboratorio del gelato (NYC). Home recipe: Häagen-Dazs vanilla + your best espresso. Variations: cold brew affogato (cold brew concentrate over gelato, less dramatic temperature contrast)."
+       }
+      },
+      {
+       "name": "Vietnamese Egg Coffee",
+       "name_fr": "Café aux Œufs Vietnamien",
+       "name_it": "Caffè all'Uovo Vietnamita",
+       "slug": "egg-coffee",
+       "color": "#d0a050",
+       "name_es": "Café de Huevo Vietnamita",
+       "panel": {
+        "origin": "Vietnamese Egg Coffee (Cà phê trứng) was invented in Hanoi in 1946 at Café Giang by Nguyen Van Giang, who substituted whipped egg yolk for scarce milk during wartime rationing. He discovered that beating egg yolks with condensed milk and a small amount of coffee created an extraordinarily rich, creamy, meringue-like foam that sat on top of Vietnamese robusta coffee. Café Giang (18 Hang Gai, Hanoi) still serves the original recipe and has become one of Vietnam's most famous culinary experiences. The drink spread internationally from the 2010s as a specialty café curiosity.",
+        "mixology": "Traditional recipe: whisk 2 egg yolks + condensed milk until ribbon stage; brew strong Vietnamese coffee (phin drip, robusta blend); pour egg mixture over coffee or serve inverted (coffee on egg cream). Modern variants: add rum, cocoa, vanilla. Temperature: serve hot (egg cream on hot coffee) or iced (layered in glass). Flavor: intensely rich, sweet, custardy egg cream atop strong, dark coffee; extraordinary contrast of textures.",
+        "examples": "Original: Café Giang (Hanoi, Vietnam) — open since 1946. Café Dinh (Hanoi, older location of Giang café). International: Vietnamese cafés in major cities; Google 'Vietnamese egg coffee' in your city. Home recipe: widely available on YouTube from Vietnamese cooking channels."
+       }
+      },
+      {
+       "name": "Dalgona Coffee",
+       "name_fr": "Dalgona Coffee",
+       "name_it": "Dalgona Coffee",
+       "slug": "dalgona",
+       "color": "#c08040",
+       "name_es": "Café Dalgona",
+       "panel": {
+        "origin": "Dalgona Coffee (whipped instant coffee) became a global viral sensation in early 2020 during COVID-19 lockdowns when South Korean actor Jung Il-woo tasted a similar drink in Macau and a Korean television segment popularized the name 'Dalgona' (after a Korean honeycomb toffee candy). The technique — whipping equal parts instant coffee, sugar, and hot water to stiff foam, then spooning over cold milk — spread through TikTok and Instagram in March 2020, becoming one of the most replicated food trends in internet history. Identical drinks predate 2020 in India (Phenti Hui Coffee), Pakistan, and Libya.",
+        "mixology": "Recipe: 2 tablespoons each of instant coffee (Nescafé Gold works best), sugar, and hot water. Whip vigorously by hand (4–5 minutes) or with electric mixer (90 seconds) until stiff, glossy peaks form. Spoon over 8oz cold milk with ice. Stir before drinking to combine. Key: must use instant coffee — ground espresso doesn't whip due to lack of soluble coffee solids. Hot version: whip as above, spoon over hot milk.",
+        "examples": "Instant coffee brands that whip best: Nescafé Gold, Maxwell House, Folgers Classic. Most popular home recipe: whip 2:2:2 (tbsp instant:sugar:hot water). Variations: matcha Dalgona (matcha + sugar + hot water), brown sugar Dalgona, chocolate Dalgona."
+       }
+      },
+      {
+       "name": "Spiced Latte (Pumpkin / Chai)",
+       "name_fr": "Latte Épicé (Potiron / Chai)",
+       "name_it": "Latte Speziato (Zucca / Chai)",
+       "slug": "spiced-latte",
+       "color": "#b87038",
+       "name_es": "Latte Especiado",
+       "panel": {
+        "origin": "Spiced lattes encompass the enormous category of flavored milk-espresso drinks with spice additions, from the Pumpkin Spice Latte (PSL — Starbucks, introduced 2003, designed by Peter Dukes) to the Chai Latte (masala chai concentrate + steamed milk — an entirely different beverage using black tea, not espresso). The Pumpkin Spice Latte became the most successful seasonal product in Starbucks history, generating $600M+ annually and creating a cultural phenomenon. Other notable entries: Starbucks Cinnamon Dolce Latte, Gingerbread Latte, Holiday Spice Flat White.",
+        "mixology": "Pumpkin Spice Latte: espresso + pumpkin sauce (spices + pumpkin purée since 2015, previously no actual pumpkin) + steamed milk + whipped cream + pumpkin spice topping. Chai Latte: tea-based (Oregon Chai concentrate + steamed milk — no espresso unless 'Dirty Chai' with added shot). Cinnamon Dolce: espresso + cinnamon dolce syrup + milk + whipped cream + cinnamon. Season defines the spiced latte calendar: PSL = fall, Gingerbread = winter, Toasted White Mocha = winter.",
+        "examples": "Starbucks PSL (the benchmark seasonal item). Non-Starbucks versions: Dunkin' Pumpkin Spice, McDonald's McCafé Pumpkin Spice. Premium: Blue Bottle Horchata Latte (seasonal), Verve Coffee seasonal specials. DIY: homemade pumpkin spice syrup (cinnamon, nutmeg, clove, ginger, pumpkin purée, sugar)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FILTER & POUR OVER",
+   "name_fr": "FILTRE & POUR OVER",
+   "name_it": "FILTRO & POUR OVER",
+   "name_es": "FILTRADO Y POUR OVER",
+   "color": "#8ab4c8",
+   "textColor": "#0a2a3a",
+   "sub": [
+    {
+     "name": "Filter & Pour Over",
+     "name_fr": "Filtre & Pour Over",
+     "name_it": "Filtro & Pour Over",
+     "name_es": "Filtrado y Vertido",
+     "color": "#8ab4c8",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Chemex",
+       "name_fr": "Chemex",
+       "name_it": "Chemex",
+       "slug": "chemex",
+       "color": "#a8c8d8",
+       "name_es": "Chemex",
+       "panel": {
+        "origin": "The Chemex was invented in 1941 by chemist Peter Schlumbohm — the elegant hourglass borosilicate glass vessel with its distinctive wooden collar and leather tie was selected for the MoMA permanent collection in 1942. Its proprietary bonded paper filters (25–30% thicker than standard) remove most oils and fine particles, producing an extraordinarily clean, bright, tea-like cup with clarity impossible in French press or espresso. The Chemex was THE specialty coffee brewing device before the V60 emerged, and remains the most beautiful.",
+        "mixology": "Chemex method: pre-wet filter (removes paper taste, warms vessel); add 42g medium-coarse ground coffee for 700ml water (60g/L ratio); bloom pour (100ml) for 30–45 seconds to release CO₂; pour in circular motion in 3–4 stages over 4 minutes total; total brew time 4:00–4:30. Key characteristic: paper filters remove cafestol (oil) linked to LDL cholesterol — Chemex is the 'heart-healthy' pour-over. Best for: light roast single origins where clarity reveals origin character.",
+        "examples": "Chemex Corporation (original, all sizes). Best accessories: Fellow Stagg EKG kettle (gooseneck, temperature control), Acaia Pearl scale. Chemex roasters: most pour-over specialists. Popularized by: Breaking Bad (Chemex appears in Walter White's home coffee scenes)."
+       }
+      },
+      {
+       "name": "V60 / Hario",
+       "name_fr": "V60 / Hario",
+       "name_it": "V60 / Hario",
+       "slug": "v60",
+       "color": "#90b8c8",
+       "name_es": "V60 / Hario",
+       "panel": {
+        "origin": "The Hario V60 (V for V-shape, 60 for 60-degree angle) was designed by Japanese company Hario (founded 1921 as a heat-resistant glassware company) and introduced as a coffee dripper in 2005. Its design features a large single hole at the bottom (allowing precise control of flow rate), prominent spiral ridges on the interior walls (preventing filter from sticking), and conical shape (concentrating coffee flow). The V60 became the primary tool of the 'third wave' specialty coffee movement globally — its combination of quality ceiling, control, and relatively low cost made it the standard competition and home device.",
+        "mixology": "V60 method: pre-wet filter; 15g coffee (medium-fine grind) per 250ml water at 92–96°C; bloom 50ml for 45 seconds; continuous pour in circles keeping water level consistent; total brew 2:30–3:30. Extremely technique-sensitive — small errors produce significant flavor differences. Mastery requires practice. Produces clean, articulate cup highlighting origin character. James Hoffmann's V60 method (YouTube) is the most widely adopted recipe.",
+        "examples": "Hario V60 (ceramic, glass, plastic versions — ceramic preferred for heat retention). Fellow Stagg [X] Dripper (alternative flat bottom). Keys: gooseneck kettle essential, scale essential, quality filter essential. Champion of the V60: James Hoffmann, Matt Perger (Barista Hustle), Scott Rao (Coffee Roaster's Companion author)."
+       }
+      },
+      {
+       "name": "Kalita Wave",
+       "name_fr": "Kalita Wave",
+       "name_it": "Kalita Wave",
+       "slug": "kalita-wave",
+       "color": "#78a8b8",
+       "name_es": "Kalita Wave",
+       "panel": {
+        "origin": "The Kalita Wave (Kalita Company, Japan) differentiates from V60 with its flat-bottom design and three small holes rather than V60's single large hole. The flat bottom creates a more uniform extraction — less technique-sensitive than the V60's cone, producing more consistent results for beginners while maintaining excellent cup quality. The crimped Wave filters (prevent filter contact with sides, creating airflow) are proprietary to the Wave. The flat-bottom design theory argues it produces a more even bed of grounds and more uniform extraction than a cone.",
+        "mixology": "Kalita Wave 185 method: 22g medium-grind coffee per 350ml water at 93°C; bloom 60ml for 30–45 seconds; 3 controlled pours in concentric circles keeping water off the grounds' edge; total 3–3:30. More forgiving than V60 — flat bottom means uneven pouring doesn't create the 'channels' that ruin V60 brews. Produces slightly fuller body than V60 with comparable clarity.",
+        "examples": "Kalita Wave 185 (1–2 cups) and 155 (1 cup). Onyx Coffee Lab uses Kalita Wave as their house pour-over method. Blue Bottle Coffee standardized on Kalita Wave. Fellow Ode Grinder (home) pairs well with Wave. Kalita Wave filters must be used — no substitution."
+       }
+      },
+      {
+       "name": "Drip / Batch Brew",
+       "name_fr": "Café Filtre",
+       "name_it": "Caffè Filtro",
+       "slug": "drip-brew",
+       "color": "#6898a8",
+       "name_es": "Filtrado por Goteo",
+       "panel": {
+        "origin": "Drip coffee (batch brew) has been the dominant American home coffee brewing method since Mr. Coffee introduced the automatic drip machine to mass market in 1972 (using Liz Taylor as spokesperson). The automatic drip machine's standardization of filter coffee democratized specialty-grade results. Modern third wave specialty cafés embraced batch brew in the 2010s as a quality-consistent, high-volume solution — using commercial SCAA-certified brewers (Fetco, Marco, Wilbur Curtis) that maintain proper water temperature and bloom pre-infusion cycles unavailable on home machines.",
+        "mixology": "SCAA standard: 55g coffee per liter of water (55g/L), 91–96°C water temperature, 4–8 minute total brew time. Critical quality factors: water temp (under-temperature = sour/underdeveloped), bloom pre-infusion (drip machines without bloom create uneven extraction), water quality (40–150 ppm TDS ideal). Commercial certification: SCAA Golden Cup Standard. Home best: OXO Brew 9-Cup (SCAA certified), Breville Precision Brewer.",
+        "examples": "Commercial benchmark: Fetco CBS-2041 (many specialty cafés), Marco Beverage Systems. Consumer SCAA-certified: OXO Brew 9-Cup, Breville Precision Brewer, Technivorm Moccamaster (iconic design, Dutch, since 1969). Mass market: Mr. Coffee, Cuisinart, Hamilton Beach."
+       }
+      },
+      {
+       "name": "Clever Dripper / Aeropress",
+       "name_fr": "Clever Dripper / Aeropress",
+       "name_it": "Clever Dripper / Aeropress",
+       "slug": "aeropress",
+       "color": "#88b0c0",
+       "name_es": "Aeropress",
+       "panel": {
+        "origin": "The Aeropress was invented in 2005 by Alan Adler (of Aerobie flying ring fame) as a simple, portable, fast espresso-adjacent device. The plastic cylinder + plunger + paper or metal filter uses air pressure (1–2 bar vs espresso's 9 bar) to force water through ground coffee in 60–90 seconds. It became unexpectedly beloved in the specialty coffee community for its forgiving nature, versatility, and outstanding cup quality. The World AeroPress Championship (WAC) has been held annually since 2008 with increasingly experimental recipes.",
+        "mixology": "Aeropress versatility: standard, inverted, cold brew concentrate, espresso-style — all possible. James Hoffmann's 'ultimate' Aeropress recipe: 11g medium-fine coffee + 200g water at 80°C + steep 2 minutes + press 30 seconds. WAC-style: experimental recipes with multiple temperatures, unusual ratios. No metal parts = dishwasher safe. Fellow Prismo attachment converts standard Aeropress to back-pressure espresso simulation. Travel use: airline safe, indestructible.",
+        "examples": "Aeropress Inc. (original, still the standard). Fellow Prismo (back-pressure attachment). Filters: Able Disk (metal, more body), standard white paper (clean cup). WAC Champions: various countries, many recipes published online. Best guide: James Hoffmann's YouTube Aeropress videos."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "IMMERSION & PRESS",
+   "name_fr": "IMMERSION & PRESSE",
+   "name_it": "IMMERSIONE & PRESSA",
+   "name_es": "INMERSIÓN Y PRENSADO",
+   "color": "#6880a8",
+   "textColor": "#e8f0ff",
+   "sub": [
+    {
+     "name": "Immersion & Press",
+     "name_fr": "Immersion & Presse",
+     "name_it": "Immersione & Pressa",
+     "name_es": "Inmersión y Prensa",
+     "color": "#6880a8",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "French Press",
+       "name_fr": "Cafetière à Piston",
+       "name_it": "Caffettiera a Stantuffo",
+       "slug": "french-press",
+       "color": "#8090b8",
+       "name_es": "Prensa Francesa",
+       "panel": {
+        "origin": "The French Press (cafetière, press pot, plunger pot) was patented in France in 1929 by Attilio Calimani — despite the French name, the Italian designer holds the first patent. The Bodum brand (Danish-Swiss company) popularized the iconic Bodum Chambord design in 1974 and still dominates the market. French Press uses full immersion (no paper filter), so coffee oils (cafestol, kahweol) remain in the cup — contributing to full body but also potentially to LDL cholesterol elevation with heavy daily use. No paper, no waste, no filters — the most sustainable brewing method.",
+        "mixology": "Method: add coarse-ground coffee (60–70g/L ratio); add 93°C water; steep 4 minutes; plunge slowly (30 seconds); pour immediately (don't let grounds steep further in spent brew). Common mistakes: too-fine grind (sediment), too-long steep (bitter), not pouring all coffee out (continues extracting in vessel). Key: break the crust at 4:00, remove foam and grounds, steep additional 4 minutes, then plunge — James Hoffmann's improved method produces dramatically cleaner cup.",
+        "examples": "Bodum Chambord (classic, glass and stainless). Fellow Clara (modern design). Coffee: French press rewards medium-dark roast for full body without astringency. James Hoffmann's improved French press technique (YouTube 2021) is the most influential brewing video of recent years."
+       }
+      },
+      {
+       "name": "Cold Brew",
+       "name_fr": "Cold Brew",
+       "name_it": "Cold Brew",
+       "slug": "cold-brew",
+       "color": "#6878a0",
+       "name_es": "Cold Brew",
+       "panel": {
+        "origin": "Cold brew (cold water immersion over 12–24 hours) as a commercial product was pioneered by Toddy LLC (Todd Simpson, inventor of the Toddy system, 1964) but remained a niche product until Blue Bottle Coffee began selling cold brew in mason jars at Oakland farmers markets around 2010 and Starbucks added it to their menu in 2015, triggering the cold brew explosion. Cold brew's extremely low acidity (60–67% less acidic than hot brew), high caffeine concentration (as concentrate), and 2-week refrigerator shelf life differentiate it from iced coffee (hot-brewed coffee over ice).",
+        "mixology": "Cold brew concentrate: 100g coarsely ground coffee per 700ml room-temperature water; steep 12–18 hours at room temperature or 18–24 hours refrigerated; filter through Chemex or fine mesh. Dilute concentrate 1:1 with water or milk before drinking. Flavor profile: low acid, smooth, chocolate-heavy; natural sweetness from slow extraction; long shelf life (14 days refrigerated). Cold brew ≠ iced coffee: iced coffee is hot-brewed over ice (brighter, more acidic).",
+        "examples": "Commercial: Stumptown Cold Brew (bottled, pioneered commercial RTD cold brew), Blue Bottle New Orleans Iced Coffee (chicory cold brew), Chameleon Organic Cold Brew. Home: Toddy Cold Brew System (original, plastic), OXO Cold Brew Maker (modern update). RTD market leaders: Starbucks Cold Brew, Califia Farms, La Colombe Draft Latte."
+       }
+      },
+      {
+       "name": "Nitro Cold Brew",
+       "name_fr": "Nitro Cold Brew",
+       "name_it": "Nitro Cold Brew",
+       "slug": "nitro-cold-brew",
+       "color": "#506090",
+       "name_es": "Nitro Cold Brew",
+       "panel": {
+        "origin": "Nitro Cold Brew was introduced commercially by Cuvee Coffee in Austin, Texas around 2012–2013, inspired by the nitrogen-infused Guinness stout cascading effect. Stumptown Coffee brought it to wider US attention in 2016, and Starbucks began serving Nitro Cold Brew from tap at select stores the same year. Nitrogen (N₂) is forced into cold brew under pressure in a keg system, producing the characteristic dense, creamy head (similar to Guinness), velvety mouthfeel, and slight sweetness perception without added sugar — nitrogen suppresses bitter taste receptors on the tongue.",
+        "mixology": "Nitro Cold Brew properties: served at ~35°F directly from tap (no ice — ice disrupts the nitrogen cascade); nitrogen (not CO₂) infusion creates large, slow bubbles; characteristic cascading pour; creamy, stout-like head; perceived sweetness without sugar; full-bodied. Never stir or add ice (disrupts nitrogen). Canned nitro: widget inside can releases N₂ (similar to Guinness Draught). ABV: 0% (despite Guinness resemblance). Higher caffeine than hot coffee due to cold brew base.",
+        "examples": "Starbucks Nitro Cold Brew (most widely available, on tap at many stores). Stumptown Nitro (can and tap). La Colombe Draft Latte (nitrogen-infused, with milk). Canned: Starbucks Nitro Cold Brew (can), High Brew Coffee Nitro. Home nitro: Asobu Cold Brew (home system with nitro capability)."
+       }
+      },
+      {
+       "name": "Moka Pot (Bialetti)",
+       "name_fr": "Moka Pot (Bialetti)",
+       "name_it": "Moka Pot (Bialetti)",
+       "slug": "moka-pot",
+       "color": "#7888a8",
+       "name_es": "Cafetera Moka",
+       "panel": {
+        "origin": "The Moka Pot (stovetop espresso maker) was invented by Alfonso Bialetti in 1933 in Italy and became one of the most iconic industrial design objects of the 20th century — over 300 million sold since introduction. The octagonal aluminum Bialetti Moka Express remains largely unchanged from Bialetti's original design. Steam pressure from the bottom chamber forces hot water upward through ground coffee into the upper collection chamber. Bialetti himself reportedly requested to be interred in a Moka pot-shaped urn — which was honored at his 2016 death. 90% of Italian households own a Moka pot.",
+        "mixology": "Method: fill bottom chamber with cold water to below safety valve; fill basket with medium-fine ground coffee (don't tamp — tamping causes over-pressure); assemble tightly; heat on medium flame; remove from heat when upper chamber is full (a gurgling/spitting indicates over-extraction). Produces strong, concentrated coffee — closer to espresso in flavor but at lower pressure (1.5–2 bar vs 9 bar). Naturally full-bodied with some oils from lack of paper filter. Best dark-medium to dark roast.",
+        "examples": "Bialetti Moka Express (definitive original, 3/6/9 cup versions). Bialetti Brikka (pressure valve creates more crema — unique). Stainless alternatives: Alessi Pulcina (Richard Sapper design), Pezzetti. Induction-compatible: Bialetti Moka Induction. Coffee pairing: Lavazza Super Crema, Illy Classico, any Italian-style medium-dark blend."
+       }
+      },
+      {
+       "name": "Turkish / Greek Ibrik",
+       "name_fr": "Ibrik Turc / Grec",
+       "name_it": "Ibrik Turco / Greco",
+       "slug": "turkish-coffee",
+       "color": "#8070a0",
+       "name_es": "Café Turco / Ibrik",
+       "panel": {
+        "origin": "Turkish (Ibrik) coffee is among the world's oldest brewing methods, originating in the Ottoman Empire in Constantinople (Istanbul) around 1554. The first coffeehouses in the world were opened in Istanbul and Cairo in the 1550s. The method — boiling very finely ground coffee with water (and sugar, if desired) in a small copper or brass pot (cezve in Turkish, ibrik in Greek/Arabic) — spread throughout the Ottoman Empire and into Europe. Turkish coffee culture is UNESCO Intangible Cultural Heritage. Coffee grounds remain in the cup and settle; the grounds can be used for tasseography (cup reading).",
+        "mixology": "Method: combine 1 heaped teaspoon very finely ground coffee (powder-like) per 60ml cold water + sugar in cezve; heat slowly on low flame stirring until hot (not boiling); optional: allow foam to rise and pour foam into cups first, return to heat until remaining liquid rises again; pour slowly into cups, wait 30 seconds for grounds to settle. Serve with cold water and Turkish delight. Cardamom optional. Never stir in the cup. The cup is not fully consumed — leave grounds.",
+        "examples": "Equipment: traditional copper cezve (copper conducts heat ideally). Coffee: very fine Turkish grind from Mehmet Efendi (Istanbul benchmark, since 1871). Available globally: Turkish brands Mehmet Efendi, Kurukahveci. Greek versions: identical method, different political naming. Served in demitasse cups. Cultural context: offer Turkish coffee as a gesture of hospitality throughout Turkey, Greece, Bosnia, Arab world."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GLOBAL REGIONAL STYLES",
+   "name_fr": "STYLES RÉGIONAUX DU MONDE",
+   "name_it": "STILI REGIONALI GLOBALI",
+   "name_es": "ESTILOS REGIONALES GLOBALES",
+   "color": "#60a880",
+   "textColor": "#e0fff0",
+   "sub": [
+    {
+     "name": "Global Regional Styles",
+     "name_fr": "Styles Régionaux du Monde",
+     "name_it": "Stili Regionali Globali",
+     "name_es": "Estilos Regionales",
+     "color": "#60a880",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Italian Espresso Bar",
+       "name_fr": "Bar à Espresso Italien",
+       "name_it": "Bar Espresso Italiano",
+       "slug": "italian-bar",
+       "color": "#a04030",
+       "name_es": "Bar de Espresso Italiano",
+       "panel": {
+        "origin": "The Italian espresso bar is the original template for all global café culture — a standing-only (or limited seating) space where espresso is consumed quickly, often in under 3 minutes, at the bar counter. The Italian bar serves espresso at a regulated price (the 'single espresso' is price-regulated by many Italian municipalities), alongside cornetti (croissants), tramezzini, and other snacks. The espresso is distinct from international espresso: Italian commercial espresso typically uses Robusta blends (30–50% Robusta adds body, reduces cost, creates more crema), served at higher temperature than specialty café standard.",
+        "mixology": "Italian bar espresso characteristics: Robusta blend (adds crema, body, reduces cost vs pure Arabica); 7g single dose (traditional) vs 14–18g double (modern specialty); served hot (slightly higher temp than specialty standard); consumed in 1–2 minutes standing; ceramic cup warmed on machine top. Southern Italy (Naples) darkest roast; Northern Italy (Milan, Turin) medium-dark; Rome style: between the two. Price: €1.00–1.50 standing at bar, €2.50+ sitting down in tourist-area cafés.",
+        "examples": "Rome: Sant'Eustachio il Caffè, Tazza d'Oro, Barnum Café. Naples: Caffè Gambrinus (oldest), Gran Caffè La Caffettiera. Milan: Pasticceria Marchesi (since 1824), Caffè Giacosa. Venice: Caffè Florian (1720, oldest café in Italy). Tourist note: sitting is significantly more expensive — at the bar is authentic and cheaper."
+       }
+      },
+      {
+       "name": "Third Wave Specialty",
+       "name_fr": "Spécialité Troisième Vague",
+       "name_it": "Specialty Terza Onda",
+       "slug": "third-wave",
+       "color": "#80c098",
+       "name_es": "Tercera Ola Specialty",
+       "panel": {
+        "origin": "The Third Wave Coffee Movement is a term coined by Trish Rothgeb (2002, Wrecking Ball Coffee newsletter) describing coffee treated as an artisanal product rather than a commodity. First Wave (1800s–1960s): mass commodification (Folgers, Maxwell House). Second Wave (1960s–1990s): quality improvement and café culture (Peet's, early Starbucks, Dunkin'). Third Wave (2000s–present): single origin sourcing, relationship with farmers, light roasting to preserve origin character, barista as skilled professional. Pioneering roasters: Intelligentsia (Chicago, 1995), Stumptown (Portland, 1999), Counter Culture (Durham, 2000), Blue Bottle (Oakland, 2002).",
+        "mixology": "Third Wave practices: direct trade with farms (paying above Fair Trade prices); single-origin focus (vs blends); light roasting; precise brewing recipes (scales, timers, temperature control); seasonal menus (harvest-driven coffee like wine vintages); detailed tasting notes. The movement created a global community of coffee 'geeks' — WBC (World Barista Championship), SCA (Specialty Coffee Association), Cup of Excellence auctions drive quality benchmarks globally.",
+        "examples": "US pioneers: Intelligentsia Coffee, Stumptown Coffee, Counter Culture Coffee, Blue Bottle Coffee. Nordic: Tim Wendelboe (Oslo), The Coffee Collective (Copenhagen). UK: Square Mile Coffee, Workshop Coffee. Australia: Market Lane Coffee, Seven Seeds. Global: George Howell Coffee (Boston), La Cabra (Aarhus). Resource: SCA Coffee Taster's Flavor Wheel (2016 update) is the industry standard."
+       }
+      },
+      {
+       "name": "Vietnamese Iced Coffee (Cà phê sữa đá)",
+       "name_fr": "Café Glacé Vietnamien (Cà phê sữa đá)",
+       "name_it": "Caffè Freddo Vietnamita (Cà phê sữa đá)",
+       "slug": "vietnamese-iced",
+       "color": "#d09040",
+       "name_es": "Café Helado Vietnamita",
+       "panel": {
+        "origin": "Vietnamese iced coffee (Cà phê sữa đá) uses the phin filter (small aluminum single-serve drip filter) to brew robusta-forward dark roast coffee, then combines it with sweetened condensed milk (introduced by Nestlé during French colonialism when fresh milk was scarce) and serves over ice. Vietnam is the world's second-largest coffee producer (behind Brazil) and produces predominantly Coffea canephora (Robusta), which is stronger, more bitter, and higher in caffeine than Arabica. The resulting drink — thick, sweet, intensely caffeinated — is one of Southeast Asia's most beloved beverages and has been adopted globally by specialty cafés.",
+        "mixology": "Phin method: 20g medium-fine dark roast Robusta coffee in phin filter; 90ml hot water; allow to drip through slowly (5–7 minutes — much slower than pour-over). 2–4 tablespoons condensed milk in glass bottom; pour hot coffee over; stir; add ice. Cold version: ice first, then sweetened coffee. Premium version: egg coffee (see egg-coffee entry). Robusta's naturally higher caffeine and bitter character works with the sweetness of condensed milk in a way Arabica does not.",
+        "examples": "Vietnam chain: Cà phê Trung Nguyên (Vietnam's Starbucks equivalent, domestic leader), Highlands Coffee (Vietnamese chain). International: most Vietnamese restaurants globally serve phin coffee. Import: Trung Nguyen coffee brand (widely available in Asian grocery stores). Premium: Nguyen Coffee Supply (USA, imports single-origin Vietnamese robusta)."
+       }
+      },
+      {
+       "name": "Ethiopian Coffee Ceremony",
+       "name_fr": "Cérémonie du Café Éthiopienne",
+       "name_it": "Cerimonia del Caffè Etiope",
+       "slug": "ethiopian-ceremony",
+       "color": "#c07838",
+       "name_es": "Ceremonia de Café Etíope",
+       "panel": {
+        "origin": "The Ethiopian Coffee Ceremony (Bunna Ceremony) is the world's most elaborate coffee ritual — a 2–3 hour ceremony performed by women (culturally designated) that marks hospitality, community, and respect. The process: green coffee beans are roasted over charcoal in a flat pan (jebena), then passed among guests to smell; grounds are crushed in a wooden mortar (mukecha); brewed in a black clay pot (jebena) over coals; served in small handle-less cups (sini). Three rounds are served: abol (first, strongest), tona (second, diluted from same grounds), baraka (third, blessing). Coffee is served with frankincense smoke and popcorn.",
+        "mixology": "Three-round structure: Abol (first) — very strong, direct brew from freshly ground coffee; Tona (second) — same grounds, slightly diluted, considered the best tasting round; Baraka (third, 'blessing') — lightest, a symbol of the host's blessing. Sugar is typically added (salt or butter in some regions). The ceremony cannot be rushed — attempting to leave early is rude. It is both a social event and a spiritual practice. Ethiopian families drink 3–5 cups of coffee daily in this context.",
+        "examples": "Authentic: experience at an Ethiopian restaurant (most offer adapted ceremonies) or in Ethiopian communities globally. Ethiopian restaurants: Zeni Restaurant (San Jose), Ras Dashen (Chicago), Lalibela Restaurant (Washington DC). Coffee: Ethiopian heirloom green beans for roasting, or pre-roasted Ethiopian single-origin. Jebena pots: available at Ethiopian grocery stores and online."
+       }
+      },
+      {
+       "name": "Australian Flat White Culture",
+       "name_fr": "Culture du Flat White Australien",
+       "name_it": "Cultura del Flat White Australiano",
+       "slug": "australian-coffee",
+       "color": "#906848",
+       "name_es": "Cultura del Flat White Australiano",
+       "panel": {
+        "origin": "Australian (and New Zealand) coffee culture, centered in Melbourne, is arguably the world's most sophisticated everyday café culture. Melbourne's espresso tradition was established by Italian and Greek immigrant café owners in the 1950s, creating a culture where quality espresso was standard decades before it became global specialty. Melbourne gave the world the flat white (disputed but widely accepted), piccolino (small latte), magic (two ristretto shots + 100ml microfoam at Room to Think / Dukes Coffee), batch brew as specialty standard, and the 'café culture' as a genuine social institution. Australia produces no commercial coffee but imports and roasts some of the world's finest.",
+        "mixology": "Melbourne 'magic': double ristretto + 100ml milk, served in 170ml glass (proportion similar to flat white but smaller). Standard milk drinks: 6oz flat white (double ristretto + microfoam), 8oz latte. Strong espresso culture: 'strong latte' in Australia means extra shot. Melbourne café culture: takeaway cups have nearly as much attention as dine-in. Major character: espresso quality is expected to be high even in basic local cafés.",
+        "examples": "Melbourne benchmark: St Ali Coffee Roasters, Seven Seeds, Market Lane Coffee, Dukes Coffee Roasters, Patricia Coffee Brewers, Proud Mary Coffee. Sydney: Single O, Mecca Espresso. Global export: Proud Mary (coffee bar in Portland, OR), Bluestone Lane (Australian-style across USA)."
+       }
+      },
+      {
+       "name": "Japanese Iced Coffee",
+       "name_fr": "Café Glacé Japonais",
+       "name_it": "Caffè Freddo Giapponese",
+       "slug": "japanese-iced",
+       "color": "#8098b8",
+       "name_es": "Café Frío Japonés",
+       "panel": {
+        "origin": "Japanese iced coffee (flash brewing) was developed in Japan as an alternative to cold brew — rather than steeping cold for 18–24 hours, the Japanese method brews hot coffee directly onto ice, where immediate chilling 'locks in' the aromatic compounds before they can volatilize. The result is brighter, more aromatic, and more fruit-forward than cold brew. Japan's coffee culture is rich with both the 'Kissaten' (traditional Japanese coffee house, often with classical music and pour-over tradition) and modern third wave café culture. Japan imports more high-end specialty coffee per capita than almost any other country.",
+        "mixology": "Japanese iced coffee method: place 200g ice in Chemex or V60 carafe; use 60% of normal water amount hot (since 40% = ice weight that will melt); brew strong hot coffee directly onto ice; ice melts to correct dilution producing full-strength iced coffee. The hot-onto-ice method retains bright aromatics that cold brew extraction cannot extract. More acidic than cold brew; similar body. Best for: light roast single origins where fruit character is the highlight.",
+        "examples": "Concept popularized in US by: Scott Rao (Coffee Roaster's Companion), James Hoffmann, Counter Culture Coffee tutorials. Kissaten culture: Café de l'Ambre (Ginza, Tokyo, since 1948), Chatei Hatou (Tokyo). Japanese specialty: Onibus Coffee, Fuglen Tokyo, Bear Pond Espresso."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PROCESSING METHODS",
+   "name_fr": "MÉTHODES DE TRAITEMENT",
+   "name_it": "METODI DI LAVORAZIONE",
+   "name_es": "MÉTODOS DE PROCESADO",
+   "color": "#90a060",
+   "textColor": "#e8f8e0",
+   "sub": [
+    {
+     "name": "Processing Methods",
+     "name_fr": "Méthodes de Traitement",
+     "name_it": "Metodi di Lavorazione",
+     "name_es": "Métodos de Proceso",
+     "color": "#90a060",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Washed / Wet Process",
+       "name_fr": "Procédé Lavé",
+       "name_it": "Processo Lavato",
+       "slug": "washed",
+       "color": "#a8c070",
+       "name_es": "Lavado / Proceso Húmedo",
+       "panel": {
+        "origin": "Washed (wet) processing removes the coffee fruit (mucilage and pulp) from the seed (bean) before drying, producing a 'clean' cup where the flavor comes almost entirely from the bean itself rather than the fruit. The wet method was industrialized in the 19th century and became the global standard for quality-driven origins (Colombia, Ethiopia Yirgacheffe, Kenya, Central America). The fermentation step (fermenting in water tanks for 12–72 hours to break down remaining mucilage) affects flavor — longer fermentation or specific fermentation environments create more complex flavor notes.",
+        "mixology": "Washed coffee flavor profile: clean, transparent, bright; origin character clearly expressed; higher perceived acidity (fruit acids preserved without fruit flavor masking); clarity of flavor. Best for: revealing terroir and variety. Light roast washed Ethiopian Yirgacheffe is the benchmark for demonstrating what a specific place tastes like in coffee. Most specialty single-origin is washed.",
+        "examples": "Best washed coffees: Yirgacheffe G1 (Ethiopia), Kenya AA, Colombian Huila washed, Guatemalan Huehuetenango. Most specialty roasters' feature coffees. The SCA 'clean cup' criterion in competition specifically rewards washed coffee's clarity."
+       }
+      },
+      {
+       "name": "Natural / Dry Process",
+       "name_fr": "Procédé Naturel",
+       "name_it": "Processo Naturale",
+       "slug": "natural",
+       "color": "#c0a050",
+       "name_es": "Natural / Proceso Seco",
+       "panel": {
+        "origin": "Natural (dry) processing is coffee's oldest method — the entire fruit is dried in the sun for 3–6 weeks before the dried fruit is removed, allowing the fermenting sugars of the fruit to infuse back into the seed during drying. Ethiopia's Harrar region and Brazil invented natural processing out of geographic necessity (water scarcity). Natural processing produces very different flavor profiles from the same bean compared to washed processing. The craft natural process movement (from the 2000s) developed controlled, more precise natural processing to produce 'clean naturals' with intense fruit flavor without fermentation faults.",
+        "mixology": "Natural coffee flavor profile: heavy body; intense fruit (dried fruit, jam, wine-like); sweetness; less clarity than washed; 'wild,' fermented, complex. Ethiopia natural: blueberry, wine, dark chocolate. Brazil natural: chocolate, nuts, dried fruit. The heavier body and fruit forward character make naturals excellent as French press coffee and cold brew. Polarizing in the specialty world — some cuppers find overripe fermentation notes defective; others seek them.",
+        "examples": "Ethiopian natural benchmarks: Harrar (wild, wine-like), Yirgacheffe natural (blueberry). Brazil natural: all standard commercial Brazil is natural processed. Pioneer of craft natural: Ninety Plus Coffee (Panama/Ethiopia), Gesha Village (Ethiopia). Roasters: Onyx Coffee Lab, Verve Coffee Roasters."
+       }
+      },
+      {
+       "name": "Honey Process",
+       "name_fr": "Procédé au Miel",
+       "name_it": "Processo Honey",
+       "slug": "honey-process",
+       "color": "#d0a840",
+       "name_es": "Proceso Honey",
+       "panel": {
+        "origin": "Honey process (also pulped natural, miele) is a hybrid between washed and natural: the fruit skin is removed (like washed) but some or all of the mucilage (the sticky, sweet layer around the seed) is left on during drying. The mucilage 'honey' transfers sugar and flavor compounds to the bean during slow drying. Developed in Costa Rica and adopted throughout Central America, honey process has several grades based on mucilage retention: White Honey (very little, most washed-like), Yellow, Red, Black (most mucilage, most natural-like). It's a way to get natural-process fruit characteristics with better consistency than full natural.",
+        "mixology": "Honey coffee flavor profile: between washed and natural; stone fruit (peach, apricot, nectarine), sweetness, medium body; more fruit than washed but more clarity than natural; silky, smooth texture. Red and Black Honey: closer to natural (more fermented fruit). Yellow and White Honey: cleaner, more washed-like. Excellent for pour-over where the bridge between clarity and sweetness is most appreciated.",
+        "examples": "Costa Rica honey process (Yellow/Red Honey): El Toledo Farm, Las Lajas Coffee. El Salvador honey: Finca Lemus. Honduras honey: Caffe Imports. Roasters featuring honey process: Onyx Coffee Lab, Intelligentsia, Counter Culture."
+       }
+      },
+      {
+       "name": "Anaerobic Fermentation",
+       "name_fr": "Fermentation Anaérobie",
+       "name_it": "Fermentazione Anaerobica",
+       "slug": "anaerobic",
+       "color": "#8090a0",
+       "name_es": "Fermentación Anaeróbica",
+       "panel": {
+        "origin": "Anaerobic fermentation is an experimental processing technique where coffee cherries or green beans are fermented in sealed, oxygen-free tanks for 48–120+ hours, allowing specific anaerobic bacteria and yeasts to produce flavor compounds impossible in traditional aerobic fermentation. Developed in the 2010s by innovators including Sasa Sestic (2015 World Barista Champion) and Costa Rican producers, anaerobic coffees produce distinctly unusual, hyper-fruity or fermented flavor profiles — tropical fruit, carbonic maceration notes (like Beaujolais wine), lavender, exotic fruit. Highly divisive: innovative baristas love the unique character; traditionalists find them over-processed.",
+        "mixology": "Anaerobic coffee flavor profile: intensely unusual; tropical fruit (passionfruit, fermented mango), boozy/wine-like, lavender, cider; very sweet; distinctive and unlike any traditional coffee. The most experimental coffee processing method currently practiced. Best showcased at light roast pour-over where unusual flavors are preserved. Sometimes compared to natural wine in the coffee world — 'terroir manipulation.'",
+        "examples": "Pioneer producers: Hacienda El Roble (Colombia), Finca La Palma y El Tucán (Colombia), Sasa Sestic / Project Origin (Australia/Colombia). Competition use: many WBC competitors (2015–present) use anaerobic fermentation to score maximum sweetness and complexity points. Roasters: Onyx Coffee Lab, Brandywine Coffee Roasters."
+       }
+      },
+      {
+       "name": "Decaf (Swiss Water / CO₂)",
+       "name_fr": "Décaféiné (Swiss Water / CO₂)",
+       "name_it": "Decaffeinato (Swiss Water / CO₂)",
+       "slug": "decaf",
+       "color": "#b0b090",
+       "name_es": "Descafeinado",
+       "panel": {
+        "origin": "Decaffeinated coffee removes 97–99.9% of caffeine through one of several methods: Swiss Water Process (SWP — activated carbon filter removes caffeine without chemicals, maintains flavor, 1933 invention); Carbon Dioxide (CO₂) Supercritical Extraction (most expensive, preserves most flavor, used by premium decafs); Methylene Chloride or Ethyl Acetate solvent methods (cheaper, FDA-approved, some flavor impact). The first decaffeinated coffee was Sanka (SAns caffeiNe + KAffee), launched in Germany in 1903 by Ludwig Roselius using a problematic steam/benzene method. Swiss Water is now the gold standard for quality decaf.",
+        "mixology": "Quality decaf has improved dramatically — Swiss Water Process and CO₂ extraction produce decafs indistinguishable from caffeinated coffee to many tasters. Key: start with specialty-grade green coffee before decaffeinating (commodity decaf starts with commodity coffee). Best methods for decaf: Chemex, French press, cold brew (all tolerate slightly different extraction). Flavor profile: should mirror the original coffee's character; loss of some volatile aromatics is inevitable.",
+        "examples": "Quality decaf roasters: Onyx Coffee Lab Decaf (Swiss Water Colombian), Counter Culture Apollo Decaf, Intelligentsia Decaf. Swiss Water Process brand: Swiss Water Decaffeinated Coffee Co. (Vancouver). Commercial: Peet's Decaf Major Dickason's, Starbucks Decaf Pike Place. Home grinder note: clean grinder after decaf use as decaf oils accumulate differently."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FLORAL": {
+   "en": "Floral notes — jasmine, rose, chamomile — are prized in light-roast specialty coffees from high-altitude, washed-process beans; they fade quickly with darker roasting.",
+   "es": "Las notas florales — jazmín, rosa, manzanilla — son apreciadas en cafés de especialidad de tueste claro provenientes de granos de proceso lavado y gran altitud; se desvanecen rápido con un tueste más oscuro."
+  },
+  "FRUITY": {
+   "en": "Fruity notes — berries, citrus, stone fruit — come from sugars and acids in the coffee cherry, and are most pronounced in natural or honey-processed coffees and lighter roasts.",
+   "es": "Las notas afrutadas — bayas, cítricos, fruta de hueso — provienen de los azúcares y ácidos de la cereza del café, y son más pronunciadas en los procesos naturales o de miel y en los tuestes claros."
+  },
+  "SOUR/FERMENTED": {
+   "en": "Sour and fermented notes can be GOOD (bright, citric, winey — careful processing) or a FAULT (vinegar, rotten fruit — cherries that over-fermented before drying).",
+   "es": "Las notas ácidas y fermentadas pueden ser BUENAS (brillantes, cítricas, vinosas — un procesamiento cuidadoso) o un DEFECTO (vinagre, fruta podrida — cerezas que se sobrefermentaron antes del secado)."
+  },
+  "GREEN/VEGETATIVE": {
+   "en": "Green and vegetative notes — grassy, peapod, hay — usually signal underripe cherries or a light, underdeveloped roast.",
+   "es": "Las notas verdes y vegetales — pasto, vaina de chícharo, heno — suelen señalar cerezas inmaduras o un tueste claro y poco desarrollado."
+  },
+  "OTHER": {
+   "en": "This group covers FAULTS and off-notes — papery, musty, medicinal, rubbery — that point to storage problems, defective beans, or contamination.",
+   "es": "Este grupo cubre DEFECTOS y notas extrañas — papel, humedad, medicinal, hule — que apuntan a problemas de almacenamiento, granos defectuosos o contaminación."
+  },
+  "ROASTED": {
+   "en": "Roasted notes — smoke, ash, tobacco, malt — come directly from the roasting process itself; a heavier roasted character usually means a darker roast.",
+   "es": "Las notas tostadas — humo, ceniza, tabaco, malta — provienen directamente del propio proceso de tostado; un carácter tostado más intenso suele indicar un tueste más oscuro."
+  },
+  "SPICES": {
+   "en": "Spice notes — cinnamon, clove, pepper — are subtle aromatic compounds that show up most clearly in medium roasts, before being masked by heavier roast character.",
+   "es": "Las notas de especia — canela, clavo, pimienta — son compuestos aromáticos sutiles que se notan más claramente en los tuestes medios, antes de quedar enmascarados por un carácter de tueste más intenso."
+  },
+  "NUTTY/COCOA": {
+   "en": "Nutty and cocoa notes — almond, hazelnut, dark chocolate — are classic markers of a well-balanced medium roast, especially from Central and South American coffees.",
+   "es": "Las notas de frutos secos y cacao — almendra, avellana, chocolate amargo — son marcadores clásicos de un tueste medio bien equilibrado, especialmente en cafés de Centro y Sudamérica."
+  },
+  "SWEET": {
+   "en": "Sweet notes — caramel, honey, vanilla — come from sugars caramelizing during roasting (the Maillard reaction) and are a hallmark of high-quality, well-roasted coffee.",
+   "es": "Las notas dulces — caramelo, miel, vainilla — provienen de los azúcares que se caramelizan durante el tostado (la reacción de Maillard) y son un sello de un café de alta calidad bien tostado."
+  }
+ }
+}

@@ -1,0 +1,723 @@
+{
+ "title": "Understanding Neurodevelopmental Conditions — Cheat Sheet",
+ "groups": [
+  {
+   "cat": "ATTENTION & EXECUTIVE"
+  },
+  {
+   "name": "ADHD",
+   "slug": "adhd",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Attention-Deficit/Hyperactivity Disorder is a neurodevelopmental difference in how the brain regulates attention, impulses, and activity — rooted largely in differences in the brain's dopamine and executive-function systems."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Difficulty sustaining attention on non-engaging tasks (alongside intense focus on engaging ones), restlessness, impulsivity, forgetfulness, time blindness, and trouble starting or organizing tasks."
+    },
+    {
+     "k": "Strengths",
+     "v": "Creativity and divergent thinking, the ability to hyperfocus on genuine interests, quick idea generation, resilience, spontaneity, energy, and strong problem-solving under pressure or in crisis."
+    },
+    {
+     "k": "Supports",
+     "v": "Structure and external scaffolding (lists, alarms, visual reminders), breaking tasks into small steps, body doubling, movement breaks, and reducing distractions."
+    }
+   ],
+   "name_es": "ADHD",
+   "name_fr": "ADHD",
+   "name_it": "ADHD"
+  },
+  {
+   "name": "ADHD — Inattentive",
+   "slug": "adhd-inattentive",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The presentation of ADHD where inattention dominates without obvious hyperactivity. Once called 'ADD,' it's now understood as one presentation of the same condition. It's commonly under-identified because it's quiet rather than disruptive."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Daydreaming, losing track of conversations, missing details, misplacing things, difficulty following multi-step instructions, and appearing 'spacey' or forgetful rather than restless."
+    },
+    {
+     "k": "Strengths",
+     "v": "Deep, reflective thinking, rich inner worlds, imagination, and the capacity for absorbed focus on areas of interest. Often observant and thoughtful in ways the bustling world overlooks."
+    },
+    {
+     "k": "Supports",
+     "v": "Written reminders and checklists, quiet workspaces, breaking work into chunks, and tools that externalize memory. Recognition itself helps — understanding 'I'm not lazy, my brain regulates attention differently' is powerful."
+    }
+   ],
+   "name_es": "ADHD — Inattentive",
+   "name_fr": "ADHD — Inattentive",
+   "name_it": "ADHD — Inattentive"
+  },
+  {
+   "name": "ADHD — Hyperactive/Impulsive",
+   "slug": "adhd-hyperactive",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The presentation of ADHD where hyperactivity and impulsivity dominate. More often noticed early (especially in young boys) because it's outwardly visible, though it occurs across all genders and ages."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Restlessness, fidgeting, difficulty staying seated, talking a lot, interrupting, acting before thinking, and a constant drive to be doing something."
+    },
+    {
+     "k": "Strengths",
+     "v": "High energy, enthusiasm, drive, spontaneity, courage to act, and the ability to get things moving. Often the spark in a room — bold, funny, and quick to engage."
+    },
+    {
+     "k": "Supports",
+     "v": "Outlets for movement (standing desks, fidget tools, exercise, active breaks), channels for energy, and a pause-before-acting habit. Environments that reward action and energy rather than stillness tend to bring out the best."
+    }
+   ],
+   "name_es": "ADHD — Hyperactive/Impulsive",
+   "name_fr": "ADHD — Hyperactive/Impulsive",
+   "name_it": "ADHD — Hyperactive/Impulsive"
+  },
+  {
+   "name": "ADHD — Combined",
+   "slug": "adhd-combined",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The most common presentation of ADHD, where both inattention and hyperactivity/impulsivity are significantly present. It blends the features of both other presentations."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A mix: trouble focusing on dull tasks plus restlessness and impulsivity. Someone might lose their keys, interrupt a meeting, hyperfocus for hours on a passion, and forget an appointment — all in one day."
+    },
+    {
+     "k": "Strengths",
+     "v": "A versatile combination — the creative, reflective side of inattention plus the energy and drive of hyperactivity. Many describe a brain that's never boring."
+    },
+    {
+     "k": "Supports",
+     "v": "A toolkit drawing from both: external structure for focus and forgetfulness, plus movement and outlets for restlessness. Personalized strategies, and often professional support, work best given the range of challenges."
+    }
+   ],
+   "name_es": "ADHD — Combined",
+   "name_fr": "ADHD — Combined",
+   "name_it": "ADHD — Combined"
+  },
+  {
+   "name": "Executive Dysfunction",
+   "slug": "executive-dysfunction",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Difficulty with the brain's 'management system' — the set of skills (planning, prioritizing, starting tasks, working memory, time management, self-monitoring, emotional control) run largely by the prefrontal cortex."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Knowing what to do but being unable to start ('task paralysis'), trouble breaking big tasks into steps, losing track of time, forgetting mid-task, struggling to switch between tasks, and a gap between intention and action that can feel baff…"
+    },
+    {
+     "k": "Strengths",
+     "v": "When the right systems are in place, people with executive-function differences often bring fresh approaches, think outside rigid procedures, and excel at the parts of work that genuinely engage them."
+    },
+    {
+     "k": "Supports",
+     "v": "Externalize everything: visible lists, timers, calendars, and reminders that don't rely on memory. 'Body doubling' (working alongside someone), tiny first steps, and removing friction from getting started."
+    }
+   ],
+   "name_es": "Executive Dysfunction",
+   "name_fr": "Executive Dysfunction",
+   "name_it": "Executive Dysfunction"
+  },
+  {
+   "cat": "AUTISM SPECTRUM"
+  },
+  {
+   "name": "Autism Spectrum",
+   "slug": "autism",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Autism is a neurodevelopmental difference in how a person perceives the world, processes information, communicates, and experiences senses and social interaction."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Differences in social communication (reading unspoken cues, small talk, eye contact), a preference for predictability and routine, deep focused interests, sensory sensitivities (to sound, light, texture, touch), and stimming (self-regulatin…"
+    },
+    {
+     "k": "Strengths",
+     "v": "Deep expertise and passion in areas of interest, strong pattern recognition, attention to detail, honesty and directness, loyalty, creative and original thinking, and the ability to focus intensely."
+    },
+    {
+     "k": "Supports",
+     "v": "Predictable routines, clear and direct communication, sensory-friendly environments, advance notice of changes, and respect for stimming and downtime."
+    }
+   ],
+   "name_es": "Autism Spectrum",
+   "name_fr": "Autism Spectrum",
+   "name_it": "Autism Spectrum"
+  },
+  {
+   "name": "'Asperger's' (Historical)",
+   "slug": "aspergers",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A historical diagnostic term, once used for autistic people without language delay or intellectual disability. It's no longer a separate clinical diagnosis — since 2013 it's folded into the single 'autism spectrum' category."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Historically described people with strong verbal and intellectual skills alongside autistic social and sensory differences."
+    },
+    {
+     "k": "Strengths",
+     "v": "The same strengths recognized across the spectrum: focused expertise, analytical thinking, honesty, and deep knowledge of passionate interests."
+    },
+    {
+     "k": "Supports",
+     "v": "Modern understanding favors describing the person's actual profile and needs over the old label. Many who once received this term now embrace 'autistic' as an identity. Support is individualized rather than tied to the outdated category."
+    }
+   ],
+   "name_es": "'Asperger's' (Historical)",
+   "name_fr": "'Asperger's' (Historical)",
+   "name_it": "'Asperger's' (Historical)"
+  },
+  {
+   "name": "Pathological Demand Avoidance",
+   "slug": "pda",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Pathological Demand Avoidance (also called 'Persistent Drive for Autonomy') describes a profile, seen in some autistic people, marked by an extreme, anxiety-driven need to resist everyday demands — even ones the person wants to do."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Avoiding or resisting ordinary requests far beyond typical stubbornness, using social strategies to deflect demands, a strong need for control driven by anxiety, and sudden overwhelm when autonomy feels threatened."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often imaginative, socially perceptive, charming, and capable of creative negotiation. A fierce drive for fairness and autonomy that, understood well, reflects a need for genuine agency."
+    },
+    {
+     "k": "Supports",
+     "v": "Low-demand, collaborative approaches: offering choices, indirect language, reducing pressure, and framing tasks as options rather than orders. Reducing anxiety is the key — demands feel safer when control and trust are present."
+    }
+   ],
+   "name_es": "Pathological Demand Avoidance",
+   "name_fr": "Pathological Demand Avoidance",
+   "name_it": "Pathological Demand Avoidance"
+  },
+  {
+   "name": "Autism 'Support Levels'",
+   "slug": "autism-levels",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "The current diagnostic manual describes autism in three 'levels' of support needs (Level 1 'requiring support' to Level 3 'requiring very substantial support')."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A person's support needs can vary by area and by day — strong in some domains, needing significant help in others."
+    },
+    {
+     "k": "Strengths",
+     "v": "Framing support around actual needs (rather than vague 'high/low functioning' labels) can help people get appropriate accommodations and understanding."
+    },
+    {
+     "k": "Supports",
+     "v": "Many advocates prefer describing specific support needs ('needs help with X, independent in Y') over a single level. The goal is matching support to the real, fluctuating person rather than a fixed number."
+    }
+   ],
+   "name_es": "Autism 'Support Levels'",
+   "name_fr": "Autism 'Support Levels'",
+   "name_it": "Autism 'Support Levels'"
+  },
+  {
+   "name": "Sensory Processing Differences",
+   "slug": "sensory-processing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Differences in how the brain receives and responds to sensory input — sound, light, touch, taste, smell, movement, and internal signals. Common in autism and ADHD, and recognized on its own."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Distress from certain sounds, lights, textures, or smells; discomfort with clothing tags or food textures; seeking deep pressure or movement; difficulty filtering background noise; or trouble noticing internal cues like hunger or fatigue."
+    },
+    {
+     "k": "Strengths",
+     "v": "Heightened senses can mean rich appreciation of music, art, flavor, and detail, and noticing things others miss. Sensory seekers often bring energy and a love of movement and texture."
+    },
+    {
+     "k": "Supports",
+     "v": "Sensory-friendly spaces, noise-cancelling headphones, comfortable clothing, dimmable lighting, and sensory tools (weighted items, fidgets, movement breaks). Knowing one's own sensory profile allows proactive regulation before overload hits."
+    }
+   ],
+   "name_es": "Sensory Processing Differences",
+   "name_fr": "Sensory Processing Differences",
+   "name_it": "Sensory Processing Differences"
+  },
+  {
+   "cat": "LEARNING DIFFERENCES"
+  },
+  {
+   "name": "Dyslexia",
+   "slug": "dyslexia",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A specific learning difference affecting reading, spelling, and working with written language, rooted in how the brain processes the sounds of language (phonological processing)."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Slow or effortful reading, difficulty sounding out words, mixing up similar words, trouble spelling, and reading that drains energy even when comprehension is strong."
+    },
+    {
+     "k": "Strengths",
+     "v": "Strong big-picture and spatial reasoning, creativity, storytelling, problem-solving, and 'thinking in pictures.' Many dyslexic people excel in design, entrepreneurship, engineering, and the arts, seeing connections others miss."
+    },
+    {
+     "k": "Supports",
+     "v": "Structured, multisensory literacy instruction (like Orton-Gillingham approaches), audiobooks, text-to-speech, extra time, and fonts/spacing that ease reading."
+    }
+   ],
+   "name_es": "Dyslexia",
+   "name_fr": "Dyslexia",
+   "name_it": "Dyslexia"
+  },
+  {
+   "name": "Dyscalculia",
+   "slug": "dyscalculia",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A specific learning difference affecting the understanding of numbers, quantities, and mathematical reasoning — sometimes called 'dyslexia for math.' It's a difference in number sense, not a result of poor teaching or low intelligence, and…"
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Trouble grasping quantity and number relationships, difficulty with arithmetic, mixing up symbols, struggling to tell time or estimate, getting lost with money, and high anxiety around math despite effort."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often strong in areas math anxiety can hide — verbal reasoning, creativity, intuition, and qualitative thinking. Many develop clever workarounds and strong logical reasoning outside of numbers."
+    },
+    {
+     "k": "Supports",
+     "v": "Concrete and visual tools (manipulatives, number lines), calculators, extra time, real-world framing of math, and reduced reliance on memorized facts. Patience and removing the shame around math help enormously."
+    }
+   ],
+   "name_es": "Dyscalculia",
+   "name_fr": "Dyscalculia",
+   "name_it": "Dyscalculia"
+  },
+  {
+   "name": "Dysgraphia",
+   "slug": "dysgraphia",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A specific learning difference affecting written expression — the physical act of writing, and/or organizing thoughts on the page. It involves difficulty translating ideas into written words, separate from intelligence or knowledge."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Messy or laborious handwriting, inconsistent spacing and letter formation, a gap between rich spoken ideas and what reaches the page, fatigue and pain when writing, and trouble organizing thoughts in writing even when they're clear out loud…"
+    },
+    {
+     "k": "Strengths",
+     "v": "Often rich ideas and strong verbal expression — the thinking is there, the bottleneck is the output channel. Many are creative, articulate speakers who thrive once the writing barrier is removed."
+    },
+    {
+     "k": "Supports",
+     "v": "Typing instead of handwriting, speech-to-text, graphic organizers, scribes, extra time, and separating idea-generation from the mechanics of writing. Letting the ideas out by voice or keyboard often unlocks the person's real ability."
+    }
+   ],
+   "name_es": "Dysgraphia",
+   "name_fr": "Dysgraphia",
+   "name_it": "Dysgraphia"
+  },
+  {
+   "name": "Auditory Processing Disorder",
+   "slug": "auditory-processing",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Auditory Processing Disorder is difficulty interpreting sounds — especially speech — even when hearing itself is normal. The ears work fine; the brain has trouble making sense of what they receive, particularly in noisy settings."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Trouble following speech in background noise, mishearing similar-sounding words, needing things repeated, difficulty with rapid speech or multi-step spoken instructions, and exhaustion from the effort of listening."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often strong visual and written learners, with good reasoning when information is presented in the right channel. Many develop sharp attention to context and lip-reading-like skills."
+    },
+    {
+     "k": "Supports",
+     "v": "Quiet environments, written backup for spoken information, clear face-to-face speech, captions, and asking for repetition without stigma. Reducing background noise and giving instructions in writing make a big difference."
+    }
+   ],
+   "name_es": "Auditory Processing Disorder",
+   "name_fr": "Auditory Processing Disorder",
+   "name_it": "Auditory Processing Disorder"
+  },
+  {
+   "name": "Nonverbal Learning Disability",
+   "slug": "nvld",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Nonverbal Learning Disability involves strong verbal skills alongside difficulty with visual-spatial information, motor coordination, and certain social cues."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Strong vocabulary and rote verbal memory, but difficulty with spatial tasks, reading maps, handwriting, math involving space, interpreting body language, and adapting to new situations."
+    },
+    {
+     "k": "Strengths",
+     "v": "Excellent verbal abilities, vocabulary, memory for facts, and reading. Often articulate, detail-oriented in language, and strong with explicit verbal information."
+    },
+    {
+     "k": "Supports",
+     "v": "Verbal explanations over visual ones, explicit teaching of social and spatial skills, breaking visual tasks into verbal steps, and structure for new situations. Leaning on the verbal strength to scaffold the harder areas works well."
+    }
+   ],
+   "name_es": "Nonverbal Learning Disability",
+   "name_fr": "Nonverbal Learning Disability",
+   "name_it": "Nonverbal Learning Disability"
+  },
+  {
+   "name": "Developmental Language Disorder",
+   "slug": "language-disorder",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Developmental Language Disorder is a lifelong difference in understanding and/or using spoken language, not explained by other conditions. It's common but under-recognized, affecting how a person learns, processes, and produces language."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Difficulty finding words, following or telling complex stories, understanding long or complex sentences, and learning new vocabulary. It can look like inattention or shyness, so it's frequently missed."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often strong in nonverbal and practical reasoning, visual skills, hands-on tasks, and areas where language isn't the bottleneck. Many develop strong compensating strategies."
+    },
+    {
+     "k": "Supports",
+     "v": "Clear, simple language, visual supports, extra processing time, speech-language therapy, and checking for understanding. Pairing words with images and breaking information into smaller pieces helps a great deal."
+    }
+   ],
+   "name_es": "Developmental Language Disorder",
+   "name_fr": "Developmental Language Disorder",
+   "name_it": "Developmental Language Disorder"
+  },
+  {
+   "cat": "MOTOR & COORDINATION"
+  },
+  {
+   "name": "Dyspraxia / DCD",
+   "slug": "dyspraxia",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Dyspraxia (Developmental Coordination Disorder, or DCD) is a difference in planning and coordinating physical movement. The body's 'motor planning' system works differently, making smooth, automatic movement harder to learn and execute."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Clumsiness, trouble with handwriting, difficulty learning physical skills (riding a bike, tying laces), bumping into things, fatigue from movements others do automatically, and sometimes trouble with organization and planning more broadly."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often determined, creative problem-solvers (from a lifetime of finding workarounds), with strong empathy, big-picture thinking, and verbal or strategic strengths. Persistence is frequently a defining trait."
+    },
+    {
+     "k": "Supports",
+     "v": "Breaking physical tasks into steps, extra practice time, occupational therapy, assistive tools (typing over handwriting), and patience. Reducing time pressure and allowing alternative ways to show ability make a big difference."
+    }
+   ],
+   "name_es": "Dyspraxia / DCD",
+   "name_fr": "Dyspraxia / DCD",
+   "name_it": "Dyspraxia / DCD"
+  },
+  {
+   "name": "Hypermobility & Coordination",
+   "slug": "hypermobility",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Many neurodivergent people also have joint hypermobility — joints that move beyond the typical range — which often co-occurs with coordination differences, fatigue, and conditions like ADHD and autism."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Very flexible joints, frequent sprains or dislocations, clumsiness, fatigue, pain, and trouble sensing where the body is in space (proprioception), which can affect coordination and balance."
+    },
+    {
+     "k": "Strengths",
+     "v": "Often flexibility useful in dance, music, or movement arts, and a heightened body awareness once understood. Many bring great resilience from managing a body that works differently."
+    },
+    {
+     "k": "Supports",
+     "v": "Physiotherapy, joint protection, building strength and stability, pacing to manage fatigue, and supportive tools. Recognizing the link to coordination and energy helps explain experiences that otherwise feel mysterious."
+    }
+   ],
+   "name_es": "Hypermobility & Coordination",
+   "name_fr": "Hypermobility & Coordination",
+   "name_it": "Hypermobility & Coordination"
+  },
+  {
+   "name": "Motor Planning Differences",
+   "slug": "motor-planning",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Motor planning (praxis) is the brain's ability to conceive, sequence, and carry out new or complex movements."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Difficulty learning new physical sequences, awkward or effortful movement, trouble with tasks needing timing and coordination, and a gap between knowing how a movement should go and producing it. Movements others automate stay effortful."
+    },
+    {
+     "k": "Strengths",
+     "v": "Once a sequence is learned through practice, it can become reliable. Many develop strong analytical approaches to movement and great determination."
+    },
+    {
+     "k": "Supports",
+     "v": "Explicit, step-by-step teaching of movements, lots of practice, breaking sequences down, visual or verbal cues, and patience. Occupational therapy and allowing extra time to learn physical skills help."
+    }
+   ],
+   "name_es": "Motor Planning Differences",
+   "name_fr": "Motor Planning Differences",
+   "name_it": "Motor Planning Differences"
+  },
+  {
+   "cat": "TIC & MOVEMENT"
+  },
+  {
+   "name": "Tourette Syndrome",
+   "slug": "tourettes",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Tourette Syndrome is a neurodevelopmental condition involving multiple motor tics and at least one vocal tic, present for over a year. Tics are sudden, repetitive, involuntary movements or sounds."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Motor tics (blinking, head jerks, shrugging) and vocal tics (throat clearing, sounds, words), often preceded by an uncomfortable 'premonitory urge.' Tics wax and wane, worsen with stress or excitement, and can sometimes be briefly suppresse…"
+    },
+    {
+     "k": "Strengths",
+     "v": "Often quick-witted, creative, energetic, and resilient. Many develop strong self-awareness, humor, and determination. Some report bursts of creativity and fast thinking."
+    },
+    {
+     "k": "Supports",
+     "v": "A calm, accepting environment that doesn't draw attention to tics, stress reduction, education for others, and (where wanted) therapies like habit-reversal training."
+    }
+   ],
+   "name_es": "Tourette Syndrome",
+   "name_fr": "Tourette Syndrome",
+   "name_it": "Tourette Syndrome"
+  },
+  {
+   "name": "Tic Disorders",
+   "slug": "tic-disorders",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Tic disorders include conditions with motor or vocal tics that don't meet the full criteria for Tourette Syndrome — for example, tics present for less than a year, or only motor or only vocal tics."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Repetitive movements or sounds — blinking, sniffing, throat clearing, small jerks — that come and go. Many childhood tics are temporary; stress and excitement tend to increase them."
+    },
+    {
+     "k": "Strengths",
+     "v": "As with Tourette's, often paired with creativity, energy, and resilience. Many children's tics fade with time and understanding."
+    },
+    {
+     "k": "Supports",
+     "v": "Low-key acceptance, reducing stress and pressure, and avoiding making the tic a focus of attention (which tends to amplify it)."
+    }
+   ],
+   "name_es": "Tic Disorders",
+   "name_fr": "Tic Disorders",
+   "name_it": "Tic Disorders"
+  },
+  {
+   "name": "Motor Stereotypies",
+   "slug": "stereotypy",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Motor stereotypies are rhythmic, repetitive, self-directed movements — like hand-flapping, rocking, or finger movements. Common in autism (as a form of stimming) and also seen on their own."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Repetitive movements such as flapping, rocking, spinning, or pacing, often during excitement, concentration, or stress. They tend to feel good and regulating rather than involuntary."
+    },
+    {
+     "k": "Strengths",
+     "v": "These movements are genuinely useful — they help regulate emotion, focus, and sensory input. Honoring them supports wellbeing rather than something to be 'fixed.'"
+    },
+    {
+     "k": "Supports",
+     "v": "The main support is acceptance — understanding that stimming is helpful self-regulation. Only when a movement is harmful is redirection (to a safer stim) appropriate, and always respectfully."
+    }
+   ],
+   "name_es": "Motor Stereotypies",
+   "name_fr": "Motor Stereotypies",
+   "name_it": "Motor Stereotypies"
+  },
+  {
+   "cat": "BIG-PICTURE CONCEPTS"
+  },
+  {
+   "name": "Neurodiversity",
+   "slug": "neurodiversity",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Neurodiversity is the idea that variation in human brains and minds is natural and valuable — like biodiversity in nature."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "As a lens, it shows up in language ('neurodivergent,' 'neurotypical'), in advocacy for acceptance and accommodation, and in shifting from 'fixing' people to designing a world that fits more kinds of minds."
+    },
+    {
+     "k": "Strengths",
+     "v": "The framework itself is a strength: it reduces shame, builds identity and community, highlights real talents, and pushes environments to flex. It has helped many people understand themselves with self-respect rather than self-blame."
+    },
+    {
+     "k": "Supports",
+     "v": "Affirming environments, accommodations, community and peer connection, and language that respects identity. The neurodiversity approach pairs naturally with practical support for genuine challenges — acceptance and help are not opposites."
+    }
+   ],
+   "name_es": "Neurodiversity",
+   "name_fr": "Neurodiversity",
+   "name_it": "Neurodiversity"
+  },
+  {
+   "name": "Neurodivergent",
+   "slug": "neurodivergent",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "'Neurodivergent' describes a person whose brain works differently from what's considered typical ('neurotypical'). It's an umbrella term — not a diagnosis — covering ADHD, autism, dyslexia, dyspraxia, Tourette's, and more."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "It shows up as a shared identity and language that connects people across different conditions, emphasizing common experiences (masking, sensory needs, executive challenges) and shared advocacy."
+    },
+    {
+     "k": "Strengths",
+     "v": "A sense of belonging, community, and self-understanding. Naming the experience helps people find others, share strategies, and replace shame with identity and pride."
+    },
+    {
+     "k": "Supports",
+     "v": "Community and peer support, self-knowledge, and environments that accept difference. Many find that simply having the word — and finding 'their people' — is itself a major support."
+    }
+   ],
+   "name_es": "Neurodivergent",
+   "name_fr": "Neurodivergent",
+   "name_it": "Neurodivergent"
+  },
+  {
+   "name": "Co-occurrence",
+   "slug": "co-occurrence",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Neurodevelopmental conditions very often overlap — having one makes others more likely. ADHD and autism frequently co-occur; dyslexia, dyspraxia, and dyscalculia cluster together; ADHD overlaps with tic disorders, and so on."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A person rarely fits one neat box. Someone might be autistic and ADHD ('AuDHD'), or dyslexic and dyspraxic. Traits blend and interact, which is why individualized understanding beats single labels."
+    },
+    {
+     "k": "Strengths",
+     "v": "Recognizing overlap leads to fuller self-understanding and better support — explaining experiences a single diagnosis would miss. Many find that the combined picture finally makes sense of their lives."
+    },
+    {
+     "k": "Supports",
+     "v": "Whole-person assessment rather than narrow labels, support that addresses the real combination of traits, and awareness that co-occurring anxiety or depression deserves attention too. Looking at the full profile prevents missed needs."
+    }
+   ],
+   "name_es": "Co-occurrence",
+   "name_fr": "Co-occurrence",
+   "name_it": "Co-occurrence"
+  },
+  {
+   "name": "The 'Spiky Profile'",
+   "slug": "spiky-profile",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "A 'spiky profile' describes the common neurodivergent pattern of dramatic peaks and valleys in abilities — being exceptional at some things and genuinely struggling with others, rather than evenly 'average.' The gap between strengths and ch…"
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Brilliant at a passion but unable to do 'simple' admin; advanced reading but struggling to tie shoes; deep insight but trouble with time. The unevenness can confuse others ('how can you do X but not Y?') and the person themselves."
+    },
+    {
+     "k": "Strengths",
+     "v": "The peaks are real and often remarkable — intense talents in specific areas. Understanding the profile lets people lean into strengths instead of being judged by their hardest areas."
+    },
+    {
+     "k": "Supports",
+     "v": "Building life and work around the peaks while scaffolding the valleys with tools and support. The key reframe: the 'spikes' aren't laziness or inconsistency — they're how these minds are wired, and strengths are as real as the struggles."
+    }
+   ],
+   "name_es": "The 'Spiky Profile'",
+   "name_fr": "The 'Spiky Profile'",
+   "name_it": "The 'Spiky Profile'"
+  },
+  {
+   "name": "Intellectual Disability",
+   "slug": "intellectual-disability",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "Intellectual disability involves differences in intellectual functioning (reasoning, learning, problem-solving) and adaptive skills (everyday practical and social abilities), beginning in childhood."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "Slower or different learning across areas, needing more support with daily living, and benefiting from concrete, step-by-step teaching. Each person's profile, strengths, and support needs are highly individual."
+    },
+    {
+     "k": "Strengths",
+     "v": "Many bring warmth, honesty, persistence, joy, strong social connection, and real abilities in areas of interest. With support and opportunity, people lead full, meaningful, contributing lives."
+    },
+    {
+     "k": "Supports",
+     "v": "Patient, concrete teaching, life-skills support, accessible communication, inclusive opportunities, and high expectations paired with the right help. The focus is on enabling independence, dignity, and participation, not limits."
+    }
+   ],
+   "name_es": "Intellectual Disability",
+   "name_fr": "Intellectual Disability",
+   "name_it": "Intellectual Disability"
+  },
+  {
+   "name": "Twice-Exceptional (2e)",
+   "slug": "twice-exceptional",
+   "rows": [
+    {
+     "k": "What It Is",
+     "v": "'Twice-exceptional' (2e) describes people who are both gifted (in one or more areas) and neurodivergent or disabled."
+    },
+    {
+     "k": "How It Shows Up",
+     "v": "A bright student who struggles in school; intense ability in one area alongside real difficulty in another; high potential paired with frustration."
+    },
+    {
+     "k": "Strengths",
+     "v": "Exceptional talent and creativity in their area of strength, combined with the depth and perspective that come from navigating challenge. Many are intensely capable when their strengths are recognized and their needs are met."
+    },
+    {
+     "k": "Supports",
+     "v": "Nurturing the gift *and* supporting the challenge at the same time — never making support conditional on hiding the disability, or vice versa. Recognition is key: 2e people thrive when both sides of who they are are seen and served."
+    }
+   ],
+   "name_es": "Twice-Exceptional (2e)",
+   "name_fr": "Twice-Exceptional (2e)",
+   "name_it": "Twice-Exceptional (2e)"
+  }
+ ]
+}

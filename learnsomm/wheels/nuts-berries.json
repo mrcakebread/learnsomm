@@ -1,0 +1,811 @@
+{
+ "title": "Nuts Berries",
+ "subject": "nuts-berries",
+ "categories": [
+  {
+   "name": "RICH & BUTTERY NUTS",
+   "name_fr": "Fruits Secs Riches & Beurrés",
+   "name_it": "Frutta Secca Ricca & Burrosa",
+   "name_es": "FRUTOS SECOS RICOS Y MANTECOSOS",
+   "color": "#c9a36a",
+   "sub": [
+    {
+     "name": "RICH & BUTTERY NUTS",
+     "name_fr": "Fruits Secs Riches & Beurrés",
+     "name_it": "Frutta Secca Ricca & Burrosa",
+     "name_es": "FRUTOS SECOS RICOS Y MANTECOSOS",
+     "color": "#c9a36a",
+     "descriptors": [
+      {
+       "name": "Macadamia",
+       "name_fr": "Macadamia",
+       "name_it": "Macadamia",
+       "name_es": "Macadamia",
+       "slug": "macadamia",
+       "panel": {
+        "origin": "Sweet, buttery, and delicate with a faint coconut richness — the mildest, creamiest of the nuts.",
+        "origin_es": "Dulce, mantecoso y delicado, con un leve toque de coco — el más suave y cremoso de los frutos secos.",
+        "chemistry": "A crisp snap giving way to a soft, almost melting interior. Very high oil content.",
+        "chemistry_es": "Un crujido nítido que da paso a un interior blando, casi fundente. Muy alto contenido de aceite.",
+        "pairing": "White chocolate, tropical fruit, vanilla, coffee. Lovely with a buttery Chardonnay.",
+        "pairing_es": "Chocolate blanco, fruta tropical, vainilla, café. Excelente con un Chardonnay mantecoso.",
+        "mixology": "Cookies (the classic white-chocolate macadamia), nut crusts for fish, brittle, eaten raw and salted.",
+        "mixology_es": "Galletas (la clásica de chocolate blanco y macadamia), costras para pescado, crocante, comida cruda y salada.",
+        "examples": "Native to Australia; the seed of an evergreen tree, with one of the hardest shells in the nut world.",
+        "examples_es": "Originaria de Australia; semilla de un árbol perenne, con una de las cáscaras más duras del mundo."
+       }
+      },
+      {
+       "name": "Pecan",
+       "name_fr": "Noix de Pécan",
+       "name_it": "Noce Pecan",
+       "name_es": "Pacana",
+       "slug": "pecan",
+       "panel": {
+        "origin": "Rich, sweet, and mellow with a gentle maple-butter warmth. Less tannic than walnut.",
+        "origin_es": "Rica, dulce y suave, con una calidez de mantequilla y arce. Menos tánica que la nuez.",
+        "chemistry": "Tender and oily, with a fine crumble when toasted.",
+        "chemistry_es": "Tierna y aceitosa, con un desmenuzado fino al tostarse.",
+        "pairing": "Maple, brown butter, bourbon, caramel. Excellent with aged rum or tawny Port.",
+        "pairing_es": "Arce, mantequilla tostada, bourbon, caramelo. Excelente con ron añejo u Oporto tawny.",
+        "mixology": "Pecan pie, pralines, candied and spiced, sprinkled over salads and sweet potatoes.",
+        "mixology_es": "Tarta de pacana, pralinés, confitada y especiada, sobre ensaladas y batatas.",
+        "examples": "A hickory native to North America — the only major tree nut indigenous to the United States.",
+        "examples_es": "Un nogal americano (hickory) — el único fruto seco de árbol importante nativo de EE. UU."
+       }
+      },
+      {
+       "name": "Cashew",
+       "name_fr": "Noix de Cajou",
+       "name_it": "Anacardo",
+       "name_es": "Anacardo",
+       "slug": "cashew",
+       "panel": {
+        "origin": "Mild, sweet, and creamy with a subtle savory depth. Almost neutral and very food-friendly.",
+        "origin_es": "Suave, dulce y cremoso, con una sutil profundidad salada. Casi neutro y muy versátil.",
+        "chemistry": "Soft and dense; blends to a silky cream when soaked.",
+        "chemistry_es": "Blando y denso; se licúa en una crema sedosa al remojarse.",
+        "pairing": "Coconut milk, curry spices, dates, chili. Rounds out a Riesling or off-dry white.",
+        "pairing_es": "Leche de coco, especias de curry, dátiles, chile. Redondea un Riesling o un blanco semiseco.",
+        "mixology": "Stir-fries, cashew butter, dairy-free creams and cheeses, snacking, Indian korma.",
+        "mixology_es": "Salteados, mantequilla de anacardo, cremas y quesos sin lácteos, picoteo, korma india.",
+        "examples": "The kidney-shaped seed that grows outside the cashew apple; never sold truly raw, as the shell oil is caustic.",
+        "examples_es": "La semilla en forma de riñón que crece fuera de la manzana de marañón; nunca se vende cruda de verdad, pues el aceite de la cáscara es cáustico."
+       }
+      },
+      {
+       "name": "Pine Nut",
+       "name_fr": "Pignon",
+       "name_it": "Pinolo",
+       "name_es": "Piñón",
+       "slug": "pine-nut",
+       "panel": {
+        "origin": "Delicate, sweet, and resinous with a soft buttery finish. Mild but distinctive.",
+        "origin_es": "Delicado, dulce y resinoso, con un final mantecoso. Suave pero distintivo.",
+        "chemistry": "Tender and waxy; toasts to a light, fragrant crunch.",
+        "chemistry_es": "Tierno y ceroso; se tuesta a un crujido ligero y fragante.",
+        "pairing": "Basil, Parmesan, olive oil, golden raisins. Anchors pesto; pairs with crisp Italian whites.",
+        "pairing_es": "Albahaca, parmesano, aceite de oliva, pasas. Base del pesto; combina con blancos italianos frescos.",
+        "mixology": "Pesto Genovese, toasted over salads and pasta, baklava, Middle Eastern rice.",
+        "mixology_es": "Pesto genovés, tostado sobre ensaladas y pasta, baklava, arroces de Oriente Medio.",
+        "examples": "The edible seed harvested from inside pine cones — labor-intensive, which makes it one of the costliest 'nuts.'",
+        "examples_es": "La semilla comestible que se extrae del interior de las piñas — laboriosa de cosechar, lo que la hace uno de los 'frutos secos' más caros."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SWEET & VERSATILE NUTS",
+   "name_fr": "Fruits Secs Doux & Polyvalents",
+   "name_it": "Frutta Secca Dolce & Versatile",
+   "name_es": "FRUTOS SECOS DULCES Y VERSÁTILES",
+   "color": "#d9b87a",
+   "sub": [
+    {
+     "name": "SWEET & VERSATILE NUTS",
+     "name_fr": "Fruits Secs Doux & Polyvalents",
+     "name_it": "Frutta Secca Dolce & Versatile",
+     "name_es": "FRUTOS SECOS DULCES Y VERSÁTILES",
+     "color": "#d9b87a",
+     "descriptors": [
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "name_es": "Almendra",
+       "slug": "almond",
+       "panel": {
+        "origin": "Sweet, clean, and faintly floral, with a gentle marzipan note when ground.",
+        "origin_es": "Dulce, limpia y levemente floral, con un toque de mazapán al molerse.",
+        "chemistry": "Firm and crisp raw; creamy as butter or milk, fine and powdery as flour.",
+        "chemistry_es": "Firme y crujiente en crudo; cremosa como mantequilla o leche, fina como harina.",
+        "pairing": "Stone fruit, honey, cherry, citrus. Classic with sherry and dessert wines.",
+        "pairing_es": "Frutas de hueso, miel, cereza, cítricos. Clásica con jerez y vinos de postre.",
+        "mixology": "Marzipan, almond-flour baking, milk, butter, praline, crusting fish.",
+        "mixology_es": "Mazapán, repostería con harina de almendra, leche, mantequilla, praliné, costras de pescado.",
+        "examples": "The seed of a drupe in the rose family — kin to peaches and cherries, not a true nut.",
+        "examples_es": "La semilla de una drupa de la familia de las rosas — pariente del melocotón y la cereza, no un fruto seco verdadero."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "name_es": "Avellana",
+       "slug": "hazelnut",
+       "panel": {
+        "origin": "Warm, sweet, and toasty with deep roasted-cocoa character. Intensifies with toasting.",
+        "origin_es": "Cálida, dulce y tostada, con profundo carácter de cacao. Se intensifica al tostarse.",
+        "chemistry": "Hard and crunchy; grinds to a rich, oily paste.",
+        "chemistry_es": "Dura y crujiente; se muele en una pasta rica y aceitosa.",
+        "pairing": "Chocolate (the gianduja marriage), brown butter, espresso, pear.",
+        "pairing_es": "Chocolate (el matrimonio gianduja), mantequilla tostada, espresso, pera.",
+        "mixology": "Nutella and gianduja, praline, dacquoise, dukkah, roasted over salads.",
+        "mixology_es": "Nutella y gianduja, praliné, dacquoise, dukkah, tostada sobre ensaladas.",
+        "examples": "A true botanical nut from the filbert tree; Turkey grows the lion's share of the world crop.",
+        "examples_es": "Un fruto seco botánico verdadero del avellano; Turquía produce la mayor parte de la cosecha mundial."
+       }
+      },
+      {
+       "name": "Pistachio",
+       "name_fr": "Pistache",
+       "name_it": "Pistacchio",
+       "name_es": "Pistacho",
+       "slug": "pistachio",
+       "panel": {
+        "origin": "Sweet, faintly resinous, and savory with a distinctive green, grassy note.",
+        "origin_es": "Dulce, levemente resinoso y sabroso, con una nota verde y herbácea distintiva.",
+        "chemistry": "Firm, slightly chewy, with a satisfying snap.",
+        "chemistry_es": "Firme, algo masticable, con un crujido satisfactorio.",
+        "pairing": "Rosewater, cardamom, citrus, white chocolate. Bright with dry rosé or Moscato.",
+        "pairing_es": "Agua de rosas, cardamomo, cítricos, chocolate blanco. Vivo con rosado seco o Moscato.",
+        "mixology": "Baklava, gelato, studding mortadella, crusts, Persian and Sicilian sweets.",
+        "mixology_es": "Baklava, gelato, mortadela, costras, dulces persas y sicilianos.",
+        "examples": "The seed of a desert tree in the cashew family; the shell splits open naturally as it ripens.",
+        "examples_es": "La semilla de un árbol del desierto de la familia del anacardo; la cáscara se abre sola al madurar."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BOLD & DISTINCTIVE NUTS",
+   "name_fr": "FRUITS SECS INTENSES & DISTINCTIFS",
+   "name_it": "FRUTTA SECCA INTENSA & DISTINTIVA",
+   "name_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS",
+   "color": "#8a5a2b",
+   "sub": [
+    {
+     "name": "BOLD & DISTINCTIVE NUTS",
+     "name_fr": "FRUITS SECS INTENSES & DISTINCTIFS",
+     "name_it": "FRUTTA SECCA INTENSA & DISTINTIVA",
+     "name_es": "FRUTOS SECOS INTENSOS Y DISTINTIVOS",
+     "color": "#8a5a2b",
+     "descriptors": [
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "name_es": "Nuez",
+       "slug": "walnut",
+       "panel": {
+        "origin": "Rich, earthy, and slightly bitter, with a tannic edge in the papery skin.",
+        "origin_es": "Rica, terrosa y algo amarga, con un borde tánico en la piel apergaminada.",
+        "chemistry": "Crisp and oily; the skin adds astringency that mellows when toasted.",
+        "chemistry_es": "Crujiente y aceitosa; la piel aporta astringencia que se suaviza al tostarse.",
+        "pairing": "Blue cheese, honey, fig, coffee. A classic partner for Port and aged reds.",
+        "pairing_es": "Queso azul, miel, higo, café. Compañera clásica del Oporto y los tintos añejos.",
+        "mixology": "Baking, candied, salads, walnut oil, sauces (nogada, tarator), cheese boards.",
+        "mixology_es": "Repostería, confitada, ensaladas, aceite de nuez, salsas (nogada, tarator), tablas de queso.",
+        "examples": "An ancient tree nut grown for millennia across Persia and Europe; the meat looks like two brain-like halves.",
+        "examples_es": "Un fruto seco antiguo, cultivado durante milenios en Persia y Europa; el fruto parece dos mitades cerebrales."
+       }
+      },
+      {
+       "name": "Brazil Nut",
+       "name_fr": "Noix du Brésil",
+       "name_it": "Noce del Brasile",
+       "name_es": "Nuez de Brasil",
+       "slug": "brazil-nut",
+       "panel": {
+        "origin": "Rich, creamy, and faintly sweet, with a milky, coconut-like depth.",
+        "origin_es": "Rica, cremosa y levemente dulce, con una profundidad láctea parecida al coco.",
+        "chemistry": "Dense, firm, and very oily; large and meaty.",
+        "chemistry_es": "Densa, firme y muy aceitosa; grande y carnosa.",
+        "pairing": "Dark chocolate, sea salt, tropical fruit.",
+        "pairing_es": "Chocolate negro, sal marina, fruta tropical.",
+        "mixology": "Snacking, baking, chopped into bark and granola, nut milks.",
+        "mixology_es": "Picoteo, repostería, troceada en barras y granola, leches vegetales.",
+        "examples": "Harvested wild from giant Amazon rainforest trees; among the richest natural sources of selenium, so a couple a day is plenty.",
+        "examples_es": "Cosechada de forma silvestre en gigantescos árboles del Amazonas; de las fuentes naturales más ricas en selenio, así que un par al día basta."
+       }
+      },
+      {
+       "name": "Chestnut",
+       "name_fr": "Châtaigne",
+       "name_it": "Castagna",
+       "name_es": "Castaña",
+       "slug": "chestnut",
+       "panel": {
+        "origin": "Sweet, earthy, and starchy — more like a vegetable or grain than an oily nut.",
+        "origin_es": "Dulce, terrosa y almidonada — más parecida a una verdura o cereal que a un fruto seco aceitoso.",
+        "chemistry": "Firm raw; soft, floury, and tender when roasted or boiled. Low in fat.",
+        "chemistry_es": "Firme en crudo; blanda, harinosa y tierna asada o hervida. Baja en grasa.",
+        "pairing": "Brussels sprouts, sage, cream, chocolate, game meats. Lovely with mulled wine.",
+        "pairing_es": "Coles de Bruselas, salvia, nata, chocolate, carnes de caza. Deliciosa con vino caliente especiado.",
+        "mixology": "Roasted whole, puréed (Mont Blanc), stuffing, soups, candied as marrons glacés.",
+        "mixology_es": "Asada entera, en puré (Mont Blanc), rellenos, sopas, confitada como marrons glacés.",
+        "examples": "A true nut and the only one treated as a starch; it must be cooked, never eaten raw in quantity.",
+        "examples_es": "Un fruto seco verdadero y el único tratado como almidón; debe cocinarse, nunca comerse cruda en cantidad."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LEGUMES & SEEDS",
+   "name_fr": "Légumineuses & Graines",
+   "name_it": "Legumi & Semi",
+   "name_es": "LEGUMBRES Y SEMILLAS",
+   "color": "#b9923e",
+   "sub": [
+    {
+     "name": "LEGUMES & SEEDS",
+     "name_fr": "Légumineuses & Graines",
+     "name_it": "Legumi & Semi",
+     "name_es": "LEGUMBRES Y SEMILLAS",
+     "color": "#b9923e",
+     "descriptors": [
+      {
+       "name": "Peanut",
+       "name_fr": "Cacahuète",
+       "name_it": "Arachide",
+       "name_es": "Cacahuete",
+       "slug": "peanut",
+       "panel": {
+        "origin": "Rich, roasty, and savory-sweet — the deepest 'nutty' flavor of all, despite not being a nut.",
+        "origin_es": "Rico, tostado y dulce-salado — el sabor más 'a fruto seco' de todos, aunque no lo sea.",
+        "chemistry": "Crisp and crumbly roasted; smooth or chunky as butter.",
+        "chemistry_es": "Crujiente y desmenuzable tostado; cremoso o con trozos como mantequilla.",
+        "pairing": "Chocolate, chili, lime, soy, banana.",
+        "pairing_es": "Chocolate, chile, lima, soja, plátano.",
+        "mixology": "Peanut butter, satay and other sauces, brittle, boiled (Southern U.S.), snacking.",
+        "mixology_es": "Mantequilla de cacahuete, salsas tipo satay, crocante, hervido (sur de EE. UU.), picoteo.",
+        "examples": "A legume that flowers above ground then ripens its pods underground; kin to peas and beans.",
+        "examples_es": "Una legumbre que florece sobre la tierra y madura sus vainas bajo tierra; pariente de guisantes y frijoles."
+       }
+      },
+      {
+       "name": "Pumpkin Seed (Pepita)",
+       "name_fr": "Graine de Courge (Pepita)",
+       "name_it": "Seme di Zucca (Pepita)",
+       "name_es": "Semilla de Calabaza (Pepita)",
+       "slug": "pumpkin-seed",
+       "panel": {
+        "origin": "Nutty, green, and mildly sweet with a savory toasted depth.",
+        "origin_es": "A fruto seco, verde y suavemente dulce, con profundidad sabrosa al tostarse.",
+        "chemistry": "Chewy with a tender snap; flat and easy to toast.",
+        "chemistry_es": "Masticable con un crujido tierno; plana y fácil de tostar.",
+        "pairing": "Lime, chili, cilantro, dark greens. Central to Mexican pipián and mole verde.",
+        "pairing_es": "Lima, chile, cilantro, verduras de hoja. Esencial en el pipián y el mole verde mexicanos.",
+        "mixology": "Toasted and salted, pepita brittle, granola, ground into Mexican sauces, salad topping.",
+        "mixology_es": "Tostada y salada, crocante de pepita, granola, molida en salsas mexicanas, sobre ensaladas.",
+        "examples": "The hulled green seed of pumpkins and squash; called 'pepita' in Mexican cooking.",
+        "examples_es": "La semilla verde sin cáscara de calabazas; llamada 'pepita' en la cocina mexicana."
+       }
+      },
+      {
+       "name": "Sunflower Seed",
+       "name_fr": "Graine de Tournesol",
+       "name_it": "Seme di Girasole",
+       "name_es": "Semilla de Girasol",
+       "slug": "sunflower-seed",
+       "panel": {
+        "origin": "Mild, nutty, and faintly sweet with a clean finish.",
+        "origin_es": "Suave, a fruto seco y levemente dulce, con un final limpio.",
+        "chemistry": "Tender crunch; grinds to a smooth seed butter.",
+        "chemistry_es": "Crujido tierno; se muele en una mantequilla de semilla suave.",
+        "pairing": "Honey, dried fruit, whole grains.",
+        "pairing_es": "Miel, fruta seca, cereales integrales.",
+        "mixology": "Snacking in-shell, seed butter (sunbutter), bread and granola, salad topping.",
+        "mixology_es": "Picoteo con cáscara, mantequilla de semilla (sunbutter), pan y granola, sobre ensaladas.",
+        "examples": "The seed of the sunflower; a common school-safe alternative where tree nuts and peanuts are banned.",
+        "examples_es": "La semilla del girasol; alternativa habitual y segura donde se prohíben los frutos secos y el cacahuete."
+       }
+      },
+      {
+       "name": "Sesame",
+       "name_fr": "Sésame",
+       "name_it": "Sesamo",
+       "name_es": "Sésamo",
+       "slug": "sesame",
+       "panel": {
+        "origin": "Warm, nutty, and aromatic; toasting brings out deep roasted intensity.",
+        "origin_es": "Cálido, a fruto seco y aromático; el tostado revela una intensidad profunda.",
+        "chemistry": "Tiny and crisp; grinds to silky tahini.",
+        "chemistry_es": "Diminuto y crujiente; se muele en tahini sedoso.",
+        "pairing": "Honey, soy, citrus, eggplant. Foundational across the Middle East and East Asia.",
+        "pairing_es": "Miel, soja, cítricos, berenjena. Fundamental en Oriente Medio y Asia Oriental.",
+        "mixology": "Tahini, halva, hummus, gomashio, bun and bagel topping, sesame oil.",
+        "mixology_es": "Tahini, halva, hummus, gomashio, sobre panes y bagels, aceite de sésamo.",
+        "examples": "One of the oldest cultivated oilseeds; its pods burst open when ripe — the original 'open sesame.'",
+        "examples_es": "Una de las oleaginosas cultivadas más antiguas; sus vainas se abren al madurar — el original 'ábrete sésamo.'"
+       }
+      },
+      {
+       "name": "Chia Seed",
+       "name_fr": "Graine de Chia",
+       "name_it": "Seme di Chia",
+       "name_es": "Semilla de Chía",
+       "slug": "chia-seed",
+       "panel": {
+        "origin": "Nearly neutral with a faint nutty note; a flavor carrier more than a flavor.",
+        "origin_es": "Casi neutra, con un leve toque a fruto seco; más un vehículo de sabor que un sabor.",
+        "chemistry": "Tiny and crunchy dry; swells into a gel when soaked.",
+        "chemistry_es": "Diminuta y crujiente en seco; se hincha en un gel al remojarse.",
+        "pairing": "Berries, coconut, citrus, oats.",
+        "pairing_es": "Bayas, coco, cítricos, avena.",
+        "mixology": "Chia pudding, smoothies, egg substitute in baking, thickening jams.",
+        "mixology_es": "Pudín de chía, batidos, sustituto del huevo en repostería, para espesar mermeladas.",
+        "examples": "The seed of a Central American sage, prized by the Aztec and Maya; rich in plant omega-3s.",
+        "examples_es": "La semilla de una salvia centroamericana, apreciada por aztecas y mayas; rica en omega-3 vegetal."
+       }
+      },
+      {
+       "name": "Flaxseed",
+       "name_fr": "Graine de Lin",
+       "name_it": "Seme di Lino",
+       "name_es": "Linaza",
+       "slug": "flaxseed",
+       "panel": {
+        "origin": "Mild, nutty, and slightly bitter; toasting softens the edge.",
+        "origin_es": "Suave, a fruto seco y algo amarga; el tostado atenúa el filo.",
+        "chemistry": "Hard whole (best ground); forms a gel when milled and wet.",
+        "chemistry_es": "Dura entera (mejor molida); forma un gel al molerse y humedecerse.",
+        "pairing": "Whole grains, oats, cinnamon, honey.",
+        "pairing_es": "Cereales integrales, avena, canela, miel.",
+        "mixology": "Ground into baking, smoothies, vegan egg binder, sprinkled on cereal.",
+        "mixology_es": "Molida en repostería, batidos, ligante de huevo vegano, sobre el cereal.",
+        "examples": "An ancient fiber-and-oil crop (linseed); one of the richest plant sources of ALA omega-3.",
+        "examples_es": "Un antiguo cultivo de fibra y aceite (lino); una de las fuentes vegetales más ricas en omega-3 ALA."
+       }
+      },
+      {
+       "name": "Hemp Seed",
+       "name_fr": "Graine de Chanvre",
+       "name_it": "Seme di Canapa",
+       "name_es": "Semilla de Cáñamo",
+       "slug": "hemp-seed",
+       "panel": {
+        "origin": "Soft, nutty, and grassy with a gentle pine note. Mild and creamy.",
+        "origin_es": "Suave, a fruto seco y herbácea, con un leve toque a pino. Suave y cremosa.",
+        "chemistry": "Tender and oily; no need to grind — the hulled hearts are soft.",
+        "chemistry_es": "Tierna y aceitosa; no hace falta molerla — los corazones pelados son blandos.",
+        "pairing": "Salads, smoothies, citrus, herbs.",
+        "pairing_es": "Ensaladas, batidos, cítricos, hierbas.",
+        "mixology": "Sprinkled raw over bowls and salads, hemp milk, pressed for oil, protein powder.",
+        "mixology_es": "Cruda sobre bowls y ensaladas, leche de cáñamo, prensada para aceite, proteína en polvo.",
+        "examples": "The hulled seed of the hemp plant; a complete plant protein with no THC.",
+        "examples_es": "La semilla pelada de la planta de cáñamo; una proteína vegetal completa y sin THC."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TRUE & GARDEN BERRIES",
+   "name_fr": "Baies de Jardin",
+   "name_it": "Bacche da Giardino",
+   "name_es": "BAYAS DE JARDÍN",
+   "color": "#b3324a",
+   "sub": [
+    {
+     "name": "TRUE & GARDEN BERRIES",
+     "name_fr": "Baies de Jardin",
+     "name_it": "Bacche da Giardino",
+     "name_es": "BAYAS DE JARDÍN",
+     "color": "#b3324a",
+     "descriptors": [
+      {
+       "name": "Strawberry",
+       "name_fr": "Fraise",
+       "name_it": "Fragola",
+       "name_es": "Fresa",
+       "slug": "strawberry",
+       "panel": {
+        "origin": "Sweet, bright, and floral with a soft acidity; the most universally loved berry flavor.",
+        "origin_es": "Dulce, brillante y floral, con una acidez suave; el sabor de baya más querido del mundo.",
+        "chemistry": "Juicy and tender, with tiny crunchy seeds on the surface.",
+        "chemistry_es": "Jugosa y tierna, con diminutas semillas crujientes en la superficie.",
+        "pairing": "Cream, balsamic, basil, black pepper, Champagne.",
+        "pairing_es": "Nata, balsámico, albahaca, pimienta negra, champán.",
+        "mixology": "Eaten fresh, shortcake, jam, macerated, salads, sorbet.",
+        "mixology_es": "Fresca, shortcake, mermelada, macerada, ensaladas, sorbete.",
+        "examples": "Botanically an 'accessory fruit,' not a true berry — its seeds sit on the outside.",
+        "examples_es": "Botánicamente una 'fruta accesoria', no una baya verdadera — sus semillas van por fuera."
+       }
+      },
+      {
+       "name": "Blueberry",
+       "name_fr": "Myrtille",
+       "name_it": "Mirtillo",
+       "name_es": "Arándano Azul",
+       "slug": "blueberry",
+       "panel": {
+        "origin": "Sweet-tart and mild with a gentle floral depth; wild ones are more intense.",
+        "origin_es": "Dulce-ácido y suave, con una leve profundidad floral; los silvestres son más intensos.",
+        "chemistry": "Firm skin that pops into soft, juicy flesh.",
+        "chemistry_es": "Piel firme que revienta en una pulpa blanda y jugosa.",
+        "pairing": "Lemon, vanilla, maple, yogurt, oats.",
+        "pairing_es": "Limón, vainilla, arce, yogur, avena.",
+        "mixology": "Muffins and pancakes, pie, jam, eaten fresh, smoothies.",
+        "mixology_es": "Muffins y panqueques, tarta, mermelada, fresco, batidos.",
+        "examples": "A true berry native to North America; the deep blue color comes from anthocyanin pigments.",
+        "examples_es": "Una baya verdadera nativa de Norteamérica; el azul intenso proviene de pigmentos antocianinas."
+       }
+      },
+      {
+       "name": "Raspberry",
+       "name_fr": "Framboise",
+       "name_it": "Lampone",
+       "name_es": "Frambuesa",
+       "slug": "raspberry",
+       "panel": {
+        "origin": "Perfumed, sweet-tart, and intense with a delicate floral lift.",
+        "origin_es": "Perfumada, dulce-ácida e intensa, con un delicado matiz floral.",
+        "chemistry": "Soft, hollow, and fragile; a cluster of tiny juicy drupelets.",
+        "chemistry_es": "Blanda, hueca y frágil; un racimo de diminutas drupas jugosas.",
+        "pairing": "Chocolate, peach, almond, rose. Beautiful with sparkling wine.",
+        "pairing_es": "Chocolate, melocotón, almendra, rosa. Preciosa con vino espumoso.",
+        "mixology": "Fresh, coulis, jam, tarts, vinegar, eau-de-vie.",
+        "mixology_es": "Fresca, coulis, mermelada, tartas, vinagre, aguardiente.",
+        "examples": "An aggregate fruit (many drupelets), not a true berry; comes in red, black, and golden.",
+        "examples_es": "Una fruta agregada (muchas drupas), no una baya verdadera; la hay roja, negra y dorada."
+       }
+      },
+      {
+       "name": "Blackberry",
+       "name_fr": "Mûre",
+       "name_it": "Mora",
+       "name_es": "Mora",
+       "slug": "blackberry",
+       "panel": {
+        "origin": "Deep, sweet-tart, and winey with a faint earthy note.",
+        "origin_es": "Profunda, dulce-ácida y vinosa, con un leve toque terroso.",
+        "chemistry": "Juicy and seedy, firmer than raspberry, with a glossy skin.",
+        "chemistry_es": "Jugosa y con semillas, más firme que la frambuesa, de piel brillante.",
+        "pairing": "Apple, sage, dark chocolate, game. Echoes the fruit in a Cabernet or Zinfandel.",
+        "pairing_es": "Manzana, salvia, chocolate negro, caza. Refleja la fruta de un Cabernet o Zinfandel.",
+        "mixology": "Cobbler, jam, pie, sauces for meat, eaten fresh.",
+        "mixology_es": "Cobbler, mermelada, tarta, salsas para carne, fresca.",
+        "examples": "Like the raspberry, an aggregate of drupelets on a bramble; the core stays inside when picked.",
+        "examples_es": "Como la frambuesa, un agregado de drupas en una zarza; el corazón se queda dentro al recogerla."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TART & COOKING BERRIES",
+   "name_fr": "Baies Acidulées & à Cuire",
+   "name_it": "Bacche Acidule & da Cucina",
+   "name_es": "BAYAS ÁCIDAS Y DE COCINA",
+   "color": "#8c2f3a",
+   "sub": [
+    {
+     "name": "TART & COOKING BERRIES",
+     "name_fr": "Baies Acidulées & à Cuire",
+     "name_it": "Bacche Acidule & da Cucina",
+     "name_es": "BAYAS ÁCIDAS Y DE COCINA",
+     "color": "#8c2f3a",
+     "descriptors": [
+      {
+       "name": "Cranberry",
+       "name_fr": "Canneberge",
+       "name_it": "Mirtillo Rosso",
+       "name_es": "Arándano Rojo",
+       "slug": "cranberry",
+       "panel": {
+        "origin": "Sharp, tart, and astringent raw; bright and tangy once sweetened.",
+        "origin_es": "Punzante, ácido y astringente en crudo; brillante y vivo una vez endulzado.",
+        "chemistry": "Firm and dense with a crisp pop; rarely eaten raw.",
+        "chemistry_es": "Firme y denso, con un estallido crujiente; rara vez se come crudo.",
+        "pairing": "Orange, turkey, cinnamon, Brie.",
+        "pairing_es": "Naranja, pavo, canela, Brie.",
+        "mixology": "Sauce and relish, juice, dried (craisins), baking, glazes.",
+        "mixology_es": "Salsa y chutney, zumo, seco (craisins), repostería, glaseados.",
+        "examples": "A North American bog berry that floats and bounces when ripe; harvested by flooding the fields.",
+        "examples_es": "Una baya de turbera norteamericana que flota y rebota al madurar; se cosecha inundando los campos."
+       }
+      },
+      {
+       "name": "Gooseberry",
+       "name_fr": "Groseille à Maquereau",
+       "name_it": "Uva Spina",
+       "name_es": "Grosella Espinosa",
+       "slug": "gooseberry",
+       "panel": {
+        "origin": "Sharp and tart when green, sweet and tropical when fully ripe; grassy and bright.",
+        "origin_es": "Punzante y ácida en verde, dulce y tropical bien madura; herbácea y brillante.",
+        "chemistry": "Firm, translucent skin with juicy, seedy flesh.",
+        "chemistry_es": "Piel firme y translúcida, con pulpa jugosa y con semillas.",
+        "pairing": "Elderflower, mackerel, cream, custard.",
+        "pairing_es": "Flor de saúco, caballa, nata, crema pastelera.",
+        "mixology": "Fools and crumbles, jam, chutney, savory sauces for oily fish.",
+        "mixology_es": "Fools y crumbles, mermelada, chutney, salsas para pescado azul.",
+        "examples": "A European and North American shrub berry, often striped; a British garden classic.",
+        "examples_es": "Una baya de arbusto europea y norteamericana, a menudo rayada; un clásico del jardín británico."
+       }
+      },
+      {
+       "name": "Black Currant",
+       "name_fr": "Cassis",
+       "name_it": "Ribes Nero",
+       "name_es": "Grosella Negra",
+       "slug": "black-currant",
+       "panel": {
+        "origin": "Intense, tart, and musky-aromatic with a deep, almost savory perfume.",
+        "origin_es": "Intensa, ácida y de aroma almizclado, con un perfume profundo, casi sabroso.",
+        "chemistry": "Firm-skinned and juicy; seedy and bold.",
+        "chemistry_es": "De piel firme y jugosa; con semillas y carácter.",
+        "pairing": "Cream, dark chocolate, game, cassis liqueur.",
+        "pairing_es": "Nata, chocolate negro, caza, licor de casis.",
+        "mixology": "Cassis (liqueur and syrup), jam, sauces for duck and venison, cordials.",
+        "mixology_es": "Casis (licor y sirope), mermelada, salsas para pato y venado, cordiales.",
+        "examples": "A European shrub berry; the base of crème de cassis and the Kir cocktail.",
+        "examples_es": "Una baya de arbusto europea; la base de la crème de cassis y el cóctel Kir."
+       }
+      },
+      {
+       "name": "Boysenberry",
+       "name_fr": "Boysenberry",
+       "name_it": "Boysenberry",
+       "name_es": "Boysenberry",
+       "slug": "boysenberry",
+       "panel": {
+        "origin": "Sweet-tart and winey, like a deeper blackberry with a raspberry perfume.",
+        "origin_es": "Dulce-ácida y vinosa, como una mora más profunda con perfume de frambuesa.",
+        "chemistry": "Large, soft, and very juicy with a tender seed.",
+        "chemistry_es": "Grande, blanda y muy jugosa, con una semilla tierna.",
+        "pairing": "Vanilla, cream, citrus, lemon.",
+        "pairing_es": "Vainilla, nata, cítricos, limón.",
+        "mixology": "Pie and cobbler, jam, syrup, ice cream.",
+        "mixology_es": "Tarta y cobbler, mermelada, sirope, helado.",
+        "examples": "A 20th-century cross of blackberry, raspberry, and loganberry, named for grower Rudolph Boysen.",
+        "examples_es": "Un cruce del siglo XX de mora, frambuesa y loganberry, llamado así por el cultivador Rudolph Boysen."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WILD & FORAGED BERRIES",
+   "name_fr": "Baies Sauvages",
+   "name_it": "Bacche Selvatiche",
+   "name_es": "BAYAS SILVESTRES",
+   "color": "#5a2a5e",
+   "sub": [
+    {
+     "name": "WILD & FORAGED BERRIES",
+     "name_fr": "Baies Sauvages",
+     "name_it": "Bacche Selvatiche",
+     "name_es": "BAYAS SILVESTRES",
+     "color": "#5a2a5e",
+     "descriptors": [
+      {
+       "name": "Mulberry",
+       "name_fr": "Mûre",
+       "name_it": "Gelso",
+       "name_es": "Mora de Árbol",
+       "slug": "mulberry",
+       "panel": {
+        "origin": "Honey-sweet and mild with low acidity; black types are richest, white the sweetest.",
+        "origin_es": "Dulce como la miel y suave, de baja acidez; las negras son más ricas, las blancas más dulces.",
+        "chemistry": "Soft, juicy, and delicate with a long stem; it stains everything.",
+        "chemistry_es": "Blanda, jugosa y delicada, con un tallo largo; lo mancha todo.",
+        "pairing": "Cream, citrus, almond, other berries.",
+        "pairing_es": "Nata, cítricos, almendra, otras bayas.",
+        "mixology": "Eaten fresh off the tree, jam, pies, dried as a snack.",
+        "mixology_es": "Fresca del árbol, mermelada, tartas, seca como tentempié.",
+        "examples": "A tree fruit (a collective fruit, not a true berry); the white mulberry feeds silkworms.",
+        "examples_es": "Un fruto de árbol (fruto colectivo, no baya verdadera); la morera blanca alimenta al gusano de seda."
+       }
+      },
+      {
+       "name": "Elderberry",
+       "name_fr": "Sureau",
+       "name_it": "Sambuco",
+       "name_es": "Saúco",
+       "slug": "elderberry",
+       "panel": {
+        "origin": "Tart, earthy, and faintly bitter; deepens to wine-like richness when cooked.",
+        "origin_es": "Ácida, terrosa y levemente amarga; se vuelve vinosa y rica al cocinarse.",
+        "chemistry": "Tiny and seedy in big drooping clusters.",
+        "chemistry_es": "Diminuta y con semillas, en grandes racimos colgantes.",
+        "pairing": "Citrus, apple, warm spices, cream.",
+        "pairing_es": "Cítricos, manzana, especias cálidas, nata.",
+        "mixology": "Syrup, cordial, wine, jam, pies — always cooked.",
+        "mixology_es": "Sirope, cordial, vino, mermelada, tartas — siempre cocida.",
+        "examples": "Raw elderberries (and the stems and leaves) are mildly toxic and must be cooked before eating.",
+        "examples_es": "El saúco crudo (y los tallos y hojas) es levemente tóxico y debe cocinarse antes de comerse."
+       }
+      },
+      {
+       "name": "Saskatoon Berry (Juneberry)",
+       "name_fr": "Saskatoon Berry (Juneberry)",
+       "name_it": "Saskatoon Berry (Juneberry)",
+       "name_es": "Baya de Saskatoon",
+       "slug": "saskatoon",
+       "panel": {
+        "origin": "Sweet, mild, and nutty with a soft almond note; tastes like a gentler blueberry.",
+        "origin_es": "Dulce, suave y a fruto seco, con un toque de almendra; sabe a un arándano más delicado.",
+        "chemistry": "Soft and juicy with tiny tender seeds.",
+        "chemistry_es": "Blanda y jugosa, con diminutas semillas tiernas.",
+        "pairing": "Cream, vanilla, other berries, game.",
+        "pairing_es": "Nata, vainilla, otras bayas, caza.",
+        "mixology": "Pies and crumbles, jam, dried, traditional pemmican (with dried meat).",
+        "mixology_es": "Tartas y crumbles, mermelada, seca, pemmican tradicional (con carne seca).",
+        "examples": "A Prairie shrub fruit that's botanically a tiny pome — closer to an apple than a berry.",
+        "examples_es": "Un fruto de arbusto de las praderas, botánicamente un pomo diminuto — más cercano a la manzana que a una baya."
+       }
+      },
+      {
+       "name": "Cloudberry",
+       "name_fr": "Plaquebière",
+       "name_it": "Lampone Artico",
+       "name_es": "Mora Ártica",
+       "slug": "cloudberry",
+       "panel": {
+        "origin": "Tart, floral, and honeyed with a distinctive baked-apple-and-citrus perfume.",
+        "origin_es": "Ácida, floral y melosa, con un perfume distintivo de manzana asada y cítricos.",
+        "chemistry": "Soft, juicy, and amber; delicate when ripe.",
+        "chemistry_es": "Blanda, jugosa y ambarina; delicada al madurar.",
+        "pairing": "Cream, mild cheese, Nordic spirits. A Scandinavian delicacy.",
+        "pairing_es": "Nata, queso suave, licores nórdicos. Un manjar escandinavo.",
+        "mixology": "Jam, liqueur (lakka), sauces for cheese, desserts.",
+        "mixology_es": "Mermelada, licor (lakka), salsas para queso, postres.",
+        "examples": "A low Arctic bramble fruit (amber-gold), foraged in the bogs of Scandinavia and the far north.",
+        "examples_es": "Un fruto de zarza ártica (dorado ámbar), recolectado en las turberas de Escandinavia y el extremo norte."
+       }
+      },
+      {
+       "name": "Salmonberry",
+       "name_fr": "Salmonberry",
+       "name_it": "Salmonberry",
+       "name_es": "Baya de Salmón",
+       "slug": "salmonberry",
+       "panel": {
+        "origin": "Mild, sweet, and lightly floral with low acidity; subtle and watery.",
+        "origin_es": "Suave, dulce y ligeramente floral, de baja acidez; sutil y acuosa.",
+        "chemistry": "Soft and juicy, like a blush or orange raspberry.",
+        "chemistry_es": "Blanda y jugosa, como una frambuesa rosada o anaranjada.",
+        "pairing": "Cream, honey, other foraged berries.",
+        "pairing_es": "Nata, miel, otras bayas silvestres.",
+        "mixology": "Eaten fresh, jam, mixed with other berries; a Pacific Northwest forage.",
+        "mixology_es": "Fresca, mermelada, mezclada con otras bayas; recolección del noroeste del Pacífico.",
+        "examples": "A Rubus (raspberry kin) of the Pacific coast; colors range from gold to salmon to red.",
+        "examples_es": "Un Rubus (pariente de la frambuesa) de la costa del Pacífico; sus colores van del dorado al salmón y al rojo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GLOBAL SUPERFRUIT BERRIES",
+   "name_fr": "Super-baies du Monde",
+   "name_it": "Super-bacche Globali",
+   "name_es": "SUPERBAYAS DEL MUNDO",
+   "color": "#3a4a8c",
+   "sub": [
+    {
+     "name": "GLOBAL SUPERFRUIT BERRIES",
+     "name_fr": "Super-baies du Monde",
+     "name_it": "Super-bacche Globali",
+     "name_es": "SUPERBAYAS DEL MUNDO",
+     "color": "#3a4a8c",
+     "descriptors": [
+      {
+       "name": "Goji Berry",
+       "name_fr": "Baie de Goji",
+       "name_it": "Bacca di Goji",
+       "name_es": "Baya de Goji",
+       "slug": "goji",
+       "panel": {
+        "origin": "Sweet-tart and faintly herbal, almost tomato-like; mellower when dried.",
+        "origin_es": "Dulce-ácida y levemente herbal, casi como tomate; más suave en seco.",
+        "chemistry": "Chewy and leathery dried (how it's usually sold); soft when fresh.",
+        "chemistry_es": "Masticable y correosa en seco (como suele venderse); blanda en fresco.",
+        "pairing": "Tea, citrus, other dried fruit, nuts.",
+        "pairing_es": "Té, cítricos, otra fruta seca, frutos secos.",
+        "mixology": "Trail mix and granola, teas and tonics, broths, smoothies.",
+        "mixology_es": "Mezclas de frutos secos y granola, tés y tónicos, caldos, batidos.",
+        "examples": "A Chinese shrub berry (wolfberry) used for centuries in traditional medicine and cooking.",
+        "examples_es": "Una baya de arbusto china (cambrón) usada durante siglos en la medicina y la cocina tradicionales."
+       }
+      },
+      {
+       "name": "Açaí",
+       "name_fr": "Açaí",
+       "name_it": "Açaí",
+       "name_es": "Açaí",
+       "slug": "acai",
+       "panel": {
+        "origin": "Earthy, low-sweet, and faintly chocolatey with a tart edge.",
+        "origin_es": "Terrosa, poco dulce y levemente achocolatada, con un filo ácido.",
+        "chemistry": "Almost all seed; only a thin pulp, sold as frozen purée rather than fresh.",
+        "chemistry_es": "Casi toda semilla; solo una pulpa fina, vendida como puré congelado y no fresca.",
+        "pairing": "Banana, granola, honey, cacao.",
+        "pairing_es": "Plátano, granola, miel, cacao.",
+        "mixology": "Smoothie and açaí bowls, juices, purée blends.",
+        "mixology_es": "Batidos y bowls de açaí, zumos, mezclas de puré.",
+        "examples": "The fruit of an Amazonian palm — botanically a drupe like an olive, picked in tall clusters.",
+        "examples_es": "El fruto de una palmera amazónica — botánicamente una drupa como la aceituna, recogido en racimos altos."
+       }
+      },
+      {
+       "name": "Bilberry",
+       "name_fr": "Myrtille",
+       "name_it": "Mirtillo",
+       "name_es": "Arándano Negro",
+       "slug": "bilberry",
+       "panel": {
+        "origin": "More intense and tart than a blueberry, with a deep winey richness.",
+        "origin_es": "Más intenso y ácido que el arándano azul, con una profunda riqueza vinosa.",
+        "chemistry": "Soft and very juicy; stains the flesh and hands deep purple.",
+        "chemistry_es": "Blando y muy jugoso; tiñe la pulpa y las manos de púrpura intenso.",
+        "pairing": "Cream, lemon, custard, game.",
+        "pairing_es": "Nata, limón, crema pastelera, caza.",
+        "mixology": "Pies and tarts, jam, liqueur, sauces; a European wild favorite.",
+        "mixology_es": "Tartas, mermelada, licor, salsas; un favorito silvestre europeo.",
+        "examples": "A European wild relative of the blueberry (the whortleberry); smaller and darker, with purple flesh throughout.",
+        "examples_es": "Un pariente silvestre europeo del arándano (el mirtilo); más pequeño y oscuro, con pulpa púrpura por dentro."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "RICH & BUTTERY NUTS": {
+   "en": "Pine nuts are the edible seeds tucked inside pine cones — harvested mostly by hand, which is why they're one of the priciest nuts in the kitchen.",
+   "es": "Los piñones son las semillas comestibles que se esconden dentro de las piñas — recolectados casi a mano, por eso son uno de los frutos secos más caros de la cocina."
+  },
+  "SWEET & VERSATILE NUTS": {
+   "en": "Almonds — like peaches and cherries — are the seed inside a drupe, so botanically the almond is the pit, not a true nut.",
+   "es": "Las almendras, como el melocotón y la cereza, son la semilla dentro de una drupa, así que botánicamente la almendra es el hueso, no un fruto seco verdadero."
+  },
+  "BOLD & DISTINCTIVE NUTS": {
+   "en": "A couple of Brazil nuts can cover a full day's selenium — they're one of the richest natural sources on earth, so a small handful is plenty.",
+   "es": "Un par de nueces de Brasil pueden cubrir el selenio de todo un día — son de las fuentes naturales más ricas del planeta, así que un puñado pequeño basta."
+  },
+  "LEGUMES & SEEDS": {
+   "en": "The peanut isn't a nut at all — it's a legume that flowers above ground then ripens its pods underground, closer kin to peas and beans than to almonds.",
+   "es": "El cacahuete no es un fruto seco — es una legumbre que florece sobre la tierra y madura sus vainas bajo tierra, más pariente de guisantes y frijoles que de la almendra."
+  },
+  "TRUE & GARDEN BERRIES": {
+   "en": "Botanically the strawberry isn't a berry — its seeds sit on the outside, making it an 'accessory fruit,' while the humble blueberry is a true berry.",
+   "es": "Botánicamente la fresa no es una baya — sus semillas van por fuera, lo que la hace una 'fruta accesoria', mientras que el humilde arándano sí es una baya verdadera."
+  },
+  "TART & COOKING BERRIES": {
+   "en": "Ripe cranberries bounce — growers use a bounce test, and tiny air pockets let the berries float, which is why bogs are flooded at harvest.",
+   "es": "Los arándanos rojos maduros rebotan — los cultivadores usan una prueba de rebote, y unas bolsas de aire los hacen flotar, por eso se inundan las turberas en la cosecha."
+  },
+  "WILD & FORAGED BERRIES": {
+   "en": "Raw elderberries are mildly toxic and must be cooked before eating — one of the few berries that's a syrup-and-jam fruit rather than an out-of-hand snack.",
+   "es": "El saúco crudo es levemente tóxico y debe cocinarse antes de comerse — una de las pocas bayas que es fruta de sirope y mermelada en vez de tentempié directo."
+  },
+  "GLOBAL SUPERFRUIT BERRIES": {
+   "en": "Açaí is technically a drupe like an olive — almost all pit, with only a thin skin and pulp, which is why it's sold as frozen purée rather than fresh fruit.",
+   "es": "El açaí es técnicamente una drupa como la aceituna — casi todo hueso, con solo una piel y pulpa finas, por eso se vende como puré congelado y no como fruta fresca."
+  }
+ }
+}

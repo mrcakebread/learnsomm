@@ -1,0 +1,789 @@
+{
+ "title": "Othermeats",
+ "subject": "othermeats",
+ "categories": [
+  {
+   "name": "PORK — CUTS",
+   "name_fr": "PORK — CUTS",
+   "name_it": "PORK — CUTS",
+   "name_es": "PORK — CUTS",
+   "color": "#e0a3a8",
+   "sub": [
+    {
+     "name": "Pork — Cuts",
+     "name_fr": "Pork — Cuts",
+     "name_it": "Pork — Cuts",
+     "name_es": "Pork — Cuts",
+     "color": "#e0a3a8",
+     "descriptors": [
+      {
+       "name": "Pork Loin",
+       "name_fr": "Longe de Porc",
+       "name_it": "Lombo di Maiale",
+       "name_es": "Pork Loin",
+       "slug": "pork-loin",
+       "panel": {
+        "origin": "Lean cut from the back; chops and roasts. Easy to overcook.",
+        "origin_es": "Lean cut from the back; chops and roasts. Easy to overcook."
+       }
+      },
+      {
+       "name": "Pork Belly",
+       "name_fr": "Poitrine de Porc",
+       "name_it": "Pancia di Maiale",
+       "name_es": "Pork Belly",
+       "slug": "pork-belly",
+       "panel": {
+        "origin": "Fatty underside; bacon, braises, and crisp-skin roasts.",
+        "origin_es": "Fatty underside; bacon, braises, and crisp-skin roasts."
+       }
+      },
+      {
+       "name": "Pork Shoulder",
+       "name_fr": "Épaule de Porc",
+       "name_it": "Spalla di Maiale",
+       "name_es": "Pork Shoulder",
+       "slug": "pork-shoulder",
+       "panel": {
+        "origin": "Butt/Boston butt; collagen-rich, ideal for slow pulled pork.",
+        "origin_es": "Butt/Boston butt; collagen-rich, ideal for slow pulled pork."
+       }
+      },
+      {
+       "name": "Pork Tenderloin",
+       "name_fr": "Filet Mignon de Porc",
+       "name_it": "Filetto di Maiale",
+       "name_es": "Pork Tenderloin",
+       "slug": "pork-tenderloin",
+       "panel": {
+        "origin": "The leanest, most tender muscle; quick-cooking.",
+        "origin_es": "The leanest, most tender muscle; quick-cooking."
+       }
+      },
+      {
+       "name": "Spare Ribs",
+       "name_fr": "Travers de Porc",
+       "name_it": "Costine di Maiale",
+       "name_es": "Spare Ribs",
+       "slug": "spare-ribs",
+       "panel": {
+        "origin": "From the belly side of the ribs; meatier, fattier than baby back.",
+        "origin_es": "From the belly side of the ribs; meatier, fattier than baby back."
+       }
+      },
+      {
+       "name": "Baby Back Ribs",
+       "name_fr": "Baby Back Ribs",
+       "name_it": "Baby Back Ribs",
+       "name_es": "Baby Back Ribs",
+       "slug": "baby-back-ribs",
+       "panel": {
+        "origin": "From the loin near the spine; leaner, more curved, tender.",
+        "origin_es": "From the loin near the spine; leaner, more curved, tender."
+       }
+      },
+      {
+       "name": "Ham (Fresh)",
+       "name_fr": "Jambon Frais",
+       "name_it": "Prosciutto Fresco",
+       "name_es": "Ham (Fresh)",
+       "slug": "ham-fresh",
+       "panel": {
+        "origin": "The hind leg, uncured; roasted as fresh ham.",
+        "origin_es": "The hind leg, uncured; roasted as fresh ham."
+       }
+      },
+      {
+       "name": "Pork Hock",
+       "name_fr": "Jarret de Porc",
+       "name_it": "Stinco di Maiale",
+       "name_es": "Pork Hock",
+       "slug": "pork-hock",
+       "panel": {
+        "origin": "Joint above the trotter; gelatinous, for braises and stock.",
+        "origin_es": "Joint above the trotter; gelatinous, for braises and stock."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LAMB & MUTTON",
+   "name_fr": "LAMB & MUTTON",
+   "name_it": "LAMB & MUTTON",
+   "name_es": "LAMB & MUTTON",
+   "color": "#c97f6d",
+   "sub": [
+    {
+     "name": "Lamb & Mutton",
+     "name_fr": "Lamb & Mutton",
+     "name_it": "Lamb & Mutton",
+     "name_es": "Lamb & Mutton",
+     "color": "#c97f6d",
+     "descriptors": [
+      {
+       "name": "Rack of Lamb",
+       "name_fr": "Carré d'Agneau",
+       "name_it": "Carré d'Agnello",
+       "name_es": "Rack of Lamb",
+       "slug": "rack-of-lamb",
+       "panel": {
+        "origin": "Rib section; the elegant Frenched roast, quick to cook.",
+        "origin_es": "Rib section; the elegant Frenched roast, quick to cook."
+       }
+      },
+      {
+       "name": "Leg of Lamb",
+       "name_fr": "Gigot d'Agneau",
+       "name_it": "Cosciotto d'Agnello",
+       "name_es": "Leg of Lamb",
+       "slug": "leg-of-lamb",
+       "panel": {
+        "origin": "Large hind cut; roasted bone-in or butterflied.",
+        "origin_es": "Large hind cut; roasted bone-in or butterflied."
+       }
+      },
+      {
+       "name": "Lamb Loin Chop",
+       "name_fr": "Côtelette d'Agneau",
+       "name_it": "Costoletta d'Agnello",
+       "name_es": "Lamb Loin Chop",
+       "slug": "lamb-loin-chop",
+       "panel": {
+        "origin": "Tender mini T-bones from the loin.",
+        "origin_es": "Tender mini T-bones from the loin."
+       }
+      },
+      {
+       "name": "Lamb Shoulder",
+       "name_fr": "Épaule d'Agneau",
+       "name_it": "Spalla d'Agnello",
+       "name_es": "Lamb Shoulder",
+       "slug": "lamb-shoulder",
+       "panel": {
+        "origin": "Fattier, flavorful; braises and slow roasts.",
+        "origin_es": "Fattier, flavorful; braises and slow roasts."
+       }
+      },
+      {
+       "name": "Lamb Shank",
+       "name_fr": "Souris d'Agneau",
+       "name_it": "Stinco d'Agnello",
+       "name_es": "Lamb Shank",
+       "slug": "lamb-shank",
+       "panel": {
+        "origin": "Lower leg; collagen-rich, braised until falling off the bone.",
+        "origin_es": "Lower leg; collagen-rich, braised until falling off the bone."
+       }
+      },
+      {
+       "name": "Mutton",
+       "name_fr": "Mouton",
+       "name_it": "Montone",
+       "name_es": "Mutton",
+       "slug": "mutton",
+       "panel": {
+        "origin": "Meat from sheep over two years; stronger, gamier flavor.",
+        "origin_es": "Meat from sheep over two years; stronger, gamier flavor."
+       }
+      },
+      {
+       "name": "Lamb Neck",
+       "name_fr": "Collier d'Agneau",
+       "name_it": "Collo d'Agnello",
+       "name_es": "Lamb Neck",
+       "slug": "lamb-neck",
+       "panel": {
+        "origin": "Hard-working, tough cut prized for stews and ragù.",
+        "origin_es": "Hard-working, tough cut prized for stews and ragù."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "POULTRY — CHICKEN",
+   "name_fr": "POULTRY — CHICKEN",
+   "name_it": "POULTRY — CHICKEN",
+   "name_es": "POULTRY — CHICKEN",
+   "color": "#e8c87a",
+   "sub": [
+    {
+     "name": "Poultry — Chicken",
+     "name_fr": "Poultry — Chicken",
+     "name_it": "Poultry — Chicken",
+     "name_es": "Poultry — Chicken",
+     "color": "#e8c87a",
+     "descriptors": [
+      {
+       "name": "Chicken Breast",
+       "name_fr": "Blanc de Poulet",
+       "name_it": "Petto di Pollo",
+       "name_es": "Chicken Breast",
+       "slug": "chicken-breast",
+       "panel": {
+        "origin": "Lean white meat; dries out fast, cook to 74°C/165°F.",
+        "origin_es": "Lean white meat; dries out fast, cook to 74°C/165°F."
+       }
+      },
+      {
+       "name": "Chicken Thigh",
+       "name_fr": "Cuisse de Poulet",
+       "name_it": "Coscia di Pollo",
+       "name_es": "Chicken Thigh",
+       "slug": "chicken-thigh",
+       "panel": {
+        "origin": "Dark, forgiving, flavorful; the cook's favorite.",
+        "origin_es": "Dark, forgiving, flavorful; the cook's favorite."
+       }
+      },
+      {
+       "name": "Whole Chicken",
+       "name_fr": "Poulet Entier",
+       "name_it": "Pollo Intero",
+       "name_es": "Whole Chicken",
+       "slug": "whole-chicken",
+       "panel": {
+        "origin": "Roasted or spatchcocked; the Sunday centerpiece.",
+        "origin_es": "Roasted or spatchcocked; the Sunday centerpiece."
+       }
+      },
+      {
+       "name": "Chicken Wing",
+       "name_fr": "Aile de Poulet",
+       "name_it": "Ala di Pollo",
+       "name_es": "Chicken Wing",
+       "slug": "chicken-wing",
+       "panel": {
+        "origin": "Drumette + flat; fried, roasted, or braised.",
+        "origin_es": "Drumette + flat; fried, roasted, or braised."
+       }
+      },
+      {
+       "name": "Chicken Drumstick",
+       "name_fr": "Pilon de Poulet",
+       "name_it": "Fuso di Pollo",
+       "name_es": "Chicken Drumstick",
+       "slug": "chicken-drumstick",
+       "panel": {
+        "origin": "Lower leg, dark meat; cheap and juicy.",
+        "origin_es": "Lower leg, dark meat; cheap and juicy."
+       }
+      },
+      {
+       "name": "Chicken Liver",
+       "name_fr": "Foie de Poulet",
+       "name_it": "Fegato di Pollo",
+       "name_es": "Chicken Liver",
+       "slug": "chicken-liver",
+       "panel": {
+        "origin": "Offal; pâté, parfait, and seared dishes.",
+        "origin_es": "Offal; pâté, parfait, and seared dishes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "POULTRY — OTHER BIRDS",
+   "name_fr": "POULTRY — OTHER BIRDS",
+   "name_it": "POULTRY — OTHER BIRDS",
+   "name_es": "POULTRY — OTHER BIRDS",
+   "color": "#d8b25a",
+   "sub": [
+    {
+     "name": "Poultry — Other Birds",
+     "name_fr": "Poultry — Other Birds",
+     "name_it": "Poultry — Other Birds",
+     "name_es": "Poultry — Other Birds",
+     "color": "#d8b25a",
+     "descriptors": [
+      {
+       "name": "Turkey",
+       "name_fr": "Dinde",
+       "name_it": "Tacchino",
+       "name_es": "Turkey",
+       "slug": "turkey",
+       "panel": {
+        "origin": "Large bird; lean breast vs richer leg, the holiday roast.",
+        "origin_es": "Large bird; lean breast vs richer leg, the holiday roast."
+       }
+      },
+      {
+       "name": "Duck Breast",
+       "name_fr": "Magret de Canard",
+       "name_it": "Petto d'Anatra",
+       "name_es": "Duck Breast",
+       "slug": "duck-breast",
+       "panel": {
+        "origin": "Rich, fatty-skinned; seared rare to medium (magret).",
+        "origin_es": "Rich, fatty-skinned; seared rare to medium (magret)."
+       }
+      },
+      {
+       "name": "Duck Leg",
+       "name_fr": "Cuisse de Canard",
+       "name_it": "Coscia d'Anatra",
+       "name_es": "Duck Leg",
+       "slug": "duck-leg",
+       "panel": {
+        "origin": "Tougher dark meat; the classic confit cut.",
+        "origin_es": "Tougher dark meat; the classic confit cut."
+       }
+      },
+      {
+       "name": "Goose",
+       "name_fr": "Oie",
+       "name_it": "Oca",
+       "name_es": "Goose",
+       "slug": "goose",
+       "panel": {
+        "origin": "Dark, very fatty bird; festive roast, rendered fat prized.",
+        "origin_es": "Dark, very fatty bird; festive roast, rendered fat prized."
+       }
+      },
+      {
+       "name": "Quail",
+       "name_fr": "Caille",
+       "name_it": "Quaglia",
+       "name_es": "Quail",
+       "slug": "quail",
+       "panel": {
+        "origin": "Tiny, delicate bird; quick-roasted or grilled.",
+        "origin_es": "Tiny, delicate bird; quick-roasted or grilled."
+       }
+      },
+      {
+       "name": "Squab",
+       "name_fr": "Pigeonneau",
+       "name_it": "Piccione",
+       "name_es": "Squab",
+       "slug": "squab",
+       "panel": {
+        "origin": "Young domestic pigeon; tender, dark, served pink.",
+        "origin_es": "Young domestic pigeon; tender, dark, served pink."
+       }
+      },
+      {
+       "name": "Guinea Fowl",
+       "name_fr": "Pintade",
+       "name_it": "Faraona",
+       "name_es": "Guinea Fowl",
+       "slug": "guinea-fowl",
+       "panel": {
+        "origin": "Leaner, gamier than chicken; roasted whole.",
+        "origin_es": "Leaner, gamier than chicken; roasted whole."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GAME — FURRED",
+   "name_fr": "GAME — FURRED",
+   "name_it": "GAME — FURRED",
+   "name_es": "GAME — FURRED",
+   "color": "#8a5a3c",
+   "sub": [
+    {
+     "name": "Game — Furred",
+     "name_fr": "Game — Furred",
+     "name_it": "Game — Furred",
+     "name_es": "Game — Furred",
+     "color": "#8a5a3c",
+     "descriptors": [
+      {
+       "name": "Venison",
+       "name_fr": "Venaison",
+       "name_it": "Cervo",
+       "name_es": "Venison",
+       "slug": "venison",
+       "panel": {
+        "origin": "Deer; very lean, dark, mineral; cook rare to avoid drying.",
+        "origin_es": "Deer; very lean, dark, mineral; cook rare to avoid drying."
+       }
+      },
+      {
+       "name": "Rabbit",
+       "name_fr": "Lapin",
+       "name_it": "Coniglio",
+       "name_es": "Rabbit",
+       "slug": "rabbit",
+       "panel": {
+        "origin": "Lean white meat; braised or roasted, mild.",
+        "origin_es": "Lean white meat; braised or roasted, mild."
+       }
+      },
+      {
+       "name": "Wild Boar",
+       "name_fr": "Sanglier",
+       "name_it": "Cinghiale",
+       "name_es": "Wild Boar",
+       "slug": "wild-boar",
+       "panel": {
+        "origin": "Leaner, gamier pork relative; braises well.",
+        "origin_es": "Leaner, gamier pork relative; braises well."
+       }
+      },
+      {
+       "name": "Hare",
+       "name_fr": "Lièvre",
+       "name_it": "Lepre",
+       "name_es": "Hare",
+       "slug": "hare",
+       "panel": {
+        "origin": "Darker, richer than rabbit; classic in jugged stews.",
+        "origin_es": "Darker, richer than rabbit; classic in jugged stews."
+       }
+      },
+      {
+       "name": "Bison",
+       "name_fr": "Bison",
+       "name_it": "Bison",
+       "name_es": "Bison",
+       "slug": "bison",
+       "panel": {
+        "origin": "Lean, sweet, beef-like; cook gently, low fat.",
+        "origin_es": "Lean, sweet, beef-like; cook gently, low fat."
+       }
+      },
+      {
+       "name": "Elk",
+       "name_fr": "Wapiti",
+       "name_it": "Alce",
+       "name_es": "Elk",
+       "slug": "elk",
+       "panel": {
+        "origin": "Very lean large game; mild, tender when not overcooked.",
+        "origin_es": "Very lean large game; mild, tender when not overcooked."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GAME — FEATHERED",
+   "name_fr": "GAME — FEATHERED",
+   "name_it": "GAME — FEATHERED",
+   "name_es": "GAME — FEATHERED",
+   "color": "#9c7b4a",
+   "sub": [
+    {
+     "name": "Game — Feathered",
+     "name_fr": "Game — Feathered",
+     "name_it": "Game — Feathered",
+     "name_es": "Game — Feathered",
+     "color": "#9c7b4a",
+     "descriptors": [
+      {
+       "name": "Pheasant",
+       "name_fr": "Faisan",
+       "name_it": "Fagiano",
+       "name_es": "Pheasant",
+       "slug": "pheasant",
+       "panel": {
+        "origin": "Lean game bird; prone to drying, often barded or braised.",
+        "origin_es": "Lean game bird; prone to drying, often barded or braised."
+       }
+      },
+      {
+       "name": "Partridge",
+       "name_fr": "Perdrix",
+       "name_it": "Pernice",
+       "name_es": "Partridge",
+       "slug": "partridge",
+       "panel": {
+        "origin": "Small game bird; delicate, roasted quickly.",
+        "origin_es": "Small game bird; delicate, roasted quickly."
+       }
+      },
+      {
+       "name": "Grouse",
+       "name_fr": "Grouse",
+       "name_it": "Grouse",
+       "name_es": "Grouse",
+       "slug": "grouse",
+       "panel": {
+        "origin": "Strong, heathery wild flavor; the prized British game bird.",
+        "origin_es": "Strong, heathery wild flavor; the prized British game bird."
+       }
+      },
+      {
+       "name": "Wild Duck",
+       "name_fr": "Canard Sauvage",
+       "name_it": "Anatra Selvatica",
+       "name_es": "Wild Duck",
+       "slug": "wild-duck",
+       "panel": {
+        "origin": "Leaner, gamier than farmed; mallard, teal, widgeon.",
+        "origin_es": "Leaner, gamier than farmed; mallard, teal, widgeon."
+       }
+      },
+      {
+       "name": "Woodcock",
+       "name_fr": "Bécasse",
+       "name_it": "Beccaccia",
+       "name_es": "Woodcock",
+       "slug": "woodcock",
+       "panel": {
+        "origin": "Tiny, intensely flavored wader; traditional roasted whole.",
+        "origin_es": "Tiny, intensely flavored wader; traditional roasted whole."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "VEAL & OFFAL",
+   "name_fr": "VEAL & OFFAL",
+   "name_it": "VEAL & OFFAL",
+   "name_es": "VEAL & OFFAL",
+   "color": "#cdb79a",
+   "sub": [
+    {
+     "name": "Veal & Offal",
+     "name_fr": "Veal & Offal",
+     "name_it": "Veal & Offal",
+     "name_es": "Veal & Offal",
+     "color": "#cdb79a",
+     "descriptors": [
+      {
+       "name": "Veal Chop",
+       "name_fr": "Côte de Veau",
+       "name_it": "Costoletta di Vitello",
+       "name_es": "Veal Chop",
+       "slug": "veal-chop",
+       "panel": {
+        "origin": "Young calf; pale, tender, mild; loin or rib chop.",
+        "origin_es": "Young calf; pale, tender, mild; loin or rib chop."
+       }
+      },
+      {
+       "name": "Veal Shank",
+       "name_fr": "Jarret de Veau",
+       "name_it": "Ossobuco",
+       "name_es": "Veal Shank",
+       "slug": "veal-shank",
+       "panel": {
+        "origin": "Cross-cut shank for osso buco; marrow and gelatin.",
+        "origin_es": "Cross-cut shank for osso buco; marrow and gelatin."
+       }
+      },
+      {
+       "name": "Sweetbreads",
+       "name_fr": "Ris",
+       "name_it": "Animelle",
+       "name_es": "Sweetbreads",
+       "slug": "sweetbreads",
+       "panel": {
+        "origin": "Thymus/pancreas offal; creamy, delicate, prized.",
+        "origin_es": "Thymus/pancreas offal; creamy, delicate, prized."
+       }
+      },
+      {
+       "name": "Liver",
+       "name_fr": "Foie",
+       "name_it": "Fegato",
+       "name_es": "Liver",
+       "slug": "liver",
+       "panel": {
+        "origin": "Calf or pork liver; iron-rich, seared or for pâté.",
+        "origin_es": "Calf or pork liver; iron-rich, seared or for pâté."
+       }
+      },
+      {
+       "name": "Kidney",
+       "name_fr": "Rognon",
+       "name_it": "Rene",
+       "name_es": "Kidney",
+       "slug": "kidney",
+       "panel": {
+        "origin": "Offal with mineral tang; steak-and-kidney, devilled.",
+        "origin_es": "Offal with mineral tang; steak-and-kidney, devilled."
+       }
+      },
+      {
+       "name": "Tripe",
+       "name_fr": "Tripes",
+       "name_it": "Trippa",
+       "name_es": "Tripe",
+       "slug": "tripe",
+       "panel": {
+        "origin": "Stomach lining; long-cooked in menudo, trippa, pho.",
+        "origin_es": "Stomach lining; long-cooked in menudo, trippa, pho."
+       }
+      },
+      {
+       "name": "Tongue",
+       "name_fr": "Langue",
+       "name_it": "Lingua",
+       "name_es": "Tongue",
+       "slug": "tongue",
+       "panel": {
+        "origin": "Braised then peeled; tender, rich; tacos de lengua.",
+        "origin_es": "Braised then peeled; tender, rich; tacos de lengua."
+       }
+      },
+      {
+       "name": "Oxtail",
+       "name_fr": "Queue de Bœuf",
+       "name_it": "Coda di Bue",
+       "name_es": "Oxtail",
+       "slug": "oxtail",
+       "panel": {
+        "origin": "Gelatin-rich tail (often beef but classic cross-cut); deep braises.",
+        "origin_es": "Gelatin-rich tail (often beef but classic cross-cut); deep braises."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PROCESSED & TECHNIQUE",
+   "name_fr": "PROCESSED & TECHNIQUE",
+   "name_it": "PROCESSED & TECHNIQUE",
+   "name_es": "PROCESSED & TECHNIQUE",
+   "color": "#b08968",
+   "sub": [
+    {
+     "name": "Processed & Technique",
+     "name_fr": "Processed & Technique",
+     "name_it": "Processed & Technique",
+     "name_es": "Processed & Technique",
+     "color": "#b08968",
+     "descriptors": [
+      {
+       "name": "Sausage",
+       "name_fr": "Saucisse",
+       "name_it": "Salsiccia",
+       "name_es": "Sausage",
+       "slug": "sausage",
+       "panel": {
+        "origin": "Ground seasoned meat in casing; fresh, smoked, or cured.",
+        "origin_es": "Ground seasoned meat in casing; fresh, smoked, or cured."
+       }
+      },
+      {
+       "name": "Bacon",
+       "name_fr": "Bacon",
+       "name_it": "Bacon",
+       "name_es": "Bacon",
+       "slug": "bacon",
+       "panel": {
+        "origin": "Cured, often smoked pork belly or back.",
+        "origin_es": "Cured, often smoked pork belly or back."
+       }
+      },
+      {
+       "name": "Prosciutto",
+       "name_fr": "Prosciutto",
+       "name_it": "Prosciutto",
+       "name_es": "Prosciutto",
+       "slug": "prosciutto",
+       "panel": {
+        "origin": "Dry-cured ham, sliced paper-thin; Parma, San Daniele.",
+        "origin_es": "Dry-cured ham, sliced paper-thin; Parma, San Daniele."
+       }
+      },
+      {
+       "name": "Pancetta",
+       "name_fr": "Pancetta",
+       "name_it": "Pancetta",
+       "name_es": "Pancetta",
+       "slug": "pancetta",
+       "panel": {
+        "origin": "Salt-cured pork belly; Italian, unsmoked, for cooking.",
+        "origin_es": "Salt-cured pork belly; Italian, unsmoked, for cooking."
+       }
+      },
+      {
+       "name": "Confit",
+       "name_fr": "Confit",
+       "name_it": "Confit",
+       "name_es": "Confit",
+       "slug": "confit",
+       "panel": {
+        "origin": "Slow-cooked and preserved in fat; classic for duck.",
+        "origin_es": "Slow-cooked and preserved in fat; classic for duck."
+       }
+      },
+      {
+       "name": "Brining",
+       "name_fr": "Saumurage",
+       "name_it": "Salamoia",
+       "name_es": "Brining",
+       "slug": "brining",
+       "panel": {
+        "origin": "Salt-water soak for moisture and seasoning, esp. poultry/pork.",
+        "origin_es": "Salt-water soak for moisture and seasoning, esp. poultry/pork."
+       }
+      },
+      {
+       "name": "Curing",
+       "name_fr": "Curing",
+       "name_it": "Curing",
+       "name_es": "Curing",
+       "slug": "curing",
+       "panel": {
+        "origin": "Preserving with salt/nitrite; the basis of charcuterie.",
+        "origin_es": "Preserving with salt/nitrite; the basis of charcuterie."
+       }
+      },
+      {
+       "name": "Rillettes",
+       "name_fr": "Rillettes",
+       "name_it": "Rillettes",
+       "name_es": "Rillettes",
+       "slug": "rillettes-om",
+       "panel": {
+        "origin": "Meat slow-cooked and shredded into a spreadable potted form.",
+        "origin_es": "Meat slow-cooked and shredded into a spreadable potted form."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CHAMPAGNE STYLES": {
+   "en": "The legend that the monk Dom Pérignon 'invented' Champagne is mostly myth — sparkling wine predates him, and his real contribution was improving blending and winemaking, not creating the bubbles.",
+   "es": "La leyenda de que el monje Dom Pérignon 'inventó' el champagne es en gran parte un mito — el espumoso es anterior a él, y su aporte real fue mejorar la mezcla y la elaboración, no crear la burbuja."
+  },
+  "FRENCH CRÉMANT & PÉT-NAT": {
+   "en": "Monks at the Abbey of Saint-Hilaire in Limoux are recorded making sparkling wine in 1531 — more than a century before Champagne — giving southern France a strong claim to the first bubbly.",
+   "es": "Los monjes de la abadía de Saint-Hilaire, en Limoux, aparecen elaborando espumoso en 1531 — más de un siglo antes que el champagne — lo que da al sur de Francia una sólida reivindicación del primer espumoso."
+  },
+  "ITALIAN SPARKLING": {
+   "en": "The key to telling Italy's sparkling apart is two words: 'spumante' means fully sparkling and 'frizzante' means gently fizzy — so Asti Spumante foams while a frizzante Moscato just tingles.",
+   "es": "La clave para distinguir los espumosos de Italia son dos palabras: 'spumante' es totalmente espumoso y 'frizzante' es levemente burbujeante — así, el Asti Spumante hace espuma mientras un Moscato frizzante solo cosquillea."
+  },
+  "SPANISH & IBERIAN": {
+   "en": "Cava was born when a Catalan winemaker returned from Champagne in the 1870s and applied bottle fermentation to local grapes — and today the Penedès makes the vast majority of it.",
+   "es": "El cava nació cuando un bodeguero catalán volvió de la Champaña en los años 1870 y aplicó la fermentación en botella a las uvas locales — y hoy el Penedès elabora la gran mayoría."
+  },
+  "ENGLAND, GERMANY & NEW WORLD": {
+   "en": "Southern England sits on the same band of chalk soil as the Champagne region, and as the climate has warmed, English sparkling has started beating Champagne in blind tastings.",
+   "es": "El sur de Inglaterra se asienta sobre la misma franja de suelo calcáreo que la región de Champaña, y con el clima más cálido, el espumoso inglés ha empezado a ganar al champagne en catas a ciegas."
+  },
+  "PRODUCTION METHODS": {
+   "en": "The difference between an inexpensive Prosecco and a costly Champagne is largely the method — tank fermentation is fast and cheap, while bottle fermentation and years on the lees are slow and expensive.",
+   "es": "La diferencia entre un Prosecco económico y un champagne caro es en gran parte el método — la fermentación en tanque es rápida y barata, mientras que la fermentación en botella y los años sobre lías son lentos y costosos."
+  },
+  "SWEETNESS SCALE": {
+   "en": "Sparkling-wine labels are a famous trap — 'Extra Dry' is actually sweeter than 'Brut,' and the French 'Sec' ('dry') is sweeter still; the truly dry wines are Brut Nature and Extra Brut.",
+   "es": "Las etiquetas de los espumosos son una trampa famosa — el 'Extra Dry' es en realidad más dulce que el 'Brut', y el francés 'Sec' ('seco') es aún más dulce; los realmente secos son el Brut Nature y el Extra Brut."
+  },
+  "KEY TERMS & SERVICE": {
+   "en": "The wide, flat 'coupe' glass is a beautiful antique but a poor choice — its large surface lets bubbles and aroma escape fast, which is why sommeliers now serve sparkling wine in a tulip-shaped glass.",
+   "es": "La copa 'coupe' ancha y plana es una bella antigüedad pero una mala elección — su gran superficie deja escapar rápido las burbujas y el aroma, por eso los sommeliers sirven hoy el espumoso en copa tulipán."
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "title": "Finfish Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Mild White Fish",
+   "slug": "mild-white-fish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cod, Haddock, Alaskan Pollock, Tilapia, Pangasius (Swai), Whiting"
+    },
+    {
+     "k": "Best For",
+     "v": "Mild, flaky, and forgiving — great for breading, baking, or simple sautés."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The whiter a fish's raw flesh, the milder it usually tastes — a simple rule that lets you guess almost any unfamiliar fish on a menu: pale flesh means mild, deeply colored flesh means bold."
+    }
+   ],
+   "name_es": "Pescados Blancos Suaves"
+  },
+  {
+   "name": "Flatfish",
+   "slug": "flatfish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Halibut, Flounder, Sole, Turbot, Plaice"
+    },
+    {
+     "k": "Best For",
+     "v": "Delicate, fast-cooking fillets — best with gentle methods like pan-searing or poaching."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Flatfish like sole and flounder are born looking like normal fish, with an eye on each side — then, as they grow, one eye slowly migrates around the head so the fish can lie flat on the seabed with both eyes facing up."
+    }
+   ],
+   "name_es": "Pescados Planos"
+  },
+  {
+   "name": "Firm & Meaty Fish",
+   "slug": "firm-meaty-fish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Swordfish, Mahi-Mahi, Grouper, Monkfish, Branzino (Sea Bass), Chilean Sea Bass, Red Snapper"
+    },
+    {
+     "k": "Best For",
+     "v": "Dense enough to grill, sear, or skewer without falling apart."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "'Chilean sea bass' is a marketing invention — the fish is actually the Patagonian toothfish, renamed in the 1970s because no one wanted to order something called a toothfish."
+    }
+   ],
+   "name_es": "Pescados Firmes Y Carnosos"
+  },
+  {
+   "name": "Oily & Pelagic Fish",
+   "slug": "oily-pelagic-fish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mackerel, Sardine, Anchovy, Herring, Bluefish, Sablefish (Black Cod)"
+    },
+    {
+     "k": "Best For",
+     "v": "Rich in omega-3s with bold flavor — stand up to grilling, smoking, and strong seasonings."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Oily fish carry their fat throughout the flesh rather than in the liver, which is exactly why they're so rich in omega-3s — and why mackerel, sardines, and herring spoil faster and taste 'fishier' than lean white fish."
+    }
+   ],
+   "name_es": "Pescados Grasos Y Pelágicos"
+  },
+  {
+   "name": "Salmon & Trout",
+   "slug": "salmon-trout",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Atlantic Salmon, King (Chinook) Salmon, Sockeye Salmon, Rainbow Trout, Steelhead Trout, Arctic Char"
+    },
+    {
+     "k": "Best For",
+     "v": "Versatile and forgiving — roast, grill, cure, or smoke with great results."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Wild salmon get their pink-red color from a diet of krill and shrimp; farmed salmon would be grey without it, so their feed includes the same natural pigment to turn the flesh pink."
+    }
+   ],
+   "name_es": "Salmón Y Trucha"
+  },
+  {
+   "name": "Tuna & Amberjack",
+   "slug": "tuna-amberjack",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Bluefin Tuna, Yellowfin (Ahi) Tuna, Albacore Tuna, Skipjack Tuna, Yellowtail (Hamachi), Kanpachi"
+    },
+    {
+     "k": "Best For",
+     "v": "Best served rare or seared — overcooking dries out these lean, meaty fish quickly."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tuna are warm-blooded — among the few fish that can raise their body temperature above the surrounding water — which lets them swim fast enough to cross entire oceans and gives the prized bluefin its rich, marbled belly."
+    }
+   ],
+   "name_es": "Atún Y Medregal"
+  },
+  {
+   "name": "Freshwater Fish",
+   "slug": "freshwater-fish",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Catfish, Walleye, Yellow Perch, Carp, Striped Bass"
+    },
+    {
+     "k": "Best For",
+     "v": "Mild, approachable flavors — classic for frying, blackening, or simple pan dishes."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A fish's flavor depends heavily on its water — many freshwater fish like catfish and carp can taste 'muddy' from compounds absorbed from their environment, which is why cooks soak them or rely on clean, cold, fast-moving water."
+    }
+   ],
+   "name_es": "Pescados De Agua Dulce"
+  },
+  {
+   "name": "Roe & Caviar",
+   "slug": "roe-caviar",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Sturgeon Caviar, Salmon Roe (Ikura), Flying Fish Roe (Tobiko), Capelin Roe (Masago), Trout Roe"
+    },
+    {
+     "k": "Best For",
+     "v": "Served cold, in small amounts, with simple accompaniments that don't compete with the briny pop."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Only the salted roe of sturgeon may legally be called 'caviar' — everything else, from salmon ikura to flying-fish tobiko, is technically just 'roe,' however luxurious; and true caviar is always served with a non-metal spoon, since metal taints its delicate flavor."
+    }
+   ],
+   "name_es": "Huevas Y Caviar"
+  }
+ ]
+}

@@ -1,0 +1,741 @@
+{
+ "title": "Champagne Aroma",
+ "subject": "champagne-aroma",
+ "categories": [
+  {
+   "name": "PRIMARY — FRUIT",
+   "name_fr": "PRIMAIRE — FRUIT",
+   "name_it": "PRIMARIO — FRUTTA",
+   "name_es": "PRIMARIO — FRUTA",
+   "color": "#C9A227",
+   "textColor": "#1a1206",
+   "sub": [
+    {
+     "name": "Citrus",
+     "name_fr": "Agrumes",
+     "name_it": "Agrumi",
+     "name_es": "Cítricos",
+     "color": "#E4C84A",
+     "descriptors": [
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "name_es": "Limón",
+       "slug": "primary-fruit-citrus-lemon"
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "name_es": "Lima",
+       "slug": "primary-fruit-citrus-lime"
+      },
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "name_es": "Pomelo",
+       "slug": "primary-fruit-citrus-grapefruit"
+      },
+      {
+       "name": "Lemon Zest",
+       "name_fr": "Zeste de Citron",
+       "name_it": "Scorza di Limone",
+       "name_es": "Ralladura de Limón",
+       "slug": "primary-fruit-citrus-lemon-zest"
+      },
+      {
+       "name": "Meyer Lemon",
+       "name_fr": "Citron Meyer",
+       "name_it": "Limone Meyer",
+       "name_es": "Limón Meyer",
+       "slug": "primary-fruit-citrus-meyer-lemon"
+      }
+     ]
+    },
+    {
+     "name": "Orchard Fruit",
+     "name_fr": "Fruits de Verger",
+     "name_it": "Frutta da Frutteto",
+     "name_es": "Fruta de Huerto",
+     "color": "#D9CF7A",
+     "descriptors": [
+      {
+       "name": "Green Apple",
+       "name_fr": "Pomme Verte",
+       "name_it": "Mela Verde",
+       "name_es": "Manzana Verde",
+       "slug": "primary-fruit-orchard-fruit-green-apple"
+      },
+      {
+       "name": "Yellow Apple",
+       "name_fr": "Pomme Jaune",
+       "name_it": "Mela Gialla",
+       "name_es": "Manzana Amarilla",
+       "slug": "primary-fruit-orchard-fruit-yellow-apple"
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "name_es": "Pera",
+       "slug": "primary-fruit-orchard-fruit-pear"
+      },
+      {
+       "name": "Quince",
+       "name_fr": "Coing",
+       "name_it": "Cotogna",
+       "name_es": "Membrillo",
+       "slug": "primary-fruit-orchard-fruit-quince"
+      },
+      {
+       "name": "White Peach",
+       "name_fr": "Pêche Blanche",
+       "name_it": "Pesca Bianca",
+       "name_es": "Durazno Blanco",
+       "slug": "primary-fruit-orchard-fruit-white-peach"
+      }
+     ]
+    },
+    {
+     "name": "Orchard / Stone",
+     "name_fr": "Verger / Noyau",
+     "name_it": "Frutteto / Drupacee",
+     "name_es": "Hueso",
+     "color": "#E8B84B",
+     "descriptors": [
+      {
+       "name": "Apricot",
+       "name_fr": "Abricot",
+       "name_it": "Albicocca",
+       "name_es": "Albaricoque",
+       "slug": "primary-fruit-orchard-stone-apricot"
+      },
+      {
+       "name": "Nectarine",
+       "name_fr": "Nectarine",
+       "name_it": "Nettarina",
+       "name_es": "Nectarina",
+       "slug": "primary-fruit-orchard-stone-nectarine"
+      },
+      {
+       "name": "Yellow Plum",
+       "name_fr": "Prune Jaune",
+       "name_it": "Susina Gialla",
+       "name_es": "Ciruela Amarilla",
+       "slug": "primary-fruit-orchard-stone-yellow-plum"
+      }
+     ]
+    },
+    {
+     "name": "Tropical",
+     "name_fr": "Tropical",
+     "name_it": "Tropicale",
+     "name_es": "Tropical",
+     "color": "#EBD15A",
+     "descriptors": [
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "name_es": "Piña",
+       "slug": "primary-fruit-tropical-pineapple"
+      },
+      {
+       "name": "Passion Fruit",
+       "name_fr": "Fruit de la Passion",
+       "name_it": "Frutto della Passione",
+       "name_es": "Maracuyá",
+       "slug": "primary-fruit-tropical-passion-fruit"
+      },
+      {
+       "name": "Mango",
+       "name_fr": "Mangue",
+       "name_it": "Mango",
+       "name_es": "Mango",
+       "slug": "primary-fruit-tropical-mango"
+      },
+      {
+       "name": "Lychee",
+       "name_fr": "Litchi",
+       "name_it": "Litchi",
+       "name_es": "Lichi",
+       "slug": "primary-fruit-tropical-lychee"
+      }
+     ]
+    },
+    {
+     "name": "Berry (Rosé)",
+     "name_fr": "Baie (Rosé)",
+     "name_it": "Bacca (Rosé)",
+     "name_es": "Bayas (Rosado)",
+     "color": "#C25B6A",
+     "descriptors": [
+      {
+       "name": "Strawberry",
+       "name_fr": "Fraise",
+       "name_it": "Fragola",
+       "name_es": "Fresa",
+       "slug": "primary-fruit-berry-ros-strawberry"
+      },
+      {
+       "name": "Red Cherry",
+       "name_fr": "Cerise Rouge",
+       "name_it": "Ciliegia Rossa",
+       "name_es": "Cereza Roja",
+       "slug": "primary-fruit-berry-ros-red-cherry"
+      },
+      {
+       "name": "Raspberry",
+       "name_fr": "Framboise",
+       "name_it": "Lampone",
+       "name_es": "Frambuesa",
+       "slug": "primary-fruit-berry-ros-raspberry"
+      },
+      {
+       "name": "Redcurrant",
+       "name_fr": "Groseille",
+       "name_it": "Ribes Rosso",
+       "name_es": "Grosella Roja",
+       "slug": "primary-fruit-berry-ros-redcurrant"
+      },
+      {
+       "name": "Wild Strawberry",
+       "name_fr": "Fraise des Bois",
+       "name_it": "Fragolina di Bosco",
+       "name_es": "Fresa Silvestre",
+       "slug": "primary-fruit-berry-ros-wild-strawberry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PRIMARY — FLORAL & HERBAL",
+   "name_fr": "PRIMAIRE — FLORAL & HERBAL",
+   "name_it": "PRIMARIO — FLOREALE & ERBACEO",
+   "name_es": "PRIMARIO — FLORAL Y HERBAL",
+   "color": "#8FA65B",
+   "textColor": "#13180a",
+   "sub": [
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#ADBE77",
+     "descriptors": [
+      {
+       "name": "White Flowers",
+       "name_fr": "Fleurs Blanches",
+       "name_it": "Fiori Bianchi",
+       "name_es": "Flores Blancas",
+       "slug": "primary-floral-herbal-floral-white-flowers"
+      },
+      {
+       "name": "Acacia",
+       "name_fr": "Acacia",
+       "name_it": "Acacia",
+       "name_es": "Acacia",
+       "slug": "primary-floral-herbal-floral-acacia"
+      },
+      {
+       "name": "Honeysuckle",
+       "name_fr": "Chèvrefeuille",
+       "name_it": "Caprifoglio",
+       "name_es": "Madreselva",
+       "slug": "primary-floral-herbal-floral-honeysuckle"
+      },
+      {
+       "name": "Hawthorn",
+       "name_fr": "Aubépine",
+       "name_it": "Biancospino",
+       "name_es": "Espino",
+       "slug": "primary-floral-herbal-floral-hawthorn"
+      },
+      {
+       "name": "Elderflower",
+       "name_fr": "Fleur de Sureau",
+       "name_it": "Fiore di Sambuco",
+       "name_es": "Flor de Saúco",
+       "slug": "primary-floral-herbal-floral-elderflower"
+      }
+     ]
+    },
+    {
+     "name": "Herbal / Green",
+     "name_fr": "Herbal / Vert",
+     "name_it": "Erbaceo / Verde",
+     "name_es": "Herbal / Verde",
+     "color": "#7E9B4E",
+     "descriptors": [
+      {
+       "name": "Fennel",
+       "name_fr": "Fenouil",
+       "name_it": "Finocchio",
+       "name_es": "Hinojo",
+       "slug": "primary-floral-herbal-herbal-green-fennel"
+      },
+      {
+       "name": "Mint",
+       "name_fr": "Menthe",
+       "name_it": "Menta",
+       "name_es": "Menta",
+       "slug": "primary-floral-herbal-herbal-green-mint"
+      },
+      {
+       "name": "Chalky Herbs",
+       "name_fr": "Herbes Crayeuses",
+       "name_it": "Erbe Gessose",
+       "name_es": "Hierbas Calcáreas",
+       "slug": "primary-floral-herbal-herbal-green-chalky-herbs"
+      },
+      {
+       "name": "Lemongrass",
+       "name_fr": "Citronnelle",
+       "name_it": "Citronella",
+       "name_es": "Hierba Limón",
+       "slug": "primary-floral-herbal-herbal-green-lemongrass"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SECONDARY — AUTOLYSIS",
+   "name_fr": "SECONDAIRE — AUTOLYSE",
+   "name_it": "SECONDARIO — AUTOLISI",
+   "name_es": "SECUNDARIO — AUTÓLISIS",
+   "color": "#C98A3A",
+   "textColor": "#1a1206",
+   "sub": [
+    {
+     "name": "Bready / Yeasty",
+     "name_fr": "Pain / Levure",
+     "name_it": "Pane / Lievito",
+     "name_es": "Pan / Levadura",
+     "color": "#D8A05A",
+     "descriptors": [
+      {
+       "name": "Brioche",
+       "name_fr": "Brioche",
+       "name_it": "Brioche",
+       "name_es": "Brioche",
+       "slug": "secondary-autolysis-bready-yeasty-brioche"
+      },
+      {
+       "name": "Fresh Bread",
+       "name_fr": "Pain Frais",
+       "name_it": "Pane Fresco",
+       "name_es": "Pan Fresco",
+       "slug": "secondary-autolysis-bready-yeasty-fresh-bread"
+      },
+      {
+       "name": "Toast",
+       "name_fr": "Pain Grillé",
+       "name_it": "Pane Tostato",
+       "name_es": "Tostada",
+       "slug": "secondary-autolysis-bready-yeasty-toast"
+      },
+      {
+       "name": "Biscuit",
+       "name_fr": "Biscuit",
+       "name_it": "Biscotto",
+       "name_es": "Galleta",
+       "slug": "secondary-autolysis-bready-yeasty-biscuit"
+      },
+      {
+       "name": "Pastry",
+       "name_fr": "Pâtisserie",
+       "name_it": "Pasticceria",
+       "name_es": "Repostería",
+       "slug": "secondary-autolysis-bready-yeasty-pastry"
+      },
+      {
+       "name": "Sourdough",
+       "name_fr": "Levain",
+       "name_it": "Pasta Madre",
+       "name_es": "Masa Madre",
+       "slug": "secondary-autolysis-bready-yeasty-sourdough"
+      }
+     ]
+    },
+    {
+     "name": "Lees / Dairy",
+     "name_fr": "Lies / Laitier",
+     "name_it": "Fecce / Latticini",
+     "name_es": "Lías / Lácteo",
+     "color": "#E0BE86",
+     "descriptors": [
+      {
+       "name": "Fresh Cream",
+       "name_fr": "Crème Fraîche",
+       "name_it": "Panna Fresca",
+       "name_es": "Crema Fresca",
+       "slug": "secondary-autolysis-lees-dairy-fresh-cream"
+      },
+      {
+       "name": "Yogurt",
+       "name_fr": "Yaourt",
+       "name_it": "Yogurt",
+       "name_es": "Yogur",
+       "slug": "secondary-autolysis-lees-dairy-yogurt"
+      },
+      {
+       "name": "Butter",
+       "name_fr": "Beurre",
+       "name_it": "Burro",
+       "name_es": "Mantequilla",
+       "slug": "secondary-autolysis-lees-dairy-butter"
+      },
+      {
+       "name": "Cheese Rind",
+       "name_fr": "Croûte de Fromage",
+       "name_it": "Crosta di Formaggio",
+       "name_es": "Corteza de Queso",
+       "slug": "secondary-autolysis-lees-dairy-cheese-rind"
+      }
+     ]
+    },
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "Frutos Secos",
+     "color": "#C28E4E",
+     "descriptors": [
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "name_es": "Almendra",
+       "slug": "secondary-autolysis-nutty-almond"
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "name_es": "Avellana",
+       "slug": "secondary-autolysis-nutty-hazelnut"
+      },
+      {
+       "name": "Roasted Nuts",
+       "name_fr": "Fruits Secs Grillés",
+       "name_it": "Frutta Secca Tostata",
+       "name_es": "Frutos Secos Tostados",
+       "slug": "secondary-autolysis-nutty-roasted-nuts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TERTIARY — AGE & OXIDATIVE",
+   "name_fr": "TERTIAIRE — ÂGE & OXYDATIF",
+   "name_it": "TERZIARIO — ETÀ & OSSIDATIVO",
+   "name_es": "TERCIARIO — EDAD Y OXIDATIVO",
+   "color": "#9A6B3F",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "Maturity",
+     "name_fr": "Maturité",
+     "name_it": "Maturità",
+     "name_es": "Madurez",
+     "color": "#B0814F",
+     "descriptors": [
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "name_es": "Miel",
+       "slug": "tertiary-age-oxidative-maturity-honey"
+      },
+      {
+       "name": "Dried Apricot",
+       "name_fr": "Abricot Sec",
+       "name_it": "Albicocca Secca",
+       "name_es": "Albaricoque Seco",
+       "slug": "tertiary-age-oxidative-maturity-dried-apricot"
+      },
+      {
+       "name": "Quince Paste",
+       "name_fr": "Pâte de Coing",
+       "name_it": "Cotognata",
+       "name_es": "Dulce de Membrillo",
+       "slug": "tertiary-age-oxidative-maturity-quince-paste"
+      },
+      {
+       "name": "Candied Citrus",
+       "name_fr": "Agrumes Confits",
+       "name_it": "Agrumi Canditi",
+       "name_es": "Cítricos Confitados",
+       "slug": "tertiary-age-oxidative-maturity-candied-citrus"
+      },
+      {
+       "name": "Marmalade",
+       "name_fr": "Marmelade d'Orange",
+       "name_it": "Marmellata d'Arancia",
+       "name_es": "Mermelada",
+       "slug": "tertiary-age-oxidative-maturity-marmalade"
+      }
+     ]
+    },
+    {
+     "name": "Oxidative / Savory",
+     "name_fr": "Oxydatif / Salé",
+     "name_it": "Ossidativo / Saporito",
+     "name_es": "Oxidativo / Salado",
+     "color": "#86643C",
+     "descriptors": [
+      {
+       "name": "Coffee",
+       "name_fr": "Café",
+       "name_it": "Caffè",
+       "name_es": "Café",
+       "slug": "tertiary-age-oxidative-oxidative-savory-coffee"
+      },
+      {
+       "name": "Caramel",
+       "name_fr": "Caramel",
+       "name_it": "Caramello",
+       "name_es": "Caramelo",
+       "slug": "tertiary-age-oxidative-oxidative-savory-caramel"
+      },
+      {
+       "name": "Mushroom",
+       "name_fr": "Champignon",
+       "name_it": "Fungo",
+       "name_es": "Champiñón",
+       "slug": "tertiary-age-oxidative-oxidative-savory-mushroom"
+      },
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "name_es": "Nuez",
+       "slug": "tertiary-age-oxidative-oxidative-savory-walnut"
+      },
+      {
+       "name": "Dried Fig",
+       "name_fr": "Figue Séchée",
+       "name_it": "Fico Secco",
+       "name_es": "Higo Seco",
+       "slug": "tertiary-age-oxidative-oxidative-savory-dried-fig"
+      },
+      {
+       "name": "Gingerbread",
+       "name_fr": "Pain d'Épices",
+       "name_it": "Pan di Zenzero",
+       "name_es": "Pan de Jengibre",
+       "slug": "tertiary-age-oxidative-oxidative-savory-gingerbread"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MINERAL & STRUCTURE",
+   "name_fr": "MINÉRAL & STRUCTURE",
+   "name_it": "MINERALE & STRUTTURA",
+   "name_es": "MINERAL Y ESTRUCTURA",
+   "color": "#5E7E86",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "Minerality",
+     "name_fr": "Minéralité",
+     "name_it": "Mineralità",
+     "name_es": "Mineralidad",
+     "color": "#7C9AA1",
+     "descriptors": [
+      {
+       "name": "Chalk",
+       "name_fr": "Craie",
+       "name_it": "Gesso",
+       "name_es": "Tiza",
+       "slug": "mineral-structure-minerality-chalk"
+      },
+      {
+       "name": "Flint",
+       "name_fr": "Silex",
+       "name_it": "Selce",
+       "name_es": "Pedernal",
+       "slug": "mineral-structure-minerality-flint"
+      },
+      {
+       "name": "Wet Stone",
+       "name_fr": "Pierre Mouillée",
+       "name_it": "Pietra Bagnata",
+       "name_es": "Piedra Mojada",
+       "slug": "mineral-structure-minerality-wet-stone"
+      },
+      {
+       "name": "Oyster Shell",
+       "name_fr": "Coquille d'Huître",
+       "name_it": "Conchiglia d'Ostrica",
+       "name_es": "Concha de Ostra",
+       "slug": "mineral-structure-minerality-oyster-shell"
+      },
+      {
+       "name": "Saline",
+       "name_fr": "Salin",
+       "name_it": "Salino",
+       "name_es": "Salino",
+       "slug": "mineral-structure-minerality-saline"
+      }
+     ]
+    },
+    {
+     "name": "Mousse / Texture",
+     "name_fr": "Mousse / Texture",
+     "name_it": "Mousse / Consistenza",
+     "name_es": "Espuma / Textura",
+     "color": "#9DB6BB",
+     "descriptors": [
+      {
+       "name": "Fine Bubbles",
+       "name_fr": "Bulles Fines",
+       "name_it": "Bollicine Fini",
+       "name_es": "Burbuja Fina",
+       "slug": "mineral-structure-mousse-texture-fine-bubbles"
+      },
+      {
+       "name": "Creamy Mousse",
+       "name_fr": "Mousse Crémeuse",
+       "name_it": "Mousse Cremosa",
+       "name_es": "Espuma Cremosa",
+       "slug": "mineral-structure-mousse-texture-creamy-mousse"
+      },
+      {
+       "name": "Aggressive Fizz",
+       "name_fr": "Effervescence Agressive",
+       "name_it": "Effervescenza Aggressiva",
+       "name_es": "Efervescencia Agresiva",
+       "slug": "mineral-structure-mousse-texture-aggressive-fizz"
+      },
+      {
+       "name": "Persistent Bead",
+       "name_fr": "Cordon Persistant",
+       "name_it": "Perlage Persistente",
+       "name_es": "Rosario Persistente",
+       "slug": "mineral-structure-mousse-texture-persistent-bead"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FAULTS & OFF-NOTES",
+   "name_fr": "DÉFAUTS & NOTES NÉGATIVES",
+   "name_it": "DIFETTI & NOTE NEGATIVE",
+   "name_es": "DEFECTOS Y NOTAS NEGATIVAS",
+   "color": "#7d2b34",
+   "textColor": "#fff",
+   "sub": [
+    {
+     "name": "Common Faults",
+     "name_fr": "Défauts Courants",
+     "name_it": "Difetti Comuni",
+     "name_es": "Defectos Comunes",
+     "color": "#9d4040",
+     "descriptors": [
+      {
+       "name": "Cork Taint (TCA)",
+       "name_fr": "Goût de Bouchon (TCA)",
+       "name_it": "Sentore di Tappo (TCA)",
+       "name_es": "Olor a Corcho (TCA)",
+       "slug": "faults-off-notes-common-faults-cork-taint-tca"
+      },
+      {
+       "name": "Oxidation",
+       "name_fr": "Oxydation",
+       "name_it": "Ossidazione",
+       "name_es": "Oxidación",
+       "slug": "faults-off-notes-common-faults-oxidation"
+      },
+      {
+       "name": "Reduction",
+       "name_fr": "Réduction",
+       "name_it": "Riduzione",
+       "name_es": "Reducción",
+       "slug": "faults-off-notes-common-faults-reduction"
+      },
+      {
+       "name": "Excess Sulfur",
+       "name_fr": "Excès de Soufre",
+       "name_it": "Eccesso di Zolfo",
+       "name_es": "Azufre Excesivo",
+       "slug": "faults-off-notes-common-faults-excess-sulfur"
+      },
+      {
+       "name": "Flat / Lost Fizz",
+       "name_fr": "Éventé / Sans Bulles",
+       "name_it": "Piatto / Senza Bollicine",
+       "name_es": "Sin Gas",
+       "slug": "faults-off-notes-common-faults-flat-lost-fizz"
+      },
+      {
+       "name": "Light-Strike",
+       "name_fr": "Goût de Lumière",
+       "name_it": "Colpo di Luce",
+       "name_es": "Golpe de Luz",
+       "slug": "faults-off-notes-common-faults-light-strike"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "AROMATIC, FRUITY, FLORAL": {
+   "en": "These are the <b>good smells</b> beer is supposed to have — esters from yeast (banana, pear), hops (citrus, pine, floral), and gentle alcohols. In small doses they're the soul of the beer; in big doses they can mean a stressed, too-warm fermentation.",
+   "es": "Estos son los <b>buenos aromas</b> que la cerveza debe tener — ésteres de la levadura (plátano, pera), lúpulo (cítrico, pino, floral) y alcoholes suaves. En dosis pequeñas son el alma de la cerveza; en exceso pueden indicar una fermentación estresada o demasiado cálida."
+  },
+  "VEGETAL": {
+   "en": "Grassy, hay-like, or cooked-veg notes. A little fresh-cut grass from hops is fine; <b>cooked corn or cabbage usually points to a process fault</b> (DMS from a weak boil, or oxidation).",
+   "es": "Notas a pasto, heno o verdura cocida. Un poco de pasto recién cortado del lúpulo está bien; <b>el elote o la col cocida suele señalar un defecto de proceso</b> (DMS por un hervor débil, u oxidación)."
+  },
+  "CEREAL": {
+   "en": "The bready, grainy, malty backbone — raw grain, malt, wort, even cooked-corn adjunct. This is the <b>foundation flavor</b> every beer is built on before hops and yeast add their layers.",
+   "es": "La columna a pan, grano y malta — grano crudo, malta, mosto, incluso elote de adjuntos. Es el <b>sabor base</b> sobre el que se construye toda cerveza antes de que el lúpulo y la levadura añadan sus capas."
+  },
+  "MAILLARD": {
+   "en": "Toast, caramel, toffee, coffee, chocolate, roast — all from the <b>Maillard browning</b> of malt in the kiln and kettle. The darker the malt, the deeper these go; they define amber ales, stouts, and porters.",
+   "es": "Tostado, caramelo, toffee, café, chocolate, torrefacto — todo del <b>dorado de Maillard</b> de la malta en el horno y la olla. Cuanto más oscura la malta, más profundo; definen las ales ámbar, las stouts y las porters."
+  },
+  "PHENOLIC": {
+   "en": "Clove, smoke, spice, medicinal, or band-aid. <b>Clove and pepper are prized in Belgians and Hefeweizens</b> (the yeast makes them on purpose); plastic or medicinal phenols are a fault from wild yeast or chlorinated water.",
+   "es": "Clavo, humo, especia, medicinal o curita. <b>El clavo y la pimienta se aprecian en belgas y Hefeweizens</b> (la levadura los crea a propósito); los fenoles a plástico o medicinales son un defecto de levadura silvestre o agua clorada."
+  },
+  "FATTY": {
+   "en": "Buttery, cheesy, soapy, or oily textures. <b>Diacetyl (movie-theater butter) is the classic one</b> — a normal fermentation byproduct that good yeast cleans up; if it lingers, the beer was rushed off the yeast.",
+   "es": "Texturas mantecosas, a queso, jabonosas o aceitosas. <b>El diacetilo (mantequilla de cine) es el clásico</b> — un subproducto normal de la fermentación que la buena levadura limpia; si persiste, la cerveza se separó de la levadura demasiado pronto."
+  },
+  "SULFURY": {
+   "en": "Rotten egg, struck match, cooked veg, or canned corn. Trace sulfur is normal in fresh lager and blows off; <b>strong or lasting sulfur is usually a fermentation or DMS fault</b>.",
+   "es": "Huevo podrido, cerillo encendido, verdura cocida o elote enlatado. El azufre traza es normal en la lager fresca y se disipa; <b>el azufre fuerte o persistente suele ser un defecto de fermentación o DMS</b>."
+  },
+  "STALE": {
+   "en": "Cardboard, papery, sherry-like, leathery. This is <b>oxidation — the #1 sign of an old or badly stored beer</b>. Trans-2-nonenal gives the wet-cardboard note; light + heat + air speed it up.",
+   "es": "Cartón, papel, tipo jerez, cuero. Esto es <b>oxidación — la señal #1 de una cerveza vieja o mal almacenada</b>. El trans-2-nonenal da la nota a cartón mojado; luz, calor y aire la aceleran."
+  },
+  "ACIDIC": {
+   "en": "Sour, tart, vinegary, or acetic. <b>Deliberate and delicious in sours, lambics, and goses</b> (lactic & acetic bacteria); an unwelcome vinegar tang in any other style means contamination.",
+   "es": "Ácido, agrio, avinagrado o acético. <b>Deliberado y delicioso en sours, lambics y goses</b> (bacterias lácticas y acéticas); un toque a vinagre en cualquier otro estilo significa contaminación."
+  },
+  "SWEET": {
+   "en": "Honey, candy, syrupy, or just plain sugary. Comes from <b>unfermented residual malt sugar</b>. Balanced by hop bitterness and carbonation; too much with no balance reads as cloying or under-attenuated.",
+   "es": "Miel, dulce, jarabe o simplemente azucarado. Viene del <b>azúcar de malta residual sin fermentar</b>. Se equilibra con el amargor del lúpulo y la carbonatación; demasiado sin equilibrio resulta empalagoso o poco atenuado."
+  },
+  "MOUTHFEEL": {
+   "en": "Not a taste at all — what the beer <b>physically feels like</b>: carbonation prickle, warming alcohol, astringency (that tea-like grip), body, and creaminess. Often what separates a great beer from a good one.",
+   "es": "No es un sabor — es lo que la cerveza <b>se siente físicamente</b>: el cosquilleo de la carbonatación, el calor del alcohol, la astringencia (ese agarre tipo té), el cuerpo y la cremosidad. A menudo es lo que separa una gran cerveza de una buena."
+  },
+  "FULLNESS": {
+   "en": "How <b>big or thin the beer feels</b> on the palate — from watery to full and chewy. Driven by unfermented dextrins, proteins, and glycerol. A light lager and an imperial stout sit at opposite ends.",
+   "es": "Qué tan <b>grande o ligera se siente la cerveza</b> en el paladar — de aguada a llena y masticable. Impulsada por dextrinas sin fermentar, proteínas y glicerol. Una lager ligera y una imperial stout están en extremos opuestos."
+  }
+ }
+}

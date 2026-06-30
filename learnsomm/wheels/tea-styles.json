@@ -1,0 +1,905 @@
+{
+ "title": "Tea Styles",
+ "subject": "tea-styles",
+ "categories": [
+  {
+   "name": "GREEN TEAS",
+   "name_fr": "THÉS VERTS",
+   "name_it": "TÈ VERDI",
+   "name_es": "TÉS VERDES",
+   "color": "#7bc47f",
+   "textColor": "#0a2a0a",
+   "sub": [
+    {
+     "name": "Green Teas",
+     "name_fr": "Thés Verts",
+     "name_it": "Tè Verdi",
+     "name_es": "Tés Verdes",
+     "color": "#7bc47f",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Dragon Well (Longjing)",
+       "name_fr": "Dragon Well (Longjing)",
+       "name_it": "Dragon Well (Longjing)",
+       "slug": "longjing",
+       "color": "#90d090",
+       "name_es": "Dragon Well",
+       "panel": {
+        "origin": "Dragon Well (Longjing) is China's most celebrated green tea, produced in the West Lake region of Hangzhou, Zhejiang Province. The finest grade, Pre-Qingming (pre-April 5th) Dragon Well, is harvested from a handful of designated villages — Shifeng, Longjing, Meijiawu, Hupao, Yunqi — and commands extraordinary prices. Pan-firing in a hot wok is the defining production step, flattening the leaves and creating the characteristic chestnut, toasty character. Emperor Qianlong (Qing Dynasty) famously designated 18 tea bushes near Longjing village as Imperial Tea plants.",
+        "mixology": "Flavor profile: smooth, sweet, vegetal; toasted chestnut and roasted grain from pan-firing; fresh bean, spring peas, lingering sweet aftertaste. No astringency. Brew at 75–80°C (167–176°F) in a glass gaiwan or tall glass; 3–5g per 150ml; 30–45 second infusions; 4–6 re-infusions possible.",
+        "examples": "Top grades: Pre-Qingming Shifeng Longjing (Shifeng village), West Lake Longjing (designated AOG). Commercial: Teavana Dragon Well (approximate), Stevens & Son (UK), Harney & Sons."
+       }
+      },
+      {
+       "name": "Gyokuro",
+       "name_fr": "Gyokuro",
+       "name_it": "Gyokuro",
+       "slug": "gyokuro",
+       "color": "#5a9e60",
+       "name_es": "Gyokuro",
+       "panel": {
+        "origin": "Gyokuro ('jade dew') is Japan's highest-grade loose leaf tea, produced by shading the tea plants with bamboo or synthetic covers for 20–30 days before harvest, blocking 90% of sunlight. This shade treatment dramatically increases L-theanine (umami amino acid) and chlorophyll while reducing catechins (bitterness). First developed in Uji, Kyoto Prefecture in 1835 by tea merchant Yamamoto Kahei. Uji and Yame (Fukuoka) are the two premium producing regions. Gyokuro is significantly more expensive than Sencha.",
+        "mixology": "Flavor profile: intensely umami, ocean-like (seaweed, marine brine), sweet, vegetal; rich, almost syrupy mouthfeel; very little bitterness or astringency. Brew at very low temperature: 50–60°C (120–140°F); 5–6g per 60ml; 60–90 second first infusion; 3 infusions. Never use boiling water — destroys the delicate umami compounds.",
+        "examples": "Marukyu Koyamaen Gyokuro (Uji benchmark), Ippodo Tea Co. Gyokuro, Sugimoto Tea Co. (Yame). Best purchased from Japanese specialist importers."
+       }
+      },
+      {
+       "name": "Sencha",
+       "name_fr": "Sencha",
+       "name_it": "Sencha",
+       "slug": "sencha",
+       "color": "#6ab870",
+       "name_es": "Sencha",
+       "panel": {
+        "origin": "Sencha is Japan's everyday green tea, accounting for approximately 70% of Japanese tea production. Unlike Chinese green teas (pan-fired), Sencha is steamed within hours of harvest to halt oxidation, preserving vivid green color and fresh, vegetal character. The steaming process was developed in the mid-18th century by Nagatani Soen. Deep-steamed Sencha (Fukamushi Sencha) uses longer steaming (2–3 minutes vs 30–40 seconds for standard) producing a richer, less astringent, more intensely green liquor.",
+        "mixology": "Flavor profile: fresh grass, seaweed, spring vegetables (edamame, asparagus); light astringency; refreshing; slight sweetness. Fukamushi Sencha: richer, deeper green, less astringent. Brew at 70–80°C (158–176°F); 3–4g per 150ml; 60 seconds first infusion; 3–4 infusions. Key brands: Ippodo Gokou, Marukyu Koyamaen Sencha, Lupicia.",
+        "examples": "Ippodo Tea Co. (Kyoto), Marukyu Koyamaen (Uji), Lupicia (Japan/global), O-Cha.com (specialty import). Regional variants: Shizuoka (grassy), Uji (rich umami), Kagoshima (sweet)."
+       }
+      },
+      {
+       "name": "Matcha",
+       "name_fr": "Matcha",
+       "name_it": "Matcha",
+       "slug": "matcha",
+       "color": "#4a9e50",
+       "name_es": "Matcha",
+       "panel": {
+        "origin": "Matcha is stone-ground shade-grown green tea (tencha grade leaves) reduced to a fine powder, whisked with hot water using a bamboo chasen in the Japanese tea ceremony. The powdered tea tradition arrived in Japan from China (Song Dynasty) in the 12th century via Zen monk Eisai, who documented its health properties. Matcha diverged: China eventually abandoned powdered tea, while Japan codified it into the tea ceremony (Chado). Modern culinary matcha drives global demand; ceremonial-grade matcha for drinking is a different, higher product.",
+        "mixology": "Flavor profile: intensely umami, rich vegetal sweetness, grassy, slight bitterness; creamy when whisked with water. Ceremonial grade (drinking): bright green, no bitterness, sweet. Culinary grade (cooking/lattes): more bitter, darker, less expensive. Brew at 70–75°C; 2g per 60ml water; sift, then whisk in M-motion until frothy. Key ratio for matcha latte: 2g + 30ml water whisked, then add 150ml steamed milk.",
+        "examples": "Ceremonial: Ippodo Matcha Ikuyo, Marukyu Koyamaen Matcha, Encha Organic Matcha. Culinary: Jade Leaf Culinary Matcha, Tenzo. Food use: Kit Kat matcha (Japan), Starbucks Matcha Latte."
+       }
+      },
+      {
+       "name": "Gunpowder Green",
+       "name_fr": "Gunpowder Green",
+       "name_it": "Gunpowder Green",
+       "slug": "gunpowder",
+       "color": "#8ab880",
+       "name_es": "Pólvora Verde",
+       "panel": {
+        "origin": "Gunpowder Green tea is produced by rolling green tea leaves into tight pellets resembling gunpowder shot — a shaping method developed during the Tang Dynasty (618–907 CE) in Zhejiang Province. The pellet form concentrates flavor and prolongs freshness, making it excellent for storage and export. Gunpowder became the most widely exported Chinese green tea in the 18th–19th centuries and forms the base of Moroccan mint tea, where it is boiled with fresh mint and sugar in a distinctive pot (berrad).",
+        "mixology": "Flavor profile: bold, smoky, slightly bitter; robust body; mineral quality; pine and gunpowder notes from rolling; strong finish. Tolerates higher brewing temps: 80–85°C; 3–4g per 200ml; 2–3 minutes; 3 infusions. For Moroccan mint tea: bring gunpowder tea to boil with water, add fresh spearmint and sugar, pour from height for froth.",
+        "examples": "Premium: Pinhead Gunpowder (Zhejiang), Temple of Heaven Gunpowder (China National Tea). Moroccan context: Atay tea ceremony uses Gunpowder exclusively. Available from: Adagio Teas, Upton Tea Imports."
+       }
+      },
+      {
+       "name": "Bi Luo Chun",
+       "name_fr": "Bi Luo Chun",
+       "name_it": "Bi Luo Chun",
+       "slug": "bi-luo-chun",
+       "color": "#70b878",
+       "name_es": "Bi Luo Chun",
+       "panel": {
+        "origin": "Bi Luo Chun ('Green Snail Spring') is one of China's Top Ten Famous Teas, produced in the Dongting Mountains of Taihu Lake, Suzhou, Jiangsu Province. Legend credits Emperor Kangxi with naming it during a visit in the Qing Dynasty. The leaves are extraordinarily fine — only the tender shoot and one leaf — hand-rolled into tiny spiral shapes. The tea trees grow intercropped with peach, plum, and apricot trees, naturally absorbing floral fruit aromas from the surrounding blossoms.",
+        "mixology": "Flavor profile: delicate, floral fruit (peach, apricot, osmanthus from intercropped trees); sweet, clean; very slight astringency; fresh spring water quality. Brew at 75°C (167°F); 3–4g per 150ml; top-pour method (water first, then leaves float down); 30–45 seconds; 4 infusions. The green-white hairy leaves unroll beautifully in water.",
+        "examples": "Dongting Bi Luo Chun (Pre-Qingming, Jiangsu benchmark). Available from: Jingshan Tea (authentic), Teavivre, Yunnan Sourcing (though technically Jiangsu-produced)."
+       }
+      },
+      {
+       "name": "Hojicha",
+       "name_fr": "Hojicha",
+       "name_it": "Hojicha",
+       "slug": "hojicha",
+       "color": "#a08050",
+       "name_es": "Hojicha",
+       "panel": {
+        "origin": "Hojicha is a Japanese roasted green tea developed accidentally in Kyoto around 1920 when a tea merchant began roasting lower-grade Bancha stems and leaves over charcoal to sell affordably. The roasting process caramelizes sugars, reduces caffeine and catechins dramatically, producing a warm amber liquor with a nutty, roasted character completely unlike other green teas. Hojicha has become a signature Japanese flavor used in desserts, lattes, and confectionery alongside matcha.",
+        "mixology": "Flavor profile: roasted grain, caramel, cocoa, toasted brown rice; low bitterness; low caffeine (child and evening appropriate); warm, comforting; amber color. Brew at 95°C (205°F) — unlike other green teas; 5–6g per 200ml; 30–45 seconds; 3 infusions. Hojicha latte: brew double-strength, add steamed milk and optional maple syrup. Excellent as an evening tea due to low caffeine.",
+        "examples": "Ippodo Hojicha, Maeda-en Hojicha, Kyoto Obubu Tea Farms. Culinary: Hojicha Kit Kats (Japan), Starbucks Hojicha Latte (Japan/Asia), Häagen-Dazs Hojicha (Japan)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WHITE TEAS",
+   "name_fr": "THÉS BLANCS",
+   "name_it": "TÈ BIANCHI",
+   "name_es": "TÉS BLANCOS",
+   "color": "#f0ead8",
+   "textColor": "#3a2800",
+   "sub": [
+    {
+     "name": "White Teas",
+     "name_fr": "Thés Blancs",
+     "name_it": "Tè Bianchi",
+     "name_es": "Tés Blancos",
+     "color": "#f0ead8",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Silver Needle (Bai Hao Yinzhen)",
+       "name_fr": "Silver Needle (Bai Hao Yinzhen)",
+       "name_it": "Silver Needle (Bai Hao Yinzhen)",
+       "slug": "silver-needle",
+       "color": "#f8f4e8",
+       "name_es": "Aguja de Plata",
+       "panel": {
+        "origin": "Silver Needle (Bai Hao Yinzhen) is the world's most prized white tea, produced exclusively in Fuding and Zhenghe counties of Fujian Province, China. Only the unopened buds of the Fuding Dà Bái (Large White) cultivar are harvested on specific days in early spring (before Qingming), covered in fine white hairs (pekoe). Minimal processing — no rolling, no oxidation, only withering and drying — preserves the bud's natural compounds. A genuine Silver Needle harvest requires extraordinary precision; modern climate has shortened this window.",
+        "mixology": "Flavor profile: extremely delicate; cucumber, honeydew melon, fresh hay, light floral (lily, orchid); silky, clean, almost watery but complex; slight sweetness; very low bitterness. Brew at 75–85°C (167–185°F); 4–5g per 200ml; 3–5 minutes; 4–5 infusions. Use quality spring water — the tea's subtlety is destroyed by mineral-heavy tap water.",
+        "examples": "Fuding Bai Hao Yinzhen (Fuding county benchmark), Zhenghe Bai Hao Yinzhen (fuller, more woodsy). Available: Teavivre, Yunnan Sourcing, What-Cha, Crimson Lotus Tea."
+       }
+      },
+      {
+       "name": "White Peony (Bai Mu Dan)",
+       "name_fr": "White Peony (Bai Mu Dan)",
+       "name_it": "White Peony (Bai Mu Dan)",
+       "slug": "white-peony",
+       "color": "#f0ead8",
+       "name_es": "Peonía Blanca",
+       "panel": {
+        "origin": "White Peony (Bai Mu Dan) is the second tier of Chinese white tea, using one bud plus one or two open leaves rather than buds only. This gives the tea more body, color, and flavor than Silver Needle at a lower price point. Produced in Fujian Province (primarily Fuding and Zhenghe). The open leaves produce a more golden liquor and introduce more floral and earthy complexity alongside the bud's delicacy. White Peony ages well, developing deeper character over years.",
+        "mixology": "Flavor profile: more substantial than Silver Needle; melon, peach, light floral, honey, hay; golden liquor; light astringency; clean finish. Brew at 80–85°C (176–185°F); 4g per 200ml; 3–4 minutes; 3–4 infusions. Ages well: 3–5 year aged White Peony develops darker, richer, more honeyed profile. Good choice for Western tea drinkers new to white tea.",
+        "examples": "Fuding White Peony (standard benchmark). Aging experiments: Yunnan Sourcing aged white teas. Commercial: Teavana (approximate), Ahmad Tea White Peony. Premium: Teavivre, White2Tea."
+       }
+      },
+      {
+       "name": "Shou Mei",
+       "name_fr": "Shou Mei",
+       "name_it": "Shou Mei",
+       "slug": "shou-mei",
+       "color": "#d8c8a8",
+       "name_es": "Shou Mei",
+       "panel": {
+        "origin": "Shou Mei ('Longevity Eyebrow') is the most common and affordable grade of Fujian white tea, using older, larger leaves harvested after the premium Silver Needle and White Peony picks. The mature leaves produce a darker, richer, more robust liquor with more pronounced earthy and fruity notes. Shou Mei is highly suitable for aging and pressed cake format (similar to Pu-erh), developing remarkable complexity over 5–15+ years. Often underestimated but favored by connoisseurs for its complexity relative to cost.",
+        "mixology": "Flavor profile: dark golden to amber; robust earthy, woodsy, dried apricot, raisin, honey; more body and astringency than Silver Needle or White Peony; long finish. Brew at 90°C (194°F); 4–5g per 200ml; 3–4 minutes. Excellent for cold brewing: 8–10g per liter; 8–12 hours refrigerated. Ages beautifully into deep, complex tea.",
+        "examples": "Aged Shou Mei cakes from Yunnan Sourcing, White2Tea, Crimson Lotus Tea. Fresh Shou Mei: Teavivre, What-Cha. Pressed aged cakes from Fuding are the most collectable."
+       }
+      },
+      {
+       "name": "Darjeeling White",
+       "name_fr": "Darjeeling White",
+       "name_it": "Darjeeling White",
+       "slug": "darjeeling-white",
+       "color": "#e8dcc0",
+       "name_es": "Darjeeling Blanco",
+       "panel": {
+        "origin": "Darjeeling White tea is produced in the high-elevation estates of Darjeeling, West Bengal, India (above 2,000 meters). Unlike Chinese white teas processed from specific cultivars, Darjeeling White uses the AV2 and first flush Camellia sinensis var. sinensis clonal cultivars grown in the same estates as Darjeeling black tea. The minimal processing (withering and drying) on high-altitude tea preserves floral muscatel notes unique to Darjeeling's terroir.",
+        "mixology": "Flavor profile: unique hybrid — the mineral, muscatel, and 'second flush' qualities of Darjeeling black tea combined with white tea's delicacy; floral (rose, jasmine), sweet, slight muscatel; very clean. Brew at 80°C (176°F); 3–4g per 200ml; 3 minutes; 2–3 infusions. Pairs well with light pastries, fresh berries.",
+        "examples": "Darjeeling white teas from: Makaibari Estate, Castleton Estate, Namring Estate. Available through: Rare Tea Company (UK), Darjeeling Tea Boutique, Lochan Tea."
+       }
+      },
+      {
+       "name": "Aged White Tea",
+       "name_fr": "Aged White Tea",
+       "name_it": "Aged White Tea",
+       "slug": "aged-white",
+       "color": "#c0a870",
+       "name_es": "Té Blanco Envejecido",
+       "panel": {
+        "origin": "Aged White Tea refers to white teas (typically Shou Mei or White Peony pressed into cakes) aged 3–30+ years under controlled humidity conditions in Fujian or Guangdong, where the minimal processing of white tea allows continued microbial and enzymatic transformation over time. Unlike Pu-erh, aged white tea lacks the controlled fermentation step; aging is purely from oxidation and microbial activity in the storage environment. Highly aged white teas (10–30 years) are among the most complex teas available.",
+        "mixology": "Flavor profile: dramatically different from fresh white tea; deep amber to red liquor; dried dates, aged wood, camphor, honey, Chinese medicine cabinet notes; smooth, no bitterness; warming. Brew at 95°C (205°F); gongfu style 5–6g per 100ml; very short first infusion; 8–10+ infusions. Medicinal value is traditionally claimed in Chinese culture for aged white tea.",
+        "examples": "2008–2015 Fuding aged white cake from Yunnan Sourcing, White2Tea, Crimson Lotus Tea. 老白茶 (lǎo bái chá) — search for pressed cake format for most interesting aged examples."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "YELLOW TEAS",
+   "name_fr": "THÉS JAUNES",
+   "name_it": "TÈ GIALLI",
+   "name_es": "TÉS AMARILLOS",
+   "color": "#f0d860",
+   "textColor": "#3a2800",
+   "sub": [
+    {
+     "name": "Yellow Teas",
+     "name_fr": "Thés Jaunes",
+     "name_it": "Tè Gialli",
+     "name_es": "Tés Amarillos",
+     "color": "#f0d860",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Junshan Yinzhen",
+       "name_fr": "Junshan Yinzhen",
+       "name_it": "Junshan Yinzhen",
+       "slug": "junshan-yinzhen",
+       "color": "#f8e870",
+       "name_es": "Junshan Yinzhen",
+       "panel": {
+        "origin": "Junshan Yinzhen ('Junshan Silver Needle') is produced on Junshan Island, a small island in Dongting Lake, Hunan Province — one of China's rarest and most famous teas. Like its white tea namesake, it uses only buds, but the yellow tea process adds a 'smothering' (men huan) step where freshly steamed leaves are wrapped in cloth for 24–72 hours, causing light, non-enzymatic oxidation (yellowing) that transforms the flavor from sharp green to smooth and mellow. Production is extremely limited.",
+        "mixology": "Flavor profile: mellow, sweet, slightly toasty; none of the grassy sharpness of green tea; apricot, honey, corn silk; smooth mouthfeel; no bitterness. Brew at 70–80°C (158–176°F); 3g per 150ml; 2–3 minutes; 3 infusions. Traditionally served in a tall glass to watch the buds stand upright then sink — called 'three ups and three downs.' A highly theatrical, meditative tea.",
+        "examples": "Junshan Yinzhen from Junshan Island (very limited export). Sources: Yunnan Sourcing, What-Cha (when available), specialty Chinese tea shops. Extremely rare in Western markets."
+       }
+      },
+      {
+       "name": "Mengding Huangya",
+       "name_fr": "Mengding Huangya",
+       "name_it": "Mengding Huangya",
+       "slug": "mengding-huangya",
+       "color": "#e8d050",
+       "name_es": "Mengding Huangya",
+       "panel": {
+        "origin": "Mengding Huangya ('Yellow Buds of Mengding Mountain') is produced on Mengding Mountain in Ya'an, Sichuan Province — a site documented as a tea-growing area since the Western Han Dynasty (206 BCE). The Emperor received tribute tea from Mengding Mountain for over 1,200 years. Mengding Huangya uses the men huan (smothering) yellowing process, producing a mellow, slightly sweet, amber-tinged tea distinctly different from both the surrounding green and black teas of Sichuan.",
+        "mixology": "Flavor profile: similar to Junshan but with more pronounced chestnut, corn, slight smokiness from Sichuan terroir; honey, gentle floral notes; smooth, light body; very low astringency. Brew at 75°C (167°F); 3g per 150ml; 2–3 minutes; 3 infusions. An approachable yellow tea for green tea drinkers who want more smoothness without moving to oolong.",
+        "examples": "Mengding Huangya from Sichuan (limited export). Available: Yunnan Sourcing, Teavivre. This is often mislabeled or misrepresented in Western markets — buy from specialist sources only."
+       }
+      },
+      {
+       "name": "Mogan Yellow",
+       "name_fr": "Mogan Yellow",
+       "name_it": "Mogan Yellow",
+       "slug": "mogan-yellow",
+       "color": "#f0d860",
+       "name_es": "Mogan Amarillo",
+       "panel": {
+        "origin": "Mogan Yellow (Mogan Huangya) is produced on Mogan Mountain (Mogan Shan) in Deqing County, Zhejiang Province — a famous resort mountain near Shanghai historically popular with foreign diplomats and missionaries in the Republican era. The mountain's cloud-shrouded conditions and mineral-rich soil create a distinctive terroir. Less famous than Junshan Yinzhen but increasingly valued by tea collectors for its approachability and clear terroir expression.",
+        "mixology": "Flavor profile: lighter than other yellow teas; clean, mellow; sweet corn, chestnut, light floral notes; very little astringency; gentle finish. Brew at 75–80°C (167–176°F); 3g per 150ml; 2–3 minutes; 3 infusions. Good gateway into yellow teas for green tea drinkers. Served in glass to appreciate the gentle golden liquor.",
+        "examples": "Mogan Huangya from Zhejiang. Limited availability in West. Best sources: What-Cha, Yunnan Sourcing, specialist vendors attending Tea Expo events."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OOLONG TEAS",
+   "name_fr": "THÉS OOLONG",
+   "name_it": "TÈ OOLONG",
+   "name_es": "TÉS OOLONG",
+   "color": "#d4a040",
+   "textColor": "#2a1800",
+   "sub": [
+    {
+     "name": "Oolong Teas",
+     "name_fr": "Thés Oolong",
+     "name_it": "Tè Oolong",
+     "name_es": "Tés Oolong",
+     "color": "#d4a040",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Tie Guan Yin",
+       "name_fr": "Tie Guan Yin",
+       "name_it": "Tie Guan Yin",
+       "slug": "tie-guan-yin",
+       "color": "#e0b858",
+       "name_es": "Tie Guan Yin",
+       "panel": {
+        "origin": "Tie Guan Yin ('Iron Goddess of Mercy') is one of China's most famous teas, originating in Anxi County, Fujian Province. Named for the Buddhist Goddess of Mercy (Guanyin), the tea has two major processing styles: traditional (more oxidized, roasted, orchid and roasted grain notes) and modern green-style (light oxidation, intensely floral, green, fresh). The modern style emerged in the 1990s–2000s when Taiwanese influence shifted processing toward lighter oxidation. Both styles require highly skilled processing — the tea goes through multiple cycles of rolling and withering.",
+        "mixology": "Flavor profile — Traditional: roasted chestnuts, orchid, mineral, honey, lingering sweet aftertaste (known as 'yin yun'). Modern green-style: intensely floral (orchid, lily), fresh, grass, light; very green profile. Brew gongfu style: 7g per 120ml gaiwan; 95°C (205°F) for traditional, 85°C for modern green; flash infusions (5–10 seconds); 8–12 infusions. The roasted style pairs with dim sum; modern with delicate pastries.",
+        "examples": "Traditional: Anxi Tie Guan Yin (roasted, benchmark), Aged TGY. Modern: Muzha Tie Guan Yin (Taiwan). Sources: Ippodo, Seven Cups, Yunnan Sourcing, Origin Tea (Australia)."
+       }
+      },
+      {
+       "name": "Da Hong Pao",
+       "name_fr": "Da Hong Pao",
+       "name_it": "Da Hong Pao",
+       "slug": "da-hong-pao",
+       "color": "#c08030",
+       "name_es": "Da Hong Pao",
+       "panel": {
+        "origin": "Da Hong Pao ('Big Red Robe') is the most legendary Chinese tea, originating from six ancient tea bushes growing in a rocky crevice in Wuyishan (Wuyi Mountain), Fujian Province. These 'mother trees' are estimated to be over 350 years old and officially retired from harvesting in 2006; their last small harvest was auctioned for record prices. Commercial Da Hong Pao is made from vegetatively propagated cuttings of the mother trees, grown in Wuyi's distinctive red-soil rocky terroir. It is heavily roasted, producing some of the world's most complex, fire-kissed tea.",
+        "mixology": "Flavor profile: deep amber liquor; intensely roasted (charcoal, cinnamon, dark fruit, minerals); 'rock rhyme' (yan yun) — a mineral resonance unique to Wuyi rock teas; long finish (30+ minutes). Brew gongfu: 6–7g per 100ml; 95–100°C; 10–15 second infusions; 8–15 infusions. Requires multiple short infusions to reveal the layers beneath the initial roasted character.",
+        "examples": "Authentic: Wuyishan Da Hong Pao (Fujian). Commercial: Lapsang Souchong parent company products. Quality sources: Yunnan Sourcing, What-Cha, Crimson Lotus Tea, Mandala Tea."
+       }
+      },
+      {
+       "name": "Oriental Beauty (Bai Hao)",
+       "name_fr": "Oriental Beauty (Bai Hao)",
+       "name_it": "Oriental Beauty (Bai Hao)",
+       "slug": "oriental-beauty",
+       "color": "#d4a040",
+       "name_es": "Oriental Beauty",
+       "panel": {
+        "origin": "Oriental Beauty (Bai Hao Oolong / Dongfang Meiren) is one of the world's most unique teas, produced in Hsinchu and Miaoli counties of Taiwan. Its distinctive honey and muscatel aroma results from an unusual collaboration: a small leafhopper insect (Jacobiasca formosana) bites the tea leaves before harvest, triggering a defense mechanism in the plant that produces specific aromatic compounds (including monoterpenes and hotrienol). Teas without bug-biting cannot develop the signature honeyed character. First-prize specimens can fetch extraordinary auction prices.",
+        "mixology": "Flavor profile: honey, muscatel (white grape), ripe peach, wild honey, chamomile, cinnamon; heavily oxidized (60–85%) giving a rich amber color; naturally sweet without added sugar; warming. Brew at 85–90°C (185–194°F); 5–6g per 150ml; 2–3 minute infusions; 3–4 infusions. Outstanding with or without milk. Pairs beautifully with honey, stone fruits, light desserts.",
+        "examples": "Hsinchu and Miaoli County Oriental Beauty (Taiwan). Awards: Taiwan annual competition champions. Sources: Floating Leaves Tea (Seattle), What-Cha, Seven Cups (Tucson)."
+       }
+      },
+      {
+       "name": "Phoenix Dan Cong",
+       "name_fr": "Phoenix Dan Cong",
+       "name_it": "Phoenix Dan Cong",
+       "slug": "dan-cong",
+       "color": "#b87828",
+       "name_es": "Phoenix Dan Cong",
+       "panel": {
+        "origin": "Phoenix Dan Cong (Fenghuang Dancong) comes from the Phoenix Mountains (Fenghuang Shan) of Chaozhou, Guangdong Province. 'Dan Cong' (single tree/bush) refers to the historical practice of making separate lots from individual clonal trees, creating distinctive single-origin expressions. Dan Cong oolongs are named for the aromas they mimic: Honey Orchid (Mi Lan Xiang), Ginger Flower (Jiang Hua), Duck Shit (Ya Shi — confusingly named for the dark soil of origin), Yellow Branch (Huang Zhi Xiang). Old bush Dan Cong (from 50–500 year old trees) are among the world's most complex teas.",
+        "mixology": "Flavor profile: intensely aromatic, mimicking specific flowers or fruits depending on cultivar; honey orchid Dan Cong: orchid, honey, stone fruit; duck shit Dan Cong: gardenia, honey, roasted notes; all share: strong aroma, lingering finish, mineral quality. Brew gongfu: 6–7g per 100ml; 95°C; 5–15 second infusions; 10–15+ infusions. Old bush Dan Cong rewards patience — the best infusions are often the 5th–9th.",
+        "examples": "Honey Orchid Mi Lan Xiang, Ya Shi (Duck Shit) — from Wudong Mountain, Phoenix Shan. Sources: Yunnan Sourcing, Crimson Lotus Tea, Floating Leaves Tea, What-Cha."
+       }
+      },
+      {
+       "name": "High Mountain Oolong (Alishan)",
+       "name_fr": "High Mountain Oolong (Alishan)",
+       "name_it": "High Mountain Oolong (Alishan)",
+       "slug": "alishan",
+       "color": "#c8a850",
+       "name_es": "Alishan",
+       "panel": {
+        "origin": "Alishan High Mountain Oolong is produced on Alishan (Ali Mountain) in Chiayi County, Taiwan, at elevations of 1,000–1,800 meters. The high altitude, cool temperatures, frequent mist, and slow leaf growth concentrate flavor compounds. Taiwan's high mountain oolongs (Gao Shan Cha) include Alishan, Li Shan, Shan Lin Xi, and Da Yu Ling (the highest, most prized). These teas are lightly oxidized (20–30%), producing clean, floral, buttery profiles very different from heavily oxidized Wuyi rock oolongs.",
+        "mixology": "Flavor profile: floral (gardenia, lily, osmanthus), buttery, milky sweet (natural, not added), clean, fresh; lingering floral aftertaste; light amber to golden green liquor. Brew at 85–90°C (185–194°F); 5–6g per 150ml; 45–60 second first infusion; 5–7 infusions. 'Natural milk oolong' character develops at high altitude — never buy artificially flavored 'milk oolong' (common fraud).",
+        "examples": "Alishan Jinxuan (Jin Xuan cultivar — natural creamy character), Alishan TRES #12, Li Shan (higher altitude, more prized). Sources: Floating Leaves Tea, What-Cha, Taiwan Tea Crafts, Eco-Cha."
+       }
+      },
+      {
+       "name": "Wuyi Rock Oolong",
+       "name_fr": "Wuyi Rock Oolong",
+       "name_it": "Wuyi Rock Oolong",
+       "slug": "wuyi-rock",
+       "color": "#a06820",
+       "name_es": "Wuyi Rock",
+       "panel": {
+        "origin": "Wuyi Rock Oolongs (Yancha, 'cliff tea') are produced within the Wuyi Mountain Scenic Area (Wuyishan) of northern Fujian — a UNESCO World Heritage Site. The tea grows in the narrow gullies between dramatic basalt cliffs, where mineral-rich red soil and microclimate create the 'rock rhyme' (yan yun) character. Key cultivars include Shui Xian (water sprite), Rou Gui (cassia/cinnamon), Huang Guan Yin, and Jin Jun Mei (a black tea variant). Heavy charcoal roasting is essential to developing the style's characteristic complexity.",
+        "mixology": "Flavor profile: mineral, roasted (charcoal, cinnamon, dark spice), deep amber to dark orange; yan yun (rock rhyme) — a persistent mineral resonance in the throat after each sip; dried fruit (longan, date). Brew gongfu: 7g per 100ml; boiling (100°C); 10–20 second infusions; 10–15+ infusions. The roasted character softens with multiple infusions revealing floral notes underneath.",
+        "examples": "Rou Gui (Cinnamon rock oolong), Shui Xian (Narcissus), Huang Guan Yin. Sources: Yunnan Sourcing, What-Cha, Crimson Lotus Tea, Origin Tea."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BLACK TEAS",
+   "name_fr": "THÉS NOIRS",
+   "name_it": "TÈ NERI",
+   "name_es": "TÉS NEGROS",
+   "color": "#7a3820",
+   "textColor": "#ffe0c0",
+   "sub": [
+    {
+     "name": "Black Teas",
+     "name_fr": "Thés Noirs",
+     "name_it": "Tè Neri",
+     "name_es": "Tés Negros",
+     "color": "#7a3820",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Darjeeling First Flush",
+       "name_fr": "Darjeeling First Flush",
+       "name_it": "Darjeeling First Flush",
+       "slug": "darjeeling-first",
+       "color": "#a05030",
+       "name_es": "Darjeeling Primera Cosecha",
+       "panel": {
+        "origin": "Darjeeling First Flush is harvested from late February to late April in the Darjeeling District of West Bengal, India, at elevations of 2,000–2,500 meters in the foothills of the Himalayas. The 'muscatel' character unique to Darjeeling tea results from the combination of the Chinese-origin Camellia sinensis var. sinensis plant, altitude, and specific soil conditions — a terroir-driven phenomenon impossible to replicate elsewhere. First flush (early spring harvest) produces the lightest, most delicate, most aromatic teas — prized for their green-tinged appearance and spring freshness.",
+        "mixology": "Flavor profile: light, delicate; muscatel (white grape, melon), floral (rose, jasmine), spring freshness; very light golden liquor; slight astringency; green-tinged character. ABV: N/A. Brew at 85–90°C (185–194°F); 3g per 200ml; 2–3 minutes; 2–3 infusions. Drunk plain (no milk) to appreciate the delicate aromatics. Pairs with: fresh pastries, mild cheeses, cucumber sandwiches.",
+        "examples": "Estate-specific: Makaibari Estate First Flush, Castleton Estate, Namring Estate, Jungpana Estate. Available: Darjeeling Tea House (UK), Glenburn Boutique, Teabox (India)."
+       }
+      },
+      {
+       "name": "Darjeeling Second Flush",
+       "name_fr": "Darjeeling Second Flush",
+       "name_it": "Darjeeling Second Flush",
+       "slug": "darjeeling-second",
+       "color": "#904020",
+       "name_es": "Darjeeling Segunda Cosecha",
+       "panel": {
+        "origin": "Darjeeling Second Flush is harvested in May–June, when warmer temperatures produce fuller, darker leaves. The second flush is considered by many connoisseurs to be superior to the first — producing the classic 'Champagne of Teas' character with peak muscatel expression. The 'in-between' or 'Monsoon' flush (June–August) is less prized. Second flush leaves show characteristic 'silver tips' (young buds) and the distinctive copper-red liquor. The full muscatel character only develops with the slightly more mature second flush leaves.",
+        "mixology": "Flavor profile: the peak muscatel expression — white grapes, apricot, honey, floral; amber-copper liquor; fuller body than first flush; refined astringency; long finish. Brew at 90–95°C (194–203°F); 3–4g per 200ml; 3–4 minutes; 2–3 infusions. Can take a small amount of milk without losing the muscatel; traditionally served plain. Pairs with: Victoria sponge, sandwiches, mild blue cheese.",
+        "examples": "Estate benchmarks: Castleton Muscatel, Makaibari Silver Tips, Jungpana Special Muscatel. Annual auctions in Kolkata determine trophy lots. Available: Lochan Tea, Darjeeling Tea Boutique."
+       }
+      },
+      {
+       "name": "Assam",
+       "name_fr": "Assam",
+       "name_it": "Assam",
+       "slug": "assam",
+       "color": "#7a3820",
+       "name_es": "Assam",
+       "panel": {
+        "origin": "Assam is the world's largest tea-growing region, producing 55–60% of India's total output from the Brahmaputra River valley of Assam state. The indigenous Camellia sinensis var. assamica plant (discovered by Robert Bruce in 1823) produces large leaves suited to the hot, humid, low-elevation conditions. Assam's TGFOP (Tippy Golden Flowery Orange Pekoe) grades indicate the proportion of golden tips (fine young buds). Assam is the backbone of classic English Breakfast and Irish Breakfast blends, chosen for its malty punch and ability to support milk.",
+        "mixology": "Flavor profile: bold, malty (grainy, biscuity), full-bodied; brisk, assertive astringency; amber to dark liquor; works well with milk. CTC (crush-tear-curl) Assam: stronger, used in tea bags; Orthodox Assam: more nuanced. Brew at 95–100°C (203–212°F); 3–4g per 200ml; 3–5 minutes; typically single infusion. Milk optional. Pairs with: a full English breakfast, buttered toast, strong cheddar.",
+        "examples": "TGFOP grades from: Mangalam Estate, Harmutty Estate, Doomur Dullung. Brands: Tetley (CTC Assam base), Harney & Sons Assam, Barry's Tea (Irish Breakfast = Assam)."
+       }
+      },
+      {
+       "name": "Ceylon",
+       "name_fr": "Ceylon",
+       "name_it": "Ceylon",
+       "slug": "ceylon",
+       "color": "#8a4028",
+       "name_es": "Ceilán",
+       "panel": {
+        "origin": "Ceylon tea is produced in Sri Lanka (formerly British Ceylon) across several distinct growing regions: Uva (high grown, brisk, menthol), Nuwara Eliya (highest, most delicate, referred to as 'the Champagne of Ceylon'), Dimbula (medium grown, full-bodied), Kandy (medium, balanced), Ruhuna (low grown, robust, dark). The island's tea industry was built after the 1869 coffee blight destroyed the plantation economy; Scottish planter James Taylor planted the first tea in 1867. Ceylon teas are known for their golden tips, bright liquor, and versatility.",
+        "mixology": "Flavor profile: bright, golden liquor; medium body; citrus and stone fruit notes (Nuwara Eliya: delicate, flowery; Uva: brisk, menthol, 'Uva flavour' from seasonal winds; Dimbula: mellow, smooth; Ruhuna: dark, bold). Brew at 95°C (203°F); 3g per 200ml; 3–4 minutes; single infusion. Excellent for iced tea. Pairs with: milk and sugar (Dimbula/Ruhuna), plain for high-grown varieties.",
+        "examples": "Nuwara Eliya: Lover's Leap Estate. Uva: Kenilworth Estate (when 'Uva flavour' seasonal). Dimbula: Luckyland Estate. Available: Dilmah (Sri Lanka's national brand), Harney & Sons Ceylon."
+       }
+      },
+      {
+       "name": "Keemun",
+       "name_fr": "Keemun",
+       "name_it": "Keemun",
+       "slug": "keemun",
+       "color": "#603018",
+       "name_es": "Keemun",
+       "panel": {
+        "origin": "Keemun (Qimen Hong Cha) is China's most famous black tea, produced in Qimen County, Anhui Province, since 1875 when local official Yu Ganchen learned production techniques from Fujian. It forms the backbone of English Breakfast blend in the UK (alongside Assam and Ceylon). Keemun's distinctive 'orchid fragrance' (兰花香, lán huā xiāng) and gentle wine-like complexity come from the unique combination of the local Zhu Ye Zhong cultivar and Anhui's humid mountain climate. At its best, Keemun is compared to a fine Burgundy wine in complexity.",
+        "mixology": "Flavor profile: delicate, complex; orchid, rose, wine-like fruit; mellow without astringency; gentle smokiness; sweet finish; dark amber liquor with red hue. Brew at 90–95°C (194–203°F); 3–4g per 200ml; 3–4 minutes; 2 infusions. Excellent plain or with small amount of milk. Keemun Hao Ya ('fine bud') is the most prized grade. Pairs with: light pastries, mild cheeses, afternoon tea sandwiches.",
+        "examples": "Keemun Hao Ya A (highest grade), Keemun Mao Feng (twisted leaf), Keemun Fragrant Snail. Available: Upton Tea Imports, Harney & Sons Keemun, What-Cha Keemun Mao Feng."
+       }
+      },
+      {
+       "name": "Lapsang Souchong",
+       "name_fr": "Lapsang Souchong",
+       "name_it": "Lapsang Souchong",
+       "slug": "lapsang-souchong",
+       "color": "#4a2010",
+       "name_es": "Lapsang Souchong",
+       "panel": {
+        "origin": "Lapsang Souchong (Zheng Shan Xiao Zhong) is the world's first black tea, originating in the Wuyi Mountains of Fujian Province around the 17th century. The distinctive pine-smoke character came from an accidental discovery: soldiers occupying a tea factory delayed production; to speed up the drying process, workers used pine wood fires, infusing the leaves with smoke. European traders (particularly Dutch) immediately embraced the smoky character, creating global demand. The term 'souchong' derives from 'xiao zhong' (small leaf) variety.",
+        "mixology": "Flavor profile: intensely smoky (pine, campfire, bacon, whisky); full-bodied; dark amber to mahogany liquor; long smoky finish. Zheng Shan Xiao Zhong (authentic) has subtler smoke and natural longan-fruit sweetness beneath. Brew at 95°C; 3g per 200ml; 3–4 minutes; 1–2 infusions. Outstanding with milk (cuts the smoke, dairy-smoke harmony like bacon and cream). Pairs with: smoky foods, cheese, whisky, strong cheeses, smoked salmon.",
+        "examples": "Authentic Zhengshan Xiaojhong (Tongmuguan, Wuyi): What-Cha, Yunnan Sourcing. Commercial Lapsang: Twinings Lapsang Souchong, Harney & Sons. Note: Taiwanese 'Lapsang' is artificially smoke-flavored."
+       }
+      },
+      {
+       "name": "Yunnan Dian Hong",
+       "name_fr": "Yunnan Dian Hong",
+       "name_it": "Yunnan Dian Hong",
+       "slug": "dian-hong",
+       "color": "#904030",
+       "name_es": "Yunnan Dian Hong",
+       "panel": {
+        "origin": "Yunnan Dian Hong ('Yunnan Red') is produced from Yunnan's ancient, large-leaf Camellia sinensis var. assamica in the southwestern Chinese province of Yunnan. The large, ancient tea trees of Yunnan produce buds rich in golden tips. Dian Hong was first produced in 1939 by Feng Shaoqiu during the Japanese invasion when tea industry pioneers shifted production to Yunnan. The style ranges from standard grades to all-golden-bud teas (Jin Zhen — Golden Needles) fetching high prices for their caramel and honey character.",
+        "mixology": "Flavor profile: rich, malty, honey-like; caramel, chocolate, dried longan; golden to copper liquor; softer astringency than Assam; warming. Jin Zhen (golden tips only): intensely sweet, caramel, almost cream. Brew at 90–95°C (194–203°F); 3–4g per 200ml; 3 minutes; 2–3 infusions. Excellent without milk to appreciate the honey-malt complexity. Pairs with: dark chocolate, walnut cake, mild spiced dishes.",
+        "examples": "Dian Hong Golden Bud (Jin Zhen): Yunnan Sourcing benchmark. Classic Dian Hong: What-Cha, Mandala Tea. Brands: Yunnan Sourcing (specialty), Harney & Sons Yunnan."
+       }
+      },
+      {
+       "name": "Nilgiri",
+       "name_fr": "Nilgiri",
+       "name_it": "Nilgiri",
+       "slug": "nilgiri",
+       "color": "#885038",
+       "name_es": "Nilgiri",
+       "panel": {
+        "origin": "Nilgiri tea is grown in the Nilgiri Hills ('Blue Mountains') of Tamil Nadu, Karnataka, and Kerala in southern India, at elevations of 1,000–2,500 meters. The Nilgiris produces both orthodox and CTC teas year-round (unlike Darjeeling's seasonal flushes) due to its consistently mild climate. The best Nilgiri teas — particularly the frost-affected winter teas (December–February) — develop unique floral and fruity notes from cold stress. Nilgiri is the primary component of most British iced tea and is excellent for cold brewing.",
+        "mixology": "Flavor profile: bright, fragrant, brisk; light body; citrus, floral (blue tea), clean; excellent clarity when brewed. Winter Nilgiri (frost teas): more aromatic, honeyed, floral. Excellent cold brewed. Brew at 95°C; 3g per 200ml; 3–4 minutes. Outstanding for iced tea — brighter and clearer than Assam or Ceylon when chilled. Pairs with: Indian food, light desserts, fruit.",
+        "examples": "Frost Nilgiri: Thiashola Estate (winter teas). Orthodox Nilgiri: Chamraj Estate, Glendale Estate, Korakundah Estate. Available: Teabox, Upton Tea Imports."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PU-ERH & FERMENTED",
+   "name_fr": "PU-ERH & FERMENTÉS",
+   "name_it": "PU-ERH & FERMENTATI",
+   "name_es": "PU-ERH Y FERMENTADOS",
+   "color": "#5a3828",
+   "textColor": "#f8e8d8",
+   "sub": [
+    {
+     "name": "Pu-erh & Fermented",
+     "name_fr": "Pu-erh & Fermentés",
+     "name_it": "Pu-erh & Fermentati",
+     "name_es": "Pu-erh y Fermentados",
+     "color": "#5a3828",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Raw Pu-erh (Sheng)",
+       "name_fr": "Raw Pu-erh (Sheng)",
+       "name_it": "Raw Pu-erh (Sheng)",
+       "slug": "sheng-puerh",
+       "color": "#806040",
+       "name_es": "Pu-erh Crudo (Sheng)",
+       "panel": {
+        "origin": "Raw Pu-erh (Sheng Cha) is produced from sun-dried mao cha (crude tea) from large-leaf Yunnan tea trees — often ancient trees (gu shu, 'old arbor') 100–1,000+ years old. The tea is typically pressed into cakes (bing cha), bricks (zhuan cha), or tuo-shaped nests for aging. Raw Pu-erh ages dramatically over time: young sheng (1–5 years) is bright, bitter, astringent, fresh; medium-aged (10–20 years) becomes more complex, mellow; aged sheng (30–50+ years) from Hong Kong storage can be extraordinarily complex. Genuine aged Pu-erh from famous factories (Menghai Tea Factory — 'Dayi,' CNNP) is among the world's most traded and collectible tea.",
+        "mixology": "Flavor profile — Young: bright, bitter, astringent, camphor, stone fruit, forest floor; sharp and challenging. Aged: deep amber to red; dates, dried fruit, earthiness, leather, camphor, medicinal; soft, warming, complex. Brew gongfu: 7–8g per 100ml; 95–100°C; flash rinse then 5–15 second infusions; 15–25+ infusions from aged cakes. Many collectors drink young sheng now while laying down identical cakes for decades.",
+        "examples": "Young sheng: 2020–2024 Yunnan Sourcing productions, White2Tea, Bitterleaf Teas. Aged: 1990s–2000s Menghai Tea Factory productions, CNNP (7542 recipe), Crimson Lotus Tea."
+       }
+      },
+      {
+       "name": "Ripe Pu-erh (Shou)",
+       "name_fr": "Ripe Pu-erh (Shou)",
+       "name_it": "Ripe Pu-erh (Shou)",
+       "slug": "shou-puerh",
+       "color": "#4a2818",
+       "name_es": "Pu-erh Maduro (Shou)",
+       "panel": {
+        "origin": "Ripe Pu-erh (Shou Cha) was developed in 1973 by Menghai Tea Factory (Yunnan) to accelerate the aging process of raw Pu-erh. The 'wo dui' (wet piling) fermentation technique involves creating a large mound of mao cha, adding water, and allowing microbial activity (primarily Aspergillus niger and various bacteria) to transform the tea leaves over 45–60 days — approximating decades of natural aging in weeks. Ripe Pu-erh produces the characteristic dark, earthy, smooth profile associated with 'Pu-erh' in many Western markets.",
+        "mixology": "Flavor profile: very dark, opaque liquor; smooth, earthy (wet earth, composted leaves, forest floor); dark chocolate, dates; no astringency; warming. Factory smell in new shou dissipates with 6–12 months aging. Brew gongfu: 7–8g per 100ml; 95–100°C; mandatory rinse infusion (discard first); 10–15+ infusions. Excellent with dim sum or rich foods. The rinsing step washes off fermentation residue.",
+        "examples": "Menghai Tea Factory Dayi 7572 (benchmark blend), Xiaguan Tuo Cha. What-Cha, Yunnan Sourcing, Crimson Lotus Tea. Commercial: Numi Pu-erh (approx), Teavana compressed Pu-erh."
+       }
+      },
+      {
+       "name": "Aged Pu-erh (Vintage)",
+       "name_fr": "Aged Pu-erh (Vintage)",
+       "name_it": "Aged Pu-erh (Vintage)",
+       "slug": "aged-puerh",
+       "color": "#3a1808",
+       "name_es": "Pu-erh Envejecido",
+       "panel": {
+        "origin": "Aged Pu-erh (Vintage / Old Pu-erh) refers to raw Pu-erh cakes aged 15–70+ years under specific storage conditions. 'Dry storage' (Guangdong, Taiwan) produces cleaner, camphor, aged wood character; 'Wet storage' (traditional Hong Kong warehouses, high humidity) produces faster transformation and deeper earthiness. The market for aged Pu-erh cakes from famous 1970s–1990s factories (Red Label, Blue Label, 88 Qing, 7542, etc.) has exploded, with collector pieces selling for thousands to tens of thousands of dollars. Authentication and provenance are major issues.",
+        "mixology": "Flavor profile: complex, deep; aged wood, camphor, leather, dried Chinese medicine, dates, red dates (hong zao); extremely smooth; warming, medicinal; no bitterness; infinite complexity. Brew gongfu: 5–6g per 100ml; 95°C; mandatory rinse; 15–30+ infusions from premium aged cakes. The best aged Pu-erh reveals different notes with each infusion — a 3–4 hour gongfu session from a single premium cake is a pinnacle tea experience.",
+        "examples": "Collectible: 1990s Menghai 7542 (88 Qing), 1980s Red/Blue Label loose leaf. Modern premium: 2005–2010 Yiwu, Bulang, Lao Banzhang single origin. Sources: Crimson Lotus Tea, Yunnan Sourcing, Beautiful Taiwan Tea, young-ish aged from What-Cha."
+       }
+      },
+      {
+       "name": "Liu Bao",
+       "name_fr": "Liu Bao",
+       "name_it": "Liu Bao",
+       "slug": "liu-bao",
+       "color": "#5a3020",
+       "name_es": "Liu Bao",
+       "panel": {
+        "origin": "Liu Bao (六堡) is a dark, fermented tea produced in Liu Bao Township, Cangwu County, Guangxi Province. One of China's oldest fermented teas, Liu Bao has been consumed in Guangdong, Guangxi, and among overseas Chinese communities in Southeast Asia (particularly Malaysia) for centuries. Unlike Shou Pu-erh's quick wet-piling, Liu Bao is traditionally pile-fermented then aged in bamboo baskets, producing a distinctly different flavor profile — a hallmark of long-aged Liu Bao is the appearance of 'golden flowers' (Eurotium cristatum fungal blooms), considered a quality marker.",
+        "mixology": "Flavor profile: earthy, smooth; areca nut (betel nut), camphor, aged wood, slight sweetness; dark amber liquor; less intensely earthy than shou Pu-erh; warming. 'Golden flower' Liu Bao adds floral, spicy complexity. Brew at 95–100°C; 6–7g per 100ml gongfu; rinse then 5–10 second infusions; 8–12 infusions. Traditionally consumed with dim sum in Guangdong restaurants.",
+        "examples": "Wuzhou Tea Factory Liu Bao (traditional benchmark). Golden flower Liu Bao: various Guangxi productions. Sources: What-Cha, Yunnan Sourcing, Mandala Tea."
+       }
+      },
+      {
+       "name": "Dark Tea (Fu Zhuan)",
+       "name_fr": "Dark Tea (Fu Zhuan)",
+       "name_it": "Dark Tea (Fu Zhuan)",
+       "slug": "fu-zhuan",
+       "color": "#6a3828",
+       "name_es": "Té Oscuro Fu Zhuan",
+       "panel": {
+        "origin": "Fu Zhuan (茯砖, 'Tuckahoe Brick') is a compressed fermented dark tea from Anhua County, Hunan Province, pressed into rectangular bricks. The defining characteristic is the deliberate cultivation of Eurotium cristatum ('golden flowers' — Jin Hua) — a beneficial mold that grows within the brick during a specialized incubation (fa hua) process, producing enzymes that transform the flavor from simple fermented tea to complex, slightly sweet, floral, and digestive. Fu Zhuan has been produced since at least the Song Dynasty for trade along the Silk Road and Tea Horse Road to Tibet and Central Asia.",
+        "mixology": "Flavor profile: earthy, musty; golden flower spice and floral notes (cardamom-like); dark amber liquor; mild astringency; warming; digestive properties. Brew at 95–100°C; boil in water with brick fragments for traditional preparation; or gongfu with 6g per 100ml; 3–5 minute infusions. Historically prepared with milk and salt in Central Asian style.",
+        "examples": "Baishaxi Anhua Fu Zhuan (benchmark). Anhua Dark Tea from Hunan. Sources: What-Cha, Yunnan Sourcing. Less commonly found in Western specialty shops than Pu-erh."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HERBAL & TISANES",
+   "name_fr": "HERBES & TISANES",
+   "name_it": "ERBE & TISANE",
+   "name_es": "INFUSIONES Y TISANAS",
+   "color": "#80a858",
+   "textColor": "#0a2000",
+   "sub": [
+    {
+     "name": "Herbal & Tisanes",
+     "name_fr": "Herbes & Tisanes",
+     "name_it": "Erbe & Tisane",
+     "name_es": "Herbales e Infusiones",
+     "color": "#80a858",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Chamomile",
+       "name_fr": "Camomille",
+       "name_it": "Camomilla",
+       "slug": "chamomile",
+       "color": "#f0d868",
+       "name_es": "Manzanilla",
+       "panel": {
+        "origin": "Chamomile (Matricaria chamomilla / German chamomile, or Chamaemelum nobile / Roman chamomile) has been used medicinally for at least 5,000 years, documented in ancient Egyptian, Greek, and Roman texts. The dried flowers are used to make an apple-scented herbal infusion not containing Camellia sinensis (technically a tisane, not tea). German chamomile is the more commonly used variety; Egyptian chamomile (grown in the Nile Valley) is considered highest quality. The apigenin compound in chamomile acts on GABA receptors, supporting its reputation as a relaxing, sleep-promoting tisane.",
+        "mixology": "Flavor profile: apple blossom, honey, mild floral sweetness; naturally caffeine-free; light yellow liquor; gentle, soothing. Brew at 90–95°C (194–203°F); 2–3g per 200ml; 5 minutes; one infusion typically. Add honey and lemon. Pairs with: honey cakes, shortbread, light fruit desserts. Blends well with lavender, lemon verbena, rose.",
+        "examples": "Egyptian chamomile (highest grade): Harney & Sons Egyptian Chamomile, Bellocq Tea Atelier. Commercial: Celestial Seasonings Sleepytime (chamomile blend), Twinings Chamomile. Loose flower: Starwest Botanicals, Mountain Rose Herbs."
+       }
+      },
+      {
+       "name": "Peppermint",
+       "name_fr": "Menthe Poivrée",
+       "name_it": "Menta Piperita",
+       "slug": "peppermint",
+       "color": "#60b878",
+       "name_es": "Menta Piperita",
+       "panel": {
+        "origin": "Peppermint (Mentha × piperita) is a hybrid of watermint and spearmint, believed to have originated in the Middle East. Unlike spearmint, peppermint contains high levels of menthol (40–55% of essential oil), creating the characteristic cooling effect. Peppermint tea is among the world's most consumed herbal tisanes. Moroccan mint tea uses Spearmint (Mentha spicata) specifically, not peppermint, with Gunpowder green tea. Oregon and Washington state (Willamette Valley, Yakima Valley) produce the majority of North American peppermint oil.",
+        "mixology": "Flavor profile: intensely cooling, menthol; refreshing, slightly sweet; clean, bright; naturally caffeine-free; long cooling finish. Brew at 90°C (194°F); 2–3g per 200ml; 5 minutes; single infusion. Outstanding as an after-dinner tisane. Pairs with: dark chocolate, lamb dishes, desserts. Iced peppermint tea is highly refreshing.",
+        "examples": "Premium loose: Harney & Sons Peppermint, Ahmad Tea Peppermint, Adagio Teas Peppermint. Commercial: Celestial Seasonings Peppermint, Twinings Peppermint. Specialty: fresh mint tisane (whole leaves, blanched) at Moroccan restaurants."
+       }
+      },
+      {
+       "name": "Hibiscus / Roselle",
+       "name_fr": "Hibiscus / Roselle",
+       "name_it": "Hibiscus / Roselle",
+       "slug": "hibiscus",
+       "color": "#e05878",
+       "name_es": "Hibisco",
+       "panel": {
+        "origin": "Hibiscus tisane is made from the dried calyces of Hibiscus sabdariffa (Roselle), a plant native to tropical Africa now grown across the Caribbean, Mexico, Sudan, Thailand, and Egypt. Known as Agua de Jamaica in Mexico and Central America, Karkadé in Egypt and Sudan, and Bissap in Senegal, it is one of the world's most globally consumed tisanes. Egypt is the largest exporter. The deep crimson color comes from anthocyanins. The flowers are also known as 'sorrel' in Jamaica. Hibiscus has among the highest antioxidant concentrations of any commonly consumed beverage.",
+        "mixology": "Flavor profile: brilliant crimson; tartness (cranberry, pomegranate, sour cherry); slightly sweet-sour; refreshing; naturally caffeine-free; high vitamin C. Brew at 95–100°C; 3–5g per 200ml; 5 minutes; drink hot with honey or chill for agua fresca. Pairs with: tropical fruits, spiced dishes, desserts. Outstanding ingredient in cocktails (hibiscus margarita, hibiscus gin fizz). High acidity — best served sweetened.",
+        "examples": "Whole dried hibiscus: Frontier Co-op, Mountain Rose Herbs, Harney & Sons. Commercial: Celestial Seasonings Red Zinger (hibiscus base). Mexican context: agua de Jamaica from any Mexican restaurant."
+       }
+      },
+      {
+       "name": "Rooibos",
+       "name_fr": "Rooibos",
+       "name_it": "Rooibos",
+       "slug": "rooibos",
+       "color": "#c07040",
+       "name_es": "Rooibos",
+       "panel": {
+        "origin": "Rooibos ('red bush') is produced exclusively from Aspalathus linearis, a shrub native to the Cederberg Mountain region of South Africa's Western Cape Province. Indigenous Khoisan people of South Africa had used the plant for centuries before Dutch settlers began commercializing it in the early 1900s. Russian immigrant Benjamin Ginsberg saw commercial potential in 1904. Rooibos is caffeine-free and extremely low in tannins (unlike Camellia sinensis). 'Green Rooibos' (unfermented) is produced alongside traditional red-fermented Rooibos and has a grassier, more delicate character.",
+        "mixology": "Flavor profile: sweet, nutty, vanilla-like; caramel, honey, earthy; amber-red liquor; no bitterness or astringency; naturally caffeine-free. Green Rooibos: lighter, grassy, less sweet. Brew at 95–100°C; 3–4g per 200ml; 5–7 minutes; naturally forgiving — over-brewing does not create bitterness. Excellent with milk (Rooibos latte), honey, and spice. Pairs with: any sweet pastry, vanilla desserts, mild dairy.",
+        "examples": "Premium: Khoisan Tea (Cederberg benchmark), Cape Rooibos Tea. Commercial: Celestial Seasonings Rooibos, Tetley Rooibos. Green Rooibos: Adagio Teas, What-Cha. Rooibos latte: widely available at specialty coffee shops."
+       }
+      },
+      {
+       "name": "Yerba Maté",
+       "name_fr": "Yerba Maté",
+       "name_it": "Yerba Maté",
+       "slug": "yerba-mate",
+       "color": "#90b058",
+       "name_es": "Yerba Maté",
+       "panel": {
+        "origin": "Yerba Maté (Ilex paraguariensis) is a caffeinated holly plant native to South America, traditionally consumed in Argentina, Uruguay, Paraguay, and southern Brazil. The dried, ground leaves are placed in a gourd (mate) and sipped through a metal straw with filter (bombilla). Argentina drinks more per capita than anywhere else — it is the de facto national drink. Maté contains caffeine, theophylline, and theobromine simultaneously, creating an alert, focused state different from coffee or tea. It is deeply ritualized: sharing maté from a single gourd is a symbol of friendship.",
+        "mixology": "Flavor profile: grassy, slightly bitter, vegetal; earthy, reminiscent of green tea but more robust; slight smokiness from traditional roasting; very long, clean caffeine effect. Traditional brewing: fill gourd 3/4 full with yerba, tilt to one side, add hot water at 70–80°C (never boiling — it destroys the nutrients and creates excessive bitterness); refill gourd repeatedly from same yerba. Commercial: maté tea bags available at health food stores.",
+        "examples": "Traditional yerba: Taragüi (Argentina), Cruz de Malta, Rosamonte (benchmark gourds). Craft: Guayakí (USA, organic, cold brew cans). Loose leaf: Adagio Maté, Harney & Sons."
+       }
+      },
+      {
+       "name": "Tulsi (Holy Basil)",
+       "name_fr": "Tulsi (Holy Basil)",
+       "name_it": "Tulsi (Holy Basil)",
+       "slug": "tulsi",
+       "color": "#70a850",
+       "name_es": "Tulsi",
+       "panel": {
+        "origin": "Tulsi (Holy Basil, Ocimum tenuiflorum) is considered the most sacred plant in Hinduism, described in Vedic texts dating to 3000 BCE. Every Hindu household traditionally grows a Tulsi plant as a symbol of divine presence. Three main varieties are used medicinally and as tisanes: Vana (wild, most potent), Rama (most common), and Krishna (purple-leafed, most clove-like). Tulsi is classified as an 'adaptogen' in Ayurvedic medicine — reducing stress and supporting homeostasis. The modern commercial market (Organic India's Tulsi teas) has introduced Tulsi globally.",
+        "mixology": "Flavor profile: complex herbal — clove, pepper, mint, lemon, rose, earthiness depending on variety; naturally caffeine-free; warming; slightly sweet finish. Vana: most peppery and intense. Rama: balanced, clove-forward. Krishna: richest clove character. Brew at 90–95°C; 3g per 200ml; 5 minutes. Pairs with: Indian food, honey, ginger. Outstanding blended with black tea, ginger, and cardamom.",
+        "examples": "Organic India Tulsi (original commercial benchmark), Pukka Herbs Three Tulsi, Banyan Botanicals. Fresh Tulsi leaves can be purchased at Indian grocery stores for home tisane."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SCENTED & BLENDED",
+   "name_fr": "PARFUMÉS & MÉLANGÉS",
+   "name_it": "AROMATIZZATI & MISCELATI",
+   "name_es": "AROMATIZADOS Y MEZCLADOS",
+   "color": "#c880c0",
+   "textColor": "#f8e8ff",
+   "sub": [
+    {
+     "name": "Scented & Blended",
+     "name_fr": "Parfumés & Mélangés",
+     "name_it": "Aromatizzati & Miscelati",
+     "name_es": "Aromatizados y Mezclados",
+     "color": "#c880c0",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Jasmine Green",
+       "name_fr": "Jasmine Green",
+       "name_it": "Jasmine Green",
+       "slug": "jasmine-green",
+       "color": "#d8a8d8",
+       "name_es": "Té de Jazmín",
+       "panel": {
+        "origin": "Jasmine-scented tea is produced in Fujian, Guangxi, and Yunnan provinces of China using a technique dating to the Song Dynasty (960–1279 CE). Fresh jasmine flowers (Jasminum sambac) are layered with tea leaves (typically Fujian green, sometimes white or oolong base) several times during the brief jasmine blooming season (June–August), allowing the flowers to release fragrance into the leaves as they open at night. The highest grades are scented 7–9 times (qi pao / jiu pao). Dragon Pearl Jasmine (loose pearls hand-rolled for gongfu presentation) is a premium format.",
+        "mixology": "Flavor profile: intensely floral jasmine; fresh, sweet; light green tea body underneath; delicate, aromatic; very low bitterness. High grades: complex and natural floral. Low grades: soapy artificial jasmine. Brew at 75–80°C (167–176°F); 3g per 150ml; 30–60 seconds; 3–4 infusions. Dragon Pearls: watch them unfurl in the glass. Pairs with: dim sum, fresh spring rolls, light Asian dishes.",
+        "examples": "Dragon Pearl Jasmine (multiple producers), Jasmine Mao Feng, Yin Hao (Silver Tip) Jasmine. Premium sources: Teavivre, Yunnan Sourcing, Harney & Sons Imperial Jasmine. Commercial: Bigelow Constant Comment (not pure jasmine), Republic of Tea Jasmine."
+       }
+      },
+      {
+       "name": "Rose Black",
+       "name_fr": "Rose Black",
+       "name_it": "Rose Black",
+       "slug": "rose-black",
+       "color": "#e878a8",
+       "name_es": "Té de Rosa Negro",
+       "panel": {
+        "origin": "Rose-scented black tea blends dried rose petals (typically Rosa damascena from Bulgaria, Turkey, or Iran — the source of most rose otto for perfumery) with black tea (usually Assam, Ceylon, or Keemun as base). Dried rose buds and petals have been used to flavor tea in the Middle East and China for centuries. The Bulgarian Valley of Roses (Kazanlak) and Turkish Isparta produce the most prized Rosa damascena for culinary and tea use. Dried rose petals in tea should be vibrant pink-red — brown indicates old, stale product.",
+        "mixology": "Flavor profile: floral rose (should be natural, not soapy or artificial); rose hip tartness in blends with hips; underlying black tea backbone; warming; romantic. Brew at 90–95°C; 3–4g per 200ml; 3–4 minutes. Outstanding with honey and a splash of milk. Pairs with: Turkish delight, rose loukoum, light pastries, Valentine's Day shortbread. Rose latte: brew strong, add steamed oat milk.",
+        "examples": "Harney & Sons Hot Cinnamon Spice (cinnamon-orange-rose blend), Fortnum & Mason Rose Pouchong, Whittard Rose Garden. Premium: Mariage Frères Rose Tea, Tea Formosa Rose Oolong."
+       }
+      },
+      {
+       "name": "Earl Grey",
+       "name_fr": "Earl Grey",
+       "name_it": "Earl Grey",
+       "slug": "earl-grey",
+       "color": "#a060c0",
+       "name_es": "Earl Grey",
+       "panel": {
+        "origin": "Earl Grey is the world's best-known flavored tea, blended with oil of bergamot (from Citrus bergamia, grown almost exclusively in the 'Bergamot Triangle' of Calabria, southern Italy). The historical origin story — that the blend was created for or by British Prime Minister Charles Grey (2nd Earl Grey) in the 1830s — is likely apocryphal, but the name stuck and the blend became Britain's most recognizable tea export. Twining's and Jacksons of Piccadilly (now owned by Twinings) claim competing origin stories. Modern variants: Lady Grey (with citrus peel), Russian Earl Grey (with citrus and flower), Earl Grey green (green tea base).",
+        "mixology": "Flavor profile: distinctive bergamot citrus (orange blossom, lemon, floral, cologne-like aroma); varies dramatically by bergamot quality — finest natural bergamot vs. synthetic bergamot. Brew at 90–95°C; 3g per 200ml; 3–4 minutes. Classic: with milk and one sugar. French style: plain in a glass. London Fog cocktail: Earl Grey + steamed milk + vanilla syrup. Pairs with: lemon cake, scones, shortbread.",
+        "examples": "Twinings Earl Grey (world benchmark volume), Harney & Sons Earl Grey Supreme (bergamot oil on Ceylon), Mariage Frères Earl Grey Impérial, Fortnum & Mason Earl Grey. Premium: Rare Tea Company Earl Grey."
+       }
+      },
+      {
+       "name": "Osmanthus Oolong",
+       "name_fr": "Osmanthus Oolong",
+       "name_it": "Osmanthus Oolong",
+       "slug": "osmanthus-oolong",
+       "color": "#f0c068",
+       "name_es": "Oolong de Osmanthus",
+       "panel": {
+        "origin": "Osmanthus (Guì Huā — 桂花) is a small flowering tree or shrub native to China and Japan, prized for its intensely sweet, apricot-peach-honey fragrance. Osmanthus scented tea — typically using oolong, green, or white tea as the base — is one of China's most beloved traditional flavored teas, produced primarily in Guilin, Guangxi and Hangzhou, Zhejiang. The osmanthus flower season is brief (mid-autumn), making fresh-flower scenting a seasonal art. Osmanthus jam, rice wine, and mooncakes are traditional autumn festival foods.",
+        "mixology": "Flavor profile: intensely sweet, apricot, honey, peach blossom, jasmine-adjacent but fruitier and warmer; clean, natural sweetness without added sugar. Brew at 85°C (185°F) for green or oolong base; 3g per 150ml; 45–60 seconds; 3–4 infusions. Pairs with: mooncakes (traditional pairing), dried fruits, honey cakes. Works beautifully as a base for tea cocktails.",
+        "examples": "Osmanthus Alishan Oolong, Osmanthus Oolong from Taiwan. Teavivre Gui Hua Oolong. Harney & Sons Osmanthus Green. Most authentic versions sourced from Guilin or Hangzhou."
+       }
+      },
+      {
+       "name": "Masala Chai",
+       "name_fr": "Masala Chai",
+       "name_it": "Masala Chai",
+       "slug": "masala-chai",
+       "color": "#d08840",
+       "name_es": "Masala Chai",
+       "panel": {
+        "origin": "Masala Chai ('spiced tea' in Hindi — 'chai' simply means tea; 'chai tea' is redundant) is the spiced milk tea of the Indian subcontinent, prepared by simmering black tea with milk, sugar, and whole spices. Every family and region has its own recipe; common spices include cardamom (most essential), ginger (fresh), cinnamon, black pepper, cloves, and star anise. The chai wallahs (tea vendors) of Indian train stations, streets, and bazaars are iconic cultural figures. The British East India Company promoted widespread tea drinking in India to create a domestic market for colonial tea production in the 20th century.",
+        "mixology": "Flavor profile: complex spice (cardamom dominant), warming ginger, underlying strong black tea (typically Assam CTC), sweet milk; rich, full-bodied; comforting. Traditional preparation: simmer tea + spices in water 2–3 min, add equal milk, simmer 2 more minutes, strain, sweeten generously. Brew strength: much stronger than Western tea — typically 4–5g per 200ml. Pairs with: samosas, pakora, biscuits, breakfast foods.",
+        "examples": "Traditional: homemade with Assam CTC + whole cardamom + ginger. Commercial: Harney & Sons Hot Cinnamon Spice, Yogi Tea Chai, Oregon Chai. Concentrate: Dona Chai (premium), David Rio. Starbucks Chai: Oregon Chai concentrate."
+       }
+      },
+      {
+       "name": "Moroccan Mint",
+       "name_fr": "Moroccan Mint",
+       "name_it": "Moroccan Mint",
+       "slug": "moroccan-mint",
+       "color": "#78c898",
+       "name_es": "Menta Marroquí",
+       "panel": {
+        "origin": "Moroccan Mint Tea (Atay) is the national drink of Morocco and an essential element of North African hospitality — refusing it is considered impolite. The tea is prepared with Gunpowder green tea, large amounts of fresh spearmint (Mentha spicata — not peppermint), and enormous quantities of sugar, boiled in an ornate silver teapot (berrad) and poured from a great height (30–60cm) into small glasses to create froth. The ceremony of preparation (repeated pouring back and forth to blend flavors) is as important as the final drink. There are usually three glasses offered — a Berber proverb says the first is 'as gentle as life, the second as strong as love, the third as bitter as death.'",
+        "mixology": "Flavor profile: intensely sweet (very heavily sugared by tradition); spearmint fresh, not cooling like peppermint; light gunpowder green tea body underneath; aromatic; refreshing despite sweetness. Preparation: boil gunpowder green tea in water, add large bundle of fresh spearmint, sugar to taste (much more than seems reasonable), pour from height, re-pour repeatedly. Pairs with: Moroccan pastries (chebakia, briouats), couscous, tagine. Never refuse the first glass in Morocco.",
+        "examples": "Authentic: any Moroccan restaurant or home. Commercial approximation: Harney & Sons Moroccan Mint, Numi Moroccan Mint, Stash Tea Morocco Mint. Tea: Temple of Heaven Gunpowder + fresh spearmint."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "REGIONAL STYLES",
+   "name_fr": "STYLES RÉGIONAUX",
+   "name_it": "STILI REGIONALI",
+   "name_es": "ESTILOS REGIONALES",
+   "color": "#6898c8",
+   "textColor": "#e8f0ff",
+   "sub": [
+    {
+     "name": "Regional Styles",
+     "name_fr": "Styles Régionaux",
+     "name_it": "Stili Regionali",
+     "name_es": "Estilos Regionales",
+     "color": "#6898c8",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Gongfu Cha Style",
+       "name_fr": "Style Gongfu Cha",
+       "name_it": "Stile Gongfu Cha",
+       "slug": "gongfu-cha",
+       "color": "#88b8e8",
+       "name_es": "Estilo Gongfu Cha",
+       "panel": {
+        "origin": "Gongfu Cha (工夫茶, 'making tea with skill') is the Chinese system of tea preparation emphasizing small brewing vessels, high leaf-to-water ratios, and multiple rapid infusions — designed to explore a tea's evolving complexity across 5–20+ brewing rounds. Originating in Chaozhou (Teochew) culture of Fujian and Guangdong, where Phoenix Dan Cong oolongs are the traditional tea, it spread to Taiwan's oolong culture and has now become the global connoisseur's approach to pu-erh, oolong, and premium black teas. The gaiwan (lidded bowl) or Yixing clay teapot are the traditional brewing vessels.",
+        "mixology": "Method: 5–8g tea per 80–100ml vessel; 80–100°C depending on tea type; 5–30 second infusions; mandatory wash infusion for pu-erh and heavily processed teas; 8–20+ sequential infusions from a single session. Gongfu reveals a tea's arc — the first infusions are brightest and most aromatic; middle infusions the most complex; final infusions the most mellow. Best experienced with Yixing clay teapot matched to the specific tea (porous clay absorbs flavors over years).",
+        "examples": "Essential equipment: gaiwan (porcelain lidded bowl), Yixing teapot, tea tray (gongfu table), fairness cup (cha hai), tasting cups. Best teas for gongfu: Phoenix Dan Cong, Da Hong Pao, Tie Guan Yin, Sheng/Shou Pu-erh. Tea spaces: Floating Leaves Tea (Seattle), Samovar Tea Bar (San Francisco)."
+       }
+      },
+      {
+       "name": "British Afternoon Tea",
+       "name_fr": "Thé de l'Après-midi Britannique",
+       "name_it": "Tè del Pomeriggio Britannico",
+       "slug": "afternoon-tea",
+       "color": "#c8a870",
+       "name_es": "Té de la Tarde Británico",
+       "panel": {
+        "origin": "British Afternoon Tea was established around 1840 by Anna Maria Stanhope, Duchess of Bedford, who found the long gap between lunch (1pm) and dinner (8pm) unsatisfying and began requesting tea and small cakes in the late afternoon. The ritual quickly became fashionable among the aristocracy. Afternoon tea (3–5pm) features finger sandwiches (cucumber, egg and cress, smoked salmon), scones with clotted cream and jam (the 'cream tea'), and cakes — served with strong black tea (Assam, Darjeeling, or blends). 'High tea' is a working-class evening meal, not the elegant ceremony often mistakenly described.",
+        "mixology": "Tea selection for Afternoon Tea: English Breakfast (Assam/Ceylon/Keemun blend) for the sandwiches; Darjeeling Second Flush for transition; Earl Grey or scented tea with cakes. Service: teapot on a stand, cups and saucers, milk (in pitcher), sugar, tea strainer. Scone debate: Devon tradition puts clotted cream first; Cornish puts jam first. Brew at 95°C; 4g per 200ml; 4 minutes; with milk.",
+        "examples": "Benchmark London Afternoon Teas: Claridge's, The Ritz, Fortnum & Mason, The Savoy, Brown's Hotel. Regional: Bettys Tea Rooms (Harrogate), Betty's Fat Rascal scone. USA: The Plaza Hotel (NYC), Lovejoy's Tea Room (San Francisco)."
+       }
+      },
+      {
+       "name": "Taiwanese Bubble Tea",
+       "name_fr": "Bubble Tea Taïwanais",
+       "name_it": "Bubble Tea Taiwanese",
+       "slug": "bubble-tea",
+       "color": "#d8a0c0",
+       "name_es": "Bubble Tea",
+       "panel": {
+        "origin": "Bubble Tea (Boba, Pearl Milk Tea) was invented in Taiwan in the 1980s — two competing claims: Liu Han-Chieh of Chun Shui Tang tea room (Taichung, 1986) added tapioca pearls to cold tea, and Tu Tsong-he of Hanlin Tea Room (Tainan, ~1990). The drink — brewed black or green tea, shaken with milk and sugar over ice, topped with chewy tapioca pearls (boba) — spread through Southeast Asia, then globally through the 1990s–2010s diaspora communities. The term 'bubble' originally referred to the froth from shaking, not the pearls. Now a global industry worth billions.",
+        "mixology": "Flavor profile: sweet, milky tea (black or green base), chewy tapioca pearls; highly customizable sweetness (0–100%), ice level, milk type; fruit teas without milk also common. Traditional recipe: brew strong black tea, cool, shake with condensed milk (or fresh milk), sugar, ice, pour over cooked tapioca pearls. Premium boba: brown sugar pearls, fresh fruit variants. Pairs with: itself — it is both drink and snack.",
+        "examples": "Taiwan originals: Chun Shui Tang (Taichung). USA chains: Gong Cha, Tiger Sugar (brown sugar), The Alley, Kung Fu Tea. DIY: black tapioca pearls (Wing Wah, WuFuYuan), strong Assam tea, condensed milk."
+       }
+      },
+      {
+       "name": "Tibetan Butter Tea (Po Cha)",
+       "name_fr": "Thé au Beurre Tibétain (Po Cha)",
+       "name_it": "Tè al Burro Tibetano (Po Cha)",
+       "slug": "butter-tea",
+       "color": "#c0a060",
+       "name_es": "Té de Mantequilla Tibetano",
+       "panel": {
+        "origin": "Tibetan Butter Tea (Po Cha / Bod Ja) is the traditional high-altitude beverage of Tibet, Nepal, Bhutan, and parts of northern India — consumed 20–30 times daily in traditional settings. Made from fermented, compressed dark tea (typically Pu-erh-adjacent border trade tea), churned with yak butter and salt in a traditional wooden cylinder (dong mo), the drink provides essential calories, fat, and electrolytes for life at extreme altitude. Butter tea is deeply ritualized: the host continuously refills the guest's bowl; leaving it empty signals readiness to depart. The salty, fatty character is profoundly unfamiliar to most Western palates.",
+        "mixology": "Flavor profile: rich, fatty, salty; earthy fermented tea underneath; warming, deeply satiating; unfamiliar to most Western palates (more like savory soup than tea). Traditional preparation: boil dark tea 5+ minutes, pour into churn with yak butter and salt, churn vigorously 100+ times. Modern approximation: strong Pu-erh tea + small amount of unsalted butter + pinch of salt, blended. Pairs with: tsampa (roasted barley flour) as staple diet.",
+        "examples": "Authentic only in Tibet, Nepal, Bhutan, Ladakh (India). Simulated experience: order in Tibetan restaurants in major cities. Tea: compressed dark Tibetan border trade tea (available from specialty import shops)."
+       }
+      },
+      {
+       "name": "Indian Masala Chai Service",
+       "name_fr": "Service du Masala Chai Indien",
+       "name_it": "Servizio del Masala Chai Indiano",
+       "slug": "chai-service",
+       "color": "#d09050",
+       "name_es": "Servicio de Chai Indio",
+       "panel": {
+        "origin": "Indian Masala Chai Service encompasses the entire culture of chai in India — from the street chai wallahs who serve 4am workers from aluminum kettles on coal stoves, to the glass-served railway chai, to the sophisticated preparation at home and in high-end hotels. Each region has distinct chai styles: Kashmiri Noon Chai (pink, salty, made with baking soda and green tea), Irani Chai of Hyderabad (milky, sweetened condensed milk), Gur Wali Chai (jaggery-sweetened), Sulaimani Chai (black, spiced, no milk from Kerala). Chai has become a global beverage and the world's most ordered 'tea' drink by volume.",
+        "mixology": "Regional varieties: Kashmiri Noon Chai — green tea + baking soda (creates pink) + milk + crushed nuts. Irani Chai — condensed milk, very sweet, thick. Kerala Black Chai — black tea, cardamom, no milk, lemon. Karak Chai (Gulf version) — very strong, very sweet, very milky. Masala Chai: see masala-chai entry. All share: emphasis on ritual of preparation, communal drinking, generous sweetness by Western standards.",
+        "examples": "Chai wallahs of Mumbai, Delhi, Kolkata (experience varies by city). Regional restaurants serve regional styles. Packaged: Tulsi, Wagh Bakri (India domestic leaders). Global: Blue Bottle Cardamom Tea Latte (influenced by chai)."
+       }
+      },
+      {
+       "name": "Japanese Tea Ceremony (Chado)",
+       "name_fr": "Cérémonie du Thé Japonaise (Chado)",
+       "name_it": "Cerimonia del Tè Giapponese (Chado)",
+       "slug": "chado",
+       "color": "#6a9850",
+       "name_es": "Ceremonia del Té Japonesa",
+       "panel": {
+        "origin": "Chado (茶道, 'The Way of Tea') is the Japanese tea ceremony — a ritualized preparation and serving of powdered Matcha governed by strict aesthetic principles. Developed by Sen no Rikyū (1522–1591), who codified the philosophy of wabi-cha (侘び茶) — finding beauty in simplicity, imperfection, and impermanence. The four principles (wa/harmony, kei/respect, sei/purity, jaku/tranquility) guide every movement, from the precise placement of utensils to the exact number of whisking strokes. A formal tea ceremony can last 4 hours; temae (the formal host procedure) takes years to master. Chado schools (Urasenke, Omotesenke, Mushakōjisenke) continue in Kyoto.",
+        "mixology": "Matcha preparation in ceremony: sift 2g ceremonial-grade matcha into warmed chawan (tea bowl); add 60ml hot water at 70–75°C; whisk in M-motion with bamboo chasen until frothy, no lumps. Thick matcha (koicha): 4g per 40ml; rotated not whisked; shared from one bowl. Thin matcha (usucha): the standard ceremony preparation. The wagashi (Japanese sweet) is served before the tea to prepare the palate.",
+        "examples": "Tea ceremony venues: Urasenke Chado Research Center (Kyoto), numerous tea houses in Kyoto (Urasenke Gakuen). International: Urasenke New York, Seattle Japanese Garden tea house. Equipment: marukyu-koyamaen.co.jp for authentic ceremonial matcha."
+       }
+      },
+      {
+       "name": "Moroccan Tea Service",
+       "name_fr": "Service du Thé Marocain",
+       "name_it": "Servizio del Tè Marocchino",
+       "slug": "moroccan-tea",
+       "color": "#60a898",
+       "name_es": "Servicio de Té Marroquí",
+       "panel": {
+        "origin": "Moroccan Tea Service (Atay — Berber/Darija Arabic for tea) extends beyond the drink into a full ritual of Maghrebi hospitality. The tea service is performed by the man of the house (a mark of respect and status) using an ornate silver teapot (berrad), small painted glasses on a tray (siniyya), and the theatrical high-pour to create froth. The ritual is practiced across Morocco, Algeria, Tunisia, Mauritania, and Saharan communities. The tea glass is never washed between rounds — it is cleaned by the next pour. Three glasses are traditional, each stronger, sweeter, and more steeped than the last.",
+        "mixology": "Full service includes: heating the teapot with first wash of Gunpowder green tea (discard), then brew gunpowder + fresh spearmint + enormous quantity of sugar cube; pour one glass, return to pot, repeat 3–4 times before serving; pour from maximum height for froth; serve in sequence from most honored guest first. The ceremony should not be rushed. Optional additions: orange blossom water, wormwood (chiba), pine nuts, dried roses depending on region.",
+        "examples": "Authentic: any Moroccan household or traditional restaurant (riad). Commercial approximation: Harney & Sons Moroccan Mint. Equipment: Moroccan berrad teapot sets available at specialty shops and Moroccan markets. Medina souqs in Marrakech, Fes, and Casablanca sell traditional tea sets."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FRUITY": {
+   "en": "Fruity notes — berries, citrus, tree fruit, tropical — are common in fruit-infused or flavored teas, but also occur naturally in high-quality oolongs and black teas through oxidation.",
+   "es": "Las notas afrutadas — bayas, cítricos, fruta de árbol, tropical — son comunes en los tés con infusión o saborizados, pero también ocurren de forma natural en oolongs y tés negros de alta calidad gracias a la oxidación."
+  },
+  "FLORAL": {
+   "en": "Floral notes — jasmine, orchid, rose — are signature of high-grade green and oolong teas, often coming from the tea cultivar itself or from scenting with real flowers.",
+   "es": "Las notas florales — jazmín, orquídea, rosa — son distintivas de los tés verdes y oolong de alta calidad, y a menudo provienen del propio cultivar del té o de un perfumado con flores reales."
+  },
+  "NUTTY": {
+   "en": "Nutty notes — almond, chestnut, roasted nuts — are common in roasted oolongs and some black teas, developing during the roasting or pan-firing step.",
+   "es": "Las notas a frutos secos — almendra, castaña, frutos secos tostados — son comunes en los oolongs tostados y algunos tés negros, y se desarrollan durante el paso de tostado o cocción en wok."
+  },
+  "SWEET": {
+   "en": "Sweet notes — honey, malt, caramel — develop through oxidation (in black teas) or careful withering and roasting, and signal a well-processed, high-quality tea.",
+   "es": "Las notas dulces — miel, malta, caramelo — se desarrollan a través de la oxidación (en los tés negros) o un marchitado y tostado cuidadosos, y señalan un té bien procesado y de alta calidad."
+  },
+  "SPICY": {
+   "en": "Spice notes — cinnamon, clove, pepper — are naturally occurring aromatic compounds in the tea plant itself, most pronounced in certain high-mountain and specialty cultivars.",
+   "es": "Las notas de especia — canela, clavo, pimienta — son compuestos aromáticos que ocurren naturalmente en la propia planta del té, y son más pronunciadas en ciertos cultivares de alta montaña y de especialidad."
+  },
+  "CHAR": {
+   "en": "Char notes — ash, smoke, tobacco — come from high-heat roasting or, in some traditional styles like Lapsang Souchong, from drying the leaves over a wood fire.",
+   "es": "Las notas a carbonizado — ceniza, humo, tabaco — provienen de un tostado a alta temperatura o, en algunos estilos tradicionales como el Lapsang Souchong, de secar las hojas sobre fuego de leña."
+  },
+  "VEGETAL": {
+   "en": "Vegetal notes — grass, wood, earth, mineral, marine, vegetables — are the largest and most diverse group, reflecting everything from fresh green tea (grassy) to aged pu-erh (earthy, woody).",
+   "es": "Las notas vegetales — pasto, madera, tierra, mineral, marino, vegetales — son el grupo más grande y diverso, reflejando desde el té verde fresco (herbáceo) hasta el pu-erh añejado (terroso, amaderado)."
+  }
+ }
+}

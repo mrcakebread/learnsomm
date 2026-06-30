@@ -1,0 +1,233 @@
+{
+ "title": "Tea Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Tea Styles"
+  },
+  {
+   "name": "Green Tea",
+   "slug": "green-tea",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh grass, steamed greens, umami, light sweetness"
+    },
+    {
+     "k": "Examples",
+     "v": "Sencha, Dragon Well, Gunpowder"
+    },
+    {
+     "k": "Pairing",
+     "v": "Sushi, steamed vegetables, light seafood"
+    },
+    {
+     "k": "Heads up",
+     "v": "Japanese green teas (steamed) tend to be more vegetal and umami; Chinese green teas (pan-fired) tend to be nuttier and toastier."
+    }
+   ],
+   "name_es": "Té Verde"
+  },
+  {
+   "name": "Oolong Tea",
+   "slug": "oolong-tea",
+   "rows": [
+    {
+     "k": "",
+     "v": "Floral, stone fruit, creamy, honey"
+    },
+    {
+     "k": "Examples",
+     "v": "Tie Guan Yin, Da Hong Pao, Milk Oolong"
+    },
+    {
+     "k": "Pairing",
+     "v": "Dim sum, roasted nuts, light pastries"
+    },
+    {
+     "k": "Heads up",
+     "v": "The most variable tea category — a lightly oxidized oolong can taste closer to green tea, while a heavily oxidized one can taste closer to black tea."
+    }
+   ],
+   "name_es": "Té Oolong"
+  },
+  {
+   "name": "Black Tea",
+   "slug": "black-tea",
+   "rows": [
+    {
+     "k": "",
+     "v": "Malt, cocoa, dried fruit, wood"
+    },
+    {
+     "k": "Examples",
+     "v": "Assam, Darjeeling, English Breakfast, Earl Grey"
+    },
+    {
+     "k": "Pairing",
+     "v": "Buttered toast, scones, hearty breakfasts"
+    },
+    {
+     "k": "Best for",
+     "v": "The easiest tea to add milk and sugar to — its boldness holds up well to additions"
+    }
+   ],
+   "name_es": "Té Negro"
+  },
+  {
+   "name": "White Tea",
+   "slug": "white-tea",
+   "rows": [
+    {
+     "k": "",
+     "v": "Subtle melon, hay, sweet floral"
+    },
+    {
+     "k": "Examples",
+     "v": "Silver Needle, White Peony"
+    },
+    {
+     "k": "Pairing",
+     "v": "Light fruit, delicate pastries, fresh cheeses"
+    },
+    {
+     "k": "Heads up",
+     "v": "Its delicate flavor is easily overwhelmed — avoid pairing with strong or spicy foods, and never add milk."
+    }
+   ],
+   "name_es": "Té Blanco"
+  },
+  {
+   "cat": "Essential Tea Cocktails & Variations"
+  },
+  {
+   "name": "Earl Grey Martini",
+   "slug": "earl-grey-martini",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Gin, Earl Grey tea syrup, lemon, egg white"
+    },
+    {
+     "k": "",
+     "v": "Floral"
+    },
+    {
+     "k": "",
+     "v": "Citrusy"
+    },
+    {
+     "k": "",
+     "v": "Silky"
+    },
+    {
+     "k": "Order tip",
+     "v": "The bergamot in Earl Grey is what makes this work — its citrus-floral oil bridges the gap between tea and gin beautifully."
+    }
+   ]
+  },
+  {
+   "name": "Green Tea Highball",
+   "slug": "green-tea-highball",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Japanese whisky, iced green tea, soda water"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Clean"
+    },
+    {
+     "k": "Order tip",
+     "v": "A popular izakaya order in Japan — the tea's umami softens the whisky's edge nicely."
+    }
+   ]
+  },
+  {
+   "name": "Arnold Palmer (Mocktail)",
+   "slug": "arnold-palmer-mocktail",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Black tea, lemonade"
+    },
+    {
+     "k": "",
+     "v": "Classic"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for it \"half and half\" if you want to control the sweetness — some places pre-mix it sweeter than others."
+    }
+   ]
+  },
+  {
+   "name": "Chai Spiced Latte (Variation)",
+   "slug": "chai-spiced-latte-variation",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Strong black tea, warming spices, steamed milk, honey"
+    },
+    {
+     "k": "",
+     "v": "Warm"
+    },
+    {
+     "k": "",
+     "v": "Aromatic"
+    },
+    {
+     "k": "",
+     "v": "Comforting"
+    },
+    {
+     "k": "Order tip",
+     "v": "\"Chai\" literally means \"tea\" — when ordering, \"chai latte\" specifically means the spiced black tea version, not plain tea with milk."
+    }
+   ]
+  },
+  {
+   "name": "Matcha Mojito",
+   "slug": "matcha-mojito",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "White rum, matcha powder, mint, lime, soda"
+    },
+    {
+     "k": "",
+     "v": "Vibrant"
+    },
+    {
+     "k": "",
+     "v": "Earthy"
+    },
+    {
+     "k": "",
+     "v": "Lively"
+    },
+    {
+     "k": "Order tip",
+     "v": "Matcha is powdered whole green tea leaves (not steeped and discarded), which is why it works in a shaken or blended drink rather than just brewed."
+    }
+   ]
+  }
+ ]
+}

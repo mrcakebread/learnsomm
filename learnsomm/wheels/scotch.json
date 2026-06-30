@@ -1,0 +1,440 @@
+{
+ "title": "Scotch",
+ "subject": "scotch",
+ "categories": [
+  {
+   "name": "FRUITY",
+   "name_fr": "FRUITÉ",
+   "name_it": "FRUTTATO",
+   "name_es": "AFRUTADO",
+   "color": "#00b08a",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Fruity",
+     "name_fr": "Fruité",
+     "name_it": "Fruttato",
+     "name_es": "Frutal",
+     "color": "#00b08a",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Fresh Fruit",
+       "name_fr": "Fruit Frais",
+       "name_it": "Frutta Fresca",
+       "slug": "fruity-fresh-fruit",
+       "name_es": "Fruta Fresca"
+      },
+      {
+       "name": "Estery",
+       "name_fr": "Estéré",
+       "name_it": "Estereo",
+       "name_es": "Ésteres",
+       "slug": "fruity-estery"
+      },
+      {
+       "name": "Citrus",
+       "name_fr": "Agrumes",
+       "name_it": "Agrumi",
+       "name_es": "Cítricos",
+       "slug": "fruity-citrus"
+      },
+      {
+       "name": "Fruity Sweets",
+       "name_fr": "Bonbons Fruités",
+       "name_it": "Caramelle alla Frutta",
+       "slug": "fruity-fruity-sweets",
+       "name_es": "Dulces de Fruta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLORAL",
+   "name_fr": "FLORAL",
+   "name_it": "FLOREALE",
+   "name_es": "FLORAL",
+   "color": "#e63956",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#e63956",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Fresh Flowers",
+       "name_fr": "Fleurs Fraîches",
+       "name_it": "Fiori Freschi",
+       "slug": "floral-fresh-flowers",
+       "name_es": "Flores Frescas"
+      },
+      {
+       "name": "Perfumed",
+       "name_fr": "Parfumé",
+       "name_it": "Profumato",
+       "slug": "floral-perfumed",
+       "name_es": "Perfumado"
+      },
+      {
+       "name": "Leafy",
+       "name_fr": "Feuillu",
+       "name_it": "Fogliaceo",
+       "name_es": "A Hojas",
+       "slug": "floral-leafy"
+      },
+      {
+       "name": "Plant House",
+       "name_fr": "Serre",
+       "name_it": "Serra",
+       "slug": "floral-plant-house",
+       "name_es": "Invernadero"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PEATY",
+   "name_fr": "TOURBÉ",
+   "name_it": "TORBATO",
+   "name_es": "TURBOSO",
+   "color": "#713a8c",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Peaty",
+     "name_fr": "Tourbé",
+     "name_it": "Torbato",
+     "name_es": "Turboso",
+     "color": "#713a8c",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Smoky",
+       "name_fr": "Fumé",
+       "name_it": "Affumicato",
+       "slug": "peaty-smoky",
+       "name_es": "Ahumado"
+      },
+      {
+       "name": "Medicinal",
+       "name_fr": "Médicinal",
+       "name_it": "Medicinale",
+       "name_es": "Medicinal",
+       "slug": "peaty-medicinal"
+      },
+      {
+       "name": "Burnt",
+       "name_fr": "Brûlé",
+       "name_it": "Bruciato",
+       "name_es": "Quemado",
+       "slug": "peaty-burnt"
+      },
+      {
+       "name": "Tar",
+       "name_fr": "Goudron",
+       "name_it": "Catrame",
+       "slug": "peaty-tar",
+       "name_es": "Brea"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CEREAL",
+   "name_fr": "CÉRÉALE",
+   "name_it": "CEREALE",
+   "name_es": "CEREAL",
+   "color": "#f2a122",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Cereal",
+     "name_fr": "Céréale",
+     "name_it": "Cereale",
+     "name_es": "Cereal",
+     "color": "#f2a122",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Dry Cereal",
+       "name_fr": "Céréale Sèche",
+       "name_it": "Cereale Secco",
+       "slug": "cereal-dry-cereal",
+       "name_es": "Cereal Seco"
+      },
+      {
+       "name": "Wet Cereal",
+       "name_fr": "Céréale Humide",
+       "name_it": "Cereale Umido",
+       "slug": "cereal-wet-cereal",
+       "name_es": "Cereal Húmedo"
+      },
+      {
+       "name": "Malty",
+       "name_fr": "Malté",
+       "name_it": "Maltato",
+       "slug": "cereal-malty",
+       "name_es": "A Malta"
+      },
+      {
+       "name": "Yeasty",
+       "name_fr": "Levuré",
+       "name_it": "Lievitoso",
+       "slug": "cereal-yeasty",
+       "name_es": "A Levadura"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WOODY",
+   "name_fr": "BOISÉ",
+   "name_it": "LEGNOSO",
+   "name_es": "AMADERADO",
+   "color": "#612130",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Woody",
+     "name_fr": "Boisé",
+     "name_it": "Legnoso",
+     "name_es": "Amaderado",
+     "color": "#612130",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "woody-vanilla",
+       "name_es": "Vainilla"
+      },
+      {
+       "name": "Nutty",
+       "name_fr": "Noiseté",
+       "name_it": "Tostato di Frutta Secca",
+       "name_es": "A Nueces",
+       "slug": "woody-nutty"
+      },
+      {
+       "name": "Coconut",
+       "name_fr": "Noix de Coco",
+       "name_it": "Cocco",
+       "slug": "woody-coconut",
+       "name_es": "Coco"
+      },
+      {
+       "name": "Oaky",
+       "name_fr": "Boisé",
+       "name_it": "Di Rovere",
+       "slug": "woody-oaky",
+       "name_es": "A Roble"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FEINTY",
+   "name_fr": "QUEUES",
+   "name_it": "CODE",
+   "name_es": "COLAS",
+   "color": "#006eb7",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Feinty",
+     "name_fr": "Queues",
+     "name_it": "Code",
+     "name_es": "Feints",
+     "color": "#006eb7",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Plastic",
+       "name_fr": "Plastique",
+       "name_it": "Plastica",
+       "slug": "feinty-plastic",
+       "name_es": "Plástico"
+      },
+      {
+       "name": "Sweaty",
+       "name_fr": "Sueur",
+       "name_it": "Sudore",
+       "slug": "feinty-sweaty",
+       "name_es": "A Sudor"
+      },
+      {
+       "name": "Tobacco",
+       "name_fr": "Tabac",
+       "name_it": "Tabacco",
+       "slug": "feinty-tobacco",
+       "name_es": "Tabaco"
+      },
+      {
+       "name": "Leathery",
+       "name_fr": "Cuiré",
+       "name_it": "Coriaceo",
+       "slug": "feinty-leathery",
+       "name_es": "A Cuero"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPICY",
+   "name_fr": "ÉPICÉ",
+   "name_it": "SPEZIATO",
+   "name_es": "ESPECIADO",
+   "color": "#f05a22",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Spicy",
+     "name_fr": "Épicé",
+     "name_it": "Speziato",
+     "name_es": "Especiado",
+     "color": "#f05a22",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Sherried",
+       "name_fr": "de Xérès",
+       "name_it": "di Sherry",
+       "slug": "spicy-sherried",
+       "name_es": "A Jerez"
+      },
+      {
+       "name": "Ginger",
+       "name_fr": "Gingembre",
+       "name_it": "Zenzero",
+       "slug": "spicy-ginger",
+       "name_es": "Jengibre"
+      },
+      {
+       "name": "Peppery",
+       "name_fr": "Poivré",
+       "name_it": "Pepato",
+       "slug": "spicy-peppery",
+       "name_es": "A Pimienta"
+      },
+      {
+       "name": "Dried Spices",
+       "name_fr": "Épices Séchées",
+       "name_it": "Spezie Essiccate",
+       "slug": "spicy-dried-spices",
+       "name_es": "Especias Secas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SULPHURY",
+   "name_fr": "SOUFRÉ",
+   "name_it": "SOLFOREO",
+   "name_es": "SULFUROSO",
+   "color": "#79a43b",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Sulphury",
+     "name_fr": "Sulfureux",
+     "name_it": "Solforoso",
+     "name_es": "Sulfuroso",
+     "color": "#79a43b",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Cooked Vegetables",
+       "name_fr": "Légumes Cuits",
+       "name_it": "Verdure Cotte",
+       "slug": "sulphury-cooked-vegetables",
+       "name_es": "Verduras Cocidas"
+      },
+      {
+       "name": "Meaty",
+       "name_fr": "Carné",
+       "name_it": "Carnoso",
+       "slug": "sulphury-meaty",
+       "name_es": "Cárnico"
+      },
+      {
+       "name": "Struck Match",
+       "name_fr": "Allumette Frottée",
+       "name_it": "Fiammifero Acceso",
+       "slug": "sulphury-struck-match",
+       "name_es": "Cerillo Encendido"
+      },
+      {
+       "name": "Rubbery",
+       "name_fr": "Caoutchouteux",
+       "name_it": "Gommoso",
+       "slug": "sulphury-rubbery",
+       "name_es": "A Hule"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "AROMATIC, FRUITY, FLORAL": {
+   "en": "These are the <b>good smells</b> beer is supposed to have — esters from yeast (banana, pear), hops (citrus, pine, floral), and gentle alcohols. In small doses they're the soul of the beer; in big doses they can mean a stressed, too-warm fermentation.",
+   "es": "Estos son los <b>buenos aromas</b> que la cerveza debe tener — ésteres de la levadura (plátano, pera), lúpulo (cítrico, pino, floral) y alcoholes suaves. En dosis pequeñas son el alma de la cerveza; en exceso pueden indicar una fermentación estresada o demasiado cálida."
+  },
+  "VEGETAL": {
+   "en": "Grassy, hay-like, or cooked-veg notes. A little fresh-cut grass from hops is fine; <b>cooked corn or cabbage usually points to a process fault</b> (DMS from a weak boil, or oxidation).",
+   "es": "Notas a pasto, heno o verdura cocida. Un poco de pasto recién cortado del lúpulo está bien; <b>el elote o la col cocida suele señalar un defecto de proceso</b> (DMS por un hervor débil, u oxidación)."
+  },
+  "CEREAL": {
+   "en": "The bready, grainy, malty backbone — raw grain, malt, wort, even cooked-corn adjunct. This is the <b>foundation flavor</b> every beer is built on before hops and yeast add their layers.",
+   "es": "La columna a pan, grano y malta — grano crudo, malta, mosto, incluso elote de adjuntos. Es el <b>sabor base</b> sobre el que se construye toda cerveza antes de que el lúpulo y la levadura añadan sus capas."
+  },
+  "MAILLARD": {
+   "en": "Toast, caramel, toffee, coffee, chocolate, roast — all from the <b>Maillard browning</b> of malt in the kiln and kettle. The darker the malt, the deeper these go; they define amber ales, stouts, and porters.",
+   "es": "Tostado, caramelo, toffee, café, chocolate, torrefacto — todo del <b>dorado de Maillard</b> de la malta en el horno y la olla. Cuanto más oscura la malta, más profundo; definen las ales ámbar, las stouts y las porters."
+  },
+  "PHENOLIC": {
+   "en": "Clove, smoke, spice, medicinal, or band-aid. <b>Clove and pepper are prized in Belgians and Hefeweizens</b> (the yeast makes them on purpose); plastic or medicinal phenols are a fault from wild yeast or chlorinated water.",
+   "es": "Clavo, humo, especia, medicinal o curita. <b>El clavo y la pimienta se aprecian en belgas y Hefeweizens</b> (la levadura los crea a propósito); los fenoles a plástico o medicinales son un defecto de levadura silvestre o agua clorada."
+  },
+  "FATTY": {
+   "en": "Buttery, cheesy, soapy, or oily textures. <b>Diacetyl (movie-theater butter) is the classic one</b> — a normal fermentation byproduct that good yeast cleans up; if it lingers, the beer was rushed off the yeast.",
+   "es": "Texturas mantecosas, a queso, jabonosas o aceitosas. <b>El diacetilo (mantequilla de cine) es el clásico</b> — un subproducto normal de la fermentación que la buena levadura limpia; si persiste, la cerveza se separó de la levadura demasiado pronto."
+  },
+  "SULFURY": {
+   "en": "Rotten egg, struck match, cooked veg, or canned corn. Trace sulfur is normal in fresh lager and blows off; <b>strong or lasting sulfur is usually a fermentation or DMS fault</b>.",
+   "es": "Huevo podrido, cerillo encendido, verdura cocida o elote enlatado. El azufre traza es normal en la lager fresca y se disipa; <b>el azufre fuerte o persistente suele ser un defecto de fermentación o DMS</b>."
+  },
+  "STALE": {
+   "en": "Cardboard, papery, sherry-like, leathery. This is <b>oxidation — the #1 sign of an old or badly stored beer</b>. Trans-2-nonenal gives the wet-cardboard note; light + heat + air speed it up.",
+   "es": "Cartón, papel, tipo jerez, cuero. Esto es <b>oxidación — la señal #1 de una cerveza vieja o mal almacenada</b>. El trans-2-nonenal da la nota a cartón mojado; luz, calor y aire la aceleran."
+  },
+  "ACIDIC": {
+   "en": "Sour, tart, vinegary, or acetic. <b>Deliberate and delicious in sours, lambics, and goses</b> (lactic & acetic bacteria); an unwelcome vinegar tang in any other style means contamination.",
+   "es": "Ácido, agrio, avinagrado o acético. <b>Deliberado y delicioso en sours, lambics y goses</b> (bacterias lácticas y acéticas); un toque a vinagre en cualquier otro estilo significa contaminación."
+  },
+  "SWEET": {
+   "en": "Honey, candy, syrupy, or just plain sugary. Comes from <b>unfermented residual malt sugar</b>. Balanced by hop bitterness and carbonation; too much with no balance reads as cloying or under-attenuated.",
+   "es": "Miel, dulce, jarabe o simplemente azucarado. Viene del <b>azúcar de malta residual sin fermentar</b>. Se equilibra con el amargor del lúpulo y la carbonatación; demasiado sin equilibrio resulta empalagoso o poco atenuado."
+  },
+  "MOUTHFEEL": {
+   "en": "Not a taste at all — what the beer <b>physically feels like</b>: carbonation prickle, warming alcohol, astringency (that tea-like grip), body, and creaminess. Often what separates a great beer from a good one.",
+   "es": "No es un sabor — es lo que la cerveza <b>se siente físicamente</b>: el cosquilleo de la carbonatación, el calor del alcohol, la astringencia (ese agarre tipo té), el cuerpo y la cremosidad. A menudo es lo que separa una gran cerveza de una buena."
+  },
+  "FULLNESS": {
+   "en": "How <b>big or thin the beer feels</b> on the palate — from watery to full and chewy. Driven by unfermented dextrins, proteins, and glycerol. A light lager and an imperial stout sit at opposite ends.",
+   "es": "Qué tan <b>grande o ligera se siente la cerveza</b> en el paladar — de aguada a llena y masticable. Impulsada por dextrinas sin fermentar, proteínas y glicerol. Una lager ligera y una imperial stout están en extremos opuestos."
+  }
+ }
+}

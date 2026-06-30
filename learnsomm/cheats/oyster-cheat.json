@@ -1,0 +1,179 @@
+{
+ "title": "Oyster Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Briny & Saline",
+   "slug": "briny-saline",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Sea Salt, Briny Liquor, Salinity Pop, Saline Finish"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "A hallmark of high-salinity oceanic waters — often the first impression on the palate."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The clear liquid pooled in a freshly shucked oyster — called the 'liquor' — is filtered seawater from the oyster's own habitat, and tasting it (never pour it out!) is one of the best ways to gauge an oyster's salinity."
+    }
+   ],
+   "name_es": "Salado Y Salino"
+  },
+  {
+   "name": "Sweet & Melon",
+   "slug": "sweet-melon",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Honeyed Sweetness, Melon, Honeydew, Watermelon Rind"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Often signals a lower-salinity, nutrient-rich growing environment."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "An oyster's subtle sweetness isn't from sugar — it's glycogen, an energy-storage molecule, released as you chew. That's why tasting etiquette calls for three to four chews before swallowing."
+    }
+   ],
+   "name_es": "Dulce Y Melón"
+  },
+  {
+   "name": "Vegetal & Cucumber",
+   "slug": "vegetal-cucumber",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cucumber, Fresh Grass, Green Apple Skin, Celery"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "A fresh, green character common in oysters from cooler, cleaner waters."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Pacific Ocean water is generally milder and less salty than the Atlantic, which is why West Coast oysters tend toward cucumber, melon, and butter notes rather than the brinier, mineral character of East Coast oysters."
+    }
+   ],
+   "name_es": "Vegetal Y Pepino"
+  },
+  {
+   "name": "Mineral & Metallic",
+   "slug": "mineral-metallic",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Wet Stone, Flint, Copper, Iodine"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Reflects the geology of the bay or estuary where the oyster grew."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The Belon (European Flat) oyster's strong copper-mineral finish is so distinctive that oyster lovers tend to either love it or hate it — there's rarely a middle ground."
+    }
+   ],
+   "name_es": "Mineral Y Metálico"
+  },
+  {
+   "name": "Earthy & Mushroom",
+   "slug": "earthy-mushroom",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mushroom, Mollusky / Earthy, Forest Floor, Smoke"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Can develop with time on the half shell or in oysters from muddier bottoms."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Atlantic oysters are more prone to earthy, mushroomy, and mollusky notes than their Pacific cousins — a direct reflection of the colder, often more nutrient-rich waters where Virginica oysters are grown."
+    }
+   ],
+   "name_es": "Terroso Y Champiñón"
+  },
+  {
+   "name": "Buttery & Creamy",
+   "slug": "buttery-creamy",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Butter, Cream, Custard, Brioche"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "A sign of a plump, well-fed oyster, often at peak condition."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A Blue Point oyster's finish is famously described as 'almost buttery, woody' — proof that an oyster's flavor can echo descriptors usually reserved for wine and whiskey."
+    }
+   ],
+   "name_es": "Mantecoso Y Cremoso"
+  },
+  {
+   "name": "Seaweed & Umami",
+   "slug": "seaweed-umami",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Seaweed, Ocean Breeze, Umami, Nutty"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "The savory backbone of oyster flavor, tied to algae in the water column."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Wellfleet oysters are famous for a 'distinctive seaweed finish,' while Olympia oysters are prized for 'surprisingly savory' umami — two ends of the marine flavor spectrum from a single coastline."
+    }
+   ],
+   "name_es": "Algas Y Umami"
+  },
+  {
+   "name": "Texture & Mouthfeel",
+   "slug": "texture-mouthfeel",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Crisp / Firm, Plump & Meaty, Creamy / Custardy, Silky & Smooth"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Texture is as telling as flavor — firmness and plumpness signal freshness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Cold water slows an oyster's metabolism, producing the crisp, firm texture typical of East Coast oysters — while the milder Pacific produces a creamier, custardier bite."
+    }
+   ],
+   "name_es": "Textura Y Sensación En Boca"
+  },
+  {
+   "name": "Species & Merroir",
+   "slug": "species-merroir",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Wellfleet, Blue Point, Beau Soleil, Fanny Bay, Shigoku, Hammersley, Kumamoto, Hog Island Kumamoto, Bodega Bay Kumamoto, Olympia, Belon (Maine), Belon (France)"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Where an oyster grows shapes its flavor as much as which species it is."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Just five oyster species account for the hundreds of named varieties found in North America — the differences between a Wellfleet and a Kumamoto come almost entirely from where and how each is grown, a concept oyster experts call 'merroir.'"
+    }
+   ],
+   "name_es": "Especies Y Merroir"
+  }
+ ]
+}

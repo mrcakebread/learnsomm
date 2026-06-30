@@ -1,0 +1,1375 @@
+{
+ "title": "Bubbles",
+ "subject": "bubbles",
+ "categories": [
+  {
+   "name": "CHAMPAGNE STYLES",
+   "name_fr": "STYLES DE CHAMPAGNE",
+   "name_it": "STILI DI CHAMPAGNE",
+   "name_es": "ESTILOS DE CHAMPAGNE",
+   "color": "#c9a84a",
+   "sub": [
+    {
+     "name": "CHAMPAGNE STYLES",
+     "name_fr": "STYLES DE CHAMPAGNE",
+     "name_it": "STILI DI CHAMPAGNE",
+     "name_es": "ESTILOS DE CHAMPAGNE",
+     "color": "#c9a84a",
+     "descriptors": [
+      {
+       "name": "Brut Non-Vintage",
+       "name_fr": "Brut Sans Année",
+       "name_it": "Brut senza Annata",
+       "name_es": "Brut sin Añada",
+       "slug": "brut-nv",
+       "name_de": "Brut Non-Vintage",
+       "panel": {
+        "origin": "The house style — crisp, dry, and balanced; citrus, green apple, and brioche. The everyday face of Champagne.",
+        "origin_es": "El estilo de la casa — nítido, seco y equilibrado; cítricos, manzana verde y brioche. La cara cotidiana del champagne.",
+        "origin_it": "Lo stile della maison — fresco, secco ed equilibrato; agrumi, mela verde e brioche. Il volto quotidiano dello Champagne.",
+        "chemistry": "A blend of Chardonnay, Pinot Noir, and Pinot Meunier across multiple harvests; traditional method, ~15 months min. on lees.",
+        "chemistry_es": "Una mezcla de Chardonnay, Pinot Noir y Pinot Meunier de varias añadas; método tradicional, mín. ~15 meses sobre lías.",
+        "chemistry_it": "Un assemblaggio di Chardonnay, Pinot Nero e Pinot Meunier di più vendemmie; Metodo Classico, min. ~15 mesi sui lieviti.",
+        "pairing": "Oysters, fried foods, soft cheese, canapés.",
+        "pairing_es": "Ostras, frituras, queso blando, canapés.",
+        "pairing_it": "Ostriche, fritti, formaggi molli, canapé.",
+        "mixology": "8–10°C, in a tulip glass to show the aromatics.",
+        "mixology_es": "8–10°C, en copa tulipán para mostrar los aromas.",
+        "mixology_it": "8–10°C, in calice a tulipano per esaltare gli aromi.",
+        "examples": "'NV' blends vintages for a consistent house style year to year; the backbone of every Champagne house.",
+        "examples_es": "El 'sin añada' mezcla cosechas para un estilo de casa constante cada año; la columna de toda casa de champagne.",
+        "examples_it": "Il 'NV' assembla più annate per uno stile di maison costante negli anni; la spina dorsale di ogni casa di Champagne."
+       }
+      },
+      {
+       "name": "Vintage Champagne",
+       "name_fr": "Champagne Millésimé",
+       "name_it": "Champagne Millesimato",
+       "name_es": "Champagne Millésimé",
+       "slug": "vintage",
+       "name_de": "Jahrgangschampagner",
+       "panel": {
+        "origin": "Richer, deeper, and more complex than NV; toast, nuts, and dried fruit. Made only in strong years.",
+        "origin_es": "Más rico, profundo y complejo que el sin añada; tostado, frutos secos y fruta seca. Solo en grandes años.",
+        "origin_it": "Più ricco, profondo e complesso del senza annata; tostatura, frutta secca e frutta essiccata. Prodotto solo nelle grandi annate.",
+        "chemistry": "100% from a single declared harvest; aged at least 3 years (often far longer) on the lees.",
+        "chemistry_es": "100% de una sola cosecha declarada; criado al menos 3 años (a menudo mucho más) sobre lías.",
+        "chemistry_it": "100% da una singola vendemmia dichiarata; affinato almeno 3 anni (spesso molto di più) sui lieviti.",
+        "pairing": "Roast poultry, lobster, aged hard cheese.",
+        "pairing_es": "Aves asadas, langosta, queso curado.",
+        "pairing_it": "Pollame arrosto, astice, formaggi duri stagionati.",
+        "mixology": "10–12°C, in a white-wine glass to open up the aromatics.",
+        "mixology_es": "10–12°C, en copa de vino blanco para abrir los aromas.",
+        "mixology_it": "10–12°C, in calice da vino bianco per aprire gli aromi.",
+        "examples": "Declared only in the best years; a snapshot of a single growing season.",
+        "examples_es": "Se declara solo en los mejores años; una instantánea de una sola añada.",
+        "examples_it": "Dichiarato solo nelle migliori annate; un'istantanea di una singola stagione vegetativa."
+       }
+      },
+      {
+       "name": "Blanc de Blancs",
+       "name_fr": "Blanc de Blancs",
+       "name_it": "Blanc de Blancs",
+       "name_es": "Blanc de Blancs",
+       "slug": "blanc-de-blancs",
+       "name_de": "Blanc de Blancs",
+       "panel": {
+        "origin": "Elegant, fine, and citrusy with chalky minerality; ages beautifully.",
+        "origin_es": "Elegante, fino y cítrico, con mineralidad de tiza; envejece de maravilla.",
+        "origin_it": "Elegante, fine e agrumato con mineralità gessosa; invecchia splendidamente.",
+        "chemistry": "'White from whites' — 100% Chardonnay; traditional method.",
+        "chemistry_es": "'Blanco de blancas' — 100% Chardonnay; método tradicional.",
+        "chemistry_it": "'Bianco da bianche' — 100% Chardonnay; Metodo Classico.",
+        "pairing": "Raw bar, sushi, delicate fish, fresh goat cheese.",
+        "pairing_es": "Marisco crudo, sushi, pescado delicado, queso de cabra fresco.",
+        "pairing_it": "Crudo di mare, sushi, pesce delicato, caprino fresco.",
+        "mixology": "9–11°C, tulip glass.",
+        "mixology_es": "9–11°C, copa tulipán.",
+        "mixology_it": "9–11°C, calice a tulipano.",
+        "examples": "The Côte des Blancs is its spiritual home; precise and long-lived.",
+        "examples_es": "La Côte des Blancs es su hogar espiritual; preciso y longevo.",
+        "examples_it": "La Côte des Blancs è la sua patria spirituale; preciso e longevo."
+       }
+      },
+      {
+       "name": "Blanc de Noirs",
+       "name_fr": "Blanc de Noirs",
+       "name_it": "Blanc de Noirs",
+       "name_es": "Blanc de Noirs",
+       "slug": "blanc-de-noirs",
+       "name_de": "Blanc de Noirs",
+       "panel": {
+        "origin": "Fuller and rounder, with red-fruit hints and more body, though pale gold in color.",
+        "origin_es": "Más amplio y redondo, con toques de fruta roja y más cuerpo, aunque de color dorado pálido.",
+        "origin_it": "Più pieno e rotondo, con accenni di frutta rossa e maggiore corpo, pur restando dorato pallido.",
+        "chemistry": "'White from blacks' — white wine pressed from black grapes (Pinot Noir and/or Meunier).",
+        "chemistry_es": "'Blanco de negras' — vino blanco prensado de uvas tintas (Pinot Noir y/o Meunier).",
+        "chemistry_it": "'Bianco da nere' — vino bianco ottenuto da uve nere (Pinot Nero e/o Meunier).",
+        "pairing": "Charcuterie, roast chicken, mushroom dishes.",
+        "pairing_es": "Charcutería, pollo asado, platos de setas.",
+        "pairing_it": "Salumi, pollo arrosto, piatti ai funghi.",
+        "mixology": "10–12°C, white-wine glass.",
+        "mixology_es": "10–12°C, copa de vino blanco.",
+        "mixology_it": "10–12°C, calice da vino bianco.",
+        "examples": "Power and weight from black grapes, with no skin contact for color.",
+        "examples_es": "Potencia y peso de las uvas tintas, sin contacto con la piel para el color.",
+        "examples_it": "Potenza e struttura dalle uve nere, senza contatto con le bucce per il colore."
+       }
+      },
+      {
+       "name": "Rosé Champagne",
+       "name_fr": "Champagne Rosé",
+       "name_it": "Champagne Rosé",
+       "name_es": "Champagne Rosado",
+       "slug": "rose-champagne",
+       "name_de": "Rosé-Champagner",
+       "panel": {
+        "origin": "Dry and red-fruited (strawberry, raspberry) with Champagne's signature crispness.",
+        "origin_es": "Seco y de fruta roja (fresa, frambuesa) con la nitidez característica del champagne.",
+        "origin_it": "Secco e fruttato di frutti rossi (fragola, lampone) con la freschezza tipica dello Champagne.",
+        "chemistry": "Usually by blending in a little still red wine (assemblage); occasionally by short skin maceration (saignée).",
+        "chemistry_es": "Normalmente mezclando un poco de tinto tranquilo (assemblage); a veces por maceración breve (saignée).",
+        "chemistry_it": "Di solito assemblando un po' di vino rosso fermo (assemblage); talvolta con breve macerazione sulle bucce (saignée).",
+        "pairing": "Salmon, duck, charcuterie, berries.",
+        "pairing_es": "Salmón, pato, charcutería, frutos rojos.",
+        "pairing_it": "Salmone, anatra, salumi, frutti di bosco.",
+        "mixology": "10–12°C, tulip glass.",
+        "mixology_es": "10–12°C, copa tulipán.",
+        "mixology_it": "10–12°C, calice a tulipano.",
+        "examples": "One of the few French wines where blending red into white is legal.",
+        "examples_es": "Uno de los pocos vinos franceses donde es legal mezclar tinto en blanco.",
+        "examples_it": "Uno dei pochi vini francesi in cui è legale assemblare rosso nel bianco."
+       }
+      },
+      {
+       "name": "Prestige Cuvée",
+       "name_fr": "Cuvée Prestige",
+       "name_it": "Cuvée Prestige",
+       "name_es": "Cuvée Prestige",
+       "slug": "prestige-cuvee",
+       "name_de": "Prestige-Cuvée",
+       "panel": {
+        "origin": "A house's flagship — the most complex, age-worthy, and expensive bottling.",
+        "origin_es": "El buque insignia de la casa — el embotellado más complejo, longevo y caro.",
+        "origin_it": "L'ammiraglia della maison — l'imbottigliamento più complesso, adatto all'invecchiamento e costoso.",
+        "chemistry": "Best grapes and parcels with long lees aging; e.g., Dom Pérignon, Cristal, Krug Grande Cuvée.",
+        "chemistry_es": "Las mejores uvas y parcelas con larga crianza sobre lías; p. ej., Dom Pérignon, Cristal, Krug Grande Cuvée.",
+        "chemistry_it": "Le migliori uve e parcelle con lungo affinamento sui lieviti; es. Dom Pérignon, Cristal, Krug Grande Cuvée.",
+        "pairing": "Special-occasion fare — lobster, caviar, fine poultry.",
+        "pairing_es": "Platos de ocasión — langosta, caviar, aves finas.",
+        "pairing_it": "Piatti delle grandi occasioni — astice, caviale, pollame pregiato.",
+        "mixology": "10–12°C, white-wine glass; let it warm slightly.",
+        "mixology_es": "10–12°C, copa de vino blanco; deja que se temple un poco.",
+        "mixology_it": "10–12°C, calice da vino bianco; lasciare scaldare leggermente.",
+        "examples": "The top of a house's range; built to age for decades.",
+        "examples_es": "La cima de la gama de una casa; hecho para envejecer décadas.",
+        "examples_it": "Il vertice della gamma di una maison; concepito per invecchiare decenni."
+       }
+      },
+      {
+       "name": "Grower Champagne",
+       "name_fr": "Champagne de Vigneron",
+       "name_it": "Champagne di Vignaiolo",
+       "name_es": "Champagne de Viticultor",
+       "slug": "grower-champagne",
+       "name_de": "Winzerchampagner",
+       "panel": {
+        "origin": "Distinctive and terroir-driven; expresses a single grower's vineyards rather than a house blend.",
+        "origin_es": "Distintivo y de terruño; expresa los viñedos de un solo viticultor en vez de una mezcla de casa.",
+        "origin_it": "Distintivo e legato al terroir; esprime i vigneti di un singolo vignaiolo invece di un assemblaggio di maison.",
+        "chemistry": "Grown and made by the same estate (look for 'RM' — Récoltant-Manipulant — on the label).",
+        "chemistry_es": "Cultivado y elaborado por la misma finca (busca 'RM' — Récoltant-Manipulant — en la etiqueta).",
+        "chemistry_it": "Coltivato e vinificato dalla stessa azienda (cerca 'RM' — Récoltant-Manipulant — in etichetta).",
+        "pairing": "Whatever suits its style — often food-friendly and characterful.",
+        "pairing_es": "Lo que vaya con su estilo — suele ser gastronómico y con carácter.",
+        "pairing_it": "Ciò che si adatta al suo stile — spesso versatile a tavola e di carattere.",
+        "mixology": "9–12°C depending on weight.",
+        "mixology_es": "9–12°C según el cuerpo.",
+        "mixology_it": "9–12°C secondo la struttura.",
+        "examples": "'Grower Champagne' (farmer fizz); the artisan counterpoint to the big houses.",
+        "examples_es": "'Champagne de viticultor'; el contrapunto artesano a las grandes casas.",
+        "examples_it": "'Grower Champagne' (le bollicine del vignaiolo); il contraltare artigianale alle grandi maison."
+       }
+      }
+     ],
+     "name_de": "CHAMPAGNER-STILE"
+    }
+   ],
+   "name_de": "CHAMPAGNER-STILE"
+  },
+  {
+   "name": "FRENCH CRÉMANT & PÉT-NAT",
+   "name_fr": "CRÉMANT FRANÇAIS & PÉT-NAT",
+   "name_it": "CRÉMANT FRANCESE E PÉT-NAT",
+   "name_es": "CRÉMANT FRANCÉS Y PÉT-NAT",
+   "color": "#b8923a",
+   "sub": [
+    {
+     "name": "FRENCH CRÉMANT & PÉT-NAT",
+     "name_fr": "CRÉMANT FRANÇAIS & PÉT-NAT",
+     "name_it": "CRÉMANT FRANCESE E PÉT-NAT",
+     "name_es": "CRÉMANT FRANCÉS Y PÉT-NAT",
+     "color": "#b8923a",
+     "descriptors": [
+      {
+       "name": "Crémant d'Alsace",
+       "name_fr": "Crémant d'Alsace",
+       "name_it": "Crémant d'Alsace",
+       "name_es": "Crémant de Alsacia",
+       "slug": "cremant-alsace",
+       "name_de": "Crémant d'Alsace",
+       "panel": {
+        "origin": "Fresh, floral, and crisp; apple and citrus with fine bubbles.",
+        "origin_es": "Fresco, floral y nítido; manzana y cítricos con burbuja fina.",
+        "origin_it": "Fresco, floreale e croccante; mela e agrumi con bollicine fini.",
+        "chemistry": "Traditional method, often Pinot Blanc, Pinot Gris, Riesling, and Auxerrois.",
+        "chemistry_es": "Método tradicional, a menudo Pinot Blanc, Pinot Gris, Riesling y Auxerrois.",
+        "chemistry_it": "Metodo Classico, spesso Pinot Bianco, Pinot Grigio, Riesling e Auxerrois.",
+        "pairing": "Quiche, charcuterie, soft cheese, aperitif.",
+        "pairing_es": "Quiche, charcutería, queso blando, aperitivo.",
+        "pairing_it": "Quiche, salumi, formaggi molli, aperitivo.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "France's most-produced Crémant; great Champagne-method value.",
+        "examples_es": "El Crémant más producido de Francia; gran valor por su método champenoise.",
+        "examples_it": "Il Crémant più prodotto in Francia; ottimo rapporto qualità-prezzo in Metodo Classico."
+       }
+      },
+      {
+       "name": "Crémant de Loire",
+       "name_fr": "Crémant de Loire",
+       "name_it": "Crémant de Loire",
+       "name_es": "Crémant del Loira",
+       "slug": "cremant-loire",
+       "name_de": "Crémant de Loire",
+       "panel": {
+        "origin": "Bright and honeyed with chamomile and orchard fruit.",
+        "origin_es": "Brillante y meloso, con manzanilla y fruta de huerto.",
+        "origin_it": "Brillante e mielato con camomilla e frutta da frutteto.",
+        "chemistry": "Traditional method, often Chenin Blanc (with Cabernet Franc and Chardonnay).",
+        "chemistry_es": "Método tradicional, a menudo Chenin Blanc (con Cabernet Franc y Chardonnay).",
+        "chemistry_it": "Metodo Classico, spesso Chenin Blanc (con Cabernet Franc e Chardonnay).",
+        "pairing": "Seafood, creamy cheeses, fried fish.",
+        "pairing_es": "Marisco, quesos cremosos, pescado frito.",
+        "pairing_it": "Frutti di mare, formaggi cremosi, pesce fritto.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "Chenin Blanc gives it a distinctive honeyed lift.",
+        "examples_es": "El Chenin Blanc le da un toque meloso distintivo.",
+        "examples_it": "Lo Chenin Blanc gli dona uno slancio mielato distintivo."
+       }
+      },
+      {
+       "name": "Crémant de Bourgogne",
+       "name_fr": "Crémant de Bourgogne",
+       "name_it": "Crémant de Bourgogne",
+       "name_es": "Crémant de Borgoña",
+       "slug": "cremant-bourgogne",
+       "name_de": "Crémant de Bourgogne",
+       "panel": {
+        "origin": "Rich and refined; Champagne-like with red apple and toast.",
+        "origin_es": "Rico y refinado; al estilo champagne, con manzana roja y tostado.",
+        "origin_it": "Ricco e raffinato; in stile Champagne con mela rossa e tostatura.",
+        "chemistry": "Traditional method, Chardonnay and Pinot Noir — the Champagne grapes.",
+        "chemistry_es": "Método tradicional, Chardonnay y Pinot Noir — las uvas del champagne.",
+        "chemistry_it": "Metodo Classico, Chardonnay e Pinot Nero — le uve dello Champagne.",
+        "pairing": "Gougères, poultry, soft cheese.",
+        "pairing_es": "Gougères, aves, queso blando.",
+        "pairing_it": "Gougères, pollame, formaggi molli.",
+        "mixology": "9–11°C, tulip or white-wine glass.",
+        "mixology_es": "9–11°C, tulipán o copa de vino blanco.",
+        "mixology_it": "9–11°C, tulipano o calice da vino bianco.",
+        "examples": "Burgundy's answer to Champagne, at a fraction of the price.",
+        "examples_es": "La respuesta de Borgoña al champagne, a una fracción del precio.",
+        "examples_it": "La risposta della Borgogna allo Champagne, a una frazione del prezzo."
+       }
+      },
+      {
+       "name": "Crémant de Limoux",
+       "name_fr": "Crémant de Limoux",
+       "name_it": "Crémant de Limoux",
+       "name_es": "Crémant de Limoux",
+       "slug": "cremant-limoux",
+       "name_de": "Crémant de Limoux",
+       "panel": {
+        "origin": "Fresh and floral with green apple and a creamy texture.",
+        "origin_es": "Fresco y floral, con manzana verde y textura cremosa.",
+        "origin_it": "Fresco e floreale con mela verde e una trama cremosa.",
+        "chemistry": "Traditional method, Chardonnay, Chenin, Mauzac, and Pinot Noir.",
+        "chemistry_es": "Método tradicional, Chardonnay, Chenin, Mauzac y Pinot Noir.",
+        "chemistry_it": "Metodo Classico, Chardonnay, Chenin, Mauzac e Pinot Nero.",
+        "pairing": "Seafood, salads, light cheese.",
+        "pairing_es": "Marisco, ensaladas, queso ligero.",
+        "pairing_it": "Frutti di mare, insalate, formaggi leggeri.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "From Languedoc; the area claims France's oldest sparkling tradition.",
+        "examples_es": "Del Languedoc; la zona reclama la tradición espumosa más antigua de Francia.",
+        "examples_it": "Dalla Linguadoca; la zona rivendica la più antica tradizione spumantistica di Francia."
+       }
+      },
+      {
+       "name": "Blanquette de Limoux",
+       "name_fr": "Blanquette de Limoux",
+       "name_it": "Blanquette de Limoux",
+       "name_es": "Blanquette de Limoux",
+       "slug": "blanquette-limoux",
+       "name_de": "Blanquette de Limoux",
+       "panel": {
+        "origin": "Light, appley, and floral; the rustic forebear of Limoux fizz.",
+        "origin_es": "Ligero, a manzana y floral; el antepasado rústico del espumoso de Limoux.",
+        "origin_it": "Leggero, di mela e floreale; l'antenato rustico delle bollicine di Limoux.",
+        "chemistry": "Traditional method, at least 90% Mauzac (the local 'blanquette' grape).",
+        "chemistry_es": "Método tradicional, al menos 90% Mauzac (la uva local 'blanquette').",
+        "chemistry_it": "Metodo Classico, almeno 90% Mauzac (l'uva locale detta 'blanquette').",
+        "pairing": "Apéritif, fresh cheeses, fruit tarts.",
+        "pairing_es": "Aperitivo, quesos frescos, tartas de fruta.",
+        "pairing_it": "Aperitivo, formaggi freschi, crostate di frutta.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "Monks at Saint-Hilaire reportedly made sparkling wine here in 1531 — before Champagne.",
+        "examples_es": "Los monjes de Saint-Hilaire habrían hecho espumoso aquí en 1531 — antes que el champagne.",
+        "examples_it": "Si racconta che i monaci di Saint-Hilaire vi producessero spumante nel 1531 — prima dello Champagne."
+       }
+      },
+      {
+       "name": "Pétillant Naturel",
+       "name_fr": "Pétillant Naturel",
+       "name_it": "Pétillant Naturel",
+       "name_es": "Pétillant Naturel",
+       "slug": "pet-nat",
+       "name_de": "Pétillant Naturel",
+       "panel": {
+        "origin": "Cloudy, lightly fizzy, and funky; fresh, dry-to-off-dry, often yeasty.",
+        "origin_es": "Turbio, poco burbujeante y silvestre; fresco, de seco a semiseco, a menudo con levadura.",
+        "origin_it": "Torbido, leggermente frizzante e particolare; fresco, da secco ad amabile, spesso con note di lievito.",
+        "chemistry": "Ancestral method — bottled before the first fermentation finishes, so the bubbles come from the original sugar; usually unfiltered, often capped like beer.",
+        "chemistry_es": "Método ancestral — embotellado antes de terminar la primera fermentación, así que la burbuja viene del azúcar original; suele ser sin filtrar y con chapa como la cerveza.",
+        "chemistry_it": "Metodo ancestrale — imbottigliato prima che finisca la prima fermentazione, così le bollicine nascono dallo zucchero originario; di solito non filtrato, spesso tappato a corona come la birra.",
+        "pairing": "Casual food — pizza, fried snacks, charcuterie.",
+        "pairing_es": "Comida informal — pizza, frituras, charcutería.",
+        "pairing_it": "Cibo informale — pizza, fritti, salumi.",
+        "mixology": "Cold, 7–9°C; tumbler or tulip.",
+        "mixology_es": "Frío, 7–9°C; vaso o tulipán.",
+        "mixology_it": "Freddo, 7–9°C; tumbler o tulipano.",
+        "examples": "'Pét-nat'; the low-intervention darling of natural-wine bars.",
+        "examples_es": "'Pét-nat'; el favorito de baja intervención de los bares de vino natural.",
+        "examples_it": "'Pét-nat'; il beniamino a bassa intervento dei bar di vini naturali."
+       }
+      }
+     ],
+     "name_de": "FRANZÖSISCHER CRÉMANT & PÉT-NAT"
+    }
+   ],
+   "name_de": "FRANZÖSISCHER CRÉMANT & PÉT-NAT"
+  },
+  {
+   "name": "ITALIAN SPARKLING",
+   "name_fr": "EFFERVESCENTS ITALIENS",
+   "name_it": "SPUMANTI ITALIANI",
+   "name_es": "ESPUMOSOS ITALIANOS",
+   "color": "#8aa84a",
+   "sub": [
+    {
+     "name": "ITALIAN SPARKLING",
+     "name_fr": "EFFERVESCENTS ITALIENS",
+     "name_it": "SPUMANTI ITALIANI",
+     "name_es": "ESPUMOSOS ITALIANOS",
+     "color": "#8aa84a",
+     "descriptors": [
+      {
+       "name": "Prosecco",
+       "name_fr": "Prosecco",
+       "name_it": "Prosecco",
+       "name_es": "Prosecco",
+       "slug": "prosecco",
+       "name_de": "Prosecco",
+       "panel": {
+        "origin": "Light, fruity, and floral; pear, green apple, and honeysuckle, with gentle bubbles.",
+        "origin_es": "Ligero, afrutado y floral; pera, manzana verde y madreselva, con burbuja suave.",
+        "origin_it": "Leggero, fruttato e floreale; pera, mela verde e caprifoglio, con bollicine delicate.",
+        "chemistry": "Tank (Charmat) method from the Glera grape; fast and fresh.",
+        "chemistry_es": "Método Charmat (tanque) a partir de la uva Glera; rápido y fresco.",
+        "chemistry_it": "Metodo Charmat (Martinotti) dall'uva Glera; rapido e fresco.",
+        "pairing": "Antipasti, sushi, salads, fruit; the Spritz base.",
+        "pairing_es": "Antipasti, sushi, ensaladas, fruta; la base del Spritz.",
+        "pairing_it": "Antipasti, sushi, insalate, frutta; la base dello Spritz.",
+        "mixology": "6–8°C, in a white-wine glass (not a narrow flute).",
+        "mixology_es": "6–8°C, en copa de vino blanco (no en flauta estrecha).",
+        "mixology_it": "6–8°C, in calice da vino bianco (non una flûte stretta).",
+        "examples": "Italy's runaway hit from Veneto and Friuli; made for youthful freshness.",
+        "examples_es": "El gran éxito italiano del Véneto y Friuli; hecho para la frescura juvenil.",
+        "examples_it": "Il successo travolgente d'Italia da Veneto e Friuli; fatto per la freschezza giovanile."
+       }
+      },
+      {
+       "name": "Prosecco Superiore",
+       "name_fr": "Prosecco Superiore",
+       "name_it": "Prosecco Superiore",
+       "name_es": "Prosecco Superiore",
+       "slug": "prosecco-superiore",
+       "name_de": "Prosecco Superiore",
+       "panel": {
+        "origin": "More refined and mineral than basic Prosecco, with finer fruit and texture.",
+        "origin_es": "Más refinado y mineral que el Prosecco básico, con fruta y textura más finas.",
+        "origin_it": "Più raffinato e minerale del Prosecco base, con frutto e trama più fini.",
+        "chemistry": "Tank method, Glera, from the steep hillside DOCG of Conegliano Valdobbiadene (a UNESCO landscape).",
+        "chemistry_es": "Método tanque, Glera, de la DOCG de laderas escarpadas Conegliano Valdobbiadene (paisaje UNESCO).",
+        "chemistry_it": "Metodo Charmat, Glera, dalle ripide colline della DOCG Conegliano Valdobbiadene (paesaggio UNESCO).",
+        "pairing": "Risotto, seafood, prosciutto, soft cheese.",
+        "pairing_es": "Risotto, marisco, prosciutto, queso blando.",
+        "pairing_it": "Risotto, frutti di mare, prosciutto, formaggi molli.",
+        "mixology": "6–8°C, white-wine glass.",
+        "mixology_es": "6–8°C, copa de vino blanco.",
+        "mixology_it": "6–8°C, calice da vino bianco.",
+        "examples": "The top tier of Prosecco; 'Cartizze' is its grandest cru.",
+        "examples_es": "El nivel más alto del Prosecco; 'Cartizze' es su gran cru.",
+        "examples_it": "Il vertice del Prosecco; il 'Cartizze' è il suo cru più prestigioso."
+       }
+      },
+      {
+       "name": "Franciacorta",
+       "name_fr": "Franciacorta",
+       "name_it": "Franciacorta",
+       "name_es": "Franciacorta",
+       "slug": "franciacorta",
+       "name_de": "Franciacorta",
+       "panel": {
+        "origin": "Rich, fine, and complex — Italy's most serious traditional-method sparkling.",
+        "origin_es": "Rico, fino y complejo — el espumoso de método tradicional más serio de Italia.",
+        "origin_it": "Ricco, fine e complesso — lo spumante Metodo Classico più serio d'Italia.",
+        "chemistry": "Traditional method, Chardonnay, Pinot Noir, and Pinot Blanc; long lees aging.",
+        "chemistry_es": "Método tradicional, Chardonnay, Pinot Noir y Pinot Blanc; larga crianza sobre lías.",
+        "chemistry_it": "Metodo Classico, Chardonnay, Pinot Nero e Pinot Bianco; lungo affinamento sui lieviti.",
+        "pairing": "Lobster, risotto, veal, aged cheese.",
+        "pairing_es": "Langosta, risotto, ternera, queso curado.",
+        "pairing_it": "Astice, risotto, vitello, formaggi stagionati.",
+        "mixology": "9–11°C, white-wine glass.",
+        "mixology_es": "9–11°C, copa de vino blanco.",
+        "mixology_it": "9–11°C, calice da vino bianco.",
+        "examples": "From Lombardy; Italy's closest answer to Champagne.",
+        "examples_es": "De Lombardía; la respuesta italiana más cercana al champagne.",
+        "examples_it": "Dalla Lombardia; la risposta italiana più vicina allo Champagne."
+       }
+      },
+      {
+       "name": "Trentodoc",
+       "name_fr": "Trentodoc",
+       "name_it": "Trentodoc",
+       "name_es": "Trentodoc",
+       "slug": "trentodoc",
+       "name_de": "Trentodoc",
+       "panel": {
+        "origin": "Crisp, mineral, and elegant; Alpine freshness with autolytic depth.",
+        "origin_es": "Nítido, mineral y elegante; frescura alpina con profundidad autolítica.",
+        "origin_it": "Fresco, minerale ed elegante; freschezza alpina con profondità autolitica.",
+        "chemistry": "Traditional method in mountainous Trentino, mainly Chardonnay and Pinot Noir.",
+        "chemistry_es": "Método tradicional en el montañoso Trentino, sobre todo Chardonnay y Pinot Noir.",
+        "chemistry_it": "Metodo Classico nel Trentino montano, soprattutto Chardonnay e Pinot Nero.",
+        "pairing": "Trout, risotto, mountain cheese.",
+        "pairing_es": "Trucha, risotto, queso de montaña.",
+        "pairing_it": "Trota, risotto, formaggi di montagna.",
+        "mixology": "9–11°C, white-wine glass.",
+        "mixology_es": "9–11°C, copa de vino blanco.",
+        "mixology_it": "9–11°C, calice da vino bianco.",
+        "examples": "High-altitude vineyards give it racy acidity; Ferrari is the famous name.",
+        "examples_es": "Los viñedos de altura le dan una acidez vibrante; Ferrari es el nombre famoso.",
+        "examples_it": "I vigneti d'alta quota gli danno un'acidità nervosa; Ferrari è il nome celebre."
+       }
+      },
+      {
+       "name": "Asti Spumante",
+       "name_fr": "Asti Spumante",
+       "name_it": "Asti Spumante",
+       "name_es": "Asti Spumante",
+       "slug": "asti",
+       "name_de": "Asti Spumante",
+       "panel": {
+        "origin": "Sweet, low-alcohol, and aromatic; peach, apricot, orange blossom, with intense bubbles.",
+        "origin_es": "Dulce, de baja graduación y aromático; durazno, albaricoque, azahar, con burbuja intensa.",
+        "origin_it": "Dolce, a basso tenore alcolico e aromatico; pesca, albicocca, fiori d'arancio, con bollicine intense.",
+        "chemistry": "Tank method (a single fermentation, stopped to keep sweetness) from Moscato Bianco.",
+        "chemistry_es": "Método tanque (una sola fermentación, detenida para guardar dulzor) de Moscato Bianco.",
+        "chemistry_it": "Metodo Charmat (un'unica fermentazione, interrotta per conservare la dolcezza) da Moscato Bianco.",
+        "pairing": "Cheesecake, fruit tarts, panettone, brunch.",
+        "pairing_es": "Cheesecake, tartas de fruta, panettone, brunch.",
+        "pairing_it": "Cheesecake, crostate di frutta, panettone, brunch.",
+        "mixology": "6–8°C, white-wine glass or flute.",
+        "mixology_es": "6–8°C, copa de vino blanco o flauta.",
+        "mixology_it": "6–8°C, calice da vino bianco o flûte.",
+        "examples": "'Spumante' = full sparkling; sweet, festive, and easy.",
+        "examples_es": "'Spumante' = totalmente espumoso; dulce, festivo y fácil.",
+        "examples_it": "'Spumante' = pienamente frizzante; dolce, festoso e facile."
+       }
+      },
+      {
+       "name": "Moscato d'Asti",
+       "name_fr": "Moscato d'Asti",
+       "name_it": "Moscato d'Asti",
+       "name_es": "Moscato d'Asti",
+       "slug": "moscato-asti",
+       "name_de": "Moscato d'Asti",
+       "panel": {
+        "origin": "Gently fizzy (frizzante), sweeter, and very low in alcohol (~5–6%); grapey and floral.",
+        "origin_es": "Levemente burbujeante (frizzante), más dulce y de muy baja graduación (~5–6%); a uva y floral.",
+        "origin_it": "Leggermente frizzante, più dolce e molto basso in alcol (~5–6%); aromi di uva e fiori.",
+        "chemistry": "Tank method, partial fermentation; lighter and softer than Asti Spumante.",
+        "chemistry_es": "Método tanque, fermentación parcial; más ligero y suave que el Asti Spumante.",
+        "chemistry_it": "Metodo Charmat, fermentazione parziale; più leggero e morbido dell'Asti Spumante.",
+        "pairing": "Fruit, almond biscotti, light desserts, brunch.",
+        "pairing_es": "Fruta, biscotti de almendra, postres ligeros, brunch.",
+        "pairing_it": "Frutta, biscotti alle mandorle, dolci leggeri, brunch.",
+        "mixology": "6–8°C, white-wine glass.",
+        "mixology_es": "6–8°C, copa de vino blanco.",
+        "mixology_it": "6–8°C, calice da vino bianco.",
+        "examples": "Lighter, frizzante cousin of Asti; don't confuse the two.",
+        "examples_es": "Primo más ligero y frizzante del Asti; no los confundas.",
+        "examples_it": "Cugino frizzante e più leggero dell'Asti; da non confondere."
+       }
+      },
+      {
+       "name": "Lambrusco",
+       "name_fr": "Lambrusco",
+       "name_it": "Lambrusco",
+       "name_es": "Lambrusco",
+       "slug": "lambrusco",
+       "name_de": "Lambrusco",
+       "panel": {
+        "origin": "A sparkling RED — berry-fruited, lively, dry to sweet; ruby and frothy.",
+        "origin_es": "Un TINTO espumoso — de frutos del bosque, vivo, de seco a dulce; rubí y espumoso.",
+        "origin_it": "Un ROSSO spumante — fruttato di bacche, vivace, da secco a dolce; rubino e spumeggiante.",
+        "chemistry": "Usually tank method from Lambrusco grapes in Emilia-Romagna.",
+        "chemistry_es": "Normalmente método tanque a partir de uvas Lambrusco en Emilia-Romaña.",
+        "chemistry_it": "Di solito Metodo Charmat da uve Lambrusco in Emilia-Romagna.",
+        "pairing": "Pizza, cured meats, Parmigiano, rich pasta.",
+        "pairing_es": "Pizza, embutidos, parmigiano, pasta contundente.",
+        "pairing_it": "Pizza, salumi, Parmigiano, primi piatti ricchi.",
+        "mixology": "Lightly chilled, 10–12°C, in a wine glass.",
+        "mixology_es": "Ligeramente frío, 10–12°C, en copa de vino.",
+        "mixology_it": "Leggermente fresco, 10–12°C, in calice da vino.",
+        "examples": "A perfect foil to its home region's rich food; far better than its 1980s sweet reputation.",
+        "examples_es": "Un contrapunto perfecto a la comida contundente de su región; mucho mejor que su fama dulce de los 80.",
+        "examples_it": "Un contrappunto perfetto alla cucina ricca della sua regione; assai migliore della sua fama dolciastra degli anni '80."
+       }
+      }
+     ],
+     "name_de": "ITALIENISCHER SCHAUMWEIN"
+    }
+   ],
+   "name_de": "ITALIENISCHER SCHAUMWEIN"
+  },
+  {
+   "name": "SPANISH & IBERIAN",
+   "name_fr": "ESPAGNOLS & IBÉRIQUES",
+   "name_it": "SPUMANTI IBERICI",
+   "name_es": "ESPUMOSOS IBÉRICOS",
+   "color": "#c97a2a",
+   "sub": [
+    {
+     "name": "SPANISH & IBERIAN",
+     "name_fr": "ESPAGNOLS & IBÉRIQUES",
+     "name_it": "SPUMANTI IBERICI",
+     "name_es": "ESPUMOSOS IBÉRICOS",
+     "color": "#c97a2a",
+     "descriptors": [
+      {
+       "name": "Cava",
+       "name_fr": "Cava",
+       "name_it": "Cava",
+       "name_es": "Cava",
+       "slug": "cava",
+       "name_de": "Cava",
+       "panel": {
+        "origin": "Dry and crisp with citrus, almond, and a savory edge; softer acidity than Champagne.",
+        "origin_es": "Seco y nítido, con cítricos, almendra y un borde sabroso; acidez más suave que el champagne.",
+        "origin_it": "Secco e fresco con agrumi, mandorla e una nota sapida; acidità più morbida dello Champagne.",
+        "chemistry": "Traditional method, local grapes Macabeo, Xarel·lo, and Parellada; ~9 months min. on lees.",
+        "chemistry_es": "Método tradicional, uvas locales Macabeo, Xarel·lo y Parellada; mín. ~9 meses sobre lías.",
+        "chemistry_it": "Metodo Classico, uve locali Macabeo, Xarel·lo e Parellada; min. ~9 mesi sui lieviti.",
+        "pairing": "Tapas, Manchego, paella, croquetas, fried foods.",
+        "pairing_es": "Tapas, Manchego, paella, croquetas, frituras.",
+        "pairing_it": "Tapas, Manchego, paella, croquetas, fritti.",
+        "mixology": "7–9°C, tulip glass.",
+        "mixology_es": "7–9°C, copa tulipán.",
+        "mixology_it": "7–9°C, calice a tulipano.",
+        "examples": "Mostly from Catalonia's Penedès; Champagne method, Mediterranean character.",
+        "examples_es": "Sobre todo del Penedès catalán; método champenoise, carácter mediterráneo.",
+        "examples_it": "Soprattutto dal Penedès catalano; Metodo Classico, carattere mediterraneo."
+       }
+      },
+      {
+       "name": "Cava de Paraje Calificado",
+       "name_fr": "Cava de Paraje Calificado",
+       "name_it": "Cava de Paraje Calificado",
+       "name_es": "Cava de Paraje Calificado",
+       "slug": "cava-paraje",
+       "name_de": "Cava de Paraje Calificado",
+       "panel": {
+        "origin": "The top Cava tier — complex, structured, single-estate, and long-aged.",
+        "origin_es": "El nivel más alto del Cava — complejo, estructurado, de finca única y larga crianza.",
+        "origin_it": "Il vertice del Cava — complesso, strutturato, di singola tenuta e lungamente affinato.",
+        "chemistry": "Traditional method from a single qualified vineyard; min. 36 months on lees.",
+        "chemistry_es": "Método tradicional de un solo viñedo calificado; mín. 36 meses sobre lías.",
+        "chemistry_it": "Metodo Classico da un singolo vigneto qualificato; min. 36 mesi sui lieviti.",
+        "pairing": "Lobster, jamón ibérico, aged cheese.",
+        "pairing_es": "Langosta, jamón ibérico, queso curado.",
+        "pairing_it": "Astice, jamón ibérico, formaggi stagionati.",
+        "mixology": "9–11°C, white-wine glass.",
+        "mixology_es": "9–11°C, copa de vino blanco.",
+        "mixology_it": "9–11°C, calice da vino bianco.",
+        "examples": "Introduced in 2017 to crown the finest, terroir-driven Cavas.",
+        "examples_es": "Creado en 2017 para coronar los Cavas más finos y de terruño.",
+        "examples_it": "Introdotto nel 2017 per incoronare i Cava più fini e legati al terroir."
+       }
+      },
+      {
+       "name": "Corpinnat",
+       "name_fr": "Corpinnat",
+       "name_it": "Corpinnat",
+       "name_es": "Corpinnat",
+       "slug": "corpinnat",
+       "name_de": "Corpinnat",
+       "panel": {
+        "origin": "Premium, organic, hand-harvested traditional-method sparkling with real depth.",
+        "origin_es": "Espumoso premium, ecológico y de vendimia manual por método tradicional, con verdadera profundidad.",
+        "origin_it": "Spumante Metodo Classico premium, biologico, raccolto a mano e di vera profondità.",
+        "chemistry": "A breakaway group of Penedès growers; 100% estate organic grapes, hand-picked, min. 18 months on lees.",
+        "chemistry_es": "Un grupo escindido de viticultores del Penedès; 100% uva ecológica de finca, a mano, mín. 18 meses sobre lías.",
+        "chemistry_it": "Un gruppo scissionista di viticoltori del Penedès; 100% uve biologiche di proprietà, raccolte a mano, min. 18 mesi sui lieviti.",
+        "pairing": "Fine seafood, charcuterie, aged cheese.",
+        "pairing_es": "Marisco fino, charcutería, queso curado.",
+        "pairing_it": "Frutti di mare pregiati, salumi, formaggi stagionati.",
+        "mixology": "9–11°C, white-wine glass.",
+        "mixology_es": "9–11°C, copa de vino blanco.",
+        "mixology_it": "9–11°C, calice da vino bianco.",
+        "examples": "A premium brand-mark distinct from the Cava DO, born of a quality dispute.",
+        "examples_es": "Una marca premium distinta de la DO Cava, nacida de una disputa por la calidad.",
+        "examples_it": "Un marchio premium distinto dalla DO Cava, nato da una disputa sulla qualità."
+       }
+      },
+      {
+       "name": "Vinho Verde",
+       "name_fr": "Vinho Verde",
+       "name_it": "Vinho Verde",
+       "name_es": "Vinho Verde",
+       "slug": "vinho-verde",
+       "name_de": "Vinho Verde",
+       "panel": {
+        "origin": "Light, zesty, and faintly spritzy; green apple, citrus, and low alcohol.",
+        "origin_es": "Ligero, vivo y con un leve gas; manzana verde, cítricos y baja graduación.",
+        "origin_it": "Leggero, vivace e leggermente frizzante; mela verde, agrumi e poco alcol.",
+        "chemistry": "From northwest Portugal; the gentle fizz is a light pétillant touch, not full sparkling.",
+        "chemistry_es": "Del noroeste de Portugal; el gas suave es un toque pétillant ligero, no un espumoso pleno.",
+        "chemistry_it": "Dal nord-ovest del Portogallo; il lieve frizzante è un tocco pétillant, non uno spumante pieno.",
+        "pairing": "Seafood, salads, fresh cheese; warm-weather sipping.",
+        "pairing_es": "Marisco, ensaladas, queso fresco; para beber con calor.",
+        "pairing_it": "Frutti di mare, insalate, formaggi freschi; da bere col caldo.",
+        "mixology": "7–9°C, white-wine glass.",
+        "mixology_es": "7–9°C, copa de vino blanco.",
+        "mixology_it": "7–9°C, calice da vino bianco.",
+        "examples": "'Green wine' — young and fresh; only lightly sparkling, but a classic fizzy white.",
+        "examples_es": "'Vino verde' — joven y fresco; solo levemente espumoso, pero un blanco con gas clásico.",
+        "examples_it": "'Vino verde' — giovane e fresco; solo leggermente frizzante, ma un classico bianco vivace."
+       }
+      }
+     ],
+     "name_de": "SPANISCH & IBERISCH"
+    }
+   ],
+   "name_de": "SPANISCH & IBERISCH"
+  },
+  {
+   "name": "ENGLAND, GERMANY & NEW WORLD",
+   "name_fr": "ANGLETERRE, ALLEMAGNE & NOUVEAU MONDE",
+   "name_it": "INGHILTERRA, GERMANIA E NUOVO MONDO",
+   "name_es": "INGLATERRA, ALEMANIA Y NUEVO MUNDO",
+   "color": "#6a9a8a",
+   "sub": [
+    {
+     "name": "ENGLAND, GERMANY & NEW WORLD",
+     "name_fr": "ANGLETERRE, ALLEMAGNE & NOUVEAU MONDE",
+     "name_it": "INGHILTERRA, GERMANIA E NUOVO MONDO",
+     "name_es": "INGLATERRA, ALEMANIA Y NUEVO MUNDO",
+     "color": "#6a9a8a",
+     "descriptors": [
+      {
+       "name": "English Sparkling",
+       "name_fr": "Effervescent Anglais",
+       "name_it": "Spumante Inglese",
+       "name_es": "Espumoso Inglés",
+       "slug": "english-sparkling",
+       "name_de": "Englischer Schaumwein",
+       "panel": {
+        "origin": "Crisp, racy, and high-acid with green apple, citrus, and toast; very Champagne-like.",
+        "origin_es": "Nítido, vibrante y de alta acidez, con manzana verde, cítricos y tostado; muy al estilo champagne.",
+        "origin_it": "Fresco, nervoso e di acidità elevata con mela verde, agrumi e tostatura; molto in stile Champagne.",
+        "chemistry": "Traditional method, Chardonnay/Pinot Noir/Pinot Meunier on southern England's chalk.",
+        "chemistry_es": "Método tradicional, Chardonnay/Pinot Noir/Pinot Meunier sobre la creta del sur de Inglaterra.",
+        "chemistry_it": "Metodo Classico, Chardonnay/Pinot Nero/Pinot Meunier sul gesso dell'Inghilterra meridionale.",
+        "pairing": "Fish and chips, oysters, soft cheese.",
+        "pairing_es": "Fish and chips, ostras, queso blando.",
+        "pairing_it": "Fish and chips, ostriche, formaggi molli.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "Sussex now has its own PDO; England shares Champagne's chalk and cool climate.",
+        "examples_es": "Sussex ya tiene su propia DOP; Inglaterra comparte la creta y el clima fresco del champagne.",
+        "examples_it": "Il Sussex ha ora la sua DOP; l'Inghilterra condivide il gesso e il clima fresco dello Champagne."
+       }
+      },
+      {
+       "name": "Sekt",
+       "name_fr": "Sekt",
+       "name_it": "Sekt",
+       "name_es": "Sekt",
+       "slug": "sekt",
+       "name_de": "Sekt",
+       "panel": {
+        "origin": "Ranges from simple and fruity to fine traditional-method; often Riesling-led, aromatic and zesty.",
+        "origin_es": "Va de lo simple y afrutado a un fino método tradicional; a menudo con Riesling, aromático y vivo.",
+        "origin_it": "Spazia dal semplice e fruttato al fine Metodo Classico; spesso a base Riesling, aromatico e vivace.",
+        "chemistry": "Tank method for everyday Sekt; the best ('Winzersekt') is traditional method.",
+        "chemistry_es": "Método tanque para el Sekt diario; el mejor ('Winzersekt') es método tradicional.",
+        "chemistry_it": "Metodo Charmat per il Sekt quotidiano; il migliore ('Winzersekt') è Metodo Classico.",
+        "pairing": "Schnitzel, charcuterie, apple dishes, aperitif.",
+        "pairing_es": "Schnitzel, charcutería, platos de manzana, aperitivo.",
+        "pairing_it": "Schnitzel, salumi, piatti di mela, aperitivo.",
+        "mixology": "7–9°C, tulip.",
+        "mixology_es": "7–9°C, tulipán.",
+        "mixology_it": "7–9°C, tulipano.",
+        "examples": "Germany's sparkling; Riesling Sekt brings vivid acidity and aroma.",
+        "examples_es": "El espumoso de Alemania; el Sekt de Riesling aporta acidez y aroma vívidos.",
+        "examples_it": "Lo spumante tedesco; il Sekt da Riesling porta acidità e aromi vividi."
+       }
+      },
+      {
+       "name": "California Sparkling",
+       "name_fr": "Effervescent de Californie",
+       "name_it": "Spumante Californiano",
+       "name_es": "Espumoso de California",
+       "slug": "california-sparkling",
+       "name_de": "Kalifornischer Schaumwein",
+       "panel": {
+        "origin": "Ripe and generous with orchard fruit, yet fresh; traditional-method depth.",
+        "origin_es": "Maduro y generoso, con fruta de huerto pero fresco; profundidad de método tradicional.",
+        "origin_it": "Maturo e generoso di frutta da frutteto, ma fresco; profondità del Metodo Classico.",
+        "chemistry": "Traditional method, Chardonnay and Pinot Noir, often in cool Carneros or Anderson Valley.",
+        "chemistry_es": "Método tradicional, Chardonnay y Pinot Noir, a menudo en el fresco Carneros o Anderson Valley.",
+        "chemistry_it": "Metodo Classico, Chardonnay e Pinot Nero, spesso nelle fresche Carneros o Anderson Valley.",
+        "pairing": "Fried chicken, seafood, brunch.",
+        "pairing_es": "Pollo frito, marisco, brunch.",
+        "pairing_it": "Pollo fritto, frutti di mare, brunch.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "Several houses were founded by Champagne producers seeking New World fruit.",
+        "examples_es": "Varias bodegas las fundaron productores de champagne en busca de fruta del Nuevo Mundo.",
+        "examples_it": "Diverse case furono fondate da produttori di Champagne in cerca di frutto del Nuovo Mondo."
+       }
+      },
+      {
+       "name": "Cap Classique",
+       "name_fr": "Cap Classique",
+       "name_it": "Cap Classique",
+       "name_es": "Cap Classique",
+       "slug": "cap-classique",
+       "name_de": "Cap Classique",
+       "panel": {
+        "origin": "Fresh, fine, and increasingly world-class; citrus and brioche.",
+        "origin_es": "Fresco, fino y cada vez de talla mundial; cítricos y brioche.",
+        "origin_it": "Fresco, fine e sempre più di livello mondiale; agrumi e brioche.",
+        "chemistry": "Traditional method in South Africa (Méthode Cap Classique), Chardonnay/Pinot Noir/Chenin.",
+        "chemistry_es": "Método tradicional en Sudáfrica (Méthode Cap Classique), Chardonnay/Pinot Noir/Chenin.",
+        "chemistry_it": "Metodo Classico in Sudafrica (Méthode Cap Classique), Chardonnay/Pinot Nero/Chenin.",
+        "pairing": "Seafood, sushi, soft cheese.",
+        "pairing_es": "Marisco, sushi, queso blando.",
+        "pairing_it": "Frutti di mare, sushi, formaggi molli.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "South Africa's traditional-method sparkling; quality has soared.",
+        "examples_es": "El espumoso de método tradicional de Sudáfrica; su calidad se ha disparado.",
+        "examples_it": "Lo spumante Metodo Classico del Sudafrica; la qualità è cresciuta moltissimo."
+       }
+      },
+      {
+       "name": "Tasmanian Sparkling",
+       "name_fr": "Effervescent de Tasmanie",
+       "name_it": "Spumante della Tasmania",
+       "name_es": "Espumoso de Tasmania",
+       "slug": "tasmanian",
+       "name_de": "Tasmanischer Schaumwein",
+       "panel": {
+        "origin": "Cool-climate precision — crisp, mineral, and citrus-driven with fine bubbles.",
+        "origin_es": "Precisión de clima fresco — nítido, mineral y cítrico, con burbuja fina.",
+        "origin_it": "Precisione da clima fresco — fresco, minerale e agrumato con bollicine fini.",
+        "chemistry": "Traditional method, Chardonnay and Pinot Noir from cool, southern Tasmania.",
+        "chemistry_es": "Método tradicional, Chardonnay y Pinot Noir del fresco sur de Tasmania.",
+        "chemistry_it": "Metodo Classico, Chardonnay e Pinot Nero dalla fresca Tasmania meridionale.",
+        "pairing": "Oysters, scallops, delicate fish.",
+        "pairing_es": "Ostras, vieiras, pescado delicado.",
+        "pairing_it": "Ostriche, capesante, pesce delicato.",
+        "mixology": "8–10°C, tulip.",
+        "mixology_es": "8–10°C, tulipán.",
+        "mixology_it": "8–10°C, tulipano.",
+        "examples": "Australia's premier home for serious traditional-method fizz.",
+        "examples_es": "El hogar principal de Australia para el espumoso serio de método tradicional.",
+        "examples_it": "La culla australiana per eccellenza delle bollicine serie in Metodo Classico."
+       }
+      },
+      {
+       "name": "Sparkling Shiraz",
+       "name_fr": "Shiraz Effervescent",
+       "name_it": "Sparkling Shiraz",
+       "name_es": "Shiraz Espumoso",
+       "slug": "sparkling-shiraz",
+       "name_de": "Sparkling Shiraz",
+       "panel": {
+        "origin": "A sparkling RED — bold, dark-fruited, and off-dry with soft tannin and froth.",
+        "origin_es": "Un TINTO espumoso — intenso, de fruta oscura y semiseco, con taninos suaves y espuma.",
+        "origin_it": "Un ROSSO spumante — deciso, di frutta scura e amabile con tannino morbido e spuma.",
+        "chemistry": "Australian Shiraz given a second fermentation; uniquely rich and savory.",
+        "chemistry_es": "Shiraz australiano con una segunda fermentación; singularmente rico y sabroso.",
+        "chemistry_it": "Shiraz australiano sottoposto a seconda fermentazione; unicamente ricco e sapido.",
+        "pairing": "Barbecue, roast turkey, charcuterie — a Christmas favorite Down Under.",
+        "pairing_es": "Barbacoa, pavo asado, charcutería — un favorito navideño en Australia.",
+        "pairing_it": "Barbecue, tacchino arrosto, salumi — un classico natalizio agli antipodi.",
+        "mixology": "Lightly chilled, 12–14°C, in a wine glass.",
+        "mixology_es": "Ligeramente frío, 12–14°C, en copa de vino.",
+        "mixology_it": "Leggermente fresco, 12–14°C, in calice da vino.",
+        "examples": "An Australian original; festive, hearty, and unlike any other sparkling.",
+        "examples_es": "Un original australiano; festivo, contundente y distinto a cualquier otro espumoso.",
+        "examples_it": "Un originale australiano; festoso, corposo e diverso da ogni altro spumante."
+       }
+      }
+     ],
+     "name_de": "ENGLAND, DEUTSCHLAND & NEUE WELT"
+    }
+   ],
+   "name_de": "ENGLAND, DEUTSCHLAND & NEUE WELT"
+  },
+  {
+   "name": "PRODUCTION METHODS",
+   "name_fr": "MÉTHODES DE PRODUCTION",
+   "name_it": "METODI DI PRODUZIONE",
+   "name_es": "MÉTODOS DE ELABORACIÓN",
+   "color": "#7a8a9a",
+   "sub": [
+    {
+     "name": "PRODUCTION METHODS",
+     "name_fr": "MÉTHODES DE PRODUCTION",
+     "name_it": "METODI DI PRODUZIONE",
+     "name_es": "MÉTODOS DE ELABORACIÓN",
+     "color": "#7a8a9a",
+     "descriptors": [
+      {
+       "name": "Traditional Method",
+       "name_fr": "Méthode Traditionnelle",
+       "name_it": "Metodo Classico",
+       "name_es": "Método Tradicional",
+       "slug": "traditional-method",
+       "name_de": "Traditionelle Flaschengärung",
+       "panel": {
+        "origin": "Produces the finest, most complex sparkling — fine persistent bubbles and toasty, bready autolysis.",
+        "origin_es": "Produce el espumoso más fino y complejo — burbuja fina y persistente y autólisis tostada y a pan.",
+        "origin_it": "Produce lo spumante più fine e complesso — bollicine fini e persistenti e autolisi di crosta di pane tostato.",
+        "chemistry": "The second fermentation happens in the bottle; the wine ages on the lees, then is riddled and disgorged.",
+        "chemistry_es": "La segunda fermentación ocurre en la botella; el vino cría sobre lías, luego se remueve y se degüella.",
+        "chemistry_it": "La seconda fermentazione avviene in bottiglia; il vino affina sui lieviti, poi viene remuage e sboccato.",
+        "pairing": "The rich wines it makes love shellfish, fried foods, and aged cheese.",
+        "pairing_es": "Los vinos ricos que produce adoran el marisco, las frituras y el queso curado.",
+        "pairing_it": "I vini ricchi che produce amano crostacei, fritti e formaggi stagionati.",
+        "mixology": "Serve cold, in a tulip glass to show the fine bead.",
+        "mixology_es": "Sirve frío, en copa tulipán para mostrar la burbuja fina.",
+        "mixology_it": "Servire freddo, in calice a tulipano per mostrare il perlage fine.",
+        "examples": "Used for Champagne, Cava, Crémant, Franciacorta, English sparkling, Cap Classique. AKA méthode champenoise.",
+        "examples_es": "Se usa en champagne, cava, crémant, franciacorta, espumoso inglés y cap classique. También méthode champenoise.",
+        "examples_it": "Usato per Champagne, Cava, Crémant, Franciacorta, spumante inglese, Cap Classique. Detto anche méthode champenoise."
+       }
+      },
+      {
+       "name": "Tank (Charmat) Method",
+       "name_fr": "Méthode Cuve (Charmat)",
+       "name_it": "Metodo Charmat (Martinotti)",
+       "name_es": "Método Charmat (Tanque)",
+       "slug": "tank-method",
+       "name_de": "Tankgärung (Charmat-Methode)",
+       "panel": {
+        "origin": "Keeps fresh, fruity, floral flavors and a softer, frothier bubble.",
+        "origin_es": "Conserva sabores frescos, afrutados y florales y una burbuja más suave y espumosa.",
+        "origin_it": "Conserva aromi freschi, fruttati e floreali e una bollicina più morbida e spumeggiante.",
+        "chemistry": "The second fermentation happens in large pressurized steel tanks, then the wine is bottled under pressure.",
+        "chemistry_es": "La segunda fermentación ocurre en grandes tanques de acero a presión, y luego se embotella a presión.",
+        "chemistry_it": "La seconda fermentazione avviene in grandi autoclavi d'acciaio in pressione, poi il vino è imbottigliato sotto pressione.",
+        "pairing": "The fresh wines it makes suit antipasti, salads, and light bites.",
+        "pairing_es": "Los vinos frescos que produce van bien con antipasti, ensaladas y bocados ligeros.",
+        "pairing_it": "I vini freschi che produce si abbinano ad antipasti, insalate e piccoli assaggi.",
+        "mixology": "Very cold, in a white-wine glass.",
+        "mixology_es": "Muy frío, en copa de vino blanco.",
+        "mixology_it": "Molto freddo, in calice da vino bianco.",
+        "examples": "Used for Prosecco and Asti; fast, fruit-forward, affordable. AKA the Martinotti–Charmat method.",
+        "examples_es": "Se usa en Prosecco y Asti; rápido, frutal y económico. También método Martinotti–Charmat.",
+        "examples_it": "Usato per Prosecco e Asti; rapido, fruttato, economico. Detto anche metodo Martinotti–Charmat."
+       }
+      },
+      {
+       "name": "Ancestral Method",
+       "name_fr": "Méthode Ancestrale",
+       "name_it": "Metodo Ancestrale",
+       "name_es": "Método Ancestral",
+       "slug": "ancestral-method",
+       "name_de": "Méthode ancestrale",
+       "panel": {
+        "origin": "Lightly fizzy, often cloudy, and characterful; the wine behind pét-nat.",
+        "origin_es": "Levemente burbujeante, a menudo turbio y con carácter; el vino detrás del pét-nat.",
+        "origin_it": "Leggermente frizzante, spesso torbido e di carattere; il vino dietro al pét-nat.",
+        "chemistry": "A single fermentation — the wine is bottled before it finishes, trapping natural CO₂ from the original sugar.",
+        "chemistry_es": "Una sola fermentación — el vino se embotella antes de terminar, atrapando el CO₂ natural del azúcar original.",
+        "chemistry_it": "Un'unica fermentazione — il vino è imbottigliato prima che termini, intrappolando la CO₂ naturale dallo zucchero originario.",
+        "pairing": "Casual, rustic food; charcuterie and pizza.",
+        "pairing_es": "Comida informal y rústica; charcutería y pizza.",
+        "pairing_it": "Cibo informale e rustico; salumi e pizza.",
+        "mixology": "Cold; tumbler or tulip.",
+        "mixology_es": "Frío; vaso o tulipán.",
+        "mixology_it": "Freddo; tumbler o tulipano.",
+        "examples": "The oldest sparkling technique (méthode ancestrale); no added yeast or sugar for the bubbles.",
+        "examples_es": "La técnica espumosa más antigua (méthode ancestrale); sin levadura ni azúcar añadidos para la burbuja.",
+        "examples_it": "La tecnica spumantistica più antica (méthode ancestrale); nessun lievito o zucchero aggiunto per le bollicine."
+       }
+      },
+      {
+       "name": "Transfer Method",
+       "name_fr": "Méthode de Transfert",
+       "name_it": "Metodo Transfer",
+       "name_es": "Método de Transferencia",
+       "slug": "transfer-method",
+       "name_de": "Transvasier-Methode",
+       "panel": {
+        "origin": "Traditional-method character without the per-bottle riddling labor.",
+        "origin_es": "Carácter de método tradicional sin el trabajo de remover botella por botella.",
+        "origin_it": "Carattere da Metodo Classico senza il lavoro di remuage bottiglia per bottiglia.",
+        "chemistry": "Bottle-fermented, then emptied into a pressurized tank to filter and re-bottle under pressure.",
+        "chemistry_es": "Fermentado en botella, luego vaciado a un tanque a presión para filtrar y reembotellar a presión.",
+        "chemistry_it": "Fermentato in bottiglia, poi travasato in autoclave in pressione per filtrare e re-imbottigliare sotto pressione.",
+        "pairing": "As for the style of wine produced — broadly food-friendly.",
+        "pairing_es": "Según el estilo de vino que produzca — ampliamente gastronómico.",
+        "pairing_it": "Quanto allo stile di vino prodotto — ampiamente versatile a tavola.",
+        "mixology": "Cold; tulip.",
+        "mixology_es": "Frío; tulipán.",
+        "mixology_it": "Freddo; tulipano.",
+        "examples": "Common for large-format and small bottles where riddling is impractical.",
+        "examples_es": "Habitual en formatos grandes y pequeños donde remover resulta poco práctico.",
+        "examples_it": "Comune per i grandi formati e le piccole bottiglie dove il remuage è poco pratico."
+       }
+      },
+      {
+       "name": "Carbonation Method",
+       "name_fr": "Méthode de Gazéification",
+       "name_it": "Metodo a Carbonazione",
+       "name_es": "Método de Carbonatación",
+       "slug": "carbonation",
+       "name_de": "Karbonisierungsmethode",
+       "panel": {
+        "origin": "Simple, bubbly, and fruit-forward; the bubbles fade fast.",
+        "origin_es": "Simple, burbujeante y frutal; la burbuja se va rápido.",
+        "origin_it": "Semplice, frizzante e fruttato; le bollicine svaniscono in fretta.",
+        "chemistry": "CO₂ is injected directly into still wine, like a soda.",
+        "chemistry_es": "Se inyecta CO₂ directamente en el vino tranquilo, como un refresco.",
+        "chemistry_it": "La CO₂ viene iniettata direttamente nel vino fermo, come in una bibita gassata.",
+        "pairing": "Casual sipping, party fizz.",
+        "pairing_es": "Para beber informal, burbujas de fiesta.",
+        "pairing_it": "Da bere in libertà, bollicine da festa.",
+        "mixology": "Very cold.",
+        "mixology_es": "Muy frío.",
+        "mixology_it": "Molto freddo.",
+        "examples": "The cheapest method; the coarse, short-lived bubbles give it away.",
+        "examples_es": "El método más barato; la burbuja gruesa y efímera lo delata.",
+        "examples_it": "Il metodo più economico; le bollicine grossolane e fugaci lo tradiscono."
+       }
+      }
+     ],
+     "name_de": "HERSTELLUNGSMETHODEN"
+    }
+   ],
+   "name_de": "HERSTELLUNGSMETHODEN"
+  },
+  {
+   "name": "SWEETNESS SCALE",
+   "name_fr": "ÉCHELLE DE DOUCEUR",
+   "name_it": "SCALA DI DOLCEZZA",
+   "name_es": "ESCALA DE DULZOR",
+   "color": "#c98aa8",
+   "sub": [
+    {
+     "name": "SWEETNESS SCALE",
+     "name_fr": "ÉCHELLE DE DOUCEUR",
+     "name_it": "SCALA DI DOLCEZZA",
+     "name_es": "ESCALA DE DULZOR",
+     "color": "#c98aa8",
+     "descriptors": [
+      {
+       "name": "Brut Nature",
+       "name_fr": "Brut Nature",
+       "name_it": "Brut Nature",
+       "name_es": "Brut Nature",
+       "slug": "brut-nature",
+       "name_de": "Brut Nature",
+       "panel": {
+        "origin": "Bone dry, taut, and mineral; the purest expression, with no added sugar.",
+        "origin_es": "Totalmente seco, tenso y mineral; la expresión más pura, sin azúcar añadido.",
+        "origin_it": "Asciuttissimo, teso e minerale; l'espressione più pura, senza zucchero aggiunto.",
+        "chemistry": "0–3 g/L sugar, with no dosage added after disgorgement.",
+        "chemistry_es": "0–3 g/L de azúcar, sin licor de expedición añadido tras el degüelle.",
+        "chemistry_it": "0–3 g/L di zucchero, senza dosaggio dopo la sboccatura.",
+        "pairing": "Oysters and the raw bar; very lean, salty foods.",
+        "pairing_es": "Ostras y marisco crudo; comidas magras y saladas.",
+        "pairing_it": "Ostriche e crudo di mare; cibi molto magri e sapidi.",
+        "mixology": "Cold; it showcases the wine's true acidity.",
+        "mixology_es": "Frío; muestra la acidez real del vino.",
+        "mixology_it": "Freddo; mette in risalto la vera acidità del vino.",
+        "examples": "Also 'Brut Zéro' or 'Pas Dosé'; there's nowhere to hide a flaw.",
+        "examples_es": "También 'Brut Zéro' o 'Pas Dosé'; no hay dónde esconder un defecto.",
+        "examples_it": "Detto anche 'Brut Zéro' o 'Pas Dosé'; non c'è modo di nascondere un difetto."
+       }
+      },
+      {
+       "name": "Extra Brut",
+       "name_fr": "Extra Brut",
+       "name_it": "Extra Brut",
+       "name_es": "Extra Brut",
+       "slug": "extra-brut",
+       "name_de": "Extra Brut",
+       "panel": {
+        "origin": "Very dry and crisp, with just a whisper of roundness.",
+        "origin_es": "Muy seco y nítido, con apenas un susurro de redondez.",
+        "origin_it": "Molto secco e fresco, con solo un accenno di rotondità.",
+        "chemistry": "0–6 g/L residual sugar.",
+        "chemistry_es": "0–6 g/L de azúcar residual.",
+        "chemistry_it": "0–6 g/L di zucchero residuo.",
+        "pairing": "Shellfish, sushi, fried fish.",
+        "pairing_es": "Marisco, sushi, pescado frito.",
+        "pairing_it": "Crostacei, sushi, pesce fritto.",
+        "mixology": "Cold; tulip.",
+        "mixology_es": "Frío; tulipán.",
+        "mixology_it": "Freddo; tulipano.",
+        "examples": "Drier than Brut; increasingly fashionable.",
+        "examples_es": "Más seco que el Brut; cada vez más de moda.",
+        "examples_it": "Più secco del Brut; sempre più di moda."
+       }
+      },
+      {
+       "name": "Brut",
+       "name_fr": "Brut",
+       "name_it": "Brut",
+       "name_es": "Brut",
+       "slug": "brut",
+       "name_de": "Brut",
+       "panel": {
+        "origin": "Dry, with little perceived sweetness; the most common, food-friendly style.",
+        "origin_es": "Seco, con poco dulzor percibido; el estilo más común y gastronómico.",
+        "origin_it": "Secco, con poca dolcezza percepita; lo stile più diffuso e versatile a tavola.",
+        "chemistry": "Up to 12 g/L residual sugar added in the dosage.",
+        "chemistry_es": "Hasta 12 g/L de azúcar residual añadido en el licor de expedición.",
+        "chemistry_it": "Fino a 12 g/L di zucchero residuo aggiunto nel dosaggio.",
+        "pairing": "Hugely versatile — oysters, fried foods, charcuterie, brunch.",
+        "pairing_es": "Muy versátil — ostras, frituras, charcutería, brunch.",
+        "pairing_it": "Estremamente versatile — ostriche, fritti, salumi, brunch.",
+        "mixology": "Well chilled; tulip or white-wine glass.",
+        "mixology_es": "Bien frío; tulipán o copa de vino blanco.",
+        "mixology_it": "Ben fresco; calice a tulipano o da vino bianco.",
+        "examples": "'Brut' means dry; the default for most Champagne and Cava.",
+        "examples_es": "'Brut' significa seco; el estilo por defecto de la mayoría del champagne y el cava.",
+        "examples_it": "'Brut' significa secco; lo standard per gran parte di Champagne e Cava."
+       }
+      },
+      {
+       "name": "Extra Dry",
+       "name_fr": "Extra Dry",
+       "name_it": "Extra Dry",
+       "name_es": "Extra Dry",
+       "slug": "extra-dry",
+       "name_de": "Extra Dry",
+       "panel": {
+        "origin": "Off-dry — a touch sweeter than Brut, despite the misleading name.",
+        "origin_es": "Semiseco — un punto más dulce que el Brut, pese al nombre engañoso.",
+        "origin_it": "Amabile — un po' più dolce del Brut, nonostante il nome ingannevole.",
+        "chemistry": "12–17 g/L residual sugar.",
+        "chemistry_es": "12–17 g/L de azúcar residual.",
+        "chemistry_it": "12–17 g/L di zucchero residuo.",
+        "pairing": "Fruit, mild cheese, brunch pastries.",
+        "pairing_es": "Fruta, queso suave, bollería de brunch.",
+        "pairing_it": "Frutta, formaggi delicati, dolci da brunch.",
+        "mixology": "Cold.",
+        "mixology_es": "Frío.",
+        "mixology_it": "Freddo.",
+        "examples": "The classic exam trap: Extra Dry is SWEETER than Brut. A common Prosecco style.",
+        "examples_es": "La trampa clásica de examen: el Extra Dry es MÁS DULCE que el Brut. Un estilo común del Prosecco.",
+        "examples_it": "Il classico tranello d'esame: Extra Dry è PIÙ DOLCE del Brut. Uno stile comune nel Prosecco."
+       }
+      },
+      {
+       "name": "Sec",
+       "name_fr": "Sec",
+       "name_it": "Sec",
+       "name_es": "Sec",
+       "slug": "sec",
+       "name_de": "Sec",
+       "panel": {
+        "origin": "Noticeably off-dry to medium; gentle sweetness.",
+        "origin_es": "Claramente semiseco a medio; dulzor suave.",
+        "origin_it": "Da nettamente amabile a medio; dolcezza delicata.",
+        "chemistry": "17–32 g/L residual sugar.",
+        "chemistry_es": "17–32 g/L de azúcar residual.",
+        "chemistry_it": "17–32 g/L di zucchero residuo.",
+        "pairing": "Fruit tarts, mild blue cheese, foie gras.",
+        "pairing_es": "Tartas de fruta, azul suave, foie gras.",
+        "pairing_it": "Crostate di frutta, erborinato delicato, foie gras.",
+        "mixology": "Cold.",
+        "mixology_es": "Frío.",
+        "mixology_it": "Freddo.",
+        "examples": "'Sec' means 'dry' in French — but here it's actually medium-sweet, another classic trap.",
+        "examples_es": "'Sec' significa 'seco' en francés — pero aquí es en realidad semidulce, otra trampa clásica.",
+        "examples_it": "'Sec' in francese significa 'secco' — ma qui è in realtà medio-dolce, un altro classico tranello."
+       }
+      },
+      {
+       "name": "Demi-Sec",
+       "name_fr": "Demi-Sec",
+       "name_it": "Demi-Sec",
+       "name_es": "Demi-Sec",
+       "slug": "demi-sec",
+       "name_de": "Demi-Sec",
+       "panel": {
+        "origin": "Clearly sweet; rich and dessert-friendly.",
+        "origin_es": "Claramente dulce; rico y apto para postres.",
+        "origin_it": "Chiaramente dolce; ricco e adatto ai dessert.",
+        "chemistry": "32–50 g/L residual sugar.",
+        "chemistry_es": "32–50 g/L de azúcar residual.",
+        "chemistry_it": "32–50 g/L di zucchero residuo.",
+        "pairing": "Fruit desserts, cheesecake, blue cheese.",
+        "pairing_es": "Postres de fruta, cheesecake, queso azul.",
+        "pairing_it": "Dolci alla frutta, cheesecake, formaggi erborinati.",
+        "mixology": "Cold; a dessert pairing.",
+        "mixology_es": "Frío; maridaje de postre.",
+        "mixology_it": "Freddo; abbinamento da dessert.",
+        "examples": "'Half-dry,' but genuinely sweet; great with not-too-sweet desserts.",
+        "examples_es": "'Semiseco', pero de verdad dulce; ideal con postres no demasiado dulces.",
+        "examples_it": "'Mezzo secco', ma davvero dolce; ottimo con dessert non troppo dolci."
+       }
+      },
+      {
+       "name": "Doux",
+       "name_fr": "Doux",
+       "name_it": "Doux",
+       "name_es": "Doux",
+       "slug": "doux",
+       "name_de": "Doux",
+       "panel": {
+        "origin": "Lusciously sweet; the sweetest official category.",
+        "origin_es": "Untuosamente dulce; la categoría oficial más dulce.",
+        "origin_it": "Voluttuosamente dolce; la categoria ufficiale più dolce.",
+        "chemistry": "50+ g/L residual sugar.",
+        "chemistry_es": "Más de 50 g/L de azúcar residual.",
+        "chemistry_it": "Oltre 50 g/L di zucchero residuo.",
+        "pairing": "Rich desserts and pastries.",
+        "pairing_es": "Postres y bollería ricos.",
+        "pairing_it": "Dolci ricchi e pasticceria.",
+        "mixology": "Cold; small pours.",
+        "mixology_es": "Frío; servir en poca cantidad.",
+        "mixology_it": "Freddo; piccole dosi.",
+        "examples": "Rare today; the dessert end of the sparkling scale.",
+        "examples_es": "Hoy poco común; el extremo de postre de la escala espumosa.",
+        "examples_it": "Raro oggi; l'estremo da dessert della scala degli spumanti."
+       }
+      }
+     ],
+     "name_de": "SÜSSEGRAD-SKALA"
+    }
+   ],
+   "name_de": "SÜSSEGRAD-SKALA"
+  },
+  {
+   "name": "KEY TERMS & SERVICE",
+   "name_fr": "TERMES CLÉS & SERVICE",
+   "name_it": "TERMINI CHIAVE E SERVIZIO",
+   "name_es": "TÉRMINOS CLAVE Y SERVICIO",
+   "color": "#9a8ab8",
+   "sub": [
+    {
+     "name": "KEY TERMS & SERVICE",
+     "name_fr": "TERMES CLÉS & SERVICE",
+     "name_it": "TERMINI CHIAVE E SERVIZIO",
+     "name_es": "TÉRMINOS CLAVE Y SERVICIO",
+     "color": "#9a8ab8",
+     "descriptors": [
+      {
+       "name": "Autolysis",
+       "name_fr": "Autolyse",
+       "name_it": "Autolisi",
+       "name_es": "Autólisis",
+       "slug": "autolysis",
+       "name_de": "Autolyse",
+       "panel": {
+        "origin": "The source of the 'toasty, bready, brioche' flavor in traditional-method sparkling.",
+        "origin_es": "El origen del sabor 'tostado, a pan, a brioche' en el espumoso de método tradicional.",
+        "origin_it": "L'origine dell'aroma di 'crosta di pane tostato e brioche' negli spumanti Metodo Classico.",
+        "chemistry": "As wine rests on the dead yeast cells (lees), they break down and release rich, savory compounds.",
+        "chemistry_es": "Mientras el vino reposa sobre las células de levadura muertas (lías), estas se descomponen y liberan compuestos ricos y sabrosos.",
+        "chemistry_it": "Mentre il vino riposa sulle cellule di lievito esauste (fecce), queste si decompongono e rilasciano composti ricchi e sapidi.",
+        "pairing": "The flavors it builds pair with creamy, nutty, and umami foods.",
+        "pairing_es": "Los sabores que crea maridan con comidas cremosas, a nuez y umami.",
+        "pairing_it": "Gli aromi che sviluppa si abbinano a cibi cremosi, di frutta secca e umami.",
+        "mixology": "Longer lees aging = more complexity; worth a slightly warmer pour to show it.",
+        "mixology_es": "Más crianza sobre lías = más complejidad; conviene servirlo algo más templado para mostrarlo.",
+        "mixology_it": "Più affinamento sui lieviti = più complessità; vale una servita un po' più calda per mostrarla.",
+        "examples": "The longer on the lees, the deeper the toast; the signature of Champagne and Franciacorta.",
+        "examples_es": "Cuanto más tiempo sobre lías, más profundo el tostado; la firma del champagne y el franciacorta.",
+        "examples_it": "Più tempo sui lieviti, più profonda la tostatura; la firma di Champagne e Franciacorta."
+       }
+      },
+      {
+       "name": "Riddling & Disgorgement",
+       "name_fr": "Remuage & Dégorgement",
+       "name_it": "Remuage e Sboccatura",
+       "name_es": "Removido y Degüelle",
+       "slug": "riddling-disgorgement",
+       "name_de": "Rütteln & Degorgieren",
+       "panel": {
+        "origin": "Not a flavor — the cellar craft that makes traditional-method wine clear and clean.",
+        "origin_es": "No es un sabor — el oficio de bodega que deja limpio y claro el vino de método tradicional.",
+        "origin_it": "Non è un aroma — è l'arte di cantina che rende limpido e netto il vino Metodo Classico.",
+        "chemistry": "Bottles are gradually tilted and turned (riddling) so the lees gather in the neck, then frozen and ejected (disgorgement).",
+        "chemistry_es": "Las botellas se inclinan y giran poco a poco (removido) para que las lías se junten en el cuello, luego se congelan y se expulsan (degüelle).",
+        "chemistry_it": "Le bottiglie vengono progressivamente inclinate e ruotate (remuage) perché le fecce si raccolgano nel collo, poi congelate ed espulse (sboccatura).",
+        "pairing": "A production step behind every traditional-method bottle, not a pairing.",
+        "pairing_es": "Un paso de elaboración tras cada botella de método tradicional, no un maridaje.",
+        "pairing_it": "Una fase produttiva dietro ogni bottiglia in Metodo Classico, non un abbinamento.",
+        "mixology": "The disgorgement date on some labels tells you how fresh the wine is.",
+        "mixology_es": "La fecha de degüelle en algunas etiquetas te dice qué tan fresco está el vino.",
+        "mixology_it": "La data di sboccatura su alcune etichette indica quanto è fresco il vino.",
+        "examples": "Historically done by hand on an A-frame 'pupitre'; now often by machine (gyropalette).",
+        "examples_es": "Antiguamente a mano sobre un 'pupitre' en A; hoy a menudo por máquina (gyropalette).",
+        "examples_it": "Storicamente eseguito a mano su un 'pupitre' a cavalletto; oggi spesso a macchina (gyropalette)."
+       }
+      },
+      {
+       "name": "Dosage",
+       "name_fr": "Dosage",
+       "name_it": "Dosaggio (liqueur d'expédition)",
+       "name_es": "Licor de Expedición (Dosage)",
+       "slug": "dosage",
+       "name_de": "Dosage (Versanddosage)",
+       "panel": {
+        "origin": "The final touch that sets a sparkling wine's sweetness.",
+        "origin_es": "El toque final que fija el dulzor de un espumoso.",
+        "origin_it": "Il tocco finale che definisce la dolcezza di uno spumante.",
+        "chemistry": "After disgorgement, a 'liqueur d'expédition' (wine plus a little sugar) tops up the bottle and sets the style.",
+        "chemistry_es": "Tras el degüelle, un 'licor de expedición' (vino con algo de azúcar) rellena la botella y fija el estilo.",
+        "chemistry_it": "Dopo la sboccatura, una 'liqueur d'expédition' (vino con un po' di zucchero) rabbocca la bottiglia e definisce lo stile.",
+        "pairing": "It's what tunes the wine to pair sweet or savory.",
+        "pairing_es": "Es lo que afina el vino para maridar dulce o salado.",
+        "pairing_it": "È ciò che regola il vino per abbinamenti dolci o salati.",
+        "mixology": "It determines whether a bottle reads as bone-dry or dessert-sweet.",
+        "mixology_es": "Determina si una botella se percibe totalmente seca o dulce de postre.",
+        "mixology_it": "Determina se una bottiglia risulti asciuttissima o dolce da dessert.",
+        "examples": "Zero dosage = Brut Nature; the winemaker's last stylistic decision.",
+        "examples_es": "Dosage cero = Brut Nature; la última decisión estilística del enólogo.",
+        "examples_it": "Dosaggio zero = Brut Nature; l'ultima decisione stilistica dell'enologo."
+       }
+      },
+      {
+       "name": "Mousse & Bead",
+       "name_fr": "Mousse & Cordon",
+       "name_it": "Spuma e Perlage",
+       "name_es": "Espuma y Burbuja",
+       "slug": "mousse-bead",
+       "name_de": "Mousse & Perlage",
+       "panel": {
+        "origin": "The look and feel of the bubbles — the 'mousse' (foam) and the 'bead' (the rising stream).",
+        "origin_es": "El aspecto y el tacto de las burbujas — la 'mousse' (espuma) y la burbuja que asciende.",
+        "origin_it": "L'aspetto e la sensazione delle bollicine — la 'spuma' (mousse) e il 'perlage' (il filo ascendente).",
+        "chemistry": "A finer, longer-lasting bead signals traditional-method and careful winemaking; coarse bubbles suggest carbonation.",
+        "chemistry_es": "Una burbuja más fina y duradera indica método tradicional y cuidado; la burbuja gruesa sugiere carbonatación.",
+        "chemistry_it": "Un perlage più fine e duraturo indica Metodo Classico e cura in cantina; bollicine grossolane suggeriscono la carbonazione.",
+        "pairing": "A creamy mousse adds texture that flatters rich dishes.",
+        "pairing_es": "Una mousse cremosa aporta textura que realza los platos ricos.",
+        "pairing_it": "Una spuma cremosa aggiunge una texture che valorizza i piatti ricchi.",
+        "mixology": "A clean, dry tulip glass shows the bead best; detergent residue kills bubbles.",
+        "mixology_es": "Una copa tulipán limpia y seca muestra mejor la burbuja; los restos de detergente matan las burbujas.",
+        "mixology_it": "Un calice a tulipano pulito e asciutto mostra al meglio il perlage; i residui di detersivo uccidono le bollicine.",
+        "examples": "Tiny, persistent bubbles are a quality marker; 'perlage' is the Italian term.",
+        "examples_es": "Las burbujas diminutas y persistentes son señal de calidad; 'perlage' es el término italiano.",
+        "examples_it": "Bollicine minute e persistenti sono un indice di qualità; 'perlage' è il termine italiano."
+       }
+      },
+      {
+       "name": "Serving Sparkling",
+       "name_fr": "Servir l'Effervescent",
+       "name_it": "Servire lo Spumante",
+       "name_es": "Servir el Espumoso",
+       "slug": "serving",
+       "name_de": "Schaumwein servieren",
+       "panel": {
+        "origin": "How you serve it shapes how it tastes — temperature, glass, and pour all matter.",
+        "origin_es": "Cómo lo sirves moldea su sabor — la temperatura, la copa y el escanciado importan.",
+        "origin_it": "Il modo di servirlo ne modella il gusto — temperatura, calice e versata contano.",
+        "chemistry": "This is service, not production — but it can make or break the experience.",
+        "chemistry_es": "Esto es servicio, no elaboración — pero puede hacer o deshacer la experiencia.",
+        "chemistry_it": "Questo è servizio, non produzione — ma può esaltare o rovinare l'esperienza.",
+        "pairing": "Match temperature and style to the dish; colder for sweeter/lighter, slightly warmer for rich vintage.",
+        "pairing_es": "Ajusta temperatura y estilo al plato; más frío para lo dulce/ligero, algo más templado para una añada rica.",
+        "pairing_it": "Adattare temperatura e stile al piatto; più freddo per i più dolci/leggeri, un po' più caldo per i millesimati ricchi.",
+        "mixology": "Chill to 7–10°C; use a tulip or white-wine glass (not a narrow flute); pour at an angle to keep the bubbles.",
+        "mixology_es": "Enfría a 7–10°C; usa copa tulipán o de vino blanco (no flauta estrecha); escancia inclinado para conservar la burbuja.",
+        "mixology_it": "Raffreddare a 7–10°C; usare un calice a tulipano o da vino bianco (non una flûte stretta); versare inclinando il calice per preservare le bollicine.",
+        "examples": "Skip the wide coupe — it lets bubbles and aroma escape; the tulip is the modern sommelier's choice.",
+        "examples_es": "Evita la copa coupe ancha — deja escapar burbujas y aroma; el tulipán es la elección del sommelier moderno.",
+        "examples_it": "Evita la coppa larga — lascia sfuggire bollicine e aromi; il tulipano è la scelta del sommelier moderno."
+       }
+      }
+     ],
+     "name_de": "WICHTIGE BEGRIFFE & SERVICE"
+    }
+   ],
+   "name_de": "WICHTIGE BEGRIFFE & SERVICE"
+  }
+ ],
+ "funFacts": {
+  "CHAMPAGNE STYLES": {
+   "en": "The legend that the monk Dom Pérignon 'invented' Champagne is mostly myth — sparkling wine predates him, and his real contribution was improving blending and winemaking, not creating the bubbles.",
+   "es": "La leyenda de que el monje Dom Pérignon 'inventó' el champagne es en gran parte un mito — el espumoso es anterior a él, y su aporte real fue mejorar la mezcla y la elaboración, no crear la burbuja."
+  },
+  "FRENCH CRÉMANT & PÉT-NAT": {
+   "en": "Monks at the Abbey of Saint-Hilaire in Limoux are recorded making sparkling wine in 1531 — more than a century before Champagne — giving southern France a strong claim to the first bubbly.",
+   "es": "Los monjes de la abadía de Saint-Hilaire, en Limoux, aparecen elaborando espumoso en 1531 — más de un siglo antes que el champagne — lo que da al sur de Francia una sólida reivindicación del primer espumoso."
+  },
+  "ITALIAN SPARKLING": {
+   "en": "The key to telling Italy's sparkling apart is two words: 'spumante' means fully sparkling and 'frizzante' means gently fizzy — so Asti Spumante foams while a frizzante Moscato just tingles.",
+   "es": "La clave para distinguir los espumosos de Italia son dos palabras: 'spumante' es totalmente espumoso y 'frizzante' es levemente burbujeante — así, el Asti Spumante hace espuma mientras un Moscato frizzante solo cosquillea."
+  },
+  "SPANISH & IBERIAN": {
+   "en": "Cava was born when a Catalan winemaker returned from Champagne in the 1870s and applied bottle fermentation to local grapes — and today the Penedès makes the vast majority of it.",
+   "es": "El cava nació cuando un bodeguero catalán volvió de la Champaña en los años 1870 y aplicó la fermentación en botella a las uvas locales — y hoy el Penedès elabora la gran mayoría."
+  },
+  "ENGLAND, GERMANY & NEW WORLD": {
+   "en": "Southern England sits on the same band of chalk soil as the Champagne region, and as the climate has warmed, English sparkling has started beating Champagne in blind tastings.",
+   "es": "El sur de Inglaterra se asienta sobre la misma franja de suelo calcáreo que la región de Champaña, y con el clima más cálido, el espumoso inglés ha empezado a ganar al champagne en catas a ciegas."
+  },
+  "PRODUCTION METHODS": {
+   "en": "The difference between an inexpensive Prosecco and a costly Champagne is largely the method — tank fermentation is fast and cheap, while bottle fermentation and years on the lees are slow and expensive.",
+   "es": "La diferencia entre un Prosecco económico y un champagne caro es en gran parte el método — la fermentación en tanque es rápida y barata, mientras que la fermentación en botella y los años sobre lías son lentos y costosos."
+  },
+  "SWEETNESS SCALE": {
+   "en": "Sparkling-wine labels are a famous trap — 'Extra Dry' is actually sweeter than 'Brut,' and the French 'Sec' ('dry') is sweeter still; the truly dry wines are Brut Nature and Extra Brut.",
+   "es": "Las etiquetas de los espumosos son una trampa famosa — el 'Extra Dry' es en realidad más dulce que el 'Brut', y el francés 'Sec' ('seco') es aún más dulce; los realmente secos son el Brut Nature y el Extra Brut."
+  },
+  "KEY TERMS & SERVICE": {
+   "en": "The wide, flat 'coupe' glass is a beautiful antique but a poor choice — its large surface lets bubbles and aroma escape fast, which is why sommeliers now serve sparkling wine in a tulip-shaped glass.",
+   "es": "La copa 'coupe' ancha y plana es una bella antigüedad pero una mala elección — su gran superficie deja escapar rápido las burbujas y el aroma, por eso los sommeliers sirven hoy el espumoso en copa tulipán."
+  }
+ }
+}

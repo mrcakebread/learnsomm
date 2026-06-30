@@ -1,0 +1,141 @@
+{
+ "title": "Spices Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Tender Herbs",
+   "slug": "tender-herbs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Basil, Cilantro, Parsley, Mint, Dill, Chives, Tarragon"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Added at the end of cooking — heat destroys their delicate aroma quickly."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tender herbs are added at the very end — their volatile oils flash off with heat, so a basil leaf cooked too long loses everything that makes it basil."
+    }
+   ],
+   "name_es": "Hierbas Tiernas"
+  },
+  {
+   "name": "Woody Herbs",
+   "slug": "woody-herbs",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Rosemary, Thyme, Oregano, Sage, Bay Leaf, Marjoram"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Stand up to long cooking — add early so their oils infuse the whole dish."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Woody herbs are built for the long haul — rosemary and thyme can simmer for hours, releasing flavor slowly, which is why they anchor stocks, braises, and roasts."
+    }
+   ],
+   "name_es": "Hierbas Leñosas"
+  },
+  {
+   "name": "Warm Sweet Spices",
+   "slug": "warm-sweet-spices",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cinnamon, Nutmeg, Clove, Allspice, Star Anise, Cardamom"
+    },
+    {
+     "k": "Pairs With",
+     "v": "The backbone of baking and mulled drinks — also excellent in savory braises."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Nutmeg and mace come from the very same fruit — mace is the lacy red web wrapped around the nutmeg seed, the only spice that yields two distinct seasonings."
+    }
+   ],
+   "name_es": "Especias Cálidas Y Dulces"
+  },
+  {
+   "name": "Earthy Seed Spices",
+   "slug": "earthy-seed-spices",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cumin, Coriander Seed, Fennel Seed, Caraway, Mustard Seed, Annatto (Achiote)"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Toast briefly in a dry pan before using to wake up their essential oils."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Toasting whole seeds before grinding wakes up their oils — a dry-skillet minute deepens cumin or coriander far more than buying it pre-ground ever could."
+    }
+   ],
+   "name_es": "Especias De Semilla Terrosas"
+  },
+  {
+   "name": "Hot & Pungent Spices",
+   "slug": "hot-pungent-spices",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Black Pepper, Cayenne, Paprika, Ginger, Sichuan Pepper"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Add heat and depth — a little goes a long way, and quality varies enormously by freshness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Green, black, and white peppercorns all come from one vine — picked at different stages and processed differently, they're the same berry wearing three disguises."
+    }
+   ],
+   "name_es": "Especias Picantes Y Punzantes"
+  },
+  {
+   "name": "Aromatic & Prized Spices",
+   "slug": "aromatic-prized-spices",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Saffron, Turmeric, Sumac, Vanilla, Juniper Berry"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Some of the world's most expensive spices by weight — used in small amounts for big impact."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Saffron is the world's costliest spice by weight — it's the hand-plucked stigmas of a crocus, and it takes around 150 flowers to make a single gram."
+    }
+   ],
+   "name_es": "Especias Aromáticas Y Preciadas"
+  },
+  {
+   "name": "Global Spice Blends",
+   "slug": "global-spice-blends",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Garam Masala, Ras el Hanout, Za'atar, Berbere, Chinese Five-Spice, Jerk Seasoning"
+    },
+    {
+     "k": "Pairs With",
+     "v": "Pre-balanced combinations that capture a regional cuisine's signature flavor in one jar."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "'Ras el hanout' means 'head of the shop' — traditionally the very best spices a merchant had to offer, blended into a house signature that could run to 30 ingredients."
+    }
+   ],
+   "name_es": "Mezclas De Especias Del Mundo"
+  }
+ ]
+}

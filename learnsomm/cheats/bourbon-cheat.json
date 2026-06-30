@@ -1,0 +1,216 @@
+{
+ "title": "Bourbon Cheat Sheet",
+ "groups": [
+  {
+   "cat": "The Styles"
+  },
+  {
+   "name": "Standard Bourbon",
+   "slug": "standard-bourbon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel, vanilla, toasted oak, baking spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "BBQ ribs, pecan pie, aged cheddar"
+    },
+    {
+     "k": "Best for",
+     "v": "The classic introduction — the flavor profile most people picture when they think \"bourbon\""
+    }
+   ],
+   "name_es": "Bourbon Estándar"
+  },
+  {
+   "name": "Wheated Bourbon",
+   "slug": "wheated-bourbon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Honey, soft wheat bread, red fruit, gentle spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "Roast pork, glazed donuts, vanilla desserts"
+    },
+    {
+     "k": "Best for",
+     "v": "Drinkers who find rye-forward bourbons too spicy or peppery"
+    }
+   ],
+   "name_es": "Bourbon de Trigo"
+  },
+  {
+   "name": "High-Rye Bourbon",
+   "slug": "high-rye-bourbon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Black pepper, cinnamon, clove, rye bread"
+    },
+    {
+     "k": "Pairing",
+     "v": "Spicy food, charcuterie, dark chocolate"
+    },
+    {
+     "k": "Best for",
+     "v": "Fans of bolder, drier flavors — also the best bridge into rye whiskey"
+    }
+   ],
+   "name_es": "Bourbon Alto en Centeno"
+  },
+  {
+   "name": "Bottled-in-Bond",
+   "slug": "bottled-in-bond",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rich oak, dark chocolate, maple syrup, dried fruit"
+    },
+    {
+     "k": "Pairing",
+     "v": "Smoked brisket, dark chocolate, blue cheese"
+    },
+    {
+     "k": "Heads up",
+     "v": "\"Bottled-in-Bond\" is a federal designation, not a brand — it's one of the best value-for-quality signals on a shelf."
+    }
+   ]
+  },
+  {
+   "cat": "Cocktails"
+  },
+  {
+   "name": "Old Fashioned",
+   "slug": "old-fashioned",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Bourbon, sugar, Angostura bitters, orange twist"
+    },
+    {
+     "k": "",
+     "v": "Timeless"
+    },
+    {
+     "k": "",
+     "v": "Spirit-forward"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "The benchmark bourbon cocktail — if a bar makes this well, they probably make everything well."
+    }
+   ]
+  },
+  {
+   "name": "Mint Julep",
+   "slug": "mint-julep",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Bourbon, fresh mint, simple syrup, crushed ice"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Aromatic"
+    },
+    {
+     "k": "",
+     "v": "Cool"
+    },
+    {
+     "k": "Order tip",
+     "v": "Traditionally served in a frosted silver cup — the Kentucky Derby's signature drink. Best on a hot day."
+    }
+   ]
+  },
+  {
+   "name": "Whiskey Sour",
+   "slug": "whiskey-sour",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Bourbon, lemon juice, simple syrup, egg white (optional)"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "",
+     "v": "Silky"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for it \"with egg white\" for the classic frothy texture and smoother mouthfeel."
+    }
+   ]
+  },
+  {
+   "name": "Boulevardier",
+   "slug": "boulevardier",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Bourbon, Campari, sweet vermouth"
+    },
+    {
+     "k": "",
+     "v": "Sophisticated"
+    },
+    {
+     "k": "",
+     "v": "Bitter"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "Order tip",
+     "v": "Essentially a Negroni with bourbon instead of gin — a great order if you like Negronis but want something a touch sweeter and warmer."
+    }
+   ]
+  },
+  {
+   "name": "Kentucky Mule",
+   "slug": "kentucky-mule",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Bourbon, ginger beer, lime juice"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "Order tip",
+     "v": "A Moscow Mule with bourbon — easy-drinking and a safe choice if you're not sure what else to order."
+    }
+   ]
+  }
+ ]
+}

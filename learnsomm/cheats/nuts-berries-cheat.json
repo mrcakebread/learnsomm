@@ -1,0 +1,160 @@
+{
+ "title": "Nuts Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Rich & Buttery Nuts",
+   "slug": "rich-buttery-nuts",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Macadamia, Pecan, Cashew, Pine Nut"
+    },
+    {
+     "k": "Best Uses",
+     "v": "High in fat — best toasted lightly to deepen their natural richness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Pine nuts are the edible seeds tucked inside pine cones — harvested mostly by hand, which is why they're one of the priciest nuts in the kitchen."
+    }
+   ],
+   "name_es": "Frutos Secos Ricos Y Mantecosos"
+  },
+  {
+   "name": "Sweet & Versatile Nuts",
+   "slug": "sweet-versatile-nuts",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Almond, Hazelnut, Pistachio"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Baking and snacking staples — equally at home raw, roasted, or ground into flour or butter."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Almonds — like peaches and cherries — are the seed inside a drupe, so botanically the almond is the pit, not a true nut."
+    }
+   ],
+   "name_es": "Frutos Secos Dulces Y Versátiles"
+  },
+  {
+   "name": "Bold & Distinctive Nuts",
+   "slug": "bold-distinctive-nuts",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Walnut, Brazil Nut, Chestnut"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Strong, distinctive flavors — best in small amounts or paired with something sweet."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A couple of Brazil nuts can cover a full day's selenium — they're one of the richest natural sources on earth, so a small handful is plenty."
+    }
+   ],
+   "name_es": "Frutos Secos Intensos Y Distintivos"
+  },
+  {
+   "name": "Legumes & Seeds",
+   "slug": "legumes-seeds",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Peanut, Pumpkin Seed (Pepita), Sunflower Seed, Sesame, Chia Seed, Flaxseed, Hemp Seed"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Nutrient-dense additions to almost any dish — sprinkle on salads, blend into spreads, or snack as-is."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The peanut isn't a nut at all — it's a legume that flowers above ground then ripens its pods underground, closer kin to peas and beans than to almonds."
+    }
+   ],
+   "name_es": "Legumbres Y Semillas"
+  },
+  {
+   "name": "True & Garden Berries",
+   "slug": "true-garden-berries",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Strawberry, Blueberry, Raspberry, Blackberry"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Best fresh and in season — also freeze well for smoothies and baking year-round."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Botanically the strawberry isn't a berry — its seeds sit on the outside, making it an 'accessory fruit,' while the humble blueberry is a true berry."
+    }
+   ],
+   "name_es": "Bayas De Jardín"
+  },
+  {
+   "name": "Tart & Cooking Berries",
+   "slug": "tart-cooking-berries",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cranberry, Gooseberry, Black Currant, Boysenberry"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Too tart to eat raw in quantity — shine in jams, sauces, and baked goods with added sugar."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Ripe cranberries bounce — growers use a bounce test, and tiny air pockets let the berries float, which is why bogs are flooded at harvest."
+    }
+   ],
+   "name_es": "Bayas Ácidas Y De Cocina"
+  },
+  {
+   "name": "Wild & Foraged Berries",
+   "slug": "wild-foraged-berries",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mulberry, Elderberry, Saskatoon Berry (Juneberry), Cloudberry, Salmonberry"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Less common in stores — look for them at farmers markets or in jams and preserves."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Raw elderberries are mildly toxic and must be cooked before eating — one of the few berries that's a syrup-and-jam fruit rather than an out-of-hand snack."
+    }
+   ],
+   "name_es": "Bayas Silvestres"
+  },
+  {
+   "name": "Global Superfruit Berries",
+   "slug": "global-superfruit-berries",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Goji Berry, Açaí, Bilberry"
+    },
+    {
+     "k": "Best Uses",
+     "v": "Prized for antioxidant content — often sold dried, frozen, or as juice/powder rather than fresh."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Açaí is technically a drupe like an olive — almost all pit, with only a thin skin and pulp, which is why it's sold as frozen purée rather than fresh fruit."
+    }
+   ],
+   "name_es": "Superbayas Del Mundo"
+  }
+ ]
+}

@@ -1,0 +1,1458 @@
+{
+ "title": "Tea",
+ "subject": "tea",
+ "categories": [
+  {
+   "name": "FRUITY",
+   "name_fr": "FRUITÉ",
+   "name_it": "FRUTTATO",
+   "name_es": "AFRUTADO",
+   "color": "#85c1e9",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "BERRIES",
+     "name_fr": "BAIES",
+     "name_it": "BACCHE",
+     "name_es": "BAYAS",
+     "color": "#aed6f1",
+     "descriptors": [
+      {
+       "name": "Raspberry",
+       "name_fr": "Framboise",
+       "name_it": "Lampone",
+       "slug": "fruity-berries-raspberry",
+       "name_es": "Frambuesa",
+       "panel": {
+        "origin": "A bright, tart ester profile linked to specific oxidation levels, commonly found in high-grade Oriental Beauty or Dan Cong Oolongs.",
+        "mixology": "A zesty, bright red fruit flavor that gives the tea a lively and refreshing tartness.",
+        "examples": "Bug-bitten teas (like Bai Hao Oolong) naturally develop a raspberry/honey flavor as the plant's defense mechanism releases unique terpenes."
+       }
+      },
+      {
+       "name": "Strawberry",
+       "name_fr": "Fraise",
+       "name_it": "Fragola",
+       "slug": "fruity-berries-strawberry",
+       "name_es": "Fresa",
+       "panel": {
+        "origin": "Sweet, jammy aromatic lactones and furaneol notes. Found in lightly oxidized black teas from high elevations.",
+        "mixology": "A sweet, soft, and slightly juicy fruitiness, similar to ripe strawberries or strawberry jam.",
+        "examples": "First flush Darjeelings can sometimes express delicate strawberry nuances due to the hard wither process."
+       }
+      },
+      {
+       "name": "Blackberry",
+       "name_fr": "Mûre",
+       "name_it": "Mora",
+       "slug": "fruity-berries-blackberry",
+       "name_es": "Zarzamora",
+       "panel": {
+        "origin": "Dark fruit esters and mild tannins interacting to create a deep, slightly tart profile. Common in robust Assams or Kenyan black teas.",
+        "mixology": "A rich, dark berry flavor with a satisfyingly thick, slightly tart finish.",
+        "examples": "Blackberry leaves themselves are often used in herbal blends to mimic tea-like tannins."
+       }
+      },
+      {
+       "name": "Black Currant",
+       "name_fr": "Cassis",
+       "name_it": "Ribes Nero",
+       "slug": "fruity-berries-black-currant",
+       "name_es": "Grosella Negra",
+       "panel": {
+        "origin": "P-mentha-8-thiol-3-one. A distinctly tart, slightly woody and catty aromatic characteristic of some Kenyan and Rwandan black teas.",
+        "mixology": "A sharp, vibrant dark berry flavor, famously associated with traditional British black tea blends.",
+        "examples": "Black currant is the signature flavor of many classic Earl Grey variations to add a fruity depth to the bergamot."
+       }
+      }
+     ]
+    },
+    {
+     "name": "CITRUS",
+     "name_fr": "AGRUMES",
+     "name_it": "AGRUMI",
+     "name_es": "CÍTRICOS",
+     "color": "#aed6f1",
+     "descriptors": [
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "slug": "fruity-citrus-orange",
+       "name_es": "Naranja",
+       "panel": {
+        "origin": "Limonene and geraniol interactions. Frequently noted in specific Ceylon (Sri Lankan) teas grown at high altitudes.",
+        "mixology": "A sweet, bright, and universally pleasant citrus flavor that adds sunshine to the cup.",
+        "examples": "Orange Pekoe is a grade of tea leaf, not an orange flavor! It denotes a whole leaf size."
+       }
+      },
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "slug": "fruity-citrus-lemon",
+       "name_es": "Limón",
+       "panel": {
+        "origin": "Citral and limonene compounds. Offers a bright astringency. Often an added ingredient, but naturally occurring in some high-mountain green teas.",
+        "mixology": "A crisp, sharply acidic citrus note that makes the tea feel highly cleansing and refreshing.",
+        "examples": "Adding actual lemon to tea lightens its color because the citric acid alters the pH, affecting the tea's tannins."
+       }
+      },
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "slug": "fruity-citrus-grapefruit",
+       "name_es": "Toronja",
+       "panel": {
+        "origin": "Nootkatone and mercaptan compounds. A bitter-citrus profile occasionally found in highly oxidized, high-altitude oolongs.",
+        "mixology": "A sharp, slightly bitter, and deeply aromatic citrus flavor, like pink grapefruit peel.",
+        "examples": "Some modern tea cultivars are specifically bred to express higher levels of grapefruit-like terpenes."
+       }
+      },
+      {
+       "name": "Citrus Zest",
+       "name_fr": "Zeste d'Agrumes",
+       "name_it": "Scorza d'Agrumi",
+       "slug": "fruity-citrus-citrus-zest",
+       "name_es": "Ralladura de Cítricos",
+       "panel": {
+        "origin": "Concentrated essential oils (terpenes) without the citric acid bite. Highly fragrant, found in heavily withered white and oolong teas.",
+        "mixology": "The aromatic, perfumey scent of a freshly grated lemon or orange peel, without the sour juice.",
+        "examples": "Earl Grey is the most famous zesty tea, flavored with the essential oil extracted from the rind of the bergamot orange."
+       }
+      }
+     ]
+    },
+    {
+     "name": "TREE FRUIT",
+     "name_fr": "FRUITS À PÉPINS",
+     "name_it": "FRUTTA AD ALBERO",
+     "name_es": "FRUTA DE ÁRBOL",
+     "color": "#aed6f1",
+     "descriptors": [
+      {
+       "name": "Green Apple",
+       "name_fr": "Pomme Verte",
+       "name_it": "Mela Verde",
+       "slug": "fruity-tree-fruit-green-apple",
+       "name_es": "Manzana Verde",
+       "panel": {
+        "origin": "Malic acid and hexanal compounds. A crisp, slightly astringent note prominent in young Sheng (Raw) Pu-erh.",
+        "mixology": "A tart, mouth-watering crispness similar to biting into a Granny Smith apple.",
+        "examples": "Sheng Pu-erh often starts its aging life with strong green apple notes that transition into dark plum or leather over decades."
+       }
+      },
+      {
+       "name": "Red Apple",
+       "name_fr": "Pomme Rouge",
+       "name_it": "Mela Rossa",
+       "slug": "fruity-tree-fruit-red-apple",
+       "name_es": "Manzana Roja",
+       "panel": {
+        "origin": "Mellow esters and oxidation byproducts. A soft, sweet fruitiness common in Keemun black teas.",
+        "mixology": "A soft, sweet, and comforting fruit flavor, like fresh apple cider.",
+        "examples": "Keemun, a famous Chinese black tea, is historically celebrated for its distinct apple and orchid profile."
+       }
+      },
+      {
+       "name": "Banana",
+       "name_fr": "Banane",
+       "name_it": "Banana",
+       "slug": "fruity-tree-fruit-banana",
+       "name_es": "Plátano",
+       "panel": {
+        "origin": "Isoamyl acetate. A fermentation byproduct often found in heavily roasted or uniquely processed dark oolongs.",
+        "mixology": "A dense, sweet, and creamy fruit flavor similar to banana bread.",
+        "examples": "Banana notes are quite rare in pure tea but can emerge when tea leaves undergo a heavy 'kill-green' (sha qing) phase at specific temperatures."
+       }
+      },
+      {
+       "name": "Peach",
+       "name_fr": "Pêche",
+       "name_it": "Pesca",
+       "slug": "fruity-tree-fruit-peach",
+       "name_es": "Durazno",
+       "panel": {
+        "origin": "Lactones (gamma-decalactone). A signature note of high-end Dan Cong oolongs (like Mi Lan Xiang) and first-flush Darjeeling.",
+        "mixology": "A lush, fuzzy, and sweet stone-fruit flavor that is highly prized in fine teas.",
+        "examples": "Mi Lan Xiang literally translates to 'Honey Orchid Fragrance', but to Western palates, it overwhelmingly tastes of ripe peach."
+       }
+      },
+      {
+       "name": "Apricot",
+       "name_fr": "Abricot",
+       "name_it": "Albicocca",
+       "slug": "fruity-tree-fruit-apricot",
+       "name_es": "Chabacano",
+       "panel": {
+        "origin": "A concentrated, slightly tart lactone profile. Characteristic of heavily withered white teas like Bai Mu Dan (White Peony).",
+        "mixology": "A sweet yet slightly tangy flavor, reminiscent of dried apricots or apricot jam.",
+        "examples": "The fuzzy down on silver needle white teas helps protect the delicate aromatic oils that produce these apricot notes."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "slug": "fruity-tree-fruit-pear",
+       "name_es": "Pera",
+       "panel": {
+        "origin": "Subtle ethyl acetate expressions at low concentrations. Found in delicate green teas and light oolongs like Baozhong.",
+        "mixology": "A mild, crisp, and elegantly sweet flavor, much like an Asian pear.",
+        "examples": "Baozhong oolong from Taiwan is famous for its ethereal, pear-like aromatics."
+       }
+      },
+      {
+       "name": "Dried Fruit",
+       "name_fr": "Fruits Secs",
+       "name_it": "Frutta Secca",
+       "name_es": "Fruta Seca",
+       "slug": "fruity-tree-fruit-dried-fruit",
+       "panel": {
+        "origin": "Concentrated sugars and Maillard reaction products. Prominent in aged teas and heavily roasted Wuyi rock oolongs.",
+        "mixology": "A deep, rich, and concentrated sweetness like raisins, prunes, or figs.",
+        "examples": "The 'dried fruit' note in Wuyi Rock Teas is often a result of slow, traditional charcoal roasting."
+       }
+      }
+     ]
+    },
+    {
+     "name": "TROPICAL",
+     "name_fr": "TROPICAL",
+     "name_it": "TROPICALE",
+     "name_es": "TROPICAL",
+     "color": "#aed6f1",
+     "descriptors": [
+      {
+       "name": "Melon",
+       "name_fr": "Melon",
+       "name_it": "Melone",
+       "slug": "fruity-tropical-melon",
+       "name_es": "Melón",
+       "panel": {
+        "origin": "Nonadienal compounds. A refreshing, watery-sweet note found in high-grade Japanese Sencha and Gyokuro.",
+        "mixology": "A cool, sweet, and highly refreshing flavor similar to honeydew or cantaloupe.",
+        "examples": "Melon notes in Japanese green teas are often enhanced by 'shading' the tea plants before harvest."
+       }
+      },
+      {
+       "name": "Lychee",
+       "name_fr": "Litchi",
+       "name_it": "Litchi",
+       "slug": "fruity-tropical-lychee",
+       "name_es": "Lichi",
+       "panel": {
+        "origin": "Complex floral-fruity esters. Common in Taiwanese black teas (like Ruby #18) and certain Dan Congs.",
+        "mixology": "A sweet, floral, and intensely exotic fruit flavor unique to Southeast Asia.",
+        "examples": "Ruby #18 is a unique hybrid cultivar created in Taiwan specifically to produce notes of mint, cinnamon, and lychee."
+       }
+      },
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "slug": "fruity-tropical-pineapple",
+       "name_es": "Piña",
+       "panel": {
+        "origin": "A sharp, sweet-tart ester profile. Can emerge in heavily oxidized, bug-bitten Taiwanese teas.",
+        "mixology": "A bright, intensely sweet and tangy tropical fruit flavor.",
+        "examples": "In the tea world, pineapple notes are a sign of a highly active oxidation phase where enzymes rapidly break down catechins."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLORAL",
+   "name_fr": "FLORAL",
+   "name_it": "FLOREALE",
+   "name_es": "FLORAL",
+   "color": "#f7dc6f",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "FLORAL",
+     "name_fr": "FLORAL",
+     "name_it": "FLOREALE",
+     "name_es": "FLORAL",
+     "color": "#f7dc6f",
+     "descriptors": [
+      {
+       "name": "Jasmine",
+       "name_fr": "Jasmin",
+       "name_it": "Gelsomino",
+       "slug": "floral-floral-jasmine",
+       "name_es": "Jazmín",
+       "panel": {
+        "origin": "Jasmone and linalool. Historically added via scenting, but can naturally occur in lightly oxidized Tieguanyin.",
+        "mixology": "An intoxicatingly sweet, highly aromatic, and elegant flower scent.",
+        "examples": "Authentic jasmine tea isn't flavored with oils; it's made by repeatedly layering green tea leaves with night-blooming jasmine flowers."
+       }
+      },
+      {
+       "name": "Lilac",
+       "name_fr": "Lilas",
+       "name_it": "Lillà",
+       "slug": "floral-floral-lilac",
+       "name_es": "Lila",
+       "panel": {
+        "origin": "A delicate, slightly powdery floral terpene profile found in certain high-mountain Taiwanese oolongs.",
+        "mixology": "A soft, spring-like floral note that feels light and slightly sweet.",
+        "examples": "Floral notes in oolongs are developed by carefully bruising the edges of the tea leaves during the withering process."
+       }
+      },
+      {
+       "name": "Orchid",
+       "name_fr": "Orchidée",
+       "name_it": "Orchidea",
+       "slug": "floral-floral-orchid",
+       "name_es": "Orquídea",
+       "panel": {
+        "origin": "Complex aromatic profile (linalool, geraniol, nerolidol). The holy grail of Tieguanyin and Dan Cong oolongs.",
+        "mixology": "A rich, sophisticated, and pervasive floral flavor that lingers long after swallowing.",
+        "examples": "Tieguanyin (Iron Goddess of Mercy) is historically judged by the strength and persistence of its natural orchid aroma (Yun)."
+       }
+      },
+      {
+       "name": "Honeysuckle",
+       "name_fr": "Chèvrefeuille",
+       "name_it": "Caprifoglio",
+       "slug": "floral-floral-honeysuckle",
+       "name_es": "Madreselva",
+       "panel": {
+        "origin": "A sweet, nectar-like floral note. Highly associated with high-grade Silver Needle (Bai Hao Yinzhen) white tea.",
+        "mixology": "A nostalgic, sweet, and delicate floral flavor like sucking the nectar from a honeysuckle blossom.",
+        "examples": "Honeysuckle notes are most prominent in teas that are primarily composed of unopened leaf buds."
+       }
+      },
+      {
+       "name": "Cherry Blossom",
+       "name_fr": "Fleur de Cerisier",
+       "name_it": "Fiore di Ciliegio",
+       "slug": "floral-floral-cherry-blossom",
+       "name_es": "Flor de Cerezo",
+       "panel": {
+        "origin": "Coumarin compounds. A slightly sweet, almond-like floral note found in some Japanese green teas, particularly Sakura-scented blends.",
+        "mixology": "A gentle, slightly sweet and nutty floral flavor reminiscent of Japanese spring.",
+        "examples": "In Japan, Sakura (cherry blossom) tea is traditionally served at weddings as a symbol of new beginnings."
+       }
+      },
+      {
+       "name": "Orange Blossom",
+       "name_fr": "Fleur d'Oranger",
+       "name_it": "Fiori d'Arancio",
+       "slug": "floral-floral-orange-blossom",
+       "name_es": "Azahar",
+       "panel": {
+        "origin": "Neroli-like aromatics. Can naturally occur in lightly oxidized, high-elevation Ceylon teas.",
+        "mixology": "A bright, zesty, and highly perfumed floral scent with a hint of citrus.",
+        "examples": "Orange blossom notes are highly volatile, meaning you will smell them strongly but they may fade quickly on the palate."
+       }
+      },
+      {
+       "name": "Rose",
+       "name_fr": "Rose",
+       "name_it": "Rosa",
+       "slug": "floral-floral-rose",
+       "name_es": "Rosa",
+       "panel": {
+        "origin": "Geraniol and citronellol. Often blended, but naturally expressed in high-grade Keemun black tea.",
+        "mixology": "A deep, romantic, and velvety floral flavor that pairs beautifully with dark teas.",
+        "examples": "Rose Congou is a classic Chinese tea where black tea is layered with actual rose petals during processing."
+       }
+      },
+      {
+       "name": "Dandelion",
+       "name_fr": "Pissenlit",
+       "name_it": "Tarassaco",
+       "slug": "floral-floral-dandelion",
+       "name_es": "Diente de León",
+       "panel": {
+        "origin": "A slightly bitter, yellow-floral, and earthy note found in young, raw Pu-erh teas.",
+        "mixology": "A rustic, slightly earthy and sunny floral flavor.",
+        "examples": "Roasted dandelion root is often used as a caffeine-free coffee substitute, sharing some earthy profiles with dark teas."
+       }
+      },
+      {
+       "name": "Violet",
+       "name_fr": "Violette",
+       "name_it": "Viola",
+       "slug": "floral-floral-violet",
+       "name_es": "Violeta",
+       "panel": {
+        "origin": "Ionone compounds. A sweet, powdery floral note occasionally found in Darjeeling second flush teas.",
+        "mixology": "A very sweet, candy-like floral note similar to vintage violet pastilles.",
+        "examples": "The 'muscatel' character of Darjeeling tea often carries subtle undertones of violet."
+       }
+      },
+      {
+       "name": "Geranium",
+       "name_fr": "Géranium",
+       "name_it": "Geranio",
+       "slug": "floral-floral-geranium",
+       "name_es": "Geranio",
+       "panel": {
+        "origin": "A sharp, slightly green and citrusy floral note. Driven by geraniol. Common in Dan Cong oolongs.",
+        "mixology": "A pungent, lively floral flavor with a slightly herbal or citrus edge.",
+        "examples": "Geraniol is one of the primary aromatic compounds naturally produced by the tea plant (Camellia sinensis)."
+       }
+      },
+      {
+       "name": "Hops",
+       "name_fr": "Houblon",
+       "name_it": "Luppolo",
+       "slug": "floral-floral-hops",
+       "name_es": "Lúpulo",
+       "panel": {
+        "origin": "Humulene and myrcene. A bitter, floral-resinous note sometimes found in heavily oxidized Indian black teas.",
+        "mixology": "A sharp, slightly bitter floral note similar to the aroma of an IPA beer.",
+        "examples": "Hops and tea both rely heavily on terpenes for their complex aromatic profiles."
+       }
+      },
+      {
+       "name": "Perfume",
+       "name_fr": "Parfum",
+       "name_it": "Profumo",
+       "slug": "floral-floral-perfume",
+       "name_es": "Perfume",
+       "panel": {
+        "origin": "An overwhelming, complex blend of esters and terpenes. Can be a sign of artificial flavoring if unbalanced.",
+        "mixology": "A highly concentrated, aromatic experience that smells almost like a cosmetic or perfume.",
+        "examples": "When tasting tea professionally, cuppers slurp the tea aggressively to atomize these perfumey oils into the nasal cavity."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "NUTTY",
+   "name_fr": "NOISETÉ",
+   "name_it": "DI FRUTTA SECCA",
+   "name_es": "NUECES",
+   "color": "#f39c12",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "NUTTY",
+     "name_fr": "NOISETÉ",
+     "name_it": "DI FRUTTA SECCA",
+     "name_es": "NUECES",
+     "color": "#f39c12",
+     "descriptors": [
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "nutty-nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Benzaldehyde. A sweet, slightly fruity nutty note found in Longjing (Dragon Well) green tea.",
+        "mixology": "A smooth, sweet, and slightly dessert-like nuttiness similar to marzipan.",
+        "examples": "Longjing tea is famously pan-fired in giant woks, pressing the leaves flat and developing this signature roasted almond flavor."
+       }
+      },
+      {
+       "name": "Peanut",
+       "name_fr": "Cacahuète",
+       "name_it": "Arachide",
+       "slug": "nutty-nutty-peanut",
+       "name_es": "Cacahuate",
+       "panel": {
+        "origin": "Pyrazines developed through roasting. Common in lower-grade roasted green teas or Genmaicha.",
+        "mixology": "A rich, savory, and oily nuttiness exactly like freshly roasted peanuts.",
+        "examples": "In Taiwan, some roasted oolongs are intentionally baked for days to develop deep peanut and caramel notes."
+       }
+      },
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "nutty-nutty-walnut",
+       "name_es": "Nuez de Castilla",
+       "panel": {
+        "origin": "Slightly astringent, tannic, and earthy nuttiness. Found in some Yunnan black teas (Dianhong).",
+        "mixology": "A robust, slightly dry nuttiness with an earthy finish, similar to walnut skins.",
+        "examples": "The tannins in walnut skins are very similar chemically to the catechins found in tea leaves."
+       }
+      },
+      {
+       "name": "Chestnut",
+       "name_fr": "Châtaigne",
+       "name_it": "Castagna",
+       "slug": "nutty-nutty-chestnut",
+       "name_es": "Castaña",
+       "panel": {
+        "origin": "A sweet, starchy, and roasted profile. The absolute hallmark of high-quality Chinese green teas (like Bi Luo Chun).",
+        "mixology": "A warm, sweet, and comforting flavor identical to roasted chestnuts in the winter.",
+        "examples": "To achieve the chestnut flavor, Chinese green teas are typically pan-fired, whereas Japanese green teas are steamed (yielding grassy notes)."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "nutty-nutty-hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "A rich, sweet, and woody nuttiness. Present in some roasted Wuyi Rock teas.",
+        "mixology": "A highly aromatic, sweet, and creamy nut flavor, reminiscent of praline.",
+        "examples": "Hazelnut notes in rock tea (Yancha) are a direct result of the Maillard reaction during the careful charcoal roasting process."
+       }
+      },
+      {
+       "name": "Roasted Nuts",
+       "name_fr": "Fruits Secs Grillés",
+       "name_it": "Frutta Secca Tostata",
+       "slug": "nutty-nutty-roasted-nuts",
+       "name_es": "Nueces Tostadas",
+       "panel": {
+        "origin": "A general pyrazine presence from high-heat processing (roasting or firing).",
+        "mixology": "A deeply savory, warm, and comforting aroma like walking past a roasted nut cart.",
+        "examples": "Hojicha, a Japanese roasted green tea, is entirely defined by this roasted nut and caramel profile."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "SWEET",
+   "name_fr": "SUCRÉ",
+   "name_it": "DOLCE",
+   "name_es": "DULCE",
+   "color": "#f1948a",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "SWEET",
+     "name_fr": "SUCRÉ",
+     "name_it": "DOLCE",
+     "name_es": "DULCE",
+     "color": "#f1948a",
+     "descriptors": [
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "sweet-sweet-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "Phenylacetaldehyde. A rich, viscous sweetness. Very common in bug-bitten teas like Oriental Beauty.",
+        "mixology": "A thick, floral, and lingering sweetness that coats the mouth.",
+        "examples": "When leafhoppers bite tea leaves, the plant releases chemicals that, once processed, turn into a distinct honey flavor."
+       }
+      },
+      {
+       "name": "Maple Syrup",
+       "name_fr": "Sirop d'Érable",
+       "name_it": "Sciroppo d'Acero",
+       "slug": "sweet-sweet-maple-syrup",
+       "name_es": "Miel de Maple",
+       "panel": {
+        "origin": "Sotolon compounds. A woody, rich sweetness found in oxidized, high-altitude black teas.",
+        "mixology": "A comforting, rich, and earthy sweetness identical to real maple syrup.",
+        "examples": "Some black teas from the high mountains of Taiwan naturally taste so much like maple syrup it feels like they were sweetened."
+       }
+      },
+      {
+       "name": "Malt",
+       "name_fr": "Malt",
+       "name_it": "Malto",
+       "slug": "sweet-sweet-malt",
+       "name_es": "Malta",
+       "panel": {
+        "origin": "Maltol. The defining characteristic of Assam black tea. A starchy, bready sweetness.",
+        "mixology": "A hearty, robust, and bready sweetness, similar to malted milk balls or a rich dark beer.",
+        "examples": "Malty Assam tea is the foundational ingredient in most Irish Breakfast blends due to its ability to stand up to milk."
+       }
+      },
+      {
+       "name": "Nectar",
+       "name_fr": "Nectar",
+       "name_it": "Nettare",
+       "slug": "sweet-sweet-nectar",
+       "name_es": "Néctar",
+       "panel": {
+        "origin": "A combination of high unfermented sugars and floral esters. Common in silver needle white tea.",
+        "mixology": "A very light, delicate, and floral sweetness, like a drop of sugar water from a flower.",
+        "examples": "White teas are the least processed of all teas, allowing the natural nectar-like sweetness of the leaf bud to shine."
+       }
+      },
+      {
+       "name": "Caramel",
+       "name_fr": "Caramel",
+       "name_it": "Caramello",
+       "name_es": "Caramelo",
+       "slug": "sweet-sweet-caramel",
+       "panel": {
+        "origin": "Caramelized plant sugars from roasting. A signature note of dark roasted oolongs and Hojicha.",
+        "mixology": "A deep, rich, and slightly burnt sugar flavor that feels dessert-like.",
+        "examples": "Roasting tea at high temperatures converts the amino acids and sugars into complex caramel compounds via the Maillard reaction."
+       }
+      },
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "sweet-sweet-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "Dark, slightly bitter, concentrated sweetness. Found in aged Ripe (Shou) Pu-erh.",
+        "mixology": "A thick, dark, and slightly earthy sweetness, like brown sugar or treacle.",
+        "examples": "Shou Pu-erh undergoes a 'wet piling' fermentation process that completely transforms its sugars into dark molasses notes."
+       }
+      },
+      {
+       "name": "Burnt Sugar",
+       "name_fr": "Sucre Brûlé",
+       "name_it": "Zucchero Bruciato",
+       "slug": "sweet-sweet-burnt-sugar",
+       "name_es": "Azúcar Quemada",
+       "panel": {
+        "origin": "Advanced caramelization. Often found in heavily baked Wuyi Rock teas (Yancha).",
+        "mixology": "A sharp, intense sweetness with a slightly bitter, smoky edge, like the top of a crème brûlée.",
+        "examples": "Wuyi Rock teas are traditionally roasted over charcoal ash for hours to develop this specific burnt sugar profile."
+       }
+      },
+      {
+       "name": "Candy",
+       "name_fr": "Bonbon",
+       "name_it": "Caramella",
+       "slug": "sweet-sweet-candy",
+       "name_es": "Dulce",
+       "panel": {
+        "origin": "A highly volatile, simple sweet ester profile, often fading quickly. Sometimes found in fresh green teas.",
+        "mixology": "A bright, simple, and slightly artificial-seeming sweetness, like a hard candy.",
+        "examples": "In professional tasting, a 'candy' sweetness is sometimes considered less sophisticated than a complex 'honey' or 'malt' sweetness."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "SPICY",
+   "name_fr": "ÉPICÉ",
+   "name_it": "SPEZIATO",
+   "name_es": "ESPECIADO",
+   "color": "#c39bd3",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "SPICY",
+     "name_fr": "ÉPICÉ",
+     "name_it": "SPEZIATO",
+     "name_es": "ESPECIADO",
+     "color": "#c39bd3",
+     "descriptors": [
+      {
+       "name": "Cocoa",
+       "name_fr": "Cacao",
+       "name_it": "Cacao",
+       "name_es": "Cacao",
+       "slug": "spicy-spicy-cocoa",
+       "panel": {
+        "origin": "Theobromine and pyrazines. A dry, slightly bitter, brown spice note. Found in high-grade Golden Monkey or Jin Jun Mei black teas.",
+        "mixology": "A smooth, slightly dry, and rich flavor similar to unsweetened cocoa powder.",
+        "examples": "Tea contains theobromine, the exact same mildly stimulating alkaloid that makes chocolate feel so good to eat."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "slug": "spicy-spicy-clove",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "Eugenol. A sharp, medicinal spice note. Can occur in heavily oxidized wild arbor black teas.",
+        "mixology": "A pungent, warm, and highly aromatic baking spice with a slight numbing effect.",
+        "examples": "Eugenol is a naturally occurring compound in both tea and cloves, giving them their shared spicy bite."
+       }
+      },
+      {
+       "name": "Thyme",
+       "name_fr": "Thym",
+       "name_it": "Timo",
+       "slug": "spicy-spicy-thyme",
+       "name_es": "Tomillo",
+       "panel": {
+        "origin": "Thymol. A savory, herbal spice note occasionally found in Mediterranean-grown or wild teas.",
+        "mixology": "A savory, dry, and slightly woody herbal flavor.",
+        "examples": "Herbal notes in true tea are often a reflection of the terroir—the surrounding vegetation and soil composition."
+       }
+      },
+      {
+       "name": "Parsley",
+       "name_fr": "Persil",
+       "name_it": "Prezzemolo",
+       "slug": "spicy-spicy-parsley",
+       "name_es": "Perejil",
+       "panel": {
+        "origin": "A green, slightly bitter, and fresh spice note. Can be found in under-processed or very young green teas.",
+        "mixology": "A very fresh, green, and slightly grassy herbal flavor.",
+        "examples": "If a green tea tastes too much like parsley or raw vegetables, the 'kill-green' heat step may have been too brief."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "spicy-spicy-nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "Myristicin. A warm, sweet, and woody spice note found in some Darjeeling autumnal flushes.",
+        "mixology": "A sweet, warm, and comforting baking spice.",
+        "examples": "Autumnal flush teas (harvested in the fall) are famous for their darker, spicier, and more robust profiles."
+       }
+      },
+      {
+       "name": "Menthol",
+       "name_fr": "Menthol",
+       "name_it": "Mentolo",
+       "slug": "spicy-spicy-menthol",
+       "name_es": "Mentol",
+       "panel": {
+        "origin": "A cooling, mint-like sensation driven by specific terpenes. A famous characteristic of Taiwanese Ruby #18.",
+        "mixology": "A distinct cooling sensation in the mouth and throat, similar to peppermint.",
+        "examples": "The menthol note in Ruby #18 is genetic; it's a crossbreed between a Burmese large-leaf varietal and a wild Taiwanese tea."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "spicy-spicy-vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "Vanillin. A sweet, creamy spice note naturally occurring in aged white teas and some Taiwanese oolongs.",
+        "mixology": "A smooth, rich, and comforting dessert spice.",
+        "examples": "As white tea ages (over 3-5 years), its enzymes slowly break down, creating a pronounced natural vanilla flavor."
+       }
+      },
+      {
+       "name": "Black Pepper",
+       "name_fr": "Poivre Noir",
+       "name_it": "Pepe Nero",
+       "slug": "spicy-spicy-black-pepper",
+       "name_es": "Pimienta Negra",
+       "panel": {
+        "origin": "Piperine-like pungency. Found in robust, thick black teas like Kenyan or Assam.",
+        "mixology": "A sharp, biting spice that leaves a lingering warmth on the palate.",
+        "examples": "Chai blends heavily utilize black pepper to cut through the milk and sugar, complementing the tea's natural tannins."
+       }
+      },
+      {
+       "name": "White Pepper",
+       "name_fr": "Poivre Blanc",
+       "name_it": "Pepe Bianco",
+       "slug": "spicy-spicy-white-pepper",
+       "name_es": "Pimienta Blanca",
+       "panel": {
+        "origin": "A milder, more earthy and musty spice note compared to black pepper. Found in some aged Sheng Pu-erhs.",
+        "mixology": "A subtle, earthy spice with a gentle heat.",
+        "examples": "Aging tea in humid environments (like Hong Kong or Guangdong) often imparts earthy, white-pepper nuances."
+       }
+      },
+      {
+       "name": "Coriander Seed",
+       "name_fr": "Graine de Coriandre",
+       "name_it": "Seme di Coriandolo",
+       "slug": "spicy-spicy-coriander-seed",
+       "name_es": "Semilla de Cilantro",
+       "panel": {
+        "origin": "Linalool. A citrusy, floral spice note. Very common in high-elevation Sri Lankan (Ceylon) teas.",
+        "mixology": "A bright, slightly citrusy and nutty spice flavor.",
+        "examples": "Linalool is a major aromatic compound in tea, giving it both floral (orchid) and spicy (coriander) characteristics."
+       }
+      },
+      {
+       "name": "Cardamom",
+       "name_fr": "Cardamome",
+       "name_it": "Cardamomo",
+       "slug": "spicy-spicy-cardamom",
+       "name_es": "Cardamomo",
+       "panel": {
+        "origin": "Cineole. A sweet, pungent, and highly aromatic spice. Often an inclusion, but natural hints exist in some wild Indian teas.",
+        "mixology": "A complex, sweet, and highly fragrant spice with hints of lemon and mint.",
+        "examples": "Cardamom is the absolute cornerstone spice of traditional Indian Masala Chai."
+       }
+      },
+      {
+       "name": "Eucalyptus",
+       "name_fr": "Eucalyptus",
+       "name_it": "Eucalipto",
+       "slug": "spicy-spicy-eucalyptus",
+       "name_es": "Eucalipto",
+       "panel": {
+        "origin": "Eucalyptol. A sharp, medicinal, and cooling note. Characteristic of some wild Australian or specifically processed dark teas.",
+        "mixology": "A highly medicinal, clearing, and cooling herbal flavor.",
+        "examples": "Tea plants absorb aromatics from their environment; teas grown near eucalyptus forests can take on these traits."
+       }
+      },
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "spicy-spicy-cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "Cinnamaldehyde. A sweet, woody spice. The defining characteristic of Rou Gui (Cassia) Wuyi Rock Oolong.",
+        "mixology": "A warm, sweet, and pervasive baking spice.",
+        "examples": "Rou Gui is a famous rock tea whose name literally translates to 'Cinnamon', prized for its natural, intense cinnamon aroma."
+       }
+      },
+      {
+       "name": "Licorice",
+       "name_fr": "Réglisse",
+       "name_it": "Liquirizia",
+       "slug": "spicy-spicy-licorice",
+       "name_es": "Regaliz",
+       "panel": {
+        "origin": "Glycyrrhizin-like sweetness (Hui Gan). A sweet, lingering aftertaste highly prized in raw Pu-erh.",
+        "mixology": "A sweet, root-like flavor that lingers in the throat long after swallowing.",
+        "examples": "In Chinese tea culture, 'Hui Gan' is a returning sweetness in the throat, often compared to the lingering sweetness of licorice root."
+       }
+      },
+      {
+       "name": "Saffron",
+       "name_fr": "Safran",
+       "name_it": "Zafferano",
+       "slug": "spicy-spicy-saffron",
+       "name_es": "Azafrán",
+       "panel": {
+        "origin": "Safranal. A slightly metallic, floral, and honeyed spice note. Rare, found in some high-grade Persian or Indian black teas.",
+        "mixology": "A highly exotic, slightly earthy and sweet floral spice.",
+        "examples": "True saffron is the most expensive spice in the world, sometimes brewed on its own as a luxury tisane."
+       }
+      },
+      {
+       "name": "Fennel",
+       "name_fr": "Fenouil",
+       "name_it": "Finocchio",
+       "slug": "spicy-spicy-fennel",
+       "name_es": "Hinojo",
+       "panel": {
+        "origin": "Anethole. A sweet, anise-like, and slightly green spice note.",
+        "mixology": "A sweet, herbal flavor very similar to mild black licorice.",
+        "examples": "Fennel seeds are commonly used in Ayurvedic tea blends for their reputed digestive benefits."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "CHAR",
+   "name_fr": "CARBONISÉ",
+   "name_it": "CARBONIZZATO",
+   "name_es": "CARBONIZADO",
+   "color": "#bdc3c7",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "CHAR",
+     "name_fr": "CARBONISÉ",
+     "name_it": "CARBONIZZATO",
+     "name_es": "CARBONIZADO",
+     "color": "#bdc3c7",
+     "descriptors": [
+      {
+       "name": "Ash",
+       "name_fr": "Cendre",
+       "name_it": "Cenere",
+       "slug": "char-char-ash",
+       "name_es": "Ceniza",
+       "panel": {
+        "origin": "A dry, particulate carbon note resulting from over-roasting or improper firing.",
+        "mixology": "A dry, dusty flavor similar to a cold campfire.",
+        "examples": "While usually a defect, a slight ashy note is expected in traditional, heavily roasted Tieguanyin."
+       }
+      },
+      {
+       "name": "Tar",
+       "name_fr": "Goudron",
+       "name_it": "Catrame",
+       "slug": "char-char-tar",
+       "name_es": "Brea",
+       "panel": {
+        "origin": "Heavy phenolic compounds from intense smoke exposure. The defining note of Lapsang Souchong.",
+        "mixology": "An intense, heavy, and slightly medicinal smoky flavor, like fresh asphalt or pine pitch.",
+        "examples": "Lapsang Souchong is traditionally smoked over smoldering pinewood fires in the Wuyi Mountains."
+       }
+      },
+      {
+       "name": "Smoke",
+       "name_fr": "Fumée",
+       "name_it": "Fumo",
+       "slug": "char-char-smoke",
+       "name_es": "Humo",
+       "panel": {
+        "origin": "Guaiacol and syringol. Injected via pine smoke or charcoal roasting.",
+        "mixology": "A distinct campfire or smoked meat aroma.",
+        "examples": "Legend has it that smoked tea was invented accidentally when an army camped in a tea factory, forcing the farmers to dry the leaves quickly over pine fires."
+       }
+      },
+      {
+       "name": "Toast",
+       "name_fr": "Pain Grillé",
+       "name_it": "Pane Tostato",
+       "slug": "char-char-toast",
+       "name_es": "Pan Tostado",
+       "panel": {
+        "origin": "Maillard reaction products (furans). A comforting, bready, and roasted profile.",
+        "mixology": "A warm, comforting flavor exactly like a slice of browned toast.",
+        "examples": "Toasty notes are the primary reason Genmaicha (green tea with toasted rice) is so beloved as a comfort drink."
+       }
+      },
+      {
+       "name": "Tobacco",
+       "name_fr": "Tabac",
+       "name_it": "Tabacco",
+       "slug": "char-char-tobacco",
+       "name_es": "Tabaco",
+       "panel": {
+        "origin": "A complex, earthy, sweet, and slightly leathery note. Very common in aged raw Pu-erh and some Keemun blacks.",
+        "mixology": "A rich, sweet, and earthy aroma like unlit pipe tobacco or a cigar humidor.",
+        "examples": "As raw Pu-erh ages over decades, its sharp astringency mellows out into deep, complex tobacco and leather notes."
+       }
+      },
+      {
+       "name": "Grilled Food",
+       "name_fr": "Aliments Grillés",
+       "name_it": "Cibo alla Griglia",
+       "slug": "char-char-grilled-food",
+       "name_es": "Comida a la Parrilla",
+       "panel": {
+        "origin": "Savory pyrazines combined with smoke phenols. Present in some heavy charcoal-roasted oolongs.",
+        "mixology": "A savory, slightly smoky umami flavor.",
+        "examples": "Traditional charcoal roasting requires a master roaster to monitor the ash continuously for days to prevent the tea from catching fire."
+       }
+      },
+      {
+       "name": "Burnt Food",
+       "name_fr": "Aliments Brûlés",
+       "name_it": "Cibo Bruciato",
+       "slug": "char-char-burnt-food",
+       "name_es": "Comida Quemada",
+       "panel": {
+        "origin": "A severe roasting defect where the leaf carbonizes, creating acrid, bitter flavors.",
+        "mixology": "An unpleasant, harsh bitterness like scraping the burnt bottom of a pan.",
+        "examples": "Carbonized tea leaves will feel brittle and powdery to the touch, a clear sign of poor processing."
+       }
+      },
+      {
+       "name": "Fireplace",
+       "name_fr": "Cheminée",
+       "name_it": "Camino",
+       "slug": "char-char-fireplace",
+       "name_es": "Chimenea",
+       "panel": {
+        "origin": "A mellow, integrated smoke and wood profile, typical of aged Lapsang Souchong.",
+        "mixology": "A comforting, woody, and gently smoky aroma like sitting by a winter hearth.",
+        "examples": "High-quality smoked teas balance the smoke so it doesn't overpower the natural floral and fruity notes of the tea leaf."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "VEGETAL",
+   "name_fr": "VÉGÉTAL",
+   "name_it": "VEGETALE",
+   "name_es": "VEGETAL",
+   "color": "#a9dfbf",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "GRASS",
+     "name_fr": "HERBE",
+     "name_it": "ERBA",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Grass",
+       "name_fr": "Herbe",
+       "name_it": "Erba",
+       "slug": "vegetal-grass-grass",
+       "name_es": "Pasto",
+       "panel": {
+        "origin": "Hexanal and leaf alcohol. The quintessential profile of steamed Japanese green teas.",
+        "mixology": "A fresh, bright, and slightly astringent green flavor.",
+        "examples": "Steaming tea leaves (Japanese style) immediately halts oxidation, preserving the vibrant green color and grassy flavors."
+       }
+      },
+      {
+       "name": "Freshly Cut Grass",
+       "name_fr": "Herbe Fraîchement Coupée",
+       "name_it": "Erba Appena Tagliata",
+       "slug": "vegetal-grass-freshly-cut-grass",
+       "name_es": "Pasto Recién Cortado",
+       "panel": {
+        "origin": "Intense, volatile cis-3-hexenol. A highly vibrant, almost pungent green note.",
+        "mixology": "The exact, vivid smell of a lawnmower on a summer day.",
+        "examples": "This compound is actually a distress signal released by the plant when its leaves are broken or cut."
+       }
+      },
+      {
+       "name": "Grass Seed",
+       "name_fr": "Graine d'Herbe",
+       "name_it": "Seme d'Erba",
+       "slug": "vegetal-grass-grass-seed",
+       "name_es": "Semilla de Pasto",
+       "panel": {
+        "origin": "A slightly dry, starchy, and mild green note.",
+        "mixology": "A dry, earthy, and mild green flavor, similar to chewing on a wheat stalk.",
+        "examples": "Some lower-grade green teas have a flatter, seed-like profile due to later harvesting times."
+       }
+      },
+      {
+       "name": "Barnyard",
+       "name_fr": "Étable",
+       "name_it": "Stalla",
+       "slug": "vegetal-grass-barnyard",
+       "name_es": "Establo",
+       "panel": {
+        "origin": "A funky, earthy, and slightly animalic note. Often a sign of humid storage or specific organic fertilizers.",
+        "mixology": "A rustic, funky, and earthy aroma reminiscent of hay and horses.",
+        "examples": "In the Pu-erh world, a slight 'barnyard' funk is sometimes appreciated as a sign of traditional wet storage (Hou Qi)."
+       }
+      },
+      {
+       "name": "Stems",
+       "name_fr": "Rafles",
+       "name_it": "Raspi",
+       "slug": "vegetal-grass-stems",
+       "name_es": "Tallos",
+       "panel": {
+        "origin": "A woody, slightly sweet, and pale green profile. Characteristic of Kukicha (twig tea).",
+        "mixology": "A light, slightly woody and sweet green flavor without the bitterness of leaves.",
+        "examples": "Kukicha is made entirely of the stems and twigs of the tea plant, making it naturally very low in caffeine."
+       }
+      },
+      {
+       "name": "Straw",
+       "name_fr": "Paille",
+       "name_it": "Paglia",
+       "slug": "vegetal-grass-straw",
+       "name_es": "Paja",
+       "panel": {
+        "origin": "A dry, oxidized green note. Often found in older or faded green teas (past crop).",
+        "mixology": "A dry, flat, and dusty green flavor like dried hay.",
+        "examples": "Green tea has the shortest shelf life of all teas; within a year, its vibrant grassy notes fade into dull straw."
+       }
+      }
+     ],
+     "name_es": "PASTO"
+    },
+    {
+     "name": "WOOD",
+     "name_fr": "BOIS",
+     "name_it": "LEGNO",
+     "name_es": "MADERA",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Pine",
+       "name_fr": "Pin",
+       "name_it": "Pino",
+       "slug": "vegetal-wood-pine",
+       "name_es": "Pino",
+       "panel": {
+        "origin": "Alpha-pinene. A sharp, resinous wood note. Central to Lapsang Souchong's smoking process.",
+        "mixology": "A sharp, evergreen aroma like walking through a pine forest.",
+        "examples": "Only specifically sourced, resin-heavy pine wood is used to traditionally smoke authentic Wuyi Lapsang Souchong."
+       }
+      },
+      {
+       "name": "Cedar",
+       "name_fr": "Cèdre",
+       "name_it": "Cedro",
+       "slug": "vegetal-wood-cedar",
+       "name_es": "Cedro",
+       "panel": {
+        "origin": "A sweet, aromatic, and dry wood note. Found in some aged Taiwanese oolongs.",
+        "mixology": "A sweet, fragrant, and comforting woodiness, like an old cedar chest.",
+        "examples": "Storing tea in cedar boxes is generally avoided as the strong wood oils will permanently alter the tea's flavor."
+       }
+      },
+      {
+       "name": "Cherry Wood",
+       "name_fr": "Bois de Cerisier",
+       "name_it": "Legno di Ciliegio",
+       "slug": "vegetal-wood-cherry-wood",
+       "name_es": "Madera de Cerezo",
+       "panel": {
+        "origin": "A sweet, slightly fruity, and warm wood profile.",
+        "mixology": "A soft, sweet wood flavor with a hint of red fruit.",
+        "examples": "Tea caddies in Japan are often crafted from cherry bark (Kabazaiku) because it naturally regulates humidity."
+       }
+      },
+      {
+       "name": "Green Wood",
+       "name_fr": "Bois Vert",
+       "name_it": "Legno Verde",
+       "slug": "vegetal-wood-green-wood",
+       "name_es": "Madera Verde",
+       "panel": {
+        "origin": "A sappy, astringent, and unripe wood note. Can indicate harsh processing or young leaves.",
+        "mixology": "A sharp, sappy, and slightly bitter flavor like stripping the bark off a live branch.",
+        "examples": "A green wood flavor is usually considered a defect, indicating the tea wasn't roasted or oxidized quite enough."
+       }
+      },
+      {
+       "name": "Dark Wood",
+       "name_fr": "Bois Sombre",
+       "name_it": "Legno Scuro",
+       "slug": "vegetal-wood-dark-wood",
+       "name_es": "Madera Oscura",
+       "panel": {
+        "origin": "A heavy, rich, and oxidized profile. Common in fully oxidized, older black teas.",
+        "mixology": "A deep, rich, and antique wood flavor like polished mahogany.",
+        "examples": "Aged black teas lose their brisk astringency and develop deep, comforting dark wood characteristics."
+       }
+      },
+      {
+       "name": "Sawdust",
+       "name_fr": "Sciure",
+       "name_it": "Segatura",
+       "slug": "vegetal-wood-sawdust",
+       "name_es": "Aserrín",
+       "panel": {
+        "origin": "A dry, particulate, and slightly stale wood note. Often a sign of staling or poor storage.",
+        "mixology": "A dry, flat, and dusty flavor.",
+        "examples": "Tea bags often contain 'fannings' and 'dust'—the smallest particles of tea that can sometimes taste like sawdust due to rapid oxidation."
+       }
+      }
+     ]
+    },
+    {
+     "name": "EARTH",
+     "name_fr": "TERRE",
+     "name_it": "TERRA",
+     "name_es": "TIERRA",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Camphor",
+       "name_fr": "Camphre",
+       "name_it": "Canfora",
+       "slug": "vegetal-earth-camphor",
+       "name_es": "Alcanfor",
+       "panel": {
+        "origin": "A cooling, medicinal, and earthy note. Highly prized in aged raw Pu-erh from old trees.",
+        "mixology": "A sharp, cooling, and slightly medicinal flavor similar to Vicks VapoRub or mothballs.",
+        "examples": "Camphor notes in Pu-erh are believed to come from the tea trees growing alongside actual camphor trees in the Yunnan forests."
+       }
+      },
+      {
+       "name": "Resin",
+       "name_fr": "Résine",
+       "name_it": "Resina",
+       "slug": "vegetal-earth-resin",
+       "name_es": "Resina",
+       "panel": {
+        "origin": "A sticky, sharp, and sap-like note. Found in some wild arbor teas.",
+        "mixology": "A sharp, slightly bitter, and sticky pine-sap flavor.",
+        "examples": "Tea leaves are coated in a natural wax to protect them; intense processing can sometimes bring out resinous qualities."
+       }
+      },
+      {
+       "name": "Bark",
+       "name_fr": "Écorce",
+       "name_it": "Corteccia",
+       "slug": "vegetal-earth-bark",
+       "name_es": "Corteza",
+       "panel": {
+        "origin": "A dry, tannic, and earthy profile.",
+        "mixology": "A dry, rough, and earthy flavor.",
+        "examples": "Some herbal teas, like Cinnamon or Yohimbe, are actually made entirely of tree bark."
+       }
+      },
+      {
+       "name": "Peat",
+       "name_fr": "Tourbe",
+       "name_it": "Torba",
+       "slug": "vegetal-earth-peat",
+       "name_es": "Turba",
+       "panel": {
+        "origin": "A dense, smoky, and earthy note. Found in heavily roasted or uniquely aged dark teas.",
+        "mixology": "A rich, earthy, and smoky flavor similar to Islay Scotch whisky.",
+        "examples": "Peat is rarely used in tea processing, but the flavor profile can be replicated through specific fungal fermentation in dark teas."
+       }
+      },
+      {
+       "name": "Moss",
+       "name_fr": "Mousse",
+       "name_it": "Muschio",
+       "slug": "vegetal-earth-moss",
+       "name_es": "Musgo",
+       "panel": {
+        "origin": "A damp, green, and earthy note. Characteristic of some wet-stored Pu-erhs.",
+        "mixology": "A soft, damp, and earthy flavor like walking through a wet forest.",
+        "examples": "The environment where tea grows deeply affects its taste; teas from constantly misty, mossy ravines often absorb that character."
+       }
+      },
+      {
+       "name": "Wet Wood",
+       "name_fr": "Bois Mouillé",
+       "name_it": "Legno Bagnato",
+       "slug": "vegetal-earth-wet-wood",
+       "name_es": "Madera Mojada",
+       "panel": {
+        "origin": "A damp, musty profile. Can be a sign of poor storage or a stage in Pu-erh fermentation.",
+        "mixology": "A damp, heavy flavor like a rain-soaked log.",
+        "examples": "During the 'wet piling' process of Shou Pu-erh, the tea literally tastes like a wet forest floor for the first few months."
+       }
+      },
+      {
+       "name": "Wet Earth",
+       "name_fr": "Terre Mouillée",
+       "name_it": "Terra Bagnata",
+       "slug": "vegetal-earth-wet-earth",
+       "name_es": "Tierra Mojada",
+       "panel": {
+        "origin": "Geosmin. A classic note of ripe (Shou) Pu-erh. Results from microbial fermentation.",
+        "mixology": "A deep, comforting flavor identical to the smell of soil after a heavy rain (petrichor).",
+        "examples": "Geosmin, the chemical that causes this flavor, is produced by soil bacteria and is detectable by humans at incredibly low concentrations."
+       }
+      },
+      {
+       "name": "Leather",
+       "name_fr": "Cuir",
+       "name_it": "Cuoio",
+       "name_es": "Cuero",
+       "slug": "vegetal-earth-leather",
+       "panel": {
+        "origin": "A complex, oxidized, and slightly animalic note. Prized in aged raw Pu-erh and fine Assams.",
+        "mixology": "A dry, rich, and sophisticated aroma exactly like an old leather armchair or saddle.",
+        "examples": "As raw Pu-erh ages, its bright, astringent green notes slowly morph into deep leather and tobacco profiles."
+       }
+      },
+      {
+       "name": "Forest Floor",
+       "name_fr": "Sous-bois",
+       "name_it": "Sottobosco",
+       "slug": "vegetal-earth-forest-floor",
+       "name_es": "Suelo de Bosque",
+       "panel": {
+        "origin": "A complex blend of damp earth, decaying leaves, and mushrooms. Found in Liu Bao and Pu-erh.",
+        "mixology": "A savory, damp, and incredibly earthy flavor like autumn leaves on the ground.",
+        "examples": "Dark teas (Hei Cha) actually rely on specific molds and yeasts to develop this forest floor complexity."
+       }
+      },
+      {
+       "name": "Decaying Wood",
+       "name_fr": "Bois en Décomposition",
+       "name_it": "Legno in Decomposizione",
+       "slug": "vegetal-earth-decaying-wood",
+       "name_es": "Madera en Descomposición",
+       "panel": {
+        "origin": "Advanced fungal fermentation. A hallmark of traditional wet-storage dark teas.",
+        "mixology": "A very heavy, damp, and funky earthiness.",
+        "examples": "While it sounds unappealing, this note in high-end aged tea provides a thick, comforting mouthfeel that coats the throat."
+       }
+      },
+      {
+       "name": "Compost",
+       "name_fr": "Compost",
+       "name_it": "Compost",
+       "slug": "vegetal-earth-compost",
+       "name_es": "Composta",
+       "panel": {
+        "origin": "Extreme fermentation. Often a sign that a ripe Pu-erh hasn't rested long enough after processing.",
+        "mixology": "An overwhelming, hot, and funky earth aroma.",
+        "examples": "Newly produced Shou Pu-erh needs to rest for a few years to let these extreme compost notes dissipate."
+       }
+      },
+      {
+       "name": "Musty",
+       "name_fr": "Moisi",
+       "name_it": "Ammuffito",
+       "slug": "vegetal-earth-musty",
+       "name_es": "A Humedad",
+       "panel": {
+        "origin": "TCA or damp storage indication. A flat, dull, and dusty note.",
+        "mixology": "A stale, old basement smell.",
+        "examples": "Mustiness is generally a defect, meaning the tea was stored in an environment without proper airflow."
+       }
+      }
+     ]
+    },
+    {
+     "name": "MINERAL",
+     "name_fr": "MINÉRAL",
+     "name_it": "MINERALE",
+     "name_es": "MINERAL",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Metallic",
+       "name_fr": "Métallique",
+       "name_it": "Metallico",
+       "slug": "vegetal-mineral-metallic",
+       "name_es": "Metálico",
+       "panel": {
+        "origin": "Often a sign of hard brewing water or high iron content in the tea leaves.",
+        "mixology": "A sharp, biting flavor like licking a copper penny.",
+        "examples": "Historically, cast iron teapots (Tetsubin) were prized because they slightly altered the water's mineral content, sweetening the tea."
+       }
+      },
+      {
+       "name": "Wet Rocks",
+       "name_fr": "Roches Mouillées",
+       "name_it": "Rocce Bagnate",
+       "slug": "vegetal-mineral-wet-rocks",
+       "name_es": "Piedras Mojadas",
+       "panel": {
+        "origin": "A clean, stony, and crisp mineral profile. The absolute signature of Wuyi Rock Teas (Yancha).",
+        "mixology": "A crisp, clean, and grounding flavor like the smell of river stones after a rain.",
+        "examples": "Wuyi Rock Teas grow in actual rocky crevices in a national park; their roots absorb immense amounts of minerals, yielding the famous 'Rock Rhyme' (Yan Yun)."
+       }
+      }
+     ]
+    },
+    {
+     "name": "MARINE",
+     "name_fr": "MARIN",
+     "name_it": "MARINO",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Salt",
+       "name_fr": "Sel",
+       "name_it": "Sale",
+       "slug": "vegetal-marine-salt",
+       "name_es": "Sal",
+       "panel": {
+        "origin": "A savory, sodium-like impression often tied to high umami/amino acid content.",
+        "mixology": "A savory, mouth-watering brininess.",
+        "examples": "In the Tang Dynasty, tea was traditionally boiled with a pinch of salt to enhance its flavor."
+       }
+      },
+      {
+       "name": "Seaweed",
+       "name_fr": "Algue",
+       "name_it": "Alga",
+       "slug": "vegetal-marine-seaweed",
+       "name_es": "Alga Marina",
+       "panel": {
+        "origin": "Dimethyl sulfide (DMS). A hallmark of heavily shaded Japanese green teas like Gyokuro.",
+        "mixology": "A rich, savory, and oceanic flavor exactly like nori (sushi seaweed).",
+        "examples": "Shading Japanese tea plants blocks photosynthesis, which ramps up the production of savory amino acids like L-theanine."
+       }
+      },
+      {
+       "name": "Ocean Air",
+       "name_fr": "Air Marin",
+       "name_it": "Aria di Mare",
+       "slug": "vegetal-marine-ocean-air",
+       "name_es": "Brisa Marina",
+       "panel": {
+        "origin": "A brisk, slightly briny and fresh ozone note. Found in coastal-grown Japanese Sencha.",
+        "mixology": "A fresh, breezy, and slightly salty aroma.",
+        "examples": "Terroir is powerful; tea grown on coastal farms in Japan literally absorbs the salty sea breezes into the leaves."
+       }
+      },
+      {
+       "name": "Fish",
+       "name_fr": "Poisson",
+       "name_it": "Pesce",
+       "slug": "vegetal-marine-fish",
+       "name_es": "Pescado",
+       "panel": {
+        "origin": "A severe defect caused by excessive dimethyl sulfide, poor storage, or bad fertilizer.",
+        "mixology": "An unpleasant, harsh, and fishy smell.",
+        "examples": "A fishy taste in green tea or matcha is a definitive sign of low quality or improperly applied fish-meal fertilizer."
+       }
+      }
+     ],
+     "name_es": "MARINO"
+    },
+    {
+     "name": "VEGETABLES",
+     "name_fr": "LÉGUMES",
+     "name_it": "VERDURE",
+     "name_es": "VEGETALES",
+     "color": "#d4efdf",
+     "descriptors": [
+      {
+       "name": "Garden Peas",
+       "name_fr": "Petits Pois",
+       "name_it": "Piselli",
+       "slug": "vegetal-vegetables-garden-peas",
+       "name_es": "Chícharos",
+       "panel": {
+        "origin": "A sweet, vibrant green note. Highly desirable in premium spring green teas.",
+        "mixology": "A bright, sweet, and comforting vegetable flavor like fresh snap peas.",
+        "examples": "The first harvest of spring (Pre-Qingming) yields the sweetest, most pea-like green teas due to high amino acid content built up over winter."
+       }
+      },
+      {
+       "name": "Green Pepper",
+       "name_fr": "Poivron Vert",
+       "name_it": "Peperone Verde",
+       "slug": "vegetal-vegetables-green-pepper",
+       "name_es": "Pimiento Morrón",
+       "panel": {
+        "origin": "Methoxypyrazines. A sharp, slightly spicy vegetal note.",
+        "mixology": "A crisp, slightly sharp flavor like a raw green bell pepper.",
+        "examples": "This note can indicate the tea was grown in a slightly cooler climate, slowing down the breakdown of these specific pyrazines."
+       }
+      },
+      {
+       "name": "Asparagus",
+       "name_fr": "Asperge",
+       "name_it": "Asparago",
+       "slug": "vegetal-vegetables-asparagus",
+       "name_es": "Espárrago",
+       "panel": {
+        "origin": "A savory, slightly sulfurous green note. Found in some steamed Japanese teas.",
+        "mixology": "A rich, steamed vegetable flavor.",
+        "examples": "The savory, asparagus-like umami in fine Japanese tea is so intense it is sometimes compared to chicken broth."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FRUITY": {
+   "en": "Fruity notes — berries, citrus, tree fruit, tropical — are common in fruit-infused or flavored teas, but also occur naturally in high-quality oolongs and black teas through oxidation.",
+   "es": "Las notas afrutadas — bayas, cítricos, fruta de árbol, tropical — son comunes en los tés con infusión o saborizados, pero también ocurren de forma natural en oolongs y tés negros de alta calidad gracias a la oxidación."
+  },
+  "FLORAL": {
+   "en": "Floral notes — jasmine, orchid, rose — are signature of high-grade green and oolong teas, often coming from the tea cultivar itself or from scenting with real flowers.",
+   "es": "Las notas florales — jazmín, orquídea, rosa — son distintivas de los tés verdes y oolong de alta calidad, y a menudo provienen del propio cultivar del té o de un perfumado con flores reales."
+  },
+  "NUTTY": {
+   "en": "Nutty notes — almond, chestnut, roasted nuts — are common in roasted oolongs and some black teas, developing during the roasting or pan-firing step.",
+   "es": "Las notas a frutos secos — almendra, castaña, frutos secos tostados — son comunes en los oolongs tostados y algunos tés negros, y se desarrollan durante el paso de tostado o cocción en wok."
+  },
+  "SWEET": {
+   "en": "Sweet notes — honey, malt, caramel — develop through oxidation (in black teas) or careful withering and roasting, and signal a well-processed, high-quality tea.",
+   "es": "Las notas dulces — miel, malta, caramelo — se desarrollan a través de la oxidación (en los tés negros) o un marchitado y tostado cuidadosos, y señalan un té bien procesado y de alta calidad."
+  },
+  "SPICY": {
+   "en": "Spice notes — cinnamon, clove, pepper — are naturally occurring aromatic compounds in the tea plant itself, most pronounced in certain high-mountain and specialty cultivars.",
+   "es": "Las notas de especia — canela, clavo, pimienta — son compuestos aromáticos que ocurren naturalmente en la propia planta del té, y son más pronunciadas en ciertos cultivares de alta montaña y de especialidad."
+  },
+  "CHAR": {
+   "en": "Char notes — ash, smoke, tobacco — come from high-heat roasting or, in some traditional styles like Lapsang Souchong, from drying the leaves over a wood fire.",
+   "es": "Las notas a carbonizado — ceniza, humo, tabaco — provienen de un tostado a alta temperatura o, en algunos estilos tradicionales como el Lapsang Souchong, de secar las hojas sobre fuego de leña."
+  },
+  "VEGETAL": {
+   "en": "Vegetal notes — grass, wood, earth, mineral, marine, vegetables — are the largest and most diverse group, reflecting everything from fresh green tea (grassy) to aged pu-erh (earthy, woody).",
+   "es": "Las notas vegetales — pasto, madera, tierra, mineral, marino, vegetales — son el grupo más grande y diverso, reflejando desde el té verde fresco (herbáceo) hasta el pu-erh añejado (terroso, amaderado)."
+  }
+ }
+}

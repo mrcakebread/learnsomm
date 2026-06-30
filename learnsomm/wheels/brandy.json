@@ -1,0 +1,1273 @@
+{
+ "title": "Brandy",
+ "subject": "brandy",
+ "categories": [
+  {
+   "name": "FLORAL",
+   "name_fr": "FLORAL",
+   "name_it": "FLOREALE",
+   "name_es": "FLORAL",
+   "color": "#6a4a75",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#8a6095",
+     "descriptors": [
+      {
+       "name": "Rose",
+       "name_fr": "Rose",
+       "name_it": "Rosa",
+       "slug": "floral-floral-rose",
+       "name_es": "Rosa",
+       "panel": {
+        "origin": "Driven by terpene alcohols like <span class='highlight'>geraniol</span> and <span class='highlight'>beta-phenylethanol</span>. These delicate compounds evaporate early during wood extraction, meaning intense floral characteristics indicate minimized, hyper-judicious new oak contact or highly specialized micro-distallation curves.",
+        "mixology": "Frame this for your guests as an elegant 'perfumed aromatic brightness' typical of single-distillate column entries or white grape focus. Beautiful for a floral variation on a French 75 or Sidecar.",
+        "examples": "Commonly seen in exceptionally elegant Borderies Cognacs and young, floral Armagnacs from the Bas-Armagnac region."
+       }
+      },
+      {
+       "name": "Potpourri",
+       "name_fr": "Pot-pourri",
+       "name_it": "Pot-pourri",
+       "slug": "floral-floral-potpourri",
+       "name_es": "Popurrí",
+       "panel": {
+        "origin": "Indicates partial oxidative concentration of terpene pools interacting with minor levels of aldehydes over extended timeframes. It signals a complex evolution intermediate between direct floral bloom and oxidative dried fruit.",
+        "mixology": "Describe this as a 'deep, dried botanical warmth.' Excellent for pairing tableside with lighter, fruit-driven dessert configurations.",
+        "examples": "Often detected in complex, long-aged Grande Champagne Cognacs."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Muscat",
+     "name_fr": "Muscat",
+     "name_it": "Moscato",
+     "name_es": "Moscatel",
+     "color": "#7b5284",
+     "descriptors": [
+      {
+       "name": "Hanepoot grape",
+       "name_fr": "Raisin Hanepoot",
+       "name_it": "Uva Hanepoot",
+       "slug": "floral-muscat-hanepoot-grape",
+       "name_es": "Uva Hanepoot",
+       "panel": {
+        "origin": "Direct varietal carryover of free monoterpenes (<span class='highlight'>linalool</span> and <span class='highlight'>geraniol</span>). Unlike ugni blanc, which distills neutral, muscat-derived base wines hold high terpene fractions that survive pot-still execution without thermal breakdown.",
+        "mixology": "An absolute winner for aromatic curiosity. Tell guests this delivers the rich, explicit perfume of fresh table grapes directly to the glass. Perfect baseline for an aromatic brandy punch.",
+        "examples": "A distinctive marker in South African Pot Still Brandies, where Muscat d'Alexandrie (locally known as Hanepoot) is utilized."
+       }
+      },
+      {
+       "name": "Raisin",
+       "name_fr": "Raisin Sec",
+       "name_it": "Uvetta",
+       "slug": "floral-muscat-raisin",
+       "name_es": "Pasa",
+       "panel": {
+        "origin": "Arises from the combination of grape-derived concentrated sugars and cask absorption of high-density residual sugar left behind in seasoned oak pores. Thermal changes in the copper still can also amplify light furfural-caramelization mirroring sun-dried fruit.",
+        "mixology": "A very welcoming, accessible note. Tell guests it represents 'concentrated, sundried grape richness.' Instantly direct them to try it neat as a post-dinner replacement for sweet wines.",
+        "examples": "Immensely typical in Spanish Brandy de Jerez aged in Pedro Ximénez casks."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRUITY",
+   "name_fr": "FRUITÉ",
+   "name_it": "FRUTTATO",
+   "name_es": "AFRUTADO",
+   "color": "#8c3232",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Fruity",
+     "name_fr": "Fruité",
+     "name_it": "Fruttato",
+     "name_es": "Afrutado",
+     "color": "#b04444",
+     "descriptors": [
+      {
+       "name": "Esterry/synthetic fruit",
+       "name_fr": "Esters / Fruit Synthétique",
+       "name_it": "Esteri / Frutta Sintetica",
+       "slug": "fruity-fruity-esterry-synthetic-fruit",
+       "name_es": "Ésteres / Fruta Sintética",
+       "panel": {
+        "origin": "An overproduction of volatile fatty acid esters, particularly <span class='highlight'>isoamyl acetate</span> (banana drop) and <span class='highlight'>ethyl butyrate</span> (pineapple candy). Often signals a lack of precise head cutting or temperature control during primary yeast conversions.",
+        "mixology": "If a guest notes an artificial or 'bubblegum-like' fruit character, this is the compound. It brings a candy lift that works well when trying to cut through heavy syrups in high-volume crushed ice tiki modifications.",
+        "examples": "Encountered in lower-tier continuous column distillates or high-speed, hot industrial fermentations."
+       }
+      },
+      {
+       "name": "Fig",
+       "name_fr": "Figue",
+       "name_it": "Fico",
+       "slug": "fruity-fruity-fig",
+       "name_es": "Higo",
+       "panel": {
+        "origin": "A complex sign of micro-oxidation interacting with wood lactones over decades. This breakdown product of fatty acid structures mimics concentrated stone-and-seed fruits as the liquid concentrates inside porous oak.",
+        "mixology": "Describe this as a rich, savory jamminess. Excellent option to recommend alongside charcuterie boards featuring cured duck or sheep's milk cheeses.",
+        "examples": "Prominent in well-matured XO Cognacs and traditional, rancio-forward Armagnacs."
+       }
+      },
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "fruity-fruity-apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "Driven by <span class='highlight'>ethyl malate</span> and <span class='highlight'>hexyl acetate</span>. High-acid varieties preserve apple-pith crispness throughout distillation. If heavy and stewed, it points to higher temperatures; if green, it tracks to sharp, pristine primary cuts.",
+        "mixology": "A crisp, refreshing baseline marker. Use this asset to construct crisp, seasonal variations of a classic Jack Rose or highball with artisanal soda.",
+        "examples": "Ubiquitous across Calvados (apple brandy) and young, vibrant cognacs using high-acid base wines."
+       }
+      },
+      {
+       "name": "Citrus",
+       "name_fr": "Agrumes",
+       "name_it": "Agrumi",
+       "name_es": "Cítricos",
+       "slug": "fruity-fruity-citrus",
+       "panel": {
+        "origin": "Driven by light limonene monoterpene trails. These volatile elements are highly interactive with copper surfaces; their cleanly delineated execution requires highly targeted, sharp heart captures on the still.",
+        "mixology": "Points to a bright, vibrant, zest-like character. Great baseline indicator to match with orange liqueurs for the ultimate premium Sidecar script.",
+        "examples": "Frequently found in Fins Bois and Bons Bois Cognacs, providing a bright top note lift."
+       }
+      },
+      {
+       "name": "Prune",
+       "name_fr": "Pruneau",
+       "name_it": "Prugna Secca",
+       "slug": "fruity-fruity-prune",
+       "name_es": "Ciruela Pasa",
+       "panel": {
+        "origin": "Derived from prolonged interaction with localized dark wood tannins and minor, legal, traditional use of boisé (oak-water reduction cooked with prune elements) to achieve integration in old casks. Represents a structural marker of rich, heavy distillates.",
+        "mixology": "Deep, dark, stewed plum warmth. Point guests toward this option if they are seeking a bold, velvety spirit to accompany heavy espresso or dark chocolate pairings.",
+        "examples": "A signature classic trait of older, traditional Armagnacs from Bas-Armagnac."
+       }
+      },
+      {
+       "name": "Grape",
+       "name_fr": "Raisin",
+       "name_it": "Uva",
+       "slug": "fruity-fruity-grape",
+       "name_es": "Uva",
+       "panel": {
+        "origin": "The pure, primary expression of the base crop untouched by wood chemistry. Highlights simple hexanol chains and fresh fruit esters surviving low-temperature copper still conversions.",
+        "mixology": "The raw essence of the fruit before oak alters its profile. Highly recommended for crisp, aromatic, refreshing summer serves like a Pisco Sour.",
+        "examples": "Vibrant and clear in clear Piscos and unaged Eau-de-Vie de Vin."
+       }
+      },
+      {
+       "name": "Peach/apricot (dried)",
+       "name_fr": "Pêche / Abricot (sec)",
+       "name_it": "Pesca / Albicocca (secca)",
+       "slug": "fruity-fruity-peach-apricot-dried",
+       "name_es": "Durazno / Chabacano (seco)",
+       "panel": {
+        "origin": "Driven by the emergence of aromatic trace <span class='highlight'>gamma-lactones</span>. These develop as wood lignin starts breaking down, combining beautifully with the concentrated residual white-wine fruit properties of the grape blend.",
+        "mixology": "A sophisticated stone-fruit note. Use this profile to upsell your guest to a mid-tier VSOP selection served over a large clear ice rock.",
+        "examples": "Classic secondary indicator in mid-aged VSOP and early XO expressions."
+       }
+      },
+      {
+       "name": "Peach/apricot (fresh)",
+       "name_fr": "Pêche / Abricot (frais)",
+       "name_it": "Pesca / Albicocca (fresca)",
+       "slug": "fruity-fruity-peach-apricot-fresh",
+       "name_es": "Durazno / Chabacano (fresco)",
+       "panel": {
+        "origin": "Tracks directly to original varietal esters and early stage lactone synthesis during temperature-monitored, long yeast fermentations.",
+        "mixology": "Fresh, juicy, summer orchard brightness. An accessible gateway note for guests transitioning from white wines or gin to aged brown spirits.",
+        "examples": "Apparent in young, high-quality copper pot still brandies before aggressive wood pickup."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "HERBACEOUS",
+   "name_fr": "HERBACÉ",
+   "name_it": "ERBACEO",
+   "name_es": "HERBÁCEO",
+   "color": "#2e5433",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Herbaceous",
+     "name_fr": "Herbacé",
+     "name_it": "Erbaceo",
+     "name_es": "Herbáceo",
+     "color": "#3e7045",
+     "descriptors": [
+      {
+       "name": "Buchu",
+       "name_fr": "Buchu",
+       "name_it": "Buchu",
+       "name_es": "Buchú",
+       "slug": "herbaceous-herbaceous-buchu",
+       "panel": {
+        "origin": "Sourced from native vegetation terpene variables or specific storage interactions. Contains specific sulfur-terpene arrays (<span class='highlight'>diosphenol</span>), yielding a distinctive blackcurrant-mint complexity unique to the cape.",
+        "mixology": "An exotic, minty botanical note. Perfect for high-level cocktail curation where you need a savory, aromatic accent to stand out.",
+        "examples": "Highly specific to South African Pot Still brandies utilizing regional fynbos-adjacent setups."
+       }
+      },
+      {
+       "name": "Eucalyptus",
+       "name_fr": "Eucalyptus",
+       "name_it": "Eucalipto",
+       "slug": "herbaceous-herbaceous-eucalyptus",
+       "name_es": "Eucalipto",
+       "panel": {
+        "origin": "Driven by trace capture of <span class='highlight'>1,8-cineole</span>. It adds an ethereal, cooling sensation on the upper palate that cuts through heavy, sweet oak compounds.",
+        "mixology": "A cooling, mint-like freshness. Suggest this option to guests who appreciate a bright, non-cloying structure in their premium spirits.",
+        "examples": "Spotted across specific New World expressions where nearby flora interacts with open-air fermentation vats."
+       }
+      },
+      {
+       "name": "Minty",
+       "name_fr": "Mentholé",
+       "name_it": "Mentolato",
+       "slug": "herbaceous-herbaceous-minty",
+       "name_es": "Mentolado",
+       "panel": {
+        "origin": "Volatile monoterpenoid formations captured at high, early rectifying markers. Provides an elevated lifting sensation on the nose.",
+        "mixology": "A clean, cooling lift. Excellent for refreshing summer highballs modified with premium tonic or mineral waters.",
+        "examples": "Found in specific high-acid, cool-vintage distillates or particular column extractions."
+       }
+      },
+      {
+       "name": "Grassy",
+       "name_fr": "Herbeux",
+       "name_it": "Erboso",
+       "name_es": "A Pasto",
+       "slug": "herbaceous-herbaceous-grassy",
+       "panel": {
+        "origin": "Driven by aldehyde compounds like <span class='highlight'>hexanal</span>. Indicates early harvest profiles or high canopy shade during grape cluster maturation.",
+        "mixology": "A fresh, green, snapping herbal property. Good for adding a crisp vegetal dimension in modern mixology configurations.",
+        "examples": "Occasionally noticeable in young, cold-fermented base wine distillates."
+       }
+      },
+      {
+       "name": "Malt",
+       "name_fr": "Malt",
+       "name_it": "Malto",
+       "slug": "herbaceous-herbaceous-malt",
+       "name_es": "Malta",
+       "panel": {
+        "origin": "Signals heavy amino acid tracking or minor levels of thermal scorching during wash distillation inside the kettle.",
+        "mixology": "A warm, cereal, grain-like depth. Perfect bridge recommendation for guests who generally drink Scotch or Bourbon.",
+        "examples": "Present in specific heavy continuous pot-still variations or direct cereal-grain blended variations."
+       }
+      },
+      {
+       "name": "Tea/hay/straw",
+       "name_fr": "Thé / Foin / Paille",
+       "name_it": "Tè / Fieno / Paglia",
+       "slug": "herbaceous-herbaceous-tea-hay-straw",
+       "name_es": "Té / Heno / Paja",
+       "panel": {
+        "origin": "The oxidative breakdown of carotenoids inside the spirit over years of barrel storage, yielding subtle <span class='highlight'>beta-damascenone</span> elements that mimic dried leaves and field straws.",
+        "mixology": "A beautifully elegant, rustic maturity. Point your serious spirits collectors toward this profile for a reflective neat pour experience.",
+        "examples": "A signature tertiary character of gracefully aged, old vintage cognacs and armagnacs."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "WOODY",
+   "name_fr": "BOISÉ",
+   "name_it": "LEGNOSO",
+   "name_es": "AMADERADO",
+   "color": "#6b4423",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Woody",
+     "name_fr": "Boisé",
+     "name_it": "Legnoso",
+     "name_es": "Amaderado",
+     "color": "#8c5b32",
+     "descriptors": [
+      {
+       "name": "Dusty/plank",
+       "name_fr": "Poussière / Planche",
+       "name_it": "Polvere / Asse",
+       "slug": "woody-woody-dusty-plank",
+       "name_es": "Polvo / Tablón",
+       "panel": {
+        "origin": "Indicates a high release of structural wood fiber elements without corresponding vanillin or toast chemicals, often due to over-used barrels.",
+        "mixology": "If a guest finds the finish excessively dry or 'wood-shaving' heavy, it stems from old wood extraction. Balance it with rich sweeteners in cocktails.",
+        "examples": "Found in spirits stored in old, exhausted wood or improperly seasoned casks."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "woody-woody-vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "Direct extraction of <span class='highlight'>vanillin</span> from the thermal degradation of wood lignin during the barrel toasting process. More pronounced in newer oak barrels.",
+        "mixology": "A universal crowd pleaser. Tell guests this luxurious note comes naturally from oak contact. Suggest it as an ideal introductory neat pour or premium base.",
+        "examples": "The classic calling card of high-grade VSOP and XO selections aged in seasoned French oak (Limousin/Tronçais)."
+       }
+      },
+      {
+       "name": "Oak",
+       "name_fr": "Chêne",
+       "name_it": "Quercia",
+       "slug": "woody-woody-oak",
+       "name_es": "Roble",
+       "panel": {
+        "origin": "An encompassing structural extraction of oak tannins, wood sugars, and volatile aromatics. Forms the physical and texturized backbone of aged distillates.",
+        "mixology": "The core foundational signature of barrel aging. Gives the liquid its weight, structural dry finish, and golden color profile.",
+        "examples": "Found across all standard aged brandy categories."
+       }
+      },
+      {
+       "name": "Cedarwood",
+       "name_fr": "Bois de Cèdre",
+       "name_it": "Legno di Cedro",
+       "slug": "woody-woody-cedarwood",
+       "name_es": "Madera de Cedro",
+       "panel": {
+        "origin": "Complex combination of oxidized resinous terpenes and deep cask wood extractions, showing up late in the maturation spectrum.",
+        "mixology": "An elite, deeply satisfying aromatic note reminiscent of fine humidor boxes. Best served entirely neat to let the aroma open up slowly.",
+        "examples": "Spotted in ancient, ultra-aged vintage selections with extended wood contact."
+       }
+      },
+      {
+       "name": "Resinous",
+       "name_fr": "Résineux",
+       "name_it": "Resinoso",
+       "name_es": "Resinoso",
+       "slug": "woody-woody-resinous",
+       "panel": {
+        "origin": "Derived from high-temperature wood cell crystallization during Cooperage breakdown, liberating rich, sap-adjacent aromatic compounds.",
+        "mixology": "A bold, slightly sappy wood depth. Adds an incredible structural spine that holds its own perfectly against heavy bitters in an Old Fashioned format.",
+        "examples": "Often tracked in heavy toast barrel regimes or brandies using highly specific wood varieties."
+       }
+      },
+      {
+       "name": "Cigar box/tobacco pouch",
+       "name_fr": "Boîte à Cigares / Blague à Tabac",
+       "name_it": "Scatola di Sigari / Borsa del Tabacco",
+       "slug": "woody-woody-cigar-box-tobacco-pouch",
+       "name_es": "Caja de Puros / Tabaco",
+       "panel": {
+        "origin": "A harmonious convergence of wood extraction, natural grape rancio, and micro-oxygenation. Represents advanced degradation of complex cask compounds.",
+        "mixology": "The pinnacle of aged complexity. Describe this to your guest as a warm, aromatic spiced-tobacco leaf profile. Must be enjoyed neat in proper glassware.",
+        "examples": "The ultimate benchmark tertiary aroma of prestigious, old XO and Hors d'Âge Cognacs."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "TOASTED / NUTTY",
+   "name_fr": "GRILLÉ / NOISETÉ",
+   "name_it": "TOSTATO / FRUTTA SECCA",
+   "name_es": "TOSTADO Y NUECES",
+   "color": "#54432e",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Toasted",
+     "name_fr": "Grillé",
+     "name_it": "Tostato",
+     "name_es": "Tostado",
+     "color": "#735c3f",
+     "descriptors": [
+      {
+       "name": "Coffee",
+       "name_fr": "Café",
+       "name_it": "Caffè",
+       "slug": "toasted-nutty-toasted-coffee",
+       "name_es": "Café",
+       "panel": {
+        "origin": "Driven by Maillard reaction browning products like <span class='highlight'>furfurals</span> generated when intense flame caramelizes wood sugars during barrel manufacturing.",
+        "mixology": "A dark, roasted espresso-like warmth. An incredible bridge option to suggest to guests who typically drink dark, charred Bourbons.",
+        "examples": "Noticeable in heavy-toast barrel executions or brandies aged in re-charred casks."
+       }
+      },
+      {
+       "name": "Smoky",
+       "name_fr": "Fumé",
+       "name_it": "Affumicato",
+       "slug": "toasted-nutty-toasted-smoky",
+       "name_es": "Ahumado",
+       "panel": {
+        "origin": "Traces back to <span class='highlight'>guaiacol</span> and <span class='highlight'>4-methylguaiacol</span> absorbed from wood smoke during structural barrel-making preparation.",
+        "mixology": "A distinct toasted element. Great for adding a sophisticated, faintly campfire-tinged complexity to spirit-forward cocktail builds.",
+        "examples": "Found in expressions utilizing direct oak fire toasting or specific charred barrel finishes."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "Frutos Secos",
+     "color": "#665136",
+     "descriptors": [
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "toasted-nutty-nutty-hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "Tracks to intermediate oxidation cycles interacting with light wood lactone compounds, creating a creamy, rounded fat profile.",
+        "mixology": "A smooth, highly inviting nuttiness. Pairs flawlessly with dessert courses or rich, milk-chocolate pairings.",
+        "examples": "Commonly encountered in well-integrated, elegant VSOP Cognacs."
+       }
+      },
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "toasted-nutty-nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "Linked to trace paths of <span class='highlight'>benzaldehyde</span>. When subtle and clean, it adds an elegant marzipan top-note lift to the primary nose.",
+        "mixology": "A sweet, marzipan-like nuance. Gives an excellent textural lift that cuts through fresh lemon juice beautifully in a traditional sour.",
+        "examples": "Vibrant in younger, pit-still expressions and brandies undergoing traditional lees distillation."
+       }
+      },
+      {
+       "name": "Walnut",
+       "name_fr": "Noix",
+       "name_it": "Noce",
+       "slug": "toasted-nutty-nutty-walnut",
+       "name_es": "Nuez de Castilla",
+       "panel": {
+        "origin": "Signals deliberate, highly styled oxidative maturation columns. The interaction with air develops distinct rancio attributes mirroring oxidized nut oils.",
+        "mixology": "A dry, classic savory nut flavor. Perfect for presenting as an alternative option for guests who typically gravitate towards dry sherries or tawny ports.",
+        "examples": "A major, classic component of highly developed, older Spanish Solera brandies."
+       }
+      },
+      {
+       "name": "Flor sherry",
+       "name_fr": "Xérès sous Voile",
+       "name_it": "Sherry sotto Flor",
+       "slug": "toasted-nutty-nutty-flor-sherry",
+       "name_es": "Jerez de Flor",
+       "panel": {
+        "origin": "Direct extraction of systemic <span class='highlight'>acetals</span> and oxidative yeast indicators absorbed from old cask stave structures saturated with flor yeast culture.",
+        "mixology": "A highly specialized style choice. It brings a crisp, dry, complex savory attribute that makes an incredible substitute for dry vermouth in high-end variations.",
+        "examples": "Exclusively found in Brandy de Jerez aged in traditional casks previously holding Fino or Manzanilla sherry."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SWEET ASSOCIATED",
+   "name_fr": "ASSOCIÉ AU SUCRÉ",
+   "name_it": "ASSOCIATO AL DOLCE",
+   "name_es": "NOTAS DULCES",
+   "color": "#8c5823",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Sweet associated",
+     "name_fr": "Associé au Sucré",
+     "name_it": "Associato al Dolce",
+     "name_es": "Notas Dulces",
+     "color": "#ad7031",
+     "descriptors": [
+      {
+       "name": "Port",
+       "name_fr": "Porto",
+       "name_it": "Porto",
+       "slug": "sweet-associated-sweet-associated-port",
+       "name_es": "Oporto",
+       "panel": {
+        "origin": "Result of dark wine extraction from oak wood pores, pulling rich anthocyanin properties and deep berry wine properties into the brandy solution.",
+        "mixology": "Delivers a rich, dark-fruit wine finish. Highlight this option for guests who want a sweeter, smoother profile with a velvety texture.",
+        "examples": "Encountered in modern brandies featuring targeted finish treatments in vintage Port wine casks."
+       }
+      },
+      {
+       "name": "Sweet sherry",
+       "name_fr": "Xérès Doux",
+       "name_it": "Sherry Dolce",
+       "slug": "sweet-associated-sweet-associated-sweet-sherry",
+       "name_es": "Jerez Dulce",
+       "panel": {
+        "origin": "Tracks to heavy cask wood seasoning saturation from Oloroso or Pedro Ximénez sherry fills, introducing high unctuousness and specific sugar paths.",
+        "mixology": "Rich, luscious, and deeply comforting. An easy recommendation for anyone who prefers a rounder, sweet-tinged style over sharp, dry spirits.",
+        "examples": "Standard baseline markers in classic Spanish Brandy de Jerez Solera systems."
+       }
+      },
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "sweet-associated-sweet-associated-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "High level concentration of deep <span class='highlight'>furfural</span> tracks interacting with dense cask sugars over prolonged warm-climate maturation.",
+        "mixology": "A thick, dark, dark-caramel depth. Excellent for cold weather menus or mixed into bold, hot beverage variations.",
+        "examples": "Noticeable in heavily toasted barrel treatments or where slight wood sugar caramelization is maximized."
+       }
+      },
+      {
+       "name": "Chocolate",
+       "name_fr": "Chocolat",
+       "name_it": "Cioccolato",
+       "name_es": "Chocolate",
+       "slug": "sweet-associated-sweet-associated-chocolate",
+       "panel": {
+        "origin": "Complex chemical synthesis of pyrazines extracted from deep wood toast interacting over long timeframes with decomposing wine esters.",
+        "mixology": "An indulgent, bittersweet cocoa note. Point guests toward this selection as an excellent liquid dessert alternative at the end of the evening.",
+        "examples": "Frequently highlighted in luxurious, ancient XO Cognacs and premium long-aged pot still selections."
+       }
+      },
+      {
+       "name": "Caramel/toffee",
+       "name_fr": "Caramel / Toffee",
+       "name_it": "Caramello / Toffee",
+       "slug": "sweet-associated-sweet-associated-caramel-toffee",
+       "name_es": "Caramelo / Toffee",
+       "panel": {
+        "origin": "Can stem from highly caramelized barrel sugar extractions or legal standard additions of spirit caramel used to adjust consistency across batch volumes.",
+        "mixology": "A highly approachable, buttery caramel sweetness. A fantastic baseline option to build smooth, balanced classic cocktail presentations.",
+        "examples": "Common across highly integrated consumer selections and brandies using small, controlled dose additions of caramel color."
+       }
+      },
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "sweet-associated-sweet-associated-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "Driven by <span class='highlight'>phenylacetic acid</span> esters. Surfacing frequently when floral terpenes start oxidizing cleanly without heavy oak wood masking.",
+        "mixology": "A rich, organic sweetness on the nose. Beautiful for adding an elegant, texturized lift to warm toddy formats or premium sours.",
+        "examples": "Evident in aromatic distillates, particularly those showing early stage noble-rot interactions or highly floral base crops."
+       }
+      },
+      {
+       "name": "Strawberry jam",
+       "name_fr": "Confiture de Fraise",
+       "name_it": "Marmellata di Fragole",
+       "slug": "sweet-associated-sweet-associated-strawberry-jam",
+       "name_es": "Mermelada de Fresa",
+       "panel": {
+        "origin": "High concentrations of <span class='highlight'>furaneol</span> compounds combining with primary red grape ester residue, creating a distinct cooked preserve note.",
+        "mixology": "A playful, sweet berry conserve trait. Fun to utilize as an interesting talking point for adventurous cocktail menu themes.",
+        "examples": "A unique, sweet fruit note found occasionally in specific warm-climate distillates."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "SPICES",
+   "name_fr": "ÉPICES",
+   "name_it": "SPEZIE",
+   "name_es": "ESPECIAS",
+   "color": "#783b1d",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Spices",
+     "name_fr": "Épices",
+     "name_it": "Spezie",
+     "color": "#9c4e28",
+     "descriptors": [
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "spices-spices-cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "Derived from wood-extracted <span class='highlight'>cinnamaldehyde</span>. Extracted steadily from toast arrays, it indicates clean wood structural integration.",
+        "mixology": "Warm, baking-spice comfort. Highlight this selection to guests on cool autumn or winter evenings as an inviting neat pour option.",
+        "examples": "Highly visible in brandies using medium-plus toast or new oak integration phases."
+       }
+      },
+      {
+       "name": "Cloves",
+       "name_fr": "Clous de Girofle",
+       "name_it": "Chiodi di Garofano",
+       "slug": "spices-spices-cloves",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "Direct extraction of <span class='highlight'>eugenol</span> from the seasoned oak wood structures. This compound peaks around medium toast levels during coopering.",
+        "mixology": "A sharp, aromatic baking spice element. Gives the spirit a great structural edge that stands up well against rich culinary pairings.",
+        "examples": "Commonly associated with brandies matured in tightly grained European oak casks."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "spices-spices-nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "A complex spice profile arising from the integration of wood eugenol paths with micro-oxidized terpene alcohol fractions over time.",
+        "mixology": "A classic, elegant spice attribute. Ideal for highlighting in classic variations like the Brandy Alexander or festive eggnog formats.",
+        "examples": "Frequently found in balanced, well-aged VSOP and older traditional representations."
+       }
+      }
+     ],
+     "_implicit": true,
+     "name_es": "Especias"
+    }
+   ]
+  },
+  {
+   "name": "SOLVENT/CHEMICAL",
+   "name_fr": "SOLVANT / CHIMIQUE",
+   "name_it": "SOLVENTE / CHIMICO",
+   "name_es": "SOLVENTE / QUÍMICO",
+   "color": "#454b54",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Solvent/chemical",
+     "name_fr": "Solvant / Chimique",
+     "name_it": "Solvente / Chimico",
+     "name_es": "Solvente / Químico",
+     "color": "#59616d",
+     "descriptors": [
+      {
+       "name": "Detergent",
+       "name_fr": "Détergent",
+       "name_it": "Detergente",
+       "slug": "solvent-chemical-solvent-chemical-detergent",
+       "name_es": "Detergente",
+       "panel": {
+        "origin": "Signals contaminated winemaking mechanics or lazy tank rinsing procedures prior to loading raw base crop materials.",
+        "mixology": "An immediate rejection note. If a guest identifies a soapy, chemical cleanser attribute, pull the glass, verify the bottle, and replace immediately.",
+        "examples": "Fault indicator. Tracks to industrial cleaner residues in processing tanks or fermentation vats."
+       }
+      },
+      {
+       "name": "Ethylacetate",
+       "name_fr": "Acétate d'Éthyle",
+       "name_it": "Acetato di Etile",
+       "slug": "solvent-chemical-solvent-chemical-ethylacetate",
+       "name_es": "Acetato de Etilo",
+       "panel": {
+        "origin": "<span class='highlight'>Ethyl acetate</span> forms via the condensation of acetic acid and ethanol. At trace tiers, it gives a fruity lift; at high volume, it yields a piercing model-airplane glue fault.",
+        "mixology": "A distinct chemical fault resembling harsh glue. If detected, the spirit is fundamentally flawed and should be removed from service.",
+        "examples": "Fault indicator. Found in poorly managed, wild-ferment setups or distressed distillations."
+       }
+      },
+      {
+       "name": "Acetone",
+       "name_fr": "Acétone",
+       "name_it": "Acetone",
+       "slug": "solvent-chemical-solvent-chemical-acetone",
+       "name_es": "Acetona",
+       "panel": {
+        "origin": "A collection of ultra-low boiling point fractions including direct acetone properties. These should be strictly separated and removed during the initial still execution phase.",
+        "mixology": "Smells explicitly like nail polish remover. A structural distillation error that completely ruins the mid-palate and nose. Do not serve.",
+        "examples": "Fault indicator. Appears when head cuts on the still are taken far too late in the distillation curve."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "SOUR ASSOCIATED",
+   "name_fr": "ASSOCIÉ À L'ACIDE",
+   "name_it": "ASSOCIATO ALL'ACIDO",
+   "name_es": "NOTAS ÁCIDAS",
+   "color": "#544f33",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Heads",
+     "name_fr": "Têtes",
+     "name_it": "Teste",
+     "name_es": "Cabezas",
+     "color": "#706a44",
+     "descriptors": [
+      {
+       "name": "Ethanol",
+       "name_fr": "Éthanol",
+       "name_it": "Etanolo",
+       "slug": "sour-associated-heads-ethanol",
+       "name_es": "Etanol",
+       "panel": {
+        "origin": "Raw, unrefined alcohol vapor masking underlying fruit properties. Indicates insufficient aging time to allow ester integration or poor proofing down execution.",
+        "mixology": "If a guest complains that the brandy feels too 'hot' or burns the nose, the ethanol vapor is unintegrated. Serve it on ice to calm the burn.",
+        "examples": "Noticeable in young, unintegrated, cheap high-proof column selections."
+       }
+      },
+      {
+       "name": "Acetaldehyde",
+       "name_fr": "Acétaldéhyde",
+       "name_it": "Acetaldeide",
+       "slug": "sour-associated-heads-acetaldehyde",
+       "name_es": "Acetaldehído",
+       "panel": {
+        "origin": "Result of alcohol oxidation, generating high concentrations of <span class='highlight'>acetaldehyde</span>. Mimics raw bruised apples or flat, oxidized white wine notes.",
+        "mixology": "Brings a sharp, bruised-apple staleness. Signals either an unjudicious distillation cut or severe oxygen exposure failure in the cellar.",
+        "examples": "Fault indicator. Common in oxidized base wines or spirits with excessive head integration."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sour associated",
+     "name_fr": "Associé à l'Acide",
+     "name_it": "Associato all'Acido",
+     "name_es": "Ácido",
+     "color": "#635d3b",
+     "descriptors": [
+      {
+       "name": "Acetic acid",
+       "name_fr": "Acide Acétique",
+       "name_it": "Acido Acetico",
+       "slug": "sour-associated-sour-associated-acetic-acid",
+       "name_es": "Ácido Acético",
+       "panel": {
+        "origin": "Acetobacter contamination in the base crop converts ethanol to vinegar properties, which then distills over, throwing off the structural balance.",
+        "mixology": "A sour, sharp vinegar odor. This indicates an absolute failure of raw material quality control before distillation even began.",
+        "examples": "Fault indicator. Tracks to infected, vinegary base wines entering the still."
+       }
+      },
+      {
+       "name": "Vinegary/vinous",
+       "name_fr": "Vinaigré / Vineux",
+       "name_it": "Acetoso / Vinoso",
+       "slug": "sour-associated-sour-associated-vinegary-vinous",
+       "name_es": "Avinagrado / Vinoso",
+       "panel": {
+        "origin": "High volatile acidity presence tracking cleanly through the system due to inadequate monitoring of fermentation tank seals.",
+        "mixology": "A sour, stale wine properties note. Lacks the clean finish expected of a polished, pristine commercial spirit selection.",
+        "examples": "Fault indicator. Found in low-tier brandies using highly unstable, turning base wines."
+       }
+      },
+      {
+       "name": "Rancid/Butyric acid",
+       "name_fr": "Rance / Acide Butyrique",
+       "name_it": "Rancido / Acido Butirrico",
+       "slug": "sour-associated-sour-associated-rancid-butyric-acid",
+       "name_es": "Rancio / Ácido Butírico",
+       "panel": {
+        "origin": "Bacterial generation of <span class='highlight'>butyric acid</span>, creating highly offensive sensory compounds that mimic spoiled butter or human vomit.",
+        "mixology": "An absolute critical failure note. If encountered, the batch is completely contaminated. Do not allow this to reach a guest table.",
+        "examples": "Fault indicator. Highly problematic, stemming from bacterial infections during late-stage fermentation."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Feints",
+     "name_fr": "Queues",
+     "name_it": "Code",
+     "name_es": "Flemas",
+     "color": "#7d754a",
+     "descriptors": [
+      {
+       "name": "Pungent",
+       "name_fr": "Piquant",
+       "name_it": "Pungente",
+       "name_es": "Punzante",
+       "slug": "sour-associated-feints-pungent",
+       "panel": {
+        "origin": "Heavy, sharp organic compounds tracking over due to aggressive boiling speeds inside the pot still, confusing the heart cuts.",
+        "mixology": "A harsh, burning, prickly sensation that overpowers the nasal passages. Indicates poor technical handling on the still.",
+        "examples": "Fault indicator. Associated with dirty distillation runs or late feint inclusions."
+       }
+      },
+      {
+       "name": "Fusel oil",
+       "name_fr": "Huile de Fusel",
+       "name_it": "Olio di Flemma",
+       "slug": "sour-associated-feints-fusel-oil",
+       "name_es": "Aceite de Fusel",
+       "panel": {
+        "origin": "A collection of high-molecular-weight alcohols (<span class='highlight'>isoamyl, propanol, butanol</span>). Necessary in tiny trace increments for texture, but toxic and oily if over-extracted.",
+        "mixology": "Brings a heavy, thick, industrial oil character that coats the throat unpleasantly. Use with caution.",
+        "examples": "Found in heavy, unrefined spirits or brandies with lazy tail separation boundaries."
+       }
+      },
+      {
+       "name": "Fatty acid",
+       "name_fr": "Acide Gras",
+       "name_it": "Acido Grasso",
+       "slug": "sour-associated-feints-fatty-acid",
+       "name_es": "Ácido Graso",
+       "panel": {
+        "origin": "Long-chain fatty acids tracking into the final collection. Can create visual cloudiness or oily textures when proofed down with water.",
+        "mixology": "A heavy, slightly waxy, thick aroma. If it cuts down the vibrant fruit profile too much, it points to a lazy tail cut by the distiller.",
+        "examples": "Noticeable when tail management limits are pushed too far into the low-proof runoff."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TAILS",
+   "name_fr": "QUEUES",
+   "name_it": "CODE",
+   "name_es": "COLAS",
+   "color": "#4a3c31",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Tails",
+     "name_fr": "Queues",
+     "name_it": "Code",
+     "name_es": "Colas",
+     "color": "#5e4d3f",
+     "descriptors": [
+      {
+       "name": "Tobacco oil",
+       "name_fr": "Huile de Tabac",
+       "name_it": "Olio di Tabacco",
+       "slug": "tails-tails-tobacco-oil",
+       "name_es": "Aceite de Tabaco",
+       "panel": {
+        "origin": "Heavy nicotine-adjacent and alkaloid compounds condensed late in the run sequence. Pushes a bitter, dark, heavy tar property.",
+        "mixology": "A heavy, slightly acrid tobacco leaf ash character. Distinct from the beautiful 'cigar box' oak notes; this feels dirty and heavy.",
+        "examples": "Encountered in deep tail cuts on old-school pot stills."
+       }
+      },
+      {
+       "name": "Fishy",
+       "name_fr": "de Poisson",
+       "name_it": "di Pesce",
+       "slug": "tails-tails-fishy",
+       "name_es": "A Pescado",
+       "panel": {
+        "origin": "Advanced decomposition of nitrogenous elements inside distressed base wash setups, concentrating foul amine streams into the collection.",
+        "mixology": "An immediate disqualifier. Smells explicitly of stale fish or decomposing ocean proteins. Pull from inventory immediately.",
+        "examples": "Severe fault indicator. Stemming from amine compound spoilage or major tank cleaning issues."
+       }
+      },
+      {
+       "name": "Lees",
+       "name_fr": "Lies",
+       "name_it": "Fecce",
+       "slug": "tails-tails-lees",
+       "name_es": "Lías",
+       "panel": {
+        "origin": "When executed with master-level care, heating dead yeast cells releases beautiful creaminess and structural complexity. If mismanaged, it yields an autolytic yeast staleness.",
+        "mixology": "A heavy, bready, yeasty compound. In artisan selections, it adds incredible body; in cheap setups, it just tastes heavy and cloudy.",
+        "examples": "Typical in traditional method Cognacs distilled 'sur lie' (on the yeast sediment)."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "MUSTY",
+   "name_fr": "MOISI",
+   "name_it": "AMMUFFITO",
+   "name_es": "HUMEDAD",
+   "color": "#4f4946",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Musty",
+     "name_fr": "Moisi",
+     "name_it": "Ammuffito",
+     "color": "#6b635f",
+     "descriptors": [
+      {
+       "name": "Paper",
+       "name_fr": "Papier",
+       "name_it": "Carta",
+       "slug": "musty-musty-paper",
+       "name_es": "Papel",
+       "panel": {
+        "origin": "Cellulose breakdown tracking into the solution, masking delicate floral top notes with a flat dryness.",
+        "mixology": "A flat, dry, dull recycled-paper note. Strips the spirit of its natural vibrancy and leaves the finish boring and short.",
+        "examples": "Fault indicator. Found in spirits stored in cheap packaging or filtering systems."
+       }
+      },
+      {
+       "name": "Wet cardboard",
+       "name_fr": "Carton Mouillé",
+       "name_it": "Cartone Bagnato",
+       "slug": "musty-musty-wet-cardboard",
+       "name_es": "Cartón Mojado",
+       "panel": {
+        "origin": "Driven by <span class='highlight'>2,4,6-Trichloroanisole (TCA)</span>. Even at single-digit parts per trillion, it strips out all beautiful oak and fruit chemistry, leaving a damp cellar smell.",
+        "mixology": "The absolute calling card of a corked bottle. If a guest says it smells like a 'wet cardboard box,' validate their claim instantly and replace the pour.",
+        "examples": "Severe fault indicator. The classic sign of systemic cork taint or tainted storage lines."
+       }
+      },
+      {
+       "name": "Mushroom",
+       "name_fr": "Champignon",
+       "name_it": "Fungo",
+       "slug": "musty-musty-mushroom",
+       "name_es": "Champiñón",
+       "panel": {
+        "origin": "Driven by <span class='highlight'>1-octen-3-ol</span>. If elegant and old, it acts as a forest-floor accent; if young, it points to moldy, botrytis-damaged grapes entering the crush pad.",
+        "mixology": "An earthy, raw fungal character. If it overpowers the fruit in a young brandy, it points to poor fruit sorting standards during harvest.",
+        "examples": "Can show up as a tertiary note in old cellars, or indicate rot issues on the grape clusters."
+       }
+      },
+      {
+       "name": "Musty cork",
+       "name_fr": "Bouchon Moisi",
+       "name_it": "Tappo Ammuffito",
+       "slug": "musty-musty-musty-cork",
+       "name_es": "Corcho con Humedad",
+       "panel": {
+        "origin": "Microbial contamination within the natural cork structure generating localized off-odors that seep down into the neck of the bottle.",
+        "mixology": "A variant of TCA taint. If the nose feels muted and stale, inspect the cork disc for physical mold or dry rot signatures.",
+        "examples": "Fault indicator. Localized packaging failure on individual bottle enclosures."
+       }
+      },
+      {
+       "name": "Musty barrel",
+       "name_fr": "Fût Moisi",
+       "name_it": "Botte Ammuffita",
+       "slug": "musty-musty-musty-barrel",
+       "name_es": "Barrica con Humedad",
+       "panel": {
+        "origin": "Molds or anaerobic bacteria nesting inside un-topped or improperly dried empty barrels, ruining any spirit later filled inside.",
+        "mixology": "A permanent stale wood property that cannot be aerated or fixed with decanting. The entire bottle allocation is compromised.",
+        "examples": "Fault indicator. Stemming from old, infected wood storage systems in the cellar."
+       }
+      }
+     ],
+     "_implicit": true,
+     "name_es": "Humedad"
+    }
+   ]
+  },
+  {
+   "name": "SULPHURY",
+   "name_fr": "SOUFRÉ",
+   "name_it": "SOLFOREO",
+   "name_es": "SULFUROSO",
+   "color": "#595936",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Sulphury",
+     "name_fr": "Sulfureux",
+     "name_it": "Solforoso",
+     "name_es": "Sulfuroso",
+     "color": "#757547",
+     "descriptors": [
+      {
+       "name": "Sweaty",
+       "name_fr": "Sueur",
+       "name_it": "Sudore",
+       "slug": "sulphury-sulphury-sweaty",
+       "name_es": "A Sudor",
+       "panel": {
+        "origin": "Excess accumulation of volatile fatty acids like <span class='highlight'>isovaleric acid</span>, creating a distinct locker-room or stale sweat profile.",
+        "mixology": "A stale, human sweat off-note. Highly disruptive to clean tasting routines. Reject the bottle if this persists after open aeration.",
+        "examples": "Fault indicator. Associated with wild yeast strains or late distillation selections."
+       }
+      },
+      {
+       "name": "Hydrogen sulphide",
+       "name_fr": "Sulfure d'Hydrogène",
+       "name_it": "Acido Solfidrico",
+       "slug": "sulphury-sulphury-hydrogen-sulphide",
+       "name_es": "Ácido Sulfhídrico",
+       "panel": {
+        "origin": "Stressed yeast lacking nitrogen inputs generates excessive <span class='highlight'>H₂S</span> (rotten egg gas). If the still lacks adequate copper contact, it fails to strip it out.",
+        "mixology": "Smells clearly of rotten eggs or struck matches. Points to an anaerobic failure in fermentation or a still lacking clean copper surfaces.",
+        "examples": "Fault indicator. The result of stressed yeast tracking through an un-cleansed distillation process."
+       }
+      },
+      {
+       "name": "Sulphur dioxide",
+       "name_fr": "Dioxyde de Soufre",
+       "name_it": "Anidride Solforosa",
+       "slug": "sulphury-sulphury-sulphur-dioxide",
+       "name_es": "Dióxido de Azufre",
+       "panel": {
+        "origin": "Excessive vineyard or crush-pad <span class='highlight'>SO₂</span> additions gas off during heating, creating a sharp, stinging sensation in the throat.",
+        "mixology": "A sharp, prickly, match-stick sting on the nose. It causes an immediate throat catch that ruins any elegant neat service delivery.",
+        "examples": "Fault indicator. Stemming from over-sulfited grape juice entering the still system."
+       }
+      },
+      {
+       "name": "Cabbage",
+       "name_fr": "Chou",
+       "name_it": "Cavolo",
+       "slug": "sulphury-sulphury-cabbage",
+       "name_es": "Col",
+       "panel": {
+        "origin": "Decomposition of sulfur-containing amino acids yielding <span class='highlight'>dimethyl sulfide (DMS)</span>. Pushes notes of cooked or rotting vegetation.",
+        "mixology": "Smells distinctly of boiled cabbage or canned corn. A clear industrial distraction that shouldn't be present in a premium selection.",
+        "examples": "Fault indicator. A standard sulfur compound error from late distillation phases."
+       }
+      },
+      {
+       "name": "Garlic",
+       "name_fr": "Ail",
+       "name_it": "Aglio",
+       "slug": "sulphury-sulphury-garlic",
+       "name_es": "Ajo",
+       "panel": {
+        "origin": "Conversion of simple sulfides into heavy <span class='highlight'>ethanethiol</span> structures, generating permanent foul, garlic-like properties.",
+        "mixology": "An absolute culinary distraction in spirits service. It smells like raw garlic oil or rubber gas. Unfit for commercial cocktail use.",
+        "examples": "Severe fault indicator. Pushed by highly advanced reduction setups or mercaptan conversions."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "PHENOLIC / TAR",
+   "name_fr": "PHÉNOLIQUE / GOUDRON",
+   "name_it": "FENOLICO / CATRAME",
+   "name_es": "FENÓLICO / BREA",
+   "color": "#383c3e",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Phenolic",
+     "name_fr": "Phénolique",
+     "name_it": "Fenolico",
+     "color": "#4b5154",
+     "descriptors": [
+      {
+       "name": "Tar",
+       "name_fr": "Goudron",
+       "name_it": "Catrame",
+       "slug": "phenolic-tar-phenolic-tar",
+       "name_es": "Brea",
+       "panel": {
+        "origin": "Heavy, sharp organic compounds tracking over due to aggressive boiling speeds inside the pot still, confusing the heart cuts.",
+        "mixology": "A heavy, chemical tar pitch. Overpowers all base grape notes and feels highly industrial and sharp on the back palate.",
+        "examples": "Fault indicator. Tracks to over-heated, scorched pot still bottoms or industrial sealing failures."
+       }
+      }
+     ],
+     "name_es": "Fenólico"
+    },
+    {
+     "name": "Tar",
+     "name_fr": "Goudron",
+     "name_it": "Catrame",
+     "color": "#42474a",
+     "descriptors": [
+      {
+       "name": "Plastic",
+       "name_fr": "Plastique",
+       "name_it": "Plastica",
+       "slug": "phenolic-tar-tar-plastic",
+       "name_es": "Plástico",
+       "panel": {
+        "origin": "High-proof spirit acting as a solvent on sub-standard industrial synthetic hoses, leaching polymer chemicals into the final liquid.",
+        "mixology": "An industrial chemical fault. If a guest notes a 'synthetic plastic tupperware' flavor, it stems from chemical leaching. Do not serve.",
+        "examples": "Fault indicator. Caused by improper storage lines or cheap plastic hose connections in production plants."
+       }
+      },
+      {
+       "name": "Metallic",
+       "name_fr": "Métallique",
+       "name_it": "Metallico",
+       "slug": "phenolic-tar-tar-metallic",
+       "name_es": "Metálico",
+       "panel": {
+        "origin": "Spirit interaction with non-inert metal systems, picking up free iron ions that catalyze fast oxidation and leave a bloody taste.",
+        "mixology": "A sharp, tinny, blood-like finish. It leaves a metallic weight on the sides of the tongue that destroys the entire mid-palate structure.",
+        "examples": "Fault indicator. Stemming from prolonged storage in raw metal transit vats or old iron pipe setups."
+       }
+      },
+      {
+       "name": "Diesel",
+       "name_fr": "Diesel",
+       "name_it": "Diesel",
+       "slug": "phenolic-tar-tar-diesel",
+       "name_es": "Diésel",
+       "panel": {
+        "origin": "Absorption of external heavy hydrocarbon vapors during the open vat wine stage, or complex ring-compound synthesis under heat.",
+        "mixology": "Smells like raw machinery fuel or oily garage floors. A catastrophic production contamination flaw that requires discarding the bottle.",
+        "examples": "Fault indicator. Tracks to exhaust gas leaks near open fermentation tanks or severe reduction paths."
+       }
+      },
+      {
+       "name": "Scorched",
+       "name_fr": "Roussi",
+       "name_it": "Bruciacchiato",
+       "slug": "phenolic-tar-tar-scorched",
+       "name_es": "Quemado",
+       "panel": {
+        "origin": "Yeast sediment drops to the bottom of the copper kettle and bakes directly onto the hot metal, releasing bitter <span class='highlight'>furfurals</span> and acrid carbon notes.",
+        "mixology": "A bitter, burnt, ash-tray finish. Signals a lack of technical care during the high-heat distillation phase by the distillery crew.",
+        "examples": "Fault indicator. Caused by running direct-fired pot stills too fast without checking solids."
+       }
+      },
+      {
+       "name": "Rubbery",
+       "name_fr": "Caoutchouteux",
+       "name_it": "Gommoso",
+       "slug": "phenolic-tar-tar-rubbery",
+       "name_es": "A Hule",
+       "panel": {
+        "origin": "Advanced synthesis of complex vulcanized rubber sulfides formed when heavy tail fractions interact with high heating elements.",
+        "mixology": "Smells explicitly of burnt car tires or old elastic bands. A heavy, industrial distraction that completely ruins mixology balance.",
+        "examples": "Fault indicator. A deep, heavy sulfur reduction error."
+       }
+      }
+     ],
+     "name_es": "Brea"
+    }
+   ]
+  },
+  {
+   "name": "SMOOTH ASSOCIATED",
+   "name_fr": "ASSOCIÉ AU MOELLEUX",
+   "name_it": "ASSOCIATO AL MORBIDO",
+   "name_es": "NOTAS SUAVES",
+   "color": "#2d383a",
+   "textColor": "#f5e6c8",
+   "sub": [
+    {
+     "name": "Smooth associated",
+     "name_fr": "Associé au Moelleux",
+     "name_it": "Associato al Morbido",
+     "name_es": "Notas Suaves",
+     "color": "#3d4b4e",
+     "descriptors": [
+      {
+       "name": "Butter",
+       "name_fr": "Beurre",
+       "name_it": "Burro",
+       "slug": "smooth-associated-smooth-associated-butter",
+       "name_es": "Mantequilla",
+       "panel": {
+        "origin": "Driven by <span class='highlight'>diacetyl</span> synthesis from lactic acid bacteria activity. Delightful in tiny traces for texture, but greasy if unmonitored.",
+        "mixology": "A heavy, movie-popcorn butter quality. If it feels too slick or artificial, it will distract from clean cocktail acid structures.",
+        "examples": "Can show up in white wine distillates that completed full Malolactic conversion."
+       }
+      },
+      {
+       "name": "Oily",
+       "name_fr": "Huileux",
+       "name_it": "Oleoso",
+       "slug": "smooth-associated-smooth-associated-oily",
+       "name_es": "Aceitoso",
+       "panel": {
+        "origin": "High percentage presence of fixed higher alcohols and essential fatty acid lipids that alter surface tension variables on the palate.",
+        "mixology": "A thick, mouth-coating weight. Great if you want a bold texture to hold up to heavy modifiers, but cloying if served warm neat.",
+        "examples": "Found in spirits with heavy tail collection limits or low-rectification column curves."
+       }
+      },
+      {
+       "name": "Lees oil",
+       "name_fr": "Huile de Lies",
+       "name_it": "Olio di Fecce",
+       "slug": "smooth-associated-smooth-associated-lees-oil",
+       "name_es": "Aceite de Lías",
+       "panel": {
+        "origin": "Advanced ester synthesis generated when fatty acids in dead yeast slurry undergo thermal binding with ethanol, creating rich lipid weights.",
+        "mixology": "A unique, fatty, luxurious waxy fruitiness. Highly prized by spirits connoisseurs for adding deep, structural length to the finish.",
+        "examples": "Classic secondary character in artisan charente pot still methods."
+       }
+      },
+      {
+       "name": "Soapy",
+       "name_fr": "Savonneux",
+       "name_it": "Saponoso",
+       "slug": "smooth-associated-smooth-associated-soapy",
+       "name_es": "Jabonoso",
+       "panel": {
+        "origin": "Hydrolysis of heavy fats generating free sodium-soap structures when high-proof elements interact with residue cleanser layers.",
+        "mixology": "A flat, filmy, candle-wax or soap lather profile. It leaves a slick, flat clean taste that strips out any genuine flavor length.",
+        "examples": "Fault indicator. Stemming from extreme tail extensions or bad tank washing setups."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FLORAL": {
+   "en": "Floral notes — rose, potpourri, Muscat — come from the base wine and grape variety, and are most vivid in young, unaged brandies.",
+   "es": "Las notas florales — rosa, popurrí, Moscatel — provienen del vino base y la variedad de uva, y son más vívidas en los brandies jóvenes y sin añejar."
+  },
+  "FRUITY": {
+   "en": "Fruity notes — apple, grape, dried apricot — are the fingerprint of the base wine. Fresh fruit suggests a younger spirit; dried or cooked fruit suggests barrel age.",
+   "es": "Las notas afrutadas — manzana, uva, chabacano seco — son la huella digital del vino base. La fruta fresca sugiere un destilado más joven; la fruta seca o cocida sugiere añejamiento en barrica."
+  },
+  "HERBACEOUS": {
+   "en": "Herbaceous notes — mint, eucalyptus, hay — often come from the grape variety or herbs growing near the vineyard, and can also signal a still-spirity greenness in young brandy.",
+   "es": "Las notas herbáceas — menta, eucalipto, heno — a menudo vienen de la variedad de uva o de hierbas cercanas al viñedo, y también pueden señalar un carácter verde y de destilado en un brandy joven."
+  },
+  "WOODY": {
+   "en": "Woody notes — oak, vanilla, cedar — are the clearest marker of barrel aging. The longer a brandy rests in cask, the more these notes build.",
+   "es": "Las notas amaderadas — roble, vainilla, cedro — son el indicador más claro del añejamiento en barrica. Cuanto más tiempo descansa un brandy en barril, más se desarrollan estas notas."
+  },
+  "TOASTED / NUTTY": {
+   "en": "Toasted and nutty notes — coffee, hazelnut, almond, sherry-like 'flor' — come from barrel char and oxidative aging, common in older brandies aged in ex-sherry casks.",
+   "es": "Las notas tostadas y de frutos secos — café, avellana, almendra, 'flor' tipo jerez — provienen del tostado de la barrica y del añejamiento oxidativo, comunes en brandies más viejos en barricas ex-jerez."
+  },
+  "SWEET ASSOCIATED": {
+   "en": "Sweet-associated notes — caramel, honey, chocolate, port-like jamminess — develop with extended barrel age as wood sugars and Maillard reactions build richness.",
+   "es": "Las notas asociadas a lo dulce — caramelo, miel, chocolate, mermelada tipo Oporto — se desarrollan con un añejamiento prolongado en barrica, conforme los azúcares de la madera y las reacciones de Maillard aportan riqueza."
+  },
+  "SPICES": {
+   "en": "Spice notes — cinnamon, clove, nutmeg — come from oak compounds released during toasting, adding warmth and complexity to aged brandy.",
+   "es": "Las notas de especia — canela, clavo, nuez moscada — provienen de los compuestos del roble liberados durante el tostado, y añaden calidez y complejidad al brandy añejado."
+  },
+  "SOLVENT/CHEMICAL": {
+   "en": "This whole group is a FAULT. Detergent, acetone, or nail-polish-like notes mean the distillation cut was poorly made or the spirit is unrested — they should be faint or absent in a well-made brandy.",
+   "es": "Todo este grupo es un DEFECTO. Las notas a detergente, acetona o quitaesmalte significan que el corte de la destilación se hizo mal o que el destilado no ha reposado — deberían ser tenues o estar ausentes en un buen brandy."
+  },
+  "SOUR ASSOCIATED": {
+   "en": "Sour notes — vinegar, rancid butter, fusel oil — usually come from the 'heads' and 'feints' of distillation or microbial spoilage in the base wine. A little can add complexity; a lot is a fault.",
+   "es": "Las notas ácidas — vinagre, mantequilla rancia, aceite de fusel — suelen provenir de las 'cabezas' y 'flemas' de la destilación o de un deterioro microbiano en el vino base. Un poco puede añadir complejidad; mucho es un defecto."
+  },
+  "TAILS": {
+   "en": "'Tails' notes — tobacco oil, fishy, lees — come from the heavier compounds collected at the end of distillation. A trace can add savory depth; too much is heavy and unpleasant.",
+   "es": "Las notas de 'colas' — aceite de tabaco, a pescado, lías — provienen de los compuestos más pesados recogidos al final de la destilación. Un rastro puede añadir profundidad sabrosa; en exceso resulta pesado y desagradable."
+  },
+  "MUSTY": {
+   "en": "Musty notes — wet cardboard, mushroom, corked barrel — are FAULTS pointing to a contaminated cask or cork, and dull the brandy's fruit and aroma.",
+   "es": "Las notas a humedad — cartón mojado, hongo, barrica con corcho defectuoso — son DEFECTOS que apuntan a un barril o corcho contaminado, y apagan la fruta y el aroma del brandy."
+  },
+  "SULPHURY": {
+   "en": "Sulphur notes — rotten egg, cooked cabbage, garlic — are FAULTS from fermentation stress or excess sulphur dioxide, and usually need to 'blow off' before tasting.",
+   "es": "Las notas de azufre — huevo podrido, col cocida, ajo — son DEFECTOS de una fermentación estresada o un exceso de dióxido de azufre, y normalmente necesitan 'disiparse' antes de catar."
+  },
+  "PHENOLIC / TAR": {
+   "en": "Phenolic and tar notes — plastic, diesel, scorched, rubber — are FAULTS from over-toasted barrels or distillation problems, giving a harsh, industrial edge.",
+   "es": "Las notas fenólicas y de brea — plástico, diésel, quemado, hule — son DEFECTOS de barricas demasiado tostadas o problemas de destilación, que dan un filo áspero e industrial."
+  },
+  "SMOOTH ASSOCIATED": {
+   "en": "Smooth-associated notes — butter, oil, soap — in small amounts add a silky mouthfeel from lees contact and oak fats; in excess they feel waxy or soapy.",
+   "es": "Las notas asociadas a lo suave — mantequilla, aceite, jabón — en pequeñas cantidades añaden una textura sedosa por el contacto con las lías y las grasas del roble; en exceso se sienten cerosas o jabonosas."
+  }
+ }
+}

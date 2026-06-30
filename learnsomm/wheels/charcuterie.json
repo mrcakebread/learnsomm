@@ -1,0 +1,941 @@
+{
+ "title": "Charcuterie",
+ "subject": "charcuterie",
+ "categories": [
+  {
+   "name": "DRY-CURED HAMS",
+   "name_fr": "Jambons Secs",
+   "name_it": "Prosciutti Crudi",
+   "name_es": "JAMONES CURADOS",
+   "color": "#b5566a",
+   "sub": [
+    {
+     "name": "DRY-CURED HAMS",
+     "name_fr": "Jambons Secs",
+     "name_it": "Prosciutti Crudi",
+     "name_es": "JAMONES CURADOS",
+     "color": "#b5566a",
+     "descriptors": [
+      {
+       "name": "Prosciutto di Parma",
+       "name_fr": "Prosciutto di Parma",
+       "name_it": "Prosciutto di Parma",
+       "name_es": "Prosciutto di Parma",
+       "slug": "prosciutto-parma",
+       "panel": {
+        "origin": "Sweet, delicate, and melting with a clean, savory depth and gentle nuttiness.",
+        "origin_es": "Dulce, delicado y fundente, con una profundidad limpia y sabrosa y un leve toque a nuez.",
+        "chemistry": "Whole pork hind leg cured with only sea salt, air, and time — no nitrates; 16–30 months.",
+        "chemistry_es": "Pierna trasera entera curada solo con sal marina, aire y tiempo — sin nitratos; 16–30 meses.",
+        "pairing": "Melon, figs, Parmigiano, grissini. Lovely with Lambrusco, Franciacorta, or dry Prosecco.",
+        "pairing_es": "Melón, higos, parmigiano, grissini. Delicioso con Lambrusco, Franciacorta o Prosecco seco.",
+        "mixology": "Sliced paper-thin and served raw at room temperature; draped over bread, melon, or pizza.",
+        "mixology_es": "En lonchas finísimas y servido crudo a temperatura ambiente; sobre pan, melón o pizza.",
+        "examples": "A DOP ham from Parma, Emilia-Romagna; the best legs are fire-branded with the five-point Ducal crown.",
+        "examples_es": "Un jamón DOP de Parma, Emilia-Romaña; las mejores piezas llevan a fuego la corona ducal de cinco puntas."
+       }
+      },
+      {
+       "name": "Prosciutto di San Daniele",
+       "name_fr": "Prosciutto di San Daniele",
+       "name_it": "Prosciutto di San Daniele",
+       "name_es": "Prosciutto di San Daniele",
+       "slug": "prosciutto-san-daniele",
+       "panel": {
+        "origin": "Sweeter and more intense than Parma, with a soft, melting richness.",
+        "origin_es": "Más dulce e intenso que el de Parma, con una riqueza blanda y fundente.",
+        "chemistry": "Italian pork leg with the trotter left on, pressed flat; salt, air, and time only, ~13+ months.",
+        "chemistry_es": "Pierna italiana con la pezuña, prensada plana; solo sal, aire y tiempo, ~13+ meses.",
+        "pairing": "Melon, white wine, soft cheese. Pairs beautifully with Friulano or a dry sparkling wine.",
+        "pairing_es": "Melón, vino blanco, queso suave. Combina muy bien con Friulano o un espumoso seco.",
+        "mixology": "Sliced thin, served raw at room temperature; a centerpiece of any Italian board.",
+        "mixology_es": "En lonchas finas, crudo a temperatura ambiente; protagonista de cualquier tabla italiana.",
+        "examples": "A DOP ham from San Daniele del Friuli, whose hilltop microclimate shapes its flavor.",
+        "examples_es": "Un jamón DOP de San Daniele del Friuli, cuyo microclima de colina moldea su sabor."
+       }
+      },
+      {
+       "name": "Jamón Serrano",
+       "name_fr": "Jamón Serrano",
+       "name_it": "Jamón Serrano",
+       "name_es": "Jamón Serrano",
+       "slug": "jamon-serrano",
+       "panel": {
+        "origin": "Savory, dense, and lightly sweet with a deep cured-meat character.",
+        "origin_es": "Sabroso, denso y levemente dulce, con un profundo carácter de curado.",
+        "chemistry": "Hind leg of white-breed pigs, salt-cured and air-dried 9–18 months; firmer than Ibérico.",
+        "chemistry_es": "Pierna trasera de cerdos de raza blanca, curada en sal y secada al aire 9–18 meses; más firme que el ibérico.",
+        "pairing": "Manchego, olives, tomato bread. Classic with Cava, fino sherry, or Rioja.",
+        "pairing_es": "Manchego, aceitunas, pan con tomate. Clásico con Cava, jerez fino o Rioja.",
+        "mixology": "Sliced thin, served at room temperature; the everyday Spanish ham.",
+        "mixology_es": "En lonchas finas, a temperatura ambiente; el jamón español de cada día.",
+        "examples": "Spain's mountain-cured ham (serrano = 'of the sierra'); the accessible counterpart to Ibérico.",
+        "examples_es": "El jamón de montaña de España (serrano = 'de la sierra'); la versión accesible del ibérico."
+       }
+      },
+      {
+       "name": "Jamón Ibérico",
+       "name_fr": "Jamón Ibérico",
+       "name_it": "Jamón Ibérico",
+       "name_es": "Jamón Ibérico",
+       "slug": "jamon-iberico",
+       "panel": {
+        "origin": "Rich, nutty, and deeply savory with a melting fat that almost dissolves on the tongue.",
+        "origin_es": "Rico, a nuez y muy sabroso, con una grasa fundente que casi se deshace en la lengua.",
+        "chemistry": "Leg of the black Iberian pig; the finest (de bellota) is acorn-fed and aged for years.",
+        "chemistry_es": "Pierna del cerdo ibérico negro; el mejor (de bellota) se alimenta de bellota y se cura años.",
+        "pairing": "A glass of fino or amontillado sherry; wonderful simply on its own at room temperature.",
+        "pairing_es": "Una copa de jerez fino o amontillado; magnífico solo, a temperatura ambiente.",
+        "mixology": "Hand-carved into near-translucent slices; let the fat warm and melt before eating.",
+        "mixology_es": "Cortado a cuchillo en lonchas casi translúcidas; deja que la grasa se temple y funda antes de comer.",
+        "examples": "Spain's prized ham; 'pata negra' (black hoof) marks 100% Iberian, acorn-finished pigs.",
+        "examples_es": "El jamón más preciado de España; 'pata negra' indica cerdos 100% ibéricos y de bellota."
+       }
+      },
+      {
+       "name": "Speck",
+       "name_fr": "Speck",
+       "name_it": "Speck",
+       "name_es": "Speck",
+       "slug": "speck",
+       "panel": {
+        "origin": "Savory and lightly smoky with juniper and a clean cured sweetness.",
+        "origin_es": "Sabroso y levemente ahumado, con enebro y un dulzor limpio de curado.",
+        "chemistry": "Boned pork leg, lightly cured with spices, cold-smoked, then aged ~5 months (Alto Adige IGP).",
+        "chemistry_es": "Pierna deshuesada, curada ligera con especias, ahumada en frío y curada ~5 meses (Alto Adige IGP).",
+        "pairing": "Rye bread, pickles, mountain cheese. Heavenly with an off-dry Riesling.",
+        "pairing_es": "Pan de centeno, encurtidos, queso de montaña. Divino con un Riesling semiseco.",
+        "mixology": "Sliced thin for boards, diced into pasta and dumplings (canederli).",
+        "mixology_es": "En lonchas finas para tablas, en dados en pasta y albóndigas de pan (canederli).",
+        "examples": "From Italy's South Tyrol; a bridge between Italian prosciutto and Alpine smoked hams.",
+        "examples_es": "Del Tirol del Sur italiano; un puente entre el prosciutto italiano y los jamones ahumados alpinos."
+       }
+      },
+      {
+       "name": "Jambon de Bayonne",
+       "name_fr": "Jambon de Bayonne",
+       "name_it": "Jambon de Bayonne",
+       "name_es": "Jambon de Bayonne",
+       "slug": "jambon-bayonne",
+       "panel": {
+        "origin": "Delicate, sweet, and faintly salty with a supple, melting texture.",
+        "origin_es": "Delicado, dulce y levemente salado, de textura flexible y fundente.",
+        "chemistry": "Pork leg salted with local Adour-basin salt, air-cured 9–12 months; rubbed with pepper.",
+        "chemistry_es": "Pierna salada con sal local de la cuenca del Adour, curada al aire 9–12 meses; frotada con pimienta.",
+        "pairing": "Baguette, Basque cheese, Espelette pepper. Pairs with a dry rosé or Southwest white.",
+        "pairing_es": "Baguette, queso vasco, pimiento de Espelette. Combina con rosado seco o blanco del suroeste.",
+        "mixology": "Sliced thin and served raw; folded onto bread or over a piperade.",
+        "mixology_es": "En lonchas finas y crudo; sobre pan o encima de una piperrada.",
+        "examples": "A PGI ham from the Adour basin of Southwest France, sealed with the Basque cross (lauburu).",
+        "examples_es": "Un jamón IGP de la cuenca del Adour, en el suroeste de Francia, sellado con la cruz vasca (lauburu)."
+       }
+      },
+      {
+       "name": "Culatello",
+       "name_fr": "Culatello",
+       "name_it": "Culatello",
+       "name_es": "Culatello",
+       "slug": "culatello",
+       "panel": {
+        "origin": "Intensely sweet, refined, and aromatic — the most prized part of the leg.",
+        "origin_es": "Intensamente dulce, refinado y aromático — la parte más preciada de la pierna.",
+        "chemistry": "Only the inner rump muscle, salted, cased in a bladder, aged 12+ months in damp cellars.",
+        "chemistry_es": "Solo el músculo interior de la grupa, salado, embutido en vejiga, curado 12+ meses en bodegas húmedas.",
+        "pairing": "Buttered bread, sparkling Lambrusco, Malvasia. A delicacy worth a special wine.",
+        "pairing_es": "Pan con mantequilla, Lambrusco espumoso, Malvasía. Un manjar que merece un vino especial.",
+        "mixology": "Sliced thin and served raw at room temperature; a luxury board centerpiece.",
+        "mixology_es": "En lonchas finas y crudo a temperatura ambiente; una pieza de lujo en la tabla.",
+        "examples": "A PDO from the foggy lowlands of Zibello (Emilia-Romagna); made since the Middle Ages.",
+        "examples_es": "Un DOP de las nieblas de Zibello (Emilia-Romaña); elaborado desde la Edad Media."
+       }
+      },
+      {
+       "name": "Country Ham",
+       "name_fr": "Jambon de Campagne",
+       "name_it": "Prosciutto di Campagna",
+       "name_es": "Jamón de Campo",
+       "slug": "country-ham",
+       "panel": {
+        "origin": "Intensely salty, savory, and deeply funky — the American answer to prosciutto.",
+        "origin_es": "Intensamente salado, sabroso y de aroma profundo — la respuesta estadounidense al prosciutto.",
+        "chemistry": "Whole pork leg dry-salt-cured, often smoked, and aged for months; very firm and dry.",
+        "chemistry_es": "Pierna entera curada en sal seca, a menudo ahumada y curada meses; muy firme y seca.",
+        "pairing": "Biscuits, red-eye gravy, melon. Pairs with bourbon or a bold sparkling wine.",
+        "pairing_es": "Bizcochos, salsa red-eye, melón. Combina con bourbon o un espumoso con cuerpo.",
+        "mixology": "Sliced thin raw, or cut thick and fried; soak or rinse if very salty.",
+        "mixology_es": "En lonchas finas crudo, o grueso y frito; remoja o enjuaga si está muy salado.",
+        "examples": "A Southern U.S. tradition (Virginia, Tennessee, Kentucky), descended from English curing.",
+        "examples_es": "Una tradición del sur de EE. UU. (Virginia, Tennessee, Kentucky), heredada del curado inglés."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CURED WHOLE-MUSCLE CUTS",
+   "name_fr": "Pièces Entières Séchées",
+   "name_it": "Tagli Interi Stagionati",
+   "name_es": "CORTES ENTEROS CURADOS",
+   "color": "#9a3b4a",
+   "sub": [
+    {
+     "name": "CURED WHOLE-MUSCLE CUTS",
+     "name_fr": "Pièces Entières Séchées",
+     "name_it": "Tagli Interi Stagionati",
+     "name_es": "CORTES ENTEROS CURADOS",
+     "color": "#9a3b4a",
+     "descriptors": [
+      {
+       "name": "Coppa",
+       "name_fr": "Coppa",
+       "name_it": "Coppa",
+       "name_es": "Coppa",
+       "slug": "coppa",
+       "panel": {
+        "origin": "Sweet, marbled, and aromatic with warm spice — juniper, nutmeg, and bay.",
+        "origin_es": "Dulce, marmoleada y aromática, con especias cálidas — enebro, nuez moscada y laurel.",
+        "chemistry": "Whole pork collar/neck muscle, dry-cured with spices and aged; beautifully marbled.",
+        "chemistry_es": "Músculo entero del cuello del cerdo, curado en seco con especias y madurado; bien marmoleado.",
+        "pairing": "Crusty bread, pickled vegetables, a medium red like Sangiovese.",
+        "pairing_es": "Pan crujiente, verduras encurtidas, un tinto medio como el Sangiovese.",
+        "mixology": "Sliced thin for boards; its fat-to-lean ratio makes it especially silky.",
+        "mixology_es": "En lonchas finas para tablas; su proporción de grasa y magro la vuelve muy sedosa.",
+        "examples": "An Italian whole-muscle cure (also called capicola/capocollo); regional spicing varies.",
+        "examples_es": "Un curado italiano de músculo entero (también capicola/capocollo); el especiado varía por región."
+       }
+      },
+      {
+       "name": "Lomo",
+       "name_fr": "Lomo",
+       "name_it": "Lomo",
+       "name_es": "Lomo",
+       "slug": "lomo",
+       "panel": {
+        "origin": "Lean, sweetly spiced, and umami with a paprika edge; very little fat.",
+        "origin_es": "Magro, dulcemente especiado y umami, con un borde de pimentón; muy poca grasa.",
+        "chemistry": "Pork loin cured with paprika and garlic, cased and air-dried; the leanest Spanish cure.",
+        "chemistry_es": "Lomo de cerdo curado con pimentón y ajo, embutido y secado al aire; el curado español más magro.",
+        "pairing": "Manchego, almonds, a glass of Tempranillo or fino sherry.",
+        "pairing_es": "Manchego, almendras, una copa de Tempranillo o jerez fino.",
+        "mixology": "Sliced thin; a higher-protein, low-fat board choice.",
+        "mixology_es": "En lonchas finas; una opción de tabla con más proteína y poca grasa.",
+        "examples": "Spain's lomo embuchado, taken from the muscle running along the backbone.",
+        "examples_es": "El lomo embuchado español, del músculo que corre junto al espinazo."
+       }
+      },
+      {
+       "name": "Pancetta",
+       "name_fr": "Pancetta",
+       "name_it": "Pancetta",
+       "name_es": "Pancetta",
+       "slug": "pancetta",
+       "panel": {
+        "origin": "Rich, savory, and porky with a clean cured sweetness; unsmoked.",
+        "origin_es": "Rica, sabrosa y de cerdo, con un dulzor limpio de curado; sin ahumar.",
+        "chemistry": "Cured pork belly (the same cut as bacon), salt-and-spice cured but not smoked.",
+        "chemistry_es": "Panceta curada (el mismo corte que el bacon), curada con sal y especias pero sin ahumar.",
+        "pairing": "Best cooked — into pasta, greens, and soffritto; the unsmoked Italian belly.",
+        "pairing_es": "Mejor cocida — en pasta, verduras y soffritto; la panza italiana sin ahumar.",
+        "mixology": "Diced and rendered to start sauces (amatriciana), wrapped around roasts; rolled or flat.",
+        "mixology_es": "En dados y fundida para iniciar salsas (amatriciana), envuelta en asados; enrollada o plana.",
+        "examples": "Italy's cured belly; where bacon is smoked, pancetta is simply cured and air-dried.",
+        "examples_es": "La panza curada de Italia; donde el bacon se ahúma, la pancetta solo se cura y se seca al aire."
+       }
+      },
+      {
+       "name": "Guanciale",
+       "name_fr": "Guanciale",
+       "name_it": "Guanciale",
+       "name_es": "Guanciale",
+       "slug": "guanciale",
+       "panel": {
+        "origin": "Deep, porky, and delicate with a soft, fatty richness more refined than belly.",
+        "origin_es": "Profundo, de cerdo y delicado, con una riqueza grasa más fina que la de la panza.",
+        "chemistry": "Cured pork jowl/cheek, rubbed with salt and pepper, air-dried a few weeks.",
+        "chemistry_es": "Carrillada de cerdo curada, frotada con sal y pimienta, secada al aire unas semanas.",
+        "pairing": "The true cut for carbonara, amatriciana, and gricia; rendered into the sauce.",
+        "pairing_es": "El corte auténtico para carbonara, amatriciana y gricia; fundido en la salsa.",
+        "mixology": "Diced and slowly rendered so the fat becomes the sauce; rarely eaten raw.",
+        "mixology_es": "En dados y fundido despacio para que la grasa sea la salsa; rara vez se come crudo.",
+        "examples": "Roman and central-Italian cured jowl — the authentic fat for the classic Roman pastas.",
+        "examples_es": "Carrillada curada romana y del centro de Italia — la grasa auténtica de las pastas romanas clásicas."
+       }
+      },
+      {
+       "name": "Bresaola",
+       "name_fr": "Bresaola",
+       "name_it": "Bresaola",
+       "name_es": "Bresaola",
+       "slug": "bresaola",
+       "panel": {
+        "origin": "Lean, clean, and lightly sweet with a delicate beefy depth; far less gamy than jerky.",
+        "origin_es": "Magra, limpia y levemente dulce, con una profundidad sutil de res; mucho menos fuerte que el jerky.",
+        "chemistry": "Salted air-dried beef (often the haunch), cured with juniper and cinnamon, aged weeks.",
+        "chemistry_es": "Res salada y secada al aire (a menudo de la pierna), curada con enebro y canela, madurada semanas.",
+        "pairing": "Arugula, lemon, olive oil, shaved Parmigiano; a light red or Franciacorta.",
+        "pairing_es": "Rúcula, limón, aceite de oliva, parmigiano en lascas; un tinto ligero o Franciacorta.",
+        "mixology": "Sliced very thin and dressed simply with oil and lemon, often as a carpaccio-style antipasto.",
+        "mixology_es": "En lonchas muy finas y aliñada con aceite y limón, a menudo como antipasto tipo carpaccio.",
+        "examples": "From Lombardy's Valtellina (IGP); cattle on an Alpine diet, matured in cool mountain air.",
+        "examples_es": "De la Valtellina lombarda (IGP); ganado de dieta alpina, madurada en el aire fresco de montaña."
+       }
+      },
+      {
+       "name": "Cecina",
+       "name_fr": "Cecina",
+       "name_it": "Cecina",
+       "name_es": "Cecina",
+       "slug": "cecina",
+       "panel": {
+        "origin": "Smoky, savory, and deep with a tender, jerky-like chew.",
+        "origin_es": "Ahumada, sabrosa y profunda, con una mordida tierna parecida al jerky.",
+        "chemistry": "Beef (rump or topside) salted, oak-smoked, and air-dried up to 22 months.",
+        "chemistry_es": "Res (cadera o tapa) salada, ahumada con roble y secada al aire hasta 22 meses.",
+        "pairing": "Olive oil, sea salt, a robust red. A León specialty alongside cheese.",
+        "pairing_es": "Aceite de oliva, sal marina, un tinto con cuerpo. Una especialidad leonesa junto al queso.",
+        "mixology": "Sliced thin, drizzled with good oil; firmer than bresaola, with smoke.",
+        "mixology_es": "En lonchas finas, regada con buen aceite; más firme que la bresaola y ahumada.",
+        "examples": "A cured beef from Castile and León, Spain — the beef counterpart to Spanish ham.",
+        "examples_es": "Una cecina de Castilla y León, España — la versión en vacuno del jamón español."
+       }
+      },
+      {
+       "name": "Lardo",
+       "name_fr": "Lardo",
+       "name_it": "Lardo",
+       "name_es": "Lardo",
+       "slug": "lardo",
+       "panel": {
+        "origin": "Buttery, silky, and aromatic with herbs; salty and melting rather than meaty.",
+        "origin_es": "Mantecoso, sedoso y aromático con hierbas; salado y fundente más que cárnico.",
+        "chemistry": "Cured pork back fat, layered with salt, rosemary, and spices; aged (famously in marble).",
+        "chemistry_es": "Tocino dorsal curado, en capas con sal, romero y especias; madurado (célebremente en mármol).",
+        "pairing": "Warm crusty bread, where it melts to a sheen; a crisp white to cut the richness.",
+        "pairing_es": "Pan caliente y crujiente, donde se funde brillante; un blanco fresco para cortar la grasa.",
+        "mixology": "Sliced paper-thin over warm bread or bruschetta so it softens; melts beautifully.",
+        "mixology_es": "En lonchas finísimas sobre pan caliente o bruschetta para que se ablande; se funde de maravilla.",
+        "examples": "Italy's cured fatback; Lardo di Colonnata is aged in Carrara marble basins.",
+        "examples_es": "El tocino curado de Italia; el Lardo di Colonnata se cura en pilas de mármol de Carrara."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ITALIAN SALAMI",
+   "name_fr": "Salami Italiens",
+   "name_it": "Salami Italiani",
+   "name_es": "SALAMIS ITALIANOS",
+   "color": "#8c2f3a",
+   "sub": [
+    {
+     "name": "ITALIAN SALAMI",
+     "name_fr": "Salami Italiens",
+     "name_it": "Salami Italiani",
+     "name_es": "SALAMIS ITALIANOS",
+     "color": "#8c2f3a",
+     "descriptors": [
+      {
+       "name": "Milano Salami",
+       "name_fr": "Milano Salami",
+       "name_it": "Milano Salami",
+       "name_es": "Salami Milano",
+       "slug": "milano-salami",
+       "panel": {
+        "origin": "Mild, sweet, and gently savory with a silky, near-equal fat-to-lean balance.",
+        "origin_es": "Suave, dulce y levemente sabroso, con un equilibrio sedoso casi igual de grasa y magro.",
+        "chemistry": "Finely ground pork, seasoned simply, cased and dry-cured; a fine, even grain.",
+        "chemistry_es": "Cerdo molido fino, condimentado sencillo, embutido y curado en seco; grano fino y uniforme.",
+        "pairing": "Focaccia, butter, a light Barbera or Pinot Noir. Slice thin.",
+        "pairing_es": "Focaccia, mantequilla, un Barbera ligero o Pinot Noir. En lonchas finas.",
+        "mixology": "Sliced thin for boards and panini; the everyday Italian salami.",
+        "mixology_es": "En lonchas finas para tablas y panini; el salami italiano de cada día.",
+        "examples": "From Lombardy near Milan; its fine grind and mild flavor make it a gateway salami.",
+        "examples_es": "De Lombardía, cerca de Milán; su grano fino y sabor suave lo hacen un salami de iniciación."
+       }
+      },
+      {
+       "name": "Napoli Salami",
+       "name_fr": "Napoli Salami",
+       "name_it": "Napoli Salami",
+       "name_es": "Salami Napoli",
+       "slug": "napoli-salami",
+       "panel": {
+        "origin": "Warmer and spicier than Milano, with black pepper and a savory bite.",
+        "origin_es": "Más cálido y picante que el Milano, con pimienta negra y un mordiente sabroso.",
+        "chemistry": "Pork shoulder, loin, and neck, peppered and spiced; dry-cured by size.",
+        "chemistry_es": "Paleta, lomo y cuello de cerdo, con pimienta y especias; curado en seco según el tamaño.",
+        "pairing": "Provolone, olives, a southern red like Aglianico.",
+        "pairing_es": "Provolone, aceitunas, un tinto del sur como el Aglianico.",
+        "mixology": "Sliced for boards and sandwiches; a touch bolder than Milano.",
+        "mixology_es": "En lonchas para tablas y bocadillos; algo más intenso que el Milano.",
+        "examples": "From Campania around Naples; a southern Italian deli-counter favorite.",
+        "examples_es": "De Campania, en torno a Nápoles; un favorito del sur de Italia en la charcutería."
+       }
+      },
+      {
+       "name": "Genoa Salami",
+       "name_fr": "Salami de Gênes",
+       "name_it": "Salame di Genova",
+       "name_es": "Salami Génova",
+       "slug": "genoa-salami",
+       "panel": {
+        "origin": "Savory and garlic-forward with a winey tang and medium grain.",
+        "origin_es": "Sabroso y con protagonismo del ajo, con un dejo vinoso y grano medio.",
+        "chemistry": "Medium-ground pork (sometimes with wine), seasoned heavily with garlic; dry-cured.",
+        "chemistry_es": "Cerdo de molido medio (a veces con vino), muy condimentado con ajo; curado en seco.",
+        "pairing": "Crusty bread, sharp cheese, a young Sangiovese.",
+        "pairing_es": "Pan crujiente, queso curado, un Sangiovese joven.",
+        "mixology": "Sliced for boards and sandwiches; the garlicky cousin of Milano.",
+        "mixology_es": "En lonchas para tablas y bocadillos; el primo ajado del Milano.",
+        "examples": "Associated with Genoa and Liguria; a staple of Italian-American delis.",
+        "examples_es": "Asociado a Génova y Liguria; un básico de las charcuterías ítaloamericanas."
+       }
+      },
+      {
+       "name": "Soppressata",
+       "name_fr": "Soppressata",
+       "name_it": "Soppressata",
+       "name_es": "Soppressata",
+       "slug": "soppressata",
+       "panel": {
+        "origin": "Bold, coarse, and savory; the Calabrian version brings chili heat and a winey edge.",
+        "origin_es": "Intensa, gruesa y sabrosa; la versión calabresa aporta picor de chile y un borde vinoso.",
+        "chemistry": "Coarsely ground shoulder and lean cuts with uneven fat; peppered, sometimes pressed flat.",
+        "chemistry_es": "Paleta y cortes magros de molido grueso con grasa irregular; con pimienta, a veces prensada.",
+        "pairing": "Sharp provolone, a bold Primitivo or Zinfandel to match the spice.",
+        "pairing_es": "Provolone curado, un Primitivo o Zinfandel con cuerpo para igualar el picante.",
+        "mixology": "Sliced thick to show its rustic texture; pressed or round formats.",
+        "mixology_es": "En lonchas gruesas para lucir su textura rústica; en formatos prensado o redondo.",
+        "examples": "From Calabria (and beyond); rustic, hand-cut, and chili-flecked in the south.",
+        "examples_es": "De Calabria (y más allá); rústica, de corte a mano y salpicada de chile en el sur."
+       }
+      },
+      {
+       "name": "Finocchiona",
+       "name_fr": "Finocchiona",
+       "name_it": "Finocchiona",
+       "name_es": "Finocchiona",
+       "slug": "finocchiona",
+       "panel": {
+        "origin": "Aromatic and anise-sweet from fennel, over a soft, savory pork base.",
+        "origin_es": "Aromática y dulce-anisada por el hinojo, sobre una base de cerdo suave y sabrosa.",
+        "chemistry": "Tuscan pork salami seasoned with fennel seeds; soft, medium grain.",
+        "chemistry_es": "Salami toscano de cerdo condimentado con semillas de hinojo; grano medio y blando.",
+        "pairing": "Pecorino Toscano, a Chianti or Sangiovese. A natural Tuscan pairing.",
+        "pairing_es": "Pecorino toscano, un Chianti o Sangiovese. Un maridaje toscano natural.",
+        "mixology": "Sliced thin; the fennel perfume is the star.",
+        "mixology_es": "En lonchas finas; el perfume del hinojo es la estrella.",
+        "examples": "A Tuscan classic born when fennel stood in for costly black pepper.",
+        "examples_es": "Un clásico toscano nacido cuando el hinojo sustituía a la cara pimienta negra."
+       }
+      },
+      {
+       "name": "Ventricina",
+       "name_fr": "Ventricina",
+       "name_it": "Ventricina",
+       "name_es": "Ventricina",
+       "slug": "ventricina",
+       "panel": {
+        "origin": "Bold and spicy with chili and warm aromatics; a salami with real bite.",
+        "origin_es": "Intensa y picante, con chile y aromáticos cálidos; un salami con mordiente de verdad.",
+        "chemistry": "Coarsely cut pork mixed with chili, fennel, and pepper; hung and aged ~7 months.",
+        "chemistry_es": "Cerdo cortado grueso mezclado con chile, hinojo y pimienta; colgada y curada ~7 meses.",
+        "pairing": "Crusty bread, a robust southern red.",
+        "pairing_es": "Pan crujiente, un tinto del sur con cuerpo.",
+        "mixology": "Sliced to reveal its coarse, chunky texture.",
+        "mixology_es": "En lonchas para mostrar su textura gruesa y a trozos.",
+        "examples": "From Abruzzo, Molise, and Lazio; recipes vary widely by maker.",
+        "examples_es": "De Abruzo, Molise y Lacio; las recetas varían mucho según el productor."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPANISH SAUSAGES",
+   "name_fr": "Saucisses Espagnoles",
+   "name_it": "Salsicce Spagnole",
+   "name_es": "EMBUTIDOS ESPAÑOLES",
+   "color": "#b5502a",
+   "sub": [
+    {
+     "name": "SPANISH SAUSAGES",
+     "name_fr": "Saucisses Espagnoles",
+     "name_it": "Salsicce Spagnole",
+     "name_es": "EMBUTIDOS ESPAÑOLES",
+     "color": "#b5502a",
+     "descriptors": [
+      {
+       "name": "Chorizo",
+       "name_fr": "Chorizo",
+       "name_it": "Chorizo",
+       "name_es": "Chorizo",
+       "slug": "chorizo",
+       "panel": {
+        "origin": "Smoky, savory, and paprika-rich; sweet (dulce) or spicy (picante).",
+        "origin_es": "Ahumado, sabroso y rico en pimentón; dulce o picante.",
+        "chemistry": "Coarsely ground pork seasoned with pimentón (smoked paprika), garlic, and salt; cured or fresh.",
+        "chemistry_es": "Cerdo de molido grueso con pimentón ahumado, ajo y sal; curado o fresco.",
+        "pairing": "Manchego, bread, a Rioja or Garnacha; cooking chorizo loves cider.",
+        "pairing_es": "Manchego, pan, un Rioja o Garnacha; el chorizo de cocinar adora la sidra.",
+        "mixology": "Cured sliced for boards; fresh sliced into stews, eggs, and paella.",
+        "mixology_es": "Curado en lonchas para tablas; fresco en guisos, huevos y paella.",
+        "examples": "Spain's iconic sausage; pimentón from the New World gives its red color and smoke.",
+        "examples_es": "El embutido icónico de España; el pimentón del Nuevo Mundo le da color rojo y humo."
+       }
+      },
+      {
+       "name": "Fuet",
+       "name_fr": "Fuet",
+       "name_it": "Fuet",
+       "name_es": "Fuet",
+       "slug": "fuet",
+       "panel": {
+        "origin": "Lightly salty, sweet, and tangy with a touch of pepper; delicate.",
+        "origin_es": "Levemente salado, dulce y con un toque ácido y de pimienta; delicado.",
+        "chemistry": "Finely ground pork, salt, and pepper in a thin casing with a white mould rind; dry-cured.",
+        "chemistry_es": "Cerdo molido fino, sal y pimienta en tripa fina con corteza de moho blanco; curado en seco.",
+        "pairing": "A glass of vermut (vermouth), olives, Catalan bread.",
+        "pairing_es": "Una copa de vermut, aceitunas, pan catalán.",
+        "mixology": "Sliced into thin coins as a snack; central to the Catalan 'vermut' ritual.",
+        "mixology_es": "En finas monedas como aperitivo; central en el ritual catalán del 'vermut'.",
+        "examples": "A thin Catalan dry sausage; 'fuet' means 'whip' for its slender shape.",
+        "examples_es": "Un embutido seco catalán y fino; 'fuet' significa 'látigo' por su forma esbelta."
+       }
+      },
+      {
+       "name": "Salchichón",
+       "name_fr": "Salchichón",
+       "name_it": "Salchichón",
+       "name_es": "Salchichón",
+       "slug": "salchichon",
+       "panel": {
+        "origin": "Savory and peppery with a clean cured-pork flavor; no paprika, unlike chorizo.",
+        "origin_es": "Sabroso y con pimienta, de sabor limpio a cerdo curado; sin pimentón, a diferencia del chorizo.",
+        "chemistry": "Ground pork seasoned with black pepper and spices, cased and dry-cured.",
+        "chemistry_es": "Cerdo molido con pimienta negra y especias, embutido y curado en seco.",
+        "pairing": "Manchego, almonds, a soft Tempranillo.",
+        "pairing_es": "Manchego, almendras, un Tempranillo suave.",
+        "mixology": "Sliced thin for boards and bocadillos; the peppered counterpart to chorizo.",
+        "mixology_es": "En lonchas finas para tablas y bocadillos; la versión a la pimienta del chorizo.",
+        "examples": "Spain's everyday peppered salami; the finest use Ibérico pork.",
+        "examples_es": "El salami a la pimienta de cada día en España; el mejor usa cerdo ibérico."
+       }
+      },
+      {
+       "name": "Sobrasada",
+       "name_fr": "Sobrasada",
+       "name_it": "Sobrasada",
+       "name_es": "Sobrasada",
+       "slug": "sobrasada",
+       "panel": {
+        "origin": "Soft, spreadable, and paprika-rich with a tangy, mellow heat.",
+        "origin_es": "Blanda, untable y rica en pimentón, con un picor suave y un punto ácido.",
+        "chemistry": "Finely ground pork and fat, heavily seasoned with paprika; cured but stays soft and spreadable.",
+        "chemistry_es": "Cerdo y grasa molidos finos, muy condimentados con pimentón; curada pero blanda y untable.",
+        "pairing": "Honey on toast, crusty bread, a fruity red or sweet sherry.",
+        "pairing_es": "Miel sobre tostada, pan crujiente, un tinto afrutado o jerez dulce.",
+        "mixology": "Spread on warm bread (often with honey), stirred into sauces; not sliced.",
+        "mixology_es": "Untada sobre pan caliente (a menudo con miel), integrada en salsas; no se loncha.",
+        "examples": "A Mallorcan specialty; its softness comes from the island's humid curing climate.",
+        "examples_es": "Una especialidad mallorquina; su textura blanda viene del clima húmedo de curado de la isla."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRENCH SAUSAGES",
+   "name_fr": "Saucisses Françaises",
+   "name_it": "Salsicce Francesi",
+   "name_es": "EMBUTIDOS FRANCESES",
+   "color": "#7a4a3a",
+   "sub": [
+    {
+     "name": "FRENCH SAUSAGES",
+     "name_fr": "Saucisses Françaises",
+     "name_it": "Salsicce Francesi",
+     "name_es": "EMBUTIDOS FRANCESES",
+     "color": "#7a4a3a",
+     "descriptors": [
+      {
+       "name": "Saucisson Sec",
+       "name_fr": "Saucisson Sec",
+       "name_it": "Saucisson Sec",
+       "name_es": "Saucisson Sec",
+       "slug": "saucisson-sec",
+       "panel": {
+        "origin": "Rich, savory, and nutty with a clean porky depth and a natural white-mould rind.",
+        "origin_es": "Rico, sabroso y a nuez, con profundidad limpia de cerdo y una corteza natural de moho blanco.",
+        "chemistry": "Lean pork and belly, salt, sugar, and spices, sometimes garlic; dry-cured and fermented.",
+        "chemistry_es": "Cerdo magro y panza, sal, azúcar y especias, a veces ajo; curado en seco y fermentado.",
+        "pairing": "Cornichons, baguette, a Beaujolais or Côtes du Rhône.",
+        "pairing_es": "Cornichons, baguette, un Beaujolais o Côtes du Rhône.",
+        "mixology": "Sliced into coins as an apéritif snack; regional versions add nuts, figs, or cheese.",
+        "mixology_es": "En monedas como aperitivo; las versiones regionales añaden nueces, higos o queso.",
+        "examples": "France's classic dry sausage; each region has its own take (d'Auvergne is PGI).",
+        "examples_es": "El embutido seco clásico de Francia; cada región tiene su versión (el d'Auvergne es IGP)."
+       }
+      },
+      {
+       "name": "Rosette de Lyon",
+       "name_fr": "Rosette de Lyon",
+       "name_it": "Rosette de Lyon",
+       "name_es": "Rosette de Lyon",
+       "slug": "rosette-lyon",
+       "panel": {
+        "origin": "Sweet, mellow, and refined with a dense, satisfying chew.",
+        "origin_es": "Dulce, suave y refinada, con una mordida densa y satisfactoria.",
+        "chemistry": "Pork in the large 'rosette' end casing of the pig, cured slowly a month or more.",
+        "chemistry_es": "Cerdo en la gran tripa final 'rosette' del cerdo, curada despacio un mes o más.",
+        "pairing": "Crusty bread, a Beaujolais; a Lyonnais bouchon classic.",
+        "pairing_es": "Pan crujiente, un Beaujolais; un clásico de los bouchons de Lyon.",
+        "mixology": "Sliced thin; the slow cure in a fat casing keeps it moist.",
+        "mixology_es": "En lonchas finas; el curado lento en tripa gruesa la mantiene jugosa.",
+        "examples": "A prized large-format dry sausage from Lyon, named for its rounded casing.",
+        "examples_es": "Un preciado embutido seco de gran formato de Lyon, llamado así por su tripa redondeada."
+       }
+      },
+      {
+       "name": "Saucisse de Morteau",
+       "name_fr": "Saucisse de Morteau",
+       "name_it": "Saucisse de Morteau",
+       "name_es": "Salchicha de Morteau",
+       "slug": "morteau",
+       "panel": {
+        "origin": "Deeply smoky and savory with a firm, meaty bite.",
+        "origin_es": "Profundamente ahumada y sabrosa, con una mordida firme y carnosa.",
+        "chemistry": "Coarse pork, seasoned simply, cold-smoked over conifer in a 'tuyé' chimney; IGP.",
+        "chemistry_es": "Cerdo grueso, condimentado sencillo, ahumado en frío sobre conífera en una chimenea 'tuyé'; IGP.",
+        "pairing": "Lentils, potatoes, a Jura white (Savagnin). Eaten hot or cold.",
+        "pairing_es": "Lentejas, papas, un blanco del Jura (Savagnin). Se come caliente o fría.",
+        "mixology": "Poached or simmered and sliced thick; a wooden peg seals one end as a mark of authenticity.",
+        "mixology_es": "Escalfada o cocida y en lonchas gruesas; una clavija de madera sella un extremo como marca de autenticidad.",
+        "examples": "From Franche-Comté; smoked in tall pyramidal farmhouse chimneys over pine and juniper.",
+        "examples_es": "De Franco Condado; ahumada en altas chimeneas piramidales de granja sobre pino y enebro."
+       }
+      },
+      {
+       "name": "Saucisse de Montbéliard",
+       "name_fr": "Saucisse de Montbéliard",
+       "name_it": "Saucisse de Montbéliard",
+       "name_es": "Salchicha de Montbéliard",
+       "slug": "montbeliard",
+       "panel": {
+        "origin": "Smoky and aromatic with caraway and cumin; finer than Morteau.",
+        "origin_es": "Ahumada y aromática, con alcaravea y comino; más fina que la de Morteau.",
+        "chemistry": "Local pork seasoned with garlic and caraway, smoked over softwood; IGP.",
+        "chemistry_es": "Cerdo local condimentado con ajo y alcaravea, ahumada sobre madera blanda; IGP.",
+        "pairing": "Lentils, mustard, a Jura or Alsace white.",
+        "pairing_es": "Lentejas, mostaza, un blanco del Jura o de Alsacia.",
+        "mixology": "Poached and sliced; a Franche-Comté staple eaten warm.",
+        "mixology_es": "Escalfada y en lonchas; un básico de Franco Condado que se come tibio.",
+        "examples": "A PGI smoked sausage from Franche-Comté, made since the 14th century.",
+        "examples_es": "Una salchicha ahumada IGP de Franco Condado, elaborada desde el siglo XIV."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PÂTÉS, TERRINES & SPREADS",
+   "name_fr": "Pâtés, Terrines & Tartinades",
+   "name_it": "Paté, Terrine & Creme",
+   "name_es": "PATÉS, TERRINAS Y UNTABLES",
+   "color": "#9a7a4a",
+   "sub": [
+    {
+     "name": "PÂTÉS, TERRINES & SPREADS",
+     "name_fr": "Pâtés, Terrines & Tartinades",
+     "name_it": "Paté, Terrine & Creme",
+     "name_es": "PATÉS, TERRINAS Y UNTABLES",
+     "color": "#9a7a4a",
+     "descriptors": [
+      {
+       "name": "Pâté de Campagne",
+       "name_fr": "Pâté de Campagne",
+       "name_it": "Pâté de Campagne",
+       "name_es": "Paté de Campaña",
+       "slug": "pate-campagne",
+       "panel": {
+        "origin": "Rustic, savory, and rich with liver depth; coarse and homey.",
+        "origin_es": "Rústico, sabroso y rico, con profundidad de hígado; grueso y casero.",
+        "chemistry": "Coarsely ground pork and liver with fat, sometimes wine or brandy; baked and served cold.",
+        "chemistry_es": "Cerdo e hígado de molido grueso con grasa, a veces vino o brandy; horneado y servido frío.",
+        "pairing": "Cornichons, mustard, baguette, a crisp white or Beaujolais.",
+        "pairing_es": "Cornichons, mostaza, baguette, un blanco fresco o Beaujolais.",
+        "mixology": "Sliced or scooped onto bread; France's everyday 'country pâté.'",
+        "mixology_es": "En lonchas o a cucharadas sobre pan; el 'paté de campaña' francés de cada día.",
+        "examples": "A traditional French farmhouse pâté, often studded with peppercorns or nuts.",
+        "examples_es": "Un paté de granja tradicional francés, a menudo salpicado de pimienta o nueces."
+       }
+      },
+      {
+       "name": "Rillettes",
+       "name_fr": "Rillettes",
+       "name_it": "Rillettes",
+       "name_es": "Rillettes",
+       "slug": "rillettes",
+       "panel": {
+        "origin": "Unctuous, savory, and deeply meaty; soft and spreadable.",
+        "origin_es": "Untuosas, sabrosas y muy cárnicas; blandas y untables.",
+        "chemistry": "Meat (pork, duck, or goose) slow-cooked in its own fat, shredded, and potted under fat.",
+        "chemistry_es": "Carne (cerdo, pato u oca) cocida lenta en su propia grasa, desmenuzada y conservada bajo grasa.",
+        "pairing": "Toasted bread, cornichons, and acidity — Champagne, Crémant, or a crisp Chenin.",
+        "pairing_es": "Pan tostado, cornichons y acidez — Champagne, Crémant o un Chenin fresco.",
+        "mixology": "Spread thick on bread or toast; served cold from the pot.",
+        "mixology_es": "Untadas con generosidad sobre pan o tostada; servidas frías del tarro.",
+        "examples": "A French method of preserving meat in fat; Tours and Le Mans are famous for it.",
+        "examples_es": "Un método francés de conservar carne en grasa; Tours y Le Mans son famosas por ellas."
+       }
+      },
+      {
+       "name": "Nduja",
+       "name_fr": "Nduja",
+       "name_it": "Nduja",
+       "name_es": "Nduja",
+       "slug": "nduja",
+       "panel": {
+        "origin": "Fiery, tangy, and deeply savory; soft enough to spread.",
+        "origin_es": "Ardiente, ácida y muy sabrosa; lo bastante blanda para untar.",
+        "chemistry": "Pork and a heavy dose of fat blended with Calabrian chili; fermented and cured but spreadable.",
+        "chemistry_es": "Cerdo y una buena dosis de grasa con chile calabrés; fermentada y curada pero untable.",
+        "pairing": "Warm bread, pizza, soft cheese; a bold southern red to match the heat.",
+        "pairing_es": "Pan caliente, pizza, queso blando; un tinto del sur con cuerpo para igualar el picor.",
+        "mixology": "Spread on bread or melted into pasta, stews, and sauces; a flavor bomb.",
+        "mixology_es": "Untada en pan o fundida en pasta, guisos y salsas; una bomba de sabor.",
+        "examples": "A spicy spreadable sausage from Calabria, now a darling of modern kitchens.",
+        "examples_es": "Un embutido picante y untable de Calabria, hoy favorito de las cocinas modernas."
+       }
+      },
+      {
+       "name": "Pâté en Croûte",
+       "name_fr": "Pâté en Croûte",
+       "name_it": "Pâté en Croûte",
+       "name_es": "Paté en Croûte",
+       "slug": "pate-en-croute",
+       "panel": {
+        "origin": "Savory and layered — seasoned forcemeat against buttery, crisp pastry.",
+        "origin_es": "Sabroso y en capas — relleno condimentado contra una masa mantecosa y crujiente.",
+        "chemistry": "Forcemeat (and often whole-muscle inlays) baked inside a pastry crust; sliced cold.",
+        "chemistry_es": "Relleno (a menudo con incrustaciones de músculo entero) horneado dentro de masa; en lonchas frías.",
+        "pairing": "Pickles, mustard, a dry Riesling or light red. A showpiece slice.",
+        "pairing_es": "Encurtidos, mostaza, un Riesling seco o tinto ligero. Una loncha de exhibición.",
+        "mixology": "Sliced into cross-sections to reveal the mosaic; a competition-level charcuterie art.",
+        "mixology_es": "En cortes transversales que revelan el mosaico; un arte charcutero de nivel de concurso.",
+        "examples": "A classic French showpiece; the World Championship is a serious charcutier contest.",
+        "examples_es": "Una pieza estrella francesa clásica; su Campeonato Mundial es un serio concurso de charcuteros."
+       }
+      },
+      {
+       "name": "Terrine",
+       "name_fr": "Terrine",
+       "name_it": "Terrina",
+       "name_es": "Terrina",
+       "slug": "terrine",
+       "panel": {
+        "origin": "Savory and rich, ranging from coarse and rustic to silky and refined.",
+        "origin_es": "Sabrosa y rica, de lo grueso y rústico a lo sedoso y refinado.",
+        "chemistry": "Forcemeat cooked in a lidded mold (the terrine dish), pressed, and chilled; sliced cold.",
+        "chemistry_es": "Relleno cocido en un molde con tapa (la terrina), prensado y enfriado; en lonchas frías.",
+        "pairing": "Cornichons, grainy mustard, a crisp white or light red.",
+        "pairing_es": "Cornichons, mostaza en grano, un blanco fresco o tinto ligero.",
+        "mixology": "Turned out and sliced; served cold as a starter or board centerpiece.",
+        "mixology_es": "Desmoldada y en lonchas; servida fría como entrante o pieza central de tabla.",
+        "examples": "Named for the earthenware dish it's cooked in; kin to pâté but molded.",
+        "examples_es": "Lleva el nombre del recipiente de barro en que se cocina; pariente del paté pero moldeada."
+       }
+      },
+      {
+       "name": "Fromage de Tête",
+       "name_fr": "Fromage de Tête",
+       "name_it": "Soppressata di Testa",
+       "name_es": "Queso de Cabeza",
+       "slug": "fromage-tete",
+       "panel": {
+        "origin": "Savory and porky with a delicate, jellied bite; herbal and peppery.",
+        "origin_es": "Sabroso y de cerdo, con una mordida delicada y gelatinosa; herbal y a pimienta.",
+        "chemistry": "Meat from a simmered pig's head, set in its own gelatin-rich stock; no cheese involved.",
+        "chemistry_es": "Carne de una cabeza de cerdo cocida, cuajada en su propio caldo rico en gelatina; sin queso alguno.",
+        "pairing": "Mustard, pickles, vinaigrette, a crisp white.",
+        "pairing_es": "Mostaza, encurtidos, vinagreta, un blanco fresco.",
+        "mixology": "Sliced cold to show the mosaic of meat in clear aspic.",
+        "mixology_es": "En lonchas frías para mostrar el mosaico de carne en áspic transparente.",
+        "examples": "'Head cheese' (brawn); a thrifty, nose-to-tail preparation, despite the name.",
+        "examples_es": "'Queso de cabeza'; una preparación de aprovechamiento total, pese al nombre."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "COOKED & SMOKED",
+   "name_fr": "Cuits & Fumés",
+   "name_it": "Cotti & Affumicati",
+   "name_es": "COCIDOS Y AHUMADOS",
+   "color": "#6a4a3a",
+   "sub": [
+    {
+     "name": "COOKED & SMOKED",
+     "name_fr": "Cuits & Fumés",
+     "name_it": "Cotti & Affumicati",
+     "name_es": "COCIDOS Y AHUMADOS",
+     "color": "#6a4a3a",
+     "descriptors": [
+      {
+       "name": "Mortadella",
+       "name_fr": "Mortadella",
+       "name_it": "Mortadella",
+       "name_es": "Mortadela",
+       "slug": "mortadella",
+       "panel": {
+        "origin": "Mild, delicate, and subtly spiced with a creamy, melting smoothness.",
+        "origin_es": "Suave, delicada y sutilmente especiada, de una untuosidad cremosa y fundente.",
+        "chemistry": "Finely emulsified pork studded with cubes of fat (and often pistachios); cooked slowly.",
+        "chemistry_es": "Cerdo finamente emulsionado con cubos de grasa (y a menudo pistachos); cocida despacio.",
+        "pairing": "Focaccia, pistachio, a sparkling Lambrusco; the soul of a mortadella panino.",
+        "pairing_es": "Focaccia, pistacho, un Lambrusco espumoso; el alma del panino de mortadela.",
+        "mixology": "Sliced thin for boards and sandwiches, cubed into salads, blended into mousse.",
+        "mixology_es": "En lonchas finas para tablas y bocadillos, en cubos en ensaladas, batida en mousse.",
+        "examples": "A cooked Bologna IGP sausage; the refined ancestor of American bologna.",
+        "examples_es": "Una salchicha cocida IGP de Bolonia; el refinado ancestro de la 'bologna' estadounidense."
+       }
+      },
+      {
+       "name": "Bacon",
+       "name_fr": "Bacon",
+       "name_it": "Bacon",
+       "name_es": "Bacon",
+       "slug": "bacon",
+       "panel": {
+        "origin": "Savory, smoky, and salty with rich rendered fat.",
+        "origin_es": "Sabroso, ahumado y salado, con una grasa rica al fundirse.",
+        "chemistry": "Cured pork belly (the smoked counterpart to pancetta), usually wood-smoked.",
+        "chemistry_es": "Panza de cerdo curada (la versión ahumada de la pancetta), normalmente ahumada con madera.",
+        "pairing": "Eggs, maple, greens; cooked rather than served raw.",
+        "pairing_es": "Huevos, arce, verduras; cocido y no servido crudo.",
+        "mixology": "Fried or roasted until crisp; rendered fat flavors countless dishes.",
+        "mixology_es": "Frito o asado hasta quedar crujiente; su grasa fundida aromatiza incontables platos.",
+        "examples": "An English and American cured belly; smoking sets it apart from Italian pancetta.",
+        "examples_es": "Una panza curada inglesa y estadounidense; el ahumado lo distingue de la pancetta italiana."
+       }
+      },
+      {
+       "name": "Galantine",
+       "name_fr": "Galantine",
+       "name_it": "Galantine",
+       "name_es": "Galantina",
+       "slug": "galantine",
+       "panel": {
+        "origin": "Savory and elegant; forcemeat brightened with herbs, nuts, and sometimes fruit.",
+        "origin_es": "Sabrosa y elegante; relleno avivado con hierbas, frutos secos y a veces fruta.",
+        "chemistry": "Deboned poultry stuffed with forcemeat, rolled, poached, and served cold (warm = ballotine).",
+        "chemistry_es": "Ave deshuesada rellena de farsa, enrollada, escalfada y servida fría (caliente = ballotine).",
+        "pairing": "Pickles, mustard, a crisp white. A classic cold-buffet showpiece.",
+        "pairing_es": "Encurtidos, mostaza, un blanco fresco. Una pieza clásica del bufé frío.",
+        "mixology": "Sliced into rounds to reveal the inlay; served chilled.",
+        "mixology_es": "En rodajas que revelan el relleno; servida bien fría.",
+        "examples": "A grand old French preparation, often glazed with aspic for the buffet.",
+        "examples_es": "Una gran preparación francesa de antaño, a menudo glaseada con áspic para el bufé."
+       }
+      },
+      {
+       "name": "Boudin Noir",
+       "name_fr": "Boudin Noir",
+       "name_it": "Boudin Noir",
+       "name_es": "Morcilla (Boudin Noir)",
+       "slug": "boudin-noir",
+       "panel": {
+        "origin": "Deep, rich, and savory-sweet with warm spice; soft and tender.",
+        "origin_es": "Profundo, rico y dulce-salado, con especia cálida; blando y tierno.",
+        "chemistry": "Pork blood, fat, and seasonings (sometimes apple or onion) in a casing; cooked.",
+        "chemistry_es": "Sangre de cerdo, grasa y condimentos (a veces manzana o cebolla) en tripa; cocido.",
+        "pairing": "Apple, mashed potato, a Loire red or cider. Served warm.",
+        "pairing_es": "Manzana, puré de papa, un tinto del Loira o sidra. Servido caliente.",
+        "mixology": "Pan-fried or grilled and served hot; a French bistro classic.",
+        "mixology_es": "Salteado o a la parrilla y servido caliente; un clásico de bistró francés.",
+        "examples": "France's blood sausage; nearly every culture has a version of this nose-to-tail staple.",
+        "examples_es": "La morcilla de Francia; casi toda cultura tiene su versión de este básico de aprovechamiento."
+       }
+      },
+      {
+       "name": "Kielbasa",
+       "name_fr": "Kielbasa",
+       "name_it": "Kielbasa",
+       "name_es": "Kielbasa",
+       "slug": "kielbasa",
+       "panel": {
+        "origin": "Garlicky and savory with marjoram and a gentle smoke.",
+        "origin_es": "Ajada y sabrosa, con mejorana y un humo suave.",
+        "chemistry": "Coarse pork (sometimes beef), seasoned with garlic and marjoram, smoked; cooked or fresh.",
+        "chemistry_es": "Cerdo grueso (a veces res), con ajo y mejorana, ahumada; cocida o fresca.",
+        "pairing": "Mustard, sauerkraut, rye bread, a crisp lager or off-dry white.",
+        "pairing_es": "Mostaza, chucrut, pan de centeno, una lager fresca o un blanco semiseco.",
+        "mixology": "Grilled, simmered, or sliced cold; the Polish smoked sausage family.",
+        "mixology_es": "A la parrilla, cocida o en lonchas frías; la familia de salchichas ahumadas polacas.",
+        "examples": "'Kiełbasa' simply means sausage in Polish; countless regional types exist.",
+        "examples_es": "'Kiełbasa' significa simplemente salchicha en polaco; existen innumerables tipos regionales."
+       }
+      },
+      {
+       "name": "Frankfurter",
+       "name_fr": "Saucisse de Francfort",
+       "name_it": "Würstel",
+       "name_es": "Salchicha Frankfurt",
+       "slug": "frankfurter",
+       "panel": {
+        "origin": "Mild, smoky, and savory with a snappy casing.",
+        "origin_es": "Suave, ahumada y sabrosa, con una tripa que estalla al morder.",
+        "chemistry": "Finely emulsified pork (and/or beef), seasoned, smoked, and cooked — the hot dog's ancestor.",
+        "chemistry_es": "Cerdo (y/o res) finamente emulsionado, condimentado, ahumado y cocido — el ancestro del hot dog.",
+        "pairing": "Mustard, sauerkraut, a crisp lager.",
+        "pairing_es": "Mostaza, chucrut, una lager fresca.",
+        "mixology": "Simmered or grilled; the direct forebear of the American hot dog.",
+        "mixology_es": "Cocida o a la parrilla; el antecesor directo del hot dog estadounidense.",
+        "examples": "From Frankfurt, Germany; an emulsified sausage in the classic charcutier tradition.",
+        "examples_es": "De Fráncfort, Alemania; una salchicha emulsionada en la clásica tradición charcutera."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "DRY-CURED HAMS": {
+   "en": "The finest Jamón Ibérico comes from black-hoofed pigs fattened on acorns — 'pata negra' — and a single leg can age for years before it's ready to slice.",
+   "es": "El mejor Jamón Ibérico viene de cerdos de pezuña negra cebados con bellota — 'pata negra' — y una sola pierna puede curarse años antes de estar lista para cortar."
+  },
+  "CURED WHOLE-MUSCLE CUTS": {
+   "en": "Guanciale — not bacon or pancetta — is the traditional cut for a real carbonara or amatriciana: cured pork jowl, richer and more delicate than belly.",
+   "es": "El guanciale — no el bacon ni la pancetta — es el corte tradicional de una carbonara o amatriciana de verdad: carrillada curada, más rica y delicada que la panza."
+  },
+  "ITALIAN SALAMI": {
+   "en": "Finocchiona was born of thrift — when black pepper was rare and costly in Tuscany, makers reached for cheap, local fennel, and the fennel salami became a classic.",
+   "es": "La finocchiona nació del ahorro — cuando la pimienta negra era rara y cara en Toscana, los productores recurrieron al hinojo local y barato, y el salami de hinojo se hizo un clásico."
+  },
+  "SPANISH SAUSAGES": {
+   "en": "What makes chorizo red isn't chili but pimentón — Spanish smoked paprika — which arrived from the New World in the 16th century and reinvented Spanish curing.",
+   "es": "Lo que da el rojo al chorizo no es el chile sino el pimentón — pimentón ahumado español — que llegó del Nuevo Mundo en el siglo XVI y reinventó el curado español."
+  },
+  "FRENCH SAUSAGES": {
+   "en": "Morteau sausage is smoked in a 'tuyé,' a tall pyramid farmhouse chimney, over conifer wood — and sealed at one end with a little wooden peg that proves it's the real thing.",
+   "es": "La salchicha de Morteau se ahúma en un 'tuyé', una alta chimenea piramidal de granja, sobre madera de conífera — y se sella en un extremo con una clavija de madera que prueba que es auténtica."
+  },
+  "PÂTÉS, TERRINES & SPREADS": {
+   "en": "'Fromage de tête' — head cheese — contains no cheese at all; it's meat from a whole simmered pig's head set in its own savory jelly.",
+   "es": "El 'fromage de tête' — queso de cabeza — no contiene queso alguno; es carne de una cabeza de cerdo cocida entera, cuajada en su propia gelatina sabrosa."
+  },
+  "COOKED & SMOKED": {
+   "en": "The word 'charcuterie' comes from the French for 'cooked flesh,' and the humble hot dog is a direct descendant — a finely emulsified, smoked sausage in the grand charcutier tradition.",
+   "es": "La palabra 'charcuterie' viene del francés 'carne cocida', y el humilde hot dog es un descendiente directo — una salchicha fina, emulsionada y ahumada en la gran tradición charcutera."
+  }
+ }
+}

@@ -1,0 +1,665 @@
+{
+ "title": "Beef",
+ "subject": "beef",
+ "categories": [
+  {
+   "name": "CHUCK (SHOULDER)",
+   "name_fr": "Paleron (Épaule)",
+   "name_it": "Spalla",
+   "name_es": "PALETA (HOMBRO)",
+   "sub": [
+    {
+     "name": "CHUCK (SHOULDER)",
+     "name_fr": "Paleron (Épaule)",
+     "name_it": "Spalla",
+     "name_es": "PALETA (HOMBRO)",
+     "descriptors": [
+      {
+       "name": "Chuck Roast",
+       "name_fr": "Rôti de Paleron",
+       "name_it": "Arrosto di Spalla",
+       "name_es": "Chuck Roast (Paleta)",
+       "slug": "chuck-roast",
+       "panel": {
+        "origin": "From the shoulder, a well-exercised muscle group with abundant connective tissue and marbling, making it one of the most flavorful cuts on the animal.",
+        "origin_es": "Proviene del hombro, un grupo muscular muy ejercitado con abundante tejido conectivo y marmoleo, lo que lo convierte en uno de los cortes más sabrosos del animal.",
+        "chemistry": "Tough when cooked quickly, but the dense collagen melts into rich gelatin during slow, moist cooking, yielding fall-apart tenderness.",
+        "chemistry_es": "Duro si se cocina rápido, pero el colágeno denso se convierte en gelatina rica durante una cocción lenta y húmeda, dando una ternura que se deshace.",
+        "mixology": "Braise or pot-roast low and slow (275°F/135°C for 3-4 hours) with aromatics and liquid for best results.",
+        "mixology_es": "Estofar o cocinar a fuego lento (135°C durante 3-4 horas) con aromáticos y líquido para mejores resultados.",
+        "examples": "The classic base for pot roast, beef stew, and shredded barbacoa.",
+        "examples_es": "La base clásica del pot roast, el guiso de res y la barbacoa deshebrada."
+       }
+      },
+      {
+       "name": "Flat Iron Steak",
+       "name_fr": "Flat Iron Steak",
+       "name_it": "Flat Iron Steak",
+       "name_es": "Flat Iron Steak",
+       "slug": "flat-iron-steak",
+       "panel": {
+        "origin": "Cut from the shoulder blade (chuck), it's the second-most tender cut on the entire animal after the tenderloin.",
+        "origin_es": "Se corta del hueso de la paletilla (chuck); es el segundo corte más tierno de todo el animal después del solomillo.",
+        "chemistry": "Surprisingly tender and well-marbled for a chuck cut, with a beefy, robust flavor.",
+        "chemistry_es": "Sorprendentemente tierno y bien marmoleado para ser un corte de paleta, con un sabor intenso a carne.",
+        "mixology": "Grill or pan-sear quickly over high heat to medium-rare; slice against the grain.",
+        "mixology_es": "Asar a la parrilla o sellar en sartén a fuego alto hasta término medio; cortar en contra de la fibra.",
+        "examples": "A popular steakhouse value cut, often served whole or sliced for fajitas and salads.",
+        "examples_es": "Un corte económico popular en parrillas, servido entero o en tiras para fajitas y ensaladas."
+       }
+      },
+      {
+       "name": "Denver Steak",
+       "name_fr": "Denver Steak",
+       "name_it": "Denver Steak",
+       "name_es": "Denver Steak",
+       "slug": "denver-steak",
+       "panel": {
+        "origin": "Cut from the chuck's underblade, a relatively new cut 'discovered' through modern muscle-profiling techniques.",
+        "origin_es": "Se corta de la parte inferior de la paletilla, un corte relativamente nuevo 'descubierto' mediante técnicas modernas de perfilado muscular.",
+        "chemistry": "One of the most tender chuck cuts, with fine marbling and a rich, beefy flavor close to a ribeye.",
+        "chemistry_es": "Uno de los cortes de paleta más tiernos, con marmoleo fino y un sabor intenso parecido al ribeye.",
+        "mixology": "Treat like a premium steak — grill or sear hot and fast to medium-rare.",
+        "mixology_es": "Trátalo como un corte premium — asa o sella a fuego alto y rápido hasta término medio.",
+        "examples": "Increasingly featured on steakhouse menus as an affordable alternative to ribeye.",
+        "examples_es": "Cada vez más presente en menús de parrilla como alternativa económica al ribeye."
+       }
+      },
+      {
+       "name": "Blade Steak",
+       "name_fr": "Steak de Palette",
+       "name_it": "Bistecca di Spalla",
+       "name_es": "Blade Steak (Aguja)",
+       "slug": "blade-steak",
+       "panel": {
+        "origin": "Cut from the shoulder clod, named for the flat shoulder-blade bone (cartilage) that often runs through its center.",
+        "origin_es": "Se corta de la paleta, llamado así por el hueso plano de la escápula (cartílago) que a menudo atraviesa su centro.",
+        "chemistry": "Rich, beefy flavor but can be chewy due to a tough connective-tissue seam running through it.",
+        "chemistry_es": "Sabor intenso a carne, pero puede ser duro por una línea de tejido conectivo que lo atraviesa.",
+        "mixology": "Best braised whole, or with the cartilage seam removed and the steak grilled like a flat iron.",
+        "mixology_es": "Mejor estofado entero, o retirando la línea de cartílago y asándolo como un flat iron.",
+        "examples": "Common in British and Irish 'blade steak' braises and pot roasts.",
+        "examples_es": "Común en estofados británicos e irlandeses de 'blade steak' y pot roast."
+       }
+      }
+     ],
+     "color": "#8a4a3a"
+    }
+   ],
+   "color": "#8a4a3a"
+  },
+  {
+   "name": "RIB (UPPER BACK)",
+   "name_fr": "Côtes (Haut de Dos)",
+   "name_it": "Costato",
+   "name_es": "COSTILLA (LOMO ALTO)",
+   "sub": [
+    {
+     "name": "RIB (UPPER BACK)",
+     "name_fr": "Côtes (Haut de Dos)",
+     "name_it": "Costato",
+     "name_es": "COSTILLA (LOMO ALTO)",
+     "descriptors": [
+      {
+       "name": "Ribeye Steak",
+       "name_fr": "Entrecôte",
+       "name_it": "Costata",
+       "name_es": "Ribeye (Ojo de Costilla)",
+       "slug": "ribeye-steak",
+       "panel": {
+        "origin": "Cut from the rib primal, this muscle does very little work, resulting in exceptional marbling and tenderness.",
+        "origin_es": "Se corta del primal de la costilla; este músculo trabaja muy poco, lo que da un marmoleo y ternura excepcionales.",
+        "chemistry": "Generously marbled with intramuscular fat that bastes the meat as it cooks, producing a juicy, rich, buttery flavor.",
+        "chemistry_es": "Generosamente marmoleado con grasa intramuscular que riega la carne al cocinarse, dando un sabor jugoso, rico y mantecoso.",
+        "mixology": "Grill, pan-sear, or broil hot and fast; the fat cap renders beautifully over direct heat.",
+        "mixology_es": "Asar, sellar en sartén o gratinar a fuego alto y rápido; la capa de grasa se derrite muy bien con calor directo.",
+        "examples": "One of the most popular steakhouse cuts, served bone-in ('cowboy cut') or boneless.",
+        "examples_es": "Uno de los cortes más populares en parrillas, servido con hueso ('cowboy cut') o sin hueso."
+       }
+      },
+      {
+       "name": "Prime Rib (Standing Rib Roast)",
+       "name_fr": "Côte de Bœuf",
+       "name_it": "Costata di Manzo",
+       "name_es": "Prime Rib (Costillar Entero)",
+       "slug": "prime-rib",
+       "panel": {
+        "origin": "The whole, bone-in roast cut from the rib primal — essentially a row of uncut ribeyes.",
+        "origin_es": "El asado entero con hueso del primal de la costilla — básicamente una fila de ribeyes sin cortar.",
+        "chemistry": "Deeply marbled with a thick fat cap that bastes the roast from the outside in during slow roasting.",
+        "chemistry_es": "Profundamente marmoleado, con una gruesa capa de grasa que riega el asado de afuera hacia adentro durante la cocción lenta.",
+        "mixology": "Roast low (225-250°F/107-121°C) until internal temp reaches the desired doneness, then rest before carving.",
+        "mixology_es": "Hornear a baja temperatura (107-121°C) hasta el término deseado, y dejar reposar antes de cortar.",
+        "examples": "The centerpiece of holiday dinners and classic steakhouse carving stations.",
+        "examples_es": "El plato central de cenas festivas y de las estaciones de corte de las grandes parrillas."
+       }
+      },
+      {
+       "name": "Back Ribs",
+       "name_fr": "Côtes Levées",
+       "name_it": "Costine",
+       "name_es": "Costillas Back Ribs",
+       "slug": "back-ribs",
+       "panel": {
+        "origin": "The bones left behind after the ribeye is removed from the rib primal, with a thin layer of meat between them.",
+        "origin_es": "Los huesos que quedan tras retirar el ribeye del primal de la costilla, con una capa fina de carne entre ellos.",
+        "chemistry": "Less meaty than short ribs, but the meat between and over the bones turns tender and flavorful with low, slow cooking.",
+        "chemistry_es": "Con menos carne que las short ribs, pero la carne entre y sobre los huesos se vuelve tierna y sabrosa con cocción lenta.",
+        "mixology": "Smoke or oven-roast low and slow (225°F/107°C for several hours), often with a dry rub or barbecue sauce.",
+        "mixology_es": "Ahumar u hornear a baja temperatura (107°C durante varias horas), a menudo con un dry rub o salsa barbacoa.",
+        "examples": "A classic barbecue cut, often labeled 'beef back ribs' at the butcher counter.",
+        "examples_es": "Un corte clásico de barbacoa, a menudo etiquetado como 'beef back ribs' en la carnicería."
+       }
+      }
+     ],
+     "color": "#b03a3a"
+    }
+   ],
+   "color": "#b03a3a"
+  },
+  {
+   "name": "LOIN (MID-BACK)",
+   "name_fr": "Longe (Milieu de Dos)",
+   "name_it": "Lombo",
+   "name_es": "LOMO (LOMO MEDIO)",
+   "sub": [
+    {
+     "name": "LOIN (MID-BACK)",
+     "name_fr": "Longe (Milieu de Dos)",
+     "name_it": "Lombo",
+     "name_es": "LOMO (LOMO MEDIO)",
+     "descriptors": [
+      {
+       "name": "Tenderloin (Filet Mignon)",
+       "name_fr": "Filet (Filet Mignon)",
+       "name_it": "Filetto (Filet Mignon)",
+       "name_es": "Solomillo (Filet Mignon)",
+       "slug": "tenderloin",
+       "panel": {
+        "origin": "From the short loin, this muscle does almost no work, making it the most tender cut on the entire animal.",
+        "origin_es": "Proviene del lomo corto; este músculo casi no trabaja, lo que lo convierte en el corte más tierno de todo el animal.",
+        "chemistry": "Buttery-soft texture with a mild, delicate beef flavor and very little fat marbling.",
+        "chemistry_es": "Textura suave como mantequilla, con un sabor a carne delicado y muy poco marmoleo de grasa.",
+        "mixology": "Sear hot and fast on all sides, then finish in the oven; avoid overcooking since there's little fat to keep it moist.",
+        "mixology_es": "Sellar a fuego alto por todos lados y terminar al horno; evitar la sobrecocción porque tiene poca grasa que lo mantenga jugoso.",
+        "examples": "The star of filet mignon and the central component of Beef Wellington and chateaubriand.",
+        "examples_es": "La estrella del filet mignon y el componente central del Beef Wellington y el chateaubriand."
+       }
+      },
+      {
+       "name": "New York Strip",
+       "name_fr": "New York Strip",
+       "name_it": "New York Strip",
+       "name_es": "New York Strip",
+       "slug": "new-york-strip",
+       "panel": {
+        "origin": "Cut from the short loin, just behind the ribs, alongside the spine.",
+        "origin_es": "Se corta del lomo corto, justo detrás de las costillas, junto a la columna.",
+        "chemistry": "A firm, slightly chewy texture with a robust beefy flavor and a band of fat along one edge.",
+        "chemistry_es": "Textura firme, ligeramente masticable, con un sabor intenso a carne y una franja de grasa en un borde.",
+        "mixology": "Grill or pan-sear to medium-rare; render the fat edge by starting fat-side down.",
+        "mixology_es": "Asar o sellar en sartén hasta término medio; derretir el borde de grasa colocándolo hacia abajo al inicio.",
+        "examples": "A steakhouse staple, often listed simply as 'strip steak' or 'Kansas City strip.'",
+        "examples_es": "Un clásico de las parrillas, listado a menudo simplemente como 'strip steak' o 'Kansas City strip.'"
+       }
+      },
+      {
+       "name": "T-Bone",
+       "name_fr": "T-Bone",
+       "name_it": "T-Bone",
+       "name_es": "T-Bone",
+       "slug": "t-bone",
+       "panel": {
+        "origin": "A cross-section of the short loin containing both the strip and a small portion of the tenderloin, separated by a T-shaped bone.",
+        "origin_es": "Una sección transversal del lomo corto que contiene el strip y una pequeña porción del solomillo, separadas por un hueso en forma de T.",
+        "chemistry": "Offers two textures in one steak — the firmer strip and the buttery-soft tenderloin.",
+        "chemistry_es": "Ofrece dos texturas en un solo corte — el strip más firme y el solomillo suave como mantequilla.",
+        "mixology": "Grill over indirect heat near the bone to avoid overcooking the smaller tenderloin side.",
+        "mixology_es": "Asar con calor indirecto cerca del hueso para no sobrecocinar el lado más pequeño del solomillo.",
+        "examples": "A classic American steakhouse cut, prized for offering 'two steaks in one.'",
+        "examples_es": "Un corte clásico de las parrillas estadounidenses, valorado por ofrecer 'dos cortes en uno.'"
+       }
+      },
+      {
+       "name": "Porterhouse",
+       "name_fr": "Porterhouse",
+       "name_it": "Porterhouse",
+       "name_es": "Porterhouse",
+       "slug": "porterhouse",
+       "panel": {
+        "origin": "Cut from the rear of the short loin, where the tenderloin section is at its largest — essentially a T-bone with a bigger filet.",
+        "origin_es": "Se corta de la parte posterior del lomo corto, donde la sección del solomillo es más grande — básicamente un T-bone con un filete mayor.",
+        "chemistry": "Like the T-bone but with a noticeably larger tenderloin portion, making it especially prized.",
+        "chemistry_es": "Similar al T-bone pero con una porción de solomillo notablemente mayor, lo que lo hace especialmente valorado.",
+        "mixology": "Grill bone-in over two-zone heat, searing first then moving to indirect heat to finish.",
+        "mixology_es": "Asar con hueso usando calor en dos zonas, sellando primero y terminando con calor indirecto.",
+        "examples": "Often the largest and most expensive steak on a steakhouse menu, meant for sharing.",
+        "examples_es": "A menudo el corte más grande y caro del menú de una parrilla, pensado para compartir."
+       }
+      }
+     ],
+     "color": "#c9533a"
+    }
+   ],
+   "color": "#c9533a"
+  },
+  {
+   "name": "SIRLOIN (RUMP)",
+   "name_fr": "Aloyau (Croupe)",
+   "name_it": "Controfiletto",
+   "name_es": "CADERA (LOMO BAJO)",
+   "sub": [
+    {
+     "name": "SIRLOIN (RUMP)",
+     "name_fr": "Aloyau (Croupe)",
+     "name_it": "Controfiletto",
+     "name_es": "CADERA (LOMO BAJO)",
+     "descriptors": [
+      {
+       "name": "Sirloin Steak",
+       "name_fr": "Faux-Filet",
+       "name_it": "Controfiletto",
+       "name_es": "Bife de Cadera",
+       "slug": "sirloin-steak",
+       "panel": {
+        "origin": "Cut from the sirloin primal, just behind the short loin — a well-used but moderately tender muscle group.",
+        "origin_es": "Se corta del primal de la cadera, justo detrás del lomo corto — un grupo muscular bastante usado pero moderadamente tierno.",
+        "chemistry": "Leaner and slightly firmer than loin cuts, with a robust beefy flavor and less marbling.",
+        "chemistry_es": "Más magro y algo más firme que los cortes de lomo, con un sabor intenso a carne y menos marmoleo.",
+        "mixology": "Marinate for extra tenderness, then grill or pan-sear to medium-rare; slice thin against the grain.",
+        "mixology_es": "Marinar para mayor ternura, luego asar o sellar hasta término medio; cortar fino en contra de la fibra.",
+        "examples": "A versatile, budget-friendly steak often used for stir-fries, fajitas, and kebabs.",
+        "examples_es": "Un corte versátil y económico, usado a menudo en salteados, fajitas y brochetas."
+       }
+      },
+      {
+       "name": "Tri-Tip",
+       "name_fr": "Tri-Tip",
+       "name_it": "Tri-Tip",
+       "name_es": "Tri-Tip",
+       "slug": "tri-tip",
+       "panel": {
+        "origin": "A triangular muscle from the bottom of the sirloin, historically ground into hamburger until California butchers popularized it as a steak in the 1950s.",
+        "origin_es": "Un músculo triangular de la parte baja de la cadera, históricamente molido para hamburguesa hasta que carniceros de California lo popularizaron como bistec en los años 1950.",
+        "chemistry": "Lean with a loose grain and a distinctive triangular shape; the grain runs in two different directions.",
+        "chemistry_es": "Magro, de fibra suelta y forma triangular distintiva; la fibra corre en dos direcciones diferentes.",
+        "mixology": "Reverse-sear or smoke low and slow, then sear; slice against the grain, switching direction partway through.",
+        "mixology_es": "Cocinar a baja temperatura y luego sellar (o ahumar), cortando en contra de la fibra y cambiando de dirección a la mitad.",
+        "examples": "A Santa Maria-style barbecue staple, often seasoned simply with salt, pepper, and garlic.",
+        "examples_es": "Un clásico de la barbacoa estilo Santa Maria, sazonado simplemente con sal, pimienta y ajo."
+       }
+      }
+     ],
+     "color": "#a8653a"
+    }
+   ],
+   "color": "#a8653a"
+  },
+  {
+   "name": "ROUND (HIND LEG)",
+   "name_fr": "Cuisse (Patte Arrière)",
+   "name_it": "Coscia",
+   "name_es": "PIERNA (CUARTO TRASERO)",
+   "sub": [
+    {
+     "name": "ROUND (HIND LEG)",
+     "name_fr": "Cuisse (Patte Arrière)",
+     "name_it": "Coscia",
+     "name_es": "PIERNA (CUARTO TRASERO)",
+     "descriptors": [
+      {
+       "name": "Top Round",
+       "name_fr": "Tranche",
+       "name_it": "Fesa",
+       "name_es": "Top Round (Bola de Lomo)",
+       "slug": "top-round",
+       "panel": {
+        "origin": "From the hind leg's inner thigh, one of the larger and more tender round muscles.",
+        "origin_es": "De la parte interna del muslo de la pata trasera, uno de los músculos más grandes y tiernos de la pierna.",
+        "chemistry": "Lean with a fine grain; can be tender if cooked properly but dries out quickly if overcooked.",
+        "chemistry_es": "Magro y de fibra fina; puede ser tierno si se cocina bien, pero se seca rápido si se sobrecocina.",
+        "mixology": "Roast to medium-rare and slice thin, or marinate and quick-cook for stir-fries.",
+        "mixology_es": "Hornear hasta término medio y cortar fino, o marinar y cocinar rápido para salteados.",
+        "examples": "The traditional cut for London broil and deli roast beef.",
+        "examples_es": "El corte tradicional para el London broil y el roast beef de fiambrería."
+       }
+      },
+      {
+       "name": "Bottom Round",
+       "name_fr": "Gîte",
+       "name_it": "Girello",
+       "name_es": "Bottom Round (Carnaza)",
+       "slug": "bottom-round",
+       "panel": {
+        "origin": "From the outer hind leg, a well-worked muscle with more connective tissue than top round.",
+        "origin_es": "De la parte externa de la pata trasera, un músculo muy trabajado con más tejido conectivo que el top round.",
+        "chemistry": "Dense and lean, with a coarser grain; benefits from slow cooking or mechanical tenderizing.",
+        "chemistry_es": "Denso y magro, de fibra más gruesa; se beneficia de la cocción lenta o el ablandado mecánico.",
+        "mixology": "Braise, pot-roast, or cure (as in corned beef); slice very thin against the grain if roasted.",
+        "mixology_es": "Estofar, cocinar a fuego lento o curar (como en el corned beef); cortar muy fino en contra de la fibra si se hornea.",
+        "examples": "Often used for pot roast, corned beef, and thin-sliced deli meats.",
+        "examples_es": "Usado a menudo para pot roast, corned beef y fiambres en lonchas finas."
+       }
+      },
+      {
+       "name": "Eye of Round",
+       "name_fr": "Rond de Gîte",
+       "name_it": "Magatello",
+       "name_es": "Eye of Round (Peceto)",
+       "slug": "eye-of-round",
+       "panel": {
+        "origin": "A long, cylindrical, very lean muscle from the rear leg that does substantial work in the standing animal.",
+        "origin_es": "Un músculo largo, cilíndrico y muy magro de la pata trasera, que trabaja mucho en el animal de pie.",
+        "chemistry": "The leanest round cut, with a tight grain and minimal fat — can be tough if not handled carefully.",
+        "chemistry_es": "El corte más magro de la pierna, de fibra apretada y mínima grasa — puede ser duro si no se maneja con cuidado.",
+        "mixology": "Roast low and slow to rare or medium-rare and slice paper-thin, or braise whole.",
+        "mixology_es": "Hornear a baja temperatura hasta término rojo o medio y cortar muy fino, o estofar entero.",
+        "examples": "A common choice for deli roast beef and Italian beef sandwiches.",
+        "examples_es": "Una opción común para el roast beef de fiambrería y los sándwiches italianos de carne."
+       }
+      },
+      {
+       "name": "Rump Roast",
+       "name_fr": "Rôti de Romsteck",
+       "name_it": "Arrosto di Scamone",
+       "name_es": "Rump Roast (Cuadrada)",
+       "slug": "rump-roast",
+       "panel": {
+        "origin": "From the top of the round, near the hip — a moderately worked muscle with decent marbling for the round primal.",
+        "origin_es": "De la parte superior de la pierna, cerca de la cadera — un músculo moderadamente trabajado con buen marmoleo para ser parte de la pierna.",
+        "chemistry": "More tender and flavorful than other round cuts, with a good balance of lean meat and fat.",
+        "chemistry_es": "Más tierno y sabroso que otros cortes de pierna, con buen equilibrio entre carne magra y grasa.",
+        "mixology": "Pot-roast or oven-roast slowly; can also be cut into steaks and grilled if well-marbled.",
+        "mixology_es": "Cocinar a fuego lento o hornear despacio; también puede cortarse en bistecs y asarse si está bien marmoleado.",
+        "examples": "A classic Sunday roast, often braised with root vegetables.",
+        "examples_es": "Un clásico asado dominical, a menudo estofado con verduras de raíz."
+       }
+      }
+     ],
+     "color": "#6b4a3a"
+    }
+   ],
+   "color": "#6b4a3a"
+  },
+  {
+   "name": "BRISKET (CHEST)",
+   "name_fr": "POITRINE (BRISKET)",
+   "name_it": "PUNTA DI PETTO",
+   "name_es": "PECHO (BRISKET)",
+   "sub": [
+    {
+     "name": "BRISKET (CHEST)",
+     "name_fr": "POITRINE (BRISKET)",
+     "name_it": "PUNTA DI PETTO",
+     "name_es": "PECHO (BRISKET)",
+     "descriptors": [
+      {
+       "name": "Whole Brisket",
+       "name_fr": "Poitrine Entière",
+       "name_it": "Punta di Petto Intera",
+       "name_es": "Brisket Entero",
+       "slug": "whole-brisket",
+       "panel": {
+        "origin": "The pectoral muscle from the chest, supporting much of the animal's body weight — extremely well-exercised with abundant connective tissue.",
+        "origin_es": "El músculo pectoral del pecho, que sostiene gran parte del peso del animal — extremadamente trabajado y con abundante tejido conectivo.",
+        "chemistry": "Tough and fibrous raw, but the collagen converts to gelatin over many hours of low heat, producing tender, sliceable meat.",
+        "chemistry_es": "Duro y fibroso en crudo, pero el colágeno se convierte en gelatina tras muchas horas a baja temperatura, dando una carne tierna y rebanable.",
+        "mixology": "Smoke low and slow (225-250°F/107-121°C) for 10-14 hours until it reaches an internal temp around 203°F (95°C).",
+        "mixology_es": "Ahumar a baja temperatura (107-121°C) durante 10-14 horas hasta alcanzar unos 95°C internos.",
+        "examples": "The cornerstone of Texas-style barbecue, sliced and served with the bark intact.",
+        "examples_es": "La piedra angular de la barbacoa estilo Texas, rebanado y servido con la corteza intacta."
+       }
+      },
+      {
+       "name": "Flat Cut",
+       "name_fr": "Coupe Plate",
+       "name_it": "Taglio Piatto",
+       "name_es": "Corte Flat",
+       "slug": "brisket-flat",
+       "panel": {
+        "origin": "The leaner, more uniform half of the brisket, sitting beneath the point and ideal for slicing.",
+        "origin_es": "La mitad más magra y uniforme del brisket, ubicada bajo el point, ideal para rebanar.",
+        "chemistry": "Less fat than the point, with a tighter grain that slices into neat, even pieces.",
+        "chemistry_es": "Menos grasa que el point, con una fibra más cerrada que se rebana en piezas limpias y uniformes.",
+        "mixology": "Smoke fat-side up so rendering fat bastes the lean muscle below; slice against the grain.",
+        "mixology_es": "Ahumar con la grasa hacia arriba para que riegue el músculo magro de abajo; cortar en contra de la fibra.",
+        "examples": "The preferred cut for sliced brisket sandwiches and corned beef.",
+        "examples_es": "El corte preferido para sándwiches de brisket rebanado y corned beef."
+       }
+      },
+      {
+       "name": "Point Cut",
+       "name_fr": "Coupe Pointe",
+       "name_it": "Taglio Punta",
+       "name_es": "Corte Point",
+       "slug": "brisket-point",
+       "panel": {
+        "origin": "The fattier, triangular muscle that sits atop the flat, separated by a thick seam of fat.",
+        "origin_es": "El músculo más graso y triangular que se ubica sobre el flat, separado por una gruesa capa de grasa.",
+        "chemistry": "Higher fat content keeps it extremely moist and tender; the grain runs perpendicular to the flat's.",
+        "chemistry_es": "Su mayor contenido de grasa lo mantiene muy jugoso y tierno; la fibra corre perpendicular a la del flat.",
+        "mixology": "Smoke until very tender, then cube and re-smoke ('burnt ends') for a caramelized, sticky bite.",
+        "mixology_es": "Ahumar hasta que esté muy tierno, luego cortar en cubos y volver a ahumar ('burnt ends') para un bocado caramelizado.",
+        "examples": "The source of beloved 'burnt ends' in Kansas City-style barbecue.",
+        "examples_es": "La fuente de los apreciados 'burnt ends' de la barbacoa estilo Kansas City."
+       }
+      }
+     ],
+     "color": "#7a3a3a"
+    }
+   ],
+   "color": "#7a3a3a"
+  },
+  {
+   "name": "SHORT PLATE (BELLY)",
+   "name_fr": "Plat de Côtes (Ventre)",
+   "name_it": "Pancia",
+   "name_es": "FALDA CORTA (VIENTRE)",
+   "sub": [
+    {
+     "name": "SHORT PLATE (BELLY)",
+     "name_fr": "Plat de Côtes (Ventre)",
+     "name_it": "Pancia",
+     "name_es": "FALDA CORTA (VIENTRE)",
+     "descriptors": [
+      {
+       "name": "Skirt Steak",
+       "name_fr": "Hampe",
+       "name_it": "Diaframma",
+       "name_es": "Entraña",
+       "slug": "skirt-steak",
+       "panel": {
+        "origin": "A long, flat muscle from the diaphragm area of the short plate, with a pronounced grain and loose texture.",
+        "origin_es": "Un músculo largo y plano del área del diafragma en la falda corta, de fibra marcada y textura suelta.",
+        "chemistry": "Intensely beefy flavor with a loose, fibrous grain that absorbs marinades exceptionally well.",
+        "chemistry_es": "Sabor intensamente a carne, con fibra suelta que absorbe muy bien las marinadas.",
+        "mixology": "Marinate briefly, then grill very hot and fast (just a few minutes per side); slice thin against the grain.",
+        "mixology_es": "Marinar brevemente y asar muy fuerte y rápido (pocos minutos por lado); cortar fino en contra de la fibra.",
+        "examples": "The traditional cut for fajitas and Argentine-style 'entraña.'",
+        "examples_es": "El corte tradicional para fajitas y la 'entraña' al estilo argentino."
+       }
+      },
+      {
+       "name": "Hanger Steak",
+       "name_fr": "Onglet",
+       "name_it": "Lombatello",
+       "name_es": "Solomillo de Pulmón (Hanger)",
+       "slug": "hanger-steak",
+       "panel": {
+        "origin": "A single muscle that 'hangs' between the rib and the loin, attached to the diaphragm — only one per animal.",
+        "origin_es": "Un único músculo que 'cuelga' entre la costilla y el lomo, unido al diafragma — solo hay uno por animal.",
+        "chemistry": "Deeply beefy, almost livery flavor with a coarse grain; very tender when properly trimmed of its central sinew.",
+        "chemistry_es": "Sabor muy intenso a carne, casi a hígado, de fibra gruesa; muy tierno si se le retira bien el nervio central.",
+        "mixology": "Grill or sear hot and fast to medium-rare; always slice thin against the grain.",
+        "mixology_es": "Asar o sellar a fuego alto y rápido hasta término medio; cortar siempre fino en contra de la fibra.",
+        "examples": "A French bistro classic ('onglet'), historically a butcher's favorite cut kept for themselves.",
+        "examples_es": "Un clásico de los bistrós franceses ('onglet'), históricamente el corte favorito que los carniceros se reservaban."
+       }
+      },
+      {
+       "name": "Short Ribs",
+       "name_fr": "Plat de Côtes",
+       "name_it": "Costine",
+       "name_es": "Costillas Short Ribs",
+       "slug": "short-ribs",
+       "panel": {
+        "origin": "Cut from the lower rib cage of the short plate, containing a section of rib bone with meat layered above and around it.",
+        "origin_es": "Se corta de la parte baja de la caja torácica en la falda corta, con una sección de hueso y carne en capas alrededor.",
+        "chemistry": "Rich in fat and connective tissue; becomes deeply tender and unctuous with slow cooking.",
+        "chemistry_es": "Rico en grasa y tejido conectivo; se vuelve muy tierno y untuoso con cocción lenta.",
+        "mixology": "Braise in liquid for several hours, or smoke low and slow like brisket for a different texture.",
+        "mixology_es": "Estofar en líquido durante varias horas, o ahumar lento como el brisket para una textura distinta.",
+        "examples": "The star of Korean galbi, classic braised short ribs, and barbecue 'dino ribs.'",
+        "examples_es": "La estrella del galbi coreano, las clásicas short ribs estofadas y las 'dino ribs' de barbacoa."
+       }
+      }
+     ],
+     "color": "#9a5a4a"
+    }
+   ],
+   "color": "#9a5a4a"
+  },
+  {
+   "name": "FLANK (LOWER BELLY)",
+   "name_fr": "Flanchet (Bas-Ventre)",
+   "name_it": "Pancia",
+   "name_es": "FALDA (VIENTRE BAJO)",
+   "sub": [
+    {
+     "name": "FLANK (LOWER BELLY)",
+     "name_fr": "Flanchet (Bas-Ventre)",
+     "name_it": "Pancia",
+     "name_es": "FALDA (VIENTRE BAJO)",
+     "descriptors": [
+      {
+       "name": "Flank Steak",
+       "name_fr": "Bavette",
+       "name_it": "Bavetta",
+       "name_es": "Vacío (Flank Steak)",
+       "slug": "flank-steak",
+       "panel": {
+        "origin": "A thin, flat muscle from the lower abdominal area, doing significant work in movement and posture.",
+        "origin_es": "Un músculo delgado y plano del área abdominal baja, que trabaja mucho en el movimiento y la postura.",
+        "chemistry": "Lean with a pronounced grain running the length of the steak; can be chewy if not handled correctly.",
+        "chemistry_es": "Magro, con una fibra marcada que recorre todo el corte; puede ser duro si no se maneja correctamente.",
+        "mixology": "Marinate to add flavor and tenderness, grill hot and fast to medium-rare, and always slice thin against the grain.",
+        "mixology_es": "Marinar para añadir sabor y ternura, asar fuerte y rápido hasta término medio, y cortar siempre fino en contra de la fibra.",
+        "examples": "A classic choice for fajitas, London broil, and stuffed/rolled preparations like braciole.",
+        "examples_es": "Una opción clásica para fajitas, London broil y preparaciones rellenas/enrolladas como el braciole."
+       }
+      }
+     ],
+     "color": "#b3724a"
+    }
+   ],
+   "color": "#b3724a"
+  },
+  {
+   "name": "SHANK (LEGS)",
+   "name_fr": "Jarret (Pattes)",
+   "name_it": "Stinco",
+   "name_es": "MORCILLO (PIERNAS)",
+   "sub": [
+    {
+     "name": "SHANK (LEGS)",
+     "name_fr": "Jarret (Pattes)",
+     "name_it": "Stinco",
+     "name_es": "MORCILLO (PIERNAS)",
+     "descriptors": [
+      {
+       "name": "Soup Bones",
+       "name_fr": "Os à Soupe",
+       "name_it": "Ossi da Brodo",
+       "name_es": "Huesos para Caldo",
+       "slug": "soup-bones",
+       "panel": {
+        "origin": "Cross-cut sections of the leg bone, rich in marrow and surrounded by collagen-heavy connective tissue.",
+        "origin_es": "Secciones transversales del hueso de la pata, ricas en médula y rodeadas de tejido conectivo rico en colágeno.",
+        "chemistry": "Releases gelatin and marrow fat into liquid over long simmering, producing rich, body-giving stocks.",
+        "chemistry_es": "Libera gelatina y grasa de la médula en el líquido durante la cocción prolongada, dando caldos ricos y con cuerpo.",
+        "mixology": "Simmer for several hours (or pressure-cook) with aromatics to extract maximum flavor and body.",
+        "mixology_es": "Cocer a fuego lento durante varias horas (u olla a presión) con aromáticos para extraer el máximo sabor y cuerpo.",
+        "examples": "The foundation of pho broth, bone broth, and many traditional stocks.",
+        "examples_es": "La base del caldo de pho, el bone broth y muchos caldos tradicionales."
+       }
+      },
+      {
+       "name": "Osso Buco",
+       "name_fr": "Osso Buco",
+       "name_it": "Osso Buco",
+       "name_es": "Osso Buco",
+       "slug": "osso-buco",
+       "panel": {
+        "origin": "A cross-cut shank with the bone (and marrow) left in the center, traditionally from veal but also made with beef.",
+        "origin_es": "Un corte transversal del morcillo con el hueso (y la médula) en el centro, tradicionalmente de ternera pero también de res.",
+        "chemistry": "Extremely tough raw due to dense connective tissue, but becomes meltingly tender with slow braising.",
+        "chemistry_es": "Muy duro en crudo por su denso tejido conectivo, pero se vuelve extremadamente tierno con un estofado lento.",
+        "mixology": "Braise low and slow in wine and stock for 2-3 hours until the meat falls from the bone.",
+        "mixology_es": "Estofar a fuego lento en vino y caldo durante 2-3 horas hasta que la carne se desprenda del hueso.",
+        "examples": "The centerpiece of the classic Italian dish of the same name, traditionally served with gremolata.",
+        "examples_es": "El plato central del clásico italiano del mismo nombre, tradicionalmente servido con gremolata."
+       }
+      },
+      {
+       "name": "Stew Meat",
+       "name_fr": "Viande à Ragoût",
+       "name_it": "Carne da Stufato",
+       "name_es": "Carne para Guiso",
+       "slug": "stew-meat",
+       "panel": {
+        "origin": "Cubed pieces typically cut from the shank, chuck, or round — wherever tougher, well-worked muscle is found.",
+        "origin_es": "Trozos cortados en cubos, normalmente del morcillo, la paleta o la pierna — donde se encuentra músculo duro y trabajado.",
+        "chemistry": "High in connective tissue, requiring long, moist cooking to become tender and flavorful.",
+        "chemistry_es": "Alto en tejido conectivo, requiere cocción larga y húmeda para volverse tierno y sabroso.",
+        "mixology": "Brown the cubes first for flavor, then simmer slowly in liquid for 2+ hours until fork-tender.",
+        "mixology_es": "Dorar los cubos primero para dar sabor, luego cocer a fuego lento en líquido 2 horas o más hasta que estén muy tiernos.",
+        "examples": "The base for beef stew, goulash, and countless braised dishes worldwide.",
+        "examples_es": "La base del guiso de res, el goulash y muchos platos estofados en todo el mundo."
+       }
+      }
+     ],
+     "color": "#5a3a2a"
+    }
+   ],
+   "color": "#5a3a2a"
+  }
+ ],
+ "funFacts": {
+  "CHUCK (SHOULDER)": {
+   "en": "The chuck primal contains some of the most well-exercised muscles on the cow, which is why cuts like chuck roast are so flavorful — but also why they need long, slow cooking to become tender.",
+   "es": "El primal de la paleta contiene algunos de los músculos más ejercitados de la vaca, por lo que cortes como el chuck roast son tan sabrosos — pero también necesitan cocción larga y lenta para volverse tiernos."
+  },
+  "RIB (UPPER BACK)": {
+   "en": "The rib primal supplies only about 10 ribs total per side, and the prized ribeye comes from this small section — explaining why it commands such a premium price.",
+   "es": "El primal de la costilla aporta solo unas 10 costillas por lado, y el codiciado ribeye proviene de esta pequeña sección — lo que explica su elevado precio."
+  },
+  "LOIN (MID-BACK)": {
+   "en": "The tenderloin muscle does so little work in a living cow that it accounts for less than 2% of the animal's total weight, yet it's often the most expensive cut at the butcher counter.",
+   "es": "El músculo del solomillo trabaja tan poco en una vaca viva que representa menos del 2% del peso total del animal, y sin embargo suele ser el corte más caro de la carnicería."
+  },
+  "SIRLOIN (RUMP)": {
+   "en": "Tri-tip was largely unknown outside of California until the 1950s, when a Santa Maria butcher began selling it as a steak instead of grinding it into hamburger.",
+   "es": "El tri-tip era prácticamente desconocido fuera de California hasta los años 1950, cuando un carnicero de Santa Maria comenzó a venderlo como bistec en lugar de molerlo para hamburguesa."
+  },
+  "ROUND (HIND LEG)": {
+   "en": "Because the round primal does so much work supporting the animal's weight, its muscles are some of the leanest on the cow — making them popular for health-conscious cuts like London broil.",
+   "es": "Como el primal de la pierna sostiene gran parte del peso del animal, sus músculos son de los más magros de la vaca — lo que los hace populares para cortes saludables como el London broil."
+  },
+  "BRISKET (CHEST)": {
+   "en": "A whole brisket can take 10-14 hours to smoke properly, and during that time it passes through a tough 'stall' phase before the collagen finally breaks down into tender gelatin.",
+   "es": "Un brisket entero puede tardar 10-14 horas en ahumarse correctamente, y durante ese tiempo pasa por una dura fase de 'estancamiento' antes de que el colágeno se convierta en gelatina tierna."
+  },
+  "SHORT PLATE (BELLY)": {
+   "en": "Hanger steak gets its name because it 'hangs' from the diaphragm, and there's only one per animal — for years, butchers kept it for themselves rather than selling it.",
+   "es": "El hanger steak recibe su nombre porque 'cuelga' del diafragma, y solo hay uno por animal — durante años, los carniceros lo guardaban para ellos en lugar de venderlo."
+  },
+  "FLANK (LOWER BELLY)": {
+   "en": "Flank steak's muscle fibers run in one direction the entire length of the cut, which is why slicing against the grain makes such a dramatic difference in tenderness.",
+   "es": "Las fibras musculares del flank steak corren en una sola dirección a lo largo de todo el corte, por lo que cortarlo en contra de la fibra marca una diferencia dramática en la ternura."
+  },
+  "SHANK (LEGS)": {
+   "en": "The shank is so rich in collagen that simmering it for hours is one of the oldest methods humans have used to make gelatin — the same substance found in gummy candy.",
+   "es": "El morcillo es tan rico en colágeno que cocerlo a fuego lento durante horas es uno de los métodos más antiguos para producir gelatina — la misma sustancia de los caramelos gomosos."
+  }
+ }
+}

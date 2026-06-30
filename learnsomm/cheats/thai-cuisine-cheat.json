@@ -1,0 +1,515 @@
+{
+ "title": "Thai Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Curries"
+  },
+  {
+   "name": "Green Curry",
+   "slug": "th-greencurry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kaeng khiao wan; fresh green chili, sweet-hot, coconut."
+    }
+   ]
+  },
+  {
+   "name": "Red Curry",
+   "slug": "th-redcurry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kaeng phet; dried red chili paste in coconut."
+    }
+   ]
+  },
+  {
+   "name": "Massaman",
+   "slug": "th-massaman",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mild, sweet, Persian-influenced with potato & peanut."
+    }
+   ]
+  },
+  {
+   "name": "Panang",
+   "slug": "th-panang",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thick, rich, peanutty dry-style curry."
+    }
+   ]
+  },
+  {
+   "name": "Yellow Curry",
+   "slug": "th-yellowcurry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kaeng kari; turmeric, mild, Indian-influenced."
+    }
+   ]
+  },
+  {
+   "name": "Jungle Curry",
+   "slug": "th-jungle",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kaeng pa; fiery brothy curry, no coconut."
+    }
+   ]
+  },
+  {
+   "cat": "Noodles & Rice"
+  },
+  {
+   "name": "Pad Thai",
+   "slug": "th-padthai",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stir-fried rice noodles, tamarind, egg, peanut."
+    }
+   ]
+  },
+  {
+   "name": "Pad See Ew",
+   "slug": "th-padseeew",
+   "rows": [
+    {
+     "k": "",
+     "v": "Wide noodles in dark soy with egg & greens."
+    }
+   ]
+  },
+  {
+   "name": "Drunken Noodles",
+   "slug": "th-drunken",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pad kee mao; wide noodles, basil, chili."
+    }
+   ]
+  },
+  {
+   "name": "Khao Pad",
+   "slug": "th-khaopad",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thai fried rice."
+    }
+   ]
+  },
+  {
+   "name": "Khao Soi",
+   "slug": "th-khaosoi",
+   "rows": [
+    {
+     "k": "",
+     "v": "Northern coconut curry noodle soup."
+    }
+   ]
+  },
+  {
+   "name": "Boat Noodles",
+   "slug": "th-boat",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rich dark broth noodle soup."
+    }
+   ]
+  },
+  {
+   "name": "Sticky Rice",
+   "slug": "th-stickyrice",
+   "rows": [
+    {
+     "k": "",
+     "v": "Khao niao; glutinous rice, Isaan staple."
+    }
+   ]
+  },
+  {
+   "cat": "Soups & Salads"
+  },
+  {
+   "name": "Tom Yum",
+   "slug": "th-tomyum",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hot-sour shrimp soup with lemongrass & lime."
+    }
+   ]
+  },
+  {
+   "name": "Tom Kha Gai",
+   "slug": "th-tomkha",
+   "rows": [
+    {
+     "k": "",
+     "v": "Coconut-galangal chicken soup."
+    }
+   ]
+  },
+  {
+   "name": "Som Tum",
+   "slug": "th-somtum",
+   "rows": [
+    {
+     "k": "",
+     "v": "Green papaya salad, pounded, hot-sour-sweet."
+    }
+   ]
+  },
+  {
+   "name": "Larb",
+   "slug": "th-larb",
+   "rows": [
+    {
+     "k": "",
+     "v": "Minced meat salad with herbs & toasted rice."
+    }
+   ]
+  },
+  {
+   "name": "Yum Nua",
+   "slug": "th-yumnua",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spicy grilled beef salad."
+    }
+   ]
+  },
+  {
+   "name": "Nam Tok",
+   "slug": "th-namtok",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Waterfall' grilled meat salad."
+    }
+   ]
+  },
+  {
+   "cat": "Stir-Fry & Grill"
+  },
+  {
+   "name": "Pad Krapow",
+   "slug": "th-krapow",
+   "rows": [
+    {
+     "k": "",
+     "v": "Holy-basil stir-fry, often over rice with fried egg."
+    }
+   ]
+  },
+  {
+   "name": "Cashew Chicken",
+   "slug": "th-cashew",
+   "rows": [
+    {
+     "k": "",
+     "v": "Stir-fry with cashews & dried chili."
+    }
+   ]
+  },
+  {
+   "name": "Gai Yang",
+   "slug": "th-gaiyang",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled marinated chicken, Isaan."
+    }
+   ]
+  },
+  {
+   "name": "Moo Ping",
+   "slug": "th-mooping",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grilled marinated pork skewers."
+    }
+   ]
+  },
+  {
+   "name": "Pla Pao",
+   "slug": "th-plapao",
+   "rows": [
+    {
+     "k": "",
+     "v": "Salt-crusted grilled whole fish."
+    }
+   ]
+  },
+  {
+   "cat": "Chili Pastes & Sauces"
+  },
+  {
+   "name": "Nam Prik",
+   "slug": "th-namprik",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chili dip family, eaten with vegetables."
+    }
+   ]
+  },
+  {
+   "name": "Fish Sauce",
+   "slug": "th-fishsauce",
+   "rows": [
+    {
+     "k": "",
+     "v": "Nam pla; salty fermented anchovy sauce."
+    }
+   ]
+  },
+  {
+   "name": "Curry Paste",
+   "slug": "th-currypaste",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pounded base of chili, galangal, lemongrass."
+    }
+   ]
+  },
+  {
+   "name": "Tamarind",
+   "slug": "th-tamarind",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sour fruit pulp, key in pad thai."
+    }
+   ]
+  },
+  {
+   "name": "Palm Sugar",
+   "slug": "th-palmsugar",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel-toned unrefined sugar."
+    }
+   ]
+  },
+  {
+   "name": "Shrimp Paste",
+   "slug": "th-shrimppaste",
+   "rows": [
+    {
+     "k": "",
+     "v": "Kapi; pungent fermented base."
+    }
+   ]
+  },
+  {
+   "cat": "Herbs & Aromatics"
+  },
+  {
+   "name": "Lemongrass",
+   "slug": "th-lemongrass",
+   "rows": [
+    {
+     "k": "",
+     "v": "Citrusy stalk, foundational."
+    }
+   ],
+   "name_es": "Hierba Limón"
+  },
+  {
+   "name": "Galangal",
+   "slug": "th-galangal",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sharp, piney ginger relative."
+    }
+   ]
+  },
+  {
+   "name": "Kaffir Lime",
+   "slug": "th-kaffir",
+   "rows": [
+    {
+     "k": "",
+     "v": "Makrut; fragrant leaf & zest."
+    }
+   ]
+  },
+  {
+   "name": "Thai Basil",
+   "slug": "th-basil",
+   "rows": [
+    {
+     "k": "",
+     "v": "Anise-scented basil."
+    }
+   ]
+  },
+  {
+   "name": "Bird's Eye Chili",
+   "slug": "th-birdseye",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tiny, intensely hot chili."
+    }
+   ]
+  },
+  {
+   "name": "Cilantro Root",
+   "slug": "th-cilantroroot",
+   "rows": [
+    {
+     "k": "",
+     "v": "Earthy base for pastes."
+    }
+   ]
+  },
+  {
+   "name": "Pandan",
+   "slug": "th-pandan",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet grassy leaf for desserts."
+    }
+   ]
+  },
+  {
+   "cat": "Flavor Balance"
+  },
+  {
+   "name": "Sour",
+   "slug": "th-sour",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lime, tamarind — the Thai brightening axis."
+    }
+   ],
+   "name_es": "Ácido"
+  },
+  {
+   "name": "Sweet",
+   "slug": "th-sweet",
+   "rows": [
+    {
+     "k": "",
+     "v": "Palm sugar, coconut."
+    }
+   ],
+   "name_es": "Dulce"
+  },
+  {
+   "name": "Salty",
+   "slug": "th-salty",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fish sauce, shrimp paste."
+    }
+   ],
+   "name_es": "Salado"
+  },
+  {
+   "name": "Spicy",
+   "slug": "th-spicy",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh & dried chili heat."
+    }
+   ],
+   "name_es": "ESPECIADO"
+  },
+  {
+   "name": "Bitter",
+   "slug": "th-bitter",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bitter melon, certain greens."
+    }
+   ],
+   "name_es": "Amargo"
+  },
+  {
+   "name": "Umami",
+   "slug": "th-umami",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fermented sauces, dried shrimp."
+    }
+   ]
+  },
+  {
+   "cat": "Sweets & Drinks"
+  },
+  {
+   "name": "Mango Sticky Rice",
+   "slug": "th-mangorice",
+   "rows": [
+    {
+     "k": "",
+     "v": "Khao niao mamuang; coconut sticky rice & mango."
+    }
+   ]
+  },
+  {
+   "name": "Thai Tea",
+   "slug": "th-thaitea",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet spiced black tea with milk."
+    }
+   ]
+  },
+  {
+   "name": "Lod Chong",
+   "slug": "th-lodchong",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pandan rice noodles in coconut."
+    }
+   ]
+  },
+  {
+   "name": "Tub Tim Krob",
+   "slug": "th-tubtim",
+   "rows": [
+    {
+     "k": "",
+     "v": "Water-chestnut 'rubies' in coconut."
+    }
+   ]
+  },
+  {
+   "name": "Sangkaya",
+   "slug": "th-sangkaya",
+   "rows": [
+    {
+     "k": "",
+     "v": "Coconut-pandan custard."
+    }
+   ]
+  }
+ ]
+}

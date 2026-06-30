@@ -1,0 +1,179 @@
+{
+ "title": "Pasta Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Long & Thin Pasta",
+   "slug": "long-thin-pasta",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Spaghetti, Bucatini, Linguine, Capellini"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Best with oil-based, light tomato, or seafood sauces that coat without weighing the strands down."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Spaghetti's ancestor, itriya, was first recorded in 12th-century Arab-ruled Sicily — making dried long pasta one of Italy's oldest culinary technologies, not a later invention."
+    }
+   ],
+   "name_es": "Pasta Larga Y Fina"
+  },
+  {
+   "name": "Ribbon Pasta",
+   "slug": "ribbon-pasta",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Tagliatelle, Fettuccine, Pappardelle, Mafaldine"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Built for rich, slow-cooked meat ragùs that cling to the wide, flat surface."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "According to legend, tagliatelle's dough should be rolled so thin that, held up to a window, you could see Bologna's hilltop basilica through it."
+    }
+   ],
+   "name_es": "Pasta En Cinta"
+  },
+  {
+   "name": "Short Tubes",
+   "slug": "short-tubes",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Penne, Rigatoni, Paccheri, Ziti"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Hollow centers and ridges trap chunky sauces, baked cheese, and vodka sauce."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The ridges on pasta like rigatoni and penne rigate aren't just decorative — they exist specifically to trap more sauce per bite than a smooth surface ever could."
+    }
+   ],
+   "name_es": "Tubos Cortos"
+  },
+  {
+   "name": "Twists & Shells",
+   "slug": "twists-shells",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Fusilli, Cavatappi, Conchiglie, Trofie"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Nooks and curves grab pesto, vegetable sauces, and pasta salad dressings."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Fusilli were traditionally shaped by hand-rolling dough around a thin rod or knitting needle, giving each twist a slightly different, handmade character."
+    }
+   ],
+   "name_es": "Espirales Y Conchas"
+  },
+  {
+   "name": "Hand-Shaped & Stuffed",
+   "slug": "hand-shaped-stuffed",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Orecchiette, Cavatelli, Tortellini, Ravioli"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Simple butter, broth, or light sauces let the pasta (or filling) be the star."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tortellini were once considered such a luxury that they were reserved for Sunday lunch — a single bowl of 'little pies' represented a special occasion."
+    }
+   ],
+   "name_es": "Rellenas Y Hechas A Mano"
+  },
+  {
+   "name": "Tomato-Based Sauces",
+   "slug": "tomato-based-sauces",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Marinara, Arrabbiata, Puttanesca, Amatriciana"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Pair with long strands or short tubes — the acidity cuts through pasta's starch."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Tomatoes didn't arrive in Italy until the 1800s — meaning every 'classic' tomato pasta sauce is, in the scope of Italian history, a relatively recent invention."
+    }
+   ],
+   "name_es": "Salsas De Tomate"
+  },
+  {
+   "name": "Meat Ragùs",
+   "slug": "meat-rag-s",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Ragù alla Bolognese, Ragù Toscano, Ragù Napoletano, Ragù di Cinghiale"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Pair with wide ribbons or large tubes that can carry chunks of meat."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Many Italian families cook ragù in huge batches and freeze it in portions, turning what looks like an all-day project into a 20-minute dinner on a weeknight."
+    }
+   ],
+   "name_es": "Ragús De Carne"
+  },
+  {
+   "name": "Cream, Egg & Cheese",
+   "slug": "cream-egg-cheese",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Carbonara, Cacio e Pepe, Besciamella, Salsa al Limone"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Pair with long strands or ribbons — the silky sauce coats every inch."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Traditional carbonara contains no cream at all — its silky texture comes purely from emulsifying egg yolks and cheese with the starchy heat of the pasta itself."
+    }
+   ],
+   "name_es": "Crema, Huevo Y Queso"
+  },
+  {
+   "name": "Herb, Oil & Nut Sauces",
+   "slug": "herb-oil-nut-sauces",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Pesto Genovese, Aglio e Olio, Sugo di Noci, Bagna Cauda"
+    },
+    {
+     "k": "Pairing Logic",
+     "v": "Pair with twists, shells, or long pasta — texture grabs the sauce's solid bits."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Pesto's name comes from 'pestare,' to pound or crush — a reminder that, before blenders, this vivid green sauce was made entirely by hand with a mortar and pestle."
+    }
+   ],
+   "name_es": "Salsas De Hierbas Y Frutos Secos"
+  }
+ ]
+}

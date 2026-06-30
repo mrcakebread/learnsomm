@@ -1,0 +1,158 @@
+{
+ "title": "Soups Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Clear Soups",
+   "slug": "clear-soups",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Chicken Noodle, Consommé, Chicken & Rice, Egg Drop Soup, Italian Wedding"
+    },
+    {
+     "k": "Serve With",
+     "v": "Light starters — pair with simple breads or let them open a multi-course meal."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A true consommé is the ultimate test of a cook — you clarify a cloudy stock by simmering it with a 'raft' of egg whites and lean meat that traps every impurity, leaving a broth so clear you can read print through it."
+    }
+   ],
+   "name_es": "Sopas Claras"
+  },
+  {
+   "name": "Cream Soups & Veloutés",
+   "slug": "cream-soups-velout-s",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cream of Mushroom, Tomato Soup, Broccoli Cheddar, Beer Cheese, Cream of Chicken, Potato Leek"
+    },
+    {
+     "k": "Serve With",
+     "v": "Rich and filling — a crusty bread or simple salad balances the richness."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A classic cream soup isn't just cream and vegetables — it's built on a velouté, a stock thickened with a flour-and-butter roux, one of the French 'mother sauces' that underpin much of Western cooking."
+    }
+   ],
+   "name_es": "Cremas Y Veloutés"
+  },
+  {
+   "name": "Purée Soups",
+   "slug": "pur-e-soups",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Butternut Squash, Split Pea, Black Bean, Carrot Ginger, Lentil, Cauliflower"
+    },
+    {
+     "k": "Serve With",
+     "v": "Smooth and often vegetable-forward — a swirl of cream or crunchy topping adds contrast."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "A purée soup needs no flour or cream to be thick — the blended starch of beans, peas, or squash does all the work, which is why so many of them are naturally vegan and gluten-free."
+    }
+   ],
+   "name_es": "Sopas En Puré"
+  },
+  {
+   "name": "Bisques",
+   "slug": "bisques",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Lobster Bisque, Shrimp Bisque, Crab Bisque, She-Crab Soup"
+    },
+    {
+     "k": "Serve With",
+     "v": "Luxurious and seafood-forward — a small portion goes a long way as a starter."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The intense flavor of a real bisque comes from the shells, not the meat — crustacean shells are simmered, then strained (and traditionally ground or thickened with rice), squeezing every last drop of flavor from the lobster or crab."
+    }
+   ]
+  },
+  {
+   "name": "Chowders",
+   "slug": "chowders",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "New England Clam Chowder, Manhattan Clam Chowder, Corn Chowder, Seafood Chowder, Cullen Skink"
+    },
+    {
+     "k": "Serve With",
+     "v": "Hearty and chunky — crusty bread or crackers are the classic accompaniment."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The clam chowder rivalry is real — New England's is creamy and white, Manhattan's is red and tomato-based, and a 1939 Maine bill once tried to make putting tomatoes in chowder illegal."
+    }
+   ]
+  },
+  {
+   "name": "Cold Soups",
+   "slug": "cold-soups",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Gazpacho, Vichyssoise, Borscht, Cucumber Soup"
+    },
+    {
+     "k": "Serve With",
+     "v": "Refreshing warm-weather starters — best served well-chilled with a bright garnish."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Not all soup is hot — gazpacho is blended raw and served cold, and vichyssoise, though it sounds like a hot French classic, was created to be eaten chilled."
+    }
+   ],
+   "name_es": "Sopas Frías"
+  },
+  {
+   "name": "Global Noodle & Broth",
+   "slug": "global-noodle-broth",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Pho, Ramen, Tom Kha Gai, Miso Soup, Wonton Soup, Hot & Sour Soup, Laksa, Mulligatawny"
+    },
+    {
+     "k": "Serve With",
+     "v": "A full meal in a bowl — garnishes (herbs, lime, chili) let diners customize each bowl."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The secret to great miso soup is restraint — you must never boil it once the miso goes in, or the heat destroys the living cultures and delicate aroma of the fermented paste."
+    }
+   ],
+   "name_es": "Fideos Y Caldos Del Mundo"
+  },
+  {
+   "name": "Hearty & Global Classics",
+   "slug": "hearty-global-classics",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "French Onion, Minestrone, Bouillabaisse, Gumbo, Pozole, Goulash, Beef Bourguignon"
+    },
+    {
+     "k": "Serve With",
+     "v": "Substantial enough to be the main event — often served with bread, rice, or starch on the side."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "French onion soup began as humble peasant food — its transformation into a bistro icon came from topping the bowl with bread and cheese and baking it into a bubbling gratin."
+    }
+   ],
+   "name_es": "Clásicos Contundentes Del Mundo"
+  }
+ ]
+}

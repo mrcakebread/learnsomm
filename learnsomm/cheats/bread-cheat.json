@@ -1,0 +1,144 @@
+{
+ "title": "Bread Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Leavened Breads"
+  },
+  {
+   "name": "French & Italian Yeast",
+   "slug": "french-italian",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Baguette, Brioche, Focaccia, Ciabatta, Italian Loaf"
+    },
+    {
+     "k": "Character",
+     "v": "Baguette: crackling crust, chewy crumb; Brioche: enriched, buttery; Focaccia: olive oil, dimpled; Ciabatta: open crumb, airy"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Baguette → Champagne, Chablis; Brioche → Sauternes, rosé; Focaccia → Vermentino, Barbera; Ciabatta → Soave, Pinot Grigio"
+    }
+   ],
+   "name_es": "Levadura Francesa e Italiana"
+  },
+  {
+   "name": "Sourdough",
+   "slug": "sourdough",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Classic Sourdough, San Francisco Sourdough, Sourdough Rye, Vollkornbrot"
+    },
+    {
+     "k": "Fermentation",
+     "v": "Wild yeast + lactic acid bacteria; long cold ferment develops tang, chew, and complex crust"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Aged white Burgundy, natural wines, Grüner Veltliner, aged cheddar and charcuterie"
+    }
+   ],
+   "name_es": "Pan de Masa Madre"
+  },
+  {
+   "name": "Whole Grain & Rye",
+   "slug": "whole-grain",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Whole Wheat, Multigrain, Sprouted Grain, Pumpernickel, Rye Bread"
+    },
+    {
+     "k": "Character",
+     "v": "Nutty, earthy, dense; pumpernickel: darkly roasted, molasses-sweet; rye: tangy and dense"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Smoked fish, aged Gouda, Grüner Veltliner, Riesling — the classic Scandinavian smørrebrød pairings"
+    }
+   ],
+   "name_es": "Integral y Centeno"
+  },
+  {
+   "name": "Enriched & Sandwich",
+   "slug": "enriched",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Challah, Hokkaido Milk Bread, Hawaiian Bread, Babka, White Bread, Potato Bread"
+    },
+    {
+     "k": "Character",
+     "v": "Soft, pillowy, slightly sweet; enriched with eggs, butter, milk or oil; long shelf life"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Challah → Riesling or sparkling; Milk Bread → Champagne; Hawaiian → off-dry Gewurztraminer"
+    }
+   ],
+   "name_es": "Enriquecido y Sándwich"
+  },
+  {
+   "cat": "Flatbreads & Quick Breads"
+  },
+  {
+   "name": "Middle East & South Asia",
+   "slug": "flatbreads-east",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Pita, Lavash, Naan, Paratha, Roti/Chapati, Dosa"
+    },
+    {
+     "k": "Character",
+     "v": "Pita: pocket-forming steam leavening; Naan: tandoor-charred, buttery; Dosa: fermented rice-lentil, crispy"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Pita/Lavash → rosé, Albariño; Naan/Paratha → Gewurztraminer, light red; Dosa → Riesling, sparkling"
+    }
+   ],
+   "name_es": "Oriente Medio y Asia del Sur"
+  },
+  {
+   "name": "Americas & Quick Breads",
+   "slug": "americas-quick",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Cornbread, Tortilla, Arepa, Banana Bread, Beer Bread, Irish Soda Bread, Scone"
+    },
+    {
+     "k": "Character",
+     "v": "Leavened with baking soda or powder (no yeast); quick to make; often enriched or sweetened"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Cornbread → Viognier, Chardonnay; Beer Bread → craft IPA or the beer used to make it; Scone → Champagne, clotted cream"
+    }
+   ],
+   "name_es": "Américas y Panes Rápidos"
+  },
+  {
+   "name": "Steamed, Griddle & Fried",
+   "slug": "steamed-fried",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "English Muffin, Crumpet, Bagel, Bao Bun, Beignet, Fry Bread, Youtiao"
+    },
+    {
+     "k": "Character",
+     "v": "Diverse textures: nook-heavy (muffin/crumpet), dense-chewy (bagel), pillowy-steamed (bao), airy-fried (beignet)"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Bagel + lox → Champagne or Chablis; Beignet → Café au lait or Sauternes; Bao → Riesling or light Pinot Noir"
+    }
+   ],
+   "name_es": "Al Vapor, Plancha y Fritos"
+  }
+ ]
+}

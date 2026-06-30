@@ -1,0 +1,144 @@
+{
+ "title": "Dairy Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Dairy & Cultured"
+  },
+  {
+   "name": "Fluid Milk",
+   "slug": "milk",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Whole Milk (3.25% fat), Reduced-Fat (2%), Skim (0%), Lactose-Free, Buttermilk"
+    },
+    {
+     "k": "Character",
+     "v": "Whole: sweet, round, full coating; Skim: watery, clean; Buttermilk: tangy, thick, slightly acidic"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Whole milk → off-dry Riesling, light Champagne; Buttermilk → crisp Albariño, Grüner Veltliner"
+    }
+   ],
+   "name_es": "Leche Fluida"
+  },
+  {
+   "name": "Cultured & Fermented",
+   "slug": "cultured",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Yogurt, Greek Yogurt, Kefir, Sour Cream"
+    },
+    {
+     "k": "Character",
+     "v": "Greek yogurt: thick, tangy, high protein; Kefir: thin, effervescent, probiotic-rich; Sour cream: lush, mild acid"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Greek yogurt → dry Riesling, Assyrtiko; Kefir → natural wines; Sour cream (with blini) → Champagne, vodka"
+    }
+   ],
+   "name_es": "Cultivos y Fermentados"
+  },
+  {
+   "name": "Fats & Creams",
+   "slug": "creams",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Heavy Cream (36%+ fat), Butter, Ghee (clarified butter, milk solids removed)"
+    },
+    {
+     "k": "Character",
+     "v": "Heavy cream: rich, coats everything; Butter: sweet-dairy, salt-forward when cultured; Ghee: nutty, pure fat, high smoke point"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Butter sauces → white Burgundy, Meursault; Cream-based pasta → aged Chardonnay; Ghee dishes → Gewurztraminer"
+    }
+   ],
+   "name_es": "Grasas y Cremas"
+  },
+  {
+   "cat": "Cheese Guide"
+  },
+  {
+   "name": "Fresh Cheeses",
+   "slug": "fresh-cheese",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Mozzarella, Ricotta, Burrata, Cottage Cheese, Mascarpone, Cream Cheese, Chèvre"
+    },
+    {
+     "k": "Character",
+     "v": "Mild, milky, high moisture; little to no rind; meant to be eaten fresh; delicate and clean flavors"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Mozzarella/Burrata → Pinot Grigio, Vermentino; Chèvre → Sancerre, Sauvignon Blanc; Ricotta → Prosecco, light Chardonnay"
+    }
+   ],
+   "name_es": "Quesos Frescos"
+  },
+  {
+   "name": "Semi-Soft to Semi-Hard",
+   "slug": "semi-cheese",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Havarti, Muenster, Taleggio, Provolone, Gouda (young), Gruyère (young), Cheddar (mild)"
+    },
+    {
+     "k": "Character",
+     "v": "Buttery to earthy; sliceable; some develop washed rinds (Taleggio: funky, fruity); aging deepens complexity"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Havarti/Muenster → Pinot Blanc, light Merlot; Taleggio → Barbera, Nebbiolo; Gouda (young) → Viognier, Chardonnay"
+    }
+   ],
+   "name_es": "Semi-Blando a Semi-Duro"
+  },
+  {
+   "name": "Hard & Aged Cheeses",
+   "slug": "hard-cheese",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Parmigiano-Reggiano, Manchego, Aged Cheddar, Aged Gouda, Emmental, Comté, Pecorino"
+    },
+    {
+     "k": "Character",
+     "v": "Crystalline texture from tyrosine crystals; concentrated, nutty, umami-rich; long finish; grating or snacking"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Parmigiano → Barolo, Amarone; Manchego → Tempranillo, Rioja; Aged Cheddar → Cabernet Sauvignon, Port; Aged Gouda → Zinfandel, Tawny Port"
+    }
+   ],
+   "name_es": "Quesos Duros y Añejos"
+  },
+  {
+   "name": "Soft-Ripened & Blue",
+   "slug": "soft-blue",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Soft-ripened: Brie, Camembert | Blue: Roquefort (sheep), Gorgonzola (Italian), Stilton (English)"
+    },
+    {
+     "k": "Character",
+     "v": "Brie/Camembert: bloomy white rind, buttery, mushroomy paste; Blues: veined with Penicillium, sharp, salty, pungent"
+    },
+    {
+     "k": "Pairs with",
+     "v": "Brie/Camembert → Champagne, Crémant, light Pinot Noir; Roquefort → Sauternes (classic); Gorgonzola → Barolo; Stilton → Vintage Port"
+    }
+   ],
+   "name_es": "Corteza Blanca y Azul"
+  }
+ ]
+}

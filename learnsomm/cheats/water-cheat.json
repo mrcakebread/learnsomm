@@ -1,0 +1,128 @@
+{
+ "title": "Water Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Water Types"
+  },
+  {
+   "name": "Still & Mineral",
+   "slug": "mineral",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Spring Water, Artesian Water, Mineral Water, Well Water"
+    },
+    {
+     "k": "Mineral Profile",
+     "v": "TDS (Total Dissolved Solids) 0–50mg/L = very soft; 50–250 = light; 250–500 = medium; 500+ = hard mineral"
+    },
+    {
+     "k": "Best for",
+     "v": "Fine dining water service; pairing with food; revealing regional terroir of the source"
+    }
+   ],
+   "name_es": "Agua Quieta y Mineral"
+  },
+  {
+   "name": "Sparkling & Carbonated",
+   "slug": "sparkling",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Sparkling Mineral (natural CO₂), Sparkling Water (added CO₂), Seltzer (plain), Tonic Water (quinine-bitter)"
+    },
+    {
+     "k": "Tasting Cue",
+     "v": "Bubble size matters: fine persistent bubbles (Perrier) = cleaner; large loose bubbles (club soda) = less elegant"
+    },
+    {
+     "k": "Best for",
+     "v": "Palate cleansing between courses; mixing cocktails; digestif service"
+    }
+   ],
+   "name_es": "Agua Gaseosa y Carbonatada"
+  },
+  {
+   "name": "Purified & Enhanced",
+   "slug": "purified",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Purified/Filtered, Distilled, Reverse Osmosis, Alkaline, Electrolyte Water"
+    },
+    {
+     "k": "TDS",
+     "v": "Distilled ≈ 0mg/L (pure H₂O, flat taste); RO ≈ 1–10; Alkaline pH 8–9.5 (buffered)"
+    },
+    {
+     "k": "Best for",
+     "v": "Coffee and tea brewing (RO re-mineralized is ideal); laboratory use; electrolyte sports recovery"
+    }
+   ],
+   "name_es": "Purificada y Mejorada"
+  },
+  {
+   "name": "Hard vs. Soft Water",
+   "slug": "hardness",
+   "rows": [
+    {
+     "k": "Character",
+     "v": "Hard (Ca²⁺/Mg²⁺ rich): slightly chalky, mineral, can leave scale; Soft (Na⁺ treated): slippery mouthfeel, flat"
+    },
+    {
+     "k": "Best for",
+     "v": "Hard water → tea and beer brewing; Soft water → coffee (extracts more evenly); both affect soap lather"
+    }
+   ],
+   "name_es": "Agua Dura vs. Blanda"
+  },
+  {
+   "cat": "Water Service & Pairing"
+  },
+  {
+   "name": "Fine Dining Water Service",
+   "slug": "service",
+   "rows": [
+    {
+     "k": "Service",
+     "v": "Offer still and sparkling options; serve at 46–54°F; premium still in a decanter; pour and leave the bottle"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Water TDS above 500mg/L can compete with delicate wines — match water minerality to food course weight"
+    }
+   ],
+   "name_es": "Servicio de Agua en Alta Cocina"
+  },
+  {
+   "name": "Regional Water Brands",
+   "slug": "brands",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Still: Evian (France, 357mg/L), Voss (Norway, 44mg/L), Acqua Panna (Italy, 260mg/L) | Sparkling: Perrier (France), San Pellegrino (Italy), Gerolsteiner (Germany, 2527mg/L)"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "Gerolsteiner is one of the world's most mineral-dense waters — excellent foil for rich fatty dishes"
+    }
+   ],
+   "name_es": "Marcas de Agua Regionales"
+  },
+  {
+   "name": "Water & Food Pairing",
+   "slug": "pairing",
+   "rows": [
+    {
+     "k": "Pairing",
+     "v": "Delicate fish/sushi → low-TDS still (Voss); Rich steak/aged cheese → high-mineral still (Evian); Spicy food → lightly sparkling to cool the palate"
+    },
+    {
+     "k": "Quick Tip",
+     "v": "The sommelier's rule: water should support food, not fight it — serve sparkling with fried or fatty; still with seafood"
+    }
+   ],
+   "name_es": "Maridaje de Agua y Comida"
+  }
+ ]
+}

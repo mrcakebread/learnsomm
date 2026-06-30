@@ -1,0 +1,1242 @@
+{
+ "title": "Coffee",
+ "subject": "coffee",
+ "categories": [
+  {
+   "name": "FLORAL",
+   "name_fr": "FLORAL",
+   "name_it": "FLOREALE",
+   "name_es": "FLORAL",
+   "color": "#e62e7a",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Floral",
+     "name_fr": "Floral",
+     "name_it": "Floreale",
+     "name_es": "Floral",
+     "color": "#e36496",
+     "descriptors": [
+      {
+       "name": "Chamomile",
+       "name_fr": "Camomille",
+       "name_it": "Camomilla",
+       "slug": "floral-floral-chamomile",
+       "name_es": "Manzanilla",
+       "panel": {
+        "origin": "A sweet, slightly floral and fruity aromatic with a slightly green and dried plant character.",
+        "mixology": "A gentle, calming floral note resembling dried chamomile flowers or herbal tea."
+       }
+      },
+      {
+       "name": "Rose",
+       "name_fr": "Rose",
+       "name_it": "Rosa",
+       "slug": "floral-floral-rose",
+       "name_es": "Rosa",
+       "panel": {
+        "origin": "A sweet, complex floral aromatic associated with fresh roses.",
+        "mixology": "A romantic, highly perfumed floral scent exactly like a blooming rose bush."
+       }
+      },
+      {
+       "name": "Jasmine",
+       "name_fr": "Jasmin",
+       "name_it": "Gelsomino",
+       "slug": "floral-floral-jasmine",
+       "name_es": "Jazmín",
+       "panel": {
+        "origin": "An intense, slightly pungent, sweet floral aromatic associated with jasmine flowers. A hallmark of washed Ethiopian Yirgacheffes.",
+        "mixology": "A highly aromatic, sweet and elegant floral note, similar to jasmine green tea."
+       }
+      },
+      {
+       "name": "Black Tea",
+       "name_fr": "Thé Noir",
+       "name_it": "Tè Nero",
+       "slug": "floral-floral-black-tea",
+       "name_es": "Té Negro",
+       "panel": {
+        "origin": "A somewhat brown, musty, dried plant and slightly astringent aromatic associated with black tea.",
+        "mixology": "The distinct, slightly dry and earthy aroma of steeped black tea leaves."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "FRUITY",
+   "name_fr": "FRUITÉ",
+   "name_it": "FRUTTATO",
+   "name_es": "AFRUTADO",
+   "color": "#da1d25",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Berry",
+     "name_fr": "Baie",
+     "name_it": "Bacca",
+     "color": "#b81e40",
+     "descriptors": [
+      {
+       "name": "Blackberry",
+       "name_fr": "Mûre",
+       "name_it": "Mora",
+       "slug": "fruity-berry-blackberry",
+       "name_es": "Zarzamora",
+       "panel": {
+        "origin": "A sweet, dark, slightly tart and musty aromatic associated with blackberries.",
+        "mixology": "A dark, rich berry flavor with a slight tartness, like wild blackberry jam."
+       }
+      },
+      {
+       "name": "Raspberry",
+       "name_fr": "Framboise",
+       "name_it": "Lampone",
+       "slug": "fruity-berry-raspberry",
+       "name_es": "Frambuesa",
+       "panel": {
+        "origin": "A sweet, slightly sour and floral aromatic associated with fresh raspberries.",
+        "mixology": "A bright, zesty, and sweet red berry flavor."
+       }
+      },
+      {
+       "name": "Blueberry",
+       "name_fr": "Myrtille",
+       "name_it": "Mirtillo",
+       "slug": "fruity-berry-blueberry",
+       "name_es": "Mora Azul",
+       "panel": {
+        "origin": "A sweet, dark, slightly dusty aromatic associated with blueberries. Highly prevalent in natural-processed Ethiopian coffees.",
+        "mixology": "A sweet, dark berry note that often reminds people of blueberry muffins or pie."
+       }
+      },
+      {
+       "name": "Strawberry",
+       "name_fr": "Fraise",
+       "name_it": "Fragola",
+       "slug": "fruity-berry-strawberry",
+       "name_es": "Fresa",
+       "panel": {
+        "origin": "A sweet, somewhat fruity and slightly floral aromatic associated with fresh strawberries.",
+        "mixology": "A soft, sweet, and juicy red berry flavor."
+       }
+      }
+     ],
+     "name_es": "Bayas"
+    },
+    {
+     "name": "Dried Fruit",
+     "name_fr": "Fruits Secs",
+     "name_it": "Frutta Secca",
+     "name_es": "Fruta Seca",
+     "color": "#b84733",
+     "descriptors": [
+      {
+       "name": "Raisin",
+       "name_fr": "Raisin Sec",
+       "name_it": "Uvetta",
+       "slug": "fruity-dried-fruit-raisin",
+       "name_es": "Pasa",
+       "panel": {
+        "origin": "A sweet, brown, slightly fruity and musty aromatic associated with dried grapes.",
+        "mixology": "A concentrated, dark sweetness exactly like a handful of raisins."
+       }
+      },
+      {
+       "name": "Prune",
+       "name_fr": "Pruneau",
+       "name_it": "Prugna Secca",
+       "slug": "fruity-dried-fruit-prune",
+       "name_es": "Ciruela Pasa",
+       "panel": {
+        "origin": "A sweet, brown, slightly floral aromatic associated with dried plums.",
+        "mixology": "A deep, slightly sticky and rich fruit flavor, similar to plum pudding."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Other Fruit",
+     "name_fr": "Autres Fruits",
+     "name_it": "Altra Frutta",
+     "name_es": "Otra Fruta",
+     "color": "#e34a36",
+     "descriptors": [
+      {
+       "name": "Coconut",
+       "name_fr": "Noix de Coco",
+       "name_it": "Cocco",
+       "slug": "fruity-other-fruit-coconut",
+       "name_es": "Coco",
+       "panel": {
+        "origin": "A sweet, rich, slightly woody and nutty aromatic associated with coconut meat.",
+        "mixology": "A sweet, creamy, and tropical flavor resembling shredded coconut."
+       }
+      },
+      {
+       "name": "Cherry",
+       "name_fr": "Cerise",
+       "name_it": "Ciliegia",
+       "slug": "fruity-other-fruit-cherry",
+       "name_es": "Cereza",
+       "panel": {
+        "origin": "A sour, fruity, slightly floral and bitter aromatic associated with red cherries.",
+        "mixology": "A bright, tart red fruit flavor, similar to fresh cherries or cherry juice."
+       }
+      },
+      {
+       "name": "Pomegranate",
+       "name_fr": "Grenade",
+       "name_it": "Melograno",
+       "slug": "fruity-other-fruit-pomegranate",
+       "name_es": "Granada",
+       "panel": {
+        "origin": "A sour, sweet, slightly dark fruity aromatic associated with pomegranate seeds.",
+        "mixology": "A very tart, tangy, and bright dark fruit flavor."
+       }
+      },
+      {
+       "name": "Pineapple",
+       "name_fr": "Ananas",
+       "name_it": "Ananas",
+       "slug": "fruity-other-fruit-pineapple",
+       "name_es": "Piña",
+       "panel": {
+        "origin": "A sweet, slightly sour, fruity aromatic associated with fresh pineapple.",
+        "mixology": "A vibrant, sweet, and sharply tangy tropical fruit note."
+       }
+      },
+      {
+       "name": "Grape",
+       "name_fr": "Raisin",
+       "name_it": "Uva",
+       "slug": "fruity-other-fruit-grape",
+       "name_es": "Uva",
+       "panel": {
+        "origin": "A sweet, fruity, slightly floral and musty aromatic associated with grapes.",
+        "mixology": "A juicy, sweet flavor reminiscent of fresh white or red table grapes."
+       }
+      },
+      {
+       "name": "Apple",
+       "name_fr": "Pomme",
+       "name_it": "Mela",
+       "slug": "fruity-other-fruit-apple",
+       "name_es": "Manzana",
+       "panel": {
+        "origin": "A sweet, somewhat sour, fruity aromatic associated with fresh apples (malic acid).",
+        "mixology": "A crisp, refreshing fruitiness like biting into a fresh green or red apple."
+       }
+      },
+      {
+       "name": "Peach",
+       "name_fr": "Pêche",
+       "name_it": "Pesca",
+       "slug": "fruity-other-fruit-peach",
+       "name_es": "Durazno",
+       "panel": {
+        "origin": "A sweet, slightly floral and fruity aromatic associated with fresh peaches.",
+        "mixology": "A soft, sweet, and highly aromatic stone fruit flavor."
+       }
+      },
+      {
+       "name": "Pear",
+       "name_fr": "Poire",
+       "name_it": "Pera",
+       "slug": "fruity-other-fruit-pear",
+       "name_es": "Pera",
+       "panel": {
+        "origin": "A sweet, slightly floral and musty aromatic associated with fresh pears.",
+        "mixology": "A mild, sweet, and slightly grainy fruit flavor like a ripe pear."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Citrus Fruit",
+     "name_fr": "Agrumes",
+     "name_it": "Agrumi",
+     "name_es": "Cítricos",
+     "color": "#f2931d",
+     "descriptors": [
+      {
+       "name": "Grapefruit",
+       "name_fr": "Pamplemousse",
+       "name_it": "Pompelmo",
+       "slug": "fruity-citrus-fruit-grapefruit",
+       "name_es": "Toronja",
+       "panel": {
+        "origin": "A sour, slightly bitter, and sweet citrus aromatic. Often linked to naringin presence.",
+        "mixology": "A sharp, bright citrus flavor with a distinct bitter edge, like ruby red grapefruit."
+       }
+      },
+      {
+       "name": "Orange",
+       "name_fr": "Orange",
+       "name_it": "Arancia",
+       "slug": "fruity-citrus-fruit-orange",
+       "name_es": "Naranja",
+       "panel": {
+        "origin": "A sweet, slightly sour, and floral citrus aromatic.",
+        "mixology": "A sweet, juicy, and accessible citrus flavor like a freshly peeled orange."
+       }
+      },
+      {
+       "name": "Lemon",
+       "name_fr": "Citron",
+       "name_it": "Limone",
+       "slug": "fruity-citrus-fruit-lemon",
+       "name_es": "Limón",
+       "panel": {
+        "origin": "A sour, slightly sweet, and pungent citrus aromatic (citric acid).",
+        "mixology": "A highly acidic, bright, and zesty citrus note."
+       }
+      },
+      {
+       "name": "Lime",
+       "name_fr": "Citron Vert",
+       "name_it": "Lime",
+       "slug": "fruity-citrus-fruit-lime",
+       "name_es": "Lima",
+       "panel": {
+        "origin": "A sour, slightly sweet, green, and pungent citrus aromatic.",
+        "mixology": "A tart, green, and snappy citrus flavor, sharper than lemon."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOUR/FERMENTED",
+   "name_fr": "ACIDE / FERMENTÉ",
+   "name_it": "ACIDO / FERMENTATO",
+   "name_es": "ÁCIDO / FERMENTADO",
+   "color": "#e2c018",
+   "textColor": "#241505",
+   "sub": [
+    {
+     "name": "Sour",
+     "name_fr": "Aigre",
+     "name_it": "Aspro",
+     "name_es": "Ácido",
+     "color": "#e0d03b",
+     "descriptors": [
+      {
+       "name": "Sour Aromatics",
+       "name_fr": "Arômes Acides",
+       "name_it": "Aromi Acidi",
+       "slug": "sour-fermented-sour-sour-aromatics",
+       "name_es": "Aromas Ácidos",
+       "panel": {
+        "origin": "An aromatic associated with the impression of a sour product.",
+        "mixology": "A general tangy or tart smell that makes your mouth water before you even sip."
+       }
+      },
+      {
+       "name": "Acetic Acid",
+       "name_fr": "Acide Acétique",
+       "name_it": "Acido Acetico",
+       "slug": "sour-fermented-sour-acetic-acid",
+       "name_es": "Ácido Acético",
+       "panel": {
+        "origin": "A sour, sharp, pungent aromatic associated with vinegar. Suggests over-fermentation in processing.",
+        "mixology": "A sharp, biting sourness exactly like white vinegar."
+       }
+      },
+      {
+       "name": "Butyric Acid",
+       "name_fr": "Acide Butyrique",
+       "name_it": "Acido Butirrico",
+       "slug": "sour-fermented-sour-butyric-acid",
+       "name_es": "Ácido Butírico",
+       "panel": {
+        "origin": "A sour, fermented-dairy, slightly sweaty aromatic. A severe processing defect.",
+        "mixology": "An unpleasant sourness reminiscent of rancid butter or baby vomit."
+       }
+      },
+      {
+       "name": "Isovaleric Acid",
+       "name_fr": "Acide Isovalérique",
+       "name_it": "Acido Isovalerico",
+       "slug": "sour-fermented-sour-isovaleric-acid",
+       "name_es": "Ácido Isovalérico",
+       "panel": {
+        "origin": "A sweaty, cheesy, fermented aromatic. Often indicates degraded coffee or processing flaws.",
+        "mixology": "A harsh, funky smell that resembles aged cheese or sweaty socks."
+       }
+      },
+      {
+       "name": "Citric Acid",
+       "name_fr": "Acide Citrique",
+       "name_it": "Acido Citrico",
+       "slug": "sour-fermented-sour-citric-acid",
+       "name_es": "Ácido Cítrico",
+       "panel": {
+        "origin": "A clean, sour, sharp taste associated with citrus fruits.",
+        "mixology": "A bright, snappy tartness that gives the coffee a refreshing, lemonade-like zing."
+       }
+      },
+      {
+       "name": "Malic Acid",
+       "name_fr": "Acide Malique",
+       "name_it": "Acido Malico",
+       "slug": "sour-fermented-sour-malic-acid",
+       "name_es": "Ácido Málico",
+       "panel": {
+        "origin": "A clean, sour, and tart taste associated with green apples.",
+        "mixology": "A crisp, lingering tartness similar to biting into a Granny Smith apple."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Alcohol/fermented",
+     "name_fr": "Alcool / Fermenté",
+     "name_it": "Alcol / Fermentato",
+     "name_es": "Alcohol / Fermentado",
+     "color": "#b39127",
+     "descriptors": [
+      {
+       "name": "Winey",
+       "name_fr": "Vineux",
+       "name_it": "Vinoso",
+       "slug": "sour-fermented-alcohol-fermented-winey",
+       "name_es": "Vinoso",
+       "panel": {
+        "origin": "A sharp, pungent, somewhat fruity and alcohol-like aromatic. Often found in natural processed coffees.",
+        "mixology": "A rich, complex flavor that reminds you of dry red wine."
+       }
+      },
+      {
+       "name": "Whiskey",
+       "name_fr": "Whisky",
+       "name_it": "Whisky",
+       "slug": "sour-fermented-alcohol-fermented-whiskey",
+       "name_es": "Whisky",
+       "panel": {
+        "origin": "A sharp, pungent, alcoholic, brown, and somewhat grainy aromatic.",
+        "mixology": "A deep, boozy, and slightly woody flavor reminiscent of bourbon or whiskey."
+       }
+      },
+      {
+       "name": "Fermented",
+       "name_fr": "Fermenté",
+       "name_it": "Fermentato",
+       "slug": "sour-fermented-alcohol-fermented-fermented",
+       "name_es": "Fermentado",
+       "panel": {
+        "origin": "A sharp, pungent, somewhat sour and fruity aromatic. Can cross into defect territory if over-expressed.",
+        "mixology": "A funky, sour-fruit flavor like kombucha or over-fermented fruit mash."
+       }
+      },
+      {
+       "name": "Overripe",
+       "name_fr": "Trop Mûr",
+       "name_it": "Troppo Maturo",
+       "slug": "sour-fermented-alcohol-fermented-overripe",
+       "name_es": "Sobremaduro",
+       "panel": {
+        "origin": "A sweet, slightly sour, and musty aromatic associated with fruit past its optimal ripeness.",
+        "mixology": "A heavy, intense sweetness like a banana or peach that is entirely brown and soft."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GREEN/VEGETATIVE",
+   "name_fr": "VERT / VÉGÉTAL",
+   "name_it": "VERDE / VEGETATIVO",
+   "name_es": "VERDE / VEGETAL",
+   "color": "#198f51",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Green/vegetative",
+     "name_fr": "Vert / Végétal",
+     "name_it": "Verde / Vegetativo",
+     "name_es": "Verde / Vegetal",
+     "color": "#28a356",
+     "descriptors": [
+      {
+       "name": "Under-ripe",
+       "name_fr": "Pas Mûr",
+       "name_it": "Acerbo",
+       "slug": "green-vegetative-green-vegetative-under-ripe",
+       "name_es": "Inmaduro",
+       "panel": {
+        "origin": "A green, astringent, slightly sour aromatic associated with unripe fruit.",
+        "mixology": "A tart, drying sensation like biting into a green, unready piece of fruit."
+       }
+      },
+      {
+       "name": "Peapod",
+       "name_fr": "Cosse de Pois",
+       "name_it": "Baccello di Pisello",
+       "slug": "green-vegetative-green-vegetative-peapod",
+       "name_es": "Vaina de Chícharo",
+       "panel": {
+        "origin": "A green, sweet, and slightly earthy aromatic associated with fresh snow peas.",
+        "mixology": "A sweet, crisp, and refreshing green vegetable flavor."
+       }
+      },
+      {
+       "name": "Fresh",
+       "name_fr": "Frais",
+       "name_it": "Fresco",
+       "slug": "green-vegetative-green-vegetative-fresh",
+       "name_es": "Fresco",
+       "panel": {
+        "origin": "A green, slightly sweet aromatic associated with freshly cut plant material.",
+        "mixology": "A bright, clean, and vibrant aroma like a newly cut stem or fresh greens."
+       }
+      },
+      {
+       "name": "Dark Green",
+       "name_fr": "Vert Foncé",
+       "name_it": "Verde Scuro",
+       "slug": "green-vegetative-green-vegetative-dark-green",
+       "name_es": "Verde Oscuro",
+       "panel": {
+        "origin": "A pungent, bitter, slightly brown aromatic associated with cooked green vegetables (kale/spinach).",
+        "mixology": "A heavy, earthy, and slightly bitter vegetable flavor like cooked spinach."
+       }
+      },
+      {
+       "name": "Vegetative",
+       "name_fr": "Végétal",
+       "name_it": "Vegetale",
+       "slug": "green-vegetative-green-vegetative-vegetative",
+       "name_es": "Vegetal",
+       "panel": {
+        "origin": "A general green, slightly musty aromatic associated with plant material.",
+        "mixology": "A general plant-like flavor, similar to celery or plant stems."
+       }
+      },
+      {
+       "name": "Hay-like",
+       "name_fr": "Type Foin",
+       "name_it": "Tipo Fieno",
+       "slug": "green-vegetative-green-vegetative-hay-like",
+       "name_es": "A Heno",
+       "panel": {
+        "origin": "A dry, green, slightly brown and musty aromatic associated with dried grasses.",
+        "mixology": "A dry, rustic flavor reminiscent of a barn or dried summer grass."
+       }
+      },
+      {
+       "name": "Herb-like",
+       "name_fr": "Type Herbe",
+       "name_it": "Tipo Erba",
+       "slug": "green-vegetative-green-vegetative-herb-like",
+       "name_es": "Herbal",
+       "panel": {
+        "origin": "A green, somewhat pungent, and slightly sweet aromatic associated with culinary herbs.",
+        "mixology": "A savory, aromatic quality that reminds you of basil, oregano, or mint."
+       }
+      },
+      {
+       "name": "Olive Oil",
+       "name_fr": "Huile d'Olive",
+       "name_it": "Olio d'Oliva",
+       "slug": "green-vegetative-green-vegetative-olive-oil",
+       "name_es": "Aceite de Oliva",
+       "panel": {
+        "origin": "A green, slightly spicy, and fruity aromatic associated with olive oil.",
+        "mixology": "A rich, slightly savory and slick flavor resembling extra virgin olive oil."
+       }
+      },
+      {
+       "name": "Raw",
+       "name_fr": "Cru",
+       "name_it": "Crudo",
+       "slug": "green-vegetative-green-vegetative-raw",
+       "name_es": "Crudo",
+       "panel": {
+        "origin": "A green, musty, and somewhat sweet aromatic associated with uncooked plant material.",
+        "mixology": "A harsh, uncooked flavor similar to raw nuts or raw grains."
+       }
+      },
+      {
+       "name": "Beany",
+       "name_fr": "de Haricot",
+       "name_it": "di Fagiolo",
+       "slug": "green-vegetative-green-vegetative-beany",
+       "name_es": "A Frijol",
+       "panel": {
+        "origin": "A green, slightly musty and earthy aromatic associated with legumes/beans.",
+        "mixology": "A starchy, raw vegetable flavor like unroasted green beans."
+       }
+      }
+     ],
+     "_implicit": true
+    }
+   ]
+  },
+  {
+   "name": "OTHER",
+   "name_fr": "AUTRE",
+   "name_it": "ALTRO",
+   "name_es": "OTROS",
+   "color": "#11808c",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Papery/musty",
+     "name_fr": "Papier / Moisi",
+     "name_it": "Carta / Ammuffito",
+     "name_es": "Papel / Humedad",
+     "color": "#82a1a8",
+     "descriptors": [
+      {
+       "name": "Stale",
+       "name_fr": "Éventé",
+       "name_it": "Stantio",
+       "slug": "other-papery-musty-stale",
+       "name_es": "Rancio",
+       "panel": {
+        "origin": "A brown, slightly musty and cardboard-like aromatic associated with aged/oxidized coffee.",
+        "mixology": "A flat, lifeless flavor indicating the coffee has been sitting out too long."
+       }
+      },
+      {
+       "name": "Cardboard",
+       "name_fr": "Carton",
+       "name_it": "Cartone",
+       "slug": "other-papery-musty-cardboard",
+       "name_es": "Cartón",
+       "panel": {
+        "origin": "A brown, slightly papery and woody aromatic. Often linked to old green coffee or poor storage.",
+        "mixology": "Tastes literally like chewing on a piece of brown cardboard."
+       }
+      },
+      {
+       "name": "Papery",
+       "name_fr": "Papier",
+       "name_it": "Cartaceo",
+       "slug": "other-papery-musty-papery",
+       "name_es": "A Papel",
+       "panel": {
+        "origin": "A slightly brown and musty aromatic. Can be introduced by paper filters during brewing.",
+        "mixology": "A dry, blank flavor like a paper bag or a dry paper filter."
+       }
+      },
+      {
+       "name": "Woody",
+       "name_fr": "Boisé",
+       "name_it": "Legnoso",
+       "name_es": "Amaderado",
+       "slug": "other-papery-musty-woody",
+       "panel": {
+        "origin": "A brown, musty, and somewhat sweet aromatic associated with dry wood (Past Crop green defect).",
+        "mixology": "An earthy, dry flavor like pencil shavings or a cedar plank."
+       }
+      },
+      {
+       "name": "Moldy/Damp",
+       "name_fr": "Moisi / Humide",
+       "name_it": "Ammuffito / Umido",
+       "slug": "other-papery-musty-moldy-damp",
+       "name_es": "Moho / Humedad",
+       "panel": {
+        "origin": "A musty, damp, and earthy aromatic associated with mold. A major green coffee defect.",
+        "mixology": "An unpleasant, wet-basement or damp-towel smell."
+       }
+      },
+      {
+       "name": "Musty/Dusty",
+       "name_fr": "Moisi / Poussiéreux",
+       "name_it": "Ammuffito / Polveroso",
+       "slug": "other-papery-musty-musty-dusty",
+       "name_es": "Humedad / Polvo",
+       "panel": {
+        "origin": "A dry, powdery, musty aromatic. Often from poorly stored green coffee.",
+        "mixology": "A dry, old smell like opening an antique book or a dusty attic."
+       }
+      },
+      {
+       "name": "Musty/Earthy",
+       "name_fr": "Moisi / Terreux",
+       "name_it": "Ammuffito / Terroso",
+       "slug": "other-papery-musty-musty-earthy",
+       "name_es": "Humedad / Tierra",
+       "panel": {
+        "origin": "A musty, somewhat brown aromatic associated with damp soil (often found in wet-hulled Sumatran coffees).",
+        "mixology": "A deep, heavy flavor exactly like fresh potting soil or a forest floor."
+       }
+      },
+      {
+       "name": "Animalic",
+       "name_fr": "Animal",
+       "name_it": "Animale",
+       "slug": "other-papery-musty-animalic",
+       "name_es": "Animal",
+       "panel": {
+        "origin": "A somewhat sweet, musty, pungent aromatic associated with animal fur or sweat.",
+        "mixology": "A musky, barnyard-like aroma."
+       }
+      },
+      {
+       "name": "Meaty Brothy",
+       "name_fr": "Bouillon Carné",
+       "name_it": "Brodoso",
+       "slug": "other-papery-musty-meaty-brothy",
+       "name_es": "A Caldo",
+       "panel": {
+        "origin": "A brown, savory, somewhat salty and musty aromatic associated with boiled meat.",
+        "mixology": "A savory, umami-rich flavor like beef bouillon or beef stew."
+       }
+      },
+      {
+       "name": "Phenolic",
+       "name_fr": "Phénolique",
+       "name_it": "Fenolico",
+       "slug": "other-papery-musty-phenolic",
+       "name_es": "Fenólico",
+       "panel": {
+        "origin": "A pungent, somewhat chemical, medicinal aromatic (e.g., Rioy defect).",
+        "mixology": "A harsh, chemical smell reminiscent of throat lozenges or iodine."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Chemical",
+     "name_fr": "Chimique",
+     "name_it": "Chimico",
+     "color": "#60a8a6",
+     "descriptors": [
+      {
+       "name": "Bitter",
+       "name_fr": "Amer",
+       "name_it": "Amaro",
+       "slug": "other-chemical-bitter",
+       "name_es": "Amargo",
+       "panel": {
+        "origin": "A basic taste characterized by solutions of caffeine or quinine.",
+        "mixology": "A harsh, biting sensation on the back of the tongue, like black coffee left on a burner."
+       }
+      },
+      {
+       "name": "Salty",
+       "name_fr": "Salé",
+       "name_it": "Salato",
+       "slug": "other-chemical-salty",
+       "name_es": "Salado",
+       "panel": {
+        "origin": "A basic taste characterized by solutions of sodium chloride.",
+        "mixology": "A strange, briny taste, rarely found in good coffee unless the water is overly hard."
+       }
+      },
+      {
+       "name": "Medicinal",
+       "name_fr": "Médicinal",
+       "name_it": "Medicinale",
+       "name_es": "Medicinal",
+       "slug": "other-chemical-medicinal",
+       "panel": {
+        "origin": "A pungent, chemical, and somewhat sweet aromatic associated with hospitals/medicine.",
+        "mixology": "An artificial, clean chemical smell like a dentist's office or band-aids."
+       }
+      },
+      {
+       "name": "Petroleum",
+       "name_fr": "Pétrole",
+       "name_it": "Petrolio",
+       "slug": "other-chemical-petroleum",
+       "name_es": "Petróleo",
+       "panel": {
+        "origin": "A pungent, chemical aromatic associated with crude oil/gasoline.",
+        "mixology": "A harsh, unpalatable industrial smell like motor oil or diesel."
+       }
+      },
+      {
+       "name": "Skunky",
+       "name_fr": "de Moufette",
+       "name_it": "di Puzzola",
+       "slug": "other-chemical-skunky",
+       "name_es": "A Zorrillo",
+       "panel": {
+        "origin": "A pungent, somewhat sulfuric and chemical aromatic.",
+        "mixology": "A harsh, defensive smell exactly like a skunk or strong cannabis."
+       }
+      },
+      {
+       "name": "Rubber",
+       "name_fr": "Caoutchouc",
+       "name_it": "Gomma",
+       "slug": "other-chemical-rubber",
+       "name_es": "Hule",
+       "panel": {
+        "origin": "A dark, somewhat pungent and chemical aromatic associated with burnt tires or rubber bands.",
+        "mixology": "An acrid, synthetic smell like a hot car tire or rubber bands."
+       }
+      }
+     ],
+     "name_es": "Químico"
+    }
+   ]
+  },
+  {
+   "name": "ROASTED",
+   "name_fr": "TORRÉFIÉ",
+   "name_it": "TOSTATO",
+   "name_es": "TOSTADO",
+   "color": "#b33d25",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Burnt",
+     "name_fr": "Brûlé",
+     "name_it": "Bruciato",
+     "name_es": "Quemado",
+     "color": "#8a4a2b",
+     "descriptors": [
+      {
+       "name": "Acrid",
+       "name_fr": "Âcre",
+       "name_it": "Acre",
+       "slug": "roasted-burnt-acrid",
+       "name_es": "Acre",
+       "panel": {
+        "origin": "A harsh, sharp, pungent, and bitter aromatic associated with burnt organic matter.",
+        "mixology": "A harsh, biting ash flavor that irritates the back of the throat."
+       }
+      },
+      {
+       "name": "Ashy",
+       "name_fr": "Cendré",
+       "name_it": "Cinereo",
+       "slug": "roasted-burnt-ashy",
+       "name_es": "A Ceniza",
+       "panel": {
+        "origin": "A dry, musty, and somewhat brown aromatic associated with the residue of a fire.",
+        "mixology": "A dry, dusty flavor exactly like cold fireplace ash."
+       }
+      },
+      {
+       "name": "Smoky",
+       "name_fr": "Fumé",
+       "name_it": "Affumicato",
+       "slug": "roasted-burnt-smoky",
+       "name_es": "Ahumado",
+       "panel": {
+        "origin": "A brown, pungent, somewhat chemical aromatic associated with wood smoke. Common in French roasts.",
+        "mixology": "A campfire-like flavor, very common in dark, oily roasted coffees."
+       }
+      },
+      {
+       "name": "Brown, Roast",
+       "name_fr": "Brun, Torréfié",
+       "name_it": "Bruno, Tostato",
+       "slug": "roasted-burnt-brown-roast",
+       "name_es": "Tueste Oscuro",
+       "panel": {
+        "origin": "A dark brown, slightly sweet and musty aromatic associated with heavily roasted foods.",
+        "mixology": "The standard, deep 'coffee' flavor you get from a dark roast."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cereal",
+     "name_fr": "Céréale",
+     "name_it": "Cereale",
+     "name_es": "Cereal",
+     "color": "#c98f45",
+     "descriptors": [
+      {
+       "name": "Grain",
+       "name_fr": "Grain",
+       "name_it": "Grano",
+       "slug": "roasted-cereal-grain",
+       "name_es": "Grano",
+       "panel": {
+        "origin": "A brown, somewhat sweet and musty aromatic associated with whole grains.",
+        "mixology": "A starchy, comforting flavor like whole wheat bread or bran."
+       }
+      },
+      {
+       "name": "Malt",
+       "name_fr": "Malt",
+       "name_it": "Malto",
+       "slug": "roasted-cereal-malt",
+       "name_es": "Malta",
+       "panel": {
+        "origin": "A brown, sweet, slightly musty aromatic associated with roasted malt.",
+        "mixology": "A sweet, rich, and slightly toasted flavor like malted milk balls or Grape-Nuts."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Roasted",
+     "name_fr": "Torréfié",
+     "name_it": "Tostato",
+     "name_es": "Tostado",
+     "color": "#b33d25",
+     "descriptors": [
+      {
+       "name": "Pipe Tobacco",
+       "name_fr": "Tabac à Pipe",
+       "name_it": "Tabacco da Pipa",
+       "slug": "roasted-roasted-pipe-tobacco",
+       "name_es": "Tabaco de Pipa",
+       "panel": {
+        "origin": "A sweet, somewhat brown, spicy and musty aromatic associated with cured tobacco.",
+        "mixology": "A sweet, rich, and fragrant aroma like an unlit cigar or pipe tobacco."
+       }
+      },
+      {
+       "name": "Tobacco",
+       "name_fr": "Tabac",
+       "name_it": "Tabacco",
+       "slug": "roasted-roasted-tobacco",
+       "name_es": "Tabaco",
+       "panel": {
+        "origin": "A brown, somewhat musty and pungent aromatic associated with dried tobacco leaves.",
+        "mixology": "A dry, earthy, and slightly sharp leaf flavor."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPICES",
+   "name_fr": "ÉPICES",
+   "name_it": "SPEZIE",
+   "name_es": "ESPECIAS",
+   "color": "#9c1b34",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Brown Spice",
+     "name_fr": "Épice Brune",
+     "name_it": "Spezia Bruna",
+     "name_es": "Especia Dulce",
+     "color": "#872733",
+     "descriptors": [
+      {
+       "name": "Anise",
+       "name_fr": "Anis",
+       "name_it": "Anice",
+       "slug": "spices-brown-spice-anise",
+       "name_es": "Anís",
+       "panel": {
+        "origin": "A sweet, slightly pungent and floral aromatic associated with anise seed.",
+        "mixology": "A sweet, sharp spice flavor identical to black licorice."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "slug": "spices-brown-spice-nutmeg",
+       "name_es": "Nuez Moscada",
+       "panel": {
+        "origin": "A sweet, brown, slightly pungent and woody aromatic associated with ground nutmeg.",
+        "mixology": "A warm, sweet, and slightly woody holiday spice."
+       }
+      },
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "slug": "spices-brown-spice-cinnamon",
+       "name_es": "Canela",
+       "panel": {
+        "origin": "A sweet, brown, slightly pungent and woody aromatic associated with cinnamon bark.",
+        "mixology": "A warm, sweet, and highly aromatic baking spice."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "slug": "spices-brown-spice-clove",
+       "name_es": "Clavo",
+       "panel": {
+        "origin": "A sweet, pungent, brown and slightly floral aromatic associated with cloves (eugenol).",
+        "mixology": "A very intense, sharp, and slightly medicinal warm spice."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Spices",
+     "name_fr": "Épices",
+     "name_it": "Spezie",
+     "color": "#9c1b34",
+     "descriptors": [
+      {
+       "name": "Pungent",
+       "name_fr": "Piquant",
+       "name_it": "Pungente",
+       "name_es": "Punzante",
+       "slug": "spices-spices-pungent",
+       "panel": {
+        "origin": "A sharp, penetrating, and biting aromatic sensation in the nasal cavity.",
+        "mixology": "A sharp, aggressive spice that tingles the nose, like strong mustard."
+       }
+      },
+      {
+       "name": "Pepper",
+       "name_fr": "Poivre",
+       "name_it": "Pepe",
+       "slug": "spices-spices-pepper",
+       "name_es": "Pimienta",
+       "panel": {
+        "origin": "A spicy, somewhat woody and pungent aromatic associated with black pepper.",
+        "mixology": "A sharp, earthy spice exactly like freshly cracked black peppercorns."
+       }
+      }
+     ],
+     "name_es": "Especias"
+    }
+   ]
+  },
+  {
+   "name": "NUTTY/COCOA",
+   "name_fr": "NOISETÉ / CACAO",
+   "name_it": "FRUTTA SECCA / CACAO",
+   "name_es": "NUECES / CACAO",
+   "color": "#9e532b",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Nutty",
+     "name_fr": "Noiseté",
+     "name_it": "Tostato di Frutta Secca",
+     "name_es": "Frutos Secos",
+     "color": "#ab6b42",
+     "descriptors": [
+      {
+       "name": "Peanuts",
+       "name_fr": "Cacahuètes",
+       "name_it": "Arachidi",
+       "slug": "nutty-cocoa-nutty-peanuts",
+       "name_es": "Cacahuates",
+       "panel": {
+        "origin": "A sweet, brown, slightly musty aromatic associated with roasted peanuts.",
+        "mixology": "A rich, oily nut flavor exactly like roasted peanuts or peanut butter."
+       }
+      },
+      {
+       "name": "Hazelnut",
+       "name_fr": "Noisette",
+       "name_it": "Nocciola",
+       "slug": "nutty-cocoa-nutty-hazelnut",
+       "name_es": "Avellana",
+       "panel": {
+        "origin": "A sweet, brown, woody and slightly floral aromatic associated with hazelnuts.",
+        "mixology": "A rich, sweet, and fragrant nut flavor, like Nutella without the chocolate."
+       }
+      },
+      {
+       "name": "Almond",
+       "name_fr": "Amande",
+       "name_it": "Mandorla",
+       "slug": "nutty-cocoa-nutty-almond",
+       "name_es": "Almendra",
+       "panel": {
+        "origin": "A sweet, slightly brown, floral and musty aromatic associated with almonds (benzaldehyde).",
+        "mixology": "A sweet, slightly dry nut flavor similar to marzipan."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cocoa",
+     "name_fr": "Cacao",
+     "name_it": "Cacao",
+     "name_es": "Cacao",
+     "color": "#612c1b",
+     "descriptors": [
+      {
+       "name": "Chocolate",
+       "name_fr": "Chocolat",
+       "name_it": "Cioccolato",
+       "name_es": "Chocolate",
+       "slug": "nutty-cocoa-cocoa-chocolate",
+       "panel": {
+        "origin": "A sweet, brown, slightly roasted and musty aromatic associated with milk chocolate.",
+        "mixology": "A sweet, rich, and creamy milk chocolate flavor."
+       }
+      },
+      {
+       "name": "Dark Chocolate",
+       "name_fr": "Chocolat Noir",
+       "name_it": "Cioccolato Fondente",
+       "slug": "nutty-cocoa-cocoa-dark-chocolate",
+       "name_es": "Chocolate Amargo",
+       "panel": {
+        "origin": "A high-intensity, slightly bitter, roasted and brown aromatic associated with dark chocolate.",
+        "mixology": "A deep, bittersweet, and intense cacao flavor."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SWEET",
+   "name_fr": "SUCRÉ",
+   "name_it": "DOLCE",
+   "name_es": "DULCE",
+   "color": "#cf4023",
+   "textColor": "#fff8ec",
+   "sub": [
+    {
+     "name": "Brown Sugar",
+     "name_fr": "Sucre Roux",
+     "name_it": "Zucchero di Canna",
+     "name_es": "Azúcar Morena",
+     "color": "#ba4836",
+     "descriptors": [
+      {
+       "name": "Molasses",
+       "name_fr": "Mélasse",
+       "name_it": "Melassa",
+       "slug": "sweet-brown-sugar-molasses",
+       "name_es": "Melaza",
+       "panel": {
+        "origin": "A dark, somewhat bitter, brown and sweet aromatic associated with molasses.",
+        "mixology": "A dark, heavy, and slightly bitter sweetness like treacle."
+       }
+      },
+      {
+       "name": "Maple Syrup",
+       "name_fr": "Sirop d'Érable",
+       "name_it": "Sciroppo d'Acero",
+       "slug": "sweet-brown-sugar-maple-syrup",
+       "name_es": "Miel de Maple",
+       "panel": {
+        "origin": "A sweet, brown, slightly woody aromatic associated with maple syrup.",
+        "mixology": "A rich, sticky, and fragrant sweetness exactly like pancake syrup."
+       }
+      },
+      {
+       "name": "Caramelized",
+       "name_fr": "Caramélisé",
+       "name_it": "Caramellato",
+       "slug": "sweet-brown-sugar-caramelized",
+       "name_es": "Caramelizado",
+       "panel": {
+        "origin": "A sweet, brown, slightly burnt aromatic associated with heated sugar.",
+        "mixology": "A rich, deep sweetness like caramel sauce or flan."
+       }
+      },
+      {
+       "name": "Honey",
+       "name_fr": "Miel",
+       "name_it": "Miele",
+       "slug": "sweet-brown-sugar-honey",
+       "name_es": "Miel",
+       "panel": {
+        "origin": "A sweet, slightly floral and brown aromatic associated with liquid honey.",
+        "mixology": "A thick, floral, and natural sweetness."
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sweet",
+     "name_fr": "Sucré",
+     "name_it": "Dolce",
+     "color": "#cf4023",
+     "descriptors": [
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "slug": "sweet-sweet-vanilla",
+       "name_es": "Vainilla",
+       "panel": {
+        "origin": "A sweet, somewhat woody and floral aromatic associated with vanilla beans.",
+        "mixology": "A rich, complex, and creamy baking spice sweetness."
+       }
+      },
+      {
+       "name": "Vanillin",
+       "name_fr": "Vanilline",
+       "name_it": "Vanillina",
+       "slug": "sweet-sweet-vanillin",
+       "name_es": "Vainillina",
+       "panel": {
+        "origin": "A highly specific, sweet, artificial aromatic associated with synthetic vanilla extract.",
+        "mixology": "A simple, sweet, marshmallow-like vanilla flavor."
+       }
+      },
+      {
+       "name": "Overall Sweet",
+       "name_fr": "Douceur Générale",
+       "name_it": "Dolcezza Generale",
+       "slug": "sweet-sweet-overall-sweet",
+       "name_es": "Dulzor General",
+       "panel": {
+        "origin": "The fundamental taste of sweetness, primarily driven by sucrose retention post-roast.",
+        "mixology": "A general, pleasant sensation of sugar on the tongue."
+       }
+      },
+      {
+       "name": "Sweet Aromatics",
+       "name_fr": "Arômes Doux",
+       "name_it": "Aromi Dolci",
+       "slug": "sweet-sweet-sweet-aromatics",
+       "name_es": "Aromas Dulces",
+       "panel": {
+        "origin": "An aromatic associated with the impression of a sweet substance without a specific character.",
+        "mixology": "A general sugary smell, like walking into a bakery or candy shop."
+       }
+      }
+     ],
+     "name_es": "Dulce"
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "FLORAL": {
+   "en": "Floral notes — jasmine, rose, chamomile — are prized in light-roast specialty coffees from high-altitude, washed-process beans; they fade quickly with darker roasting.",
+   "es": "Las notas florales — jazmín, rosa, manzanilla — son apreciadas en cafés de especialidad de tueste claro provenientes de granos de proceso lavado y gran altitud; se desvanecen rápido con un tueste más oscuro."
+  },
+  "FRUITY": {
+   "en": "Fruity notes — berries, citrus, stone fruit — come from sugars and acids in the coffee cherry, and are most pronounced in natural or honey-processed coffees and lighter roasts.",
+   "es": "Las notas afrutadas — bayas, cítricos, fruta de hueso — provienen de los azúcares y ácidos de la cereza del café, y son más pronunciadas en los procesos naturales o de miel y en los tuestes claros."
+  },
+  "SOUR/FERMENTED": {
+   "en": "Sour and fermented notes can be GOOD (bright, citric, winey — careful processing) or a FAULT (vinegar, rotten fruit — cherries that over-fermented before drying).",
+   "es": "Las notas ácidas y fermentadas pueden ser BUENAS (brillantes, cítricas, vinosas — un procesamiento cuidadoso) o un DEFECTO (vinagre, fruta podrida — cerezas que se sobrefermentaron antes del secado)."
+  },
+  "GREEN/VEGETATIVE": {
+   "en": "Green and vegetative notes — grassy, peapod, hay — usually signal underripe cherries or a light, underdeveloped roast.",
+   "es": "Las notas verdes y vegetales — pasto, vaina de chícharo, heno — suelen señalar cerezas inmaduras o un tueste claro y poco desarrollado."
+  },
+  "OTHER": {
+   "en": "This group covers FAULTS and off-notes — papery, musty, medicinal, rubbery — that point to storage problems, defective beans, or contamination.",
+   "es": "Este grupo cubre DEFECTOS y notas extrañas — papel, humedad, medicinal, hule — que apuntan a problemas de almacenamiento, granos defectuosos o contaminación."
+  },
+  "ROASTED": {
+   "en": "Roasted notes — smoke, ash, tobacco, malt — come directly from the roasting process itself; a heavier roasted character usually means a darker roast.",
+   "es": "Las notas tostadas — humo, ceniza, tabaco, malta — provienen directamente del propio proceso de tostado; un carácter tostado más intenso suele indicar un tueste más oscuro."
+  },
+  "SPICES": {
+   "en": "Spice notes — cinnamon, clove, pepper — are subtle aromatic compounds that show up most clearly in medium roasts, before being masked by heavier roast character.",
+   "es": "Las notas de especia — canela, clavo, pimienta — son compuestos aromáticos sutiles que se notan más claramente en los tuestes medios, antes de quedar enmascarados por un carácter de tueste más intenso."
+  },
+  "NUTTY/COCOA": {
+   "en": "Nutty and cocoa notes — almond, hazelnut, dark chocolate — are classic markers of a well-balanced medium roast, especially from Central and South American coffees.",
+   "es": "Las notas de frutos secos y cacao — almendra, avellana, chocolate amargo — son marcadores clásicos de un tueste medio bien equilibrado, especialmente en cafés de Centro y Sudamérica."
+  },
+  "SWEET": {
+   "en": "Sweet notes — caramel, honey, vanilla — come from sugars caramelizing during roasting (the Maillard reaction) and are a hallmark of high-quality, well-roasted coffee.",
+   "es": "Las notas dulces — caramelo, miel, vainilla — provienen de los azúcares que se caramelizan durante el tostado (la reacción de Maillard) y son un sello de un café de alta calidad bien tostado."
+  }
+ }
+}

@@ -1,0 +1,456 @@
+{
+ "title": "Wine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "White Wines"
+  },
+  {
+   "name": "Chardonnay",
+   "slug": "chardonnay",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Apple, Lemon, Pineapple"
+    },
+    {
+     "k": "Floral",
+     "v": "Honeysuckle"
+    },
+    {
+     "k": "Other",
+     "v": "Butter, Vanilla"
+    },
+    {
+     "k": "Profile",
+     "v": "Oak"
+    },
+    {
+     "k": "",
+     "v": "Full"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Roast chicken, creamy pasta, salmon"
+    }
+   ]
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "slug": "sauvignon-blanc",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Grapefruit, Lime, Passionfruit"
+    },
+    {
+     "k": "Floral",
+     "v": "Elderflower"
+    },
+    {
+     "k": "Other",
+     "v": "Grass, Herbs"
+    },
+    {
+     "k": "Profile",
+     "v": "No Oak"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Mineral"
+    },
+    {
+     "k": "Pairing",
+     "v": "Goat cheese, salads, oysters, fish tacos"
+    }
+   ]
+  },
+  {
+   "name": "Riesling",
+   "slug": "riesling",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Apricot, Nectarine, Lime"
+    },
+    {
+     "k": "Floral",
+     "v": "Jasmine"
+    },
+    {
+     "k": "Other",
+     "v": "Honey, Beeswax"
+    },
+    {
+     "k": "Profile",
+     "v": "No Oak"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Spicy food, Thai, pork, mild cheese"
+    }
+   ]
+  },
+  {
+   "name": "Pinot Grigio",
+   "slug": "pinot-grigio",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Lemon, Pear, White Peach"
+    },
+    {
+     "k": "Floral",
+     "v": "Honeysuckle"
+    },
+    {
+     "k": "Other",
+     "v": "Saline, Almond"
+    },
+    {
+     "k": "Profile",
+     "v": "No Oak"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Mineral"
+    },
+    {
+     "k": "Pairing",
+     "v": "Seafood, light pasta, grilled veggies"
+    }
+   ]
+  },
+  {
+   "cat": "Rosé"
+  },
+  {
+   "name": "Dry Rosé",
+   "slug": "dry-ros",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Strawberry, Watermelon, Peach"
+    },
+    {
+     "k": "Floral",
+     "v": "Rose Petal"
+    },
+    {
+     "k": "Other",
+     "v": "Citrus zest, Herbs"
+    },
+    {
+     "k": "Profile",
+     "v": "No Oak"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Almost anything — charcuterie, pizza, grilled fish, salads"
+    }
+   ],
+   "name_es": "Rosado Seco"
+  },
+  {
+   "cat": "Red Wines"
+  },
+  {
+   "name": "Pinot Noir",
+   "slug": "pinot-noir",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Cherry, Raspberry, Cranberry"
+    },
+    {
+     "k": "Floral",
+     "v": "Violet"
+    },
+    {
+     "k": "Other",
+     "v": "Mushroom, Earthy"
+    },
+    {
+     "k": "Profile",
+     "v": "Oak"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Mineral"
+    },
+    {
+     "k": "Pairing",
+     "v": "Salmon, duck, mushroom dishes, lamb"
+    }
+   ]
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "slug": "cabernet-sauvignon",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Blackcurrant, Blackberry, Black Cherry"
+    },
+    {
+     "k": "Floral",
+     "v": "Violet"
+    },
+    {
+     "k": "Other",
+     "v": "Cedar, Dark Chocolate"
+    },
+    {
+     "k": "Profile",
+     "v": "Oak"
+    },
+    {
+     "k": "",
+     "v": "Full"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Steak, burgers, lamb, aged cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Malbec",
+   "slug": "malbec",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Plum, Blackberry, Blueberry"
+    },
+    {
+     "k": "Floral",
+     "v": "Violet"
+    },
+    {
+     "k": "Other",
+     "v": "Cocoa, Mocha"
+    },
+    {
+     "k": "Profile",
+     "v": "Oak"
+    },
+    {
+     "k": "",
+     "v": "Full"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Burgers, BBQ, grilled meats, pizza"
+    }
+   ]
+  },
+  {
+   "name": "Sangiovese",
+   "slug": "sangiovese",
+   "rows": [
+    {
+     "k": "Fruit",
+     "v": "Tart Cherry, Red Plum, Strawberry"
+    },
+    {
+     "k": "Floral",
+     "v": "Rose"
+    },
+    {
+     "k": "Other",
+     "v": "Leather, Dried Herbs"
+    },
+    {
+     "k": "Profile",
+     "v": "Oak"
+    },
+    {
+     "k": "",
+     "v": "Medium"
+    },
+    {
+     "k": "",
+     "v": "Mineral"
+    },
+    {
+     "k": "Pairing",
+     "v": "Tomato-based pasta, pizza, Italian food"
+    }
+   ]
+  },
+  {
+   "cat": "Wine Cocktails"
+  },
+  {
+   "name": "Spritz (Aperol or Campari)",
+   "slug": "spritz-aperol-or-campari",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Prosecco, Aperitivo, Soda water"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "",
+     "v": "Bitter"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "Best when",
+     "v": "You want something light before dinner"
+    }
+   ]
+  },
+  {
+   "name": "Kir Royale",
+   "slug": "kir-royale",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Champagne or sparkling wine, Crème de Cassis"
+    },
+    {
+     "k": "",
+     "v": "Elegant"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Berry-forward"
+    },
+    {
+     "k": "Best when",
+     "v": "You want something celebratory and approachable"
+    }
+   ]
+  },
+  {
+   "name": "New York Sour",
+   "slug": "new-york-sour",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Whiskey, Lemon juice, Sugar, Red Wine float"
+    },
+    {
+     "k": "",
+     "v": "Rich"
+    },
+    {
+     "k": "",
+     "v": "Tart"
+    },
+    {
+     "k": "",
+     "v": "Visually Striking"
+    },
+    {
+     "k": "Best when",
+     "v": "You want to impress — most bars can make this"
+    }
+   ]
+  },
+  {
+   "name": "Sangria Casual",
+   "slug": "sangria-casual",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Red wine, Brandy, Orange juice, Fruit"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "",
+     "v": "Easy-drinking"
+    },
+    {
+     "k": "",
+     "v": "Crowd-pleasing"
+    },
+    {
+     "k": "Best when",
+     "v": "Casual dinner or making a batch at home"
+    }
+   ],
+   "name_es": "Sangría (Casual)"
+  },
+  {
+   "name": "Kalimotxo Casual / Home",
+   "slug": "kalimotxo-casual-home",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Red wine, Cola (equal parts)"
+    },
+    {
+     "k": "",
+     "v": "Sweet-Savory"
+    },
+    {
+     "k": "",
+     "v": "Simple"
+    },
+    {
+     "k": "",
+     "v": "Fun"
+    },
+    {
+     "k": "Best when",
+     "v": "At home — it's a cult classic, not a restaurant order"
+    }
+   ],
+   "name_es": "Kalimotxo (Casa)"
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "title": "Beer Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Beer Styles"
+  },
+  {
+   "name": "Lager / Pilsner",
+   "slug": "lager-pilsner",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh bread, crackers, light grass, subtle floral hops"
+    },
+    {
+     "k": "Pairing",
+     "v": "Pizza, fried foods, light salads"
+    },
+    {
+     "k": "Best for",
+     "v": "The most universally drinkable category — a safe order anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Wheat Beer",
+   "slug": "wheat-beer",
+   "rows": [
+    {
+     "k": "",
+     "v": "Banana, clove, vanilla, soft dough"
+    },
+    {
+     "k": "Pairing",
+     "v": "Brunch, light seafood, fruit salads"
+    },
+    {
+     "k": "Heads up",
+     "v": "The banana/clove notes come from the yeast strain, not added flavoring — totally natural and a hallmark of the style."
+    }
+   ],
+   "name_es": "Cerveza de Trigo"
+  },
+  {
+   "name": "Pale Ale",
+   "slug": "pale-ale",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grapefruit, citrus peel, pine, light floral"
+    },
+    {
+     "k": "Pairing",
+     "v": "Burgers, roast chicken, sharp cheeses"
+    },
+    {
+     "k": "Best for",
+     "v": "The natural next step from a Lager — a gentle introduction to hop character"
+    }
+   ]
+  },
+  {
+   "name": "IPA (India Pale Ale)",
+   "slug": "ipa-india-pale-ale",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mango, resin, orange peel, grapefruit"
+    },
+    {
+     "k": "Pairing",
+     "v": "Spicy curry, blue cheese, grilled meats"
+    },
+    {
+     "k": "Heads up",
+     "v": "\"West Coast\" IPAs are drier and more bitter; \"Hazy/New England\" IPAs are softer, juicier, and less bitter despite looking similar in ABV."
+    }
+   ]
+  },
+  {
+   "name": "Amber Ale",
+   "slug": "amber-ale",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel, toffee, biscuit, roasted nuts"
+    },
+    {
+     "k": "Pairing",
+     "v": "BBQ, roasted vegetables, mild cheddar"
+    },
+    {
+     "k": "Best for",
+     "v": "Malt-lovers who want flavor without much bitterness"
+    }
+   ]
+  },
+  {
+   "name": "Stout / Porter",
+   "slug": "stout-porter",
+   "rows": [
+    {
+     "k": "",
+     "v": "Coffee, dark chocolate, dark fruit, sometimes smoke"
+    },
+    {
+     "k": "Pairing",
+     "v": "Oysters, chocolate desserts, smoked meats"
+    },
+    {
+     "k": "Heads up",
+     "v": "Despite the dark color and rich flavor, most stouts are lower in ABV than people expect — Guinness is only about 4.2%."
+    }
+   ]
+  },
+  {
+   "cat": "Beer Cocktails & Usage"
+  },
+  {
+   "name": "Michelada",
+   "slug": "michelada",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Lager, lime juice, hot sauce, Worcestershire, salted rim"
+    },
+    {
+     "k": "",
+     "v": "Savory"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "Order tip",
+     "v": "A Mexican brunch staple — order it if you'd enjoy a Bloody Mary but with beer instead of vodka."
+    }
+   ]
+  },
+  {
+   "name": "Shandy / Radler",
+   "slug": "shandy-radler",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Lager or wheat beer, lemonade or citrus soda"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "",
+     "v": "Low-ABV"
+    },
+    {
+     "k": "Order tip",
+     "v": "A great hot-weather, low-alcohol option — common at European beer gardens."
+    }
+   ]
+  },
+  {
+   "name": "Black and Tan",
+   "slug": "black-and-tan",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Pale ale (bottom), stout floated on top"
+    },
+    {
+     "k": "",
+     "v": "Layered"
+    },
+    {
+     "k": "",
+     "v": "Rich"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "The float relies on density differences — a skilled bartender pours slowly over a spoon to keep the layers distinct."
+    }
+   ]
+  },
+  {
+   "name": "Snakebite",
+   "slug": "snakebite",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Lager, hard cider (roughly equal parts)"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Tart"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "Order tip",
+     "v": "Popular in UK pubs — a good option if you like beer but want something a bit lighter and tarter."
+    }
+   ]
+  },
+  {
+   "name": "Beer Float",
+   "slug": "beer-float",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Stout or porter, vanilla bean ice cream"
+    },
+    {
+     "k": "",
+     "v": "Dessert"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "",
+     "v": "Roasted"
+    },
+    {
+     "k": "Order tip",
+     "v": "Treat it like an adult root beer float — the roasted malt notes pair surprisingly well with vanilla ice cream."
+    }
+   ]
+  }
+ ]
+}

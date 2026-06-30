@@ -1,0 +1,620 @@
+{
+ "title": "Sparkling Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Champagne"
+  },
+  {
+   "name": "Brut Non-Vintage",
+   "rows": [
+    {
+     "k": "",
+     "v": "The house style — blended across years for consistency. Dry. The default Champagne."
+    }
+   ],
+   "name_es": "Brut sin Añada"
+  },
+  {
+   "name": "Rosé Champagne",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pink, from skin contact or adding red wine. Red-berry notes; food-friendly."
+    }
+   ],
+   "name_es": "Champagne Rosado"
+  },
+  {
+   "name": "Vintage Champagne",
+   "rows": [
+    {
+     "k": "",
+     "v": "Single great year, aged longer. More depth, more money."
+    }
+   ],
+   "name_es": "Champagne Millésimé"
+  },
+  {
+   "name": "Blanc de Blancs",
+   "rows": [
+    {
+     "k": "",
+     "v": "'White from whites' — 100% Chardonnay. Citrus, chalk, finesse."
+    }
+   ],
+   "name_es": "Blanc de Blancs"
+  },
+  {
+   "name": "Blanc de Noirs",
+   "rows": [
+    {
+     "k": "",
+     "v": "'White from blacks' — Pinot Noir/Meunier pressed pale. Rounder, fruitier."
+    }
+   ],
+   "name_es": "Blanc de Noirs"
+  },
+  {
+   "name": "Prestige Cuvée",
+   "rows": [
+    {
+     "k": "",
+     "v": "A house's top bottling (e.g. the flagship tête de cuvée). Long-aged, age-worthy."
+    }
+   ],
+   "name_es": "Cuvée Prestige"
+  },
+  {
+   "name": "Grower Champagne",
+   "rows": [
+    {
+     "k": "",
+     "v": "Made by the same estate that grows the grapes (RM on the label). Terroir-driven."
+    }
+   ],
+   "name_es": "Champagne de Viticultor"
+  },
+  {
+   "cat": "French (non-Champagne)"
+  },
+  {
+   "name": "Crémant d'Alsace",
+   "rows": [
+    {
+     "k": "",
+     "v": "Traditional-method sparkler from Alsace. Champagne method, friendlier price."
+    }
+   ],
+   "name_es": "Crémant d'Alsace"
+  },
+  {
+   "name": "Crémant de Loire",
+   "rows": [
+    {
+     "k": "",
+     "v": "Loire traditional-method; Chenin-based, bright and floral."
+    }
+   ],
+   "name_es": "Crémant de Loire"
+  },
+  {
+   "name": "Crémant de Bourgogne",
+   "rows": [
+    {
+     "k": "",
+     "v": "Burgundy's traditional-method bubbly; Chardonnay/Pinot Noir."
+    }
+   ],
+   "name_es": "Crémant de Bourgogne"
+  },
+  {
+   "name": "Crémant de Limoux",
+   "rows": [
+    {
+     "k": "",
+     "v": "From Limoux, often cited as France's oldest sparkling region."
+    }
+   ],
+   "name_es": "Crémant de Limoux"
+  },
+  {
+   "name": "Blanquette de Limoux",
+   "rows": [
+    {
+     "k": "",
+     "v": "Limoux's Mauzac-based historic sparkler."
+    }
+   ],
+   "name_es": "Blanquette de Limoux"
+  },
+  {
+   "name": "Pétillant Naturel",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Pét-Nat' — bottled before first fermentation finishes (méthode ancestrale). Cloudy, funky, trendy."
+    }
+   ],
+   "name_es": "Pétillant Naturel"
+  },
+  {
+   "cat": "Italian"
+  },
+  {
+   "name": "Prosecco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Tank-method, Glera grape. Light, fruity, floral. The world's casual bubbly."
+    }
+   ],
+   "name_es": "Prosecco"
+  },
+  {
+   "name": "Prosecco Superiore",
+   "rows": [
+    {
+     "k": "",
+     "v": "DOCG Prosecco from Conegliano-Valdobbiadene; finer than basic DOC."
+    }
+   ],
+   "name_es": "Prosecco Superiore"
+  },
+  {
+   "name": "Franciacorta",
+   "rows": [
+    {
+     "k": "",
+     "v": "Italy's traditional-method benchmark (Lombardy). Champagne-style depth."
+    }
+   ],
+   "name_es": "Franciacorta"
+  },
+  {
+   "name": "Asti Spumante",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweet, low-alcohol, Moscato; fully sparkling ('spumante')."
+    }
+   ],
+   "name_es": "Asti Spumante"
+  },
+  {
+   "name": "Moscato d'Asti",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gently fizzy ('frizzante'), sweet, low-alcohol Moscato."
+    }
+   ],
+   "name_es": "Moscato d'Asti"
+  },
+  {
+   "name": "Lambrusco",
+   "rows": [
+    {
+     "k": "",
+     "v": "Red (sometimes rosé) sparkling from Emilia; dry to sweet."
+    }
+   ],
+   "name_es": "Lambrusco"
+  },
+  {
+   "name": "Trentodoc",
+   "rows": [
+    {
+     "k": "",
+     "v": "Traditional-method from Trentino, mountain-grown."
+    }
+   ],
+   "name_es": "Trentodoc"
+  },
+  {
+   "cat": "Spanish & Iberian"
+  },
+  {
+   "name": "Cava",
+   "rows": [
+    {
+     "k": "",
+     "v": "Spain's traditional-method sparkler. Champagne method, value pricing."
+    }
+   ],
+   "name_es": "Cava"
+  },
+  {
+   "name": "Cava de Paraje Calificado",
+   "rows": [
+    {
+     "k": "",
+     "v": "Top single-estate Cava classification."
+    }
+   ],
+   "name_es": "Cava de Paraje Calificado"
+  },
+  {
+   "name": "Corpinnat",
+   "rows": [
+    {
+     "k": "",
+     "v": "Breakaway premium Penedès group; strict organic, hand-harvest rules."
+    }
+   ],
+   "name_es": "Corpinnat"
+  },
+  {
+   "cat": "New World"
+  },
+  {
+   "name": "California Sparkling",
+   "rows": [
+    {
+     "k": "",
+     "v": "Traditional-method from CA (often by Champagne houses). Ripe-fruited."
+    }
+   ],
+   "name_es": "Espumoso de California"
+  },
+  {
+   "name": "English Sparkling",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chalk soils like Champagne; crisp, high-acid traditional method."
+    }
+   ],
+   "name_es": "Espumoso Inglés"
+  },
+  {
+   "name": "Sekt",
+   "rows": [
+    {
+     "k": "",
+     "v": "German sparkling; quality varies from cheap tank to fine traditional."
+    }
+   ],
+   "name_es": "Sekt"
+  },
+  {
+   "name": "Cap Classique",
+   "rows": [
+    {
+     "k": "",
+     "v": "South Africa's traditional-method sparkling (the local name)."
+    }
+   ],
+   "name_es": "Cap Classique"
+  },
+  {
+   "name": "Tasmanian Sparkling",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cool-climate Australian traditional method; rising star."
+    }
+   ],
+   "name_es": "Espumoso de Tasmania"
+  },
+  {
+   "cat": "Production"
+  },
+  {
+   "name": "Traditional Method",
+   "rows": [
+    {
+     "k": "",
+     "v": "Second fermentation in the bottle (Champagne, Cava, Franciacorta). Fine, persistent bubbles + autolysis."
+    }
+   ],
+   "name_es": "Método Tradicional"
+  },
+  {
+   "name": "Tank (Charmat) Method",
+   "rows": [
+    {
+     "k": "",
+     "v": "Second fermentation in a tank (Prosecco). Fresh, fruity, fast, cheaper."
+    }
+   ],
+   "name_es": "Método Charmat (Tanque)"
+  },
+  {
+   "name": "Ancestral Method",
+   "rows": [
+    {
+     "k": "",
+     "v": "One fermentation, bottled before it finishes (Pét-Nat). Rustic."
+    }
+   ],
+   "name_es": "Método Ancestral"
+  },
+  {
+   "name": "Transfer Method",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bottle-fermented then disgorged via tank; a hybrid."
+    }
+   ],
+   "name_es": "Método de Transferencia"
+  },
+  {
+   "name": "Carbonation Method",
+   "rows": [
+    {
+     "k": "",
+     "v": "CO₂ injected (cheapest bulk fizz). Large, short-lived bubbles."
+    }
+   ],
+   "name_es": "Método de Carbonatación"
+  },
+  {
+   "cat": "Sweetness"
+  },
+  {
+   "name": "Brut",
+   "rows": [
+    {
+     "k": "",
+     "v": "The standard dry style (<12 g/L sugar). What most sparkling is."
+    }
+   ],
+   "name_es": "Brut"
+  },
+  {
+   "name": "Extra Dry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Confusingly, sweeter than Brut (12–17 g/L)."
+    }
+   ],
+   "name_es": "Extra Dry"
+  },
+  {
+   "name": "Brut Nature",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bone dry, zero dosage (0–3 g/L). Stark, mineral."
+    }
+   ],
+   "name_es": "Brut Nature"
+  },
+  {
+   "name": "Extra Brut",
+   "rows": [
+    {
+     "k": "",
+     "v": "Very dry (0–6 g/L), just above Brut Nature."
+    }
+   ],
+   "name_es": "Extra Brut"
+  },
+  {
+   "name": "Sec",
+   "rows": [
+    {
+     "k": "",
+     "v": "Off-dry/medium (17–32 g/L)."
+    }
+   ],
+   "name_es": "Sec"
+  },
+  {
+   "name": "Demi-Sec",
+   "rows": [
+    {
+     "k": "",
+     "v": "Noticeably sweet (32–50 g/L); dessert-friendly."
+    }
+   ],
+   "name_es": "Demi-Sec"
+  },
+  {
+   "name": "Doux",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sweetest (50+ g/L); rare."
+    }
+   ],
+   "name_es": "Doux"
+  },
+  {
+   "cat": "Service"
+  },
+  {
+   "name": "Serving Sparkling",
+   "rows": [
+    {
+     "k": "",
+     "v": "Serve cold (6–9°C); tulip/white-wine glass over a flute to capture aroma."
+    }
+   ],
+   "name_es": "Servir el Espumoso"
+  },
+  {
+   "name": "Dosage",
+   "rows": [
+    {
+     "k": "",
+     "v": "The sugar-wine added after disgorgement that sets sweetness level."
+    }
+   ],
+   "name_es": "Licor de Expedición (Dosage)"
+  },
+  {
+   "name": "Autolysis",
+   "rows": [
+    {
+     "k": "",
+     "v": "Yeast breakdown during bottle aging → brioche/bread/toast notes."
+    }
+   ],
+   "name_es": "Autólisis"
+  },
+  {
+   "name": "Riddling & Disgorgement",
+   "rows": [
+    {
+     "k": "",
+     "v": "Riddling collects the yeast in the neck; disgorgement ejects it."
+    }
+   ],
+   "name_es": "Removido y Degüelle"
+  },
+  {
+   "name": "Mousse & Bead",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Mousse' = the foam; 'bead' = the bubble stream. Fine bead = quality cue."
+    }
+   ],
+   "name_es": "Espuma y Burbuja"
+  },
+  {
+   "cat": "Aromas — Fruit"
+  },
+  {
+   "name": "Citrus (Lemon, Lime, Grapefruit)",
+   "rows": [
+    {
+     "k": "",
+     "v": "The classic young-Champagne high notes. Bright, zesty."
+    }
+   ],
+   "name_es": "Cítricos (limón, lima, pomelo)"
+  },
+  {
+   "name": "Orchard (Green Apple, Pear)",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crisp apple and pear — the fruit backbone of most sparkling."
+    }
+   ],
+   "name_es": "Fruta de huerto (manzana verde, pera)"
+  },
+  {
+   "name": "Stone & Tropical (Peach, Apricot, Pineapple)",
+   "rows": [
+    {
+     "k": "",
+     "v": "Riper-fruit notes from warmer years or more Pinot."
+    }
+   ],
+   "name_es": "Hueso y tropical (melocotón, albaricoque, piña)"
+  },
+  {
+   "cat": "Aromas — Floral"
+  },
+  {
+   "name": "White Flowers & Honeysuckle",
+   "rows": [
+    {
+     "k": "",
+     "v": "Delicate floral lift, often in Chardonnay-led wines."
+    }
+   ],
+   "name_es": "Flores blancas y madreselva"
+  },
+  {
+   "cat": "Aromas — Autolysis"
+  },
+  {
+   "name": "Brioche, Toast & Bread",
+   "rows": [
+    {
+     "k": "",
+     "v": "The signature bottle-aged Champagne smell, from autolysis. Tells you it's traditional-method."
+    }
+   ],
+   "name_es": "Brioche, tostada y pan"
+  },
+  {
+   "name": "Biscuit, Pastry & Cream",
+   "rows": [
+    {
+     "k": "",
+     "v": "Deeper baked, creamy autolytic notes from longer aging."
+    }
+   ],
+   "name_es": "Galleta, pastelería y crema"
+  },
+  {
+   "cat": "Aromas — Age"
+  },
+  {
+   "name": "Honey & Dried Fruit",
+   "rows": [
+    {
+     "k": "",
+     "v": "Quince, marmalade, dried apricot — older, evolved wines."
+    }
+   ],
+   "name_es": "Miel y fruta seca"
+  },
+  {
+   "name": "Nutty & Oxidative (Almond, Coffee, Caramel)",
+   "rows": [
+    {
+     "k": "",
+     "v": "Long-aged or oxidative styles; mature complexity."
+    }
+   ],
+   "name_es": "Frutos secos y oxidativo (almendra, café, caramelo)"
+  },
+  {
+   "cat": "Aromas — Mineral"
+  },
+  {
+   "name": "Chalk, Flint & Wet Stone",
+   "rows": [
+    {
+     "k": "",
+     "v": "The mineral/saline 'tension' of great Champagne terroir."
+    }
+   ],
+   "name_es": "Tiza, pedernal y piedra mojada"
+  },
+  {
+   "cat": "Aromas — Structure"
+  },
+  {
+   "name": "Mousse Texture (Fine vs Aggressive)",
+   "rows": [
+    {
+     "k": "",
+     "v": "How the bubbles feel — fine creamy mousse = quality; harsh fizz = lesser."
+    }
+   ],
+   "name_es": "Textura de la espuma (fina vs. agresiva)"
+  },
+  {
+   "cat": "Aromas — Faults"
+  },
+  {
+   "name": "Faults (Cork Taint, Oxidation, Reduction)",
+   "rows": [
+    {
+     "k": "",
+     "v": "TCA musty cardboard, flat sherry-like oxidation, struck-match reduction."
+    }
+   ],
+   "name_es": "Defectos (gusto a corcho, oxidación, reducción)"
+  },
+  {
+   "name": "Light-Strike & Lost Fizz",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Goût de lumière' from light damage; flatness from a bad cork."
+    }
+   ],
+   "name_es": "Golpe de luz y pérdida de burbuja"
+  }
+ ]
+}

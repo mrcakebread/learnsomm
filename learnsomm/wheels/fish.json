@@ -1,0 +1,1058 @@
+{
+ "title": "Fish",
+ "subject": "fish",
+ "categories": [
+  {
+   "name": "MILD WHITE FISH",
+   "name_fr": "Poissons Blancs Doux",
+   "name_it": "Pesci Bianchi Delicati",
+   "name_es": "PESCADOS BLANCOS SUAVES",
+   "color": "#cdbf8e",
+   "sub": [
+    {
+     "name": "MILD WHITE FISH",
+     "name_fr": "Poissons Blancs Doux",
+     "name_it": "Pesci Bianchi Delicati",
+     "name_es": "PESCADOS BLANCOS SUAVES",
+     "color": "#cdbf8e",
+     "descriptors": [
+      {
+       "name": "Cod",
+       "name_fr": "Morue",
+       "name_it": "Merluzzo",
+       "name_es": "Bacalao",
+       "slug": "cod",
+       "panel": {
+        "origin": "Mild, clean, and slightly sweet; large flakes, lean and versatile.",
+        "origin_es": "Suave, limpio y ligeramente dulce; lascas grandes, magro y versátil.",
+        "chemistry": "A cold-water saltwater fish of the cod family (Atlantic and Pacific cod).",
+        "chemistry_es": "Un pescado de mar y agua fría de la familia del bacalao (Atlántico y Pacífico).",
+        "pairing": "Sauvignon Blanc, Pinot Grigio, Albariño; lemon, herbs, brown butter.",
+        "pairing_es": "Sauvignon Blanc, Pinot Grigio, Albariño; limón, hierbas, mantequilla tostada.",
+        "mixology": "The classic fish-and-chips fish; also baked, poached, or roasted.",
+        "mixology_es": "El pescado clásico de fish-and-chips; también al horno, escalfado o asado.",
+        "examples": "America's first industrial fishery; thick filets soak up any flavor.",
+        "examples_es": "La primera pesquería industrial de EE. UU.; los filetes gruesos absorben cualquier sabor."
+       }
+      },
+      {
+       "name": "Haddock",
+       "name_fr": "Églefin",
+       "name_it": "Eglefino",
+       "name_es": "Eglefino",
+       "slug": "haddock",
+       "panel": {
+        "origin": "Mild and slightly sweet, a touch firmer than cod.",
+        "origin_es": "Suave y ligeramente dulce, un punto más firme que el bacalao.",
+        "chemistry": "A cod-family saltwater fish of the North Atlantic.",
+        "chemistry_es": "Un pescado de mar de la familia del bacalao, del Atlántico Norte.",
+        "pairing": "Crisp white, dry cider, pale ale; lemon, parsley, malt vinegar.",
+        "pairing_es": "Blanco nítido, sidra seca, pale ale; limón, perejil, vinagre de malta.",
+        "mixology": "Battered and fried, baked, or smoked (finnan haddie).",
+        "mixology_es": "Rebozado y frito, al horno o ahumado (finnan haddie).",
+        "examples": "The northern British favorite for fish-and-chips; smokes beautifully.",
+        "examples_es": "El favorito del norte británico para el fish-and-chips; se ahuma de maravilla."
+       }
+      },
+      {
+       "name": "Alaskan Pollock",
+       "name_fr": "Lieu de l'Alaska",
+       "name_it": "Merluzzo dell'Alaska",
+       "name_es": "Abadejo de Alaska",
+       "slug": "pollock",
+       "panel": {
+        "origin": "Very mild and neutral; soft, fine flakes.",
+        "origin_es": "Muy suave y neutro; lascas finas y blandas.",
+        "chemistry": "A cold-water cod-family fish; America's largest wild fishery by volume.",
+        "chemistry_es": "Un pescado de agua fría de la familia del bacalao; la mayor pesquería salvaje de EE. UU. por volumen.",
+        "pairing": "Light white, lager; tartar sauce, lemon.",
+        "pairing_es": "Blanco ligero, lager; salsa tártara, limón.",
+        "mixology": "The fish in fish sticks, fast-food sandwiches, and imitation crab.",
+        "mixology_es": "El pescado de los palitos de pescado, los sándwiches de comida rápida y el surimi.",
+        "examples": "Sustainably managed; you've eaten it without knowing it.",
+        "examples_es": "Gestionado de forma sostenible; lo has comido sin saberlo."
+       }
+      },
+      {
+       "name": "Tilapia",
+       "name_fr": "Tilapia",
+       "name_it": "Tilapia",
+       "name_es": "Tilapia",
+       "slug": "tilapia",
+       "panel": {
+        "origin": "Extremely mild, almost neutral; the 'aquatic chicken.'",
+        "origin_es": "Extremadamente suave, casi neutro; el 'pollo acuático'.",
+        "chemistry": "A farmed freshwater fish, widely imported and very affordable.",
+        "chemistry_es": "Un pescado de agua dulce de cultivo, muy importado y económico.",
+        "pairing": "Whatever the seasoning calls for — light white, lager; lemon, spice rubs.",
+        "pairing_es": "Lo que pida el aliño — blanco ligero, lager; limón, mezclas de especias.",
+        "mixology": "Fries, bakes, or air-fries; takes on any seasoning.",
+        "mixology_es": "Se fríe, se hornea o va en freidora de aire; admite cualquier condimento.",
+        "examples": "Cheap and ubiquitous; a confidence-builder for new cooks, often bland on its own.",
+        "examples_es": "Barata y omnipresente; ideal para cocineros principiantes, sosa por sí sola."
+       }
+      },
+      {
+       "name": "Pangasius (Swai)",
+       "name_fr": "Pangasius (Swai)",
+       "name_it": "Pangasio (Swai)",
+       "name_es": "Pangasius (Swai)",
+       "slug": "pangasius",
+       "panel": {
+        "origin": "Mild and neutral, much like tilapia; soft texture.",
+        "origin_es": "Suave y neutro, muy parecido a la tilapia; textura blanda.",
+        "chemistry": "A farmed river catfish (swai/basa) from Southeast Asia.",
+        "chemistry_es": "Un bagre de río de cultivo (swai/basa) del Sudeste Asiático.",
+        "pairing": "Light white, lager; garlic, lemon, tartar sauce.",
+        "pairing_es": "Blanco ligero, lager; ajo, limón, salsa tártara.",
+        "mixology": "Usually fried or pan-seared; an economical everyday fish.",
+        "mixology_es": "Normalmente frito o a la sartén; un pescado económico de cada día.",
+        "examples": "A fast-growing import; sold as swai or basa.",
+        "examples_es": "Una importación en auge; se vende como swai o basa."
+       }
+      },
+      {
+       "name": "Whiting",
+       "name_fr": "Merlan",
+       "name_it": "Merlano",
+       "name_es": "Pescadilla",
+       "slug": "whiting",
+       "panel": {
+        "origin": "Mild and delicate with a soft, fine flake.",
+        "origin_es": "Suave y delicada, de lasca fina y blanda.",
+        "chemistry": "The smallest cod-family fish.",
+        "chemistry_es": "El pez más pequeño de la familia del bacalao.",
+        "pairing": "Crisp white, sparkling; lemon, herbs, light frying.",
+        "pairing_es": "Blanco nítido, espumoso; limón, hierbas, fritura ligera.",
+        "mixology": "Often fried whole or as small filets; quick-cooking.",
+        "mixology_es": "A menudo frita entera o en filetes pequeños; de cocción rápida.",
+        "examples": "A small, versatile, budget-friendly cod cousin; great whole-grilled.",
+        "examples_es": "Una prima pequeña y económica del bacalao; estupenda entera a la parrilla."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLATFISH",
+   "name_fr": "Poissons Plats",
+   "name_it": "Pesci Piatti",
+   "name_es": "PESCADOS PLANOS",
+   "color": "#bba775",
+   "sub": [
+    {
+     "name": "FLATFISH",
+     "name_fr": "Poissons Plats",
+     "name_it": "Pesci Piatti",
+     "name_es": "PESCADOS PLANOS",
+     "color": "#bba775",
+     "descriptors": [
+      {
+       "name": "Halibut",
+       "name_fr": "Flétan",
+       "name_it": "Halibut",
+       "name_es": "Halibut (Fletán)",
+       "slug": "halibut",
+       "panel": {
+        "origin": "Mild, clean, and slightly sweet; firm, meaty, and lean.",
+        "origin_es": "Suave, limpio y ligeramente dulce; firme, carnoso y magro.",
+        "chemistry": "A large cold-water flatfish of the North Pacific and Atlantic; can top 100 lb.",
+        "chemistry_es": "Un pez plano grande de agua fría del Pacífico y el Atlántico norte; puede pasar de 45 kg.",
+        "pairing": "White Burgundy, Chardonnay, dry Riesling; lemon, capers, herb butter.",
+        "pairing_es": "Borgoña blanco, Chardonnay, Riesling seco; limón, alcaparras, mantequilla de hierbas.",
+        "mixology": "Grill, pan-sear, roast, or poach; lean, so don't overcook.",
+        "mixology_es": "A la parrilla, sellado, asado o escalfado; magro, así que no lo pases.",
+        "examples": "'The steak of the sea' — firm enough to satisfy meat-eaters.",
+        "examples_es": "'El bistec del mar' — lo bastante firme para satisfacer a los carnívoros."
+       }
+      },
+      {
+       "name": "Flounder",
+       "name_fr": "Flet",
+       "name_it": "Passera",
+       "name_es": "Platija",
+       "slug": "flounder",
+       "panel": {
+        "origin": "Very mild and delicate; thin, tender flakes.",
+        "origin_es": "Muy suave y delicada; lascas finas y tiernas.",
+        "chemistry": "A small saltwater flatfish.",
+        "chemistry_es": "Un pez plano de mar y tamaño pequeño.",
+        "pairing": "Crisp white, sparkling; lemon, butter, light herbs.",
+        "pairing_es": "Blanco nítido, espumoso; limón, mantequilla, hierbas suaves.",
+        "mixology": "Pan-fried, baked, or stuffed; thin filets cook fast.",
+        "mixology_es": "A la sartén, al horno o rellena; los filetes finos se hacen rápido.",
+        "examples": "Delicate and quick; easily overpowered, so keep it simple.",
+        "examples_es": "Delicada y rápida; se opaca con facilidad, así que mantenla sencilla."
+       }
+      },
+      {
+       "name": "Sole",
+       "name_fr": "Sole",
+       "name_it": "Sogliola",
+       "name_es": "Lenguado",
+       "slug": "sole",
+       "panel": {
+        "origin": "Mild, sweet, and refined; a delicate flake.",
+        "origin_es": "Suave, dulce y refinado; lasca delicada.",
+        "chemistry": "A prized flatfish; true Dover sole is the gold standard.",
+        "chemistry_es": "Un pez plano apreciado; el auténtico lenguado de Dover es el referente.",
+        "pairing": "Chablis, white Burgundy, Champagne; brown butter, lemon (meunière).",
+        "pairing_es": "Chablis, Borgoña blanco, Champagne; mantequilla tostada, limón (meunière).",
+        "mixology": "Classically sautéed à la meunière; gentle, quick cooking.",
+        "mixology_es": "Clásicamente salteado à la meunière; cocción suave y rápida.",
+        "examples": "Sole meunière is a French bistro icon; delicate and elegant.",
+        "examples_es": "El lenguado meunière es un icono de bistró francés; delicado y elegante."
+       }
+      },
+      {
+       "name": "Turbot",
+       "name_fr": "Turbot",
+       "name_it": "Rombo",
+       "name_es": "Rodaballo",
+       "slug": "turbot",
+       "panel": {
+        "origin": "Mild and refined with a firm, gelatinous richness.",
+        "origin_es": "Suave y refinado, con una riqueza firme y gelatinosa.",
+        "chemistry": "A prized European flatfish.",
+        "chemistry_es": "Un pez plano europeo muy apreciado.",
+        "pairing": "White Burgundy, Champagne; beurre blanc, lemon.",
+        "pairing_es": "Borgoña blanco, Champagne; beurre blanc, limón.",
+        "mixology": "Poached, roasted on the bone, or pan-seared; holds its shape.",
+        "mixology_es": "Escalfado, asado con espina o sellado; mantiene la forma.",
+        "examples": "One of Europe's most esteemed flatfish; firmer than sole.",
+        "examples_es": "Uno de los peces planos más estimados de Europa; más firme que el lenguado."
+       }
+      },
+      {
+       "name": "Plaice",
+       "name_fr": "Plie",
+       "name_it": "Platessa",
+       "name_es": "Solla",
+       "slug": "plaice",
+       "panel": {
+        "origin": "Mild and sweet with a soft, fine texture.",
+        "origin_es": "Suave y dulce, de textura fina y blanda.",
+        "chemistry": "A North Atlantic flatfish with orange-spotted skin.",
+        "chemistry_es": "Un pez plano del Atlántico Norte con piel de manchas naranjas.",
+        "pairing": "Crisp white, dry cider; lemon, butter, light breading.",
+        "pairing_es": "Blanco nítido, sidra seca; limón, mantequilla, rebozado ligero.",
+        "mixology": "Pan-fried or grilled; cooks fast like other thin flatfish.",
+        "mixology_es": "A la sartén o parrilla; se hace rápido como otros peces planos finos.",
+        "examples": "A European everyday flatfish; mild and easy.",
+        "examples_es": "Un pez plano europeo de diario; suave y fácil."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FIRM & MEATY FISH",
+   "name_fr": "Poissons Fermes & Charnus",
+   "name_it": "Pesci Sodi & Carnosi",
+   "name_es": "PESCADOS FIRMES Y CARNOSOS",
+   "color": "#b8835f",
+   "sub": [
+    {
+     "name": "FIRM & MEATY FISH",
+     "name_fr": "Poissons Fermes & Charnus",
+     "name_it": "Pesci Sodi & Carnosi",
+     "name_es": "PESCADOS FIRMES Y CARNOSOS",
+     "color": "#b8835f",
+     "descriptors": [
+      {
+       "name": "Swordfish",
+       "name_fr": "Espadon",
+       "name_it": "Pesce Spada",
+       "name_es": "Pez Espada",
+       "slug": "swordfish",
+       "panel": {
+        "origin": "Rich, meaty, and mildly sweet; steak-like, not overly fishy.",
+        "origin_es": "Rico, carnoso y ligeramente dulce; como un bistec, sin exceso de sabor a pescado.",
+        "chemistry": "A large oily saltwater game fish.",
+        "chemistry_es": "Un gran pez de caza, graso y de mar.",
+        "pairing": "Full-bodied white or medium red; rosemary, tomato, lemon, grilled.",
+        "pairing_es": "Blanco con cuerpo o tinto medio; romero, tomate, limón, a la parrilla.",
+        "mixology": "Best grilled or roasted as steaks; firm enough not to fall apart.",
+        "mixology_es": "Mejor a la parrilla o asado en filetes gruesos; firme, no se deshace.",
+        "examples": "The closest fish to a beef steak; a meat-lover's seafood.",
+        "examples_es": "El pescado más parecido a un bistec; marisco para amantes de la carne."
+       }
+      },
+      {
+       "name": "Mahi-Mahi",
+       "name_fr": "Coryphène (Mahi-Mahi)",
+       "name_it": "Lampuga (Mahi-Mahi)",
+       "name_es": "Mahi-Mahi (Dorado)",
+       "slug": "mahi-mahi",
+       "panel": {
+        "origin": "Mild and slightly sweet; firm but with a flake.",
+        "origin_es": "Suave y ligeramente dulce; firme pero con lasca.",
+        "chemistry": "A colorful warm-water fish (also dorado/dolphinfish; unrelated to dolphins).",
+        "chemistry_es": "Un pez colorido de agua cálida (también dorado; sin relación con los delfines).",
+        "pairing": "Dry rosé, Sauvignon Blanc, off-dry Riesling; mango/citrus salsa, spice rubs.",
+        "pairing_es": "Rosado seco, Sauvignon Blanc, Riesling semiseco; salsa de mango/cítricos, especias.",
+        "mixology": "Grilled or pan-seared; lean, so don't overcook.",
+        "mixology_es": "A la parrilla o sellado; magro, así que no lo pases.",
+        "examples": "Tropical and forgiving; great for tacos and fruit salsas.",
+        "examples_es": "Tropical e indulgente; ideal para tacos y salsas de fruta."
+       }
+      },
+      {
+       "name": "Grouper",
+       "name_fr": "Mérou",
+       "name_it": "Cernia",
+       "name_es": "Mero",
+       "slug": "grouper",
+       "panel": {
+        "origin": "Mild and sweet; large, firm, moist flakes.",
+        "origin_es": "Suave y dulce; lascas grandes, firmes y jugosas.",
+        "chemistry": "A warm-water fish, a Gulf Coast treasure.",
+        "chemistry_es": "Un pez de agua cálida, un tesoro de la Costa del Golfo.",
+        "pairing": "Crisp white, dry rosé, light lager; blackening spice, citrus.",
+        "pairing_es": "Blanco nítido, rosado seco, lager ligera; especia para 'blackening', cítricos.",
+        "mixology": "Grilled, blackened, or baked; great for sandwiches.",
+        "mixology_es": "A la parrilla, 'blackened' o al horno; ideal para sándwiches.",
+        "examples": "Holds up to bold blackening spice without tasting fishy.",
+        "examples_es": "Aguanta la especia potente del 'blackening' sin saber a pescado."
+       }
+      },
+      {
+       "name": "Monkfish",
+       "name_fr": "Lotte",
+       "name_it": "Rana Pescatrice",
+       "name_es": "Rape",
+       "slug": "monkfish",
+       "panel": {
+        "origin": "Sweet and lobster-like; dense, firm, and meaty.",
+        "origin_es": "Dulce y parecido a la langosta; denso, firme y carnoso.",
+        "chemistry": "A bottom-dwelling saltwater fish; the tail is the prized cut.",
+        "chemistry_es": "Un pez de fondo y de mar; la cola es la pieza preciada.",
+        "pairing": "White Burgundy, dry rosé, light red; garlic, white wine, tomato.",
+        "pairing_es": "Borgoña blanco, rosado seco, tinto ligero; ajo, vino blanco, tomate.",
+        "mixology": "Roast, grill, or stew; firm enough to hold up in braises.",
+        "mixology_es": "Asado, a la parrilla o guisado; firme, aguanta en los guisos.",
+        "examples": "'Poor man's lobster'; homely fish, luxurious texture.",
+        "examples_es": "'La langosta del pobre'; pez feo, textura lujosa."
+       }
+      },
+      {
+       "name": "Branzino (Sea Bass)",
+       "name_fr": "Bar (Loup de Mer)",
+       "name_it": "Branzino (Spigola)",
+       "name_es": "Branzino (Lubina)",
+       "slug": "branzino",
+       "panel": {
+        "origin": "Delicate, sweet, and clean; firm white flesh.",
+        "origin_es": "Delicada, dulce y limpia; carne blanca y firme.",
+        "chemistry": "European sea bass of the Mediterranean; usually served whole.",
+        "chemistry_es": "Lubina europea del Mediterráneo; normalmente servida entera.",
+        "pairing": "Vermentino, Verdejo, dry white; lemon, olive oil, herbs, fennel.",
+        "pairing_es": "Vermentino, Verdejo, blanco seco; limón, aceite de oliva, hierbas, hinojo.",
+        "mixology": "Roasted or grilled whole; the skin crisps, the bones lift out easily.",
+        "mixology_es": "Asada o a la parrilla entera; la piel queda crujiente y las espinas salen fácil.",
+        "examples": "A Mediterranean centerpiece; approachable even for fish novices.",
+        "examples_es": "Una pieza central mediterránea; accesible incluso para principiantes."
+       }
+      },
+      {
+       "name": "Chilean Sea Bass",
+       "name_fr": "Légine Australe",
+       "name_it": "Spigola Cilena",
+       "name_es": "Mero Chileno (Merluza Negra)",
+       "slug": "chilean-sea-bass",
+       "panel": {
+        "origin": "Rich, buttery, and luxurious; melts in the mouth.",
+        "origin_es": "Rico, mantecoso y lujoso; se deshace en la boca.",
+        "chemistry": "Actually the Patagonian toothfish, a deep cold-water fish.",
+        "chemistry_es": "En realidad la merluza negra (Patagonian toothfish), un pez de aguas frías profundas.",
+        "pairing": "Oaked Chardonnay, white Burgundy; miso glaze, citrus, ginger.",
+        "pairing_es": "Chardonnay con barrica, Borgoña blanco; glaseado de miso, cítricos, jengibre.",
+        "mixology": "Miso-glazed and broiled, roasted, or pan-seared; very forgiving.",
+        "mixology_es": "Glaseado de miso y gratinado, asado o sellado; muy indulgente.",
+        "examples": "Renamed from 'toothfish' to sell; choose well-managed sources.",
+        "examples_es": "Renombrado desde 'toothfish' para venderlo; elige orígenes bien gestionados."
+       }
+      },
+      {
+       "name": "Red Snapper",
+       "name_fr": "Vivaneau Rouge",
+       "name_it": "Pagro Rosso",
+       "name_es": "Pargo Rojo (Huachinango)",
+       "slug": "red-snapper",
+       "panel": {
+        "origin": "Mild and slightly sweet; firm flesh, striking red skin.",
+        "origin_es": "Suave y ligeramente dulce; carne firme, piel roja llamativa.",
+        "chemistry": "A warm-water saltwater fish.",
+        "chemistry_es": "Un pez de mar y agua cálida.",
+        "pairing": "Dry rosé, Albariño, crisp white; lime, chili, ginger, Caribbean spice.",
+        "pairing_es": "Rosado seco, Albariño, blanco nítido; lima, chile, jengibre, especia caribeña.",
+        "mixology": "Grilled, pan-seared, or roasted whole; takes global flavors well.",
+        "mixology_es": "A la parrilla, sellado o asado entero; admite bien sabores del mundo.",
+        "examples": "Versatile and showy; great Caribbean-, Mexican-, or Asian-style.",
+        "examples_es": "Versátil y vistoso; estupendo al estilo caribeño, mexicano o asiático."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OILY & PELAGIC FISH",
+   "name_fr": "Poissons Gras & Pélagiques",
+   "name_it": "Pesci Grassi & Pelagici",
+   "name_es": "PESCADOS GRASOS Y PELÁGICOS",
+   "color": "#5a8a9a",
+   "sub": [
+    {
+     "name": "OILY & PELAGIC FISH",
+     "name_fr": "Poissons Gras & Pélagiques",
+     "name_it": "Pesci Grassi & Pelagici",
+     "name_es": "PESCADOS GRASOS Y PELÁGICOS",
+     "color": "#5a8a9a",
+     "descriptors": [
+      {
+       "name": "Mackerel",
+       "name_fr": "Maquereau",
+       "name_it": "Sgombro",
+       "name_es": "Caballa",
+       "slug": "mackerel",
+       "panel": {
+        "origin": "Bold, rich, and oily; pronounced and savory.",
+        "origin_es": "Intensa, rica y grasa; pronunciada y sabrosa.",
+        "chemistry": "An oily open-ocean (pelagic) fish; Atlantic mackerel is low-mercury.",
+        "chemistry_es": "Un pez graso de mar abierto (pelágico); la caballa atlántica es baja en mercurio.",
+        "pairing": "Dry Riesling, Muscadet, fino sherry; lemon, vinegar, olive oil.",
+        "pairing_es": "Riesling seco, Muscadet, jerez fino; limón, vinagre, aceite de oliva.",
+        "mixology": "Best grilled, smoked, or pickled; the fat needs bold treatment.",
+        "mixology_es": "Mejor a la parrilla, ahumada o en escabeche; la grasa pide mano firme.",
+        "examples": "Omega-3-rich and heart-healthy; sublime simply grilled with olive oil.",
+        "examples_es": "Rica en omega-3 y buena para el corazón; sublime a la parrilla con aceite de oliva."
+       }
+      },
+      {
+       "name": "Sardine",
+       "name_fr": "Sardine",
+       "name_it": "Sardina",
+       "name_es": "Sardina",
+       "slug": "sardine",
+       "panel": {
+        "origin": "Rich and savory but milder than anchovy; oily and meaty.",
+        "origin_es": "Rica y sabrosa pero más suave que la anchoa; grasa y carnosa.",
+        "chemistry": "A small oily pelagic fish, very sustainable.",
+        "chemistry_es": "Un pez pequeño, graso y pelágico, muy sostenible.",
+        "pairing": "Vinho Verde, cava, dry rosé; lemon, olive oil, grilled bread.",
+        "pairing_es": "Vinho Verde, cava, rosado seco; limón, aceite de oliva, pan a la brasa.",
+        "mixology": "Grilled fresh, or canned; fresh ones are a revelation.",
+        "mixology_es": "A la parrilla fresca, o enlatada; las frescas son una revelación.",
+        "examples": "Packed with omega-3s, calcium, and B12; fresh ≠ canned.",
+        "examples_es": "Llena de omega-3, calcio y B12; fresca ≠ enlatada."
+       }
+      },
+      {
+       "name": "Anchovy",
+       "name_fr": "Anchois",
+       "name_it": "Acciuga",
+       "name_es": "Anchoa (Boquerón)",
+       "slug": "anchovy",
+       "panel": {
+        "origin": "Intensely salty, savory, and umami; bold straight from the tin.",
+        "origin_es": "Intensamente salada, sabrosa y umami; potente directa de la lata.",
+        "chemistry": "A tiny oily pelagic fish, usually salt-cured or oil-packed.",
+        "chemistry_es": "Un pez diminuto, graso y pelágico, normalmente curado en sal o en aceite.",
+        "pairing": "Cava, dry rosé, fino; melts into pasta, dressings, pizza.",
+        "pairing_es": "Cava, rosado seco, fino; se funde en pasta, aliños, pizza.",
+        "mixology": "Cooked down into sauces for umami, or served as a cured fillet.",
+        "mixology_es": "Disuelta en salsas para dar umami, o servida como filete curado.",
+        "examples": "Sustainable and flavor-packed; the secret to Caesar and puttanesca.",
+        "examples_es": "Sostenible y llena de sabor; el secreto de la César y la puttanesca."
+       }
+      },
+      {
+       "name": "Herring",
+       "name_fr": "Hareng",
+       "name_it": "Aringa",
+       "name_es": "Arenque",
+       "slug": "herring",
+       "panel": {
+        "origin": "Bold, rich, and oily; intense, especially smoked or pickled.",
+        "origin_es": "Intenso, rico y graso; potente, sobre todo ahumado o en escabeche.",
+        "chemistry": "A small oily pelagic fish of the North Atlantic.",
+        "chemistry_es": "Un pez pequeño, graso y pelágico del Atlántico Norte.",
+        "pairing": "Aquavit, dry Riesling, lager; onion, dill, mustard, rye bread.",
+        "pairing_es": "Aquavit, Riesling seco, lager; cebolla, eneldo, mostaza, pan de centeno.",
+        "mixology": "Pickled or smoked (kippers); rarely served plain.",
+        "mixology_es": "En escabeche o ahumado (kippers); rara vez se sirve al natural.",
+        "examples": "A Northern European staple; pickling tames the oiliness.",
+        "examples_es": "Un básico del norte de Europa; el escabeche domestica la grasa."
+       }
+      },
+      {
+       "name": "Bluefish",
+       "name_fr": "Tassergal",
+       "name_it": "Pesce Serra",
+       "name_es": "Anjova",
+       "slug": "bluefish",
+       "panel": {
+        "origin": "Rich, full, and oily with a strong flavor; soft when fresh.",
+        "origin_es": "Rica, plena y grasa, de sabor fuerte; blanda cuando está fresca.",
+        "chemistry": "An oily pelagic game fish of the Atlantic.",
+        "chemistry_es": "Un pez de caza graso y pelágico del Atlántico.",
+        "pairing": "Dry Riesling, rosé, lager; lemon, tomato, bold herbs.",
+        "pairing_es": "Riesling seco, rosado, lager; limón, tomate, hierbas potentes.",
+        "mixology": "Best grilled or broiled very fresh; eat it the day it's caught.",
+        "mixology_es": "Mejor a la parrilla o gratinada muy fresca; cómela el día de la captura.",
+        "examples": "Highly perishable; superb fresh, declines fast.",
+        "examples_es": "Muy perecedera; soberbia fresca, decae rápido."
+       }
+      },
+      {
+       "name": "Sablefish (Black Cod)",
+       "name_fr": "Morue Charbonnière",
+       "name_it": "Carbonaro (Black Cod)",
+       "name_es": "Bacalao Negro (Sablefish)",
+       "slug": "sablefish",
+       "panel": {
+        "origin": "Silky, buttery, and rich; melt-in-the-mouth, high oil.",
+        "origin_es": "Sedoso, mantecoso y rico; se deshace en la boca, muy graso.",
+        "chemistry": "A deep cold-water fish (not a true cod); also 'butterfish.'",
+        "chemistry_es": "Un pez de aguas frías profundas (no es un bacalao verdadero); también 'butterfish'.",
+        "pairing": "Off-dry Riesling, sake, Champagne; miso glaze, soy, ginger.",
+        "pairing_es": "Riesling semiseco, sake, Champagne; glaseado de miso, soja, jengibre.",
+        "mixology": "Miso-marinated and broiled (the classic); nearly impossible to overcook.",
+        "mixology_es": "Marinado en miso y gratinado (el clásico); casi imposible de pasar.",
+        "examples": "A Japanese-restaurant luxury; the buttery texture is unmistakable.",
+        "examples_es": "Un lujo de restaurante japonés; la textura mantecosa es inconfundible."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SALMON & TROUT",
+   "name_fr": "Saumon & Truite",
+   "name_it": "Salmone & Trota",
+   "name_es": "SALMÓN Y TRUCHA",
+   "color": "#e08a6a",
+   "sub": [
+    {
+     "name": "SALMON & TROUT",
+     "name_fr": "Saumon & Truite",
+     "name_it": "Salmone & Trota",
+     "name_es": "SALMÓN Y TRUCHA",
+     "color": "#e08a6a",
+     "descriptors": [
+      {
+       "name": "Atlantic Salmon",
+       "name_fr": "Saumon Atlantique",
+       "name_it": "Salmone Atlantico",
+       "name_es": "Salmón Atlántico",
+       "slug": "atlantic-salmon",
+       "panel": {
+        "origin": "Rich, oily, and mildly sweet; the familiar salmon flavor.",
+        "origin_es": "Rico, graso y ligeramente dulce; el sabor a salmón de siempre.",
+        "chemistry": "Over 90% of North American salmon; mostly farmed.",
+        "chemistry_es": "Más del 90% del salmón de Norteamérica; en su mayoría de cultivo.",
+        "pairing": "Pinot Noir, dry rosé, Chardonnay; dill, lemon, mustard, soy.",
+        "pairing_es": "Pinot Noir, rosado seco, Chardonnay; eneldo, limón, mostaza, soja.",
+        "mixology": "Grill, roast, sear, or cure; serve medium for moisture.",
+        "mixology_es": "A la parrilla, asado, sellado o curado; sírvelo al punto para que quede jugoso.",
+        "examples": "The everyday salmon; quality varies widely by source.",
+        "examples_es": "El salmón de cada día; la calidad varía mucho según el origen."
+       }
+      },
+      {
+       "name": "King (Chinook) Salmon",
+       "name_fr": "Saumon Royal (Chinook)",
+       "name_it": "Salmone Reale (Chinook)",
+       "name_es": "Salmón Real (Chinook)",
+       "slug": "king-salmon",
+       "panel": {
+        "origin": "The richest, most buttery salmon; high fat, deep flavor.",
+        "origin_es": "El salmón más rico y mantecoso; mucha grasa, sabor profundo.",
+        "chemistry": "The most prized wild salmon, native to Alaska and the Northwest.",
+        "chemistry_es": "El salmón salvaje más apreciado, nativo de Alaska y el noroeste.",
+        "pairing": "Pinot Noir, white Burgundy, rosé Champagne; minimal seasoning.",
+        "pairing_es": "Pinot Noir, Borgoña blanco, Champagne rosado; condimentar poco.",
+        "mixology": "Grill or roast simply; the fat keeps it forgiving.",
+        "mixology_es": "A la parrilla o asado, sencillo; la grasa lo hace indulgente.",
+        "examples": "The most coveted wild species; buttery and luxurious.",
+        "examples_es": "La especie salvaje más codiciada; mantecoso y lujoso."
+       }
+      },
+      {
+       "name": "Sockeye Salmon",
+       "name_fr": "Saumon Rouge (Sockeye)",
+       "name_it": "Salmone Rosso (Sockeye)",
+       "name_es": "Salmón Rojo (Sockeye)",
+       "slug": "sockeye",
+       "panel": {
+        "origin": "Bold, deep, and intense; the most flavorful wild salmon.",
+        "origin_es": "Intenso, profundo y marcado; el salmón salvaje más sabroso.",
+        "chemistry": "A wild Pacific salmon with deep red flesh and the highest omega-3s.",
+        "chemistry_es": "Un salmón salvaje del Pacífico de carne roja intensa y el mayor nivel de omega-3.",
+        "pairing": "Pinot Noir, dry rosé; lemon, dill, light glaze.",
+        "pairing_es": "Pinot Noir, rosado seco; limón, eneldo, glaseado ligero.",
+        "mixology": "Grill or roast; leaner than king, so don't overcook.",
+        "mixology_es": "A la parrilla o asado; más magro que el real, así que no lo pases.",
+        "examples": "Vivid red flesh and bold flavor; maximum omega-3 punch.",
+        "examples_es": "Carne roja vívida y sabor marcado; máximo aporte de omega-3."
+       }
+      },
+      {
+       "name": "Rainbow Trout",
+       "name_fr": "Truite Arc-en-ciel",
+       "name_it": "Trota Iridea",
+       "name_es": "Trucha Arcoíris",
+       "slug": "rainbow-trout",
+       "panel": {
+        "origin": "Mild, delicate, and nutty; gentler than salmon.",
+        "origin_es": "Suave, delicada y a nuez; más sutil que el salmón.",
+        "chemistry": "A farmed freshwater fish; consistent year-round.",
+        "chemistry_es": "Un pez de agua dulce de cultivo; constante todo el año.",
+        "pairing": "Dry Riesling, Pinot Gris, Champagne; almonds, lemon, butter.",
+        "pairing_es": "Riesling seco, Pinot Gris, Champagne; almendras, limón, mantequilla.",
+        "mixology": "Pan-fry whole or as filets; thin and quick-cooking.",
+        "mixology_es": "A la sartén entera o en filetes; fina y de cocción rápida.",
+        "examples": "An easy weeknight fish; classic trout amandine.",
+        "examples_es": "Un pez fácil entre semana; la clásica trucha amandine."
+       }
+      },
+      {
+       "name": "Steelhead Trout",
+       "name_fr": "Truite Steelhead",
+       "name_it": "Trota Steelhead",
+       "name_es": "Trucha Steelhead",
+       "slug": "steelhead",
+       "panel": {
+        "origin": "Between salmon and trout; rich but milder than salmon.",
+        "origin_es": "Entre salmón y trucha; rica pero más suave que el salmón.",
+        "chemistry": "A sea-run rainbow trout with pink-orange flesh.",
+        "chemistry_es": "Una trucha arcoíris que migra al mar, de carne rosa-anaranjada.",
+        "pairing": "Pinot Noir, dry rosé, Chardonnay; lemon, dill, glaze.",
+        "pairing_es": "Pinot Noir, rosado seco, Chardonnay; limón, eneldo, glaseado.",
+        "mixology": "Cook like salmon — grill, roast, or sear.",
+        "mixology_es": "Cocínala como salmón — a la parrilla, asada o sellada.",
+        "examples": "Looks and cooks like salmon; a versatile middle ground.",
+        "examples_es": "Parece y se cocina como salmón; un punto medio versátil."
+       }
+      },
+      {
+       "name": "Arctic Char",
+       "name_fr": "Omble Chevalier",
+       "name_it": "Salmerino Artico",
+       "name_es": "Salvelino Ártico",
+       "slug": "arctic-char",
+       "panel": {
+        "origin": "Delicate and refined, between salmon and trout; pink-to-red flesh.",
+        "origin_es": "Delicado y refinado, entre salmón y trucha; carne de rosa a rojo.",
+        "chemistry": "A cold-water salmonid; mostly farmed and eco-friendly.",
+        "chemistry_es": "Un salmónido de agua fría; en su mayoría de cultivo y respetuoso con el medio.",
+        "pairing": "Pinot Noir, dry Riesling, rosé; lemon, herbs, gravlax cure.",
+        "pairing_es": "Pinot Noir, Riesling seco, rosado; limón, hierbas, curado tipo gravlax.",
+        "mixology": "Pan-sear skin-on for crispness, or cure like gravlax.",
+        "mixology_es": "Sellado con piel para que quede crujiente, o curado como gravlax.",
+        "examples": "'Salmon's sophisticated cousin'; sustainable and elegant.",
+        "examples_es": "'El primo sofisticado del salmón'; sostenible y elegante."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TUNA & AMBERJACK",
+   "name_fr": "Thon & Sériole",
+   "name_it": "Tonno & Ricciola",
+   "name_es": "ATÚN Y MEDREGAL",
+   "color": "#b0485a",
+   "sub": [
+    {
+     "name": "TUNA & AMBERJACK",
+     "name_fr": "Thon & Sériole",
+     "name_it": "Tonno & Ricciola",
+     "name_es": "ATÚN Y MEDREGAL",
+     "color": "#b0485a",
+     "descriptors": [
+      {
+       "name": "Bluefin Tuna",
+       "name_fr": "Thon Rouge",
+       "name_it": "Tonno Rosso",
+       "name_es": "Atún Rojo (Bluefin)",
+       "slug": "bluefin",
+       "panel": {
+        "origin": "Rich, fatty, and intense; the prized 'toro' belly is luxuriously marbled.",
+        "origin_es": "Rico, graso e intenso; la preciada ventresca 'toro' está lujosamente vetada.",
+        "chemistry": "The largest, most prized (and least sustainable) tuna.",
+        "chemistry_es": "El atún más grande, más apreciado (y menos sostenible).",
+        "pairing": "Champagne, dry sake, Pinot Noir; soy, wasabi, minimal seasoning.",
+        "pairing_es": "Champagne, sake seco, Pinot Noir; soja, wasabi, condimentar poco.",
+        "mixology": "Best raw — sushi and sashimi; the belly (otoro) is the prize.",
+        "mixology_es": "Mejor crudo — sushi y sashimi; la ventresca (otoro) es el premio.",
+        "examples": "The king of sushi tuna; choose carefully for sustainability.",
+        "examples_es": "El rey del atún de sushi; elige con cuidado por la sostenibilidad."
+       }
+      },
+      {
+       "name": "Yellowfin (Ahi) Tuna",
+       "name_fr": "Thon à Nageoires Jaunes (Ahi)",
+       "name_it": "Tonno Pinna Gialla (Ahi)",
+       "name_es": "Atún Aleta Amarilla (Ahi)",
+       "slug": "yellowfin",
+       "panel": {
+        "origin": "Mild, clean, and meaty; firm deep-red flesh.",
+        "origin_es": "Suave, limpio y carnoso; carne firme de rojo intenso.",
+        "chemistry": "A large warm-water tuna; the common 'ahi.'",
+        "chemistry_es": "Un atún grande de agua cálida; el 'ahi' habitual.",
+        "pairing": "Dry rosé, sake, Sauvignon Blanc; soy, sesame, citrus, ponzu.",
+        "pairing_es": "Rosado seco, sake, Sauvignon Blanc; soja, sésamo, cítricos, ponzu.",
+        "mixology": "Seared rare outside/raw inside, or in poke; don't cook through.",
+        "mixology_es": "Sellado poco fuera/crudo dentro, o en poke; no lo cocines del todo.",
+        "examples": "The poke-bowl and seared-steak tuna; serve rare.",
+        "examples_es": "El atún del poke y del filete sellado; sírvelo poco hecho."
+       }
+      },
+      {
+       "name": "Albacore Tuna",
+       "name_fr": "Thon Blanc",
+       "name_it": "Tonno Bianco",
+       "name_es": "Atún Blanco (Albacora)",
+       "slug": "albacore",
+       "panel": {
+        "origin": "Light, mild, and tender; the palest tuna.",
+        "origin_es": "Ligero, suave y tierno; el atún más pálido.",
+        "chemistry": "A smaller tuna; the 'white tuna' of cans.",
+        "chemistry_es": "Un atún más pequeño; el 'atún blanco' de las latas.",
+        "pairing": "Crisp white, rosé; lemon, olive oil, Mediterranean herbs.",
+        "pairing_es": "Blanco nítido, rosado; limón, aceite de oliva, hierbas mediterráneas.",
+        "mixology": "Canned for salads and sandwiches, or seared fresh.",
+        "mixology_es": "Enlatado para ensaladas y sándwiches, o sellado fresco.",
+        "examples": "The classic canned 'white' tuna; a more sustainable choice.",
+        "examples_es": "El clásico atún 'blanco' enlatado; una opción más sostenible."
+       }
+      },
+      {
+       "name": "Skipjack Tuna",
+       "name_fr": "Bonite à Ventre Rayé",
+       "name_it": "Tonnetto Striato",
+       "name_es": "Bonito (Listado)",
+       "slug": "skipjack",
+       "panel": {
+        "origin": "Strong and pronounced; darker, richer canned tuna.",
+        "origin_es": "Fuerte y pronunciado; un atún enlatado más oscuro y rico.",
+        "chemistry": "The smallest, most abundant, most sustainable tuna.",
+        "chemistry_es": "El atún más pequeño, abundante y sostenible.",
+        "pairing": "Crisp white, lager; lemon, chili, bold dressings.",
+        "pairing_es": "Blanco nítido, lager; limón, chile, aliños potentes.",
+        "mixology": "The 'light' canned tuna; also dried into Japanese katsuobushi.",
+        "mixology_es": "El atún 'light' enlatado; también secado en katsuobushi japonés.",
+        "examples": "The most sustainable tuna; the base of dashi (bonito flakes).",
+        "examples_es": "El atún más sostenible; la base del dashi (copos de bonito)."
+       }
+      },
+      {
+       "name": "Yellowtail (Hamachi)",
+       "name_fr": "Sériole (Hamachi)",
+       "name_it": "Ricciola (Hamachi)",
+       "name_es": "Hamachi (Pez Limón)",
+       "slug": "yellowtail",
+       "panel": {
+        "origin": "Buttery, rich, and clean with a sweet undertone; velvety.",
+        "origin_es": "Mantecoso, rico y limpio con fondo dulce; aterciopelado.",
+        "chemistry": "A Japanese amberjack (hamachi), a sushi-bar staple.",
+        "chemistry_es": "Un medregal japonés (hamachi), un fijo de la barra de sushi.",
+        "pairing": "Dry sake, Champagne, Grüner; jalapeño-yuzu, soy, citrus.",
+        "pairing_es": "Sake seco, Champagne, Grüner; jalapeño-yuzu, soja, cítricos.",
+        "mixology": "Thin-sliced raw (sashimi/nigiri), or grilled.",
+        "mixology_es": "En lonchas finas crudo (sashimi/nigiri), o a la parrilla.",
+        "examples": "A sushi mainstay; the famous hamachi-jalapeño dish.",
+        "examples_es": "Un imprescindible del sushi; el famoso plato de hamachi con jalapeño."
+       }
+      },
+      {
+       "name": "Kanpachi",
+       "name_fr": "Sériole Couronnée",
+       "name_it": "Ricciola Dentice",
+       "name_es": "Kanpachi (Medregal)",
+       "slug": "kanpachi",
+       "panel": {
+        "origin": "Clean, firm, and mild with a sweet richness.",
+        "origin_es": "Limpio, firme y suave con una riqueza dulce.",
+        "chemistry": "A greater amberjack, prized for sushi (often farmed sustainably).",
+        "chemistry_es": "Un medregal mayor, apreciado para sushi (a menudo de cultivo sostenible).",
+        "pairing": "Dry sake, Champagne, crisp white; citrus, soy, light ponzu.",
+        "pairing_es": "Sake seco, Champagne, blanco nítido; cítricos, soja, ponzu ligero.",
+        "mixology": "Raw as sashimi/crudo, or lightly seared.",
+        "mixology_es": "Crudo como sashimi/crudo, o ligeramente sellado.",
+        "examples": "A leaner, firmer cousin of yellowtail; a sushi-bar favorite.",
+        "examples_es": "Un primo más magro y firme del hamachi; favorito de la barra de sushi."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FRESHWATER FISH",
+   "name_fr": "Poissons d'Eau Douce",
+   "name_it": "Pesci d'Acqua Dolce",
+   "name_es": "PESCADOS DE AGUA DULCE",
+   "color": "#8a9a5a",
+   "sub": [
+    {
+     "name": "FRESHWATER FISH",
+     "name_fr": "Poissons d'Eau Douce",
+     "name_it": "Pesci d'Acqua Dolce",
+     "name_es": "PESCADOS DE AGUA DULCE",
+     "color": "#8a9a5a",
+     "descriptors": [
+      {
+       "name": "Catfish",
+       "name_fr": "Poisson-Chat",
+       "name_it": "Pesce Gatto",
+       "name_es": "Bagre (Pez Gato)",
+       "slug": "catfish",
+       "panel": {
+        "origin": "Mild and slightly sweet; firm, moist flesh.",
+        "origin_es": "Suave y ligeramente dulce; carne firme y jugosa.",
+        "chemistry": "A freshwater fish, farmed and caught in the southeastern U.S.",
+        "chemistry_es": "Un pez de agua dulce, criado y pescado en el sureste de EE. UU.",
+        "pairing": "Sweet tea, lager, dry white; cornmeal crust, hot sauce, remoulade.",
+        "pairing_es": "Té dulce, lager, blanco seco; rebozado de harina de maíz, salsa picante, rémoulade.",
+        "mixology": "Cornmeal-breaded and fried (the classic); also blackened or baked.",
+        "mixology_es": "Empanado en harina de maíz y frito (el clásico); también 'blackened' o al horno.",
+        "examples": "A Southern icon; U.S. farm-raised is a responsible choice.",
+        "examples_es": "Un icono del Sur; el criado en EE. UU. es una opción responsable."
+       }
+      },
+      {
+       "name": "Walleye",
+       "name_fr": "Doré Jaune",
+       "name_it": "Lucioperca",
+       "name_es": "Lucioperca",
+       "slug": "walleye",
+       "panel": {
+        "origin": "Delicate, sweet, and clean; firm white flesh.",
+        "origin_es": "Delicada, dulce y limpia; carne blanca y firme.",
+        "chemistry": "A prized freshwater fish of the U.S. and Canada (Great Lakes region).",
+        "chemistry_es": "Un pez de agua dulce apreciado en EE. UU. y Canadá (región de los Grandes Lagos).",
+        "pairing": "Crisp white, lager, sparkling; flour-and-cornmeal crust, lemon.",
+        "pairing_es": "Blanco nítido, lager, espumoso; rebozado de harina y maíz, limón.",
+        "mixology": "Lightly breaded and pan-fried; the gold standard of freshwater fish.",
+        "mixology_es": "Ligeramente empanada y a la sartén; el referente del pescado de agua dulce.",
+        "examples": "A Great Lakes fish-fry legend; practically Minnesota's mascot.",
+        "examples_es": "Una leyenda de las frituras de los Grandes Lagos; casi la mascota de Minnesota."
+       }
+      },
+      {
+       "name": "Yellow Perch",
+       "name_fr": "Perchaude",
+       "name_it": "Persico Dorato",
+       "name_es": "Perca Amarilla",
+       "slug": "perch",
+       "panel": {
+        "origin": "Mild, sweet, and tender; delicate white flesh.",
+        "origin_es": "Suave, dulce y tierna; carne blanca delicada.",
+        "chemistry": "A small freshwater fish.",
+        "chemistry_es": "Un pez pequeño de agua dulce.",
+        "pairing": "Crisp white, lager; lemon, light breading, butter.",
+        "pairing_es": "Blanco nítido, lager; limón, rebozado ligero, mantequilla.",
+        "mixology": "Pan-fried; a quick, easy weeknight fish.",
+        "mixology_es": "A la sartén; un pez rápido y fácil entre semana.",
+        "examples": "A small, sweet panfish; a Great Lakes fish-fry staple.",
+        "examples_es": "Un pez de sartén pequeño y dulce; un básico de las frituras de los Grandes Lagos."
+       }
+      },
+      {
+       "name": "Carp",
+       "name_fr": "Carpe",
+       "name_it": "Carpa",
+       "name_es": "Carpa",
+       "slug": "carp",
+       "panel": {
+        "origin": "Earthy and rich; can taste muddy if not handled well.",
+        "origin_es": "Terrosa y rica; puede saber a fango si no se maneja bien.",
+        "chemistry": "A large, hardy freshwater fish, important across Europe and Asia.",
+        "chemistry_es": "Un pez de agua dulce grande y resistente, importante en Europa y Asia.",
+        "pairing": "Off-dry Riesling, lager; strong spices, paprika, vinegar.",
+        "pairing_es": "Riesling semiseco, lager; especias fuertes, pimentón, vinagre.",
+        "mixology": "Stewed, fried, or baked; central to Eastern European holiday tables.",
+        "mixology_es": "Guisada, frita o al horno; central en las mesas festivas de Europa del Este.",
+        "examples": "A traditional Christmas fish in Central Europe; also makes gefilte fish.",
+        "examples_es": "Un pescado navideño tradicional en Europa Central; también se usa para el gefilte fish."
+       }
+      },
+      {
+       "name": "Striped Bass",
+       "name_fr": "Bar Rayé",
+       "name_it": "Spigola Striata",
+       "name_es": "Lubina Rayada",
+       "slug": "striped-bass",
+       "panel": {
+        "origin": "Clean, mild, and slightly sweet; firm, flaky white flesh.",
+        "origin_es": "Limpia, suave y ligeramente dulce; carne blanca firme y en lascas.",
+        "chemistry": "An anadromous fish (sea and river) of the U.S. Atlantic coast.",
+        "chemistry_es": "Un pez anádromo (mar y río) de la costa atlántica de EE. UU.",
+        "pairing": "Sauvignon Blanc, Chardonnay, dry rosé; lemon, herbs, olive oil.",
+        "pairing_es": "Sauvignon Blanc, Chardonnay, rosado seco; limón, hierbas, aceite de oliva.",
+        "mixology": "Grill, roast, or pan-sear skin-on; firm and forgiving.",
+        "mixology_es": "A la parrilla, asada o sellada con piel; firme e indulgente.",
+        "examples": "A prized sport and table fish; 'striper' to anglers.",
+        "examples_es": "Un pez deportivo y de mesa apreciado; 'striper' para los pescadores."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ROE & CAVIAR",
+   "name_fr": "Œufs & Caviar",
+   "name_it": "Uova & Caviale",
+   "name_es": "HUEVAS Y CAVIAR",
+   "color": "#d49a3a",
+   "sub": [
+    {
+     "name": "ROE & CAVIAR",
+     "name_fr": "Œufs & Caviar",
+     "name_it": "Uova & Caviale",
+     "name_es": "HUEVAS Y CAVIAR",
+     "color": "#d49a3a",
+     "descriptors": [
+      {
+       "name": "Sturgeon Caviar",
+       "name_fr": "Caviar d'Esturgeon",
+       "name_it": "Caviale di Storione",
+       "name_es": "Caviar de Esturión",
+       "slug": "sturgeon-caviar",
+       "panel": {
+        "origin": "Briny, buttery, and complex; the little beads pop and melt.",
+        "origin_es": "Salino, mantecoso y complejo; las perlitas estallan y se funden.",
+        "chemistry": "True caviar — the salted roe of sturgeon (Ossetra, Beluga, Sevruga).",
+        "chemistry_es": "Caviar verdadero — la hueva salada de esturión (Ossetra, Beluga, Sevruga).",
+        "pairing": "Champagne, dry vodka; blini, crème fraîche, mother-of-pearl spoon.",
+        "pairing_es": "Champagne, vodka seco; blini, crème fraîche, cuchara de nácar.",
+        "mixology": "Served raw and cold; never with a metal spoon (it taints the flavor).",
+        "mixology_es": "Se sirve crudo y frío; nunca con cuchara de metal (altera el sabor).",
+        "examples": "The luxury benchmark; the only roe that is technically 'caviar.'",
+        "examples_es": "El referente del lujo; la única hueva que técnicamente es 'caviar'."
+       }
+      },
+      {
+       "name": "Salmon Roe (Ikura)",
+       "name_fr": "Œufs de Saumon (Ikura)",
+       "name_it": "Uova di Salmone (Ikura)",
+       "name_es": "Hueva de Salmón (Ikura)",
+       "slug": "salmon-roe",
+       "panel": {
+        "origin": "Briny and rich with a sweet burst; large translucent orange beads.",
+        "origin_es": "Salina y rica con un estallido dulce; perlas naranjas grandes y translúcidas.",
+        "chemistry": "The roe of salmon, cured in brine or soy.",
+        "chemistry_es": "La hueva de salmón, curada en salmuera o soja.",
+        "pairing": "Dry sake, Champagne, crisp white; over sushi rice, on blini.",
+        "pairing_es": "Sake seco, Champagne, blanco nítido; sobre arroz de sushi, en blini.",
+        "mixology": "Served raw — sushi gunkan, donburi, garnish.",
+        "mixology_es": "Se sirve cruda — gunkan de sushi, donburi, guarnición.",
+        "examples": "'Ikura' in Japanese; the big, glistening orange pearls on sushi.",
+        "examples_es": "'Ikura' en japonés; las grandes perlas naranjas y brillantes del sushi."
+       }
+      },
+      {
+       "name": "Flying Fish Roe (Tobiko)",
+       "name_fr": "Œufs de Poisson Volant (Tobiko)",
+       "name_it": "Uova di Pesce Volante (Tobiko)",
+       "name_es": "Hueva de Pez Volador (Tobiko)",
+       "slug": "tobiko",
+       "panel": {
+        "origin": "Mildly sweet, salty, and smoky with a crunchy pop; tiny beads.",
+        "origin_es": "Ligeramente dulce, salada y ahumada, con un estallido crujiente; perlas diminutas.",
+        "chemistry": "The roe of flying fish; often colored (orange, black, green, gold).",
+        "chemistry_es": "La hueva del pez volador; a menudo teñida (naranja, negra, verde, dorada).",
+        "pairing": "Dry sake, sparkling; on rolls and nigiri.",
+        "pairing_es": "Sake seco, espumoso; en rolls y nigiri.",
+        "mixology": "A raw sushi garnish; the crunchy coating on many rolls.",
+        "mixology_es": "Una guarnición cruda de sushi; la cobertura crujiente de muchos rolls.",
+        "examples": "Tiny and crunchy; the colorful crunch on California rolls.",
+        "examples_es": "Diminuta y crujiente; el crujido colorido de los California rolls."
+       }
+      },
+      {
+       "name": "Capelin Roe (Masago)",
+       "name_fr": "Œufs de Capelan (Masago)",
+       "name_it": "Uova di Capelin (Masago)",
+       "name_es": "Hueva de Capelán (Masago)",
+       "slug": "masago",
+       "panel": {
+        "origin": "Mildly sweet and briny; finer and softer than tobiko.",
+        "origin_es": "Ligeramente dulce y salina; más fina y blanda que el tobiko.",
+        "chemistry": "The roe of capelin (a small smelt); a budget tobiko substitute.",
+        "chemistry_es": "La hueva del capelán (un pequeño eperlano); un sustituto económico del tobiko.",
+        "pairing": "Dry sake, sparkling; mixed into sushi and spicy mayo.",
+        "pairing_es": "Sake seco, espumoso; mezclada en sushi y mayonesa picante.",
+        "mixology": "A raw garnish and mix-in; common in spicy rolls.",
+        "mixology_es": "Una guarnición y mezcla cruda; común en los rolls picantes.",
+        "examples": "Smaller and cheaper than tobiko; often dyed to match.",
+        "examples_es": "Más pequeña y barata que el tobiko; a menudo teñida para imitarlo."
+       }
+      },
+      {
+       "name": "Trout Roe",
+       "name_fr": "Œufs de Truite",
+       "name_it": "Uova di Trota",
+       "name_es": "Hueva de Trucha",
+       "slug": "trout-roe",
+       "panel": {
+        "origin": "Briny, clean, and lightly sweet; medium orange beads that pop.",
+        "origin_es": "Salina, limpia y ligeramente dulce; perlas naranjas medianas que estallan.",
+        "chemistry": "The roe of trout; a smaller, milder relative of salmon roe.",
+        "chemistry_es": "La hueva de trucha; pariente más pequeña y suave de la hueva de salmón.",
+        "pairing": "Champagne, dry Riesling, sake; blini, crème fraîche, deviled eggs.",
+        "pairing_es": "Champagne, Riesling seco, sake; blini, crème fraîche, huevos rellenos.",
+        "mixology": "Served raw and cold as a garnish or canapé topping.",
+        "mixology_es": "Se sirve cruda y fría como guarnición o sobre canapés.",
+        "examples": "A delicate, affordable domestic caviar alternative.",
+        "examples_es": "Una alternativa al caviar delicada, asequible y de producción local."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "MILD WHITE FISH": {
+   "en": "The whiter a fish's raw flesh, the milder it usually tastes — a simple rule that lets you guess almost any unfamiliar fish on a menu: pale flesh means mild, deeply colored flesh means bold.",
+   "es": "Cuanto más blanca es la carne cruda de un pescado, más suave suele saber — una regla sencilla para adivinar casi cualquier pescado desconocido en un menú: carne pálida, sabor suave; carne de color intenso, sabor fuerte."
+  },
+  "FLATFISH": {
+   "en": "Flatfish like sole and flounder are born looking like normal fish, with an eye on each side — then, as they grow, one eye slowly migrates around the head so the fish can lie flat on the seabed with both eyes facing up.",
+   "es": "Los peces planos como el lenguado y la platija nacen con aspecto de pez normal, con un ojo a cada lado — y al crecer, un ojo migra poco a poco por la cabeza para que el pez pueda tumbarse en el fondo con ambos ojos hacia arriba."
+  },
+  "FIRM & MEATY FISH": {
+   "en": "'Chilean sea bass' is a marketing invention — the fish is actually the Patagonian toothfish, renamed in the 1970s because no one wanted to order something called a toothfish.",
+   "es": "El 'mero chileno' (Chilean sea bass) es un invento de marketing — el pez es en realidad la merluza negra (Patagonian toothfish), renombrado en los años 70 porque nadie quería pedir algo llamado 'pez diente'."
+  },
+  "OILY & PELAGIC FISH": {
+   "en": "Oily fish carry their fat throughout the flesh rather than in the liver, which is exactly why they're so rich in omega-3s — and why mackerel, sardines, and herring spoil faster and taste 'fishier' than lean white fish.",
+   "es": "Los pescados grasos llevan la grasa repartida por la carne y no en el hígado, y por eso son tan ricos en omega-3 — y por eso la caballa, la sardina y el arenque se estropean antes y saben más 'a pescado' que los blancos magros."
+  },
+  "SALMON & TROUT": {
+   "en": "Wild salmon get their pink-red color from a diet of krill and shrimp; farmed salmon would be grey without it, so their feed includes the same natural pigment to turn the flesh pink.",
+   "es": "El salmón salvaje obtiene su color rosa-rojizo de una dieta de krill y camarón; el de cultivo sería gris sin ello, así que su pienso incluye el mismo pigmento natural para teñir la carne de rosa."
+  },
+  "TUNA & AMBERJACK": {
+   "en": "Tuna are warm-blooded — among the few fish that can raise their body temperature above the surrounding water — which lets them swim fast enough to cross entire oceans and gives the prized bluefin its rich, marbled belly.",
+   "es": "Los atunes son de sangre caliente — de los pocos peces que pueden elevar su temperatura por encima del agua que los rodea — lo que les permite nadar lo bastante rápido para cruzar océanos enteros y da al preciado atún rojo su ventresca rica y vetada."
+  },
+  "FRESHWATER FISH": {
+   "en": "A fish's flavor depends heavily on its water — many freshwater fish like catfish and carp can taste 'muddy' from compounds absorbed from their environment, which is why cooks soak them or rely on clean, cold, fast-moving water.",
+   "es": "El sabor de un pez depende mucho de su agua — muchos peces de agua dulce como el bagre y la carpa pueden saber 'a fango' por compuestos absorbidos del entorno, por eso los cocineros los remojan o recurren a aguas limpias, frías y de corriente rápida."
+  },
+  "ROE & CAVIAR": {
+   "en": "Only the salted roe of sturgeon may legally be called 'caviar' — everything else, from salmon ikura to flying-fish tobiko, is technically just 'roe,' however luxurious; and true caviar is always served with a non-metal spoon, since metal taints its delicate flavor.",
+   "es": "Solo la hueva salada de esturión puede llamarse legalmente 'caviar' — todo lo demás, desde la ikura de salmón hasta el tobiko de pez volador, es técnicamente solo 'hueva', por lujosa que sea; y el caviar verdadero se sirve siempre con cuchara que no sea de metal, porque el metal altera su delicado sabor."
+  }
+ }
+}

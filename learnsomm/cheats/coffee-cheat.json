@@ -1,0 +1,462 @@
+{
+ "title": "Coffee Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Roast Levels"
+  },
+  {
+   "name": "Light Roast",
+   "slug": "light-roast",
+   "rows": [
+    {
+     "k": "Flavor",
+     "v": "Bright, floral, acidic"
+    },
+    {
+     "k": "",
+     "v": "Citrus, berry, jasmine, honey"
+    },
+    {
+     "k": "Best for",
+     "v": "Pour-over or drip — methods that highlight clarity"
+    },
+    {
+     "k": "Pairing",
+     "v": "Fruit pastries, yogurt, light breakfast fare"
+    },
+    {
+     "k": "Heads up",
+     "v": "The \"sour\" taste some people associate with light roast is usually under-extraction, not the roast itself — a slightly longer brew time helps."
+    }
+   ],
+   "name_es": "Tueste Claro"
+  },
+  {
+   "name": "Medium Roast",
+   "slug": "medium-roast",
+   "rows": [
+    {
+     "k": "Flavor",
+     "v": "Balanced, sweet, nutty"
+    },
+    {
+     "k": "",
+     "v": "Milk chocolate, toasted nut, caramel"
+    },
+    {
+     "k": "Best for",
+     "v": "Drip coffee, French press — the most versatile roast"
+    },
+    {
+     "k": "Pairing",
+     "v": "Buttered toast, banana bread, breakfast pastries"
+    },
+    {
+     "k": "Best for",
+     "v": "The \"classic\" coffee shop default — a safe order if you're unsure"
+    }
+   ],
+   "name_es": "Tueste Medio"
+  },
+  {
+   "name": "Dark Roast",
+   "slug": "dark-roast",
+   "rows": [
+    {
+     "k": "Flavor",
+     "v": "Bold, intense, smoky"
+    },
+    {
+     "k": "",
+     "v": "Dark chocolate, molasses, baking spice"
+    },
+    {
+     "k": "Best for",
+     "v": "French press, cold brew — stands up to ice and milk"
+    },
+    {
+     "k": "Pairing",
+     "v": "Dark chocolate desserts, smoked meats"
+    },
+    {
+     "k": "Heads up",
+     "v": "Dark roasts actually have slightly less caffeine by volume than light roasts — the roasting process burns off some caffeine."
+    }
+   ],
+   "name_es": "Tueste Oscuro"
+  },
+  {
+   "name": "Espresso Roast",
+   "slug": "espresso-roast",
+   "rows": [
+    {
+     "k": "Flavor",
+     "v": "Intense, concentrated, syrupy"
+    },
+    {
+     "k": "",
+     "v": "Brown sugar, baker's chocolate, charred wood"
+    },
+    {
+     "k": "Best for",
+     "v": "Espresso machines — high pressure extraction needs this roast's oils"
+    },
+    {
+     "k": "Pairing",
+     "v": "Biscotti, tiramisu, dark chocolate"
+    },
+    {
+     "k": "Heads up",
+     "v": "\"Espresso roast\" describes the roast profile, not a bean type — any bean can be roasted for espresso."
+    }
+   ],
+   "name_es": "Tueste Espresso"
+  },
+  {
+   "cat": "Espresso-Based Drinks"
+  },
+  {
+   "name": "Espresso",
+   "slug": "espresso",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso only — no milk"
+    },
+    {
+     "k": "",
+     "v": "Concentrated"
+    },
+    {
+     "k": "",
+     "v": "Intense"
+    },
+    {
+     "k": "",
+     "v": "Short"
+    },
+    {
+     "k": "Order tip",
+     "v": "The base for every drink below — a single shot is about 1oz (30ml). Order \"a double\" if you want more intensity without dilution."
+    }
+   ]
+  },
+  {
+   "name": "Americano",
+   "slug": "americano",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso + hot water"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Clean"
+    },
+    {
+     "k": "",
+     "v": "Black-coffee-like"
+    },
+    {
+     "k": "Order tip",
+     "v": "Closest to drip coffee in strength, but made from espresso — a good order if you like black coffee and the café only has an espresso machine."
+    }
+   ]
+  },
+  {
+   "name": "Macchiato",
+   "slug": "macchiato",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso \"stained\" with a small dollop of foam"
+    },
+    {
+     "k": "",
+     "v": "Intense"
+    },
+    {
+     "k": "",
+     "v": "Minimal milk"
+    },
+    {
+     "k": "",
+     "v": "Strong"
+    },
+    {
+     "k": "Order tip",
+     "v": "A true (Italian-style) macchiato is mostly espresso with a touch of foam — very different from the sweet, milky \"caramel macchiato\" at many chain cafés."
+    }
+   ]
+  },
+  {
+   "name": "Cortado",
+   "slug": "cortado",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Equal parts espresso and steamed milk"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "",
+     "v": "Smooth"
+    },
+    {
+     "k": "",
+     "v": "Small"
+    },
+    {
+     "k": "Order tip",
+     "v": "A good middle ground if a cappuccino feels too foamy and a macchiato feels too strong."
+    }
+   ]
+  },
+  {
+   "name": "Cappuccino",
+   "slug": "cappuccino",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso, steamed milk, and a thick layer of foam — roughly equal thirds"
+    },
+    {
+     "k": "",
+     "v": "Light"
+    },
+    {
+     "k": "",
+     "v": "Airy"
+    },
+    {
+     "k": "",
+     "v": "Foam-forward"
+    },
+    {
+     "k": "Order tip",
+     "v": "The foam cap is the point. In Italy it's traditionally a morning drink, rarely ordered after a meal."
+    }
+   ],
+   "name_es": "Capuchino"
+  },
+  {
+   "name": "Flat White",
+   "slug": "flat-white",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso with steamed milk and a thin layer of microfoam"
+    },
+    {
+     "k": "",
+     "v": "Velvety"
+    },
+    {
+     "k": "",
+     "v": "Strong"
+    },
+    {
+     "k": "",
+     "v": "Less foam than a latte"
+    },
+    {
+     "k": "Order tip",
+     "v": "Stronger and less milky than a latte — usually made with a double shot in a smaller cup."
+    }
+   ]
+  },
+  {
+   "name": "Latte",
+   "slug": "latte",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso with a large amount of steamed milk and a thin layer of foam"
+    },
+    {
+     "k": "",
+     "v": "Mild"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "",
+     "v": "Milk-forward"
+    },
+    {
+     "k": "Order tip",
+     "v": "The mildest and most customizable of the espresso drinks — the easiest to flavor with syrups if you want something sweet."
+    }
+   ]
+  },
+  {
+   "name": "Mocha",
+   "slug": "mocha",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso, steamed milk, and chocolate syrup or cocoa, topped with foam or whipped cream"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Chocolatey"
+    },
+    {
+     "k": "",
+     "v": "Dessert-like"
+    },
+    {
+     "k": "Order tip",
+     "v": "Essentially a chocolate latte — a good gateway drink if you're not used to coffee's bitterness yet."
+    }
+   ],
+   "name_es": "Moca"
+  },
+  {
+   "cat": "Essential Coffee Variations & Cocktails"
+  },
+  {
+   "name": "Espresso Martini",
+   "slug": "espresso-martini",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso, vodka, coffee liqueur"
+    },
+    {
+     "k": "",
+     "v": "Energizing"
+    },
+    {
+     "k": "",
+     "v": "Rich"
+    },
+    {
+     "k": "",
+     "v": "Foamy"
+    },
+    {
+     "k": "Order tip",
+     "v": "The foam on top comes from shaking hard with ice — a sign of a well-made one is a thick, persistent crema-like layer."
+    }
+   ]
+  },
+  {
+   "name": "Irish Coffee",
+   "slug": "irish-coffee",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Hot coffee, Irish whiskey, sugar, cream float"
+    },
+    {
+     "k": "",
+     "v": "Warming"
+    },
+    {
+     "k": "",
+     "v": "Indulgent"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "The cream should be lightly whipped and floated, not stirred in — it should sit on top as you drink through it."
+    }
+   ]
+  },
+  {
+   "name": "Cold Brew Tonic",
+   "slug": "cold-brew-tonic",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Cold brew, tonic water, ice, citrus garnish"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "Order tip",
+     "v": "A modern café favorite — the bitterness of tonic plays surprisingly well with the low-acid sweetness of cold brew."
+    }
+   ]
+  },
+  {
+   "name": "Affogato",
+   "slug": "affogato",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Espresso shot poured over vanilla ice cream"
+    },
+    {
+     "k": "",
+     "v": "Dessert"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "",
+     "v": "Intense"
+    },
+    {
+     "k": "Order tip",
+     "v": "Pour the espresso right at the table for the best contrast between hot and cold — don't let it sit and melt first."
+    }
+   ]
+  },
+  {
+   "name": "White Russian",
+   "slug": "white-russian",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Vodka, coffee liqueur, cream"
+    },
+    {
+     "k": "",
+     "v": "Sweet"
+    },
+    {
+     "k": "",
+     "v": "Decadent"
+    },
+    {
+     "k": "",
+     "v": "Smooth"
+    },
+    {
+     "k": "Order tip",
+     "v": "Technically doesn't contain coffee itself — the coffee flavor comes entirely from the liqueur (e.g. Kahlúa)."
+    }
+   ]
+  }
+ ]
+}

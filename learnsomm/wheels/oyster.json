@@ -1,0 +1,858 @@
+{
+ "title": "Oyster",
+ "subject": "oyster",
+ "categories": [
+  {
+   "name": "BRINY & SALINE",
+   "name_fr": "IODÉ & SALIN",
+   "name_it": "SALMASTRO & SALINO",
+   "name_es": "SALADO Y SALINO",
+   "sub": [
+    {
+     "name": "BRINY & SALINE",
+     "name_fr": "IODÉ & SALIN",
+     "name_it": "SALMASTRO & SALINO",
+     "name_es": "SALADO Y SALINO",
+     "descriptors": [
+      {
+       "name": "Sea Salt",
+       "name_fr": "Sel de Mer",
+       "name_it": "Sale Marino",
+       "name_es": "Sal Marina",
+       "slug": "sea-salt",
+       "panel": {
+        "origin": "The baseline note of every oyster — a clean, oceanic salinity drawn directly from the salt content of the water it filters.",
+        "chemistry": "Comes with a crisp, clean snap on the first bite — most pronounced in cold, high-salinity water oysters.",
+        "pairing": "Dry sparkling wine, Muscadet, or Chablis — anything bright enough to mirror the salinity.",
+        "mixology": "Sip the liquor first, on its own, before the meat — it's the purest read on an oyster's salinity.",
+        "examples": "Common in East Coast oysters from high-salinity waters, such as Wellfleet and Blue Point."
+       }
+      },
+      {
+       "name": "Briny Liquor",
+       "name_fr": "Liqueur Saline",
+       "name_it": "Liquore Salmastro",
+       "name_es": "Licor Salobre",
+       "slug": "briny-liquor",
+       "panel": {
+        "origin": "The 'liquor' is filtered seawater the oyster has been living in — it concentrates the oyster's flavor and should never be poured out.",
+        "chemistry": "Look for clear, abundant liquor as a sign of freshness; cloudy or dry shells signal a less-than-fresh oyster.",
+        "pairing": "Manzanilla sherry or a briny martini — both echo the savory intensity of the liquor.",
+        "mixology": "Slurp the meat and liquor together in one motion — separating them loses most of the flavor.",
+        "examples": "Especially generous in deep-cupped varieties like French Kiss and Kumamoto."
+       }
+      },
+      {
+       "name": "Salinity Pop",
+       "name_fr": "Pointe Saline",
+       "name_it": "Sferzata Salina",
+       "name_es": "Estallido Salino",
+       "slug": "salinity-pop",
+       "panel": {
+        "origin": "An assertive, almost effervescent burst of salt on first taste, typical of oysters grown in fast-moving, high-salinity water.",
+        "chemistry": "Often paired with a firm, crisp texture — cold water slows an oyster's metabolism and tightens its flesh.",
+        "pairing": "A bone-dry Sancerre or a crisp lager — both cut through and complement the salt spike.",
+        "mixology": "Best tasted 'naked,' with no garnish, so the initial salinity isn't masked.",
+        "examples": "Shigoku and Wellfleet are classic examples of a pronounced salinity pop."
+       }
+      },
+      {
+       "name": "Saline Finish",
+       "name_fr": "Finale Salin",
+       "name_it": "Finale Salino",
+       "name_es": "Final Salino",
+       "slug": "saline-finish",
+       "panel": {
+        "origin": "A lingering salt note that carries through after the sweetness fades — the lasting impression of an oyster's merroir.",
+        "chemistry": "Often the last sensation in the 'nose to body to finish' progression of a well-chewed oyster.",
+        "pairing": "Champagne or corpinnat — the toasty, yeasty notes complement a long saline finish.",
+        "mixology": "Chew 3–4 times before swallowing; the finish only fully develops after the meat is broken down.",
+        "examples": "French Kiss oysters balance pronounced salinity with a sweet finish that lingers."
+       }
+      }
+     ],
+     "color": "#3f6b8a"
+    }
+   ],
+   "color": "#3f6b8a"
+  },
+  {
+   "name": "SWEET & MELON",
+   "name_fr": "Doux & Melon",
+   "name_it": "Dolce & Melone",
+   "name_es": "DULCE Y MELÓN",
+   "sub": [
+    {
+     "name": "SWEET & MELON",
+     "name_fr": "Doux & Melon",
+     "name_it": "Dolce & Melone",
+     "name_es": "DULCE Y MELÓN",
+     "descriptors": [
+      {
+       "name": "Honeyed Sweetness",
+       "name_fr": "Douceur Mielleuse",
+       "name_it": "Dolcezza di Miele",
+       "name_es": "Dulzura a Miel",
+       "slug": "honeyed-sweetness",
+       "panel": {
+        "origin": "A delicate sugar-like sweetness that follows the initial salinity — released as the oyster's glycogen breaks down.",
+        "chemistry": "Most noticeable mid-palate, after the first chew, as the 'body' phase of the tasting progression.",
+        "pairing": "An off-dry Riesling or a malty porter — both have enough sweetness of their own to harmonize rather than clash.",
+        "mixology": "Chew the oyster three to four times — this is the step that physically releases the sweetness.",
+        "examples": "Kumamoto and Olympia oysters are prized for this gentle sweetness."
+       }
+      },
+      {
+       "name": "Melon",
+       "name_fr": "Melon",
+       "name_it": "Melone",
+       "name_es": "Melón",
+       "slug": "melon",
+       "panel": {
+        "origin": "A fruity note common in oysters from milder, less saline waters — most associated with West Coast Pacific oysters.",
+        "chemistry": "Tends to come with a creamier, custardy texture rather than the crisp bite of colder-water oysters.",
+        "pairing": "A fruit-forward dry rosé or a saison with a touch of fruity ester.",
+        "mixology": "Try these oysters naked first — added acid (lemon, vinegar) can mute delicate melon notes.",
+        "examples": "Kumamoto oysters are the textbook example of a melon-forward profile."
+       }
+      },
+      {
+       "name": "Honeydew",
+       "name_fr": "Melon Miel",
+       "name_it": "Melone Verde",
+       "name_es": "Melón Verde",
+       "slug": "honeydew",
+       "panel": {
+        "origin": "A lighter, greener cousin of melon character — often appears alongside cucumber notes in Pacific varieties.",
+        "chemistry": "Light and refreshing on the palate, usually paired with a plump, juicy bite.",
+        "pairing": "A crisp Sauvignon Blanc — its own green-melon notes mirror this flavor.",
+        "mixology": "A small squeeze of lime can brighten honeydew notes without overpowering them.",
+        "examples": "Found in many Pacific Northwest varieties grown in the Salish Sea and Puget Sound."
+       }
+      },
+      {
+       "name": "Watermelon Rind",
+       "name_fr": "Écorce de Pastèque",
+       "name_it": "Buccia d'Anguria",
+       "name_es": "Cáscara de Sandía",
+       "slug": "watermelon-rind",
+       "panel": {
+        "origin": "A slightly vegetal, faintly sweet rind-like note — a subtler relative of straightforward melon sweetness.",
+        "chemistry": "Often appears in the finish rather than the first taste, after the brine has faded.",
+        "pairing": "A dry Provençal rosé — its watermelon and herb notes are a natural echo.",
+        "mixology": "Best appreciated on its own; a heavy mignonette can bury this delicate note.",
+        "examples": "Occasionally noted in West Coast varieties alongside cucumber and melon."
+       }
+      }
+     ],
+     "color": "#c98a4a"
+    }
+   ],
+   "color": "#c98a4a"
+  },
+  {
+   "name": "VEGETAL & CUCUMBER",
+   "name_fr": "Végétal & Concombre",
+   "name_it": "Vegetale & Cetriolo",
+   "name_es": "VEGETAL Y PEPINO",
+   "sub": [
+    {
+     "name": "VEGETAL & CUCUMBER",
+     "name_fr": "Végétal & Concombre",
+     "name_it": "Vegetale & Cetriolo",
+     "name_es": "VEGETAL Y PEPINO",
+     "descriptors": [
+      {
+       "name": "Cucumber",
+       "name_fr": "Concombre",
+       "name_it": "Cetriolo",
+       "name_es": "Pepino",
+       "slug": "cucumber",
+       "panel": {
+        "origin": "One of the signature notes of West Coast Pacific oysters, tied to the milder waters and the oyster's diet of phytoplankton.",
+        "chemistry": "Tends to come with a creamy, smooth mouthfeel rather than a crisp snap.",
+        "pairing": "A cucumber-garnished gin cocktail or a crisp Albariño — both pick up the same green freshness.",
+        "mixology": "A few drops of ponzu with green onion can amplify cucumber notes beautifully.",
+        "examples": "Hammersley oysters are noted for a distinctive cucumber-mineral finish."
+       }
+      },
+      {
+       "name": "Fresh Grass",
+       "name_fr": "Herbe Fraîche",
+       "name_it": "Erba Fresca",
+       "name_es": "Pasto Fresco",
+       "slug": "fresh-grass",
+       "panel": {
+        "origin": "A green, herbaceous note from the oyster's phytoplankton diet — more common in oysters grown in nutrient-rich, grassy estuaries.",
+        "chemistry": "Usually a top note, noticed on the nose before the oyster is even tasted.",
+        "pairing": "A grassy Sauvignon Blanc — the classic 'green' wine pairing.",
+        "mixology": "Smell the oyster before tasting — it should smell sea-breezy and grassy-fresh, never fishy.",
+        "examples": "Subtle in many Atlantic varieties grown in marsh-fed estuaries."
+       }
+      },
+      {
+       "name": "Green Apple Skin",
+       "name_fr": "Peau de Pomme Verte",
+       "name_it": "Buccia di Mela Verde",
+       "name_es": "Cáscara de Manzana Verde",
+       "slug": "green-apple-skin",
+       "panel": {
+        "origin": "A tart, slightly tannic green-fruit note that can appear in oysters from cooler, well-oxygenated waters.",
+        "chemistry": "Adds a touch of brightness to the finish, balancing richer buttery notes.",
+        "pairing": "A bone-dry Muscadet sur lie — its own green apple character is a natural match.",
+        "mixology": "A classic mignonette (vinegar, shallot, pepper) can complement or compete with this note — use it sparingly.",
+        "examples": "Occasionally found in cold-water Atlantic Canadian varieties."
+       }
+      },
+      {
+       "name": "Celery",
+       "name_fr": "Céleri",
+       "name_it": "Sedano",
+       "name_es": "Apio",
+       "slug": "celery",
+       "panel": {
+        "origin": "A savory-green, slightly peppery note sometimes described alongside vegetal and mineral characteristics.",
+        "chemistry": "Adds a savory edge to the mid-palate, often alongside umami notes.",
+        "pairing": "A dry Manzanilla or Fino sherry — both have their own saline, savory-green character.",
+        "mixology": "Pairs surprisingly well with a classic oyster shooter built on Bloody Mary flavors, which already feature celery.",
+        "examples": "Noted occasionally in Gulf Coast and Chesapeake varieties."
+       }
+      }
+     ],
+     "color": "#5a6b3b"
+    }
+   ],
+   "color": "#5a6b3b"
+  },
+  {
+   "name": "MINERAL & METALLIC",
+   "name_fr": "Minéral & Métallique",
+   "name_it": "Minerale & Metallico",
+   "name_es": "MINERAL Y METÁLICO",
+   "sub": [
+    {
+     "name": "MINERAL & METALLIC",
+     "name_fr": "Minéral & Métallique",
+     "name_it": "Minerale & Metallico",
+     "name_es": "MINERAL Y METÁLICO",
+     "descriptors": [
+      {
+       "name": "Wet Stone",
+       "name_fr": "Pierre Mouillée",
+       "name_it": "Pietra Bagnata",
+       "name_es": "Piedra Mojada",
+       "slug": "wet-stone",
+       "panel": {
+        "origin": "A clean, mineral note reminiscent of rain on rocks — comes from the mineral content of the water and substrate the oyster grows on.",
+        "chemistry": "Often the first impression on the nose, fading as sweeter notes emerge on the palate.",
+        "pairing": "Chablis or a mineral-driven Muscadet — both share this flinty character.",
+        "mixology": "Best tasted without citrus, which can mask subtle mineral notes.",
+        "examples": "A hallmark of Fanny Bay oysters, which carry a slightly mineral character typical of British Columbia."
+       }
+      },
+      {
+       "name": "Flint",
+       "name_fr": "Silex",
+       "name_it": "Selce",
+       "name_es": "Pedernal",
+       "slug": "flint",
+       "panel": {
+        "origin": "A sharper, almost spark-like mineral note — more intense than wet stone, often found in oysters from rocky, high-energy environments.",
+        "chemistry": "Can verge on metallic in intensity; usually fleeting, appearing right after the initial brine.",
+        "pairing": "A flinty Sancerre or a dry Txakoli — both echo this stony intensity.",
+        "mixology": "Pairs best 'naked' — the flint note is easily lost under heavier sauces.",
+        "examples": "Found in cold, rocky-bottom growing areas along the Maine and Canadian Maritime coasts."
+       }
+      },
+      {
+       "name": "Copper",
+       "name_fr": "Cuivre",
+       "name_it": "Rame",
+       "name_es": "Cobre",
+       "slug": "copper",
+       "panel": {
+        "origin": "A distinctive metallic note that is the calling card of the Belon (European Flat) oyster — divisive among tasters.",
+        "chemistry": "Tends to linger on the finish, sometimes described as a 'penny' taste.",
+        "pairing": "A dry Muscadet or Chablis — classic partners for Belons in their native France.",
+        "mixology": "Belons are traditionally saved for the end of a tasting and eaten with nothing more than a squeeze of lemon.",
+        "examples": "Belon oysters from both Maine's Damariscotta River and France's Belon River are the defining example."
+       }
+      },
+      {
+       "name": "Iodine",
+       "name_fr": "Iode",
+       "name_it": "Iodio",
+       "name_es": "Yodo",
+       "slug": "iodine",
+       "panel": {
+        "origin": "A briny, almost medicinal note linked to the iodine content of seaweed and algae the oyster has filtered.",
+        "chemistry": "Most noticeable in the liquor itself rather than the meat.",
+        "pairing": "Fino or Manzanilla sherry — both have a similar saline, iodine-tinged profile.",
+        "mixology": "A small amount of this note is prized; in excess it can read as overly 'fishy' and may signal the oyster needs a rinse.",
+        "examples": "Common in oysters grown near kelp beds, such as those from Brittany, France, or the Gulf of Maine."
+       }
+      }
+     ],
+     "color": "#6a6a55"
+    }
+   ],
+   "color": "#6a6a55"
+  },
+  {
+   "name": "EARTHY & MUSHROOM",
+   "name_fr": "Terreux & Champignon",
+   "name_it": "Terroso & Funghi",
+   "name_es": "TERROSO Y CHAMPIÑÓN",
+   "sub": [
+    {
+     "name": "EARTHY & MUSHROOM",
+     "name_fr": "Terreux & Champignon",
+     "name_it": "Terroso & Funghi",
+     "name_es": "TERROSO Y CHAMPIÑÓN",
+     "descriptors": [
+      {
+       "name": "Mushroom",
+       "name_fr": "Champignon",
+       "name_it": "Fungo",
+       "name_es": "Champiñón",
+       "slug": "mushroom",
+       "panel": {
+        "origin": "An earthy, umami-rich note common in Atlantic (East Coast) oysters, especially those from lower-salinity bays.",
+        "chemistry": "Often appears alongside a firmer, meatier texture.",
+        "pairing": "A funky, skin-contact (orange) wine or a malty brown ale — both have their own earthy complexity.",
+        "mixology": "A light black pepper garnish can highlight earthy, mushroom-forward oysters.",
+        "examples": "More common in Chesapeake Bay and other lower-salinity Atlantic varieties."
+       }
+      },
+      {
+       "name": "Mollusky / Earthy",
+       "name_fr": "Mollusque / Terreux",
+       "name_it": "Mollusco / Terroso",
+       "name_es": "A Molusco / Terroso",
+       "slug": "mollusky-earthy",
+       "panel": {
+        "origin": "A deeper, more savory version of the oyster's own character — Atlantic oysters are more prone to earthy, mushroomy, and mollusky notes than their Pacific counterparts.",
+        "chemistry": "Pairs with a 'solid bite' — silky to meaty — typical of East Coast textures.",
+        "pairing": "A funky farmhouse saison or a dry cider with some earthy complexity.",
+        "mixology": "These oysters can handle a more assertive mignonette without losing character.",
+        "examples": "Common across many Virginica (Eastern) oyster varieties from the mid-Atlantic."
+       }
+      },
+      {
+       "name": "Forest Floor",
+       "name_fr": "Sous-bois",
+       "name_it": "Sottobosco",
+       "name_es": "Suelo de Bosque",
+       "slug": "forest-floor",
+       "panel": {
+        "origin": "A deep, earthy note evoking damp leaves or moss — an intensified version of mushroom character, found in oysters from tannin-rich, river-fed estuaries.",
+        "chemistry": "Tends to come with a fuller body and longer finish.",
+        "pairing": "An aged Chablis or a brown ale with some roasted malt character.",
+        "mixology": "These bolder flavors stand up well to a classic mignonette or even a light cooked preparation.",
+        "examples": "Occasionally found in oysters from tannin-rich river estuaries along the Gulf Coast."
+       }
+      },
+      {
+       "name": "Smoke",
+       "name_fr": "Fumée",
+       "name_it": "Fumo",
+       "name_es": "Humo",
+       "slug": "smoke",
+       "panel": {
+        "origin": "A subtle smoky or charred note — rare as a natural raw-oyster characteristic, but common when oysters are grilled or chargrilled.",
+        "chemistry": "When natural, it's faint and appears only in the finish; when cooked, it dominates.",
+        "pairing": "A peated Scotch or a smoked porter for grilled oyster preparations.",
+        "mixology": "Grilled oysters with garlic-parsley butter are a classic way to intentionally add this note.",
+        "examples": "Most often experienced through preparation (grilling) rather than as a natural raw-oyster trait."
+       }
+      }
+     ],
+     "color": "#7b5a3a"
+    }
+   ],
+   "color": "#7b5a3a"
+  },
+  {
+   "name": "BUTTERY & CREAMY",
+   "name_fr": "Beurré & Crémeux",
+   "name_it": "Burroso & Cremoso",
+   "name_es": "MANTECOSO Y CREMOSO",
+   "sub": [
+    {
+     "name": "BUTTERY & CREAMY",
+     "name_fr": "Beurré & Crémeux",
+     "name_it": "Burroso & Cremoso",
+     "name_es": "MANTECOSO Y CREMOSO",
+     "descriptors": [
+      {
+       "name": "Butter",
+       "name_fr": "Beurre",
+       "name_it": "Burro",
+       "name_es": "Mantequilla",
+       "slug": "butter",
+       "panel": {
+        "origin": "A rich, almost dairy-like note that develops in oysters with higher fat content — found in both bold Atlantic and creamy Pacific varieties.",
+        "chemistry": "Pairs with a fuller, rounder mouthfeel and often a longer finish.",
+        "pairing": "A lightly oaked Chardonnay or a smooth stout — both have their own buttery, creamy notes.",
+        "mixology": "These oysters are excellent candidates for a classic preparation like Oysters Rockefeller, which already features butter.",
+        "examples": "Blue Point oysters finish with an almost buttery, woody character."
+       }
+      },
+      {
+       "name": "Cream",
+       "name_fr": "Crème",
+       "name_it": "Panna",
+       "name_es": "Crema",
+       "slug": "cream",
+       "panel": {
+        "origin": "A smooth, dairy-like richness most associated with West Coast Pacific oysters grown in milder, nutrient-rich water.",
+        "chemistry": "Comes with a notably creamier, less crisp texture than East Coast varieties.",
+        "pairing": "A rich, lees-aged white Burgundy or a creamy stout.",
+        "mixology": "A drizzle of crème fraîche is a natural extension of this oyster's own character.",
+        "examples": "A hallmark of Pacific oysters generally, and especially Kumamoto and Hammersley."
+       }
+      },
+      {
+       "name": "Custard",
+       "name_fr": "Crème Anglaise",
+       "name_it": "Crema",
+       "name_es": "Natilla",
+       "slug": "custard",
+       "panel": {
+        "origin": "An even richer, eggier version of cream character — found in deep-cupped oysters with substantial, plump meat.",
+        "chemistry": "Closely tied to texture — these oysters are often described as 'custardy' in mouthfeel as much as flavor.",
+        "pairing": "A barrel-fermented white wine or a rich brown ale.",
+        "mixology": "Best enjoyed slowly — let the oyster sit on the tongue briefly to appreciate the rich texture.",
+        "examples": "Deep-cupped Pacific varieties like Kumamoto often show this character."
+       }
+      },
+      {
+       "name": "Brioche",
+       "name_fr": "Brioche",
+       "name_it": "Brioche",
+       "name_es": "Brioche",
+       "slug": "brioche",
+       "panel": {
+        "origin": "A toasted, bready richness — uncommon, but can appear in oysters with longer aquaculture cycles and higher fat content.",
+        "chemistry": "A finish note rather than a first impression — appears after the initial brine and sweetness.",
+        "pairing": "A traditional-method sparkling wine (Champagne, Cava) — its own toasty, brioche notes are a natural mirror.",
+        "mixology": "These oysters pair beautifully with a mignonette made from Champagne vinegar.",
+        "examples": "Occasionally noted in oysters finished in nutrient-rich waters just before harvest."
+       }
+      }
+     ],
+     "color": "#c9a13a"
+    }
+   ],
+   "color": "#c9a13a"
+  },
+  {
+   "name": "SEAWEED & UMAMI",
+   "name_fr": "Algues & Umami",
+   "name_it": "Alghe & Umami",
+   "name_es": "ALGAS Y UMAMI",
+   "sub": [
+    {
+     "name": "SEAWEED & UMAMI",
+     "name_fr": "Algues & Umami",
+     "name_it": "Alghe & Umami",
+     "name_es": "ALGAS Y UMAMI",
+     "descriptors": [
+      {
+       "name": "Seaweed",
+       "name_fr": "Algue",
+       "name_it": "Alga",
+       "name_es": "Algas",
+       "slug": "seaweed",
+       "panel": {
+        "origin": "A green, marine note from the algae and kelp in an oyster's environment — a hallmark of New England Atlantic oysters.",
+        "chemistry": "Most prominent in the finish, after the initial salinity and sweetness.",
+        "pairing": "A dry, herbal saké or a Muscadet — both have a complementary marine quality.",
+        "mixology": "Best enjoyed naked — this distinctive finish is easily masked by strong sauces.",
+        "examples": "Wellfleet oysters are famous for their distinctive seaweed finish."
+       }
+      },
+      {
+       "name": "Ocean Breeze",
+       "name_fr": "Brise Marine",
+       "name_it": "Brezza Marina",
+       "name_es": "Brisa Marina",
+       "slug": "ocean-breeze",
+       "panel": {
+        "origin": "The clean, fresh-air quality of a good oyster's aroma — what it should smell like before you even taste it.",
+        "chemistry": "Purely aromatic — this is a smell, not strictly a taste, and is the first quality check of freshness.",
+        "pairing": "Pairs with anything light and crisp — this note is about freshness, not intensity.",
+        "mixology": "If an oyster doesn't smell sea-breezy and sweet, don't eat it — that's the freshness test.",
+        "examples": "Expected in any fresh oyster, regardless of species or region."
+       }
+      },
+      {
+       "name": "Umami",
+       "name_fr": "Umami",
+       "name_it": "Umami",
+       "name_es": "Umami",
+       "slug": "umami",
+       "panel": {
+        "origin": "A deep, savory richness — the 'fifth taste' — that builds as the oyster's natural glutamates are released through chewing.",
+        "chemistry": "Develops mid-chew, part of the 'body' phase of tasting, alongside sweetness.",
+        "pairing": "Saké is an exceptional match — its own umami character harmonizes rather than competes.",
+        "mixology": "Chewing thoroughly is essential — umami is largely released through mechanical breakdown of the meat.",
+        "examples": "A defining trait of Olympia oysters, described as having surprisingly savory flavors."
+       }
+      },
+      {
+       "name": "Nutty",
+       "name_fr": "Noiseté",
+       "name_it": "Tostato di Frutta Secca",
+       "name_es": "A Frutos Secos",
+       "slug": "nutty",
+       "panel": {
+        "origin": "A toasted, nut-like richness that can appear in oysters with higher fat content, often alongside buttery notes.",
+        "chemistry": "A finish note, appearing after the initial salinity has faded.",
+        "pairing": "A nutty, oxidative sherry (Amontillado) or a brown ale with biscuit-malt character.",
+        "mixology": "These oysters can handle a light grating of fresh horseradish without losing their nutty depth.",
+        "examples": "Occasionally noted in well-fed, late-season Atlantic oysters."
+       }
+      }
+     ],
+     "color": "#3f7a5a"
+    }
+   ],
+   "color": "#3f7a5a"
+  },
+  {
+   "name": "TEXTURE & MOUTHFEEL",
+   "name_fr": "Texture & Sensation",
+   "name_it": "Consistenza & Sensazione",
+   "name_es": "TEXTURA Y SENSACIÓN EN BOCA",
+   "sub": [
+    {
+     "name": "TEXTURE & MOUTHFEEL",
+     "name_fr": "Texture & Sensation",
+     "name_it": "Consistenza & Sensazione",
+     "name_es": "TEXTURA Y SENSACIÓN EN BOCA",
+     "descriptors": [
+      {
+       "name": "Crisp / Firm",
+       "name_fr": "Croquant / Ferme",
+       "name_it": "Croccante / Sodo",
+       "name_es": "Crujiente / Firme",
+       "slug": "crisp-firm",
+       "panel": {
+        "origin": "A clean, snappy bite — the result of cold water slowing an oyster's metabolism and tightening its flesh.",
+        "chemistry": "Typical of East Coast (Atlantic) oysters grown sub-tidally in cold water.",
+        "pairing": "A high-acid white wine or crisp lager that won't be overwhelmed by the oyster's firm bite.",
+        "mixology": "These oysters hold up well to a classic mignonette without losing structure.",
+        "examples": "Beau Soleil oysters are rather meaty despite their compact size, with a firm texture typical of the East Coast."
+       }
+      },
+      {
+       "name": "Plump & Meaty",
+       "name_fr": "Charnu & Dodu",
+       "name_it": "Polposo & Carnoso",
+       "name_es": "Carnoso y Suculento",
+       "slug": "plump-meaty",
+       "panel": {
+        "origin": "A substantial, full bite — common in oysters harvested at peak condition, just before or after spawning season ends.",
+        "chemistry": "The opposite of a 'spawny' oyster, which becomes thin, milky, and less plump during reproduction.",
+        "pairing": "A fuller-bodied white wine or amber ale that can stand up to the substantial bite.",
+        "mixology": "These oysters are excellent for grilling or cooked preparations, since they hold their texture under heat.",
+        "examples": "French Kiss oysters are full and plump with generous liquor."
+       }
+      },
+      {
+       "name": "Creamy / Custardy",
+       "name_fr": "Crémeux / Onctueux",
+       "name_it": "Cremoso / Vellutato",
+       "name_es": "Cremoso / Tipo Natilla",
+       "slug": "creamy-custardy",
+       "panel": {
+        "origin": "A smooth, almost spoonable texture typical of West Coast Pacific oysters grown in milder, calmer waters.",
+        "chemistry": "The textural counterpart to cream and custard flavor notes — texture and flavor reinforce each other here.",
+        "pairing": "A creamy, lees-aged white wine that mirrors the oyster's own texture.",
+        "mixology": "Let these oysters slide rather than chew aggressively — their texture is part of the appeal.",
+        "examples": "Kumamoto oysters are famous for exceptionally deep cups and a correspondingly creamy texture."
+       }
+      },
+      {
+       "name": "Silky & Smooth",
+       "name_fr": "Soyeux & Lisse",
+       "name_it": "Setoso & Morbido",
+       "name_es": "Sedoso y Suave",
+       "slug": "silky-smooth",
+       "panel": {
+        "origin": "A refined, almost velvety mouthfeel — often found in smaller, more delicate oyster varieties.",
+        "chemistry": "A 'solid but silky' bite is often used to describe well-balanced Atlantic varieties.",
+        "pairing": "A delicate, low-alcohol white wine or a light pilsner that won't overpower the subtlety.",
+        "mixology": "These oysters are best appreciated with the lightest possible garnish — or none at all.",
+        "examples": "Beau Soleil oysters have moderate cup depth with a notably silky-to-meaty bite."
+       }
+      }
+     ],
+     "color": "#6b4a8a"
+    }
+   ],
+   "color": "#6b4a8a"
+  },
+  {
+   "name": "SPECIES & MERROIR",
+   "name_fr": "Espèces & Merroir",
+   "name_it": "Specie & Merroir",
+   "name_es": "ESPECIES Y MERROIR",
+   "sub": [
+    {
+     "name": "Virginica (Eastern)",
+     "name_fr": "Virginica (Orientale)",
+     "name_it": "Virginica (Orientale)",
+     "name_es": "Virginica (Oriental)",
+     "descriptors": [
+      {
+       "name": "Wellfleet",
+       "name_fr": "Wellfleet",
+       "name_it": "Wellfleet",
+       "name_es": "Wellfleet",
+       "slug": "wellfleet",
+       "panel": {
+        "origin": "New England's most famous oyster variety, farmed and wild from Cape Cod, Massachusetts — a Virginica (Eastern) oyster.",
+        "chemistry": "About 3½ inches with moderate cup depth and plump meat.",
+        "pairing": "Muscadet or a crisp New England-style lager — classic regional pairings.",
+        "mixology": "Best enjoyed naked to appreciate its famous seaweed finish.",
+        "examples": "Delivers a clean, crisp taste with pronounced salinity and a distinctive seaweed finish that captures the essence of Cape Cod waters."
+       }
+      },
+      {
+       "name": "Blue Point",
+       "name_fr": "Blue Point",
+       "name_it": "Blue Point",
+       "name_es": "Blue Point",
+       "slug": "blue-point",
+       "panel": {
+        "origin": "Farmed and wild in Long Island Sound, New York — one of the most recognizable Virginica (Eastern) names, though the name is sometimes used generically for East Coast oysters.",
+        "chemistry": "About 3½ inches with a small-to-medium cup depth, firm texture, and meaty bite.",
+        "pairing": "A bold Chardonnay or amber ale that can stand up to its assertive flavor.",
+        "mixology": "A great introduction for someone moving from milder oysters to bolder East Coast styles.",
+        "examples": "Assertively salty and meaty, finishing with an almost buttery, woody character that sets it apart from milder varieties."
+       }
+      },
+      {
+       "name": "Beau Soleil",
+       "name_fr": "Beau Soleil",
+       "name_it": "Beau Soleil",
+       "name_es": "Beau Soleil",
+       "slug": "beau-soleil",
+       "panel": {
+        "origin": "Farmed in New Brunswick, Canada — a Virginica (Eastern) oyster bred for consistency and approachability.",
+        "chemistry": "Small, about 2½ inches, with moderate cup depth — rather meaty for its size, and easy to shuck.",
+        "pairing": "A light, dry sparkling wine — its delicate profile won't be overwhelmed.",
+        "mixology": "An ideal 'first oyster' for beginners thanks to its light flavor and balanced saltiness.",
+        "examples": "Light flavor, balanced saltiness, and a clean finish make this one of the most approachable East Coast varieties."
+       }
+      }
+     ],
+     "color": "#8a3a4a"
+    },
+    {
+     "name": "Pacific",
+     "name_fr": "Pacifique",
+     "name_it": "Pacifico",
+     "name_es": "Pacífico",
+     "descriptors": [
+      {
+       "name": "Fanny Bay",
+       "name_fr": "Fanny Bay",
+       "name_it": "Fanny Bay",
+       "name_es": "Fanny Bay",
+       "slug": "fanny-bay",
+       "panel": {
+        "origin": "Farmed in British Columbia, Canada — a Pacific (Crassostrea gigas) oyster representing classic BC qualities.",
+        "chemistry": "About 3 inches with moderate cup depth, plump meat, and full body.",
+        "pairing": "A mineral-driven white wine like Chablis to echo its own mineral character.",
+        "mixology": "Try alongside a Kumamoto for a side-by-side comparison of Pacific styles.",
+        "examples": "Briny with plump meat, full body, and a slightly mineral character typical of British Columbia oysters."
+       }
+      },
+      {
+       "name": "Shigoku",
+       "name_fr": "Shigoku",
+       "name_it": "Shigoku",
+       "name_es": "Shigoku",
+       "slug": "shigoku",
+       "panel": {
+        "origin": "Farmed in Washington State — a specially tumbled Pacific oyster known for its smooth, rounded shell and intense flavor.",
+        "chemistry": "About 2–3 inches with deep cups and a crisp texture despite its Pacific origins.",
+        "pairing": "A bright, acidic white wine or crisp pilsner to match its intense brininess.",
+        "mixology": "One of the best Pacific oysters for beginners to try raw, thanks to its balanced brine-to-sweet ratio.",
+        "examples": "Intensely briny with a sweet finish — crisp texture and plump meat set it apart from creamier Pacific varieties."
+       }
+      },
+      {
+       "name": "Hammersley",
+       "name_fr": "Hammersley",
+       "name_it": "Hammersley",
+       "name_es": "Hammersley",
+       "slug": "hammersley",
+       "panel": {
+        "origin": "Farmed in Washington State — a large-format Pacific oyster grown to substantial size.",
+        "chemistry": "Grows to about 4 inches with deep cups, giving the meat substantial size.",
+        "pairing": "A textured, lees-aged white wine that can stand up to its full flavor.",
+        "mixology": "Its cucumber-mineral finish shines when eaten naked or with the lightest squeeze of lime.",
+        "examples": "Meaty and full-flavored, with creamy texture, subtle salinity, and a distinctive cucumber-mineral finish."
+       }
+      }
+     ],
+     "color": "#3f6b8a"
+    },
+    {
+     "name": "Kumamoto",
+     "name_fr": "Kumamoto",
+     "name_it": "Kumamoto",
+     "name_es": "Kumamoto",
+     "descriptors": [
+      {
+       "name": "Kumamoto",
+       "name_fr": "Kumamoto",
+       "name_it": "Kumamoto",
+       "name_es": "Kumamoto",
+       "slug": "kumamoto",
+       "panel": {
+        "origin": "Native to Kumamoto Bay, Japan (Crassostrea sikamea) — now farmed extensively from California to Washington, usually sold under its own name.",
+        "chemistry": "Rarely exceeds 2 inches, with exceptionally deep cups and deeply fluted shells.",
+        "pairing": "An off-dry Riesling or a light saison — both complement its sweet, melon-forward profile.",
+        "mixology": "A perfect oyster for beginners and connoisseurs alike, thanks to its approachable sweetness.",
+        "examples": "Uniquely sweet, creamy flavor with melon notes; occasionally grown to 5 inches for grilling."
+       }
+      },
+      {
+       "name": "Hog Island Kumamoto",
+       "name_fr": "Hog Island Kumamoto",
+       "name_it": "Hog Island Kumamoto",
+       "name_es": "Hog Island Kumamoto",
+       "slug": "hog-island-kumamoto",
+       "panel": {
+        "origin": "A Kumamoto-style oyster farmed by Hog Island Oyster Co. in Tomales Bay, California.",
+        "chemistry": "Small and deep-cupped, consistent with the Kumamoto species profile.",
+        "pairing": "A cool-climate Chardonnay from the same coastal region — a true 'sense of place' pairing.",
+        "mixology": "Compare side-by-side with a Bodega Bay Kumamoto to taste how merroir shifts flavor even within the same species.",
+        "examples": "Shares the sweet, melon-forward Kumamoto profile with a Tomales Bay regional signature."
+       }
+      },
+      {
+       "name": "Bodega Bay Kumamoto",
+       "name_fr": "Bodega Bay Kumamoto",
+       "name_it": "Bodega Bay Kumamoto",
+       "name_es": "Bodega Bay Kumamoto",
+       "slug": "bodega-bay-kumamoto",
+       "panel": {
+        "origin": "A small, moderate-salinity Kumamoto-style oyster farmed in Tomales Bay near Bodega Bay, California.",
+        "chemistry": "Small format with moderate salinity — milder than many East Coast varieties of similar size.",
+        "pairing": "A crisp coastal Sauvignon Blanc from Sonoma or Marin County.",
+        "mixology": "A great entry point for tasting California's coastal merroir.",
+        "examples": "Demonstrates the moderate-salinity, small-format profile typical of Northern California Kumamotos."
+       }
+      }
+     ],
+     "color": "#c9a13a"
+    },
+    {
+     "name": "Olympia",
+     "name_fr": "Olympia",
+     "name_it": "Olympia",
+     "name_es": "Olympia",
+     "descriptors": [
+      {
+       "name": "Olympia",
+       "name_fr": "Olympia",
+       "name_it": "Olympia",
+       "name_es": "Olympia",
+       "slug": "olympia",
+       "panel": {
+        "origin": "The only oyster species (Ostrea lurida) native to the Pacific Coast of North America, found from California to British Columbia — a favorite of legendary chef James Beard.",
+        "chemistry": "Very small and fragile, rarely bigger than a quarter — under 2 inches.",
+        "pairing": "A delicate, low-intervention white wine or a light saké.",
+        "mixology": "Eat completely plain — this one doesn't need or want any garnish.",
+        "examples": "Mildly fruity and surprisingly savory flavors paired with balanced firmness; rarely sold under any other name."
+       }
+      }
+     ],
+     "color": "#5a6b3b"
+    },
+    {
+     "name": "Belon (European Flat)",
+     "name_fr": "Belon (Plate Européenne)",
+     "name_it": "Belon (Piatta Europea)",
+     "name_es": "Belon (Plana Europea)",
+     "descriptors": [
+      {
+       "name": "Belon (Maine)",
+       "name_fr": "Belon (Maine)",
+       "name_it": "Belon (Maine)",
+       "name_es": "Belon (Maine)",
+       "slug": "belon-maine",
+       "panel": {
+        "origin": "A European Flat oyster (Ostrea edulis) grown in Maine's Damariscotta River — one of the only US fisheries for this species.",
+        "chemistry": "Flat-shelled, with a firm texture distinct from cupped Crassostrea species.",
+        "pairing": "A classic dry Muscadet, as served with Belons in their native Brittany.",
+        "mixology": "Save for the end of a tasting — a simple squeeze of lemon is all it needs.",
+        "examples": "Carries the same polarizing copper-mineral finish as its French counterpart, foraged in very limited quantities."
+       }
+      },
+      {
+       "name": "Belon (France)",
+       "name_fr": "Belon (France)",
+       "name_it": "Belon (Francia)",
+       "name_es": "Belon (Francia)",
+       "slug": "belon-france",
+       "panel": {
+        "origin": "The original European Flat oyster (Ostrea edulis), native to France's Belon River — the namesake of the entire variety.",
+        "chemistry": "Flat-shelled with a firm, dense texture and a famously strong mineral finish.",
+        "pairing": "Dry Muscadet or Chablis — the traditional Breton pairing.",
+        "mixology": "A polarizing oyster that drinkers tend to love or hate — approach with curiosity rather than expectation.",
+        "examples": "The benchmark for the entire Belon/European Flat category and the namesake of the copper/mineral flavor family."
+       }
+      }
+     ],
+     "color": "#6b4a8a"
+    }
+   ],
+   "color": "#8a3a4a"
+  }
+ ],
+ "funFacts": {
+  "BRINY & SALINE": {
+   "en": "The clear liquid pooled in a freshly shucked oyster — called the 'liquor' — is filtered seawater from the oyster's own habitat, and tasting it (never pour it out!) is one of the best ways to gauge an oyster's salinity.",
+   "es": "El líquido transparente que queda en una ostra recién abierta — llamado 'licor' — es agua de mar filtrada del propio hábitat de la ostra, y probarlo (¡nunca lo tires!) es una de las mejores formas de evaluar su salinidad."
+  },
+  "SWEET & MELON": {
+   "en": "An oyster's subtle sweetness isn't from sugar — it's glycogen, an energy-storage molecule, released as you chew. That's why tasting etiquette calls for three to four chews before swallowing.",
+   "es": "La sutil dulzura de una ostra no viene del azúcar — es glucógeno, una molécula de reserva de energía, que se libera al masticar. Por eso la etiqueta de cata recomienda masticar tres o cuatro veces antes de tragar."
+  },
+  "VEGETAL & CUCUMBER": {
+   "en": "Pacific Ocean water is generally milder and less salty than the Atlantic, which is why West Coast oysters tend toward cucumber, melon, and butter notes rather than the brinier, mineral character of East Coast oysters.",
+   "es": "El agua del Pacífico suele ser más suave y menos salada que la del Atlántico, por lo que las ostras de la Costa Oeste tienden a notas de pepino, melón y mantequilla en lugar del carácter más salino y mineral de las ostras de la Costa Este."
+  },
+  "MINERAL & METALLIC": {
+   "en": "The Belon (European Flat) oyster's strong copper-mineral finish is so distinctive that oyster lovers tend to either love it or hate it — there's rarely a middle ground.",
+   "es": "El intenso final a cobre y mineral de la ostra Belon (plana europea) es tan distintivo que a los amantes de las ostras suele encantarles o disgustarles — rara vez hay un punto medio."
+  },
+  "EARTHY & MUSHROOM": {
+   "en": "Atlantic oysters are more prone to earthy, mushroomy, and mollusky notes than their Pacific cousins — a direct reflection of the colder, often more nutrient-rich waters where Virginica oysters are grown.",
+   "es": "Las ostras del Atlántico son más propensas a notas terrosas, de champiñón y a molusco que sus primas del Pacífico — un reflejo directo de las aguas más frías y a menudo más ricas en nutrientes donde se cultivan las ostras Virginica."
+  },
+  "BUTTERY & CREAMY": {
+   "en": "A Blue Point oyster's finish is famously described as 'almost buttery, woody' — proof that an oyster's flavor can echo descriptors usually reserved for wine and whiskey.",
+   "es": "El final de una ostra Blue Point se describe famosamente como 'casi mantecoso, amaderado' — prueba de que el sabor de una ostra puede recordar descriptores normalmente reservados para el vino y el whisky."
+  },
+  "SEAWEED & UMAMI": {
+   "en": "Wellfleet oysters are famous for a 'distinctive seaweed finish,' while Olympia oysters are prized for 'surprisingly savory' umami — two ends of the marine flavor spectrum from a single coastline.",
+   "es": "Las ostras Wellfleet son famosas por su 'distintivo final a algas', mientras que las Olympia se valoran por su umami 'sorprendentemente sabroso' — dos extremos del espectro de sabor marino de una misma costa."
+  },
+  "TEXTURE & MOUTHFEEL": {
+   "en": "Cold water slows an oyster's metabolism, producing the crisp, firm texture typical of East Coast oysters — while the milder Pacific produces a creamier, custardier bite.",
+   "es": "El agua fría ralentiza el metabolismo de la ostra, produciendo la textura crujiente y firme típica de las ostras de la Costa Este — mientras que el Pacífico, más templado, produce un bocado más cremoso, tipo natilla."
+  },
+  "SPECIES & MERROIR": {
+   "en": "Just five oyster species account for the hundreds of named varieties found in North America — the differences between a Wellfleet and a Kumamoto come almost entirely from where and how each is grown, a concept oyster experts call 'merroir.'",
+   "es": "Solo cinco especies de ostras dan origen a los cientos de variedades con nombre que se encuentran en Norteamérica — las diferencias entre una Wellfleet y una Kumamoto provienen casi por completo de dónde y cómo se cultiva cada una, un concepto que los expertos llaman 'merroir.'"
+  }
+ }
+}

@@ -1,0 +1,1325 @@
+{
+ "title": "Varietals",
+ "subject": "varietals",
+ "categories": [
+  {
+   "name": "AROMATIC WHITES",
+   "name_fr": "BLANCS AROMATIQUES",
+   "name_it": "AROMATIC WHITES",
+   "name_es": "BLANCOS AROMÁTICOS",
+   "color": "#d9c24a",
+   "sub": [
+    {
+     "name": "AROMATIC WHITES",
+     "name_fr": "BLANCS AROMATIQUES",
+     "name_it": "AROMATIC WHITES",
+     "name_es": "BLANCOS AROMÁTICOS",
+     "color": "#d9c24a",
+     "descriptors": [
+      {
+       "name": "Riesling",
+       "name_fr": "Riesling",
+       "name_it": "Riesling",
+       "name_es": "Riesling",
+       "slug": "riesling",
+       "name_de": "Riesling",
+       "panel": {
+        "origin": "Lime, green apple, white peach, honeysuckle, and a signature petrol note with age.",
+        "origin_es": "Lima, manzana verde, durazno blanco, madreselva y un característico toque petrolero con la edad.",
+        "origin_it": "Lime, green apple, white peach, honeysuckle, and a signature petrol note with age.",
+        "chemistry": "High, racy acidity; light body; low to moderate alcohol; bone-dry to lusciously sweet.",
+        "chemistry_es": "Acidez alta y vibrante; cuerpo ligero; alcohol bajo a moderado; de muy seco a dulce.",
+        "chemistry_it": "High, racy acidity; light body; low to moderate alcohol; bone-dry to lusciously sweet.",
+        "pairing": "Spicy Thai and Sichuan, pork, smoked fish, apple desserts.",
+        "pairing_es": "Tailandesa y sichuanesa picante, cerdo, pescado ahumado, postres de manzana.",
+        "pairing_it": "Spicy Thai and Sichuan, pork, smoked fish, apple desserts.",
+        "mixology": "7–10°C in a white-wine glass; serve sweeter styles colder.",
+        "mixology_es": "7–10°C en copa de vino blanco; los estilos dulces, más fríos.",
+        "mixology_it": "7–10°C in a white-wine glass; serve sweeter styles colder.",
+        "examples": "Mosel and Rheingau (Germany), Alsace, Clare and Eden Valley (Australia), Finger Lakes.",
+        "examples_es": "Mosela y Rheingau (Alemania), Alsacia, Clare y Eden Valley (Australia), Finger Lakes.",
+        "examples_it": "Mosel and Rheingau (Germany), Alsace, Clare and Eden Valley (Australia), Finger Lakes."
+       }
+      },
+      {
+       "name": "Gewürztraminer",
+       "name_fr": "Gewürztraminer",
+       "name_it": "Gewürztraminer",
+       "name_es": "Gewürztraminer",
+       "slug": "gewurztraminer",
+       "name_de": "Gewürztraminer",
+       "panel": {
+        "origin": "Lychee, rose petal, ginger, and Turkish delight; flamboyantly perfumed.",
+        "origin_es": "Lichi, pétalo de rosa, jengibre y delicia turca; exuberantemente perfumado.",
+        "origin_it": "Lychee, rose petal, ginger, and Turkish delight; flamboyantly perfumed.",
+        "chemistry": "Low acidity; full body; high alcohol; oily texture, often off-dry.",
+        "chemistry_es": "Acidez baja; cuerpo pleno; alcohol alto; textura aceitosa, a menudo semiseco.",
+        "chemistry_it": "Low acidity; full body; high alcohol; oily texture, often off-dry.",
+        "pairing": "Munster cheese, foie gras, aromatic Asian curries.",
+        "pairing_es": "Queso Munster, foie gras, currys asiáticos aromáticos.",
+        "pairing_it": "Munster cheese, foie gras, aromatic Asian curries.",
+        "mixology": "8–10°C in a white-wine glass to tame the alcohol.",
+        "mixology_es": "8–10°C en copa de vino blanco para domar el alcohol.",
+        "mixology_it": "8–10°C in a white-wine glass to tame the alcohol.",
+        "examples": "Alsace, Alto Adige, Germany, cool sites in California and the Pacific Northwest.",
+        "examples_es": "Alsacia, Alto Adigio, Alemania, zonas frescas de California y el noroeste del Pacífico.",
+        "examples_it": "Alsace, Alto Adige, Germany, cool sites in California and the Pacific Northwest."
+       }
+      },
+      {
+       "name": "Muscat Blanc",
+       "name_fr": "Muscat Blanc",
+       "name_it": "Muscat Blanc",
+       "name_es": "Moscatel de Grano Menudo",
+       "slug": "muscat-blanc",
+       "name_de": "Muscat Blanc",
+       "panel": {
+        "origin": "Grapey, orange blossom, and musk; one of the few grapes that smells like fresh grapes.",
+        "origin_es": "A uva, azahar y almizcle; de las pocas uvas que huelen a uva fresca.",
+        "origin_it": "Grapey, orange blossom, and musk; one of the few grapes that smells like fresh grapes.",
+        "chemistry": "Moderate acidity; light to medium body; made dry, sparkling, or sweet.",
+        "chemistry_es": "Acidez moderada; cuerpo ligero a medio; se elabora seco, espumoso o dulce.",
+        "chemistry_it": "Moderate acidity; light to medium body; made dry, sparkling, or sweet.",
+        "pairing": "Fruit tarts, light desserts, fresh cheese; dry styles as aperitif.",
+        "pairing_es": "Tartas de fruta, postres ligeros, queso fresco; en seco, como aperitivo.",
+        "pairing_it": "Fruit tarts, light desserts, fresh cheese; dry styles as aperitif.",
+        "mixology": "6–9°C; chilled, in a white-wine glass.",
+        "mixology_es": "6–9°C; frío, en copa de vino blanco.",
+        "mixology_it": "6–9°C; chilled, in a white-wine glass.",
+        "examples": "Alsace, Asti (Italy), Rhône (Beaumes-de-Venise), Greece (Samos).",
+        "examples_es": "Alsacia, Asti (Italia), Ródano (Beaumes-de-Venise), Grecia (Samos).",
+        "examples_it": "Alsace, Asti (Italy), Rhône (Beaumes-de-Venise), Greece (Samos)."
+       }
+      },
+      {
+       "name": "Viognier",
+       "name_fr": "Viognier",
+       "name_it": "Viognier",
+       "name_es": "Viognier",
+       "slug": "viognier",
+       "name_de": "Viognier",
+       "panel": {
+        "origin": "Apricot, peach, honeysuckle, and white flowers; rich and perfumed.",
+        "origin_es": "Albaricoque, durazno, madreselva y flores blancas; rico y perfumado.",
+        "origin_it": "Apricot, peach, honeysuckle, and white flowers; rich and perfumed.",
+        "chemistry": "Low to moderate acidity; full body; high alcohol; rounded, sometimes oily.",
+        "chemistry_es": "Acidez baja a moderada; cuerpo pleno; alcohol alto; redondo, a veces aceitoso.",
+        "chemistry_it": "Low to moderate acidity; full body; high alcohol; rounded, sometimes oily.",
+        "pairing": "Roast chicken, lobster, mild curries, soft cheese.",
+        "pairing_es": "Pollo asado, langosta, currys suaves, queso blando.",
+        "pairing_it": "Roast chicken, lobster, mild curries, soft cheese.",
+        "mixology": "10–12°C in a white-wine glass; not too cold or aromatics close down.",
+        "mixology_es": "10–12°C en copa de vino blanco; no muy frío o los aromas se cierran.",
+        "mixology_it": "10–12°C in a white-wine glass; not too cold or aromatics close down.",
+        "examples": "Condrieu and Côte-Rôtie (Rhône, co-fermented), California, Australia.",
+        "examples_es": "Condrieu y Côte-Rôtie (Ródano, cofermentado), California, Australia.",
+        "examples_it": "Condrieu and Côte-Rôtie (Rhône, co-fermented), California, Australia."
+       }
+      },
+      {
+       "name": "Torrontés",
+       "name_fr": "Torrontés",
+       "name_it": "Torrontés",
+       "name_es": "Torrontés",
+       "slug": "torrontes",
+       "name_de": "Torrontés",
+       "panel": {
+        "origin": "Jasmine, rose, and peach on the nose, yet crisp and dry on the palate — a fragrant surprise.",
+        "origin_es": "Jazmín, rosa y durazno en nariz, pero fresco y seco en boca — una sorpresa fragante.",
+        "origin_it": "Jasmine, rose, and peach on the nose, yet crisp and dry on the palate — a fragrant surprise.",
+        "chemistry": "Fresh acidity; light to medium body; moderate alcohol.",
+        "chemistry_es": "Acidez fresca; cuerpo ligero a medio; alcohol moderado.",
+        "chemistry_it": "Fresh acidity; light to medium body; moderate alcohol.",
+        "pairing": "Ceviche, empanadas, spicy Latin and Asian dishes.",
+        "pairing_es": "Ceviche, empanadas, platos latinos y asiáticos picantes.",
+        "pairing_it": "Ceviche, empanadas, spicy Latin and Asian dishes.",
+        "mixology": "7–9°C in a white-wine glass.",
+        "mixology_es": "7–9°C en copa de vino blanco.",
+        "mixology_it": "7–9°C in a white-wine glass.",
+        "examples": "Argentina, above all the high-altitude vineyards of Salta (Cafayate).",
+        "examples_es": "Argentina, sobre todo los viñedos de altura de Salta (Cafayate).",
+        "examples_it": "Argentina, above all the high-altitude vineyards of Salta (Cafayate)."
+       }
+      }
+     ],
+     "name_de": "AROMATIC WHITES"
+    }
+   ],
+   "name_de": "AROMATIC WHITES"
+  },
+  {
+   "name": "CRISP WHITES",
+   "name_fr": "BLANCS VIFS",
+   "name_it": "CRISP WHITES",
+   "name_es": "BLANCOS FRESCOS",
+   "color": "#b6c84a",
+   "sub": [
+    {
+     "name": "CRISP WHITES",
+     "name_fr": "BLANCS VIFS",
+     "name_it": "CRISP WHITES",
+     "name_es": "BLANCOS FRESCOS",
+     "color": "#b6c84a",
+     "descriptors": [
+      {
+       "name": "Sauvignon Blanc",
+       "name_fr": "Sauvignon Blanc",
+       "name_it": "Sauvignon Blanc",
+       "name_es": "Sauvignon Blanc",
+       "slug": "sauvignon-blanc",
+       "name_de": "Sauvignon Blanc",
+       "panel": {
+        "origin": "Gooseberry, lime, grapefruit, cut grass, and bell pepper; pungent and herbaceous.",
+        "origin_es": "Grosella, lima, pomelo, hierba cortada y pimiento; punzante y herbáceo.",
+        "origin_it": "Gooseberry, lime, grapefruit, cut grass, and bell pepper; pungent and herbaceous.",
+        "chemistry": "High acidity; light to medium body; usually unoaked and bone-dry.",
+        "chemistry_es": "Acidez alta; cuerpo ligero a medio; normalmente sin madera y muy seco.",
+        "chemistry_it": "High acidity; light to medium body; usually unoaked and bone-dry.",
+        "pairing": "Goat cheese, oysters, salads, green vegetables, herbs.",
+        "pairing_es": "Queso de cabra, ostras, ensaladas, verduras verdes, hierbas.",
+        "pairing_it": "Goat cheese, oysters, salads, green vegetables, herbs.",
+        "mixology": "7–9°C in a white-wine glass.",
+        "mixology_es": "7–9°C en copa de vino blanco.",
+        "mixology_it": "7–9°C in a white-wine glass.",
+        "examples": "Loire (Sancerre, Pouilly-Fumé), Marlborough (NZ), Bordeaux, California.",
+        "examples_es": "Loira (Sancerre, Pouilly-Fumé), Marlborough (NZ), Burdeos, California.",
+        "examples_it": "Loire (Sancerre, Pouilly-Fumé), Marlborough (NZ), Bordeaux, California."
+       }
+      },
+      {
+       "name": "Pinot Grigio",
+       "name_fr": "Pinot Grigio",
+       "name_it": "Pinot Grigio",
+       "name_es": "Pinot Grigio",
+       "slug": "pinot-grigio",
+       "name_de": "Pinot Grigio",
+       "panel": {
+        "origin": "Lemon, pear, and almond; light and neutral as Grigio, riper and spicier as Gris.",
+        "origin_es": "Limón, pera y almendra; ligero y neutro como Grigio, más maduro como Gris.",
+        "origin_it": "Lemon, pear, and almond; light and neutral as Grigio, riper and spicier as Gris.",
+        "chemistry": "Light body; crisp acidity in Italy; richer, off-dry in Alsace (Pinot Gris).",
+        "chemistry_es": "Cuerpo ligero; acidez fresca en Italia; más rico y semiseco en Alsacia (Pinot Gris).",
+        "chemistry_it": "Light body; crisp acidity in Italy; richer, off-dry in Alsace (Pinot Gris).",
+        "pairing": "Antipasti, light fish, salads, soft cheese.",
+        "pairing_es": "Antipasti, pescado ligero, ensaladas, queso blando.",
+        "pairing_it": "Antipasti, light fish, salads, soft cheese.",
+        "mixology": "7–9°C in a white-wine glass.",
+        "mixology_es": "7–9°C en copa de vino blanco.",
+        "mixology_it": "7–9°C in a white-wine glass.",
+        "examples": "Northeast Italy (Grigio); Alsace and Oregon (Pinot Gris).",
+        "examples_es": "Noreste de Italia (Grigio); Alsacia y Oregón (Pinot Gris).",
+        "examples_it": "Northeast Italy (Grigio); Alsace and Oregon (Pinot Gris)."
+       }
+      },
+      {
+       "name": "Albariño",
+       "name_fr": "Albariño",
+       "name_it": "Albariño",
+       "name_es": "Albariño",
+       "slug": "albarino",
+       "name_de": "Albariño",
+       "panel": {
+        "origin": "Citrus, white peach, and a saline, sea-spray minerality.",
+        "origin_es": "Cítricos, durazno blanco y una mineralidad salina, a brisa marina.",
+        "origin_it": "Citrus, white peach, and a saline, sea-spray minerality.",
+        "chemistry": "High acidity; light to medium body; often a slight texture from lees aging.",
+        "chemistry_es": "Acidez alta; cuerpo ligero a medio; a menudo con textura de crianza sobre lías.",
+        "chemistry_it": "High acidity; light to medium body; often a slight texture from lees aging.",
+        "pairing": "Shellfish, grilled sardines, octopus, ceviche.",
+        "pairing_es": "Mariscos, sardinas a la brasa, pulpo, ceviche.",
+        "pairing_it": "Shellfish, grilled sardines, octopus, ceviche.",
+        "mixology": "8–10°C in a white-wine glass.",
+        "mixology_es": "8–10°C en copa de vino blanco.",
+        "mixology_it": "8–10°C in a white-wine glass.",
+        "examples": "Rías Baixas (Galicia, Spain) and Vinho Verde (Portugal, as Alvarinho).",
+        "examples_es": "Rías Baixas (Galicia, España) y Vinho Verde (Portugal, como Alvarinho).",
+        "examples_it": "Rías Baixas (Galicia, Spain) and Vinho Verde (Portugal, as Alvarinho)."
+       }
+      },
+      {
+       "name": "Grüner Veltliner",
+       "name_fr": "Grüner Veltliner",
+       "name_it": "Grüner Veltliner",
+       "name_es": "Grüner Veltliner",
+       "slug": "gruner-veltliner",
+       "name_de": "Grüner Veltliner",
+       "panel": {
+        "origin": "Green apple, citrus, white pepper, and a lentil-like savoriness.",
+        "origin_es": "Manzana verde, cítricos, pimienta blanca y un fondo a legumbre.",
+        "origin_it": "Green apple, citrus, white pepper, and a lentil-like savoriness.",
+        "chemistry": "High acidity; light to medium body; bone-dry, can age into richness.",
+        "chemistry_es": "Acidez alta; cuerpo ligero a medio; muy seco, gana riqueza con la guarda.",
+        "chemistry_it": "High acidity; light to medium body; bone-dry, can age into richness.",
+        "pairing": "Schnitzel, asparagus, sushi, vegetable dishes.",
+        "pairing_es": "Schnitzel, espárragos, sushi, platos de verdura.",
+        "pairing_it": "Schnitzel, asparagus, sushi, vegetable dishes.",
+        "mixology": "8–10°C in a white-wine glass.",
+        "mixology_es": "8–10°C en copa de vino blanco.",
+        "mixology_it": "8–10°C in a white-wine glass.",
+        "examples": "Austria (Wachau, Kamptal, Kremstal).",
+        "examples_es": "Austria (Wachau, Kamptal, Kremstal).",
+        "examples_it": "Austria (Wachau, Kamptal, Kremstal)."
+       }
+      },
+      {
+       "name": "Vermentino",
+       "name_fr": "Vermentino",
+       "name_it": "Vermentino",
+       "name_es": "Vermentino",
+       "slug": "vermentino",
+       "name_de": "Vermentino",
+       "panel": {
+        "origin": "Citrus, green almond, and herbs with a faintly bitter, saline finish.",
+        "origin_es": "Cítricos, almendra verde y hierbas, con final ligeramente amargo y salino.",
+        "origin_it": "Citrus, green almond, and herbs with a faintly bitter, saline finish.",
+        "chemistry": "Fresh acidity; light to medium body; dry.",
+        "chemistry_es": "Acidez fresca; cuerpo ligero a medio; seco.",
+        "chemistry_it": "Fresh acidity; light to medium body; dry.",
+        "pairing": "Pesto, grilled fish, shellfish, Mediterranean vegetables.",
+        "pairing_es": "Pesto, pescado a la brasa, mariscos, verduras mediterráneas.",
+        "pairing_it": "Pesto, grilled fish, shellfish, Mediterranean vegetables.",
+        "mixology": "8–10°C in a white-wine glass.",
+        "mixology_es": "8–10°C en copa de vino blanco.",
+        "mixology_it": "8–10°C in a white-wine glass.",
+        "examples": "Sardinia, Liguria, Tuscany (Italy); Provence and Corsica (as Rolle).",
+        "examples_es": "Cerdeña, Liguria, Toscana (Italia); Provenza y Córcega (como Rolle).",
+        "examples_it": "Sardinia, Liguria, Tuscany (Italy); Provence and Corsica (as Rolle)."
+       }
+      },
+      {
+       "name": "Verdejo",
+       "name_fr": "Verdejo",
+       "name_it": "Verdejo",
+       "name_es": "Verdejo",
+       "slug": "verdejo",
+       "name_de": "Verdejo",
+       "panel": {
+        "origin": "Citrus, fennel, and fresh herbs with a characteristic bitter-almond twist.",
+        "origin_es": "Cítricos, hinojo y hierbas frescas, con su típico toque a almendra amarga.",
+        "origin_it": "Citrus, fennel, and fresh herbs with a characteristic bitter-almond twist.",
+        "chemistry": "Crisp acidity; light to medium body; dry.",
+        "chemistry_es": "Acidez fresca; cuerpo ligero a medio; seco.",
+        "chemistry_it": "Crisp acidity; light to medium body; dry.",
+        "pairing": "Tapas, white fish, green vegetables, fresh cheese.",
+        "pairing_es": "Tapas, pescado blanco, verduras verdes, queso fresco.",
+        "pairing_it": "Tapas, white fish, green vegetables, fresh cheese.",
+        "mixology": "8–10°C in a white-wine glass.",
+        "mixology_es": "8–10°C en copa de vino blanco.",
+        "mixology_it": "8–10°C in a white-wine glass.",
+        "examples": "Rueda (Castilla y León, Spain).",
+        "examples_es": "Rueda (Castilla y León, España).",
+        "examples_it": "Rueda (Castilla y León, Spain)."
+       }
+      }
+     ],
+     "name_de": "CRISP WHITES"
+    }
+   ],
+   "name_de": "CRISP WHITES"
+  },
+  {
+   "name": "FULL-BODIED WHITES",
+   "name_fr": "BLANCS CORSÉS",
+   "name_it": "FULL-BODIED WHITES",
+   "name_es": "BLANCOS CON CUERPO",
+   "color": "#c9a84a",
+   "sub": [
+    {
+     "name": "FULL-BODIED WHITES",
+     "name_fr": "BLANCS CORSÉS",
+     "name_it": "FULL-BODIED WHITES",
+     "name_es": "BLANCOS CON CUERPO",
+     "color": "#c9a84a",
+     "descriptors": [
+      {
+       "name": "Chardonnay",
+       "name_fr": "Chardonnay",
+       "name_it": "Chardonnay",
+       "name_es": "Chardonnay",
+       "slug": "chardonnay",
+       "name_de": "Chardonnay",
+       "panel": {
+        "origin": "A chameleon: green apple and citrus when unoaked; butter, vanilla, and toast when oaked.",
+        "origin_es": "Un camaleón: manzana verde y cítricos sin madera; mantequilla, vainilla y tostado con barrica.",
+        "origin_it": "A chameleon: green apple and citrus when unoaked; butter, vanilla, and toast when oaked.",
+        "chemistry": "Medium to full body; acidity varies by climate; oak and malolactic add richness.",
+        "chemistry_es": "Cuerpo medio a pleno; acidez según el clima; barrica y maloláctica aportan riqueza.",
+        "chemistry_it": "Medium to full body; acidity varies by climate; oak and malolactic add richness.",
+        "pairing": "Roast chicken, lobster with butter, creamy pasta, soft cheese.",
+        "pairing_es": "Pollo asado, langosta con mantequilla, pasta cremosa, queso blando.",
+        "pairing_it": "Roast chicken, lobster with butter, creamy pasta, soft cheese.",
+        "mixology": "10–12°C in a large white-wine glass; unoaked styles cooler.",
+        "mixology_es": "10–12°C en copa grande de vino blanco; sin barrica, más frío.",
+        "mixology_it": "10–12°C in a large white-wine glass; unoaked styles cooler.",
+        "examples": "Burgundy (Chablis to Montrachet), California, Australia, everywhere.",
+        "examples_es": "Borgoña (de Chablis a Montrachet), California, Australia, en todas partes.",
+        "examples_it": "Burgundy (Chablis to Montrachet), California, Australia, everywhere."
+       }
+      },
+      {
+       "name": "Chenin Blanc",
+       "name_fr": "Chenin Blanc",
+       "name_it": "Chenin Blanc",
+       "name_es": "Chenin Blanc",
+       "slug": "chenin-blanc",
+       "name_de": "Chenin Blanc",
+       "panel": {
+        "origin": "Quince, apple, honey, and chamomile; one of the most versatile white grapes.",
+        "origin_es": "Membrillo, manzana, miel y manzanilla; de las uvas blancas más versátiles.",
+        "origin_it": "Quince, apple, honey, and chamomile; one of the most versatile white grapes.",
+        "chemistry": "High acidity; light to full body; made dry, off-dry, sweet, and sparkling.",
+        "chemistry_es": "Acidez alta; cuerpo ligero a pleno; seco, semiseco, dulce y espumoso.",
+        "chemistry_it": "High acidity; light to full body; made dry, off-dry, sweet, and sparkling.",
+        "pairing": "Pork, roast chicken, curries (off-dry), blue cheese (sweet).",
+        "pairing_es": "Cerdo, pollo asado, currys (semiseco), queso azul (dulce).",
+        "pairing_it": "Pork, roast chicken, curries (off-dry), blue cheese (sweet).",
+        "mixology": "9–11°C in a white-wine glass.",
+        "mixology_es": "9–11°C en copa de vino blanco.",
+        "mixology_it": "9–11°C in a white-wine glass.",
+        "examples": "Loire (Vouvray, Savennières), South Africa (Steen).",
+        "examples_es": "Loira (Vouvray, Savennières), Sudáfrica (Steen).",
+        "examples_it": "Loire (Vouvray, Savennières), South Africa (Steen)."
+       }
+      },
+      {
+       "name": "Sémillon",
+       "name_fr": "Sémillon",
+       "name_it": "Sémillon",
+       "name_es": "Sémillon",
+       "slug": "semillon",
+       "name_de": "Sémillon",
+       "panel": {
+        "origin": "Lemon, lanolin, and honey; waxy when young, toasty and rich with age.",
+        "origin_es": "Limón, lanolina y miel; ceroso de joven, tostado y rico con la edad.",
+        "origin_it": "Lemon, lanolin, and honey; waxy when young, toasty and rich with age.",
+        "chemistry": "Moderate acidity; medium to full body; low aromatics, ages superbly.",
+        "chemistry_es": "Acidez moderada; cuerpo medio a pleno; poco aromático, envejece de maravilla.",
+        "chemistry_it": "Moderate acidity; medium to full body; low aromatics, ages superbly.",
+        "pairing": "Roast fish, poultry, creamy dishes; botrytis styles with foie gras and blue cheese.",
+        "pairing_es": "Pescado asado, aves, platos cremosos; en botritis, con foie gras y queso azul.",
+        "pairing_it": "Roast fish, poultry, creamy dishes; botrytis styles with foie gras and blue cheese.",
+        "mixology": "10–12°C in a white-wine glass.",
+        "mixology_es": "10–12°C en copa de vino blanco.",
+        "mixology_it": "10–12°C in a white-wine glass.",
+        "examples": "Bordeaux (dry and Sauternes), Hunter Valley (Australia).",
+        "examples_es": "Burdeos (seco y Sauternes), Hunter Valley (Australia).",
+        "examples_it": "Bordeaux (dry and Sauternes), Hunter Valley (Australia)."
+       }
+      },
+      {
+       "name": "Marsanne",
+       "name_fr": "Marsanne",
+       "name_it": "Marsanne",
+       "name_es": "Marsanne",
+       "slug": "marsanne",
+       "name_de": "Marsanne",
+       "panel": {
+        "origin": "Almond, quince, honeysuckle, and a waxy, nutty richness.",
+        "origin_es": "Almendra, membrillo, madreselva y una riqueza cerosa y a frutos secos.",
+        "origin_it": "Almond, quince, honeysuckle, and a waxy, nutty richness.",
+        "chemistry": "Low to moderate acidity; full body; weighty and rounded.",
+        "chemistry_es": "Acidez baja a moderada; cuerpo pleno; con peso y redondez.",
+        "chemistry_it": "Low to moderate acidity; full body; weighty and rounded.",
+        "pairing": "Roast chicken, pork, rich fish, mild cheese.",
+        "pairing_es": "Pollo asado, cerdo, pescado graso, queso suave.",
+        "pairing_it": "Roast chicken, pork, rich fish, mild cheese.",
+        "mixology": "10–12°C in a white-wine glass.",
+        "mixology_es": "10–12°C en copa de vino blanco.",
+        "mixology_it": "10–12°C in a white-wine glass.",
+        "examples": "Northern Rhône (Hermitage, often with Roussanne), Australia, California.",
+        "examples_es": "Ródano Norte (Hermitage, a menudo con Roussanne), Australia, California.",
+        "examples_it": "Northern Rhône (Hermitage, often with Roussanne), Australia, California."
+       }
+      },
+      {
+       "name": "Pinot Blanc",
+       "name_fr": "Pinot Blanc",
+       "name_it": "Pinot Blanc",
+       "name_es": "Pinot Blanc",
+       "slug": "pinot-blanc",
+       "name_de": "Pinot Blanc",
+       "panel": {
+        "origin": "Apple, pear, and almond; gently creamy and understated.",
+        "origin_es": "Manzana, pera y almendra; suavemente cremoso y discreto.",
+        "origin_it": "Apple, pear, and almond; gently creamy and understated.",
+        "chemistry": "Moderate acidity; medium body; usually dry, lightly textured.",
+        "chemistry_es": "Acidez moderada; cuerpo medio; normalmente seco, con textura ligera.",
+        "chemistry_it": "Moderate acidity; medium body; usually dry, lightly textured.",
+        "pairing": "Quiche, roast chicken, mild cheese, charcuterie.",
+        "pairing_es": "Quiche, pollo asado, queso suave, charcutería.",
+        "pairing_it": "Quiche, roast chicken, mild cheese, charcuterie.",
+        "mixology": "9–11°C in a white-wine glass.",
+        "mixology_es": "9–11°C en copa de vino blanco.",
+        "mixology_it": "9–11°C in a white-wine glass.",
+        "examples": "Alsace, Germany (Weissburgunder), Alto Adige, Austria.",
+        "examples_es": "Alsacia, Alemania (Weissburgunder), Alto Adigio, Austria.",
+        "examples_it": "Alsace, Germany (Weissburgunder), Alto Adige, Austria."
+       }
+      }
+     ],
+     "name_de": "FULL-BODIED WHITES"
+    }
+   ],
+   "name_de": "FULL-BODIED WHITES"
+  },
+  {
+   "name": "LIGHT-BODIED REDS",
+   "name_fr": "ROUGES LÉGERS",
+   "name_it": "LIGHT-BODIED REDS",
+   "name_es": "TINTOS LIGEROS",
+   "color": "#d98a6a",
+   "sub": [
+    {
+     "name": "LIGHT-BODIED REDS",
+     "name_fr": "ROUGES LÉGERS",
+     "name_it": "LIGHT-BODIED REDS",
+     "name_es": "TINTOS LIGEROS",
+     "color": "#d98a6a",
+     "descriptors": [
+      {
+       "name": "Pinot Noir",
+       "name_fr": "Pinot Noir",
+       "name_it": "Pinot Noir",
+       "name_es": "Pinot Noir",
+       "slug": "pinot-noir",
+       "name_de": "Pinot Noir",
+       "panel": {
+        "origin": "Red cherry, raspberry, rose, and forest floor; silky and translucent.",
+        "origin_es": "Cereza roja, frambuesa, rosa y sotobosque; sedoso y translúcido.",
+        "origin_it": "Red cherry, raspberry, rose, and forest floor; silky and translucent.",
+        "chemistry": "High acidity; light to medium body; low to moderate, fine tannin.",
+        "chemistry_es": "Acidez alta; cuerpo ligero a medio; tanino bajo a moderado y fino.",
+        "chemistry_it": "High acidity; light to medium body; low to moderate, fine tannin.",
+        "pairing": "Salmon, duck, mushroom dishes, roast chicken, soft cheese.",
+        "pairing_es": "Salmón, pato, platos de setas, pollo asado, queso blando.",
+        "pairing_it": "Salmon, duck, mushroom dishes, roast chicken, soft cheese.",
+        "mixology": "13–15°C in a large Burgundy-style glass.",
+        "mixology_es": "13–15°C en copa amplia tipo Borgoña.",
+        "mixology_it": "13–15°C in a large Burgundy-style glass.",
+        "examples": "Burgundy, Oregon, Central Otago (NZ), Sonoma, Germany (Spätburgunder).",
+        "examples_es": "Borgoña, Oregón, Central Otago (NZ), Sonoma, Alemania (Spätburgunder).",
+        "examples_it": "Burgundy, Oregon, Central Otago (NZ), Sonoma, Germany (Spätburgunder)."
+       }
+      },
+      {
+       "name": "Gamay",
+       "name_fr": "Gamay",
+       "name_it": "Gamay",
+       "name_es": "Gamay",
+       "slug": "gamay",
+       "name_de": "Gamay",
+       "panel": {
+        "origin": "Bright cranberry, cherry, and banana; floral, juicy, and low in tannin.",
+        "origin_es": "Arándano rojo, cereza y plátano; floral, jugoso y de tanino bajo.",
+        "origin_it": "Bright cranberry, cherry, and banana; floral, juicy, and low in tannin.",
+        "chemistry": "High acidity; light body; low tannin; often carbonic and fruity.",
+        "chemistry_es": "Acidez alta; cuerpo ligero; tanino bajo; a menudo carbónico y frutal.",
+        "chemistry_it": "High acidity; light body; low tannin; often carbonic and fruity.",
+        "pairing": "Charcuterie, roast chicken, pork, picnic fare; serve slightly chilled.",
+        "pairing_es": "Charcutería, pollo asado, cerdo, comida de picnic; sírvelo algo frío.",
+        "pairing_it": "Charcuterie, roast chicken, pork, picnic fare; serve slightly chilled.",
+        "mixology": "12–14°C, lightly chilled, in a medium glass.",
+        "mixology_es": "12–14°C, ligeramente frío, en copa media.",
+        "mixology_it": "12–14°C, lightly chilled, in a medium glass.",
+        "examples": "Beaujolais (Cru villages like Morgon, Fleurie), Loire.",
+        "examples_es": "Beaujolais (crus como Morgon, Fleurie), Loira.",
+        "examples_it": "Beaujolais (Cru villages like Morgon, Fleurie), Loire."
+       }
+      },
+      {
+       "name": "Grenache",
+       "name_fr": "Grenache",
+       "name_it": "Grenache",
+       "name_es": "Garnacha",
+       "slug": "grenache",
+       "name_de": "Grenache",
+       "panel": {
+        "origin": "Strawberry, raspberry, white pepper, and dried herbs; warm and generous.",
+        "origin_es": "Fresa, frambuesa, pimienta blanca y hierbas secas; cálido y generoso.",
+        "origin_it": "Strawberry, raspberry, white pepper, and dried herbs; warm and generous.",
+        "chemistry": "Low acidity; medium body; soft tannin; high alcohol.",
+        "chemistry_es": "Acidez baja; cuerpo medio; tanino suave; alcohol alto.",
+        "chemistry_it": "Low acidity; medium body; soft tannin; high alcohol.",
+        "pairing": "Grilled lamb, stews, roasted vegetables, tapas.",
+        "pairing_es": "Cordero a la brasa, guisos, verduras asadas, tapas.",
+        "pairing_it": "Grilled lamb, stews, roasted vegetables, tapas.",
+        "mixology": "15–17°C in a medium to large glass.",
+        "mixology_es": "15–17°C en copa media a grande.",
+        "mixology_it": "15–17°C in a medium to large glass.",
+        "examples": "Southern Rhône (Châteauneuf base), Priorat, Spain (Garnacha), Sardinia.",
+        "examples_es": "Ródano Sur (base de Châteauneuf), Priorat, España (Garnacha), Cerdeña.",
+        "examples_it": "Southern Rhône (Châteauneuf base), Priorat, Spain (Garnacha), Sardinia."
+       }
+      },
+      {
+       "name": "Cinsault",
+       "name_fr": "Cinsault",
+       "name_it": "Cinsault",
+       "name_es": "Cinsault",
+       "slug": "cinsault",
+       "name_de": "Cinsault",
+       "panel": {
+        "origin": "Red berry, floral, and faintly peppery; light and fragrant.",
+        "origin_es": "Baya roja, floral y levemente picante; ligero y fragante.",
+        "origin_it": "Red berry, floral, and faintly peppery; light and fragrant.",
+        "chemistry": "Low to moderate acidity; light body; low tannin; gentle.",
+        "chemistry_es": "Acidez baja a moderada; cuerpo ligero; tanino bajo; suave.",
+        "chemistry_it": "Low to moderate acidity; light body; low tannin; gentle.",
+        "pairing": "Rosé fare, grilled vegetables, light poultry, Mediterranean dishes.",
+        "pairing_es": "Comida de rosado, verduras a la brasa, aves ligeras, platos mediterráneos.",
+        "pairing_it": "Rosé fare, grilled vegetables, light poultry, Mediterranean dishes.",
+        "mixology": "13–15°C, lightly chilled.",
+        "mixology_es": "13–15°C, ligeramente frío.",
+        "mixology_it": "13–15°C, lightly chilled.",
+        "examples": "Southern France (Languedoc, Provence, blends), South Africa, Lebanon.",
+        "examples_es": "Sur de Francia (Languedoc, Provenza, mezclas), Sudáfrica, Líbano.",
+        "examples_it": "Southern France (Languedoc, Provence, blends), South Africa, Lebanon."
+       }
+      },
+      {
+       "name": "Zweigelt",
+       "name_fr": "Zweigelt",
+       "name_it": "Zweigelt",
+       "name_es": "Zweigelt",
+       "slug": "zweigelt",
+       "name_de": "Zweigelt",
+       "panel": {
+        "origin": "Sour cherry, blackberry, and a peppery snap; juicy and approachable.",
+        "origin_es": "Guinda, mora y un golpe especiado; jugoso y accesible.",
+        "origin_it": "Sour cherry, blackberry, and a peppery snap; juicy and approachable.",
+        "chemistry": "Moderate acidity; light to medium body; soft, supple tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo ligero a medio; tanino suave y flexible.",
+        "chemistry_it": "Moderate acidity; light to medium body; soft, supple tannin.",
+        "pairing": "Schnitzel, sausages, roast pork, goulash.",
+        "pairing_es": "Schnitzel, salchichas, cerdo asado, goulash.",
+        "pairing_it": "Schnitzel, sausages, roast pork, goulash.",
+        "mixology": "14–16°C, can be lightly chilled.",
+        "mixology_es": "14–16°C, puede servirse algo frío.",
+        "mixology_it": "14–16°C, can be lightly chilled.",
+        "examples": "Austria's most-planted red grape.",
+        "examples_es": "La uva tinta más plantada de Austria.",
+        "examples_it": "Austria's most-planted red grape."
+       }
+      }
+     ],
+     "name_de": "LIGHT-BODIED REDS"
+    }
+   ],
+   "name_de": "LIGHT-BODIED REDS"
+  },
+  {
+   "name": "MEDIUM-BODIED REDS",
+   "name_fr": "ROUGES MOYENS",
+   "name_it": "MEDIUM-BODIED REDS",
+   "name_es": "TINTOS MEDIOS",
+   "color": "#c25a4a",
+   "sub": [
+    {
+     "name": "MEDIUM-BODIED REDS",
+     "name_fr": "ROUGES MOYENS",
+     "name_it": "MEDIUM-BODIED REDS",
+     "name_es": "TINTOS MEDIOS",
+     "color": "#c25a4a",
+     "descriptors": [
+      {
+       "name": "Sangiovese",
+       "name_fr": "Sangiovese",
+       "name_it": "Sangiovese",
+       "name_es": "Sangiovese",
+       "slug": "sangiovese",
+       "name_de": "Sangiovese",
+       "panel": {
+        "origin": "Sour cherry, tomato leaf, dried herbs, and leather; savory and bright.",
+        "origin_es": "Guinda, hoja de tomate, hierbas secas y cuero; sabroso y vivo.",
+        "origin_it": "Sour cherry, tomato leaf, dried herbs, and leather; savory and bright.",
+        "chemistry": "High acidity; medium body; firm, grippy tannin.",
+        "chemistry_es": "Acidez alta; cuerpo medio; tanino firme y áspero.",
+        "chemistry_it": "High acidity; medium body; firm, grippy tannin.",
+        "pairing": "Tomato-based pasta, pizza, roast meats, aged Pecorino.",
+        "pairing_es": "Pasta con tomate, pizza, carnes asadas, Pecorino curado.",
+        "pairing_it": "Tomato-based pasta, pizza, roast meats, aged Pecorino.",
+        "mixology": "15–17°C in a medium to large glass.",
+        "mixology_es": "15–17°C en copa media a grande.",
+        "mixology_it": "15–17°C in a medium to large glass.",
+        "examples": "Tuscany (Chianti, Brunello di Montalcino, Vino Nobile).",
+        "examples_es": "Toscana (Chianti, Brunello di Montalcino, Vino Nobile).",
+        "examples_it": "Tuscany (Chianti, Brunello di Montalcino, Vino Nobile)."
+       }
+      },
+      {
+       "name": "Tempranillo",
+       "name_fr": "Tempranillo",
+       "name_it": "Tempranillo",
+       "name_es": "Tempranillo",
+       "slug": "tempranillo",
+       "name_de": "Tempranillo",
+       "panel": {
+        "origin": "Cherry, plum, leather, tobacco, and dill from American oak.",
+        "origin_es": "Cereza, ciruela, cuero, tabaco y eneldo de la barrica americana.",
+        "origin_it": "Cherry, plum, leather, tobacco, and dill from American oak.",
+        "chemistry": "Moderate acidity; medium to full body; moderate tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo medio a pleno; tanino moderado.",
+        "chemistry_it": "Moderate acidity; medium to full body; moderate tannin.",
+        "pairing": "Roast lamb, grilled meats, Manchego, chorizo.",
+        "pairing_es": "Cordero asado, carnes a la brasa, Manchego, chorizo.",
+        "pairing_it": "Roast lamb, grilled meats, Manchego, chorizo.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Rioja and Ribera del Duero (Spain), Portugal (as Tinta Roriz/Aragonez).",
+        "examples_es": "Rioja y Ribera del Duero (España), Portugal (Tinta Roriz/Aragonez).",
+        "examples_it": "Rioja and Ribera del Duero (Spain), Portugal (as Tinta Roriz/Aragonez)."
+       }
+      },
+      {
+       "name": "Merlot",
+       "name_fr": "Merlot",
+       "name_it": "Merlot",
+       "name_es": "Merlot",
+       "slug": "merlot",
+       "name_de": "Merlot",
+       "panel": {
+        "origin": "Plum, black cherry, chocolate, and herbs; plush and round.",
+        "origin_es": "Ciruela, cereza negra, chocolate y hierbas; carnoso y redondo.",
+        "origin_it": "Plum, black cherry, chocolate, and herbs; plush and round.",
+        "chemistry": "Moderate acidity; medium to full body; soft, supple tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo medio a pleno; tanino suave y flexible.",
+        "chemistry_it": "Moderate acidity; medium to full body; soft, supple tannin.",
+        "pairing": "Roast beef, lamb, mushroom dishes, mild hard cheese.",
+        "pairing_es": "Rosbif, cordero, platos de setas, queso duro suave.",
+        "pairing_it": "Roast beef, lamb, mushroom dishes, mild hard cheese.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Bordeaux (Right Bank — Pomerol, Saint-Émilion), California, Chile, Italy.",
+        "examples_es": "Burdeos (Margen Derecha — Pomerol, Saint-Émilion), California, Chile, Italia.",
+        "examples_it": "Bordeaux (Right Bank — Pomerol, Saint-Émilion), California, Chile, Italy."
+       }
+      },
+      {
+       "name": "Cabernet Franc",
+       "name_fr": "Cabernet Franc",
+       "name_it": "Cabernet Franc",
+       "name_es": "Cabernet Franc",
+       "slug": "cabernet-franc",
+       "name_de": "Cabernet Franc",
+       "panel": {
+        "origin": "Raspberry, graphite, violet, and a distinctive green bell pepper / pencil-shaving note.",
+        "origin_es": "Frambuesa, grafito, violeta y un característico toque a pimiento verde / lápiz.",
+        "origin_it": "Raspberry, graphite, violet, and a distinctive green bell pepper / pencil-shaving note.",
+        "chemistry": "Moderate to high acidity; medium body; moderate, fine-grained tannin.",
+        "chemistry_es": "Acidez moderada a alta; cuerpo medio; tanino moderado y de grano fino.",
+        "chemistry_it": "Moderate to high acidity; medium body; moderate, fine-grained tannin.",
+        "pairing": "Roast pork, grilled vegetables, herbed poultry, goat cheese.",
+        "pairing_es": "Cerdo asado, verduras a la brasa, aves con hierbas, queso de cabra.",
+        "pairing_it": "Roast pork, grilled vegetables, herbed poultry, goat cheese.",
+        "mixology": "15–17°C in a medium to large glass.",
+        "mixology_es": "15–17°C en copa media a grande.",
+        "mixology_it": "15–17°C in a medium to large glass.",
+        "examples": "Loire (Chinon, Bourgueil), Bordeaux blends, Italy, Argentina.",
+        "examples_es": "Loira (Chinon, Bourgueil), mezclas de Burdeos, Italia, Argentina.",
+        "examples_it": "Loire (Chinon, Bourgueil), Bordeaux blends, Italy, Argentina."
+       }
+      },
+      {
+       "name": "Barbera",
+       "name_fr": "Barbera",
+       "name_it": "Barbera",
+       "name_es": "Barbera",
+       "slug": "barbera",
+       "name_de": "Barbera",
+       "panel": {
+        "origin": "Red cherry, blackberry, and dried herbs; juicy with low tannin.",
+        "origin_es": "Cereza roja, mora y hierbas secas; jugoso y de tanino bajo.",
+        "origin_it": "Red cherry, blackberry, and dried herbs; juicy with low tannin.",
+        "chemistry": "High acidity; medium body; low tannin; vivid fruit.",
+        "chemistry_es": "Acidez alta; cuerpo medio; tanino bajo; fruta vívida.",
+        "chemistry_it": "High acidity; medium body; low tannin; vivid fruit.",
+        "pairing": "Pizza, tomato pasta, charcuterie, braised meats.",
+        "pairing_es": "Pizza, pasta con tomate, charcutería, carnes estofadas.",
+        "pairing_it": "Pizza, tomato pasta, charcuterie, braised meats.",
+        "mixology": "15–17°C in a medium glass.",
+        "mixology_es": "15–17°C en copa media.",
+        "mixology_it": "15–17°C in a medium glass.",
+        "examples": "Piedmont (Asti, Alba), Italy; California.",
+        "examples_es": "Piamonte (Asti, Alba), Italia; California.",
+        "examples_it": "Piedmont (Asti, Alba), Italy; California."
+       }
+      },
+      {
+       "name": "Carmenère",
+       "name_fr": "Carmenère",
+       "name_it": "Carmenère",
+       "name_es": "Carménère",
+       "slug": "carmenere",
+       "name_de": "Carmenère",
+       "panel": {
+        "origin": "Black plum, bell pepper, soy, and dark chocolate; herbal and smooth.",
+        "origin_es": "Ciruela negra, pimiento, soja y chocolate negro; herbal y suave.",
+        "origin_it": "Black plum, bell pepper, soy, and dark chocolate; herbal and smooth.",
+        "chemistry": "Moderate acidity; medium to full body; soft tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo medio a pleno; tanino suave.",
+        "chemistry_it": "Moderate acidity; medium to full body; soft tannin.",
+        "pairing": "Grilled red meats, peppers, spiced stews.",
+        "pairing_es": "Carnes rojas a la brasa, pimientos, guisos especiados.",
+        "pairing_it": "Grilled red meats, peppers, spiced stews.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Chile (its adopted home), originally Bordeaux.",
+        "examples_es": "Chile (su hogar adoptivo), originaria de Burdeos.",
+        "examples_it": "Chile (its adopted home), originally Bordeaux."
+       }
+      }
+     ],
+     "name_de": "MEDIUM-BODIED REDS"
+    }
+   ],
+   "name_de": "MEDIUM-BODIED REDS"
+  },
+  {
+   "name": "BOLD REDS",
+   "name_fr": "ROUGES PUISSANTS",
+   "name_it": "BOLD REDS",
+   "name_es": "TINTOS POTENTES",
+   "color": "#9a2f3a",
+   "sub": [
+    {
+     "name": "BOLD REDS",
+     "name_fr": "ROUGES PUISSANTS",
+     "name_it": "BOLD REDS",
+     "name_es": "TINTOS POTENTES",
+     "color": "#9a2f3a",
+     "descriptors": [
+      {
+       "name": "Cabernet Sauvignon",
+       "name_fr": "Cabernet Sauvignon",
+       "name_it": "Cabernet Sauvignon",
+       "name_es": "Cabernet Sauvignon",
+       "slug": "cabernet-sauvignon",
+       "name_de": "Cabernet Sauvignon",
+       "panel": {
+        "origin": "Blackcurrant, cedar, graphite, and mint; structured and age-worthy.",
+        "origin_es": "Grosella negra, cedro, grafito y menta; estructurado y de guarda.",
+        "origin_it": "Blackcurrant, cedar, graphite, and mint; structured and age-worthy.",
+        "chemistry": "Moderate to high acidity; full body; high, firm tannin.",
+        "chemistry_es": "Acidez moderada a alta; cuerpo pleno; tanino alto y firme.",
+        "chemistry_it": "Moderate to high acidity; full body; high, firm tannin.",
+        "pairing": "Grilled steak, lamb, hard aged cheese.",
+        "pairing_es": "Bistec a la parrilla, cordero, queso curado.",
+        "pairing_it": "Grilled steak, lamb, hard aged cheese.",
+        "mixology": "16–18°C in a large glass; decant when young.",
+        "mixology_es": "16–18°C en copa grande; decanta de joven.",
+        "mixology_it": "16–18°C in a large glass; decant when young.",
+        "examples": "Bordeaux (Left Bank), Napa Valley, Coonawarra, Chile, Tuscany.",
+        "examples_es": "Burdeos (Margen Izquierda), Napa, Coonawarra, Chile, Toscana.",
+        "examples_it": "Bordeaux (Left Bank), Napa Valley, Coonawarra, Chile, Tuscany."
+       }
+      },
+      {
+       "name": "Syrah / Shiraz",
+       "name_fr": "Syrah / Shiraz",
+       "name_it": "Syrah / Shiraz",
+       "name_es": "Syrah / Shiraz",
+       "slug": "syrah",
+       "name_de": "Syrah / Shiraz",
+       "panel": {
+        "origin": "Blackberry, black pepper, smoked meat, and violet; peppery in cool climates, jammy in warm.",
+        "origin_es": "Mora, pimienta negra, carne ahumada y violeta; especiado en clima fresco, mermelada en cálido.",
+        "origin_it": "Blackberry, black pepper, smoked meat, and violet; peppery in cool climates, jammy in warm.",
+        "chemistry": "Moderate acidity; full body; firm, ripe tannin; high alcohol.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino firme y maduro; alcohol alto.",
+        "chemistry_it": "Moderate acidity; full body; firm, ripe tannin; high alcohol.",
+        "pairing": "Grilled and braised meats, game, peppered dishes, barbecue.",
+        "pairing_es": "Carnes a la brasa y estofadas, caza, platos con pimienta, barbacoa.",
+        "pairing_it": "Grilled and braised meats, game, peppered dishes, barbecue.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Northern Rhône (Hermitage, Côte-Rôtie), Barossa (Shiraz), Washington.",
+        "examples_es": "Ródano Norte (Hermitage, Côte-Rôtie), Barossa (Shiraz), Washington.",
+        "examples_it": "Northern Rhône (Hermitage, Côte-Rôtie), Barossa (Shiraz), Washington."
+       }
+      },
+      {
+       "name": "Malbec",
+       "name_fr": "Malbec",
+       "name_it": "Malbec",
+       "name_es": "Malbec",
+       "slug": "malbec",
+       "name_de": "Malbec",
+       "panel": {
+        "origin": "Blackberry, plum, cocoa, and violet; plush and dark.",
+        "origin_es": "Mora, ciruela, cacao y violeta; carnoso y oscuro.",
+        "origin_it": "Blackberry, plum, cocoa, and violet; plush and dark.",
+        "chemistry": "Moderate acidity; full body; velvety, ripe tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino aterciopelado y maduro.",
+        "chemistry_it": "Moderate acidity; full body; velvety, ripe tannin.",
+        "pairing": "Grilled steak, empanadas, barbecue, blue cheese.",
+        "pairing_es": "Bistec a la parrilla, empanadas, barbacoa, queso azul.",
+        "pairing_it": "Grilled steak, empanadas, barbecue, blue cheese.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Mendoza (Argentina), Cahors (France, more rustic).",
+        "examples_es": "Mendoza (Argentina), Cahors (Francia, más rústico).",
+        "examples_it": "Mendoza (Argentina), Cahors (France, more rustic)."
+       }
+      },
+      {
+       "name": "Nebbiolo",
+       "name_fr": "Nebbiolo",
+       "name_it": "Nebbiolo",
+       "name_es": "Nebbiolo",
+       "slug": "nebbiolo",
+       "name_de": "Nebbiolo",
+       "panel": {
+        "origin": "Rose, tar, cherry, and dried herbs; pale in color but powerful.",
+        "origin_es": "Rosa, alquitrán, cereza y hierbas secas; pálido pero poderoso.",
+        "origin_it": "Rose, tar, cherry, and dried herbs; pale in color but powerful.",
+        "chemistry": "High acidity; full body; very high, drying tannin; ages for decades.",
+        "chemistry_es": "Acidez alta; cuerpo pleno; tanino muy alto y secante; guarda de décadas.",
+        "chemistry_it": "High acidity; full body; very high, drying tannin; ages for decades.",
+        "pairing": "Braised beef, truffle, mushroom risotto, aged cheese.",
+        "pairing_es": "Ternera estofada, trufa, risotto de setas, queso curado.",
+        "pairing_it": "Braised beef, truffle, mushroom risotto, aged cheese.",
+        "mixology": "16–18°C in a large glass; decant.",
+        "mixology_es": "16–18°C en copa grande; decanta.",
+        "mixology_it": "16–18°C in a large glass; decant.",
+        "examples": "Piedmont (Barolo, Barbaresco), Italy.",
+        "examples_es": "Piamonte (Barolo, Barbaresco), Italia.",
+        "examples_it": "Piedmont (Barolo, Barbaresco), Italy."
+       }
+      },
+      {
+       "name": "Zinfandel",
+       "name_fr": "Zinfandel",
+       "name_it": "Zinfandel",
+       "name_es": "Zinfandel",
+       "slug": "zinfandel",
+       "name_de": "Zinfandel",
+       "panel": {
+        "origin": "Jammy blackberry, raspberry, black pepper, and sweet spice; bold and ripe.",
+        "origin_es": "Mora en mermelada, frambuesa, pimienta negra y especia dulce; potente y maduro.",
+        "origin_it": "Jammy blackberry, raspberry, black pepper, and sweet spice; bold and ripe.",
+        "chemistry": "Moderate acidity; full body; moderate tannin; high alcohol.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino moderado; alcohol alto.",
+        "chemistry_it": "Moderate acidity; full body; moderate tannin; high alcohol.",
+        "pairing": "Barbecue, ribs, burgers, spiced and smoky dishes.",
+        "pairing_es": "Barbacoa, costillas, hamburguesas, platos especiados y ahumados.",
+        "pairing_it": "Barbecue, ribs, burgers, spiced and smoky dishes.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "California; identical to Italy's Primitivo and Croatia's Tribidrag.",
+        "examples_es": "California; idéntico al Primitivo italiano y al Tribidrag croata.",
+        "examples_it": "California; identical to Italy's Primitivo and Croatia's Tribidrag."
+       }
+      },
+      {
+       "name": "Mourvèdre",
+       "name_fr": "Mourvèdre",
+       "name_it": "Mourvèdre",
+       "name_es": "Mourvèdre / Monastrell",
+       "slug": "mourvedre",
+       "name_de": "Mourvèdre",
+       "panel": {
+        "origin": "Blackberry, game, leather, and earth; dense and brooding.",
+        "origin_es": "Mora, caza, cuero y tierra; denso y sombrío.",
+        "origin_it": "Blackberry, game, leather, and earth; dense and brooding.",
+        "chemistry": "Moderate acidity; full body; high, rustic tannin; high alcohol.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino alto y rústico; alcohol alto.",
+        "chemistry_it": "Moderate acidity; full body; high, rustic tannin; high alcohol.",
+        "pairing": "Braised and roasted game, lamb, hearty stews.",
+        "pairing_es": "Caza estofada y asada, cordero, guisos contundentes.",
+        "pairing_it": "Braised and roasted game, lamb, hearty stews.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Bandol (Provence), Southern Rhône, Spain (Monastrell), Australia (Mataro).",
+        "examples_es": "Bandol (Provenza), Ródano Sur, España (Monastrell), Australia (Mataro).",
+        "examples_it": "Bandol (Provence), Southern Rhône, Spain (Monastrell), Australia (Mataro)."
+       }
+      },
+      {
+       "name": "Petit Verdot",
+       "name_fr": "Petit Verdot",
+       "name_it": "Petit Verdot",
+       "name_es": "Petit Verdot",
+       "slug": "petit-verdot",
+       "name_de": "Petit Verdot",
+       "panel": {
+        "origin": "Violet, blackberry, and exotic spice; deeply colored and intense.",
+        "origin_es": "Violeta, mora y especia exótica; muy coloreado e intenso.",
+        "origin_it": "Violet, blackberry, and exotic spice; deeply colored and intense.",
+        "chemistry": "Moderate acidity; full body; very high tannin; usually a blending grape.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino muy alto; suele ser uva de mezcla.",
+        "chemistry_it": "Moderate acidity; full body; very high tannin; usually a blending grape.",
+        "pairing": "Grilled red meats, game, strong cheese.",
+        "pairing_es": "Carnes rojas a la brasa, caza, queso fuerte.",
+        "pairing_it": "Grilled red meats, game, strong cheese.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Bordeaux blends, increasingly varietal in Spain, Australia, California.",
+        "examples_es": "Mezclas de Burdeos, cada vez más varietal en España, Australia, California.",
+        "examples_it": "Bordeaux blends, increasingly varietal in Spain, Australia, California."
+       }
+      }
+     ],
+     "name_de": "BOLD REDS"
+    }
+   ],
+   "name_de": "BOLD REDS"
+  },
+  {
+   "name": "REGIONAL & MEDITERRANEAN",
+   "name_fr": "RÉGIONALES & MÉDITERRANÉENNES",
+   "name_it": "REGIONAL & MEDITERRANEAN",
+   "name_es": "REGIONALES Y MEDITERRÁNEOS",
+   "color": "#8a6ab0",
+   "sub": [
+    {
+     "name": "REGIONAL & MEDITERRANEAN",
+     "name_fr": "RÉGIONALES & MÉDITERRANÉENNES",
+     "name_it": "REGIONAL & MEDITERRANEAN",
+     "name_es": "REGIONALES Y MEDITERRÁNEOS",
+     "color": "#8a6ab0",
+     "descriptors": [
+      {
+       "name": "Nero d'Avola",
+       "name_fr": "Nero d'Avola",
+       "name_it": "Nero d'Avola",
+       "name_es": "Nero d'Avola",
+       "slug": "nero-davola",
+       "name_de": "Nero d'Avola",
+       "panel": {
+        "origin": "Black cherry, plum, licorice, and Mediterranean herbs; warm and juicy.",
+        "origin_es": "Cereza negra, ciruela, regaliz y hierbas mediterráneas; cálido y jugoso.",
+        "origin_it": "Black cherry, plum, licorice, and Mediterranean herbs; warm and juicy.",
+        "chemistry": "Moderate acidity; medium to full body; moderate, ripe tannin.",
+        "chemistry_es": "Acidez moderada; cuerpo medio a pleno; tanino moderado y maduro.",
+        "chemistry_it": "Moderate acidity; medium to full body; moderate, ripe tannin.",
+        "pairing": "Grilled meats, eggplant, tomato-rich dishes, aged cheese.",
+        "pairing_es": "Carnes a la brasa, berenjena, platos con tomate, queso curado.",
+        "pairing_it": "Grilled meats, eggplant, tomato-rich dishes, aged cheese.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Sicily (Italy).",
+        "examples_es": "Sicilia (Italia).",
+        "examples_it": "Sicily (Italy)."
+       }
+      },
+      {
+       "name": "Aglianico",
+       "name_fr": "Aglianico",
+       "name_it": "Aglianico",
+       "name_es": "Aglianico",
+       "slug": "aglianico",
+       "name_de": "Aglianico",
+       "panel": {
+        "origin": "Black plum, ash, leather, and dried herbs; powerful and savory.",
+        "origin_es": "Ciruela negra, ceniza, cuero y hierbas secas; poderoso y sabroso.",
+        "origin_it": "Black plum, ash, leather, and dried herbs; powerful and savory.",
+        "chemistry": "High acidity; full body; very high tannin; ages well.",
+        "chemistry_es": "Acidez alta; cuerpo pleno; tanino muy alto; buena guarda.",
+        "chemistry_it": "High acidity; full body; very high tannin; ages well.",
+        "pairing": "Braised lamb, wild boar ragù, aged hard cheese.",
+        "pairing_es": "Cordero estofado, ragú de jabalí, queso duro curado.",
+        "pairing_it": "Braised lamb, wild boar ragù, aged hard cheese.",
+        "mixology": "16–18°C in a large glass; decant.",
+        "mixology_es": "16–18°C en copa grande; decanta.",
+        "mixology_it": "16–18°C in a large glass; decant.",
+        "examples": "Campania (Taurasi) and Basilicata (Vulture), southern Italy.",
+        "examples_es": "Campania (Taurasi) y Basilicata (Vulture), sur de Italia.",
+        "examples_it": "Campania (Taurasi) and Basilicata (Vulture), southern Italy."
+       }
+      },
+      {
+       "name": "Assyrtiko",
+       "name_fr": "Assyrtiko",
+       "name_it": "Assyrtiko",
+       "name_es": "Assyrtiko",
+       "slug": "assyrtiko",
+       "name_de": "Assyrtiko",
+       "panel": {
+        "origin": "Lemon, green apple, and intense saline minerality; bracing and pure.",
+        "origin_es": "Limón, manzana verde e intensa mineralidad salina; vibrante y puro.",
+        "origin_it": "Lemon, green apple, and intense saline minerality; bracing and pure.",
+        "chemistry": "Very high acidity; medium body; bone-dry, sometimes lees-textured.",
+        "chemistry_es": "Acidez muy alta; cuerpo medio; muy seco, a veces con textura de lías.",
+        "chemistry_it": "Very high acidity; medium body; bone-dry, sometimes lees-textured.",
+        "pairing": "Grilled fish, shellfish, briny and lemony Greek dishes.",
+        "pairing_es": "Pescado a la brasa, mariscos, platos griegos salinos y cítricos.",
+        "pairing_it": "Grilled fish, shellfish, briny and lemony Greek dishes.",
+        "mixology": "8–10°C in a white-wine glass.",
+        "mixology_es": "8–10°C en copa de vino blanco.",
+        "mixology_it": "8–10°C in a white-wine glass.",
+        "examples": "Santorini (Greece), where it grows in volcanic soils.",
+        "examples_es": "Santorini (Grecia), donde crece en suelos volcánicos.",
+        "examples_it": "Santorini (Greece), where it grows in volcanic soils."
+       }
+      },
+      {
+       "name": "Furmint",
+       "name_fr": "Furmint",
+       "name_it": "Furmint",
+       "name_es": "Furmint",
+       "slug": "furmint",
+       "name_de": "Furmint",
+       "panel": {
+        "origin": "Green apple, pear, smoke, and honey; high-toned and mineral.",
+        "origin_es": "Manzana verde, pera, humo y miel; agudo y mineral.",
+        "origin_it": "Green apple, pear, smoke, and honey; high-toned and mineral.",
+        "chemistry": "Very high acidity; medium to full body; dry or nobly sweet (Tokaji).",
+        "chemistry_es": "Acidez muy alta; cuerpo medio a pleno; seco o noblemente dulce (Tokaji).",
+        "chemistry_it": "Very high acidity; medium to full body; dry or nobly sweet (Tokaji).",
+        "pairing": "Dry: roast poultry, smoked fish. Sweet: foie gras, blue cheese, fruit tart.",
+        "pairing_es": "Seco: aves asadas, pescado ahumado. Dulce: foie gras, queso azul, tarta de fruta.",
+        "pairing_it": "Dry: roast poultry, smoked fish. Sweet: foie gras, blue cheese, fruit tart.",
+        "mixology": "9–11°C dry; colder for sweet styles.",
+        "mixology_es": "9–11°C en seco; más frío para los dulces.",
+        "mixology_it": "9–11°C dry; colder for sweet styles.",
+        "examples": "Tokaj (Hungary), also Somló; Slovenia.",
+        "examples_es": "Tokaj (Hungría), también Somló; Eslovenia.",
+        "examples_it": "Tokaj (Hungary), also Somló; Slovenia."
+       }
+      },
+      {
+       "name": "Garganega",
+       "name_fr": "Garganega",
+       "name_it": "Garganega",
+       "name_es": "Garganega",
+       "slug": "garganega",
+       "name_de": "Garganega",
+       "panel": {
+        "origin": "White peach, almond, and chamomile; gently floral with a saline lift.",
+        "origin_es": "Durazno blanco, almendra y manzanilla; suavemente floral con un punto salino.",
+        "origin_it": "White peach, almond, and chamomile; gently floral with a saline lift.",
+        "chemistry": "Moderate to high acidity; medium body; dry, lightly textured.",
+        "chemistry_es": "Acidez moderada a alta; cuerpo medio; seco, con textura ligera.",
+        "chemistry_it": "Moderate to high acidity; medium body; dry, lightly textured.",
+        "pairing": "Risotto, seafood, fried vegetables, fresh cheese.",
+        "pairing_es": "Risotto, mariscos, verduras fritas, queso fresco.",
+        "pairing_it": "Risotto, seafood, fried vegetables, fresh cheese.",
+        "mixology": "9–11°C in a white-wine glass.",
+        "mixology_es": "9–11°C en copa de vino blanco.",
+        "mixology_it": "9–11°C in a white-wine glass.",
+        "examples": "Veneto (Soave), Italy.",
+        "examples_es": "Véneto (Soave), Italia.",
+        "examples_it": "Veneto (Soave), Italy."
+       }
+      },
+      {
+       "name": "Touriga Nacional",
+       "name_fr": "Touriga Nacional",
+       "name_it": "Touriga Nacional",
+       "name_es": "Touriga Nacional",
+       "slug": "touriga-nacional",
+       "name_de": "Touriga Nacional",
+       "panel": {
+        "origin": "Blackberry, violet, bergamot, and mountain herbs; aromatic and powerful.",
+        "origin_es": "Mora, violeta, bergamota y hierbas de monte; aromático y poderoso.",
+        "origin_it": "Blackberry, violet, bergamot, and mountain herbs; aromatic and powerful.",
+        "chemistry": "Moderate acidity; full body; high tannin; deeply colored.",
+        "chemistry_es": "Acidez moderada; cuerpo pleno; tanino alto; muy coloreado.",
+        "chemistry_it": "Moderate acidity; full body; high tannin; deeply colored.",
+        "pairing": "Grilled and roasted red meats, game, rich stews.",
+        "pairing_es": "Carnes rojas a la brasa y asadas, caza, guisos ricos.",
+        "pairing_it": "Grilled and roasted red meats, game, rich stews.",
+        "mixology": "16–18°C in a large glass.",
+        "mixology_es": "16–18°C en copa grande.",
+        "mixology_it": "16–18°C in a large glass.",
+        "examples": "Douro (Portugal), the backbone of Port and fine dry reds.",
+        "examples_es": "Duero (Portugal), columna del Oporto y de grandes tintos secos.",
+        "examples_it": "Douro (Portugal), the backbone of Port and fine dry reds."
+       }
+      }
+     ],
+     "name_de": "REGIONAL & MEDITERRANEAN"
+    }
+   ],
+   "name_de": "REGIONAL & MEDITERRANEAN"
+  },
+  {
+   "name": "SWEET & FORTIFIED",
+   "name_fr": "DOUX & FORTIFIÉS",
+   "name_it": "SWEET & FORTIFIED",
+   "name_es": "DULCES Y FORTIFICADOS",
+   "color": "#b06a8a",
+   "sub": [
+    {
+     "name": "SWEET & FORTIFIED",
+     "name_fr": "DOUX & FORTIFIÉS",
+     "name_it": "SWEET & FORTIFIED",
+     "name_es": "DULCES Y FORTIFICADOS",
+     "color": "#b06a8a",
+     "descriptors": [
+      {
+       "name": "Pedro Ximénez",
+       "name_fr": "Pedro Ximénez",
+       "name_it": "Pedro Ximénez",
+       "name_es": "Pedro Ximénez",
+       "slug": "pedro-ximenez",
+       "name_de": "Pedro Ximénez",
+       "panel": {
+        "origin": "Raisin, fig, molasses, and coffee; intensely sweet and viscous.",
+        "origin_es": "Pasa, higo, melaza y café; intensamente dulce y viscoso.",
+        "origin_it": "Raisin, fig, molasses, and coffee; intensely sweet and viscous.",
+        "chemistry": "Low acidity; full body; very high residual sugar; sun-dried grapes.",
+        "chemistry_es": "Acidez baja; cuerpo pleno; azúcar residual muy alto; uvas asoleadas.",
+        "chemistry_it": "Low acidity; full body; very high residual sugar; sun-dried grapes.",
+        "pairing": "Vanilla ice cream, dark chocolate, blue cheese; or over ice cream.",
+        "pairing_es": "Helado de vainilla, chocolate negro, queso azul; o sobre helado.",
+        "pairing_it": "Vanilla ice cream, dark chocolate, blue cheese; or over ice cream.",
+        "mixology": "12–14°C in a small glass; a little goes far.",
+        "mixology_es": "12–14°C en copa pequeña; con poco basta.",
+        "mixology_it": "12–14°C in a small glass; a little goes far.",
+        "examples": "Montilla-Moriles and Jerez (Spain), as sweet 'PX' Sherry.",
+        "examples_es": "Montilla-Moriles y Jerez (España), como Jerez dulce 'PX'.",
+        "examples_it": "Montilla-Moriles and Jerez (Spain), as sweet 'PX' Sherry."
+       }
+      },
+      {
+       "name": "Palomino",
+       "name_fr": "Palomino",
+       "name_it": "Palomino",
+       "name_es": "Palomino",
+       "slug": "palomino",
+       "name_de": "Palomino",
+       "panel": {
+        "origin": "Neutral when fresh; becomes saline, nutty, and yeasty under flor as Sherry.",
+        "origin_es": "Neutro en fresco; bajo velo de flor se vuelve salino, a frutos secos y a levadura como Jerez.",
+        "origin_it": "Neutral when fresh; becomes saline, nutty, and yeasty under flor as Sherry.",
+        "chemistry": "Low acidity; light body; transformed by biological/oxidative aging.",
+        "chemistry_es": "Acidez baja; cuerpo ligero; transformado por crianza biológica/oxidativa.",
+        "chemistry_it": "Low acidity; light body; transformed by biological/oxidative aging.",
+        "pairing": "Fino/Manzanilla: olives, almonds, jamón, fried fish. Oloroso: stews, hard cheese.",
+        "pairing_es": "Fino/Manzanilla: aceitunas, almendras, jamón, pescaíto. Oloroso: guisos, queso duro.",
+        "pairing_it": "Fino/Manzanilla: olives, almonds, jamón, fried fish. Oloroso: stews, hard cheese.",
+        "mixology": "Fino chilled 7–9°C; Oloroso 13–15°C.",
+        "mixology_es": "Fino frío 7–9°C; Oloroso 13–15°C.",
+        "mixology_it": "Fino chilled 7–9°C; Oloroso 13–15°C.",
+        "examples": "Jerez / Sherry (Andalucía, Spain).",
+        "examples_es": "Jerez / Sherry (Andalucía, España).",
+        "examples_it": "Jerez / Sherry (Andalucía, Spain)."
+       }
+      },
+      {
+       "name": "Muscat of Alexandria",
+       "name_fr": "Muscat d'Alexandrie",
+       "name_it": "Muscat of Alexandria",
+       "name_es": "Moscatel de Alejandría",
+       "slug": "muscat-alexandria",
+       "name_de": "Muscat of Alexandria",
+       "panel": {
+        "origin": "Orange blossom, grape, and honey; floral and richly sweet when fortified.",
+        "origin_es": "Azahar, uva y miel; floral y muy dulce al fortificar.",
+        "origin_it": "Orange blossom, grape, and honey; floral and richly sweet when fortified.",
+        "chemistry": "Low to moderate acidity; full body when sweet; aromatic.",
+        "chemistry_es": "Acidez baja a moderada; cuerpo pleno en dulce; aromático.",
+        "chemistry_it": "Low to moderate acidity; full body when sweet; aromatic.",
+        "pairing": "Fruit desserts, custards, mild blue cheese.",
+        "pairing_es": "Postres de fruta, natillas, queso azul suave.",
+        "pairing_it": "Fruit desserts, custards, mild blue cheese.",
+        "mixology": "8–12°C in a small glass.",
+        "mixology_es": "8–12°C en copa pequeña.",
+        "mixology_it": "8–12°C in a small glass.",
+        "examples": "Spain (Moscatel), southern France (Muscat de Rivesaltes), Australia (Rutherglen).",
+        "examples_es": "España (Moscatel), sur de Francia (Muscat de Rivesaltes), Australia (Rutherglen).",
+        "examples_it": "Spain (Moscatel), southern France (Muscat de Rivesaltes), Australia (Rutherglen)."
+       }
+      },
+      {
+       "name": "Tinta Negra",
+       "name_fr": "Tinta Negra",
+       "name_it": "Tinta Negra",
+       "name_es": "Tinta Negra",
+       "slug": "tinta-negra",
+       "name_de": "Tinta Negra",
+       "panel": {
+        "origin": "Caramel, walnut, dried fruit, and a tangy acidity; the workhorse of Madeira.",
+        "origin_es": "Caramelo, nuez, fruta seca y una acidez vibrante; el caballo de batalla de Madeira.",
+        "origin_it": "Caramel, walnut, dried fruit, and a tangy acidity; the workhorse of Madeira.",
+        "chemistry": "High acidity (Madeira's signature); medium body; cooked/oxidative character.",
+        "chemistry_es": "Acidez alta (sello de Madeira); cuerpo medio; carácter cocido/oxidativo.",
+        "chemistry_it": "High acidity (Madeira's signature); medium body; cooked/oxidative character.",
+        "pairing": "Dry styles as aperitif; sweet styles with cake, nuts, and chocolate.",
+        "pairing_es": "Estilos secos como aperitivo; dulces con tarta, frutos secos y chocolate.",
+        "pairing_it": "Dry styles as aperitif; sweet styles with cake, nuts, and chocolate.",
+        "mixology": "Sweet Madeira 12–14°C; dry styles lightly chilled.",
+        "mixology_es": "Madeira dulce 12–14°C; estilos secos algo fríos.",
+        "mixology_it": "Sweet Madeira 12–14°C; dry styles lightly chilled.",
+        "examples": "Madeira (Portugal).",
+        "examples_es": "Madeira (Portugal).",
+        "examples_it": "Madeira (Portugal)."
+       }
+      },
+      {
+       "name": "Late-Harvest Riesling",
+       "name_fr": "Riesling Vendanges Tardives",
+       "name_it": "Late-Harvest Riesling",
+       "name_es": "Riesling de Vendimia Tardía",
+       "slug": "late-harvest-riesling",
+       "name_de": "Late-Harvest Riesling",
+       "panel": {
+        "origin": "Apricot, honey, and candied citrus with piercing acidity that keeps it fresh.",
+        "origin_es": "Albaricoque, miel y cítricos confitados, con una acidez punzante que lo mantiene fresco.",
+        "origin_it": "Apricot, honey, and candied citrus with piercing acidity that keeps it fresh.",
+        "chemistry": "Very high acidity balances high sugar; light to medium body; low alcohol.",
+        "chemistry_es": "Acidez muy alta que equilibra el azúcar; cuerpo ligero a medio; alcohol bajo.",
+        "chemistry_it": "Very high acidity balances high sugar; light to medium body; low alcohol.",
+        "pairing": "Fruit tarts, foie gras, blue cheese, custard desserts.",
+        "pairing_es": "Tartas de fruta, foie gras, queso azul, postres de natillas.",
+        "pairing_it": "Fruit tarts, foie gras, blue cheese, custard desserts.",
+        "mixology": "7–10°C in a white-wine glass.",
+        "mixology_es": "7–10°C en copa de vino blanco.",
+        "mixology_it": "7–10°C in a white-wine glass.",
+        "examples": "Germany (Auslese, BA, TBA, Eiswein), Alsace (Vendange Tardive), Austria.",
+        "examples_es": "Alemania (Auslese, BA, TBA, Eiswein), Alsacia (Vendange Tardive), Austria.",
+        "examples_it": "Germany (Auslese, BA, TBA, Eiswein), Alsace (Vendange Tardive), Austria."
+       }
+      }
+     ],
+     "name_de": "SWEET & FORTIFIED"
+    }
+   ],
+   "name_de": "SWEET & FORTIFIED"
+  }
+ ],
+ "funFacts": {
+  "CHAMPAGNE STYLES": {
+   "en": "The legend that the monk Dom Pérignon 'invented' Champagne is mostly myth — sparkling wine predates him, and his real contribution was improving blending and winemaking, not creating the bubbles.",
+   "es": "La leyenda de que el monje Dom Pérignon 'inventó' el champagne es en gran parte un mito — el espumoso es anterior a él, y su aporte real fue mejorar la mezcla y la elaboración, no crear la burbuja."
+  },
+  "FRENCH CRÉMANT & PÉT-NAT": {
+   "en": "Monks at the Abbey of Saint-Hilaire in Limoux are recorded making sparkling wine in 1531 — more than a century before Champagne — giving southern France a strong claim to the first bubbly.",
+   "es": "Los monjes de la abadía de Saint-Hilaire, en Limoux, aparecen elaborando espumoso en 1531 — más de un siglo antes que el champagne — lo que da al sur de Francia una sólida reivindicación del primer espumoso."
+  },
+  "ITALIAN SPARKLING": {
+   "en": "The key to telling Italy's sparkling apart is two words: 'spumante' means fully sparkling and 'frizzante' means gently fizzy — so Asti Spumante foams while a frizzante Moscato just tingles.",
+   "es": "La clave para distinguir los espumosos de Italia son dos palabras: 'spumante' es totalmente espumoso y 'frizzante' es levemente burbujeante — así, el Asti Spumante hace espuma mientras un Moscato frizzante solo cosquillea."
+  },
+  "SPANISH & IBERIAN": {
+   "en": "Cava was born when a Catalan winemaker returned from Champagne in the 1870s and applied bottle fermentation to local grapes — and today the Penedès makes the vast majority of it.",
+   "es": "El cava nació cuando un bodeguero catalán volvió de la Champaña en los años 1870 y aplicó la fermentación en botella a las uvas locales — y hoy el Penedès elabora la gran mayoría."
+  },
+  "ENGLAND, GERMANY & NEW WORLD": {
+   "en": "Southern England sits on the same band of chalk soil as the Champagne region, and as the climate has warmed, English sparkling has started beating Champagne in blind tastings.",
+   "es": "El sur de Inglaterra se asienta sobre la misma franja de suelo calcáreo que la región de Champaña, y con el clima más cálido, el espumoso inglés ha empezado a ganar al champagne en catas a ciegas."
+  },
+  "PRODUCTION METHODS": {
+   "en": "The difference between an inexpensive Prosecco and a costly Champagne is largely the method — tank fermentation is fast and cheap, while bottle fermentation and years on the lees are slow and expensive.",
+   "es": "La diferencia entre un Prosecco económico y un champagne caro es en gran parte el método — la fermentación en tanque es rápida y barata, mientras que la fermentación en botella y los años sobre lías son lentos y costosos."
+  },
+  "SWEETNESS SCALE": {
+   "en": "Sparkling-wine labels are a famous trap — 'Extra Dry' is actually sweeter than 'Brut,' and the French 'Sec' ('dry') is sweeter still; the truly dry wines are Brut Nature and Extra Brut.",
+   "es": "Las etiquetas de los espumosos son una trampa famosa — el 'Extra Dry' es en realidad más dulce que el 'Brut', y el francés 'Sec' ('seco') es aún más dulce; los realmente secos son el Brut Nature y el Extra Brut."
+  },
+  "KEY TERMS & SERVICE": {
+   "en": "The wide, flat 'coupe' glass is a beautiful antique but a poor choice — its large surface lets bubbles and aroma escape fast, which is why sommeliers now serve sparkling wine in a tulip-shaped glass.",
+   "es": "La copa 'coupe' ancha y plana es una bella antigüedad pero una mala elección — su gran superficie deja escapar rápido las burbujas y el aroma, por eso los sommeliers sirven hoy el espumoso en copa tulipán."
+  }
+ }
+}

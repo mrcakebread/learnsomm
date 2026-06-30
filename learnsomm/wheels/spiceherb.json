@@ -1,0 +1,941 @@
+{
+ "title": "Spiceherb",
+ "subject": "spiceherb",
+ "categories": [
+  {
+   "name": "TENDER HERBS",
+   "name_fr": "HERBES TENDRES",
+   "name_it": "ERBE TENERE",
+   "name_es": "HIERBAS TIERNAS",
+   "color": "#4a7c3a",
+   "sub": [
+    {
+     "name": "TENDER HERBS",
+     "name_fr": "HERBES TENDRES",
+     "name_it": "ERBE TENERE",
+     "name_es": "HIERBAS TIERNAS",
+     "color": "#4a7c3a",
+     "descriptors": [
+      {
+       "name": "Basil",
+       "name_fr": "Basilic",
+       "name_it": "Basilico",
+       "name_es": "Albahaca",
+       "slug": "basil",
+       "panel": {
+        "origin": "Sweet, peppery, and clove-like with a heady perfume; Genovese is the classic Italian type.",
+        "origin_es": "Dulce, picante y con toques de clavo, de perfume embriagador; la genovesa es la clásica italiana.",
+        "chemistry": "Soft, tender leaves that bruise and blacken easily; best torn, not cut.",
+        "chemistry_es": "Hojas blandas y tiernas que se magullan y ennegrecen fácil; mejor rasgadas que cortadas.",
+        "pairing": "Tomato, mozzarella, garlic, olive oil, lemon. The soul of Caprese and pesto.",
+        "pairing_es": "Tomate, mozzarella, ajo, aceite de oliva, limón. El alma de la Caprese y el pesto.",
+        "mixology": "Add raw or at the very end — pesto, salads, finishing pasta. Heat destroys its aroma.",
+        "mixology_es": "Cruda o al final — pesto, ensaladas, para terminar la pasta. El calor destruye su aroma.",
+        "examples": "A tender annual in the mint family; Thai, lemon, and holy basil each bring a distinct accent.",
+        "examples_es": "Una anual tierna de la familia de la menta; la tailandesa, de limón y sagrada aportan acentos distintos."
+       }
+      },
+      {
+       "name": "Cilantro",
+       "name_fr": "Coriandre",
+       "name_it": "Coriandolo",
+       "name_es": "Cilantro",
+       "slug": "cilantro",
+       "panel": {
+        "origin": "Bright, citrusy, and grassy; polarizing — a subset of people taste it as soapy.",
+        "origin_es": "Brillante, cítrico y herbáceo; divisivo — algunas personas lo perciben como jabón.",
+        "chemistry": "Delicate leaves and tender stems, both usable.",
+        "chemistry_es": "Hojas delicadas y tallos tiernos, ambos aprovechables.",
+        "pairing": "Lime, chili, cumin, coconut. Central to Mexican, Indian, and Thai cooking.",
+        "pairing_es": "Lima, chile, comino, coco. Central en la cocina mexicana, india y tailandesa.",
+        "mixology": "Stirred in raw at the finish; salsas, curries, garnishes. The seed (coriander) is a different spice.",
+        "mixology_es": "Crudo al final; salsas, curris, guarniciones. La semilla (cilantro en grano) es otra especia.",
+        "examples": "The fresh leaf of the coriander plant; the 'soapy' reaction is linked to a smell-receptor gene.",
+        "examples_es": "La hoja fresca de la planta del cilantro; la reacción 'a jabón' se vincula a un gen del olfato."
+       }
+      },
+      {
+       "name": "Parsley",
+       "name_fr": "Persil",
+       "name_it": "Prezzemolo",
+       "name_es": "Perejil",
+       "slug": "parsley",
+       "panel": {
+        "origin": "Clean, fresh, and lightly peppery; flat-leaf (Italian) is more flavorful than curly.",
+        "origin_es": "Limpio, fresco y levemente picante; el de hoja plana (italiano) tiene más sabor que el rizado.",
+        "chemistry": "Crisp, sturdy leaves and crunchy stems.",
+        "chemistry_es": "Hojas crujientes y firmes, con tallos crocantes.",
+        "pairing": "Lemon, garlic, capers, grains. Backbone of tabbouleh, gremolata, and salsa verde.",
+        "pairing_es": "Limón, ajo, alcaparras, cereales. Base del tabulé, la gremolata y la salsa verde.",
+        "mixology": "Raw as a finishing herb or stirred in late; brightens almost any savory dish.",
+        "mixology_es": "Crudo como hierba de acabado o añadido tarde; ilumina casi cualquier plato salado.",
+        "examples": "A biennial in the carrot family; the curly type is more garnish than flavor.",
+        "examples_es": "Una bienal de la familia de la zanahoria; el rizado es más adorno que sabor."
+       }
+      },
+      {
+       "name": "Mint",
+       "name_fr": "Menthe",
+       "name_it": "Menta",
+       "name_es": "Menta",
+       "slug": "mint",
+       "panel": {
+        "origin": "Cool, sweet, and menthol-bright; spearmint is mild, peppermint sharper.",
+        "origin_es": "Fresca, dulce y mentolada; la hierbabuena es suave, la menta piperita más intensa.",
+        "chemistry": "Tender, slightly fuzzy leaves.",
+        "chemistry_es": "Hojas tiernas y algo aterciopeladas.",
+        "pairing": "Lamb, peas, yogurt, chocolate, citrus. Key to tabbouleh, mojitos, and raita.",
+        "pairing_es": "Cordero, guisantes, yogur, chocolate, cítricos. Clave en el tabulé, el mojito y el raita.",
+        "mixology": "Raw in salads and drinks, stirred into yogurt sauces, steeped for tea.",
+        "mixology_es": "Cruda en ensaladas y bebidas, en salsas de yogur, en infusión para té.",
+        "examples": "A vigorous, spreading perennial; dozens of types, all cooling from menthol.",
+        "examples_es": "Una perenne vigorosa e invasora; decenas de tipos, todos refrescantes por el mentol."
+       }
+      },
+      {
+       "name": "Dill",
+       "name_fr": "Aneth",
+       "name_it": "Aneto",
+       "name_es": "Eneldo",
+       "slug": "dill",
+       "panel": {
+        "origin": "Fresh, grassy, and faintly anise-like with a citrus lift.",
+        "origin_es": "Fresco, herbáceo y levemente anisado, con un toque cítrico.",
+        "chemistry": "Feathery, soft fronds.",
+        "chemistry_es": "Frondas plumosas y blandas.",
+        "pairing": "Cucumber, salmon, yogurt, potatoes. Essential to pickles and gravlax.",
+        "pairing_es": "Pepino, salmón, yogur, papas. Esencial en encurtidos y gravlax.",
+        "mixology": "Added raw or late; sauces, cured fish, pickling, Scandinavian and Eastern European dishes.",
+        "mixology_es": "Crudo o tardío; salsas, pescado curado, encurtidos, platos escandinavos y de Europa del Este.",
+        "examples": "A feathery annual; both the fronds (dill weed) and the seed are used.",
+        "examples_es": "Una anual plumosa; se usan tanto las frondas como la semilla."
+       }
+      },
+      {
+       "name": "Chives",
+       "name_fr": "Ciboulette",
+       "name_it": "Erba Cipollina",
+       "name_es": "Cebollino",
+       "slug": "chives",
+       "panel": {
+        "origin": "Mild, sweet onion flavor with a fresh green note.",
+        "origin_es": "Sabor suave y dulce a cebolla, con una nota verde fresca.",
+        "chemistry": "Slender, hollow grass-like stalks.",
+        "chemistry_es": "Tallos finos y huecos parecidos a la hierba.",
+        "pairing": "Eggs, potatoes, sour cream, fish. A classic baked-potato finisher.",
+        "pairing_es": "Huevos, papas, crema agria, pescado. Acabado clásico de la papa al horno.",
+        "mixology": "Snipped raw over finished dishes; never cooked long. The purple flowers are edible too.",
+        "mixology_es": "Cortado crudo sobre platos terminados; nunca muy cocido. Sus flores moradas también se comen.",
+        "examples": "The smallest cultivated onion relative; delivers allium flavor without the bite.",
+        "examples_es": "El pariente cultivado más pequeño de la cebolla; aporta sabor de allium sin el picor."
+       }
+      },
+      {
+       "name": "Tarragon",
+       "name_fr": "Estragon",
+       "name_it": "Dragoncello",
+       "name_es": "Estragón",
+       "slug": "tarragon",
+       "panel": {
+        "origin": "Sweet, aromatic anise-and-licorice character; French tarragon is the prized type.",
+        "origin_es": "Carácter dulce y aromático de anís y regaliz; el estragón francés es el más apreciado.",
+        "chemistry": "Slim, smooth leaves.",
+        "chemistry_es": "Hojas delgadas y lisas.",
+        "pairing": "Chicken, eggs, vinegar, mustard, fish. The defining herb of béarnaise.",
+        "pairing_es": "Pollo, huevos, vinagre, mostaza, pescado. La hierba que define la bearnesa.",
+        "mixology": "Added late to sauces and chicken; steeped in vinegar; a French-kitchen staple.",
+        "mixology_es": "Añadido tarde a salsas y pollo; en infusión en vinagre; básico de la cocina francesa.",
+        "examples": "A perennial in the daisy family; French tarragon must be grown from cuttings, not seed.",
+        "examples_es": "Una perenne de la familia de la margarita; el francés se cultiva por esquejes, no por semilla."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WOODY HERBS",
+   "name_fr": "HERBES LIGNEUSES",
+   "name_it": "ERBE LEGNOSE",
+   "name_es": "HIERBAS LEÑOSAS",
+   "color": "#3a5a2a",
+   "sub": [
+    {
+     "name": "WOODY HERBS",
+     "name_fr": "HERBES LIGNEUSES",
+     "name_it": "ERBE LEGNOSE",
+     "name_es": "HIERBAS LEÑOSAS",
+     "color": "#3a5a2a",
+     "descriptors": [
+      {
+       "name": "Rosemary",
+       "name_fr": "Romarin",
+       "name_it": "Rosmarino",
+       "name_es": "Romero",
+       "slug": "rosemary",
+       "panel": {
+        "origin": "Piney, resinous, and camphorous with a deep evergreen aroma.",
+        "origin_es": "A pino, resinoso y alcanforado, con un profundo aroma a hoja perenne.",
+        "chemistry": "Stiff, needle-like leaves on woody stems.",
+        "chemistry_es": "Hojas rígidas en forma de aguja sobre tallos leñosos.",
+        "pairing": "Lamb, potatoes, garlic, focaccia, citrus. Loves roasted and grilled meats.",
+        "pairing_es": "Cordero, papas, ajo, focaccia, cítricos. Ideal con carnes asadas y a la parrilla.",
+        "mixology": "Stands up to long roasting and braising; whole sprigs flavor oils and stocks.",
+        "mixology_es": "Aguanta asados y estofados largos; las ramas enteras aromatizan aceites y caldos.",
+        "examples": "A woody Mediterranean evergreen in the mint family; the stems double as skewers.",
+        "examples_es": "Una perenne leñosa mediterránea de la familia de la menta; sus tallos sirven de brochetas."
+       }
+      },
+      {
+       "name": "Thyme",
+       "name_fr": "Thym",
+       "name_it": "Timo",
+       "name_es": "Tomillo",
+       "slug": "thyme",
+       "panel": {
+        "origin": "Earthy, minty, and subtly floral; a quiet herb that supports rather than dominates.",
+        "origin_es": "Terroso, mentolado y sutilmente floral; una hierba discreta que acompaña sin dominar.",
+        "chemistry": "Tiny leaves on thin woody stems.",
+        "chemistry_es": "Hojas diminutas sobre tallos leñosos finos.",
+        "pairing": "Poultry, mushrooms, root vegetables, wine sauces. A pillar of the bouquet garni.",
+        "pairing_es": "Aves, setas, raíces, salsas de vino. Un pilar del bouquet garni.",
+        "mixology": "Simmers beautifully in stocks, braises, and roasts; strip leaves or add whole sprigs.",
+        "mixology_es": "Se cocina de maravilla en caldos, estofados y asados; deshoja o añade ramas enteras.",
+        "examples": "A low Mediterranean shrub; lemon thyme adds a citrus twist.",
+        "examples_es": "Un arbusto bajo mediterráneo; el tomillo limonero aporta un giro cítrico."
+       }
+      },
+      {
+       "name": "Oregano",
+       "name_fr": "Origan",
+       "name_it": "Origano",
+       "name_es": "Orégano",
+       "slug": "oregano",
+       "panel": {
+        "origin": "Robust, peppery, and earthy; one of the few herbs often better dried than fresh.",
+        "origin_es": "Robusto, picante y terroso; de las pocas hierbas que suele ser mejor seca que fresca.",
+        "chemistry": "Small, sturdy leaves.",
+        "chemistry_es": "Hojas pequeñas y resistentes.",
+        "pairing": "Tomato, lamb, feta, chili. Defines Greek, Italian, and Mexican cooking.",
+        "pairing_es": "Tomate, cordero, feta, chile. Define la cocina griega, italiana y mexicana.",
+        "mixology": "Dried on pizza and in tomato sauces; Mexican oregano is a different, more citrusy plant.",
+        "mixology_es": "Seco sobre pizza y en salsas de tomate; el orégano mexicano es otra planta, más cítrica.",
+        "examples": "A hardy Mediterranean perennial; 'wild marjoram,' closely related to true marjoram.",
+        "examples_es": "Una perenne mediterránea resistente; 'mejorana silvestre', pariente cercana de la mejorana."
+       }
+      },
+      {
+       "name": "Sage",
+       "name_fr": "Sauge",
+       "name_it": "Salvia",
+       "name_es": "Salvia",
+       "slug": "sage",
+       "panel": {
+        "origin": "Savory, earthy, and slightly peppery with a soft eucalyptus note.",
+        "origin_es": "Sabrosa, terrosa y algo picante, con una suave nota de eucalipto.",
+        "chemistry": "Soft, velvety, grey-green leaves.",
+        "chemistry_es": "Hojas blandas, aterciopeladas y verde grisáceo.",
+        "pairing": "Pork, poultry, brown butter, squash, beans. Classic in stuffing and saltimbocca.",
+        "pairing_es": "Cerdo, aves, mantequilla tostada, calabaza, alubias. Clásica en rellenos y saltimbocca.",
+        "mixology": "Fried in butter, rubbed on roasts, simmered in beans; mellows with cooking.",
+        "mixology_es": "Frita en mantequilla, sobre asados, cocida con alubias; se suaviza al cocinarse.",
+        "examples": "A woody Mediterranean evergreen in the mint family, long used as both herb and medicine.",
+        "examples_es": "Una perenne leñosa mediterránea de la familia de la menta, usada como hierba y como medicina."
+       }
+      },
+      {
+       "name": "Bay Leaf",
+       "name_fr": "Feuille de Laurier",
+       "name_it": "Foglia di Alloro",
+       "name_es": "Hoja de Laurel",
+       "slug": "bay-leaf",
+       "panel": {
+        "origin": "Subtle, herbal, and slightly floral; works in the background, noticed when absent.",
+        "origin_es": "Sutil, herbal y algo floral; actúa de fondo, se nota cuando falta.",
+        "chemistry": "Stiff, leathery leaf — always removed before serving.",
+        "chemistry_es": "Hoja rígida y coriácea — siempre se retira antes de servir.",
+        "pairing": "Stocks, beans, tomato sauce, braises, milk for béchamel.",
+        "pairing_es": "Caldos, alubias, salsa de tomate, estofados, leche para bechamel.",
+        "mixology": "Simmered whole in liquids over time; pull it out before serving. Never eaten.",
+        "mixology_es": "Cocida entera en líquidos a fuego lento; se retira antes de servir. Nunca se come.",
+        "examples": "The leaf of the bay laurel tree; the same laurel of ancient victory wreaths.",
+        "examples_es": "La hoja del laurel; el mismo laurel de las antiguas coronas de la victoria."
+       }
+      },
+      {
+       "name": "Marjoram",
+       "name_fr": "Marjolaine",
+       "name_it": "Maggiorana",
+       "name_es": "Mejorana",
+       "slug": "marjoram",
+       "panel": {
+        "origin": "Sweeter, milder, and more floral than its cousin oregano.",
+        "origin_es": "Más dulce, suave y floral que su prima el orégano.",
+        "chemistry": "Small, soft, oval leaves.",
+        "chemistry_es": "Hojas pequeñas, blandas y ovaladas.",
+        "pairing": "Tomato, eggs, sausages, vegetables. Gentle enough for delicate dishes.",
+        "pairing_es": "Tomate, huevos, embutidos, verduras. Lo bastante suave para platos delicados.",
+        "mixology": "Added near the end (more fragile than oregano); herb blends, sausages, egg dishes.",
+        "mixology_es": "Añadida casi al final (más frágil que el orégano); mezclas de hierbas, embutidos, huevos.",
+        "examples": "A tender Mediterranean perennial in the mint family, milder than wild oregano.",
+        "examples_es": "Una perenne mediterránea tierna de la familia de la menta, más suave que el orégano silvestre."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WARM SWEET SPICES",
+   "name_fr": "ÉPICES DOUCES & CHAUDES",
+   "name_it": "SPEZIE DOLCI & CALDE",
+   "name_es": "ESPECIAS CÁLIDAS Y DULCES",
+   "color": "#9a5a2a",
+   "sub": [
+    {
+     "name": "WARM SWEET SPICES",
+     "name_fr": "ÉPICES DOUCES & CHAUDES",
+     "name_it": "SPEZIE DOLCI & CALDE",
+     "name_es": "ESPECIAS CÁLIDAS Y DULCES",
+     "color": "#9a5a2a",
+     "descriptors": [
+      {
+       "name": "Cinnamon",
+       "name_fr": "Cannelle",
+       "name_it": "Cannella",
+       "name_es": "Canela",
+       "slug": "cinnamon",
+       "panel": {
+        "origin": "Sweet, woody, and warming; Ceylon ('true') is delicate, cassia is bolder and spicier.",
+        "origin_es": "Dulce, amaderada y cálida; la de Ceilán ('verdadera') es delicada, la cassia más intensa.",
+        "chemistry": "Curled bark quills or ground powder.",
+        "chemistry_es": "Ramas de corteza enrollada o polvo molido.",
+        "pairing": "Apple, sugar, chocolate, lamb, coffee. Sweet baking and savory tagines alike.",
+        "pairing_es": "Manzana, azúcar, chocolate, cordero, café. Lo mismo en repostería que en tajines salados.",
+        "mixology": "Sticks infuse liquids; ground for baking and rubs. Add ground late to keep its aroma.",
+        "mixology_es": "Las ramas infusionan líquidos; molida para repostería y adobos. Añade la molida tarde para conservar su aroma.",
+        "examples": "The dried inner bark of cinnamon trees; cassia carries coumarin, Ceylon barely any.",
+        "examples_es": "La corteza interior seca del canelo; la cassia contiene cumarina, la de Ceilán apenas nada."
+       }
+      },
+      {
+       "name": "Nutmeg",
+       "name_fr": "Muscade",
+       "name_it": "Noce Moscata",
+       "name_es": "Nuez Moscada",
+       "slug": "nutmeg",
+       "panel": {
+        "origin": "Warm, sweet, and nutty with a faint pine edge; intense, so used in small amounts.",
+        "origin_es": "Cálida, dulce y a nuez, con un leve filo a pino; intensa, se usa en poca cantidad.",
+        "chemistry": "A hard brown seed, best grated fresh.",
+        "chemistry_es": "Una semilla dura y marrón, mejor rallada al momento.",
+        "pairing": "Cream, cheese, spinach, pumpkin, eggnog. Lifts béchamel and custards.",
+        "pairing_es": "Nata, queso, espinaca, calabaza, ponche de huevo. Realza la bechamel y las natillas.",
+        "mixology": "Grated fresh over sauces and desserts; a little goes a long way.",
+        "mixology_es": "Rallada fresca sobre salsas y postres; un poco rinde mucho.",
+        "examples": "The seed of a tropical fruit; its lacy red aril is dried separately as mace.",
+        "examples_es": "La semilla de un fruto tropical; su arilo rojo y reticulado se seca aparte como macis."
+       }
+      },
+      {
+       "name": "Clove",
+       "name_fr": "Clou de Girofle",
+       "name_it": "Chiodo di Garofano",
+       "name_es": "Clavo",
+       "slug": "clove",
+       "panel": {
+        "origin": "Intense, warm, and sweet with a numbing, almost medicinal punch.",
+        "origin_es": "Intenso, cálido y dulce, con un golpe adormecedor, casi medicinal.",
+        "chemistry": "Hard, dried flower buds shaped like tiny nails.",
+        "chemistry_es": "Capullos florales secos y duros con forma de clavito.",
+        "pairing": "Ham, orange, apple, mulled wine, biryani. Studs a holiday ham.",
+        "pairing_es": "Jamón, naranja, manzana, vino caliente, biryani. Claveteado en el jamón navideño.",
+        "mixology": "Whole in braises, mulled drinks, and rice; ground in baking. Powerful — use sparingly.",
+        "mixology_es": "Entero en estofados, bebidas calientes y arroz; molido en repostería. Potente — con mesura.",
+        "examples": "The dried unopened flower bud of a tropical evergreen, once worth its weight in gold.",
+        "examples_es": "El capullo floral seco y cerrado de un árbol tropical, antaño valía su peso en oro."
+       }
+      },
+      {
+       "name": "Allspice",
+       "name_fr": "Piment de la Jamaïque",
+       "name_it": "Pimento",
+       "name_es": "Pimienta de Jamaica",
+       "slug": "allspice",
+       "panel": {
+        "origin": "Tastes like cinnamon, clove, and nutmeg at once — yet it's a single berry, not a blend.",
+        "origin_es": "Sabe a canela, clavo y nuez moscada a la vez — pero es una sola baya, no una mezcla.",
+        "chemistry": "Hard, round dried berries or ground powder.",
+        "chemistry_es": "Bayas secas, redondas y duras, o en polvo.",
+        "pairing": "Jerk seasoning, pumpkin, game, pickling. The backbone of Jamaican jerk.",
+        "pairing_es": "Condimento jerk, calabaza, caza, encurtidos. La base del jerk jamaicano.",
+        "mixology": "Ground in baking and rubs; whole in pickling and braises.",
+        "mixology_es": "Molida en repostería y adobos; entera en encurtidos y estofados.",
+        "examples": "The dried berry of a Caribbean evergreen; named for its all-in-one aroma.",
+        "examples_es": "La baya seca de un árbol caribeño; su nombre alude a su aroma 'todo en uno'."
+       }
+      },
+      {
+       "name": "Star Anise",
+       "name_fr": "Anis Étoilé",
+       "name_it": "Anice Stellato",
+       "name_es": "Anís Estrellado",
+       "slug": "star-anise",
+       "panel": {
+        "origin": "Intensely licorice-like and sweet, deeper and warmer than anise seed.",
+        "origin_es": "Intensamente a regaliz y dulce, más profundo y cálido que la semilla de anís.",
+        "chemistry": "A hard, star-shaped brown pod.",
+        "chemistry_es": "Una vaina dura y marrón en forma de estrella.",
+        "pairing": "Pork, duck, citrus, broth. Essential to pho and Chinese braises.",
+        "pairing_es": "Cerdo, pato, cítricos, caldo. Esencial en el pho y los estofados chinos.",
+        "mixology": "Whole in simmered broths and braises; a core note of Chinese five-spice.",
+        "mixology_es": "Entero en caldos y estofados; una nota central de las cinco especias chinas.",
+        "examples": "The star-shaped fruit of an evergreen tree, unrelated to anise but sharing its anethole aroma.",
+        "examples_es": "El fruto estrellado de un árbol perenne, no emparentado con el anís pero con su mismo aroma de anetol."
+       }
+      },
+      {
+       "name": "Cardamom",
+       "name_fr": "Cardamome",
+       "name_it": "Cardamomo",
+       "name_es": "Cardamomo",
+       "slug": "cardamom",
+       "panel": {
+        "origin": "Sweet, floral, and citrusy with a resinous lift; green is bright, black is smoky.",
+        "origin_es": "Dulce, floral y cítrico, con un toque resinoso; el verde es brillante, el negro ahumado.",
+        "chemistry": "Small papery pods holding sticky black seeds.",
+        "chemistry_es": "Vainas pequeñas y papiráceas con semillas negras y pegajosas.",
+        "pairing": "Coffee, chai, rice, orange, pastry. Defines chai and Scandinavian baking.",
+        "pairing_es": "Café, chai, arroz, naranja, repostería. Define el chai y la repostería escandinava.",
+        "mixology": "Pods bruised into braises and rice; seeds ground for baking and coffee.",
+        "mixology_es": "Vainas machacadas en estofados y arroz; semillas molidas para repostería y café.",
+        "examples": "The seed pod of a ginger relative; among the costliest spices after saffron and vanilla.",
+        "examples_es": "La vaina de un pariente del jengibre; de las especias más caras tras el azafrán y la vainilla."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EARTHY SEED SPICES",
+   "name_fr": "ÉPICES DE GRAINES TERREUSES",
+   "name_it": "SPEZIE DI SEMI TERROSE",
+   "name_es": "ESPECIAS DE SEMILLA TERROSAS",
+   "color": "#b07a30",
+   "sub": [
+    {
+     "name": "EARTHY SEED SPICES",
+     "name_fr": "ÉPICES DE GRAINES TERREUSES",
+     "name_it": "SPEZIE DI SEMI TERROSE",
+     "name_es": "ESPECIAS DE SEMILLA TERROSAS",
+     "color": "#b07a30",
+     "descriptors": [
+      {
+       "name": "Cumin",
+       "name_fr": "Cumin",
+       "name_it": "Cumino",
+       "name_es": "Comino",
+       "slug": "cumin",
+       "panel": {
+        "origin": "Earthy, warm, and slightly bitter with a smoky depth; pungent when toasted.",
+        "origin_es": "Terroso, cálido y algo amargo, con profundidad ahumada; punzante al tostarse.",
+        "chemistry": "Small ridged brown seeds; also sold ground.",
+        "chemistry_es": "Semillas marrones pequeñas y estriadas; también molido.",
+        "pairing": "Chili, beans, lamb, coriander. Foundational to Mexican, Indian, and Middle Eastern food.",
+        "pairing_es": "Chile, frijoles, cordero, cilantro. Base de la cocina mexicana, india y de Oriente Medio.",
+        "mixology": "Toast whole then grind, or bloom in oil; the base note of countless spice blends.",
+        "mixology_es": "Tostar entero y moler, o sofreír en aceite; la nota base de incontables mezclas.",
+        "examples": "The seed of a small Mediterranean plant in the carrot family; often confused with caraway.",
+        "examples_es": "La semilla de una planta mediterránea de la familia de la zanahoria; se confunde con la alcaravea."
+       }
+      },
+      {
+       "name": "Coriander Seed",
+       "name_fr": "Graine de Coriandre",
+       "name_it": "Seme di Coriandolo",
+       "name_es": "Semilla de Cilantro",
+       "slug": "coriander-seed",
+       "panel": {
+        "origin": "Warm, sweet, and citrusy — completely different from its fresh leaf (cilantro).",
+        "origin_es": "Cálida, dulce y cítrica — totalmente distinta de su hoja fresca (el cilantro).",
+        "chemistry": "Round, ridged tan seeds that crush easily.",
+        "chemistry_es": "Semillas redondas y estriadas de color tostado que se trituran fácil.",
+        "pairing": "Cumin, citrus, pork, pickling spice. Pairs with its own leaf in many cuisines.",
+        "pairing_es": "Comino, cítricos, cerdo, especias de encurtido. Combina con su propia hoja en muchas cocinas.",
+        "mixology": "Toasted and ground for curries and rubs; whole in pickling and brining.",
+        "mixology_es": "Tostada y molida para curris y adobos; entera en encurtidos y salmueras.",
+        "examples": "The dried seed of the coriander plant; the leaf and seed taste nothing alike.",
+        "examples_es": "La semilla seca de la planta del cilantro; la hoja y la semilla no se parecen en sabor."
+       }
+      },
+      {
+       "name": "Fennel Seed",
+       "name_fr": "Graine de Fenouil",
+       "name_it": "Seme di Finocchio",
+       "name_es": "Semilla de Hinojo",
+       "slug": "fennel-seed",
+       "panel": {
+        "origin": "Sweet and anise-like with a cooling, slightly grassy finish.",
+        "origin_es": "Dulce y anisada, con un final refrescante y algo herbáceo.",
+        "chemistry": "Small, oval, ridged green-brown seeds.",
+        "chemistry_es": "Semillas pequeñas, ovaladas y estriadas, verde-marrón.",
+        "pairing": "Pork, sausage, tomato, fish. The signature note of Italian sausage.",
+        "pairing_es": "Cerdo, salchicha, tomate, pescado. La nota distintiva de la salchicha italiana.",
+        "mixology": "Toasted into sausage and rubs, simmered in sauces, chewed as a digestive (mukhwas).",
+        "mixology_es": "Tostada en salchichas y adobos, cocida en salsas, masticada como digestivo (mukhwas).",
+        "examples": "The seed of the fennel plant; related to dill and anise, milder than star anise.",
+        "examples_es": "La semilla de la planta del hinojo; pariente del eneldo y el anís, más suave que el anís estrellado."
+       }
+      },
+      {
+       "name": "Caraway",
+       "name_fr": "Carvi",
+       "name_it": "Carvi",
+       "name_es": "Alcaravea",
+       "slug": "caraway",
+       "panel": {
+        "origin": "Earthy and nutty with a sharp anise-pepper bite.",
+        "origin_es": "Terrosa y a nuez, con un filo punzante de anís y pimienta.",
+        "chemistry": "Slender, curved brown seeds — often mistaken for cumin.",
+        "chemistry_es": "Semillas finas y curvadas, marrones — a menudo confundidas con el comino.",
+        "pairing": "Rye bread, cabbage, sauerkraut, pork. The flavor of rye and many sausages.",
+        "pairing_es": "Pan de centeno, col, chucrut, cerdo. El sabor del centeno y de muchos embutidos.",
+        "mixology": "Baked into rye, simmered with cabbage and kraut, across Central European cooking.",
+        "mixology_es": "Horneada en centeno, cocida con col y chucrut, en toda la cocina centroeuropea.",
+        "examples": "The seed of a biennial in the carrot family; defines Central and Eastern European baking.",
+        "examples_es": "La semilla de una bienal de la familia de la zanahoria; define la repostería de Europa Central y del Este."
+       }
+      },
+      {
+       "name": "Mustard Seed",
+       "name_fr": "Graine de Moutarde",
+       "name_it": "Seme di Senape",
+       "name_es": "Semilla de Mostaza",
+       "slug": "mustard-seed",
+       "panel": {
+        "origin": "Sharp, pungent heat that blooms only when crushed and wetted; nutty when toasted.",
+        "origin_es": "Calor agudo y punzante que solo aparece al triturarse y humedecerse; a nuez al tostarse.",
+        "chemistry": "Tiny round seeds, yellow to brown to black.",
+        "chemistry_es": "Semillas diminutas y redondas, del amarillo al marrón y al negro.",
+        "pairing": "Pickles, sausages, Indian dals, vinaigrettes. The base of all prepared mustard.",
+        "pairing_es": "Encurtidos, embutidos, dals indios, vinagretas. La base de toda mostaza preparada.",
+        "mixology": "Toasted/popped in oil (Indian tempering), ground into mustard, in pickling brines.",
+        "mixology_es": "Tostada en aceite (tadka indio), molida en mostaza, en salmueras de encurtido.",
+        "examples": "The seed of a brassica; the heat is an enzyme reaction, so it needs cold liquid to develop.",
+        "examples_es": "La semilla de una brásica; el picor es una reacción enzimática, necesita líquido frío para desarrollarse."
+       }
+      },
+      {
+       "name": "Annatto (Achiote)",
+       "name_fr": "Annatto (Achiote)",
+       "name_it": "Annatto (Achiote)",
+       "name_es": "Achiote",
+       "slug": "annatto",
+       "panel": {
+        "origin": "Mild, earthy, and faintly peppery with a sweet, nutty undertone.",
+        "origin_es": "Suave, terroso y levemente picante, con un fondo dulce y a nuez.",
+        "chemistry": "Hard, brick-red triangular seeds.",
+        "chemistry_es": "Semillas duras, triangulares y de color rojo ladrillo.",
+        "pairing": "Pork (cochinita pibil), rice, achiote paste, recados. A Yucatán staple.",
+        "pairing_es": "Cerdo (cochinita pibil), arroz, pasta de achiote, recados. Un básico yucateco.",
+        "mixology": "Steeped in oil for color, ground into achiote paste and recado rojo.",
+        "mixology_es": "Infusionado en aceite para dar color, molido en pasta de achiote y recado rojo.",
+        "examples": "The seed of a tropical shrub, prized as a natural red-orange color (also in cheese and butter).",
+        "examples_es": "La semilla de un arbusto tropical, apreciada como color rojo-anaranjado natural (también en queso y mantequilla)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HOT & PUNGENT SPICES",
+   "name_fr": "ÉPICES PIQUANTES & FORTES",
+   "name_it": "SPEZIE PICCANTI & PUNGENTI",
+   "name_es": "ESPECIAS PICANTES Y PUNZANTES",
+   "color": "#a83a2a",
+   "sub": [
+    {
+     "name": "HOT & PUNGENT SPICES",
+     "name_fr": "ÉPICES PIQUANTES & FORTES",
+     "name_it": "SPEZIE PICCANTI & PUNGENTI",
+     "name_es": "ESPECIAS PICANTES Y PUNZANTES",
+     "color": "#a83a2a",
+     "descriptors": [
+      {
+       "name": "Black Pepper",
+       "name_fr": "Poivre Noir",
+       "name_it": "Pepe Nero",
+       "name_es": "Pimienta Negra",
+       "slug": "black-pepper",
+       "panel": {
+        "origin": "Sharp, woody, and pungent with bright citrus top notes when freshly cracked.",
+        "origin_es": "Aguda, amaderada y punzante, con notas cítricas brillantes recién molida.",
+        "chemistry": "Hard dried berries; best ground to order.",
+        "chemistry_es": "Bayas secas y duras; mejor molidas al momento.",
+        "pairing": "Nearly everything savory; the universal table spice. Classic in cacio e pepe.",
+        "pairing_es": "Casi todo lo salado; la especia de mesa universal. Clásica en el cacio e pepe.",
+        "mixology": "Cracked fresh at the finish for aroma; ground into rubs and brines.",
+        "mixology_es": "Molida fresca al final para dar aroma; molida en adobos y salmueras.",
+        "examples": "The dried berry of a tropical vine; green, black, and white pepper are the same fruit at different stages.",
+        "examples_es": "La baya seca de una liana tropical; la pimienta verde, negra y blanca son el mismo fruto en distintas fases."
+       }
+      },
+      {
+       "name": "Cayenne",
+       "name_fr": "Cayenne",
+       "name_it": "Pepe di Caienna",
+       "name_es": "Cayena",
+       "slug": "cayenne",
+       "panel": {
+        "origin": "Clean, sharp, building heat with little other flavor.",
+        "origin_es": "Calor limpio, agudo y creciente, con poco más sabor.",
+        "chemistry": "Fine red powder of dried hot chilies.",
+        "chemistry_es": "Polvo rojo fino de chiles picantes secos.",
+        "pairing": "Anything that needs heat; hot sauces, rubs, gumbo.",
+        "pairing_es": "Todo lo que pida picante; salsas picantes, adobos, gumbo.",
+        "mixology": "A pinch to add heat without changing flavor; in spice blends and hot sauces.",
+        "mixology_es": "Una pizca para dar picor sin cambiar el sabor; en mezclas y salsas picantes.",
+        "examples": "Ground from dried cayenne-type chilies; heat comes from capsaicin in the pepper's ribs.",
+        "examples_es": "Molida de chiles tipo cayena secos; el picor viene de la capsaicina de las venas del chile."
+       }
+      },
+      {
+       "name": "Paprika",
+       "name_fr": "Paprika",
+       "name_it": "Paprika",
+       "name_es": "Pimentón",
+       "slug": "paprika",
+       "panel": {
+        "origin": "From sweet and fruity to smoky to hot, depending on the pepper and processing.",
+        "origin_es": "De dulce y afrutado a ahumado o picante, según el pimiento y su elaboración.",
+        "chemistry": "Vibrant red powder.",
+        "chemistry_es": "Polvo rojo vibrante.",
+        "pairing": "Chicken, potatoes, eggs, stews, chorizo. The heart of Hungarian goulash.",
+        "pairing_es": "Pollo, papas, huevos, guisos, chorizo. El corazón del gulash húngaro.",
+        "mixology": "Sweet for color and body, smoked (pimentón) for depth, hot for kick; add off direct high heat (it scorches).",
+        "mixology_es": "Dulce para color y cuerpo, ahumado para profundidad, picante para fuerza; añadir fuera del fuego fuerte (se quema).",
+        "examples": "Ground dried Capsicum peppers; Hungary and Spain (smoked Pimentón de la Vera) are the benchmarks.",
+        "examples_es": "Pimientos Capsicum secos y molidos; Hungría y España (el Pimentón de la Vera ahumado) son las referencias."
+       }
+      },
+      {
+       "name": "Ginger",
+       "name_fr": "Gingembre",
+       "name_it": "Zenzero",
+       "name_es": "Jengibre",
+       "slug": "ginger",
+       "panel": {
+        "origin": "Warm, peppery, and citrusy with a fresh bite; sweeter and woodier dried.",
+        "origin_es": "Cálido, picante y cítrico, con un mordiente fresco; más dulce y amaderado en seco.",
+        "chemistry": "A knobby fresh rhizome, or dried ground powder.",
+        "chemistry_es": "Un rizoma fresco y nudoso, o polvo seco molido.",
+        "pairing": "Garlic, soy, citrus, chili, molasses. Spans stir-fries to gingerbread.",
+        "pairing_es": "Ajo, soja, cítricos, chile, melaza. Va del salteado al pan de jengibre.",
+        "mixology": "Fresh grated in savory cooking; dried ground in baking and spice blends.",
+        "mixology_es": "Fresco rallado en cocina salada; seco molido en repostería y mezclas de especias.",
+        "examples": "The rhizome of a tropical plant, related to turmeric and cardamom.",
+        "examples_es": "El rizoma de una planta tropical, pariente de la cúrcuma y el cardamomo."
+       }
+      },
+      {
+       "name": "Sichuan Pepper",
+       "name_fr": "Poivre de Sichuan",
+       "name_it": "Pepe di Sichuan",
+       "name_es": "Pimienta de Sichuan",
+       "slug": "sichuan-pepper",
+       "panel": {
+        "origin": "Citrusy and floral with a unique tingling, numbing buzz — not actually hot.",
+        "origin_es": "Cítrica y floral, con un cosquilleo adormecedor único — en realidad no pica.",
+        "chemistry": "The dried reddish husk of a berry (discard the gritty seed).",
+        "chemistry_es": "La cáscara seca y rojiza de una baya (se desecha la semilla arenosa).",
+        "pairing": "Chili (the málà 'numbing-spicy' pairing), pork, noodles. Core to Sichuan cooking.",
+        "pairing_es": "Chile (el maridaje málà 'adormecedor-picante'), cerdo, fideos. Núcleo de la cocina de Sichuan.",
+        "mixology": "Toasted and ground; the tingle pairs with chili heat in mapo tofu and dan dan noodles.",
+        "mixology_es": "Tostada y molida; el cosquilleo se une al picor del chile en el mapo tofu y los dan dan.",
+        "examples": "The husk of a prickly-ash berry — neither a true pepper nor a chili.",
+        "examples_es": "La cáscara de una baya del fresno espinoso — ni una pimienta verdadera ni un chile."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AROMATIC & PRIZED SPICES",
+   "name_fr": "ÉPICES AROMATIQUES & PRÉCIEUSES",
+   "name_it": "SPEZIE AROMATICHE & PREGIATE",
+   "name_es": "ESPECIAS AROMÁTICAS Y PRECIADAS",
+   "color": "#c9a13a",
+   "sub": [
+    {
+     "name": "AROMATIC & PRIZED SPICES",
+     "name_fr": "ÉPICES AROMATIQUES & PRÉCIEUSES",
+     "name_it": "SPEZIE AROMATICHE & PREGIATE",
+     "name_es": "ESPECIAS AROMÁTICAS Y PRECIADAS",
+     "color": "#c9a13a",
+     "descriptors": [
+      {
+       "name": "Saffron",
+       "name_fr": "Safran",
+       "name_it": "Zafferano",
+       "name_es": "Azafrán",
+       "slug": "saffron",
+       "panel": {
+        "origin": "Honeyed, floral, and faintly bitter with a hay-like depth; dyes everything gold.",
+        "origin_es": "Meloso, floral y levemente amargo, con profundidad a heno; tiñe todo de dorado.",
+        "chemistry": "Fine red threads (dried stigmas).",
+        "chemistry_es": "Finos hilos rojos (estigmas secos).",
+        "pairing": "Rice, seafood, citrus, cream. Essential to paella, risotto Milanese, and bouillabaisse.",
+        "pairing_es": "Arroz, marisco, cítricos, nata. Esencial en la paella, el risotto milanés y la bullabesa.",
+        "mixology": "Steep threads in warm liquid to release color and aroma; a tiny pinch is plenty.",
+        "mixology_es": "Infusiona los hilos en líquido tibio para soltar color y aroma; una pizca basta.",
+        "examples": "The hand-plucked stigmas of a crocus — the world's costliest spice by weight, ~150 flowers per gram.",
+        "examples_es": "Los estigmas recogidos a mano de un crocus — la especia más cara del mundo por peso, ~150 flores por gramo."
+       }
+      },
+      {
+       "name": "Turmeric",
+       "name_fr": "Curcuma",
+       "name_it": "Curcuma",
+       "name_es": "Cúrcuma",
+       "slug": "turmeric",
+       "panel": {
+        "origin": "Earthy, warm, and slightly bitter with a faint ginger note; mild but staining.",
+        "origin_es": "Terrosa, cálida y algo amarga, con un leve toque a jengibre; suave pero tiñe.",
+        "chemistry": "A bright orange rhizome, usually sold ground.",
+        "chemistry_es": "Un rizoma naranja intenso, normalmente molido.",
+        "pairing": "Cumin, coconut, lentils, rice. The color and base of curry powder and golden milk.",
+        "pairing_es": "Comino, coco, lentejas, arroz. El color y la base del curry en polvo y la leche dorada.",
+        "mixology": "Bloomed in oil for curries and rice; stains everything it touches.",
+        "mixology_es": "Sofrita en aceite para curris y arroz; mancha todo lo que toca.",
+        "examples": "The rhizome of a ginger relative; its yellow comes from the compound curcumin.",
+        "examples_es": "El rizoma de un pariente del jengibre; su amarillo proviene del compuesto curcumina."
+       }
+      },
+      {
+       "name": "Sumac",
+       "name_fr": "Sumac",
+       "name_it": "Sommacco",
+       "name_es": "Zumaque",
+       "slug": "sumac",
+       "panel": {
+        "origin": "Tart, fruity, and lemony with a gentle astringency.",
+        "origin_es": "Ácido, afrutado y alimonado, con una astringencia suave.",
+        "chemistry": "Coarse deep-red powder of dried berries.",
+        "chemistry_es": "Polvo grueso de color rojo intenso, de bayas secas.",
+        "pairing": "Grilled meat, fattoush, hummus, onions, eggs. A pillar of za'atar.",
+        "pairing_es": "Carne a la parrilla, fattoush, hummus, cebolla, huevos. Un pilar del za'atar.",
+        "mixology": "Sprinkled raw as a finishing souring agent; used before lemons were common in the region.",
+        "mixology_es": "Espolvoreado crudo como agente ácido de acabado; se usaba antes de que el limón fuera común en la región.",
+        "examples": "The ground dried berries of a Middle Eastern shrub — a tart seasoning, not the toxic ornamental kind.",
+        "examples_es": "Las bayas secas y molidas de un arbusto de Oriente Medio — un condimento ácido, no la variedad ornamental tóxica."
+       }
+      },
+      {
+       "name": "Vanilla",
+       "name_fr": "Vanille",
+       "name_it": "Vaniglia",
+       "name_es": "Vainilla",
+       "slug": "vanilla",
+       "panel": {
+        "origin": "Sweet, floral, and creamy with deep caramel and woody depth.",
+        "origin_es": "Dulce, floral y cremosa, con profundidad a caramelo y madera.",
+        "chemistry": "A long, sticky dark seed pod packed with tiny seeds.",
+        "chemistry_es": "Una vaina larga, oscura y pegajosa llena de diminutas semillas.",
+        "pairing": "Cream, chocolate, coffee, stone fruit, rum. The base note of most desserts.",
+        "pairing_es": "Nata, chocolate, café, frutas de hueso, ron. La nota base de casi todos los postres.",
+        "mixology": "Split the pod and scrape the seeds, or steep it; also used as extract.",
+        "mixology_es": "Abre la vaina y raspa las semillas, o infúsionala; también se usa en extracto.",
+        "examples": "The cured seed pod of a climbing orchid, hand-pollinated — the second-costliest spice after saffron.",
+        "examples_es": "La vaina curada de una orquídea trepadora, polinizada a mano — la segunda especia más cara tras el azafrán."
+       }
+      },
+      {
+       "name": "Juniper Berry",
+       "name_fr": "Baie de Genièvre",
+       "name_it": "Bacca di Ginepro",
+       "name_es": "Baya de Enebro",
+       "slug": "juniper-berry",
+       "panel": {
+        "origin": "Piney, resinous, and slightly sweet with a bittersweet, gin-like aroma.",
+        "origin_es": "A pino, resinosa y algo dulce, con un aroma agridulce parecido a la ginebra.",
+        "chemistry": "Soft blue-black berries (technically conifer cones).",
+        "chemistry_es": "Bayas blandas de color azul-negro (técnicamente conos de conífera).",
+        "pairing": "Game, pork, cabbage, gin. Classic with venison and sauerkraut.",
+        "pairing_es": "Caza, cerdo, col, ginebra. Clásica con venado y chucrut.",
+        "mixology": "Crushed into marinades, braises, and brines; the defining botanical of gin.",
+        "mixology_es": "Machacada en marinadas, estofados y salmueras; el botánico que define la ginebra.",
+        "examples": "The 'berry' of a juniper conifer — the only common spice that comes from a cone, not a flower or fruit.",
+        "examples_es": "La 'baya' del enebro — la única especia común que proviene de un cono, no de una flor o un fruto."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GLOBAL SPICE BLENDS",
+   "name_fr": "MÉLANGES D'ÉPICES DU MONDE",
+   "name_it": "MISCELE DI SPEZIE GLOBALI",
+   "name_es": "MEZCLAS DE ESPECIAS DEL MUNDO",
+   "color": "#7a4a2a",
+   "sub": [
+    {
+     "name": "GLOBAL SPICE BLENDS",
+     "name_fr": "MÉLANGES D'ÉPICES DU MONDE",
+     "name_it": "MISCELE DI SPEZIE GLOBALI",
+     "name_es": "MEZCLAS DE ESPECIAS DEL MUNDO",
+     "color": "#7a4a2a",
+     "descriptors": [
+      {
+       "name": "Garam Masala",
+       "name_fr": "Garam Masala",
+       "name_it": "Garam Masala",
+       "name_es": "Garam Masala",
+       "slug": "garam-masala",
+       "panel": {
+        "origin": "Warm, sweet, and deeply aromatic — cinnamon, clove, cardamom, cumin, and pepper in balance.",
+        "origin_es": "Cálida, dulce y muy aromática — canela, clavo, cardamomo, comino y pimienta en equilibrio.",
+        "chemistry": "A ground blend; recipes vary by household and region.",
+        "chemistry_es": "Una mezcla molida; las recetas varían según la casa y la región.",
+        "pairing": "Curries, lentils, roasted vegetables, meat. Northern Indian cooking.",
+        "pairing_es": "Curris, lentejas, verduras asadas, carne. Cocina del norte de la India.",
+        "mixology": "Added near the end of cooking to bloom its aroma rather than at the start.",
+        "mixology_es": "Se añade casi al final de la cocción para soltar su aroma, no al principio.",
+        "examples": "A North Indian 'warming blend' — every cook and region has its own formula.",
+        "examples_es": "Una 'mezcla que calienta' del norte de la India — cada cocinero y región tiene su fórmula."
+       }
+      },
+      {
+       "name": "Ras el Hanout",
+       "name_fr": "Ras el Hanout",
+       "name_it": "Ras el Hanout",
+       "name_es": "Ras el Hanout",
+       "slug": "ras-el-hanout",
+       "panel": {
+        "origin": "Complex, warm, and floral-sweet, layering a dozen-plus spices into one signature.",
+        "origin_es": "Compleja, cálida y floral-dulce, que reúne más de una docena de especias en una sola firma.",
+        "chemistry": "A fragrant ground blend, color varies.",
+        "chemistry_es": "Una mezcla molida y fragante, de color variable.",
+        "pairing": "Tagines, couscous, lamb, rice. The heart of Moroccan cooking.",
+        "pairing_es": "Tajines, cuscús, cordero, arroz. El corazón de la cocina marroquí.",
+        "mixology": "Rubbed on meat or stirred into tagines and grains.",
+        "mixology_es": "Frotada sobre la carne o integrada en tajines y cereales.",
+        "examples": "Arabic for 'head of the shop' — the best spices a merchant offered, sometimes 30 ingredients.",
+        "examples_es": "En árabe, 'lo mejor de la tienda' — las mejores especias del comerciante, a veces 30 ingredientes."
+       }
+      },
+      {
+       "name": "Za'atar",
+       "name_fr": "Za'atar",
+       "name_it": "Za'atar",
+       "name_es": "Za'atar",
+       "slug": "zaatar",
+       "panel": {
+        "origin": "Herby, tangy, and nutty — thyme and oregano brightened by sour sumac and toasted sesame.",
+        "origin_es": "Herbal, ácido y a nuez — tomillo y orégano avivados por zumaque ácido y sésamo tostado.",
+        "chemistry": "A coarse dry blend of crushed herbs, seeds, and salt.",
+        "chemistry_es": "Una mezcla seca y gruesa de hierbas trituradas, semillas y sal.",
+        "pairing": "Flatbread, olive oil, labneh, vegetables, eggs. A Levantine everyday staple.",
+        "pairing_es": "Pan plano, aceite de oliva, labneh, verduras, huevos. Un básico diario del Levante.",
+        "mixology": "Mixed with olive oil for dipping and manakish, sprinkled over labneh and roasted veg.",
+        "mixology_es": "Mezclado con aceite de oliva para mojar y para manakish, sobre labneh y verduras asadas.",
+        "examples": "A Levantine blend built on wild thyme, sumac, sesame, and salt.",
+        "examples_es": "Una mezcla del Levante basada en tomillo silvestre, zumaque, sésamo y sal."
+       }
+      },
+      {
+       "name": "Berbere",
+       "name_fr": "Berbere",
+       "name_it": "Berbere",
+       "name_es": "Berbere",
+       "slug": "berbere",
+       "panel": {
+        "origin": "Hot, smoky, and complex with deep chili heat and warm aromatics.",
+        "origin_es": "Picante, ahumada y compleja, con profundo calor de chile y aromáticos cálidos.",
+        "chemistry": "A brick-red ground blend.",
+        "chemistry_es": "Una mezcla molida de color rojo ladrillo.",
+        "pairing": "Stews (wat), lentils, chicken, beef. The foundation of Ethiopian cooking.",
+        "pairing_es": "Guisos (wat), lentejas, pollo, res. La base de la cocina etíope.",
+        "mixology": "Simmered into stews like doro wat, rubbed on meats.",
+        "mixology_es": "Cocida en guisos como el doro wat, frotada sobre carnes.",
+        "examples": "An Ethiopian-Eritrean blend of chili, garlic, ginger, fenugreek, and warm spices.",
+        "examples_es": "Una mezcla etíope-eritrea de chile, ajo, jengibre, fenogreco y especias cálidas."
+       }
+      },
+      {
+       "name": "Chinese Five-Spice",
+       "name_fr": "Cinq-Épices Chinois",
+       "name_it": "Cinque Spezie Cinesi",
+       "name_es": "Cinco Especias Chinas",
+       "slug": "five-spice",
+       "panel": {
+        "origin": "Sweet, warm, and savory all at once, anchored by star anise and the tingle of Sichuan pepper.",
+        "origin_es": "Dulce, cálida y sabrosa a la vez, anclada por el anís estrellado y el cosquilleo de la pimienta de Sichuan.",
+        "chemistry": "A fine ground blend.",
+        "chemistry_es": "Una mezcla molida fina.",
+        "pairing": "Pork, duck, roasted meats, braises. Defines Chinese roast meats.",
+        "pairing_es": "Cerdo, pato, carnes asadas, estofados. Define los asados chinos.",
+        "mixology": "A little in marinades, rubs, and braises; potent, so used in small amounts.",
+        "mixology_es": "Un poco en marinadas, adobos y estofados; potente, se usa en poca cantidad.",
+        "examples": "A Chinese blend balancing the five flavors — typically star anise, clove, cinnamon, Sichuan pepper, and fennel.",
+        "examples_es": "Una mezcla china que equilibra los cinco sabores — anís estrellado, clavo, canela, pimienta de Sichuan e hinojo."
+       }
+      },
+      {
+       "name": "Jerk Seasoning",
+       "name_fr": "Assaisonnement Jerk",
+       "name_it": "Condimento Jerk",
+       "name_es": "Condimento Jerk",
+       "slug": "jerk",
+       "panel": {
+        "origin": "Fiery, herbal, and aromatic — Scotch bonnet heat with allspice, thyme, and warm spice.",
+        "origin_es": "Ardiente, herbal y aromático — calor de Scotch bonnet con pimienta de Jamaica, tomillo y especias cálidas.",
+        "chemistry": "A dry rub or wet marinade.",
+        "chemistry_es": "Un adobo seco o una marinada húmeda.",
+        "pairing": "Chicken, pork, fish, grilled over wood. The signature of Jamaican cooking.",
+        "pairing_es": "Pollo, cerdo, pescado, a la brasa de leña. La firma de la cocina jamaicana.",
+        "mixology": "Marinated onto meat and grilled low over smoky fire; dry rub or wet paste.",
+        "mixology_es": "Marinado sobre la carne y asado lento sobre fuego ahumado; adobo seco o pasta húmeda.",
+        "examples": "A Jamaican blend rooted in Maroon cooking — allspice, Scotch bonnet, thyme, and scallion.",
+        "examples_es": "Una mezcla jamaicana con raíces en la cocina cimarrona — pimienta de Jamaica, Scotch bonnet, tomillo y cebolleta."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "TENDER HERBS": {
+   "en": "Tender herbs are added at the very end — their volatile oils flash off with heat, so a basil leaf cooked too long loses everything that makes it basil.",
+   "es": "Las hierbas tiernas se añaden al final — sus aceites volátiles se evaporan con el calor, así que una hoja de albahaca demasiado cocida pierde todo lo que la hace albahaca."
+  },
+  "WOODY HERBS": {
+   "en": "Woody herbs are built for the long haul — rosemary and thyme can simmer for hours, releasing flavor slowly, which is why they anchor stocks, braises, and roasts.",
+   "es": "Las hierbas leñosas están hechas para la cocción larga — el romero y el tomillo pueden cocer horas, soltando sabor poco a poco, por eso anclan caldos, estofados y asados."
+  },
+  "WARM SWEET SPICES": {
+   "en": "Nutmeg and mace come from the very same fruit — mace is the lacy red web wrapped around the nutmeg seed, the only spice that yields two distinct seasonings.",
+   "es": "La nuez moscada y el macis vienen del mismo fruto — el macis es la red roja que envuelve la semilla, la única especia que da dos condimentos distintos."
+  },
+  "EARTHY SEED SPICES": {
+   "en": "Toasting whole seeds before grinding wakes up their oils — a dry-skillet minute deepens cumin or coriander far more than buying it pre-ground ever could.",
+   "es": "Tostar las semillas enteras antes de molerlas despierta sus aceites — un minuto en sartén seca da más profundidad al comino o al cilantro que comprarlos ya molidos."
+  },
+  "HOT & PUNGENT SPICES": {
+   "en": "Green, black, and white peppercorns all come from one vine — picked at different stages and processed differently, they're the same berry wearing three disguises.",
+   "es": "Las pimientas verde, negra y blanca vienen de una sola liana — recogidas en distintas fases y procesadas de otro modo, son la misma baya con tres disfraces."
+  },
+  "AROMATIC & PRIZED SPICES": {
+   "en": "Saffron is the world's costliest spice by weight — it's the hand-plucked stigmas of a crocus, and it takes around 150 flowers to make a single gram.",
+   "es": "El azafrán es la especia más cara del mundo por peso — son los estigmas recogidos a mano de un crocus, y hacen falta unas 150 flores para un solo gramo."
+  },
+  "GLOBAL SPICE BLENDS": {
+   "en": "'Ras el hanout' means 'head of the shop' — traditionally the very best spices a merchant had to offer, blended into a house signature that could run to 30 ingredients.",
+   "es": "'Ras el hanout' significa 'lo mejor de la tienda' — tradicionalmente las mejores especias del comerciante, mezcladas en una firma propia que podía llegar a 30 ingredientes."
+  }
+ }
+}

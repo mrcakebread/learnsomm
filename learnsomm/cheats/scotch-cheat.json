@@ -1,0 +1,232 @@
+{
+ "title": "Scotch Cheat Sheet",
+ "groups": [
+  {
+   "cat": "The Regions"
+  },
+  {
+   "name": "Speyside",
+   "slug": "speyside",
+   "rows": [
+    {
+     "k": "",
+     "v": "Honey, vanilla, apple, dried fruit, sherry"
+    },
+    {
+     "k": "Pairing",
+     "v": "Soft cheeses, dried fruit and nut boards, light desserts"
+    },
+    {
+     "k": "Best for",
+     "v": "The easiest entry point into single malts — sets the baseline for \"elegant\" Scotch"
+    }
+   ]
+  },
+  {
+   "name": "Highland",
+   "slug": "highland",
+   "rows": [
+    {
+     "k": "",
+     "v": "Toffee, heather, light spice, malt, occasional light smoke"
+    },
+    {
+     "k": "Pairing",
+     "v": "Roasted nuts, smoked meats, dark chocolate"
+    },
+    {
+     "k": "Heads up",
+     "v": "Because the region is huge, \"Highland\" tells you less than other regions — flavor varies a lot bottle to bottle."
+    }
+   ]
+  },
+  {
+   "name": "Islay",
+   "slug": "islay",
+   "rows": [
+    {
+     "k": "",
+     "v": "Campfire smoke, brine, iodine, seaweed, antiseptic"
+    },
+    {
+     "k": "Pairing",
+     "v": "Oysters, smoked salmon, blue cheese — big flavors that won't get bulldozed"
+    },
+    {
+     "k": "Heads up",
+     "v": "The most polarizing region. Love-it-or-hate-it smoke level — don't make this your first Scotch."
+    }
+   ]
+  },
+  {
+   "name": "Lowland",
+   "slug": "lowland",
+   "rows": [
+    {
+     "k": "",
+     "v": "Grass, honeysuckle, cream, light citrus"
+    },
+    {
+     "k": "Pairing",
+     "v": "Light fish, salads, mild cheeses"
+    },
+    {
+     "k": "Best for",
+     "v": "Gin or vodka drinkers easing into whisky — the softest entry style"
+    }
+   ]
+  },
+  {
+   "name": "Blended Scotch",
+   "slug": "blended-scotch",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramel, grain sweetness, subtle oak"
+    },
+    {
+     "k": "Pairing",
+     "v": "Burgers, pub food, anything casual"
+    },
+    {
+     "k": "Best for",
+     "v": "Mixing — blends hold their character in cocktails better (and cheaper) than single malts"
+    }
+   ],
+   "name_es": "Scotch Mezclado"
+  },
+  {
+   "cat": "Cocktails"
+  },
+  {
+   "name": "Rob Roy",
+   "slug": "rob-roy",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blended Scotch, sweet vermouth, Angostura bitters"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "",
+     "v": "Sophisticated"
+    },
+    {
+     "k": "",
+     "v": "Classic"
+    },
+    {
+     "k": "Order tip",
+     "v": "Basically a Scotch Manhattan. A safe, classy order at any cocktail bar."
+    }
+   ]
+  },
+  {
+   "name": "Penicillin",
+   "slug": "penicillin",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Blended Scotch, honey-ginger syrup, lemon juice, Islay Scotch float"
+    },
+    {
+     "k": "",
+     "v": "Smoky"
+    },
+    {
+     "k": "",
+     "v": "Warming"
+    },
+    {
+     "k": "",
+     "v": "Spicy"
+    },
+    {
+     "k": "Order tip",
+     "v": "A modern classic (invented ~2005). The smoky float on top is the signature — don't skip it if offered."
+    }
+   ]
+  },
+  {
+   "name": "Rusty Nail",
+   "slug": "rusty-nail",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Scotch, Drambuie (honeyed Scotch liqueur)"
+    },
+    {
+     "k": "",
+     "v": "Simple"
+    },
+    {
+     "k": "",
+     "v": "Warming"
+    },
+    {
+     "k": "",
+     "v": "Sweet-Herbal"
+    },
+    {
+     "k": "Order tip",
+     "v": "Just two ingredients, stirred over ice. A great after-dinner sipper."
+    }
+   ]
+  },
+  {
+   "name": "Blood and Sand",
+   "slug": "blood-and-sand",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Scotch, Cherry Heering, sweet vermouth, orange juice (equal parts)"
+    },
+    {
+     "k": "",
+     "v": "Fruity"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "Order tip",
+     "v": "One of the few classic cocktails that uses orange juice — surprisingly elegant despite the unusual build."
+    }
+   ]
+  },
+  {
+   "name": "Scotch Sour",
+   "slug": "scotch-sour",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Scotch, lemon juice, simple syrup, egg white (optional)"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "",
+     "v": "Tangy"
+    },
+    {
+     "k": "",
+     "v": "Creamy"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for it \"with egg white\" for the classic frothy texture — totally fine to skip if you're squeamish, the drink works either way."
+    }
+   ]
+  }
+ ]
+}

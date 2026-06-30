@@ -1,0 +1,1039 @@
+{
+ "title": "Soups",
+ "subject": "soups",
+ "categories": [
+  {
+   "name": "CLEAR SOUPS",
+   "name_fr": "Soupes Claires",
+   "name_it": "Brodi",
+   "name_es": "SOPAS CLARAS",
+   "color": "#d9b84a",
+   "sub": [
+    {
+     "name": "CLEAR SOUPS",
+     "name_fr": "Soupes Claires",
+     "name_it": "Brodi",
+     "name_es": "SOPAS CLARAS",
+     "color": "#d9b84a",
+     "descriptors": [
+      {
+       "name": "Chicken Noodle",
+       "name_fr": "Soupe Poulet-Nouilles",
+       "name_it": "Zuppa Pollo-Pasta",
+       "name_es": "Sopa de Pollo y Fideos",
+       "slug": "chicken-noodle",
+       "panel": {
+        "origin": "Light, savory, and comforting; a clear golden broth with tender chicken and noodles.",
+        "origin_es": "Ligera, sabrosa y reconfortante; un caldo dorado y claro con pollo tierno y fideos.",
+        "chemistry": "A clear chicken broth built from simmered bones and a mirepoix of celery, carrot, and onion.",
+        "chemistry_es": "Un caldo de pollo claro hecho con huesos cocidos a fuego lento y un mirepoix de apio, zanahoria y cebolla.",
+        "pairing": "Chicken, egg noodles, celery, carrots, onion, herbs (thyme, parsley, dill).",
+        "pairing_es": "Pollo, fideos al huevo, apio, zanahorias, cebolla, hierbas (tomillo, perejil, eneldo).",
+        "mixology": "With crackers or crusty bread; the classic cold-and-flu remedy.",
+        "mixology_es": "Con galletas saladas o pan crujiente; el clásico remedio para el resfriado y la gripe.",
+        "examples": "A global comfort food; the American version arrived via Northern European immigrants.",
+        "examples_es": "Un consuelo global; la versión estadounidense llegó con los inmigrantes del norte de Europa."
+       }
+      },
+      {
+       "name": "Consommé",
+       "name_fr": "Consommé",
+       "name_it": "Consommé",
+       "name_es": "Consomé",
+       "slug": "consomme",
+       "panel": {
+        "origin": "Crystal-clear, intensely flavored, and elegant; a refined broth with deep savor.",
+        "origin_es": "Cristalino, de sabor intenso y elegante; un caldo refinado de profundo sabor.",
+        "chemistry": "Stock clarified with a 'raft' of egg whites and lean meat that traps impurities as it simmers.",
+        "chemistry_es": "Caldo clarificado con una 'balsa' de claras de huevo y carne magra que atrapa las impurezas al hervir suave.",
+        "pairing": "Rich stock, egg whites, lean ground meat, mirepoix, often a touch of tomato.",
+        "pairing_es": "Caldo concentrado, claras de huevo, carne magra molida, mirepoix, a menudo un toque de tomate.",
+        "mixology": "In a warm bowl, sometimes with a tiny garnish of brunoise vegetables or herbs.",
+        "mixology_es": "En un bol caliente, a veces con una pequeña guarnición de verduras en brunoise o hierbas.",
+        "examples": "A French haute-cuisine classic; the ultimate test of stock-making technique.",
+        "examples_es": "Un clásico de la alta cocina francesa; la prueba definitiva de la técnica de hacer caldos."
+       }
+      },
+      {
+       "name": "Chicken & Rice",
+       "name_fr": "Soupe Poulet-Riz",
+       "name_it": "Zuppa Pollo-Riso",
+       "name_es": "Sopa de Pollo y Arroz",
+       "slug": "chicken-rice",
+       "panel": {
+        "origin": "Hearty yet light; a clear broth with tender chicken and rice, often a wild-rice blend.",
+        "origin_es": "Sustanciosa pero ligera; un caldo claro con pollo tierno y arroz, a menudo una mezcla de arroz salvaje.",
+        "chemistry": "A chicken broth, sometimes finished with a splash of milk for a creamier version.",
+        "chemistry_es": "Un caldo de pollo, a veces terminado con un chorrito de leche para una versión más cremosa.",
+        "pairing": "Chicken, rice (often a wild blend), celery, carrots, onion.",
+        "pairing_es": "Pollo, arroz (a menudo una mezcla salvaje), apio, zanahorias, cebolla.",
+        "mixology": "On its own or with bread; a gluten-free alternative to chicken noodle.",
+        "mixology_es": "Sola o con pan; una alternativa sin gluten a la sopa de pollo y fideos.",
+        "examples": "A homestyle staple worldwide; rice gives flavor and a different texture than noodles.",
+        "examples_es": "Un básico casero en todo el mundo; el arroz da sabor y una textura distinta a la de los fideos."
+       }
+      },
+      {
+       "name": "Egg Drop Soup",
+       "name_fr": "Soupe aux Œufs",
+       "name_it": "Stracciatella Cinese",
+       "name_es": "Sopa de Huevo",
+       "slug": "egg-drop",
+       "panel": {
+        "origin": "Mild, silky, and light, with delicate ribbons of cooked egg.",
+        "origin_es": "Suave, sedosa y ligera, con delicadas cintas de huevo cocido.",
+        "chemistry": "Simmering seasoned broth into which beaten egg is slowly streamed.",
+        "chemistry_es": "Caldo sazonado a fuego lento en el que se vierte poco a poco huevo batido.",
+        "pairing": "Chicken or vegetable broth, beaten egg, scallion, white pepper, a little cornstarch.",
+        "pairing_es": "Caldo de pollo o verduras, huevo batido, cebollín, pimienta blanca, un poco de maicena.",
+        "mixology": "As a starter; a takeout-menu staple in the U.S.",
+        "mixology_es": "Como entrante; un fijo de los menús de comida para llevar en EE. UU.",
+        "examples": "A Chinese classic; Cantonese kitchens once tested cooks on making it perfectly.",
+        "examples_es": "Un clásico chino; las cocinas cantonesas examinaban a los cocineros por hacerla a la perfección."
+       }
+      },
+      {
+       "name": "Italian Wedding",
+       "name_fr": "Soupe Mariage Italien",
+       "name_it": "Zuppa Maritata",
+       "name_es": "Sopa de la Boda Italiana",
+       "slug": "italian-wedding",
+       "panel": {
+        "origin": "A light broth carrying tiny meatballs and greens; savory and satisfying.",
+        "origin_es": "Un caldo ligero que lleva albondiguitas y verduras de hoja; sabroso y reconfortante.",
+        "chemistry": "A clear chicken or meat broth.",
+        "chemistry_es": "Un caldo claro de pollo o de carne.",
+        "pairing": "Mini meatballs, escarole or spinach, small pasta (acini di pepe), Parmesan.",
+        "pairing_es": "Albondiguitas, escarola o espinaca, pasta pequeña (acini di pepe), parmesano.",
+        "mixology": "With grated Parmesan and crusty bread.",
+        "mixology_es": "Con parmesano rallado y pan crujiente.",
+        "examples": "'Minestra maritata' — 'married soup,' for how greens and meat marry; not actually served at weddings.",
+        "examples_es": "'Minestra maritata' — 'sopa casada', por cómo se casan verduras y carne; no se sirve en bodas."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CREAM SOUPS & VELOUTÉS",
+   "name_fr": "Soupes Crémeuses & Veloutés",
+   "name_it": "Vellutate",
+   "name_es": "CREMAS Y VELOUTÉS",
+   "color": "#e0cba0",
+   "sub": [
+    {
+     "name": "CREAM SOUPS & VELOUTÉS",
+     "name_fr": "Soupes Crémeuses & Veloutés",
+     "name_it": "Vellutate",
+     "name_es": "CREMAS Y VELOUTÉS",
+     "color": "#e0cba0",
+     "descriptors": [
+      {
+       "name": "Cream of Mushroom",
+       "name_fr": "Velouté de Champignons",
+       "name_it": "Crema di Funghi",
+       "name_es": "Crema de Champiñones",
+       "slug": "cream-mushroom",
+       "panel": {
+        "origin": "Earthy, silky, and rich; deeply savory and umami.",
+        "origin_es": "Terrosa, sedosa y rica; muy sabrosa y umami.",
+        "chemistry": "A roux-thickened velouté finished with cream, with sautéed mushrooms blended in.",
+        "chemistry_es": "Una velouté espesada con roux y terminada con nata, con champiñones salteados triturados.",
+        "pairing": "Mixed mushrooms (cremini, porcini, shiitake), garlic, thyme, onion, stock, cream.",
+        "pairing_es": "Champiñones variados (cremini, porcini, shiitake), ajo, tomillo, cebolla, caldo, nata.",
+        "mixology": "With crusty bread; far better fresh than the canned casserole version.",
+        "mixology_es": "Con pan crujiente; mucho mejor fresca que la versión enlatada de cazuela.",
+        "examples": "A French-style cream soup; the homemade version is worlds apart from the can.",
+        "examples_es": "Una crema al estilo francés; la versión casera es un mundo aparte de la enlatada."
+       }
+      },
+      {
+       "name": "Tomato Soup",
+       "name_fr": "Soupe de Tomate",
+       "name_it": "Zuppa di Pomodoro",
+       "name_es": "Sopa de Tomate",
+       "slug": "tomato-soup",
+       "panel": {
+        "origin": "Sweet-tart, smooth, and comforting; the ultimate grilled-cheese partner.",
+        "origin_es": "Agridulce, suave y reconfortante; la pareja perfecta del sándwich de queso a la plancha.",
+        "chemistry": "Tomatoes blended smooth, often enriched with cream (a 'cream of tomato').",
+        "chemistry_es": "Tomates triturados hasta quedar suaves, a menudo enriquecidos con nata (una 'crema de tomate').",
+        "pairing": "Tomatoes (fresh-roasted or canned), onion, garlic, basil, cream.",
+        "pairing_es": "Tomates (asados frescos o enlatados), cebolla, ajo, albahaca, nata.",
+        "mixology": "With a grilled cheese sandwich; a top American comfort food.",
+        "mixology_es": "Con un sándwich de queso a la plancha; un gran consuelo estadounidense.",
+        "examples": "An American household staple since Campbell's condensed it in 1897.",
+        "examples_es": "Un básico del hogar estadounidense desde que Campbell's la condensó en 1897."
+       }
+      },
+      {
+       "name": "Broccoli Cheddar",
+       "name_fr": "Velouté Brocoli-Cheddar",
+       "name_it": "Crema Broccoli-Cheddar",
+       "name_es": "Crema de Brócoli y Cheddar",
+       "slug": "broccoli-cheddar",
+       "panel": {
+        "origin": "Rich, cheesy, and comforting, with tender broccoli.",
+        "origin_es": "Rica, con queso y reconfortante, con brócoli tierno.",
+        "chemistry": "A roux-and-cheese base (a cheddar-laced velouté) with broccoli.",
+        "chemistry_es": "Una base de roux y queso (una velouté con cheddar) con brócoli.",
+        "pairing": "Broccoli, sharp cheddar, carrots, onion, stock, cream.",
+        "pairing_es": "Brócoli, cheddar curado, zanahorias, cebolla, caldo, nata.",
+        "mixology": "In a bread bowl, or with crusty bread.",
+        "mixology_es": "En un bol de pan, o con pan crujiente.",
+        "examples": "An American comfort classic; it warms the belly and the soul.",
+        "examples_es": "Un clásico reconfortante estadounidense; calienta el estómago y el alma."
+       }
+      },
+      {
+       "name": "Beer Cheese",
+       "name_fr": "Soupe Bière-Fromage",
+       "name_it": "Zuppa Birra-Formaggio",
+       "name_es": "Sopa de Cerveza y Queso",
+       "slug": "beer-cheese",
+       "panel": {
+        "origin": "Rich, tangy, and savory with a hoppy edge.",
+        "origin_es": "Rica, con un punto ácido y sabrosa, con un borde lupulado.",
+        "chemistry": "A roux thickened with beer, stock, and melted cheese.",
+        "chemistry_es": "Un roux espesado con cerveza, caldo y queso fundido.",
+        "pairing": "Sharp cheddar, lager or ale, stock, mustard, a little cream.",
+        "pairing_es": "Cheddar curado, lager o ale, caldo, mostaza, un poco de nata.",
+        "mixology": "With soft pretzels, croutons, or popcorn on top.",
+        "mixology_es": "Con pretzels blandos, picatostes o palomitas por encima.",
+        "examples": "A modern American take on classic German beer soup.",
+        "examples_es": "Una versión estadounidense moderna de la clásica sopa de cerveza alemana."
+       }
+      },
+      {
+       "name": "Cream of Chicken",
+       "name_fr": "Velouté de Poulet",
+       "name_it": "Crema di Pollo",
+       "name_es": "Crema de Pollo",
+       "slug": "cream-chicken",
+       "panel": {
+        "origin": "Comforting, velvety, and savory; homestyle richness.",
+        "origin_es": "Reconfortante, aterciopelada y sabrosa; riqueza casera.",
+        "chemistry": "A chicken velouté (roux plus chicken stock) finished with cream.",
+        "chemistry_es": "Una velouté de pollo (roux más caldo de pollo) terminada con nata.",
+        "pairing": "Chicken, stock, butter, flour, cream, herbs; sometimes sour cream for tang.",
+        "pairing_es": "Pollo, caldo, mantequilla, harina, nata, hierbas; a veces crema agria para acidez.",
+        "mixology": "On its own, or as a base for chicken and dumplings.",
+        "mixology_es": "Sola, o como base para pollo con dumplings.",
+        "examples": "A cream-soup cornerstone; the homemade version outclasses the can.",
+        "examples_es": "Una piedra angular de las cremas; la versión casera supera con creces a la enlatada."
+       }
+      },
+      {
+       "name": "Potato Leek",
+       "name_fr": "Soupe Poireau-Pomme de Terre",
+       "name_it": "Zuppa Porri-Patate",
+       "name_es": "Sopa de Papa y Puerro",
+       "slug": "potato-leek",
+       "panel": {
+        "origin": "Velvety, mild, and comforting; smooth potato-and-leek richness.",
+        "origin_es": "Aterciopelada, suave y reconfortante; riqueza tersa de papa y puerro.",
+        "chemistry": "Potatoes and leeks simmered and puréed; the potatoes do the thickening, not flour.",
+        "chemistry_es": "Papas y puerros cocidos y triturados; las papas espesan, no la harina.",
+        "pairing": "Potatoes, leeks, onion, butter, stock, often a little cream.",
+        "pairing_es": "Papas, puerros, cebolla, mantequilla, caldo, a menudo un poco de nata.",
+        "mixology": "Warm, with chives and crusty bread.",
+        "mixology_es": "Caliente, con cebollín y pan crujiente.",
+        "examples": "A French classic; chilled, it becomes vichyssoise.",
+        "examples_es": "Un clásico francés; fría, se convierte en vichyssoise."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PURÉE SOUPS",
+   "name_fr": "Soupes en Purée",
+   "name_it": "Passati",
+   "name_es": "SOPAS EN PURÉ",
+   "color": "#c98a3a",
+   "sub": [
+    {
+     "name": "PURÉE SOUPS",
+     "name_fr": "Soupes en Purée",
+     "name_it": "Passati",
+     "name_es": "SOPAS EN PURÉ",
+     "color": "#c98a3a",
+     "descriptors": [
+      {
+       "name": "Butternut Squash",
+       "name_fr": "Velouté de Courge",
+       "name_it": "Crema di Zucca",
+       "name_es": "Crema de Calabaza",
+       "slug": "butternut-squash",
+       "panel": {
+        "origin": "Velvety, naturally sweet, and warming; the taste of fall.",
+        "origin_es": "Aterciopelada, naturalmente dulce y reconfortante; el sabor del otoño.",
+        "chemistry": "Roasted squash blended smooth — the purée itself gives the body, with no roux needed.",
+        "chemistry_es": "Calabaza asada y triturada — el propio puré da el cuerpo, sin necesidad de roux.",
+        "pairing": "Butternut squash, onion, stock, sometimes apple, cream, or warm spice.",
+        "pairing_es": "Calabaza butternut, cebolla, caldo, a veces manzana, nata o especia cálida.",
+        "mixology": "With toasted seeds, a swirl of cream, or crispy sage.",
+        "mixology_es": "Con semillas tostadas, un hilo de nata o salvia crujiente.",
+        "examples": "A seasonal favorite; roasting deepens the squash's natural sweetness.",
+        "examples_es": "Una favorita de temporada; asar profundiza el dulzor natural de la calabaza."
+       }
+      },
+      {
+       "name": "Split Pea",
+       "name_fr": "Soupe aux Pois Cassés",
+       "name_it": "Zuppa di Piselli",
+       "name_es": "Sopa de Arvejas Partidas",
+       "slug": "split-pea",
+       "panel": {
+        "origin": "Thick, hearty, and earthy; smoky when made with ham.",
+        "origin_es": "Espesa, sustanciosa y terrosa; ahumada cuando se hace con jamón.",
+        "chemistry": "Dried split peas simmered until they break down and thicken the soup.",
+        "chemistry_es": "Arvejas partidas secas cocidas hasta que se deshacen y espesan la sopa.",
+        "pairing": "Split peas, smoked ham hock, carrots, onion, celery.",
+        "pairing_es": "Arvejas partidas, codillo de jamón ahumado, zanahorias, cebolla, apio.",
+        "mixology": "With crusty bread; a humble classic with ancient roots.",
+        "mixology_es": "Con pan crujiente; un clásico humilde de raíces antiguas.",
+        "examples": "Eaten since Greek and Roman times; the ham hock is key to authentic flavor.",
+        "examples_es": "Se come desde época griega y romana; el codillo es clave para el sabor auténtico."
+       }
+      },
+      {
+       "name": "Black Bean",
+       "name_fr": "Soupe aux Haricots Noirs",
+       "name_it": "Zuppa di Fagioli Neri",
+       "name_es": "Sopa de Frijoles Negros",
+       "slug": "black-bean",
+       "panel": {
+        "origin": "Rich, smoky, and hearty; deeply savory.",
+        "origin_es": "Rica, ahumada y sustanciosa; muy sabrosa.",
+        "chemistry": "Black beans, with a portion puréed to thicken and give a meaty mouthfeel.",
+        "chemistry_es": "Frijoles negros, con una parte triturada para espesar y dar una textura carnosa.",
+        "pairing": "Black beans, onion, garlic, cumin, tomatoes, peppers, vegetable stock.",
+        "pairing_es": "Frijoles negros, cebolla, ajo, comino, tomates, pimientos, caldo de verduras.",
+        "mixology": "With sour cream, cilantro, lime, and avocado.",
+        "mixology_es": "Con crema agria, cilantro, lima y aguacate.",
+        "examples": "A Latin American staple; pureeing some beans builds body without meat.",
+        "examples_es": "Un básico latinoamericano; triturar parte de los frijoles da cuerpo sin carne."
+       }
+      },
+      {
+       "name": "Carrot Ginger",
+       "name_fr": "Velouté Carotte-Gingembre",
+       "name_it": "Crema Carota-Zenzero",
+       "name_es": "Crema de Zanahoria y Jengibre",
+       "slug": "carrot-ginger",
+       "panel": {
+        "origin": "Bright, sweet, and warming with a gingery kick.",
+        "origin_es": "Brillante, dulce y reconfortante con un golpe de jengibre.",
+        "chemistry": "Carrots simmered soft and blended smooth.",
+        "chemistry_es": "Zanahorias cocidas hasta ablandar y trituradas hasta quedar suaves.",
+        "pairing": "Carrots, fresh ginger, onion, stock, a touch of cream or coconut milk.",
+        "pairing_es": "Zanahorias, jengibre fresco, cebolla, caldo, un toque de nata o leche de coco.",
+        "mixology": "With a swirl of yogurt or coconut and toasted seeds.",
+        "mixology_es": "Con un hilo de yogur o coco y semillas tostadas.",
+        "examples": "A quick, vibrant vegetable purée; ginger lifts the carrots' sweetness.",
+        "examples_es": "Un puré de verdura rápido y vibrante; el jengibre realza el dulzor de la zanahoria."
+       }
+      },
+      {
+       "name": "Lentil",
+       "name_fr": "Soupe de Lentilles",
+       "name_it": "Zuppa di Lenticchie",
+       "name_es": "Sopa de Lentejas",
+       "slug": "lentil",
+       "panel": {
+        "origin": "Hearty, earthy, and satisfying; thick and nourishing.",
+        "origin_es": "Sustanciosa, terrosa y reconfortante; espesa y nutritiva.",
+        "chemistry": "Lentils simmered until tender; some left whole, some broken down for body.",
+        "chemistry_es": "Lentejas cocidas hasta quedar tiernas; unas enteras, otras deshechas para dar cuerpo.",
+        "pairing": "Lentils, carrots, celery, onion, tomato, cumin or curry, sometimes sausage.",
+        "pairing_es": "Lentejas, zanahorias, apio, cebolla, tomate, comino o curry, a veces salchicha.",
+        "mixology": "With a squeeze of lemon and crusty bread.",
+        "mixology_es": "Con un chorrito de limón y pan crujiente.",
+        "examples": "Lentils were among the first cultivated legumes; the soup appears in the Old Testament.",
+        "examples_es": "Las lentejas fueron de las primeras legumbres cultivadas; la sopa aparece en el Antiguo Testamento."
+       }
+      },
+      {
+       "name": "Cauliflower",
+       "name_fr": "Chou-fleur",
+       "name_it": "Cavolfiore",
+       "name_es": "Crema de Coliflor",
+       "slug": "cauliflower",
+       "panel": {
+        "origin": "Smooth, mild, and creamy without cream; gently nutty.",
+        "origin_es": "Tersa, suave y cremosa sin nata; con un leve toque a nuez.",
+        "chemistry": "Cauliflower simmered and blended to a silky purée.",
+        "chemistry_es": "Coliflor cocida y triturada hasta un puré sedoso.",
+        "pairing": "Cauliflower, onion, garlic, stock; often almonds, curry, or cheese.",
+        "pairing_es": "Coliflor, cebolla, ajo, caldo; a menudo almendras, curry o queso.",
+        "mixology": "With toasted nuts, herb oil, or a little cheese.",
+        "mixology_es": "Con frutos secos tostados, aceite de hierbas o un poco de queso.",
+        "examples": "A versatile vegetable purée; naturally velvety when blended.",
+        "examples_es": "Un puré de verdura versátil; naturalmente aterciopelado al triturarlo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BISQUES",
+   "name_fr": "BISQUES",
+   "name_it": "VELLUTATE",
+   "name_es": "BISQUES",
+   "color": "#c8624a",
+   "sub": [
+    {
+     "name": "BISQUES",
+     "name_fr": "BISQUES",
+     "name_it": "VELLUTATE",
+     "name_es": "BISQUES",
+     "color": "#c8624a",
+     "descriptors": [
+      {
+       "name": "Lobster Bisque",
+       "name_fr": "Bisque de Homard",
+       "name_it": "Bisque di Astice",
+       "name_es": "Bisque de Langosta",
+       "slug": "lobster-bisque",
+       "panel": {
+        "origin": "Luxurious, velvety, and intensely seafood-rich.",
+        "origin_es": "Lujosa, aterciopelada e intensamente marina.",
+        "chemistry": "A French bisque — crustacean shells simmered for broth, then strained; cream and (traditionally) rice thicken it.",
+        "chemistry_es": "Un bisque francés — caparazones de crustáceo cocidos para el caldo y colados; nata y (tradicionalmente) arroz lo espesan.",
+        "pairing": "Lobster, shells, mirepoix, tomato, brandy or sherry, cream.",
+        "pairing_es": "Langosta, caparazones, mirepoix, tomate, brandy o jerez, nata.",
+        "mixology": "In small portions; a special-occasion starter.",
+        "mixology_es": "En porciones pequeñas; un entrante de ocasión.",
+        "examples": "A French classic; the shells are simmered and strained for maximum flavor.",
+        "examples_es": "Un clásico francés; los caparazones se cuecen y cuelan para el máximo sabor."
+       }
+      },
+      {
+       "name": "Shrimp Bisque",
+       "name_fr": "Bisque de Crevettes",
+       "name_it": "Bisque di Gamberi",
+       "name_es": "Bisque de Camarón",
+       "slug": "shrimp-bisque",
+       "panel": {
+        "origin": "Smooth, rich, and sweet-savory with deep shrimp flavor.",
+        "origin_es": "Tersa, rica y dulce-salada, con profundo sabor a camarón.",
+        "chemistry": "Shrimp shells simmered into a stock, strained, then enriched with cream.",
+        "chemistry_es": "Caparazones de camarón cocidos en un caldo, colados y enriquecidos con nata.",
+        "pairing": "Shrimp, shells, mirepoix, tomato, sherry, cream.",
+        "pairing_es": "Camarón, caparazones, mirepoix, tomate, jerez, nata.",
+        "mixology": "With a swirl of cream and chives.",
+        "mixology_es": "Con un hilo de nata y cebollín.",
+        "examples": "A bisque built on shrimp shells; thrifty and intensely flavored.",
+        "examples_es": "Un bisque hecho con caparazones de camarón; económico e intensamente sabroso."
+       }
+      },
+      {
+       "name": "Crab Bisque",
+       "name_fr": "Bisque de Crabe",
+       "name_it": "Bisque di Granchio",
+       "name_es": "Bisque de Cangrejo",
+       "slug": "crab-bisque",
+       "panel": {
+        "origin": "Rich, sweet, and delicate; pure crab in a creamy base.",
+        "origin_es": "Rica, dulce y delicada; cangrejo puro en una base cremosa.",
+        "chemistry": "Crab shells simmered for stock, strained, then thickened with cream.",
+        "chemistry_es": "Caparazones de cangrejo cocidos para el caldo, colados y espesados con nata.",
+        "pairing": "Crab, shells, mirepoix, tomato, sherry, cream.",
+        "pairing_es": "Cangrejo, caparazones, mirepoix, tomate, jerez, nata.",
+        "mixology": "Topped with lump crab and chives.",
+        "mixology_es": "Coronada con trozos de cangrejo y cebollín.",
+        "examples": "A crustacean bisque showcasing sweet crab.",
+        "examples_es": "Un bisque de crustáceo que luce el dulce cangrejo."
+       }
+      },
+      {
+       "name": "She-Crab Soup",
+       "name_fr": "Soupe au Crabe",
+       "name_it": "Zuppa di Granchio",
+       "name_es": "Sopa She-Crab",
+       "slug": "she-crab",
+       "panel": {
+        "origin": "Rich and creamy with a distinctive briny depth from crab roe.",
+        "origin_es": "Rica y cremosa, con una profundidad salina distintiva de la hueva de cangrejo.",
+        "chemistry": "A creamy crab bisque enriched with crab roe ('she-crab') and a splash of sherry.",
+        "chemistry_es": "Un bisque de cangrejo cremoso enriquecido con hueva de cangrejo ('she-crab') y un chorrito de jerez.",
+        "pairing": "Blue crab meat and roe, cream, sherry, mace or nutmeg.",
+        "pairing_es": "Carne y hueva de cangrejo azul, nata, jerez, macis o nuez moscada.",
+        "mixology": "With a little extra sherry poured tableside.",
+        "mixology_es": "Con un poco más de jerez servido en la mesa.",
+        "examples": "A Lowcountry specialty of Charleston, South Carolina.",
+        "examples_es": "Una especialidad del Lowcountry de Charleston, Carolina del Sur."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CHOWDERS",
+   "name_fr": "Chaudrées",
+   "name_it": "Zuppe Dense",
+   "name_es": "CHOWDERS",
+   "color": "#8aa0b0",
+   "sub": [
+    {
+     "name": "CHOWDERS",
+     "name_fr": "Chaudrées",
+     "name_it": "Zuppe Dense",
+     "name_es": "CHOWDERS",
+     "color": "#8aa0b0",
+     "descriptors": [
+      {
+       "name": "New England Clam Chowder",
+       "name_fr": "Chaudrée de Palourdes",
+       "name_it": "Zuppa di Vongole",
+       "name_es": "Chowder de Almejas de Nueva Inglaterra",
+       "slug": "ne-clam",
+       "panel": {
+        "origin": "Thick, creamy, and chunky; rich and comforting.",
+        "origin_es": "Espeso, cremoso y con tropezones; rico y reconfortante.",
+        "chemistry": "A cream-based chowder thickened with potatoes (and sometimes a little roux).",
+        "chemistry_es": "Un chowder a base de nata espesado con papas (y a veces un poco de roux).",
+        "pairing": "Clams, potatoes, salt pork or bacon, onion, celery, cream.",
+        "pairing_es": "Almejas, papas, tocino salado o bacón, cebolla, apio, nata.",
+        "mixology": "With oyster crackers; a Friday menu staple around Boston.",
+        "mixology_es": "Con galletas de ostra; un fijo de los viernes en la zona de Boston.",
+        "examples": "An 18th-century American classic; the creamy counterpart to Manhattan style.",
+        "examples_es": "Un clásico estadounidense del siglo XVIII; la contraparte cremosa del estilo Manhattan."
+       }
+      },
+      {
+       "name": "Manhattan Clam Chowder",
+       "name_fr": "Chaudrée de Palourdes Manhattan",
+       "name_it": "Zuppa di Vongole Manhattan",
+       "name_es": "Chowder de Almejas Manhattan",
+       "slug": "manhattan-clam",
+       "panel": {
+        "origin": "Brothy, tangy, and lighter; tomato-based, not creamy.",
+        "origin_es": "Caldoso, ácido y más ligero; a base de tomate, no cremoso.",
+        "chemistry": "A clear, tomato-based broth (no cream).",
+        "chemistry_es": "Un caldo claro a base de tomate (sin nata).",
+        "pairing": "Clams, tomatoes, peppers, celery, carrots, potatoes.",
+        "pairing_es": "Almejas, tomates, pimientos, apio, zanahorias, papas.",
+        "mixology": "With crackers; the red, dairy-free cousin of New England chowder.",
+        "mixology_es": "Con galletas; el primo rojo y sin lácteos del chowder de Nueva Inglaterra.",
+        "examples": "Said to be created by Portuguese immigrants who favored tomatoes over cream.",
+        "examples_es": "Se dice que lo crearon inmigrantes portugueses que preferían el tomate a la nata."
+       }
+      },
+      {
+       "name": "Corn Chowder",
+       "name_fr": "Chaudrée de Maïs",
+       "name_it": "Zuppa di Mais",
+       "name_es": "Chowder de Maíz",
+       "slug": "corn-chowder",
+       "panel": {
+        "origin": "Sweet, creamy, and hearty; like a casserole you can slurp.",
+        "origin_es": "Dulce, cremoso y sustancioso; como una cazuela que se puede sorber.",
+        "chemistry": "A cream base, sometimes built on a stock made by simmering the corn cobs.",
+        "chemistry_es": "Una base de nata, a veces hecha con un caldo de las mazorcas de maíz cocidas.",
+        "pairing": "Sweet corn, potatoes, onion, bacon, cream.",
+        "pairing_es": "Maíz dulce, papas, cebolla, bacón, nata.",
+        "mixology": "With crusty bread or cornbread.",
+        "mixology_es": "Con pan crujiente o pan de maíz.",
+        "examples": "An American favorite; corn cobs simmered for stock add extra depth.",
+        "examples_es": "Un favorito estadounidense; las mazorcas cocidas para el caldo aportan más profundidad."
+       }
+      },
+      {
+       "name": "Seafood Chowder",
+       "name_fr": "Chaudrée de Fruits de Mer",
+       "name_it": "Zuppa di Pesce",
+       "name_es": "Chowder de Mariscos",
+       "slug": "seafood-chowder",
+       "panel": {
+        "origin": "Rich and chunky, loaded with mixed seafood in a creamy base.",
+        "origin_es": "Rico y con tropezones, cargado de mariscos variados en una base cremosa.",
+        "chemistry": "A cream (or part-cream) base built on fish or seafood stock.",
+        "chemistry_es": "Una base de nata (o parcialmente de nata) hecha con caldo de pescado o marisco.",
+        "pairing": "Fish, shrimp, mussels, clams, potatoes, onion, cream.",
+        "pairing_es": "Pescado, camarón, mejillones, almejas, papas, cebolla, nata.",
+        "mixology": "With crusty bread to soak up the broth.",
+        "mixology_es": "Con pan crujiente para mojar en el caldo.",
+        "examples": "A coastal classic across New England, Ireland, and beyond.",
+        "examples_es": "Un clásico costero en Nueva Inglaterra, Irlanda y más allá."
+       }
+      },
+      {
+       "name": "Cullen Skink",
+       "name_fr": "Cullen Skink",
+       "name_it": "Cullen Skink",
+       "name_es": "Cullen Skink",
+       "slug": "cullen-skink",
+       "panel": {
+        "origin": "Smoky, creamy, and savory, with flaked smoked fish.",
+        "origin_es": "Ahumado, cremoso y sabroso, con pescado ahumado desmenuzado.",
+        "chemistry": "A creamy potato base built on the liquor from poached smoked haddock.",
+        "chemistry_es": "Una base cremosa de papa hecha con el líquido de escalfar el eglefino ahumado.",
+        "pairing": "Smoked haddock (finnan haddie), potatoes, onion, milk or cream.",
+        "pairing_es": "Eglefino ahumado (finnan haddie), papas, cebolla, leche o nata.",
+        "mixology": "With crusty bread; a hearty Scottish lunch.",
+        "mixology_es": "Con pan crujiente; un almuerzo escocés sustancioso.",
+        "examples": "From the fishing town of Cullen on Scotland's Moray Coast.",
+        "examples_es": "Del pueblo pesquero de Cullen, en la costa de Moray, Escocia."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "COLD SOUPS",
+   "name_fr": "Soupes Froides",
+   "name_it": "Zuppe Fredde",
+   "name_es": "SOPAS FRÍAS",
+   "color": "#8ab06a",
+   "sub": [
+    {
+     "name": "COLD SOUPS",
+     "name_fr": "Soupes Froides",
+     "name_it": "Zuppe Fredde",
+     "name_es": "SOPAS FRÍAS",
+     "color": "#8ab06a",
+     "descriptors": [
+      {
+       "name": "Gazpacho",
+       "name_fr": "Gazpacho",
+       "name_it": "Gazpacho",
+       "name_es": "Gazpacho",
+       "slug": "gazpacho",
+       "panel": {
+        "origin": "Cold, raw, and refreshing; bright, tangy, and savory.",
+        "origin_es": "Frío, crudo y refrescante; vivo, ácido y sabroso.",
+        "chemistry": "Raw vegetables blended together — no cooking; stale bread and olive oil give body.",
+        "chemistry_es": "Verduras crudas trituradas juntas — sin cocción; el pan duro y el aceite de oliva dan cuerpo.",
+        "pairing": "Tomatoes, cucumber, bell pepper, garlic, bread, olive oil, sherry vinegar.",
+        "pairing_es": "Tomates, pepino, pimiento, ajo, pan, aceite de oliva, vinagre de jerez.",
+        "mixology": "Chilled, with diced vegetables and a drizzle of olive oil.",
+        "mixology_es": "Frío, con verduras en daditos y un hilo de aceite de oliva.",
+        "examples": "An Andalusian classic from southern Spain; a summer staple.",
+        "examples_es": "Un clásico andaluz del sur de España; un básico del verano."
+       }
+      },
+      {
+       "name": "Vichyssoise",
+       "name_fr": "Vichyssoise",
+       "name_it": "Vichyssoise",
+       "name_es": "Vichyssoise",
+       "slug": "vichyssoise",
+       "panel": {
+        "origin": "Silky, cold, and elegant; deep leek-and-potato flavor.",
+        "origin_es": "Sedosa, fría y elegante; profundo sabor a puerro y papa.",
+        "chemistry": "A chilled purée of leeks and potatoes enriched with cream and finely strained.",
+        "chemistry_es": "Un puré frío de puerros y papas enriquecido con nata y finamente colado.",
+        "pairing": "Leeks, potatoes, onion, stock, cream, chives.",
+        "pairing_es": "Puerros, papas, cebolla, caldo, nata, cebollín.",
+        "mixology": "Cold, with chives; a refined first course.",
+        "mixology_es": "Fría, con cebollín; un primer plato refinado.",
+        "examples": "A French-American classic; essentially a chilled, strained potato-leek soup.",
+        "examples_es": "Un clásico franco-estadounidense; en esencia, una sopa de papa y puerro fría y colada."
+       }
+      },
+      {
+       "name": "Borscht",
+       "name_fr": "Borscht",
+       "name_it": "Borscht",
+       "name_es": "Borscht",
+       "slug": "borscht",
+       "panel": {
+        "origin": "Earthy, tangy, and vivid; served hot or cold, ruby-red.",
+        "origin_es": "Terroso, ácido y vívido; se sirve frío o caliente, de un rojo rubí.",
+        "chemistry": "Beets simmered into a sweet-sour broth (cold versions are puréed or grated).",
+        "chemistry_es": "Remolacha cocida en un caldo agridulce (las versiones frías van trituradas o ralladas).",
+        "pairing": "Beets, cabbage, carrots, onion, vinegar or lemon, dill, sour cream.",
+        "pairing_es": "Remolacha, repollo, zanahorias, cebolla, vinagre o limón, eneldo, crema agria.",
+        "mixology": "With a dollop of sour cream and fresh dill.",
+        "mixology_es": "Con una cucharada de crema agria y eneldo fresco.",
+        "examples": "A Ukrainian classic eaten across Eastern Europe; the cold version is 'šaltibarščiai' in Lithuania.",
+        "examples_es": "Un clásico ucraniano comido por toda Europa del Este; la versión fría es 'šaltibarščiai' en Lituania."
+       }
+      },
+      {
+       "name": "Cucumber Soup",
+       "name_fr": "Soupe de Concombre",
+       "name_it": "Zuppa di Cetriolo",
+       "name_es": "Sopa Fría de Pepino",
+       "slug": "cucumber-soup",
+       "panel": {
+        "origin": "Cool, creamy, and refreshing; light and herbal.",
+        "origin_es": "Fresca, cremosa y refrescante; ligera y herbal.",
+        "chemistry": "Raw or lightly cooked cucumber blended with yogurt, then chilled to meld.",
+        "chemistry_es": "Pepino crudo o apenas cocido triturado con yogur, y enfriado para que se integre.",
+        "pairing": "Cucumber, yogurt, lemon, garlic, dill or mint.",
+        "pairing_es": "Pepino, yogur, limón, ajo, eneldo o menta.",
+        "mixology": "Well-chilled, with a swirl of yogurt and herbs.",
+        "mixology_es": "Bien fría, con un hilo de yogur y hierbas.",
+        "examples": "A hot-weather favorite; akin to a soupy tzatziki.",
+        "examples_es": "Una favorita del calor; parecida a un tzatziki en versión sopa."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GLOBAL NOODLE & BROTH",
+   "name_fr": "Nouilles & Bouillons du Monde",
+   "name_it": "Pasta & Brodi Globali",
+   "name_es": "FIDEOS Y CALDOS DEL MUNDO",
+   "color": "#b5503a",
+   "sub": [
+    {
+     "name": "GLOBAL NOODLE & BROTH",
+     "name_fr": "Nouilles & Bouillons du Monde",
+     "name_it": "Pasta & Brodi Globali",
+     "name_es": "FIDEOS Y CALDOS DEL MUNDO",
+     "color": "#b5503a",
+     "descriptors": [
+      {
+       "name": "Pho",
+       "name_fr": "Pho",
+       "name_it": "Pho",
+       "name_es": "Pho",
+       "slug": "pho",
+       "panel": {
+        "origin": "Aromatic, clear, and deeply savory; a fragrant spiced broth.",
+        "origin_es": "Aromático, claro y muy sabroso; un caldo especiado fragante.",
+        "chemistry": "Beef (or chicken) bones simmered for hours with charred onion, ginger, and warm spices.",
+        "chemistry_es": "Huesos de res (o pollo) cocidos horas con cebolla y jengibre carbonizados y especias cálidas.",
+        "pairing": "Rice noodles, thin-sliced beef or chicken, star anise, cinnamon, basil, bean sprouts, lime.",
+        "pairing_es": "Fideos de arroz, res o pollo en lonchas finas, anís estrellado, canela, albahaca, germinados, lima.",
+        "mixology": "With fresh herbs, sprouts, lime, and chili on the side.",
+        "mixology_es": "Con hierbas frescas, germinados, lima y chile aparte.",
+        "examples": "A Vietnamese classic born in the early 1900s; pronounced 'fuh.'",
+        "examples_es": "Un clásico vietnamita nacido a principios del siglo XX; se pronuncia 'fa'."
+       }
+      },
+      {
+       "name": "Ramen",
+       "name_fr": "Ramen",
+       "name_it": "Ramen",
+       "name_es": "Ramen",
+       "slug": "ramen",
+       "panel": {
+        "origin": "Rich, savory, and slurpable; a noodle bowl with countless regional styles.",
+        "origin_es": "Rico, sabroso y para sorber; un bol de fideos con incontables estilos regionales.",
+        "chemistry": "A pork, chicken, or seafood broth flavored with a 'tare' (shoyu, miso, or shio).",
+        "chemistry_es": "Un caldo de cerdo, pollo o marisco saborizado con un 'tare' (shoyu, miso o shio).",
+        "pairing": "Wheat noodles, broth, chashu pork, soft egg, nori, scallion, bamboo shoots.",
+        "pairing_es": "Fideos de trigo, caldo, cerdo chashu, huevo blando, nori, cebollín, brotes de bambú.",
+        "mixology": "Steaming hot, topped to order; eaten fast while the noodles are firm.",
+        "mixology_es": "Bien caliente, con los toppings al momento; se come rápido mientras los fideos están firmes.",
+        "examples": "Chinese in origin, perfected in Japan; tonkotsu, shoyu, miso, and shio are the major styles.",
+        "examples_es": "De origen chino, perfeccionado en Japón; tonkotsu, shoyu, miso y shio son los grandes estilos."
+       }
+      },
+      {
+       "name": "Tom Kha Gai",
+       "name_fr": "Tom Kha Gai",
+       "name_it": "Tom Kha Gai",
+       "name_es": "Tom Kha Gai",
+       "slug": "tom-kha-gai",
+       "panel": {
+        "origin": "Creamy, aromatic, and tangy-spicy; coconut-rich and fragrant.",
+        "origin_es": "Cremoso, aromático y picante-ácido; rico en coco y fragante.",
+        "chemistry": "A coconut-milk broth infused with galangal, lemongrass, and lime leaf.",
+        "chemistry_es": "Un caldo de leche de coco infusionado con galangal, hierba limón y hoja de lima.",
+        "pairing": "Coconut milk, chicken, galangal, lemongrass, kaffir lime, chili, fish sauce, mushrooms.",
+        "pairing_es": "Leche de coco, pollo, galangal, hierba limón, lima kaffir, chile, salsa de pescado, hongos.",
+        "mixology": "With rice and fresh cilantro.",
+        "mixology_es": "Con arroz y cilantro fresco.",
+        "examples": "A Thai classic; 'boiled galangal chicken,' with Lao influence.",
+        "examples_es": "Un clásico tailandés; 'pollo hervido con galangal', con influencia laosiana."
+       }
+      },
+      {
+       "name": "Miso Soup",
+       "name_fr": "Miso Soup",
+       "name_it": "Miso Soup",
+       "name_es": "Sopa de Miso",
+       "slug": "miso",
+       "panel": {
+        "origin": "Light, savory, and umami-rich; a delicate daily staple.",
+        "origin_es": "Ligera, sabrosa y rica en umami; un básico diario delicado.",
+        "chemistry": "Dashi (kelp-and-bonito stock) whisked with miso paste — never boiled after the miso goes in.",
+        "chemistry_es": "Dashi (caldo de alga y bonito) batido con pasta de miso — nunca se hierve tras añadir el miso.",
+        "pairing": "Dashi, miso paste, tofu, wakame seaweed, scallion.",
+        "pairing_es": "Dashi, pasta de miso, tofu, alga wakame, cebollín.",
+        "mixology": "In a small bowl, sipped; a Japanese breakfast and side staple.",
+        "mixology_es": "En un bol pequeño, sorbida; un básico del desayuno y los acompañamientos japoneses.",
+        "examples": "A traditional Japanese soup built on dashi and fermented soybean paste.",
+        "examples_es": "Una sopa japonesa tradicional hecha con dashi y pasta de soja fermentada."
+       }
+      },
+      {
+       "name": "Wonton Soup",
+       "name_fr": "Soupe Wonton",
+       "name_it": "Zuppa Wonton",
+       "name_es": "Sopa Wonton",
+       "slug": "wonton",
+       "panel": {
+        "origin": "Light and savory, with tender filled dumplings in clear broth.",
+        "origin_es": "Ligera y sabrosa, con tiernos dumplings rellenos en caldo claro.",
+        "chemistry": "A clear chicken or pork broth.",
+        "chemistry_es": "Un caldo claro de pollo o de cerdo.",
+        "pairing": "Wontons (pork/shrimp filling), broth, bok choy, scallion, ginger.",
+        "pairing_es": "Wontons (relleno de cerdo/camarón), caldo, bok choy, cebollín, jengibre.",
+        "mixology": "As a starter or light meal.",
+        "mixology_es": "Como entrante o comida ligera.",
+        "examples": "A Chinese classic dating to the Qing dynasty; once a high-class dish.",
+        "examples_es": "Un clásico chino que data de la dinastía Qing; antaño un plato de clase alta."
+       }
+      },
+      {
+       "name": "Hot & Sour Soup",
+       "name_fr": "Soupe Aigre-Piquante",
+       "name_it": "Zuppa Agropiccante",
+       "name_es": "Sopa Agripicante",
+       "slug": "hot-sour",
+       "panel": {
+        "origin": "Spicy, tangy, and savory; lightly thickened and bold.",
+        "origin_es": "Picante, ácida y sabrosa; ligeramente espesada y de carácter.",
+        "chemistry": "A broth balanced with white pepper (heat) and black vinegar (sour), thickened with cornstarch.",
+        "chemistry_es": "Un caldo equilibrado con pimienta blanca (picante) y vinagre negro (ácido), espesado con maicena.",
+        "pairing": "Broth, tofu, mushrooms, bamboo shoots, egg, white pepper, black vinegar; often pork.",
+        "pairing_es": "Caldo, tofu, hongos, brotes de bambú, huevo, pimienta blanca, vinagre negro; a menudo cerdo.",
+        "mixology": "Hot; a Chinese-takeout favorite.",
+        "mixology_es": "Caliente; una favorita de la comida china para llevar.",
+        "examples": "A Chinese classic; the balance of pepper-heat and vinegar-sour defines it.",
+        "examples_es": "Un clásico chino; el equilibrio entre el picante de la pimienta y lo ácido del vinagre la define."
+       }
+      },
+      {
+       "name": "Laksa",
+       "name_fr": "Laksa",
+       "name_it": "Laksa",
+       "name_es": "Laksa",
+       "slug": "laksa",
+       "panel": {
+        "origin": "Spicy, rich, and coconut-creamy; a bold Southeast Asian noodle soup.",
+        "origin_es": "Picante, rica y cremosa de coco; una sopa de fideos del Sudeste Asiático con carácter.",
+        "chemistry": "A spicy coconut-curry broth (curry laksa) built on a chili-and-spice paste.",
+        "chemistry_es": "Un caldo picante de curry y coco (curry laksa) hecho con una pasta de chile y especias.",
+        "pairing": "Rice noodles, coconut milk, shrimp or chicken, tofu puffs, bean sprouts, sambal.",
+        "pairing_es": "Fideos de arroz, leche de coco, camarón o pollo, tofu frito, germinados, sambal.",
+        "mixology": "With lime, sambal, and fresh herbs.",
+        "mixology_es": "Con lima, sambal y hierbas frescas.",
+        "examples": "A Malaysian/Peranakan classic; Sarawak and curry laksa are famous styles.",
+        "examples_es": "Un clásico malayo/peranakan; el de Sarawak y el curry laksa son estilos famosos."
+       }
+      },
+      {
+       "name": "Mulligatawny",
+       "name_fr": "Mulligatawny",
+       "name_it": "Mulligatawny",
+       "name_es": "Mulligatawny",
+       "slug": "mulligatawny",
+       "panel": {
+        "origin": "Creamy, curried, and warming; sweet-savory with gentle spice.",
+        "origin_es": "Cremosa, al curry y reconfortante; dulce-salada con especia suave.",
+        "chemistry": "A curry-spiced broth, often with lentils and coconut, sometimes cream.",
+        "chemistry_es": "Un caldo especiado al curry, a menudo con lentejas y coco, a veces nata.",
+        "pairing": "Lentils, curry spices, apple, coconut, onion; often chicken or lamb.",
+        "pairing_es": "Lentejas, especias de curry, manzana, coco, cebolla; a menudo pollo o cordero.",
+        "mixology": "With rice; a comforting curried bowl.",
+        "mixology_es": "Con arroz; un bol al curry reconfortante.",
+        "examples": "From southern Indian cuisine, popularized in Britain; the name means 'pepper water.'",
+        "examples_es": "De la cocina del sur de la India, popularizada en Gran Bretaña; el nombre significa 'agua de pimienta'."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HEARTY & GLOBAL CLASSICS",
+   "name_fr": "Classiques Copieux du Monde",
+   "name_it": "Classici Sostanziosi",
+   "name_es": "CLÁSICOS CONTUNDENTES DEL MUNDO",
+   "color": "#8a5a2a",
+   "sub": [
+    {
+     "name": "HEARTY & GLOBAL CLASSICS",
+     "name_fr": "Classiques Copieux du Monde",
+     "name_it": "Classici Sostanziosi",
+     "name_es": "CLÁSICOS CONTUNDENTES DEL MUNDO",
+     "color": "#8a5a2a",
+     "descriptors": [
+      {
+       "name": "French Onion",
+       "name_fr": "Soupe à l'Oignon",
+       "name_it": "Zuppa di Cipolle",
+       "name_es": "Sopa de Cebolla Francesa",
+       "slug": "french-onion",
+       "panel": {
+        "origin": "Deeply savory and sweet; a rich onion broth under bubbling cheese.",
+        "origin_es": "Muy sabrosa y dulce; un rico caldo de cebolla bajo queso burbujeante.",
+        "chemistry": "Deeply caramelized onions simmered in beef broth (often with wine or sherry).",
+        "chemistry_es": "Cebollas muy caramelizadas cocidas en caldo de res (a menudo con vino o jerez).",
+        "pairing": "Onions, beef broth, wine or sherry, baguette, Gruyère.",
+        "pairing_es": "Cebollas, caldo de res, vino o jerez, baguette, gruyère.",
+        "mixology": "Topped with toasted bread and Gruyère, baked until gooey.",
+        "mixology_es": "Coronada con pan tostado y gruyère, gratinada hasta fundir.",
+        "examples": "A Parisian bistro classic; humble peasant roots, luxe gratinéed finish.",
+        "examples_es": "Un clásico de bistró parisino; raíces campesinas humildes, acabado gratinado de lujo."
+       }
+      },
+      {
+       "name": "Minestrone",
+       "name_fr": "Minestrone",
+       "name_it": "Minestrone",
+       "name_es": "Minestrone",
+       "slug": "minestrone",
+       "panel": {
+        "origin": "Hearty, brothy, and vegetable-packed; a flexible Italian classic.",
+        "origin_es": "Sustancioso, caldoso y lleno de verduras; un clásico italiano flexible.",
+        "chemistry": "A tomato-and-vegetable broth, loaded with seasonal produce.",
+        "chemistry_es": "Un caldo de tomate y verduras, cargado de producto de temporada.",
+        "pairing": "Seasonal vegetables, cannellini beans, tomatoes, small pasta, herbs.",
+        "pairing_es": "Verduras de temporada, frijoles cannellini, tomates, pasta pequeña, hierbas.",
+        "mixology": "With Parmesan and crusty bread; a 'use-what-you-have' soup.",
+        "mixology_es": "Con parmesano y pan crujiente; una sopa de 'usa lo que tengas'.",
+        "examples": "An ancient Italian vegetable soup with no fixed recipe.",
+        "examples_es": "Una antigua sopa de verduras italiana sin receta fija."
+       }
+      },
+      {
+       "name": "Bouillabaisse",
+       "name_fr": "Bouillabaisse",
+       "name_it": "Bouillabaisse",
+       "name_es": "Bouillabaisse",
+       "slug": "bouillabaisse",
+       "panel": {
+        "origin": "Rich, aromatic, and saffron-scented; a Provençal seafood feast.",
+        "origin_es": "Rica, aromática y con aroma a azafrán; un festín marino provenzal.",
+        "chemistry": "A fish-stock broth with tomatoes, fennel, saffron, and orange.",
+        "chemistry_es": "Un caldo de pescado con tomates, hinojo, azafrán y naranja.",
+        "pairing": "Mixed fish and shellfish, tomato, fennel, saffron, garlic; served with rouille.",
+        "pairing_es": "Pescados y mariscos variados, tomate, hinojo, azafrán, ajo; se sirve con rouille.",
+        "mixology": "With toasted crostini and garlicky rouille.",
+        "mixology_es": "Con crostini tostado y rouille al ajo.",
+        "examples": "A classic from Marseille; built from the day's mixed catch.",
+        "examples_es": "Un clásico de Marsella; hecho con la captura mixta del día."
+       }
+      },
+      {
+       "name": "Gumbo",
+       "name_fr": "Gumbo",
+       "name_it": "Gumbo",
+       "name_es": "Gumbo",
+       "slug": "gumbo",
+       "panel": {
+        "origin": "Hearty, deep, and richly spiced; a soulful Louisiana stew.",
+        "origin_es": "Sustancioso, profundo y muy especiado; un guiso con alma de Luisiana.",
+        "chemistry": "A dark roux (and/or okra) thickens a deeply seasoned broth; the 'holy trinity' of onion, celery, pepper.",
+        "chemistry_es": "Un roux oscuro (y/o quimbombó) espesa un caldo muy sazonado; la 'santa trinidad' de cebolla, apio y pimiento.",
+        "pairing": "Roux, sausage and/or seafood, chicken, okra, the trinity, Cajun spice; served over rice.",
+        "pairing_es": "Roux, salchicha y/o marisco, pollo, quimbombó, la trinidad, especia cajún; se sirve sobre arroz.",
+        "mixology": "Over white rice.",
+        "mixology_es": "Sobre arroz blanco.",
+        "examples": "A Louisiana classic blending West African, French, and Native American influences.",
+        "examples_es": "Un clásico de Luisiana que mezcla influencias de África Occidental, Francia y los pueblos nativos."
+       }
+      },
+      {
+       "name": "Pozole",
+       "name_fr": "Pozole",
+       "name_it": "Pozole",
+       "name_es": "Pozole",
+       "slug": "pozole",
+       "panel": {
+        "origin": "Rich, brothy, and satisfying; built around chewy hominy.",
+        "origin_es": "Rico, caldoso y reconfortante; construido en torno al maíz pozolero.",
+        "chemistry": "A broth of braised meat and hominy; red (rojo), green (verde), or white (blanco).",
+        "chemistry_es": "Un caldo de carne braseada y maíz pozolero; rojo, verde o blanco.",
+        "pairing": "Hominy, pork or chicken, chiles or tomatillos; topped with cabbage, radish, lime, oregano.",
+        "pairing_es": "Maíz pozolero, cerdo o pollo, chiles o tomatillos; con repollo, rábano, lima y orégano.",
+        "mixology": "With shredded cabbage, radish, lime, and tostadas.",
+        "mixology_es": "Con repollo rallado, rábano, lima y tostadas.",
+        "examples": "A pre-colonial Mexican soup, once ceremonial; it gets better the longer it cooks.",
+        "examples_es": "Una sopa mexicana precolonial, antaño ceremonial; mejora cuanto más se cocina."
+       }
+      },
+      {
+       "name": "Goulash",
+       "name_fr": "Goulash",
+       "name_it": "Goulash",
+       "name_es": "Goulash",
+       "slug": "goulash",
+       "panel": {
+        "origin": "Rich, paprika-driven, and warming; a hearty meat stew-soup.",
+        "origin_es": "Rico, marcado por el pimentón y reconfortante; un guiso-sopa de carne sustancioso.",
+        "chemistry": "Beef braised slowly with onions and a heavy hand of paprika.",
+        "chemistry_es": "Res braseada lentamente con cebolla y una buena mano de pimentón.",
+        "pairing": "Beef, onions, sweet paprika, tomato, peppers, sometimes potato.",
+        "pairing_es": "Res, cebollas, pimentón dulce, tomate, pimientos, a veces papa.",
+        "mixology": "With bread or noodles (nokedli).",
+        "mixology_es": "Con pan o fideos (nokedli).",
+        "examples": "Hungary's national dish ('gulyás'), once cooked by herdsmen over open fire.",
+        "examples_es": "El plato nacional de Hungría ('gulyás'), antaño cocinado por pastores al fuego."
+       }
+      },
+      {
+       "name": "Beef Bourguignon",
+       "name_fr": "Beef Bourguignon",
+       "name_it": "Beef Bourguignon",
+       "name_es": "Boeuf Bourguignon",
+       "slug": "beef-bourguignon",
+       "panel": {
+        "origin": "Deep, rich, and silky; beef braised in red wine.",
+        "origin_es": "Profundo, rico y sedoso; res braseada en vino tinto.",
+        "chemistry": "Beef slow-braised in red Burgundy with stock until fork-tender.",
+        "chemistry_es": "Res braseada lentamente en Borgoña tinto con caldo hasta quedar muy tierna.",
+        "pairing": "Beef, red wine, bacon (lardons), mushrooms, pearl onions, carrots, herbs.",
+        "pairing_es": "Res, vino tinto, bacón (lardons), hongos, cebollitas perla, zanahorias, hierbas.",
+        "mixology": "With crusty bread, potatoes, or noodles.",
+        "mixology_es": "Con pan crujiente, papas o fideos.",
+        "examples": "A classic French stew (also 'Beef Burgundy'), named for its Burgundian wine.",
+        "examples_es": "Un clásico guiso francés (también 'Beef Burgundy'), llamado así por su vino de Borgoña."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "CLEAR SOUPS": {
+   "en": "A true consommé is the ultimate test of a cook — you clarify a cloudy stock by simmering it with a 'raft' of egg whites and lean meat that traps every impurity, leaving a broth so clear you can read print through it.",
+   "es": "Un buen consomé es la prueba definitiva de un cocinero — se clarifica un caldo turbio cociéndolo con una 'balsa' de claras de huevo y carne magra que atrapa cada impureza, dejando un caldo tan claro que se puede leer a través de él."
+  },
+  "CREAM SOUPS & VELOUTÉS": {
+   "en": "A classic cream soup isn't just cream and vegetables — it's built on a velouté, a stock thickened with a flour-and-butter roux, one of the French 'mother sauces' that underpin much of Western cooking.",
+   "es": "Una crema clásica no es solo nata y verduras — se construye sobre una velouté, un caldo espesado con un roux de harina y mantequilla, una de las 'salsas madre' francesas que sostienen buena parte de la cocina occidental."
+  },
+  "PURÉE SOUPS": {
+   "en": "A purée soup needs no flour or cream to be thick — the blended starch of beans, peas, or squash does all the work, which is why so many of them are naturally vegan and gluten-free.",
+   "es": "Una sopa en puré no necesita harina ni nata para ser espesa — el almidón triturado de frijoles, arvejas o calabaza hace todo el trabajo, por eso muchas son naturalmente veganas y sin gluten."
+  },
+  "BISQUES": {
+   "en": "The intense flavor of a real bisque comes from the shells, not the meat — crustacean shells are simmered, then strained (and traditionally ground or thickened with rice), squeezing every last drop of flavor from the lobster or crab.",
+   "es": "El sabor intenso de un bisque de verdad viene de los caparazones, no de la carne — los caparazones de crustáceo se cuecen y se cuelan (y tradicionalmente se muelen o se espesan con arroz), exprimiendo hasta la última gota de sabor de la langosta o el cangrejo."
+  },
+  "CHOWDERS": {
+   "en": "The clam chowder rivalry is real — New England's is creamy and white, Manhattan's is red and tomato-based, and a 1939 Maine bill once tried to make putting tomatoes in chowder illegal.",
+   "es": "La rivalidad del chowder de almejas es real — el de Nueva Inglaterra es cremoso y blanco, el de Manhattan es rojo y a base de tomate, y en 1939 un proyecto de ley de Maine intentó prohibir poner tomate en el chowder."
+  },
+  "COLD SOUPS": {
+   "en": "Not all soup is hot — gazpacho is blended raw and served cold, and vichyssoise, though it sounds like a hot French classic, was created to be eaten chilled.",
+   "es": "No toda sopa es caliente — el gazpacho se tritura crudo y se sirve frío, y la vichyssoise, aunque suena a clásico francés caliente, se creó para tomarse fría."
+  },
+  "GLOBAL NOODLE & BROTH": {
+   "en": "The secret to great miso soup is restraint — you must never boil it once the miso goes in, or the heat destroys the living cultures and delicate aroma of the fermented paste.",
+   "es": "El secreto de una buena sopa de miso es la moderación — nunca debe hervir una vez añadido el miso, o el calor destruye los cultivos vivos y el delicado aroma de la pasta fermentada."
+  },
+  "HEARTY & GLOBAL CLASSICS": {
+   "en": "French onion soup began as humble peasant food — its transformation into a bistro icon came from topping the bowl with bread and cheese and baking it into a bubbling gratin.",
+   "es": "La sopa de cebolla francesa empezó como humilde comida campesina — su transformación en icono de bistró vino de coronar el bol con pan y queso y gratinarlo hasta burbujear."
+  }
+ }
+}

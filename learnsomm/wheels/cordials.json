@@ -1,0 +1,1020 @@
+{
+ "title": "Cordials",
+ "subject": "cordials",
+ "categories": [
+  {
+   "name": "ORANGE & CITRUS LIQUEURS",
+   "name_fr": "LIQUEURS D'ORANGE & AGRUMES",
+   "name_it": "LIQUORI D'ARANCIA & AGRUMI",
+   "name_es": "LICORES DE NARANJA Y CÍTRICOS",
+   "color": "#e08a1e",
+   "sub": [
+    {
+     "name": "ORANGE & CITRUS LIQUEURS",
+     "name_fr": "LIQUEURS D'ORANGE & AGRUMES",
+     "name_it": "LIQUORI D'ARANCIA & AGRUMI",
+     "name_es": "LICORES DE NARANJA Y CÍTRICOS",
+     "color": "#e08a1e",
+     "descriptors": [
+      {
+       "name": "Cointreau",
+       "name_fr": "Cointreau",
+       "name_it": "Cointreau",
+       "name_es": "Cointreau",
+       "slug": "cointreau",
+       "panel": {
+        "origin": "Crisp, clean orange with sweet and bitter peel in balance; bright and not cloying.",
+        "origin_es": "Naranja limpia y nítida, con cáscara dulce y amarga en equilibrio; brillante y nada empalagoso.",
+        "chemistry": "A clear triple sec (~40% ABV) distilled from sweet and bitter orange peels in neutral spirit.",
+        "chemistry_es": "Un triple sec claro (~40%) destilado de cáscaras de naranja dulce y amarga en alcohol neutro.",
+        "pairing": "Citrus, tequila, Cognac, cranberry.",
+        "pairing_es": "Cítricos, tequila, coñac, arándano rojo.",
+        "mixology": "Margarita, Sidecar, Cosmopolitan, White Lady, Corpse Reviver No. 2.",
+        "mixology_es": "Margarita, Sidecar, Cosmopolitan, White Lady, Corpse Reviver No. 2.",
+        "examples": "A premium French triple sec from the Cointreau family (1875); the benchmark dry orange liqueur.",
+        "examples_es": "Un triple sec francés premium de la familia Cointreau (1875); el referente del licor de naranja seco."
+       }
+      },
+      {
+       "name": "Grand Marnier",
+       "name_fr": "Grand Marnier",
+       "name_it": "Grand Marnier",
+       "name_es": "Grand Marnier",
+       "slug": "grand-marnier",
+       "panel": {
+        "origin": "Rich orange over warm Cognac, with vanilla, oak, and a rounder sweetness than triple sec.",
+        "origin_es": "Naranja rica sobre coñac cálido, con vainilla, roble y un dulzor más redondo que el triple sec.",
+        "chemistry": "A bitter-orange (Curaçao) liqueur built on a Cognac base (~40%); includes barrel character.",
+        "chemistry_es": "Un licor de naranja amarga (Curaçao) sobre base de coñac (~40%); con carácter de barrica.",
+        "pairing": "Cognac, chocolate, citrus, crêpes.",
+        "pairing_es": "Coñac, chocolate, cítricos, crepes.",
+        "mixology": "Sidecar, B-52, Cadillac Margarita, Grand Mimosa; flamed over crêpes Suzette.",
+        "mixology_es": "Sidecar, B-52, Margarita Cadillac, Gran Mimosa; flambeado sobre crepes Suzette.",
+        "examples": "A French Cognac-orange liqueur (1880); the luxury cousin of plain triple sec.",
+        "examples_es": "Un licor francés de coñac y naranja (1880); el primo de lujo del triple sec sencillo."
+       }
+      },
+      {
+       "name": "Triple Sec",
+       "name_fr": "Triple Sec",
+       "name_it": "Triple Sec",
+       "name_es": "Triple Sec",
+       "slug": "triple-sec",
+       "panel": {
+        "origin": "Sweet, simple orange with a candied edge; lighter and less complex than Cointreau.",
+        "origin_es": "Naranja dulce y sencilla con un borde acaramelado; más ligero y menos complejo que el Cointreau.",
+        "chemistry": "A generic clear orange liqueur, usually lower in proof and price than premium brands.",
+        "chemistry_es": "Un licor de naranja claro y genérico, normalmente de menos grado y precio que las marcas premium.",
+        "pairing": "Tequila, citrus, cranberry.",
+        "pairing_es": "Tequila, cítricos, arándano rojo.",
+        "mixology": "The budget orange modifier in Margaritas, Long Island Iced Tea, Kamikazes.",
+        "mixology_es": "El modificador de naranja económico en Margaritas, Long Island Iced Tea, Kamikazes.",
+        "examples": "'Triple sec' means 'triple dry'; a catch-all term for clear orange liqueurs of varying quality.",
+        "examples_es": "'Triple sec' significa 'triple seco'; un término general para licores de naranja claros de calidad variable."
+       }
+      },
+      {
+       "name": "Blue Curaçao",
+       "name_fr": "Curaçao Bleu",
+       "name_it": "Curaçao Blu",
+       "name_es": "Curaçao Azul",
+       "slug": "blue-curacao",
+       "panel": {
+        "origin": "Sweet orange with a candied, slightly bitter peel; identical in taste to clear curaçao.",
+        "origin_es": "Naranja dulce con cáscara acaramelada y algo amarga; de sabor idéntico al curaçao claro.",
+        "chemistry": "Orange-peel liqueur (from the laraha orange) tinted vivid blue with food coloring.",
+        "chemistry_es": "Licor de cáscara de naranja (de la naranja laraha) teñido de azul vivo con colorante.",
+        "pairing": "Pineapple, coconut, citrus, rum.",
+        "pairing_es": "Piña, coco, cítricos, ron.",
+        "mixology": "Blue Lagoon, Blue Hawaiian, and any cocktail that wants a tropical blue hue.",
+        "mixology_es": "Blue Lagoon, Blue Hawaiian, y cualquier cóctel que busque un tono azul tropical.",
+        "examples": "Named for Curaçao island, where Spanish oranges turned bitter — the peel became liqueur.",
+        "examples_es": "Lleva el nombre de la isla de Curaçao, donde las naranjas españolas se volvieron amargas — su cáscara se hizo licor."
+       }
+      },
+      {
+       "name": "Limoncello",
+       "name_fr": "Limoncello",
+       "name_it": "Limoncello",
+       "name_es": "Limoncello",
+       "slug": "limoncello",
+       "panel": {
+        "origin": "Bright, intensely lemony, and sweet with a clean citrus-oil perfume.",
+        "origin_es": "Brillante, intensamente alimonado y dulce, con un perfume limpio de aceite de cítrico.",
+        "chemistry": "Lemon zest steeped in neutral spirit, then sweetened with sugar syrup — no distillation.",
+        "chemistry_es": "Ralladura de limón macerada en alcohol neutro y endulzada con almíbar — sin destilación.",
+        "pairing": "Lemon, basil, cream, sparkling wine.",
+        "pairing_es": "Limón, albahaca, nata, vino espumoso.",
+        "mixology": "Served ice-cold as a digestif; Limoncello Spritz, Limoncello Martini.",
+        "mixology_es": "Servido bien frío como digestivo; Limoncello Spritz, Limoncello Martini.",
+        "examples": "A Southern Italian specialty from the Amalfi Coast, Sorrento, and Capri, made with fragrant local lemons.",
+        "examples_es": "Una especialidad del sur de Italia (Costa Amalfitana, Sorrento, Capri), hecha con limones locales fragantes."
+       }
+      },
+      {
+       "name": "Grapefruit Liqueur",
+       "name_fr": "Liqueur de Pamplemousse",
+       "name_it": "Liquore al Pompelmo",
+       "name_es": "Licor de Pomelo",
+       "slug": "grapefruit-liqueur",
+       "panel": {
+        "origin": "Tangy, fresh grapefruit with a gentle bitter-sweet citrus edge.",
+        "origin_es": "Pomelo fresco y ácido, con un borde cítrico suavemente agridulce.",
+        "chemistry": "Grapefruit peel and juice in a neutral or brandy base, sweetened.",
+        "chemistry_es": "Cáscara y zumo de pomelo en base neutra o de brandy, endulzado.",
+        "pairing": "Tequila, soda, rosemary, sparkling wine.",
+        "pairing_es": "Tequila, soda, romero, vino espumoso.",
+        "mixology": "Palomas, spritzes, and bright citrus highballs.",
+        "mixology_es": "Palomas, spritzes y highballs cítricos y brillantes.",
+        "examples": "A modern bar staple (e.g., Combier Pamplemousse); adds grapefruit lift without fresh juice.",
+        "examples_es": "Un básico moderno de barra (p. ej., Combier Pamplemousse); aporta pomelo sin zumo fresco."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BERRY & RED-FRUIT LIQUEURS",
+   "name_fr": "LIQUEURS DE BAIES & FRUITS ROUGES",
+   "name_it": "LIQUORI DI BACCHE & FRUTTI ROSSI",
+   "name_es": "LICORES DE BAYAS Y FRUTA ROJA",
+   "color": "#a8324e",
+   "sub": [
+    {
+     "name": "BERRY & RED-FRUIT LIQUEURS",
+     "name_fr": "LIQUEURS DE BAIES & FRUITS ROUGES",
+     "name_it": "LIQUORI DI BACCHE & FRUTTI ROSSI",
+     "name_es": "LICORES DE BAYAS Y FRUTA ROJA",
+     "color": "#a8324e",
+     "descriptors": [
+      {
+       "name": "Chambord",
+       "name_fr": "Chambord",
+       "name_it": "Chambord",
+       "name_es": "Chambord",
+       "slug": "chambord",
+       "panel": {
+        "origin": "Lush black raspberry with honey, vanilla, and a touch of blackberry depth.",
+        "origin_es": "Frambuesa negra exuberante con miel, vainilla y un toque de mora.",
+        "chemistry": "Black raspberries and blackberries infused with honey, vanilla, and Cognac.",
+        "chemistry_es": "Frambuesas negras y moras infusionadas con miel, vainilla y coñac.",
+        "pairing": "Champagne, pineapple, vodka, chocolate.",
+        "pairing_es": "Champagne, piña, vodka, chocolate.",
+        "mixology": "French Martini, Kir Royale (Chambord version), Chambord Spritz.",
+        "mixology_es": "French Martini, Kir Royale (versión Chambord), Chambord Spritz.",
+        "examples": "A French raspberry liqueur in a distinctive crown-topped orb bottle, styled after a 17th-century original.",
+        "examples_es": "Un licor francés de frambuesa en una botella esférica con corona, inspirada en un original del siglo XVII."
+       }
+      },
+      {
+       "name": "Crème de Cassis",
+       "name_fr": "Crème de Cassis",
+       "name_it": "Crème de Cassis",
+       "name_es": "Crème de Cassis",
+       "slug": "creme-de-cassis",
+       "panel": {
+        "origin": "Deep, tart-sweet blackcurrant with a jammy richness.",
+        "origin_es": "Grosella negra profunda, agridulce, con una riqueza de mermelada.",
+        "chemistry": "Blackcurrants steeped in spirit and heavily sweetened (a 'crème' by sugar, not dairy).",
+        "chemistry_es": "Grosellas negras maceradas en alcohol y muy endulzadas (una 'crème' por el azúcar, no por nata).",
+        "pairing": "White wine, sparkling wine, gin.",
+        "pairing_es": "Vino blanco, vino espumoso, ginebra.",
+        "mixology": "Kir (with white wine), Kir Royale (with Champagne), El Diablo.",
+        "mixology_es": "Kir (con vino blanco), Kir Royale (con champagne), El Diablo.",
+        "examples": "A specialty of Dijon, Burgundy; the classic French aperitif modifier.",
+        "examples_es": "Una especialidad de Dijon, Borgoña; el modificador clásico del aperitivo francés."
+       }
+      },
+      {
+       "name": "Crème de Framboise",
+       "name_fr": "Crème de Framboise",
+       "name_it": "Crème de Framboise",
+       "name_es": "Crème de Framboise",
+       "slug": "creme-de-framboise",
+       "panel": {
+        "origin": "Bright, fragrant raspberry, sweet with a fresh tartness.",
+        "origin_es": "Frambuesa brillante y fragante, dulce con una acidez fresca.",
+        "chemistry": "Raspberries steeped in spirit and sweetened to a 'crème.'",
+        "chemistry_es": "Frambuesas maceradas en alcohol y endulzadas hasta una 'crème'.",
+        "pairing": "Sparkling wine, white wine, chocolate.",
+        "pairing_es": "Vino espumoso, vino blanco, chocolate.",
+        "mixology": "Royales and spritzes; a raspberry swap for cassis.",
+        "mixology_es": "Royales y spritzes; un cambio de frambuesa por el cassis.",
+        "examples": "A French fruit liqueur in the crème family; all about ripe raspberry.",
+        "examples_es": "Un licor de fruta francés de la familia crème; todo frambuesa madura."
+       }
+      },
+      {
+       "name": "Maraschino",
+       "name_fr": "Maraschino",
+       "name_it": "Maraschino",
+       "name_es": "Maraschino",
+       "slug": "maraschino",
+       "panel": {
+        "origin": "Dry, complex sour cherry with a distinctive nutty, almost almond bitterness from the pits.",
+        "origin_es": "Cereza ácida, seca y compleja, con un amargor a nuez, casi almendra, de los huesos.",
+        "chemistry": "Marasca cherries crushed whole — fruit, pits, and stems — then distilled and lightly sweetened; clear.",
+        "chemistry_es": "Cerezas Marasca trituradas enteras — fruta, huesos y tallos — destiladas y poco endulzadas; clara.",
+        "pairing": "Gin, citrus, other cherries.",
+        "pairing_es": "Ginebra, cítricos, otras cerezas.",
+        "mixology": "Aviation, Last Word, Hemingway Daiquiri, Martinez. A small dose goes a long way.",
+        "mixology_es": "Aviation, Last Word, Hemingway Daiquiri, Martinez. Una dosis pequeña rinde mucho.",
+        "examples": "From Luxardo (Italy); unlike a sweet cocktail cherry, it's dry and aromatic — and clear, not red.",
+        "examples_es": "De Luxardo (Italia); a diferencia de la cereza dulce de cóctel, es seco y aromático — y claro, no rojo."
+       }
+      },
+      {
+       "name": "Sloe Gin",
+       "name_fr": "Sloe Gin",
+       "name_it": "Sloe Gin",
+       "name_es": "Sloe Gin",
+       "slug": "sloe-gin",
+       "panel": {
+        "origin": "Tart, fruity, and almond-edged with a deep red color; sweeter than gin, lower in proof.",
+        "origin_es": "Ácido, afrutado y con borde de almendra, de color rojo intenso; más dulce que la ginebra y de menos grado.",
+        "chemistry": "Sloe berries (blackthorn fruit) steeped in gin with sugar; technically a liqueur, not a gin.",
+        "chemistry_es": "Endrinas (fruto del endrino) maceradas en ginebra con azúcar; técnicamente un licor, no una ginebra.",
+        "pairing": "Lemon, soda, sparkling wine.",
+        "pairing_es": "Limón, soda, vino espumoso.",
+        "mixology": "Sloe Gin Fizz, Blackthorn, Sloe Gin & tonic.",
+        "mixology_es": "Sloe Gin Fizz, Blackthorn, Sloe Gin con tónica.",
+        "examples": "A British country tradition, historically made at home from autumn-foraged sloes.",
+        "examples_es": "Una tradición rural británica, hecha en casa con endrinas recogidas en otoño."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ORCHARD & TROPICAL LIQUEURS",
+   "name_fr": "LIQUEURS DE VERGER & TROPICALES",
+   "name_it": "LIQUORI DA FRUTTETO & TROPICALI",
+   "name_es": "LICORES DE HUERTO Y TROPICALES",
+   "color": "#d9a520",
+   "sub": [
+    {
+     "name": "ORCHARD & TROPICAL LIQUEURS",
+     "name_fr": "LIQUEURS DE VERGER & TROPICALES",
+     "name_it": "LIQUORI DA FRUTTETO & TROPICALI",
+     "name_es": "LICORES DE HUERTO Y TROPICALES",
+     "color": "#d9a520",
+     "descriptors": [
+      {
+       "name": "Apricot Liqueur",
+       "name_fr": "Liqueur d'Abricot",
+       "name_it": "Liquore all'Albicocca",
+       "name_es": "Licor de Albaricoque",
+       "slug": "apricot-liqueur",
+       "panel": {
+        "origin": "Sweet, jammy apricot with a soft stone-fruit perfume.",
+        "origin_es": "Albaricoque dulce y meloso, con un suave perfume de fruta de hueso.",
+        "chemistry": "Apricots (and often their kernels) steeped in brandy or neutral spirit and sweetened.",
+        "chemistry_es": "Albaricoques (y a menudo sus huesos) macerados en brandy o alcohol neutro y endulzados.",
+        "pairing": "Gin, citrus, peach, tiki spices.",
+        "pairing_es": "Ginebra, cítricos, durazno, especias tiki.",
+        "mixology": "Pendennis Club, Apricot Sour, and countless tiki drinks.",
+        "mixology_es": "Pendennis Club, Apricot Sour, e incontables tragos tiki.",
+        "examples": "A long-standing 'apricot brandy' style; a building block of mid-century and tiki cocktails.",
+        "examples_es": "Un estilo 'apricot brandy' de larga tradición; pieza clave de los cócteles de mediados de siglo y tiki."
+       }
+      },
+      {
+       "name": "Peach Schnapps",
+       "name_fr": "Schnaps à la Pêche",
+       "name_it": "Schnaps alla Pesca",
+       "name_es": "Schnapps de Durazno",
+       "slug": "peach-schnapps",
+       "panel": {
+        "origin": "Candied, juicy peach; sweet and straightforward.",
+        "origin_es": "Durazno jugoso y acaramelado; dulce y directo.",
+        "chemistry": "Peach flavor in a neutral spirit, sweetened — a flavored schnapps rather than a true brandy.",
+        "chemistry_es": "Sabor de durazno en alcohol neutro, endulzado — un schnapps aromatizado, no un brandy real.",
+        "pairing": "Cranberry, orange, vodka.",
+        "pairing_es": "Arándano rojo, naranja, vodka.",
+        "mixology": "Sex on the Beach, Fuzzy Navel, Woo Woo.",
+        "mixology_es": "Sex on the Beach, Fuzzy Navel, Woo Woo.",
+        "examples": "A bar workhorse of the 1980s–90s; the easygoing face of fruity cocktails.",
+        "examples_es": "Un caballo de batalla de barra de los 80–90; la cara desenfadada de los cócteles afrutados."
+       }
+      },
+      {
+       "name": "Crème de Banane",
+       "name_fr": "Crème de Banane",
+       "name_it": "Crème de Banane",
+       "name_es": "Crème de Banane",
+       "slug": "creme-de-banane",
+       "panel": {
+        "origin": "Ripe, candied banana, sweet and full.",
+        "origin_es": "Plátano maduro y acaramelado, dulce y pleno.",
+        "chemistry": "Banana flavor steeped in spirit and sweetened to a 'crème'; usually golden-yellow.",
+        "chemistry_es": "Sabor de plátano macerado en alcohol y endulzado hasta una 'crème'; suele ser amarillo dorado.",
+        "pairing": "Rum, cream, chocolate, coffee.",
+        "pairing_es": "Ron, nata, chocolate, café.",
+        "mixology": "Banana Daiquiri, tiki blends, and dessert cocktails.",
+        "mixology_es": "Banana Daiquiri, mezclas tiki y cócteles de postre.",
+        "examples": "A French-style fruit liqueur; a tiki and dessert-drink staple.",
+        "examples_es": "Un licor de fruta de estilo francés; un básico de los tragos tiki y de postre."
+       }
+      },
+      {
+       "name": "Midori (Melon)",
+       "name_fr": "Midori (Melon)",
+       "name_it": "Midori (Melon)",
+       "name_es": "Midori (Melón)",
+       "slug": "midori",
+       "panel": {
+        "origin": "Sweet, bright honeydew melon — instantly recognizable, candy-like.",
+        "origin_es": "Melón dulce y brillante — inconfundible, como caramelo.",
+        "chemistry": "Muskmelon-flavored liqueur in a neutral base, famous for its electric green color.",
+        "chemistry_es": "Licor con sabor a melón en base neutra, famoso por su color verde eléctrico.",
+        "pairing": "Citrus, vodka, pineapple, soda.",
+        "pairing_es": "Cítricos, vodka, piña, soda.",
+        "mixology": "Midori Sour, Japanese Slipper, Melon Ball.",
+        "mixology_es": "Midori Sour, Japanese Slipper, Melon Ball.",
+        "examples": "A Japanese liqueur ('midori' means green) launched at Studio 54 in 1978.",
+        "examples_es": "Un licor japonés ('midori' significa verde) lanzado en Studio 54 en 1978."
+       }
+      },
+      {
+       "name": "Pomegranate Liqueur",
+       "name_fr": "Liqueur de Grenade",
+       "name_it": "Liquore al Melograno",
+       "name_es": "Licor de Granada",
+       "slug": "pomegranate-liqueur",
+       "panel": {
+        "origin": "Tart-sweet pomegranate with a bright, fruity snap.",
+        "origin_es": "Granada agridulce con un chasquido afrutado y brillante.",
+        "chemistry": "Pomegranate juice and flavor in a vodka or neutral base, sweetened.",
+        "chemistry_es": "Zumo y sabor de granada en base de vodka o neutra, endulzado.",
+        "pairing": "Citrus, sparkling wine, tequila.",
+        "pairing_es": "Cítricos, vino espumoso, tequila.",
+        "mixology": "Cosmopolitan riffs, pomegranate martinis, spritzes.",
+        "mixology_es": "Variantes del Cosmopolitan, martinis de granada, spritzes.",
+        "examples": "A modern liqueur (e.g., PAMA); not to be confused with grenadine, a non-alcoholic syrup.",
+        "examples_es": "Un licor moderno (p. ej., PAMA); no confundir con la granadina, un sirope sin alcohol."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BITTER APERITIFS & AMARI",
+   "name_fr": "APÉRITIFS AMERS & AMARI",
+   "name_it": "APERITIVI AMARI & AMARI",
+   "name_es": "APERITIVOS AMARGOS Y AMARI",
+   "color": "#c0392b",
+   "sub": [
+    {
+     "name": "BITTER APERITIFS & AMARI",
+     "name_fr": "APÉRITIFS AMERS & AMARI",
+     "name_it": "APERITIVI AMARI & AMARI",
+     "name_es": "APERITIVOS AMARGOS Y AMARI",
+     "color": "#c0392b",
+     "descriptors": [
+      {
+       "name": "Aperol",
+       "name_fr": "Aperol",
+       "name_it": "Aperol",
+       "name_es": "Aperol",
+       "slug": "aperol",
+       "panel": {
+        "origin": "Gently bittersweet with orange, rhubarb, and a soft herbal finish; light and approachable.",
+        "origin_es": "Suavemente agridulce, con naranja, ruibarbo y un final herbal suave; ligero y accesible.",
+        "chemistry": "An Italian aperitivo of orange, gentian, rhubarb, and herbs; low strength (~11% ABV).",
+        "chemistry_es": "Un aperitivo italiano de naranja, genciana, ruibarbo y hierbas; de baja graduación (~11%).",
+        "pairing": "Prosecco, soda, orange.",
+        "pairing_es": "Prosecco, soda, naranja.",
+        "mixology": "The Aperol Spritz (Prosecco, Aperol, soda) — the drink that made it a global star.",
+        "mixology_es": "El Aperol Spritz (Prosecco, Aperol, soda) — el trago que lo hizo una estrella mundial.",
+        "examples": "From Padua, Italy (1919); the friendly, low-proof gateway to the bitter category.",
+        "examples_es": "De Padua, Italia (1919); la puerta amable y de baja graduación a la categoría de los amargos."
+       }
+      },
+      {
+       "name": "Campari",
+       "name_fr": "Campari",
+       "name_it": "Campari",
+       "name_es": "Campari",
+       "slug": "campari",
+       "panel": {
+        "origin": "Boldly bitter and herbaceous with orange peel and a long, dry, gentian finish.",
+        "origin_es": "Marcadamente amargo y herbáceo, con cáscara de naranja y un final largo, seco y de genciana.",
+        "chemistry": "An Italian bitter (~24%) of herbs, fruit, and gentian; vivid ruby red.",
+        "chemistry_es": "Un amargo italiano (~24%) de hierbas, fruta y genciana; rojo rubí intenso.",
+        "pairing": "Sweet vermouth, gin, citrus, soda.",
+        "pairing_es": "Vermut dulce, ginebra, cítricos, soda.",
+        "mixology": "Negroni, Americano, Boulevardier, Garibaldi.",
+        "mixology_es": "Negroni, Americano, Boulevardier, Garibaldi.",
+        "examples": "Created in 1860 Novara; the backbone of the bitter Italian aperitivo tradition.",
+        "examples_es": "Creado en Novara en 1860; la columna de la tradición del aperitivo amargo italiano."
+       }
+      },
+      {
+       "name": "Cynar",
+       "name_fr": "Cynar",
+       "name_it": "Cynar",
+       "name_es": "Cynar",
+       "slug": "cynar",
+       "panel": {
+        "origin": "Bittersweet and earthy with a vegetal, herbal depth and a mellow finish.",
+        "origin_es": "Agridulce y terroso, con una profundidad vegetal y herbal y un final suave.",
+        "chemistry": "An Italian amaro built on artichoke and 13 herbs; bitter but rounder than Campari.",
+        "chemistry_es": "Un amaro italiano basado en alcachofa y 13 hierbas; amargo pero más redondo que el Campari.",
+        "pairing": "Soda, citrus, sweet vermouth.",
+        "pairing_es": "Soda, cítricos, vermut dulce.",
+        "mixology": "Cynar Spritz, a softer Negroni, the Little Italy riff.",
+        "mixology_es": "Cynar Spritz, un Negroni más suave, la variante Little Italy.",
+        "examples": "Launched in 1952; the artichoke on the label is real — it's a key botanical.",
+        "examples_es": "Lanzado en 1952; la alcachofa de la etiqueta es real — es un botánico clave."
+       }
+      },
+      {
+       "name": "Fernet-Branca",
+       "name_fr": "Fernet-Branca",
+       "name_it": "Fernet-Branca",
+       "name_es": "Fernet-Branca",
+       "slug": "fernet-branca",
+       "panel": {
+        "origin": "Intensely bitter, minty, and medicinal with menthol, saffron, and a bracing finish.",
+        "origin_es": "Intensamente amargo, mentolado y medicinal, con mentol, azafrán y un final vigorizante.",
+        "chemistry": "A potent Italian amaro (~39%) of 27 herbs; the most bracing of the bitters.",
+        "chemistry_es": "Un amaro italiano potente (~39%) de 27 hierbas; el más fuerte de los amargos.",
+        "pairing": "Cola, coffee, mint.",
+        "pairing_es": "Cola, café, menta.",
+        "mixology": "The 'bartender's handshake' sipped neat; Hanky Panky, Toronto, Fernet & Coke.",
+        "mixology_es": "El 'apretón de manos del bartender' bebido solo; Hanky Panky, Toronto, Fernet con Coca.",
+        "examples": "From Milan (1845); originally sold as a digestive tonic, now a bartender badge of honor.",
+        "examples_es": "De Milán (1845); vendido al principio como tónico digestivo, hoy un emblema de los bartenders."
+       }
+      },
+      {
+       "name": "Amaro Montenegro",
+       "name_fr": "Amaro Montenegro",
+       "name_it": "Amaro Montenegro",
+       "name_es": "Amaro Montenegro",
+       "slug": "amaro-montenegro",
+       "panel": {
+        "origin": "Gentle, floral, and orange-bright with a rounded, approachable bitterness.",
+        "origin_es": "Suave, floral y con naranja brillante, de un amargor redondo y accesible.",
+        "chemistry": "An Italian amaro of 40 botanicals, including rose and orange; soft and aromatic.",
+        "chemistry_es": "Un amaro italiano de 40 botánicos, entre ellos rosa y naranja; suave y aromático.",
+        "pairing": "Soda, citrus, ginger.",
+        "pairing_es": "Soda, cítricos, jengibre.",
+        "mixology": "Sipped neat as a digestif, in highballs, or the Black Manhattan riff.",
+        "mixology_es": "Bebido solo como digestivo, en highballs, o en la variante Black Manhattan.",
+        "examples": "From Bologna (1885); one of the easiest amari for newcomers to love.",
+        "examples_es": "De Bolonia (1885); uno de los amari más fáciles de querer para los que empiezan."
+       }
+      },
+      {
+       "name": "Suze",
+       "name_fr": "Suze",
+       "name_it": "Suze",
+       "name_es": "Suze",
+       "slug": "suze",
+       "panel": {
+        "origin": "Bracingly bitter and earthy with a distinctive gentian-root tang; pale yellow.",
+        "origin_es": "Vigorizantemente amargo y terroso, con un dejo distintivo de raíz de genciana; amarillo pálido.",
+        "chemistry": "A French aperitif built on gentian root; dry, bitter, and lightly floral.",
+        "chemistry_es": "Un aperitivo francés basado en raíz de genciana; seco, amargo y levemente floral.",
+        "pairing": "Tonic, gin, white wine, sparkling wine.",
+        "pairing_es": "Tónica, ginebra, vino blanco, vino espumoso.",
+        "mixology": "White Negroni (with gin and Lillet), Suze & tonic.",
+        "mixology_es": "White Negroni (con ginebra y Lillet), Suze con tónica.",
+        "examples": "A French bistro classic (early 1900s), immortalized in a Picasso collage.",
+        "examples_es": "Un clásico de bistró francés (principios del s. XX), inmortalizado en un collage de Picasso."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HERBAL, MONASTIC & ANISE",
+   "name_fr": "HERBALES, MONASTIQUES & ANISÉS",
+   "name_it": "ERBACEI, MONASTICI & ANICE",
+   "name_es": "HERBALES, MONÁSTICOS Y DE ANÍS",
+   "color": "#5a7d3a",
+   "sub": [
+    {
+     "name": "HERBAL, MONASTIC & ANISE",
+     "name_fr": "HERBALES, MONASTIQUES & ANISÉS",
+     "name_it": "ERBACEI, MONASTICI & ANICE",
+     "name_es": "HERBALES, MONÁSTICOS Y DE ANÍS",
+     "color": "#5a7d3a",
+     "descriptors": [
+      {
+       "name": "Chartreuse",
+       "name_fr": "Chartreuse",
+       "name_it": "Chartreuse",
+       "name_es": "Chartreuse",
+       "slug": "chartreuse",
+       "panel": {
+        "origin": "Complex and herbal — honeyed and spicy (yellow) or drier and more potent (green).",
+        "origin_es": "Complejo y herbal — meloso y especiado (amarillo) o más seco y potente (verde).",
+        "chemistry": "Distilled by Carthusian monks from 130 herbs; Green is ~55% ABV, Yellow ~40% and sweeter.",
+        "chemistry_es": "Destilado por monjes cartujos a partir de 130 hierbas; el verde ~55%, el amarillo ~40% y más dulce.",
+        "pairing": "Gin, lime, citrus, herbs.",
+        "pairing_es": "Ginebra, lima, cítricos, hierbas.",
+        "mixology": "Last Word, Chartreuse Swizzle, Bijou, The Final Ward.",
+        "mixology_es": "Last Word, Chartreuse Swizzle, Bijou, The Final Ward.",
+        "examples": "Made in France since the 1700s; only a couple of monks know the full secret recipe.",
+        "examples_es": "Elaborado en Francia desde el siglo XVIII; solo un par de monjes conocen la receta secreta completa."
+       }
+      },
+      {
+       "name": "Bénédictine",
+       "name_fr": "Bénédictine",
+       "name_it": "Bénédictine",
+       "name_es": "Bénédictine",
+       "slug": "benedictine",
+       "panel": {
+        "origin": "Honeyed and herbal with warm baking spice, citrus peel, and a brandy roundness.",
+        "origin_es": "Meloso y herbal, con especia cálida de repostería, cáscara de cítrico y la redondez del brandy.",
+        "chemistry": "A Cognac-based liqueur of 27 herbs and spices, sweetened with honey.",
+        "chemistry_es": "Un licor con base de coñac, de 27 hierbas y especias, endulzado con miel.",
+        "pairing": "Brandy, rye, citrus.",
+        "pairing_es": "Brandy, whisky de centeno, cítricos.",
+        "mixology": "Vieux Carré, Singapore Sling, B&B (split with brandy).",
+        "mixology_es": "Vieux Carré, Singapore Sling, B&B (mitad con brandy).",
+        "examples": "From Fécamp, France; 'D.O.M.' on the label nods to its monastic origin story.",
+        "examples_es": "De Fécamp, Francia; el 'D.O.M.' de la etiqueta alude a su historia de origen monástico."
+       }
+      },
+      {
+       "name": "Jägermeister",
+       "name_fr": "Jägermeister",
+       "name_it": "Jägermeister",
+       "name_es": "Jägermeister",
+       "slug": "jagermeister",
+       "panel": {
+        "origin": "Sweet, herbal, and licorice-forward with citrus, anise, and a cooling finish.",
+        "origin_es": "Dulce, herbal y con regaliz al frente, con cítricos, anís y un final refrescante.",
+        "chemistry": "A German digestif of 56 herbs, roots, and spices (~35%), served ice-cold.",
+        "chemistry_es": "Un digestivo alemán de 56 hierbas, raíces y especias (~35%), servido muy frío.",
+        "pairing": "Cola, citrus, ginger, energy drink.",
+        "pairing_es": "Cola, cítricos, jengibre, bebida energética.",
+        "mixology": "Chilled shots, the Jägerbomb, and herbal highballs.",
+        "mixology_es": "Chupitos fríos, el Jägerbomb y highballs herbales.",
+        "examples": "From Wolfenbüttel, Germany (1934); 'Jägermeister' means 'master hunter.'",
+        "examples_es": "De Wolfenbüttel, Alemania (1934); 'Jägermeister' significa 'maestro cazador'."
+       }
+      },
+      {
+       "name": "Drambuie",
+       "name_fr": "Drambuie",
+       "name_it": "Drambuie",
+       "name_es": "Drambuie",
+       "slug": "drambuie",
+       "panel": {
+        "origin": "Honeyed and warming with Scotch whisky, heather honey, herbs, and a touch of spice.",
+        "origin_es": "Meloso y cálido, con whisky escocés, miel de brezo, hierbas y un toque de especia.",
+        "chemistry": "Scotch whisky sweetened with heather honey and infused with herbs and spices.",
+        "chemistry_es": "Whisky escocés endulzado con miel de brezo e infusionado con hierbas y especias.",
+        "pairing": "Scotch, lemon, soda.",
+        "pairing_es": "Whisky escocés, limón, soda.",
+        "mixology": "The Rusty Nail (with Scotch), and honeyed whisky highballs.",
+        "mixology_es": "El Rusty Nail (con whisky escocés) y highballs de whisky meloso.",
+        "examples": "A Scottish liqueur tied to Bonnie Prince Charlie legend; the name suggests 'the drink that satisfies.'",
+        "examples_es": "Un licor escocés ligado a la leyenda de Bonnie Prince Charlie; el nombre sugiere 'la bebida que satisface'."
+       }
+      },
+      {
+       "name": "Sambuca",
+       "name_fr": "Sambuca",
+       "name_it": "Sambuca",
+       "name_es": "Sambuca",
+       "slug": "sambuca",
+       "panel": {
+        "origin": "Intensely sweet anise and licorice with a clean, clear finish.",
+        "origin_es": "Anís y regaliz intensamente dulces, con un final limpio y claro.",
+        "chemistry": "An Italian anise liqueur flavored with star anise and elderflower; usually clear.",
+        "chemistry_es": "Un licor de anís italiano con anís estrellado y flor de saúco; normalmente claro.",
+        "pairing": "Coffee, citrus, anise.",
+        "pairing_es": "Café, cítricos, anís.",
+        "mixology": "Served 'con la mosca' (with three coffee beans), flamed, or in coffee.",
+        "mixology_es": "Servido 'con la mosca' (con tres granos de café), flambeado, o en el café.",
+        "examples": "An Italian digestivo; the three beans traditionally symbolize health, happiness, and prosperity.",
+        "examples_es": "Un digestivo italiano; los tres granos simbolizan salud, felicidad y prosperidad."
+       }
+      },
+      {
+       "name": "Pastis",
+       "name_fr": "Pastis",
+       "name_it": "Pastis",
+       "name_es": "Pastis",
+       "slug": "pastis",
+       "panel": {
+        "origin": "Bold anise and licorice with herbal, slightly sweet depth; turns milky with water.",
+        "origin_es": "Anís y regaliz intensos, con profundidad herbal y algo dulce; se vuelve lechoso con agua.",
+        "chemistry": "A French anise spirit (Marseille) flavored with star anise and licorice root (~40%+).",
+        "chemistry_es": "Un destilado de anís francés (Marsella) con anís estrellado y raíz de regaliz (~40%+).",
+        "pairing": "Cold water, ice, mint.",
+        "pairing_es": "Agua fría, hielo, menta.",
+        "mixology": "Served long with water (it louches cloudy) as a Provençal aperitif.",
+        "mixology_es": "Servido largo con agua (se vuelve turbio) como aperitivo provenzal.",
+        "examples": "France's answer to absinthe after its ban; Ricard and Pernod are the famous names.",
+        "examples_es": "La respuesta francesa a la absenta tras su prohibición; Ricard y Pernod son los nombres famosos."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLORAL & MINT LIQUEURS",
+   "name_fr": "LIQUEURS FLORALES & MENTHE",
+   "name_it": "LIQUORI FLOREALI & MENTA",
+   "name_es": "LICORES FLORALES Y DE MENTA",
+   "color": "#7a5aa8",
+   "sub": [
+    {
+     "name": "FLORAL & MINT LIQUEURS",
+     "name_fr": "LIQUEURS FLORALES & MENTHE",
+     "name_it": "LIQUORI FLOREALI & MENTA",
+     "name_es": "LICORES FLORALES Y DE MENTA",
+     "color": "#7a5aa8",
+     "descriptors": [
+      {
+       "name": "St-Germain (Elderflower)",
+       "name_fr": "St-Germain (Elderflower)",
+       "name_it": "St-Germain (Elderflower)",
+       "name_es": "St-Germain (Saúco)",
+       "slug": "st-germain",
+       "panel": {
+        "origin": "Delicate elderflower with pear, lychee, and a honeyed floral sweetness.",
+        "origin_es": "Flor de saúco delicada, con pera, lichi y un dulzor floral y meloso.",
+        "chemistry": "Made from fresh elderflowers macerated in a neutral spirit, then sweetened.",
+        "chemistry_es": "Hecho de flores de saúco frescas maceradas en alcohol neutro y endulzado.",
+        "pairing": "Champagne, gin, cucumber, citrus.",
+        "pairing_es": "Champagne, ginebra, pepino, cítricos.",
+        "mixology": "St-Germain Spritz, Hugo Spritz, a floral lift in countless modern drinks.",
+        "mixology_es": "St-Germain Spritz, Hugo Spritz, un toque floral en incontables tragos modernos.",
+        "examples": "A French liqueur (2007) whose flowers are hand-picked in the Alps each spring.",
+        "examples_es": "Un licor francés (2007) cuyas flores se recogen a mano en los Alpes cada primavera."
+       }
+      },
+      {
+       "name": "Crème de Violette",
+       "name_fr": "Crème de Violette",
+       "name_it": "Crème de Violette",
+       "name_es": "Crème de Violette",
+       "slug": "creme-de-violette",
+       "panel": {
+        "origin": "Floral, perfumed violet with a candied sweetness; deep purple.",
+        "origin_es": "Violeta floral y perfumada, con un dulzor acaramelado; púrpura intenso.",
+        "chemistry": "Violet flowers steeped in spirit and sweetened to a 'crème.'",
+        "chemistry_es": "Flores de violeta maceradas en alcohol y endulzadas hasta una 'crème'.",
+        "pairing": "Gin, lemon, citrus.",
+        "pairing_es": "Ginebra, limón, cítricos.",
+        "mixology": "The Aviation (its violet hue and floral note), Blue Moon.",
+        "mixology_es": "El Aviation (su tono violeta y nota floral), Blue Moon.",
+        "examples": "A vintage floral liqueur whose revival brought the classic Aviation back to bars.",
+        "examples_es": "Un licor floral antiguo cuyo regreso devolvió el clásico Aviation a las barras."
+       }
+      },
+      {
+       "name": "Crème de Menthe",
+       "name_fr": "Crème de Menthe",
+       "name_it": "Crème de Menthe",
+       "name_es": "Crème de Menthe",
+       "slug": "creme-de-menthe",
+       "panel": {
+        "origin": "Cool, sweet peppermint; clean and bright (green or clear white).",
+        "origin_es": "Menta fresca y dulce; limpia y brillante (verde o blanca transparente).",
+        "chemistry": "Mint steeped in spirit and sweetened; green is dyed, white is clear.",
+        "chemistry_es": "Menta macerada en alcohol y endulzada; la verde está teñida, la blanca es transparente.",
+        "pairing": "Chocolate, cream, coffee.",
+        "pairing_es": "Chocolate, nata, café.",
+        "mixology": "Grasshopper, Stinger, and minty dessert drinks.",
+        "mixology_es": "Grasshopper, Stinger y tragos de postre con menta.",
+        "examples": "A French-style mint liqueur; white is used when color would muddy a drink.",
+        "examples_es": "Un licor de menta de estilo francés; la blanca se usa cuando el color ensuciaría el trago."
+       }
+      },
+      {
+       "name": "Crème de Rose",
+       "name_fr": "Crème de Rose",
+       "name_it": "Crème de Rose",
+       "name_es": "Crème de Rose",
+       "slug": "creme-de-rose",
+       "panel": {
+        "origin": "Soft, perfumed rose petal with a delicate sweetness.",
+        "origin_es": "Pétalo de rosa suave y perfumado, con un dulzor delicado.",
+        "chemistry": "Rose petals (sometimes with vanilla and spice) steeped in spirit and sweetened.",
+        "chemistry_es": "Pétalos de rosa (a veces con vainilla y especia) macerados en alcohol y endulzados.",
+        "pairing": "Gin, citrus, sparkling wine.",
+        "pairing_es": "Ginebra, cítricos, vino espumoso.",
+        "mixology": "Vintage floral cocktails and spritzes.",
+        "mixology_es": "Cócteles florales antiguos y spritzes.",
+        "examples": "A rare old-style floral liqueur, prized for delicate rose aroma.",
+        "examples_es": "Un licor floral raro de estilo antiguo, apreciado por su delicado aroma a rosa."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NUTTY & SPICE LIQUEURS",
+   "name_fr": "LIQUEURS DE NOIX & ÉPICES",
+   "name_it": "LIQUORI DI FRUTTA SECCA & SPEZIE",
+   "name_es": "LICORES DE FRUTOS SECOS Y ESPECIAS",
+   "color": "#9a6a3a",
+   "sub": [
+    {
+     "name": "NUTTY & SPICE LIQUEURS",
+     "name_fr": "LIQUEURS DE NOIX & ÉPICES",
+     "name_it": "LIQUORI DI FRUTTA SECCA & SPEZIE",
+     "name_es": "LICORES DE FRUTOS SECOS Y ESPECIAS",
+     "color": "#9a6a3a",
+     "descriptors": [
+      {
+       "name": "Amaretto",
+       "name_fr": "Amaretto",
+       "name_it": "Amaretto",
+       "name_es": "Amaretto",
+       "slug": "amaretto",
+       "panel": {
+        "origin": "Sweet, rich almond with marzipan and a faint cherry-pit bitterness.",
+        "origin_es": "Almendra dulce y rica, con mazapán y un leve amargor de hueso de cereza.",
+        "chemistry": "Flavored with apricot kernels and/or almonds in a sweetened base — often nut-free in fact.",
+        "chemistry_es": "Aromatizado con huesos de albaricoque y/o almendras en base endulzada — a menudo sin frutos secos.",
+        "pairing": "Citrus, whiskey, coffee, cream.",
+        "pairing_es": "Cítricos, whisky, café, nata.",
+        "mixology": "Amaretto Sour, Godfather (with Scotch), French Connection.",
+        "mixology_es": "Amaretto Sour, Godfather (con whisky escocés), French Connection.",
+        "examples": "An Italian classic (Disaronno is the famous brand); 'amaretto' means 'a little bitter.'",
+        "examples_es": "Un clásico italiano (Disaronno es la marca famosa); 'amaretto' significa 'un poco amargo'."
+       }
+      },
+      {
+       "name": "Frangelico",
+       "name_fr": "Frangelico",
+       "name_it": "Frangelico",
+       "name_es": "Frangelico",
+       "slug": "frangelico",
+       "panel": {
+        "origin": "Toasted hazelnut with vanilla, cocoa, and a warm, rounded sweetness.",
+        "origin_es": "Avellana tostada con vainilla, cacao y un dulzor cálido y redondo.",
+        "chemistry": "Hazelnuts infused with cocoa, vanilla, and other flavors; sweetened.",
+        "chemistry_es": "Avellanas infusionadas con cacao, vainilla y otros sabores; endulzado.",
+        "pairing": "Coffee, chocolate, cream, Irish whiskey.",
+        "pairing_es": "Café, chocolate, nata, whiskey irlandés.",
+        "mixology": "Nutty Irishman, hazelnut espresso martinis, dessert drinks.",
+        "mixology_es": "Nutty Irishman, espresso martinis de avellana, tragos de postre.",
+        "examples": "An Italian liqueur in a friar-shaped bottle, nodding to a monastic legend.",
+        "examples_es": "Un licor italiano en una botella con forma de fraile, en guiño a una leyenda monástica."
+       }
+      },
+      {
+       "name": "Nocino",
+       "name_fr": "Nocino",
+       "name_it": "Nocino",
+       "name_es": "Nocino",
+       "slug": "nocino",
+       "panel": {
+        "origin": "Dark, bittersweet, and spiced with green walnut, clove, and cinnamon.",
+        "origin_es": "Oscuro, agridulce y especiado, con nuez verde, clavo y canela.",
+        "chemistry": "Unripe green walnuts steeped in spirit with spices and sugar; nearly black.",
+        "chemistry_es": "Nueces verdes sin madurar maceradas en alcohol con especias y azúcar; casi negro.",
+        "pairing": "Coffee, vanilla, dark chocolate.",
+        "pairing_es": "Café, vainilla, chocolate negro.",
+        "mixology": "Sipped as a digestif, or stirred into autumnal cocktails.",
+        "mixology_es": "Bebido como digestivo, o integrado en cócteles otoñales.",
+        "examples": "An Italian homemade tradition, the walnuts gathered young in early summer.",
+        "examples_es": "Una tradición casera italiana, con las nueces recogidas jóvenes a principios de verano."
+       }
+      },
+      {
+       "name": "Crème de Noyaux",
+       "name_fr": "Crème de Noyaux",
+       "name_it": "Crème de Noyaux",
+       "name_es": "Crème de Noyaux",
+       "slug": "creme-de-noyaux",
+       "panel": {
+        "origin": "Sweet, almond-like, and nutty with a marzipan character; usually pink-red.",
+        "origin_es": "Dulce, a almendra y a fruto seco, con carácter de mazapán; suele ser rosa-rojo.",
+        "chemistry": "Made from stone-fruit pits (apricot/cherry kernels), which carry an almond aroma; sweetened.",
+        "chemistry_es": "Hecho de huesos de fruta (albaricoque/cereza), que aportan aroma de almendra; endulzado.",
+        "pairing": "Cream, chocolate, citrus.",
+        "pairing_es": "Nata, chocolate, cítricos.",
+        "mixology": "The Pink Squirrel, and vintage almond-tinted cocktails.",
+        "mixology_es": "El Pink Squirrel y cócteles antiguos con tinte de almendra.",
+        "examples": "An old-school 'noyaux' (pit) liqueur; the almond flavor comes from the kernels, not nuts.",
+        "examples_es": "Un licor antiguo de 'noyaux' (huesos); el sabor a almendra viene de los huesos, no de frutos secos."
+       }
+      },
+      {
+       "name": "Fireball",
+       "name_fr": "Fireball",
+       "name_it": "Fireball",
+       "name_es": "Fireball",
+       "slug": "fireball",
+       "panel": {
+        "origin": "Hot cinnamon candy with a sweet, fiery whisky kick.",
+        "origin_es": "Caramelo de canela ardiente, con un golpe dulce y fogoso de whisky.",
+        "chemistry": "Canadian whisky sweetened and flavored heavily with cinnamon (~33% ABV).",
+        "chemistry_es": "Whisky canadiense endulzado y muy aromatizado con canela (~33%).",
+        "pairing": "Cider, cola, hot drinks.",
+        "pairing_es": "Sidra, cola, bebidas calientes.",
+        "mixology": "Chilled shots and cinnamon highballs.",
+        "mixology_es": "Chupitos fríos y highballs de canela.",
+        "examples": "A modern North American sensation; closer to a cinnamon liqueur than a whisky.",
+        "examples_es": "Un fenómeno norteamericano moderno; más cercano a un licor de canela que a un whisky."
+       }
+      },
+      {
+       "name": "Allspice Dram",
+       "name_fr": "Allspice Dram",
+       "name_it": "Allspice Dram",
+       "name_es": "Allspice Dram",
+       "slug": "allspice-dram",
+       "panel": {
+        "origin": "Warm, aromatic allspice (pimento) with clove, cinnamon, and a rum richness.",
+        "origin_es": "Pimienta de Jamaica cálida y aromática, con clavo, canela y la riqueza del ron.",
+        "chemistry": "Jamaican allspice berries steeped in rum and lightly sweetened; also called pimento dram.",
+        "chemistry_es": "Bayas de pimienta de Jamaica maceradas en ron y poco endulzadas; también llamado pimento dram.",
+        "pairing": "Rum, lime, tiki spices.",
+        "pairing_es": "Ron, lima, especias tiki.",
+        "mixology": "A tiki essential — Lion's Tail, Three Dots and a Dash, Nuclear Daiquiri.",
+        "mixology_es": "Un esencial tiki — Lion's Tail, Three Dots and a Dash, Nuclear Daiquiri.",
+        "examples": "A Jamaican liqueur; a few dashes add deep baking-spice warmth to tropical drinks.",
+        "examples_es": "Un licor jamaicano; unas gotas dan una cálida profundidad de especia a los tragos tropicales."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "COFFEE, CHOCOLATE & CREAM",
+   "name_fr": "CAFÉ, CHOCOLAT & CRÈME",
+   "name_it": "CAFFÈ, CIOCCOLATO & CREMA",
+   "name_es": "CAFÉ, CHOCOLATE Y CREMA",
+   "color": "#5a3a2a",
+   "sub": [
+    {
+     "name": "COFFEE, CHOCOLATE & CREAM",
+     "name_fr": "CAFÉ, CHOCOLAT & CRÈME",
+     "name_it": "CAFFÈ, CIOCCOLATO & CREMA",
+     "name_es": "CAFÉ, CHOCOLATE Y CREMA",
+     "color": "#5a3a2a",
+     "descriptors": [
+      {
+       "name": "Kahlúa",
+       "name_fr": "Kahlúa",
+       "name_it": "Kahlúa",
+       "name_es": "Kahlúa",
+       "slug": "kahlua",
+       "panel": {
+        "origin": "Sweet coffee with vanilla, caramel, and a rum-tinged richness.",
+        "origin_es": "Café dulce con vainilla, caramelo y una riqueza con dejo de ron.",
+        "chemistry": "Mexican coffee liqueur built on a rum base with arabica coffee and vanilla.",
+        "chemistry_es": "Licor de café mexicano sobre base de ron, con café arábica y vainilla.",
+        "pairing": "Vodka, cream, coffee, chocolate.",
+        "pairing_es": "Vodka, nata, café, chocolate.",
+        "mixology": "White Russian, Espresso Martini, Mudslide, Black Russian.",
+        "mixology_es": "White Russian, Espresso Martini, Mudslide, Black Russian.",
+        "examples": "From Veracruz, Mexico (1936); the world's best-known coffee liqueur.",
+        "examples_es": "De Veracruz, México (1936); el licor de café más conocido del mundo."
+       }
+      },
+      {
+       "name": "Tia Maria",
+       "name_fr": "Tia Maria",
+       "name_it": "Tia Maria",
+       "name_es": "Tía María",
+       "slug": "tia-maria",
+       "panel": {
+        "origin": "Lighter, brighter coffee with vanilla and a clean, less syrupy sweetness than Kahlúa.",
+        "origin_es": "Café más ligero y brillante, con vainilla y un dulzor limpio, menos almibarado que el Kahlúa.",
+        "chemistry": "A coffee liqueur of cold-brew arabica, vanilla, and a rum base.",
+        "chemistry_es": "Un licor de café de arábica en frío, vainilla y base de ron.",
+        "pairing": "Vodka, cream, coffee.",
+        "pairing_es": "Vodka, nata, café.",
+        "mixology": "Espresso Martini, Black Russian, coffee cocktails.",
+        "mixology_es": "Espresso Martini, Black Russian, cócteles de café.",
+        "examples": "Originally from Jamaica; a slightly drier alternative to Kahlúa.",
+        "examples_es": "Originario de Jamaica; una alternativa algo más seca al Kahlúa."
+       }
+      },
+      {
+       "name": "Espresso Liqueur",
+       "name_fr": "Liqueur d'Espresso",
+       "name_it": "Liquore all'Espresso",
+       "name_es": "Licor de Espresso",
+       "slug": "espresso-liqueur",
+       "panel": {
+        "origin": "Bold, roasty coffee with a bittersweet espresso intensity.",
+        "origin_es": "Café intenso y tostado, con la intensidad agridulce del espresso.",
+        "chemistry": "Concentrated espresso or coffee in a spirit base, sweetened; bolder than classic coffee liqueurs.",
+        "chemistry_es": "Espresso o café concentrado en base de alcohol, endulzado; más intenso que los licores de café clásicos.",
+        "pairing": "Vodka, cream, chocolate.",
+        "pairing_es": "Vodka, nata, chocolate.",
+        "mixology": "The modern Espresso Martini's secret to real coffee punch.",
+        "mixology_es": "El secreto del Espresso Martini moderno para un golpe de café real.",
+        "examples": "A newer wave of liqueurs (e.g., Mr Black) built for serious coffee flavor.",
+        "examples_es": "Una nueva ola de licores (p. ej., Mr Black) creados para un sabor de café serio."
+       }
+      },
+      {
+       "name": "Crème de Cacao",
+       "name_fr": "Crème de Cacao",
+       "name_it": "Crème de Cacao",
+       "name_es": "Crème de Cacao",
+       "slug": "creme-de-cacao",
+       "panel": {
+        "origin": "Sweet chocolate with vanilla; dark has cocoa depth, white is lighter and clear.",
+        "origin_es": "Chocolate dulce con vainilla; el oscuro tiene profundidad de cacao, el blanco es más ligero y claro.",
+        "chemistry": "Cacao and vanilla steeped in spirit and sweetened; dark (brown) or white (clear).",
+        "chemistry_es": "Cacao y vainilla macerados en alcohol y endulzados; oscuro (marrón) o blanco (claro).",
+        "pairing": "Cream, mint, coffee, brandy.",
+        "pairing_es": "Nata, menta, café, brandy.",
+        "mixology": "Grasshopper, Brandy Alexander, Twentieth Century.",
+        "mixology_es": "Grasshopper, Brandy Alexander, Twentieth Century.",
+        "examples": "A classic chocolate liqueur; white is used when a drink should stay pale.",
+        "examples_es": "Un licor de chocolate clásico; el blanco se usa cuando el trago debe quedar pálido."
+       }
+      },
+      {
+       "name": "Baileys Irish Cream",
+       "name_fr": "Baileys Irish Cream",
+       "name_it": "Baileys Irish Cream",
+       "name_es": "Baileys Irish Cream",
+       "slug": "baileys",
+       "panel": {
+        "origin": "Smooth, sweet cream with cocoa, vanilla, and a gentle Irish whiskey warmth.",
+        "origin_es": "Crema suave y dulce, con cacao, vainilla y la calidez suave del whiskey irlandés.",
+        "chemistry": "Fresh dairy cream blended and emulsified with Irish whiskey, cocoa, and vanilla.",
+        "chemistry_es": "Nata láctea fresca mezclada y emulsionada con whiskey irlandés, cacao y vainilla.",
+        "pairing": "Coffee, chocolate, Irish whiskey.",
+        "pairing_es": "Café, chocolate, whiskey irlandés.",
+        "mixology": "Over ice, in Irish Coffee, Mudslide, the B-52. (Contains dairy — keep it cold.)",
+        "mixology_es": "Con hielo, en Irish Coffee, Mudslide, el B-52. (Contiene lácteos — mantener en frío.)",
+        "examples": "Launched in 1974, the first cream liqueur; it founded the entire category.",
+        "examples_es": "Lanzado en 1974, el primer licor de crema; fundó toda la categoría."
+       }
+      },
+      {
+       "name": "Advocaat",
+       "name_fr": "Advocaat",
+       "name_it": "Advocaat",
+       "name_es": "Advocaat",
+       "slug": "advocaat",
+       "panel": {
+        "origin": "Rich, custardy, and sweet with egg-yolk body and vanilla.",
+        "origin_es": "Rico, tipo natilla y dulce, con cuerpo de yema de huevo y vainilla.",
+        "chemistry": "Egg yolks, sugar, and brandy blended into a thick, creamy liqueur.",
+        "chemistry_es": "Yemas de huevo, azúcar y brandy mezclados en un licor espeso y cremoso.",
+        "pairing": "Lemonade, cream, citrus.",
+        "pairing_es": "Limonada, nata, cítricos.",
+        "mixology": "The Snowball (with lemonade); spooned over desserts. (Contains egg.)",
+        "mixology_es": "El Snowball (con limonada); a cucharadas sobre postres. (Contiene huevo.)",
+        "examples": "A Dutch specialty — essentially a boozy custard, named from a word for 'advocate.'",
+        "examples_es": "Una especialidad neerlandesa — esencialmente una natilla con alcohol, del término para 'abogado'."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "ORANGE & CITRUS LIQUEURS": {
+   "en": "Curaçao began on a dry Caribbean island where transplanted Spanish orange trees turned bitter and inedible — but the fragrant peel became the base of the world's orange liqueurs.",
+   "es": "El curaçao nació en una seca isla caribeña donde los naranjos españoles trasplantados se volvieron amargos e incomibles — pero su cáscara fragante se hizo la base de los licores de naranja del mundo."
+  },
+  "BERRY & RED-FRUIT LIQUEURS": {
+   "en": "Maraschino is made from sour Marasca cherries crushed whole — pits and all — which is exactly where its faintly bitter, almond-like edge comes from.",
+   "es": "El maraschino se hace de cerezas Marasca ácidas trituradas enteras — con huesos y todo — y de ahí viene justo su borde levemente amargo, parecido a la almendra."
+  },
+  "ORCHARD & TROPICAL LIQUEURS": {
+   "en": "Midori means 'green' in Japanese, and the electric color is the whole point — it launched at a Studio 54 party in 1978 to fuel disco-era cocktails.",
+   "es": "Midori significa 'verde' en japonés, y el color eléctrico es toda la idea — se lanzó en una fiesta de Studio 54 en 1978 para alimentar los cócteles de la era disco."
+  },
+  "BITTER APERITIFS & AMARI": {
+   "en": "Campari got its signature red from carmine dye made of crushed cochineal insects for over a century, until the brand finally switched to an artificial colorant.",
+   "es": "El Campari obtuvo su rojo característico de un tinte de carmín hecho con cochinillas trituradas durante más de un siglo, hasta que la marca cambió a un colorante artificial."
+  },
+  "HERBAL, MONASTIC & ANISE": {
+   "en": "Only two Carthusian monks at a time know the full recipe for Chartreuse — a blend of 130 herbs — and they're famously not allowed to travel together.",
+   "es": "Solo dos monjes cartujos a la vez conocen la receta completa del Chartreuse — una mezcla de 130 hierbas — y, célebremente, no pueden viajar juntos."
+  },
+  "FLORAL & MINT LIQUEURS": {
+   "en": "St-Germain is pressed from elderflowers picked by hand in the French Alps each spring — and in the early days the blossoms were carried down the mountain on bicycles.",
+   "es": "El St-Germain se prensa de flores de saúco recogidas a mano en los Alpes franceses cada primavera — y al principio las flores bajaban de la montaña en bicicleta."
+  },
+  "NUTTY & SPICE LIQUEURS": {
+   "en": "Amaretto often tastes of almond without containing a single nut — the flavor comes from apricot kernels, whose pits share the same aromatic compound as almonds.",
+   "es": "El amaretto a menudo sabe a almendra sin contener un solo fruto seco — el sabor viene de los huesos de albaricoque, que comparten el mismo compuesto aromático que la almendra."
+  },
+  "COFFEE, CHOCOLATE & CREAM": {
+   "en": "Baileys had to invent a way to stop cream and whiskey from separating — once they cracked that emulsion in 1974, the entire cream-liqueur category was born.",
+   "es": "Baileys tuvo que inventar cómo evitar que la nata y el whiskey se separaran — cuando lograron esa emulsión en 1974, nació toda la categoría de licores de crema."
+  }
+ }
+}

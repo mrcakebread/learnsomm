@@ -1,0 +1,818 @@
+{
+ "title": "Pasta",
+ "subject": "pasta",
+ "categories": [
+  {
+   "name": "LONG & THIN PASTA",
+   "name_fr": "Pâtes Longues & Fines",
+   "name_it": "Pasta Lunga & Sottile",
+   "name_es": "PASTA LARGA Y FINA",
+   "sub": [
+    {
+     "name": "LONG & THIN PASTA",
+     "name_fr": "Pâtes Longues & Fines",
+     "name_it": "Pasta Lunga & Sottile",
+     "name_es": "PASTA LARGA Y FINA",
+     "descriptors": [
+      {
+       "name": "Spaghetti",
+       "name_fr": "Spaghetti",
+       "name_it": "Spaghetti",
+       "name_es": "Spaghetti",
+       "slug": "spaghetti",
+       "panel": {
+        "origin": "Invented in 12th-century Arab-ruled Sicily, among the first dried pastas in history; the name means 'little strings.'",
+        "origin_es": "Inventado en la Sicilia gobernada por los árabes en el siglo XII, una de las primeras pastas secas de la historia; su nombre significa 'pequeñas cuerdas.'",
+        "chemistry": "A long, round, solid strand of durum wheat and water — its neutral shape makes it endlessly adaptable to almost any sauce.",
+        "chemistry_es": "Un hilo largo, redondo y macizo de trigo duro y agua — su forma neutra lo hace adaptable a casi cualquier salsa.",
+        "mixology": "Cook until al dente and toss directly in the sauce off the heat, using starchy pasta water to help the sauce cling.",
+        "mixology_es": "Cocer hasta al dente y mezclar directamente con la salsa fuera del fuego, usando agua de cocción almidonada para que la salsa se adhiera.",
+        "examples": "Pairs beautifully with simple tomato sauces, aglio e olio, or a classic carbonara.",
+        "examples_es": "Combina muy bien con salsas de tomate simples, aglio e olio o una carbonara clásica."
+       }
+      },
+      {
+       "name": "Bucatini",
+       "name_fr": "Bucatini",
+       "name_it": "Bucatini",
+       "name_es": "Bucatini",
+       "slug": "bucatini",
+       "panel": {
+        "origin": "A thick, hollow strand traditionally associated with Lazio and Rome; its name comes from 'buco,' meaning hole.",
+        "origin_es": "Un hilo grueso y hueco tradicionalmente asociado con el Lacio y Roma; su nombre viene de 'buco', que significa agujero.",
+        "chemistry": "The central hollow lets sauce cling to both the inside and outside of the strand, adding a different mouthfeel than solid spaghetti.",
+        "chemistry_es": "El hueco central permite que la salsa se adhiera tanto por dentro como por fuera del hilo, dando una sensación distinta al spaghetti macizo.",
+        "mixology": "Twirl carefully — the hollow center can trap air and cause 'spitting' if eaten too quickly.",
+        "mixology_es": "Enrollar con cuidado — el centro hueco puede atrapar aire y 'salpicar' si se come muy rápido.",
+        "examples": "The traditional pairing for Amatriciana, where the sauce coats every surface of the tube.",
+        "examples_es": "El maridaje tradicional para la Amatriciana, donde la salsa recubre cada superficie del tubo."
+       }
+      },
+      {
+       "name": "Linguine",
+       "name_fr": "Linguine",
+       "name_it": "Linguine",
+       "name_es": "Linguine",
+       "slug": "linguine",
+       "panel": {
+        "origin": "A flat, narrow ribbon from Liguria whose name means 'little tongues,' closely related to trenette and bavette.",
+        "origin_es": "Una cinta plana y angosta de Liguria cuyo nombre significa 'lengüitas', emparentada con la trenette y la bavette.",
+        "chemistry": "Slightly flatter and wider than spaghetti, giving sauces a bit more surface area to grip.",
+        "chemistry_es": "Un poco más plana y ancha que el spaghetti, ofreciendo más superficie para que la salsa se adhiera.",
+        "mixology": "Cook al dente and finish in the pan with the sauce so the flat surface absorbs flavor evenly.",
+        "mixology_es": "Cocer al dente y terminar en la sartén con la salsa para que la superficie plana absorba el sabor de manera uniforme.",
+        "examples": "The classic match for pesto Genovese and seafood sauces like vongole (clam sauce).",
+        "examples_es": "El maridaje clásico para el pesto genovés y salsas de mar como la de almejas (vongole)."
+       }
+      },
+      {
+       "name": "Capellini",
+       "name_fr": "Capellini",
+       "name_it": "Capellini",
+       "name_es": "Capellini (Cabello de Ángel)",
+       "slug": "capellini",
+       "panel": {
+        "origin": "Known as 'angel hair,' this extremely fine strand was historically sold under the name capellini, meaning 'thin hairs.'",
+        "origin_es": "Conocido como 'cabello de ángel', este hilo extremadamente fino se vendía históricamente como capellini, es decir, 'cabellos finos.'",
+        "chemistry": "The thinnest common long pasta, cooking in just a couple of minutes — too delicate for heavy or chunky sauces.",
+        "chemistry_es": "La pasta larga común más fina, que se cuece en un par de minutos — demasiado delicada para salsas pesadas o con trozos grandes.",
+        "mixology": "Cook very briefly and serve immediately, as it overcooks and clumps quickly.",
+        "mixology_es": "Cocer muy brevemente y servir de inmediato, ya que se sobrecuece y se apelmaza rápido.",
+        "examples": "Best with light, brothy, or oil-based sauces such as aglio e olio or a delicate lemon sauce.",
+        "examples_es": "Mejor con salsas ligeras, caldosas o a base de aceite, como aglio e olio o una delicada salsa de limón."
+       }
+      }
+     ],
+     "color": "#c9a13a"
+    }
+   ],
+   "color": "#c9a13a"
+  },
+  {
+   "name": "RIBBON PASTA",
+   "name_fr": "Pâtes en Ruban",
+   "name_it": "Pasta a Nastro",
+   "name_es": "PASTA EN CINTA",
+   "sub": [
+    {
+     "name": "RIBBON PASTA",
+     "name_fr": "Pâtes en Ruban",
+     "name_it": "Pasta a Nastro",
+     "name_es": "PASTA EN CINTA",
+     "descriptors": [
+      {
+       "name": "Tagliatelle",
+       "name_fr": "Tagliatelle",
+       "name_it": "Tagliatelle",
+       "name_es": "Tagliatelle",
+       "slug": "tagliatelle",
+       "panel": {
+        "origin": "An egg-based ribbon pasta from Emilia-Romagna, named for the verb 'tagliare,' to cut; legend credits its invention to a 15th-century cook inspired by a bride's golden hair.",
+        "origin_es": "Una pasta en cinta a base de huevo de Emilia-Romaña, cuyo nombre viene del verbo 'tagliare', cortar; la leyenda atribuye su invención a un cocinero del siglo XV inspirado en el cabello dorado de una novia.",
+        "chemistry": "Long, flat egg noodles with enough body to stand up to rich, slow-cooked sauces without breaking apart.",
+        "chemistry_es": "Cintas largas y planas de pasta al huevo con suficiente cuerpo para soportar salsas ricas y de cocción lenta sin deshacerse.",
+        "mixology": "Toss with the sauce in the pan rather than serving sauce on top, so every ribbon is coated.",
+        "mixology_es": "Mezclar con la salsa en la sartén en lugar de servirla por encima, para que cada cinta quede bien cubierta.",
+        "examples": "The traditional partner for ragù alla Bolognese.",
+        "examples_es": "La pareja tradicional del ragú a la boloñesa."
+       }
+      },
+      {
+       "name": "Fettuccine",
+       "name_fr": "Fettuccine",
+       "name_it": "Fettuccine",
+       "name_es": "Fettuccine",
+       "slug": "fettuccine",
+       "panel": {
+        "origin": "A Roman/Tuscan egg ribbon similar to tagliatelle but slightly narrower; its name means 'little ribbons.'",
+        "origin_es": "Una cinta de huevo romana/toscana similar a la tagliatelle pero algo más angosta; su nombre significa 'cintitas.'",
+        "chemistry": "Rich, eggy dough gives it a tender bite that holds creamy and butter-based sauces well.",
+        "chemistry_es": "Su masa rica en huevo le da un bocado tierno que sostiene bien las salsas cremosas y a base de mantequilla.",
+        "mixology": "Finish in a warm pan with butter or cream so the sauce emulsifies onto the noodles.",
+        "mixology_es": "Terminar en una sartén tibia con mantequilla o crema para que la salsa se emulsione sobre la pasta.",
+        "examples": "Famous as the base of fettuccine Alfredo, also pairs well with mushroom or cream sauces.",
+        "examples_es": "Famosa como base del fettuccine Alfredo, también combina bien con salsas de hongos o cremosas."
+       }
+      },
+      {
+       "name": "Pappardelle",
+       "name_fr": "Pappardelle",
+       "name_it": "Pappardelle",
+       "name_es": "Pappardelle",
+       "slug": "pappardelle",
+       "panel": {
+        "origin": "A wide Tuscan egg ribbon whose name comes from 'pappare,' to gobble up with gusto.",
+        "origin_es": "Una ancha cinta toscana de huevo cuyo nombre viene de 'pappare', comer con gran gusto.",
+        "chemistry": "The broadest common ribbon shape, with enough surface area and chew to carry chunky, long-braised sauces.",
+        "chemistry_es": "La cinta común más ancha, con suficiente superficie y mordida para llevar salsas con trozos y de cocción larga.",
+        "mixology": "Cook just to al dente — the wide surface can become gummy if overcooked or under-sauced.",
+        "mixology_es": "Cocer justo al dente — la superficie ancha puede volverse gomosa si se sobrecuece o le falta salsa.",
+        "examples": "The classic match for game ragùs such as wild boar (cinghiale) or rabbit, and rich Bolognese.",
+        "examples_es": "El maridaje clásico para ragús de caza como el de jabalí (cinghiale) o conejo, y la boloñesa rica."
+       }
+      },
+      {
+       "name": "Mafaldine",
+       "name_fr": "Mafaldine",
+       "name_it": "Mafaldine",
+       "name_es": "Mafaldine",
+       "slug": "mafaldine",
+       "panel": {
+        "origin": "A ruffled-edge ribbon, also called 'reginette' ('little queens'), said to be named in honor of an Italian princess.",
+        "origin_es": "Una cinta de borde rizado, también llamada 'reginette' ('reinitas'), que según se dice fue nombrada en honor a una princesa italiana.",
+        "chemistry": "Flat and wide like a narrow lasagna noodle, with decorative wavy edges that add texture and visual interest.",
+        "chemistry_es": "Plana y ancha como una lasaña angosta, con bordes ondulados decorativos que añaden textura e interés visual.",
+        "mixology": "Treat like a wide ribbon pasta — cook al dente and toss gently to avoid tearing the ruffled edges.",
+        "mixology_es": "Tratarla como una cinta ancha — cocer al dente y mezclar con cuidado para no romper los bordes rizados.",
+        "examples": "Often paired with creamy sauces or lobster and tomato preparations.",
+        "examples_es": "A menudo se combina con salsas cremosas o preparaciones de langosta y tomate."
+       }
+      }
+     ],
+     "color": "#b07a3a"
+    }
+   ],
+   "color": "#b07a3a"
+  },
+  {
+   "name": "SHORT TUBES",
+   "name_fr": "Tubes Courts",
+   "name_it": "Tubi Corti",
+   "name_es": "TUBOS CORTOS",
+   "sub": [
+    {
+     "name": "SHORT TUBES",
+     "name_fr": "Tubes Courts",
+     "name_it": "Tubi Corti",
+     "name_es": "TUBOS CORTOS",
+     "descriptors": [
+      {
+       "name": "Penne",
+       "name_fr": "Penne",
+       "name_it": "Penne",
+       "name_es": "Penne",
+       "slug": "penne",
+       "panel": {
+        "origin": "A cylindrical tube with angled, quill-like ends — 'penne' means 'quills' or 'pens' in Italian.",
+        "origin_es": "Un tubo cilíndrico con extremos en ángulo, como plumas — 'penne' significa 'plumas' o 'bolígrafos' en italiano.",
+        "chemistry": "The diagonal cut creates pointed ends that pierce easily, while the hollow center and ridges (in 'rigate' versions) hold sauce inside and out.",
+        "chemistry_es": "El corte diagonal crea extremos puntiagudos que pinchan fácilmente, mientras el centro hueco y las estrías (en versiones 'rigate') retienen salsa por dentro y por fuera.",
+        "mixology": "Cook al dente; the tube traps sauce, so a slightly thinner sauce coats more evenly than a very thick one.",
+        "mixology_es": "Cocer al dente; el tubo atrapa la salsa, así que una salsa algo más ligera cubre de manera más uniforme que una muy espesa.",
+        "examples": "A natural match for vodka sauce, arrabbiata, or baked dishes with cheese.",
+        "examples_es": "Combina de forma natural con salsa vodka, arrabbiata o platos horneados con queso."
+       }
+      },
+      {
+       "name": "Rigatoni",
+       "name_fr": "Rigatoni",
+       "name_it": "Rigatoni",
+       "name_es": "Rigatoni",
+       "slug": "rigatoni",
+       "panel": {
+        "origin": "A large, ridged tube popular throughout central and southern Italy, prized for holding hearty sauces.",
+        "origin_es": "Un tubo grande y estriado popular en el centro y sur de Italia, valorado por sostener salsas contundentes.",
+        "chemistry": "Wide diameter and pronounced ridges create maximum surface area for thick, chunky meat sauces to cling to.",
+        "chemistry_es": "Su gran diámetro y marcadas estrías crean la máxima superficie para que se adhieran salsas espesas con trozos de carne.",
+        "mixology": "Cook al dente and toss thoroughly so the ragù fills the tubes as well as coating the outside.",
+        "mixology_es": "Cocer al dente y mezclar bien para que el ragú llene los tubos además de cubrir el exterior.",
+        "examples": "A favorite for ragù alla Bolognese, sugo di carne, and baked pasta dishes.",
+        "examples_es": "Una favorita para el ragú a la boloñesa, el sugo di carne y platos de pasta al horno."
+       }
+      },
+      {
+       "name": "Paccheri",
+       "name_fr": "Paccheri",
+       "name_it": "Paccheri",
+       "name_es": "Paccheri",
+       "slug": "paccheri",
+       "panel": {
+        "origin": "A very large, smooth tube from Campania, the name derived from a dialect word for a loud slap, evoking the sound of the dough being worked.",
+        "origin_es": "Un tubo muy grande y liso de Campania, cuyo nombre proviene de una palabra dialectal para una palmada fuerte, evocando el sonido de la masa al trabajarla.",
+        "chemistry": "Its wide opening and smooth (sometimes ribbed) surface make it almost a vessel for sauce and other ingredients.",
+        "chemistry_es": "Su gran apertura y superficie lisa (a veces estriada) lo convierten casi en un recipiente para la salsa y otros ingredientes.",
+        "mixology": "Cook gently to keep the tubes intact; they can be served whole or sliced into rings.",
+        "mixology_es": "Cocer con cuidado para mantener los tubos intactos; pueden servirse enteros o cortados en aros.",
+        "examples": "Pairs beautifully with seafood ragùs or rich tomato and meat sauces that can pool inside the tube.",
+        "examples_es": "Combina muy bien con ragús de mar o salsas ricas de tomate y carne que se acumulan dentro del tubo."
+       }
+      },
+      {
+       "name": "Ziti",
+       "name_fr": "Ziti",
+       "name_it": "Ziti",
+       "name_es": "Ziti",
+       "slug": "ziti",
+       "panel": {
+        "origin": "A long, narrow tube from southern Italy, traditionally associated with celebratory meals and the word 'zita' (bride).",
+        "origin_es": "Un tubo largo y angosto del sur de Italia, tradicionalmente asociado a comidas festivas y a la palabra 'zita' (novia).",
+        "chemistry": "Narrower than rigatoni or paccheri, with a smooth surface and hollow center that holds sauce without becoming heavy.",
+        "chemistry_es": "Más angosto que el rigatoni o el paccheri, de superficie lisa y centro hueco que retiene salsa sin volverse pesado.",
+        "mixology": "Often baked after boiling, allowing it to absorb sauce and cheese in the oven.",
+        "mixology_es": "A menudo se hornea después de hervirlo, permitiendo que absorba salsa y queso en el horno.",
+        "examples": "A classic choice for baked ziti with tomato sauce, ricotta, and mozzarella.",
+        "examples_es": "Una opción clásica para el ziti al horno con salsa de tomate, ricotta y mozzarella."
+       }
+      }
+     ],
+     "color": "#8a5a3a"
+    }
+   ],
+   "color": "#8a5a3a"
+  },
+  {
+   "name": "TWISTS & SHELLS",
+   "name_fr": "Spirales & Coquilles",
+   "name_it": "Spirali & Conchiglie",
+   "name_es": "ESPIRALES Y CONCHAS",
+   "sub": [
+    {
+     "name": "TWISTS & SHELLS",
+     "name_fr": "Spirales & Coquilles",
+     "name_it": "Spirali & Conchiglie",
+     "name_es": "ESPIRALES Y CONCHAS",
+     "descriptors": [
+      {
+       "name": "Fusilli",
+       "name_fr": "Fusilli",
+       "name_it": "Fusilli",
+       "name_es": "Fusilli",
+       "slug": "fusilli",
+       "panel": {
+        "origin": "A corkscrew-shaped pasta whose name comes from 'fuso,' a spindle, evoking the twisting motion used to shape it by hand.",
+        "origin_es": "Una pasta en forma de tirabuzón cuyo nombre viene de 'fuso', un huso, evocando el movimiento de torsión usado para darle forma a mano.",
+        "chemistry": "The tight spiral creates many nooks that trap sauce, herbs, and small bits of vegetable or cheese.",
+        "chemistry_es": "Su espiral apretada crea muchos rincones que atrapan salsa, hierbas y pequeños trozos de verdura o queso.",
+        "mixology": "Cook al dente; works equally well hot, tossed in sauce, or cold in pasta salads.",
+        "mixology_es": "Cocer al dente; funciona igual de bien caliente, mezclado con salsa, o frío en ensaladas de pasta.",
+        "examples": "A go-to for pesto, chunky vegetable sauces, and pasta salads.",
+        "examples_es": "Una opción habitual para el pesto, salsas de verduras con trozos y ensaladas de pasta."
+       }
+      },
+      {
+       "name": "Cavatappi",
+       "name_fr": "Cavatappi",
+       "name_it": "Cavatappi",
+       "name_es": "Cavatappi",
+       "slug": "cavatappi",
+       "panel": {
+        "origin": "A corkscrew-shaped tube whose name means 'corkscrew,' combining the twist of fusilli with a hollow center.",
+        "origin_es": "Un tubo en forma de tirabuzón cuyo nombre significa 'sacacorchos', combinando el giro del fusilli con un centro hueco.",
+        "chemistry": "The hollow spiral traps sauce both inside the tube and within its curves, giving an exceptionally sauce-friendly shape.",
+        "chemistry_es": "Su espiral hueca atrapa salsa tanto dentro del tubo como en sus curvas, dando una forma excepcionalmente apta para la salsa.",
+        "mixology": "Ideal for baked dishes — cook al dente before baking so it doesn't turn mushy in the oven.",
+        "mixology_es": "Ideal para platos horneados — cocer al dente antes de hornear para que no quede blando en el horno.",
+        "examples": "A favorite for baked macaroni and cheese and creamy, cheese-based sauces.",
+        "examples_es": "Una favorita para el macaroni and cheese al horno y salsas cremosas a base de queso."
+       }
+      },
+      {
+       "name": "Conchiglie",
+       "name_fr": "Conchiglie",
+       "name_it": "Conchiglie",
+       "name_es": "Conchiglie (Caracolas)",
+       "slug": "conchiglie",
+       "panel": {
+        "origin": "Shell-shaped pasta ('conchiglie' means 'shells'), found in sizes from tiny soup shells to large stuffing shells.",
+        "origin_es": "Pasta en forma de concha ('conchiglie' significa 'conchas'), en tamaños desde pequeñas conchas para sopa hasta grandes para rellenar.",
+        "chemistry": "The concave shape acts like a little cup, scooping up sauce, cheese, or filling with every bite.",
+        "chemistry_es": "Su forma cóncava actúa como una pequeña copa, recogiendo salsa, queso o relleno en cada bocado.",
+        "mixology": "Small shells suit soups and brothy dishes; large shells are parboiled, then stuffed and baked.",
+        "mixology_es": "Las conchas pequeñas son ideales para sopas y caldos; las grandes se hierven parcialmente, se rellenan y se hornean.",
+        "examples": "Large shells are classic for stuffing with ricotta and spinach and baking in tomato sauce.",
+        "examples_es": "Las conchas grandes son clásicas para rellenar con ricotta y espinaca y hornear en salsa de tomate."
+       }
+      },
+      {
+       "name": "Trofie",
+       "name_fr": "Trofie",
+       "name_it": "Trofie",
+       "name_es": "Trofie",
+       "slug": "trofie",
+       "panel": {
+        "origin": "A short, twisted hand-rolled pasta from Liguria, with origins said to date back to the era of the Crusades.",
+        "origin_es": "Una pasta corta y retorcida hecha a mano en Liguria, cuyo origen se dice que data de la época de las Cruzadas.",
+        "chemistry": "Dense and slightly chewy, with a twisted shape that catches thick, emulsified sauces.",
+        "chemistry_es": "Densa y algo elástica, con una forma retorcida que atrapa salsas espesas y emulsionadas.",
+        "mixology": "Traditionally boiled together with green beans and potatoes before being tossed with sauce.",
+        "mixology_es": "Tradicionalmente se hierve junto con judías verdes y papas antes de mezclarla con la salsa.",
+        "examples": "The traditional partner for pesto Genovese, often served with the potatoes and green beans cooked alongside it.",
+        "examples_es": "La pareja tradicional del pesto genovés, a menudo servida con las papas y judías verdes cocidas junto a ella."
+       }
+      }
+     ],
+     "color": "#a8653a"
+    }
+   ],
+   "color": "#a8653a"
+  },
+  {
+   "name": "HAND-SHAPED & STUFFED",
+   "name_fr": "Façonnées à la Main & Farcies",
+   "name_it": "Fatte a Mano & Ripiene",
+   "name_es": "RELLENAS Y HECHAS A MANO",
+   "sub": [
+    {
+     "name": "HAND-SHAPED & STUFFED",
+     "name_fr": "Façonnées à la Main & Farcies",
+     "name_it": "Fatte a Mano & Ripiene",
+     "name_es": "RELLENAS Y HECHAS A MANO",
+     "descriptors": [
+      {
+       "name": "Orecchiette",
+       "name_fr": "Orecchiette",
+       "name_it": "Orecchiette",
+       "name_es": "Orecchiette",
+       "slug": "orecchiette",
+       "panel": {
+        "origin": "'Little ears' from Puglia, a shape believed to have arrived via Provence with Jewish settlers in the 12th century.",
+        "origin_es": "'Orejitas' de Apulia, una forma que se cree llegó vía Provenza con colonos judíos en el siglo XII.",
+        "chemistry": "The small, cupped disc has a thicker center and thinner edges, giving a pleasing chew with a tender rim.",
+        "chemistry_es": "El pequeño disco cóncavo tiene un centro más grueso y bordes finos, dando una mordida agradable con un borde tierno.",
+        "mixology": "Cook al dente; the cup shape is designed to scoop up small bits of greens, sausage, or breadcrumbs.",
+        "mixology_es": "Cocer al dente; su forma de copa está pensada para recoger trocitos de verduras, salchicha o pan rallado.",
+        "examples": "The iconic pairing with turnip greens (cime di rapa) or broccoli rabe and sausage.",
+        "examples_es": "El maridaje icónico con grelos (cime di rapa) o brócoli rabe y salchicha."
+       }
+      },
+      {
+       "name": "Cavatelli",
+       "name_fr": "Cavatelli",
+       "name_it": "Cavatelli",
+       "name_es": "Cavatelli",
+       "slug": "cavatelli",
+       "panel": {
+        "origin": "A small, ridged, shell-like pasta from southern Italy (Puglia, Calabria, Basilicata), made from semolina and warm salted water.",
+        "origin_es": "Una pasta pequeña, estriada y con forma de concha del sur de Italia (Apulia, Calabria, Basilicata), hecha con sémola y agua tibia con sal.",
+        "chemistry": "A cross between orecchiette and gnocchi — slightly doughy, with a curled shape that holds sauce in its fold.",
+        "chemistry_es": "Una mezcla entre orecchiette y ñoquis — algo masuda, con una forma curvada que retiene salsa en su pliegue.",
+        "mixology": "Best enjoyed fresh; simmer briefly as fresh pasta cooks much faster than dried.",
+        "mixology_es": "Mejor fresca; cocer brevemente, ya que la pasta fresca se cuece mucho más rápido que la seca.",
+        "examples": "Traditionally served with simple oil-and-garlic sauces, but also pairs well with cream or vegetable sauces.",
+        "examples_es": "Tradicionalmente servida con simples salsas de aceite y ajo, pero también combina bien con salsas cremosas o de verduras."
+       }
+      },
+      {
+       "name": "Tortellini",
+       "name_fr": "Tortellini",
+       "name_it": "Tortellini",
+       "name_es": "Tortellini",
+       "slug": "tortellini",
+       "panel": {
+        "origin": "'Small little pies' from Emilia-Romagna, traditionally filled with stewed meat, Parmigiano-Reggiano, and spices, dating to the Middle Ages.",
+        "origin_es": "'Pequeñas empanaditas' de Emilia-Romaña, tradicionalmente rellenas de carne estofada, Parmigiano-Reggiano y especias, con origen en la Edad Media.",
+        "chemistry": "A small ring of folded pasta enclosing a savory filling, giving a contrast between tender wrapper and rich center.",
+        "chemistry_es": "Un pequeño anillo de pasta doblada que encierra un relleno sabroso, dando un contraste entre la masa tierna y el centro sabroso.",
+        "mixology": "Simmer gently in broth or boiling water just until the pasta is tender — overcooking can split the seam.",
+        "mixology_es": "Cocer suavemente en caldo o agua hirviendo solo hasta que la pasta esté tierna — sobrecocerla puede abrir la costura.",
+        "examples": "Classically served 'in brodo' (in chicken broth), especially for festive occasions.",
+        "examples_es": "Clásicamente servidos 'in brodo' (en caldo de pollo), especialmente en ocasiones festivas."
+       }
+      },
+      {
+       "name": "Ravioli",
+       "name_fr": "Ravioli",
+       "name_it": "Ravioli",
+       "name_es": "Ravioli",
+       "slug": "ravioli",
+       "panel": {
+        "origin": "A general term for filled pasta pockets, with the earliest known written recipe dating to a 14th-century Tuscan merchant's writings.",
+        "origin_es": "Un término general para bolsitas de pasta rellena, con la receta escrita más antigua conocida en los escritos de un comerciante toscano del siglo XIV.",
+        "chemistry": "Two thin sheets of pasta enclose a filling — meat, cheese, or vegetable — that varies widely by region.",
+        "chemistry_es": "Dos láminas finas de pasta encierran un relleno — carne, queso o verdura — que varía mucho según la región.",
+        "mixology": "Boil gently in salted water until the pasta is cooked through but the filling stays intact; drain carefully to avoid tearing.",
+        "mixology_es": "Hervir suavemente en agua con sal hasta que la pasta esté cocida pero el relleno se mantenga intacto; escurrir con cuidado para no romperlos.",
+        "examples": "Often served simply with butter and sage, a light tomato sauce, or in broth.",
+        "examples_es": "A menudo servidos simplemente con mantequilla y salvia, una salsa de tomate ligera, o en caldo."
+       }
+      }
+     ],
+     "color": "#c98a4a"
+    }
+   ],
+   "color": "#c98a4a"
+  },
+  {
+   "name": "TOMATO-BASED SAUCES",
+   "name_fr": "Sauces à la Tomate",
+   "name_it": "Salse al Pomodoro",
+   "name_es": "SALSAS DE TOMATE",
+   "sub": [
+    {
+     "name": "TOMATO-BASED SAUCES",
+     "name_fr": "Sauces à la Tomate",
+     "name_it": "Salse al Pomodoro",
+     "name_es": "SALSAS DE TOMATE",
+     "descriptors": [
+      {
+       "name": "Marinara",
+       "name_fr": "Marinara",
+       "name_it": "Marinara",
+       "name_es": "Marinara",
+       "slug": "marinara",
+       "panel": {
+        "origin": "A simple red sauce from Naples, its name linked to 'marinara' (sailor's), since its shelf-stable ingredients suited long sea voyages.",
+        "origin_es": "Una sencilla salsa roja de Nápoles, cuyo nombre se vincula a 'marinara' (de marineros), ya que sus ingredientes de larga duración eran ideales para largas travesías.",
+        "chemistry": "A quick reduction of tomatoes, garlic, olive oil, and herbs — thinner and brighter than a long-simmered sauce.",
+        "chemistry_es": "Una reducción rápida de tomate, ajo, aceite de oliva y hierbas — más ligera y fresca que una salsa de cocción larga.",
+        "mixology": "Simmer just long enough for the tomatoes to break down, keeping the flavor fresh rather than deeply cooked.",
+        "mixology_es": "Cocer a fuego lento solo el tiempo necesario para que el tomate se deshaga, manteniendo un sabor fresco en lugar de muy cocido.",
+        "examples": "A versatile base, used on its own or as the starting point for arrabbiata or puttanesca.",
+        "examples_es": "Una base versátil, usada sola o como punto de partida para la arrabbiata o la puttanesca."
+       }
+      },
+      {
+       "name": "Arrabbiata",
+       "name_fr": "Arrabbiata",
+       "name_it": "Arrabbiata",
+       "name_es": "Arrabbiata",
+       "slug": "arrabbiata",
+       "panel": {
+        "origin": "From Rome and Lazio, 'arrabbiata' means 'angry,' referring to the heat of the chili peppers in the sauce.",
+        "origin_es": "De Roma y el Lacio, 'arrabbiata' significa 'enojada', refiriéndose al picante de los chiles en la salsa.",
+        "chemistry": "A tomato base enriched with pecorino and a generous dose of chili, giving it a spicy, assertive character.",
+        "chemistry_es": "Una base de tomate enriquecida con pecorino y una buena dosis de chile, dándole un carácter picante y firme.",
+        "mixology": "Sauté chili and garlic in olive oil before adding tomatoes, letting the heat infuse the oil first.",
+        "mixology_es": "Sofreír el chile y el ajo en aceite de oliva antes de añadir el tomate, dejando que el picante impregne primero el aceite.",
+        "examples": "Classic with penne, ziti, or rigatoni, and equally good as a dipping sauce for pizza.",
+        "examples_es": "Clásica con penne, ziti o rigatoni, e igual de buena como salsa para acompañar pizza."
+       }
+      },
+      {
+       "name": "Puttanesca",
+       "name_fr": "Puttanesca",
+       "name_it": "Puttanesca",
+       "name_es": "Puttanesca",
+       "slug": "puttanesca",
+       "panel": {
+        "origin": "A bold tomato sauce from Lazio or Campania, with a colorful (and disputed) backstory tying its name to speed and convenience.",
+        "origin_es": "Una salsa de tomate intensa del Lacio o Campania, con una historia pintoresca (y debatida) que vincula su nombre a la rapidez y conveniencia.",
+        "chemistry": "Tomatoes combine with anchovies, capers, olives, and garlic for a salty, umami-rich profile.",
+        "chemistry_es": "El tomate se combina con anchoas, alcaparras, aceitunas y ajo para un perfil salado y rico en umami.",
+        "mixology": "Build the base from pantry staples — the anchovies melt into the oil to season the whole sauce.",
+        "mixology_es": "Construir la base con ingredientes de despensa — las anchoas se deshacen en el aceite y sazonan toda la salsa.",
+        "examples": "Traditionally tossed with spaghetti or linguine.",
+        "examples_es": "Tradicionalmente mezclada con spaghetti o linguine."
+       }
+      },
+      {
+       "name": "Amatriciana",
+       "name_fr": "Amatriciana",
+       "name_it": "Amatriciana",
+       "name_es": "Amatriciana",
+       "slug": "amatriciana",
+       "panel": {
+        "origin": "Named for Amatrice in the Sabine Hills, this sauce is considered part of the 'holy trinity' of Roman pasta along with carbonara and cacio e pepe.",
+        "origin_es": "Llamada así por Amatrice, en las colinas Sabinas, esta salsa se considera parte de la 'santísima trinidad' de la pasta romana junto con la carbonara y el cacio e pepe.",
+        "chemistry": "Built on guanciale rendered until crisp, with diced tomatoes and pecorino added to create a rich, savory-sweet sauce.",
+        "chemistry_es": "Se construye sobre guanciale dorado hasta quedar crujiente, con tomate en cubos y pecorino para crear una salsa rica, sabrosa y ligeramente dulce.",
+        "mixology": "Render the guanciale slowly first so its fat forms the base of the sauce before the tomatoes go in.",
+        "mixology_es": "Dorar el guanciale despacio primero para que su grasa forme la base de la salsa antes de añadir el tomate.",
+        "examples": "The traditional pairing is bucatini or spaghetti.",
+        "examples_es": "El maridaje tradicional es bucatini o spaghetti."
+       }
+      }
+     ],
+     "color": "#b03a3a"
+    }
+   ],
+   "color": "#b03a3a"
+  },
+  {
+   "name": "MEAT RAGÙS",
+   "name_fr": "Ragùs de Viande",
+   "name_it": "Ragù di Carne",
+   "name_es": "RAGÚS DE CARNE",
+   "sub": [
+    {
+     "name": "MEAT RAGÙS",
+     "name_fr": "Ragùs de Viande",
+     "name_it": "Ragù di Carne",
+     "name_es": "RAGÚS DE CARNE",
+     "descriptors": [
+      {
+       "name": "Ragù alla Bolognese",
+       "name_fr": "Ragù alla Bolognese",
+       "name_it": "Ragù alla Bolognese",
+       "name_es": "Ragú a la Boloñesa",
+       "slug": "bolognese",
+       "panel": {
+        "origin": "Ragù alla Bolognese is said to have been created in the late 18th century, evolving from earlier Bolognese meat sauces into the dish known today.",
+        "origin_es": "Se dice que el ragú a la boloñesa se creó a finales del siglo XVIII, evolucionando a partir de salsas de carne bolonesas anteriores hasta el plato conocido hoy.",
+        "chemistry": "A slow-cooked blend of beef and/or pork, pancetta, a vegetable base, tomatoes, wine, and a touch of milk or cream for richness.",
+        "chemistry_es": "Una mezcla de cocción lenta de res y/o cerdo, panceta, una base de verduras, tomate, vino y un toque de leche o crema para dar untuosidad.",
+        "mixology": "Build in stages — brown the meat, sauté the vegetables, then simmer everything together for hours until thick and deeply flavored.",
+        "mixology_es": "Construir por etapas — dorar la carne, sofreír las verduras y luego cocer todo junto a fuego lento durante horas hasta que espese y desarrolle sabor.",
+        "examples": "The traditional partner for tagliatelle, and the heart of lasagne alla Bolognese.",
+        "examples_es": "La pareja tradicional de la tagliatelle, y el corazón de la lasaña a la boloñesa."
+       }
+      },
+      {
+       "name": "Ragù Toscano",
+       "name_fr": "Ragù Toscano",
+       "name_it": "Ragù Toscano",
+       "name_es": "Ragú Toscano",
+       "slug": "ragu-toscano",
+       "panel": {
+        "origin": "A hearty Tuscan meat sauce that varies from household to household, often built around beef and sausage.",
+        "origin_es": "Una contundente salsa de carne toscana que varía de un hogar a otro, a menudo a base de res y salchicha.",
+        "chemistry": "Drier and less tomato-forward than its Bolognese cousin, with a more rustic, countryside character.",
+        "chemistry_es": "Más seca y menos protagonizada por el tomate que su pariente boloñés, con un carácter más rústico y campestre.",
+        "mixology": "Simmer the meat slowly with wine and a vegetable base until the liquid reduces to a thick coating.",
+        "mixology_es": "Cocer la carne despacio con vino y una base de verduras hasta que el líquido se reduzca a una capa espesa.",
+        "examples": "Commonly used in lasagne and tossed with pappardelle or pici.",
+        "examples_es": "Comúnmente usado en la lasaña y mezclado con pappardelle o pici."
+       }
+      },
+      {
+       "name": "Ragù Napoletano",
+       "name_fr": "Ragù Napoletano",
+       "name_it": "Ragù Napoletano",
+       "name_es": "Ragú Napolitano",
+       "slug": "ragu-napoletano",
+       "panel": {
+        "origin": "A slow-cooked Neapolitan sauce historically tended by doormen ('portinai') who could simmer it for hours while watching the building.",
+        "origin_es": "Una salsa napolitana de cocción lenta, históricamente vigilada por porteros ('portinai') que podían dejarla cocer durante horas mientras vigilaban el edificio.",
+        "chemistry": "Built with whole cuts of meat (rather than ground) simmered for hours in a large amount of tomato sauce until they nearly fall apart.",
+        "chemistry_es": "Hecha con cortes enteros de carne (no molida) cocidos durante horas en abundante salsa de tomate hasta casi deshacerse.",
+        "mixology": "Cook over very low heat for several hours, occasionally turning the meat, until the sauce turns deep red and glossy.",
+        "mixology_es": "Cocer a fuego muy bajo durante varias horas, girando la carne de vez en cuando, hasta que la salsa quede roja intensa y brillante.",
+        "examples": "The meat is often served as a second course after the pasta, which is dressed with the rich tomato sauce alone.",
+        "examples_es": "La carne suele servirse como segundo plato después de la pasta, que se aliña solo con la rica salsa de tomate."
+       }
+      },
+      {
+       "name": "Ragù di Cinghiale",
+       "name_fr": "Ragù di Cinghiale",
+       "name_it": "Ragù di Cinghiale",
+       "name_es": "Ragú de Jabalí",
+       "slug": "ragu-di-cinghiale",
+       "panel": {
+        "origin": "A Tuscan wild boar ragù, also found in Umbria and Veneto, reflecting the region's hunting traditions.",
+        "origin_es": "Un ragú toscano de jabalí, también presente en Umbría y el Véneto, que refleja las tradiciones de caza de la región.",
+        "chemistry": "Gamey, deeply savory meat is braised with tomatoes, red wine, and herbs like bay, sage, and rosemary until tender.",
+        "chemistry_es": "Una carne de caza, intensa y sabrosa, se estofa con tomate, vino tinto y hierbas como laurel, salvia y romero hasta quedar tierna.",
+        "mixology": "Marinate the boar in wine and aromatics before braising slowly to mellow its strong flavor.",
+        "mixology_es": "Marinar el jabalí en vino y aromáticos antes de estofarlo despacio para suavizar su sabor intenso.",
+        "examples": "Classically served with pappardelle, finished with grated cheese.",
+        "examples_es": "Clásicamente servido con pappardelle, terminado con queso rallado."
+       }
+      }
+     ],
+     "color": "#7a3a3a"
+    }
+   ],
+   "color": "#7a3a3a"
+  },
+  {
+   "name": "CREAM, EGG & CHEESE",
+   "name_fr": "Crème, Œuf & Fromage",
+   "name_it": "Panna, Uovo & Formaggio",
+   "name_es": "CREMA, HUEVO Y QUESO",
+   "sub": [
+    {
+     "name": "CREAM, EGG & CHEESE",
+     "name_fr": "Crème, Œuf & Fromage",
+     "name_it": "Panna, Uovo & Formaggio",
+     "name_es": "CREMA, HUEVO Y QUESO",
+     "descriptors": [
+      {
+       "name": "Carbonara",
+       "name_fr": "Carbonara",
+       "name_it": "Carbonara",
+       "name_es": "Carbonara",
+       "slug": "carbonara",
+       "panel": {
+        "origin": "A 20th-century Roman creation, with one popular legend crediting its invention to feeding American troops in Rome in 1944.",
+        "origin_es": "Una creación romana del siglo XX, con una leyenda popular que atribuye su invención a alimentar a las tropas estadounidenses en Roma en 1944.",
+        "chemistry": "An emulsion of egg yolks and pecorino, thickened only by the heat of the pasta and rendered guanciale fat — no cream.",
+        "chemistry_es": "Una emulsión de yemas de huevo y pecorino, espesada solo con el calor de la pasta y la grasa del guanciale — sin crema.",
+        "mixology": "Toss the hot pasta with the egg-cheese mixture off direct heat so the eggs thicken into a sauce rather than scrambling.",
+        "mixology_es": "Mezclar la pasta caliente con la mezcla de huevo y queso fuera del fuego directo para que el huevo espese como salsa y no se cuaje.",
+        "examples": "Traditionally served with spaghetti, bavette, or bucatini.",
+        "examples_es": "Tradicionalmente servida con spaghetti, bavette o bucatini."
+       }
+      },
+      {
+       "name": "Cacio e Pepe",
+       "name_fr": "Cacio e Pepe",
+       "name_it": "Cacio e Pepe",
+       "name_es": "Cacio e Pepe",
+       "slug": "cacio-e-pepe",
+       "panel": {
+        "origin": "A Roman dish whose name simply means 'cheese and pepper,' with roots in the portable meals of Apennine shepherds.",
+        "origin_es": "Un plato romano cuyo nombre simplemente significa 'queso y pimienta', con raíces en las comidas portátiles de los pastores de los Apeninos.",
+        "chemistry": "Pecorino cheese, starchy pasta water, and black pepper combine into a creamy emulsion with no cream or butter needed.",
+        "chemistry_es": "El queso pecorino, el agua de cocción almidonada y la pimienta negra se combinan en una emulsión cremosa sin necesidad de crema ni mantequilla.",
+        "mixology": "Toss vigorously off the heat, adding pasta water gradually so the cheese melts smoothly instead of clumping.",
+        "mixology_es": "Mezclar vigorosamente fuera del fuego, añadiendo agua de cocción poco a poco para que el queso se funda sin formar grumos.",
+        "examples": "Classic with spaghetti or tonnarelli, and a generous crack of fresh black pepper.",
+        "examples_es": "Clásica con spaghetti o tonnarelli, y una generosa pizca de pimienta negra recién molida."
+       }
+      },
+      {
+       "name": "Besciamella",
+       "name_fr": "Besciamella",
+       "name_it": "Besciamella",
+       "name_es": "Besciamella",
+       "slug": "besciamella",
+       "panel": {
+        "origin": "Often considered the Italian ancestor of French béchamel, first appearing in Italian cookbooks before being adapted at the French court.",
+        "origin_es": "A menudo considerada la antecesora italiana de la salsa bechamel francesa, apareció primero en libros de cocina italianos antes de adaptarse en la corte francesa.",
+        "chemistry": "A white sauce of butter, flour, and milk, infused with bay leaf, peppercorn, shallot, and parsley.",
+        "chemistry_es": "Una salsa blanca de mantequilla, harina y leche, infusionada con laurel, granos de pimienta, chalota y perejil.",
+        "mixology": "Cook the butter and flour together briefly before whisking in warm milk to avoid lumps, then simmer until thickened.",
+        "mixology_es": "Cocer brevemente la mantequilla y la harina juntas antes de incorporar la leche tibia batiendo para evitar grumos, luego cocer a fuego lento hasta espesar.",
+        "examples": "An essential layer in baked dishes like lasagne alla Bolognese and cannelloni.",
+        "examples_es": "Una capa esencial en platos horneados como la lasaña a la boloñesa y los canelones."
+       }
+      },
+      {
+       "name": "Salsa al Limone",
+       "name_fr": "Salsa al Limone",
+       "name_it": "Salsa al Limone",
+       "name_es": "Salsa al Limón",
+       "slug": "salsa-al-limone",
+       "panel": {
+        "origin": "A bright lemon sauce from the Amalfi Coast and Sorrento, where lemons grow in abundance.",
+        "origin_es": "Una luminosa salsa de limón de la Costa Amalfitana y Sorrento, donde los limones crecen en abundancia.",
+        "chemistry": "Lemon juice and zest combine with butter or cream, parmesan, and starchy pasta water for a silky, tangy sauce.",
+        "chemistry_es": "El jugo y la ralladura de limón se combinan con mantequilla o crema, parmesano y agua de cocción almidonada para una salsa sedosa y cítrica.",
+        "mixology": "Can be made in the time it takes to boil the pasta — whisk together quickly just before serving.",
+        "mixology_es": "Puede prepararse en el tiempo que tarda en hervir la pasta — batir rápido justo antes de servir.",
+        "examples": "A natural match for linguine or tagliatelle, enjoyed in both winter and summer.",
+        "examples_es": "Combina de forma natural con linguine o tagliatelle, y se disfruta tanto en invierno como en verano."
+       }
+      }
+     ],
+     "color": "#d4b276"
+    }
+   ],
+   "color": "#d4b276"
+  },
+  {
+   "name": "HERB, OIL & NUT SAUCES",
+   "name_fr": "Sauces aux Herbes & Noix",
+   "name_it": "Salse Erbe & Frutta Secca",
+   "name_es": "SALSAS DE HIERBAS Y FRUTOS SECOS",
+   "sub": [
+    {
+     "name": "HERB, OIL & NUT SAUCES",
+     "name_fr": "Sauces aux Herbes & Noix",
+     "name_it": "Salse Erbe & Frutta Secca",
+     "name_es": "SALSAS DE HIERBAS Y FRUTOS SECOS",
+     "descriptors": [
+      {
+       "name": "Pesto Genovese",
+       "name_fr": "Pesto Genovese",
+       "name_it": "Pesto Genovese",
+       "name_es": "Pesto Genovés",
+       "slug": "pesto-genovese",
+       "panel": {
+        "origin": "From Genoa, with roots possibly tracing back to an ancient Roman herb-and-cheese paste called moretum.",
+        "origin_es": "De Génova, con raíces que posiblemente se remontan a una antigua pasta romana de hierbas y queso llamada moretum.",
+        "chemistry": "Basil, garlic, pine nuts, olive oil, and hard cheese are pounded (traditionally with a mortar and pestle, 'pestare') into a vibrant green paste.",
+        "chemistry_es": "Albahaca, ajo, piñones, aceite de oliva y queso duro se machacan (tradicionalmente con mortero, 'pestare') hasta formar una pasta de un verde vibrante.",
+        "mixology": "Pound or blend gently to avoid overheating the basil, which can turn it bitter and dull its color.",
+        "mixology_es": "Machacar o licuar con suavidad para no calentar demasiado la albahaca, lo que puede volverla amarga y opacar su color.",
+        "examples": "The traditional partner for trofie, also classic with trenette or linguine.",
+        "examples_es": "La pareja tradicional de la trofie, también clásica con trenette o linguine."
+       }
+      },
+      {
+       "name": "Aglio e Olio",
+       "name_fr": "Aglio e Olio",
+       "name_it": "Aglio e Olio",
+       "name_es": "Aglio e Olio",
+       "slug": "aglio-e-olio",
+       "panel": {
+        "origin": "A foundational Italian preparation built on little more than garlic and olive oil, found throughout the country in countless variations.",
+        "origin_es": "Una preparación fundamental italiana hecha con poco más que ajo y aceite de oliva, presente en todo el país en innumerables variantes.",
+        "chemistry": "Thinly sliced garlic is gently cooked in olive oil until fragrant, then emulsified with starchy pasta water into a light, glossy sauce.",
+        "chemistry_es": "El ajo en láminas finas se cuece suavemente en aceite de oliva hasta perfumarse, y luego se emulsiona con agua de cocción almidonada en una salsa ligera y brillante.",
+        "mixology": "Keep the heat low so the garlic turns golden, not brown or bitter, before adding the pasta water.",
+        "mixology_es": "Mantener el fuego bajo para que el ajo se dore sin oscurecerse ni amargarse, antes de añadir el agua de cocción.",
+        "examples": "A simple, fast match for spaghetti, often finished with chili flakes and parsley.",
+        "examples_es": "Una combinación simple y rápida con spaghetti, a menudo terminada con hojuelas de chile y perejil."
+       }
+      },
+      {
+       "name": "Sugo di Noci",
+       "name_fr": "Sugo di Noci",
+       "name_it": "Sugo di Noci",
+       "name_es": "Salsa de Nueces",
+       "slug": "sugo-di-noci",
+       "panel": {
+        "origin": "A Ligurian walnut sauce with very old roots, believed to have reached Genoa via trade routes from Persia.",
+        "origin_es": "Una salsa de nueces de Liguria con raíces muy antiguas, que se cree llegó a Génova por las rutas comerciales desde Persia.",
+        "chemistry": "Walnuts, garlic, and breadcrumbs are blended with milk and Parmigiano-Reggiano into a creamy, slightly sweet sauce.",
+        "chemistry_es": "Nueces, ajo y pan rallado se mezclan con leche y Parmigiano-Reggiano en una salsa cremosa y ligeramente dulce.",
+        "mixology": "Soak the breadcrumbs in milk before blending to give the sauce its signature smooth texture.",
+        "mixology_es": "Remojar el pan rallado en leche antes de licuar para dar a la salsa su característica textura suave.",
+        "examples": "The traditional pairing for pansotti, a Ligurian pasta filled with greens, herbs, and ricotta.",
+        "examples_es": "El maridaje tradicional para los pansotti, una pasta ligur rellena de verduras, hierbas y ricotta."
+       }
+      },
+      {
+       "name": "Bagna Cauda",
+       "name_fr": "Bagna Cauda",
+       "name_it": "Bagna Cauda",
+       "name_es": "Bagna Cauda",
+       "slug": "bagna-cauda",
+       "panel": {
+        "origin": "A 'hot bath' from Piedmont, traditionally shared communally during the autumn and winter harvest season.",
+        "origin_es": "Un 'baño caliente' de Piamonte, tradicionalmente compartido en comunidad durante la temporada de cosecha de otoño e invierno.",
+        "chemistry": "Garlic and anchovies are slowly cooked in olive oil and butter (sometimes with cream) into a warm, savory dip.",
+        "chemistry_es": "Ajo y anchoas se cuecen despacio en aceite de oliva y mantequilla (a veces con crema) hasta formar un dip caliente y sabroso.",
+        "mixology": "Cook the garlic and anchovies very gently so they melt into the oil rather than frying or browning.",
+        "mixology_es": "Cocer el ajo y las anchoas muy suavemente para que se deshagan en el aceite en lugar de freírse o dorarse.",
+        "examples": "Traditionally served as a dip for raw or roasted vegetables such as carrot, fennel, celery, and cauliflower.",
+        "examples_es": "Tradicionalmente servido como dip para verduras crudas o asadas como zanahoria, hinojo, apio y coliflor."
+       }
+      }
+     ],
+     "color": "#5a6b3b"
+    }
+   ],
+   "color": "#5a6b3b"
+  }
+ ],
+ "funFacts": {
+  "LONG & THIN PASTA": {
+   "en": "Spaghetti's ancestor, itriya, was first recorded in 12th-century Arab-ruled Sicily — making dried long pasta one of Italy's oldest culinary technologies, not a later invention.",
+   "es": "El antecesor del spaghetti, itriya, se registró por primera vez en la Sicilia árabe del siglo XII — lo que convierte a la pasta larga seca en una de las tecnologías culinarias más antiguas de Italia, no en una invención posterior."
+  },
+  "RIBBON PASTA": {
+   "en": "According to legend, tagliatelle's dough should be rolled so thin that, held up to a window, you could see Bologna's hilltop basilica through it.",
+   "es": "Según la leyenda, la masa de la tagliatelle debe estirarse tan fina que, al sostenerla frente a una ventana, se pudiera ver a través de ella la basílica en la colina de Bolonia."
+  },
+  "SHORT TUBES": {
+   "en": "The ridges on pasta like rigatoni and penne rigate aren't just decorative — they exist specifically to trap more sauce per bite than a smooth surface ever could.",
+   "es": "Las estrías de pastas como el rigatoni y el penne rigate no son solo decorativas — existen específicamente para retener más salsa por bocado de lo que lograría una superficie lisa."
+  },
+  "TWISTS & SHELLS": {
+   "en": "Fusilli were traditionally shaped by hand-rolling dough around a thin rod or knitting needle, giving each twist a slightly different, handmade character.",
+   "es": "El fusilli se moldeaba tradicionalmente enrollando la masa a mano alrededor de una varilla fina o una aguja de tejer, dando a cada espiral un carácter ligeramente distinto y artesanal."
+  },
+  "HAND-SHAPED & STUFFED": {
+   "en": "Tortellini were once considered such a luxury that they were reserved for Sunday lunch — a single bowl of 'little pies' represented a special occasion.",
+   "es": "El tortellini se consideraba en su momento un lujo tan grande que se reservaba para el almuerzo del domingo — un solo plato de estas 'pequeñas empanadas' representaba una ocasión especial."
+  },
+  "TOMATO-BASED SAUCES": {
+   "en": "Tomatoes didn't arrive in Italy until the 1800s — meaning every 'classic' tomato pasta sauce is, in the scope of Italian history, a relatively recent invention.",
+   "es": "Los tomates no llegaron a Italia hasta el siglo XIX — lo que significa que toda salsa de tomate 'clásica' es, en la escala de la historia italiana, una invención relativamente reciente."
+  },
+  "MEAT RAGÙS": {
+   "en": "Many Italian families cook ragù in huge batches and freeze it in portions, turning what looks like an all-day project into a 20-minute dinner on a weeknight.",
+   "es": "Muchas familias italianas preparan el ragú en grandes cantidades y lo congelan en porciones, convirtiendo lo que parece un proyecto de todo el día en una cena de 20 minutos en cualquier noche entre semana."
+  },
+  "CREAM, EGG & CHEESE": {
+   "en": "Traditional carbonara contains no cream at all — its silky texture comes purely from emulsifying egg yolks and cheese with the starchy heat of the pasta itself.",
+   "es": "La carbonara tradicional no contiene nada de crema — su textura sedosa proviene únicamente de emulsionar yemas de huevo y queso con el calor almidonado de la propia pasta."
+  },
+  "HERB, OIL & NUT SAUCES": {
+   "en": "Pesto's name comes from 'pestare,' to pound or crush — a reminder that, before blenders, this vivid green sauce was made entirely by hand with a mortar and pestle.",
+   "es": "El nombre del pesto viene de 'pestare', machacar o triturar — un recordatorio de que, antes de las licuadoras, esta vibrante salsa verde se hacía completamente a mano con mortero y maja."
+  }
+ }
+}

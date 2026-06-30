@@ -1,0 +1,582 @@
+{
+ "title": "French Cuisine Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Soupes & Entrées"
+  },
+  {
+   "name": "Soupe à l'Oignon",
+   "slug": "soupe-oignon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Caramelized-onion soup under a raft of bread and gratinéed Gruyère."
+    }
+   ]
+  },
+  {
+   "name": "Consommé",
+   "slug": "consomme",
+   "rows": [
+    {
+     "k": "",
+     "v": "Crystal-clear clarified broth — the test of classical technique."
+    }
+   ]
+  },
+  {
+   "name": "Bisque",
+   "slug": "bisque",
+   "rows": [
+    {
+     "k": "",
+     "v": "Silky shellfish soup (lobster, crab) thickened with cream and rice."
+    }
+   ]
+  },
+  {
+   "name": "Vichyssoise",
+   "slug": "vichyssoise",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cold leek-and-potato soup finished with cream; served chilled."
+    }
+   ]
+  },
+  {
+   "name": "Pâté",
+   "slug": "pate",
+   "rows": [
+    {
+     "k": "",
+     "v": "Seasoned ground meat or liver, baked or potted; served with bread."
+    }
+   ]
+  },
+  {
+   "name": "Terrine",
+   "slug": "terrine",
+   "rows": [
+    {
+     "k": "",
+     "v": "Coarse forcemeat pressed in a mold and sliced cold."
+    }
+   ],
+   "name_es": "Terrina"
+  },
+  {
+   "name": "Escargots",
+   "slug": "escargots",
+   "rows": [
+    {
+     "k": "",
+     "v": "Snails baked in garlic-parsley butter, a Burgundian classic."
+    }
+   ]
+  },
+  {
+   "name": "Soufflé",
+   "slug": "souffle",
+   "rows": [
+    {
+     "k": "",
+     "v": "Egg-white-lofted savory or sweet dish that must be served at once."
+    }
+   ]
+  },
+  {
+   "cat": "Sauces Mères"
+  },
+  {
+   "name": "Béchamel",
+   "slug": "bechamel",
+   "rows": [
+    {
+     "k": "",
+     "v": "Milk thickened with a white roux — base of Mornay and gratins."
+    }
+   ]
+  },
+  {
+   "name": "Velouté",
+   "slug": "veloute",
+   "rows": [
+    {
+     "k": "",
+     "v": "Light stock thickened with a blond roux; base of many white sauces."
+    }
+   ]
+  },
+  {
+   "name": "Espagnole",
+   "slug": "espagnole",
+   "rows": [
+    {
+     "k": "",
+     "v": "Brown stock and roux with tomato — the base of demi-glace."
+    }
+   ]
+  },
+  {
+   "name": "Hollandaise",
+   "slug": "hollandaise",
+   "rows": [
+    {
+     "k": "",
+     "v": "Warm emulsion of egg yolk, butter, and lemon; for eggs and fish."
+    }
+   ]
+  },
+  {
+   "name": "Sauce Tomate",
+   "slug": "sauce-tomate",
+   "rows": [
+    {
+     "k": "",
+     "v": "Classical tomato mother sauce, traditionally roux-thickened."
+    }
+   ]
+  },
+  {
+   "name": "Béarnaise",
+   "slug": "bearnaise",
+   "rows": [
+    {
+     "k": "",
+     "v": "Hollandaise's sibling with tarragon and shallot reduction; for steak."
+    }
+   ]
+  },
+  {
+   "name": "Beurre Blanc",
+   "slug": "beurre-blanc",
+   "rows": [
+    {
+     "k": "",
+     "v": "Emulsified butter sauce on a wine-shallot reduction; for fish."
+    }
+   ]
+  },
+  {
+   "cat": "Plats — Viandes"
+  },
+  {
+   "name": "Coq au Vin",
+   "slug": "coq-au-vin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Chicken braised in red wine with lardons, mushrooms, and onions."
+    }
+   ]
+  },
+  {
+   "name": "Bœuf Bourguignon",
+   "slug": "boeuf-bourguignon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Beef stewed slowly in red Burgundy with bacon and pearl onions."
+    }
+   ]
+  },
+  {
+   "name": "Confit de Canard",
+   "slug": "confit-canard",
+   "rows": [
+    {
+     "k": "",
+     "v": "Duck legs cured then cooked and preserved in their own fat."
+    }
+   ]
+  },
+  {
+   "name": "Cassoulet",
+   "slug": "cassoulet",
+   "rows": [
+    {
+     "k": "",
+     "v": "Slow white-bean casserole with sausage, duck confit, and pork."
+    }
+   ]
+  },
+  {
+   "name": "Blanquette de Veau",
+   "slug": "blanquette",
+   "rows": [
+    {
+     "k": "",
+     "v": "Veal in a white velouté sauce — gentle, ivory, no browning."
+    }
+   ]
+  },
+  {
+   "name": "Pot-au-Feu",
+   "slug": "pot-au-feu",
+   "rows": [
+    {
+     "k": "",
+     "v": "Boiled beef and vegetables; the broth and meat served apart."
+    }
+   ]
+  },
+  {
+   "name": "Steak Frites",
+   "slug": "steak-frites",
+   "rows": [
+    {
+     "k": "",
+     "v": "Pan-seared steak with crisp fries — the bistro standard."
+    }
+   ]
+  },
+  {
+   "name": "Cassolette",
+   "slug": "cassolette",
+   "rows": [
+    {
+     "k": "",
+     "v": "Small individual baked dish of meat or seafood in sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Fruits De Mer"
+  },
+  {
+   "name": "Moules Marinières",
+   "slug": "moules",
+   "rows": [
+    {
+     "k": "",
+     "v": "Mussels steamed in white wine, shallots, and parsley."
+    }
+   ]
+  },
+  {
+   "name": "Bouillabaisse",
+   "slug": "bouillabaisse",
+   "rows": [
+    {
+     "k": "",
+     "v": "Provençal fish stew with saffron and rouille; from Marseille."
+    }
+   ]
+  },
+  {
+   "name": "Sole Meunière",
+   "slug": "sole-meuniere",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sole dredged in flour, pan-fried in brown butter with lemon."
+    }
+   ]
+  },
+  {
+   "name": "Coquilles St-Jacques",
+   "slug": "coquilles",
+   "rows": [
+    {
+     "k": "",
+     "v": "Scallops gratinéed in a creamy sauce, served in the shell."
+    }
+   ]
+  },
+  {
+   "name": "Plateau de Fruits de Mer",
+   "slug": "plateau",
+   "rows": [
+    {
+     "k": "",
+     "v": "Iced tower of raw and cooked shellfish; the brasserie centerpiece."
+    }
+   ]
+  },
+  {
+   "cat": "Pain & Pâtisserie"
+  },
+  {
+   "name": "Baguette",
+   "slug": "baguette",
+   "rows": [
+    {
+     "k": "",
+     "v": "Lean crusty wheat loaf; the everyday French bread, by law simple."
+    }
+   ],
+   "name_es": "Masa Francesa"
+  },
+  {
+   "name": "Croissant",
+   "slug": "croissant",
+   "rows": [
+    {
+     "k": "",
+     "v": "Laminated butter pastry, flaky and crescent-shaped."
+    }
+   ]
+  },
+  {
+   "name": "Pain au Chocolat",
+   "slug": "pain-chocolat",
+   "rows": [
+    {
+     "k": "",
+     "v": "Laminated dough rolled around dark chocolate batons."
+    }
+   ]
+  },
+  {
+   "name": "Brioche",
+   "slug": "brioche",
+   "rows": [
+    {
+     "k": "",
+     "v": "Rich egg-and-butter enriched bread; tender, golden crumb."
+    }
+   ]
+  },
+  {
+   "name": "Pâte Feuilletée",
+   "slug": "pate-feuilletee",
+   "rows": [
+    {
+     "k": "",
+     "v": "Puff pastry — hundreds of butter-and-dough layers that lift."
+    }
+   ]
+  },
+  {
+   "name": "Pâte à Choux",
+   "slug": "choux",
+   "rows": [
+    {
+     "k": "",
+     "v": "Twice-cooked paste that puffs hollow; éclairs, profiteroles, gougères."
+    }
+   ]
+  },
+  {
+   "cat": "Fromage & Charcuterie"
+  },
+  {
+   "name": "Brie",
+   "slug": "brie",
+   "rows": [
+    {
+     "k": "",
+     "v": "Soft bloomy-rind cow's-milk cheese; buttery and mild."
+    }
+   ]
+  },
+  {
+   "name": "Camembert",
+   "slug": "camembert",
+   "rows": [
+    {
+     "k": "",
+     "v": "Bloomy Norman cheese, earthier and more pungent than Brie."
+    }
+   ]
+  },
+  {
+   "name": "Roquefort",
+   "slug": "roquefort",
+   "rows": [
+    {
+     "k": "",
+     "v": "Sheep's-milk blue aged in Combalou caves; sharp and salty."
+    }
+   ]
+  },
+  {
+   "name": "Comté",
+   "slug": "comte",
+   "rows": [
+    {
+     "k": "",
+     "v": "Aged Alpine cow's-milk cheese; nutty, with crystalline crunch."
+    }
+   ]
+  },
+  {
+   "name": "Chèvre",
+   "slug": "chevre",
+   "rows": [
+    {
+     "k": "",
+     "v": "Fresh or aged goat cheese; tangy, bright, chalky when young."
+    }
+   ],
+   "name_es": "Chèvre (Queso de Cabra)"
+  },
+  {
+   "name": "Jambon de Bayonne",
+   "slug": "jambon",
+   "rows": [
+    {
+     "k": "",
+     "v": "Air-dried salted ham from the Basque southwest."
+    }
+   ]
+  },
+  {
+   "name": "Rillettes",
+   "slug": "rillettes",
+   "rows": [
+    {
+     "k": "",
+     "v": "Meat (often pork or duck) slow-cooked and shredded into a spread."
+    }
+   ]
+  },
+  {
+   "cat": "Desserts"
+  },
+  {
+   "name": "Crème Brûlée",
+   "slug": "creme-brulee",
+   "rows": [
+    {
+     "k": "",
+     "v": "Vanilla custard under a torched, crackable caramel crust."
+    }
+   ]
+  },
+  {
+   "name": "Tarte Tatin",
+   "slug": "tarte-tatin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Upside-down caramelized-apple tart, baked then flipped."
+    }
+   ]
+  },
+  {
+   "name": "Profiteroles",
+   "slug": "profiteroles",
+   "rows": [
+    {
+     "k": "",
+     "v": "Choux puffs filled with ice cream under warm chocolate."
+    }
+   ]
+  },
+  {
+   "name": "Macaron",
+   "slug": "macaron",
+   "rows": [
+    {
+     "k": "",
+     "v": "Almond-meringue shells sandwiching ganache or buttercream."
+    }
+   ]
+  },
+  {
+   "name": "Mousse au Chocolat",
+   "slug": "mousse-chocolat",
+   "rows": [
+    {
+     "k": "",
+     "v": "Airy chocolate mousse lightened with whipped egg or cream."
+    }
+   ]
+  },
+  {
+   "name": "Crêpes",
+   "slug": "crepes",
+   "rows": [
+    {
+     "k": "",
+     "v": "Thin pancakes, sweet (Suzette) or savory (galettes)."
+    }
+   ]
+  },
+  {
+   "name": "Mille-Feuille",
+   "slug": "mille-feuille",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Thousand sheets' — puff pastry layered with pastry cream."
+    }
+   ]
+  },
+  {
+   "name": "Éclair",
+   "slug": "eclair",
+   "rows": [
+    {
+     "k": "",
+     "v": "Choux fingers filled with cream and glazed on top."
+    }
+   ]
+  },
+  {
+   "cat": "Techniques & Terroir"
+  },
+  {
+   "name": "Mise en Place",
+   "slug": "mise-en-place",
+   "rows": [
+    {
+     "k": "",
+     "v": "'Everything in its place' — prep organized before cooking."
+    }
+   ]
+  },
+  {
+   "name": "Sous Vide",
+   "slug": "sous-vide",
+   "rows": [
+    {
+     "k": "",
+     "v": "Vacuum-sealed food cooked precisely in a temperature bath."
+    }
+   ]
+  },
+  {
+   "name": "Flambé",
+   "slug": "flambe",
+   "rows": [
+    {
+     "k": "",
+     "v": "Igniting added spirit to burn off alcohol and add aroma."
+    }
+   ]
+  },
+  {
+   "name": "Déglacer",
+   "slug": "deglacer",
+   "rows": [
+    {
+     "k": "",
+     "v": "Deglazing — dissolving pan fond with liquid to build a sauce."
+    }
+   ]
+  },
+  {
+   "name": "Terroir",
+   "slug": "terroir",
+   "rows": [
+    {
+     "k": "",
+     "v": "The taste of place — soil, climate, and tradition in a product."
+    }
+   ]
+  },
+  {
+   "name": "AOC",
+   "slug": "aoc",
+   "rows": [
+    {
+     "k": "",
+     "v": "Appellation d'Origine Contrôlée — France's protected-origin label."
+    }
+   ]
+  }
+ ]
+}

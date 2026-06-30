@@ -1,0 +1,872 @@
+{
+ "title": "Beer Styles",
+ "subject": "beer-styles",
+ "categories": [
+  {
+   "name": "PALE LAGERS & PILSNERS",
+   "name_fr": "LAGERS CLAIRES & PILSNERS",
+   "name_it": "LAGER CHIARE & PILSNER",
+   "name_es": "LAGERS CLARAS Y PILSNERS",
+   "color": "#f5e070",
+   "textColor": "#3a2800",
+   "sub": [
+    {
+     "name": "Pale Lagers & Pilsners",
+     "name_fr": "Lagers Claires & Pilsners",
+     "name_it": "Lager Chiare & Pilsner",
+     "name_es": "Lagers Pálidas y Pilsners",
+     "color": "#f5e070",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "American Adjunct Lager",
+       "name_fr": "American Adjunct Lager",
+       "name_it": "American Adjunct Lager",
+       "slug": "american-adjunct-lager",
+       "color": "#f9ee90",
+       "name_es": "Lager Americana",
+       "panel": {
+        "origin": "American Adjunct Lager is the world's best-selling beer style, produced by brewing giants including Anheuser-Busch (Budweiser, Bud Light), MillerCoors (Miller Lite, Coors Light), and Pabst. The style developed in the late 19th century as German immigrant brewers adapted their lager recipes for the American market, where six-row barley (higher protein) required adjuncts like corn (maize) and rice to lighten body and clarity. Prohibition (1920–1933) devastated craft brewing traditions, leaving the field to industrial producers who perfected light, approachable lager for mass consumption.",
+        "mixology": "Flavor profile: light body, very low bitterness (6–14 IBUs), mild grain and corn sweetness, high carbonation, clean finish. ABV: 3.2–5.0%. Serve ice cold (34–38°F) in a chilled pint glass or from a can. Food pairings: pizza, burgers, hot dogs, spicy foods (the low bitterness and high carbonation tame heat). Comparable styles: light lager, 'macro lager.' Session drinking; designed for refreshment over complexity."
+       }
+      },
+      {
+       "name": "German Helles",
+       "name_fr": "German Helles",
+       "name_it": "German Helles",
+       "slug": "german-helles",
+       "color": "#f5e070",
+       "name_es": "Helles Alemán",
+       "panel": {
+        "origin": "Helles ('bright' in German) was created in Munich in 1894 by Spaten Brewery as a direct response to the surging popularity of Czech Pilsner. Unlike the assertively bitter Pilsner, Helles emphasized malt sweetness and softness. It became the everyday beer of Munich's beer halls and gardens, still dominant today. Brewed from pale Pilsner malt with Noble hops (Hallertau, Tettnang, Saaz), the style is defined by Munich's exceptionally soft water.",
+        "mixology": "Flavor profile: soft, bready malt sweetness; low bitterness (16–22 IBUs); delicate floral hop aroma; exceptionally clean finish. ABV: 4.7–5.4%. Serve at 42–48°F in a Mass (1L Masskrug) or 0.5L Halbe glass. Food pairings: white sausage (Weisswurst), pretzels (Brezel), mild sausages, roast chicken. Key producers: Augustiner Bräu (benchmark), Spaten, Hacker-Pschorr, Paulaner."
+       }
+      },
+      {
+       "name": "Czech Pilsner",
+       "name_fr": "Czech Pilsner",
+       "name_it": "Czech Pilsner",
+       "slug": "czech-pilsner",
+       "color": "#e8d058",
+       "name_es": "Pilsner Checo",
+       "panel": {
+        "origin": "Czech (Bohemian) Pilsner was invented in 1842 in Plzeň (Pilsen), Bohemia (now Czech Republic), when citizen brewer Josef Groll combined Bavarian bottom-fermentation yeast, Saaz hops from the Žatec region, extremely soft Plzeň water, and Moravian barley to produce the world's first golden lager. The result revolutionized global brewing. Pilsner Urquell ('Original Source Pilsner') is the iconic example, brewed continuously in Plzeň since 1842.",
+        "mixology": "Flavor profile: rich, round malt body; firm but not harsh bitterness (35–45 IBUs); spicy, herbal Saaz hop character; creamy white foam. ABV: 4.2–5.4%. Serve at 44–50°F in a traditional tulip or cylindrical glass. Unfiltered 'tank beer' (tankové pivo) served directly from conditioning tanks is the authentic Prague experience. Food pairings: roast pork (svíčková), goulash, Czech dumplings, smoked meats."
+       }
+      },
+      {
+       "name": "German Pilsner",
+       "name_fr": "German Pilsner",
+       "name_it": "German Pilsner",
+       "slug": "german-pilsner",
+       "color": "#d4bc40",
+       "name_es": "Pilsner Alemán",
+       "panel": {
+        "origin": "German Pilsner (Pils) developed from the Czech original but evolved distinctly due to Germany's harder, more mineral-rich water (particularly from northern Germany) and the preference for sharper, drier, more assertively bitter profiles. The style consolidated in northern Germany (Hamburg, Berlin) where water chemistry suited bolder hop character. German Noble hops — Hallertauer, Tettnanger, Saazer, Spalt — give German Pils its characteristic dry, crisp, herbal bitterness.",
+        "mixology": "Flavor profile: pale straw color, very dry finish, pronounced Noble hop bitterness (25–45 IBUs), light malt, highly carbonated. ABV: 4.4–5.2%. Serve at 38–45°F in a tall, slender Pilsner glass (Stangengl) to showcase clarity and carbonation. Food pairings: fried fish (Fischbrötchen), bratwurst, lighter seafood, salads. Key producers: Bitburger, Warsteiner, Jever (most bitter), Beck's, Paulaner Pils."
+       }
+      },
+      {
+       "name": "Munich Dunkel",
+       "name_fr": "Munich Dunkel",
+       "name_it": "Munich Dunkel",
+       "slug": "munich-dunkel",
+       "color": "#b89030",
+       "name_es": "Dunkel Münich",
+       "panel": {
+        "origin": "Munich Dunkel ('dark' in German) is one of Bavaria's oldest beer styles, predating Helles by centuries. Dark Munich malt gives the beer its characteristic deep brown color and rich malt complexity. Before the development of pale malt (requiring indirect kilning, invented in England in the 1600s), all lagers were dark. Munich Dunkel was the staple everyday beer of Bavaria until the 1870s–1890s when pale lagers became fashionable.",
+        "mixology": "Flavor profile: deep brown, clear; rich Munich malt character (bread crust, caramel, chocolate); low bitterness (18–28 IBUs); clean lagered finish; surprisingly light body for the color. ABV: 4.5–5.6%. Serve at 48–54°F in a handled mug (Masskrug) or Halbe. Food pairings: roast pork, duck, game, spätzle, dark bread. Key producers: Augustiner Dunkel, Hacker-Pschorr Dunkel, Ayinger Altbairisch Dunkel."
+       }
+      },
+      {
+       "name": "Vienna Lager",
+       "name_fr": "Vienna Lager",
+       "name_it": "Vienna Lager",
+       "slug": "vienna-lager",
+       "color": "#c89838",
+       "name_es": "Lager Viena",
+       "panel": {
+        "origin": "Vienna Lager was developed in Vienna in 1841 by Anton Dreher, just one year before Czech Pilsner — the two styles emerged simultaneously as part of the lager revolution. Vienna Lager uses 'Vienna malt,' a malt kilned at slightly higher temperatures than pale malt, producing an amber-red color and biscuity, toast character. The style nearly disappeared from Austria but was preserved and championed in Mexico (where German immigrant brewers brought it in the 19th century) — Negra Modelo and Dos Equis Amber are its descendants.",
+        "mixology": "Flavor profile: amber to copper color; clean, toasty malt backbone; mild noble hop bitterness (18–30 IBUs); dry, crisp finish. ABV: 4.5–5.5%. Serve at 46–54°F in a Masskrug or pint. Food pairings: grilled meats, tacos, carnitas (the Mexican heritage connection), BBQ, mild cheeses. Key producers: Devils Backbone Vienna Lager (USA), Ninkasi Dawn of the Red, Negra Modelo (Mexico)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "WHEAT BEERS",
+   "name_fr": "BIÈRES DE BLÉ",
+   "name_it": "BIRRE DI FRUMENTO",
+   "name_es": "CERVEZAS DE TRIGO",
+   "color": "#f9e4b7",
+   "textColor": "#3a2200",
+   "sub": [
+    {
+     "name": "Wheat Beers",
+     "name_fr": "Bières de Blé",
+     "name_it": "Birre di Frumento",
+     "name_es": "Cervezas de Trigo",
+     "color": "#f9e4b7",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "German Hefeweizen",
+       "name_fr": "German Hefeweizen",
+       "name_it": "German Hefeweizen",
+       "slug": "hefeweizen",
+       "color": "#f9e4b7",
+       "name_es": "Hefeweizen Alemán",
+       "panel": {
+        "origin": "Hefeweizen (Hefe = yeast, Weizen = wheat) is Bavaria's iconic cloudy wheat beer, brewed with 50–70% wheat malt and characterized by distinctive banana and clove aromas from the Weizen yeast strain (Torulaspora delbrueckii / Saccharomyces cerevisiae variant). The style is ancient — Bavarian dukes held a monopoly on Weizenbier production from 1520–1798. Schneider Weisse (founded 1872) and Paulaner are benchmark producers. The unfiltered 'hefe' version retains yeast, creating the characteristic hazy appearance.",
+        "mixology": "Flavor profile: hazy golden; banana (isoamyl acetate), clove (4-vinylguaiacol), vanilla, bubblegum; low bitterness (8–15 IBUs); effervescent, creamy mouthfeel. ABV: 4.9–5.6%. Serve at 44–50°F in a tall, curved Weizen glass (holds 0.5L + foam). Never filter or pour the full yeast sediment — swirl and pour. Food pairings: weisswurst with sweet mustard, soft pretzels, fruit salad, light salads. Key producers: Weihenstephaner Hefeweissbier (world benchmark), Schneider Weisse Tap 7, Paulaner, Franziskaner."
+       }
+      },
+      {
+       "name": "Dunkelweizen",
+       "name_fr": "Dunkelweizen",
+       "name_it": "Dunkelweizen",
+       "slug": "dunkelweizen",
+       "color": "#c8960a",
+       "name_es": "Dunkelweizen",
+       "panel": {
+        "origin": "Dunkelweizen is the dark wheat beer cousin of Hefeweizen, using dark Munich malt alongside wheat to produce a bronze to dark brown beer with both the Weizen yeast character (banana, clove) and the richer malt complexity of a dark lager (chocolate, bread crust, caramel). The style predates pale Hefeweizen, as dark malt was historically more common. It is less internationally known than Hefeweizen but remains popular in Bavaria.",
+        "mixology": "Flavor profile: dark amber to brown; banana and clove from Weizen yeast; rich bready, caramel, chocolate malt notes; low bitterness (10–18 IBUs); rounder, fuller body than Hefeweizen. ABV: 4.8–5.6%. Serve at 46–52°F in a Weizen glass. Food pairings: roast pork, grilled sausages, soft cheeses, chocolate desserts. Key producers: Schneider Weisse Tap 5 Mein Dunkles, Weihenstephaner Hefeweissbier Dunkel, Franziskaner Dunkel."
+       }
+      },
+      {
+       "name": "Berliner Weisse",
+       "name_fr": "Berliner Weisse",
+       "name_it": "Berliner Weisse",
+       "slug": "berliner-weisse",
+       "color": "#f0f0c0",
+       "name_es": "Berliner Weisse",
+       "panel": {
+        "origin": "Berliner Weisse is a tart, low-alcohol wheat beer style that has been produced in Berlin since at least the 17th century. Napoleon's soldiers reportedly called it the 'Champagne of the North.' The style uses lactobacillus bacteria co-fermented with ale yeast to produce its characteristic sharp lactic acidity. By the mid-20th century the style had nearly disappeared but experienced a dramatic revival from the 2000s onward, particularly in craft brewing, where syrups (Himbeersirup/raspberry, Waldmeistersirup/woodruff) are traditionally added to temper the sourness.",
+        "mixology": "Flavor profile: very pale, hazy; sharp lactic acidity; wheat character; very low bitterness (3–8 IBUs); effervescent; often served with raspberry or woodruff syrup. ABV: 2.8–3.8%. Serve at 44–48°F in a wide Goblet/Pokal. Modern craft versions often push higher ABV and more intense souring. Food pairings: light salads, smoked fish, ceviche, fresh fruit. Key producers: Bayerischer Bahnhof (Leipzig), Dogfish Head (USA), Nodding Head (USA)."
+       }
+      },
+      {
+       "name": "Gose",
+       "name_fr": "Gose",
+       "name_it": "Gose",
+       "slug": "gose",
+       "color": "#d8e890",
+       "name_es": "Gose",
+       "panel": {
+        "origin": "Gose (pronounced 'GOH-zeh') originated in the town of Goslar, Germany, where mineral-rich water from the Gose River naturally created a salty, slightly sour character in the beer. Salt and coriander are traditional additions — unique among historical German beer styles, which are normally required to contain only water, malt, hops, and yeast under the Reinheitsgebot (1516). Gose nearly disappeared in the 20th century but experienced a renaissance beginning in Leipzig in the 1980s and globally in the craft movement from the 2010s.",
+        "mixology": "Flavor profile: hazy pale yellow; tart lactic acidity; mineral saltiness; coriander spice; low bitterness (5–15 IBUs); light, refreshing. ABV: 4.0–5.0%. Serve at 44–50°F in a tall Stange or cylindrical glass. Very food-friendly: oysters (salt-salt pairing), ceviche, fish tacos, charcuterie, guacamole. Modern craft versions add fruit (mango, passion fruit, watermelon). Key producers: Döllnitzer Ritterguts Gose, Anderson Valley The Kimmie/The Yink, Westbrook Brewing."
+       }
+      },
+      {
+       "name": "Belgian Witbier",
+       "name_fr": "Belgian Witbier",
+       "name_it": "Belgian Witbier",
+       "slug": "witbier",
+       "color": "#fff8e0",
+       "name_es": "Witbier Belga",
+       "panel": {
+        "origin": "Belgian Witbier (White Beer) is a hazy, spiced wheat beer from the Hoegaarden region of Belgium. The style dates to the Middle Ages but was essentially extinct by 1955 when Pierre Celis revived it in the village of Hoegaarden. Celis's recipe (50% unmalted wheat, coriander, bitter orange peel, sometimes chamomile) defined the modern style. Celis later sold Hoegaarden to Interbrew (now AB InBev), then emigrated to the USA where he founded Celis Brewery in Austin, Texas.",
+        "mixology": "Flavor profile: very pale, opaque; coriander spice, bitter orange peel, vanilla; low hop bitterness (8–20 IBUs); creamy, smooth mouthfeel; dry, refreshing finish. ABV: 4.5–5.5%. Serve at 40–45°F in a tulip or pint glass, garnished with an orange slice. Food pairings: mussels (moules), steamed clams, light seafood, fruit salads, mild cheeses. Key producers: Hoegaarden (benchmark), Blue Moon Belgian White (USA), Allagash White (USA, widely considered the American benchmark)."
+       }
+      },
+      {
+       "name": "American Wheat",
+       "name_fr": "American Wheat",
+       "name_it": "American Wheat",
+       "slug": "american-wheat",
+       "color": "#f0d880",
+       "name_es": "Trigo Americano",
+       "panel": {
+        "origin": "American Wheat Beer emerged in the early craft brewing era (1980s–1990s) as an American interpretation of German Hefeweizen and Belgian Witbier, but without the traditional Weizen yeast or Belgian spices. American Wheat uses American ale yeast, producing a clean, malt-forward profile with little of the banana or clove character of German originals. The result is an approachable, gateway craft beer — a step up from macro lager in complexity without being challenging.",
+        "mixology": "Flavor profile: pale, slightly hazy; clean, bready wheat; very low hop bitterness (15–30 IBUs); often dry-hopped for citrus or floral aroma; light, refreshing body. ABV: 3.5–5.5%. Serve at 40–45°F in a pint glass. Food pairings: grilled chicken, light salads, tacos, fish, summer foods generally. Key producers: Goose Island 312 Urban Wheat, Bell's Oberon, Widmer Hefeweizen (more of an American Wheat by character), SweetWater Blue."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PALE ALES & IPAs",
+   "name_fr": "PALE ALES & IPAs",
+   "name_it": "PALE ALE & IPA",
+   "name_es": "PALE ALES E IPAs",
+   "color": "#f5a830",
+   "textColor": "#2a1400",
+   "sub": [
+    {
+     "name": "Pale Ales & IPAs",
+     "name_fr": "Pale Ales & IPAs",
+     "name_it": "Pale Ale & IPA",
+     "name_es": "Pale Ales e IPAs",
+     "color": "#f5a830",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "English Pale Ale",
+       "name_fr": "English Pale Ale",
+       "name_it": "English Pale Ale",
+       "slug": "english-pale-ale",
+       "color": "#e8c060",
+       "name_es": "Pale Ale Inglesa",
+       "panel": {
+        "origin": "English Pale Ale (EPA) emerged in Burton-on-Trent in the late 18th century, enabled by Bass Brewery's discovery that Burton's highly sulphated water dramatically enhanced hop aroma and bitterness — a phenomenon called 'Burton snatch.' The style evolved to use English hops (Fuggles, East Kent Goldings) at moderate levels, producing earthy, floral, marmalade-tinged beers with biscuity English malt. Bass Pale Ale (founded 1777) and its iconic red triangle (the UK's first trademark) defined the style globally.",
+        "mixology": "Flavor profile: golden to copper; biscuity, toffee malt; earthy, floral, subtle citrus English hops; moderate bitterness (20–40 IBUs); medium body; dry finish. ABV: 3.8–5.5%. Serve at 50–55°F in a pint glass (UK nonic or tulip). Food pairings: fish and chips (fish-hop bitterness pairing), Cheddar cheese, roast lamb, ploughman's lunch. Key producers: Fuller's London Pride (benchmark), Timothy Taylor Landlord (multiple CAMRA Champion Beer of Britain), Bass Pale Ale."
+       }
+      },
+      {
+       "name": "American Pale Ale",
+       "name_fr": "American Pale Ale",
+       "name_it": "American Pale Ale",
+       "slug": "american-pale-ale",
+       "color": "#f5a830",
+       "name_es": "Pale Ale Americana",
+       "panel": {
+        "origin": "American Pale Ale was born from the craft brewing revolution, defined by Sierra Nevada Brewing Co.'s Sierra Nevada Pale Ale (1980) — still the benchmark. American brewers adapted the English pale ale template with indigenous American hops (Cascade, Centennial, Chinook) that expressed dramatic citrus (grapefruit, orange), pine resin, and tropical fruit notes unavailable in English varieties. APA became the foundational gateway style of American craft beer.",
+        "mixology": "Flavor profile: golden to amber; pronounced citrus, pine, floral American hop aroma; moderate malt backbone; firm bitterness (30–50 IBUs); clean finish. ABV: 4.5–6.2%. Serve at 45–50°F in a pint or tulip. Food pairings: burgers, grilled chicken, Mexican food, spicy dishes, sharp cheddar. Key producers: Sierra Nevada Pale Ale (benchmark), Stone Brewing Pale Ale, Firestone Walker Easy Jack, Founders All Day IPA (more session-level)."
+       }
+      },
+      {
+       "name": "American IPA",
+       "name_fr": "American IPA",
+       "name_it": "American IPA",
+       "slug": "american-ipa",
+       "color": "#e89020",
+       "name_es": "IPA Americana",
+       "panel": {
+        "origin": "American IPA (India Pale Ale) took the English original — a strong, heavily hopped pale ale brewed to survive the voyage to colonial India — and amplified everything: more aggressive hopping, brighter American hop varieties, bolder bitterness. The style exploded with the craft beer revolution from the 1980s onward. By the 2010s IPA had become the best-selling and most searched craft beer style in the USA. Russian River Brewing's Pliny the Elder (1999) and Stone Ruination IPA (1999) established the high end of the style.",
+        "mixology": "Flavor profile: golden to amber; intense citrus (grapefruit, orange, tangerine), pine resin, floral, sometimes tropical; firm to aggressive bitterness (40–70+ IBUs); medium body; resinous finish. ABV: 6.0–7.5%. Serve at 45–50°F in a tulip or IPA glass. Food pairings: spicy Thai, Indian curry, BBQ, strong cheeses (blue cheese with the bitterness). Key producers: Stone IPA, Dogfish Head 60 Minute IPA, Bell's Two Hearted Ale, Oskar Blues Pinner."
+       }
+      },
+      {
+       "name": "New England IPA",
+       "name_fr": "New England IPA",
+       "name_it": "New England IPA",
+       "slug": "new-england-ipa",
+       "color": "#f0b848",
+       "name_es": "NEIPA",
+       "panel": {
+        "origin": "New England IPA (NEIPA, also called Hazy IPA) was pioneered by The Alchemist Brewery in Waterbury, Vermont, where brewer John Kimmich developed Heady Topper (2004, commercial release 2011). The style is defined by extreme dry-hopping during active fermentation (biotransformation), high amounts of oats and wheat for haze and creaminess, and a focus on soft, juicy hop aroma over bitterness. The turbid appearance was initially controversial — craft orthodoxy had long prized clarity as a sign of quality.",
+        "mixology": "Flavor profile: opaque, golden to orange (hazy); intense tropical fruit (mango, passionfruit, peach, guava), citrus (orange juice, clementine); very low bitterness despite high hopping (20–40 IBUs perceived); pillowy, creamy mouthfeel; soft water chemistry essential. ABV: 6.0–8.0%. Serve at 45–50°F immediately — hazes degrade faster than other IPAs. Food pairings: soft ripened cheeses (Brie, Camembert), lobster bisque, lighter Thai dishes. Key producers: The Alchemist Heady Topper, Tree House Julius, Trillium Congress Street."
+       }
+      },
+      {
+       "name": "West Coast IPA",
+       "name_fr": "West Coast IPA",
+       "name_it": "West Coast IPA",
+       "slug": "west-coast-ipa",
+       "color": "#d88010",
+       "name_es": "IPA Costa Oeste",
+       "panel": {
+        "origin": "West Coast IPA represents the San Diego / California interpretation of American IPA — drier, cleaner, more bitter, and more transparent than its New England counterpart. Developed through the 1990s–2000s in San Diego craft brewing (Stone Brewing, Green Flash, AleSmith), the WC IPA emphasizes pronounced resin and bitterness alongside hop aroma, achieved through dry-hopping after fermentation is complete rather than during it. The West Coast style defined American IPA internationally before NEIPA emerged.",
+        "mixology": "Flavor profile: clear, golden to amber; citrus, pine, resin, dank; aggressive bitterness (50–100 IBUs); dry, crisp finish; medium-low body. ABV: 6.0–8.0%. Serve at 45–50°F in an IPA glass or tulip. Food pairings: fish tacos, grilled fish, carne asada, spicy Mexican, strong sharp cheeses. Key producers: Stone IPA, Ballast Point Sculpin, Green Flash West Coast IPA, Firestone Walker Union Jack."
+       }
+      },
+      {
+       "name": "Double / Imperial IPA",
+       "name_fr": "Double / Imperial IPA",
+       "name_it": "Double / Imperial IPA",
+       "slug": "double-ipa",
+       "color": "#c07010",
+       "name_es": "Doble IPA",
+       "panel": {
+        "origin": "Double (Imperial) IPA was created at Vinnie Cilurzo's Blind Pig Brewery in Temecula, California in 1994 and perfected at Russian River Brewing (Santa Rosa) with Pliny the Elder (1999). The style takes everything about APA/IPA and amplifies it: more malt, more hops, more alcohol. Pliny the Elder remained the #1 rated beer on RateBeer.com for years, making Double IPA the ultimate trophy style of early craft beer. The 'Imperial' prefix was borrowed from Russian Imperial Stout nomenclature.",
+        "mixology": "Flavor profile: deep gold to amber; intense hop aroma (citrus, tropical, pine, resin); high bitterness (60–120 IBUs) balanced by substantial malt; warming alcohol; big body; dry, bitter finish. ABV: 7.5–10%+. Serve at 50–55°F in a snifter or tulip. Food pairings: blue cheese, strong charcuterie, Korean BBQ, curry, red meat. Key producers: Russian River Pliny the Elder (benchmark), Bell's Hopslam, Dogfish Head 90 Minute IPA, Cigar City Jai Alai."
+       }
+      },
+      {
+       "name": "Session IPA",
+       "name_fr": "Session IPA",
+       "name_it": "Session IPA",
+       "slug": "session-ipa",
+       "color": "#f0c860",
+       "name_es": "Session IPA",
+       "panel": {
+        "origin": "Session IPA emerged in the early 2010s as a solution to craft beer's alcohol creep — a way to deliver IPA's signature hop character (citrus, tropical, resinous) at lower alcohol for extended sessionable drinking. The term 'session' originates from British pub culture (a drinking 'session'). Founders Brewing's All Day IPA (2010) is widely credited with defining the modern Session IPA category and proving that flavorful, hoppy beer was possible at sub-5% ABV.",
+        "mixology": "Flavor profile: pale to golden; pronounced hop aroma (citrus, tropical, floral) despite low gravity; minimal malt character; moderate bitterness (30–50 IBUs); light body; clean, dry finish. ABV: 3.0–5.0%. Serve at 40–45°F in a pint glass. Food pairings: versatile — works with most pub food, tacos, salads, lighter dishes. Key producers: Founders All Day IPA (benchmark), Dogfish Head Slightly Mighty, Firestone Easy Jack, Stone Go To IPA."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BELGIAN ALES",
+   "name_fr": "ALES BELGES",
+   "name_it": "ALE BELGHE",
+   "name_es": "CERVEZAS BELGAS",
+   "color": "#e8a020",
+   "textColor": "#2a1000",
+   "sub": [
+    {
+     "name": "Belgian Ales",
+     "name_fr": "Ales Belges",
+     "name_it": "Ale Belghe",
+     "name_es": "Ales Belgas",
+     "color": "#e8a020",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Belgian Blonde",
+       "name_fr": "Belgian Blonde",
+       "name_it": "Belgian Blonde",
+       "slug": "belgian-blonde",
+       "color": "#f0d050",
+       "name_es": "Blonde Belga",
+       "panel": {
+        "origin": "Belgian Blonde Ale is a pale, moderately strong ale produced in Belgian abbeys and secular breweries, exemplified by Leffe Blonde (brewed commercially by AB InBev under abbey license since 1952). The style was developed partly in response to the popularity of Pilsner lagers in Belgium — a pale alternative to the darker Dubbels that had traditionally defined Belgian abbey brewing. Belgian candy sugar is often added to boost alcohol without adding body.",
+        "mixology": "Flavor profile: golden, brilliant; light fruit esters (pear, apple), spice (pepper from yeast), subtle honey from candy sugar; moderate bitterness (15–30 IBUs); medium-high carbonation; dry finish. ABV: 6.0–7.5%. Serve at 46–54°F in a tulip or chalice. Food pairings: mild cheeses, moules-frites, roast chicken, white fish. Key producers: Leffe Blonde, La Trappe Blonde, Affligem Blonde."
+       }
+      },
+      {
+       "name": "Belgian Tripel",
+       "name_fr": "Belgian Tripel",
+       "name_it": "Belgian Tripel",
+       "slug": "belgian-tripel",
+       "color": "#e8c030",
+       "name_es": "Tripel Belga",
+       "panel": {
+        "origin": "Belgian Tripel is a strong, golden ale originating from Westmalle Abbey in 1934, where Brother Thomas formulated the original recipe. The 'Triple' designation originally referred to the density (strength) of the wort — marking it as the strongest of the abbey's beers (after Single/Enkel and Double/Dubbel). Westmalle Tripel remains the benchmark. The pale color contrasts dramatically with the high alcohol (8–10%), creating a deceptively 'drinkable' strong beer.",
+        "mixology": "Flavor profile: deep gold to amber; complex fruit esters (banana, orange peel, pear); peppery, spicy yeast; sweet malt; high carbonation; surprisingly dry finish for the strength. ABV: 7.5–10.0%. Serve at 50–54°F in a tulip or Trappist-specific glassware. Food pairings: spicy Thai, mussels, strong cheeses (Gouda, aged Trappist), lobster. Key producers: Westmalle Tripel (benchmark), Chimay Cinq Cents (White), La Fin du Monde (Unibroue, Canada)."
+       }
+      },
+      {
+       "name": "Belgian Dubbel",
+       "name_fr": "Belgian Dubbel",
+       "name_it": "Belgian Dubbel",
+       "slug": "belgian-dubbel",
+       "color": "#a86820",
+       "name_es": "Dubbel Belga",
+       "panel": {
+        "origin": "Belgian Dubbel is a dark, moderately strong Trappist and abbey ale style with origins in the Belgian monastery tradition. The modern style was codified at Westmalle Abbey in the 1850s–1860s, though dark abbey beers are much older. 'Dubbel' ('double') originally referred to double the amount of malt versus everyday table beer. Belgian dark candy sugar creates complex raisin, fig, and caramel notes without heavy residual sweetness.",
+        "mixology": "Flavor profile: deep amber to brown; dried fruit (raisin, fig, plum, dark cherry); chocolate, toffee, caramel malt; subtle spice from yeast; moderate bitterness (15–25 IBUs); medium-full body; relatively dry finish. ABV: 6.0–7.6%. Serve at 50–55°F in a tulip or chalice. Food pairings: roast duck, game meats, chocolate desserts, stewed beef, aged Gouda. Key producers: Westmalle Dubbel, Chimay Première (Red), Rochefort 6, La Trappe Dubbel."
+       }
+      },
+      {
+       "name": "Belgian Quadrupel",
+       "name_fr": "Belgian Quadrupel",
+       "name_it": "Belgian Quadrupel",
+       "slug": "belgian-quad",
+       "color": "#803810",
+       "name_es": "Quadrupel Belga",
+       "panel": {
+        "origin": "Belgian Quadrupel (Quad or Abt) is the strongest Trappist and abbey beer category, typically dark amber to brown with the most complex malt and yeast character of the abbey spectrum. The name 'Quadrupel' was first used commercially by La Trappe (Koningshoeven) in the Netherlands in 1991. 'Abt' (Abbot) is an alternative name. Westvleteren 12, produced in tiny quantities at Saint Sixtus Abbey in Belgium, is consistently rated among the world's best beers.",
+        "mixology": "Flavor profile: deep amber to brown; intense dark fruit (raisin, date, plum, fig, dark cherry); complex alcohol warmth; caramel, toffee, dark sugar; rich, warming; high carbonation balances the richness. ABV: 9.0–13%+. Serve at 55–60°F in a tulip or large-format chalice. Sip slowly — it's a dessert beer. Food pairings: dark chocolate, aged Gouda, blue cheese, flourless chocolate cake, game birds. Key producers: Westvleteren 12 (if you can find it), Rochefort 10, St. Bernardus Abt 12, La Trappe Quadrupel."
+       }
+      },
+      {
+       "name": "Belgian Saison",
+       "name_fr": "Belgian Saison",
+       "name_it": "Belgian Saison",
+       "slug": "saison",
+       "color": "#d8b840",
+       "name_es": "Saison Belga",
+       "panel": {
+        "origin": "Saison ('season' in French) is a farmhouse ale from the Wallonia region of French-speaking Belgium, historically brewed in winter for consumption by seasonal farm workers (saisonniers) during the summer harvest. The style was nearly extinct by the mid-20th century when Brasserie Dupont (Tourpes, Belgium) revived it with Saison Dupont (1844, rediscovered in the 1980s). American craft brewers in the 2000s–2010s embraced Saison as a platform for experimental additions, making it one of craft beer's most versatile and creative canvases.",
+        "mixology": "Flavor profile: pale to amber; complex yeast character (peppery, fruity, earthy); dry, highly carbonated; spicy phenols; fruity esters; herbal hops; low bitterness (20–35 IBUs); refreshingly dry finish. ABV: 5.0–9.5% (Saison Dupont is 6.5%). Serve at 50–55°F in a tulip. Food pairings: mussels, oysters, farmhouse cheese, charcuterie, roast chicken, salads. Key producers: Saison Dupont (benchmark), Fantôme, Boulevard Tank 7, Allagash Saison."
+       }
+      },
+      {
+       "name": "Belgian Witbier",
+       "name_fr": "Belgian Witbier",
+       "name_it": "Belgian Witbier",
+       "slug": "witbier-belgian",
+       "color": "#f8f0c0",
+       "name_es": "Witbier",
+       "panel": {
+        "origin": "See Belgian Witbier entry in Wheat Beers. Belgian Witbier appears in the Belgian Ales category to highlight its position in the Belgian tradition alongside Tripel, Dubbel, and Saison.",
+        "mixology": "See Belgian Witbier entry. Key context here: Witbier demonstrates Belgium's tradition of using unconventional ingredients (coriander, orange peel) that technically violate Germany's Reinheitsgebot but are integral to Belgian brewing identity. Hoegaarden is the benchmark."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AMBER & RED ALES",
+   "name_fr": "AMBRÉES & ROUSSES",
+   "name_it": "AMBRATE & ROSSE",
+   "name_es": "AMBER Y RED ALES",
+   "color": "#c05818",
+   "textColor": "#fff0e0",
+   "sub": [
+    {
+     "name": "Amber & Red Ales",
+     "name_fr": "Ambrées & Rousses",
+     "name_it": "Ambrate & Rosse",
+     "name_es": "Ales Ámbar y Rojas",
+     "color": "#c05818",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "American Amber Ale",
+       "name_fr": "American Amber Ale",
+       "name_it": "American Amber Ale",
+       "slug": "american-amber-ale",
+       "color": "#c07020",
+       "name_es": "Amber Ale Americana",
+       "panel": {
+        "origin": "American Amber Ale is a distinctly American style that bridges pale lager and IPA — approachable malt character with real American hop presence. The style crystallized in the early craft era (1980s–1990s) as a more flavorful alternative to pale lager without the intensity of IPA. Fat Tire Amber Ale from New Belgium Brewing (1991, inspired by founder Jeff Lebesch's bicycle trip through Belgium) became one of the most successful craft beers in American history.",
+        "mixology": "Flavor profile: amber to copper; caramel, toffee malt; moderate American hop presence (citrus, pine); moderate bitterness (25–45 IBUs); medium body; slightly sweet finish. ABV: 4.5–6.2%. Serve at 45–50°F in a pint glass. Food pairings: BBQ ribs, burgers, pizza, mild cheeses, roasted vegetables. Key producers: New Belgium Fat Tire (benchmark), Tröegs Hopback Amber, Full Sail Amber, Deschutes Cinder Cone."
+       }
+      },
+      {
+       "name": "Irish Red Ale",
+       "name_fr": "Irish Red Ale",
+       "name_it": "Irish Red Ale",
+       "slug": "irish-red-ale",
+       "color": "#a84818",
+       "name_es": "Red Ale Irlandesa",
+       "panel": {
+        "origin": "Irish Red Ale is a malt-focused, moderately hopped session ale with a distinctive reddish-copper color derived from crystal malt and a small amount of roasted barley (just enough for color and a dry bite, not a roasted flavor). The style is the everyday pub ale of Ireland, overshadowed globally by Guinness stout but enormously popular domestically. Smithwick's, Ireland's oldest active brewery (founded 1710 in Kilkenny), is the benchmark, along with Kilkenny Irish Cream Ale.",
+        "mixology": "Flavor profile: copper-red; soft caramel, biscuit malt; very low hop bitterness (18–28 IBUs); slight roasty dryness in the finish; clean, balanced, easy-drinking. ABV: 3.8–5.0%. Serve at 50–54°F in a pint glass. Food pairings: Irish stew, shepherd's pie, roast beef, cheddar cheese. Key producers: Smithwick's (benchmark), Kilkenny, Murphy's Irish Red, O'Hara's Irish Red."
+       }
+      },
+      {
+       "name": "Scottish Ale",
+       "name_fr": "Scottish Ale",
+       "name_it": "Scottish Ale",
+       "slug": "scottish-ale",
+       "color": "#904010",
+       "name_es": "Ale Escocesa",
+       "panel": {
+        "origin": "Scottish Ales are malt-forward, low-hop beers from Scotland, where the cold climate historically made hop cultivation difficult (hops had to be imported at great cost from England) but barley thrived. The traditional designation system uses shillings (60/-, 70/-, 80/-) referring to the historical price per hogshead — higher shillings = stronger and more expensive. 'Wee Heavy' (90/- or Scotch Ale) is the strongest expression, comparable to a Barleywine in strength.",
+        "mixology": "Flavor profile: amber to dark brown; rich malt (caramel, toffee, slight smoke in traditional versions); very low hop bitterness (10–25 IBUs); clean, smooth; often slightly sweet. ABV: 70/- = 3.5–4.5%, 80/- = 4.5–5.5%, Wee Heavy = 6.5–10%. Serve at 50–55°F in a thistle glass or pint. Food pairings: haggis, smoked salmon, Scottish beef, oatcakes and cheese. Key producers: Belhaven Scottish Ale (80/-), Traquair House Ale (historical), Orkney Dark Island."
+       }
+      },
+      {
+       "name": "English Bitter / ESB",
+       "name_fr": "English Bitter / ESB",
+       "name_it": "English Bitter / ESB",
+       "slug": "english-bitter",
+       "color": "#b86020",
+       "name_es": "Bitter Inglesa / ESB",
+       "panel": {
+        "origin": "English Bitter / Extra Special Bitter (ESB) is the quintessential English session pub ale — the working-class backbone of British pub culture. Despite the name, bitters are typically only moderately bitter; the 'bitter' designation was historically used to distinguish hopped pale ales from the sweeter, unhopped porters of the era. ESB was codified by Fuller's Brewery (London) in 1969, and Fuller's ESB remains the benchmark. CAMRA (Campaign for Real Ale, founded 1971) has championed cask-conditioned Bitter as authentic British brewing heritage.",
+        "mixology": "Flavor profile: golden to copper; earthy, floral, marmalade English hops (Fuggles, Goldings); biscuity malt; moderate bitterness (25–50 IBUs for ESB); medium body; dry finish. ABV: Ordinary Bitter 3.0–3.8%, Best Bitter 3.8–4.6%, ESB 4.6–6.2%. Serve at 52–55°F (cellar temperature) in a nonic pint glass; cask-conditioned ('real ale') is served via handpump. Food pairings: ploughman's lunch, Stilton cheese, fish and chips, bangers and mash. Key producers: Fuller's ESB (benchmark), Timothy Taylor Landlord, Young's Bitter, Harvey's Sussex Best Bitter."
+       }
+      },
+      {
+       "name": "Märzen / Oktoberfest",
+       "name_fr": "Märzen / Oktoberfest",
+       "name_it": "Märzen / Oktoberfest",
+       "slug": "marzen",
+       "color": "#d08030",
+       "name_es": "Märzen / Oktoberfest",
+       "panel": {
+        "origin": "Märzen (March beer) was historically brewed in March and lagered through the summer in cool Alpine caves for consumption at the autumn harvest festival — eventually becoming the iconic Oktoberfest beer. The style was formalized in 1841 by Spaten Brewery using Vienna malt technology. Munich's six major breweries (Augustiner, Paulaner, Hacker-Pschorr, Hofbräu, Löwenbräu, Spaten) have the exclusive right to serve beer in the official Oktoberfest tents, cementing Märzen as Bavaria's most famous style.",
+        "mixology": "Flavor profile: deep amber to copper; rich, toasty, bready malt; moderate bitterness (18–28 IBUs); clean, lagered finish; medium body. ABV: 5.0–6.3%. Serve at 48–55°F in a Mass (1 liter mug). Food pairings: roast pork (Schweinshaxe), pretzels, German sausages, roast chicken. Key producers: Paulaner Oktoberfest Märzen, Spaten Oktoberfest, Hacker-Pschorr Oktoberfest, Ayinger Oktober Fest-Märzen."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BROWN & DARK ALES",
+   "name_fr": "BRUNES & FONCÉES",
+   "name_it": "SCURE & BRUNE",
+   "name_es": "BROWN Y DARK ALES",
+   "color": "#7a3810",
+   "textColor": "#ffe0c0",
+   "sub": [
+    {
+     "name": "Brown & Dark Ales",
+     "name_fr": "Brunes & Foncées",
+     "name_it": "Scure & Brune",
+     "name_es": "Ales Marrones y Oscuras",
+     "color": "#7a3810",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "English Brown Ale",
+       "name_fr": "English Brown Ale",
+       "name_it": "English Brown Ale",
+       "slug": "english-brown-ale",
+       "color": "#8a4818",
+       "name_es": "Brown Ale Inglesa",
+       "panel": {
+        "origin": "English Brown Ale has two distinct regional expressions: the Southern style (exemplified by Newcastle Brown Ale — actually brewed in Dunston, Gateshead, and now Tadcaster) is paler, sweeter, and nuttier; the Northern style (exemplified by Mann's Brown Ale) is darker and sweeter. Brown Ale as a category was essentially reinvented by Mann's Brewery in 1902 after the style had disappeared for centuries. Newcastle Brown Ale (1927) became Britain's best-selling bottled beer and the best-known British ale internationally.",
+        "mixology": "Flavor profile: amber to dark brown; nutty (hazelnuts, almonds), caramel, mild chocolate; low hop bitterness (12–25 IBUs); medium body; slightly sweet to dry finish. ABV: 4.2–5.4%. Serve at 50–55°F in a pint glass. Food pairings: roast beef, game pies, grilled sausages, nutty cheeses. Key producers: Newcastle Brown Ale (Northern style), Mann's Brown Ale (Southern style), Samuel Smith's Nut Brown Ale."
+       }
+      },
+      {
+       "name": "American Brown Ale",
+       "name_fr": "American Brown Ale",
+       "name_it": "American Brown Ale",
+       "slug": "american-brown-ale",
+       "color": "#7a3810",
+       "name_es": "Brown Ale Americana",
+       "panel": {
+        "origin": "American Brown Ale takes the English template and adds American hops for a more assertive character — more hop presence alongside the nutty, caramel, chocolate malt backbone. The style was defined by Pete's Wicked Ale (1986, Pete's Brewing Company) and Brooklyn Brown Ale, part of the first wave of American craft brewing. It sits between a robust Amber Ale and a Porter in character.",
+        "mixology": "Flavor profile: brown to dark brown; nutty, caramel, mild chocolate malt; moderate American hop presence (citrus, resin); moderate bitterness (20–40 IBUs); medium-full body. ABV: 4.3–6.2%. Serve at 48–54°F in a pint glass. Food pairings: BBQ, burgers, grilled meats, baked beans, moderate cheeses. Key producers: Brooklyn Brown Ale, Bell's Kalamazoo Stout (more of an intersection), Long Trail Double Bag, Smuttynose Old Brown Dog."
+       }
+      },
+      {
+       "name": "Old Ale",
+       "name_fr": "Old Ale",
+       "name_it": "Old Ale",
+       "slug": "old-ale",
+       "color": "#603010",
+       "name_es": "Old Ale",
+       "panel": {
+        "origin": "Old Ale is a strong, dark, traditionally cellared British ale style characterized by rich malt complexity and mild oxidative character from extended aging. Historically, 'old ale' referred to any beer kept for an extended period (months to years) before serving, distinguishing it from 'mild' (fresh, young beer). The style often shows mild Brett character from long aging in wood. Gale's Prize Old Ale (Hampshire, UK) was one of the most famous examples; Old Nick by Young's Brewery (London) continues the tradition.",
+        "mixology": "Flavor profile: deep amber to dark brown; rich toffee, raisin, prune, dark fruit; complex oxidative notes (sherry, madeira, leather); low to moderate hop bitterness; warming alcohol; often very complex. ABV: 6.0–13%. Serve at 55–60°F in a snifter. Food pairings: hard aged cheeses (Cheshire, aged Cheddar), mince pies, fruit cake, chocolate. Key producers: Theakston Old Peculier (benchmark, 5.6%), Robinson's Old Tom, Gale's Prize Old Ale."
+       }
+      },
+      {
+       "name": "Winter Warmer",
+       "name_fr": "Bière d'Hiver",
+       "name_it": "Birra Invernale",
+       "slug": "winter-warmer",
+       "color": "#6a3818",
+       "name_es": "Winter Warmer",
+       "panel": {
+        "origin": "Winter Warmer is a seasonal strong ale brewed for winter consumption, typically featuring warming spices (cinnamon, nutmeg, cloves, ginger) or simply very high malt levels for a warming character without spice additions. The category overlaps with spiced holiday beers, Christmas ales, and Old Ale. Young's Winter Warmer (London, now brewed by Wells) and Anchor Brewing's Our Special Ale (San Francisco, annual since 1975 with a different recipe each year) are the most storied examples.",
+        "mixology": "Flavor profile: dark amber to brown; rich caramel, toffee, chocolate malt; warming alcohol; often spiced (cinnamon, nutmeg); moderate to low hop bitterness; full, warming body. ABV: 5.5–9.0%. Serve at 55–60°F in a pint glass or snifter. Food pairings: gingerbread, Christmas pudding, roast turkey with stuffing, aged cheeses. Key producers: Young's Winter Warmer, Anchor Our Special Ale (annual), Samuel Adams Winter Lager, Great Lakes Christmas Ale."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PORTERS & STOUTS",
+   "name_fr": "PORTERS & STOUTS",
+   "name_it": "PORTER & STOUT",
+   "name_es": "PORTERS Y STOUTS",
+   "color": "#2a1810",
+   "textColor": "#f0d8c0",
+   "sub": [
+    {
+     "name": "Porters & Stouts",
+     "name_fr": "Porters & Stouts",
+     "name_it": "Porter & Stout",
+     "name_es": "Porters y Stouts",
+     "color": "#2a1810",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "English Porter",
+       "name_fr": "English Porter",
+       "name_it": "English Porter",
+       "slug": "english-porter",
+       "color": "#483018",
+       "name_es": "Porter Inglesa",
+       "panel": {
+        "origin": "Porter is one of the world's oldest surviving beer styles, originating in London around 1722 and named for the street and river porters who made it their drink. It was the first beer produced on an industrial scale and made the fortunes of London's great brewing dynasties (Whitbread, Thrale/Barclay Perkins, Truman). Porter essentially invented the modern brewery. The style declined in the 20th century but experienced a global revival through craft brewing. Stout emerged from Porter as the strongest version ('Stout Porter').",
+        "mixology": "Flavor profile: dark brown to black; roasted malt (coffee, dark chocolate, bread crust); moderate bitterness (20–30 IBUs); smooth, medium body; slight sweetness balanced by roast. ABV: 4.0–5.4%. Serve at 50–55°F in a pint glass. Food pairings: oysters (historic combination), steak and kidney pie, roasted meats, dark chocolate. Key producers: Fuller's London Porter (benchmark), Kernel Table Beer (when on), Samuel Smith's Taddy Porter."
+       }
+      },
+      {
+       "name": "American Porter",
+       "name_fr": "American Porter",
+       "name_it": "American Porter",
+       "slug": "american-porter",
+       "color": "#382010",
+       "name_es": "Porter Americana",
+       "panel": {
+        "origin": "American Porter takes the English original and amplifies it with American hops and often more assertive roast character. The style was revived in the early craft era — Anchor Porter (1974) is one of the most historic American craft beers, credited with helping launch the entire craft movement. American Porters tend to be drier and more bitter than their English counterparts, with more pronounced hop character.",
+        "mixology": "Flavor profile: dark brown to black; roasted coffee, dark chocolate, caramel; moderate to high American hop presence; firm bitterness (25–50 IBUs); medium-full body; dry finish. ABV: 4.8–6.5%. Serve at 50–54°F in a pint glass. Food pairings: BBQ brisket, chocolate desserts, steak, aged cheeses. Key producers: Anchor Porter (benchmark), Deschutes Black Butte Porter (USA's best-selling craft Porter), Founders Porter, Great Lakes Edmund Fitzgerald."
+       }
+      },
+      {
+       "name": "Dry Irish Stout",
+       "name_fr": "Dry Irish Stout",
+       "name_it": "Dry Irish Stout",
+       "slug": "dry-irish-stout",
+       "color": "#201010",
+       "name_es": "Stout Seca Irlandesa",
+       "panel": {
+        "origin": "Dry Irish Stout is defined globally by Guinness, founded in 1759 by Arthur Guinness at St. James's Gate, Dublin. What makes Guinness distinctive is the use of approximately 40% unmalted roasted barley (roasted without malting) — giving the beer its characteristic dry, coffee-like roast bitterness — alongside a nitrogen-carbon dioxide mix that creates the iconic creamy, dense head and smooth cascade effect. Guinness is now the best-selling stout worldwide and Ireland's most recognized cultural export after Joyce.",
+        "mixology": "Flavor profile: black, opaque; dry roasted barley (coffee, bitter chocolate); cream from nitrogen dispense; very low hop bitterness (30–45 IBUs but perceived as low due to roast); light, dry body despite appearance. ABV: 4.1–4.3% (Draught), 7.5% (Foreign Extra Stout). Serve at 50–55°F in a pint glass; draught Guinness poured in two stages (75% fill, wait 90 seconds for cascade, top up). Food pairings: oysters (the classic Irish combination), Irish stew, beef and Guinness pie. Key producers: Guinness (benchmark), Murphy's Irish Stout, Beamish."
+       }
+      },
+      {
+       "name": "Sweet / Milk Stout",
+       "name_fr": "Stout Sucrée / au Lait",
+       "name_it": "Stout Dolce / al Latte",
+       "slug": "milk-stout",
+       "color": "#301818",
+       "name_es": "Milk Stout",
+       "panel": {
+        "origin": "Milk Stout (Sweet Stout) contains lactose — milk sugar — which is non-fermentable by brewer's yeast, leaving residual sweetness in the finished beer. The style was popular in Victorian England as a health drink (lactose provides some nutrition), advertised as suitable for nursing mothers and convalescents. Mackeson Stout (introduced 1907 by Hythe Brewery, later brewed by Whitbread) is the benchmark. The lactose content was sometimes legally required to be declared on the label.",
+        "mixology": "Flavor profile: dark brown to black; sweet, creamy, chocolate milk character; coffee, dark chocolate; low hop bitterness (20–40 IBUs); full, silky body; sweet, indulgent finish. ABV: 4.0–6.0%. Serve at 50–54°F in a pint glass. Modern craft versions often add vanilla, coffee, or coconut. Food pairings: chocolate desserts, cheesecake, brownies, coffee ice cream. Key producers: Mackeson XXX Stout (benchmark), Left Hand Milk Stout Nitro (USA craft benchmark), Hitachino Nest Sweet Stout (Japan)."
+       }
+      },
+      {
+       "name": "Oatmeal Stout",
+       "name_fr": "Oatmeal Stout",
+       "name_it": "Oatmeal Stout",
+       "slug": "oatmeal-stout",
+       "color": "#382820",
+       "name_es": "Oatmeal Stout",
+       "panel": {
+        "origin": "Oatmeal Stout uses oats (typically 5–20% of the grain bill) to add silkiness, body, and a subtle oatmeal sweetness to the roasted stout profile. Like Milk Stout, Oatmeal Stout was historically marketed as a health food — Samuel Smith's Oatmeal Stout (revived 1980 from a Victorian recipe by the Merchant du Vin importer) is credited with bringing the style back from near-extinction and popularizing it in the USA. The style has become a platform for imperial versions in the craft era.",
+        "mixology": "Flavor profile: dark brown to black; silky, smooth; coffee, dark chocolate, slight oatmeal sweetness; moderate roast bitterness (25–40 IBUs); full, velvety body; softer finish than dry stout. ABV: 3.8–6.5%. Serve at 50–55°F in a pint glass. Food pairings: roasted meats, dark chocolate desserts, strong cheeses. Key producers: Samuel Smith's Oatmeal Stout (benchmark), Rogue Shakespeare Stout, Wolaver's Organic Oatmeal Stout."
+       }
+      },
+      {
+       "name": "Foreign Extra Stout",
+       "name_fr": "Foreign Extra Stout",
+       "name_it": "Foreign Extra Stout",
+       "slug": "foreign-extra-stout",
+       "color": "#280808",
+       "name_es": "Foreign Extra Stout",
+       "panel": {
+        "origin": "Foreign Extra Stout (FES) is a stronger, more intensely flavored version of Irish Dry Stout developed for export to tropical markets in the British Empire and beyond — the extra alcohol acting as preservation. Guinness Foreign Extra Stout (7.5% ABV) is the defining example and one of the world's best-selling stout brands globally, particularly dominant in Africa (Nigeria, Cameroon), the Caribbean, and Southeast Asia — where it often outsells the standard Draught Guinness.",
+        "mixology": "Flavor profile: black; intensely roasted (dark coffee, bitter chocolate, espresso); firm, assertive bitterness (50–70 IBUs); warming alcohol; full, bold body; dry, long finish. ABV: 6.0–9.0%. Serve at 50–55°F in a pint glass. Food pairings: spiced West African dishes (jollof rice, suya), jerk chicken, dark chocolate, grilled meats. Key producers: Guinness Foreign Extra Stout (global benchmark), Dragon Stout (Jamaica), ABC Extra Stout (Southeast Asia)."
+       }
+      },
+      {
+       "name": "Imperial Stout",
+       "name_fr": "Imperial Stout",
+       "name_it": "Imperial Stout",
+       "slug": "imperial-stout",
+       "color": "#180808",
+       "name_es": "Imperial Stout",
+       "panel": {
+        "origin": "Russian Imperial Stout was historically brewed in Britain for export to the Russian Imperial Court of Catherine the Great (18th century) — the extra strength (9–12% ABV) provided preservation for the Baltic Sea crossing. Barclay Perkins Brewery (London) was the primary supplier. The style virtually disappeared after Russia imposed prohibitive tariffs in the 1820s but was revived by the craft movement. Courage Imperial Russian Stout (now revived by Wells & Young's) is the iconic British version; Great Divide Yeti, Brooklyn Black Chocolate Stout, and Founders KBS define the American craft tradition.",
+        "mixology": "Flavor profile: black, opaque; intense roasted malt (espresso, dark chocolate, tar, tobacco, dark fruit); very high bitterness (50–90 IBUs) balanced by rich malt; warming alcohol; full, massive body; long, complex finish. ABV: 8.0–13%+. Serve at 55–65°F in a snifter or tulip; barrel-aging (bourbon, wine, rye) has become common in the craft era. Food pairings: dark chocolate, chocolate cake, blue cheese, oysters, BBQ. Key producers: Brooklyn Black Chocolate Stout, Founders KBS (Barrel-Aged), Three Floyds Dark Lord, Cigar City Marshal Zhukov."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SPECIALTY & HYBRID",
+   "name_fr": "SPÉCIALES & HYBRIDES",
+   "name_it": "SPECIALI & IBRIDE",
+   "name_es": "ESPECIALES E HÍBRIDOS",
+   "color": "#6a4098",
+   "textColor": "#f8f0ff",
+   "sub": [
+    {
+     "name": "Specialty & Hybrid",
+     "name_fr": "Spéciales & Hybrides",
+     "name_it": "Speciali & Ibride",
+     "name_es": "Especiales e Híbridos",
+     "color": "#6a4098",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Kölsch",
+       "name_fr": "Kölsch",
+       "name_it": "Kölsch",
+       "slug": "kolsch",
+       "color": "#f0e070",
+       "name_es": "Kölsch",
+       "panel": {
+        "origin": "Kölsch is a light, delicate, golden ale fermented with ale yeast but cold-conditioned (lagered) like a lager — the definitive hybrid style. It is a protected geographical indication: only beers brewed within the city limits of Cologne (Köln), Germany can legally be called Kölsch under the 1985 Kölsch Konvention. In Cologne's traditional brew pubs (Brauhäuser), Kölsch is served in distinctive 0.2L cylindrical glasses (Stange) and refilled continuously until the customer signals they're done by placing a coaster over the glass.",
+        "mixology": "Flavor profile: pale, brilliantly clear; delicate malt and fruit (apple, pear); subtle hop bitterness (18–30 IBUs); light, crisp, clean; extremely dry finish. ABV: 4.4–5.2%. Serve at 38–44°F in a 0.2L Stange glass. Food pairings: light Cologne cuisine — himmel un äd (mashed potatoes and applesauce with blood sausage), schnitzel, mild cheeses. Key producers: Gaffel Kölsch, Reissdorf Kölsch, Früh Kölsch, Päffgen (the most traditional)."
+       }
+      },
+      {
+       "name": "Cream Ale",
+       "name_fr": "Cream Ale",
+       "name_it": "Cream Ale",
+       "slug": "cream-ale",
+       "color": "#f5e898",
+       "name_es": "Cream Ale",
+       "panel": {
+        "origin": "Cream Ale is an American-specific style that emerged in the 19th century as a compromise between the traditional ale brewing practices of the East Coast and the increasingly popular lager style from German immigrants. It is brewed as an ale (or ale-lager blend), with corn or rice adjuncts used to lighten body and flavor, producing a clean, lager-like beer with the easy production of ale. Genesee Cream Ale (Rochester, NY, since 1960) and Little Kings Cream Ale define the historical character.",
+        "mixology": "Flavor profile: pale straw to gold; clean, light malt; faint fruit esters; very low hop bitterness (8–20 IBUs); light body, smooth; corn sweetness; highly carbonated. ABV: 4.2–5.6%. Serve at 38–44°F in a pint glass. Food pairings: light pub food, fish and chips, mild cheeses, salads. Key producers: Genesee Cream Ale, Little Kings, Spotted Cow (New Glarus, Wisconsin), Sleeman Cream Ale (Canada)."
+       }
+      },
+      {
+       "name": "Bock",
+       "name_fr": "Bock",
+       "name_it": "Bock",
+       "slug": "bock",
+       "color": "#a86020",
+       "name_es": "Bock",
+       "panel": {
+        "origin": "Bock is a strong lager style originating in Einbeck, northern Germany, in the 14th century. When Einbeck brewers brought their recipe to Munich in 1612, Bavarian dialect transformed 'Einbeck' into 'ein Bock' (a billy goat), explaining the goat mascot that adorns most Bock labels. Traditional Bock is brewed in fall, conditioned through winter, and released in late winter/early spring. The word 'bock' became a generic German term for any strong, malt-forward lager.",
+        "mixology": "Flavor profile: deep amber to dark brown; rich malt (caramel, toffee, bread crust, dark fruit); very low hop bitterness (20–30 IBUs); clean, full body; warming alcohol; dry finish. ABV: 6.3–7.5%. Serve at 48–54°F in a dimpled Masskrug or mug. Food pairings: roast pork, game sausages, strong cheeses. Key producers: Einbecker Ur-Bock (benchmark), Paulaner Salvator (Doppelbock), Shiner Bock (Texas — a lighter Bock interpretation)."
+       }
+      },
+      {
+       "name": "Doppelbock",
+       "name_fr": "Doppelbock",
+       "name_it": "Doppelbock",
+       "slug": "doppelbock",
+       "color": "#7a3810",
+       "name_es": "Doppelbock",
+       "panel": {
+        "origin": "Doppelbock ('double bock') is a stronger, maltier evolution of Bock, developed in Munich by the Paulaner friars of the Order of St. Francis of Paola in the 17th century as 'liquid bread' for sustenance during Lent when solid food was forbidden. Paulaner Salvator ('savior') is the original and the source of the tradition of naming Doppelbocks with '-ator' suffixes (Optimator, Celebrator, Maximator). Duke Maximilian I of Bavaria had to petition the Pope to be permitted to drink Paulaner's Doppelbock during Lent — reportedly the Pope approved after tasting it.",
+        "mixology": "Flavor profile: deep amber to dark brown; intensely rich malt (dark caramel, chocolate, dried fruit, raisin); low bitterness (16–26 IBUs) despite the strength; full, round body; warming alcohol; surprisingly smooth. ABV: 7.0–12.0%. Serve at 50–55°F in a tall dimpled mug or tulip. Food pairings: roast meats, hearty stews, dark bread, strong cheeses. Key producers: Paulaner Salvator (benchmark), Ayinger Celebrator, Spaten Optimator, Weihenstephaner Korbinian."
+       }
+      },
+      {
+       "name": "Rauchbier",
+       "name_fr": "Rauchbier",
+       "name_it": "Rauchbier",
+       "slug": "rauchbier",
+       "color": "#806040",
+       "name_es": "Rauchbier",
+       "panel": {
+        "origin": "Rauchbier (smoked beer) is produced in Bamberg, Germany, where malted barley is kiln-dried over beechwood smoke rather than modern indirect heat. The result is a deeply smoked malt character that was actually the normal flavor of all beer before the industrial revolution introduced indirect firing in England in the 1640s. Bamberg is Europe's most beer-intensive city per capita and home to 10 breweries for a population of 70,000. Schlenkerla Aecht Schlenkerla Rauchbier Märzen is the world benchmark.",
+        "mixology": "Flavor profile: amber to dark brown; intense beechwood smoke (like smoked meat, bacon, campfire); rich malt underneath; moderate bitterness (20–30 IBUs); full, smooth body. ABV: 4.6–6.5%. Serve at 48–54°F in a Masskrug. Initially challenging for new tasters; pairs exceptionally well with smoked or grilled meats (the smoke-smoke pairing). Food pairings: smoked sausages, bacon, grilled meats, BBQ, sauerkraut. Key producers: Schlenkerla (benchmark: Märzen, Weizen, Bock), Spezial (Bamberg — subtler smoke)."
+       }
+      },
+      {
+       "name": "Smoked Porter",
+       "name_fr": "Smoked Porter",
+       "name_it": "Smoked Porter",
+       "slug": "smoked-porter",
+       "color": "#402020",
+       "name_es": "Porter Ahumada",
+       "panel": {
+        "origin": "Smoked Porter is an American craft interpretation of the historical pre-industrial porter, before indirect firing eliminated the smoky character from all malt. The style was pioneered by Alaskan Brewing Company's Alaskan Smoked Porter (1988), which uses alder-smoked malt to produce a rich, complex beer that bridges the traditions of Northwest Native American smoked salmon preparation and historical porter production. It has become one of the most decorated beers in American craft history.",
+        "mixology": "Flavor profile: dark brown to black; alder or cherry wood smoke intertwined with dark chocolate, coffee, roasted malt; moderate bitterness (20–40 IBUs); full, rich body; long, complex smoky finish. ABV: 5.5–8.9%. Serve at 50–55°F in a pint glass. Exceptional with food: smoked salmon (the alder wood connection), BBQ brisket, aged Gouda, dark chocolate. Key producers: Alaskan Smoked Porter (benchmark), Stone Smoked Porter, Great Divide Smoked Porter."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SOUR & WILD",
+   "name_fr": "ACIDES & SAUVAGES",
+   "name_it": "ACIDE & SELVAGGE",
+   "name_es": "ÁCIDAS Y SALVAJES",
+   "color": "#60a050",
+   "textColor": "#e0f8e0",
+   "sub": [
+    {
+     "name": "Sour & Wild",
+     "name_fr": "Acides & Sauvages",
+     "name_it": "Acide & Selvagge",
+     "name_es": "Ácidas y Salvajes",
+     "color": "#60a050",
+     "_implicit": true,
+     "descriptors": [
+      {
+       "name": "Lambic",
+       "name_fr": "Lambic",
+       "name_it": "Lambic",
+       "slug": "lambic",
+       "color": "#a8c870",
+       "name_es": "Lambic",
+       "panel": {
+        "origin": "Lambic is one of the world's most ancient beer styles — a spontaneously fermented wheat beer produced exclusively in the Senne River valley of the Pajottenland region southwest of Brussels, Belgium. It uses only wild airborne microorganisms (Brettanomyces bruxellensis, Pediococcus damnosus, Saccharomyces), aged hops for bitterness without aroma, and unmalted wheat (35%). Fermentation and aging in old wooden barrels takes 1–3 years. The style is produced by a small number of traditional producers including Cantillon, Boon, Tilquin, and 3 Fonteinen.",
+        "mixology": "Flavor profile: hazy to clear depending on age; intense lactic and acetic acidity; funky barnyard, hay, earth from Brettanomyces; complex aged fruit; no hop aroma; bone dry. ABV: 4.0–6.5%. Serve at 50–55°F in a tulip or goblet. Challenging for new tasters; start with fruit lambics (Kriek, Framboise) then progress to straight Gueuze. Food pairings: strong Belgian cheeses, cured meats, mussels, funky or pungent dishes. Key producers: Cantillon (Brussels, most artisan), Boon, 3 Fonteinen, Girardin (rarely exported)."
+       }
+      },
+      {
+       "name": "Gueuze",
+       "name_fr": "Gueuze",
+       "name_it": "Gueuze",
+       "slug": "gueuze",
+       "color": "#90b858",
+       "name_es": "Gueuze",
+       "panel": {
+        "origin": "Gueuze (pronounced 'GOO-zuh' or 'GWEH-zuh') is a blend of young (1-year) and old (2–3 year) Lambics from multiple batches, refermented in the bottle like Champagne — earning it the nickname 'Brussels Champagne.' The young Lambic provides residual sugars for refermentation; the old Lambic provides complexity and acidity. Traditional producers (Cantillon, 3 Fonteinen, Boon, Tilquin) maintain the laborious blending process. Gueuze was the first beer to receive EU Traditional Speciality Guaranteed (TSG) status.",
+        "mixology": "Flavor profile: golden to amber; complex lactic and acetic acidity; earthy, hay, horse blanket (Brett); apricot, lemon, Champagne-like effervescence; bone dry; no sweetness. ABV: 5.0–8.0%. Serve at 50–55°F in a tulip; uncork carefully (high carbonation). Pairs with: strong Belgian cheeses (Limburger, aged Gouda), moules, aged charcuterie, oysters. Key producers: Cantillon Gueuze (benchmark), 3 Fonteinen Oude Gueuze, Boon Oude Gueuze, Tilquin Gueuze à l'Ancienne."
+       }
+      },
+      {
+       "name": "Kriek",
+       "name_fr": "Kriek",
+       "name_it": "Kriek",
+       "slug": "kriek",
+       "color": "#c84040",
+       "name_es": "Kriek",
+       "panel": {
+        "origin": "Kriek (Flemish for 'cherry') is a Lambic-based fruit beer made by macerating whole Schaerbeek cherries (a traditional sour cherry variety from Kriekenbos, Belgium) in young or old Lambic for several months, then blending and refermentation. Traditional Kriek uses real fruit — not cherry syrup or essence. The sourness of the Lambic and the tartness of the sour cherry create a complex, dry, very tart beer. Lindeman's Kriek (sweetened) and Belle-Vue (sweetened) are the accessible commercial versions; Cantillon Kriek is the traditional benchmark.",
+        "mixology": "Flavor profile: deep red to pink; intense sour cherry (tart, not sweet); Lambic funk underneath; high acidity; bone dry; no residual cherry sweetness in traditional versions. ABV: 4.0–6.0%. Serve at 46–52°F in a tulip. Traditional Kriek is very challenging; commercial sweetened versions (Lindeman's) are approachable gateways. Food pairings: dark chocolate, duck, venison, strong sour cheeses. Key producers: Cantillon Lou Pepe Kriek (benchmark), 3 Fonteinen Oude Kriek, Boon Kriek Mariage Parfait, Lindemans Kriek (sweetened, gateway)."
+       }
+      },
+      {
+       "name": "Flanders Red Ale",
+       "name_fr": "Flanders Red Ale",
+       "name_it": "Flanders Red Ale",
+       "slug": "flanders-red",
+       "color": "#b84038",
+       "name_es": "Flanders Red Ale",
+       "panel": {
+        "origin": "Flanders Red Ale is a sour, vinous ale from the Flanders region of Belgium, produced through lengthy fermentation and aging in large oak Foeder vessels (10,000–80,000 liters), where mixed cultures of Saccharomyces and acetic acid bacteria (Acetobacter) work over 18–24 months. The deep red color comes from Vienna and crystal malts. Rodenbach Brewery (Roeselare, founded 1821) is the definitive producer; Rodenbach Grand Cru is considered one of Belgium's greatest beers. The wine-like complexity earned Flanders Red the title of 'the Burgundy of Belgium.'",
+        "mixology": "Flavor profile: deep red, near-clear; complex fruity acidity (sour cherry, balsamic vinegar, red wine, plum); caramel malt; vinous, wine-like; moderate lactic acidity with some acetic; medium body. ABV: 4.6–8.0%. Serve at 50–55°F in a tulip. Blend young and old (as Rodenbach does) for accessible complexity. Food pairings: roast chicken, game, duck, hard aged cheeses, cherry-based desserts. Key producers: Rodenbach (benchmark: Grand Cru, Vintage), Duchesse de Bourgogne (Verhaeghe), Vichtenaar."
+       }
+      },
+      {
+       "name": "American Wild Ale",
+       "name_fr": "American Wild Ale",
+       "name_it": "American Wild Ale",
+       "slug": "american-wild-ale",
+       "color": "#80b860",
+       "name_es": "Wild Ale Americana",
+       "panel": {
+        "origin": "American Wild Ale is a broad category for American craft beers fermented or conditioned with wild/mixed culture organisms — Brettanomyces, Lactobacillus, Pediococcus, or a blend — without the strict geographical and historical constraints of Belgian Lambic. The style embraces experimentation: fruit additions, barrel aging (wine, whiskey, bourbon barrels), blending, and co-fermentation. Russian River Brewing (Temptation, Sanctification), The Lost Abbey, and Hill Farmstead are defining producers.",
+        "mixology": "Flavor profile: varies enormously by producer; generally: tartness from lactic acid, funk from Brett (earthy, hay, tropical fruit), complexity from barrel aging; dry to off-dry; often fruit additions. ABV: 4.0–9.0%+. Serve at 50–55°F in a tulip. A deeply exploratory category — no two are alike. Food pairings: funky cheeses, charcuterie, oysters, duck. Key producers: Russian River Temptation (Chardonnay barrel), The Lost Abbey Cuvée de Tomme, Hill Farmstead Emanuela, Jester King Le Petit Prince."
+       }
+      },
+      {
+       "name": "Fruit Sour",
+       "name_fr": "Sour aux Fruits",
+       "name_it": "Sour alla Frutta",
+       "slug": "fruit-sour",
+       "color": "#c0e050",
+       "name_es": "Sour de Fruta",
+       "panel": {
+        "origin": "Fruit Sour is a contemporary category encompassing sour beers (Berliner Weisse, Gose, or Kettle Sour base) heavily dosed with fruit purée, juice, or whole fruit to produce intensely fruity, brightly acidic, often colorful beers. The kettle souring technique (rapidly acidifying the wort before boiling using Lactobacillus) allows production in days rather than the months required for traditional spontaneous fermentation, enabling craft breweries to produce consistent, accessible, fruit-forward sours at scale. The style exploded from 2013 onward and is now among the most heavily traded beer styles in the collector market.",
+        "mixology": "Flavor profile: intensely fruity (mango, passion fruit, raspberry, peach, strawberry, blackberry); sharp lactic acidity; low to no hop bitterness; often candy-like sweetness from fruit; bright, colorful appearance. ABV: 3.5–8.0%. Serve at 40–48°F in a tulip or pint. Food pairings: desserts, yogurt, light salads, cheese plates with soft cheeses. Key producers: Dogfish Head SeaQuench Ale (national distribution), Creature Comforts Athena Paradiso, Funky Buddha Floridian Hefeweizen (more wheat-based), Prairie Artisan Ales Melon Bomb."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "funFacts": {
+  "AROMATIC, FRUITY, FLORAL": {
+   "en": "These are the <b>good smells</b> beer is supposed to have — esters from yeast (banana, pear), hops (citrus, pine, floral), and gentle alcohols. In small doses they're the soul of the beer; in big doses they can mean a stressed, too-warm fermentation.",
+   "es": "Estos son los <b>buenos aromas</b> que la cerveza debe tener — ésteres de la levadura (plátano, pera), lúpulo (cítrico, pino, floral) y alcoholes suaves. En dosis pequeñas son el alma de la cerveza; en exceso pueden indicar una fermentación estresada o demasiado cálida."
+  },
+  "VEGETAL": {
+   "en": "Grassy, hay-like, or cooked-veg notes. A little fresh-cut grass from hops is fine; <b>cooked corn or cabbage usually points to a process fault</b> (DMS from a weak boil, or oxidation).",
+   "es": "Notas a pasto, heno o verdura cocida. Un poco de pasto recién cortado del lúpulo está bien; <b>el elote o la col cocida suele señalar un defecto de proceso</b> (DMS por un hervor débil, u oxidación)."
+  },
+  "CEREAL": {
+   "en": "The bready, grainy, malty backbone — raw grain, malt, wort, even cooked-corn adjunct. This is the <b>foundation flavor</b> every beer is built on before hops and yeast add their layers.",
+   "es": "La columna a pan, grano y malta — grano crudo, malta, mosto, incluso elote de adjuntos. Es el <b>sabor base</b> sobre el que se construye toda cerveza antes de que el lúpulo y la levadura añadan sus capas."
+  },
+  "MAILLARD": {
+   "en": "Toast, caramel, toffee, coffee, chocolate, roast — all from the <b>Maillard browning</b> of malt in the kiln and kettle. The darker the malt, the deeper these go; they define amber ales, stouts, and porters.",
+   "es": "Tostado, caramelo, toffee, café, chocolate, torrefacto — todo del <b>dorado de Maillard</b> de la malta en el horno y la olla. Cuanto más oscura la malta, más profundo; definen las ales ámbar, las stouts y las porters."
+  },
+  "PHENOLIC": {
+   "en": "Clove, smoke, spice, medicinal, or band-aid. <b>Clove and pepper are prized in Belgians and Hefeweizens</b> (the yeast makes them on purpose); plastic or medicinal phenols are a fault from wild yeast or chlorinated water.",
+   "es": "Clavo, humo, especia, medicinal o curita. <b>El clavo y la pimienta se aprecian en belgas y Hefeweizens</b> (la levadura los crea a propósito); los fenoles a plástico o medicinales son un defecto de levadura silvestre o agua clorada."
+  },
+  "FATTY": {
+   "en": "Buttery, cheesy, soapy, or oily textures. <b>Diacetyl (movie-theater butter) is the classic one</b> — a normal fermentation byproduct that good yeast cleans up; if it lingers, the beer was rushed off the yeast.",
+   "es": "Texturas mantecosas, a queso, jabonosas o aceitosas. <b>El diacetilo (mantequilla de cine) es el clásico</b> — un subproducto normal de la fermentación que la buena levadura limpia; si persiste, la cerveza se separó de la levadura demasiado pronto."
+  },
+  "SULFURY": {
+   "en": "Rotten egg, struck match, cooked veg, or canned corn. Trace sulfur is normal in fresh lager and blows off; <b>strong or lasting sulfur is usually a fermentation or DMS fault</b>.",
+   "es": "Huevo podrido, cerillo encendido, verdura cocida o elote enlatado. El azufre traza es normal en la lager fresca y se disipa; <b>el azufre fuerte o persistente suele ser un defecto de fermentación o DMS</b>."
+  },
+  "STALE": {
+   "en": "Cardboard, papery, sherry-like, leathery. This is <b>oxidation — the #1 sign of an old or badly stored beer</b>. Trans-2-nonenal gives the wet-cardboard note; light + heat + air speed it up.",
+   "es": "Cartón, papel, tipo jerez, cuero. Esto es <b>oxidación — la señal #1 de una cerveza vieja o mal almacenada</b>. El trans-2-nonenal da la nota a cartón mojado; luz, calor y aire la aceleran."
+  },
+  "ACIDIC": {
+   "en": "Sour, tart, vinegary, or acetic. <b>Deliberate and delicious in sours, lambics, and goses</b> (lactic & acetic bacteria); an unwelcome vinegar tang in any other style means contamination.",
+   "es": "Ácido, agrio, avinagrado o acético. <b>Deliberado y delicioso en sours, lambics y goses</b> (bacterias lácticas y acéticas); un toque a vinagre en cualquier otro estilo significa contaminación."
+  },
+  "SWEET": {
+   "en": "Honey, candy, syrupy, or just plain sugary. Comes from <b>unfermented residual malt sugar</b>. Balanced by hop bitterness and carbonation; too much with no balance reads as cloying or under-attenuated.",
+   "es": "Miel, dulce, jarabe o simplemente azucarado. Viene del <b>azúcar de malta residual sin fermentar</b>. Se equilibra con el amargor del lúpulo y la carbonatación; demasiado sin equilibrio resulta empalagoso o poco atenuado."
+  },
+  "MOUTHFEEL": {
+   "en": "Not a taste at all — what the beer <b>physically feels like</b>: carbonation prickle, warming alcohol, astringency (that tea-like grip), body, and creaminess. Often what separates a great beer from a good one.",
+   "es": "No es un sabor — es lo que la cerveza <b>se siente físicamente</b>: el cosquilleo de la carbonatación, el calor del alcohol, la astringencia (ese agarre tipo té), el cuerpo y la cremosidad. A menudo es lo que separa una gran cerveza de una buena."
+  },
+  "FULLNESS": {
+   "en": "How <b>big or thin the beer feels</b> on the palate — from watery to full and chewy. Driven by unfermented dextrins, proteins, and glycerol. A light lager and an imperial stout sit at opposite ends.",
+   "es": "Qué tan <b>grande o ligera se siente la cerveza</b> en el paladar — de aguada a llena y masticable. Impulsada por dextrinas sin fermentar, proteínas y glicerol. Una lager ligera y una imperial stout están en extremos opuestos."
+  }
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "title": "Graingreen Cheat Sheet",
+ "groups": [
+  {
+   "cat": "Misc"
+  },
+  {
+   "name": "Global Grain Staples",
+   "slug": "global-grain-staples",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Rice, Wheat, Corn (Maize)"
+    },
+    {
+     "k": "Use It For",
+     "v": "Everyday sides, breads, and the base of meals worldwide — over half of all calories consumed."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Rice, wheat, and corn together supply more than half of all the calories consumed by humans worldwide — making them, by a wide margin, the most important plants in the human diet."
+    }
+   ],
+   "name_es": "Granos Básicos Globales"
+  },
+  {
+   "name": "Ancient Grains",
+   "slug": "ancient-grains",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Quinoa, Farro, Freekeh, Amaranth"
+    },
+    {
+     "k": "Use It For",
+     "v": "Grain bowls, salads, and gluten-free baking — heirloom nutrition with a satisfying chew."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Quinoa isn't technically a grain at all — it's an edible seed that's prepared and eaten just like one, and it's one of the few plant foods that contains all nine essential amino acids."
+    }
+   ],
+   "name_es": "Granos Ancestrales"
+  },
+  {
+   "name": "Whole Grains",
+   "slug": "whole-grains",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Oats, Barley, Bulgur, Sorghum"
+    },
+    {
+     "k": "Use It For",
+     "v": "Breakfast cereals, soups, and stews — high fiber that supports digestion and steady energy."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "The Dietary Guidelines for Americans recommend that at least half of all grains eaten daily be whole grains — roughly 2 to 4 servings a day."
+    }
+   ],
+   "name_es": "Granos Integrales"
+  },
+  {
+   "name": "Small Gluten-Free Grains",
+   "slug": "small-gluten-free-grains",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Millet, Teff"
+    },
+    {
+     "k": "Use It For",
+     "v": "Porridge, flatbreads, and rice substitutes — tiny grains, big nutrition."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Because teff grains are so tiny, a much larger share of each grain is nutrient-rich bran and germ compared to larger grains — making it one of the most nutrient-dense grains by weight."
+    }
+   ],
+   "name_es": "Granos Pequeños Sin Gluten"
+  },
+  {
+   "name": "Cruciferous Greens",
+   "slug": "cruciferous-greens",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Kale, Collard Greens, Bok Choy, Cabbage"
+    },
+    {
+     "k": "Use It For",
+     "v": "Roasted, braised, or fermented — sturdy leaves that stand up to bold cooking."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "One cup of raw collard greens contains over 1000% of the daily value for vitamin K — more than almost any other common leafy green."
+    }
+   ],
+   "name_es": "Verduras Crucíferas"
+  },
+  {
+   "name": "Salad Greens",
+   "slug": "salad-greens",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Romaine Lettuce, Arugula, Watercress, Endive, Microgreens"
+    },
+    {
+     "k": "Use It For",
+     "v": "Raw, crisp, and fresh — the base of salads and a finishing touch on countless dishes."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Despite looking like a delicate garnish, microgreens can pack a higher concentration of vitamins and phytochemicals per gram than the full-grown vegetable they come from."
+    }
+   ],
+   "name_es": "Verduras De Ensalada"
+  },
+  {
+   "name": "Cooking & Root-Top Greens",
+   "slug": "cooking-root-top-greens",
+   "rows": [
+    {
+     "k": "Includes",
+     "v": "Spinach, Swiss Chard, Beet Greens, Turnip Greens"
+    },
+    {
+     "k": "Use It For",
+     "v": "Sautéed, wilted, or simmered — and don't toss the stems, they're edible too."
+    },
+    {
+     "k": "Fun Fact",
+     "v": "Beet greens, Swiss chard stems, and turnip greens are often thrown away — but all three are edible, nutrient-dense parts of vegetables most people only eat half of."
+    }
+   ],
+   "name_es": "Verduras De Cocción Y Hojas De Raíz"
+  }
+ ]
+}

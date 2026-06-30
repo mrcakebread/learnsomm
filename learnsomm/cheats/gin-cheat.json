@@ -1,0 +1,288 @@
+{
+ "title": "Gin Cheat Sheet",
+ "groups": [
+  {
+   "cat": "The Styles"
+  },
+  {
+   "name": "London Dry",
+   "slug": "london-dry",
+   "rows": [
+    {
+     "k": "",
+     "v": "Juniper, citrus zest, pine, warm spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "Smoked salmon, oysters, charcuterie, sharp cheddar"
+    },
+    {
+     "k": "Best for",
+     "v": "Martinis, G&Ts — the benchmark everything else is measured against"
+    }
+   ]
+  },
+  {
+   "name": "Contemporary / Floral",
+   "slug": "contemporary-floral",
+   "rows": [
+    {
+     "k": "",
+     "v": "Cucumber, rose, lavender, elderflower, fresh citrus"
+    },
+    {
+     "k": "Pairing",
+     "v": "Light salads, sushi, soft cheeses, cucumber dishes"
+    },
+    {
+     "k": "Best for",
+     "v": "Gin skeptics — if you think you don't like gin, try this style first"
+    }
+   ],
+   "name_es": "Contemporáneo / Floral"
+  },
+  {
+   "name": "Old Tom",
+   "slug": "old-tom",
+   "rows": [
+    {
+     "k": "",
+     "v": "Earthy juniper, light vanilla, honey, soft spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "Rich appetizers, pâté, aged cheeses"
+    },
+    {
+     "k": "Heads up",
+     "v": "Not common on grocery shelves — specialty liquor stores or good cocktail bars. Great in a Tom Collins or Martinez."
+    }
+   ]
+  },
+  {
+   "name": "Navy Strength",
+   "slug": "navy-strength",
+   "rows": [
+    {
+     "k": "",
+     "v": "Intense juniper, bold spice, more heat"
+    },
+    {
+     "k": "Pairing",
+     "v": "Spicy food, bold flavors that can stand up to it"
+    },
+    {
+     "k": "Heads up",
+     "v": "That's ~114 proof — nearly double a standard pour's ABV. Not a beginner's first glass neat; excellent in cocktails where you want the gin to cut through."
+    }
+   ]
+  },
+  {
+   "name": "Sloe Gin",
+   "slug": "sloe-gin",
+   "rows": [
+    {
+     "k": "",
+     "v": "Gin infused with sloe berries and sugar — technically a liqueur"
+    },
+    {
+     "k": "",
+     "v": "Sweet cherry, plum, almond, gentle spice"
+    },
+    {
+     "k": "Pairing",
+     "v": "Desserts, chocolate, cheese boards"
+    },
+    {
+     "k": "Heads up",
+     "v": "You'll see it on back bars looking like gin — it's sweeter and lower ABV. Great in a Sloe Gin Fizz. Don't order it expecting a standard gin drink."
+    }
+   ]
+  },
+  {
+   "cat": "Cocktails"
+  },
+  {
+   "name": "Gin & Tonic",
+   "slug": "gin-tonic",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "London Dry gin, quality tonic water, lime or lemon"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Bitter"
+    },
+    {
+     "k": "",
+     "v": "Refreshing"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for a premium tonic (Fever-Tree, Q Tonic) — cheap tonic is the #1 reason a G&T disappoints. The tonic is half the drink."
+    }
+   ]
+  },
+  {
+   "name": "Martini",
+   "slug": "martini",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "London Dry gin, dry vermouth"
+    },
+    {
+     "k": "",
+     "v": "Elegant"
+    },
+    {
+     "k": "",
+     "v": "Dry"
+    },
+    {
+     "k": "",
+     "v": "Spirit-forward"
+    },
+    {
+     "k": "Order tip",
+     "v": "If you're new to gin, order it \"wet\" — more vermouth softens the spirit. Most bars default to very dry, which is a lot of gin."
+    }
+   ]
+  },
+  {
+   "name": "Negroni",
+   "slug": "negroni",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Gin, Campari, sweet vermouth (equal parts)"
+    },
+    {
+     "k": "",
+     "v": "Bitter"
+    },
+    {
+     "k": "",
+     "v": "Balanced"
+    },
+    {
+     "k": "",
+     "v": "Complex"
+    },
+    {
+     "k": "Order tip",
+     "v": "One of the great cocktails. If you find it too bitter at first, ask for a Negroni Sbagliato — same build but Campari + sweet vermouth topped with prosecco instead of gin. Lighter entry point."
+    }
+   ]
+  },
+  {
+   "name": "French 75",
+   "slug": "french-75",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "London Dry gin, lemon juice, simple syrup, topped with Champagne"
+    },
+    {
+     "k": "",
+     "v": "Elegant"
+    },
+    {
+     "k": "",
+     "v": "Bright"
+    },
+    {
+     "k": "",
+     "v": "Celebratory"
+    },
+    {
+     "k": "Order tip",
+     "v": "One of the most elegant gin drinks and widely available. A great \"I want gin but something approachable\" order at any bar or restaurant."
+    }
+   ]
+  },
+  {
+   "name": "Gimlet",
+   "slug": "gimlet",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Gin, fresh lime juice, simple syrup"
+    },
+    {
+     "k": "",
+     "v": "Tart"
+    },
+    {
+     "k": "",
+     "v": "Crisp"
+    },
+    {
+     "k": "",
+     "v": "Clean"
+    },
+    {
+     "k": "Order tip",
+     "v": "Ask for fresh lime, not Rose's lime cordial — the classic recipe used cordial but fresh is significantly better and most good bars will use it."
+    }
+   ]
+  },
+  {
+   "name": "Tom Collins",
+   "slug": "tom-collins",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "London Dry gin, lemon juice, simple syrup, soda water"
+    },
+    {
+     "k": "",
+     "v": "Tall"
+    },
+    {
+     "k": "",
+     "v": "Effervescent"
+    },
+    {
+     "k": "",
+     "v": "Easy-drinking"
+    },
+    {
+     "k": "Order tip",
+     "v": "Great gateway gin cocktail — the soda and lemon mellow the spirit considerably. Good \"I'm not sure about gin yet\" order."
+    }
+   ]
+  },
+  {
+   "name": "Aviation",
+   "slug": "aviation-bar-dependent",
+   "rows": [
+    {
+     "k": "Mix",
+     "v": "Gin, maraschino liqueur, crème de violette, lemon juice"
+    },
+    {
+     "k": "",
+     "v": "Floral"
+    },
+    {
+     "k": "",
+     "v": "Vibrant"
+    },
+    {
+     "k": "",
+     "v": "Violet-purple color"
+    },
+    {
+     "k": "Heads up",
+     "v": "Stunning when made well, but crème de violette is uncommon — many bars skip it and the cocktail loses its character. Ask if they make a \"proper Aviation\" before ordering."
+    }
+   ]
+  }
+ ]
+}
