@@ -1,0 +1,414 @@
+{
+ "pairs": [
+  {
+   "wheel": "learnsomm/wheels/american-cuisine.json",
+   "cheat": "learnsomm/cheats/american-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/beef.json",
+   "cheat": "learnsomm/cheats/beef-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/beer.json",
+   "cheat": "learnsomm/cheats/beer-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/brandy.json",
+   "cheat": "learnsomm/cheats/brandy-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/bread.json",
+   "cheat": "learnsomm/cheats/bread-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/bubbles.json",
+   "cheat": "learnsomm/cheats/bubbles-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/charcuterie.json",
+   "cheat": "learnsomm/cheats/charcuterie-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/chinese-cuisine.json",
+   "cheat": "learnsomm/cheats/chinese-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/cocktail.json",
+   "cheat": "learnsomm/cheats/cocktail-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/coffee.json",
+   "cheat": "learnsomm/cheats/coffee-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/cordials.json",
+   "cheat": "learnsomm/cheats/cordials-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/dairy.json",
+   "cheat": "learnsomm/cheats/dairy-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/fish.json",
+   "cheat": "learnsomm/cheats/fish-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/french-cuisine.json",
+   "cheat": "learnsomm/cheats/french-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/fruitandveg.json",
+   "cheat": "learnsomm/cheats/fruitandveg-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/gin.json",
+   "cheat": "learnsomm/cheats/gin-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/grains.json",
+   "cheat": "learnsomm/cheats/grains-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/greek-cuisine.json",
+   "cheat": "learnsomm/cheats/greek-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/indian-cuisine.json",
+   "cheat": "learnsomm/cheats/indian-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/italian-cuisine.json",
+   "cheat": "learnsomm/cheats/italian-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/japanese-cuisine.json",
+   "cheat": "learnsomm/cheats/japanese-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/mexican-cuisine.json",
+   "cheat": "learnsomm/cheats/mexican-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/nuts-berries.json",
+   "cheat": "learnsomm/cheats/nuts-berries-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/othermeats.json",
+   "cheat": "learnsomm/cheats/othermeats-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/oyster.json",
+   "cheat": "learnsomm/cheats/oyster-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/pasta.json",
+   "cheat": "learnsomm/cheats/pasta-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/rum.json",
+   "cheat": "learnsomm/cheats/rum-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/sake.json",
+   "cheat": "learnsomm/cheats/sake-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/scotch.json",
+   "cheat": "learnsomm/cheats/scotch-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/seafood.json",
+   "cheat": "learnsomm/cheats/seafood-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/soups.json",
+   "cheat": "learnsomm/cheats/soups-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/spanish-cuisine.json",
+   "cheat": "learnsomm/cheats/spanish-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/spiceherb.json",
+   "cheat": "learnsomm/cheats/spiceherb-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/sushi.json",
+   "cheat": "learnsomm/cheats/sushi-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/tea.json",
+   "cheat": "learnsomm/cheats/tea-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/tequila.json",
+   "cheat": "learnsomm/cheats/tequila-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/thai-cuisine.json",
+   "cheat": "learnsomm/cheats/thai-cuisine-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/varietals.json",
+   "cheat": "learnsomm/cheats/varietals-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/vodka.json",
+   "cheat": "learnsomm/cheats/vodka-cheat.json"
+  },
+  {
+   "wheel": "learnsomm/wheels/water.json",
+   "cheat": "learnsomm/cheats/water-cheat.json"
+  },
+  {
+   "wheel": "language-wheels/intro-english.json",
+   "cheat": "language-wheels/cheats/intro-english-cheat.json"
+  },
+  {
+   "wheel": "language-wheels/intro-french.json",
+   "cheat": "language-wheels/cheats/intro-french-cheat.json"
+  },
+  {
+   "wheel": "language-wheels/intro-italian.json",
+   "cheat": "language-wheels/cheats/intro-italian-cheat.json"
+  },
+  {
+   "wheel": "language-wheels/intro-spanish.json",
+   "cheat": "language-wheels/cheats/intro-spanish-cheat.json"
+  },
+  {
+   "wheel": "neurodiversity-wheels/neuro-conditions.json",
+   "cheat": "neurodiversity-wheels/cheats/neuro-conditions-cheat.json"
+  },
+  {
+   "wheel": "neurodiversity-wheels/neuro-living.json",
+   "cheat": "neurodiversity-wheels/cheats/neuro-living-cheat.json"
+  },
+  {
+   "wheel": "spin2code/dsa-lingo.json",
+   "cheat": "spin2code/cheats/dsa-lingo-cheat.json"
+  },
+  {
+   "wheel": "spin2code/git-lingo.json",
+   "cheat": "spin2code/cheats/git-lingo-cheat.json"
+  },
+  {
+   "wheel": "spin2code/python-lingo.json",
+   "cheat": "spin2code/cheats/python-lingo-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/countries-capitals.json",
+   "cheat": "studyspinners-edu/cheats/countries-capitals-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/first-ladies.json",
+   "cheat": "studyspinners-edu/cheats/first-ladies-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/government-legal.json",
+   "cheat": "studyspinners-edu/cheats/government-legal-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/math.json",
+   "cheat": "studyspinners-edu/cheats/math-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/space-exploration.json",
+   "cheat": "studyspinners-edu/cheats/space-exploration-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/supreme-court-justices.json",
+   "cheat": "studyspinners-edu/cheats/supreme-court-justices-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/us-history.json",
+   "cheat": "studyspinners-edu/cheats/us-history-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/us-presidents.json",
+   "cheat": "studyspinners-edu/cheats/us-presidents-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/us-states-capitals.json",
+   "cheat": "studyspinners-edu/cheats/us-states-capitals-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/us-vice-presidents.json",
+   "cheat": "studyspinners-edu/cheats/us-vice-presidents-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/world-currencies.json",
+   "cheat": "studyspinners-edu/cheats/world-currencies-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/world-flags.json",
+   "cheat": "studyspinners-edu/cheats/world-flags-cheat.json"
+  },
+  {
+   "wheel": "studyspinners-edu/world-landmarks.json",
+   "cheat": "studyspinners-edu/cheats/world-landmarks-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/birds-field-guide.json",
+   "cheat": "studyspinners/cheats/birds-field-guide-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/career-skills.json",
+   "cheat": "studyspinners/cheats/career-skills-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/circle-of-fifths.json",
+   "cheat": "studyspinners/cheats/circle-of-fifths-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/cloud-weather.json",
+   "cheat": "studyspinners/cheats/cloud-weather-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/grammar-punctuation.json",
+   "cheat": "studyspinners/cheats/grammar-punctuation-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/music-theory.json",
+   "cheat": "studyspinners/cheats/music-theory-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/orchestra-instruments.json",
+   "cheat": "studyspinners/cheats/orchestra-instruments-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/periodic-table.json",
+   "cheat": "studyspinners/cheats/periodic-table-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/popular-instruments.json",
+   "cheat": "studyspinners/cheats/popular-instruments-cheat.json"
+  },
+  {
+   "wheel": "studyspinners/popular-sports.json",
+   "cheat": "studyspinners/cheats/popular-sports-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/baseball-lingo.json",
+   "cheat": "vocabspinners/cheats/baseball-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/basketball-lingo.json",
+   "cheat": "vocabspinners/cheats/basketball-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/boxing-lingo.json",
+   "cheat": "vocabspinners/cheats/boxing-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/business-lingo.json",
+   "cheat": "vocabspinners/cheats/business-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/chess-lingo.json",
+   "cheat": "vocabspinners/cheats/chess-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/coding-lingo.json",
+   "cheat": "vocabspinners/cheats/coding-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/crypto-lingo.json",
+   "cheat": "vocabspinners/cheats/crypto-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/culinary-lingo.json",
+   "cheat": "vocabspinners/cheats/culinary-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/dnd-lingo.json",
+   "cheat": "vocabspinners/cheats/dnd-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/film-lingo.json",
+   "cheat": "vocabspinners/cheats/film-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/football-lingo.json",
+   "cheat": "vocabspinners/cheats/football-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/gaming-lingo.json",
+   "cheat": "vocabspinners/cheats/gaming-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/genz-lingo.json",
+   "cheat": "vocabspinners/cheats/genz-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/golf-lingo.json",
+   "cheat": "vocabspinners/cheats/golf-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/hockey-lingo.json",
+   "cheat": "vocabspinners/cheats/hockey-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/legal-lingo.json",
+   "cheat": "vocabspinners/cheats/legal-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/marketing-lingo.json",
+   "cheat": "vocabspinners/cheats/marketing-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/medical-lingo.json",
+   "cheat": "vocabspinners/cheats/medical-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/military-lingo.json",
+   "cheat": "vocabspinners/cheats/military-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/music-lingo.json",
+   "cheat": "vocabspinners/cheats/music-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/nautical-lingo.json",
+   "cheat": "vocabspinners/cheats/nautical-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/photography-lingo.json",
+   "cheat": "vocabspinners/cheats/photography-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/poker-lingo.json",
+   "cheat": "vocabspinners/cheats/poker-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/realestate-lingo.json",
+   "cheat": "vocabspinners/cheats/realestate-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/soccer-lingo.json",
+   "cheat": "vocabspinners/cheats/soccer-lingo-cheat.json"
+  },
+  {
+   "wheel": "vocabspinners/tennis-lingo.json",
+   "cheat": "vocabspinners/cheats/tennis-lingo-cheat.json"
+  }
+ ],
+ "convention": "<wheel-basename>-cheat.json next to <wheel-basename>.json",
+ "auto_load_rule": "on wheel:load of <path>/<base>.json, fetch <path>/<base>-cheat.json; fall back to embedded default on 404",
+ "wheels_without_cheat": [
+  "beer-styles",
+  "champagne-aroma",
+  "coffee-styles",
+  "tea-styles"
+ ],
+ "orphan_cheats": [
+  "bourbon",
+  "finfish",
+  "graingreen",
+  "nuts",
+  "produce",
+  "sparkling",
+  "spices",
+  "wine"
+ ]
+}
